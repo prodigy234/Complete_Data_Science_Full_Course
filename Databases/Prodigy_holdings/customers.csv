@@ -1,0 +1,11 @@
+customer_id,first_name,last_name,email,phone,created_at
+1,John,Doe,user1@example.com,08030000000,2023-01-31
+2,Jane,Smith,user2@example.com,08030000001,2023-02-28
+3,Alice,Johnson,user3@example.com,08030000002,2023-03-31
+4,Bob,Brown,user4@example.com,08030000003,2023-04-30
+5,Carol,Davis,user5@example.com,08030000004,2023-05-31
+6,David,Miller,user6@example.com,08030000005,2023-06-30
+7,Ella,Wilson,user7@example.com,08030000006,2023-07-31
+8,Frank,Moore,user8@example.com,08030000007,2023-08-31
+9,Grace,Taylor,user9@example.com,08030000008,2023-09-30
+10,Henry,Anderson,user10@example.com,08030000009,2023-10-31

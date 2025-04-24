@@ -1,0 +1,6 @@
+employee_id,first_name,last_name,position,hire_date
+1,Tom,Allen,Manager,2020-01-01
+2,Lucy,Baker,Sales Rep,2020-12-31
+3,Mark,Clark,Accountant,2021-12-31
+4,Nina,Davis,Support,2022-12-31
+5,Jake,Evans,Technician,2023-12-31

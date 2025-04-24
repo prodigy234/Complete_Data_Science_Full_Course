@@ -1,0 +1,6 @@
+product_id,product_name,category,price,stock_quantity
+1,Laptop,Electronics,1000,50
+2,Phone,Electronics,500,100
+3,Tablet,Electronics,300,80
+4,Monitor,Electronics,200,40
+5,Keyboard,Electronics,50,200
