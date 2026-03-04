@@ -1,0 +1,51 @@
+Student_ID,Name,Department,Score,Age
+1,Dami,Statistics,40,
+2,Ayo,Economics,60,
+3,Ayo,Economics,71,21.0
+4,Chinedu,Computer Science,84,22.0
+5,Ayo,Statistics,65,21.0
+6,Ayo,Economics,72,
+7,Esther,Economics,99,21.0
+8,Dami,Economics,48,
+9,Chinedu,Statistics,56,20.0
+10,Esther,Economics,45,
+11,Dami,Statistics,85,21.0
+12,Dami,Economics,46,
+13,Bola,Economics,46,20.0
+14,Bola,Statistics,96,22.0
+15,Ayo,Computer Science,96,
+16,Ayo,Statistics,76,22.0
+17,Bola,Computer Science,44,22.0
+18,Esther,Computer Science,72,22.0
+19,Chinedu,Economics,89,21.0
+20,Esther,Statistics,49,
+21,Dami,Computer Science,56,21.0
+22,Dami,Statistics,79,
+23,Esther,Computer Science,67,21.0
+24,Ayo,Statistics,86,22.0
+25,Dami,Computer Science,85,22.0
+26,Esther,Economics,61,22.0
+27,Bola,Economics,60,20.0
+28,Chinedu,Statistics,86,21.0
+29,Esther,Computer Science,95,22.0
+30,Chinedu,Computer Science,71,20.0
+31,Ayo,Computer Science,71,22.0
+32,Esther,Economics,90,21.0
+33,Ayo,Computer Science,75,
+34,Dami,Statistics,70,22.0
+35,Chinedu,Computer Science,45,20.0
+36,Chinedu,Statistics,93,21.0
+37,Dami,Computer Science,60,
+38,Esther,Computer Science,74,21.0
+39,Bola,Statistics,53,
+40,Bola,Statistics,62,20.0
+41,Chinedu,Statistics,81,
+42,Esther,Economics,63,
+43,Chinedu,Computer Science,69,20.0
+44,Chinedu,Statistics,49,21.0
+45,Ayo,Computer Science,44,
+46,Bola,Statistics,98,22.0
+47,Esther,Economics,81,
+48,Chinedu,Computer Science,69,21.0
+49,Esther,Economics,46,
+50,Esther,Computer Science,45,21.0

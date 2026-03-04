@@ -1,0 +1,92 @@
+[
+    {
+        "Order_ID": 1001,
+        "Customer_Name": "Zainab",
+        "Region": "Abuja",
+        "Product": "Phone",
+        "Quantity": 1,
+        "Unit_Price": 335471,
+        "Total_Sales": 335471
+    },
+    {
+        "Order_ID": 1002,
+        "Customer_Name": "John",
+        "Region": "Kano",
+        "Product": "Phone",
+        "Quantity": 2,
+        "Unit_Price": 332694,
+        "Total_Sales": 665388
+    },
+    {
+        "Order_ID": 1003,
+        "Customer_Name": "David",
+        "Region": "Lagos",
+        "Product": "Tablet",
+        "Quantity": 5,
+        "Unit_Price": 109104,
+        "Total_Sales": 545520
+    },
+    {
+        "Order_ID": 1004,
+        "Customer_Name": "John",
+        "Region": "Kano",
+        "Product": "Phone",
+        "Quantity": 3,
+        "Unit_Price": 73117,
+        "Total_Sales": 219351
+    },
+    {
+        "Order_ID": 1005,
+        "Customer_Name": "Chioma",
+        "Region": "Port Harcourt",
+        "Product": "Tablet",
+        "Quantity": 1,
+        "Unit_Price": 102413,
+        "Total_Sales": 102413
+    },
+    {
+        "Order_ID": 1006,
+        "Customer_Name": "Fatima",
+        "Region": "Kano",
+        "Product": "Tablet",
+        "Quantity": 2,
+        "Unit_Price": 316488,
+        "Total_Sales": 632976
+    },
+    {
+        "Order_ID": 1007,
+        "Customer_Name": "John",
+        "Region": "Abuja",
+        "Product": "Tablet",
+        "Quantity": 3,
+        "Unit_Price": 155688,
+        "Total_Sales": 467064
+    },
+    {
+        "Order_ID": 1008,
+        "Customer_Name": "Fatima",
+        "Region": "Abuja",
+        "Product": "Phone",
+        "Quantity": 5,
+        "Unit_Price": 299055,
+        "Total_Sales": 1495275
+    },
+    {
+        "Order_ID": 1009,
+        "Customer_Name": "Chioma",
+        "Region": "Kano",
+        "Product": "Phone",
+        "Quantity": 5,
+        "Unit_Price": 147307,
+        "Total_Sales": 736535
+    },
+    {
+        "Order_ID": 1010,
+        "Customer_Name": "Chioma",
+        "Region": "Kano",
+        "Product": "Accessory",
+        "Quantity": 5,
+        "Unit_Price": 225425,
+        "Total_Sales": 1127125
+    }
+]

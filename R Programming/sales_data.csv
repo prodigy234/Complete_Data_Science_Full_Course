@@ -1,0 +1,101 @@
+Order_ID,Customer_Name,Region,Product,Quantity,Unit_Price,Total_Sales
+1001,Zainab,Abuja,Phone,1,335471,335471
+1002,John,Kano,Phone,2,332694,665388
+1003,David,Lagos,Tablet,5,109104,545520
+1004,John,Kano,Phone,3,73117,219351
+1005,Chioma,Port Harcourt,Tablet,1,102413,102413
+1006,Fatima,Kano,Tablet,2,316488,632976
+1007,John,Abuja,Tablet,3,155688,467064
+1008,Fatima,Abuja,Phone,5,299055,1495275
+1009,Chioma,Kano,Phone,5,147307,736535
+1010,Chioma,Kano,Accessory,5,225425,1127125
+1011,Ade,Port Harcourt,Tablet,4,476000,1904000
+1012,Chioma,Lagos,Accessory,4,497962,1991848
+1013,Chioma,Port Harcourt,Tablet,2,298705,597410
+1014,Ade,Abuja,Tablet,5,432087,2160435
+1015,Ade,Port Harcourt,Accessory,1,363637,363637
+1016,Chioma,Abuja,Phone,5,98531,492655
+1017,Fatima,Lagos,Phone,1,234063,234063
+1018,Zainab,Abuja,Tablet,1,54976,54976
+1019,David,Lagos,Accessory,1,320052,320052
+1020,Ade,Abuja,Accessory,2,454344,908688
+1021,Ade,Kano,Tablet,1,454884,454884
+1022,David,Kano,Laptop,5,408489,2042445
+1023,Chioma,Port Harcourt,Laptop,4,90222,360888
+1024,Fatima,Port Harcourt,Accessory,3,161429,484287
+1025,John,Lagos,Tablet,5,361409,1807045
+1026,David,Abuja,Accessory,1,172552,172552
+1027,John,Abuja,Phone,2,140201,280402
+1028,David,Abuja,Tablet,3,360044,1080132
+1029,Ade,Lagos,Tablet,3,314769,944307
+1030,Zainab,Port Harcourt,Accessory,3,481381,1444143
+1031,Ade,Abuja,Accessory,3,447244,1341732
+1032,Chioma,Abuja,Phone,4,88907,355628
+1033,Fatima,Port Harcourt,Accessory,3,365932,1097796
+1034,David,Lagos,Phone,2,343896,687792
+1035,David,Kano,Tablet,1,136824,136824
+1036,David,Port Harcourt,Accessory,5,184164,920820
+1037,Chioma,Abuja,Accessory,2,72966,145932
+1038,Zainab,Kano,Accessory,2,219720,439440
+1039,Fatima,Lagos,Tablet,3,71087,213261
+1040,John,Abuja,Phone,1,357167,357167
+1041,Chioma,Lagos,Accessory,4,319934,1279736
+1042,David,Kano,Tablet,2,451689,903378
+1043,Ade,Lagos,Laptop,4,312831,1251324
+1044,Fatima,Port Harcourt,Laptop,4,474061,1896244
+1045,John,Lagos,Accessory,4,474652,1898608
+1046,Zainab,Port Harcourt,Accessory,2,483375,966750
+1047,Ade,Port Harcourt,Laptop,2,499056,998112
+1048,Fatima,Kano,Laptop,2,387760,775520
+1049,John,Lagos,Phone,4,424057,1696228
+1050,John,Kano,Laptop,2,108601,217202
+1051,John,Abuja,Laptop,2,66170,132340
+1052,Zainab,Lagos,Laptop,3,318229,954687
+1053,John,Lagos,Phone,2,377171,754342
+1054,David,Port Harcourt,Tablet,1,216757,216757
+1055,Fatima,Lagos,Phone,1,52751,52751
+1056,Fatima,Lagos,Phone,5,59413,297065
+1057,Zainab,Port Harcourt,Phone,3,377090,1131270
+1058,David,Lagos,Laptop,4,190738,762952
+1059,David,Lagos,Phone,1,462378,462378
+1060,Zainab,Abuja,Accessory,5,287799,1438995
+1061,Fatima,Lagos,Accessory,3,426275,1278825
+1062,John,Lagos,Laptop,3,288993,866979
+1063,Ade,Lagos,Tablet,2,370403,740806
+1064,David,Kano,Tablet,1,210413,210413
+1065,Fatima,Port Harcourt,Laptop,1,131075,131075
+1066,Chioma,Kano,Accessory,3,142950,428850
+1067,Fatima,Abuja,Laptop,5,247934,1239670
+1068,John,Abuja,Accessory,2,270546,541092
+1069,Zainab,Lagos,Accessory,2,459331,918662
+1070,Chioma,Kano,Accessory,4,200577,802308
+1071,John,Kano,Accessory,3,145609,436827
+1072,David,Abuja,Tablet,5,252224,1261120
+1073,Ade,Kano,Phone,3,318690,956070
+1074,Chioma,Kano,Phone,2,299767,599534
+1075,David,Lagos,Accessory,1,198378,198378
+1076,John,Port Harcourt,Phone,4,472633,1890532
+1077,Chioma,Kano,Phone,2,60587,121174
+1078,Chioma,Lagos,Phone,4,397370,1589480
+1079,Fatima,Lagos,Tablet,1,268738,268738
+1080,David,Abuja,Tablet,1,241559,241559
+1081,Zainab,Kano,Phone,2,234425,468850
+1082,Chioma,Port Harcourt,Tablet,5,251199,1255995
+1083,Ade,Abuja,Laptop,4,497124,1988496
+1084,Ade,Port Harcourt,Phone,3,63805,191415
+1085,Fatima,Abuja,Laptop,3,245212,735636
+1086,Chioma,Lagos,Phone,1,321130,321130
+1087,Fatima,Port Harcourt,Accessory,3,295486,886458
+1088,Fatima,Abuja,Accessory,4,168651,674604
+1089,Fatima,Port Harcourt,Accessory,3,65933,197799
+1090,Zainab,Abuja,Phone,1,255095,255095
+1091,Chioma,Kano,Accessory,3,419359,1258077
+1092,Chioma,Lagos,Tablet,2,478158,956316
+1093,John,Port Harcourt,Accessory,1,136280,136280
+1094,Fatima,Port Harcourt,Phone,4,442602,1770408
+1095,Fatima,Abuja,Accessory,2,265038,530076
+1096,Fatima,Port Harcourt,Tablet,4,93728,374912
+1097,Fatima,Abuja,Laptop,1,215122,215122
+1098,Ade,Lagos,Tablet,3,69255,207765
+1099,Chioma,Kano,Phone,4,230404,921616
+1100,Fatima,Port Harcourt,Phone,4,364115,1456460
