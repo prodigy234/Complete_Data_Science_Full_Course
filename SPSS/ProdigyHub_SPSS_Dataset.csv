@@ -1,0 +1,301 @@
+Employee_ID,Department,Gender,Region,Age,Education_Level,Years_Experience,Job_Grade,Monthly_Salary_NGN,Training_Hours,Performance_Score,Performance_Rating,Job_Satisfaction,Absenteeism_Days,Promoted
+EMP1001,Operations,Male,Lagos,45,OND/NCE,16,Grade 2,237000,31.0,59.3,Average,4.5,1,0
+EMP1002,Customer Service,Male,Lagos,34,Secondary School,11,Grade 1,178000,32.0,49.4,Below Average,3.2,1,0
+EMP1003,IT,Male,Lagos,30,HND/BSc,4,Grade 4,303000,40.0,51.1,Below Average,4.0,4,0
+EMP1004,HR,Female,Lagos,47,HND/BSc,14,Grade 2,235000,35.0,56.0,Average,2.6,4,0
+EMP1005,Sales,Female,Lagos,24,HND/BSc,1,Grade 2,214000,43.0,43.1,Below Average,3.5,1,0
+EMP1006,Sales,Female,Abuja,22,MSc/MBA,4,Grade 3,245000,35.0,45.9,Below Average,3.3,5,0
+EMP1007,Sales,Male,Lagos,37,MSc/MBA,9,Grade 3,271000,25.0,47.5,Below Average,3.7,2,0
+EMP1008,Marketing,Male,Lagos,30,HND/BSc,8,Grade 2,242000,36.0,47.5,Below Average,3.2,4,0
+EMP1009,HR,Female,Abuja,27,HND/BSc,6,Grade 2,233000,18.0,40.0,Below Average,3.4,7,0
+EMP1010,IT,Male,Port Harcourt,39,HND/BSc,10,Grade 5,320000,33.0,60.6,Average,4.2,1,0
+EMP1011,Sales,Male,Lagos,36,HND/BSc,10,Grade 2,240000,32.0,46.5,Below Average,3.1,0,0
+EMP1012,Customer Service,Male,Ibadan,30,OND/NCE,8,Grade 1,150000,30.0,36.5,Poor,2.1,6,1
+EMP1013,Marketing,Male,Port Harcourt,25,MSc/MBA,1,Grade 3,261000,30.0,40.1,Below Average,5.0,4,0
+EMP1014,Finance,Female,Lagos,40,HND/BSc,11,Grade 5,328000,9.0,49.3,Below Average,4.7,5,0
+EMP1015,Sales,Female,Ibadan,39,HND/BSc,10,Grade 3,274000,25.0,50.5,Below Average,2.3,7,0
+EMP1016,Sales,Female,Kano,33,HND/BSc,6,Grade 2,225000,33.0,45.3,Below Average,4.1,6,1
+EMP1017,Finance,Male,Lagos,47,HND/BSc,15,Grade 5,318000,34.0,61.8,Average,3.0,13,1
+EMP1018,Operations,Male,Lagos,27,MSc/MBA,1,Grade 2,223000,20.0,38.0,Poor,3.7,3,0
+EMP1019,Operations,Male,Ibadan,23,MSc/MBA,1,Grade 1,201000,47.0,36.8,Poor,,3,0
+EMP1020,Finance,Male,Port Harcourt,29,HND/BSc,3,Grade 4,278000,22.0,37.9,Poor,3.3,2,1
+EMP1021,HR,Male,Lagos,34,MSc/MBA,8,Grade 4,278000,44.0,54.2,Below Average,2.8,1,0
+EMP1022,Sales,Female,Lagos,36,HND/BSc,7,Grade 3,254000,37.0,44.2,Below Average,2.9,3,0
+EMP1023,Finance,Female,Lagos,32,MSc/MBA,7,Grade 4,312000,24.0,47.9,Below Average,2.7,1,0
+EMP1024,Operations,Male,Abuja,36,MSc/MBA,10,Grade 3,253000,53.0,63.5,Average,2.8,10,1
+EMP1025,Operations,Female,Port Harcourt,25,HND/BSc,0,Grade 1,168000,18.0,27.9,Poor,3.4,4,0
+EMP1026,Marketing,Female,Lagos,44,Secondary School,15,Grade 2,242000,43.0,61.2,Average,2.9,4,0
+EMP1027,Sales,Female,Abuja,33,HND/BSc,9,Grade 2,242000,44.0,49.6,Below Average,4.1,2,0
+EMP1028,Operations,Female,Port Harcourt,42,HND/BSc,11,Grade 2,236000,24.0,46.5,Below Average,4.8,0,0
+EMP1029,HR,Male,Lagos,36,MSc/MBA,12,Grade 4,299000,49.0,61.6,Average,3.0,0,0
+EMP1030,Sales,Male,Lagos,37,HND/BSc,10,Grade 3,245000,29.0,48.5,Below Average,3.7,2,1
+EMP1031,HR,Male,Port Harcourt,38,OND/NCE,9,Grade 3,252000,35.0,54.7,Below Average,3.9,0,0
+EMP1032,Sales,Female,Ibadan,37,MSc/MBA,10,Grade 3,271000,35.0,55.0,Average,3.9,4,0
+EMP1033,Sales,Male,Abuja,38,PhD,11,Grade 4,310000,30.0,52.1,Below Average,3.6,9,0
+EMP1034,Customer Service,Male,Abuja,43,HND/BSc,14,Grade 2,223000,42.0,58.3,Average,4.2,9,0
+EMP1035,Customer Service,Male,Lagos,35,OND/NCE,9,Grade 1,161000,42.0,48.6,Below Average,3.9,4,0
+EMP1036,Marketing,Male,Abuja,39,HND/BSc,10,Grade 4,288000,11.0,49.4,Below Average,2.4,1,0
+EMP1037,Finance,Female,Abuja,33,Secondary School,7,Grade 3,255000,48.0,57.9,Average,4.3,8,0
+EMP1038,Sales,Female,Lagos,44,MSc/MBA,12,Grade 4,279000,12.0,45.1,Below Average,4.3,9,0
+EMP1039,IT,Male,Lagos,29,HND/BSc,4,Grade 4,302000,44.0,48.7,Below Average,2.8,1,0
+EMP1040,Operations,Male,Lagos,47,HND/BSc,15,Grade 3,264000,46.0,59.3,Average,3.5,5,0
+EMP1041,Sales,Male,Lagos,34,HND/BSc,7,Grade 2,220000,19.0,39.7,Poor,4.1,1,0
+EMP1042,Operations,Male,Lagos,24,HND/BSc,3,Grade 1,194000,27.0,37.9,Poor,3.3,6,1
+EMP1043,Sales,Male,Lagos,35,HND/BSc,10,Grade 3,269000,19.0,50.5,Below Average,4.5,20,0
+EMP1044,Customer Service,Male,Lagos,29,HND/BSc,5,Grade 1,175000,29.0,38.2,Poor,5.0,0,1
+EMP1045,Finance,Male,Lagos,40,HND/BSc,10,Grade 4,309000,28.0,52.5,Below Average,2.8,9,0
+EMP1046,IT,Female,Ibadan,29,Secondary School,4,Grade 2,230000,41.0,45.7,Below Average,2.3,4,1
+EMP1047,Finance,Female,Abuja,31,HND/BSc,8,Grade 4,295000,48.0,54.6,Below Average,3.8,15,0
+EMP1048,Operations,Male,Port Harcourt,22,MSc/MBA,0,Grade 1,211000,49.0,48.1,Below Average,,3,0
+EMP1049,HR,Male,Ibadan,31,MSc/MBA,9,Grade 3,247000,25.0,42.1,Below Average,3.3,8,0
+EMP1050,Sales,Female,Abuja,22,HND/BSc,1,Grade 2,226000,29.0,37.5,Poor,4.8,0,0
+EMP1051,Customer Service,Male,Lagos,23,HND/BSc,1,Grade 1,165000,12.0,32.8,Poor,2.3,2,0
+EMP1052,Marketing,Female,Abuja,39,MSc/MBA,11,Grade 4,287000,22.0,51.1,Below Average,4.1,0,0
+EMP1053,Customer Service,Female,Abuja,40,OND/NCE,12,Grade 1,206000,44.0,54.1,Below Average,3.0,15,0
+EMP1054,Customer Service,Male,Port Harcourt,37,MSc/MBA,10,Grade 3,254000,51.0,56.8,Average,5.0,7,0
+EMP1055,HR,Male,Abuja,27,HND/BSc,4,Grade 1,209000,17.0,34.7,Poor,5.0,8,0
+EMP1056,Customer Service,Female,Lagos,34,OND/NCE,9,Grade 1,190000,25.0,47.2,Below Average,2.8,11,0
+EMP1057,Sales,Male,Lagos,34,HND/BSc,7,Grade 3,250000,32.0,40.5,Below Average,3.0,0,0
+EMP1058,Sales,Female,Lagos,26,Secondary School,1,Grade 1,187000,35.0,41.0,Below Average,4.3,2,0
+EMP1059,Sales,Female,Port Harcourt,45,OND/NCE,12,Grade 2,243000,22.0,45.0,Below Average,3.2,0,1
+EMP1060,Finance,Female,Abuja,40,MSc/MBA,12,Grade 5,331000,37.0,59.8,Average,3.5,1,0
+EMP1061,Operations,Male,Lagos,32,Secondary School,5,Grade 1,170000,26.0,35.8,Poor,3.5,1,0
+EMP1062,Finance,Female,Kano,34,MSc/MBA,5,Grade 4,306000,32.0,50.2,Below Average,1.8,3,0
+EMP1063,Marketing,Male,Port Harcourt,35,HND/BSc,9,Grade 3,255000,39.0,47.7,Below Average,3.5,1,0
+EMP1064,Operations,Male,Lagos,22,HND/BSc,4,Grade 1,163000,32.0,38.9,Poor,2.9,0,0
+EMP1065,Finance,Female,Lagos,32,HND/BSc,6,Grade 4,285000,27.0,52.5,Below Average,3.1,1,0
+EMP1066,HR,Male,Lagos,29,HND/BSc,6,Grade 3,247000,31.0,41.2,Below Average,4.8,1,0
+EMP1067,Sales,Female,Lagos,27,HND/BSc,3,Grade 1,182000,31.0,37.7,Poor,2.4,14,0
+EMP1068,Marketing,Female,Lagos,32,HND/BSc,6,Grade 2,234000,28.0,41.4,Below Average,4.2,6,0
+EMP1069,Sales,Male,Lagos,47,HND/BSc,18,Grade 4,303000,29.0,64.7,Average,3.2,14,1
+EMP1070,Customer Service,Male,Lagos,38,HND/BSc,10,Grade 3,247000,51.0,57.5,Average,3.2,2,0
+EMP1071,Marketing,Male,Lagos,30,MSc/MBA,6,Grade 4,285000,39.0,48.8,Below Average,4.2,1,0
+EMP1072,Sales,Male,Ibadan,38,MSc/MBA,11,Grade 3,276000,28.0,53.9,Below Average,3.8,6,1
+EMP1073,Sales,Male,Lagos,44,HND/BSc,13,Grade 3,268000,40.0,64.1,Average,,2,1
+EMP1074,Marketing,Female,Abuja,40,HND/BSc,13,Grade 4,301000,28.0,56.1,Average,4.4,1,0
+EMP1075,IT,Male,Abuja,34,OND/NCE,8,Grade 4,286000,46.0,58.0,Average,3.2,1,0
+EMP1076,IT,Male,Kano,29,HND/BSc,3,Grade 4,285000,36.0,42.0,Below Average,2.9,1,0
+EMP1077,Marketing,Female,Lagos,39,HND/BSc,12,Grade 3,269000,31.0,51.4,Below Average,2.5,1,1
+EMP1078,Sales,Male,Lagos,37,Secondary School,8,Grade 1,202000,37.0,48.3,Below Average,2.8,2,0
+EMP1079,Operations,Female,Kano,40,HND/BSc,12,Grade 2,237000,13.0,50.1,Below Average,5.0,4,1
+EMP1080,Sales,Male,Ibadan,38,HND/BSc,10,Grade 4,282000,18.0,49.1,Below Average,4.6,0,0
+EMP1081,Marketing,Male,Ibadan,41,HND/BSc,14,Grade 4,298000,18.0,53.2,Below Average,2.3,1,0
+EMP1082,HR,Female,Lagos,30,MSc/MBA,6,Grade 3,246000,34.0,46.3,Below Average,2.3,7,0
+EMP1083,Finance,Female,Lagos,43,HND/BSc,14,Grade 4,310000,53.0,63.7,Average,3.9,1,0
+EMP1084,Sales,Female,Port Harcourt,35,Secondary School,10,Grade 1,194000,59.0,58.5,Average,4.0,2,0
+EMP1085,Finance,Female,Kano,49,MSc/MBA,20,Grade 5,386000,40.0,78.1,Good,4.0,8,0
+EMP1086,Finance,Female,Abuja,29,HND/BSc,5,Grade 3,273000,38.0,47.0,Below Average,,1,0
+EMP1087,IT,Male,Abuja,46,MSc/MBA,16,Grade 5,386000,10.0,58.3,Average,3.4,0,1
+EMP1088,IT,Male,Lagos,35,HND/BSc,6,Grade 5,358000,25.0,51.5,Below Average,3.8,3,0
+EMP1089,Customer Service,Female,Ibadan,29,OND/NCE,3,Grade 1,167000,23.0,32.0,Poor,3.6,1,0
+EMP1090,Operations,Female,Lagos,31,MSc/MBA,5,Grade 2,214000,25.0,39.5,Poor,1.5,3,0
+EMP1091,Sales,Female,Lagos,32,MSc/MBA,6,Grade 3,250000,30.0,51.4,Below Average,3.3,7,0
+EMP1092,IT,Male,Abuja,37,MSc/MBA,9,Grade 5,375000,26.0,55.2,Average,2.7,1,0
+EMP1093,Marketing,Male,Abuja,38,HND/BSc,10,Grade 4,277000,8.0,43.0,Below Average,3.7,3,0
+EMP1094,HR,Female,Lagos,30,HND/BSc,6,Grade 1,204000,,44.0,Below Average,,3,1
+EMP1095,Marketing,Male,Lagos,34,HND/BSc,8,Grade 4,280000,19.0,48.0,Below Average,3.8,1,0
+EMP1096,Operations,Female,Port Harcourt,49,Secondary School,18,Grade 2,223000,35.0,59.6,Average,3.2,4,0
+EMP1097,Operations,Female,Lagos,46,MSc/MBA,16,Grade 4,303000,57.0,68.9,Average,4.3,1,0
+EMP1098,Operations,Male,Abuja,37,OND/NCE,7,Grade 2,221000,21.0,45.2,Below Average,3.9,3,0
+EMP1099,Sales,Female,Lagos,34,PhD,6,Grade 3,273000,4.0,41.7,Below Average,3.9,0,0
+EMP1100,Sales,Female,Abuja,35,HND/BSc,8,Grade 3,260000,29.0,46.2,Below Average,4.0,2,0
+EMP1101,Sales,Male,Abuja,38,OND/NCE,9,Grade 2,236000,45.0,47.7,Below Average,5.0,1,0
+EMP1102,IT,Female,Lagos,27,MSc/MBA,4,Grade 5,340000,56.0,61.0,Average,2.5,7,0
+EMP1103,Finance,Male,Lagos,32,MSc/MBA,9,Grade 5,338000,17.0,48.2,Below Average,,0,0
+EMP1104,Operations,Female,Lagos,22,HND/BSc,2,Grade 1,177000,38.0,40.4,Below Average,2.7,2,0
+EMP1105,Customer Service,Male,Lagos,37,HND/BSc,9,Grade 1,202000,26.0,38.3,Poor,4.0,2,0
+EMP1106,Finance,Female,Kano,39,MSc/MBA,13,Grade 5,356000,31.0,64.1,Average,2.7,5,0
+EMP1107,Operations,Male,Lagos,31,HND/BSc,6,Grade 1,211000,64.0,51.0,Below Average,3.1,3,0
+EMP1108,Marketing,Male,Ibadan,45,MSc/MBA,14,Grade 5,314000,14.0,56.0,Average,3.2,4,1
+EMP1109,Finance,Female,Lagos,25,HND/BSc,1,Grade 2,242000,35.0,40.2,Below Average,4.4,6,0
+EMP1110,Sales,Male,Port Harcourt,24,HND/BSc,1,Grade 2,223000,38.0,37.1,Poor,4.3,8,0
+EMP1111,Finance,Male,Ibadan,36,HND/BSc,9,Grade 5,331000,45.0,58.5,Average,2.4,2,0
+EMP1112,Sales,Female,Abuja,41,PhD,13,Grade 4,295000,33.0,60.1,Average,3.5,3,0
+EMP1113,Customer Service,Female,Abuja,46,MSc/MBA,16,Grade 3,256000,36.0,60.5,Average,2.9,7,0
+EMP1114,Marketing,Female,Abuja,31,Secondary School,6,Grade 2,235000,27.0,44.8,Below Average,2.4,18,0
+EMP1115,IT,Female,Lagos,42,MSc/MBA,14,Grade 5,371000,35.0,71.1,Good,3.3,9,0
+EMP1116,Marketing,Male,Kano,34,MSc/MBA,10,Grade 4,309000,28.0,48.7,Below Average,3.2,2,0
+EMP1117,Marketing,Male,Ibadan,33,HND/BSc,9,Grade 3,255000,39.0,57.3,Average,5.0,1,0
+EMP1118,Sales,Male,Kano,40,HND/BSc,9,Grade 3,259000,28.0,49.1,Below Average,3.9,3,1
+EMP1119,Customer Service,Female,Lagos,39,MSc/MBA,7,Grade 1,212000,37.0,43.6,Below Average,2.3,5,0
+EMP1120,HR,Female,Port Harcourt,23,Secondary School,2,Grade 1,191000,32.0,32.9,Poor,3.0,3,0
+EMP1121,Marketing,Female,Kano,44,MSc/MBA,12,Grade 5,321000,46.0,62.6,Average,4.4,3,0
+EMP1122,Customer Service,Female,Lagos,44,OND/NCE,14,Grade 3,250000,31.0,58.3,Average,5.0,7,0
+EMP1123,Finance,Male,Lagos,30,PhD,3,Grade 5,341000,11.0,40.4,Below Average,2.1,2,1
+EMP1124,Sales,Male,Port Harcourt,37,PhD,7,Grade 4,297000,47.0,60.2,Average,,8,0
+EMP1125,Finance,Male,Abuja,37,PhD,11,Grade 5,371000,21.0,52.0,Below Average,5.0,2,1
+EMP1126,Operations,Male,Ibadan,36,HND/BSc,10,Grade 2,229000,24.0,46.5,Below Average,3.9,2,1
+EMP1127,Marketing,Male,Lagos,30,MSc/MBA,4,Grade 4,280000,25.0,39.1,Poor,2.7,2,1
+EMP1128,Marketing,Female,Ibadan,29,MSc/MBA,1,Grade 3,249000,48.0,46.3,Below Average,4.0,6,0
+EMP1129,Sales,Male,Lagos,34,HND/BSc,7,Grade 3,246000,6.0,40.2,Below Average,1.1,1,0
+EMP1130,Operations,Male,Lagos,42,MSc/MBA,14,Grade 4,294000,70.0,71.1,Good,3.5,1,0
+EMP1131,Operations,Male,Lagos,38,Secondary School,8,Grade 1,181000,45.0,40.5,Below Average,3.8,12,0
+EMP1132,Finance,Female,Ibadan,31,MSc/MBA,6,Grade 5,326000,35.0,52.7,Below Average,4.3,1,0
+EMP1133,Sales,Female,Port Harcourt,39,OND/NCE,11,Grade 3,256000,31.0,53.5,Below Average,2.6,3,0
+EMP1134,Finance,Male,Abuja,22,HND/BSc,1,Grade 3,262000,35.0,42.7,Below Average,,3,0
+EMP1135,Customer Service,Male,Lagos,42,Secondary School,13,Grade 1,172000,38.0,55.2,Average,2.7,3,0
+EMP1136,Finance,Female,Ibadan,22,MSc/MBA,0,Grade 3,273000,40.0,39.6,Poor,3.7,4,1
+EMP1137,Operations,Male,Lagos,31,HND/BSc,8,Grade 2,244000,39.0,52.5,Below Average,2.7,1,0
+EMP1138,IT,Female,Ibadan,26,MSc/MBA,2,Grade 5,317000,33.0,49.3,Below Average,3.1,3,1
+EMP1139,Operations,Female,Abuja,25,Secondary School,2,Grade 1,146000,30.0,27.8,Poor,2.6,2,0
+EMP1140,Customer Service,Male,Lagos,42,OND/NCE,12,Grade 1,203000,30.0,50.4,Below Average,4.1,4,1
+EMP1141,Customer Service,Male,Abuja,31,HND/BSc,5,Grade 1,206000,30.0,39.4,Poor,4.3,1,0
+EMP1142,Finance,Female,Lagos,36,MSc/MBA,8,Grade 5,327000,46.0,58.3,Average,3.3,3,0
+EMP1143,Operations,Male,Port Harcourt,34,HND/BSc,8,Grade 2,221000,39.0,49.9,Below Average,3.5,1,1
+EMP1144,Finance,Male,Abuja,37,MSc/MBA,12,Grade 5,339000,4.0,47.9,Below Average,2.2,1,0
+EMP1145,Finance,Female,Lagos,35,MSc/MBA,6,Grade 4,304000,40.0,50.3,Below Average,3.2,1,1
+EMP1146,Sales,Female,Ibadan,25,HND/BSc,0,Grade 1,191000,34.0,35.2,Poor,3.5,1,0
+EMP1147,HR,Female,Lagos,41,HND/BSc,15,Grade 4,290000,32.0,56.6,Average,5.0,7,0
+EMP1148,Operations,Female,Abuja,31,Secondary School,6,Grade 1,174000,27.0,35.7,Poor,2.5,1,0
+EMP1149,Sales,Male,Kano,23,MSc/MBA,0,Grade 3,256000,45.0,45.4,Below Average,4.8,10,0
+EMP1150,Finance,Male,Port Harcourt,31,OND/NCE,7,Grade 4,292000,,50.4,Below Average,4.4,14,0
+EMP1151,Customer Service,Female,Lagos,45,MSc/MBA,14,Grade 3,261000,23.0,55.4,Average,3.8,3,0
+EMP1152,Finance,Female,Kano,40,MSc/MBA,14,Grade 5,339000,37.0,65.1,Average,,1,0
+EMP1153,Sales,Male,Port Harcourt,32,MSc/MBA,8,Grade 4,280000,20.0,40.9,Below Average,3.8,2,0
+EMP1154,Operations,Female,Lagos,32,MSc/MBA,6,Grade 2,230000,15.0,36.4,Poor,3.9,6,1
+EMP1155,Customer Service,Male,Lagos,32,PhD,10,Grade 2,242000,24.0,51.0,Below Average,3.5,2,1
+EMP1156,Finance,Male,Ibadan,49,HND/BSc,17,Grade 5,341000,42.0,66.4,Average,4.6,0,0
+EMP1157,IT,Male,Port Harcourt,37,MSc/MBA,11,Grade 5,349000,43.0,61.3,Average,4.5,3,1
+EMP1158,Marketing,Male,Abuja,37,HND/BSc,10,Grade 4,293000,,57.3,Average,2.9,7,0
+EMP1159,Finance,Male,Ibadan,41,HND/BSc,14,Grade 5,316000,41.0,65.9,Average,2.3,6,0
+EMP1160,IT,Male,Ibadan,36,MSc/MBA,11,Grade 5,369000,,61.6,Average,3.3,1,1
+EMP1161,Operations,Male,Lagos,32,MSc/MBA,7,Grade 3,247000,24.0,42.3,Below Average,2.8,4,1
+EMP1162,IT,Female,Lagos,33,PhD,6,Grade 5,363000,37.0,59.6,Average,3.4,1,0
+EMP1163,IT,Female,Lagos,33,MSc/MBA,8,Grade 5,354000,42.0,64.2,Average,4.6,1,1
+EMP1164,HR,Female,Port Harcourt,34,HND/BSc,7,Grade 2,223000,41.0,51.4,Below Average,3.1,8,0
+EMP1165,Sales,Female,Lagos,39,HND/BSc,14,Grade 4,280000,46.0,63.1,Average,3.5,1,1
+EMP1166,Marketing,Male,Abuja,34,MSc/MBA,8,Grade 3,273000,40.0,50.3,Below Average,3.6,1,0
+EMP1167,Finance,Male,Ibadan,39,HND/BSc,11,Grade 4,311000,36.0,55.2,Average,4.3,0,0
+EMP1168,Sales,Female,Ibadan,33,OND/NCE,7,Grade 3,247000,45.0,53.1,Below Average,1.5,8,0
+EMP1169,Sales,Male,Lagos,35,HND/BSc,6,Grade 2,224000,,45.4,Below Average,3.0,6,0
+EMP1170,HR,Female,Ibadan,22,HND/BSc,0,Grade 1,188000,21.0,34.4,Poor,3.7,4,0
+EMP1171,IT,Male,Lagos,40,HND/BSc,14,Grade 5,354000,,64.1,Average,4.6,6,1
+EMP1172,Sales,Female,Ibadan,36,OND/NCE,8,Grade 2,225000,23.0,38.9,Poor,3.1,1,0
+EMP1173,Operations,Male,Lagos,41,Secondary School,11,Grade 2,215000,24.0,50.0,Below Average,1.8,2,0
+EMP1174,Finance,Female,Lagos,22,Secondary School,1,Grade 2,224000,,34.1,Poor,4.1,2,0
+EMP1175,IT,Male,Ibadan,49,PhD,19,Grade 5,443000,22.0,70.5,Good,2.9,0,0
+EMP1176,Sales,Female,Lagos,33,HND/BSc,8,Grade 3,257000,28.0,48.2,Below Average,2.4,3,0
+EMP1177,IT,Male,Lagos,42,HND/BSc,14,Grade 5,352000,9.0,60.5,Average,2.9,10,0
+EMP1178,Operations,Female,Port Harcourt,27,HND/BSc,2,Grade 1,186000,35.0,46.9,Below Average,3.3,0,0
+EMP1179,Customer Service,Female,Port Harcourt,38,OND/NCE,8,Grade 1,195000,32.0,46.5,Below Average,3.0,1,0
+EMP1180,Sales,Male,Port Harcourt,27,MSc/MBA,6,Grade 4,293000,22.0,44.6,Below Average,1.5,1,0
+EMP1181,Finance,Female,Port Harcourt,30,MSc/MBA,5,Grade 4,303000,40.0,52.7,Below Average,4.3,1,1
+EMP1182,Sales,Female,Abuja,47,Secondary School,16,Grade 2,229000,43.0,63.5,Average,4.6,10,1
+EMP1183,Customer Service,Male,Lagos,33,HND/BSc,9,Grade 2,228000,13.0,40.4,Below Average,4.1,3,0
+EMP1184,Marketing,Female,Lagos,36,MSc/MBA,10,Grade 4,293000,23.0,55.9,Average,2.5,3,0
+EMP1185,Finance,Female,Lagos,40,PhD,12,Grade 5,332000,23.0,56.4,Average,3.3,6,0
+EMP1186,IT,Female,Kano,37,HND/BSc,13,Grade 5,346000,21.0,58.7,Average,3.5,1,0
+EMP1187,Marketing,Male,Abuja,35,MSc/MBA,7,Grade 4,281000,42.0,54.8,Below Average,4.0,3,0
+EMP1188,HR,Male,Abuja,37,HND/BSc,11,Grade 3,255000,30.0,53.0,Below Average,4.1,2,0
+EMP1189,Operations,Female,Abuja,51,PhD,19,Grade 5,314000,29.0,67.9,Average,2.8,4,0
+EMP1190,Finance,Female,Kano,34,HND/BSc,8,Grade 4,290000,8.0,40.6,Below Average,3.6,20,0
+EMP1191,Sales,Male,Lagos,35,MSc/MBA,11,Grade 4,298000,40.0,56.5,Average,3.9,6,0
+EMP1192,Customer Service,Female,Abuja,41,HND/BSc,13,Grade 2,215000,17.0,43.6,Below Average,4.8,2,1
+EMP1193,Customer Service,Male,Abuja,42,HND/BSc,14,Grade 2,242000,33.0,57.0,Average,4.1,7,1
+EMP1194,IT,Male,Port Harcourt,42,MSc/MBA,15,Grade 5,380000,35.0,69.3,Average,4.2,1,0
+EMP1195,Finance,Male,Lagos,38,HND/BSc,10,Grade 5,316000,48.0,62.4,Average,3.6,0,0
+EMP1196,Finance,Male,Ibadan,26,HND/BSc,1,Grade 3,273000,,40.5,Below Average,4.8,1,1
+EMP1197,IT,Female,Kano,45,HND/BSc,13,Grade 5,320000,4.0,49.3,Below Average,3.9,2,1
+EMP1198,Customer Service,Male,Abuja,26,OND/NCE,0,Grade 1,173000,34.0,35.9,Poor,2.7,3,0
+EMP1199,Customer Service,Female,Port Harcourt,36,HND/BSc,12,Grade 1,209000,,55.2,Average,4.8,4,0
+EMP1200,Marketing,Female,Kano,29,HND/BSc,3,Grade 3,248000,47.0,46.2,Below Average,4.1,10,0
+EMP1201,IT,Female,Port Harcourt,34,OND/NCE,7,Grade 4,288000,,52.8,Below Average,3.1,3,0
+EMP1202,Sales,Male,Lagos,36,PhD,9,Grade 5,329000,26.0,55.4,Average,,3,0
+EMP1203,Sales,Male,Abuja,36,MSc/MBA,10,Grade 4,279000,42.0,55.5,Average,3.8,0,0
+EMP1204,Customer Service,Female,Port Harcourt,37,MSc/MBA,11,Grade 2,228000,20.0,46.1,Below Average,3.9,0,0
+EMP1205,HR,Female,Abuja,45,PhD,16,Grade 5,317000,38.0,60.5,Average,3.7,3,0
+EMP1206,Sales,Male,Port Harcourt,37,OND/NCE,9,Grade 2,230000,38.0,49.3,Below Average,3.8,2,0
+EMP1207,Sales,Female,Kano,32,HND/BSc,6,Grade 2,243000,45.0,52.7,Below Average,5.0,7,0
+EMP1208,IT,Female,Kano,41,MSc/MBA,13,Grade 5,343000,65.0,74.4,Good,,1,0
+EMP1209,Sales,Female,Abuja,42,HND/BSc,13,Grade 3,247000,37.0,57.7,Average,3.7,0,0
+EMP1210,Sales,Female,Lagos,25,OND/NCE,4,Grade 1,188000,26.0,37.2,Poor,4.3,2,0
+EMP1211,HR,Female,Kano,38,MSc/MBA,11,Grade 4,287000,32.0,54.6,Below Average,2.6,1,1
+EMP1212,IT,Male,Ibadan,39,HND/BSc,12,Grade 5,363000,11.0,51.5,Below Average,,0,0
+EMP1213,IT,Female,Lagos,32,HND/BSc,7,Grade 4,305000,24.0,50.1,Below Average,5.0,5,0
+EMP1214,Finance,Female,Kano,44,MSc/MBA,16,Grade 5,352000,27.0,64.7,Average,3.3,0,1
+EMP1215,IT,Male,Ibadan,33,MSc/MBA,7,Grade 5,349000,,53.1,Below Average,2.7,4,0
+EMP1216,Finance,Male,Abuja,35,MSc/MBA,7,Grade 5,339000,34.0,52.3,Below Average,2.9,1,1
+EMP1217,Finance,Male,Abuja,33,OND/NCE,8,Grade 3,260000,22.0,39.0,Poor,2.5,1,0
+EMP1218,IT,Female,Lagos,34,PhD,7,Grade 5,375000,45.0,63.5,Average,2.8,2,0
+EMP1219,IT,Female,Lagos,26,HND/BSc,2,Grade 4,299000,32.0,42.7,Below Average,3.2,6,0
+EMP1220,Marketing,Male,Lagos,24,OND/NCE,2,Grade 2,227000,32.0,36.7,Poor,2.2,2,0
+EMP1221,IT,Female,Ibadan,45,PhD,17,Grade 5,419000,28.0,71.7,Good,3.5,6,1
+EMP1222,HR,Male,Lagos,28,PhD,4,Grade 4,287000,34.0,45.4,Below Average,,1,1
+EMP1223,Sales,Female,Lagos,27,MSc/MBA,4,Grade 1,207000,42.0,47.2,Below Average,2.7,6,0
+EMP1224,Operations,Female,Lagos,22,MSc/MBA,3,Grade 2,227000,22.0,38.8,Poor,4.9,1,0
+EMP1225,Finance,Female,Abuja,30,MSc/MBA,6,Grade 4,300000,24.0,48.4,Below Average,4.0,5,1
+EMP1226,Finance,Male,Kano,25,MSc/MBA,6,Grade 4,290000,28.0,43.0,Below Average,4.4,3,1
+EMP1227,Customer Service,Male,Lagos,45,Secondary School,16,Grade 2,225000,16.0,54.6,Below Average,2.9,11,0
+EMP1228,Operations,Male,Lagos,41,HND/BSc,10,Grade 3,254000,22.0,48.3,Below Average,4.3,2,0
+EMP1229,Customer Service,Male,Port Harcourt,29,OND/NCE,6,Grade 1,182000,26.0,38.0,Poor,2.5,0,0
+EMP1230,IT,Female,Abuja,50,HND/BSc,19,Grade 5,375000,,74.6,Good,4.3,0,1
+EMP1231,Marketing,Female,Lagos,41,MSc/MBA,14,Grade 5,337000,35.0,57.5,Average,3.7,7,0
+EMP1232,Operations,Female,Abuja,32,HND/BSc,8,Grade 2,237000,34.0,49.4,Below Average,4.0,3,0
+EMP1233,HR,Female,Lagos,22,OND/NCE,0,Grade 1,206000,42.0,35.9,Poor,2.4,6,0
+EMP1234,Operations,Female,Lagos,50,OND/NCE,16,Grade 3,248000,30.0,53.5,Below Average,2.7,1,0
+EMP1235,Sales,Female,Abuja,24,HND/BSc,1,Grade 1,210000,37.0,34.1,Poor,4.0,2,0
+EMP1236,IT,Female,Abuja,22,HND/BSc,0,Grade 3,251000,31.0,41.4,Below Average,2.6,0,0
+EMP1237,Finance,Female,Kano,41,MSc/MBA,11,Grade 5,328000,35.0,56.6,Average,3.9,13,0
+EMP1238,Sales,Male,Lagos,51,HND/BSc,20,Grade 4,290000,25.0,68.2,Average,2.3,4,0
+EMP1239,IT,Male,Abuja,44,MSc/MBA,17,Grade 5,426000,4.0,59.9,Average,4.3,11,0
+EMP1240,Sales,Male,Port Harcourt,38,HND/BSc,11,Grade 3,259000,30.0,46.9,Below Average,2.4,1,0
+EMP1241,Customer Service,Female,Lagos,38,HND/BSc,9,Grade 1,205000,49.0,49.3,Below Average,4.0,4,0
+EMP1242,Customer Service,Female,Port Harcourt,40,OND/NCE,12,Grade 1,211000,43.0,58.4,Average,4.1,5,1
+EMP1243,Customer Service,Male,Lagos,39,HND/BSc,13,Grade 2,230000,44.0,57.1,Average,2.9,2,1
+EMP1244,Operations,Female,Kano,36,HND/BSc,8,Grade 2,242000,,51.5,Below Average,4.0,8,0
+EMP1245,Sales,Female,Lagos,35,HND/BSc,8,Grade 2,231000,33.0,47.9,Below Average,3.7,12,0
+EMP1246,Customer Service,Male,Abuja,34,MSc/MBA,8,Grade 2,230000,34.0,49.2,Below Average,3.0,9,0
+EMP1247,Operations,Male,Lagos,29,MSc/MBA,3,Grade 2,214000,25.0,40.5,Below Average,,5,0
+EMP1248,Customer Service,Female,Kano,32,HND/BSc,7,Grade 1,175000,28.0,44.9,Below Average,1.7,1,0
+EMP1249,Customer Service,Male,Abuja,22,MSc/MBA,0,Grade 1,182000,39.0,35.2,Poor,3.8,1,0
+EMP1250,Marketing,Female,Abuja,33,MSc/MBA,8,Grade 4,285000,46.0,51.8,Below Average,2.1,13,0
+EMP1251,Finance,Male,Lagos,27,MSc/MBA,2,Grade 4,293000,,41.8,Below Average,3.6,0,0
+EMP1252,Operations,Female,Port Harcourt,26,MSc/MBA,2,Grade 1,202000,27.0,36.6,Poor,3.3,5,0
+EMP1253,Marketing,Female,Lagos,35,MSc/MBA,10,Grade 3,273000,32.0,49.5,Below Average,4.1,5,0
+EMP1254,Finance,Female,Ibadan,44,MSc/MBA,14,Grade 5,344000,39.0,61.9,Average,3.2,4,0
+EMP1255,Sales,Female,Lagos,40,HND/BSc,14,Grade 3,245000,15.0,50.5,Below Average,3.2,18,0
+EMP1256,HR,Male,Lagos,23,MSc/MBA,0,Grade 2,242000,4.0,27.7,Poor,4.2,1,0
+EMP1257,Customer Service,Male,Lagos,27,OND/NCE,4,Grade 1,176000,25.0,35.9,Poor,3.8,2,1
+EMP1258,IT,Male,Abuja,41,PhD,14,Grade 5,389000,17.0,57.6,Average,3.8,0,1
+EMP1259,HR,Female,Abuja,27,MSc/MBA,1,Grade 2,223000,26.0,34.9,Poor,3.9,2,0
+EMP1260,Sales,Female,Lagos,32,Secondary School,4,Grade 1,179000,30.0,35.1,Poor,2.1,1,0
+EMP1261,HR,Female,Ibadan,38,MSc/MBA,8,Grade 3,264000,27.0,50.2,Below Average,4.2,2,0
+EMP1262,Customer Service,Male,Abuja,27,Secondary School,5,Grade 1,188000,49.0,49.6,Below Average,4.1,7,0
+EMP1263,Sales,Male,Abuja,35,HND/BSc,8,Grade 2,220000,36.0,42.2,Below Average,2.6,11,0
+EMP1264,Operations,Male,Abuja,25,HND/BSc,6,Grade 2,218000,36.0,42.3,Below Average,3.3,1,0
+EMP1265,Marketing,Male,Abuja,30,HND/BSc,4,Grade 3,246000,39.0,41.1,Below Average,3.5,2,0
+EMP1266,IT,Female,Abuja,36,MSc/MBA,9,Grade 5,359000,18.0,50.0,Below Average,3.4,11,1
+EMP1267,IT,Male,Lagos,23,MSc/MBA,3,Grade 5,333000,44.0,51.8,Below Average,3.8,0,0
+EMP1268,IT,Male,Lagos,37,MSc/MBA,13,Grade 5,364000,31.0,57.6,Average,4.8,0,0
+EMP1269,Operations,Female,Ibadan,34,Secondary School,11,Grade 1,197000,40.0,48.6,Below Average,4.5,1,0
+EMP1270,Finance,Male,Kano,38,HND/BSc,12,Grade 4,302000,19.0,49.2,Below Average,2.3,4,0
+EMP1271,Marketing,Male,Lagos,36,MSc/MBA,11,Grade 5,323000,13.0,50.9,Below Average,4.1,1,1
+EMP1272,Marketing,Female,Lagos,44,PhD,15,Grade 5,343000,42.0,67.2,Average,4.7,14,0
+EMP1273,Marketing,Male,Port Harcourt,35,MSc/MBA,10,Grade 5,331000,,56.0,Average,3.8,2,0
+EMP1274,Customer Service,Female,Abuja,31,OND/NCE,5,Grade 1,170000,21.0,35.8,Poor,4.5,3,1
+EMP1275,Operations,Female,Lagos,35,HND/BSc,7,Grade 1,202000,22.0,38.6,Poor,5.0,1,0
+EMP1276,Operations,Female,Lagos,38,HND/BSc,10,Grade 1,203000,46.0,51.9,Below Average,4.4,3,1
+EMP1277,Marketing,Male,Port Harcourt,34,MSc/MBA,8,Grade 3,266000,18.0,49.5,Below Average,3.7,4,1
+EMP1278,IT,Female,Port Harcourt,34,HND/BSc,7,Grade 4,283000,52.0,60.5,Average,4.4,6,0
+EMP1279,IT,Male,Lagos,29,MSc/MBA,6,Grade 5,348000,21.0,44.7,Below Average,3.6,6,0
+EMP1280,Marketing,Male,Lagos,29,HND/BSc,6,Grade 3,265000,40.0,52.2,Below Average,3.5,3,0
+EMP1281,Customer Service,Male,Lagos,24,MSc/MBA,1,Grade 1,172000,28.0,35.3,Poor,3.2,9,1
+EMP1282,Finance,Female,Port Harcourt,46,HND/BSc,18,Grade 5,346000,39.0,66.4,Average,4.9,7,0
+EMP1283,Operations,Male,Lagos,25,HND/BSc,0,Grade 1,182000,25.0,33.7,Poor,2.8,6,0
+EMP1284,Sales,Male,Lagos,29,MSc/MBA,4,Grade 3,258000,30.0,47.8,Below Average,4.9,0,0
+EMP1285,HR,Female,Ibadan,29,OND/NCE,3,Grade 2,219000,32.0,36.6,Poor,3.9,0,0
+EMP1286,Sales,Male,Lagos,40,MSc/MBA,9,Grade 4,292000,20.0,45.4,Below Average,2.2,1,0
+EMP1287,Operations,Male,Port Harcourt,32,HND/BSc,6,Grade 1,212000,41.0,49.6,Below Average,3.8,4,0
+EMP1288,HR,Male,Lagos,43,OND/NCE,13,Grade 2,234000,26.0,52.2,Below Average,1.6,2,0
+EMP1289,Finance,Male,Lagos,29,HND/BSc,7,Grade 3,259000,29.0,48.3,Below Average,4.1,2,1
+EMP1290,HR,Male,Lagos,36,MSc/MBA,10,Grade 3,265000,20.0,48.6,Below Average,4.3,9,0
+EMP1291,Sales,Male,Port Harcourt,28,Secondary School,2,Grade 1,186000,4.0,27.7,Poor,3.0,9,1
+EMP1292,Sales,Female,Ibadan,49,HND/BSc,20,Grade 4,280000,30.0,60.7,Average,3.6,10,0
+EMP1293,Marketing,Male,Ibadan,26,HND/BSc,4,Grade 3,246000,61.0,56.6,Average,5.0,2,0
+EMP1294,Operations,Male,Lagos,36,HND/BSc,10,Grade 2,235000,41.0,56.6,Average,3.0,5,0
+EMP1295,Sales,Female,Port Harcourt,38,Secondary School,10,Grade 2,214000,32.0,47.7,Below Average,2.5,1,0
+EMP1296,Operations,Male,Lagos,37,MSc/MBA,8,Grade 2,237000,29.0,46.3,Below Average,4.8,1,0
+EMP1297,Marketing,Female,Lagos,33,PhD,7,Grade 4,309000,32.0,46.5,Below Average,5.0,1,1
+EMP1298,Finance,Male,Ibadan,33,PhD,9,Grade 5,366000,39.0,61.5,Average,3.5,2,0
+EMP1299,HR,Male,Lagos,34,MSc/MBA,11,Grade 3,264000,18.0,49.8,Below Average,4.4,2,1
+EMP1300,Sales,Male,Lagos,33,OND/NCE,9,Grade 3,256000,45.0,54.5,Below Average,4.7,7,1
