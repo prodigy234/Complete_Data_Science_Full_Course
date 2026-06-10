@@ -1,0 +1,11 @@
+transaction_id,date,region,category,sales_rep,quantity,unit_price,discount_pct,payment_method,customer_age,returned,satisfaction_score,revenue
+TXN00001,2022-01-01 00:00:00.000000,West,Furniture,Fatima Yusuf,20,20021.08,0,Card,45.0,True,1.0,400421.6
+TXN00002,2022-01-03 04:39:55.190380,Central,Electronics,Fatima Yusuf,32,27696.0,20,Card,42.0,True,3.0,709017.6
+TXN00003,2022-01-05 09:19:50.380761,East,Sports,Grace Obi,36,37470.35,0,Cash,33.0,False,2.0,1348932.6
+TXN00004,2022-01-07 13:59:45.571142,Central,Food & Beverage,James Ojo,4,35916.8,0,Card,19.0,False,2.0,143667.2
+TXN00005,2022-01-09 18:39:40.761523,Central,Food & Beverage,Grace Obi,27,26301.09,0,,,True,1.0,710129.43
+TXN00006,2022-01-11 23:19:35.951903,South,Electronics,James Ojo,17,41208.47,0,POS,34.0,False,2.0,700543.99
+TXN00007,2022-01-14 03:59:31.142284,East,Furniture,Lanre Afolabi,12,21827.67,0,POS,47.0,True,1.0,261932.04
+TXN00008,2022-01-16 08:39:26.332665,East,Furniture,Adewale Bello,22,44887.36,15,Cash,56.0,False,5.0,839393.63
+TXN00009,2022-01-18 13:19:21.523046,East,Sports,Lanre Afolabi,17,4028.37,0,Transfer,30.0,False,4.0,68482.29
+TXN00010,2022-01-20 17:59:16.713426,Central,Electronics,Kemi Adeyemi,10,47755.67,0,Cash,49.0,True,3.0,477556.7

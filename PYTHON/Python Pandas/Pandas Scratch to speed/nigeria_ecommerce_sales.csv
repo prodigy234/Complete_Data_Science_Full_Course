@@ -1,0 +1,516 @@
+order_id,order_date,state,region,platform,category,product_name,unit_price,quantity,discount_pct,total_amount,payment_method,customer_age,customer_gender,customer_segment,rating,delivery_days,returned
+ORD-100000,2023-01-01,Kaduna,North-West,Konga,Sports,Adidas Running Sneakers,42296.31,5,0,211481.55,POS,34.0,Female,VIP,,1.0,False
+ORD-100001,2023-01-02,Rivers,South-South,Jiji,Furniture,6ft Orthopedic Mattress,416925.98,2,5,792159.36,Bank Transfer,63.0,Male,Premium,5.0,6.0,True
+ORD-100002,2023-01-03,Oyo,South-West,Flutterwave Store,Furniture,6ft Orthopedic Mattress,197453.13,4,15,671340.64,POS,60.0,Female,Premium,5.0,9.0,False
+ORD-100003,2023-01-05,Kaduna,North-West,Konga,Beauty,Maybelline Mascara,1628.32,4,20,5210.62,Pay on Delivery,51.0,Male,Regular,3.0,3.0,False
+ORD-100004,2023-01-06,Kano,North-West,Konga,Sports,Football Jersey Nigeria,100186.58,3,0,300559.74,Card,45.0,Female,New,5.0,6.0,False
+ORD-100005,2023-01-08,Enugu,South-East,Konga,Electronics,Hisense Chest Freezer,130639.37,2,5,248214.8,Card,64.0,Female,Regular,5.0,3.0,False
+ORD-100006,2023-01-09,Oyo,South-West,Flutterwave Store,Beauty,MAC Foundation Stick,19526.8,1,0,19526.8,USSD,48.0,Male,Regular,1.0,13.0,True
+ORD-100007,2023-01-11,Oyo,South-West,Jumia,Groceries,Titus Sardine 50pcs,3220.68,2,20,5153.09,USSD,33.0,Female,Regular,4.0,1.0,False
+ORD-100008,2023-01-12,Kaduna,North-West,WhatsApp Commerce,Beauty,Maybelline Mascara,21637.85,2,15,36784.34,USSD,64.0,Male,Regular,3.0,13.0,False
+ORD-100009,2023-01-14,Abuja,North-Central,Jiji,Fashion,Female Aso-Oke,11829.2,1,0,11829.2,Bank Transfer,43.0,Male,VIP,1.0,12.0,False
+ORD-100010,2023-01-15,Kano,North-West,Jumia,Electronics,Hisense Chest Freezer,341473.33,3,15,870756.99,Pay on Delivery,62.0,Male,VIP,4.0,5.0,True
+ORD-100011,2023-01-17,Kaduna,North-West,Jiji,Fashion,Men Agbada Set,35639.75,1,0,35639.75,Pay on Delivery,26.0,Male,New,1.0,10.0,False
+ORD-100012,2023-01-18,Kano,North-West,WhatsApp Commerce,Sports,Treadmill Manual,16365.84,1,20,13092.67,Pay on Delivery,60.0,Male,Regular,1.0,13.0,False
+ORD-100013,2023-01-20,Kano,North-West,Flutterwave Store,Phones & Tablets,Xiaomi Redmi Note 13,467819.11,4,15,1590584.97,Pay on Delivery,48.0,Female,VIP,5.0,11.0,False
+ORD-100014,2023-01-21,Enugu,South-East,Konga,Fashion,Ankara Midi Dress,44378.11,2,5,84318.41,USSD,32.0,Male,New,4.0,4.0,False
+ORD-100015,2023-01-22,Oyo,South-West,Konga,Groceries,Golden Penny Rice 25kg,4032.99,2,10,7259.38,Card,21.0,Male,Regular,3.0,7.0,True
+ORD-100016,2023-01-24,Rivers,South-South,Flutterwave Store,Beauty,Nivea Fair & Lovely,5206.99,1,5,4946.64,USSD,19.0,Male,Premium,3.0,6.0,False
+ORD-100017,2023-01-25,Enugu,South-East,Jumia,Phones & Tablets,Tecno Spark 20 Pro,405855.45,2,0,811710.9,Pay on Delivery,35.0,Male,VIP,4.0,10.0,False
+ORD-100018,2023-01-27,Enugu,South-East,Jumia,Beauty,Dark & Lovely Relaxer,13201.48,1,5,12541.41,USSD,63.0,Male,New,5.0,7.0,False
+ORD-100019,2023-01-28,Kano,North-West,Jiji,Fashion,Female Gele Headtie,34021.7,4,20,108869.44,Pay on Delivery,62.0,Male,Premium,2.0,5.0,False
+ORD-100020,2023-01-30,Delta,South-South,Flutterwave Store,Beauty,Maybelline Mascara,17712.07,1,0,17712.07,POS,42.0,Female,Regular,1.0,4.0,False
+ORD-100021,2023-01-31,Oyo,South-West,Jumia,Sports,Adidas Running Sneakers,50098.36,3,0,150295.08,Card,30.0,Female,Regular,5.0,7.0,True
+ORD-100022,2023-02-02,Abuja,North-Central,Flutterwave Store,Phones & Tablets,Infinix Hot 40 Pro,201787.68,2,15,343039.06,POS,21.0,Male,Regular,4.0,7.0,False
+ORD-100023,2023-02-03,Enugu,South-East,WhatsApp Commerce,Sports,Kettlebell 20kg,78471.34,2,0,156942.68,Bank Transfer,62.0,Female,VIP,,6.0,False
+ORD-100024,2023-02-05,Rivers,South-South,Konga,Fashion,Ankara Midi Dress,20422.42,1,10,18380.18,USSD,29.0,Male,New,3.0,8.0,False
+ORD-100025,2023-02-06,Delta,South-South,Konga,Sports,Treadmill Manual,18476.32,2,0,36952.64,Bank Transfer,26.0,Male,Premium,2.0,4.0,True
+ORD-100026,2023-02-08,Delta,South-South,Konga,Groceries,Titus Sardine 50pcs,7254.29,1,15,6166.15,USSD,54.0,Male,New,,10.0,False
+ORD-100027,2023-02-09,Abuja,North-Central,Flutterwave Store,Fashion,Men Agbada Set,31876.93,1,0,31876.93,POS,24.0,Male,VIP,4.0,5.0,False
+ORD-100028,2023-02-10,Enugu,South-East,Flutterwave Store,Fashion,Ankara Midi Dress,31535.31,1,15,26805.01,Pay on Delivery,41.0,Male,New,1.0,4.0,True
+ORD-100029,2023-02-12,Rivers,South-South,Jiji,Fashion,Female Aso-Oke,37459.81,3,15,95522.52,Pay on Delivery,31.0,Female,VIP,4.0,12.0,True
+ORD-100030,2023-02-13,Oyo,South-West,Konga,Electronics,Scanfrost Refrigerator,192436.66,2,15,327142.32,USSD,20.0,Female,Regular,1.0,1.0,False
+ORD-100031,2023-02-15,Lagos,South-West,Jiji,Beauty,Neutrogena Body Lotion,20524.32,1,0,20524.32,Pay on Delivery,25.0,Female,Premium,5.0,12.0,True
+ORD-100032,2023-02-16,Rivers,South-South,Konga,Electronics,Hisense Chest Freezer,181860.4,2,20,290976.64,POS,,Female,Regular,2.0,999.0,False
+ORD-100033,2023-02-18,Abuja,North-Central,Jiji,Electronics,"Samsung Smart TV 55""",37503.76,2,5,71257.14,Pay on Delivery,28.0,Male,New,5.0,1.0,False
+ORD-100034,2023-02-19,Delta,South-South,Jiji,Groceries,Golden Penny Rice 25kg,3539.36,1,15,3008.46,POS,58.0,Female,Regular,5.0,5.0,False
+ORD-100035,2023-02-21,Oyo,South-West,WhatsApp Commerce,Phones & Tablets,Infinix Hot 40 Pro,415560.64,5,0,2077803.2,Bank Transfer,64.0,Male,Premium,4.0,6.0,False
+ORD-100036,2023-02-22,Rivers,South-South,Jiji,Beauty,Dark & Lovely Relaxer,18228.9,1,20,14583.12,POS,45.0,Female,Regular,2.0,6.0,False
+ORD-100037,2023-02-24,Lagos,South-West,Flutterwave Store,Sports,Adidas Running Sneakers,15469.71,1,10,13922.74,Card,60.0,Female,Premium,1.0,13.0,False
+ORD-100038,2023-02-25,Lagos,South-West,Jiji,Furniture,Computer Work Desk,91508.81,3,0,274526.43,Card,21.0,Female,Premium,1.0,5.0,False
+ORD-100039,2023-02-27,Kano,North-West,Konga,Fashion,Men Native Senator,13706.56,1,0,13706.56,Card,32.0,Female,Regular,3.0,3.0,False
+ORD-100040,2023-02-28,Kano,North-West,Jiji,Sports,Adidas Running Sneakers,34180.31,1,0,34180.31,USSD,60.0,Male,VIP,1.0,5.0,False
+ORD-100041,2023-03-01,Kaduna,North-West,Jumia,Fashion,Female Gele Headtie,33617.84,1,0,33617.84,USSD,34.0,Female,New,4.0,12.0,True
+ORD-100042,2023-03-03,Abuja,North-Central,Konga,Groceries,Titus Sardine 50pcs,2380.48,2,0,4760.96,USSD,57.0,Female,VIP,5.0,8.0,False
+ORD-100043,2023-03-04,Enugu,South-East,Jumia,Fashion,Female Aso-Oke,29406.67,1,0,29406.67,POS,50.0,Male,VIP,5.0,2.0,True
+ORD-100044,2023-03-06,Rivers,South-South,Konga,Electronics,Hisense Chest Freezer,180581.74,4,15,613977.92,USSD,61.0,Male,Regular,5.0,6.0,False
+ORD-100045,2023-03-07,Rivers,South-South,Flutterwave Store,Beauty,Maybelline Mascara,14673.72,4,5,55760.14,Bank Transfer,41.0,Female,New,2.0,9.0,True
+ORD-100046,2023-03-09,Enugu,South-East,Flutterwave Store,Furniture,Computer Work Desk,423100.81,5,0,2115504.05,Card,20.0,Male,New,1.0,8.0,False
+ORD-100047,2023-03-10,Kaduna,North-West,Flutterwave Store,Books,Nigerian Law Reports Vol 12,5567.32,4,0,22269.28,POS,44.0,Male,VIP,4.0,11.0,False
+ORD-100048,2023-03-12,Delta,South-South,Jumia,Fashion,Men Agbada Set,35263.73,1,0,35263.73,Card,52.0,Male,Regular,2.0,8.0,False
+ORD-100049,2023-03-13,Delta,South-South,WhatsApp Commerce,Sports,Kettlebell 20kg,52378.22,1,0,52378.22,USSD,35.0,Female,New,3.0,8.0,False
+ORD-100050,2023-03-15,Kaduna,North-West,Konga,Electronics,Scanfrost Refrigerator,133546.91,4,0,534187.64,POS,64.0,Male,VIP,4.0,13.0,False
+ORD-100051,2023-03-16,Delta,South-South,Flutterwave Store,Books,WAEC Past Questions 2024,11553.17,2,10,20795.71,Pay on Delivery,36.0,Female,New,4.0,7.0,False
+ORD-100052,2023-03-18,Kano,North-West,Konga,Furniture,Computer Work Desk,112576.19,3,15,287069.28,Bank Transfer,25.0,Female,Regular,4.0,8.0,False
+ORD-100053,2023-03-19,Rivers,South-South,Jumia,Books,WAEC Past Questions 2024,2175.64,2,0,4351.28,USSD,20.0,Female,Regular,5.0,13.0,False
+ORD-100054,2023-03-20,Kaduna,North-West,WhatsApp Commerce,Electronics,"Samsung Smart TV 55""",273280.29,4,5,1038465.1,USSD,51.0,Female,Regular,4.0,6.0,False
+ORD-100055,2023-03-22,Rivers,South-South,Jumia,Beauty,Dark & Lovely Relaxer,2451.64,5,20,9806.56,Bank Transfer,21.0,Male,New,1.0,2.0,True
+ORD-100056,2023-03-23,Enugu,South-East,Konga,Beauty,Maybelline Mascara,21057.31,3,15,53696.14,Bank Transfer,41.0,Female,Premium,4.0,2.0,False
+ORD-100057,2023-03-25,Lagos,South-West,WhatsApp Commerce,Phones & Tablets,Xiaomi Redmi Note 13,369452.95,2,0,738905.9,Pay on Delivery,,Male,New,5.0,8.0,False
+ORD-100058,2023-03-26,Kano,North-West,WhatsApp Commerce,Beauty,MAC Foundation Stick,22955.43,2,15,39024.23,USSD,54.0,Female,Premium,4.0,11.0,False
+ORD-100059,2023-03-28,Oyo,South-West,Jumia,Phones & Tablets,Infinix Hot 40 Pro,586972.64,5,15,2494633.72,USSD,54.0,Male,Regular,3.0,1.0,False
+ORD-100060,2023-03-29,Kano,North-West,Flutterwave Store,Books,WAEC Past Questions 2024,7792.37,1,15,6623.51,Card,50.0,Female,VIP,3.0,6.0,False
+ORD-100061,2023-03-31,Kaduna,North-West,Konga,Groceries,Golden Penny Rice 25kg,7619.8,1,10,6857.82,POS,16.0,Male,Premium,5.0,13.0,False
+ORD-100062,2023-04-01,Oyo,South-West,Jiji,Sports,Football Jersey Nigeria,49407.98,2,5,93875.16,POS,39.0,Female,Regular,1.0,6.0,False
+ORD-100063,2023-04-03,Lagos,South-West,Jiji,Sports,Kettlebell 20kg,114628.17,4,0,458512.68,Card,51.0,Female,Regular,1.0,11.0,False
+ORD-100064,2023-04-04,Kaduna,North-West,Jumia,Books,JAMB CBT Practice Book,2658.01,5,0,13290.05,POS,21.0,Male,Premium,2.0,4.0,True
+ORD-100065,2023-04-06,Abuja,North-Central,Konga,Fashion,Men Agbada Set,23059.59,1,0,23059.59,Bank Transfer,56.0,Female,VIP,5.0,12.0,False
+ORD-100066,2023-04-07,Rivers,South-South,Konga,Fashion,Female Aso-Oke,13971.23,2,15,23751.09,POS,61.0,Female,Regular,4.0,11.0,True
+ORD-100067,2023-04-09,Lagos,South-West,Jumia,Beauty,Dark & Lovely Relaxer,13864.2,1,0,13864.2,POS,59.0,Female,Premium,5.0,13.0,False
+ORD-100068,2023-04-10,Rivers,South-South,Konga,Sports,Kettlebell 20kg,21955.62,4,10,79040.23,Card,46.0,Male,VIP,2.0,11.0,False
+ORD-100069,2023-04-11,Delta,South-South,Flutterwave Store,Sports,Football Jersey Nigeria,101458.97,5,10,456565.36,Pay on Delivery,35.0,Female,VIP,,13.0,False
+ORD-100070,2023-04-13,Abuja,North-Central,Jumia,Phones & Tablets,Infinix Hot 40 Pro,682502.0,2,0,1365004.0,POS,39.0,Female,Regular,5.0,10.0,False
+ORD-100071,2023-04-14,Abuja,North-Central,Flutterwave Store,Groceries,Honeywell Flour 10kg,7664.27,5,10,34489.22,POS,40.0,Male,New,2.0,3.0,False
+ORD-100072,2023-04-16,Lagos,South-West,Konga,Electronics,Hisense Chest Freezer,66815.17,3,0,200445.51,Pay on Delivery,51.0,Male,New,1.0,13.0,False
+ORD-100073,2023-04-17,Abuja,North-Central,Jumia,Fashion,Female Aso-Oke,28991.63,2,5,55084.1,Card,36.0,Male,Regular,4.0,11.0,False
+ORD-100074,2023-04-19,Oyo,South-West,Konga,Sports,Adidas Running Sneakers,58485.77,4,0,233943.08,Pay on Delivery,45.0,Male,VIP,2.0,3.0,True
+ORD-100075,2023-04-20,Abuja,North-Central,Jumia,Phones & Tablets,Infinix Hot 40 Pro,298453.56,3,20,716288.54,Card,39.0,Male,Regular,3.0,13.0,False
+ORD-100076,2023-04-22,Rivers,South-South,Konga,Furniture,Computer Work Desk,191981.58,4,5,729530.0,Bank Transfer,59.0,Female,Premium,1.0,13.0,False
+ORD-100077,2023-04-23,Rivers,South-South,Flutterwave Store,Phones & Tablets,Xiaomi Redmi Note 13,350787.07,1,10,315708.36,Card,57.0,Female,New,3.0,1.0,False
+ORD-100078,2023-04-25,Kaduna,North-West,Flutterwave Store,Fashion,Men Agbada Set,32459.34,1,5,30836.37,Bank Transfer,45.0,Female,Premium,1.0,3.0,False
+ORD-100079,2023-04-26,Rivers,South-South,Konga,Fashion,Female Aso-Oke,27927.16,4,5,106123.21,Bank Transfer,37.0,Male,Regular,4.0,4.0,False
+ORD-100080,2023-04-28,Kaduna,North-West,Jumia,Phones & Tablets,Samsung Galaxy A55,386656.36,4,5,1469294.17,Card,43.0,Female,Regular,4.0,11.0,False
+ORD-100081,2023-04-29,Rivers,South-South,Jiji,Electronics,Sony Home Theatre,40437.69,1,10,36393.92,USSD,22.0,Male,VIP,5.0,11.0,False
+ORD-100082,2023-04-30,Oyo,South-West,Flutterwave Store,Books,JAMB CBT Practice Book,2039.87,1,20,1631.9,Card,50.0,Male,VIP,3.0,5.0,True
+ORD-100083,2023-05-02,Enugu,South-East,Flutterwave Store,Fashion,Men Agbada Set,2599.42,1,15,2209.51,POS,43.0,Female,VIP,1.0,3.0,True
+ORD-100084,2023-05-03,Kaduna,North-West,Jiji,Phones & Tablets,Tecno Spark 20 Pro,775290.03,3,5,2209576.59,POS,29.0,Male,Premium,4.0,6.0,True
+ORD-100085,2023-05-05,Kano,North-West,Konga,Sports,Kettlebell 20kg,3614.7,1,0,3614.7,USSD,25.0,Male,VIP,2.0,11.0,False
+ORD-100086,2023-05-06,Delta,South-South,Jumia,Phones & Tablets,Samsung Galaxy A55,113866.72,1,10,102480.05,Bank Transfer,31.0,Female,Regular,4.0,12.0,False
+ORD-100087,2023-05-08,Lagos,South-West,Konga,Groceries,Indomie Noodles Carton,2859.47,1,5,2716.5,USSD,31.0,Male,VIP,2.0,5.0,False
+ORD-100088,2023-05-09,Rivers,South-South,WhatsApp Commerce,Books,JAMB CBT Practice Book,9920.25,1,20,7936.2,POS,46.0,Male,New,1.0,3.0,False
+ORD-100089,2023-05-11,Abuja,North-Central,Flutterwave Store,Furniture,Wardrobe 4-Door Mahogany,481996.92,5,15,2048486.91,USSD,57.0,Female,VIP,4.0,6.0,False
+ORD-100090,2023-05-12,Enugu,South-East,WhatsApp Commerce,Electronics,"Samsung Smart TV 55""",279654.54,4,10,1006756.34,Card,40.0,Male,Premium,4.0,6.0,False
+ORD-100091,2023-05-14,Rivers,South-South,Flutterwave Store,Beauty,Neutrogena Body Lotion,17511.56,5,0,87557.8,USSD,28.0,Male,New,1.0,8.0,False
+ORD-100092,2023-05-15,Abuja,North-Central,Flutterwave Store,Furniture,Wardrobe 4-Door Mahogany,272617.82,1,15,231725.15,Bank Transfer,21.0,Female,New,4.0,2.0,False
+ORD-100093,2023-05-17,Delta,South-South,WhatsApp Commerce,Books,JAMB CBT Practice Book,2136.42,2,0,4272.84,Card,,Female,New,2.0,1.0,False
+ORD-100094,2023-05-18,Delta,South-South,WhatsApp Commerce,Books,ICAN Study Pack,11548.24,1,5,10970.83,Pay on Delivery,24.0,Female,Premium,,4.0,False
+ORD-100095,2023-05-19,Delta,South-South,Konga,Books,WAEC Past Questions 2024,9390.64,5,20,37562.56,POS,60.0,Female,Regular,3.0,7.0,False
+ORD-100096,2023-05-21,Abuja,North-Central,WhatsApp Commerce,Furniture,Computer Work Desk,328500.96,1,0,328500.96,POS,51.0,Male,VIP,5.0,11.0,False
+ORD-100097,2023-05-22,Rivers,South-South,Konga,Sports,Yoga Mat Non-Slip,91807.19,3,20,220337.26,USSD,58.0,Male,New,2.0,10.0,False
+ORD-100098,2023-05-24,Delta,South-South,Konga,Books,ACCA F3 Textbook,9020.32,2,0,18040.64,Card,35.0,Female,New,3.0,3.0,True
+ORD-100099,2023-05-25,Oyo,South-West,Konga,Phones & Tablets,Tecno Spark 20 Pro,522482.16,1,10,470233.94,Pay on Delivery,33.0,Male,New,1.0,3.0,False
+ORD-100100,2023-05-27,Kaduna,North-West,Flutterwave Store,Furniture,6ft Orthopedic Mattress,490773.98,1,0,490773.98,Card,58.0,Male,Regular,2.0,5.0,True
+ORD-100101,2023-05-28,Abuja,North-Central,Flutterwave Store,Beauty,Nivea Fair & Lovely,22661.4,1,0,22661.4,POS,36.0,Female,Regular,5.0,5.0,False
+ORD-100102,2023-05-30,Abuja,North-Central,WhatsApp Commerce,Books,WAEC Past Questions 2024,8183.98,4,0,32735.92,Card,19.0,Female,Premium,5.0,13.0,False
+ORD-100103,2023-05-31,Rivers,South-South,Flutterwave Store,Phones & Tablets,iPhone 15 128GB,565279.04,5,0,2826395.2,Pay on Delivery,48.0,Male,Regular,1.0,10.0,False
+ORD-100104,2023-06-02,Abuja,North-Central,WhatsApp Commerce,Sports,Football Jersey Nigeria,9036.71,3,0,27110.13,USSD,42.0,Female,VIP,1.0,3.0,False
+ORD-100105,2023-06-03,Abuja,North-Central,Flutterwave Store,Groceries,Titus Sardine 50pcs,5524.38,2,15,9391.45,Bank Transfer,22.0,Female,Premium,2.0,9.0,False
+ORD-100106,2023-06-05,Delta,South-South,Jumia,Sports,Kettlebell 20kg,8167.36,5,0,40836.8,Card,21.0,Female,Premium,4.0,4.0,False
+ORD-100107,2023-06-06,Rivers,South-South,Jumia,Beauty,Maybelline Mascara,15035.98,2,0,30071.96,Bank Transfer,30.0,Male,VIP,1.0,13.0,False
+ORD-100108,2023-06-07,Delta,South-South,WhatsApp Commerce,Books,JAMB CBT Practice Book,11993.02,1,10,10793.72,POS,33.0,Female,VIP,4.0,13.0,False
+ORD-100109,2023-06-09,Kaduna,North-West,Flutterwave Store,Beauty,Maybelline Mascara,14250.52,1,20,11400.42,USSD,,Male,VIP,3.0,3.0,False
+ORD-100110,2023-06-10,Enugu,South-East,Flutterwave Store,Furniture,Glass Centre Table,249774.81,3,20,599459.54,USSD,26.0,Male,Premium,5.0,11.0,False
+ORD-100111,2023-06-12,Kaduna,North-West,Konga,Fashion,Female Aso-Oke,15796.33,2,0,31592.66,Card,35.0,Male,Premium,4.0,2.0,False
+ORD-100112,2023-06-13,Enugu,South-East,Jiji,Books,ICAN Study Pack,2501.64,1,20,2001.31,USSD,39.0,Female,Premium,5.0,10.0,False
+ORD-100113,2023-06-15,Delta,South-South,WhatsApp Commerce,Fashion,Female Aso-Oke,33568.51,1,0,33568.51,Card,30.0,Female,VIP,4.0,13.0,False
+ORD-100114,2023-06-16,Kaduna,North-West,Jiji,Phones & Tablets,Infinix Hot 40 Pro,182338.26,5,0,911691.3,Card,63.0,Female,VIP,3.0,11.0,False
+ORD-100115,2023-06-18,Rivers,South-South,Jiji,Groceries,Indomie Noodles Carton,1364.62,3,0,4093.86,Bank Transfer,22.0,Female,New,1.0,9.0,False
+ORD-100116,2023-06-19,Lagos,South-West,WhatsApp Commerce,Electronics,Sony Home Theatre,156290.49,4,10,562645.76,USSD,36.0,Female,Regular,3.0,4.0,False
+ORD-100117,2023-06-21,Delta,South-South,Flutterwave Store,Beauty,MAC Foundation Stick,20047.27,1,0,20047.27,Card,57.0,Male,New,1.0,3.0,False
+ORD-100118,2023-06-22,Enugu,South-East,WhatsApp Commerce,Sports,Adidas Running Sneakers,90172.55,1,5,85663.92,Bank Transfer,41.0,Male,VIP,1.0,7.0,False
+ORD-100119,2023-06-24,Oyo,South-West,Jiji,Groceries,Indomie Noodles Carton,911.62,1,15,774.88,Pay on Delivery,,Male,Premium,5.0,8.0,False
+ORD-100120,2023-06-25,Enugu,South-East,Flutterwave Store,Books,ICAN Study Pack,6115.55,1,15,5198.22,Bank Transfer,29.0,Female,VIP,3.0,11.0,False
+ORD-100121,2023-06-27,Oyo,South-West,Jumia,Fashion,Female Aso-Oke,24703.47,5,0,123517.35,Bank Transfer,52.0,Male,Regular,4.0,2.0,False
+ORD-100122,2023-06-28,Abuja,North-Central,WhatsApp Commerce,Sports,Yoga Mat Non-Slip,78411.96,2,20,125459.14,Card,36.0,Male,New,3.0,7.0,True
+ORD-100123,2023-06-29,Kaduna,North-West,WhatsApp Commerce,Fashion,Men Agbada Set,30132.11,1,5,28625.5,POS,33.0,Female,New,5.0,12.0,False
+ORD-100124,2023-07-01,Oyo,South-West,Flutterwave Store,Furniture,Computer Work Desk,198231.19,2,0,396462.38,POS,20.0,Female,Premium,1.0,5.0,False
+ORD-100125,2023-07-02,Enugu,South-East,Jumia,Fashion,Men Agbada Set,26328.78,2,5,50024.68,POS,18.0,Male,New,5.0,11.0,False
+ORD-100126,2023-07-04,Abuja,North-Central,Jumia,Furniture,Glass Centre Table,253504.39,4,5,963316.68,Bank Transfer,38.0,Male,New,2.0,5.0,False
+ORD-100127,2023-07-05,Lagos,South-West,Flutterwave Store,Phones & Tablets,Samsung Galaxy A55,712023.74,1,20,569618.99,Card,41.0,Female,VIP,2.0,3.0,True
+ORD-100128,2023-07-07,Rivers,South-South,Konga,Sports,Yoga Mat Non-Slip,65041.02,1,0,65041.02,USSD,52.0,Female,New,4.0,5.0,False
+ORD-100129,2023-07-08,Rivers,South-South,WhatsApp Commerce,Sports,Yoga Mat Non-Slip,54600.76,2,10,98281.37,Bank Transfer,39.0,Female,New,5.0,12.0,False
+ORD-100130,2023-07-10,Rivers,South-South,WhatsApp Commerce,Electronics,LG Air Conditioner 1.5HP,150502.63,1,20,120402.1,Bank Transfer,64.0,Female,New,4.0,2.0,False
+ORD-100131,2023-07-11,Oyo,South-West,Jiji,Books,ACCA F3 Textbook,7382.22,2,5,14026.22,Card,34.0,Male,Premium,4.0,4.0,False
+ORD-100132,2023-07-13,Lagos,South-West,Flutterwave Store,Furniture,L-Shape Office Sofa,406889.07,3,5,1159633.85,Pay on Delivery,40.0,Male,Premium,2.0,6.0,True
+ORD-100133,2023-07-14,Oyo,South-West,Jiji,Electronics,Hisense Chest Freezer,195364.5,3,10,527484.15,Bank Transfer,36.0,Female,VIP,4.0,1.0,False
+ORD-100134,2023-07-16,Kaduna,North-West,Jiji,Fashion,Female Gele Headtie,30620.34,2,5,58178.65,Pay on Delivery,27.0,Male,New,2.0,10.0,False
+ORD-100135,2023-07-17,Oyo,South-West,Jumia,Fashion,Ankara Midi Dress,33858.87,3,5,96497.78,Pay on Delivery,56.0,Male,Premium,1.0,4.0,False
+ORD-100136,2023-07-18,Lagos,South-West,WhatsApp Commerce,Electronics,Hisense Chest Freezer,189256.32,1,5,179793.5,POS,48.0,Female,Premium,5.0,6.0,False
+ORD-100137,2023-07-20,Lagos,South-West,Jiji,Sports,Adidas Running Sneakers,52937.6,3,15,134990.88,Card,19.0,Male,VIP,4.0,9.0,False
+ORD-100138,2023-07-21,Kaduna,North-West,Jumia,Fashion,Men Native Senator,39758.28,1,20,31806.62,Pay on Delivery,57.0,Male,Regular,2.0,11.0,False
+ORD-100139,2023-07-23,Lagos,South-West,Flutterwave Store,Beauty,Nivea Fair & Lovely,10903.65,1,0,10903.65,Card,22.0,Male,New,3.0,11.0,False
+ORD-100140,2023-07-24,Enugu,South-East,Jiji,Phones & Tablets,Tecno Spark 20 Pro,388386.28,2,20,621418.05,POS,37.0,Female,Premium,4.0,13.0,False
+ORD-100141,2023-07-26,Lagos,South-West,WhatsApp Commerce,Phones & Tablets,Infinix Hot 40 Pro,792611.1,1,10,713349.99,Card,48.0,Female,VIP,1.0,2.0,False
+ORD-100142,2023-07-27,Rivers,South-South,Jiji,Beauty,Nivea Fair & Lovely,805.75,4,5,3061.85,Bank Transfer,32.0,Male,VIP,1.0,11.0,True
+ORD-100143,2023-07-29,Enugu,South-East,Flutterwave Store,Electronics,Hisense Chest Freezer,77133.42,1,20,61706.74,Pay on Delivery,39.0,Female,VIP,,7.0,False
+ORD-100144,2023-07-30,Enugu,South-East,Jiji,Beauty,Dark & Lovely Relaxer,10091.93,2,15,17156.28,Card,49.0,Female,Premium,2.0,6.0,False
+ORD-100145,2023-08-01,Kaduna,North-West,WhatsApp Commerce,Furniture,6ft Orthopedic Mattress,467980.21,1,10,421182.19,USSD,43.0,Female,New,4.0,2.0,False
+ORD-100146,2023-08-02,Kano,North-West,Jumia,Furniture,L-Shape Office Sofa,58264.11,1,0,58264.11,Card,58.0,Male,Regular,2.0,8.0,True
+ORD-100147,2023-08-04,Kano,North-West,WhatsApp Commerce,Electronics,"Samsung Smart TV 55""",18177.62,5,20,72710.48,Pay on Delivery,56.0,Male,New,1.0,7.0,False
+ORD-100148,2023-08-05,Lagos,South-West,Jumia,Beauty,Neutrogena Body Lotion,2074.95,3,0,6224.85,POS,54.0,Female,VIP,2.0,11.0,False
+ORD-100149,2023-08-06,Enugu,South-East,Konga,Furniture,Glass Centre Table,67058.12,3,5,191115.64,POS,,Male,VIP,1.0,5.0,False
+ORD-100150,2023-08-08,Kano,North-West,WhatsApp Commerce,Sports,Yoga Mat Non-Slip,7398.82,4,15,25155.99,Pay on Delivery,64.0,Male,Regular,2.0,12.0,False
+ORD-100151,2023-08-09,Kano,North-West,WhatsApp Commerce,Beauty,Neutrogena Body Lotion,12410.71,1,15,10549.1,Bank Transfer,32.0,Male,New,3.0,5.0,True
+ORD-100152,2023-08-11,Lagos,South-West,Flutterwave Store,Sports,Kettlebell 20kg,70948.59,2,20,113517.74,Bank Transfer,49.0,Male,VIP,5.0,7.0,False
+ORD-100153,2023-08-12,Kano,North-West,Jiji,Furniture,Wardrobe 4-Door Mahogany,154051.31,4,10,554584.72,POS,21.0,Male,VIP,3.0,999.0,True
+ORD-100154,2023-08-14,Oyo,South-West,Jumia,Phones & Tablets,Infinix Hot 40 Pro,339689.85,1,10,305720.86,POS,61.0,Female,New,3.0,11.0,False
+ORD-100155,2023-08-15,Abuja,North-Central,Jumia,Furniture,6ft Orthopedic Mattress,68557.18,2,15,116547.21,Pay on Delivery,21.0,Male,VIP,5.0,9.0,True
+ORD-100156,2023-08-17,Kaduna,North-West,Flutterwave Store,Sports,Treadmill Manual,42355.34,1,10,38119.81,Bank Transfer,49.0,Male,New,5.0,9.0,True
+ORD-100157,2023-08-18,Abuja,North-Central,Flutterwave Store,Groceries,Titus Sardine 50pcs,4418.89,4,15,15024.23,POS,16.0,Male,VIP,4.0,6.0,False
+ORD-100158,2023-08-20,Lagos,South-West,Jiji,Books,ACCA F3 Textbook,9108.54,4,20,29147.33,Bank Transfer,,Female,New,4.0,10.0,True
+ORD-100159,2023-08-21,Rivers,South-South,Jiji,Fashion,Men Agbada Set,2642.22,2,0,5284.44,POS,36.0,Female,Regular,3.0,6.0,False
+ORD-100160,2023-08-23,Kaduna,North-West,WhatsApp Commerce,Beauty,MAC Foundation Stick,12108.92,1,15,10292.58,Card,20.0,Female,VIP,3.0,3.0,False
+ORD-100161,2023-08-24,Lagos,South-West,Konga,Groceries,Golden Penny Rice 25kg,2727.52,2,0,5455.04,USSD,17.0,Male,Regular,1.0,1.0,False
+ORD-100162,2023-08-25,Enugu,South-East,Jiji,Furniture,Computer Work Desk,430090.37,2,10,774162.67,Card,37.0,Female,VIP,1.0,7.0,False
+ORD-100163,2023-08-27,Rivers,South-South,Flutterwave Store,Phones & Tablets,Tecno Spark 20 Pro,582398.29,1,15,495038.55,POS,63.0,Female,VIP,4.0,4.0,False
+ORD-100164,2023-08-28,Abuja,North-Central,Jiji,Electronics,Scanfrost Refrigerator,212351.36,1,15,180498.66,USSD,17.0,Female,Premium,4.0,1.0,False
+ORD-100165,2023-08-30,Lagos,South-West,Jumia,Furniture,Glass Centre Table,156701.18,1,20,125360.94,USSD,25.0,Female,New,1.0,8.0,False
+ORD-100166,2023-08-31,Enugu,South-East,Konga,Phones & Tablets,Samsung Galaxy A55,731409.41,5,10,3291342.34,POS,49.0,Male,Regular,1.0,12.0,False
+ORD-100167,2023-09-02,Kaduna,North-West,WhatsApp Commerce,Books,ICAN Study Pack,1687.09,1,0,1687.09,POS,31.0,Female,Regular,2.0,6.0,False
+ORD-100168,2023-09-03,Kaduna,North-West,Jumia,Furniture,Wardrobe 4-Door Mahogany,76997.11,1,20,61597.69,Bank Transfer,63.0,Female,Regular,2.0,6.0,False
+ORD-100169,2023-09-05,Delta,South-South,Jumia,Sports,Yoga Mat Non-Slip,48820.73,2,0,97641.46,POS,54.0,Male,New,1.0,2.0,False
+ORD-100170,2023-09-06,Enugu,South-East,Konga,Electronics,LG Air Conditioner 1.5HP,56686.58,3,20,136047.79,Pay on Delivery,37.0,Male,Premium,,1.0,False
+ORD-100171,2023-09-08,Oyo,South-West,WhatsApp Commerce,Phones & Tablets,Tecno Spark 20 Pro,766658.01,1,10,689992.21,POS,27.0,Female,Regular,5.0,13.0,False
+ORD-100172,2023-09-09,Kano,North-West,Flutterwave Store,Phones & Tablets,Samsung Galaxy A55,645461.83,1,0,645461.83,Pay on Delivery,39.0,Male,New,,2.0,False
+ORD-100173,2023-09-11,Rivers,South-South,WhatsApp Commerce,Phones & Tablets,Samsung Galaxy A55,233121.73,1,10,209809.56,POS,62.0,Female,VIP,4.0,4.0,False
+ORD-100174,2023-09-12,Enugu,South-East,Jiji,Books,WAEC Past Questions 2024,7556.39,5,10,34003.76,Bank Transfer,55.0,Male,Regular,1.0,2.0,False
+ORD-100175,2023-09-14,Delta,South-South,Jumia,Furniture,Computer Work Desk,491606.99,3,0,1474820.97,Pay on Delivery,53.0,Male,Regular,3.0,1.0,False
+ORD-100176,2023-09-15,Kano,North-West,Jiji,Books,ACCA F3 Textbook,10749.35,3,0,32248.05,Card,25.0,Female,Premium,1.0,7.0,True
+ORD-100177,2023-09-16,Kano,North-West,Flutterwave Store,Beauty,Nivea Fair & Lovely,15339.32,1,10,13805.39,Pay on Delivery,50.0,Male,Regular,2.0,11.0,True
+ORD-100178,2023-09-18,Lagos,South-West,Jiji,Fashion,Ankara Midi Dress,40908.27,1,10,36817.44,Bank Transfer,64.0,Female,Regular,3.0,11.0,False
+ORD-100179,2023-09-19,Kano,North-West,WhatsApp Commerce,Fashion,Ankara Midi Dress,44540.36,3,10,120258.97,Pay on Delivery,,Male,VIP,2.0,12.0,False
+ORD-100180,2023-09-21,Oyo,South-West,Jiji,Beauty,Nivea Fair & Lovely,18789.14,1,0,18789.14,POS,22.0,Female,New,5.0,8.0,False
+ORD-100181,2023-09-22,Kaduna,North-West,Flutterwave Store,Furniture,Wardrobe 4-Door Mahogany,55868.54,1,10,50281.69,POS,,Male,New,2.0,6.0,False
+ORD-100182,2023-09-24,Delta,South-South,Flutterwave Store,Sports,Adidas Running Sneakers,49984.89,2,10,89972.8,Bank Transfer,35.0,Male,Premium,5.0,4.0,False
+ORD-100183,2023-09-25,Kano,North-West,Flutterwave Store,Books,WAEC Past Questions 2024,10248.52,1,5,9736.09,USSD,41.0,Male,VIP,5.0,6.0,True
+ORD-100184,2023-09-27,Lagos,South-West,WhatsApp Commerce,Electronics,Hisense Chest Freezer,92240.68,5,0,461203.4,POS,19.0,Male,New,2.0,3.0,True
+ORD-100185,2023-09-28,Oyo,South-West,Flutterwave Store,Phones & Tablets,iPhone 15 128GB,670441.53,5,0,3352207.65,Card,61.0,Male,VIP,2.0,12.0,False
+ORD-100186,2023-09-30,Abuja,North-Central,Jumia,Phones & Tablets,Infinix Hot 40 Pro,127059.15,1,0,127059.15,Bank Transfer,37.0,Female,New,5.0,8.0,False
+ORD-100187,2023-10-01,Kaduna,North-West,Flutterwave Store,Furniture,Wardrobe 4-Door Mahogany,47299.04,3,5,134802.26,Pay on Delivery,30.0,Male,VIP,3.0,10.0,False
+ORD-100188,2023-10-03,Kaduna,North-West,Jiji,Sports,Kettlebell 20kg,47938.6,2,0,95877.2,Pay on Delivery,55.0,Female,Premium,5.0,13.0,False
+ORD-100189,2023-10-04,Delta,South-South,Jiji,Fashion,Female Aso-Oke,4061.11,2,20,6497.78,Card,36.0,Female,Regular,4.0,13.0,False
+ORD-100190,2023-10-05,Kaduna,North-West,Jiji,Fashion,Ankara Midi Dress,43183.99,2,10,77731.18,POS,30.0,Female,Premium,5.0,2.0,False
+ORD-100191,2023-10-07,Kano,North-West,WhatsApp Commerce,Phones & Tablets,Xiaomi Redmi Note 13,667047.36,1,5,633694.99,Bank Transfer,37.0,Male,New,3.0,5.0,False
+ORD-100192,2023-10-08,Lagos,South-West,Jiji,Furniture,L-Shape Office Sofa,405365.6,1,20,324292.48,Card,43.0,Female,Premium,4.0,1.0,False
+ORD-100193,2023-10-10,Kaduna,North-West,WhatsApp Commerce,Books,ACCA F3 Textbook,8001.6,2,10,14402.88,POS,29.0,Male,Regular,1.0,6.0,False
+ORD-100194,2023-10-11,Kaduna,North-West,WhatsApp Commerce,Fashion,Men Agbada Set,11693.77,2,0,23387.54,Bank Transfer,42.0,Female,Premium,1.0,2.0,False
+ORD-100195,2023-10-13,Abuja,North-Central,Flutterwave Store,Books,WAEC Past Questions 2024,6797.21,1,15,5777.63,Pay on Delivery,56.0,Female,New,3.0,4.0,False
+ORD-100196,2023-10-14,Abuja,North-Central,Jumia,Sports,Football Jersey Nigeria,72881.07,5,5,346185.08,Bank Transfer,55.0,Female,New,5.0,6.0,False
+ORD-100197,2023-10-16,Rivers,South-South,Flutterwave Store,Fashion,Female Aso-Oke,24813.84,2,0,49627.68,USSD,43.0,Female,Premium,2.0,10.0,False
+ORD-100198,2023-10-17,Oyo,South-West,Flutterwave Store,Fashion,Men Agbada Set,13559.92,4,5,51527.7,Bank Transfer,41.0,Female,Regular,3.0,11.0,False
+ORD-100199,2023-10-19,Kano,North-West,WhatsApp Commerce,Groceries,Dangote Semolina 10kg,4364.36,2,5,8292.28,USSD,64.0,Male,Premium,4.0,8.0,False
+ORD-100200,2023-10-20,Kaduna,North-West,WhatsApp Commerce,Fashion,Female Gele Headtie,23375.42,2,0,46750.84,Bank Transfer,17.0,Female,Regular,4.0,12.0,False
+ORD-100201,2023-10-22,Enugu,South-East,Jiji,Beauty,MAC Foundation Stick,24911.33,4,0,99645.32,USSD,40.0,Female,VIP,1.0,8.0,True
+ORD-100202,2023-10-23,Kaduna,North-West,Jiji,Electronics,LG Air Conditioner 1.5HP,315641.11,1,0,315641.11,Pay on Delivery,18.0,Male,Regular,4.0,11.0,False
+ORD-100203,2023-10-24,Lagos,South-West,Flutterwave Store,Beauty,Nivea Fair & Lovely,12013.81,5,10,54062.14,POS,23.0,Male,VIP,3.0,6.0,True
+ORD-100204,2023-10-26,Rivers,South-South,Konga,Furniture,Glass Centre Table,320895.26,4,5,1219401.99,USSD,59.0,Male,Premium,4.0,4.0,False
+ORD-100205,2023-10-27,Oyo,South-West,Konga,Furniture,Glass Centre Table,380239.01,3,10,1026645.33,USSD,48.0,Female,Regular,3.0,8.0,False
+ORD-100206,2023-10-29,Enugu,South-East,Jiji,Books,Nigerian Law Reports Vol 12,1576.54,3,15,4020.18,Pay on Delivery,57.0,Female,VIP,2.0,13.0,True
+ORD-100207,2023-10-30,Rivers,South-South,Konga,Beauty,Maybelline Mascara,22457.1,1,0,22457.1,USSD,50.0,Female,VIP,1.0,8.0,False
+ORD-100208,2023-11-01,Delta,South-South,Jiji,Beauty,Neutrogena Body Lotion,21615.07,2,10,38907.13,Card,21.0,Female,VIP,4.0,10.0,True
+ORD-100209,2023-11-02,Oyo,South-West,WhatsApp Commerce,Beauty,Neutrogena Body Lotion,11869.86,1,0,11869.86,Pay on Delivery,54.0,Female,New,3.0,1.0,False
+ORD-100210,2023-11-04,Kaduna,North-West,Flutterwave Store,Sports,Yoga Mat Non-Slip,48766.86,1,10,43890.17,Card,,Female,Premium,5.0,4.0,False
+ORD-100211,2023-11-05,Kaduna,North-West,Jumia,Fashion,Female Gele Headtie,14100.77,2,0,28201.54,Pay on Delivery,40.0,Male,VIP,1.0,4.0,False
+ORD-100212,2023-11-07,Oyo,South-West,Flutterwave Store,Electronics,Sony Home Theatre,174686.74,2,0,349373.48,USSD,58.0,Male,Regular,2.0,7.0,False
+ORD-100213,2023-11-08,Kaduna,North-West,Jiji,Books,ICAN Study Pack,1679.27,4,0,6717.08,Card,34.0,Female,VIP,3.0,11.0,False
+ORD-100214,2023-11-10,Kano,North-West,Jiji,Beauty,Neutrogena Body Lotion,21423.08,1,0,21423.08,USSD,20.0,Female,New,2.0,7.0,False
+ORD-100215,2023-11-11,Oyo,South-West,Flutterwave Store,Beauty,Dark & Lovely Relaxer,1657.22,4,0,6628.88,Pay on Delivery,26.0,Female,Premium,2.0,13.0,True
+ORD-100216,2023-11-12,Rivers,South-South,Jiji,Groceries,Indomie Noodles Carton,2967.89,5,0,14839.45,USSD,27.0,Female,New,4.0,11.0,False
+ORD-100217,2023-11-14,Oyo,South-West,Konga,Books,Nigerian Law Reports Vol 12,11261.17,4,0,45044.68,Card,25.0,Female,New,4.0,8.0,True
+ORD-100218,2023-11-15,Enugu,South-East,Konga,Beauty,MAC Foundation Stick,18592.15,2,5,35325.08,Card,23.0,Male,New,3.0,11.0,False
+ORD-100219,2023-11-17,Kaduna,North-West,Jiji,Books,JAMB CBT Practice Book,4239.02,2,10,7630.24,USSD,39.0,Male,Regular,5.0,5.0,False
+ORD-100220,2023-11-18,Kano,North-West,Jiji,Fashion,Men Native Senator,13237.59,4,0,52950.36,Bank Transfer,43.0,Female,Premium,3.0,7.0,True
+ORD-100221,2023-11-20,Kano,North-West,Konga,Groceries,Honeywell Flour 10kg,538.12,1,0,538.12,Pay on Delivery,56.0,Male,Premium,5.0,8.0,False
+ORD-100222,2023-11-21,Delta,South-South,Jiji,Books,ICAN Study Pack,8713.71,2,0,17427.42,Pay on Delivery,51.0,Female,Regular,2.0,9.0,True
+ORD-100223,2023-11-23,Rivers,South-South,Jiji,Electronics,Sony Home Theatre,31342.5,1,0,31342.5,USSD,52.0,Female,Premium,1.0,3.0,False
+ORD-100224,2023-11-24,Abuja,North-Central,Flutterwave Store,Electronics,"Samsung Smart TV 55""",193421.84,1,5,183750.75,Bank Transfer,36.0,Female,New,3.0,3.0,False
+ORD-100225,2023-11-26,Abuja,North-Central,Jumia,Furniture,Glass Centre Table,482007.94,4,10,1735228.58,Card,23.0,Male,Premium,3.0,4.0,False
+ORD-100226,2023-11-27,Oyo,South-West,Konga,Groceries,Dangote Semolina 10kg,1321.02,2,5,2509.94,POS,,Male,Regular,5.0,5.0,False
+ORD-100227,2023-11-29,Delta,South-South,Flutterwave Store,Groceries,Golden Penny Rice 25kg,7208.6,2,0,14417.2,POS,62.0,Female,New,2.0,10.0,False
+ORD-100228,2023-11-30,Lagos,South-West,Jumia,Furniture,Glass Centre Table,495950.78,2,20,793521.25,USSD,30.0,Male,Regular,2.0,1.0,False
+ORD-100229,2023-12-02,Oyo,South-West,Jiji,Books,JAMB CBT Practice Book,1864.38,3,0,5593.14,Bank Transfer,63.0,Male,VIP,5.0,7.0,False
+ORD-100230,2023-12-03,Delta,South-South,Jiji,Groceries,Indomie Noodles Carton,7121.8,1,0,7121.8,Bank Transfer,61.0,Female,New,2.0,9.0,False
+ORD-100231,2023-12-04,Rivers,South-South,Flutterwave Store,Electronics,Hisense Chest Freezer,187886.47,1,15,159703.5,Pay on Delivery,55.0,Male,New,4.0,8.0,False
+ORD-100232,2023-12-06,Rivers,South-South,Jiji,Electronics,Sony Home Theatre,318682.1,3,0,956046.3,Card,33.0,Male,Premium,1.0,5.0,False
+ORD-100233,2023-12-07,Rivers,South-South,WhatsApp Commerce,Beauty,Maybelline Mascara,14625.92,2,20,23401.47,Bank Transfer,57.0,Female,New,3.0,4.0,False
+ORD-100234,2023-12-09,Rivers,South-South,Flutterwave Store,Fashion,Men Agbada Set,30639.76,2,0,61279.52,POS,35.0,Female,Regular,1.0,12.0,True
+ORD-100235,2023-12-10,Rivers,South-South,Jumia,Groceries,Honeywell Flour 10kg,4578.34,5,5,21747.12,Card,,Male,Premium,3.0,7.0,False
+ORD-100236,2023-12-12,Delta,South-South,Flutterwave Store,Books,ICAN Study Pack,10536.52,2,20,16858.43,Card,27.0,Female,VIP,4.0,5.0,False
+ORD-100237,2023-12-13,Delta,South-South,Konga,Furniture,Wardrobe 4-Door Mahogany,373607.21,2,10,672492.98,USSD,17.0,Male,Regular,2.0,7.0,False
+ORD-100238,2023-12-15,Kano,North-West,Flutterwave Store,Furniture,6ft Orthopedic Mattress,272598.65,3,0,817795.95,Bank Transfer,22.0,Female,VIP,5.0,12.0,False
+ORD-100239,2023-12-16,Enugu,South-East,Jiji,Books,ACCA F3 Textbook,10576.14,1,10,9518.53,USSD,31.0,Female,VIP,4.0,1.0,False
+ORD-100240,2023-12-18,Abuja,North-Central,Jiji,Sports,Adidas Running Sneakers,31698.41,2,5,60226.98,Bank Transfer,18.0,Female,VIP,1.0,1.0,True
+ORD-100241,2023-12-19,Kaduna,North-West,WhatsApp Commerce,Phones & Tablets,iPhone 15 128GB,155365.6,4,0,621462.4,Pay on Delivery,60.0,Female,New,5.0,10.0,False
+ORD-100242,2023-12-21,Rivers,South-South,WhatsApp Commerce,Fashion,Ankara Midi Dress,9317.0,2,20,14907.2,USSD,18.0,Male,Regular,,13.0,False
+ORD-100243,2023-12-22,Lagos,South-West,WhatsApp Commerce,Furniture,L-Shape Office Sofa,183654.22,1,10,165288.8,USSD,42.0,Female,Regular,4.0,3.0,False
+ORD-100244,2023-12-23,Kaduna,North-West,Jumia,Groceries,Titus Sardine 50pcs,2290.18,5,10,10305.81,POS,58.0,Female,New,5.0,11.0,False
+ORD-100245,2023-12-25,Delta,South-South,WhatsApp Commerce,Fashion,Female Aso-Oke,42028.84,5,0,210144.2,USSD,55.0,Female,Premium,4.0,2.0,False
+ORD-100246,2023-12-26,Lagos,South-West,Jumia,Groceries,Honeywell Flour 10kg,1293.76,1,20,1035.01,Bank Transfer,53.0,Male,VIP,4.0,2.0,False
+ORD-100247,2023-12-28,Lagos,South-West,WhatsApp Commerce,Sports,Yoga Mat Non-Slip,84781.92,2,0,169563.84,POS,48.0,Male,Regular,2.0,7.0,False
+ORD-100248,2023-12-29,Lagos,South-West,Jumia,Electronics,Scanfrost Refrigerator,78389.22,3,0,235167.66,USSD,43.0,Female,New,3.0,12.0,False
+ORD-100249,2023-12-31,Kano,North-West,Flutterwave Store,Fashion,Female Aso-Oke,39969.58,1,10,35972.62,USSD,16.0,Female,VIP,5.0,10.0,False
+ORD-100250,2024-01-01,Delta,South-South,Flutterwave Store,Beauty,Neutrogena Body Lotion,24063.83,1,0,24063.83,Pay on Delivery,23.0,Female,Premium,2.0,2.0,False
+ORD-100251,2024-01-03,Lagos,South-West,Jiji,Furniture,L-Shape Office Sofa,246098.25,1,0,246098.25,USSD,52.0,Female,Premium,4.0,11.0,False
+ORD-100252,2024-01-04,Rivers,South-South,Jumia,Fashion,Men Agbada Set,39860.54,2,0,79721.08,Card,,Female,VIP,2.0,4.0,False
+ORD-100253,2024-01-06,Oyo,South-West,Konga,Fashion,Female Gele Headtie,2718.67,2,10,4893.61,POS,63.0,Female,Premium,3.0,2.0,False
+ORD-100254,2024-01-07,Lagos,South-West,Jiji,Fashion,Men Agbada Set,37347.74,1,5,35480.35,Card,58.0,Male,Regular,5.0,6.0,False
+ORD-100255,2024-01-09,Kano,North-West,Flutterwave Store,Phones & Tablets,iPhone 15 128GB,209898.25,1,10,188908.42,POS,52.0,Female,Regular,3.0,8.0,False
+ORD-100256,2024-01-10,Kaduna,North-West,Jumia,Fashion,Men Agbada Set,41119.81,3,0,123359.43,Pay on Delivery,19.0,Female,Regular,1.0,10.0,False
+ORD-100257,2024-01-11,Delta,South-South,WhatsApp Commerce,Groceries,Titus Sardine 50pcs,508.4,1,20,406.72,USSD,45.0,Female,Premium,5.0,4.0,False
+ORD-100258,2024-01-13,Enugu,South-East,Konga,Electronics,LG Air Conditioner 1.5HP,201320.88,4,15,684490.99,USSD,21.0,Female,Regular,3.0,5.0,False
+ORD-100259,2024-01-14,Kano,North-West,Flutterwave Store,Sports,Football Jersey Nigeria,91526.39,4,5,347800.28,USSD,61.0,Female,New,4.0,4.0,False
+ORD-100260,2024-01-16,Lagos,South-West,Jiji,Books,WAEC Past Questions 2024,3993.83,2,0,7987.66,POS,34.0,Female,Regular,5.0,3.0,False
+ORD-100261,2024-01-17,Delta,South-South,Jumia,Fashion,Female Gele Headtie,10708.15,1,5,10172.74,USSD,47.0,Male,Regular,5.0,5.0,False
+ORD-100262,2024-01-19,Oyo,South-West,Konga,Furniture,6ft Orthopedic Mattress,64946.66,4,20,207829.31,Card,24.0,Male,Premium,,9.0,True
+ORD-100263,2024-01-20,Lagos,South-West,Jumia,Fashion,Ankara Midi Dress,16373.43,2,0,32746.86,USSD,27.0,Male,Regular,4.0,8.0,False
+ORD-100264,2024-01-22,Kano,North-West,WhatsApp Commerce,Furniture,6ft Orthopedic Mattress,290926.05,4,20,930963.36,Pay on Delivery,26.0,Male,VIP,1.0,8.0,False
+ORD-100265,2024-01-23,Abuja,North-Central,Jiji,Groceries,Indomie Noodles Carton,1368.83,4,0,5475.32,Card,61.0,Male,New,3.0,8.0,False
+ORD-100266,2024-01-25,Rivers,South-South,Jumia,Furniture,Glass Centre Table,203930.3,4,5,774935.14,USSD,31.0,Male,Premium,2.0,12.0,False
+ORD-100267,2024-01-26,Enugu,South-East,Flutterwave Store,Beauty,Neutrogena Body Lotion,1019.55,5,0,5097.75,USSD,16.0,Female,New,3.0,8.0,False
+ORD-100268,2024-01-28,Kaduna,North-West,Jiji,Books,Nigerian Law Reports Vol 12,10041.74,1,0,10041.74,Bank Transfer,60.0,Female,VIP,1.0,7.0,False
+ORD-100269,2024-01-29,Kano,North-West,Flutterwave Store,Electronics,Sony Home Theatre,58030.32,1,0,58030.32,POS,36.0,Female,Premium,1.0,8.0,False
+ORD-100270,2024-01-30,Delta,South-South,Jumia,Furniture,Wardrobe 4-Door Mahogany,159587.9,2,10,287258.22,Card,45.0,Female,Premium,5.0,11.0,False
+ORD-100271,2024-02-01,Enugu,South-East,Jiji,Furniture,L-Shape Office Sofa,33753.17,1,10,30377.85,Bank Transfer,28.0,Female,Regular,1.0,8.0,False
+ORD-100272,2024-02-02,Enugu,South-East,Flutterwave Store,Electronics,Hisense Chest Freezer,159800.66,5,15,679152.8,Pay on Delivery,49.0,Female,New,3.0,13.0,True
+ORD-100273,2024-02-04,Enugu,South-East,WhatsApp Commerce,Books,ICAN Study Pack,10273.31,2,15,17464.63,POS,19.0,Male,VIP,,8.0,False
+ORD-100274,2024-02-05,Lagos,South-West,WhatsApp Commerce,Fashion,Ankara Midi Dress,19166.43,2,0,38332.86,Card,43.0,Female,VIP,4.0,12.0,False
+ORD-100275,2024-02-07,Rivers,South-South,Jumia,Furniture,L-Shape Office Sofa,110261.23,2,15,187444.09,USSD,53.0,Male,Premium,5.0,10.0,False
+ORD-100276,2024-02-08,Lagos,South-West,Jiji,Electronics,Sony Home Theatre,267489.11,3,20,641973.86,Card,46.0,Male,Regular,3.0,7.0,True
+ORD-100277,2024-02-10,Delta,South-South,Konga,Beauty,Dark & Lovely Relaxer,19889.13,4,5,75578.69,USSD,42.0,Female,Premium,3.0,12.0,False
+ORD-100278,2024-02-11,Lagos,South-West,Jiji,Beauty,Dark & Lovely Relaxer,5004.83,3,0,15014.49,POS,20.0,Female,Premium,,1.0,False
+ORD-100279,2024-02-13,Abuja,North-Central,WhatsApp Commerce,Groceries,Dangote Semolina 10kg,6281.41,1,20,5025.13,USSD,40.0,Female,Premium,3.0,4.0,False
+ORD-100280,2024-02-14,Rivers,South-South,Flutterwave Store,Electronics,Sony Home Theatre,332344.79,2,0,664689.58,Pay on Delivery,18.0,Female,Premium,2.0,13.0,False
+ORD-100281,2024-02-16,Rivers,South-South,Konga,Groceries,Titus Sardine 50pcs,1747.83,5,0,8739.15,USSD,48.0,Female,VIP,1.0,13.0,False
+ORD-100282,2024-02-17,Delta,South-South,Jumia,Beauty,Dark & Lovely Relaxer,19457.82,2,0,38915.64,Pay on Delivery,19.0,Female,VIP,2.0,4.0,False
+ORD-100283,2024-02-19,Kaduna,North-West,Konga,Books,WAEC Past Questions 2024,8852.58,1,20,7082.06,POS,40.0,Female,Premium,5.0,5.0,False
+ORD-100284,2024-02-20,Abuja,North-Central,Jumia,Fashion,Female Gele Headtie,22626.89,4,0,90507.56,POS,35.0,Male,Premium,4.0,10.0,True
+ORD-100285,2024-02-21,Kano,North-West,Konga,Electronics,Sony Home Theatre,34403.35,1,0,34403.35,Card,49.0,Female,Regular,5.0,6.0,False
+ORD-100286,2024-02-23,Lagos,South-West,Jumia,Sports,Treadmill Manual,11739.25,2,0,23478.5,Pay on Delivery,41.0,Female,Premium,4.0,4.0,False
+ORD-100287,2024-02-24,Oyo,South-West,Jumia,Beauty,Maybelline Mascara,21428.43,4,5,81428.03,Pay on Delivery,20.0,Male,VIP,5.0,2.0,False
+ORD-100288,2024-02-26,Lagos,South-West,Konga,Beauty,Maybelline Mascara,24761.59,3,15,63142.05,Bank Transfer,50.0,Female,New,3.0,6.0,True
+ORD-100289,2024-02-27,Enugu,South-East,Konga,Sports,Yoga Mat Non-Slip,82098.11,3,5,233979.61,Bank Transfer,43.0,Female,VIP,2.0,8.0,True
+ORD-100290,2024-02-29,Lagos,South-West,Jumia,Phones & Tablets,Samsung Galaxy A55,376158.1,2,15,639468.77,Bank Transfer,44.0,Male,Regular,4.0,8.0,False
+ORD-100291,2024-03-01,Kano,North-West,WhatsApp Commerce,Beauty,Dark & Lovely Relaxer,16471.28,3,0,49413.84,USSD,24.0,Female,VIP,1.0,7.0,False
+ORD-100292,2024-03-03,Lagos,South-West,Konga,Furniture,L-Shape Office Sofa,307338.03,2,0,614676.06,Bank Transfer,53.0,Female,New,2.0,6.0,False
+ORD-100293,2024-03-04,Abuja,North-Central,Jiji,Books,ACCA F3 Textbook,5343.01,1,0,5343.01,Pay on Delivery,21.0,Female,Premium,1.0,2.0,False
+ORD-100294,2024-03-06,Abuja,North-Central,Flutterwave Store,Electronics,"Samsung Smart TV 55""",36984.76,1,0,36984.76,USSD,34.0,Female,New,2.0,7.0,False
+ORD-100295,2024-03-07,Rivers,South-South,Jumia,Sports,Yoga Mat Non-Slip,99117.01,1,20,79293.61,POS,59.0,Female,Premium,2.0,11.0,False
+ORD-100296,2024-03-09,Delta,South-South,Jumia,Furniture,L-Shape Office Sofa,201620.93,4,15,685511.16,Card,26.0,Female,Premium,5.0,12.0,False
+ORD-100297,2024-03-10,Kaduna,North-West,Flutterwave Store,Sports,Adidas Running Sneakers,98797.92,1,20,79038.34,Bank Transfer,17.0,Male,VIP,4.0,5.0,False
+ORD-100298,2024-03-11,Oyo,South-West,WhatsApp Commerce,Electronics,LG Air Conditioner 1.5HP,99590.43,5,0,497952.15,POS,,Female,VIP,4.0,6.0,False
+ORD-100299,2024-03-13,Enugu,South-East,Flutterwave Store,Groceries,Indomie Noodles Carton,507.72,1,0,507.72,Pay on Delivery,59.0,Female,VIP,2.0,10.0,False
+ORD-100300,2024-03-14,Lagos,South-West,Konga,Electronics,Hisense Chest Freezer,68244.32,1,10,61419.89,Card,59.0,Male,Regular,3.0,8.0,True
+ORD-100301,2024-03-16,Lagos,South-West,Flutterwave Store,Phones & Tablets,Infinix Hot 40 Pro,393432.65,2,5,747522.04,POS,24.0,Male,VIP,3.0,8.0,False
+ORD-100302,2024-03-17,Kano,North-West,Jumia,Electronics,"Samsung Smart TV 55""",331341.72,1,5,314774.63,Card,36.0,Female,Regular,1.0,3.0,False
+ORD-100303,2024-03-19,Delta,South-South,Flutterwave Store,Electronics,"Samsung Smart TV 55""",49234.86,5,0,246174.3,Bank Transfer,39.0,Male,VIP,1.0,12.0,False
+ORD-100304,2024-03-20,Abuja,North-Central,Jiji,Phones & Tablets,Infinix Hot 40 Pro,688470.48,5,0,3442352.4,Pay on Delivery,49.0,Female,Premium,5.0,12.0,False
+ORD-100305,2024-03-22,Oyo,South-West,Konga,Books,WAEC Past Questions 2024,6891.86,5,15,29290.4,Card,37.0,Female,Regular,2.0,7.0,False
+ORD-100306,2024-03-23,Rivers,South-South,Flutterwave Store,Beauty,Nivea Fair & Lovely,20787.28,1,10,18708.55,POS,18.0,Male,New,1.0,1.0,False
+ORD-100307,2024-03-25,Abuja,North-Central,Jumia,Electronics,Hisense Chest Freezer,114955.43,1,10,103459.89,Bank Transfer,27.0,Female,Regular,,1.0,False
+ORD-100308,2024-03-26,Enugu,South-East,Konga,Phones & Tablets,Samsung Galaxy A55,677559.58,1,20,542047.66,Bank Transfer,43.0,Female,Regular,2.0,7.0,False
+ORD-100309,2024-03-28,Delta,South-South,Jumia,Furniture,Glass Centre Table,392090.82,2,5,744972.56,POS,45.0,Male,New,5.0,10.0,False
+ORD-100310,2024-03-29,Enugu,South-East,WhatsApp Commerce,Groceries,Indomie Noodles Carton,2225.4,2,0,4450.8,POS,41.0,Male,Regular,1.0,9.0,True
+ORD-100311,2024-03-30,Kaduna,North-West,Jiji,Groceries,Indomie Noodles Carton,1485.01,1,0,1485.01,Card,63.0,Male,Premium,5.0,7.0,True
+ORD-100312,2024-04-01,Rivers,South-South,WhatsApp Commerce,Electronics,LG Air Conditioner 1.5HP,305798.2,5,0,1528991.0,USSD,36.0,Male,VIP,4.0,10.0,False
+ORD-100313,2024-04-02,Kaduna,North-West,Jiji,Books,ACCA F3 Textbook,11602.96,1,20,9282.37,Bank Transfer,43.0,Female,New,5.0,5.0,False
+ORD-100314,2024-04-04,Kano,North-West,Flutterwave Store,Books,Nigerian Law Reports Vol 12,1538.06,2,0,3076.12,Card,,Male,VIP,3.0,8.0,False
+ORD-100315,2024-04-05,Enugu,South-East,Konga,Furniture,6ft Orthopedic Mattress,372353.28,2,0,744706.56,POS,48.0,Male,Premium,3.0,2.0,False
+ORD-100316,2024-04-07,Kano,North-West,Flutterwave Store,Electronics,Sony Home Theatre,319690.71,4,20,1023010.27,Card,36.0,Male,New,,9.0,False
+ORD-100317,2024-04-08,Lagos,South-West,Jiji,Groceries,Indomie Noodles Carton,6930.2,1,0,6930.2,POS,50.0,Male,VIP,3.0,6.0,False
+ORD-100318,2024-04-10,Kaduna,North-West,Jiji,Books,ACCA F3 Textbook,11616.82,1,0,11616.82,Pay on Delivery,49.0,Male,VIP,4.0,13.0,False
+ORD-100319,2024-04-11,Delta,South-South,Jiji,Electronics,Hisense Chest Freezer,269631.52,1,0,269631.52,POS,,Female,Premium,2.0,9.0,False
+ORD-100320,2024-04-13,Enugu,South-East,Jumia,Sports,Adidas Running Sneakers,54748.96,1,15,46536.62,POS,62.0,Male,VIP,3.0,2.0,False
+ORD-100321,2024-04-14,Oyo,South-West,Konga,Books,WAEC Past Questions 2024,4569.08,2,5,8681.25,POS,33.0,Female,Premium,3.0,3.0,False
+ORD-100322,2024-04-16,Rivers,South-South,Flutterwave Store,Phones & Tablets,Xiaomi Redmi Note 13,280368.2,1,0,280368.2,USSD,,Male,Regular,5.0,12.0,False
+ORD-100323,2024-04-17,Abuja,North-Central,Flutterwave Store,Sports,Yoga Mat Non-Slip,87757.45,1,0,87757.45,POS,38.0,Male,Premium,4.0,8.0,False
+ORD-100324,2024-04-18,Delta,South-South,WhatsApp Commerce,Beauty,Dark & Lovely Relaxer,18849.26,4,0,75397.04,Bank Transfer,,Male,Regular,2.0,1.0,True
+ORD-100325,2024-04-20,Delta,South-South,Jiji,Books,WAEC Past Questions 2024,3363.88,1,15,2859.3,Bank Transfer,37.0,Male,New,5.0,10.0,False
+ORD-100326,2024-04-21,Kano,North-West,Jiji,Groceries,Honeywell Flour 10kg,7010.92,2,5,13320.75,Card,32.0,Male,VIP,5.0,7.0,False
+ORD-100327,2024-04-23,Kaduna,North-West,Jiji,Fashion,Men Agbada Set,32884.27,4,15,111806.52,USSD,20.0,Male,Premium,4.0,7.0,False
+ORD-100328,2024-04-24,Enugu,South-East,Flutterwave Store,Sports,Kettlebell 20kg,68841.78,1,5,65399.69,Card,59.0,Male,Premium,2.0,13.0,False
+ORD-100329,2024-04-26,Enugu,South-East,WhatsApp Commerce,Beauty,Maybelline Mascara,12211.09,1,10,10989.98,Bank Transfer,26.0,Male,VIP,4.0,1.0,False
+ORD-100330,2024-04-27,Lagos,South-West,Jumia,Furniture,Glass Centre Table,283035.58,2,5,537767.6,Bank Transfer,45.0,Female,VIP,2.0,9.0,False
+ORD-100331,2024-04-29,Lagos,South-West,Konga,Furniture,L-Shape Office Sofa,100641.73,1,0,100641.73,Pay on Delivery,30.0,Male,New,4.0,8.0,False
+ORD-100332,2024-04-30,Rivers,South-South,Jumia,Groceries,Dangote Semolina 10kg,2027.76,1,15,1723.6,POS,42.0,Female,New,5.0,4.0,False
+ORD-100333,2024-05-02,Kano,North-West,Flutterwave Store,Books,Nigerian Law Reports Vol 12,2184.58,4,0,8738.32,Bank Transfer,50.0,Male,Premium,5.0,10.0,False
+ORD-100334,2024-05-03,Delta,South-South,Jiji,Electronics,Sony Home Theatre,66475.44,2,10,119655.79,Card,48.0,Female,New,1.0,11.0,False
+ORD-100335,2024-05-05,Enugu,South-East,Konga,Books,Nigerian Law Reports Vol 12,6099.89,1,0,6099.89,Card,35.0,Male,Regular,3.0,5.0,False
+ORD-100336,2024-05-06,Oyo,South-West,Flutterwave Store,Groceries,Honeywell Flour 10kg,4477.66,3,0,13432.98,POS,31.0,Male,New,4.0,2.0,True
+ORD-100337,2024-05-08,Kano,North-West,Flutterwave Store,Furniture,Computer Work Desk,33484.4,5,15,142308.7,POS,49.0,Male,New,1.0,13.0,False
+ORD-100338,2024-05-09,Rivers,South-South,Flutterwave Store,Books,Nigerian Law Reports Vol 12,9805.42,2,20,15688.67,Pay on Delivery,17.0,Female,Premium,3.0,9.0,True
+ORD-100339,2024-05-10,Rivers,South-South,Konga,Furniture,Computer Work Desk,164729.79,4,20,527135.33,USSD,50.0,Female,Regular,4.0,12.0,False
+ORD-100340,2024-05-12,Kano,North-West,Konga,Sports,Football Jersey Nigeria,109684.82,1,0,109684.82,Card,55.0,Female,New,2.0,12.0,False
+ORD-100341,2024-05-13,Rivers,South-South,WhatsApp Commerce,Beauty,MAC Foundation Stick,24213.77,2,5,46006.16,POS,43.0,Female,Regular,3.0,6.0,False
+ORD-100342,2024-05-15,Kano,North-West,WhatsApp Commerce,Electronics,Hisense Chest Freezer,77128.72,4,0,308514.88,Card,62.0,Male,Regular,5.0,3.0,False
+ORD-100343,2024-05-16,Abuja,North-Central,Jumia,Sports,Kettlebell 20kg,57065.38,5,20,228261.52,POS,54.0,Male,Regular,1.0,12.0,False
+ORD-100344,2024-05-18,Kano,North-West,Konga,Furniture,Glass Centre Table,25585.12,1,0,25585.12,Bank Transfer,21.0,Male,VIP,3.0,7.0,False
+ORD-100345,2024-05-19,Kaduna,North-West,Konga,Furniture,Glass Centre Table,309205.45,1,10,278284.91,Card,24.0,Female,VIP,3.0,9.0,False
+ORD-100346,2024-05-21,Kano,North-West,Konga,Fashion,Female Aso-Oke,28310.52,1,10,25479.47,Bank Transfer,35.0,Male,VIP,5.0,3.0,True
+ORD-100347,2024-05-22,Rivers,South-South,WhatsApp Commerce,Fashion,Men Native Senator,13020.45,3,15,33202.15,Card,16.0,Female,VIP,4.0,2.0,False
+ORD-100348,2024-05-24,Enugu,South-East,Flutterwave Store,Sports,Football Jersey Nigeria,68334.28,2,10,123001.7,USSD,23.0,Female,Premium,,7.0,True
+ORD-100349,2024-05-25,Kaduna,North-West,Jiji,Phones & Tablets,Tecno Spark 20 Pro,207538.21,2,15,352814.96,Pay on Delivery,38.0,Female,New,5.0,7.0,False
+ORD-100350,2024-05-27,Rivers,South-South,WhatsApp Commerce,Sports,Treadmill Manual,21816.58,1,15,18544.09,Bank Transfer,18.0,Female,VIP,2.0,4.0,False
+ORD-100351,2024-05-28,Lagos,South-West,Konga,Fashion,Female Aso-Oke,30189.58,3,15,76983.43,POS,19.0,Female,Premium,4.0,11.0,False
+ORD-100352,2024-05-29,Lagos,South-West,WhatsApp Commerce,Furniture,Computer Work Desk,179814.6,1,20,143851.68,USSD,40.0,Male,New,3.0,9.0,False
+ORD-100353,2024-05-31,Enugu,South-East,Jumia,Groceries,Honeywell Flour 10kg,4926.98,1,20,3941.58,Card,62.0,Female,VIP,2.0,8.0,False
+ORD-100354,2024-06-01,Enugu,South-East,Konga,Sports,Treadmill Manual,53689.87,5,5,255026.88,Bank Transfer,53.0,Female,New,1.0,13.0,False
+ORD-100355,2024-06-03,Kaduna,North-West,Jumia,Furniture,L-Shape Office Sofa,492566.92,1,0,492566.92,Card,30.0,Male,VIP,1.0,13.0,False
+ORD-100356,2024-06-04,Abuja,North-Central,Konga,Groceries,Golden Penny Rice 25kg,1621.85,4,15,5514.29,Card,36.0,Female,Premium,5.0,1.0,True
+ORD-100357,2024-06-06,Enugu,South-East,WhatsApp Commerce,Groceries,Indomie Noodles Carton,3984.49,2,15,6773.63,Card,50.0,Female,Regular,4.0,1.0,False
+ORD-100358,2024-06-07,Lagos,South-West,Flutterwave Store,Fashion,Men Native Senator,31419.41,1,0,31419.41,Pay on Delivery,61.0,Male,Regular,,5.0,False
+ORD-100359,2024-06-09,Kano,North-West,Jiji,Sports,Kettlebell 20kg,49278.77,1,0,49278.77,Pay on Delivery,29.0,Male,New,5.0,6.0,False
+ORD-100360,2024-06-10,Rivers,South-South,Jumia,Books,Nigerian Law Reports Vol 12,11726.76,1,15,9967.75,POS,51.0,Male,Premium,5.0,3.0,True
+ORD-100361,2024-06-12,Lagos,South-West,WhatsApp Commerce,Electronics,LG Air Conditioner 1.5HP,256832.36,3,5,731972.23,Bank Transfer,27.0,Female,Regular,1.0,13.0,True
+ORD-100362,2024-06-13,Lagos,South-West,Flutterwave Store,Fashion,Ankara Midi Dress,30421.81,2,10,54759.26,USSD,32.0,Male,VIP,1.0,9.0,True
+ORD-100363,2024-06-15,Abuja,North-Central,WhatsApp Commerce,Fashion,Ankara Midi Dress,34675.02,4,10,124830.07,USSD,54.0,Male,Regular,5.0,12.0,True
+ORD-100364,2024-06-16,Kaduna,North-West,Jumia,Books,ACCA F3 Textbook,11488.61,1,0,11488.61,USSD,24.0,Male,New,1.0,10.0,False
+ORD-100365,2024-06-17,Kaduna,North-West,Jiji,Electronics,Scanfrost Refrigerator,319119.25,1,0,319119.25,Card,50.0,Female,New,4.0,6.0,False
+ORD-100366,2024-06-19,Delta,South-South,WhatsApp Commerce,Furniture,Wardrobe 4-Door Mahogany,369035.52,1,10,332131.97,Pay on Delivery,28.0,Male,Premium,5.0,4.0,False
+ORD-100367,2024-06-20,Abuja,North-Central,Konga,Phones & Tablets,iPhone 15 128GB,608108.65,4,10,2189191.14,Bank Transfer,30.0,Female,New,1.0,12.0,False
+ORD-100368,2024-06-22,Kano,North-West,Flutterwave Store,Sports,Football Jersey Nigeria,20072.88,5,20,80291.52,Card,33.0,Female,Regular,2.0,7.0,False
+ORD-100369,2024-06-23,Kaduna,North-West,WhatsApp Commerce,Phones & Tablets,iPhone 15 128GB,113636.19,2,5,215908.76,Pay on Delivery,48.0,Male,Regular,5.0,8.0,True
+ORD-100370,2024-06-25,Rivers,South-South,Flutterwave Store,Furniture,Computer Work Desk,296179.64,3,0,888538.92,Pay on Delivery,21.0,Female,Regular,5.0,9.0,False
+ORD-100371,2024-06-26,Enugu,South-East,Konga,Beauty,Maybelline Mascara,1244.5,1,0,1244.5,Bank Transfer,42.0,Female,Regular,4.0,13.0,False
+ORD-100372,2024-06-28,Abuja,North-Central,Jiji,Fashion,Men Agbada Set,23000.15,2,20,36800.24,Bank Transfer,,Male,Premium,3.0,11.0,False
+ORD-100373,2024-06-29,Enugu,South-East,Jiji,Electronics,"Samsung Smart TV 55""",85467.11,1,20,68373.69,Bank Transfer,42.0,Female,VIP,3.0,6.0,False
+ORD-100374,2024-07-01,Lagos,South-West,Konga,Fashion,Men Native Senator,17205.7,3,0,51617.1,Card,49.0,Male,VIP,4.0,6.0,False
+ORD-100375,2024-07-02,Rivers,South-South,Flutterwave Store,Groceries,Golden Penny Rice 25kg,6318.54,1,20,5054.83,POS,61.0,Female,Premium,4.0,8.0,False
+ORD-100376,2024-07-04,Rivers,South-South,WhatsApp Commerce,Fashion,Ankara Midi Dress,42502.59,5,5,201887.3,Bank Transfer,53.0,Female,New,4.0,12.0,False
+ORD-100377,2024-07-05,Lagos,South-West,Konga,Fashion,Female Aso-Oke,5577.69,4,10,20079.68,POS,29.0,Male,VIP,3.0,999.0,False
+ORD-100378,2024-07-06,Abuja,North-Central,Jumia,Furniture,Computer Work Desk,278765.05,2,15,473900.58,Card,51.0,Male,New,4.0,3.0,True
+ORD-100379,2024-07-08,Lagos,South-West,Flutterwave Store,Furniture,6ft Orthopedic Mattress,444203.41,3,0,1332610.23,POS,23.0,Female,VIP,,12.0,False
+ORD-100380,2024-07-09,Enugu,South-East,Jiji,Furniture,Glass Centre Table,64191.55,2,10,115544.79,USSD,50.0,Female,New,5.0,3.0,False
+ORD-100381,2024-07-11,Delta,South-South,Konga,Phones & Tablets,Infinix Hot 40 Pro,665753.25,5,10,2995889.62,POS,34.0,Male,Premium,5.0,13.0,False
+ORD-100382,2024-07-12,Rivers,South-South,Jiji,Groceries,Titus Sardine 50pcs,3183.51,2,0,6367.02,Bank Transfer,45.0,Female,Regular,2.0,6.0,True
+ORD-100383,2024-07-14,Oyo,South-West,Flutterwave Store,Beauty,Maybelline Mascara,8594.69,1,0,8594.69,Card,29.0,Female,New,2.0,2.0,True
+ORD-100384,2024-07-15,Oyo,South-West,Jiji,Beauty,Nivea Fair & Lovely,24454.69,2,20,39127.5,Bank Transfer,35.0,Female,Regular,5.0,6.0,False
+ORD-100385,2024-07-17,Enugu,South-East,Konga,Furniture,Wardrobe 4-Door Mahogany,120408.07,1,15,102346.86,USSD,64.0,Female,New,1.0,13.0,False
+ORD-100386,2024-07-18,Kano,North-West,Flutterwave Store,Electronics,"Samsung Smart TV 55""",247219.97,1,0,247219.97,Bank Transfer,40.0,Male,New,3.0,6.0,True
+ORD-100387,2024-07-20,Kaduna,North-West,Jumia,Phones & Tablets,Infinix Hot 40 Pro,663402.16,5,20,2653608.64,Bank Transfer,55.0,Male,New,,8.0,False
+ORD-100388,2024-07-21,Lagos,South-West,Konga,Books,ICAN Study Pack,1644.78,1,10,1480.3,Bank Transfer,,Male,New,1.0,7.0,False
+ORD-100389,2024-07-23,Lagos,South-West,WhatsApp Commerce,Electronics,Hisense Chest Freezer,239579.13,1,15,203642.26,Pay on Delivery,29.0,Male,New,3.0,8.0,False
+ORD-100390,2024-07-24,Kano,North-West,Konga,Sports,Adidas Running Sneakers,114331.35,3,20,274395.24,USSD,41.0,Male,Regular,4.0,9.0,True
+ORD-100391,2024-07-26,Kano,North-West,Flutterwave Store,Sports,Yoga Mat Non-Slip,17533.74,1,5,16657.05,Bank Transfer,53.0,Male,New,5.0,6.0,False
+ORD-100392,2024-07-27,Enugu,South-East,Konga,Electronics,"Samsung Smart TV 55""",315234.14,4,20,1008749.25,Bank Transfer,38.0,Female,Regular,5.0,3.0,False
+ORD-100393,2024-07-28,Enugu,South-East,Jumia,Furniture,L-Shape Office Sofa,307518.9,2,0,615037.8,Bank Transfer,37.0,Male,Premium,1.0,10.0,False
+ORD-100394,2024-07-30,Kano,North-West,Jumia,Books,ACCA F3 Textbook,7859.33,2,10,14146.79,Card,63.0,Female,VIP,3.0,3.0,False
+ORD-100395,2024-07-31,Rivers,South-South,WhatsApp Commerce,Books,WAEC Past Questions 2024,7819.8,1,20,6255.84,Pay on Delivery,34.0,Female,New,2.0,11.0,False
+ORD-100396,2024-08-02,Enugu,South-East,Jiji,Phones & Tablets,Xiaomi Redmi Note 13,263609.45,2,0,527218.9,Card,61.0,Female,VIP,2.0,12.0,False
+ORD-100397,2024-08-03,Delta,South-South,Flutterwave Store,Books,JAMB CBT Practice Book,11300.18,1,0,11300.18,Pay on Delivery,18.0,Male,Regular,3.0,1.0,False
+ORD-100398,2024-08-05,Enugu,South-East,Flutterwave Store,Sports,Adidas Running Sneakers,113840.0,2,0,227680.0,Bank Transfer,57.0,Female,Premium,2.0,11.0,False
+ORD-100399,2024-08-06,Lagos,South-West,Jiji,Groceries,Indomie Noodles Carton,5189.78,2,5,9860.58,USSD,34.0,Male,Premium,1.0,13.0,False
+ORD-100400,2024-08-08,Enugu,South-East,Jumia,Furniture,Wardrobe 4-Door Mahogany,397125.79,2,10,714826.42,POS,24.0,Female,Premium,1.0,5.0,False
+ORD-100401,2024-08-09,Rivers,South-South,Jumia,Books,WAEC Past Questions 2024,7812.39,1,0,7812.39,POS,43.0,Female,VIP,3.0,4.0,False
+ORD-100402,2024-08-11,Kano,North-West,Konga,Phones & Tablets,Tecno Spark 20 Pro,405564.81,5,0,2027824.05,Bank Transfer,35.0,Male,Regular,2.0,999.0,False
+ORD-100403,2024-08-12,Lagos,South-West,WhatsApp Commerce,Sports,Treadmill Manual,80315.95,2,5,152600.3,Card,60.0,Female,New,1.0,9.0,False
+ORD-100404,2024-08-14,Enugu,South-East,WhatsApp Commerce,Groceries,Golden Penny Rice 25kg,4647.51,5,0,23237.55,USSD,22.0,Female,New,1.0,5.0,False
+ORD-100405,2024-08-15,Rivers,South-South,WhatsApp Commerce,Fashion,Men Agbada Set,27892.72,3,0,83678.16,Pay on Delivery,29.0,Female,Regular,4.0,10.0,True
+ORD-100406,2024-08-16,Delta,South-South,Konga,Fashion,Female Aso-Oke,35812.88,5,0,179064.4,Bank Transfer,24.0,Female,VIP,4.0,4.0,True
+ORD-100407,2024-08-18,Enugu,South-East,WhatsApp Commerce,Groceries,Golden Penny Rice 25kg,4106.78,1,0,4106.78,USSD,34.0,Male,New,1.0,7.0,True
+ORD-100408,2024-08-19,Rivers,South-South,Jiji,Sports,Treadmill Manual,7768.23,1,0,7768.23,USSD,62.0,Female,Regular,3.0,6.0,False
+ORD-100409,2024-08-21,Delta,South-South,Konga,Phones & Tablets,Infinix Hot 40 Pro,160459.6,3,0,481378.8,Pay on Delivery,29.0,Female,New,5.0,4.0,True
+ORD-100410,2024-08-22,Kano,North-West,Jiji,Groceries,Indomie Noodles Carton,3789.55,2,10,6821.19,USSD,53.0,Male,Premium,5.0,13.0,False
+ORD-100411,2024-08-24,Enugu,South-East,Konga,Furniture,Glass Centre Table,369292.62,2,15,627797.45,Card,51.0,Female,New,1.0,13.0,False
+ORD-100412,2024-08-25,Delta,South-South,WhatsApp Commerce,Furniture,Wardrobe 4-Door Mahogany,306807.36,1,20,245445.89,Card,55.0,Female,VIP,1.0,10.0,False
+ORD-100413,2024-08-27,Lagos,South-West,Jiji,Fashion,Female Aso-Oke,30137.5,1,0,30137.5,Card,,Female,Regular,1.0,2.0,True
+ORD-100414,2024-08-28,Kano,North-West,Jiji,Books,ICAN Study Pack,6376.21,3,0,19128.63,USSD,45.0,Female,VIP,3.0,1.0,False
+ORD-100415,2024-08-30,Lagos,South-West,Jiji,Phones & Tablets,Infinix Hot 40 Pro,506042.65,3,0,1518127.95,Card,24.0,Male,Regular,4.0,4.0,False
+ORD-100416,2024-08-31,Oyo,South-West,Konga,Fashion,Men Native Senator,16483.24,1,0,16483.24,Pay on Delivery,48.0,Female,Premium,1.0,4.0,False
+ORD-100417,2024-09-02,Abuja,North-Central,Flutterwave Store,Books,Nigerian Law Reports Vol 12,6277.97,4,10,22600.69,USSD,40.0,Male,Regular,1.0,13.0,False
+ORD-100418,2024-09-03,Enugu,South-East,WhatsApp Commerce,Books,WAEC Past Questions 2024,9238.21,2,0,18476.42,POS,29.0,Female,New,2.0,1.0,False
+ORD-100419,2024-09-04,Delta,South-South,Jiji,Beauty,Neutrogena Body Lotion,21898.35,1,5,20803.43,USSD,26.0,Female,New,3.0,6.0,False
+ORD-100420,2024-09-06,Abuja,North-Central,Flutterwave Store,Furniture,Computer Work Desk,230986.28,3,5,658310.9,Pay on Delivery,50.0,Female,Premium,1.0,4.0,True
+ORD-100421,2024-09-07,Abuja,North-Central,WhatsApp Commerce,Sports,Treadmill Manual,8108.41,1,15,6892.15,POS,56.0,Male,Regular,2.0,1.0,False
+ORD-100422,2024-09-09,Delta,South-South,WhatsApp Commerce,Electronics,LG Air Conditioner 1.5HP,69160.3,1,0,69160.3,USSD,29.0,Female,Premium,5.0,1.0,False
+ORD-100423,2024-09-10,Kano,North-West,Jiji,Sports,Football Jersey Nigeria,5440.75,1,0,5440.75,Card,45.0,Female,New,1.0,13.0,False
+ORD-100424,2024-09-12,Enugu,South-East,Jiji,Electronics,LG Air Conditioner 1.5HP,233843.11,4,0,935372.44,Bank Transfer,56.0,Male,VIP,1.0,1.0,False
+ORD-100425,2024-09-13,Oyo,South-West,Konga,Groceries,Titus Sardine 50pcs,2992.36,3,15,7630.52,Bank Transfer,19.0,Male,Premium,2.0,8.0,False
+ORD-100426,2024-09-15,Lagos,South-West,Flutterwave Store,Furniture,6ft Orthopedic Mattress,282677.35,2,5,537086.96,Card,19.0,Male,VIP,3.0,10.0,True
+ORD-100427,2024-09-16,Rivers,South-South,Flutterwave Store,Books,WAEC Past Questions 2024,6527.39,5,0,32636.95,Bank Transfer,43.0,Male,VIP,1.0,8.0,False
+ORD-100428,2024-09-18,Lagos,South-West,Jiji,Phones & Tablets,iPhone 15 128GB,97367.76,3,15,248287.79,Bank Transfer,23.0,Female,Regular,5.0,2.0,True
+ORD-100429,2024-09-19,Rivers,South-South,WhatsApp Commerce,Electronics,"Samsung Smart TV 55""",150092.56,2,15,255157.35,Card,17.0,Female,Premium,1.0,11.0,False
+ORD-100430,2024-09-21,Lagos,South-West,Jiji,Sports,Adidas Running Sneakers,28805.65,1,0,28805.65,Card,56.0,Female,VIP,5.0,13.0,False
+ORD-100431,2024-09-22,Delta,South-South,WhatsApp Commerce,Books,ACCA F3 Textbook,5718.72,2,0,11437.44,USSD,61.0,Female,VIP,4.0,7.0,True
+ORD-100432,2024-09-23,Oyo,South-West,WhatsApp Commerce,Electronics,Sony Home Theatre,83198.72,2,10,149757.7,USSD,37.0,Male,Regular,4.0,8.0,False
+ORD-100433,2024-09-25,Enugu,South-East,Jiji,Electronics,Hisense Chest Freezer,296551.56,2,0,593103.12,Card,56.0,Female,Regular,,8.0,False
+ORD-100434,2024-09-26,Rivers,South-South,Jumia,Beauty,Neutrogena Body Lotion,5015.48,2,5,9529.41,Pay on Delivery,31.0,Female,New,3.0,11.0,False
+ORD-100435,2024-09-28,Enugu,South-East,Flutterwave Store,Electronics,"Samsung Smart TV 55""",336861.48,4,0,1347445.92,Bank Transfer,44.0,Female,VIP,1.0,10.0,False
+ORD-100436,2024-09-29,Enugu,South-East,WhatsApp Commerce,Phones & Tablets,Xiaomi Redmi Note 13,353169.14,4,0,1412676.56,USSD,64.0,Female,New,1.0,11.0,False
+ORD-100437,2024-10-01,Enugu,South-East,WhatsApp Commerce,Furniture,Glass Centre Table,426966.51,1,20,341573.21,Bank Transfer,63.0,Male,VIP,4.0,13.0,False
+ORD-100438,2024-10-02,Kaduna,North-West,Jumia,Phones & Tablets,Samsung Galaxy A55,516005.09,4,20,1651216.29,POS,45.0,Female,New,5.0,7.0,False
+ORD-100439,2024-10-04,Kano,North-West,Konga,Fashion,Female Aso-Oke,33752.39,5,15,143447.66,Card,27.0,Female,Regular,1.0,5.0,False
+ORD-100440,2024-10-05,Lagos,South-West,Jumia,Books,Nigerian Law Reports Vol 12,9491.42,1,0,9491.42,Pay on Delivery,50.0,Female,Premium,1.0,1.0,False
+ORD-100441,2024-10-07,Enugu,South-East,Jumia,Furniture,6ft Orthopedic Mattress,264801.32,3,10,714963.56,POS,26.0,Male,Regular,3.0,12.0,False
+ORD-100442,2024-10-08,Lagos,South-West,WhatsApp Commerce,Beauty,Maybelline Mascara,13947.87,3,0,41843.61,POS,61.0,Male,New,2.0,9.0,False
+ORD-100443,2024-10-10,Enugu,South-East,Flutterwave Store,Furniture,Computer Work Desk,269148.04,1,5,255690.64,POS,36.0,Female,New,4.0,13.0,True
+ORD-100444,2024-10-11,Rivers,South-South,Jumia,Furniture,Glass Centre Table,304327.73,4,20,973848.74,Card,36.0,Female,Premium,4.0,7.0,False
+ORD-100445,2024-10-13,Kano,North-West,Konga,Sports,Kettlebell 20kg,6439.15,5,10,28976.18,USSD,20.0,Female,VIP,2.0,2.0,False
+ORD-100446,2024-10-14,Kano,North-West,Jiji,Furniture,6ft Orthopedic Mattress,212869.71,2,5,404452.45,Card,63.0,Male,New,1.0,6.0,False
+ORD-100447,2024-10-15,Delta,South-South,Jumia,Beauty,Dark & Lovely Relaxer,15469.77,1,5,14696.28,USSD,,Female,New,3.0,2.0,False
+ORD-100448,2024-10-17,Kaduna,North-West,Jumia,Phones & Tablets,Tecno Spark 20 Pro,492258.53,5,0,2461292.65,POS,52.0,Female,New,3.0,1.0,False
+ORD-100449,2024-10-18,Delta,South-South,Konga,Furniture,L-Shape Office Sofa,401654.14,2,15,682812.04,POS,18.0,Female,Premium,4.0,7.0,True
+ORD-100450,2024-10-20,Delta,South-South,Flutterwave Store,Groceries,Honeywell Flour 10kg,5412.57,5,0,27062.85,Pay on Delivery,59.0,Male,Regular,3.0,13.0,False
+ORD-100451,2024-10-21,Delta,South-South,Jumia,Books,WAEC Past Questions 2024,11915.04,2,0,23830.08,USSD,48.0,Female,New,2.0,2.0,True
+ORD-100452,2024-10-23,Delta,South-South,Jumia,Furniture,L-Shape Office Sofa,159830.9,1,10,143847.81,POS,24.0,Female,Premium,1.0,13.0,False
+ORD-100453,2024-10-24,Delta,South-South,Flutterwave Store,Books,ICAN Study Pack,5078.83,5,15,21585.03,Bank Transfer,24.0,Male,New,2.0,2.0,False
+ORD-100454,2024-10-26,Oyo,South-West,Konga,Groceries,Honeywell Flour 10kg,3378.85,3,10,9122.9,Pay on Delivery,19.0,Male,VIP,5.0,13.0,True
+ORD-100455,2024-10-27,Kano,North-West,Jumia,Groceries,Dangote Semolina 10kg,3993.6,2,15,6789.12,Card,50.0,Female,Premium,4.0,11.0,False
+ORD-100456,2024-10-29,Delta,South-South,Flutterwave Store,Books,Nigerian Law Reports Vol 12,10228.78,4,20,32732.1,Pay on Delivery,32.0,Male,New,3.0,5.0,False
+ORD-100457,2024-10-30,Enugu,South-East,Jumia,Electronics,Scanfrost Refrigerator,93990.35,2,10,169182.63,Bank Transfer,,Female,Premium,5.0,5.0,False
+ORD-100458,2024-11-01,Kano,North-West,Jiji,Fashion,Men Agbada Set,35480.01,1,0,35480.01,USSD,39.0,Male,New,3.0,7.0,False
+ORD-100459,2024-11-02,Kano,North-West,WhatsApp Commerce,Sports,Kettlebell 20kg,50421.29,5,15,214290.48,Card,47.0,Male,Regular,1.0,1.0,False
+ORD-100460,2024-11-03,Abuja,North-Central,Jiji,Electronics,Scanfrost Refrigerator,216621.55,3,15,552384.95,Card,16.0,Female,New,1.0,8.0,False
+ORD-100461,2024-11-05,Oyo,South-West,Jumia,Electronics,LG Air Conditioner 1.5HP,226901.08,2,5,431112.05,USSD,23.0,Female,Premium,1.0,3.0,False
+ORD-100462,2024-11-06,Delta,South-South,Konga,Phones & Tablets,iPhone 15 128GB,320229.21,2,5,608435.5,Pay on Delivery,60.0,Female,VIP,3.0,4.0,True
+ORD-100463,2024-11-08,Lagos,South-West,WhatsApp Commerce,Sports,Adidas Running Sneakers,62975.98,5,0,314879.9,POS,,Male,VIP,5.0,9.0,False
+ORD-100464,2024-11-09,Rivers,South-South,Jiji,Sports,Football Jersey Nigeria,51324.65,5,10,230960.92,Pay on Delivery,62.0,Female,VIP,1.0,4.0,False
+ORD-100465,2024-11-11,Kaduna,North-West,Flutterwave Store,Electronics,LG Air Conditioner 1.5HP,38159.48,2,5,72503.01,Bank Transfer,55.0,Female,New,5.0,10.0,False
+ORD-100466,2024-11-12,Enugu,South-East,Konga,Furniture,Computer Work Desk,232653.56,1,0,232653.56,POS,27.0,Female,Regular,3.0,12.0,True
+ORD-100467,2024-11-14,Lagos,South-West,Jiji,Phones & Tablets,Infinix Hot 40 Pro,109505.95,1,20,87604.76,Pay on Delivery,27.0,Female,New,5.0,5.0,True
+ORD-100468,2024-11-15,Oyo,South-West,Flutterwave Store,Phones & Tablets,Infinix Hot 40 Pro,344840.91,3,20,827618.18,USSD,61.0,Female,VIP,3.0,7.0,False
+ORD-100469,2024-11-17,Rivers,South-South,Jumia,Groceries,Indomie Noodles Carton,4946.89,2,5,9399.09,Bank Transfer,62.0,Male,Premium,3.0,4.0,False
+ORD-100470,2024-11-18,Oyo,South-West,Flutterwave Store,Beauty,Dark & Lovely Relaxer,14821.84,2,10,26679.31,Bank Transfer,30.0,Female,VIP,4.0,1.0,True
+ORD-100471,2024-11-20,Enugu,South-East,Jiji,Sports,Yoga Mat Non-Slip,80526.69,3,15,205343.06,Bank Transfer,56.0,Female,Premium,,9.0,False
+ORD-100472,2024-11-21,Kano,North-West,Jiji,Electronics,"Samsung Smart TV 55""",46912.61,3,0,140737.83,POS,34.0,Male,Regular,3.0,4.0,False
+ORD-100473,2024-11-22,Rivers,South-South,Jumia,Groceries,Titus Sardine 50pcs,5390.92,1,10,4851.83,Card,41.0,Female,Premium,2.0,999.0,False
+ORD-100474,2024-11-24,Kano,North-West,Flutterwave Store,Books,ICAN Study Pack,4571.2,5,0,22856.0,POS,44.0,Female,New,1.0,6.0,False
+ORD-100475,2024-11-25,Enugu,South-East,Flutterwave Store,Fashion,Female Aso-Oke,19459.45,4,20,62270.24,Pay on Delivery,37.0,Female,New,4.0,1.0,False
+ORD-100476,2024-11-27,Lagos,South-West,Jumia,Beauty,Neutrogena Body Lotion,21563.27,5,5,102425.53,Card,55.0,Female,New,4.0,12.0,False
+ORD-100477,2024-11-28,Enugu,South-East,Flutterwave Store,Beauty,MAC Foundation Stick,1018.54,1,5,967.61,Pay on Delivery,36.0,Female,Premium,4.0,3.0,False
+ORD-100478,2024-11-30,Lagos,South-West,Jumia,Beauty,Nivea Fair & Lovely,15039.59,2,15,25567.3,Card,53.0,Male,New,2.0,11.0,False
+ORD-100479,2024-12-01,Rivers,South-South,Konga,Phones & Tablets,Samsung Galaxy A55,493016.19,5,0,2465080.95,POS,35.0,Male,New,3.0,2.0,False
+ORD-100480,2024-12-03,Rivers,South-South,Jiji,Books,ICAN Study Pack,5483.93,2,15,9322.68,Bank Transfer,44.0,Male,New,1.0,9.0,False
+ORD-100481,2024-12-04,Delta,South-South,Konga,Beauty,MAC Foundation Stick,6536.07,3,0,19608.21,USSD,19.0,Female,Regular,5.0,12.0,False
+ORD-100482,2024-12-06,Oyo,South-West,WhatsApp Commerce,Books,ACCA F3 Textbook,3734.48,2,0,7468.96,Bank Transfer,22.0,Male,Premium,3.0,1.0,False
+ORD-100483,2024-12-07,Delta,South-South,WhatsApp Commerce,Furniture,Computer Work Desk,444762.09,1,20,355809.67,POS,43.0,Female,Premium,2.0,13.0,False
+ORD-100484,2024-12-09,Oyo,South-West,WhatsApp Commerce,Beauty,Maybelline Mascara,11496.99,2,5,21844.28,Card,43.0,Female,VIP,3.0,9.0,False
+ORD-100485,2024-12-10,Delta,South-South,Jumia,Fashion,Men Agbada Set,16562.8,3,5,47203.98,Bank Transfer,19.0,Female,Premium,3.0,9.0,False
+ORD-100486,2024-12-11,Kano,North-West,Flutterwave Store,Books,JAMB CBT Practice Book,6046.8,2,0,12093.6,POS,37.0,Male,Regular,2.0,8.0,True
+ORD-100487,2024-12-13,Rivers,South-South,Konga,Books,WAEC Past Questions 2024,8429.42,1,0,8429.42,Pay on Delivery,,Male,Premium,4.0,8.0,False
+ORD-100488,2024-12-14,Lagos,South-West,Konga,Fashion,Female Gele Headtie,8694.65,4,20,27822.88,USSD,60.0,Male,Regular,4.0,11.0,False
+ORD-100489,2024-12-16,Oyo,South-West,Konga,Beauty,Dark & Lovely Relaxer,11676.3,1,15,9924.86,Bank Transfer,18.0,Female,Regular,1.0,12.0,False
+ORD-100490,2024-12-17,Enugu,South-East,Konga,Fashion,Female Gele Headtie,27485.09,2,0,54970.18,Card,37.0,Male,Premium,1.0,1.0,False
+ORD-100491,2024-12-19,Oyo,South-West,WhatsApp Commerce,Books,ICAN Study Pack,11444.7,1,15,9728.0,Pay on Delivery,59.0,Female,VIP,4.0,11.0,False
+ORD-100492,2024-12-20,Lagos,South-West,Konga,Fashion,Men Native Senator,13232.43,1,10,11909.19,POS,17.0,Male,New,5.0,8.0,False
+ORD-100493,2024-12-22,Delta,South-South,Flutterwave Store,Books,Nigerian Law Reports Vol 12,5079.91,2,5,9651.83,USSD,39.0,Male,New,3.0,10.0,False
+ORD-100494,2024-12-23,Oyo,South-West,WhatsApp Commerce,Books,ACCA F3 Textbook,5297.07,1,15,4502.51,Card,49.0,Female,Premium,5.0,3.0,False
+ORD-100495,2024-12-25,Kaduna,North-West,Konga,Furniture,L-Shape Office Sofa,312630.62,1,0,312630.62,POS,42.0,Female,Premium,3.0,11.0,True
+ORD-100496,2024-12-26,Kano,North-West,Jumia,Electronics,LG Air Conditioner 1.5HP,134505.24,1,15,114329.45,POS,56.0,Male,Regular,4.0,7.0,False
+ORD-100497,2024-12-28,Rivers,South-South,Jiji,Books,WAEC Past Questions 2024,6961.93,1,10,6265.74,Bank Transfer,16.0,Male,Premium,1.0,11.0,False
+ORD-100498,2024-12-29,Lagos,South-West,Jiji,Beauty,Maybelline Mascara,19719.33,1,20,15775.46,Bank Transfer,23.0,Male,Regular,1.0,1.0,True
+ORD-100499,2024-12-31,Rivers,South-South,Jiji,Groceries,Honeywell Flour 10kg,5790.39,1,5,5500.87,Card,38.0,Female,VIP,5.0,1.0,True
+ORD-100308,2024-03-26,Enugu,South-East,Konga,Phones & Tablets,Samsung Galaxy A55,677559.58,1,20,542047.66,Bank Transfer,43.0,Female,Regular,2.0,7.0,False
+ORD-100013,2023-01-20,Kano,North-West,Flutterwave Store,Phones & Tablets,Xiaomi Redmi Note 13,467819.11,4,15,1590584.97,Pay on Delivery,48.0,Female,VIP,5.0,11.0,False
+ORD-100414,2024-08-28,Kano,North-West,Jiji,Books,ICAN Study Pack,6376.21,3,0,19128.63,USSD,45.0,Female,VIP,3.0,1.0,False
+ORD-100032,2023-02-16,Rivers,South-South,Konga,Electronics,Hisense Chest Freezer,181860.4,2,20,290976.64,POS,,Female,Regular,2.0,999.0,False
+ORD-100460,2024-11-03,Abuja,North-Central,Jiji,Electronics,Scanfrost Refrigerator,216621.55,3,15,552384.95,Card,16.0,Female,New,1.0,8.0,False
+ORD-100155,2023-08-15,Abuja,North-Central,Jumia,Furniture,6ft Orthopedic Mattress,68557.18,2,15,116547.21,Pay on Delivery,21.0,Male,VIP,5.0,9.0,True
+ORD-100249,2023-12-31,Kano,North-West,Flutterwave Store,Fashion,Female Aso-Oke,39969.58,1,10,35972.62,USSD,16.0,Female,VIP,5.0,10.0,False
+ORD-100217,2023-11-14,Oyo,South-West,Konga,Books,Nigerian Law Reports Vol 12,11261.17,4,0,45044.68,Card,25.0,Female,New,4.0,8.0,True
+ORD-100221,2023-11-20,Kano,North-West,Konga,Groceries,Honeywell Flour 10kg,538.12,1,0,538.12,Pay on Delivery,56.0,Male,Premium,5.0,8.0,False
+ORD-100293,2024-03-04,Abuja,North-Central,Jiji,Books,ACCA F3 Textbook,5343.01,1,0,5343.01,Pay on Delivery,21.0,Female,Premium,1.0,2.0,False
+ORD-100132,2023-07-13,Lagos,South-West,Flutterwave Store,Furniture,L-Shape Office Sofa,406889.07,3,5,1159633.85,Pay on Delivery,40.0,Male,Premium,2.0,6.0,True
+ORD-100465,2024-11-11,Kaduna,North-West,Flutterwave Store,Electronics,LG Air Conditioner 1.5HP,38159.48,2,5,72503.01,Bank Transfer,55.0,Female,New,5.0,10.0,False
+ORD-100438,2024-10-02,Kaduna,North-West,Jumia,Phones & Tablets,Samsung Galaxy A55,516005.09,4,20,1651216.29,POS,45.0,Female,New,5.0,7.0,False
+ORD-100179,2023-09-19,Kano,North-West,WhatsApp Commerce,Fashion,Ankara Midi Dress,44540.36,3,10,120258.97,Pay on Delivery,,Male,VIP,2.0,12.0,False
+ORD-100497,2024-12-28,Rivers,South-South,Jiji,Books,WAEC Past Questions 2024,6961.93,1,10,6265.74,Bank Transfer,16.0,Male,Premium,1.0,11.0,False
