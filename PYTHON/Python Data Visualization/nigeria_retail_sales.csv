@@ -1,0 +1,501 @@
+Date,Month,Quarter,Day_of_Week,State,Category,Sales_Channel,Payment_Method,Customer_Gender,Customer_Age,Unit_Price_NGN,Quantity_Sold,Discount_Percent,Revenue_NGN,Profit_Margin,Profit_NGN,Customer_Rating,Item_Returned
+2023-11-24,November,Q4,Friday,Kaduna,Cosmetics,Physical Store,Mobile Money,Male,68,6600.0,7,0,46200.0,0.3804,17574.48,3.3,0
+2023-02-27,February,Q1,Monday,Port Harcourt,Cosmetics,Online,POS,Female,26,28900.0,11,20,254320.0,0.2324,59103.97,5.0,0
+2023-01-13,January,Q1,Friday,Ibadan,Electronics,Physical Store,Cash,Male,20,103900.0,10,0,1039000.0,0.2535,263386.5,2.3,0
+2023-05-21,May,Q2,Sunday,Kaduna,Food & Beverage,Wholesale,Bank Transfer,Female,42,1700.0,9,5,14535.0,0.293,4258.76,4.8,0
+2023-05-06,May,Q2,Saturday,Kano,Clothing,Physical Store,Bank Transfer,Female,27,21300.0,14,5,283290.0,0.395,111899.55,1.6,0
+2023-04-25,April,Q2,Tuesday,Benin City,Electronics,Online,Bank Transfer,Female,32,259100.0,13,0,3368300.0,0.0865,291357.95,3.1,0
+2023-03-13,March,Q1,Monday,Ibadan,Clothing,Physical Store,POS,Female,21,16200.0,2,15,27540.0,0.2421,6667.43,1.7,0
+2023-02-22,February,Q1,Wednesday,Ibadan,Books & Stationery,Online,Mobile Money,Male,48,5200.0,3,0,15600.0,0.3138,4895.28,4.1,0
+2023-12-13,December,Q4,Wednesday,Kaduna,Clothing,Online,Cash,Female,20,24500.0,7,10,154350.0,0.3257,50271.8,3.6,0
+2023-10-07,October,Q4,Saturday,Abuja,Food & Beverage,Online,POS,Male,43,4900.0,18,20,70560.0,0.3155,22261.68,4.0,0
+2023-02-14,February,Q1,Tuesday,Kano,Books & Stationery,Online,Mobile Money,Female,29,5000.0,3,5,14250.0,0.1257,1791.22,2.8,0
+2023-10-30,October,Q4,Monday,Kaduna,Clothing,Online,POS,Female,20,13700.0,10,20,109600.0,0.1818,19925.28,2.8,0
+2023-08-05,August,Q3,Saturday,Kano,Books & Stationery,Online,Cash,Male,69,5900.0,7,0,41300.0,0.202,8342.6,1.7,0
+2023-01-17,January,Q1,Tuesday,Kano,Clothing,Physical Store,Mobile Money,Male,71,3100.0,9,5,26505.0,0.3535,9369.52,2.7,0
+2023-01-16,January,Q1,Monday,Benin City,Food & Beverage,Online,POS,Male,48,11100.0,17,0,188700.0,0.1748,32984.76,4.8,1
+2023-02-17,February,Q1,Friday,Ibadan,Clothing,Online,Cash,Female,65,25600.0,11,10,253440.0,0.1516,38421.5,2.8,0
+2023-04-22,April,Q2,Saturday,Port Harcourt,Clothing,Wholesale,Bank Transfer,Female,63,33200.0,7,20,185920.0,0.4055,75390.56,4.4,0
+2023-04-30,April,Q2,Sunday,Benin City,Clothing,Physical Store,Cash,Male,56,34200.0,14,0,478800.0,0.083,39740.4,4.4,0
+2023-09-16,September,Q3,Saturday,Benin City,Electronics,Physical Store,Bank Transfer,Male,34,239700.0,19,10,4098870.0,0.4193,1718656.19,2.8,1
+2023-11-05,November,Q4,Sunday,Kano,Electronics,Online,POS,Male,37,137000.0,4,0,548000.0,0.3101,169934.8,3.7,0
+2023-01-14,January,Q1,Saturday,Enugu,Electronics,Online,Mobile Money,Male,20,38400.0,6,5,218880.0,0.3617,79168.9,1.8,0
+2023-10-15,October,Q4,Sunday,Ibadan,Food & Beverage,Online,Mobile Money,Female,17,8100.0,10,5,76950.0,0.1802,13866.39,1.9,1
+2023-04-12,April,Q2,Wednesday,Abuja,Books & Stationery,Online,POS,Male,45,3200.0,7,20,17920.0,0.0849,1521.41,1.7,0
+2023-11-29,November,Q4,Wednesday,Benin City,Cosmetics,Online,Mobile Money,Male,62,10400.0,13,10,121680.0,0.3309,40263.91,3.5,0
+2023-12-26,December,Q4,Tuesday,Port Harcourt,Clothing,Online,Mobile Money,Male,54,38600.0,14,0,540400.0,0.3636,196489.44,3.0,0
+2023-10-07,October,Q4,Saturday,Enugu,Clothing,Online,Bank Transfer,Male,19,33200.0,4,0,132800.0,0.3318,44063.04,3.4,0
+2023-08-03,August,Q3,Thursday,Enugu,Food & Beverage,Online,POS,Female,48,4000.0,8,0,32000.0,0.1286,4115.2,3.3,0
+2023-04-23,April,Q2,Sunday,Abuja,Clothing,Physical Store,Cash,Male,28,16000.0,5,0,80000.0,0.3362,26896.0,2.7,0
+2023-08-18,August,Q3,Friday,Benin City,Electronics,Online,Bank Transfer,Female,35,151800.0,1,0,151800.0,0.3414,51824.52,3.9,0
+2023-10-29,October,Q4,Sunday,Port Harcourt,Cosmetics,Online,POS,Male,69,13000.0,4,15,44200.0,0.3039,13432.38,4.2,1
+2023-05-23,May,Q2,Tuesday,Ibadan,Home Appliances,Physical Store,Bank Transfer,Male,22,88400.0,3,5,251940.0,0.3405,85785.57,1.6,0
+2023-01-04,January,Q1,Wednesday,Lagos,Clothing,Physical Store,Cash,Female,30,8300.0,9,5,70965.0,0.3676,26086.73,2.2,0
+2023-03-23,March,Q1,Thursday,Port Harcourt,Electronics,Online,Cash,Male,38,155800.0,8,0,1246400.0,0.2886,359711.04,4.0,0
+2023-12-24,December,Q4,Sunday,Abuja,Home Appliances,Physical Store,POS,Female,29,263800.0,1,15,224230.0,0.1101,24687.72,2.9,0
+2023-08-05,August,Q3,Saturday,Enugu,Cosmetics,Physical Store,Cash,Female,38,20800.0,6,10,112320.0,0.2458,27608.26,3.8,0
+2023-06-24,June,Q2,Saturday,Ibadan,Home Appliances,Online,Bank Transfer,Male,34,253600.0,9,0,2282400.0,0.1064,242847.36,2.7,0
+2023-05-23,May,Q2,Tuesday,Port Harcourt,Electronics,Wholesale,Cash,Female,69,221200.0,7,10,1393560.0,0.2186,304632.22,2.9,0
+2023-03-21,March,Q1,Tuesday,Lagos,Books & Stationery,Wholesale,Bank Transfer,Female,44,3000.0,4,5,11400.0,0.2184,2489.76,2.1,0
+2023-04-21,April,Q2,Friday,Lagos,Books & Stationery,Online,Bank Transfer,Female,71,4700.0,13,0,61100.0,0.1024,6256.64,2.4,0
+2023-06-22,June,Q2,Thursday,Kano,Home Appliances,Online,Cash,Female,35,8100.0,17,5,130815.0,0.1986,25979.86,3.6,0
+2023-02-22,February,Q1,Wednesday,Kano,Food & Beverage,Physical Store,POS,Female,44,3800.0,2,5,7220.0,0.1177,849.79,3.0,0
+2023-02-17,February,Q1,Friday,Kaduna,Home Appliances,Physical Store,Mobile Money,Female,39,124900.0,5,0,624500.0,0.3548,221572.6,4.2,0
+2023-07-14,July,Q3,Friday,Abuja,Clothing,Online,Cash,Female,33,27400.0,12,20,263040.0,0.4022,105794.69,4.5,0
+2023-02-19,February,Q1,Sunday,Benin City,Clothing,Online,Bank Transfer,Female,25,30500.0,8,15,207400.0,0.1046,21694.04,3.4,1
+2023-07-03,July,Q3,Monday,Port Harcourt,Books & Stationery,Online,Bank Transfer,Male,56,4100.0,6,10,22140.0,0.4047,8960.06,4.2,0
+2023-06-26,June,Q2,Monday,Port Harcourt,Food & Beverage,Physical Store,Cash,Male,23,5600.0,8,5,42560.0,0.2577,10967.71,2.6,0
+2023-11-06,November,Q4,Monday,Benin City,Electronics,Physical Store,POS,Female,41,86600.0,18,5,1480860.0,0.1819,269368.43,3.0,0
+2023-05-16,May,Q2,Tuesday,Kaduna,Clothing,Online,POS,Male,44,22900.0,3,10,61830.0,0.1061,6560.16,4.0,0
+2023-01-23,January,Q1,Monday,Enugu,Books & Stationery,Physical Store,Bank Transfer,Female,25,7300.0,12,5,83220.0,0.2502,20821.64,2.9,0
+2023-08-24,August,Q3,Thursday,Enugu,Cosmetics,Physical Store,Bank Transfer,Female,32,24200.0,3,0,72600.0,0.3501,25417.26,3.6,1
+2023-10-02,October,Q4,Monday,Kaduna,Books & Stationery,Online,POS,Male,17,2000.0,6,5,11400.0,0.3204,3652.56,2.1,0
+2023-03-05,March,Q1,Sunday,Enugu,Clothing,Online,Mobile Money,Female,21,6600.0,2,15,11220.0,0.0971,1089.46,3.6,0
+2023-07-13,July,Q3,Thursday,Kano,Clothing,Physical Store,Cash,Female,20,24600.0,12,5,280440.0,0.1048,29390.11,4.5,0
+2023-02-10,February,Q1,Friday,Port Harcourt,Books & Stationery,Wholesale,Bank Transfer,Female,43,5400.0,2,0,10800.0,0.217,2343.6,4.5,0
+2023-10-10,October,Q4,Tuesday,Kaduna,Electronics,Physical Store,Bank Transfer,Female,56,127300.0,6,10,687420.0,0.1804,124010.57,4.0,0
+2023-05-31,May,Q2,Wednesday,Port Harcourt,Home Appliances,Physical Store,POS,Male,20,230600.0,17,0,3920200.0,0.159,623311.8,4.1,0
+2023-11-18,November,Q4,Saturday,Benin City,Clothing,Online,Cash,Female,33,34500.0,3,0,103500.0,0.1755,18164.25,3.5,0
+2023-11-13,November,Q4,Monday,Lagos,Books & Stationery,Physical Store,POS,Female,41,5600.0,2,0,11200.0,0.3532,3955.84,3.5,0
+2023-07-05,July,Q3,Wednesday,Kano,Books & Stationery,Physical Store,Cash,Female,35,2400.0,8,0,19200.0,0.3959,7601.28,2.0,0
+2023-10-23,October,Q4,Monday,Ibadan,Food & Beverage,Online,Cash,Male,56,2800.0,12,10,30240.0,0.2177,6583.25,3.1,0
+2023-04-09,April,Q2,Sunday,Kano,Home Appliances,Online,Cash,Female,64,14600.0,4,5,55480.0,0.3881,21531.79,3.1,1
+2023-12-27,December,Q4,Wednesday,Kaduna,Cosmetics,Online,Bank Transfer,Male,42,8500.0,5,0,42500.0,0.1893,8045.25,4.9,0
+2023-02-05,February,Q1,Sunday,Ibadan,Electronics,Online,Mobile Money,Male,64,174200.0,13,15,1924910.0,0.242,465828.22,3.0,0
+2023-01-24,January,Q1,Tuesday,Lagos,Cosmetics,Online,POS,Female,27,25700.0,15,15,327675.0,0.1568,51379.44,3.4,0
+2023-12-05,December,Q4,Tuesday,Kaduna,Home Appliances,Online,Mobile Money,Female,22,27800.0,16,15,378080.0,0.2978,112592.22,3.4,1
+2023-04-27,April,Q2,Thursday,Abuja,Home Appliances,Online,POS,Male,18,120700.0,10,0,1207000.0,0.4129,498370.3,3.7,1
+2023-05-29,May,Q2,Monday,Port Harcourt,Home Appliances,Online,Cash,Female,25,179300.0,16,5,2725360.0,0.2852,777272.67,4.1,0
+2023-02-10,February,Q1,Friday,Lagos,Cosmetics,Wholesale,Bank Transfer,Male,49,7000.0,12,20,67200.0,0.2017,13554.24,2.3,0
+2023-04-30,April,Q2,Sunday,Port Harcourt,Home Appliances,Physical Store,Mobile Money,Male,40,197400.0,17,10,3020220.0,0.3003,906972.07,3.4,0
+2023-02-21,February,Q1,Tuesday,Enugu,Books & Stationery,Physical Store,Bank Transfer,Female,50,4400.0,16,0,70400.0,0.1218,8574.72,4.4,0
+2023-07-14,July,Q3,Friday,Abuja,Cosmetics,Physical Store,POS,Female,31,8500.0,12,0,102000.0,0.3821,38974.2,3.1,0
+2023-05-23,May,Q2,Tuesday,Abuja,Home Appliances,Physical Store,Bank Transfer,Male,17,186400.0,8,5,1416640.0,0.251,355576.64,2.5,0
+2023-08-21,August,Q3,Monday,Lagos,Books & Stationery,Online,Bank Transfer,Male,39,800.0,3,20,1920.0,0.2328,446.98,3.8,0
+2023-11-22,November,Q4,Wednesday,Abuja,Food & Beverage,Physical Store,Mobile Money,Male,25,9100.0,16,5,138320.0,0.2792,38618.94,4.4,0
+2023-07-06,July,Q3,Thursday,Ibadan,Home Appliances,Physical Store,Cash,Male,53,217500.0,13,5,2686125.0,0.2924,785422.95,1.7,0
+2023-03-25,March,Q1,Saturday,Abuja,Cosmetics,Physical Store,Bank Transfer,Female,37,4500.0,19,0,85500.0,0.1044,8926.2,4.2,1
+2023-07-09,July,Q3,Sunday,Port Harcourt,Clothing,Physical Store,Cash,Female,41,20900.0,8,10,150480.0,0.3121,46964.81,4.4,0
+2023-07-01,July,Q3,Saturday,Port Harcourt,Home Appliances,Online,POS,Female,58,55800.0,5,15,237150.0,0.1623,38489.44,3.1,0
+2023-04-18,April,Q2,Tuesday,Kaduna,Clothing,Online,Bank Transfer,Female,70,43200.0,8,0,345600.0,0.3227,111525.12,4.9,0
+2023-12-10,December,Q4,Sunday,Port Harcourt,Books & Stationery,Online,Mobile Money,Female,54,4500.0,12,10,48600.0,0.3597,17481.42,4.3,0
+2023-05-17,May,Q2,Wednesday,Kaduna,Food & Beverage,Physical Store,POS,Male,42,1100.0,1,20,880.0,0.3533,310.9,4.2,0
+2023-12-26,December,Q4,Tuesday,Port Harcourt,Electronics,Physical Store,POS,Female,44,98500.0,6,0,591000.0,0.2679,158328.9,4.1,0
+2023-12-16,December,Q4,Saturday,Ibadan,Food & Beverage,Online,Mobile Money,Female,62,10300.0,18,5,176130.0,0.2569,45247.8,2.0,1
+2023-11-28,November,Q4,Tuesday,Benin City,Home Appliances,Wholesale,Bank Transfer,Female,53,132200.0,8,0,1057600.0,0.1286,136007.36,2.3,0
+2023-02-06,February,Q1,Monday,Kaduna,Clothing,Physical Store,Bank Transfer,Female,35,36700.0,7,10,231210.0,0.3436,79443.76,3.1,0
+2023-11-08,November,Q4,Wednesday,Kano,Clothing,Online,POS,Female,42,31000.0,1,5,29450.0,0.1723,5074.24,2.4,0
+2023-11-22,November,Q4,Wednesday,Enugu,Cosmetics,Online,Bank Transfer,Male,56,29700.0,16,10,427680.0,0.2489,106449.55,3.0,0
+2023-03-29,March,Q1,Wednesday,Lagos,Clothing,Online,Cash,Male,69,28000.0,12,10,302400.0,0.1767,53434.08,4.6,0
+2023-10-01,October,Q4,Sunday,Port Harcourt,Cosmetics,Online,Mobile Money,Male,35,28600.0,6,0,171600.0,0.1255,21535.8,4.4,0
+2023-05-06,May,Q2,Saturday,Abuja,Books & Stationery,Online,Cash,Female,59,7200.0,2,20,11520.0,0.294,3386.88,3.7,0
+2023-03-25,March,Q1,Saturday,Benin City,Electronics,Online,Bank Transfer,Male,34,220200.0,14,5,2928660.0,0.0985,288473.01,4.5,0
+2023-08-25,August,Q3,Friday,Port Harcourt,Home Appliances,Online,POS,Male,35,203600.0,4,0,814400.0,0.3345,272416.8,4.2,0
+2023-07-14,July,Q3,Friday,Abuja,Cosmetics,Online,Mobile Money,Female,50,15900.0,1,10,14310.0,0.188,2690.28,3.0,0
+2023-05-19,May,Q2,Friday,Enugu,Electronics,Wholesale,Bank Transfer,Female,62,293200.0,18,10,4749840.0,0.08,379987.2,2.2,0
+2023-11-24,November,Q4,Friday,Enugu,Clothing,Online,Bank Transfer,Female,17,26000.0,13,0,338000.0,0.2538,85784.4,3.3,0
+2023-12-19,December,Q4,Tuesday,Enugu,Clothing,Physical Store,POS,Male,45,40700.0,2,15,69190.0,0.0959,6635.32,4.1,0
+2023-10-13,October,Q4,Friday,Abuja,Electronics,Physical Store,POS,Male,68,264100.0,9,20,1901520.0,0.1739,330674.33,3.0,0
+2023-04-23,April,Q2,Sunday,Port Harcourt,Clothing,Wholesale,Cash,Female,49,22900.0,2,0,45800.0,0.3204,14674.32,3.8,1
+2023-12-17,December,Q4,Sunday,Enugu,Books & Stationery,Online,Mobile Money,Female,37,2700.0,9,20,19440.0,0.1013,1969.27,1.8,0
+2023-06-16,June,Q2,Friday,Ibadan,Books & Stationery,Online,Mobile Money,Male,18,2600.0,1,0,2600.0,0.3654,950.04,4.1,0
+2023-01-29,January,Q1,Sunday,Kaduna,Electronics,Wholesale,POS,Male,21,228600.0,11,0,2514600.0,0.0813,204436.98,4.3,1
+2023-04-28,April,Q2,Friday,Abuja,Cosmetics,Wholesale,Cash,Female,30,23300.0,3,0,69900.0,0.1639,11456.61,4.0,0
+2023-01-17,January,Q1,Tuesday,Abuja,Cosmetics,Physical Store,Mobile Money,Female,42,16400.0,4,15,55760.0,0.3319,18506.74,4.9,0
+2023-06-11,June,Q2,Sunday,Port Harcourt,Electronics,Online,POS,Male,25,225000.0,18,10,3645000.0,0.1875,683437.5,4.4,0
+2023-07-25,July,Q3,Tuesday,Abuja,Cosmetics,Online,Bank Transfer,Female,24,9300.0,6,0,55800.0,0.1146,6394.68,4.7,0
+2023-05-18,May,Q2,Thursday,Abuja,Cosmetics,Physical Store,Mobile Money,Male,48,3700.0,3,5,10545.0,0.2025,2135.36,4.8,0
+2023-02-03,February,Q1,Friday,Enugu,Books & Stationery,Wholesale,Cash,Male,47,2900.0,11,10,28710.0,0.1719,4935.25,4.3,0
+2023-04-19,April,Q2,Wednesday,Port Harcourt,Cosmetics,Physical Store,Cash,Male,63,9200.0,15,0,138000.0,0.3665,50577.0,3.9,0
+2023-10-18,October,Q4,Wednesday,Enugu,Food & Beverage,Physical Store,Cash,Male,21,4200.0,5,15,17850.0,0.1865,3329.02,1.5,0
+2023-06-11,June,Q2,Sunday,Kaduna,Home Appliances,Online,Bank Transfer,Female,56,154900.0,10,15,1316650.0,0.3482,458457.53,3.1,1
+2023-04-19,April,Q2,Wednesday,Benin City,Clothing,Physical Store,Mobile Money,Female,51,8800.0,12,5,100320.0,0.3832,38442.62,3.5,0
+2023-12-02,December,Q4,Saturday,Kaduna,Food & Beverage,Online,Mobile Money,Male,17,3200.0,15,20,38400.0,0.2275,8736.0,2.6,1
+2023-09-13,September,Q3,Wednesday,Benin City,Cosmetics,Online,Bank Transfer,Male,44,21300.0,17,5,343995.0,0.3894,133951.65,2.6,0
+2023-07-22,July,Q3,Saturday,Enugu,Books & Stationery,Physical Store,Mobile Money,Male,19,5900.0,10,20,47200.0,0.2083,9831.76,4.9,0
+2023-11-26,November,Q4,Sunday,Kaduna,Electronics,Physical Store,Bank Transfer,Male,16,36500.0,6,10,197100.0,0.4078,80377.38,4.6,0
+2023-08-23,August,Q3,Wednesday,Port Harcourt,Cosmetics,Online,Bank Transfer,Male,34,13100.0,18,10,212220.0,0.1104,23429.09,4.5,0
+2023-03-15,March,Q1,Wednesday,Lagos,Books & Stationery,Online,Bank Transfer,Female,41,4700.0,13,0,61100.0,0.3136,19160.96,2.9,0
+2023-05-16,May,Q2,Tuesday,Enugu,Home Appliances,Physical Store,Cash,Female,40,121100.0,3,15,308805.0,0.2479,76552.76,1.5,0
+2023-03-13,March,Q1,Monday,Benin City,Cosmetics,Online,Mobile Money,Female,25,7400.0,10,5,70300.0,0.2118,14889.54,1.8,0
+2023-05-07,May,Q2,Sunday,Ibadan,Electronics,Physical Store,Bank Transfer,Female,68,155700.0,14,0,2179800.0,0.2951,643258.98,2.6,0
+2023-10-15,October,Q4,Sunday,Benin City,Books & Stationery,Online,Mobile Money,Male,30,7300.0,6,0,43800.0,0.3193,13985.34,1.6,0
+2023-10-03,October,Q4,Tuesday,Ibadan,Books & Stationery,Physical Store,Cash,Male,37,5000.0,3,5,14250.0,0.0815,1161.38,1.6,0
+2023-05-15,May,Q2,Monday,Abuja,Books & Stationery,Physical Store,Bank Transfer,Male,66,5800.0,16,5,88160.0,0.1368,12060.29,4.7,0
+2023-10-27,October,Q4,Friday,Kaduna,Home Appliances,Online,POS,Male,63,241000.0,7,10,1518300.0,0.3224,489499.92,4.0,0
+2023-08-08,August,Q3,Tuesday,Ibadan,Cosmetics,Online,Cash,Male,36,23300.0,14,15,277270.0,0.3066,85010.98,2.6,0
+2023-10-26,October,Q4,Thursday,Benin City,Home Appliances,Online,POS,Female,71,111500.0,9,0,1003500.0,0.4085,409929.75,2.0,0
+2023-07-24,July,Q3,Monday,Abuja,Clothing,Online,Mobile Money,Male,37,3200.0,15,10,43200.0,0.3388,14636.16,3.3,0
+2023-07-05,July,Q3,Wednesday,Lagos,Clothing,Wholesale,Mobile Money,Female,51,17800.0,3,0,53400.0,0.4033,21536.22,1.5,1
+2023-04-23,April,Q2,Sunday,Port Harcourt,Cosmetics,Online,Cash,Female,49,23000.0,2,15,39100.0,0.3189,12468.99,4.8,0
+2023-03-12,March,Q1,Sunday,Port Harcourt,Home Appliances,Physical Store,Mobile Money,Female,45,240100.0,2,15,408170.0,0.1813,74001.22,3.0,0
+2023-09-18,September,Q3,Monday,Port Harcourt,Electronics,Online,POS,Female,40,334400.0,3,5,953040.0,0.1158,110362.03,2.9,0
+2023-09-10,September,Q3,Sunday,Ibadan,Books & Stationery,Physical Store,Bank Transfer,Male,60,3800.0,18,10,61560.0,0.3458,21287.45,2.9,0
+2023-02-16,February,Q1,Thursday,Lagos,Books & Stationery,Physical Store,Bank Transfer,Female,43,6200.0,14,0,86800.0,0.299,25953.2,1.7,0
+2023-01-25,January,Q1,Wednesday,Ibadan,Cosmetics,Physical Store,Bank Transfer,Female,16,17100.0,18,5,292410.0,0.0964,28188.32,3.7,0
+2023-02-26,February,Q1,Sunday,Kaduna,Clothing,Physical Store,Cash,Female,64,28300.0,10,15,240550.0,0.2024,48687.32,4.1,1
+2023-03-20,March,Q1,Monday,Ibadan,Clothing,Physical Store,Mobile Money,Male,60,12300.0,2,5,23370.0,0.4053,9471.86,3.9,0
+2023-11-18,November,Q4,Saturday,Lagos,Books & Stationery,Online,POS,Male,19,2400.0,1,0,2400.0,0.2501,600.24,2.0,0
+2023-03-23,March,Q1,Thursday,Lagos,Cosmetics,Wholesale,Mobile Money,Male,22,13900.0,4,5,52820.0,0.2271,11995.42,3.5,1
+2023-12-15,December,Q4,Friday,Kaduna,Home Appliances,Physical Store,Mobile Money,Female,64,15900.0,14,15,189210.0,0.2356,44577.88,3.5,0
+2023-08-05,August,Q3,Saturday,Lagos,Clothing,Wholesale,Mobile Money,Female,24,17100.0,1,0,17100.0,0.151,2582.1,4.5,0
+2023-11-02,November,Q4,Thursday,Benin City,Home Appliances,Online,Bank Transfer,Male,51,192700.0,14,0,2697800.0,0.2054,554128.12,2.8,0
+2023-02-02,February,Q1,Thursday,Lagos,Clothing,Physical Store,POS,Female,34,20000.0,16,10,288000.0,0.2057,59241.6,2.8,0
+2023-07-17,July,Q3,Monday,Port Harcourt,Clothing,Wholesale,POS,Male,16,9900.0,14,15,117810.0,0.0978,11521.82,3.7,0
+2023-07-15,July,Q3,Saturday,Benin City,Food & Beverage,Online,Mobile Money,Male,25,5900.0,3,0,17700.0,0.341,6035.7,3.7,0
+2023-11-02,November,Q4,Thursday,Benin City,Clothing,Online,Bank Transfer,Female,51,8400.0,3,0,25200.0,0.2216,5584.32,3.1,0
+2023-08-28,August,Q3,Monday,Kaduna,Electronics,Physical Store,Bank Transfer,Female,24,223500.0,9,0,2011500.0,0.3595,723134.25,3.1,0
+2023-09-28,September,Q3,Thursday,Kano,Cosmetics,Physical Store,POS,Female,60,2300.0,6,0,13800.0,0.3691,5093.58,3.2,0
+2023-05-09,May,Q2,Tuesday,Kano,Cosmetics,Physical Store,Bank Transfer,Female,61,12700.0,13,5,156845.0,0.1521,23856.12,4.5,0
+2023-10-11,October,Q4,Wednesday,Lagos,Home Appliances,Online,Bank Transfer,Male,57,161500.0,2,10,290700.0,0.3035,88227.45,3.1,0
+2023-01-06,January,Q1,Friday,Benin City,Clothing,Physical Store,Bank Transfer,Male,47,4100.0,8,10,29520.0,0.2406,7102.51,4.8,0
+2023-12-15,December,Q4,Friday,Kano,Electronics,Online,Cash,Male,47,230300.0,2,10,414540.0,0.3793,157235.02,3.3,0
+2023-02-28,February,Q1,Tuesday,Kano,Home Appliances,Online,Mobile Money,Male,21,44900.0,4,0,179600.0,0.1534,27550.64,4.8,0
+2023-12-16,December,Q4,Saturday,Lagos,Food & Beverage,Online,POS,Male,63,5800.0,15,15,73950.0,0.3105,22961.48,4.4,0
+2023-10-02,October,Q4,Monday,Kano,Home Appliances,Physical Store,POS,Female,53,21700.0,4,5,82460.0,0.2866,23633.04,2.8,1
+2023-05-17,May,Q2,Wednesday,Ibadan,Home Appliances,Physical Store,Cash,Male,32,111100.0,13,20,1155440.0,0.1804,208441.38,4.5,0
+2023-11-25,November,Q4,Saturday,Abuja,Clothing,Physical Store,Mobile Money,Male,25,11900.0,12,10,128520.0,0.1264,16244.93,1.9,0
+2023-06-24,June,Q2,Saturday,Kaduna,Food & Beverage,Online,POS,Male,65,4300.0,13,0,55900.0,0.3016,16859.44,4.7,0
+2023-02-27,February,Q1,Monday,Abuja,Home Appliances,Wholesale,Bank Transfer,Female,42,215100.0,14,10,2710260.0,0.3311,897367.09,3.7,0
+2023-05-31,May,Q2,Wednesday,Lagos,Electronics,Online,POS,Female,69,142000.0,18,0,2556000.0,0.1873,478738.8,1.7,0
+2023-08-11,August,Q3,Friday,Port Harcourt,Electronics,Physical Store,Bank Transfer,Female,65,266900.0,6,10,1441260.0,0.2992,431224.99,3.8,1
+2023-03-22,March,Q1,Wednesday,Kaduna,Cosmetics,Physical Store,Cash,Female,50,25200.0,11,0,277200.0,0.2143,59403.96,4.9,0
+2023-08-21,August,Q3,Monday,Lagos,Food & Beverage,Online,Bank Transfer,Male,67,3400.0,2,0,6800.0,0.3225,2193.0,1.7,0
+2023-01-02,January,Q1,Monday,Benin City,Food & Beverage,Physical Store,POS,Male,36,1400.0,19,15,22610.0,0.1477,3339.5,3.4,0
+2023-05-15,May,Q2,Monday,Port Harcourt,Cosmetics,Online,POS,Female,40,2100.0,19,0,39900.0,0.3827,15269.73,4.1,0
+2023-09-14,September,Q3,Thursday,Abuja,Home Appliances,Physical Store,POS,Female,43,154700.0,5,15,657475.0,0.1777,116833.31,4.3,0
+2023-04-02,April,Q2,Sunday,Lagos,Food & Beverage,Physical Store,Cash,Male,62,12000.0,19,0,228000.0,0.205,46740.0,2.9,1
+2023-09-17,September,Q3,Sunday,Benin City,Electronics,Online,Cash,Male,30,132200.0,2,10,237960.0,0.0998,23748.41,2.2,0
+2023-02-24,February,Q1,Friday,Kaduna,Electronics,Wholesale,Mobile Money,Female,19,232800.0,10,10,2095200.0,0.1179,247024.08,1.6,0
+2023-11-17,November,Q4,Friday,Kaduna,Clothing,Online,POS,Female,44,35800.0,2,5,68020.0,0.2554,17372.31,3.5,0
+2023-06-02,June,Q2,Friday,Enugu,Food & Beverage,Physical Store,Bank Transfer,Female,24,8000.0,11,0,88000.0,0.171,15048.0,3.1,0
+2023-11-24,November,Q4,Friday,Benin City,Home Appliances,Wholesale,Cash,Female,42,213200.0,18,0,3837600.0,0.3641,1397270.16,4.8,0
+2023-09-17,September,Q3,Sunday,Ibadan,Cosmetics,Physical Store,POS,Male,41,28600.0,15,0,429000.0,0.085,36465.0,1.7,0
+2023-11-08,November,Q4,Wednesday,Kano,Cosmetics,Online,POS,Male,34,7200.0,9,0,64800.0,0.2089,13536.72,3.9,0
+2023-04-12,April,Q2,Wednesday,Port Harcourt,Home Appliances,Wholesale,Cash,Male,71,13500.0,19,10,230850.0,0.1947,44946.5,1.6,0
+2023-03-20,March,Q1,Monday,Benin City,Books & Stationery,Physical Store,Mobile Money,Female,43,1900.0,9,20,13680.0,0.0866,1184.69,2.1,0
+2023-07-11,July,Q3,Tuesday,Enugu,Clothing,Online,Cash,Female,32,8300.0,3,15,21165.0,0.1223,2588.48,3.1,0
+2023-03-24,March,Q1,Friday,Kano,Cosmetics,Online,Cash,Male,58,20600.0,9,10,166860.0,0.2206,36809.32,3.1,0
+2023-10-04,October,Q4,Wednesday,Kano,Food & Beverage,Physical Store,Bank Transfer,Male,56,7000.0,14,10,88200.0,0.2476,21838.32,3.9,0
+2023-09-29,September,Q3,Friday,Lagos,Clothing,Physical Store,Bank Transfer,Male,57,12200.0,19,10,208620.0,0.2175,45374.85,4.7,0
+2023-01-01,January,Q1,Sunday,Kano,Food & Beverage,Physical Store,Mobile Money,Male,65,8500.0,7,0,59500.0,0.2605,15499.75,3.7,0
+2023-11-03,November,Q4,Friday,Ibadan,Electronics,Wholesale,POS,Female,35,271900.0,16,20,3480320.0,0.2823,982494.34,4.8,0
+2023-06-15,June,Q2,Thursday,Kaduna,Clothing,Physical Store,Cash,Male,60,10000.0,16,10,144000.0,0.0834,12009.6,4.6,0
+2023-09-08,September,Q3,Friday,Enugu,Cosmetics,Online,Mobile Money,Male,55,18800.0,1,5,17860.0,0.2378,4247.11,3.5,0
+2023-01-10,January,Q1,Tuesday,Kano,Clothing,Online,Bank Transfer,Male,54,34400.0,4,0,137600.0,0.4076,56085.76,4.4,0
+2023-02-27,February,Q1,Monday,Lagos,Clothing,Online,Cash,Male,64,7800.0,4,5,29640.0,0.2565,7602.66,3.7,0
+2023-07-05,July,Q3,Wednesday,Ibadan,Clothing,Physical Store,POS,Male,68,37400.0,7,5,248710.0,0.3104,77199.58,1.8,0
+2023-06-07,June,Q2,Wednesday,Abuja,Books & Stationery,Online,Bank Transfer,Male,38,7700.0,8,15,52360.0,0.186,9738.96,4.1,0
+2023-05-03,May,Q2,Wednesday,Kaduna,Clothing,Physical Store,Bank Transfer,Male,62,7500.0,17,5,121125.0,0.3432,41570.1,1.8,0
+2023-01-30,January,Q1,Monday,Kaduna,Food & Beverage,Physical Store,Bank Transfer,Female,47,800.0,5,0,4000.0,0.3428,1371.2,3.6,0
+2023-05-04,May,Q2,Thursday,Enugu,Electronics,Wholesale,Mobile Money,Female,67,119500.0,7,20,669200.0,0.2572,172118.24,4.0,0
+2023-10-18,October,Q4,Wednesday,Kaduna,Home Appliances,Online,POS,Female,62,192200.0,4,0,768800.0,0.4118,316591.84,1.7,0
+2023-02-10,February,Q1,Friday,Kano,Clothing,Physical Store,Cash,Female,48,43200.0,6,5,246240.0,0.1227,30213.65,2.3,0
+2023-02-13,February,Q1,Monday,Lagos,Cosmetics,Online,Mobile Money,Male,61,12800.0,7,0,89600.0,0.0858,7687.68,4.7,0
+2023-09-06,September,Q3,Wednesday,Kaduna,Clothing,Physical Store,Mobile Money,Female,20,33000.0,18,10,534600.0,0.3419,182779.74,3.7,0
+2023-02-05,February,Q1,Sunday,Kaduna,Cosmetics,Online,Mobile Money,Female,58,3700.0,5,20,14800.0,0.3544,5245.12,2.4,0
+2023-09-30,September,Q3,Saturday,Abuja,Food & Beverage,Online,Bank Transfer,Male,63,8400.0,3,0,25200.0,0.1209,3046.68,3.9,0
+2023-03-06,March,Q1,Monday,Abuja,Cosmetics,Physical Store,POS,Male,49,19400.0,7,15,115430.0,0.1703,19657.73,3.6,0
+2023-03-07,March,Q1,Tuesday,Port Harcourt,Home Appliances,Online,Mobile Money,Female,55,35700.0,14,0,499800.0,0.086,42982.8,3.3,0
+2023-12-04,December,Q4,Monday,Ibadan,Electronics,Online,Cash,Female,26,273800.0,7,20,1533280.0,0.1797,275530.42,4.9,0
+2023-09-01,September,Q3,Friday,Kano,Cosmetics,Physical Store,POS,Male,65,25700.0,5,10,115650.0,0.3429,39656.38,3.9,0
+2023-10-09,October,Q4,Monday,Kaduna,Cosmetics,Physical Store,Cash,Female,18,18600.0,5,15,79050.0,0.2561,20244.7,2.8,0
+2023-03-26,March,Q1,Sunday,Benin City,Electronics,Physical Store,POS,Male,48,55600.0,2,0,111200.0,0.1984,22062.08,4.3,0
+2023-05-16,May,Q2,Tuesday,Kaduna,Home Appliances,Physical Store,Cash,Male,26,275600.0,6,20,1322880.0,0.2064,273042.43,4.6,0
+2023-09-28,September,Q3,Thursday,Lagos,Clothing,Physical Store,Bank Transfer,Male,31,35900.0,15,10,484650.0,0.0805,39014.33,1.9,0
+2023-11-07,November,Q4,Tuesday,Port Harcourt,Cosmetics,Online,Mobile Money,Male,33,11400.0,10,0,114000.0,0.1819,20736.6,2.2,1
+2023-08-05,August,Q3,Saturday,Ibadan,Electronics,Online,Cash,Female,45,158500.0,7,15,943075.0,0.2998,282733.88,2.3,0
+2023-04-19,April,Q2,Wednesday,Benin City,Food & Beverage,Online,POS,Male,63,4800.0,5,0,24000.0,0.4112,9868.8,3.9,0
+2023-10-04,October,Q4,Wednesday,Port Harcourt,Electronics,Wholesale,Mobile Money,Male,70,184500.0,1,15,156825.0,0.368,57711.6,3.6,0
+2023-12-20,December,Q4,Wednesday,Enugu,Food & Beverage,Physical Store,Mobile Money,Female,25,4400.0,13,0,57200.0,0.088,5033.6,3.7,0
+2023-04-13,April,Q2,Thursday,Ibadan,Home Appliances,Physical Store,POS,Male,33,239100.0,18,10,3873420.0,0.3855,1493203.41,4.8,0
+2023-06-09,June,Q2,Friday,Kaduna,Clothing,Physical Store,Cash,Female,53,37500.0,13,5,463125.0,0.3463,160380.19,4.2,0
+2023-07-24,July,Q3,Monday,Kaduna,Electronics,Wholesale,Bank Transfer,Female,34,50400.0,18,0,907200.0,0.3453,313256.16,1.9,0
+2023-12-10,December,Q4,Sunday,Ibadan,Books & Stationery,Online,Bank Transfer,Female,51,7700.0,5,0,38500.0,0.2357,9074.45,2.7,0
+2023-11-29,November,Q4,Wednesday,Kaduna,Cosmetics,Physical Store,Cash,Male,28,19600.0,13,0,254800.0,0.2153,54858.44,3.0,0
+2023-07-11,July,Q3,Tuesday,Kano,Home Appliances,Physical Store,Mobile Money,Female,71,233400.0,4,5,886920.0,0.183,162306.36,2.9,0
+2023-08-13,August,Q3,Sunday,Ibadan,Electronics,Physical Store,Mobile Money,Female,61,251900.0,17,0,4282300.0,0.1023,438079.29,3.8,0
+2023-09-22,September,Q3,Friday,Port Harcourt,Cosmetics,Online,Mobile Money,Male,18,13900.0,3,5,39615.0,0.1576,6243.32,4.6,1
+2023-08-20,August,Q3,Sunday,Ibadan,Electronics,Wholesale,Mobile Money,Female,25,260800.0,17,0,4433600.0,0.1638,726223.68,2.6,0
+2023-03-03,March,Q1,Friday,Benin City,Food & Beverage,Wholesale,Cash,Female,53,11600.0,11,0,127600.0,0.2446,31210.96,3.4,0
+2023-05-07,May,Q2,Sunday,Kaduna,Electronics,Physical Store,Mobile Money,Female,16,105500.0,4,10,379800.0,0.3341,126891.18,4.3,0
+2023-04-26,April,Q2,Wednesday,Kano,Books & Stationery,Physical Store,POS,Female,70,6600.0,2,0,13200.0,0.2411,3182.52,3.0,0
+2023-02-02,February,Q1,Thursday,Kano,Electronics,Wholesale,Mobile Money,Female,71,195300.0,16,20,2499840.0,0.0997,249234.05,2.1,0
+2023-06-23,June,Q2,Friday,Enugu,Electronics,Physical Store,Bank Transfer,Male,42,177000.0,18,15,2708100.0,0.4056,1098405.36,3.2,0
+2023-01-11,January,Q1,Wednesday,Port Harcourt,Books & Stationery,Online,Mobile Money,Female,61,3900.0,8,10,28080.0,0.4005,11246.04,1.7,0
+2023-10-29,October,Q4,Sunday,Abuja,Home Appliances,Physical Store,Cash,Female,23,206800.0,3,5,589380.0,0.347,204514.86,4.8,0
+2023-10-11,October,Q4,Wednesday,Abuja,Electronics,Physical Store,Bank Transfer,Male,66,104900.0,9,15,802485.0,0.4171,334716.49,1.8,0
+2023-04-28,April,Q2,Friday,Ibadan,Books & Stationery,Physical Store,Cash,Male,61,6900.0,6,0,41400.0,0.2651,10975.14,3.0,0
+2023-10-29,October,Q4,Sunday,Enugu,Cosmetics,Physical Store,Cash,Male,57,25200.0,10,0,252000.0,0.4073,102639.6,3.4,0
+2023-04-23,April,Q2,Sunday,Lagos,Food & Beverage,Wholesale,Bank Transfer,Female,32,1500.0,10,0,15000.0,0.1057,1585.5,4.9,0
+2023-01-04,January,Q1,Wednesday,Ibadan,Food & Beverage,Wholesale,Cash,Male,24,10600.0,13,10,124020.0,0.2043,25337.29,2.1,0
+2023-02-06,February,Q1,Monday,Enugu,Electronics,Physical Store,Cash,Female,21,96700.0,17,0,1643900.0,0.1566,257434.74,1.9,0
+2023-12-29,December,Q4,Friday,Port Harcourt,Home Appliances,Online,Mobile Money,Female,58,134400.0,9,5,1149120.0,0.1466,168460.99,1.5,0
+2023-11-20,November,Q4,Monday,Port Harcourt,Home Appliances,Wholesale,POS,Male,40,174000.0,17,20,2366400.0,0.1279,302662.56,2.0,0
+2023-01-31,January,Q1,Tuesday,Port Harcourt,Cosmetics,Physical Store,Cash,Male,54,12300.0,9,15,94095.0,0.2916,27438.1,2.2,1
+2023-04-28,April,Q2,Friday,Port Harcourt,Electronics,Online,Cash,Female,64,24600.0,9,5,210330.0,0.3456,72690.05,3.7,0
+2023-02-04,February,Q1,Saturday,Port Harcourt,Food & Beverage,Wholesale,Cash,Male,43,10300.0,1,0,10300.0,0.2766,2848.98,2.3,0
+2023-01-17,January,Q1,Tuesday,Enugu,Home Appliances,Wholesale,Mobile Money,Female,48,57500.0,2,15,97750.0,0.13,12707.5,1.6,0
+2023-06-19,June,Q2,Monday,Enugu,Electronics,Physical Store,POS,Male,69,86100.0,16,5,1308720.0,0.3558,465642.58,4.4,0
+2023-02-06,February,Q1,Monday,Kano,Home Appliances,Physical Store,Bank Transfer,Male,52,225000.0,1,0,225000.0,0.2962,66645.0,2.8,0
+2023-09-21,September,Q3,Thursday,Benin City,Books & Stationery,Online,Mobile Money,Male,24,3300.0,10,0,33000.0,0.212,6996.0,2.7,0
+2023-05-02,May,Q2,Tuesday,Abuja,Home Appliances,Online,Mobile Money,Female,33,247400.0,18,20,3562560.0,0.3092,1101543.55,2.6,0
+2023-05-23,May,Q2,Tuesday,Kaduna,Food & Beverage,Online,POS,Male,71,8600.0,8,10,61920.0,0.1684,10427.33,4.9,0
+2023-12-09,December,Q4,Saturday,Port Harcourt,Clothing,Physical Store,POS,Female,36,14600.0,11,15,136510.0,0.1974,26947.07,2.1,0
+2023-09-06,September,Q3,Wednesday,Lagos,Cosmetics,Online,Mobile Money,Female,17,1800.0,2,15,3060.0,0.3919,1199.21,4.6,1
+2023-04-20,April,Q2,Thursday,Kaduna,Cosmetics,Online,Bank Transfer,Female,58,28500.0,8,5,216600.0,0.1788,38728.08,4.2,0
+2023-10-04,October,Q4,Wednesday,Enugu,Food & Beverage,Online,Mobile Money,Female,53,1500.0,8,5,11400.0,0.2398,2733.72,1.8,0
+2023-03-09,March,Q1,Thursday,Lagos,Home Appliances,Physical Store,POS,Male,55,203900.0,17,5,3292985.0,0.3826,1259896.06,5.0,0
+2023-10-20,October,Q4,Friday,Lagos,Electronics,Wholesale,Bank Transfer,Female,51,178700.0,15,0,2680500.0,0.3206,859368.3,2.4,0
+2023-10-23,October,Q4,Monday,Lagos,Home Appliances,Online,POS,Female,65,214200.0,17,5,3459330.0,0.1011,349738.26,1.8,0
+2023-08-31,August,Q3,Thursday,Kano,Food & Beverage,Online,Bank Transfer,Male,58,8400.0,13,10,98280.0,0.1301,12786.23,4.4,0
+2023-05-05,May,Q2,Friday,Enugu,Cosmetics,Physical Store,Cash,Female,52,19900.0,19,10,340290.0,0.0827,28141.98,4.0,0
+2023-08-31,August,Q3,Thursday,Lagos,Home Appliances,Physical Store,POS,Male,30,141500.0,5,15,601375.0,0.2945,177104.94,3.7,0
+2023-07-28,July,Q3,Friday,Port Harcourt,Cosmetics,Online,POS,Female,43,24100.0,12,5,274740.0,0.2322,63794.63,2.0,0
+2023-04-08,April,Q2,Saturday,Ibadan,Electronics,Physical Store,Mobile Money,Male,33,46200.0,1,10,41580.0,0.1257,5226.61,3.2,0
+2023-02-18,February,Q1,Saturday,Lagos,Cosmetics,Online,POS,Female,49,7800.0,5,10,35100.0,0.4057,14240.07,4.2,0
+2023-02-19,February,Q1,Sunday,Kano,Cosmetics,Online,POS,Male,37,21200.0,8,5,161120.0,0.2601,41907.31,2.6,0
+2023-12-04,December,Q4,Monday,Kaduna,Clothing,Physical Store,Cash,Female,26,15900.0,13,10,186030.0,0.1622,30174.07,2.6,0
+2023-08-09,August,Q3,Wednesday,Enugu,Clothing,Physical Store,POS,Female,28,27400.0,8,0,219200.0,0.2502,54843.84,1.5,0
+2023-07-01,July,Q3,Saturday,Benin City,Books & Stationery,Wholesale,Cash,Male,19,4200.0,11,5,43890.0,0.3111,13654.18,2.1,0
+2023-08-05,August,Q3,Saturday,Kano,Clothing,Online,Cash,Male,37,25300.0,1,0,25300.0,0.1059,2679.27,4.6,0
+2023-07-30,July,Q3,Sunday,Lagos,Cosmetics,Physical Store,Cash,Male,22,13600.0,13,0,176800.0,0.1734,30657.12,3.0,0
+2023-08-28,August,Q3,Monday,Enugu,Food & Beverage,Physical Store,Cash,Male,58,9100.0,19,5,164255.0,0.3544,58211.97,4.9,0
+2023-01-28,January,Q1,Saturday,Ibadan,Cosmetics,Online,Bank Transfer,Female,69,10900.0,3,10,29430.0,0.2363,6954.31,2.9,0
+2023-12-11,December,Q4,Monday,Lagos,Food & Beverage,Physical Store,Mobile Money,Female,39,8600.0,17,20,116960.0,0.2658,31087.97,4.0,0
+2023-12-01,December,Q4,Friday,Kano,Food & Beverage,Online,Bank Transfer,Male,19,3600.0,5,10,16200.0,0.2272,3680.64,2.5,0
+2023-11-27,November,Q4,Monday,Abuja,Clothing,Wholesale,POS,Female,43,13600.0,8,10,97920.0,0.0949,9292.61,2.8,0
+2023-02-20,February,Q1,Monday,Port Harcourt,Home Appliances,Online,Bank Transfer,Male,30,40800.0,14,5,542640.0,0.1364,74016.1,2.2,0
+2023-02-01,February,Q1,Wednesday,Benin City,Electronics,Physical Store,Bank Transfer,Male,16,79500.0,4,10,286200.0,0.2315,66255.3,2.7,0
+2023-07-26,July,Q3,Wednesday,Kaduna,Clothing,Online,POS,Female,70,8000.0,11,0,88000.0,0.1511,13296.8,3.4,0
+2023-06-23,June,Q2,Friday,Kano,Clothing,Wholesale,POS,Female,18,25500.0,15,0,382500.0,0.097,37102.5,5.0,0
+2023-02-25,February,Q1,Saturday,Enugu,Home Appliances,Physical Store,POS,Female,29,215300.0,19,0,4090700.0,0.3668,1500468.76,3.8,1
+2023-05-08,May,Q2,Monday,Benin City,Electronics,Physical Store,Bank Transfer,Female,53,77000.0,7,5,512050.0,0.4136,211783.88,2.2,0
+2023-04-09,April,Q2,Sunday,Benin City,Cosmetics,Online,Bank Transfer,Female,65,7700.0,19,0,146300.0,0.3497,51161.11,1.7,0
+2023-04-08,April,Q2,Saturday,Benin City,Books & Stationery,Physical Store,POS,Female,16,4300.0,19,0,81700.0,0.3703,30253.51,1.9,1
+2023-10-02,October,Q4,Monday,Lagos,Books & Stationery,Online,Mobile Money,Female,53,6000.0,11,0,66000.0,0.1623,10711.8,3.5,1
+2023-08-18,August,Q3,Friday,Port Harcourt,Cosmetics,Wholesale,Mobile Money,Male,53,29300.0,5,20,117200.0,0.4066,47653.52,4.2,0
+2023-03-13,March,Q1,Monday,Lagos,Clothing,Online,Cash,Male,36,25000.0,5,0,125000.0,0.147,18375.0,4.8,0
+2023-08-05,August,Q3,Saturday,Enugu,Electronics,Online,POS,Male,63,109800.0,8,5,834480.0,0.4035,336712.68,1.6,0
+2023-04-04,April,Q2,Tuesday,Lagos,Clothing,Online,Cash,Male,44,7200.0,10,0,72000.0,0.4182,30110.4,3.3,0
+2023-05-23,May,Q2,Tuesday,Abuja,Food & Beverage,Physical Store,Mobile Money,Male,20,2700.0,6,10,14580.0,0.322,4694.76,3.1,0
+2023-08-25,August,Q3,Friday,Port Harcourt,Clothing,Physical Store,Cash,Female,64,12600.0,15,0,189000.0,0.4136,78170.4,3.8,0
+2023-05-08,May,Q2,Monday,Port Harcourt,Clothing,Online,POS,Male,25,10500.0,16,0,168000.0,0.2736,45964.8,3.5,0
+2023-02-08,February,Q1,Wednesday,Enugu,Cosmetics,Physical Store,POS,Male,43,1900.0,17,5,30685.0,0.1682,5161.22,3.9,1
+2023-08-15,August,Q3,Tuesday,Kaduna,Cosmetics,Physical Store,POS,Male,36,16700.0,8,0,133600.0,0.2286,30540.96,3.8,0
+2023-10-09,October,Q4,Monday,Abuja,Cosmetics,Physical Store,Bank Transfer,Male,65,9300.0,8,0,74400.0,0.2818,20965.92,1.9,0
+2023-02-20,February,Q1,Monday,Kano,Books & Stationery,Physical Store,Cash,Male,22,7800.0,9,0,70200.0,0.1048,7356.96,4.3,0
+2023-01-26,January,Q1,Thursday,Lagos,Food & Beverage,Physical Store,Mobile Money,Male,18,6900.0,2,0,13800.0,0.2916,4024.08,1.9,0
+2023-11-30,November,Q4,Thursday,Ibadan,Cosmetics,Physical Store,Mobile Money,Male,60,21400.0,15,0,321000.0,0.4136,132765.6,3.9,0
+2023-10-04,October,Q4,Wednesday,Lagos,Electronics,Online,Mobile Money,Female,62,57300.0,18,0,1031400.0,0.1446,149140.44,3.0,0
+2023-01-08,January,Q1,Sunday,Benin City,Books & Stationery,Online,Bank Transfer,Female,35,7100.0,3,15,18105.0,0.3495,6327.7,3.3,0
+2023-02-17,February,Q1,Friday,Lagos,Home Appliances,Wholesale,Bank Transfer,Male,34,141500.0,17,5,2285225.0,0.3887,888266.96,4.7,0
+2023-05-02,May,Q2,Tuesday,Kano,Electronics,Wholesale,POS,Female,50,307400.0,4,5,1168120.0,0.4009,468299.31,4.6,0
+2023-03-27,March,Q1,Monday,Lagos,Electronics,Online,Mobile Money,Female,19,207300.0,4,0,829200.0,0.4064,336986.88,4.4,1
+2023-07-28,July,Q3,Friday,Abuja,Cosmetics,Online,Bank Transfer,Female,20,14900.0,14,20,166880.0,0.2573,42938.22,3.3,0
+2023-09-06,September,Q3,Wednesday,Abuja,Home Appliances,Physical Store,POS,Female,16,127800.0,9,0,1150200.0,0.4123,474227.46,4.1,0
+2023-09-04,September,Q3,Monday,Port Harcourt,Home Appliances,Physical Store,Mobile Money,Male,19,58100.0,9,0,522900.0,0.3375,176478.75,3.3,0
+2023-04-20,April,Q2,Thursday,Enugu,Books & Stationery,Online,Cash,Female,27,1200.0,18,10,19440.0,0.135,2624.4,4.5,0
+2023-07-25,July,Q3,Tuesday,Kaduna,Home Appliances,Online,POS,Female,42,264000.0,10,0,2640000.0,0.2421,639144.0,2.9,0
+2023-01-31,January,Q1,Tuesday,Ibadan,Food & Beverage,Physical Store,Bank Transfer,Female,71,6000.0,4,0,24000.0,0.3242,7780.8,4.9,0
+2023-03-26,March,Q1,Sunday,Benin City,Cosmetics,Physical Store,Bank Transfer,Male,57,24900.0,12,5,283860.0,0.1641,46581.43,4.8,0
+2023-07-14,July,Q3,Friday,Lagos,Home Appliances,Online,POS,Male,38,117000.0,8,15,795600.0,0.2978,236929.68,4.1,0
+2023-01-02,January,Q1,Monday,Lagos,Books & Stationery,Online,POS,Male,40,1300.0,2,5,2470.0,0.3066,757.3,2.5,0
+2023-07-19,July,Q3,Wednesday,Kano,Food & Beverage,Online,Bank Transfer,Male,36,7700.0,13,10,90090.0,0.1353,12189.18,2.0,0
+2023-05-16,May,Q2,Tuesday,Enugu,Clothing,Physical Store,Cash,Male,67,5300.0,16,20,67840.0,0.2721,18459.26,4.5,0
+2023-08-21,August,Q3,Monday,Abuja,Clothing,Online,Mobile Money,Male,39,9300.0,2,0,18600.0,0.3424,6368.64,2.1,0
+2023-05-27,May,Q2,Saturday,Ibadan,Food & Beverage,Online,Cash,Male,40,7000.0,11,0,77000.0,0.2496,19219.2,4.5,0
+2023-08-05,August,Q3,Saturday,Port Harcourt,Books & Stationery,Physical Store,POS,Female,60,3000.0,10,0,30000.0,0.0841,2523.0,3.2,0
+2023-12-23,December,Q4,Saturday,Abuja,Food & Beverage,Online,Cash,Female,70,11900.0,15,5,169575.0,0.0831,14091.68,2.9,0
+2023-10-12,October,Q4,Thursday,Benin City,Cosmetics,Physical Store,Bank Transfer,Female,61,4900.0,17,5,79135.0,0.2014,15937.79,4.7,0
+2023-12-05,December,Q4,Tuesday,Enugu,Cosmetics,Online,POS,Male,47,23300.0,8,20,149120.0,0.3949,58887.49,3.6,0
+2023-09-07,September,Q3,Thursday,Benin City,Clothing,Online,Mobile Money,Male,70,28500.0,18,10,461700.0,0.1578,72856.26,3.5,0
+2023-03-21,March,Q1,Tuesday,Kaduna,Home Appliances,Online,Bank Transfer,Male,47,223100.0,9,10,1807110.0,0.2957,534362.43,3.5,0
+2023-04-08,April,Q2,Saturday,Port Harcourt,Books & Stationery,Physical Store,Bank Transfer,Male,20,2400.0,8,0,19200.0,0.1555,2985.6,2.8,0
+2023-06-01,June,Q2,Thursday,Kaduna,Clothing,Wholesale,Mobile Money,Male,51,24900.0,14,15,296310.0,0.1894,56121.11,4.2,0
+2023-04-22,April,Q2,Saturday,Kano,Home Appliances,Physical Store,Mobile Money,Female,61,130500.0,18,20,1879200.0,0.3683,692109.36,2.4,0
+2023-01-30,January,Q1,Monday,Benin City,Home Appliances,Online,Cash,Female,57,128400.0,12,15,1309680.0,0.3278,429313.1,4.8,0
+2023-10-24,October,Q4,Tuesday,Kano,Cosmetics,Physical Store,POS,Male,64,26000.0,19,0,494000.0,0.1124,55525.6,4.6,0
+2023-10-05,October,Q4,Thursday,Lagos,Electronics,Online,Mobile Money,Male,57,346700.0,14,10,4368420.0,0.2258,986389.24,2.7,0
+2023-02-01,February,Q1,Wednesday,Kaduna,Electronics,Online,Mobile Money,Male,54,117300.0,17,0,1994100.0,0.0899,179269.59,4.1,0
+2023-06-10,June,Q2,Saturday,Enugu,Food & Beverage,Wholesale,POS,Male,31,7600.0,3,0,22800.0,0.2435,5551.8,3.5,0
+2023-01-30,January,Q1,Monday,Benin City,Cosmetics,Online,Mobile Money,Female,48,18900.0,7,0,132300.0,0.3052,40377.96,2.7,0
+2023-01-26,January,Q1,Thursday,Ibadan,Home Appliances,Online,Mobile Money,Male,64,209300.0,17,10,3202290.0,0.1203,385235.49,5.0,1
+2023-10-27,October,Q4,Friday,Port Harcourt,Books & Stationery,Online,Cash,Male,36,7600.0,12,10,82080.0,0.1782,14626.66,1.6,0
+2023-09-02,September,Q3,Saturday,Abuja,Electronics,Online,Bank Transfer,Male,24,84600.0,9,0,761400.0,0.2153,163929.42,2.4,0
+2023-09-15,September,Q3,Friday,Enugu,Home Appliances,Online,Bank Transfer,Male,21,65400.0,15,0,981000.0,0.3926,385140.6,3.3,1
+2023-09-29,September,Q3,Friday,Enugu,Electronics,Physical Store,Bank Transfer,Female,66,236200.0,18,5,4039020.0,0.4177,1687098.65,3.3,0
+2023-03-22,March,Q1,Wednesday,Kano,Electronics,Physical Store,Bank Transfer,Male,60,67600.0,13,0,878800.0,0.0953,83749.64,3.6,0
+2023-01-30,January,Q1,Monday,Kaduna,Electronics,Wholesale,Mobile Money,Male,50,73200.0,8,0,585600.0,0.3387,198342.72,4.1,0
+2023-09-18,September,Q3,Monday,Benin City,Books & Stationery,Physical Store,POS,Female,54,1300.0,14,5,17290.0,0.2064,3568.66,3.7,0
+2023-02-11,February,Q1,Saturday,Benin City,Cosmetics,Online,POS,Female,37,1600.0,8,10,11520.0,0.2134,2458.37,3.6,0
+2023-04-06,April,Q2,Thursday,Lagos,Books & Stationery,Online,Cash,Female,56,4000.0,14,0,56000.0,0.3365,18844.0,1.7,0
+2023-02-05,February,Q1,Sunday,Lagos,Clothing,Online,Cash,Male,69,27900.0,7,0,195300.0,0.3923,76616.19,2.8,0
+2023-11-01,November,Q4,Wednesday,Port Harcourt,Home Appliances,Physical Store,Mobile Money,Male,20,87200.0,12,0,1046400.0,0.4033,422013.12,2.3,0
+2023-02-04,February,Q1,Saturday,Kano,Cosmetics,Online,POS,Female,57,8100.0,11,20,71280.0,0.2762,19687.54,2.4,1
+2023-12-12,December,Q4,Tuesday,Enugu,Cosmetics,Physical Store,POS,Female,38,21600.0,11,10,213840.0,0.2014,43067.38,3.4,0
+2023-05-01,May,Q2,Monday,Benin City,Cosmetics,Physical Store,Bank Transfer,Female,32,21500.0,13,10,251550.0,0.3478,87489.09,2.2,0
+2023-07-26,July,Q3,Wednesday,Ibadan,Cosmetics,Physical Store,Mobile Money,Female,27,14400.0,18,0,259200.0,0.1653,42845.76,2.5,0
+2023-03-03,March,Q1,Friday,Kano,Books & Stationery,Physical Store,Mobile Money,Female,38,5700.0,2,5,10830.0,0.2718,2943.59,2.3,0
+2023-10-19,October,Q4,Thursday,Port Harcourt,Cosmetics,Online,Bank Transfer,Female,31,27800.0,15,0,417000.0,0.2019,84192.3,4.8,0
+2023-05-07,May,Q2,Sunday,Port Harcourt,Food & Beverage,Wholesale,Mobile Money,Male,18,9600.0,18,10,155520.0,0.3033,47169.22,4.8,1
+2023-10-24,October,Q4,Tuesday,Kano,Home Appliances,Physical Store,Mobile Money,Male,45,178000.0,15,20,2136000.0,0.1617,345391.2,3.6,0
+2023-11-01,November,Q4,Wednesday,Port Harcourt,Cosmetics,Online,Cash,Male,37,20300.0,19,10,347130.0,0.1451,50368.56,4.7,0
+2023-01-21,January,Q1,Saturday,Kano,Home Appliances,Wholesale,POS,Female,24,262000.0,12,15,2672400.0,0.3922,1048115.28,4.3,0
+2023-11-14,November,Q4,Tuesday,Abuja,Food & Beverage,Physical Store,Mobile Money,Female,44,5400.0,13,10,63180.0,0.1146,7240.43,3.6,0
+2023-02-11,February,Q1,Saturday,Kano,Food & Beverage,Wholesale,Cash,Female,62,6800.0,11,0,74800.0,0.252,18849.6,1.5,1
+2023-08-03,August,Q3,Thursday,Kaduna,Home Appliances,Physical Store,POS,Female,52,184200.0,5,20,736800.0,0.1551,114277.68,4.2,0
+2023-12-03,December,Q4,Sunday,Kano,Electronics,Physical Store,Bank Transfer,Female,38,319300.0,1,0,319300.0,0.0932,29758.76,4.0,0
+2023-10-26,October,Q4,Thursday,Port Harcourt,Clothing,Online,Cash,Female,28,37700.0,3,5,107445.0,0.0922,9906.43,3.7,0
+2023-10-17,October,Q4,Tuesday,Benin City,Electronics,Online,Cash,Male,47,38900.0,19,0,739100.0,0.1396,103178.36,4.2,1
+2023-09-25,September,Q3,Monday,Kaduna,Electronics,Physical Store,POS,Male,61,70600.0,7,0,494200.0,0.3747,185176.74,3.3,0
+2023-06-11,June,Q2,Sunday,Port Harcourt,Books & Stationery,Physical Store,Bank Transfer,Female,67,3000.0,12,5,34200.0,0.176,6019.2,4.0,0
+2023-05-14,May,Q2,Sunday,Lagos,Electronics,Online,Cash,Male,62,265900.0,15,0,3988500.0,0.4032,1608163.2,4.8,0
+2023-04-15,April,Q2,Saturday,Lagos,Cosmetics,Online,Mobile Money,Female,63,17700.0,5,5,84075.0,0.2778,23356.04,2.8,1
+2023-12-09,December,Q4,Saturday,Benin City,Books & Stationery,Physical Store,Mobile Money,Male,38,2900.0,15,5,41325.0,0.2284,9438.63,4.0,0
+2023-06-10,June,Q2,Saturday,Benin City,Books & Stationery,Wholesale,Mobile Money,Female,60,1700.0,8,0,13600.0,0.2772,3769.92,3.2,0
+2023-05-03,May,Q2,Wednesday,Kaduna,Food & Beverage,Physical Store,Bank Transfer,Female,32,8400.0,10,0,84000.0,0.2557,21478.8,3.9,0
+2023-05-16,May,Q2,Tuesday,Abuja,Electronics,Online,Cash,Male,70,249400.0,16,5,3790880.0,0.338,1281317.44,4.2,0
+2023-07-22,July,Q3,Saturday,Benin City,Food & Beverage,Online,Mobile Money,Male,55,11300.0,8,0,90400.0,0.176,15910.4,1.7,0
+2023-03-09,March,Q1,Thursday,Lagos,Home Appliances,Online,Bank Transfer,Female,36,144100.0,1,10,129690.0,0.2,25938.0,3.8,0
+2023-12-10,December,Q4,Sunday,Kano,Clothing,Wholesale,Mobile Money,Female,17,23700.0,12,10,255960.0,0.384,98288.64,2.3,1
+2023-11-27,November,Q4,Monday,Port Harcourt,Books & Stationery,Online,POS,Male,52,1400.0,5,15,5950.0,0.4018,2390.71,3.8,0
+2023-06-03,June,Q2,Saturday,Lagos,Home Appliances,Physical Store,Cash,Male,21,18800.0,3,10,50760.0,0.3835,19466.46,3.1,1
+2023-08-23,August,Q3,Wednesday,Lagos,Home Appliances,Online,Cash,Female,59,125500.0,1,5,119225.0,0.2226,26539.48,4.2,0
+2023-06-11,June,Q2,Sunday,Abuja,Cosmetics,Physical Store,Bank Transfer,Male,33,10700.0,4,10,38520.0,0.3453,13300.96,1.9,0
+2023-02-07,February,Q1,Tuesday,Kaduna,Clothing,Physical Store,Bank Transfer,Female,45,13500.0,8,0,108000.0,0.242,26136.0,3.7,0
+2023-01-05,January,Q1,Thursday,Kaduna,Home Appliances,Physical Store,Cash,Female,37,32800.0,3,0,98400.0,0.2492,24521.28,2.5,0
+2023-08-23,August,Q3,Wednesday,Enugu,Home Appliances,Online,Mobile Money,Female,69,269600.0,10,10,2426400.0,0.1496,362989.44,4.5,1
+2023-11-15,November,Q4,Wednesday,Abuja,Clothing,Online,Mobile Money,Female,48,38100.0,2,5,72390.0,0.281,20341.59,4.7,0
+2023-10-16,October,Q4,Monday,Kano,Clothing,Online,POS,Male,45,27200.0,11,10,269280.0,0.1433,38587.82,5.0,0
+2023-02-21,February,Q1,Tuesday,Kaduna,Home Appliances,Wholesale,Mobile Money,Male,32,266600.0,10,15,2266100.0,0.1927,436677.47,4.3,0
+2023-02-07,February,Q1,Tuesday,Port Harcourt,Clothing,Wholesale,Bank Transfer,Male,58,45000.0,14,15,535500.0,0.3707,198509.85,4.1,0
+2023-10-03,October,Q4,Tuesday,Benin City,Home Appliances,Physical Store,Bank Transfer,Male,47,190900.0,7,20,1069040.0,0.1504,160783.62,2.3,0
+2023-04-20,April,Q2,Thursday,Abuja,Home Appliances,Physical Store,Mobile Money,Male,57,81300.0,2,5,154470.0,0.1042,16095.77,2.7,0
+2023-09-17,September,Q3,Sunday,Benin City,Cosmetics,Physical Store,Bank Transfer,Male,66,2600.0,9,0,23400.0,0.1035,2421.9,3.1,1
+2023-05-16,May,Q2,Tuesday,Lagos,Electronics,Online,Cash,Male,29,268400.0,16,5,4079680.0,0.3999,1631464.03,4.2,0
+2023-03-09,March,Q1,Thursday,Port Harcourt,Home Appliances,Wholesale,Cash,Female,25,136000.0,13,0,1768000.0,0.2524,446243.2,4.7,0
+2023-06-28,June,Q2,Wednesday,Port Harcourt,Food & Beverage,Physical Store,Mobile Money,Male,62,8000.0,9,10,64800.0,0.2192,14204.16,2.2,0
+2023-02-05,February,Q1,Sunday,Lagos,Books & Stationery,Online,Cash,Male,66,7400.0,4,10,26640.0,0.3557,9475.85,4.7,1
+2023-05-06,May,Q2,Saturday,Abuja,Electronics,Physical Store,Cash,Female,51,75800.0,10,10,682200.0,0.3642,248457.24,3.9,0
+2023-07-09,July,Q3,Sunday,Lagos,Electronics,Online,POS,Male,49,211100.0,12,0,2533200.0,0.1929,488654.28,3.6,0
+2023-05-26,May,Q2,Friday,Benin City,Electronics,Online,POS,Male,24,227700.0,17,0,3870900.0,0.3158,1222430.22,2.2,0
+2023-03-22,March,Q1,Wednesday,Enugu,Cosmetics,Physical Store,Cash,Female,57,15500.0,14,5,206150.0,0.3422,70544.53,1.7,0
+2023-08-13,August,Q3,Sunday,Port Harcourt,Home Appliances,Online,Mobile Money,Male,43,32800.0,14,0,459200.0,0.3026,138953.92,3.5,0
+2023-10-06,October,Q4,Friday,Ibadan,Cosmetics,Physical Store,POS,Male,26,11400.0,2,15,19380.0,0.1315,2548.47,3.8,0
+2023-12-27,December,Q4,Wednesday,Ibadan,Home Appliances,Online,Bank Transfer,Male,29,98700.0,11,0,1085700.0,0.3778,410177.46,2.2,0
+2023-06-04,June,Q2,Sunday,Benin City,Cosmetics,Online,Bank Transfer,Female,54,20600.0,16,0,329600.0,0.2633,86783.68,3.4,0
+2023-11-10,November,Q4,Friday,Kano,Cosmetics,Online,Bank Transfer,Male,70,25900.0,19,0,492100.0,0.176,86609.6,4.5,0
+2023-12-01,December,Q4,Friday,Kaduna,Books & Stationery,Online,Mobile Money,Male,62,3200.0,6,10,17280.0,0.2246,3881.09,4.4,0
+2023-09-28,September,Q3,Thursday,Lagos,Food & Beverage,Physical Store,Cash,Female,69,8500.0,19,10,145350.0,0.0928,13488.48,4.7,0
+2023-01-05,January,Q1,Thursday,Lagos,Cosmetics,Online,Bank Transfer,Male,34,9700.0,5,0,48500.0,0.1235,5989.75,2.8,0
+2023-12-08,December,Q4,Friday,Kano,Books & Stationery,Physical Store,Mobile Money,Female,69,7600.0,4,0,30400.0,0.3403,10345.12,2.6,0
+2023-10-11,October,Q4,Wednesday,Kano,Clothing,Physical Store,POS,Female,30,37200.0,15,5,530100.0,0.08,42408.0,4.1,0
+2023-06-03,June,Q2,Saturday,Benin City,Food & Beverage,Physical Store,Cash,Male,43,6800.0,4,0,27200.0,0.2216,6027.52,3.0,0
+2023-12-06,December,Q4,Wednesday,Benin City,Cosmetics,Wholesale,POS,Female,39,14500.0,10,10,130500.0,0.2577,33629.85,1.8,0
+2023-02-23,February,Q1,Thursday,Kano,Electronics,Physical Store,Mobile Money,Female,23,120400.0,3,10,325080.0,0.0986,32052.89,2.5,1
+2023-03-10,March,Q1,Friday,Port Harcourt,Clothing,Online,Bank Transfer,Male,58,16600.0,5,0,83000.0,0.4108,34096.4,3.0,0
+2023-05-16,May,Q2,Tuesday,Benin City,Clothing,Online,Bank Transfer,Female,24,43700.0,6,0,262200.0,0.1569,41139.18,2.5,0
+2023-03-01,March,Q1,Wednesday,Enugu,Books & Stationery,Online,Mobile Money,Female,62,3700.0,8,20,23680.0,0.1834,4342.91,2.7,0
+2023-02-24,February,Q1,Friday,Benin City,Clothing,Physical Store,Bank Transfer,Male,48,24600.0,7,5,163590.0,0.1833,29986.05,2.5,0
+2023-10-11,October,Q4,Wednesday,Lagos,Food & Beverage,Online,Cash,Male,48,11900.0,10,10,107100.0,0.1583,16953.93,1.6,0
+2023-03-21,March,Q1,Tuesday,Benin City,Cosmetics,Physical Store,Mobile Money,Male,34,20200.0,6,0,121200.0,0.0805,9756.6,3.7,0
+2023-05-20,May,Q2,Saturday,Port Harcourt,Cosmetics,Physical Store,POS,Female,18,17000.0,14,5,226100.0,0.328,74160.8,3.6,0
+2023-05-25,May,Q2,Thursday,Kano,Electronics,Online,Mobile Money,Male,25,153400.0,4,0,613600.0,0.4087,250778.32,3.8,0
+2023-11-06,November,Q4,Monday,Lagos,Books & Stationery,Physical Store,Cash,Female,55,2200.0,13,5,27170.0,0.1563,4246.67,2.2,0
+2023-04-18,April,Q2,Tuesday,Benin City,Electronics,Online,Cash,Female,62,136200.0,17,20,1852320.0,0.3054,565698.53,2.5,0
+2023-06-25,June,Q2,Sunday,Port Harcourt,Clothing,Online,Mobile Money,Female,57,34800.0,7,0,243600.0,0.3322,80923.92,3.7,0
+2023-04-15,April,Q2,Saturday,Enugu,Electronics,Physical Store,Mobile Money,Female,16,224500.0,4,0,898000.0,0.3685,330913.0,3.6,0
+2023-12-18,December,Q4,Monday,Benin City,Food & Beverage,Physical Store,Bank Transfer,Female,44,9200.0,14,0,128800.0,0.2237,28812.56,3.3,0
+2023-11-21,November,Q4,Tuesday,Port Harcourt,Cosmetics,Physical Store,Cash,Female,65,7300.0,3,0,21900.0,0.183,4007.7,2.7,0
+2023-05-16,May,Q2,Tuesday,Enugu,Clothing,Physical Store,Mobile Money,Female,49,26100.0,5,0,130500.0,0.1906,24873.3,4.7,0
+2023-09-16,September,Q3,Saturday,Kano,Electronics,Online,Mobile Money,Male,66,325800.0,16,0,5212800.0,0.3223,1680085.44,2.7,0
+2023-09-08,September,Q3,Friday,Benin City,Books & Stationery,Physical Store,Cash,Male,28,4000.0,4,10,14400.0,0.3577,5150.88,3.1,0
+2023-05-09,May,Q2,Tuesday,Enugu,Food & Beverage,Physical Store,Mobile Money,Female,69,8500.0,2,5,16150.0,0.1417,2288.46,3.9,1
+2023-01-27,January,Q1,Friday,Lagos,Food & Beverage,Physical Store,Bank Transfer,Female,16,1900.0,18,0,34200.0,0.2061,7048.62,3.4,0
+2023-02-17,February,Q1,Friday,Kano,Electronics,Online,Cash,Male,49,341000.0,19,20,5183200.0,0.3867,2004343.44,2.7,0
+2023-11-21,November,Q4,Tuesday,Lagos,Cosmetics,Physical Store,Bank Transfer,Female,44,18900.0,19,0,359100.0,0.3543,127229.13,3.0,0
+2023-08-05,August,Q3,Saturday,Ibadan,Electronics,Online,Bank Transfer,Male,63,95200.0,17,20,1294720.0,0.4149,537179.33,4.3,0
+2023-05-22,May,Q2,Monday,Abuja,Clothing,Online,Bank Transfer,Male,62,9700.0,14,0,135800.0,0.3364,45683.12,2.5,1
+2023-01-23,January,Q1,Monday,Benin City,Electronics,Wholesale,Bank Transfer,Male,28,199500.0,19,15,3221925.0,0.2137,688525.37,2.0,0
+2023-01-02,January,Q1,Monday,Enugu,Food & Beverage,Online,Cash,Female,63,6900.0,13,10,80730.0,0.2808,22668.98,2.6,0
+2023-06-20,June,Q2,Tuesday,Abuja,Electronics,Wholesale,Bank Transfer,Female,64,46200.0,12,15,471240.0,0.3047,143586.83,4.5,0
+2023-03-08,March,Q1,Wednesday,Abuja,Cosmetics,Physical Store,Bank Transfer,Male,68,29800.0,6,20,143040.0,0.1067,15262.37,1.8,0
+2023-11-23,November,Q4,Thursday,Enugu,Books & Stationery,Online,Mobile Money,Male,44,7400.0,4,0,29600.0,0.2651,7846.96,5.0,0
+2023-05-15,May,Q2,Monday,Kano,Home Appliances,Physical Store,Cash,Male,54,133500.0,19,20,2029200.0,0.3212,651779.04,3.4,0
+2023-03-24,March,Q1,Friday,Benin City,Electronics,Wholesale,Cash,Male,39,54400.0,16,0,870400.0,0.1369,119157.76,4.9,1
+2023-08-15,August,Q3,Tuesday,Ibadan,Cosmetics,Physical Store,POS,Male,41,25200.0,13,0,327600.0,0.3454,113153.04,4.8,0
+2023-10-10,October,Q4,Tuesday,Lagos,Cosmetics,Physical Store,Cash,Female,32,15700.0,4,0,62800.0,0.2785,17489.8,3.1,0
+2023-12-28,December,Q4,Thursday,Port Harcourt,Books & Stationery,Physical Store,Cash,Male,22,6000.0,17,5,96900.0,0.4038,39128.22,2.2,1
+2023-08-07,August,Q3,Monday,Lagos,Food & Beverage,Physical Store,POS,Female,28,6400.0,1,0,6400.0,0.0944,604.16,2.1,0
+2023-10-15,October,Q4,Sunday,Port Harcourt,Cosmetics,Physical Store,Cash,Male,20,9300.0,18,5,159030.0,0.1702,27066.91,2.3,1
+2023-01-05,January,Q1,Thursday,Lagos,Cosmetics,Online,Cash,Female,41,25300.0,17,5,408595.0,0.2845,116245.28,4.0,1
+2023-02-27,February,Q1,Monday,Enugu,Cosmetics,Physical Store,Cash,Female,64,29400.0,15,10,396900.0,0.1808,71759.52,2.5,0
+2023-02-08,February,Q1,Wednesday,Ibadan,Cosmetics,Online,Cash,Female,18,8400.0,11,15,78540.0,0.3229,25360.57,2.7,0
+2023-12-20,December,Q4,Wednesday,Benin City,Clothing,Wholesale,POS,Female,22,26200.0,13,5,323570.0,0.3381,109399.02,3.1,0
+2023-03-18,March,Q1,Saturday,Port Harcourt,Clothing,Wholesale,Cash,Female,64,19100.0,1,0,19100.0,0.1149,2194.59,4.7,1
+2023-10-07,October,Q4,Saturday,Benin City,Food & Beverage,Online,Cash,Female,54,11100.0,17,0,188700.0,0.2547,48061.89,2.2,0
+2023-01-19,January,Q1,Thursday,Benin City,Electronics,Physical Store,POS,Male,68,185300.0,6,0,1111800.0,0.253,281285.4,1.5,0
+2023-07-09,July,Q3,Sunday,Benin City,Cosmetics,Wholesale,Mobile Money,Female,16,26600.0,4,0,106400.0,0.2056,21875.84,1.7,1
+2023-10-26,October,Q4,Thursday,Kaduna,Books & Stationery,Online,Bank Transfer,Male,64,7000.0,16,0,112000.0,0.3972,44486.4,4.7,1
+2023-10-10,October,Q4,Tuesday,Kano,Electronics,Physical Store,Mobile Money,Female,32,107500.0,15,0,1612500.0,0.3614,582757.5,3.8,0
+2023-03-17,March,Q1,Friday,Lagos,Books & Stationery,Wholesale,POS,Female,58,6500.0,15,20,78000.0,0.3171,24733.8,2.5,0
+2023-08-09,August,Q3,Wednesday,Benin City,Electronics,Online,Bank Transfer,Male,40,154000.0,6,5,877800.0,0.3229,283441.62,2.1,1
+2023-03-07,March,Q1,Tuesday,Lagos,Food & Beverage,Physical Store,POS,Female,18,11200.0,15,0,168000.0,0.237,39816.0,2.5,0
+2023-01-22,January,Q1,Sunday,Benin City,Cosmetics,Online,POS,Male,30,16000.0,14,5,212800.0,0.3931,83651.68,1.9,1
+2023-06-07,June,Q2,Wednesday,Port Harcourt,Cosmetics,Wholesale,Cash,Male,44,24900.0,11,0,273900.0,0.3162,86607.18,4.8,0
+2023-07-06,July,Q3,Thursday,Kano,Home Appliances,Wholesale,Bank Transfer,Male,68,84900.0,7,5,564585.0,0.3279,185127.42,4.2,0
+2023-01-21,January,Q1,Saturday,Kano,Books & Stationery,Wholesale,Cash,Male,58,2900.0,9,10,23490.0,0.373,8761.77,3.1,0
+2023-07-03,July,Q3,Monday,Enugu,Electronics,Physical Store,Bank Transfer,Female,47,211600.0,16,5,3216320.0,0.1732,557066.62,4.5,0
+2023-04-18,April,Q2,Tuesday,Kaduna,Electronics,Wholesale,POS,Female,41,349600.0,5,5,1660600.0,0.3544,588516.64,2.4,0
+2023-12-16,December,Q4,Saturday,Enugu,Clothing,Physical Store,POS,Male,31,23600.0,10,20,188800.0,0.1464,27640.32,4.0,0
+2023-05-08,May,Q2,Monday,Enugu,Home Appliances,Online,Mobile Money,Female,40,48400.0,18,15,740520.0,0.1974,146178.65,4.5,0
+2023-12-08,December,Q4,Friday,Enugu,Clothing,Physical Store,Bank Transfer,Female,69,25600.0,3,10,69120.0,0.1941,13416.19,2.7,0
+2023-02-22,February,Q1,Wednesday,Enugu,Clothing,Online,Cash,Male,43,17500.0,13,5,216125.0,0.4127,89194.79,4.2,0
+2023-07-01,July,Q3,Saturday,Enugu,Clothing,Physical Store,Mobile Money,Female,24,26200.0,11,10,259380.0,0.3712,96281.86,2.5,0
+2023-10-14,October,Q4,Saturday,Ibadan,Books & Stationery,Online,Mobile Money,Male,71,4700.0,17,0,79900.0,0.3184,25440.16,2.5,0
+2023-07-28,July,Q3,Friday,Kano,Books & Stationery,Online,Mobile Money,Male,71,4100.0,13,0,53300.0,0.3272,17439.76,1.9,0
+2023-11-14,November,Q4,Tuesday,Enugu,Food & Beverage,Online,Cash,Female,16,4200.0,6,0,25200.0,0.2711,6831.72,3.0,0
+2023-03-21,March,Q1,Tuesday,Benin City,Food & Beverage,Physical Store,Mobile Money,Female,44,2700.0,17,5,43605.0,0.402,17529.21,4.1,0
+2023-05-02,May,Q2,Tuesday,Kano,Clothing,Online,Cash,Female,37,32300.0,13,5,398905.0,0.2487,99207.67,4.8,0
+2023-03-25,March,Q1,Saturday,Kano,Home Appliances,Physical Store,Mobile Money,Male,31,163500.0,19,0,3106500.0,0.2094,650501.1,3.6,0
+2023-04-01,April,Q2,Saturday,Abuja,Electronics,Online,Cash,Male,56,93200.0,19,20,1416640.0,0.1354,191813.06,4.5,1
+2023-07-31,July,Q3,Monday,Ibadan,Books & Stationery,Online,POS,Female,66,6400.0,10,20,51200.0,0.3473,17781.76,4.4,0
+2023-01-13,January,Q1,Friday,Enugu,Home Appliances,Physical Store,POS,Female,59,19900.0,3,10,53730.0,0.3297,17714.78,2.1,0
+2023-04-02,April,Q2,Sunday,Lagos,Cosmetics,Physical Store,POS,Female,66,22700.0,14,5,301910.0,0.2107,63612.44,3.2,1
+2023-06-20,June,Q2,Tuesday,Port Harcourt,Books & Stationery,Online,POS,Female,69,5900.0,19,15,95285.0,0.0886,8442.25,1.9,0
+2023-07-30,July,Q3,Sunday,Kaduna,Books & Stationery,Physical Store,POS,Male,56,6600.0,5,0,33000.0,0.3653,12054.9,3.9,0
+2023-12-09,December,Q4,Saturday,Benin City,Food & Beverage,Wholesale,Mobile Money,Female,22,4900.0,5,10,22050.0,0.0839,1850.0,4.8,0
+2023-05-08,May,Q2,Monday,Lagos,Electronics,Physical Store,Mobile Money,Male,29,237300.0,17,0,4034100.0,0.3193,1288088.13,2.0,0
+2023-05-17,May,Q2,Wednesday,Ibadan,Electronics,Online,Mobile Money,Male,44,290000.0,10,10,2610000.0,0.4099,1069839.0,4.1,0
+2023-03-23,March,Q1,Thursday,Port Harcourt,Cosmetics,Online,Cash,Female,34,29500.0,5,0,147500.0,0.2288,33748.0,3.7,0
+2023-12-26,December,Q4,Tuesday,Ibadan,Cosmetics,Wholesale,Cash,Female,34,15600.0,4,15,53040.0,0.1599,8481.1,3.5,0
+2023-02-25,February,Q1,Saturday,Benin City,Books & Stationery,Online,Cash,Female,17,1100.0,6,20,5280.0,0.3197,1688.02,2.9,0
+2023-07-15,July,Q3,Saturday,Kano,Clothing,Wholesale,Cash,Male,56,24100.0,4,0,96400.0,0.3578,34491.92,2.7,0
+2023-01-20,January,Q1,Friday,Port Harcourt,Food & Beverage,Physical Store,POS,Female,60,7300.0,7,5,48545.0,0.2658,12903.26,1.7,0
+2023-08-29,August,Q3,Tuesday,Kano,Food & Beverage,Wholesale,POS,Female,30,10500.0,7,20,58800.0,0.4088,24037.44,2.3,0
+2023-04-24,April,Q2,Monday,Benin City,Books & Stationery,Physical Store,POS,Male,18,7100.0,18,5,121410.0,0.0976,11849.62,1.6,0
+2023-04-13,April,Q2,Thursday,Lagos,Home Appliances,Wholesale,Bank Transfer,Female,26,127800.0,3,15,325890.0,0.2516,81993.92,3.5,0
+2023-08-24,August,Q3,Thursday,Benin City,Clothing,Online,Mobile Money,Male,68,25100.0,1,5,23845.0,0.3243,7732.93,1.9,0
+2023-06-29,June,Q2,Thursday,Lagos,Books & Stationery,Physical Store,Cash,Female,61,4100.0,4,0,16400.0,0.3733,6122.12,4.6,0
+2023-06-06,June,Q2,Tuesday,Port Harcourt,Clothing,Physical Store,Cash,Male,45,33300.0,6,0,199800.0,0.1409,28151.82,3.3,0
+2023-04-27,April,Q2,Thursday,Port Harcourt,Clothing,Physical Store,POS,Female,55,20200.0,9,0,181800.0,0.352,63993.6,3.9,0
+2023-04-25,April,Q2,Tuesday,Enugu,Clothing,Physical Store,Cash,Female,33,30500.0,14,10,384300.0,0.2679,102953.97,2.9,0
+2023-01-13,January,Q1,Friday,Ibadan,Books & Stationery,Wholesale,Cash,Male,66,1900.0,12,0,22800.0,0.2148,4897.44,3.5,0
+2023-12-04,December,Q4,Monday,Enugu,Food & Beverage,Wholesale,Mobile Money,Male,63,5900.0,4,5,22420.0,0.1248,2798.02,4.8,0
+2023-04-09,April,Q2,Sunday,Ibadan,Food & Beverage,Physical Store,POS,Female,17,11600.0,12,5,132240.0,0.3742,49484.21,1.8,0
+2023-07-24,July,Q3,Monday,Enugu,Clothing,Physical Store,Mobile Money,Male,47,17200.0,10,5,163400.0,0.1335,21813.9,2.4,0
+2023-06-18,June,Q2,Sunday,Kano,Home Appliances,Physical Store,Bank Transfer,Male,23,196400.0,7,15,1168580.0,0.1853,216537.87,4.2,0
+2023-05-23,May,Q2,Tuesday,Port Harcourt,Electronics,Physical Store,Bank Transfer,Male,37,232700.0,3,20,558480.0,0.1786,99744.53,1.8,0
+2023-02-05,February,Q1,Sunday,Lagos,Books & Stationery,Online,Bank Transfer,Male,21,6900.0,14,5,91770.0,0.3763,34533.05,1.8,0
+2023-05-23,May,Q2,Tuesday,Ibadan,Electronics,Online,POS,Female,27,300500.0,10,15,2554250.0,0.3087,788496.98,2.8,0
+2023-06-29,June,Q2,Thursday,Benin City,Home Appliances,Online,Cash,Female,62,241700.0,16,10,3480480.0,0.3509,1221300.43,1.8,0
+2023-11-25,November,Q4,Saturday,Ibadan,Books & Stationery,Online,POS,Male,55,3500.0,16,5,53200.0,0.1652,8788.64,3.5,0
+2023-09-18,September,Q3,Monday,Lagos,Clothing,Online,POS,Male,51,16300.0,10,20,130400.0,0.2925,38142.0,2.3,0
+2023-07-24,July,Q3,Monday,Enugu,Food & Beverage,Online,Cash,Male,30,8800.0,13,0,114400.0,0.2744,31391.36,4.6,0
+2023-12-14,December,Q4,Thursday,Ibadan,Electronics,Online,Mobile Money,Male,43,269400.0,6,0,1616400.0,0.3632,587076.48,4.2,0
+2023-10-02,October,Q4,Monday,Kaduna,Cosmetics,Online,Bank Transfer,Female,67,26400.0,12,15,269280.0,0.3881,104507.57,3.9,0
+2023-06-19,June,Q2,Monday,Kano,Cosmetics,Wholesale,Mobile Money,Female,64,2500.0,9,5,21375.0,0.0841,1797.64,3.7,0
+2023-01-15,January,Q1,Sunday,Port Harcourt,Home Appliances,Physical Store,Bank Transfer,Male,60,26600.0,13,15,293930.0,0.3092,90883.16,4.5,0
+2023-03-01,March,Q1,Wednesday,Lagos,Clothing,Online,POS,Male,33,29500.0,4,15,100300.0,0.0976,9789.28,2.3,0
+2023-05-14,May,Q2,Sunday,Port Harcourt,Electronics,Physical Store,Bank Transfer,Male,17,323500.0,11,0,3558500.0,0.2666,948696.1,4.6,0

@@ -1,0 +1,631 @@
+order_id,order_date,customer_name,customer_email,customer_phone,state,platform,category,product_name,unit_price,quantity,discount_pct,total_amount,payment_method,customer_age,customer_gender,customer_segment,rating,delivery_days,returned
+ORD-100000,2023-01-01,Customer_15,customer0@example.com,,Rivers,Konga,Sports,Yoga Mat Non-Slip,91292.33,4,15,310393.92,POS,64,Female,Premium,,11,False
+ORD-100001,2023-01-02,Customer_28,customer1@example.com,08076317456,Imo,Jiji,Books,ACCA F3 Textbook,2311.49,5,5,10979.58,USSD,,Male,Premium,,1,False
+ORD-100002,03/01/2023,Customer_4,customer2@example.com,08073801590,Kaduna,Jiji,Furniture,Glass Centre Table,279828.64,1,0,279828.64,Card,49,Female,New,3,2,False
+ORD-100003,2023-01-04,Customer_36,customer3@example.com,08094850555,Imo,Jumia,Sports,Nigeria Football Jersey,47322.12,2,10,85179.82,USSD,21,Female,VIP,4,7,False
+ORD-100004,2023-01-05,Customer_65,customer4@example.com,08041394931,Abuja,Jiji,Groceries,Titus Sardine 50pcs,3927.5,4,5,14924.5,Pay on Delivery,61,Male,Regular,1,1,False
+ORD-100005,2023-01-07,Customer_98,customer5@example.com,08091040005,Delta,WhatsApp Commerce,Beauty,Nivea Fair & Lovely,15415.78,4,20,-999,Bank Transfer,21,Female,Regular,4,1,False
+ORD-100006,2023-01-08,,customer6@example.com,08004880707,Delta,Konga,Furniture,Wardrobe 4-Door,263586.97,1,15,224048.92,POS,49,Female,VIP,5,1,False
+ORD-100007,2023-01-09,Customer_81,customer7@example.com,08075808099,Kaduna,Flutterwave Store,Furniture,L-Shape Office Sofa,281433.8,5,10,1266452.1,POS,16,Female,VIP,2,8,True
+ORD-100008,2023-01-10,Customer_39,customer8@example.com,08021187030,Unknwon,Flutterwave Store,Sports,Treadmill Manual,59903.83,3,0,179711.49,Pay on Delivery,25,Female,Regular,1,4,False
+ORD-100009,2023-01-11,Customer_38,customer9@example.com,08012813014,Lagos,Jiji,Fashion,Ankara Midi Dress,19880.6,3,15,50695.53,Pay on Delivery,36,Female,VIP,3,4,True
+ORD-100010,2023-01-13,Customer_44,notanemail,0714046464,Abuja,Konga,Groceries,Indomie Noodles Carton,6289.11,4,0,25156.44,Pay on Delivery,20,Male,New,5,13,True
+ORD-100011,2023-01-14,  Customer_51  ,customer11@example.com,08050825998,Unknwon,WhatsApp Commerce,Sports,Nigeria Football Jersey,4427.76,3,5,12619.12,Card,17,Female,VIP,2,2,False
+ORD-100012,2023-01-15,Customer_97,customer12@example.com,08049633683,Oyo,Flutterwave Store,Groceries,Golden Penny Rice 25kg,4988.32,1,20,3990.66,Bank Transfer,37,Male,New,4,11,True
+ORD-100013,2023-01-16,Customer_85,customer13@example.com,08056028554,Lagos,WhatsApp Commerce,Groceries,Golden Penny Rice 25kg,4741.31,4,0,18965.24,Card,63,Female,New,2,11,False
+ORD-100014,2023-01-18,Customer_26,customer14@example.com,08002349832,Abuja,WhatsApp Commerce,Beauty,Maybelline Mascara,18131.53,4,20,58020.9,Pay on Delivery,17,Male,VIP,5,11,False
+ORD-100015,2023-01-19,Customer_36,customer15@example.com,08095697034,Delta,Flutterwave Store,Furniture,L-Shape Office Sofa,309538.95,2,0,619077.9,Bank Transfer,25,Male,Premium,5,1,False
+ORD-100016,2023-01-20,Customer_69,customer16@example.com,08075481979,,Flutterwave Store,Books,Nigerian Law Reports,10129.43,3,10,27349.46,Pay on Delivery,49,Male,Premium,2,12,False
+ORD-100017,2023-01-21,Customer_97,customer17@example.com,08067232682,Rivers,Jiji,Beauty,Neutrogena Body Lotion,24009.61,5,0,120048.05,Bank Transfer,31,Female,New,4,10,True
+ORD-100018,2023-01-22,Customer_1,notanemail,08051611100,Lagos,Konga,Beauty,MAC Foundation,9089.09,4,0,36356.36,POS,63,Male,VIP,2,9,True
+ORD-100019,2023-01-24,Customer_53,customer19@example.com,08020950810,Oyo,Jumia,Groceries,Titus Sardine 50pcs,2205.13,5,0,11025.65,Card,54,Female,New,5,7,False
+ORD-100020,2023-01-25,Customer_6,customer20@example.com,08054332976,Rivers,Konga,Phones & Tablets,Infinix Hot 40 Pro,359051.6,1,0,359051.6,Pay on Delivery,37,Female,VIP,5,4,False
+ORD-100021,2023-01-26,Customer_37,customer21@example.com,08069360424,Enugu,Jumia,Furniture,L-Shape Office Sofa,161766.57,2,0,323533.14,Pay on Delivery,27,Male,VIP,3,12,False
+ORD-100022,2023-01-27,Customer_2,customer22@example.com,08032097439,Kano,Flutterwave Store,Fashion,Men Agbada Set,28635.39,1,15,24340.08,USSD,39,Male,Regular,3,6,False
+ORD-100023,2023-01-29,Customer_69,customer23@example.com,08024302997,Imo,WhatsApp Commerce,Beauty,Neutrogena Body Lotion,22866.83,5,0,114334.15,POS,62,Female,Premium,1,2,True
+ORD-100024,2023-01-30,Customer_90,customer24@example.com,,Lagos,Konga,Books,JAMB CBT Practice Book,2702.45,4,0,,Pay on Delivery,55,Female,Premium,5,7,False
+ORD-100025,2023-01-31,  CUSTOMER_41  ,customer25@example.com,08003993010,Imo,WhatsApp Commerce,Phones & Tablets,Infinix Hot 40 Pro,112107.87,1,10,100897.08,Card,53,Female,Regular,3,2,False
+ORD-100026,2023-02-01,,,0817334806,Oyo,Konga,Phones & Tablets,Xiaomi Redmi Note 13,230851.88,2,20,369363.01,POS,25,Male,Regular,2,10,False
+ORD-100027,2023-02-02,Customer_47,customer27@example.com,08092578620,,Konga,Fashion,Female Gele Headtie,33359.06,1,20,26687.25,Pay on Delivery,50,Female,Regular,4,8,False
+ORD-100028,2023-02-04,Customer_13,customer28@example.com,08020508050,Oyo,WhatsApp Commerce,Beauty,Neutrogena Body Lotion,15149.7,1,0,15149.7,Card,64,Female,New,2,8,False
+ORD-100029,2023-02-05,Customer_76,customer29@example.com,08056004580,Anambra,Jiji,Books,Nigerian Law Reports,2303.9,2,20,3686.24,USSD,47,Female,New,4,1,False
+ORD-100030,2023-02-06,Customer_69,customer30@example.com,08079821310,Oyo,Flutterwave Store,Furniture,Computer Work Desk,461406.5,1,0,461406.5,USSD,999,Female,New,3,13,False
+ORD-100031,2023-02-07,,customer31@example.com,08001074726,Abuja,Jiji,Electronics,Scanfrost Refrigerator,279678.35,2,0,559356.7,Card,36,Female,New,1,8,False
+ORD-100032,2023-02-08,Customer_59,customer32@example.com,08061746040,Abuja,Jiji,Books,ICAN Study Pack,1448.64,3,0,4345.92,POS,35,Female,New,2,2,False
+ORD-100033,2023-02-10,Customer_68,customer33@example.com,08031408451,Imo,Konga,Fashion,Men Senator Native,30183.11,3,10,81494.4,Card,41,Female,Premium,2,6,False
+ORD-100034,2023-02-11,Customer_59,customer34@example.com,08003659007,Anambra,Flutterwave Store,Phones & Tablets,Tecno Spark 20 Pro,625003.7,5,0,3125018.5,Card,19,Female,Premium,2,13,True
+ORD-100035,2023-02-12,Customer_91,missing@,08067961390,Oyo,Konga,Furniture,Glass Centre Table,202856.8,1,5,192713.96,USSD,61,Female,VIP,4,1,False
+ORD-100036,2023-02-13,Customer_10,customer36@example.com,08022989271,Enugu,Jumia,Books,Nigerian Law Reports,1944.35,2,15,3305.4,USSD,37,Female,Premium,3,5,False
+ORD-100037,2023-02-15,Customer_13,customer37@example.com,08001781642,Imo,Konga,Electronics,Samsung Smart TV,40902.56,2,15,69534.35,USSD,30,Female,Regular,2,11,False
+ORD-100038,2023-02-16,,customer38@example.com,,Rivers,WhatsApp Commerce,Electronics,Scanfrost Refrigerator,49922.73,3,0,149768.19,Pay on Delivery,55,Female,Premium,2,7,False
+ORD-100039,2023-02-17,Customer_90,customer39@example.com,08001239895,Abuja,Konga,Groceries,Honeywell Flour 10kg,6803.3,5,20,27213.2,Pay on Delivery,,Male,Regular,1,13,False
+ORD-100040,2023-02-18,Customer_15,customer40@example.com,08053326219,Unknwon,Jumia,Groceries,Titus Sardine 50pcs,7330.15,5,5,34818.21,Bank Transfer,30,Female,Premium,1,10,False
+ORD-100041,2023-02-19,Customer_46,customer41@example.com,08070480359,Rivers,Konga,Sports,Adidas Running Sneakers,17368.86,5,0,86844.3,Pay on Delivery,999,Female,New,3,1,False
+ORD-100042,2023-02-21,Customer_57,customer42@example.com,08046067785,Anambra,Jumia,Fashion,Men Senator Native,12526.01,2,5,23799.42,POS,43,Female,Premium,3,2,False
+ORD-100043,2023-02-22,Customer_10,customer43@example.com,08023370933,Imo,Flutterwave Store,Beauty,Maybelline Mascara,4805.6,1,5,4565.32,POS,29,Female,VIP,5,7,False
+ORD-100044,2023-02-23,  Customer_22  ,customer44@example.com,08045888087,Delta,Konga,Books,ACCA F3 Textbook,3212.27,2,20,5139.63,USSD,42,Female,New,1,6,False
+ORD-100045,2023-02-24,Customer_89,customer45@example.com,0897763876,Imo,Jumia,Books,JAMB CBT Practice Book,10244.9,4,0,40979.6,Card,56,Male,New,5,3,False
+ORD-100046,26/02/2023,Customer_79,customer46@example.com,08057298946,XXX,Flutterwave Store,Beauty,Nivea Fair & Lovely,8837.94,4,10,31816.58,USSD,55,Female,VIP,4,10,False
+ORD-100047,2023-02-27,Customer_77,customer47@example.com,08011401865,Oyo,WhatsApp Commerce,Sports,Yoga Mat Non-Slip,39438.98,1,20,31551.18,Card,43,Male,Premium,5,2,False
+ORD-100048,2023-02-28,Customer_8,customer48@example.com,08048553048,Delta,Jiji,Phones & Tablets,iPhone 15 128GB,208957.65,3,5,595529.3,USSD,41,Female,Premium,2,10,False
+ORD-100049,2023-03-01,Customer_21,customer49@example.com,08048220851,Lagos,Jumia,Phones & Tablets,Infinix Hot 40 Pro,500039.21,1,5,475037.25,USSD,64,Male,VIP,5,4,False
+ORD-100050,N/A,Customer_85,customer50@example.com,08081163071,Oyo,WhatsApp Commerce,Sports,Yoga Mat Non-Slip,47378.77,2,10,85281.79,POS,17,Male,New,3,3,False
+ORD-100051,2023-03-04,Customer_22,customer51@example.com,08026616598,Delta,Flutterwave Store,Phones & Tablets,Tecno Spark 20 Pro,604350.98,4,5,2296533.72,Card,40,Female,VIP,4,7,False
+ORD-100052,2023-03-05,CUSTOMER_97,customer52@example.com,0848020375,Enugu,WhatsApp Commerce,Groceries,Golden Penny Rice 25kg,2041.85,1,5,1939.76,Bank Transfer,18,Male,Regular,2,8,False
+ORD-100053,2023-03-06,Customer_45,customer53@example.com,08017145700,Rivers,Konga,Books,Nigerian Law Reports,9708.13,1,5,9222.72,Bank Transfer,23,Male,Regular,5,2,False
+ORD-100054,2023-03-07,Customer_91,customer54@example.com,08086674408,Oyo,Jiji,Sports,Nigeria Football Jersey,73635.42,3,15,187770.32,USSD,59,Female,Premium,4,10,False
+ORD-100055,2023-03-09,Customer_40,customer55@example.com,08024194717,Rivers,Jumia,Books,JAMB CBT Practice Book,2434.09,2,20,3894.54,USSD,48,Male,New,4,7,True
+ORD-100056,2023-03-10,Customer_22,customer56@example.com,08090406722,Kaduna,Flutterwave Store,Beauty,MAC Foundation,10831.01,2,0,21662.02,POS,57,Male,Regular,2,8,False
+ORD-100057,2023-03-11,Customer_30,customer57@example.com,0815169501,Imo,Jiji,Electronics,LG Air Conditioner,304278.58,2,20,486845.73,Card,,Male,VIP,5,6,False
+ORD-100058,2023-03-12,Customer_62,customer58@example.com,08082230829,Delta,Flutterwave Store,Groceries,Golden Penny Rice 25kg,7422.2,1,10,6679.98,USSD,21,Female,Premium,4,6,False
+ORD-100059,"March 13, 2023",Customer_73,customer59@example.com,08030446736,Rivers,WhatsApp Commerce,Furniture,Glass Centre Table,246207.56,1,5,233897.18,Bank Transfer,999,Female,Premium,4,10,True
+ORD-100060,N/A,Customer_45,customer60@example.com,08053284659,Delta,Flutterwave Store,Groceries,Golden Penny Rice 25kg,4106.28,4,20,13140.1,Card,38,Female,New,1,1,False
+ORD-100061,2023-03-16,Customer_35,customer61@example.com,08059121207,Rivers,Flutterwave Store,Sports,Adidas Running Sneakers,110459.2,2,15,187780.64,USSD,40,Female,Regular,4,4,False
+ORD-100062,2023-03-17,Customer_82,customer62@example.com,08075606275,Enugu,WhatsApp Commerce,Furniture,Computer Work Desk,303857.41,2,10,546943.34,Card,58,Male,Premium,1,1,False
+ORD-100063,2023-03-18,Customer_42,customer63@example.com,08089154492,Kano,WhatsApp Commerce,Electronics,Scanfrost Refrigerator,26003.63,1,0,26003.63,POS,34,Female,VIP,5,4,True
+ORD-100064,2023-03-19,Customer_5,customer64@example.com,08047972181,Enugu,Jiji,Sports,Nigeria Football Jersey,109791.69,2,20,175666.7,Bank Transfer,20,Male,Regular,5,2,False
+ORD-100065,2023-03-21,Customer_27,customer65@example.com,08019038838,Abuja,Jumia,Fashion,Men Agbada Set,13049.62,3,0,39148.86,Card,26,Female,Premium,5,11,False
+ORD-100066,22/03/2023,Customer_70,customer66@example.com,08095815137,Delta,WhatsApp Commerce,Books,WAEC Past Questions,7438.43,5,5,35332.54,Bank Transfer,27,Female,Premium,,13,False
+ORD-100067,2023-03-23,Customer_62,customer67@example.com,08060156286,Enugu,Jiji,Electronics,Sony Home Theatre,70446.96,3,15,179639.75,USSD,25,Male,Regular,5,5,False
+ORD-100068,"March 24, 2023",Customer_32,customer68@example.com,08004926924,Lagos,Flutterwave Store,Books,ICAN Study Pack,1565.89,2,15,2662.01,Pay on Delivery,23,Male,Regular,4,10,False
+ORD-100069,2023-03-26,,customer69@example.com,08091573876,Delta,Flutterwave Store,Phones & Tablets,iPhone 15 128GB,273276.98,3,20,655864.75,Card,39,Female,New,2,9,False
+ORD-100070,2023-03-27,Customer_85,customer70@example.com,08054020392,Anambra,Konga,Fashion,Men Senator Native,35671.07,1,10,32103.96,Bank Transfer,,Female,VIP,1,11,False
+ORD-100071,2023-03-28,Customer_18,missing@,08025568607,Imo,WhatsApp Commerce,Fashion,Men Agbada Set,14297.45,1,10,12867.71,Card,56,Female,New,3,12,False
+ORD-100072,2023-03-29,Customer_78,customer72@example.com,08094412986,Imo,Jiji,Electronics,Hisense Chest Freezer,88732.57,2,15,150845.37,USSD,51,Female,New,5,10,True
+ORD-100073,2023-03-30,Customer_15,customer73@example.com,08010874106,Abuja,Jiji,Fashion,Men Senator Native,11538.93,2,10,20770.07,USSD,52,Female,VIP,5,3,False
+ORD-100074,2023-04-01,Customer_26,customer74@example.com,08016695422,Lagos,Jumia,Furniture,6ft Orthopedic Mattress,269707.5,5,15,1146256.88,Bank Transfer,36,Male,VIP,2,8,False
+ORD-100075,2023-04-02,Customer_53,customer75@example.com,08083135540,Abuja,Jiji,Fashion,Ankara Midi Dress,43960.51,5,20,175842.04,POS,23,Female,New,2,3,False
+ORD-100076,2023-04-03,Customer_44,customer76@example.com,08050829217,Oyo,WhatsApp Commerce,Books,Nigerian Law Reports,6157.08,4,0,24628.32,Card,24,Male,Regular,3,6,False
+ORD-100077,2023-04-04,Customer_32,customer77@example.com,08016389867,Delta,Jiji,Books,ICAN Study Pack,7218.9,2,15,12272.13,Card,62,Female,VIP,1,4,False
+ORD-100078,2023-04-06,Customer_28,customer78@example.com,08019678699,Lagos,Konga,Sports,Treadmill Manual,103693.95,2,0,207387.9,USSD,30,Female,New,5,8,False
+ORD-100079,2023-04-07,Customer_39,customer79@example.com,08059113861,Kaduna,Flutterwave Store,Books,Nigerian Law Reports,6978.75,3,10,18842.62,Card,63,Male,Regular,3,11,False
+ORD-100080,2023-04-08,Customer_32,customer80@example.com,08087201135,Rivers,Flutterwave Store,Sports,Nigeria Football Jersey,24582.16,2,15,41789.67,Bank Transfer,61,Female,Premium,4,6,False
+ORD-100081,N/A,Customer_77,customer81@example.com,08035599072,Anambra,Jiji,Books,ICAN Study Pack,4435.64,1,15,3770.29,Pay on Delivery,55,Male,Regular,4,8,False
+ORD-100082,2023-04-10,Customer_79,customer82@example.com,08014086235,Delta,Jiji,Furniture,6ft Orthopedic Mattress,172220.04,4,20,551104.13,USSD,33,Male,New,3,1,False
+ORD-100083,2023-04-12,Customer_18,,08058432902,Anambra,Jiji,Beauty,Neutrogena Body Lotion,10415.1,1,10,9373.59,Pay on Delivery,57,Female,VIP,5,6,False
+ORD-100084,2023-04-13,Customer_70,customer84@example.com,08060278667,Lagos,Jiji,Sports,Kettlebell 20kg,52934.3,1,0,52934.3,Card,35,Male,Regular,3,1,False
+ORD-100085,2023-04-14,Customer_11,customer85@example.com,08006008963,Rivers,Konga,Groceries,Indomie Noodles Carton,6498.37,5,20,25993.48,POS,21,Female,Regular,5,1,False
+ORD-100086,2023-04-15,Customer_32,customer86@example.com,08065362032,Abuja,WhatsApp Commerce,Phones & Tablets,iPhone 15 128GB,302281.05,3,0,,Bank Transfer,27,Female,Regular,2,8,True
+ORD-100087,N/A,Customer_20,customer87@example.com,08047033467,Delta,Konga,Electronics,Scanfrost Refrigerator,171857.66,2,20,274972.26,Card,17,Female,VIP,3,7,False
+ORD-100088,2023-04-18,Customer_97,customer88@example.com,08062576958,Rivers,Konga,Books,Nigerian Law Reports,7949.74,1,10,7154.77,Bank Transfer,22,Female,VIP,5,3,False
+ORD-100089,2023-04-19,Customer_40,customer89@example.com,08000796213,Anambra,Konga,Fashion,Men Senator Native,18553.35,3,0,55660.05,Card,31,Female,Regular,3,6,False
+ORD-100090,2023-04-20,Customer_8,customer90@example.com,08097525169,Kano,Flutterwave Store,Beauty,Nivea Fair & Lovely,21044.87,1,10,18940.38,Card,18,Female,Regular,,9,False
+ORD-100091,2023-04-21,  Customer_35  ,notanemail,08073634692,Lagos,Konga,Books,Nigerian Law Reports,7544.5,5,10,33950.25,Card,60,Female,New,,7,False
+ORD-100092,2023-04-23,,customer92@example.com,08024296088,Lagos,Jiji,Fashion,Female Aso-Oke,14996.9,2,0,29993.8,USSD,18,Male,VIP,5,12,False
+ORD-100093,N/A,,customer93@example.com,08095427392,Anambra,Konga,Phones & Tablets,Tecno Spark 20 Pro,581255.29,4,0,2325021.16,Pay on Delivery,42,Female,Regular,1,3,False
+ORD-100094,2023-04-25,Customer_78,customer94@example.com,08085411811,Anambra,Jiji,Phones & Tablets,Samsung Galaxy A55,438650.51,3,10,1184356.38,POS,58,Male,VIP,3,13,False
+ORD-100095,2023-04-26,Customer_21,customer95@example.com,08036813819,Oyo,WhatsApp Commerce,Phones & Tablets,Infinix Hot 40 Pro,443858.76,3,10,1198418.65,Pay on Delivery,55,Female,VIP,4,6,False
+ORD-100096,2023-04-27,Customer_24,customer96@example.com,08078673317,Abuja,Flutterwave Store,Fashion,Men Agbada Set,22946.24,2,10,41303.23,Pay on Delivery,,Female,VIP,3,11,False
+ORD-100097,2023-04-29,Customer_17,customer97@example.com,08030325671,Anambra,WhatsApp Commerce,Books,Nigerian Law Reports,6567.73,3,0,19703.19,Bank Transfer,48,Male,New,3,4,False
+ORD-100098,2023-04-30,Customer_18,notanemail,0853989621,Enugu,WhatsApp Commerce,Phones & Tablets,Tecno Spark 20 Pro,620497.56,1,10,558447.8,USSD,43,Male,Premium,5,13,False
+ORD-100099,2023-05-01,Customer_98,customer99@example.com,0994970618,Imo,Flutterwave Store,Furniture,L-Shape Office Sofa,73916.2,1,10,66524.58,USSD,16,Male,VIP,3,3,False
+ORD-100100,02/05/2023,Customer_12,notanemail,08088421759,Imo,Jiji,Sports,Kettlebell 20kg,42120.45,2,5,80028.86,Card,23,Male,VIP,3,9,False
+ORD-100101,2023-05-04,Customer_16,customer101@example.com,08009192042,Delta,Jiji,Fashion,Men Agbada Set,5708.89,4,0,22835.56,Pay on Delivery,52,Female,Regular,4,10,False
+ORD-100102,2023-05-05,Customer_4,customer102@example.com,08058288025,Kaduna,Jiji,Fashion,Female Aso-Oke,34512.96,2,0,69025.92,POS,,Female,VIP,5,2,True
+ORD-100103,2023-05-06,Customer_89,customer103@example.com,08048566333,Delta,Flutterwave Store,Books,WAEC Past Questions,4140.86,1,0,4140.86,Bank Transfer,63,Male,Premium,3,1,True
+ORD-100104,2023-05-07,Customer_34,customer104@example.com,08078160039,Oyo,Konga,Fashion,Men Senator Native,40640.79,2,5,77217.5,USSD,58,Female,VIP,2,2,False
+ORD-100105,2023-05-08,Customer_92,,08010916859,Rivers,Jumia,Fashion,Men Agbada Set,24879.58,3,0,0,Card,52,Male,New,1,7,False
+ORD-100106,2023-05-10,,,08098608138,Kaduna,Konga,Phones & Tablets,Xiaomi Redmi Note 13,647573.58,1,20,518058.86,POS,19,Male,Regular,4,,False
+ORD-100107,2023-05-11,Customer_75,customer107@example.com,,Rivers,Konga,Books,JAMB CBT Practice Book,11772.46,2,10,21190.43,Pay on Delivery,45,Male,Premium,3,1,True
+ORD-100108,2023-05-12,Customer_77,customer108@example.com,08072390399,Imo,WhatsApp Commerce,Phones & Tablets,Xiaomi Redmi Note 13,677438.48,2,5,1287133.11,POS,21,Male,New,2,6,False
+ORD-100109,2023-05-13,Customer_31,customer109@example.com,08036928931,Imo,Jumia,Sports,Treadmill Manual,104438.27,4,20,334202.46,USSD,,Male,Premium,3,7,False
+ORD-100110,2023-05-15,Customer_25,,08019590532,Imo,Jiji,Beauty,Maybelline Mascara,10673.22,1,10,9605.9,Bank Transfer,34,Female,Regular,3,9,False
+ORD-100111,2023-05-16,Customer_74,customer111@example.com,08082581644,Anambra,Konga,Sports,Nigeria Football Jersey,67551.54,1,0,67551.54,Pay on Delivery,47,Male,VIP,5,8,True
+ORD-100112,2023-05-17,Customer_24,customer112@example.com,08038983218,Oyo,Flutterwave Store,Beauty,Neutrogena Body Lotion,6944.1,1,15,5902.48,Bank Transfer,24,Male,Regular,5,6,False
+ORD-100113,2023-05-18,Customer_65,customer113@example.com,08044354385,Enugu,Konga,Phones & Tablets,Xiaomi Redmi Note 13,185026.52,3,5,527325.58,POS,27,Female,Regular,,3,False
+ORD-100114,2023-05-19,Customer_25,customer114@example.com,08092950495,Delta,Jiji,Sports,Yoga Mat Non-Slip,62144.42,1,0,62144.42,POS,26,Male,VIP,2,8,False
+ORD-100115,2023-05-21,Customer_28,customer115@example.com,08021377232,Rivers,Konga,Books,WAEC Past Questions,7626.53,5,5,36226.02,Card,61,Male,New,3,7,False
+ORD-100116,2023-05-22,Customer_36,customer116@example.com,08035421808,Kano,WhatsApp Commerce,Electronics,Sony Home Theatre,128655.87,5,5,611115.38,Pay on Delivery,31,Female,Premium,1,3,True
+ORD-100117,2023-05-23,Customer_82,customer117@example.com,0883028125,Delta,WhatsApp Commerce,Phones & Tablets,Tecno Spark 20 Pro,470624.29,5,0,2353121.45,POS,16,Female,New,4,9,False
+ORD-100118,2023-05-24,Customer_6,customer118@example.com,08066850702,Lagos,Konga,Beauty,Maybelline Mascara,22276.54,2,0,44553.08,USSD,60,Female,VIP,5,12,False
+ORD-100119,2023-05-26,Customer_66,customer119@example.com,08086824970,Abuja,WhatsApp Commerce,Furniture,6ft Orthopedic Mattress,289442.75,1,0,289442.75,USSD,36,Female,Premium,5,2,False
+ORD-100120,2023-05-27,Customer_67,customer120@example.com,08009950141,Kaduna,Flutterwave Store,Beauty,Dark & Lovely Relaxer,18243.68,5,10,82096.56,Bank Transfer,45,Female,VIP,3,3,False
+ORD-100121,2023-05-28,Customer_72,customer121@example.com,08057775201,Rivers,Jumia,Furniture,6ft Orthopedic Mattress,407524.61,2,5,774296.76,USSD,28,Male,New,3,2,False
+ORD-100122,2023-05-29,Customer_95,customer122@example.com,08049008169,Oyo,Konga,Fashion,Female Aso-Oke,44520.97,4,10,160275.49,POS,49,Male,Regular,2,13,True
+ORD-100123,2023-05-30,Customer_48,customer123@example.com,08074039294,Imo,Flutterwave Store,Sports,Nigeria Football Jersey,73574.1,2,15,125075.97,USSD,19,Male,Premium,2,1,True
+ORD-100124,2023-06-01,Customer_83,customer124@example.com,08051620928,Lagos,Flutterwave Store,Furniture,L-Shape Office Sofa,408253.82,5,0,2041269.1,Pay on Delivery,43,Female,VIP,5,4,True
+ORD-100125,2023-06-02,Customer_70,customer125@example.com,08053746844,Abuja,Flutterwave Store,Beauty,Neutrogena Body Lotion,24096.11,4,10,86746.0,Bank Transfer,53,Female,Premium,3,5,False
+ORD-100126,2023-06-03,CUSTOMER_78,notanemail,08012011771,Rivers,Jiji,Fashion,Female Gele Headtie,42637.41,3,0,0,Pay on Delivery,46,Female,Premium,1,13,False
+ORD-100127,2023-06-04,Customer_67,customer127@example.com,08024442236,Enugu,Konga,Electronics,Sony Home Theatre,62262.42,2,10,112072.36,POS,42,Female,New,4,6,False
+ORD-100128,N/A,Customer_48,customer128@example.com,08033097076,Imo,Konga,Books,WAEC Past Questions,5589.04,1,0,5589.04,POS,,Female,Regular,3,5,True
+ORD-100129,2023-06-07,Customer_65,customer129@example.com,0859798118,Rivers,Konga,Books,Nigerian Law Reports,4699.09,1,0,4699.09,USSD,40,Female,Premium,3,1,False
+ORD-100130,2023-06-08,Customer_44,customer130@example.com,08035969839,Kano,Jumia,Books,WAEC Past Questions,2138.79,2,0,4277.58,Card,,Male,New,2,3,False
+ORD-100131,2023-06-09,,customer131@example.com,0896788530,Unknwon,Flutterwave Store,Furniture,Glass Centre Table,325789.37,5,0,1628946.85,Card,48,Female,Premium,4,1,False
+ORD-100132,2023-06-10,Customer_63,customer132@example.com,08012994931,Oyo,Konga,Electronics,Samsung Smart TV,261528.05,1,0,261528.05,POS,19,Male,Regular,5,11,False
+ORD-100133,2023-06-12,Customer_46,customer133@example.com,08044927511,Kano,WhatsApp Commerce,Furniture,6ft Orthopedic Mattress,427860.85,3,0,1283582.55,POS,40,Male,Premium,3,5,False
+ORD-100134,2023-06-13,Customer_19,missing@,08098540552,Enugu,Jiji,Sports,Adidas Running Sneakers,17364.9,1,0,17364.9,Bank Transfer,35,Male,Regular,5,5,True
+ORD-100135,2023-06-14,Customer_64,customer135@example.com,08026919912,Oyo,Jumia,Furniture,Wardrobe 4-Door,441310.94,5,5,2096226.96,POS,49,Female,New,3,12,False
+ORD-100136,2023-06-15,Customer_83,customer136@example.com,08026893687,Kaduna,Jiji,Electronics,Samsung Smart TV,230380.06,3,10,622026.16,POS,41,Female,New,5,11,False
+ORD-100137,2023-06-16,Customer_73,customer137@example.com,08044247437,Enugu,Flutterwave Store,Electronics,Scanfrost Refrigerator,250821.96,4,0,1003287.84,Bank Transfer,20,Female,Regular,4,13,False
+ORD-100138,2023-06-18,Customer_71,missing@,08044913770,Oyo,WhatsApp Commerce,Sports,Treadmill Manual,109543.01,3,0,,Pay on Delivery,50,Female,Regular,2,6,True
+ORD-100139,2023-06-19,Customer_50,,08089694057,Enugu,Flutterwave Store,Electronics,Hisense Chest Freezer,224295.03,5,0,1121475.15,Pay on Delivery,43,Female,New,4,8,True
+ORD-100140,2023-06-20,Customer_63,customer140@example.com,08043890528,Kano,Konga,Beauty,Neutrogena Body Lotion,8927.95,4,0,35711.8,Bank Transfer,44,Male,Regular,1,10,False
+ORD-100141,2023-06-21,Customer_41,customer141@example.com,08088783544,Kaduna,Jiji,Electronics,Sony Home Theatre,291410.96,5,5,1384202.06,Bank Transfer,24,Male,Regular,2,12,False
+ORD-100142,2023-06-23,Customer_7,customer142@example.com,08058065203,Enugu,WhatsApp Commerce,Books,ACCA F3 Textbook,5121.04,1,10,4608.94,Pay on Delivery,53,Female,VIP,4,1,False
+ORD-100143,N/A,Customer_9,customer143@example.com,,Kaduna,Jiji,Beauty,Maybelline Mascara,1628.32,1,5,1546.9,Pay on Delivery,21,Male,Premium,1,4,False
+ORD-100144,2023-06-25,Customer_4,customer144@example.com,08072605826,Abuja,Jumia,Beauty,Neutrogena Body Lotion,20901.84,5,0,104509.2,Pay on Delivery,34,Male,New,3,10,False
+ORD-100145,2023-06-26,Customer_89,customer145@example.com,08022328357,Enugu,WhatsApp Commerce,Sports,Treadmill Manual,43387.48,5,20,173549.92,Pay on Delivery,59,Female,New,3,11,False
+ORD-100146,2023-06-27,Customer_49,customer146@example.com,08045969635,Delta,Jumia,Groceries,Honeywell Flour 10kg,6303.76,1,0,6303.76,USSD,26,Male,VIP,5,1,False
+ORD-100147,2023-06-29,Customer_76,customer147@example.com,08041650322,Imo,WhatsApp Commerce,Groceries,Dangote Semolina 10kg,3220.68,2,0,6441.36,Bank Transfer,17,Male,Regular,2,9,False
+ORD-100148,2023-06-30,Customer_6,customer148@example.com,08037824395,Kano,Konga,Electronics,Sony Home Theatre,303457.79,1,15,257939.12,Card,62,Female,Regular,3,11,False
+ORD-100149,N/A,Customer_82,customer149@example.com,08072405478,Rivers,Jiji,Beauty,MAC Foundation,6112.15,4,0,24448.6,USSD,,Male,Regular,2,7,False
+ORD-100150,2023-07-02,,customer150@example.com,08023348890,Kaduna,Jiji,Groceries,Indomie Noodles Carton,7809.1,1,20,6247.28,Card,,Female,New,3,7,False
+ORD-100151,2023-07-04,Customer_15,customer151@example.com,08016702687,Kano,Flutterwave Store,Groceries,Golden Penny Rice 25kg,6348.19,1,0,6348.19,Card,24,Female,VIP,5,12,True
+ORD-100152,2023-07-05,Customer_67,customer152@example.com,08092707670,Lagos,WhatsApp Commerce,Electronics,Scanfrost Refrigerator,53269.71,1,5,50606.22,POS,36,Female,Premium,4,5,False
+ORD-100153,2023-07-06,Customer_66,customer153@example.com,08044625601,Delta,WhatsApp Commerce,Groceries,Titus Sardine 50pcs,4743.32,1,20,-999,Bank Transfer,39,Male,VIP,5,7,False
+ORD-100154,2023-07-07,Customer_56,customer154@example.com,08095094658,Kano,Jumia,Furniture,Glass Centre Table,493049.47,5,10,2218722.61,USSD,49,Male,New,1,,False
+ORD-100155,2023-07-08,Customer_68,customer155@example.com,08046748933,Imo,WhatsApp Commerce,Fashion,Men Senator Native,22520.28,1,0,22520.28,Bank Transfer,37,Male,Premium,3,2,True
+ORD-100156,2023-07-10,Customer_32,customer156@example.com,0897079527,Delta,Jiji,Sports,Adidas Running Sneakers,24306.54,2,10,0,Pay on Delivery,18,Female,Regular,1,13,False
+ORD-100157,2023-07-11,Customer_66,customer157@example.com,08008225955,,WhatsApp Commerce,Fashion,Men Senator Native,23103.08,2,5,43895.85,Bank Transfer,27,Male,VIP,,4,False
+ORD-100158,2023-07-12,Customer_29,customer158@example.com,08057042176,Kano,Flutterwave Store,Electronics,Hisense Chest Freezer,186673.31,1,0,186673.31,Card,43,Male,VIP,2,7,False
+ORD-100159,2023-07-13,Customer_66,customer159@example.com,08048412342,Delta,Flutterwave Store,Books,Nigerian Law Reports,9210.22,4,20,-999,Pay on Delivery,45,Female,New,3,3,False
+ORD-100160,2023-07-14,Customer_34,customer160@example.com,08045699783,Rivers,Jiji,Sports,Nigeria Football Jersey,84764.96,2,10,152576.93,Bank Transfer,41,Female,VIP,1,2,False
+ORD-100161,2023-07-16,Customer_27,customer161@example.com,08078642084,Rivers,Jiji,Electronics,Scanfrost Refrigerator,149854.26,1,10,134868.83,Bank Transfer,63,Female,Premium,4,10,False
+ORD-100162,2023-07-17,Customer_60,customer162@example.com,08034310734,Imo,Jiji,Beauty,Neutrogena Body Lotion,6076.16,1,0,6076.16,Card,36,Male,VIP,-99,2,False
+ORD-100163,2023-07-18,Customer_39,customer163@example.com,08076353604,Imo,WhatsApp Commerce,Books,Nigerian Law Reports,8166.59,2,20,13066.54,Pay on Delivery,43,Female,New,4,13,False
+ORD-100164,2023-07-19,Customer_44,customer164@example.com,08036843848,Abuja,WhatsApp Commerce,Fashion,Female Gele Headtie,20422.42,5,0,102112.1,Card,41,Male,VIP,2,1,False
+ORD-100165,2023-07-21,Customer_82,customer165@example.com,08064934488,Rivers,Konga,Electronics,LG Air Conditioner,59312.53,4,0,,Bank Transfer,48,Female,Premium,1,5,False
+ORD-100166,2023-07-22,Customer_36,customer166@example.com,08012145414,Rivers,Jumia,Beauty,Nivea Fair & Lovely,22593.85,3,10,61003.39,USSD,,Female,Premium,,12,True
+ORD-100167,2023-07-23,Customer_19,customer167@example.com,0842301093,Kaduna,WhatsApp Commerce,Sports,Kettlebell 20kg,83872.96,3,0,251618.88,USSD,50,Female,New,2,6,False
+ORD-100168,2023-07-24,Customer_91,customer168@example.com,08018842225,Oyo,Konga,Sports,Yoga Mat Non-Slip,82932.51,1,0,82932.51,POS,49,Female,Regular,4,6,False
+ORD-100169,N/A,Customer_45,customer169@example.com,08040805029,Enugu,Konga,Phones & Tablets,Samsung Galaxy A55,664276.67,1,0,664276.67,USSD,56,Male,New,2,9,False
+ORD-100170,2023-07-27,Customer_84,customer170@example.com,0888885224,Kaduna,Flutterwave Store,Beauty,Maybelline Mascara,13617.81,4,10,49024.12,Pay on Delivery,62,Male,Regular,1,4,False
+ORD-100171,2023-07-28,Customer_21,customer171@example.com,08086440192,Imo,WhatsApp Commerce,Furniture,Glass Centre Table,412150.85,2,5,783086.61,POS,33,Male,Premium,3,1,True
+ORD-100172,2023-07-29,Customer_23,customer172@example.com,08094082213,Anambra,Konga,Groceries,Indomie Noodles Carton,4235.68,1,10,3812.11,Pay on Delivery,26,Female,VIP,3,6,False
+ORD-100173,2023-07-30,Customer_94,customer173@example.com,08096725950,Enugu,Flutterwave Store,Books,JAMB CBT Practice Book,1925.49,1,0,1925.49,USSD,38,Male,VIP,,5,False
+ORD-100174,2023-08-01,,customer174@example.com,08022997438,Anambra,Jumia,Beauty,MAC Foundation,10607.0,4,20,33942.4,USSD,63,Female,Premium,4,10,False
+ORD-100175,2023-08-02,,customer175@example.com,08017460942,Lagos,Flutterwave Store,Phones & Tablets,Infinix Hot 40 Pro,415560.64,5,15,1766132.72,Bank Transfer,37,Female,New,3,6,False
+ORD-100176,2023-08-03,Customer_27,customer176@example.com,08018336991,Imo,Jumia,Groceries,Golden Penny Rice 25kg,5901.52,1,5,5606.44,Pay on Delivery,32,Male,VIP,4,3,False
+ORD-100177,2023-08-04,Customer_98,missing@,08052432792,Kano,Jiji,Groceries,Golden Penny Rice 25kg,1299.34,1,0,1299.34,Card,20,Female,New,2,2,False
+ORD-100178,2023-08-05,Customer_72,customer178@example.com,08061299361,Oyo,Jiji,Electronics,Sony Home Theatre,61906.21,1,5,58810.9,Bank Transfer,59,Female,VIP,5,6,False
+ORD-100179,2023-08-07,,customer179@example.com,08069202463,Anambra,Flutterwave Store,Groceries,Dangote Semolina 10kg,2477.63,1,20,,Pay on Delivery,26,Male,Regular,5,13,False
+ORD-100180,2023-08-08,Customer_41,customer180@example.com,08012355646,Enugu,Jiji,Furniture,Computer Work Desk,151586.74,3,0,454760.22,POS,45,Male,VIP,2,1,True
+ORD-100181,2023-08-09,Customer_26,customer181@example.com,08097019509,Imo,WhatsApp Commerce,Sports,Yoga Mat Non-Slip,88665.6,1,20,70932.48,Pay on Delivery,30,Female,Regular,5,7,False
+ORD-100182,2023-08-10,Customer_28,,0864364958,Kaduna,Flutterwave Store,Phones & Tablets,Tecno Spark 20 Pro,226808.96,3,0,680426.88,POS,42,Male,VIP,1,7,False
+ORD-100183,"August 12, 2023",Customer_64,customer183@example.com,08054574119,Abuja,Konga,Groceries,Dangote Semolina 10kg,5248.24,3,5,14957.48,POS,50,Female,VIP,2,10,False
+ORD-100184,2023-08-13,Customer_68,customer184@example.com,08092760483,Delta,WhatsApp Commerce,Electronics,LG Air Conditioner,180581.74,5,0,902908.7,USSD,48,Male,VIP,4,13,False
+ORD-100185,2023-08-14,Customer_95,customer185@example.com,0860498452,Rivers,Flutterwave Store,Furniture,Glass Centre Table,297314.83,1,0,297314.83,Card,35,Female,VIP,2,7,False
+ORD-100186,2023-08-15,Customer_80,customer186@example.com,08079737861,Oyo,Jumia,Fashion,Men Agbada Set,38119.55,2,0,76239.1,Pay on Delivery,31,Female,VIP,3,12,True
+ORD-100187,2023-08-16,Customer_51,customer187@example.com,08042612833,Oyo,Jiji,Sports,Kettlebell 20kg,50312.64,2,10,90562.75,Card,49,Female,New,4,11,False
+ORD-100188,2023-08-18,Customer_74,customer188@example.com,08028214505,Rivers,Jiji,Sports,Yoga Mat Non-Slip,93196.63,1,10,83876.97,POS,17,Male,Regular,3,10,True
+ORD-100189,2023-08-19,Customer_48,customer189@example.com,,Rivers,Jiji,Phones & Tablets,Xiaomi Redmi Note 13,357857.59,3,15,912536.85,USSD,50,Male,Regular,4,1,True
+ORD-100190,2023-08-20,Customer_10,customer190@example.com,0891854134,XXX,Flutterwave Store,Sports,Yoga Mat Non-Slip,44402.95,4,15,150970.03,Card,55,Female,VIP,5,4,False
+ORD-100191,2023-08-21,Customer_73,customer191@example.com,08056549487,XXX,WhatsApp Commerce,Groceries,Indomie Noodles Carton,7689.7,4,0,30758.8,Bank Transfer,43,Male,New,2,13,False
+ORD-100192,2023-08-22,Customer_39,customer192@example.com,08039427649,Lagos,Jumia,Electronics,Scanfrost Refrigerator,76764.26,2,15,130499.24,POS,62,Male,New,1,7,False
+ORD-100193,2023-08-24,Customer_100,customer193@example.com,08029405933,Abuja,Jiji,Sports,Adidas Running Sneakers,13569.42,4,20,43422.14,Bank Transfer,54,Male,Premium,4,11,False
+ORD-100194,2023-08-25,Customer_100,customer194@example.com,08031092756,Kaduna,WhatsApp Commerce,Sports,Nigeria Football Jersey,93205.35,2,5,177090.16,Card,21,Female,Premium,4,9,False
+ORD-100195,2023-08-26,Customer_19,customer195@example.com,08077354871,Lagos,Konga,Fashion,Ankara Midi Dress,5400.61,4,0,21602.44,Card,24,Male,New,3,5,False
+ORD-100196,2023-08-27,Customer_64,customer196@example.com,08000343626,Delta,Konga,Fashion,Ankara Midi Dress,38075.86,1,20,30460.69,Card,35,Male,Premium,5,13,False
+ORD-100197,2023-08-29,Customer_19,customer197@example.com,08057765595,Rivers,Jumia,Books,Nigerian Law Reports,5921.69,1,0,5921.69,Pay on Delivery,16,Male,Regular,3,2,True
+ORD-100198,2023-08-30,Customer_76,,08042751664,Abuja,Jiji,Furniture,Wardrobe 4-Door,459869.0,3,0,1379607.0,POS,23,Female,New,3,7,False
+ORD-100199,2023-08-31,Customer_62,customer199@example.com,0880178996,,Konga,Groceries,Honeywell Flour 10kg,5911.5,1,0,5911.5,POS,38,Female,Premium,5,10,False
+ORD-100200,2023-09-01,Customer_13,customer200@example.com,08029184940,Kaduna,WhatsApp Commerce,Sports,Nigeria Football Jersey,74417.35,5,20,297669.4,POS,999,Female,New,1,1,False
+ORD-100201,"September 02, 2023",Customer_25,customer201@example.com,08008776428,Delta,WhatsApp Commerce,Beauty,Dark & Lovely Relaxer,23773.22,2,0,47546.44,Pay on Delivery,,Male,Premium,3,7,False
+ORD-100202,2023-09-04,Customer_100,customer202@example.com,08097547261,Delta,Konga,Sports,Yoga Mat Non-Slip,49407.98,3,0,148223.94,Card,40,Female,New,3,6,False
+ORD-100203,2023-09-05,Customer_89,customer203@example.com,08046990980,Enugu,Jiji,Electronics,Sony Home Theatre,334619.12,2,0,669238.24,Card,62,Male,VIP,-99,7,False
+ORD-100204,2023-09-06,Customer_92,customer204@example.com,08075583731,Enugu,Jumia,Books,ICAN Study Pack,2658.01,1,5,2525.11,Bank Transfer,53,Male,Regular,5,13,False
+ORD-100205,2023-09-07,Customer_42,customer205@example.com,08038870646,Delta,Jiji,Furniture,L-Shape Office Sofa,254783.6,4,15,866264.24,Pay on Delivery,30,Female,Premium,2,10,False
+ORD-100206,2023-09-09,  Customer_39  ,customer206@example.com,08033127859,Lagos,Flutterwave Store,Beauty,Nivea Fair & Lovely,7331.85,4,5,27861.03,USSD,36,Male,VIP,1,3,True
+ORD-100207,2023-09-10,Customer_30,customer207@example.com,08067759708,Imo,Konga,Books,ICAN Study Pack,7030.3,5,15,29878.78,Pay on Delivery,50,Female,New,1,3,True
+ORD-100208,2023-09-11,Customer_5,customer208@example.com,08084885096,Kaduna,Flutterwave Store,Phones & Tablets,Samsung Galaxy A55,158940.62,1,0,158940.62,Bank Transfer,61,Male,VIP,5,7,True
+ORD-100209,2023-09-12,Customer_81,customer209@example.com,,Enugu,Konga,Furniture,Computer Work Desk,424726.59,3,0,1274179.77,Bank Transfer,29,Male,Regular,4,13,False
+ORD-100210,2023-09-13,Customer_18,customer210@example.com,08077013825,Oyo,Jumia,Sports,Yoga Mat Non-Slip,102029.72,5,0,510148.6,Bank Transfer,51,Male,Premium,4,2,False
+ORD-100211,2023-09-15,Customer_21,customer211@example.com,08062549306,Rivers,Jiji,Sports,Kettlebell 20kg,114762.65,1,0,114762.65,Card,,Male,Premium,5,1,True
+ORD-100212,2023-09-16,Customer_86,customer212@example.com,08065431954,Kaduna,Jiji,Furniture,Wardrobe 4-Door,98469.27,2,20,157550.83,USSD,32,Male,New,,9,True
+ORD-100213,2023-09-17,Customer_50,customer213@example.com,08065894880,Delta,Konga,Sports,Kettlebell 20kg,75929.91,1,15,64540.42,Bank Transfer,54,Female,Regular,1,9,False
+ORD-100214,2023-09-18,Customer_6,customer214@example.com,08065560305,Delta,WhatsApp Commerce,Groceries,Honeywell Flour 10kg,4056.78,5,20,16227.12,POS,24,Female,VIP,1,7,False
+ORD-100215,2023-09-20,Customer_50,customer215@example.com,08083567887,Kano,Flutterwave Store,Furniture,Wardrobe 4-Door,188582.27,5,0,942911.35,Card,50,Female,New,2,7,False
+ORD-100216,2023-09-21,Customer_80,customer216@example.com,08014020236,,Jiji,Books,Nigerian Law Reports,4996.63,3,0,14989.89,USSD,28,Female,Premium,5,3,False
+ORD-100217,2023-09-22,  Customer_66  ,customer217@example.com,08007394108,Rivers,Jiji,Furniture,6ft Orthopedic Mattress,221076.94,2,10,397938.49,POS,30,Male,VIP,3,10,False
+ORD-100218,2023-09-23,,customer218@example.com,08000838460,Oyo,Konga,Beauty,Neutrogena Body Lotion,17859.2,2,5,33932.48,USSD,33,Male,New,3,2,False
+ORD-100219,2023-09-24,Customer_57,customer219@example.com,08008200550,Anambra,WhatsApp Commerce,Sports,Treadmill Manual,72999.47,3,5,208048.49,USSD,,Female,VIP,2,11,False
+ORD-100220,2023-09-26,Customer_30,customer220@example.com,08092226332,Enugu,Flutterwave Store,Groceries,Titus Sardine 50pcs,3947.61,1,0,3947.61,POS,21,Female,VIP,2,7,False
+ORD-100221,27/09/2023,Customer_58,customer221@example.com,08013756613,Kano,WhatsApp Commerce,Groceries,Honeywell Flour 10kg,1069.5,1,0,1069.5,Pay on Delivery,42,Male,New,,9,False
+ORD-100222,2023-09-28,Customer_52,customer222@example.com,08052839150,Delta,WhatsApp Commerce,Phones & Tablets,Infinix Hot 40 Pro,94490.49,1,15,80316.92,USSD,38,Female,VIP,2,,False
+ORD-100223,2023-09-29,Customer_37,customer223@example.com,08007451182,Imo,Konga,Books,ACCA F3 Textbook,1225.27,1,10,-999,Pay on Delivery,42,Male,VIP,2,13,False
+ORD-100224,2023-09-30,,customer224@example.com,08043917961,Lagos,WhatsApp Commerce,Fashion,Ankara Midi Dress,43627.22,2,10,78529.0,USSD,,Male,Regular,3,4,False
+ORD-100225,2023-10-02,Customer_87,customer225@example.com,08060415662,Kano,Flutterwave Store,Fashion,Ankara Midi Dress,2723.29,2,20,4357.26,POS,61,Female,Regular,4,6,False
+ORD-100226,2023-10-03,Customer_1,customer226@example.com,08077651581,Imo,Jumia,Furniture,6ft Orthopedic Mattress,73969.53,4,5,281084.21,USSD,53,Male,Premium,2,7,False
+ORD-100227,2023-10-04,Customer_19,customer227@example.com,08052761608,Kaduna,Jumia,Phones & Tablets,Xiaomi Redmi Note 13,275666.37,1,0,275666.37,Bank Transfer,29,Male,Regular,2,10,True
+ORD-100228,2023-10-05,Customer_46,customer228@example.com,08012094854,Kaduna,Flutterwave Store,Electronics,LG Air Conditioner,285489.13,2,0,570978.26,Bank Transfer,51,Female,New,4,7,True
+ORD-100229,N/A,Customer_67,customer229@example.com,08071459774,Unknwon,Konga,Furniture,Wardrobe 4-Door,481996.92,2,0,963993.84,USSD,23,Female,VIP,5,10,False
+ORD-100230,2023-10-08,Customer_2,customer230@example.com,08086531752,Kano,Jiji,Phones & Tablets,Xiaomi Redmi Note 13,639360.37,4,20,2045953.18,POS,50,Male,Premium,4,2,True
+ORD-100231,2023-10-09,Customer_56,customer231@example.com,08065170054,Kaduna,Konga,Books,Nigerian Law Reports,8658.05,4,0,34632.2,POS,34,Female,Regular,3,4,False
+ORD-100232,2023-10-10,  Customer_17  ,customer232@example.com,08016207276,Delta,Flutterwave Store,Books,Nigerian Law Reports,6830.05,1,0,6830.05,Card,45,Male,VIP,5,5,False
+ORD-100233,2023-10-11,Customer_92,customer233@example.com,08060599763,Kaduna,WhatsApp Commerce,Books,Nigerian Law Reports,2136.42,1,20,1709.14,POS,29,Female,New,1,12,False
+ORD-100234,2023-10-13,Customer_82,customer234@example.com,08034639096,Imo,Jumia,Books,Nigerian Law Reports,11548.24,4,0,46192.96,Pay on Delivery,35,Male,VIP,4,1,False
+ORD-100235,2023-10-14,Customer_97,customer235@example.com,08079994914,Anambra,WhatsApp Commerce,Books,ICAN Study Pack,9390.64,1,0,9390.64,USSD,64,Male,New,3,1,True
+ORD-100236,2023-10-15,Customer_79,customer236@example.com,08027841160,Enugu,Konga,Phones & Tablets,iPhone 15 128GB,523796.28,2,0,1047592.56,Bank Transfer,40,Male,VIP,5,10,False
+ORD-100237,2023-10-16,Customer_22,customer237@example.com,0979206285,XXX,Flutterwave Store,Phones & Tablets,Xiaomi Redmi Note 13,615662.42,3,15,1569939.17,POS,,Male,Premium,4,3,False
+ORD-100238,2023-10-18,Customer_27,customer238@example.com,08085127029,Rivers,Jumia,Groceries,Honeywell Flour 10kg,5930.77,1,5,5634.23,Bank Transfer,39,Male,Premium,2,10,False
+ORD-100239,2023-10-19,Customer_55,customer239@example.com,08004364704,Imo,Flutterwave Store,Beauty,Dark & Lovely Relaxer,16221.0,1,0,16221.0,Card,,Male,Regular,,3,False
+ORD-100240,2023-10-20,Customer_32,customer240@example.com,0732896788,Anambra,Jumia,Fashion,Female Aso-Oke,44174.51,4,0,176698.04,USSD,41,Male,Regular,1,12,False
+ORD-100241,2023-10-21,Customer_60,customer241@example.com,08007187248,Kaduna,Jumia,Sports,Nigeria Football Jersey,108693.57,2,0,217387.14,POS,53,Male,VIP,4,8,False
+ORD-100242,2023-10-22,Customer_83,customer242@example.com,08033398573,Oyo,Jumia,Books,WAEC Past Questions,8183.98,3,15,20869.15,Bank Transfer,,Male,VIP,5,9,True
+ORD-100243,2023-10-24,Customer_28,customer243@example.com,08096372041,Abuja,Konga,Electronics,LG Air Conditioner,247213.7,3,5,704559.04,POS,,Female,Regular,5,11,True
+ORD-100244,25/10/2023,Customer_28,customer244@example.com,08022549802,Anambra,Flutterwave Store,Sports,Adidas Running Sneakers,9036.71,1,15,,Card,63,Male,Regular,4,12,False
+ORD-100245,2023-10-26,Customer_74,customer245@example.com,08072257592,Kaduna,Jiji,Phones & Tablets,Infinix Hot 40 Pro,547486.86,1,5,520112.52,Bank Transfer,34,Female,VIP,5,1,True
+ORD-100246,27/10/2023,Customer_84,customer246@example.com,08073525889,Anambra,Jiji,Electronics,Samsung Smart TV,29795.42,2,10,53631.76,Bank Transfer,61,Female,VIP,,11,False
+ORD-100247,2023-10-29,Customer_25,customer247@example.com,08036297753,Anambra,Jiji,Electronics,Scanfrost Refrigerator,212068.36,3,5,604394.83,USSD,18,Female,VIP,4,2,True
+ORD-100248,N/A,Customer_85,customer248@example.com,0876974688,Imo,Flutterwave Store,Electronics,Hisense Chest Freezer,349783.42,1,0,349783.42,USSD,57,Male,Premium,2,10,False
+ORD-100249,2023-10-31,Customer_78,,08029352875,Oyo,WhatsApp Commerce,Groceries,Dangote Semolina 10kg,4668.55,3,15,11904.8,Bank Transfer,34,Male,New,2,2,True
+ORD-100250,2023-11-01,Customer_86,notanemail,08029702449,Kaduna,Flutterwave Store,Phones & Tablets,Samsung Galaxy A55,397005.74,5,0,,USSD,24,Female,New,3,4,False
+ORD-100251,2023-11-02,Customer_26,notanemail,08074664783,Oyo,Jumia,Electronics,Sony Home Theatre,119806.38,2,10,215651.48,Bank Transfer,43,Male,Regular,4,2,False
+ORD-100252,2023-11-04,  Customer_75  ,customer252@example.com,08003535489,Kano,WhatsApp Commerce,Books,JAMB CBT Practice Book,2501.64,2,0,5003.28,Pay on Delivery,35,Male,Premium,5,7,False
+ORD-100253,2023-11-05,Customer_71,customer253@example.com,08037931104,Imo,Jumia,Furniture,Wardrobe 4-Door,372236.24,5,0,1861181.2,POS,60,Male,VIP,2,13,False
+ORD-100254,2023-11-06,Customer_17,customer254@example.com,08045523030,Enugu,Jumia,Electronics,Sony Home Theatre,79520.67,2,15,135185.14,Pay on Delivery,,Male,VIP,3,9,False
+ORD-100255,2023-11-07,CUSTOMER_82,customer255@example.com,0899398941,Enugu,Flutterwave Store,Groceries,Titus Sardine 50pcs,1364.62,5,20,5458.48,Pay on Delivery,29,Male,Regular,4,7,False
+ORD-100256,2023-11-08,,customer256@example.com,08008937470,Anambra,Jiji,Sports,Kettlebell 20kg,52346.23,4,20,167507.94,POS,24,Male,Regular,4,12,False
+ORD-100257,10/11/2023,Customer_56,customer257@example.com,08015141250,Delta,WhatsApp Commerce,Phones & Tablets,iPhone 15 128GB,643436.51,4,0,2573746.04,Bank Transfer,34,Female,Premium,1,6,False
+ORD-100258,2023-11-11,Customer_64,customer258@example.com,08061570844,Abuja,Konga,Beauty,MAC Foundation,18830.56,1,5,17889.03,Bank Transfer,62,Female,New,1,10,False
+ORD-100259,2023-11-12,Customer_20,customer259@example.com,08015378872,Kano,Jiji,Groceries,Golden Penny Rice 25kg,911.62,2,0,1823.24,USSD,29,Female,New,2,1,False
+ORD-100260,13/11/2023,Customer_38,customer260@example.com,,Imo,Konga,Electronics,LG Air Conditioner,167473.13,2,20,267957.01,Card,53,Female,VIP,1,11,False
+ORD-100261,2023-11-15,Customer_75,,08049857909,Delta,Flutterwave Store,Phones & Tablets,iPhone 15 128GB,434662.45,2,0,869324.9,Bank Transfer,51,Female,Regular,2,10,True
+ORD-100262,2023-11-16,Customer_58,customer262@example.com,08085477211,Unknwon,WhatsApp Commerce,Furniture,L-Shape Office Sofa,331159.66,3,10,894131.08,POS,55,Male,Premium,5,9,False
+ORD-100263,2023-11-17,Customer_16,customer263@example.com,08067977921,Abuja,Flutterwave Store,Electronics,Sony Home Theatre,232806.06,3,10,628576.36,Card,32,Male,VIP,2,5,False
+ORD-100264,2023-11-18,Customer_51,customer264@example.com,08028660696,Enugu,Konga,Groceries,Honeywell Flour 10kg,3235.23,5,15,13749.73,POS,45,Male,New,1,11,False
+ORD-100265,2023-11-19,Customer_27,customer265@example.com,08072916444,XXX,Jumia,Fashion,Female Gele Headtie,26328.78,2,10,0,POS,24,Female,New,5,5,False
+ORD-100266,2023-11-21,Customer_51,customer266@example.com,08075685037,Delta,Flutterwave Store,Books,WAEC Past Questions,6395.47,5,15,27180.75,POS,48,Female,Premium,1,6,False
+ORD-100267,2023-11-22,Customer_75,customer267@example.com,08092209050,Kano,WhatsApp Commerce,Beauty,MAC Foundation,22216.96,5,15,94422.08,Card,40,Male,VIP,,9,False
+ORD-100268,2023-11-23,Customer_16,customer268@example.com,08046585830,Abuja,Flutterwave Store,Sports,Treadmill Manual,65041.02,3,15,165854.6,Pay on Delivery,29,Female,Premium,3,,False
+ORD-100269,2023-11-24,CUSTOMER_87,customer269@example.com,0749335315,Delta,Jiji,Groceries,Dangote Semolina 10kg,3807.74,2,20,6092.38,POS,,Male,VIP,4,8,False
+ORD-100270,2023-11-26,,customer270@example.com,08008449314,Lagos,Flutterwave Store,Phones & Tablets,Infinix Hot 40 Pro,344431.37,5,20,1377725.48,USSD,50,Male,New,1,8,False
+ORD-100271,2023-11-27,Customer_76,customer271@example.com,08088505435,Imo,Konga,Beauty,Neutrogena Body Lotion,14652.75,1,5,13920.11,Bank Transfer,56,Male,Regular,2,8,False
+ORD-100272,2023-11-28,Customer_40,,08016389143,Delta,Flutterwave Store,Beauty,Maybelline Mascara,20256.24,2,0,40512.48,Bank Transfer,29,Female,Regular,5,1,False
+ORD-100273,2023-11-29,Customer_67,customer273@example.com,08077557984,Anambra,WhatsApp Commerce,Beauty,MAC Foundation,13829.32,2,15,23509.84,Bank Transfer,45,Female,New,1,1,False
+ORD-100274,2023-11-30,Customer_2,customer274@example.com,08019943033,Kaduna,Flutterwave Store,Electronics,Scanfrost Refrigerator,236654.48,2,15,402312.62,Card,56,Male,Regular,1,8,False
+ORD-100275,2023-12-02,Customer_48,customer275@example.com,08008234654,Anambra,Flutterwave Store,Books,ACCA F3 Textbook,9168.84,5,0,45844.2,USSD,19,Male,Regular,4,5,False
+ORD-100276,2023-12-03,Customer_52,customer276@example.com,08065462081,Abuja,WhatsApp Commerce,Electronics,Scanfrost Refrigerator,189256.32,2,0,378512.64,USSD,19,Female,VIP,2,9,False
+ORD-100277,2023-12-04,,customer277@example.com,08079825606,Oyo,Flutterwave Store,Phones & Tablets,Xiaomi Redmi Note 13,361515.05,3,15,921863.38,USSD,43,Female,Premium,3,2,True
+ORD-100278,2023-12-05,Customer_93,customer278@example.com,08073374540,Anambra,WhatsApp Commerce,Electronics,Hisense Chest Freezer,308682.9,3,5,879746.26,USSD,23,Female,VIP,5,9,False
+ORD-100279,2023-12-07,Customer_98,customer279@example.com,08016547415,Kaduna,Konga,Fashion,Female Gele Headtie,20244.01,4,10,72878.44,USSD,17,Female,Premium,2,12,False
+ORD-100280,2023-12-08,Customer_84,customer280@example.com,08056105241,Anambra,WhatsApp Commerce,Books,JAMB CBT Practice Book,6188.98,2,10,11140.16,Pay on Delivery,999,Male,Premium,5,8,False
+ORD-100281,2023-12-09,Customer_82,customer281@example.com,08039105396,Delta,Konga,Books,ICAN Study Pack,11895.69,1,0,11895.69,USSD,61,Male,Regular,1,9,False
+ORD-100282,2023-12-10,Customer_78,customer282@example.com,08091488169,Kaduna,Konga,Phones & Tablets,Xiaomi Redmi Note 13,35181.71,4,0,140726.84,USSD,37,Female,Premium,4,4,False
+ORD-100283,2023-12-11,Customer_82,customer283@example.com,08002886223,Imo,WhatsApp Commerce,Sports,Adidas Running Sneakers,24700.33,3,10,66690.89,Card,56,Female,Premium,4,1,False
+ORD-100284,2023-12-13,Customer_2,customer284@example.com,08014665997,Oyo,Flutterwave Store,Fashion,Men Agbada Set,18818.47,2,10,33873.25,Card,31,Female,New,3,1,False
+ORD-100285,2023-12-14,Customer_65,customer285@example.com,08021114093,Delta,Jiji,Groceries,Golden Penny Rice 25kg,7494.42,3,20,17986.61,USSD,44,Female,Premium,4,5,False
+ORD-100286,2023-12-15,Customer_20,missing@,08014937049,Lagos,WhatsApp Commerce,Electronics,LG Air Conditioner,38459.95,2,5,73073.9,Pay on Delivery,64,Male,New,1,2,False
+ORD-100287,2023-12-16,Customer_34,customer287@example.com,08093701061,Lagos,Flutterwave Store,Furniture,Glass Centre Table,29505.58,4,0,118022.32,USSD,63,Female,VIP,3,8,False
+ORD-100288,2023-12-17,Customer_41,customer288@example.com,08059109294,Abuja,Konga,Electronics,Scanfrost Refrigerator,32649.09,2,0,65298.18,USSD,45,Female,Regular,2,10,False
+ORD-100289,2023-12-19,Customer_41,customer289@example.com,08084195753,Rivers,Jumia,Beauty,Maybelline Mascara,2942.75,3,20,7062.6,USSD,27,Male,Premium,4,11,False
+ORD-100290,20/12/2023,Customer_75,customer290@example.com,08079175105,Anambra,Jiji,Electronics,Samsung Smart TV,27594.92,5,20,110379.68,POS,,Female,New,3,5,False
+ORD-100291,2023-12-21,CUSTOMER_91,customer291@example.com,08049783675,Kaduna,Flutterwave Store,Groceries,Dangote Semolina 10kg,4098.36,2,0,8196.72,Pay on Delivery,26,Male,VIP,1,5,False
+ORD-100292,2023-12-22,Customer_23,customer292@example.com,08084132396,Delta,Jiji,Electronics,LG Air Conditioner,209553.66,2,20,335285.86,Bank Transfer,61,Male,VIP,5,2,False
+ORD-100293,24/12/2023,Customer_38,customer293@example.com,08007460104,Lagos,Jumia,Fashion,Ankara Midi Dress,14046.7,1,5,13344.36,USSD,36,Male,VIP,5,7,False
+ORD-100294,2023-12-25,Customer_44,customer294@example.com,0900708818,Oyo,Jumia,Fashion,Female Aso-Oke,19427.21,2,10,34968.98,Bank Transfer,36,Female,New,1,13,False
+ORD-100295,2023-12-26,Customer_67,missing@,08050372411,Rivers,Jumia,Books,Nigerian Law Reports,2190.35,4,15,7447.19,Pay on Delivery,20,Male,New,1,8,True
+ORD-100296,2023-12-27,  Customer_62  ,customer296@example.com,0816179064,Oyo,WhatsApp Commerce,Phones & Tablets,Tecno Spark 20 Pro,292323.4,1,0,292323.4,USSD,,Female,Regular,5,10,False
+ORD-100297,2023-12-28,Customer_12,customer297@example.com,08070791651,Anambra,Jiji,Sports,Adidas Running Sneakers,64134.75,1,10,57721.28,Bank Transfer,35,Female,Premium,3,13,False
+ORD-100298,2023-12-30,Customer_30,customer298@example.com,08072064460,Kano,WhatsApp Commerce,Furniture,Glass Centre Table,372829.11,1,10,335546.2,Bank Transfer,52,Male,VIP,5,1,True
+ORD-100299,N/A,Customer_95,customer299@example.com,08047994692,Rivers,Jumia,Beauty,Dark & Lovely Relaxer,880.98,3,0,2642.94,Pay on Delivery,18,Male,Regular,1,2,False
+ORD-100300,2024-01-01,Customer_87,customer300@example.com,08048932875,Enugu,Flutterwave Store,Electronics,Samsung Smart TV,171549.11,2,0,343098.22,USSD,,Male,New,4,10,True
+ORD-100301,2024-01-02,Customer_65,customer301@example.com,08005225295,Kano,Jumia,Electronics,Scanfrost Refrigerator,114495.96,1,20,91596.77,POS,48,Female,Regular,2,4,False
+ORD-100302,2024-01-04,Customer_41,missing@,08071631603,Kano,WhatsApp Commerce,Groceries,Dangote Semolina 10kg,6896.16,1,15,5861.74,Pay on Delivery,24,Female,VIP,4,5,False
+ORD-100303,2024-01-05,Customer_20,customer303@example.com,08029912097,Anambra,Jumia,Phones & Tablets,Tecno Spark 20 Pro,582398.29,4,0,2329593.16,POS,24,Male,VIP,4,13,True
+ORD-100304,2024-01-06,CUSTOMER_6,customer304@example.com,08021492273,Oyo,Jumia,Fashion,Ankara Midi Dress,27537.11,2,20,44059.38,USSD,19,Female,Regular,1,2,False
+ORD-100305,2024-01-07,Customer_75,customer305@example.com,0925316099,Imo,WhatsApp Commerce,Furniture,Glass Centre Table,156701.18,5,10,705155.31,Bank Transfer,50,Male,VIP,5,1,False
+ORD-100306,2024-01-08,Customer_99,customer306@example.com,08097158057,Lagos,WhatsApp Commerce,Books,WAEC Past Questions,11031.66,5,15,46884.56,Pay on Delivery,32,Female,New,3,9,False
+ORD-100307,2024-01-10,Customer_4,customer307@example.com,08045423638,Kaduna,Flutterwave Store,Fashion,Female Gele Headtie,4416.78,2,20,7066.85,Pay on Delivery,49,Female,VIP,,999,False
+ORD-100308,2024-01-11,Customer_93,,08047497789,Kaduna,WhatsApp Commerce,Beauty,MAC Foundation,3449.12,1,5,3276.66,Pay on Delivery,39,Female,Premium,5,999,True
+ORD-100309,2024-01-12,Customer_10,customer309@example.com,08024521648,Delta,Flutterwave Store,Phones & Tablets,Infinix Hot 40 Pro,334597.06,5,20,1338388.24,Card,47,Female,Premium,3,4,False
+ORD-100310,2024-01-13,Customer_51,customer310@example.com,08053849586,Delta,Konga,Beauty,Maybelline Mascara,3811.39,3,0,11434.17,USSD,16,Male,VIP,4,2,False
+ORD-100311,2024-01-15,Customer_93,customer311@example.com,08031292352,Kano,Konga,Sports,Yoga Mat Non-Slip,114900.64,5,10,517052.88,Card,23,Male,Regular,,11,False
+ORD-100312,2024-01-16,Customer_38,customer312@example.com,08008848686,Kano,WhatsApp Commerce,Books,ICAN Study Pack,9818.28,5,20,39273.12,Pay on Delivery,60,Male,VIP,5,4,True
+ORD-100313,2024-01-17,Customer_1,customer313@example.com,08076543627,Imo,Jumia,Sports,Yoga Mat Non-Slip,33300.97,5,0,166504.85,Pay on Delivery,38,Female,Premium,2,8,False
+ORD-100314,2024-01-18,Customer_8,customer314@example.com,08018472617,Anambra,Jiji,Groceries,Titus Sardine 50pcs,4914.16,1,0,4914.16,POS,62,Female,New,5,8,False
+ORD-100315,N/A,Customer_81,customer315@example.com,08030489381,Lagos,Jumia,Beauty,Maybelline Mascara,24572.4,1,0,24572.4,Card,55,Male,Premium,1,,False
+ORD-100316,2024-01-21,Customer_83,customer316@example.com,08034700883,XXX,WhatsApp Commerce,Groceries,Titus Sardine 50pcs,7131.49,3,5,20324.75,Bank Transfer,27,Male,VIP,3,12,False
+ORD-100317,2024-01-22,Customer_63,notanemail,08035084230,Imo,Flutterwave Store,Electronics,LG Air Conditioner,216267.48,1,10,194640.73,USSD,27,Male,VIP,2,9,False
+ORD-100318,2024-01-23,,customer318@example.com,08031838926,Kaduna,Jumia,Sports,Kettlebell 20kg,108735.7,2,0,217471.4,Bank Transfer,61,Female,Regular,3,13,False
+ORD-100319,2024-01-24,Customer_15,customer319@example.com,,Enugu,Konga,Phones & Tablets,Samsung Galaxy A55,791726.46,2,0,1583452.92,Bank Transfer,62,Male,VIP,3,11,False
+ORD-100320,2024-01-25,Customer_31,customer320@example.com,08068293939,Unknwon,WhatsApp Commerce,Beauty,Neutrogena Body Lotion,18789.14,2,5,35699.37,USSD,30,Male,VIP,,12,False
+ORD-100321,2024-01-27,Customer_21,customer321@example.com,08023219801,Enugu,Jumia,Furniture,Computer Work Desk,55868.54,4,0,223474.16,Pay on Delivery,56,Male,New,1,5,False
+ORD-100322,2024-01-28,Customer_3,customer322@example.com,08004954306,Lagos,Jumia,Books,WAEC Past Questions,5537.07,5,0,27685.35,POS,34,Male,New,3,7,False
+ORD-100323,2024-01-29,Customer_66,customer323@example.com,08029394040,Lagos,Flutterwave Store,Fashion,Ankara Midi Dress,38107.59,4,0,152430.36,Pay on Delivery,41,Male,New,5,3,False
+ORD-100324,2024-01-30,Customer_35,customer324@example.com,08028168594,Anambra,Flutterwave Store,Phones & Tablets,Samsung Galaxy A55,211385.43,1,0,211385.43,Pay on Delivery,44,Male,Regular,5,10,True
+ORD-100325,2024-02-01,Customer_41,customer325@example.com,08041765448,Unknwon,Flutterwave Store,Phones & Tablets,Xiaomi Redmi Note 13,670441.53,2,0,1340883.06,Card,37,Male,Regular,4,4,False
+ORD-100326,2024-02-02,Customer_59,,08053968447,Kano,Jiji,Groceries,Titus Sardine 50pcs,1402.54,3,0,4207.62,Bank Transfer,55,Male,Premium,1,10,False
+ORD-100327,2024-02-03,Customer_16,customer327@example.com,08091825516,Delta,WhatsApp Commerce,Sports,Nigeria Football Jersey,8492.61,1,10,7643.35,Bank Transfer,36,Male,Regular,1,9,False
+ORD-100328,2024-02-04,Customer_56,customer328@example.com,08007107155,Imo,WhatsApp Commerce,Beauty,Neutrogena Body Lotion,10094.99,5,15,42903.71,Bank Transfer,53,Female,New,5,10,False
+ORD-100329,2024-02-05,Customer_45,customer329@example.com,08029366711,Anambra,Konga,Beauty,Neutrogena Body Lotion,1688.91,2,20,2702.26,POS,35,Male,Regular,2,10,False
+ORD-100330,N/A,Customer_59,notanemail,08089838249,Imo,Konga,Electronics,LG Air Conditioner,335685.54,3,0,1007056.62,POS,44,Male,VIP,4,12,False
+ORD-100331,2024-02-08,Customer_50,customer331@example.com,08029853376,Rivers,WhatsApp Commerce,Electronics,Sony Home Theatre,291778.91,5,0,1458894.55,POS,19,Male,Regular,4,1,False
+ORD-100332,2024-02-09,Customer_85,customer332@example.com,08072891501,,Jumia,Books,JAMB CBT Practice Book,9848.31,4,0,39393.24,USSD,999,Female,VIP,5,2,False
+ORD-100333,2024-02-10,Customer_12,customer333@example.com,08070892108,Oyo,WhatsApp Commerce,Groceries,Golden Penny Rice 25kg,5223.33,4,0,20893.32,POS,43,Female,Premium,5,5,True
+ORD-100334,2024-02-12,Customer_92,customer334@example.com,08006166986,Kaduna,Jiji,Phones & Tablets,Tecno Spark 20 Pro,200487.88,3,10,541317.28,Card,43,Male,VIP,2,3,True
+ORD-100335,2024-02-13,Customer_12,customer335@example.com,08073737435,Kano,Konga,Beauty,Dark & Lovely Relaxer,13341.9,4,0,53367.6,Card,19,Female,New,2,2,False
+ORD-100336,2024-02-14,Customer_33,notanemail,08018929397,Kano,Konga,Furniture,Glass Centre Table,308705.18,2,5,586539.84,Pay on Delivery,37,Female,Premium,1,1,False
+ORD-100337,2024-02-15,Customer_84,customer337@example.com,08096483210,Kano,Konga,Groceries,Golden Penny Rice 25kg,4437.74,1,5,,Pay on Delivery,27,Male,Premium,4,10,False
+ORD-100338,2024-02-16,Customer_49,customer338@example.com,0828844355,Enugu,WhatsApp Commerce,Books,ACCA F3 Textbook,4010.52,1,15,3408.94,Pay on Delivery,60,Female,Premium,4,3,False
+ORD-100339,2024-02-18,,customer339@example.com,08016846312,Delta,Konga,Books,WAEC Past Questions,6764.68,1,0,6764.68,Pay on Delivery,18,Female,New,5,1,False
+ORD-100340,2024-02-19,Customer_60,customer340@example.com,08056237365,Anambra,Konga,Groceries,Honeywell Flour 10kg,4183.9,5,0,20919.5,Card,37,Male,VIP,1,12,False
+ORD-100341,2024-02-20,Customer_52,customer341@example.com,08025268209,Anambra,WhatsApp Commerce,Books,Nigerian Law Reports,11960.43,1,0,11960.43,Pay on Delivery,59,Male,Premium,4,1,False
+ORD-100342,2024-02-21,Customer_54,customer342@example.com,08007818476,Enugu,Jumia,Groceries,Indomie Noodles Carton,7230.77,1,15,6146.15,Card,17,Female,New,1,999,True
+ORD-100343,2024-02-23,Customer_39,customer343@example.com,08014285023,Lagos,Konga,Fashion,Ankara Midi Dress,22193.68,1,5,21084.0,POS,,Male,Premium,,1,False
+ORD-100344,2024-02-24,Customer_49,customer344@example.com,08030717575,Delta,Konga,Groceries,Dangote Semolina 10kg,5172.03,3,0,15516.09,POS,49,Male,Premium,5,8,False
+ORD-100345,2024-02-25,Customer_64,customer345@example.com,08099767761,Rivers,Konga,Sports,Yoga Mat Non-Slip,90500.98,1,15,76925.83,USSD,42,Male,New,1,3,False
+ORD-100346,2024-02-26,Customer_100,customer346@example.com,08058010924,Rivers,Jiji,Groceries,Titus Sardine 50pcs,761.49,1,15,647.27,Pay on Delivery,,Female,Regular,2,11,False
+ORD-100347,2024-02-27,Customer_86,customer347@example.com,08075002977,Kano,WhatsApp Commerce,Books,JAMB CBT Practice Book,10865.15,1,0,10865.15,POS,16,Male,Premium,2,1,False
+ORD-100348,2024-02-29,Customer_26,customer348@example.com,08023832464,Anambra,Konga,Beauty,Dark & Lovely Relaxer,21615.07,2,0,43230.14,POS,23,Female,Regular,3,7,False
+ORD-100349,2024-03-01,Customer_71,customer349@example.com,08031951204,Abuja,Jiji,Sports,Treadmill Manual,56519.56,3,10,152602.81,Bank Transfer,38,Female,Premium,5,10,False
+ORD-100350,2024-03-02,Customer_7,customer350@example.com,08064175331,Lagos,Jumia,Books,ACCA F3 Textbook,5424.63,2,0,10849.26,Bank Transfer,53,Male,Regular,3,3,False
+ORD-100351,2024-03-03,Customer_72,customer351@example.com,08024955352,Imo,Jumia,Electronics,LG Air Conditioner,106441.39,1,5,101119.32,Card,21,Female,VIP,2,8,True
+ORD-100352,2024-03-04,Customer_62,customer352@example.com,08031620198,Kano,Jiji,Electronics,LG Air Conditioner,174686.74,2,0,349373.48,USSD,37,Male,Regular,3,999,False
+ORD-100353,2024-03-06,Customer_90,customer353@example.com,08050132076,Rivers,Jumia,Beauty,Nivea Fair & Lovely,1873.92,2,0,3747.84,Bank Transfer,40,Male,Regular,5,4,True
+ORD-100354,07/03/2024,Customer_88,customer354@example.com,08030900030,Rivers,Flutterwave Store,Beauty,Nivea Fair & Lovely,21423.08,2,20,34276.93,USSD,33,Male,Regular,5,5,False
+ORD-100355,2024-03-08,Customer_24,customer355@example.com,08061768535,Delta,Jumia,Sports,Treadmill Manual,7144.42,5,20,28577.68,POS,32,Male,Regular,1,6,False
+ORD-100356,2024-03-09,Customer_40,customer356@example.com,08082210026,Lagos,Flutterwave Store,Fashion,Female Aso-Oke,16484.68,1,15,14011.98,Card,27,Male,VIP,4,7,False
+ORD-100357,2024-03-11,Customer_76,customer357@example.com,08060154710,Lagos,Jiji,Beauty,Nivea Fair & Lovely,23344.47,1,0,23344.47,USSD,21,Female,New,1,4,False
+ORD-100358,2024-03-12,Customer_47,customer358@example.com,08077175861,Abuja,Flutterwave Store,Electronics,Sony Home Theatre,261296.24,1,10,235166.62,Bank Transfer,41,Female,Regular,5,8,False
+ORD-100359,N/A,Customer_8,customer359@example.com,08063833873,Rivers,Jumia,Groceries,Dangote Semolina 10kg,2610.43,2,0,5220.86,POS,42,Male,New,2,13,False
+ORD-100360,2024-03-14,Customer_54,customer360@example.com,08069576431,Kaduna,Konga,Books,WAEC Past Questions,3928.61,2,5,7464.36,Pay on Delivery,23,Female,Premium,2,6,True
+ORD-100361,2024-03-15,Customer_9,customer361@example.com,08033416453,Delta,Flutterwave Store,Electronics,Sony Home Theatre,16702.52,1,20,0,POS,34,Female,New,1,1,False
+ORD-100362,2024-03-17,Customer_3,customer362@example.com,08045208823,Anambra,Jumia,Electronics,LG Air Conditioner,248064.29,1,10,223257.86,Bank Transfer,57,Female,Regular,5,1,False
+ORD-100363,"March 18, 2024",,customer363@example.com,08025703017,Kaduna,Konga,Fashion,Female Aso-Oke,4573.3,5,5,21723.18,Bank Transfer,16,Female,New,2,9,False
+ORD-100364,2024-03-19,CUSTOMER_21,customer364@example.com,08012885241,Oyo,Jiji,Sports,Adidas Running Sneakers,65314.49,1,5,62048.77,Pay on Delivery,44,Male,VIP,5,10,False
+ORD-100365,2024-03-20,Customer_95,customer365@example.com,08075712690,Delta,Jiji,Sports,Yoga Mat Non-Slip,115568.27,3,0,346704.81,POS,60,Male,VIP,2,6,False
+ORD-100366,N/A,Customer_48,customer366@example.com,08076322388,Imo,WhatsApp Commerce,Phones & Tablets,Xiaomi Redmi Note 13,118743.68,5,15,504660.64,USSD,64,Male,Regular,5,10,False
+ORD-100367,2024-03-23,  Customer_47  ,notanemail,08003173434,Anambra,Jiji,Fashion,Men Senator Native,40515.4,1,0,40515.4,USSD,50,Female,New,3,8,False
+ORD-100368,2024-03-24,Customer_88,customer368@example.com,08026212273,Lagos,WhatsApp Commerce,Groceries,Golden Penny Rice 25kg,7936.07,2,0,15872.14,POS,55,Female,Premium,5,13,False
+ORD-100369,2024-03-25,Customer_68,notanemail,08043876743,Anambra,Jiji,Sports,Adidas Running Sneakers,10197.49,2,10,18355.48,USSD,29,Male,VIP,5,7,False
+ORD-100370,2024-03-26,Customer_84,customer370@example.com,08057616543,Delta,Jiji,Books,JAMB CBT Practice Book,10735.39,1,15,9125.08,POS,,Male,Regular,-99,12,True
+ORD-100371,2024-03-28,Customer_63,,0896275722,Rivers,Jiji,Beauty,Neutrogena Body Lotion,13289.11,1,10,11960.2,POS,63,Female,VIP,3,6,False
+ORD-100372,2024-03-29,Customer_16,customer372@example.com,08001033447,Oyo,WhatsApp Commerce,Fashion,Men Senator Native,41026.83,5,15,174364.03,Bank Transfer,60,Male,Regular,4,4,False
+ORD-100373,2024-03-30,Customer_74,customer373@example.com,0980332502,Lagos,WhatsApp Commerce,Beauty,MAC Foundation,14625.92,3,20,35102.21,Card,35,Female,New,1,7,False
+ORD-100374,2024-03-31,Customer_90,customer374@example.com,08088394811,Kaduna,Flutterwave Store,Electronics,Scanfrost Refrigerator,236807.52,1,10,213126.77,Bank Transfer,64,Male,New,4,9,False
+ORD-100375,2024-04-02,  Customer_93  ,customer375@example.com,08074918167,Enugu,Jumia,Books,JAMB CBT Practice Book,7072.81,4,0,28291.24,USSD,28,Male,New,2,11,False
+ORD-100376,2024-04-03,Customer_5,customer376@example.com,08003600532,Oyo,Jumia,Books,Nigerian Law Reports,10536.52,3,15,26868.13,Card,53,Female,New,4,10,False
+ORD-100377,2024-04-04,Customer_11,customer377@example.com,0968217920,Abuja,Jumia,Electronics,LG Air Conditioner,260859.82,5,15,1108654.24,POS,64,Male,New,5,10,False
+ORD-100378,2024-04-05,,missing@,08009405996,Unknwon,Jiji,Fashion,Female Gele Headtie,24653.56,2,5,46841.76,USSD,61,Male,Regular,4,7,False
+ORD-100379,2024-04-06,Customer_79,customer379@example.com,08038087456,Imo,Jumia,Electronics,Hisense Chest Freezer,305833.87,2,5,581084.35,Pay on Delivery,64,Male,VIP,1,1,False
+ORD-100380,2024-04-08,Customer_70,customer380@example.com,08065514263,Kaduna,WhatsApp Commerce,Beauty,Dark & Lovely Relaxer,6735.91,5,0,33679.55,USSD,23,Male,Premium,1,10,False
+ORD-100381,2024-04-09,CUSTOMER_48,customer381@example.com,08056725918,Imo,Flutterwave Store,Phones & Tablets,Samsung Galaxy A55,155365.6,2,10,279658.08,Card,58,Male,VIP,4,9,False
+ORD-100382,2024-04-10,Customer_15,customer382@example.com,08091804047,Anambra,Konga,Books,ICAN Study Pack,2932.32,1,5,2785.7,Card,35,Male,New,1,13,False
+ORD-100383,2024-04-11,Customer_84,customer383@example.com,08017406540,Rivers,Flutterwave Store,Furniture,6ft Orthopedic Mattress,183654.22,1,0,183654.22,POS,48,Female,VIP,1,4,False
+ORD-100384,2024-04-12,Customer_34,customer384@example.com,0854333059,Anambra,Jumia,Furniture,Glass Centre Table,138377.76,4,20,442808.83,Pay on Delivery,41,Female,VIP,4,3,True
+ORD-100385,2024-04-14,Customer_60,customer385@example.com,08071281536,Rivers,Jumia,Beauty,MAC Foundation,23308.19,3,20,55939.66,POS,54,Female,Regular,3,4,False
+ORD-100386,2024-04-15,Customer_62,customer386@example.com,08088930179,Kano,WhatsApp Commerce,Groceries,Honeywell Flour 10kg,1293.76,3,5,3687.22,Pay on Delivery,,Female,Premium,3,4,False
+ORD-100387,2024-04-16,Customer_2,customer387@example.com,08030637882,Kano,Flutterwave Store,Sports,Adidas Running Sneakers,84781.92,1,10,76303.73,Pay on Delivery,64,Female,Premium,2,13,False
+ORD-100388,2024-04-17,Customer_80,customer388@example.com,08059755367,Imo,WhatsApp Commerce,Electronics,Hisense Chest Freezer,78389.22,4,15,266523.35,POS,57,Male,New,1,10,True
+ORD-100389,2024-04-19,Customer_19,customer389@example.com,08027005983,Abuja,WhatsApp Commerce,Electronics,Hisense Chest Freezer,310348.44,1,0,310348.44,USSD,58,Male,Regular,4,11,False
+ORD-100390,2024-04-20,Customer_98,customer390@example.com,08005822139,Imo,Konga,Groceries,Indomie Noodles Carton,7709.86,1,10,6938.87,Bank Transfer,56,Female,Regular,1,2,False
+ORD-100391,2024-04-21,Customer_49,customer391@example.com,08002958424,Kano,WhatsApp Commerce,Groceries,Titus Sardine 50pcs,3991.03,2,0,7982.06,Pay on Delivery,24,Male,Regular,5,12,True
+ORD-100392,2024-04-22,Customer_78,customer392@example.com,08064684147,Enugu,WhatsApp Commerce,Beauty,Nivea Fair & Lovely,22073.53,5,20,88294.12,Card,999,Male,Regular,1,1,True
+ORD-100393,2024-04-23,,customer393@example.com,08092887777,Enugu,Konga,Beauty,Maybelline Mascara,924.51,3,5,2634.85,POS,52,Male,Regular,1,12,True
+ORD-100394,2024-04-25,  Customer_28  ,customer394@example.com,08058720116,Abuja,Jiji,Groceries,Golden Penny Rice 25kg,6649.6,1,5,6317.12,USSD,64,Male,Premium,3,10,False
+ORD-100395,N/A,Customer_48,customer395@example.com,,Abuja,Jiji,Books,ICAN Study Pack,3669.15,2,15,6237.56,Pay on Delivery,56,Male,Premium,4,12,False
+ORD-100396,2024-04-27,Customer_96,customer396@example.com,08019635265,Abuja,Konga,Beauty,Dark & Lovely Relaxer,22790.57,1,0,22790.57,USSD,32,Female,VIP,1,1,False
+ORD-100397,2024-04-28,Customer_37,customer397@example.com,08094853613,Imo,WhatsApp Commerce,Phones & Tablets,Xiaomi Redmi Note 13,35856.89,4,15,121913.43,POS,39,Female,Premium,3,13,True
+ORD-100398,2024-04-30,Customer_74,customer398@example.com,08038157769,Kaduna,Jumia,Beauty,Maybelline Mascara,14259.6,3,0,42778.8,Card,36,Male,Regular,2,8,False
+ORD-100399,2024-05-01,Customer_49,notanemail,08095517768,Delta,Flutterwave Store,Electronics,LG Air Conditioner,268472.99,5,0,1342364.95,Pay on Delivery,54,Female,VIP,3,2,False
+ORD-100400,2024-05-02,Customer_48,customer400@example.com,08085162689,Lagos,Jumia,Beauty,MAC Foundation,7060.26,1,20,5648.21,Pay on Delivery,56,Female,Premium,-99,12,False
+ORD-100401,2024-05-03,Customer_73,customer401@example.com,08055884487,Abuja,Jumia,Books,JAMB CBT Practice Book,3285.83,1,5,3121.54,USSD,54,Female,VIP,3,10,False
+ORD-100402,2024-05-04,Customer_88,customer402@example.com,08052677062,Lagos,WhatsApp Commerce,Groceries,Titus Sardine 50pcs,1130.74,2,5,2148.41,POS,28,Female,Premium,1,5,True
+ORD-100403,2024-05-06,Customer_100,customer403@example.com,08078225905,Kaduna,Flutterwave Store,Electronics,Scanfrost Refrigerator,124355.25,5,0,621776.25,Bank Transfer,26,Male,New,,12,True
+ORD-100404,2024-05-07,Customer_29,customer404@example.com,08082026640,Delta,Flutterwave Store,Beauty,Neutrogena Body Lotion,14348.23,2,0,28696.46,Pay on Delivery,61,Female,Premium,2,4,False
+ORD-100405,2024-05-08,Customer_60,customer405@example.com,08079991923,Abuja,Jiji,Books,Nigerian Law Reports,2451.11,4,20,7843.55,Card,34,Male,VIP,5,8,False
+ORD-100406,2024-05-09,Customer_29,,08042915760,Abuja,Konga,Phones & Tablets,Infinix Hot 40 Pro,323171.95,2,15,549392.32,Pay on Delivery,26,Female,New,5,2,False
+ORD-100407,2024-05-11,Customer_58,customer407@example.com,08058868748,Abuja,WhatsApp Commerce,Beauty,MAC Foundation,1019.55,2,0,2039.1,Pay on Delivery,,Female,Regular,5,10,False
+ORD-100408,2024-05-12,Customer_48,customer408@example.com,08076890860,Enugu,Flutterwave Store,Books,JAMB CBT Practice Book,10041.74,1,15,8535.48,Bank Transfer,61,Male,VIP,2,9,False
+ORD-100409,2024-05-13,Customer_23,customer409@example.com,08078597553,Kaduna,WhatsApp Commerce,Phones & Tablets,Tecno Spark 20 Pro,133263.27,4,10,479747.77,Bank Transfer,60,Male,Regular,5,7,False
+ORD-100410,2024-05-14,Customer_27,customer410@example.com,08022445457,Lagos,Jiji,Groceries,Dangote Semolina 10kg,2625.07,1,5,2493.82,POS,16,Female,Regular,5,13,False
+ORD-100411,2024-05-15,CUSTOMER_95,customer411@example.com,08054082186,Rivers,Jumia,Beauty,Nivea Fair & Lovely,1245.95,5,15,5295.29,Pay on Delivery,55,Female,VIP,3,7,False
+ORD-100412,2024-05-17,Customer_7,customer412@example.com,08030380924,Rivers,Flutterwave Store,Phones & Tablets,Xiaomi Redmi Note 13,365664.2,3,0,1096992.6,Pay on Delivery,59,Male,Regular,1,1,False
+ORD-100413,N/A,Customer_49,customer413@example.com,0877623802,Kaduna,Jiji,Electronics,Hisense Chest Freezer,296440.7,4,15,1007898.38,USSD,34,Female,VIP,1,12,False
+ORD-100414,2024-05-19,Customer_54,customer414@example.com,08001372955,Abuja,WhatsApp Commerce,Groceries,Dangote Semolina 10kg,3441.13,2,10,6194.03,USSD,27,Male,VIP,3,2,False
+ORD-100415,2024-05-20,Customer_68,customer415@example.com,08038519517,Rivers,Jiji,Electronics,LG Air Conditioner,75131.6,3,20,180315.84,Card,23,Male,Premium,3,4,True
+ORD-100416,2024-05-21,Customer_78,customer416@example.com,08077530678,Lagos,Jiji,Furniture,6ft Orthopedic Mattress,383006.95,1,5,363856.6,Card,23,Male,New,3,4,False
+ORD-100417,2024-05-23,Customer_42,customer417@example.com,08034904526,Rivers,Jiji,Fashion,Ankara Midi Dress,36024.3,2,0,72048.6,USSD,60,Female,Regular,1,11,False
+ORD-100418,2024-05-24,Customer_74,customer418@example.com,0898361644,Lagos,Jiji,Beauty,Dark & Lovely Relaxer,5004.83,2,10,9008.69,Card,27,Male,Regular,5,3,False
+ORD-100419,2024-05-25,Customer_59,customer419@example.com,08019379180,Abuja,Jiji,Phones & Tablets,Xiaomi Redmi Note 13,624703.39,1,5,593468.22,Pay on Delivery,,Male,New,,7,False
+ORD-100420,2024-05-26,Customer_44,customer420@example.com,08056284438,Abuja,Jiji,Fashion,Ankara Midi Dress,42760.16,1,15,36346.14,Bank Transfer,48,Female,New,,12,False
+ORD-100421,2024-05-28,Customer_98,customer421@example.com,08031823697,Imo,Konga,Fashion,Men Agbada Set,9571.05,2,20,15313.68,Pay on Delivery,60,Male,New,3,8,True
+ORD-100422,2024-05-29,Customer_26,customer422@example.com,08069055517,Kano,WhatsApp Commerce,Phones & Tablets,iPhone 15 128GB,624802.98,4,0,0,USSD,41,Female,New,4,999,False
+ORD-100423,2024-05-30,Customer_23,customer423@example.com,08013885830,Enugu,Jumia,Groceries,Dangote Semolina 10kg,5814.29,1,20,4651.43,POS,54,Female,New,3,4,True
+ORD-100424,2024-05-31,Customer_73,customer424@example.com,08078951582,Delta,WhatsApp Commerce,Beauty,Neutrogena Body Lotion,12260.49,5,0,61302.45,POS,,Male,Premium,1,3,False
+ORD-100425,2024-06-01,Customer_8,customer425@example.com,08041698643,Delta,Flutterwave Store,Furniture,Glass Centre Table,52512.22,2,0,105024.44,USSD,20,Female,VIP,3,2,False
+ORD-100426,2024-06-03,CUSTOMER_53,customer426@example.com,08079999904,Anambra,Flutterwave Store,Electronics,Scanfrost Refrigerator,40022.63,3,20,96054.31,Pay on Delivery,23,Female,New,4,12,False
+ORD-100427,2024-06-04,Customer_14,customer427@example.com,08069758566,Enugu,WhatsApp Commerce,Books,ACCA F3 Textbook,10406.08,1,5,,Card,40,Female,Premium,2,13,False
+ORD-100428,2024-06-05,Customer_71,customer428@example.com,08003676236,Abuja,Jiji,Electronics,LG Air Conditioner,346699.7,2,0,693399.4,Card,42,Male,New,5,6,False
+ORD-100429,2024-06-06,Customer_7,missing@,08058867500,Delta,Konga,Books,ACCA F3 Textbook,8501.36,1,0,8501.36,POS,61,Male,New,3,13,True
+ORD-100430,2024-06-08,Customer_9,customer430@example.com,08070175911,Lagos,Jumia,Electronics,LG Air Conditioner,164396.03,2,5,312352.46,USSD,38,Male,Regular,4,4,False
+ORD-100431,2024-06-09,CUSTOMER_3,customer431@example.com,08047683931,Anambra,Jiji,Phones & Tablets,Xiaomi Redmi Note 13,530393.84,3,0,1591181.52,USSD,45,Female,Regular,4,6,False
+ORD-100432,2024-06-10,Customer_78,customer432@example.com,08006426120,Rivers,WhatsApp Commerce,Furniture,L-Shape Office Sofa,307338.03,2,20,,Bank Transfer,60,Male,Regular,2,2,False
+ORD-100433,N/A,Customer_17,customer433@example.com,08068511897,Rivers,WhatsApp Commerce,Beauty,Dark & Lovely Relaxer,10083.42,2,0,20166.84,POS,62,Male,Regular,1,12,True
+ORD-100434,2024-06-12,Customer_44,customer434@example.com,08031909399,Anambra,Konga,Books,ICAN Study Pack,1908.76,3,0,5726.28,USSD,38,Female,VIP,3,4,False
+ORD-100435,2024-06-14,,customer435@example.com,08070036841,Kano,Konga,Beauty,Dark & Lovely Relaxer,20680.61,4,5,78586.32,Bank Transfer,64,Male,VIP,4,11,False
+ORD-100436,"June 15, 2024",Customer_46,customer436@example.com,08088273204,Oyo,WhatsApp Commerce,Beauty,Dark & Lovely Relaxer,9798.37,1,15,8328.61,Card,62,Female,Regular,,6,False
+ORD-100437,2024-06-16,Customer_90,customer437@example.com,08097772568,Lagos,Jiji,Beauty,MAC Foundation,20614.61,2,10,37106.3,POS,35,Male,Regular,5,5,False
+ORD-100438,2024-06-17,Customer_58,customer438@example.com,08059993009,Delta,Jiji,Sports,Yoga Mat Non-Slip,32543.52,4,0,130174.08,POS,33,Female,New,4,3,False
+ORD-100439,2024-06-19,Customer_28,customer439@example.com,0885616305,Kano,Jiji,Groceries,Golden Penny Rice 25kg,507.72,2,0,1015.44,USSD,33,Female,New,2,8,False
+ORD-100440,2024-06-20,  Customer_14  ,customer440@example.com,08060048591,Lagos,Jumia,Electronics,LG Air Conditioner,68244.32,3,15,174023.02,USSD,17,Female,Regular,1,7,True
+ORD-100441,2024-06-21,Customer_9,customer441@example.com,08044253912,Imo,Jumia,Beauty,Dark & Lovely Relaxer,12138.65,1,5,11531.72,Pay on Delivery,19,Female,Regular,1,3,False
+ORD-100442,2024-06-22,Customer_26,customer442@example.com,08059983495,Delta,Jiji,Electronics,Hisense Chest Freezer,331341.72,2,5,629549.27,Card,45,Male,Regular,4,6,False
+ORD-100443,2024-06-23,Customer_2,missing@,08070490956,Imo,WhatsApp Commerce,Beauty,Neutrogena Body Lotion,3273.09,4,20,10473.89,Card,48,Female,New,4,4,False
+ORD-100444,2024-06-25,Customer_75,customer444@example.com,08059459661,Abuja,Konga,Books,Nigerian Law Reports,10425.47,4,0,41701.88,Bank Transfer,51,Female,Regular,3,11,False
+ORD-100445,N/A,Customer_81,customer445@example.com,08021349822,Enugu,Flutterwave Store,Groceries,Honeywell Flour 10kg,4452.68,1,20,3562.14,Bank Transfer,33,Female,Regular,2,5,False
+ORD-100446,2024-06-27,,customer446@example.com,08056247391,Abuja,Konga,Groceries,Golden Penny Rice 25kg,6694.41,5,15,28451.24,Pay on Delivery,52,Female,VIP,4,11,False
+ORD-100447,2024-06-28,Customer_19,customer447@example.com,08023398958,Rivers,Konga,Phones & Tablets,Infinix Hot 40 Pro,263256.44,2,20,421210.3,Card,34,Female,VIP,3,5,False
+ORD-100448,2024-06-29,Customer_39,notanemail,08085424244,Kano,Flutterwave Store,Sports,Adidas Running Sneakers,101273.82,1,15,86082.75,Bank Transfer,62,Female,New,3,7,True
+ORD-100449,2024-07-01,Customer_82,customer449@example.com,08065437170,Anambra,Jiji,Phones & Tablets,Tecno Spark 20 Pro,626209.43,4,5,2379595.83,Card,43,Male,VIP,4,11,True
+ORD-100450,2024-07-02,Customer_13,customer450@example.com,08024536611,Abuja,Konga,Phones & Tablets,iPhone 15 128GB,210991.07,1,0,210991.07,Card,55,Female,New,1,,True
+ORD-100451,2024-07-03,Customer_5,customer451@example.com,0952281761,Kano,Flutterwave Store,Phones & Tablets,Infinix Hot 40 Pro,135471.37,2,20,216754.19,Bank Transfer,35,Male,Premium,2,11,False
+ORD-100452,2024-07-04,Customer_50,customer452@example.com,08017087098,Kaduna,WhatsApp Commerce,Phones & Tablets,Infinix Hot 40 Pro,699061.56,1,0,699061.56,USSD,64,Female,Regular,2,3,True
+ORD-100453,2024-07-06,Customer_23,customer453@example.com,08017191061,Rivers,WhatsApp Commerce,Phones & Tablets,Xiaomi Redmi Note 13,771876.04,5,0,3859380.2,USSD,48,Female,New,1,10,False
+ORD-100454,2024-07-07,Customer_88,customer454@example.com,08042225321,Delta,WhatsApp Commerce,Furniture,Wardrobe 4-Door,39868.6,4,10,143526.96,Bank Transfer,27,Male,VIP,4,5,True
+ORD-100455,2024-07-08,Customer_29,customer455@example.com,08053722273,Kano,Jiji,Groceries,Dangote Semolina 10kg,5984.53,2,0,11969.06,Pay on Delivery,30,Female,Premium,,7,False
+ORD-100456,2024-07-09,Customer_72,customer456@example.com,08091257080,Lagos,Konga,Phones & Tablets,iPhone 15 128GB,730786.25,4,5,2776987.75,POS,56,Female,VIP,4,5,True
+ORD-100457,N/A,Customer_26,customer457@example.com,,Delta,Konga,Beauty,Nivea Fair & Lovely,21548.11,2,10,38786.6,Card,54,Male,New,4,5,True
+ORD-100458,2024-07-12,Customer_79,customer458@example.com,08035348674,Rivers,Jumia,Groceries,Indomie Noodles Carton,7733.9,1,0,7733.9,POS,17,Male,Premium,3,9,False
+ORD-100459,2024-07-13,Customer_57,customer459@example.com,08078121961,Abuja,WhatsApp Commerce,Groceries,Dangote Semolina 10kg,6200.71,2,0,12401.42,Bank Transfer,44,Male,VIP,-99,3,False
+ORD-100460,2024-07-14,Customer_1,customer460@example.com,08030126905,Kaduna,Jiji,Fashion,Female Gele Headtie,21297.7,3,0,63893.1,Card,56,Male,Premium,,13,False
+ORD-100461,2024-07-15,Customer_28,customer461@example.com,08033627761,Imo,Flutterwave Store,Furniture,L-Shape Office Sofa,173177.2,3,10,467578.44,POS,25,Female,Regular,5,6,True
+ORD-100462,2024-07-17,Customer_62,customer462@example.com,08093948610,Oyo,Jiji,Phones & Tablets,iPhone 15 128GB,280368.2,3,0,841104.6,USSD,17,Male,Regular,1,1,False
+ORD-100463,2024-07-18,Customer_47,customer463@example.com,08012983820,Delta,Konga,Electronics,LG Air Conditioner,257681.6,5,0,1288408.0,Pay on Delivery,26,Male,Premium,2,10,False
+ORD-100464,2024-07-19,Customer_78,customer464@example.com,08091311243,Delta,WhatsApp Commerce,Books,WAEC Past Questions,9255.04,5,15,39333.92,POS,28,Male,VIP,3,5,False
+ORD-100465,2024-07-20,Customer_98,customer465@example.com,0734068436,Anambra,Jumia,Sports,Nigeria Football Jersey,26442.02,1,15,22475.72,Pay on Delivery,25,Female,VIP,2,8,False
+ORD-100466,2024-07-21,Customer_59,customer466@example.com,08073979339,Abuja,Jiji,Beauty,Dark & Lovely Relaxer,21808.57,5,15,92686.42,USSD,29,Male,VIP,2,5,False
+ORD-100467,"July 23, 2024",Customer_31,customer467@example.com,08084977398,Delta,Jumia,Electronics,LG Air Conditioner,254499.55,1,10,229049.6,POS,33,Female,Regular,1,9,False
+ORD-100468,2024-07-24,Customer_70,customer468@example.com,0816515766,Anambra,Konga,Furniture,6ft Orthopedic Mattress,292306.39,4,15,993841.73,Bank Transfer,,Female,New,2,11,False
+ORD-100469,2024-07-25,Customer_49,notanemail,,Rivers,Flutterwave Store,Books,Nigerian Law Reports,6292.55,4,0,25170.2,Card,54,Female,New,4,6,False
+ORD-100470,2024-07-26,Customer_5,customer470@example.com,08096221839,Delta,Jiji,Furniture,Wardrobe 4-Door,283035.58,1,0,283035.58,USSD,43,Female,Premium,,8,True
+ORD-100471,2024-07-28,CUSTOMER_31,customer471@example.com,08086946396,Kaduna,Konga,Beauty,Nivea Fair & Lovely,4653.75,5,10,20941.88,Pay on Delivery,18,Male,VIP,3,10,False
+ORD-100472,29/07/2024,Customer_37,customer472@example.com,08033024413,Unknwon,WhatsApp Commerce,Groceries,Golden Penny Rice 25kg,2027.76,2,0,0,Pay on Delivery,35,Male,Premium,3,8,False
+ORD-100473,2024-07-30,Customer_79,customer473@example.com,08005620629,Oyo,Jiji,Books,ICAN Study Pack,2184.58,1,10,1966.12,USSD,21,Female,New,5,13,False
+ORD-100474,2024-07-31,Customer_15,missing@,08035937816,XXX,Jumia,Groceries,Indomie Noodles Carton,1652.44,2,0,3304.88,Bank Transfer,42,Male,New,3,3,False
+ORD-100475,2024-08-01,Customer_52,customer475@example.com,08040570104,Imo,Jiji,Beauty,Maybelline Mascara,11779.39,2,0,23558.78,Bank Transfer,17,Male,VIP,2,7,False
+ORD-100476,2024-08-03,Customer_69,customer476@example.com,08093067417,Abuja,Konga,Electronics,Scanfrost Refrigerator,192668.72,2,0,385337.44,Pay on Delivery,44,Male,Premium,3,999,False
+ORD-100477,2024-08-04,Customer_92,customer477@example.com,08005541184,Abuja,Konga,Beauty,Neutrogena Body Lotion,1232.26,4,15,4189.68,USSD,53,Male,VIP,1,10,False
+ORD-100478,2024-08-05,Customer_97,,08051043219,Abuja,Jumia,Electronics,Samsung Smart TV,281927.27,3,0,845781.81,USSD,18,Female,New,3,12,False
+ORD-100479,2024-08-06,Customer_11,customer479@example.com,08013286278,Kaduna,Konga,Books,Nigerian Law Reports,4377.01,5,0,21885.05,Card,31,Male,New,4,6,False
+ORD-100480,2024-08-07,  Customer_43  ,customer480@example.com,08034721267,Rivers,Jiji,Books,Nigerian Law Reports,11047.83,2,10,19886.09,Pay on Delivery,45,Male,VIP,1,12,False
+ORD-100481,2024-08-09,Customer_70,customer481@example.com,08082273742,Delta,Jumia,Phones & Tablets,iPhone 15 128GB,775146.12,2,10,1395263.02,Bank Transfer,55,Female,Premium,5,7,False
+ORD-100482,2024-08-10,Customer_23,customer482@example.com,08075685222,XXX,Konga,Furniture,Glass Centre Table,113092.97,4,10,407134.69,POS,17,Male,Regular,4,2,True
+ORD-100483,2024-08-11,Customer_40,customer483@example.com,08009032487,Anambra,Konga,Phones & Tablets,Infinix Hot 40 Pro,388504.43,3,5,1107237.63,Bank Transfer,32,Male,VIP,2,999,False
+ORD-100484,2024-08-12,Customer_63,customer484@example.com,08073424244,Abuja,Jiji,Furniture,Glass Centre Table,25585.12,2,0,51170.24,Bank Transfer,56,Male,New,2,10,False
+ORD-100485,2024-08-14,Customer_2,customer485@example.com,08009505172,Imo,Konga,Phones & Tablets,Samsung Galaxy A55,492720.36,2,10,886896.65,POS,,Female,Regular,,10,True
+ORD-100486,2024-08-15,Customer_79,customer486@example.com,08053419979,Anambra,Jiji,Groceries,Titus Sardine 50pcs,5054.8,1,0,5054.8,Pay on Delivery,50,Male,VIP,4,1,False
+ORD-100487,2024-08-16,Customer_87,customer487@example.com,08056046018,Oyo,WhatsApp Commerce,Books,ACCA F3 Textbook,3873.43,1,10,3486.09,Card,58,Male,Regular,4,1,False
+ORD-100488,2024-08-17,Customer_86,customer488@example.com,08068431241,Delta,Jiji,Electronics,LG Air Conditioner,202068.25,4,5,767859.35,Bank Transfer,16,Female,VIP,,3,False
+ORD-100489,2024-08-18,Customer_73,,08036297550,Delta,Flutterwave Store,Furniture,Wardrobe 4-Door,132131.57,3,15,336935.5,Bank Transfer,60,Male,New,1,3,False
+ORD-100490,2024-08-20,Customer_47,customer490@example.com,08090766999,Kano,Konga,Beauty,MAC Foundation,4691.98,2,0,9383.96,Pay on Delivery,30,Female,VIP,1,1,False
+ORD-100491,2024-08-21,Customer_30,customer491@example.com,08082834659,Imo,WhatsApp Commerce,Furniture,Glass Centre Table,334471.75,4,5,1270992.65,Pay on Delivery,41,Female,Regular,2,12,True
+ORD-100492,2024-08-22,Customer_16,,08072956899,Kaduna,Jumia,Electronics,Sony Home Theatre,124185.03,4,15,422229.1,USSD,52,Female,Premium,3,7,False
+ORD-100493,2024-08-23,Customer_59,customer493@example.com,08070534417,Kaduna,Flutterwave Store,Phones & Tablets,Infinix Hot 40 Pro,486551.91,1,20,389241.53,Pay on Delivery,36,Male,New,2,,False
+ORD-100494,2024-08-25,Customer_47,customer494@example.com,08040514578,Enugu,Jumia,Furniture,Glass Centre Table,230792.21,5,20,923168.84,Pay on Delivery,64,Male,New,5,10,False
+ORD-100495,2024-08-26,Customer_30,customer495@example.com,08031164600,Unknwon,Flutterwave Store,Sports,Adidas Running Sneakers,118169.11,1,0,118169.11,Bank Transfer,46,Male,Regular,1,13,False
+ORD-100496,"August 27, 2024",Customer_9,customer496@example.com,08072019965,Abuja,WhatsApp Commerce,Groceries,Golden Penny Rice 25kg,1621.85,3,0,4865.55,Card,40,Male,VIP,4,2,True
+ORD-100497,2024-08-28,Customer_65,customer497@example.com,08097256900,Kano,WhatsApp Commerce,Books,ICAN Study Pack,6217.66,2,0,12435.32,Bank Transfer,38,Male,VIP,1,10,False
+ORD-100498,2024-08-29,Customer_59,customer498@example.com,0919962901,Anambra,WhatsApp Commerce,Electronics,LG Air Conditioner,242952.97,4,0,971811.88,Pay on Delivery,39,Female,VIP,4,5,False
+ORD-100499,2024-08-31,Customer_64,missing@,08054455084,Delta,Flutterwave Store,Books,ICAN Study Pack,5471.89,2,5,10396.59,USSD,53,Female,New,5,6,False
+ORD-100500,2024-09-01,Customer_8,customer500@example.com,08066408874,Enugu,Jiji,Sports,Yoga Mat Non-Slip,117039.88,1,15,,Card,43,Female,New,5,,False
+ORD-100501,2024-09-02,Customer_52,customer501@example.com,08002636456,Enugu,Jumia,Furniture,Wardrobe 4-Door,367896.62,3,0,1103689.86,USSD,36,Female,Regular,1,4,True
+ORD-100502,2024-09-03,Customer_18,customer502@example.com,08066622611,Oyo,Jiji,Furniture,Computer Work Desk,337067.33,4,15,1146028.92,POS,58,Male,VIP,4,2,False
+ORD-100503,2024-09-05,Customer_91,customer503@example.com,08057996311,Lagos,Jiji,Beauty,Nivea Fair & Lovely,19120.83,2,15,32505.41,USSD,33,Female,VIP,5,5,False
+ORD-100504,"September 06, 2024",Customer_82,customer504@example.com,08025441741,,Konga,Sports,Nigeria Football Jersey,114459.89,1,5,108736.9,USSD,51,Female,Regular,2,3,True
+ORD-100505,2024-09-07,Customer_96,customer505@example.com,0851014136,Kaduna,Jumia,Electronics,Hisense Chest Freezer,319119.25,5,5,1515816.44,Pay on Delivery,50,Male,New,2,2,False
+ORD-100506,2024-09-08,Customer_58,customer506@example.com,08071238907,Anambra,Flutterwave Store,Beauty,MAC Foundation,18327.7,1,5,17411.31,Pay on Delivery,60,Female,New,4,12,True
+ORD-100507,2024-09-09,Customer_49,customer507@example.com,,Abuja,Konga,Groceries,Dangote Semolina 10kg,6118.71,3,0,18356.13,Pay on Delivery,24,Male,Premium,1,999,False
+ORD-100508,2024-09-11,Customer_32,customer508@example.com,08040710148,Abuja,Konga,Beauty,MAC Foundation,4331.31,1,20,3465.05,Pay on Delivery,53,Male,Premium,5,10,False
+ORD-100509,2024-09-12,Customer_48,customer509@example.com,08012620520,Imo,WhatsApp Commerce,Fashion,Ankara Midi Dress,6868.68,1,5,6525.25,Pay on Delivery,45,Male,VIP,1,2,False
+ORD-100510,2024-09-13,Customer_45,customer510@example.com,0845662518,Lagos,Flutterwave Store,Electronics,Sony Home Theatre,206253.01,3,0,618759.03,USSD,59,Female,New,,6,True
+ORD-100511,2024-09-14,Customer_54,customer511@example.com,08032028454,Oyo,Jiji,Fashion,Ankara Midi Dress,3280.62,1,5,3116.59,POS,49,Female,VIP,5,8,False
+ORD-100512,2024-09-15,Customer_100,customer512@example.com,08003276679,Abuja,Jiji,Sports,Kettlebell 20kg,59435.7,2,10,106984.26,Pay on Delivery,47,Female,New,1,13,False
+ORD-100513,2024-09-17,,customer513@example.com,08013522500,Kano,Jiji,Phones & Tablets,Xiaomi Redmi Note 13,195917.43,1,15,166529.82,POS,18,Female,Premium,3,3,False
+ORD-100514,2024-09-18,Customer_85,customer514@example.com,08097159949,Abuja,WhatsApp Commerce,Fashion,Female Aso-Oke,17205.7,1,5,16345.42,POS,18,Female,Regular,4,11,False
+ORD-100515,2024-09-19,Customer_46,customer515@example.com,08023111091,Rivers,Jiji,Groceries,Honeywell Flour 10kg,6318.54,1,0,6318.54,Bank Transfer,43,Female,New,4,9,True
+ORD-100516,2024-09-20,,customer516@example.com,08094073831,Unknwon,Jumia,Beauty,Maybelline Mascara,23577.95,2,15,40082.52,Bank Transfer,59,Male,Premium,,12,False
+ORD-100517,2024-09-22,,customer517@example.com,08095636926,Anambra,Jiji,Phones & Tablets,Samsung Galaxy A55,90398.45,2,15,153677.36,Card,30,Male,Premium,2,9,False
+ORD-100518,2024-09-23,Customer_37,customer518@example.com,08086771853,Imo,Jiji,Beauty,Dark & Lovely Relaxer,13728.66,2,5,26084.45,Bank Transfer,56,Female,New,5,2,False
+ORD-100519,2024-09-24,Customer_16,customer519@example.com,,Abuja,Jumia,Fashion,Ankara Midi Dress,40007.67,4,20,128024.54,Pay on Delivery,38,Female,VIP,,8,False
+ORD-100520,2024-09-25,Customer_46,customer520@example.com,08078007682,Kaduna,WhatsApp Commerce,Beauty,Nivea Fair & Lovely,2796.71,5,0,,POS,55,Male,New,3,10,False
+ORD-100521,2024-09-26,Customer_46,customer521@example.com,08024903516,Kano,Konga,Sports,Kettlebell 20kg,99468.14,1,20,79574.51,Card,26,Male,Premium,3,11,False
+ORD-100522,2024-09-28,Customer_78,customer522@example.com,08033438610,Imo,Flutterwave Store,Phones & Tablets,Xiaomi Redmi Note 13,308718.03,2,5,586564.26,Bank Transfer,63,Male,New,2,12,False
+ORD-100523,2024-09-29,,customer523@example.com,08051354524,Enugu,WhatsApp Commerce,Sports,Kettlebell 20kg,40685.08,1,15,34582.32,USSD,47,Female,Regular,2,5,False
+ORD-100524,2024-09-30,Customer_89,customer524@example.com,08020772687,Rivers,Jiji,Fashion,Men Senator Native,44042.32,5,0,220211.6,Card,51,Female,VIP,1,4,False
+ORD-100525,2024-10-01,Customer_61,customer525@example.com,,Rivers,Konga,Sports,Kettlebell 20kg,26500.51,4,15,90101.73,Pay on Delivery,48,Female,New,4,10,True
+ORD-100526,03/10/2024,Customer_46,customer526@example.com,08003688904,Anambra,Flutterwave Store,Groceries,Titus Sardine 50pcs,5698.95,2,20,9118.32,POS,39,Male,Premium,1,5,False
+ORD-100527,2024-10-04,Customer_51,customer527@example.com,08095932893,Kano,Flutterwave Store,Fashion,Men Agbada Set,37411.23,4,0,149644.92,Pay on Delivery,54,Female,Premium,3,4,False
+ORD-100528,2024-10-05,Customer_62,customer528@example.com,08065034732,Kaduna,Flutterwave Store,Fashion,Men Senator Native,4250.3,2,0,8500.6,Pay on Delivery,49,Female,VIP,5,8,False
+ORD-100529,2024-10-06,Customer_35,customer529@example.com,08093946814,Lagos,Jumia,Fashion,Ankara Midi Dress,30991.38,5,10,139461.21,USSD,43,Female,New,,4,False
+ORD-100530,2024-10-07,Customer_81,customer530@example.com,08020154003,,Jumia,Electronics,Scanfrost Refrigerator,333769.24,4,15,1134815.42,USSD,52,Female,Premium,2,13,False
+ORD-100531,2024-10-09,Customer_42,customer531@example.com,08059509866,Imo,Konga,Beauty,Neutrogena Body Lotion,3806.12,2,5,7231.63,POS,22,Female,VIP,-99,10,False
+ORD-100532,2024-10-10,Customer_45,notanemail,08015623266,Abuja,Jiji,Electronics,Samsung Smart TV,315234.14,3,0,945702.42,Bank Transfer,19,Female,Regular,5,12,False
+ORD-100533,2024-10-11,Customer_68,customer533@example.com,08040936110,Delta,Konga,Electronics,Samsung Smart TV,214250.17,2,10,385650.31,Pay on Delivery,52,Male,VIP,5,13,False
+ORD-100534,2024-10-12,Customer_75,customer534@example.com,0886435714,Anambra,Jiji,Groceries,Indomie Noodles Carton,5124.53,1,5,4868.3,Bank Transfer,16,Female,New,3,6,False
+ORD-100535,2024-10-14,Customer_47,customer535@example.com,08025931637,Delta,WhatsApp Commerce,Phones & Tablets,Samsung Galaxy A55,503902.29,2,0,1007804.58,POS,16,Male,New,5,2,True
+ORD-100536,2024-10-15,Customer_79,notanemail,08098369903,Kano,Flutterwave Store,Beauty,Neutrogena Body Lotion,8031.83,5,5,38151.19,Pay on Delivery,62,Male,Premium,5,5,False
+ORD-100537,2024-10-16,Customer_30,customer537@example.com,08042359067,Lagos,Flutterwave Store,Sports,Yoga Mat Non-Slip,112418.61,1,0,112418.61,Bank Transfer,,Male,Regular,5,6,True
+ORD-100538,2024-10-17,Customer_24,customer538@example.com,08083684143,Rivers,Jumia,Furniture,Wardrobe 4-Door,474991.47,1,0,474991.47,Pay on Delivery,34,Female,New,1,5,True
+ORD-100539,2024-10-18,Customer_66,customer539@example.com,08088295539,Rivers,WhatsApp Commerce,Fashion,Men Senator Native,29075.45,4,0,116301.8,USSD,44,Female,Premium,3,12,False
+ORD-100540,2024-10-20,Customer_43,,0898249246,Enugu,WhatsApp Commerce,Sports,Kettlebell 20kg,94660.46,1,0,94660.46,USSD,25,Female,VIP,2,2,False
+ORD-100541,2024-10-21,Customer_34,customer541@example.com,0885826416,Imo,Jiji,Fashion,Female Gele Headtie,28520.96,3,10,77006.59,Card,33,Female,VIP,1,7,True
+ORD-100542,2024-10-22,Customer_23,customer542@example.com,08042133774,Imo,WhatsApp Commerce,Groceries,Indomie Noodles Carton,4132.99,2,5,7852.68,POS,43,Male,New,,,False
+ORD-100543,2024-10-23,Customer_61,customer543@example.com,08004331905,Kaduna,Jumia,Fashion,Ankara Midi Dress,30584.86,4,0,122339.44,Bank Transfer,50,Female,Regular,3,8,False
+ORD-100544,2024-10-24,Customer_95,customer544@example.com,0848230351,Imo,Jiji,Electronics,LG Air Conditioner,200255.49,1,0,200255.49,Pay on Delivery,58,Male,Premium,3,7,False
+ORD-100545,2024-10-26,Customer_37,missing@,0878718251,Kaduna,Konga,Beauty,MAC Foundation,15258.92,4,0,61035.68,Card,62,Female,New,4,7,False
+ORD-100546,2024-10-27,Customer_13,customer546@example.com,08016708379,Kaduna,Jiji,Furniture,Glass Centre Table,397320.46,4,20,1271425.47,POS,46,Female,Premium,4,9,False
+ORD-100547,2024-10-28,Customer_97,customer547@example.com,08061031796,Abuja,Konga,Books,ICAN Study Pack,6393.76,4,15,21738.78,POS,42,Male,VIP,4,1,True
+ORD-100548,N/A,Customer_71,customer548@example.com,08008590075,Anambra,Jiji,Fashion,Ankara Midi Dress,4232.05,2,20,6771.28,POS,26,Male,Premium,2,10,False
+ORD-100549,"October 31, 2024",Customer_96,customer549@example.com,08079669381,Delta,Flutterwave Store,Sports,Nigeria Football Jersey,22187.94,5,20,88751.76,Bank Transfer,64,Male,VIP,,6,False
+ORD-100550,2024-11-01,Customer_7,customer550@example.com,08021341094,Abuja,Konga,Electronics,Scanfrost Refrigerator,161933.42,2,0,323866.84,USSD,64,Female,Regular,3,6,False
+ORD-100551,2024-11-02,Customer_42,customer551@example.com,08098952330,Lagos,Jumia,Books,ICAN Study Pack,9028.13,4,0,36112.52,Card,53,Male,Regular,5,,False
+ORD-100552,2024-11-03,Customer_38,customer552@example.com,08008080115,Lagos,Konga,Furniture,6ft Orthopedic Mattress,306807.36,1,5,291466.99,Bank Transfer,999,Male,VIP,5,13,False
+ORD-100553,2024-11-04,Customer_52,customer553@example.com,0717569263,Lagos,Konga,Books,Nigerian Law Reports,8223.18,5,20,32892.72,Pay on Delivery,23,Male,New,4,12,False
+ORD-100554,06/11/2024,CUSTOMER_44,customer554@example.com,08085988698,Rivers,Jiji,Electronics,Sony Home Theatre,175558.44,3,20,-999,Bank Transfer,49,Female,VIP,2,6,False
+ORD-100555,2024-11-07,  Customer_64  ,customer555@example.com,08079386623,Rivers,Flutterwave Store,Beauty,Dark & Lovely Relaxer,15700.96,2,10,28261.73,Pay on Delivery,63,Male,Premium,1,12,True
+ORD-100556,2024-11-08,Customer_13,,08020659613,Anambra,Jiji,Beauty,Maybelline Mascara,8762.22,1,0,8762.22,Pay on Delivery,27,Male,Premium,2,10,False
+ORD-100557,2024-11-09,Customer_88,customer557@example.com,08060113201,Lagos,Jiji,Phones & Tablets,Xiaomi Redmi Note 13,394689.68,2,0,789379.36,POS,53,Female,Premium,5,7,False
+ORD-100558,2024-11-11,Customer_28,customer558@example.com,08086114439,,Flutterwave Store,Beauty,Maybelline Mascara,18811.55,1,5,17870.97,Bank Transfer,16,Male,New,2,10,False
+ORD-100559,2024-11-12,Customer_96,customer559@example.com,08039314449,Kano,Jiji,Phones & Tablets,Samsung Galaxy A55,701952.08,2,15,1193318.54,USSD,46,Male,Regular,4,6,False
+ORD-100560,2024-11-13,Customer_82,customer560@example.com,08016344414,Enugu,Flutterwave Store,Books,ICAN Study Pack,5883.48,1,0,5883.48,Pay on Delivery,,Male,Regular,1,1,False
+ORD-100561,2024-11-14,Customer_98,customer561@example.com,08013872005,Abuja,Jumia,Groceries,Golden Penny Rice 25kg,827.46,4,10,2978.86,POS,64,Female,Premium,4,3,False
+ORD-100562,2024-11-15,Customer_98,customer562@example.com,08007045166,Delta,Flutterwave Store,Sports,Nigeria Football Jersey,21915.69,2,0,43831.38,USSD,60,Male,New,1,2,False
+ORD-100563,2024-11-17,Customer_1,customer563@example.com,08034006801,Rivers,WhatsApp Commerce,Sports,Adidas Running Sneakers,5440.75,1,10,4896.68,Bank Transfer,20,Male,Premium,5,6,True
+ORD-100564,2024-11-18,Customer_43,customer564@example.com,08018365276,Imo,Flutterwave Store,Books,Nigerian Law Reports,8255.24,1,0,8255.24,USSD,45,Male,Regular,1,8,False
+ORD-100565,2024-11-19,Customer_42,customer565@example.com,08001049127,Delta,Flutterwave Store,Fashion,Men Agbada Set,16623.37,1,10,14961.03,Bank Transfer,39,Male,VIP,,3,False
+ORD-100566,2024-11-20,Customer_95,customer566@example.com,0849732204,Oyo,WhatsApp Commerce,Fashion,Ankara Midi Dress,25555.34,1,0,25555.34,Pay on Delivery,18,Male,Premium,1,10,True
+ORD-100567,2024-11-22,Customer_50,notanemail,08070380032,Anambra,Flutterwave Store,Beauty,Nivea Fair & Lovely,12737.3,1,20,10189.84,Card,26,Male,Premium,2,8,True
+ORD-100568,2024-11-23,Customer_60,customer568@example.com,0860714742,Anambra,Konga,Sports,Treadmill Manual,12538.6,3,0,37615.8,Card,60,Male,Premium,2,8,False
+ORD-100569,2024-11-24,Customer_1,customer569@example.com,08035273235,Lagos,Jiji,Sports,Yoga Mat Non-Slip,50181.58,4,10,180653.69,Pay on Delivery,19,Female,Regular,5,5,False
+ORD-100570,2024-11-25,Customer_51,customer570@example.com,08037617843,Kano,Jiji,Phones & Tablets,Infinix Hot 40 Pro,203729.26,1,0,203729.26,USSD,41,Female,New,1,8,True
+ORD-100571,2024-11-26,Customer_16,customer571@example.com,08053664497,Lagos,Jumia,Groceries,Dangote Semolina 10kg,3638.0,2,0,7276.0,Bank Transfer,42,Female,VIP,3,6,False
+ORD-100572,2024-11-28,Customer_39,customer572@example.com,08056691919,Delta,Jumia,Electronics,Samsung Smart TV,83198.72,5,0,415993.6,Card,61,Male,VIP,5,5,True
+ORD-100573,2024-11-29,Customer_15,customer573@example.com,08066401877,Kano,WhatsApp Commerce,Fashion,Ankara Midi Dress,38219.23,4,0,152876.92,Bank Transfer,58,Female,VIP,1,9,False
+ORD-100574,2024-11-30,Customer_33,customer574@example.com,08058723258,Lagos,Konga,Sports,Adidas Running Sneakers,23380.62,1,10,21042.56,Pay on Delivery,42,Male,Premium,1,7,False
+ORD-100575,2024-12-01,Customer_87,customer575@example.com,08031775780,Delta,Jumia,Phones & Tablets,Tecno Spark 20 Pro,769997.12,4,5,2925989.06,USSD,57,Male,Regular,2,8,False
+ORD-100576,2024-12-02,Customer_53,customer576@example.com,08007737614,Oyo,Jiji,Furniture,Computer Work Desk,222556.0,4,0,890224.0,Bank Transfer,21,Male,VIP,5,1,False
+ORD-100577,2024-12-04,Customer_98,customer577@example.com,08020497860,Enugu,Jumia,Phones & Tablets,Samsung Galaxy A55,682377.65,4,10,2456559.54,USSD,30,Female,Premium,1,11,False
+ORD-100578,2024-12-05,Customer_17,customer578@example.com,08010398336,Abuja,Jumia,Fashion,Female Aso-Oke,29222.5,3,0,87667.5,Card,45,Female,New,1,2,False
+ORD-100579,2024-12-06,Customer_89,customer579@example.com,08000330591,Enugu,Flutterwave Store,Fashion,Female Aso-Oke,33752.39,2,0,67504.78,Bank Transfer,57,Male,Premium,5,8,False
+ORD-100580,2024-12-07,Customer_6,customer580@example.com,08028680423,Oyo,Jumia,Phones & Tablets,Samsung Galaxy A55,622308.77,2,0,1244617.54,POS,52,Male,VIP,3,12,False
+ORD-100581,2024-12-09,Customer_31,customer581@example.com,08097949622,Enugu,WhatsApp Commerce,Electronics,LG Air Conditioner,184123.04,2,10,331421.47,Card,52,Female,VIP,5,9,True
+ORD-100582,2024-12-10,Customer_69,customer582@example.com,08054744914,Imo,Jiji,Books,ACCA F3 Textbook,7067.65,1,5,6714.27,USSD,57,Female,New,5,4,True
+ORD-100583,N/A,Customer_40,customer583@example.com,08056483907,Rivers,WhatsApp Commerce,Fashion,Female Gele Headtie,24344.82,4,20,77903.42,Pay on Delivery,52,Female,Regular,3,12,False
+ORD-100584,2024-12-12,Customer_30,customer584@example.com,08071280776,Rivers,WhatsApp Commerce,Phones & Tablets,Infinix Hot 40 Pro,484864.66,1,0,484864.66,POS,50,Female,New,5,10,False
+ORD-100585,2024-12-13,Customer_69,customer585@example.com,08099995043,Imo,Konga,Sports,Nigeria Football Jersey,6439.15,3,0,19317.45,Bank Transfer,38,Female,New,1,11,True
+ORD-100586,2024-12-15,Customer_76,customer586@example.com,08087745124,Rivers,Flutterwave Store,Phones & Tablets,Samsung Galaxy A55,337569.1,3,20,810165.84,Card,21,Female,VIP,5,10,False
+ORD-100587,2024-12-16,Customer_7,customer587@example.com,0883657796,Delta,WhatsApp Commerce,Groceries,Honeywell Flour 10kg,5046.42,1,15,4289.46,Bank Transfer,,Female,VIP,3,9,False
+ORD-100588,2024-12-17,CUSTOMER_13,customer588@example.com,08034770490,Rivers,Konga,Books,Nigerian Law Reports,7655.41,3,20,18372.98,Bank Transfer,,Male,Regular,4,4,False
+ORD-100589,2024-12-18,Customer_4,customer589@example.com,08018320158,Anambra,Jiji,Furniture,6ft Orthopedic Mattress,401654.14,1,0,401654.14,POS,24,Male,VIP,5,10,False
+ORD-100590,2024-12-20,Customer_50,customer590@example.com,08048673754,Anambra,Jiji,Electronics,Samsung Smart TV,234428.13,2,0,468856.26,POS,64,Female,New,2,10,False
+ORD-100591,2024-12-21,,customer591@example.com,08024863641,Kano,Konga,Beauty,Maybelline Mascara,24809.63,1,10,22328.67,POS,44,Female,New,,10,True
+ORD-100592,2024-12-22,Customer_12,customer592@example.com,08075761585,Kaduna,WhatsApp Commerce,Furniture,Computer Work Desk,159830.9,5,10,719239.05,POS,28,Male,Regular,1,9,False
+ORD-100593,2024-12-23,Customer_65,customer593@example.com,08024092788,Oyo,WhatsApp Commerce,Books,ICAN Study Pack,5078.83,2,0,10157.66,Pay on Delivery,62,Female,VIP,2,11,False
+ORD-100594,2024-12-24,Customer_27,customer594@example.com,08034205918,Anambra,Flutterwave Store,Books,WAEC Past Questions,5345.55,3,5,15234.82,USSD,,Male,VIP,2,7,False
+ORD-100595,2024-12-26,Customer_50,customer595@example.com,08069157145,,Flutterwave Store,Books,ACCA F3 Textbook,6230.78,2,0,-999,POS,60,Male,New,5,2,False
+ORD-100596,2024-12-27,Customer_77,customer596@example.com,08052107045,Kano,Jiji,Furniture,L-Shape Office Sofa,422099.08,2,0,844198.16,Card,47,Female,New,2,9,False
+ORD-100597,N/A,Customer_17,customer597@example.com,08016146230,Imo,Flutterwave Store,Sports,Kettlebell 20kg,30587.67,2,0,61175.34,Bank Transfer,63,Male,VIP,4,4,False
+ORD-100598,2024-12-29,Customer_72,customer598@example.com,08094712693,Oyo,Konga,Books,Nigerian Law Reports,9580.8,3,20,22993.92,POS,37,Female,Premium,3,8,False
+ORD-100599,2024-12-31,Customer_32,notanemail,08003955954,Oyo,Jiji,Phones & Tablets,Samsung Galaxy A55,345062.29,5,15,1466514.73,Card,,Female,New,2,7,False
+ORD-100261,2023-11-15,Customer_75,,08049857909,Delta,Flutterwave Store,Phones & Tablets,iPhone 15 128GB,434662.45,2,0,869324.9,Bank Transfer,51,Female,Regular,2,10,True
+ORD-100132,2023-06-10,Customer_63,customer132@example.com,08012994931,Oyo,Konga,Electronics,Samsung Smart TV,261528.05,1,0,261528.05,POS,19,Male,Regular,5,11,False
+ORD-100575,2024-12-01,Customer_87,customer575@example.com,08031775780,Delta,Jumia,Phones & Tablets,Tecno Spark 20 Pro,769997.12,4,5,2925989.06,USSD,57,Male,Regular,2,8,False
+ORD-100454,2024-07-07,Customer_88,customer454@example.com,08042225321,Delta,WhatsApp Commerce,Furniture,Wardrobe 4-Door,39868.6,4,10,143526.96,Bank Transfer,27,Male,VIP,4,5,True
+ORD-100337,2024-02-15,Customer_84,customer337@example.com,08096483210,Kano,Konga,Groceries,Golden Penny Rice 25kg,4437.74,1,5,,Pay on Delivery,27,Male,Premium,4,10,False
+ORD-100580,2024-12-07,Customer_6,customer580@example.com,08028680423,Oyo,Jumia,Phones & Tablets,Samsung Galaxy A55,622308.77,2,0,1244617.54,POS,52,Male,VIP,3,12,False
+ORD-100316,2024-01-21,Customer_83,customer316@example.com,08034700883,XXX,WhatsApp Commerce,Groceries,Titus Sardine 50pcs,7131.49,3,5,20324.75,Bank Transfer,27,Male,VIP,3,12,False
+ORD-100439,2024-06-19,Customer_28,customer439@example.com,0885616305,Kano,Jiji,Groceries,Golden Penny Rice 25kg,507.72,2,0,1015.44,USSD,33,Female,New,2,8,False
+ORD-100053,2023-03-06,Customer_45,customer53@example.com,08017145700,Rivers,Konga,Books,Nigerian Law Reports,9708.13,1,5,9222.72,Bank Transfer,23,Male,Regular,5,2,False
+ORD-100397,2024-04-28,Customer_37,customer397@example.com,08094853613,Imo,WhatsApp Commerce,Phones & Tablets,Xiaomi Redmi Note 13,35856.89,4,15,121913.43,POS,39,Female,Premium,3,13,True
+ORD-100060,N/A,Customer_45,customer60@example.com,08053284659,Delta,Flutterwave Store,Groceries,Golden Penny Rice 25kg,4106.28,4,20,13140.1,Card,38,Female,New,1,1,False
+ORD-100585,2024-12-13,Customer_69,customer585@example.com,08099995043,Imo,Konga,Sports,Nigeria Football Jersey,6439.15,3,0,19317.45,Bank Transfer,38,Female,New,1,11,True
+ORD-100496,"August 27, 2024",Customer_9,customer496@example.com,08072019965,Abuja,WhatsApp Commerce,Groceries,Golden Penny Rice 25kg,1621.85,3,0,4865.55,Card,40,Male,VIP,4,2,True
+ORD-100272,2023-11-28,Customer_40,,08016389143,Delta,Flutterwave Store,Beauty,Maybelline Mascara,20256.24,2,0,40512.48,Bank Transfer,29,Female,Regular,5,1,False
+ORD-100278,2023-12-05,Customer_93,customer278@example.com,08073374540,Anambra,WhatsApp Commerce,Electronics,Hisense Chest Freezer,308682.9,3,5,879746.26,USSD,23,Female,VIP,5,9,False
+ORD-100277,2023-12-04,,customer277@example.com,08079825606,Oyo,Flutterwave Store,Phones & Tablets,Xiaomi Redmi Note 13,361515.05,3,15,921863.38,USSD,43,Female,Premium,3,2,True
+ORD-100404,2024-05-07,Customer_29,customer404@example.com,08082026640,Delta,Flutterwave Store,Beauty,Neutrogena Body Lotion,14348.23,2,0,28696.46,Pay on Delivery,61,Female,Premium,2,4,False
+ORD-100354,07/03/2024,Customer_88,customer354@example.com,08030900030,Rivers,Flutterwave Store,Beauty,Nivea Fair & Lovely,21423.08,2,20,34276.93,USSD,33,Male,Regular,5,5,False
+ORD-100369,2024-03-25,Customer_68,notanemail,08043876743,Anambra,Jiji,Sports,Adidas Running Sneakers,10197.49,2,10,18355.48,USSD,29,Male,VIP,5,7,False
+ORD-100306,2024-01-08,Customer_99,customer306@example.com,08097158057,Lagos,WhatsApp Commerce,Books,WAEC Past Questions,11031.66,5,15,46884.56,Pay on Delivery,32,Female,New,3,9,False
+ORD-100243,2023-10-24,Customer_28,customer243@example.com,08096372041,Abuja,Konga,Electronics,LG Air Conditioner,247213.7,3,5,704559.04,POS,,Female,Regular,5,11,True
+ORD-100538,2024-10-17,Customer_24,customer538@example.com,08083684143,Rivers,Jumia,Furniture,Wardrobe 4-Door,474991.47,1,0,474991.47,Pay on Delivery,34,Female,New,1,5,True
+ORD-100388,2024-04-17,Customer_80,customer388@example.com,08059755367,Imo,WhatsApp Commerce,Electronics,Hisense Chest Freezer,78389.22,4,15,266523.35,POS,57,Male,New,1,10,True
+ORD-100544,2024-10-24,Customer_95,customer544@example.com,0848230351,Imo,Jiji,Electronics,LG Air Conditioner,200255.49,1,0,200255.49,Pay on Delivery,58,Male,Premium,3,7,False
+ORD-100097,2023-04-29,Customer_17,customer97@example.com,08030325671,Anambra,WhatsApp Commerce,Books,Nigerian Law Reports,6567.73,3,0,19703.19,Bank Transfer,48,Male,New,3,4,False
+ORD-100552,2024-11-03,Customer_38,customer552@example.com,08008080115,Lagos,Konga,Furniture,6ft Orthopedic Mattress,306807.36,1,5,291466.99,Bank Transfer,999,Male,VIP,5,13,False
+ORD-100470,2024-07-26,Customer_5,customer470@example.com,08096221839,Delta,Jiji,Furniture,Wardrobe 4-Door,283035.58,1,0,283035.58,USSD,43,Female,Premium,,8,True
+ORD-100422,2024-05-29,Customer_26,customer422@example.com,08069055517,Kano,WhatsApp Commerce,Phones & Tablets,iPhone 15 128GB,624802.98,4,0,0,USSD,41,Female,New,4,999,False
+ORD-100344,2024-02-24,Customer_49,customer344@example.com,08030717575,Delta,Konga,Groceries,Dangote Semolina 10kg,5172.03,3,0,15516.09,POS,49,Male,Premium,5,8,False
+ORD-100551,2024-11-02,Customer_42,customer551@example.com,08098952330,Lagos,Jumia,Books,ICAN Study Pack,9028.13,4,0,36112.52,Card,53,Male,Regular,5,,False
