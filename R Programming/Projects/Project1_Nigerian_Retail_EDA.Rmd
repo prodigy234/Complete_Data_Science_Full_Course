@@ -1,0 +1,689 @@
+---
+title: "Project 1: Nigerian Retail Sales EDA"
+subtitle: "Exploratory Data Analysis with the Tidyverse"
+author: "Prodigy Training Hub"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    theme: flatly
+    highlight: tango
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,
+  message = FALSE,
+  warning = FALSE,
+  fig.width = 10,
+  fig.height = 6
+)
+```
+
+# Cell 1: Load Libraries
+
+```{r load-libraries}
+library(tidyverse)   # Core: dplyr, ggplot2, tidyr, readr, stringr, purrr, forcats
+library(janitor)     # clean_names(), tabyl()
+library(skimr)       # skim() - rich summary statistics
+library(lubridate)   # Date parsing and manipulation
+library(scales)      # Number formatting (comma, naira, percent)
+library(knitr)       # kable() for clean table output
+```
+
+---
+
+# Cell 2: Create the Dataset
+
+```{r create-dataset}
+set.seed(42)
+n <- 1500
+
+states <- c("Lagos", "Abuja", "Kano", "Rivers", "Oyo",
+            "Delta", "Anambra", "Kaduna", "Enugu", "Ondo")
+
+regions <- c("South West", "North Central", "North West", "South South", "South West",
+             "South South", "South East", "North West", "South East", "South West")
+
+state_region <- tibble(state = states, region = regions)
+
+categories <- c("Electronics", "Fashion & Apparel", "Food & Beverages",
+                "Home & Kitchen", "Health & Beauty", "Agriculture & Farming")
+
+payment_methods <- c("Cash", "POS", "Bank Transfer", "Mobile Money")
+
+raw_retail <- tibble(
+  transaction_id   = paste0("TXN-", str_pad(1:n, 5, pad = "0")),
+  date             = sample(seq(as.Date("2023-01-01"), as.Date("2023-12-31"), by = "day"), n, replace = TRUE),
+  state            = sample(states, n, replace = TRUE, prob = c(0.25, 0.15, 0.12, 0.10, 0.09, 0.08, 0.07, 0.06, 0.05, 0.03)),
+  store_id         = paste0("STR-", sample(sprintf("%03d", 1:40), n, replace = TRUE)),
+  category         = sample(categories, n, replace = TRUE, prob = c(0.20, 0.22, 0.18, 0.15, 0.13, 0.12)),
+  units_sold       = sample(1:50, n, replace = TRUE),
+  unit_price_ngn   = round(runif(n, 500, 150000), -1),
+  discount_pct     = sample(c(0, 0, 0, 5, 10, 15, 20), n, replace = TRUE),
+  payment_method   = sample(payment_methods, n, replace = TRUE, prob = c(0.30, 0.35, 0.20, 0.15)),
+  customer_age     = sample(18:65, n, replace = TRUE),
+  customer_gender  = sample(c("Male", "Female"), n, replace = TRUE, prob = c(0.54, 0.46)),
+  returns          = sample(c(0, 1), n, replace = TRUE, prob = c(0.92, 0.08))
+) |>
+  # Inject missing values realistically
+  mutate(
+    customer_age    = ifelse(runif(n) < 0.04, NA, customer_age),
+    discount_pct    = ifelse(runif(n) < 0.02, NA, discount_pct),
+    customer_gender = ifelse(runif(n) < 0.01, NA, customer_gender)
+  )
+
+cat("Dataset created:", nrow(raw_retail), "rows x", ncol(raw_retail), "columns\n")
+```
+
+---
+
+# Cell 3: First Look at the Data
+
+```{r first-look}
+glimpse(raw_retail)
+```
+
+---
+
+# Cell 4: View First 10 Rows
+
+```{r head}
+head(raw_retail, 10)
+```
+
+---
+
+# Cell 5: Rich Summary with skimr
+
+```{r skim-summary}
+skim(raw_retail)
+```
+
+---
+
+# Cell 6: Check Missing Values
+
+```{r missing-values}
+missing_summary <- raw_retail |>
+  summarise(across(everything(), ~ sum(is.na(.)))) |>
+  pivot_longer(everything(), names_to = "column", values_to = "missing_count") |>
+  mutate(
+    missing_pct = round(missing_count / nrow(raw_retail) * 100, 2),
+    has_missing = missing_count > 0
+  ) |>
+  arrange(desc(missing_count))
+
+missing_summary |> kable(caption = "Missing Value Summary")
+```
+
+---
+
+# Cell 7: Clean Column Names
+
+```{r clean-names}
+retail <- raw_retail |>
+  clean_names()
+
+names(retail)
+```
+
+---
+
+# Cell 8: Engineer Derived Columns
+
+```{r feature-engineering}
+retail <- retail |>
+  left_join(state_region, by = "state") |>
+  mutate(
+    revenue_ngn     = units_sold * unit_price_ngn * (1 - discount_pct / 100),
+    revenue_ngn     = replace_na(revenue_ngn, units_sold * unit_price_ngn),
+    month           = month(date, label = TRUE, abbr = TRUE),
+    quarter         = paste0("Q", quarter(date)),
+    week_number     = week(date),
+    day_of_week     = wday(date, label = TRUE, abbr = FALSE),
+    is_weekend      = day_of_week %in% c("Saturday", "Sunday"),
+    price_tier      = case_when(
+      unit_price_ngn < 5000              ~ "Budget",
+      unit_price_ngn < 30000             ~ "Mid-Range",
+      unit_price_ngn < 80000             ~ "Premium",
+      TRUE                               ~ "Luxury"
+    ),
+    age_group       = case_when(
+      customer_age < 25                  ~ "18-24",
+      customer_age < 35                  ~ "25-34",
+      customer_age < 45                  ~ "35-44",
+      customer_age < 55                  ~ "45-54",
+      TRUE                               ~ "55+"
+    ),
+    discount_applied = !is.na(discount_pct) & discount_pct > 0
+  )
+
+glimpse(retail)
+```
+
+---
+
+# Cell 9: Handle Missing Values
+
+```{r handle-missing}
+retail <- retail |>
+  mutate(
+    customer_age    = ifelse(is.na(customer_age), median(customer_age, na.rm = TRUE), customer_age),
+    discount_pct    = ifelse(is.na(discount_pct), 0, discount_pct),
+    customer_gender = ifelse(is.na(customer_gender), "Unknown", customer_gender)
+  )
+
+cat("Missing values remaining:", sum(is.na(retail)), "\n")
+```
+
+---
+
+# Cell 10: Revenue Summary Statistics
+
+```{r revenue-summary}
+retail |>
+  summarise(
+    total_transactions = n(),
+    total_revenue_ngn  = sum(revenue_ngn),
+    avg_revenue_ngn    = mean(revenue_ngn),
+    median_revenue_ngn = median(revenue_ngn),
+    min_revenue_ngn    = min(revenue_ngn),
+    max_revenue_ngn    = max(revenue_ngn),
+    total_units_sold   = sum(units_sold),
+    total_returns      = sum(returns),
+    return_rate_pct    = round(sum(returns) / n() * 100, 2)
+  ) |>
+  mutate(across(ends_with("_ngn"), ~ comma(.))) |>
+  kable(caption = "Overall Revenue Summary")
+```
+
+---
+
+# Cell 11: Revenue by State
+
+```{r revenue-by-state}
+revenue_by_state <- retail |>
+  group_by(state, region) |>
+  summarise(
+    transactions       = n(),
+    total_revenue_ngn  = sum(revenue_ngn),
+    avg_revenue_ngn    = mean(revenue_ngn),
+    total_units        = sum(units_sold),
+    .groups = "drop"
+  ) |>
+  arrange(desc(total_revenue_ngn))
+
+revenue_by_state |>
+  mutate(across(ends_with("_ngn"), ~ paste0("N", comma(round(., 0))))) |>
+  kable(caption = "Revenue by State")
+```
+
+---
+
+# Cell 12: Revenue by Product Category
+
+```{r revenue-by-category}
+revenue_by_cat <- retail |>
+  group_by(category) |>
+  summarise(
+    transactions      = n(),
+    total_revenue_ngn = sum(revenue_ngn),
+    avg_unit_price    = mean(unit_price_ngn),
+    avg_units_sold    = mean(units_sold),
+    return_rate_pct   = round(sum(returns) / n() * 100, 2),
+    .groups = "drop"
+  ) |>
+  arrange(desc(total_revenue_ngn))
+
+revenue_by_cat |>
+  mutate(across(ends_with("_ngn") | starts_with("avg_unit"), ~ paste0("N", comma(round(., 0))))) |>
+  kable(caption = "Revenue by Product Category")
+```
+
+---
+
+# Cell 13: Monthly Revenue Trend
+
+```{r monthly-trend}
+monthly_revenue <- retail |>
+  group_by(month, quarter) |>
+  summarise(
+    total_revenue_ngn = sum(revenue_ngn),
+    transactions      = n(),
+    .groups = "drop"
+  )
+
+monthly_revenue |>
+  mutate(total_revenue_ngn = paste0("N", comma(round(total_revenue_ngn, 0)))) |>
+  kable(caption = "Monthly Revenue Summary")
+```
+
+---
+
+# Cell 14: Payment Method Analysis
+
+```{r payment-analysis}
+retail |>
+  group_by(payment_method) |>
+  summarise(
+    count          = n(),
+    share_pct      = round(n() / nrow(retail) * 100, 2),
+    avg_revenue    = round(mean(revenue_ngn), 0),
+    total_revenue  = sum(revenue_ngn),
+    .groups = "drop"
+  ) |>
+  arrange(desc(count)) |>
+  kable(caption = "Payment Method Breakdown")
+```
+
+---
+
+# Cell 15: Customer Demographics Analysis
+
+```{r demographics}
+retail |>
+  filter(customer_gender != "Unknown") |>
+  group_by(customer_gender, age_group) |>
+  summarise(
+    count          = n(),
+    avg_revenue    = round(mean(revenue_ngn), 0),
+    total_revenue  = round(sum(revenue_ngn), 0),
+    .groups = "drop"
+  ) |>
+  arrange(customer_gender, age_group) |>
+  kable(caption = "Revenue by Gender and Age Group")
+```
+
+---
+
+# Cell 16: Discount Impact Analysis
+
+```{r discount-analysis}
+retail |>
+  group_by(discount_applied, discount_pct) |>
+  summarise(
+    transactions   = n(),
+    avg_units_sold = round(mean(units_sold), 2),
+    avg_revenue    = round(mean(revenue_ngn), 0),
+    return_rate    = round(mean(returns) * 100, 2),
+    .groups = "drop"
+  ) |>
+  filter(!(discount_applied == FALSE & discount_pct > 0)) |>
+  kable(caption = "Discount vs Revenue and Returns")
+```
+
+---
+
+# Cell 17: Weekend vs Weekday Sales
+
+```{r weekend-analysis}
+retail |>
+  group_by(is_weekend) |>
+  summarise(
+    transactions    = n(),
+    avg_revenue_ngn = round(mean(revenue_ngn), 0),
+    total_revenue   = round(sum(revenue_ngn), 0),
+    avg_units       = round(mean(units_sold), 2),
+    .groups = "drop"
+  ) |>
+  mutate(day_type = ifelse(is_weekend, "Weekend", "Weekday")) |>
+  select(day_type, transactions, avg_revenue_ngn, total_revenue, avg_units) |>
+  kable(caption = "Weekend vs Weekday Performance")
+```
+
+---
+
+# Cell 18: Price Tier Distribution
+
+```{r price-tier}
+retail |>
+  count(price_tier, category) |>
+  pivot_wider(names_from = price_tier, values_from = n, values_fill = 0) |>
+  kable(caption = "Transactions by Category and Price Tier")
+```
+
+---
+
+# Cell 19: Chart 1 - Revenue by State (Bar Chart)
+
+```{r chart-revenue-state}
+retail |>
+  group_by(state) |>
+  summarise(total_revenue = sum(revenue_ngn), .groups = "drop") |>
+  mutate(state = fct_reorder(state, total_revenue)) |>
+  ggplot(aes(x = state, y = total_revenue / 1e6, fill = total_revenue)) +
+  geom_col(show.legend = FALSE) +
+  coord_flip() +
+  scale_fill_gradient(low = "#8ecae6", high = "#023047") +
+  scale_y_continuous(labels = function(x) paste0("N", x, "M")) +
+  labs(
+    title    = "Total Revenue by State (2023)",
+    subtitle = "Nigerian Retail Sales Dataset - 1,500 Transactions",
+    x        = NULL,
+    y        = "Total Revenue (Millions NGN)",
+    caption  = "Source: NigeriaRetail Co. Dataset | Prodigy Training Hub"
+  ) +
+  theme_minimal(base_size = 13) +
+  theme(
+    plot.title    = element_text(face = "bold"),
+    plot.subtitle = element_text(colour = "grey50"),
+    panel.grid.major.y = element_blank()
+  )
+```
+
+---
+
+# Cell 20: Chart 2 - Revenue by Category (Lollipop)
+
+```{r chart-category-lollipop}
+retail |>
+  group_by(category) |>
+  summarise(total_revenue = sum(revenue_ngn), .groups = "drop") |>
+  mutate(category = fct_reorder(category, total_revenue)) |>
+  ggplot(aes(x = category, y = total_revenue / 1e6)) +
+  geom_segment(aes(xend = category, yend = 0), colour = "#457b9d", linewidth = 1) +
+  geom_point(size = 5, colour = "#e63946") +
+  coord_flip() +
+  scale_y_continuous(labels = function(x) paste0("N", x, "M")) +
+  labs(
+    title   = "Revenue by Product Category (2023)",
+    x       = NULL,
+    y       = "Total Revenue (Millions NGN)",
+    caption = "Source: NigeriaRetail Co. Dataset | Prodigy Training Hub"
+  ) +
+  theme_minimal(base_size = 13) +
+  theme(
+    plot.title         = element_text(face = "bold"),
+    panel.grid.major.y = element_blank()
+  )
+```
+
+---
+
+# Cell 21: Chart 3 - Monthly Revenue Trend (Line Chart)
+
+```{r chart-monthly-trend}
+monthly_revenue |>
+  ggplot(aes(x = as.integer(month), y = total_revenue_ngn / 1e6, group = 1)) +
+  geom_line(colour = "#2a9d8f", linewidth = 1.2) +
+  geom_point(aes(colour = quarter), size = 4) +
+  scale_x_continuous(breaks = 1:12, labels = month.abb) +
+  scale_y_continuous(labels = function(x) paste0("N", x, "M")) +
+  scale_colour_manual(values = c(Q1 = "#264653", Q2 = "#2a9d8f", Q3 = "#e9c46a", Q4 = "#e76f51")) +
+  labs(
+    title   = "Monthly Revenue Trend (2023)",
+    x       = NULL,
+    y       = "Revenue (Millions NGN)",
+    colour  = "Quarter",
+    caption = "Source: NigeriaRetail Co. Dataset | Prodigy Training Hub"
+  ) +
+  theme_minimal(base_size = 13) +
+  theme(plot.title = element_text(face = "bold"))
+```
+
+---
+
+# Cell 22: Chart 4 - Payment Method Distribution (Donut)
+
+```{r chart-payment-donut}
+payment_data <- retail |>
+  count(payment_method) |>
+  mutate(
+    pct   = n / sum(n),
+    label = paste0(payment_method, "\n", percent(pct, accuracy = 0.1))
+  )
+
+ggplot(payment_data, aes(x = 2, y = pct, fill = payment_method)) +
+  geom_col(width = 1, colour = "white", linewidth = 0.5) +
+  coord_polar(theta = "y") +
+  xlim(0.5, 2.5) +
+  scale_fill_manual(values = c(
+    "Cash"           = "#264653",
+    "POS"            = "#2a9d8f",
+    "Bank Transfer"  = "#e9c46a",
+    "Mobile Money"   = "#e76f51"
+  )) +
+  geom_text(aes(label = label), position = position_stack(vjust = 0.5),
+            colour = "white", size = 3.5, fontface = "bold") +
+  labs(
+    title   = "Payment Method Distribution (2023)",
+    fill    = NULL,
+    caption = "Source: NigeriaRetail Co. Dataset | Prodigy Training Hub"
+  ) +
+  theme_void(base_size = 13) +
+  theme(
+    plot.title  = element_text(face = "bold", hjust = 0.5),
+    legend.position = "none"
+  )
+```
+
+---
+
+# Cell 23: Chart 5 - Revenue by Region and Category (Faceted Bar)
+
+```{r chart-region-category-facet}
+retail |>
+  group_by(region, category) |>
+  summarise(total_revenue = sum(revenue_ngn) / 1e6, .groups = "drop") |>
+  mutate(category = str_wrap(category, width = 12)) |>
+  ggplot(aes(x = category, y = total_revenue, fill = region)) +
+  geom_col(position = "dodge") +
+  facet_wrap(~ region, scales = "free_y") +
+  scale_fill_brewer(palette = "Set2") +
+  scale_y_continuous(labels = function(x) paste0("N", x, "M")) +
+  labs(
+    title   = "Revenue by Category across Geopolitical Regions (2023)",
+    x       = NULL,
+    y       = "Revenue (Millions NGN)",
+    fill    = "Region",
+    caption = "Source: NigeriaRetail Co. Dataset | Prodigy Training Hub"
+  ) +
+  theme_minimal(base_size = 11) +
+  theme(
+    plot.title  = element_text(face = "bold"),
+    legend.position = "none",
+    axis.text.x = element_text(angle = 35, hjust = 1, size = 8)
+  )
+```
+
+---
+
+# Cell 24: Chart 6 - Unit Price Distribution by Category (Boxplot)
+
+```{r chart-boxplot-price}
+retail |>
+  mutate(category = fct_reorder(category, unit_price_ngn, median)) |>
+  ggplot(aes(x = category, y = unit_price_ngn / 1000, fill = category)) +
+  geom_boxplot(alpha = 0.7, outlier.colour = "#e63946", outlier.alpha = 0.4) +
+  coord_flip() +
+  scale_fill_brewer(palette = "Pastel1") +
+  scale_y_continuous(labels = function(x) paste0("N", x, "K")) +
+  labs(
+    title   = "Unit Price Distribution by Product Category",
+    x       = NULL,
+    y       = "Unit Price (Thousands NGN)",
+    caption = "Source: NigeriaRetail Co. Dataset | Prodigy Training Hub"
+  ) +
+  theme_minimal(base_size = 13) +
+  theme(
+    plot.title      = element_text(face = "bold"),
+    legend.position = "none"
+  )
+```
+
+---
+
+# Cell 25: Chart 7 - Revenue Heatmap (Month x Day of Week)
+
+```{r chart-heatmap}
+retail |>
+  group_by(month, day_of_week) |>
+  summarise(avg_revenue = mean(revenue_ngn) / 1000, .groups = "drop") |>
+  mutate(day_of_week = factor(day_of_week,
+    levels = c("Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"))) |>
+  ggplot(aes(x = month, y = day_of_week, fill = avg_revenue)) +
+  geom_tile(colour = "white", linewidth = 0.5) +
+  scale_fill_gradient(low = "#caf0f8", high = "#023e8a",
+                      labels = function(x) paste0("N", x, "K")) +
+  labs(
+    title   = "Average Transaction Value Heatmap (Month x Day of Week)",
+    x       = NULL,
+    y       = NULL,
+    fill    = "Avg Revenue",
+    caption = "Source: NigeriaRetail Co. Dataset | Prodigy Training Hub"
+  ) +
+  theme_minimal(base_size = 12) +
+  theme(
+    plot.title  = element_text(face = "bold"),
+    axis.text.x = element_text(angle = 45, hjust = 1)
+  )
+```
+
+---
+
+# Cell 26: Chart 8 - Age Group x Gender Revenue (Stacked Bar)
+
+```{r chart-demographics-stacked}
+retail |>
+  filter(customer_gender != "Unknown") |>
+  group_by(age_group, customer_gender) |>
+  summarise(total_revenue = sum(revenue_ngn) / 1e6, .groups = "drop") |>
+  ggplot(aes(x = age_group, y = total_revenue, fill = customer_gender)) +
+  geom_col(position = "stack") +
+  scale_fill_manual(values = c(Male = "#457b9d", Female = "#e63946")) +
+  scale_y_continuous(labels = function(x) paste0("N", x, "M")) +
+  labs(
+    title   = "Total Revenue by Age Group and Gender",
+    x       = "Age Group",
+    y       = "Revenue (Millions NGN)",
+    fill    = "Gender",
+    caption = "Source: NigeriaRetail Co. Dataset | Prodigy Training Hub"
+  ) +
+  theme_minimal(base_size = 13) +
+  theme(plot.title = element_text(face = "bold"))
+```
+
+---
+
+# Cell 27: Chart 9 - Scatter Plot - Units Sold vs Revenue
+
+```{r chart-scatter}
+retail |>
+  sample_n(500) |>
+  ggplot(aes(x = units_sold, y = revenue_ngn / 1000, colour = category)) +
+  geom_point(alpha = 0.5, size = 2) +
+  geom_smooth(method = "lm", se = FALSE, linewidth = 0.8) +
+  facet_wrap(~ category, scales = "free_y") +
+  scale_colour_brewer(palette = "Dark2") +
+  scale_y_continuous(labels = function(x) paste0("N", x, "K")) +
+  labs(
+    title   = "Units Sold vs Revenue by Category",
+    x       = "Units Sold",
+    y       = "Revenue (Thousands NGN)",
+    caption = "Source: NigeriaRetail Co. Dataset | Prodigy Training Hub"
+  ) +
+  theme_minimal(base_size = 11) +
+  theme(
+    plot.title      = element_text(face = "bold"),
+    legend.position = "none"
+  )
+```
+
+---
+
+# Cell 28: Chart 10 - Quarterly Revenue by Region (Grouped Bar)
+
+```{r chart-quarterly-region}
+retail |>
+  group_by(quarter, region) |>
+  summarise(total_revenue = sum(revenue_ngn) / 1e6, .groups = "drop") |>
+  ggplot(aes(x = quarter, y = total_revenue, fill = region)) +
+  geom_col(position = "dodge") +
+  scale_fill_brewer(palette = "Set1") +
+  scale_y_continuous(labels = function(x) paste0("N", x, "M")) +
+  labs(
+    title   = "Quarterly Revenue by Geopolitical Region",
+    x       = "Quarter",
+    y       = "Revenue (Millions NGN)",
+    fill    = "Region",
+    caption = "Source: NigeriaRetail Co. Dataset | Prodigy Training Hub"
+  ) +
+  theme_minimal(base_size = 13) +
+  theme(plot.title = element_text(face = "bold"))
+```
+
+---
+
+# Cell 29: Top 10 Stores by Revenue
+
+```{r top-stores}
+retail |>
+  group_by(store_id, state) |>
+  summarise(
+    transactions  = n(),
+    total_revenue = sum(revenue_ngn),
+    avg_basket    = mean(revenue_ngn),
+    .groups = "drop"
+  ) |>
+  slice_max(order_by = total_revenue, n = 10) |>
+  mutate(total_revenue = paste0("N", comma(round(total_revenue, 0))),
+         avg_basket    = paste0("N", comma(round(avg_basket, 0)))) |>
+  kable(caption = "Top 10 Stores by Total Revenue")
+```
+
+---
+
+# Cell 30: Return Rate Analysis by Category and Region
+
+```{r return-analysis}
+retail |>
+  group_by(region, category) |>
+  summarise(
+    transactions = n(),
+    returns      = sum(returns),
+    return_rate  = round(mean(returns) * 100, 2),
+    .groups = "drop"
+  ) |>
+  pivot_wider(names_from = category, values_from = return_rate, values_fill = 0) |>
+  kable(caption = "Return Rate (%) by Region and Category")
+```
+
+---
+
+# Cell 31: Correlation - Numeric Variables
+
+```{r correlation}
+retail |>
+  select(units_sold, unit_price_ngn, discount_pct, revenue_ngn, customer_age) |>
+  cor(use = "complete.obs") |>
+  round(3) |>
+  kable(caption = "Correlation Matrix - Numeric Variables")
+```
+
+---
+
+# Cell 32: Key Insights Summary
+
+```{r insights-summary}
+top_state    <- retail |> group_by(state) |> summarise(rev = sum(revenue_ngn)) |> slice_max(rev, n=1) |> pull(state)
+top_cat      <- retail |> group_by(category) |> summarise(rev = sum(revenue_ngn)) |> slice_max(rev, n=1) |> pull(category)
+top_payment  <- retail |> count(payment_method) |> slice_max(n, n=1) |> pull(payment_method)
+best_quarter <- retail |> group_by(quarter) |> summarise(rev = sum(revenue_ngn)) |> slice_max(rev, n=1) |> pull(quarter)
+total_rev    <- sum(retail$revenue_ngn)
+return_rate  <- mean(retail$returns) * 100
+
+cat("========================================\n")
+cat("  NIGERIAN RETAIL EDA - KEY INSIGHTS\n")
+cat("========================================\n")
+cat("Total Revenue:         N", comma(round(total_rev, 0)), "\n")
+cat("Total Transactions:   ", nrow(retail), "\n")
+cat("Top State:            ", top_state, "\n")
+cat("Top Category:         ", top_cat, "\n")
+cat("Preferred Payment:    ", top_payment, "\n")
+cat("Best Quarter:         ", best_quarter, "\n")
+cat("Overall Return Rate:  ", round(return_rate, 2), "%\n")
+cat("========================================\n")
+```

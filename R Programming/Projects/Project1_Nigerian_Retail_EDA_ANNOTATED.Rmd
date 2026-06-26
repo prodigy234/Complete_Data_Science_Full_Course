@@ -1,0 +1,875 @@
+---
+title: "Project 1: Nigerian Retail Sales EDA — Annotated Companion"
+subtitle: "Line-by-Line Explanations for Every Code Cell"
+author: "Prodigy Training Hub"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    toc_depth: 3
+    theme: flatly
+    highlight: tango
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE,
+                      fig.width = 10, fig.height = 6)
+```
+
+> **How to use this companion:** Every code cell from the main notebook appears here with a detailed explanation block directly above it. Read the explanation first, then study the code. The goal is that by the end of this notebook, you understand not just *what* each line does, but *why* it was written that way.
+
+---
+
+# Cell 1: Load Libraries
+
+## Explanation
+
+In R, packages extend the base language with additional functions. Unlike Python (where you import selectively), R's `library()` loads the entire package into your session. Here we load six packages.
+
+**`tidyverse`** is actually a meta-package — a collection of eight packages that share a design philosophy. When you call `library(tidyverse)`, R loads all of them simultaneously:
+- `dplyr` — grammar of data manipulation (filter, select, mutate, group_by, summarise)
+- `ggplot2` — grammar of graphics for data visualization
+- `tidyr` — tools to reshape data between wide and long formats
+- `readr` — fast, consistent CSV and flat file reading
+- `stringr` — string manipulation built around regular expressions
+- `purrr` — functional programming tools (map, reduce, walk)
+- `forcats` — tools for working with factors (categorical variables)
+- `tibble` — a modern, stricter version of R's data frame
+
+**`janitor`** provides `clean_names()` which standardizes column names (lowercase, underscores, no spaces) and `tabyl()` which produces frequency tables with percentages.
+
+**`skimr`** provides `skim()`, which gives a much richer data summary than R's built-in `summary()` — it shows missing value counts, histograms, quantiles, and character stats all in one call.
+
+**`lubridate`** is the tidyverse package for dates. Base R's date handling is verbose and inconsistent; lubridate gives you functions like `month()`, `week()`, `wday()`, and `quarter()` that extract date parts intuitively.
+
+**`scales`** provides number formatting functions — `comma()` formats 1234567 as "1,234,567", `percent()` converts 0.456 to "45.6%". Essential for human-readable output in tables and charts.
+
+**`knitr`** provides `kable()` which renders data frames as clean, styled tables in the HTML output. Without it, data frames print as raw R console output.
+
+```{r load-libraries}
+library(tidyverse)
+library(janitor)
+library(skimr)
+library(lubridate)
+library(scales)
+library(knitr)
+```
+
+---
+
+# Cell 2: Create the Dataset
+
+## Explanation
+
+Since we do not have a live Nigerian retail CSV file, we generate a synthetic dataset that mimics the structure and patterns of a real retail operation. The `set.seed(42)` call makes our random data reproducible — anyone running this code with the same seed gets exactly the same dataset.
+
+**`n <- 1500`** sets the number of transactions. 1,500 rows is large enough to reveal trends in group summaries but small enough for fast in-class execution.
+
+**`states` and `regions`** are parallel vectors — `states[1]` ("Lagos") pairs with `regions[1]` ("South West"). We store them in a `tibble` called `state_region` so we can later join it to the main dataset using `state` as the key column.
+
+**`tibble()`** creates the main dataset. It is the tidyverse replacement for `data.frame()`. Key differences:
+- Column values are evaluated left-to-right, so a later column can reference an earlier one
+- It never converts strings to factors automatically
+- It prints only the first 10 rows in the console
+
+Inside the `tibble()`:
+- `paste0("TXN-", str_pad(1:n, 5, pad = "0"))` creates IDs like "TXN-00001". `str_pad()` left-pads numbers with zeros to ensure consistent 5-digit formatting.
+- `sample(seq(...), n, replace = TRUE)` generates `n` random dates from the 2023 calendar year. `seq()` creates a sequence of Date objects one day apart. `replace = TRUE` means dates can repeat.
+- `sample(states, n, replace = TRUE, prob = c(...))` draws states with unequal probability — Lagos (0.25) appears most often, mimicking real Nigerian population distribution.
+- `round(runif(n, 500, 150000), -1)` generates random prices from N500 to N150,000, then rounds to the nearest 10 using the negative digits argument.
+- `sample(c(0, 0, 0, 5, 10, 15, 20), n, replace = TRUE)` — the repeated zeros mean no-discount transactions are three times more common than discounted ones.
+
+The final `mutate()` block injects missing values using `ifelse(runif(n) < 0.04, NA, ...)`. This generates a uniform random number for each row; if it falls below 0.04 (4% probability), the value becomes `NA`. This mimics real-world data entry gaps.
+
+```{r create-dataset}
+set.seed(42)
+n <- 1500
+
+states <- c("Lagos", "Abuja", "Kano", "Rivers", "Oyo",
+            "Delta", "Anambra", "Kaduna", "Enugu", "Ondo")
+
+regions <- c("South West", "North Central", "North West", "South South", "South West",
+             "South South", "South East", "North West", "South East", "South West")
+
+state_region <- tibble(state = states, region = regions)
+
+categories    <- c("Electronics", "Fashion & Apparel", "Food & Beverages",
+                   "Home & Kitchen", "Health & Beauty", "Agriculture & Farming")
+payment_methods <- c("Cash", "POS", "Bank Transfer", "Mobile Money")
+
+raw_retail <- tibble(
+  transaction_id   = paste0("TXN-", str_pad(1:n, 5, pad = "0")),
+  date             = sample(seq(as.Date("2023-01-01"), as.Date("2023-12-31"), by = "day"), n, replace = TRUE),
+  state            = sample(states, n, replace = TRUE, prob = c(0.25, 0.15, 0.12, 0.10, 0.09, 0.08, 0.07, 0.06, 0.05, 0.03)),
+  store_id         = paste0("STR-", sample(sprintf("%03d", 1:40), n, replace = TRUE)),
+  category         = sample(categories, n, replace = TRUE, prob = c(0.20, 0.22, 0.18, 0.15, 0.13, 0.12)),
+  units_sold       = sample(1:50, n, replace = TRUE),
+  unit_price_ngn   = round(runif(n, 500, 150000), -1),
+  discount_pct     = sample(c(0, 0, 0, 5, 10, 15, 20), n, replace = TRUE),
+  payment_method   = sample(payment_methods, n, replace = TRUE, prob = c(0.30, 0.35, 0.20, 0.15)),
+  customer_age     = sample(18:65, n, replace = TRUE),
+  customer_gender  = sample(c("Male", "Female"), n, replace = TRUE, prob = c(0.54, 0.46)),
+  returns          = sample(c(0, 1), n, replace = TRUE, prob = c(0.92, 0.08))
+) |>
+  mutate(
+    customer_age    = ifelse(runif(n) < 0.04, NA, customer_age),
+    discount_pct    = ifelse(runif(n) < 0.02, NA, discount_pct),
+    customer_gender = ifelse(runif(n) < 0.01, NA, customer_gender)
+  )
+
+cat("Dataset created:", nrow(raw_retail), "rows x", ncol(raw_retail), "columns\n")
+```
+
+---
+
+# Cell 3: First Look — glimpse()
+
+## Explanation
+
+`glimpse()` is the tidyverse alternative to `str()`. For each column it shows:
+- The column name
+- The R data type (`<chr>` = character/string, `<dbl>` = numeric/double, `<int>` = integer, `<date>` = Date object, `<lgl>` = logical TRUE/FALSE)
+- The first few values
+
+The key thing to check here: are the data types what you expect? `date` should be `<date>` not `<chr>`. `unit_price_ngn` should be `<dbl>` not `<chr>`. If a numeric column loaded as character, it usually means there are non-numeric characters like commas (e.g., "1,500") or currency symbols mixed into the values.
+
+```{r first-look}
+glimpse(raw_retail)
+```
+
+---
+
+# Cell 4: View First 10 Rows — head()
+
+## Explanation
+
+`head(df, n)` returns the first `n` rows. It is the fastest sanity check: do the values look sensible? Are transaction IDs in the right format? Are prices in a realistic range? Are dates formatted correctly?
+
+In an R Markdown document with `df_print: paged` in the YAML header, the output renders as an interactive paginated table — you can scroll columns and pages directly in the HTML output.
+
+```{r head}
+head(raw_retail, 10)
+```
+
+---
+
+# Cell 5: Rich Summary — skim()
+
+## Explanation
+
+`skim()` from the `skimr` package is one of the most useful EDA functions in R. It divides the output into sections by data type and provides:
+
+For **character columns**: count, number of missing values, number of unique values, min and max string length, and the most common whitespace character count.
+
+For **numeric columns**: count, missing values, mean, standard deviation, percentiles (p0, p25, p50, p75, p100), and a tiny inline histogram showing the distribution shape.
+
+For **date columns**: count, missing values, the earliest and latest date.
+
+The inline histograms for numeric columns are especially valuable — a right-skewed histogram for `unit_price_ngn` immediately tells you that most transactions are low-priced with a few very expensive outliers, which you would need several lines of code to detect otherwise.
+
+```{r skim-summary}
+skim(raw_retail)
+```
+
+---
+
+# Cell 6: Check Missing Values
+
+## Explanation
+
+The goal here is to produce a clean summary table showing how many values are missing in each column and what percentage they represent.
+
+**`summarise(across(everything(), ~ sum(is.na(.))))`** applies the same function to every column simultaneously.
+- `across()` is dplyr's way of applying a function to multiple columns at once
+- `everything()` selects all columns
+- `~ sum(is.na(.))` is a lambda function: `~` introduces it, `.` represents the current column
+
+**`pivot_longer(everything(), names_to = "column", values_to = "missing_count")`** reshapes the result from wide format (one column per variable) to long format (one row per variable). This makes it easier to filter, sort, and display.
+
+**`arrange(desc(missing_count))`** sorts so columns with the most missing values appear first — exactly where you want to focus your attention.
+
+```{r missing-values}
+missing_summary <- raw_retail |>
+  summarise(across(everything(), ~ sum(is.na(.)))) |>
+  pivot_longer(everything(), names_to = "column", values_to = "missing_count") |>
+  mutate(
+    missing_pct = round(missing_count / nrow(raw_retail) * 100, 2),
+    has_missing = missing_count > 0
+  ) |>
+  arrange(desc(missing_count))
+
+missing_summary |> kable(caption = "Missing Value Summary")
+```
+
+---
+
+# Cell 7: Clean Column Names — janitor
+
+## Explanation
+
+`clean_names()` from `janitor` applies a consistent naming convention to all column names:
+- Converts to lowercase
+- Replaces spaces and special characters with underscores
+- Removes leading/trailing underscores
+- Handles duplicate names by adding numeric suffixes
+
+In our dataset, the names are already clean since we defined them, but this is standard practice whenever loading external data. Column names with spaces (e.g., "Customer Age") must be referenced with backticks in R: `` `Customer Age` ``. After `clean_names()`, they become plain `customer_age` — much easier to type.
+
+```{r clean-names}
+retail <- raw_retail |>
+  clean_names()
+
+names(retail)
+```
+
+---
+
+# Cell 8: Feature Engineering
+
+## Explanation
+
+Feature engineering means creating new columns derived from existing ones. This is one of the most important steps in EDA and machine learning preparation.
+
+**`left_join(state_region, by = "state")`** merges the region lookup table. A left join keeps all rows from the left table (`retail`) and brings in matching columns from the right table (`state_region`). The `by = "state"` argument tells R which column to match on.
+
+**Revenue calculation:** `revenue_ngn = units_sold * unit_price_ngn * (1 - discount_pct / 100)`. This is the gross revenue after discount. The `replace_na()` call handles rows where `discount_pct` is NA — we treat missing discounts as zero discount, so the formula falls back to `units_sold * unit_price_ngn`.
+
+**Date decomposition with lubridate:**
+- `month(date, label = TRUE, abbr = TRUE)` extracts the month as an ordered factor ("Jan", "Feb"...) — `label = TRUE` gives names instead of numbers
+- `quarter(date)` returns 1, 2, 3, or 4; we paste "Q" in front to get "Q1", "Q2" etc.
+- `week(date)` returns the ISO week number (1-53)
+- `wday(date, label = TRUE, abbr = FALSE)` returns the day name as an ordered factor ("Monday", "Tuesday"...)
+
+**`case_when()`** is dplyr's vectorised if-else — equivalent to Excel's nested IFs. Each condition is evaluated in order; the first match wins. The final `TRUE ~` is the catch-all default (like the final `else`). We use it to create `price_tier` and `age_group` categorical bins.
+
+**`is_weekend`** uses `%in%` to check if the day name is in a vector of weekend days. This returns TRUE or FALSE for each row.
+
+```{r feature-engineering}
+retail <- retail |>
+  left_join(state_region, by = "state") |>
+  mutate(
+    revenue_ngn     = units_sold * unit_price_ngn * (1 - discount_pct / 100),
+    revenue_ngn     = replace_na(revenue_ngn, units_sold * unit_price_ngn),
+    month           = month(date, label = TRUE, abbr = TRUE),
+    quarter         = paste0("Q", quarter(date)),
+    week_number     = week(date),
+    day_of_week     = wday(date, label = TRUE, abbr = FALSE),
+    is_weekend      = day_of_week %in% c("Saturday", "Sunday"),
+    price_tier      = case_when(
+      unit_price_ngn < 5000  ~ "Budget",
+      unit_price_ngn < 30000 ~ "Mid-Range",
+      unit_price_ngn < 80000 ~ "Premium",
+      TRUE                   ~ "Luxury"
+    ),
+    age_group       = case_when(
+      customer_age < 25 ~ "18-24",
+      customer_age < 35 ~ "25-34",
+      customer_age < 45 ~ "35-44",
+      customer_age < 55 ~ "45-54",
+      TRUE              ~ "55+"
+    ),
+    discount_applied = !is.na(discount_pct) & discount_pct > 0
+  )
+
+glimpse(retail)
+```
+
+---
+
+# Cell 9: Handle Missing Values
+
+## Explanation
+
+Three strategies are applied here, each appropriate to the variable type:
+
+**`customer_age`** — we impute with the median. The median is more robust than the mean for age data because it is not pulled by outliers. `na.rm = TRUE` tells R to compute the median ignoring NA values (without it, any NA in the column makes the result NA).
+
+**`discount_pct`** — we replace NA with 0. The reasoning: a missing discount record most likely means no discount was applied, not that the discount is unknown. This is a domain-knowledge decision, not a statistical one.
+
+**`customer_gender`** — we replace NA with the string "Unknown". For categorical variables with a small proportion of missing values, creating an explicit "Unknown" category is often better than imputing with the mode, because it preserves the information that the value was missing.
+
+`ifelse(condition, value_if_true, value_if_false)` is applied column-by-column using `mutate()`. After this cell, `sum(is.na(retail))` confirms zero remaining missing values.
+
+```{r handle-missing}
+retail <- retail |>
+  mutate(
+    customer_age    = ifelse(is.na(customer_age), median(customer_age, na.rm = TRUE), customer_age),
+    discount_pct    = ifelse(is.na(discount_pct), 0, discount_pct),
+    customer_gender = ifelse(is.na(customer_gender), "Unknown", customer_gender)
+  )
+
+cat("Missing values remaining:", sum(is.na(retail)), "\n")
+```
+
+---
+
+# Cell 10: Revenue Summary Statistics
+
+## Explanation
+
+`summarise()` collapses the entire data frame down to a single summary row. Each expression inside becomes one column in the output.
+
+- `n()` counts the number of rows — no column argument needed, it simply counts the current group
+- `sum()`, `mean()`, `median()`, `min()`, `max()` are standard aggregation functions; all take `na.rm = TRUE` by default in practice (though our missing values are already handled)
+- `round(... * 100, 2)` computes the return rate as a percentage rounded to two decimal places
+
+**`mutate(across(ends_with("_ngn"), ~ comma(.)))`** formats all columns whose name ends in "_ngn" with comma separators. `across()` plus `ends_with()` is a powerful pattern — instead of repeating `mutate(col1 = comma(col1), col2 = comma(col2), ...)`, one line handles all matching columns.
+
+`kable(caption = "...")` wraps the tibble in an HTML table with a caption. The `caption` argument is automatically numbered by knitr.
+
+```{r revenue-summary}
+retail |>
+  summarise(
+    total_transactions = n(),
+    total_revenue_ngn  = sum(revenue_ngn),
+    avg_revenue_ngn    = mean(revenue_ngn),
+    median_revenue_ngn = median(revenue_ngn),
+    min_revenue_ngn    = min(revenue_ngn),
+    max_revenue_ngn    = max(revenue_ngn),
+    total_units_sold   = sum(units_sold),
+    total_returns      = sum(returns),
+    return_rate_pct    = round(sum(returns) / n() * 100, 2)
+  ) |>
+  mutate(across(ends_with("_ngn"), ~ comma(.))) |>
+  kable(caption = "Overall Revenue Summary")
+```
+
+---
+
+# Cell 11: Revenue by State
+
+## Explanation
+
+This is the classic `group_by()` + `summarise()` pattern — the most used combination in dplyr.
+
+**`group_by(state, region)`** splits the data into groups. Every subsequent operation is performed independently within each group. Grouping by both `state` and `region` means the region column is preserved in the output (since it is a grouping variable, not a summarised one).
+
+**`.groups = "drop"`** removes the grouping after summarising. Without this argument, the output remains grouped and subsequent operations might behave unexpectedly. As of dplyr 1.0, R warns you to specify this explicitly.
+
+**`arrange(desc(total_revenue_ngn))`** sorts the result in descending order of revenue. `desc()` wraps the column name to reverse the sort direction.
+
+**`mutate(across(ends_with("_ngn"), ~ paste0("N", comma(round(., 0)))))`** formats the Naira columns with the N prefix and comma separators, rounding to the nearest Naira. This is done in a final `mutate()` after sorting so that the sort operates on numeric values, not formatted strings.
+
+```{r revenue-by-state}
+revenue_by_state <- retail |>
+  group_by(state, region) |>
+  summarise(
+    transactions       = n(),
+    total_revenue_ngn  = sum(revenue_ngn),
+    avg_revenue_ngn    = mean(revenue_ngn),
+    total_units        = sum(units_sold),
+    .groups = "drop"
+  ) |>
+  arrange(desc(total_revenue_ngn))
+
+revenue_by_state |>
+  mutate(across(ends_with("_ngn"), ~ paste0("N", comma(round(., 0))))) |>
+  kable(caption = "Revenue by State")
+```
+
+---
+
+# Cell 12: Revenue by Category
+
+## Explanation
+
+The same `group_by()` + `summarise()` pattern applied to `category`. Notice:
+
+**`avg_unit_price = mean(unit_price_ngn)`** uses the original raw price column, not the derived `revenue_ngn`. This gives the typical price point for each category regardless of units sold.
+
+**`return_rate_pct = round(sum(returns) / n() * 100, 2)`** — the `returns` column is binary (0 or 1), so `sum(returns)` counts the number of returned transactions. Dividing by `n()` gives the proportion; multiplying by 100 converts to a percentage.
+
+The `starts_with("avg_unit")` selector in `across()` catches the `avg_unit_price` column alongside the `_ngn` columns for formatting.
+
+```{r revenue-by-category}
+revenue_by_cat <- retail |>
+  group_by(category) |>
+  summarise(
+    transactions      = n(),
+    total_revenue_ngn = sum(revenue_ngn),
+    avg_unit_price    = mean(unit_price_ngn),
+    avg_units_sold    = mean(units_sold),
+    return_rate_pct   = round(sum(returns) / n() * 100, 2),
+    .groups = "drop"
+  ) |>
+  arrange(desc(total_revenue_ngn))
+
+revenue_by_cat |>
+  mutate(across(ends_with("_ngn") | starts_with("avg_unit"), ~ paste0("N", comma(round(., 0))))) |>
+  kable(caption = "Revenue by Product Category")
+```
+
+---
+
+# Cell 13: Monthly Revenue Trend
+
+## Explanation
+
+Grouping by `month` produces an ordered factor (Jan through Dec) because we used `label = TRUE` in the `month()` call during feature engineering. R respects factor ordering when displaying tables and plotting — so January automatically comes before February without any manual sorting.
+
+Grouping by both `month` and `quarter` allows the `quarter` column to appear in the output for context, even though we are not aggregating separately by quarter here.
+
+```{r monthly-trend}
+monthly_revenue <- retail |>
+  group_by(month, quarter) |>
+  summarise(
+    total_revenue_ngn = sum(revenue_ngn),
+    transactions      = n(),
+    .groups = "drop"
+  )
+
+monthly_revenue |>
+  mutate(total_revenue_ngn = paste0("N", comma(round(total_revenue_ngn, 0)))) |>
+  kable(caption = "Monthly Revenue Summary")
+```
+
+---
+
+# Cell 14: Payment Method Analysis
+
+## Explanation
+
+**`share_pct = round(n() / nrow(retail) * 100, 2)`** — within a `summarise()`, `n()` gives the count in the current group, while `nrow(retail)` gives the total rows in the full data frame. The ratio gives each payment method's share of all transactions.
+
+This is a useful pattern: `nrow(df)` inside `summarise()` always refers to the full dataset size, not the group size, allowing you to compute proportions directly.
+
+```{r payment-analysis}
+retail |>
+  group_by(payment_method) |>
+  summarise(
+    count          = n(),
+    share_pct      = round(n() / nrow(retail) * 100, 2),
+    avg_revenue    = round(mean(revenue_ngn), 0),
+    total_revenue  = sum(revenue_ngn),
+    .groups = "drop"
+  ) |>
+  arrange(desc(count)) |>
+  kable(caption = "Payment Method Breakdown")
+```
+
+---
+
+# Cell 15: Customer Demographics
+
+## Explanation
+
+**`filter(customer_gender != "Unknown")`** removes the imputed "Unknown" records before computing gender-based statistics. It would be misleading to include "Unknown" as a gender category in a demographics analysis.
+
+Grouping by two variables (`customer_gender` and `age_group`) produces a cross-tabulation — you see every combination of gender and age group. `arrange(customer_gender, age_group)` sorts alphabetically by gender first, then by age group within each gender.
+
+```{r demographics}
+retail |>
+  filter(customer_gender != "Unknown") |>
+  group_by(customer_gender, age_group) |>
+  summarise(
+    count          = n(),
+    avg_revenue    = round(mean(revenue_ngn), 0),
+    total_revenue  = round(sum(revenue_ngn), 0),
+    .groups = "drop"
+  ) |>
+  arrange(customer_gender, age_group) |>
+  kable(caption = "Revenue by Gender and Age Group")
+```
+
+---
+
+# Cell 16: Discount Impact Analysis
+
+## Explanation
+
+`discount_applied` is a logical column (TRUE/FALSE) created during feature engineering. Grouping by both `discount_applied` and `discount_pct` lets us see the breakdown by exact discount level.
+
+The `filter()` removes an impossible combination: rows where `discount_applied` is FALSE but `discount_pct` is greater than 0. These would be contradictions introduced by NA handling — filtering them out keeps the table clean.
+
+The business question this answers: does offering a discount actually increase units sold? And does it affect the return rate? A higher return rate among discounted transactions could indicate customers buying impulsively due to promotions.
+
+```{r discount-analysis}
+retail |>
+  group_by(discount_applied, discount_pct) |>
+  summarise(
+    transactions   = n(),
+    avg_units_sold = round(mean(units_sold), 2),
+    avg_revenue    = round(mean(revenue_ngn), 0),
+    return_rate    = round(mean(returns) * 100, 2),
+    .groups = "drop"
+  ) |>
+  filter(!(discount_applied == FALSE & discount_pct > 0)) |>
+  kable(caption = "Discount vs Revenue and Returns")
+```
+
+---
+
+# Cell 17: Weekend vs Weekday
+
+## Explanation
+
+`is_weekend` is a logical column (TRUE/FALSE). After grouping and summarising, `mutate(day_type = ifelse(is_weekend, "Weekend", "Weekday"))` converts it to a readable label.
+
+`select()` reorders and picks the columns we want to display, dropping `is_weekend` from the final output since it has been replaced by the more readable `day_type`.
+
+The business insight: if weekend average revenue is higher, the company might want to schedule promotions on weekdays to boost those numbers. If weekend transaction volume is lower, it might indicate store operating hours or staffing constraints.
+
+```{r weekend-analysis}
+retail |>
+  group_by(is_weekend) |>
+  summarise(
+    transactions    = n(),
+    avg_revenue_ngn = round(mean(revenue_ngn), 0),
+    total_revenue   = round(sum(revenue_ngn), 0),
+    avg_units       = round(mean(units_sold), 2),
+    .groups = "drop"
+  ) |>
+  mutate(day_type = ifelse(is_weekend, "Weekend", "Weekday")) |>
+  select(day_type, transactions, avg_revenue_ngn, total_revenue, avg_units) |>
+  kable(caption = "Weekend vs Weekday Performance")
+```
+
+---
+
+# Cell 18: Price Tier Cross-Tabulation — pivot_wider()
+
+## Explanation
+
+`count(price_tier, category)` counts the number of transactions for every combination of `price_tier` and `category`, producing a long-format table with three columns: `price_tier`, `category`, and `n`.
+
+**`pivot_wider(names_from = price_tier, values_from = n, values_fill = 0)`** reshapes this to wide format:
+- `names_from = price_tier` — the unique values in `price_tier` become new column names
+- `values_from = n` — the `n` counts fill the cells
+- `values_fill = 0` — any combination that does not exist gets a 0 instead of NA
+
+This is R's equivalent of a pivot table in Excel. The `pivot_wider()` / `pivot_longer()` pair from `tidyr` handles all reshape operations in the tidyverse.
+
+```{r price-tier}
+retail |>
+  count(price_tier, category) |>
+  pivot_wider(names_from = price_tier, values_from = n, values_fill = 0) |>
+  kable(caption = "Transactions by Category and Price Tier")
+```
+
+---
+
+# Cell 19: Chart 1 — Revenue by State (Horizontal Bar)
+
+## Explanation
+
+Every ggplot2 chart follows the same grammar pattern:
+1. `ggplot(data, aes(...))` — defines the dataset and aesthetic mappings
+2. `geom_*()` — adds a geometric layer (bars, lines, points, etc.)
+3. `scale_*()` — controls how data values map to visual properties
+4. `labs()` — sets text labels
+5. `theme_*()` and `theme()` — controls non-data appearance
+
+**`aes(x = state, y = total_revenue / 1e6, fill = total_revenue)`** maps:
+- `x` to the state column
+- `y` to revenue in millions (dividing by 1,000,000)
+- `fill` to revenue value, enabling a colour gradient
+
+**`fct_reorder(state, total_revenue)`** from `forcats` reorders the `state` factor levels by `total_revenue`, so bars are sorted from lowest to highest before `coord_flip()` makes it read top-to-bottom.
+
+**`coord_flip()`** rotates the chart 90 degrees — horizontal bar charts are easier to read when category labels are long.
+
+**`scale_fill_gradient(low = "#8ecae6", high = "#023047")`** applies a continuous fill colour gradient from light blue (low revenue) to dark blue (high revenue). This double-encodes the revenue information — both bar length and colour convey the same value, making the chart more scannable.
+
+**`scale_y_continuous(labels = function(x) paste0("N", x, "M"))`** defines a custom label formatter using an anonymous function. Every tick label on the y-axis will show "N5M", "N10M" etc.
+
+**`theme_minimal(base_size = 13)`** applies a clean, white-background theme with the base font size set to 13 points. `theme()` then makes further tweaks: bolding the title and removing major horizontal grid lines (which are redundant behind horizontal bars).
+
+```{r chart-revenue-state}
+retail |>
+  group_by(state) |>
+  summarise(total_revenue = sum(revenue_ngn), .groups = "drop") |>
+  mutate(state = fct_reorder(state, total_revenue)) |>
+  ggplot(aes(x = state, y = total_revenue / 1e6, fill = total_revenue)) +
+  geom_col(show.legend = FALSE) +
+  coord_flip() +
+  scale_fill_gradient(low = "#8ecae6", high = "#023047") +
+  scale_y_continuous(labels = function(x) paste0("N", x, "M")) +
+  labs(
+    title    = "Total Revenue by State (2023)",
+    subtitle = "Nigerian Retail Sales Dataset - 1,500 Transactions",
+    x        = NULL,
+    y        = "Total Revenue (Millions NGN)",
+    caption  = "Source: NigeriaRetail Co. Dataset | Prodigy Training Hub"
+  ) +
+  theme_minimal(base_size = 13) +
+  theme(
+    plot.title         = element_text(face = "bold"),
+    plot.subtitle      = element_text(colour = "grey50"),
+    panel.grid.major.y = element_blank()
+  )
+```
+
+---
+
+# Cell 20: Chart 2 — Lollipop Chart
+
+## Explanation
+
+A lollipop chart is a cleaner alternative to a bar chart when you have many categories — it reduces ink and visual clutter while preserving the same information.
+
+**`geom_segment(aes(xend = category, yend = 0), ...)`** draws a vertical line from each category's revenue value down to zero. The `xend = category` means the line stays at the same x position as the point above it; `yend = 0` means it extends to the baseline.
+
+**`geom_point(size = 5, colour = "#e63946")`** draws the dot at the top of each stick. It must come after `geom_segment()` in the code so it renders on top of the line.
+
+This is a two-layer chart: `geom_segment` provides the stick, `geom_point` provides the dot. In ggplot2, layers are rendered in the order they appear in the code.
+
+```{r chart-category-lollipop}
+retail |>
+  group_by(category) |>
+  summarise(total_revenue = sum(revenue_ngn), .groups = "drop") |>
+  mutate(category = fct_reorder(category, total_revenue)) |>
+  ggplot(aes(x = category, y = total_revenue / 1e6)) +
+  geom_segment(aes(xend = category, yend = 0), colour = "#457b9d", linewidth = 1) +
+  geom_point(size = 5, colour = "#e63946") +
+  coord_flip() +
+  scale_y_continuous(labels = function(x) paste0("N", x, "M")) +
+  labs(title = "Revenue by Product Category (2023)", x = NULL,
+       y = "Total Revenue (Millions NGN)", caption = "Source: NigeriaRetail Co. Dataset | Prodigy Training Hub") +
+  theme_minimal(base_size = 13) +
+  theme(plot.title = element_text(face = "bold"), panel.grid.major.y = element_blank())
+```
+
+---
+
+# Cell 21: Chart 3 — Monthly Trend Line
+
+## Explanation
+
+**`as.integer(month)`** converts the ordered factor (Jan=1, Feb=2...) to integers so that `scale_x_continuous()` can control tick placement and labels properly. Using the factor directly on a continuous scale sometimes causes spacing issues.
+
+**`group = 1`** inside `aes()` tells `geom_line()` to connect all points into one line. Without it, ggplot tries to group points by the x variable (month) and produces a disconnected dot chart.
+
+**`scale_colour_manual(values = c(Q1 = ..., Q2 = ..., Q3 = ..., Q4 = ...))`** assigns explicit hex colours to each quarter. Named vectors ensure the right colour maps to the right label regardless of the order they appear in the data.
+
+The combination of a line (showing trend continuity) and coloured points (showing quarterly position) on the same chart is a common and effective pattern for time series data.
+
+```{r chart-monthly-trend}
+monthly_revenue |>
+  ggplot(aes(x = as.integer(month), y = total_revenue_ngn / 1e6, group = 1)) +
+  geom_line(colour = "#2a9d8f", linewidth = 1.2) +
+  geom_point(aes(colour = quarter), size = 4) +
+  scale_x_continuous(breaks = 1:12, labels = month.abb) +
+  scale_y_continuous(labels = function(x) paste0("N", x, "M")) +
+  scale_colour_manual(values = c(Q1 = "#264653", Q2 = "#2a9d8f", Q3 = "#e9c46a", Q4 = "#e76f51")) +
+  labs(title = "Monthly Revenue Trend (2023)", x = NULL, y = "Revenue (Millions NGN)",
+       colour = "Quarter", caption = "Source: NigeriaRetail Co. Dataset | Prodigy Training Hub") +
+  theme_minimal(base_size = 13) +
+  theme(plot.title = element_text(face = "bold"))
+```
+
+---
+
+# Cell 22: Chart 4 — Donut Chart
+
+## Explanation
+
+ggplot2 does not have a native donut geometry. The technique is:
+1. Build a stacked bar chart with `geom_col()` mapping `y` to percentage and `fill` to category
+2. Apply `coord_polar(theta = "y")` to wrap the y-axis into a circle
+3. Limit the x-axis with `xlim(0.5, 2.5)` — the centre hole appears because x starts at 0.5 instead of 0
+
+**`position_stack(vjust = 0.5)`** inside `geom_text()` places each label at the midpoint (vertically) of its slice. Without this, labels would appear at the edge.
+
+The donut chart is appropriate for part-to-whole relationships with 4-6 categories. For more categories, a bar chart is clearer.
+
+```{r chart-payment-donut}
+payment_data <- retail |>
+  count(payment_method) |>
+  mutate(pct = n / sum(n),
+         label = paste0(payment_method, "\n", percent(pct, accuracy = 0.1)))
+
+ggplot(payment_data, aes(x = 2, y = pct, fill = payment_method)) +
+  geom_col(width = 1, colour = "white", linewidth = 0.5) +
+  coord_polar(theta = "y") +
+  xlim(0.5, 2.5) +
+  scale_fill_manual(values = c("Cash" = "#264653", "POS" = "#2a9d8f",
+                               "Bank Transfer" = "#e9c46a", "Mobile Money" = "#e76f51")) +
+  geom_text(aes(label = label), position = position_stack(vjust = 0.5),
+            colour = "white", size = 3.5, fontface = "bold") +
+  labs(title = "Payment Method Distribution (2023)", fill = NULL,
+       caption = "Source: NigeriaRetail Co. Dataset | Prodigy Training Hub") +
+  theme_void(base_size = 13) +
+  theme(plot.title = element_text(face = "bold", hjust = 0.5), legend.position = "none")
+```
+
+---
+
+# Cell 23: Chart 5 — Faceted Bar Chart
+
+## Explanation
+
+**`facet_wrap(~ region, scales = "free_y")`** creates a separate panel for each region. The `~` is R's formula notation — it means "facet by the variable on the right side". `scales = "free_y"` allows each panel to have its own y-axis scale, which is appropriate when regions have very different revenue magnitudes. Use `scales = "fixed"` when you want all panels on the same scale for direct comparison.
+
+**`str_wrap(category, width = 12)`** from `stringr` wraps long category names by inserting newlines every 12 characters. This prevents x-axis label overlap in the small facet panels.
+
+**`scale_fill_brewer(palette = "Set2")`** uses a ColorBrewer qualitative palette — a curated set of colours designed for categorical data that are distinguishable even in grayscale and for colour-blind viewers.
+
+```{r chart-region-category-facet}
+retail |>
+  group_by(region, category) |>
+  summarise(total_revenue = sum(revenue_ngn) / 1e6, .groups = "drop") |>
+  mutate(category = str_wrap(category, width = 12)) |>
+  ggplot(aes(x = category, y = total_revenue, fill = region)) +
+  geom_col(position = "dodge") +
+  facet_wrap(~ region, scales = "free_y") +
+  scale_fill_brewer(palette = "Set2") +
+  scale_y_continuous(labels = function(x) paste0("N", x, "M")) +
+  labs(title = "Revenue by Category across Geopolitical Regions (2023)",
+       x = NULL, y = "Revenue (Millions NGN)", fill = "Region",
+       caption = "Source: NigeriaRetail Co. Dataset | Prodigy Training Hub") +
+  theme_minimal(base_size = 11) +
+  theme(plot.title = element_text(face = "bold"), legend.position = "none",
+        axis.text.x = element_text(angle = 35, hjust = 1, size = 8))
+```
+
+---
+
+# Cell 24: Chart 6 — Boxplot
+
+## Explanation
+
+A boxplot shows five key statistics simultaneously:
+- The box spans from the 25th percentile (Q1) to the 75th percentile (Q3) — this range is the Interquartile Range (IQR)
+- The line inside the box is the median (50th percentile)
+- The whiskers extend to the most extreme value within 1.5 x IQR from the box edges
+- Points beyond the whiskers are plotted individually as outliers
+
+**`fct_reorder(category, unit_price_ngn, median)`** reorders categories by their median price, making the chart read from cheapest to most expensive. The third argument `median` specifies the summary function to use for ordering.
+
+**`alpha = 0.7`** makes the box fill 70% opaque, allowing the box border to remain visible. `outlier.alpha = 0.4` makes outlier dots semi-transparent to reduce visual clutter when many outliers stack.
+
+```{r chart-boxplot-price}
+retail |>
+  mutate(category = fct_reorder(category, unit_price_ngn, median)) |>
+  ggplot(aes(x = category, y = unit_price_ngn / 1000, fill = category)) +
+  geom_boxplot(alpha = 0.7, outlier.colour = "#e63946", outlier.alpha = 0.4) +
+  coord_flip() +
+  scale_fill_brewer(palette = "Pastel1") +
+  scale_y_continuous(labels = function(x) paste0("N", x, "K")) +
+  labs(title = "Unit Price Distribution by Product Category", x = NULL,
+       y = "Unit Price (Thousands NGN)", caption = "Source: NigeriaRetail Co. Dataset | Prodigy Training Hub") +
+  theme_minimal(base_size = 13) +
+  theme(plot.title = element_text(face = "bold"), legend.position = "none")
+```
+
+---
+
+# Cell 25: Chart 7 — Heatmap
+
+## Explanation
+
+A heatmap encodes a numeric value as colour across a two-dimensional grid. It is ideal for spotting patterns across combinations of two categorical variables — in this case, which month-day combinations generate the highest average transaction values.
+
+**`geom_tile()`** draws a rectangle for each row in the data. Each tile's fill colour maps to `avg_revenue`.
+
+**`factor(day_of_week, levels = c("Monday", ...))`** re-levels the day factor to run Monday to Sunday from top to bottom. Without this, ggplot would sort alphabetically (Friday, Monday, Saturday, Sunday, Thursday, Tuesday, Wednesday).
+
+**`scale_fill_gradient(low = "#caf0f8", high = "#023e8a")`** maps low values to a pale blue and high values to a dark navy. The gradient choice is intentional: it reads intuitively (darker = more intense).
+
+```{r chart-heatmap}
+retail |>
+  group_by(month, day_of_week) |>
+  summarise(avg_revenue = mean(revenue_ngn) / 1000, .groups = "drop") |>
+  mutate(day_of_week = factor(day_of_week,
+    levels = c("Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"))) |>
+  ggplot(aes(x = month, y = day_of_week, fill = avg_revenue)) +
+  geom_tile(colour = "white", linewidth = 0.5) +
+  scale_fill_gradient(low = "#caf0f8", high = "#023e8a",
+                      labels = function(x) paste0("N", x, "K")) +
+  labs(title = "Average Transaction Value Heatmap (Month x Day of Week)",
+       x = NULL, y = NULL, fill = "Avg Revenue",
+       caption = "Source: NigeriaRetail Co. Dataset | Prodigy Training Hub") +
+  theme_minimal(base_size = 12) +
+  theme(plot.title = element_text(face = "bold"), axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+---
+
+# Cell 26–32: Remaining Charts and Summary
+
+## Explanation for Cells 26-28
+
+**Cell 26 — Stacked Bar (Demographics):** `position = "stack"` stacks male and female revenue on top of each other for each age group. Compare to `position = "dodge"` (bars side by side) or `position = "fill"` (bars normalised to 100% for proportion comparison).
+
+**Cell 27 — Scatter with Facets and Regression Lines:** `geom_smooth(method = "lm", se = FALSE)` adds a linear regression line without the confidence interval ribbon. `se = FALSE` removes the grey ribbon; include it (the default) when you want to show uncertainty. `sample_n(500)` draws a random sample to prevent overplotting — with 1,500 points in 6 facets, a sample of 500 is cleaner.
+
+**Cell 28 — Quarterly Regional Chart:** When faceting by region was done in Cell 23, this cell groups instead by `quarter` and `region` to show how each region performs across the four quarters — useful for detecting seasonal patterns that differ by geography.
+
+**Cell 32 — Key Insights Summary:** `pull()` extracts a single column from a tibble as a plain R vector. `slice_max(rev, n=1)` is a concise way to get the row with the maximum value of `rev`. The `cat()` function prints formatted text to the console without the `[1]` prefix that `print()` adds.
+
+```{r chart-demographics-stacked}
+retail |>
+  filter(customer_gender != "Unknown") |>
+  group_by(age_group, customer_gender) |>
+  summarise(total_revenue = sum(revenue_ngn) / 1e6, .groups = "drop") |>
+  ggplot(aes(x = age_group, y = total_revenue, fill = customer_gender)) +
+  geom_col(position = "stack") +
+  scale_fill_manual(values = c(Male = "#457b9d", Female = "#e63946")) +
+  scale_y_continuous(labels = function(x) paste0("N", x, "M")) +
+  labs(title = "Total Revenue by Age Group and Gender", x = "Age Group",
+       y = "Revenue (Millions NGN)", fill = "Gender",
+       caption = "Source: NigeriaRetail Co. Dataset | Prodigy Training Hub") +
+  theme_minimal(base_size = 13) +
+  theme(plot.title = element_text(face = "bold"))
+```
+
+```{r chart-scatter}
+retail |>
+  sample_n(500) |>
+  ggplot(aes(x = units_sold, y = revenue_ngn / 1000, colour = category)) +
+  geom_point(alpha = 0.5, size = 2) +
+  geom_smooth(method = "lm", se = FALSE, linewidth = 0.8) +
+  facet_wrap(~ category, scales = "free_y") +
+  scale_colour_brewer(palette = "Dark2") +
+  scale_y_continuous(labels = function(x) paste0("N", x, "K")) +
+  labs(title = "Units Sold vs Revenue by Category", x = "Units Sold",
+       y = "Revenue (Thousands NGN)", caption = "Source: NigeriaRetail Co. Dataset | Prodigy Training Hub") +
+  theme_minimal(base_size = 11) +
+  theme(plot.title = element_text(face = "bold"), legend.position = "none")
+```
+
+```{r chart-quarterly-region}
+retail |>
+  group_by(quarter, region) |>
+  summarise(total_revenue = sum(revenue_ngn) / 1e6, .groups = "drop") |>
+  ggplot(aes(x = quarter, y = total_revenue, fill = region)) +
+  geom_col(position = "dodge") +
+  scale_fill_brewer(palette = "Set1") +
+  scale_y_continuous(labels = function(x) paste0("N", x, "M")) +
+  labs(title = "Quarterly Revenue by Geopolitical Region", x = "Quarter",
+       y = "Revenue (Millions NGN)", fill = "Region",
+       caption = "Source: NigeriaRetail Co. Dataset | Prodigy Training Hub") +
+  theme_minimal(base_size = 13) +
+  theme(plot.title = element_text(face = "bold"))
+```
+
+```{r return-analysis}
+retail |>
+  group_by(region, category) |>
+  summarise(return_rate = round(mean(returns) * 100, 2), .groups = "drop") |>
+  pivot_wider(names_from = category, values_from = return_rate, values_fill = 0) |>
+  kable(caption = "Return Rate (%) by Region and Category")
+```
+
+```{r insights-summary}
+top_state    <- retail |> group_by(state) |> summarise(rev = sum(revenue_ngn)) |> slice_max(rev, n=1) |> pull(state)
+top_cat      <- retail |> group_by(category) |> summarise(rev = sum(revenue_ngn)) |> slice_max(rev, n=1) |> pull(category)
+top_payment  <- retail |> count(payment_method) |> slice_max(n, n=1) |> pull(payment_method)
+best_quarter <- retail |> group_by(quarter) |> summarise(rev = sum(revenue_ngn)) |> slice_max(rev, n=1) |> pull(quarter)
+total_rev    <- sum(retail$revenue_ngn)
+return_rate  <- mean(retail$returns) * 100
+
+cat("========================================\n")
+cat("  NIGERIAN RETAIL EDA - KEY INSIGHTS\n")
+cat("========================================\n")
+cat("Total Revenue:         N", comma(round(total_rev, 0)), "\n")
+cat("Total Transactions:   ", nrow(retail), "\n")
+cat("Top State:            ", top_state, "\n")
+cat("Top Category:         ", top_cat, "\n")
+cat("Preferred Payment:    ", top_payment, "\n")
+cat("Best Quarter:         ", best_quarter, "\n")
+cat("Overall Return Rate:  ", round(return_rate, 2), "%\n")
+cat("========================================\n")
+```
