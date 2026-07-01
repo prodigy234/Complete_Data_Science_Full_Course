@@ -1,0 +1,406 @@
+StudentID,StudentName,Class,Gender,DateOfBirth,Subject,CA_Score,ExamScore,TotalScore,Grade,GuardianName,GuardianRelationship,GuardianPhone,State,TermSession,FeesPaid
+STU3189,SADIQ OLAWALE,Jss 1,Female,10/29/2013,Agricultural Science,,150,100,D,Kunle Ajayi,father,33950047974,Kano,First Term 2025,No
+STU3294,Ibrahim Ogundimu,SS1,Female,09/28/2014,Mathematics,1,76,76,D,tobi balogun,Mother,07532697311,Enugu,2025/2026 First Term,no
+STU3028,ifeoma afolabi,JSS1,M,13.06.2007,Further Mathematics,30,-5,0,Distinction,Aliyu Lawal,Father,234-399-091-699,Enugu,"2025/2026, Term 1",yes
+STU3205,Chinedu Okafor,Jss 1,M,2013-02-21,English Language,N/A,1,1,D,  Musa Eze,father,93308330165,Ogun,2025-2026 1st Term,No
+STU3018,Funmilayo Olawale   ,SS 1,F,01/17/2010,Biology,24,17,17,Distinction,CHIOMA LAWAL,MOTHER,71331509839,Plateau,2025-2026 1st Term,0
+STU3090,Amaka Mohammed,SS 1,F,20/04/2008,Computer Studies,28,105,100,B,Chinedu Olawale,Mother,(846) 773-7826,Port Harcourt,"2025/2026, Term 1",N
+STU3080,Fatima Olawale,SS3,M,16-Sep-2008,Civic Education,31,72,72,C,Chidi Suleiman,Father,03618324210,Akwa Ibom,2025/2026 First Term,Yes
+STU3099,  Emeka Bello,JSS3,Female,18 October 2007,  ,10,93,93,C,Wale Afolabi,Mother,(386) 922-2196,Plateau,"2025/2026, Term 1",no
+STU3235,Obinna Afolabi,JSS2,F,2008/11/03,Basic Science,30,105,100,a,Kemi Lawal,Guardian,01753556093,Ogun,2025/2026 First Term,Y
+STU3344,ADAEZE SULEIMAN,SS3,F,02/05/2012,Basic Science,1,18,18,C,BOLA MOHAMMED,MOTHER,+234720506149,Edo,First Term 2025,Y
+STU3218,Blessing Okafor,SS2,F,2014/01/11,Geography,34,-5,0,Distinction,  Ifeoma Olawale,Father,234-187-072-867,Delta,2025/2026 First Term,no
+STU3349,Kunle Bello,SS2,M,22.11.2014,Mathematics,--,,100,F,Amaka Nnamdi,Uncle,0687 937 4160,Kano,"2025/2026, Term 1",Yes
+STU3227,ADAEZE MOHAMMED,JSS1,M,2013/07/10,Computer Studies,32,88,88,Distinction,Bisi Okonkwo,Guardian,42836440892,Plateau,First Term 2025,No
+STU3203,  ZAINAB NWOSU,Jss 1,F,10/11/2015,Chemistry,40,23,23,A,  Grace Adekunle,Guardian,(866) 524-0415,KANO,"2025/2026, Term 1",0
+STU3208,Chidi Balogun,Jss 1,Male,2016-06-19,Biology,19,105,100,B,Segun Suleiman,Guardian,+234672400499,Anambra,2025/2026 First Term,1
+STU3363,Ibrahim Ajayi,SS1,Female,21/02/2014,Agricultural Science,21,93,unknown,a,FUNMILAYO OKAFOR   ,MOTHER,invalid,Delta,2025/2026 First Term,0
+STU3185,Funmilayo Ogundimu,SS1,F,2011-08-21,Mathematics,10,150,100,Pass,GRACE CHUKWU,Aunt,0592 555 6258,Anambra,"2025/2026, Term 1",Yes
+STU3337,Chinedu Okeke,JSS3,M,2007/11/12,Physics,0,97,97,A,  Musa Okonkwo,Uncle,234-513-552-157,Imo,First Term 2025,false
+STU3165,  kunle balogun,SS3,M,19/07/2009,Chemistry,31,105,--,E,Musa Nwosu,Uncle,+234486874034,Plateau,"2025/2026, Term 1",1
+STU3001,TUNDE OKAFOR,JSS1,Male,03/04/2014,Further Mathematics,1,31,31,a,Emeka Ogundimu   ,father,234-043-321-819,Rivers State,2025/2026 First Term,No
+STU3239,GRACE ADEYEMI,SS3,Male,24.02.2015,Biology,18,105,100,a,  EMEKA EZE,Uncle,0006 231 2038,Enugu,2025/2026 First Term,N
+STU3202,Adaeze Ajayi,SS2,Male,17/11/2008,Further Mathematics,4,150,100,E,  KEMI ADEKUNLE,Mother,234-375-758-441,Cross River,2025-2026 1st Term,yes
+STU3389,Kunle Yusuf,SS 1,Female,2009/12/02,Computer Studies,12,40,N/A,a,Kemi Suleiman   ,MOTHER,55794155216,Rivers,2025-2026 1st Term,TRUE
+STU3023,Obinna Olawale,SS3,M,2007/04/28,Basic Science,NULL,-5,0,Pass,Femi Nwosu,Father,0473 178 1080,Plateau,2025-2026 1st Term,yes
+STU3318,Ngozi Adekunle,JSS3,F,2013-08-23,Mathematics,40,65,65,Distinction,ALIYU OGUNDIMU,Guardian,(474) 112-4903,Plateau,2025-2026 1st Term,yes
+STU3112,Zainab Okonkwo,JSS3,Male,27.10.2010,Computer Studies,4,2,2,B,funmilayo yusuf,father,40537735158,Kaduna,2025-2026 1st Term,false
+STU3296,Kunle Okeke,JSS3,M,05.01.2013,Basic Science,20,150,,Distinction,Wale Okeke,father,+234999404389,Lagos,2025/2026 First Term,yes
+STU3044,Yusuf Ajayi,jss1,F,29-Sep-2008,Mathematics,32,-5,0,Distinction,  Obinna Nnamdi,Father,+234482366299,Cross River,2025-2026 1st Term,yes
+STU3047,Bisi Lawal,ss3,M,2017/09/01,Chemistry,28,150,100,E,   amara adeyemi,Guardian,01343320037,Edo,2025/2026 First Term,FALSE
+STU3273,Blessing Ajayi,JSS1,F,,Computer Studies,26,88,88,a,Femi  Balogun   ,MOTHER,0579 249 9125,Edo,2025/2026 First Term,no
+STU3156,Amaka Adekunle,ss3,Male,20-Oct-2017,Civic Education,35,105,100,Fail,Kemi Suleiman,Aunt,+234615305152,Cross River,First Term 2025,0
+STU3210,Sadiq Suleiman,JSS1,Female,04/10/2016,Basic Science,NIL,74,  ,A,  Ifeoma Yusuf,Father,01527420549,ABUJA,2025-2026 1st Term,No
+STU3167,Zainab Ogundimu,SS3,F,27/05/2008,Further Mathematics,nil,1,1,C,Fatima Adekunle   ,Mother,0775 841 6169,Kano,2025/2026 First Term,N
+STU3321,Obinna Yusuf,JSS1,F,10.05.2010,Agricultural Science,unknown,150,100,A,  Segun Okonkwo,Aunt,+234323651994,Enugu,2025/2026 First Term,0
+STU3213,Halima Eze,Jss 1,Female,04/26/2008,Economics,9,150,100,C,YUSUF ADEYEMI,Aunt,0990 453 0174,Lagos,2025-2026 1st Term,Y
+STU3236,Segun  Chukwu,SS1,Female,2016-05-21,Further Mathematics,4,-5,0,Fail,Funmilayo Adeyemi,Guardian,0000000000,Ogun,2025/2026 First Term,no
+STU3390,Halima Bello,SS1,M,20.09.2016,Physics,37,105,100,B,Chidi Chukwu,Uncle,0674 676 2120,Plateau,2025-2026 1st Term,false
+STU3234,MUSA OLAWALE,SS1,M,17-Apr-2011,Basic Science,34,150,100,A,aliyu eze,Father,46785445877,Akwa Ibom,First Term 2025,false
+STU3123,Chinedu Nwosu,jss1,M,12/25/2015,Agricultural Science,33,-5,0,Fail,Tobi Chukwu,Uncle,234-711-116-152,Edo,First Term 2025,yes
+STU3063,  femi eze,ss3,F,10.10.2012,Computer Studies,20,30,30,C,Obinna  Nnamdi,Uncle,+234058651850,Kano,2025/2026 First Term,Yes
+STU3346,Funmilayo Eze,Jss 1,Female,2016/09/10,Geography,NIL,150,100,Fail,Bisi Okonkwo,father,07741862565,Kaduna,First Term 2025,Yes
+STU3077,Amara Okonkwo,SS3,F,2017-08-21,Geography,26,150,100,Pass,emeka nwosu,Aunt,0964 990 9133,Anambra,2025-2026 1st Term,1
+STU3211,Fatima Afolabi   ,SS1,Male,2016-01-09,Computer Studies,17,105,100,Fail,yusuf ogundimu   ,father,+234966851612,Lagos,2025/2026 First Term,Yes
+STU3088,Zainab Abubakar,jss1,F,2012-03-05,Chemistry,9,37,?,Pass,Amara Bello,Father,234-477-109-324,Plateau,2025/2026 First Term,No
+STU3159,Aliyu Lawal,Jss 1,M,18/12/2015,Biology,24,-5,0,E,yusuf suleiman,Mother,+234369711798,Enugu,First Term 2025,no
+STU3229,segun mohammed   ,JSS3,Female,10/01/2014,Chemistry,5,-5,0,A,  Bisi Lawal   ,Aunt,0462 873 3427,Abuja,2025/2026 First Term,No
+STU3122,Emeka Chukwu,Jss 1,M,06.05.2007,Chemistry,5,57,57,Distinction,Bisi Abubakar,Uncle,65766156545,lagos,2025-2026 1st Term,FALSE
+STU3341,Ngozi Olawale,ss3,Male,22 October 2015,Agricultural Science,31,nil,100,Fail,Sadiq Balogun,Father,234-262-181-599,Kaduna,2025/2026 First Term,No
+STU3151,Bisi  Okonkwo,jss1,F,14/03/2016,Economics,32,-5,0,C,Obinna Ajayi,Father,+234706537947,Imo,2025/2026 First Term,true
+STU3368,Tobi Bello,ss3,M,07-Feb-2016,Physics,20,-5,0,E,Ngozi Afolabi   ,father,+234652074466,Enugu,"2025/2026, Term 1",No
+STU3261,Segun Afolabi,jss1,F,25.12.2009,Computer Studies,23,85,85,Fail,bola balogun,Uncle,74167243426,Imo,2025-2026 1st Term,FALSE
+STU3120,Ifeoma Olawale,SS3,Male,10.06.2011,Further Mathematics,17,105,100,D,Ngozi Yusuf,Uncle,01249985698,kano,"2025/2026, Term 1",TRUE
+STU3380,Bola Okeke,JSS1,Female,08/08/2009,Mathematics,28,-,100,D,Ibrahim  Mohammed   ,Guardian,+234033230982,Delta,First Term 2025,N
+STU3279,Tunde Eze,SS1,Female,2009-02-27,Mathematics,30,76,76,A,adaeze mohammed,Guardian,(978) 819-1485,Cross River,2025-2026 1st Term,Y
+STU3116,Zainab Suleiman,SS2,Female,04-Aug-2011,Further Mathematics,31,-5,0,E,  Amaka Ajayi,Father,01020539502,Oyo,"2025/2026, Term 1",0
+STU3290,Zainab Lawal,SS 1,F,04/03/2016,Basic Science,28,-5,0,Fail,Funmilayo Okeke,Guardian,0520 643 6110,Kaduna,First Term 2025,1
+STU3104,Wale Afolabi,SS3,M,03 January 2016,Civic Education,32,105,100,Fail,ADAEZE BELLO,Guardian,0953 394 2104,LAGOS,First Term 2025,false
+STU3031,Chidi Yusuf,Jss 1,F,04 March 2010,Economics,24,105,100,D,amara bello   ,father,0251 354 2784,Enugu,2025-2026 1st Term,0
+STU3171,   Tobi Lawal,JSS3,Female,11/16/2012,Biology,12,-5,0,Pass,Halima Ajayi,Father,N/A,Edo,"2025/2026, Term 1",No
+STU3334,Wale Adekunle,JSS3,Female,20-Feb-2011,Further Mathematics,30,9,9,E,  ngozi balogun,Uncle,54522675289,Enugu,First Term 2025,Y
+STU3346,Funmilayo Eze,Jss 1,Female,2016/09/10,Geography,NIL,150,100,Fail,Bisi Okonkwo,father,07741862565,Kaduna,First Term 2025,Yes
+STU3351,Zainab Suleiman,JSS3,F,06.12.2013,English Language,15,73,73,D,Chidi Bello,father,,ABUJA,2025/2026 First Term,No
+STU3117,Tobi Adekunle,Jss 1,M,2017-01-13,English Language,9,105,-,Fail,  aliyu okeke,Aunt,0026 811 7758,Ogun,2025-2026 1st Term,0
+STU3359,Halima Nnamdi,SS3,F,2008-05-16,Civic Education,5,105,100,D,ZAINAB BALOGUN,Uncle,+234486289023,Delta,2025/2026 First Term,no
+STU3312,Zainab Ajayi,JSS2,F,2010/05/24,Basic Science,40,105,100,B,Tunde Lawal,Aunt,06038505064,Plateau,2025/2026 First Term,FALSE
+STU3058,Tobi Ogundimu,SS 1,M,2008/09/20,Computer Studies,n/a,47,47,Fail,Tunde Adekunle,father,0653 755 6464,Kano,"2025/2026, Term 1",Y
+STU3209,Fatima Yusuf,Jss 1,Female,05/30/2014,?,15,-5,0,E,Obinna  Suleiman,Guardian,54788728743,lagos,"2025/2026, Term 1",true
+STU3048,Halima Bello,ss3,Female,30-Aug-2013,Chemistry,3,74,74,B,HALIMA OKONKWO,Aunt,234-769-367-632,Imo,First Term 2025,1
+STU3319,Sadiq Balogun,JSS2,Male,16/02/2014,Agricultural Science,3,-5,0,A,  Aliyu Nnamdi,father,21356804420,ABUJA,2025-2026 1st Term,false
+STU3134,Chidi Okafor,JSS1,Male,30 July 2012,English Language,32,51,51,F,Segun Adeyemi,Aunt,83885160607,Kaduna,"2025/2026, Term 1",No
+STU3127,Obinna Bello,JSS1,M,24 October 2011,Mathematics,0,68,68,F,IBRAHIM  MOHAMMED,Father,234-094-024-455,Delta,First Term 2025,1
+STU3304,Kemi Okafor,SS2,F,2007-09-08,Geography,21,74,74,D,  segun bello,Father,0000000000,Plateau,2025-2026 1st Term,Yes
+STU3131,Bisi Adeyemi,SS3,M,18-Jul-2016,Mathematics,29,84,84,a,GRACE OKONKWO   ,Mother,(643) 815-6149,Delta,"2025/2026, Term 1",Y
+STU3238,Kemi Balogun,jss1,M,11-Oct-2010,Economics,32,105,100,A,Grace Nnamdi,father,234-228-728-080,Imo,"2025/2026, Term 1",FALSE
+STU3384,bisi suleiman,ss3,Male,20 October 2009,Agricultural Science,16,105,,Pass,Adaeze  Chukwu,Father,(891) 411-7393,Anambra,First Term 2025,No
+STU3037,Femi Eze,SS3,Male,19-Dec-2009,Unknown,20,-5,unknown,E,  GRACE AFOLABI   ,Father,(586) 923-2260,Rivers State,"2025/2026, Term 1",FALSE
+STU3326,amara nnamdi   ,JSS2,Male,2015/09/25,Economics,12,-5,Unknown,Distinction,Funmilayo Yusuf,Father,0838 065 7875,Anambra,First Term 2025,TRUE
+STU3118,Bola Bello,ss3,Female,09.05.2010,Further Mathematics,10,150,100,a,bola afolabi   ,Guardian,01783908470,Fct Abuja,First Term 2025,yes
+STU3072,Segun Nwosu,SS2,Male,2014-05-01,Mathematics,14,105,100,Distinction,Segun Afolabi,MOTHER,+234134352408,Edo,2025/2026 First Term,TRUE
+STU3258,Ibrahim Bello,JSS3,Female,2016/11/26,Physics,30,-5,0,B,Kunle Afolabi,Father,234-569-245-937,Kaduna,2025-2026 1st Term,Y
+STU3231,Zainab Lawal,JSS2,Female,18-Jul-2016,Computer Studies,32,75,75,B,Blessing Eze,father,invalid,Delta,2025/2026 First Term,1
+STU3191,Tobi Olawale,SS3,M,02/17/2015,Biology,1,2,2,C,amara ajayi,father,09835841687,Lagos,"2025/2026, Term 1",N
+STU3271,Femi Mohammed,JSS3,Female,23-Jul-2015,Agricultural Science,35,unknown,100,Distinction,IBRAHIM OKONKWO,MOTHER,234-191-825-537,Akwa Ibom,2025-2026 1st Term,FALSE
+STU3306,Ibrahim Ajayi,SS 1,Male,26.04.2011,Civic Education,35,150,100,B,obinna suleiman,Father,07925241913,LAGOS,"2025/2026, Term 1",yes
+STU3049,BISI OLAWALE,ss3,Female,02 August 2011,Geography,22,-5,0,C,musa balogun,father,16328708317,Edo,2025/2026 First Term,true
+STU3333,Tunde Nwosu,JSS2,M,25/11/2008,English Language,38,36,36,C,TOBI AFOLABI,Guardian,234-921-851-569,Imo,"2025/2026, Term 1",true
+STU3275,Grace Bello,SS 1,Female,17 March 2016,English Language,38,150,100,B,Ngozi Adekunle,Guardian,96627828274,Lagos,First Term 2025,true
+STU3244,Fatima Yusuf,ss3,F,2011-06-30,Computer Studies,8,73,73,E,Fatima Balogun,Aunt,06668700217,Imo,2025-2026 1st Term,No
+STU3128,Tobi Mohammed   ,JSS3,Female,16 December 2016,Computer Studies,7,45,  ,E,Bisi Suleiman   ,MOTHER,,Enugu,"2025/2026, Term 1",1
+STU3256,Blessing Okeke,jss1,Male,22/08/2016,Civic Education,27,150,100,Distinction,  Chidi Suleiman,father,46471543799,Imo,"2025/2026, Term 1",N
+STU3026,Aliyu Ajayi,ss3,Male,2015/07/29,Economics,13,150,NULL,C,FEMI BALOGUN,Father,09805009788,Oyo,"2025/2026, Term 1",No
+STU3284,Blessing Okonkwo,Jss 1,F,26-Oct-2012,Computer Studies,37,150,100,Pass,sadiq nwosu,MOTHER,(422) 325-3672,Abuja,First Term 2025,0
+STU3036,Yusuf Abubakar,SS2,Female,29.08.2011,Basic Science,18,-5,0,B,Ngozi Nwosu,MOTHER,02620450533,Cross River,"2025/2026, Term 1",Yes
+STU3314,MUSA OKONKWO,JSS1,Male,31 August 2016,Mathematics,34,-5,0,D,Ibrahim Adeyemi,Uncle,0386 571 9182,Plateau,First Term 2025,TRUE
+STU3364,Emeka Lawal,SS2,Female,10/16/2016,English Language,6,150,100,Pass,Chidi Chukwu,Father,234-290-349-446,Plateau,First Term 2025,TRUE
+STU3066,Ibrahim Lawal,ss3,M,2013/04/24,Mathematics,unknown,47,47,Distinction,Amara Nwosu,Aunt,0379 965 0752,Rivers,2025-2026 1st Term,Yes
+STU3356,Bola Bello,JSS2,F,19-Apr-2013,Agricultural Science,20,unknown,100,E,ALIYU EZE,Aunt,,Edo,2025/2026 First Term,0
+STU3220,SEGUN BALOGUN   ,JSS2,Female,18.12.2013,Civic Education,--,58,58,C,Obinna Chukwu   ,Father,+234651801704,Akwa Ibom,First Term 2025,1
+STU3040,Obinna Ogundimu,SS1,Male,18.09.2007,Computer Studies,19,65,unknown,a,Aliyu  Eze   ,Aunt,+234586850142,Oyo,First Term 2025,1
+STU3246,Sadiq Abubakar,jss1,Female,unknown date,Economics,28,36,36,Pass,Bola Okafor,Mother,14890250392,Enugu,First Term 2025,No
+STU3285,Segun Nwosu,jss1,F,26-Oct-2012,Economics,31,150,100,D,  kemi balogun,father,234-667-116-845,Imo,2025-2026 1st Term,No
+STU3317,Funmilayo Adekunle,JSS2,Female,2017-03-13,Basic Science,31,28,28,E,Femi Adekunle,Uncle,12775618537,Edo,"2025/2026, Term 1",0
+STU3262,Grace Nnamdi,SS3,M,unknown date,Agricultural Science,39,150,100,D,Ifeoma Suleiman,MOTHER,0617 979 6886,Cross River,2025-2026 1st Term,yes
+STU3076,Tobi Adeyemi,SS 1,Female,14.09.2013,Civic Education,32,105,100,Distinction,Funmilayo Okeke,Mother,(869) 993-8677,kano,2025/2026 First Term,TRUE
+STU3343,Emeka Suleiman,JSS2,M,2015/11/13,Mathematics,29,-5,0,a,BISI AFOLABI,Uncle,68844431069,Delta,2025/2026 First Term,yes
+STU3385,YUSUF ADEKUNLE,JSS1,Female,10.12.2011,Agricultural Science,NIL,63,63,E,Kemi Okafor,Aunt,08356420873,Abuja,2025/2026 First Term,TRUE
+STU3272,Halima Yusuf,SS2,Male,05/06/2016,Mathematics,35,150,100,Fail,Kunle Olawale,father,+234785969691,Edo,First Term 2025,no
+STU3137,Ngozi Mohammed,SS1,Female,2016/01/10,Physics,22,150,100,C,Halima Suleiman   ,Uncle,68164535218,Plateau,"2025/2026, Term 1",true
+STU3132,Chioma Chukwu,Jss 1,Male,08-Nov-2013,null,  ,87,87,Distinction,Emeka Olawale,father,234-403-690-034,Edo,"2025/2026, Term 1",Y
+STU3274,Amaka Bello,JSS1,Male,11/25/2017,Economics,14,49,49,F,Fatima Balogun,Uncle,03412528669,oyo,2025/2026 First Term,N
+STU3224,Fatima Lawal,SS3,F,04.06.2011,Computer Studies,24,150,100,Pass,SADIQ SULEIMAN,MOTHER,+234106903311,Cross River,"2025/2026, Term 1",false
+STU3278,  Ifeoma Balogun,SS2,F,07 July 2010,Basic Science,14,7,7,Pass,Chioma Ogundimu,father,0903 404 3842,Anambra,First Term 2025,FALSE
+STU3003,Fatima Adekunle,JSS3,Female,26-Dec-2010,Further Mathematics,40,87,87,A,Emeka Adeyemi   ,Aunt,234-379-402-654,Kano,"2025/2026, Term 1",true
+STU3383,Bisi Okafor,JSS1,Male,2009/06/05,Computer Studies,18,105,100,Distinction,Chidi Okeke,Mother,00461849926,Oyo,First Term 2025,No
+STU3094,Blessing Okeke,JSS2,Male,03 October 2015,Further Mathematics,23,105,100,Pass,  Femi Abubakar,Guardian,05766270289,Delta,First Term 2025,no
+STU3310,Chioma Yusuf,JSS2,M,02/27/2015,Geography,35,150,100,Distinction,Sadiq Adeyemi,Mother,0445 187 0534,Oyo,2025-2026 1st Term,N
+STU3169,Ngozi Chukwu,JSS1,M,2013/09/08,English Language,6,105,100,F,  Kunle Ogundimu,Guardian,0275 705 9640,Plateau,"2025/2026, Term 1",TRUE
+STU3192,Blessing Yusuf,JSS1,F,03/03/2011,Civic Education,30,38,38,C,Bisi Eze,father,0000000000,Plateau,2025/2026 First Term,Yes
+STU3330,sadiq ajayi,Jss 1,Female,20-Nov-2009,Biology,30,56,56,C,Fatima  Okeke,Mother,0590 599 2937,Edo,2025-2026 1st Term,No
+STU3268,Sadiq Okonkwo,JSS2,Male,29 December 2007,Further Mathematics,3,-5,0,Fail,IFEOMA  OKAFOR,MOTHER,14010512382,Akwa Ibom,"2025/2026, Term 1",No
+STU3186,Yusuf Olawale,JSS3,Male,2015-08-13,Economics,28,19,19,D,  Chinedu Ajayi,MOTHER,0000000000,KANO,"2025/2026, Term 1",0
+STU3140,Aliyu Adekunle,SS2,Male,2007/06/16,Biology,2,16,  ,Distinction,Amaka Yusuf,Guardian,+234955271774,Anambra,2025/2026 First Term,TRUE
+STU3111,Amaka Okonkwo,SS3,Male,2017-06-27,Basic Science,36,-5,0,Pass,  FEMI YUSUF   ,Father,07586926179,Kaduna,2025-2026 1st Term,Y
+STU3354,Chioma Abubakar,JSS2,M,09/30/2012,Agricultural Science,31,-5,0,E,Amaka Olawale,Guardian,01914856467,Delta,2025-2026 1st Term,Yes
+STU3292,Bisi Eze,JSS3,M,10/11/2007,Biology,4,-5,0,F,Chidi Bello   ,Mother,62713611155,Delta,"2025/2026, Term 1",0
+STU3095,Amaka Balogun,jss1,Female,01.09.2016,Chemistry,13,99,99,Distinction,femi okonkwo,MOTHER,17187026217,Akwa Ibom,2025/2026 First Term,Y
+STU3188,Amara Chukwu,JSS2,M,28/05/2015,Mathematics,17,-5,0,D,MUSA ADEYEMI,Uncle,(787) 747-0168,Imo,First Term 2025,1
+STU3177,Femi  Abubakar,jss1,M,23 May 2012,Chemistry,26,150,100,Distinction,Grace Okafor,MOTHER,+234829114678,Delta,2025/2026 First Term,N
+STU3200,Wale Afolabi,Jss 1,F,10/11/2013,Economics,0,150,100,Fail,Kemi  Afolabi   ,Uncle,08578652785,Ogun,"2025/2026, Term 1",false
+STU3097,Chinedu Balogun,SS 1,F,11-Jul-2013,Further Mathematics,31,-5,0,Distinction,Ngozi Okeke,Father,0091 343 1611,lagos,"2025/2026, Term 1",0
+STU3032,Adaeze Mohammed,Jss 1,Male,26-Oct-2017,n/a,26,75,nil,E,Funmilayo Ajayi,MOTHER,234-084-124-118,Edo,"2025/2026, Term 1",TRUE
+STU3070,Wale Balogun,JSS1,Female,31.08.2007,Geography,2,150,100,E,IFEOMA ADEYEMI   ,Guardian,68557444313,Anambra,"2025/2026, Term 1",Y
+STU3009,Adaeze Okonkwo,Jss 1,M,2017/02/13,Physics,35,-5,0,D,   Adaeze Okeke,Uncle,(413) 953-7672,Rivers,2025-2026 1st Term,No
+STU3149,Chioma Nwosu,Jss 1,Male,10/27/2009,Biology,14,-5,0,C,Yusuf Chukwu,Guardian,0573 322 1418,Edo,"2025/2026, Term 1",0
+STU3308,wale abubakar,ss3,Female,22-Aug-2013,Further Mathematics,23,-5,0,Distinction,  AMARA NWOSU,MOTHER,+234863536541,Delta,"2025/2026, Term 1",Y
+STU3007,  emeka balogun,JSS1,M,10/12/2009,Computer Studies,31,150,100,Distinction,amara  lawal,father,0255 341 9283,Enugu,"2025/2026, Term 1",false
+STU3288,Tobi Bello,ss3,Male,10/10/2011,Further Mathematics,21,-5,0,Distinction,Sadiq Bello,Mother,234-500-170-127,Ogun,"2025/2026, Term 1",true
+STU3352,Ibrahim Adekunle,SS1,F,03.08.2008,N/A,31,105,100,a,Ifeoma Olawale,Mother,16868548709,Ogun,2025/2026 First Term,No
+STU3160,Chioma Adekunle,SS1,Male,31.07.2016,Chemistry,27,73,73,C,OBINNA OKAFOR,Aunt,234-932-460-953,Cross River,"2025/2026, Term 1",yes
+STU3011,Segun Balogun,SS 1,M,19.06.2017,Civic Education,0,36,36,B,ifeoma mohammed,Guardian,28710122691,Kaduna,2025-2026 1st Term,true
+STU3378,Aliyu Adekunle,JSS1,Female,16.10.2010,Civic Education,39,42,N/A,a,Musa Ajayi,father,,Delta,2025-2026 1st Term,true
+STU3180,chioma okonkwo,JSS1,M,29.06.2012,Mathematics,35,-5,0,a,TOBI MOHAMMED,father,0225 358 4143,Kano,"2025/2026, Term 1",yes
+STU3129,Femi Adekunle,JSS1,M,21/05/2008,Chemistry,17,19,19,B,  HALIMA AJAYI   ,Mother,(675) 254-5991,kano,First Term 2025,Y
+STU3027,Emeka Adekunle,SS 1,Female,2014-09-16,Geography,nil,84,84,Distinction,Wale Yusuf,Guardian,0208 121 9136,Delta,2025/2026 First Term,FALSE
+STU3270,Zainab Adeyemi,JSS1,Female,22 April 2007,Agricultural Science,31,-5,0,E,Adaeze Olawale,Mother,06093796603,Oyo,2025/2026 First Term,N
+STU3206,Yusuf Adekunle,SS2,F,2014/10/20,Agricultural Science,20,59,59,A,  chioma bello,Uncle,+234120826773,Ogun,"2025/2026, Term 1",Y
+STU3010,Bola Nwosu,JSS1,Male,03 September 2013,Physics,20,72,72,D,KEMI BELLO,Father,,Abuja,First Term 2025,Y
+STU3340,Chioma Chukwu,JSS1,F,07.06.2015,Basic Science,18,89,  ,B,Zainab Nwosu,Mother,(327) 104-0541,Anambra,First Term 2025,0
+STU3243,Ifeoma Afolabi,jss1,M,23.07.2010,Mathematics,10,105,100,Distinction,Chidi  Suleiman   ,father,0156 793 3410,Cross River,2025-2026 1st Term,Yes
+STU3313,Chioma Lawal,JSS2,M,11.01.2009,Geography,11,-5,0,Fail,Kunle Nnamdi,MOTHER,+234383670241,Edo,2025/2026 First Term,Y
+STU3214,Chinedu Lawal,ss3,M,2015/10/23,Biology,20,9,9,D,Chidi Afolabi,Uncle,0684 145 9332,Port Harcourt,2025-2026 1st Term,1
+STU3204,ngozi  nnamdi,SS 1,M,11-Dec-2009,Physics,17,105,  ,Distinction,Chioma Ogundimu,Mother,47338484219,Plateau,2025-2026 1st Term,no
+STU3369,Halima Ogundimu,jss1,F,21-Jul-2008,Further Mathematics,nil,-5,0,Distinction,Wale Yusuf,Aunt,00993538758,Cross River,"2025/2026, Term 1",Y
+STU3298,Chioma Nnamdi   ,SS1,Female,14 October 2016,Computer Studies,13,23,23,E,yusuf abubakar,Uncle,+234805526965,Oyo,"2025/2026, Term 1",No
+STU3042,Adaeze Okeke,jss1,Male,28 March 2013,Biology,6,71,71,D,sadiq eze   ,Mother,(693) 406-0883,Cross River,2025/2026 First Term,FALSE
+STU3217,Kunle Eze,JSS1,F,01/30/2016,Chemistry,15,63,63,E,Yusuf Ogundimu   ,MOTHER,39822587139,Enugu,2025-2026 1st Term,no
+STU3059,Zainab Ogundimu,SS 1,M,28.01.2017,English Language,40,-5,0,D,kunle mohammed,Uncle,(708) 053-1003,Rivers,2025/2026 First Term,No
+STU3232,Blessing Ajayi,Jss 1,M,2010/03/07,Further Mathematics,6,105,100,B,Ngozi Bello   ,Mother,+234139837354,Kaduna,2025-2026 1st Term,FALSE
+STU3305,Tunde Nnamdi,SS1,Male,01.10.2013,Agricultural Science,40,nil,96,Pass,Emeka Ajayi,Uncle,64814917785,Imo,2025/2026 First Term,false
+STU3372,Tunde Afolabi,SS1,F,2013-12-02,Basic Science,37,2,2,B,  Blessing Afolabi,Uncle,invalid,Lagos,"2025/2026, Term 1",Yes
+STU3333,Tunde Nwosu,JSS2,M,25/11/2008,English Language,38,36,36,C,TOBI AFOLABI,Guardian,234-921-851-569,Imo,"2025/2026, Term 1",true
+STU3184,Blessing Ogundimu,JSS1,Female,23-Mar-2008,Mathematics,18,150,100,A,Zainab  Nnamdi,Aunt,(647) 102-7677,Imo,2025-2026 1st Term,1
+STU3280,Ibrahim Ajayi,JSS3,Male,07.04.2012,Computer Studies,3,37,37,D,kunle balogun,Aunt,(078) 361-3407,Ogun,First Term 2025,FALSE
+STU3054,CHINEDU NNAMDI,JSS2,M,04 January 2013,Economics,32,91,91,a,Segun Adekunle   ,father,(036) 690-9670,Plateau,First Term 2025,Y
+STU3358,Bola Abubakar,JSS1,M,28/11/2008,Further Mathematics,19,47,47,a,Kemi Okonkwo   ,Mother,0137 367 8508,Edo,"2025/2026, Term 1",true
+STU3013,Emeka Eze,JSS3,Female,25.08.2014,Computer Studies,NIL,105,100,a,kunle nwosu   ,MOTHER,+234146270482,Akwa Ibom,"2025/2026, Term 1",no
+STU3017,aliyu nwosu,SS 1,M,24-Sep-2015,Basic Science,32,105,100,C,Chidi Lawal,MOTHER,89638346578,Kano,First Term 2025,N
+STU3309,Ibrahim Mohammed,SS2,Male,29.09.2013,Further Mathematics,30,85,85,a,ADAEZE OLAWALE,Mother,05180238061,Imo,2025-2026 1st Term,0
+STU3195,Amaka  Abubakar,Jss 1,Male,2010/09/23,Further Mathematics,29,150,100,Distinction,kemi chukwu,Guardian,02694958887,FCT,"2025/2026, Term 1",0
+STU3086,Ibrahim Afolabi,SS1,Female,02/20/2007,Physics,19,150,100,E,  Aliyu Yusuf,father,(154) 516-8087,Kano,First Term 2025,Yes
+STU3024,Amara Chukwu,SS 1,M,12-Jun-2014,Chemistry,16,-5,0,Fail,BISI OKONKWO,MOTHER,234-267-736-026,Abuja,First Term 2025,N
+STU3299,Segun Bello,ss3,F,31.08.2017,Physics,--,105,null,Distinction,Femi Mohammed,Guardian,(271) 091-0430,Delta,2025/2026 First Term,no
+STU3174,FEMI ADEKUNLE   ,SS2,Male,08/03/2015,Computer Studies,NIL,105,100,Fail,Femi Okeke   ,Mother,(947) 312-1727,kano,2025/2026 First Term,FALSE
+STU3006,Adaeze Nwosu,SS 1,Female,07-Sep-2009,Economics,10,105,100,D,Wale Suleiman,father,0103 413 1647,Imo,"2025/2026, Term 1",No
+STU3139,Adaeze Bello,JSS1,Male,06/14/2014,Physics,28,-5,0,F,Bisi Okeke,Guardian,32921277997,abuja,2025/2026 First Term,1
+STU3155,OBINNA OGUNDIMU,JSS3,Male,2014/03/07,n/a,5,150,100,a,  chioma okeke,Aunt,(613) 750-6068,Imo,First Term 2025,no
+STU3034,Amara Mohammed,JSS1,F,2017/03/27,Civic Education,4,-5,0,a,Zainab Adekunle,Father,(164) 005-2427,Kaduna,First Term 2025,false
+STU3367,   Ibrahim Balogun,SS3,Male,N/A,Agricultural Science,18,1,1,Fail,  Ngozi Balogun,Father,05454443283,Delta,First Term 2025,N
+STU3157,Blessing Okeke,SS3,F,23 August 2014,Mathematics,16,-5,0,F,Bola Suleiman,Guardian,04727790104,Edo,2025-2026 1st Term,0
+STU3158,Fatima Nwosu,JSS2,Male,2015/04/08,Further Mathematics,0,33,unknown,F,Musa Olawale,Uncle,(328) 986-1434,oyo,2025/2026 First Term,TRUE
+STU3323,Obinna Suleiman,jss1,Female,21/09/2011,Chemistry,8,91,91,D,Adaeze Olawale   ,Guardian,0296 670 6625,Kano,2025-2026 1st Term,N
+STU3371,Ifeoma Mohammed,ss3,Female,04/07/2009,Agricultural Science,7,80,80,A,  Amaka Nnamdi   ,Mother,(135) 346-5549,Oyo,"2025/2026, Term 1",true
+STU3053,wale eze,Jss 1,F,29/07/2010,NULL,9,42,42,B,  bisi yusuf,Aunt,03623166587,Akwa Ibom,"2025/2026, Term 1",FALSE
+STU3138,  ifeoma suleiman   ,JSS3,M,05/22/2015,Agricultural Science,18,150,100,Pass,Tunde Ajayi,Aunt,(188) 355-2312,Cross River,First Term 2025,false
+STU3043,Tobi Adekunle,SS3,Male,06/02/2017,Mathematics,25,-5,0,B,chidi nnamdi,father,(615) 951-4846,Ogun,2025/2026 First Term,Yes
+STU3386,Emeka Abubakar   ,SS3,M,2007/11/14,Computer Studies,18,105,n/a,Distinction,Chinedu Eze,Aunt,53001197218,Kaduna,2025-2026 1st Term,1
+STU3348,Zainab Ajayi,ss3,F,2010/03/06,English Language,34,11,11,A,Tobi Yusuf,Father,0115 869 3806,Fct Abuja,"2025/2026, Term 1",true
+STU3212,Yusuf Balogun,Jss 1,Female,2007/01/30,Further Mathematics,28,-5,0,A,Musa Okonkwo   ,Guardian,07530463745,Anambra,2025-2026 1st Term,N
+STU3245,Blessing Abubakar,jss1,M,2017-12-04,Agricultural Science,36,89,89,Pass,AMAKA LAWAL,MOTHER,59180339740,Delta,"2025/2026, Term 1",Y
+STU3079,Musa Abubakar,jss1,F,2014-10-20,Physics,23,-5,NIL,Pass,Bisi Olawale,Mother,07403447134,Oyo,"2025/2026, Term 1",yes
+STU3012,Sadiq Adekunle   ,SS2,Female,10 February 2014,Biology,N/A,62,62,C,Femi Adeyemi   ,Guardian,06697848018,Imo,First Term 2025,N
+STU3300,Zainab Lawal,jss1,M,2008-07-13,Civic Education,37,19,19,B,CHIOMA OKEKE,MOTHER,(684) 866-6188,Plateau,"2025/2026, Term 1",true
+STU3347,Ifeoma Yusuf,Jss 1,F,2010-05-21,Biology,27,105,100,C,blessing afolabi,Guardian,70477434902,Edo,"2025/2026, Term 1",true
+STU3254,Kemi Olawale,ss3,M,22/01/2016,Basic Science,N/A,  ,27,a,Sadiq Ajayi,father,60466183982,Edo,"2025/2026, Term 1",yes
+STU3187,Blessing Balogun,SS2,Female,N/A,Economics,,0,0,E,FUNMILAYO BALOGUN,Aunt,46963259532,Ogun,2025-2026 1st Term,0
+STU3125,Halima Yusuf,JSS3,M,01/08/2011,Basic Science,19,71,71,Distinction,Ibrahim Ogundimu,Aunt,+234451983273,Anambra,2025/2026 First Term,true
+STU3325,grace  adeyemi,JSS1,Male,unknown date,Agricultural Science,30,-5,0,E,  obinna chukwu,MOTHER,234-687-014-626,Kaduna,First Term 2025,false
+STU3338,Aliyu Okonkwo,JSS3,Female,20/07/2009,Agricultural Science,11,105,100,B,Amaka Ogundimu,Father,43315410067,Enugu,2025-2026 1st Term,yes
+STU3362,Obinna Nnamdi,JSS2,Female,24/10/2013,Physics,15,13,13,Distinction,  zainab bello,Guardian,+234552414060,Cross River,2025-2026 1st Term,no
+STU3103,Bola Adekunle,SS 1,M,not set,Further Mathematics,10,73,73,B,EMEKA  NNAMDI   ,Guardian,+234064090974,Rivers,2025/2026 First Term,TRUE
+STU3371,Ifeoma Mohammed,ss3,Female,04/07/2009,Agricultural Science,7,80,80,A,  Amaka Nnamdi   ,Mother,(135) 346-5549,Oyo,"2025/2026, Term 1",true
+STU3315,Segun Ajayi,JSS1,Female,N/A,Biology,13,65,65,F,Kemi Mohammed,father,0199 062 3445,Delta,2025/2026 First Term,yes
+STU3291,Amaka Okonkwo,Jss 1,F,11/15/2013,Physics,6,150,100,C,kemi suleiman,Mother,0712 938 7005,Cross River,2025/2026 First Term,no
+STU3376,Kunle Mohammed,JSS2,M,2007/05/17,Mathematics,33,105,100,Pass,halima chukwu,Uncle,0666 676 0083,Akwa Ibom,2025/2026 First Term,FALSE
+STU3237,Amara Bello,SS3,Female,2011-03-28,Computer Studies,12,105,100,Fail,fatima yusuf,Aunt,06937854777,Plateau,2025/2026 First Term,FALSE
+STU3173,Bisi Okeke,JSS3,Female,08 March 2008,Computer Studies,10,105,100,F,Femi Olawale,Guardian,(027) 868-1447,Anambra,2025-2026 1st Term,1
+STU3067,Zainab Eze,jss1,Female,03.06.2013,Civic Education,30,-5,n/a,Fail,fatima suleiman,Mother,(354) 549-4808,Kaduna,First Term 2025,true
+STU3083,Ifeoma Okeke,SS2,Male,15.05.2009,Chemistry,13,34,34,a,wale balogun,father,234-399-049-027,Enugu,2025-2026 1st Term,false
+STU3198,Ngozi Ogundimu,SS1,Female,2014-05-30,Biology,19,150,100,F,BOLA OKEKE,Guardian,(623) 091-3075,Lag,First Term 2025,No
+STU3190,ibrahim nnamdi,JSS3,Female,2010-06-14,Biology,30,41,41,Pass,Ngozi Ogundimu,Uncle,08016245650,Akwa Ibom,First Term 2025,FALSE
+STU3016,Blessing Abubakar,SS2,M,15.12.2011,Biology,19,94,NULL,Pass,Musa Balogun,Uncle,+234171822782,Rivers,2025/2026 First Term,No
+STU3336,Sadiq Mohammed,jss1,Female,07/08/2016,Agricultural Science,8,150,100,A,zainab  afolabi,MOTHER,+234902959391,lagos,2025/2026 First Term,N
+STU3259,sadiq nnamdi,SS3,Male,14 April 2016,Mathematics,9,105,100,B,Zainab Adeyemi,Father,(265) 479-3564,Ogun,2025/2026 First Term,TRUE
+STU3056,Kemi Eze,jss1,M,21-Sep-2010,Computer Studies,23,105,100,a,Bola Afolabi,Father,234-065-627-298,Ibadan,2025-2026 1st Term,false
+STU3130,  FEMI LAWAL   ,Jss 1,Female,11.06.2007,Civic Education,6,-5,0,E,KEMI OGUNDIMU,Guardian,234-290-147-679,Enugu,2025/2026 First Term,No
+STU3069,Fatima Abubakar,SS 1,Female,16/05/2012,Biology,21,-5,0,A,Femi Okonkwo,Mother,234-363-495-788,Kaduna,First Term 2025,true
+STU3075,Femi Bello,JSS1,M,2009/01/01,Biology,34,93,93,C,Kemi Abubakar   ,Uncle,07190229413,Kano,2025/2026 First Term,0
+STU3008,Tobi Eze,JSS2,Female,10 August 2007,Mathematics,27,-5,0,B,BLESSING  SULEIMAN,Father,+234648350305,Port Harcourt,2025-2026 1st Term,1
+STU3366,Kemi Chukwu,SS2,M,17 December 2008,Computer Studies,21,105,100,Distinction,kunle chukwu,Uncle,(085) 899-4417,Oyo,2025-2026 1st Term,yes
+STU3176,Sadiq Ajayi,SS1,Female,00/00/0000,Mathematics,38,105,100,a,ngozi mohammed,Guardian,(313) 237-0589,Enugu,2025-2026 1st Term,Y
+STU3350,Wale Okeke,JSS3,F,27 December 2015,Physics,14,105,100,Distinction,Kunle Bello,Guardian,09899217223,Lag,2025-2026 1st Term,Yes
+STU3264,Bisi Eze,SS1,Female,2007-07-15,Chemistry,36,38,38,D,Tunde Olawale,Mother,0965 610 1438,Fct Abuja,2025-2026 1st Term,0
+STU3373,Wale Chukwu,SS3,F,03/08/2017,Basic Science,22,105,100,C,  Kemi Yusuf,Uncle,+234684602235,Ogun,First Term 2025,Y
+STU3303,Grace Yusuf,Jss 1,Female,04/09/2011,Further Mathematics,12,21,21,Distinction,   TUNDE OKONKWO   ,Father,0990 421 0202,Delta,2025/2026 First Term,Yes
+STU3207,Obinna Eze,JSS2,Male,2014-03-28,Basic Science,1,105,100,A,tobi bello,Aunt,0540 193 8026,Delta,"2025/2026, Term 1",1
+STU3216,Sadiq Nnamdi,SS2,Male,2011/08/14,Chemistry,15,105,100,Distinction,Ngozi Okeke   ,father,01878519108,Enugu,"2025/2026, Term 1",0
+STU3124,Grace Yusuf,ss3,F,2009/12/05,Civic Education,1,66,66,a,Chioma Bello,Guardian,+234988516560,Edo,"2025/2026, Term 1",true
+STU3357,NGOZI BELLO,SS2,M,2010-03-10,Mathematics,35,68,null,Pass,Obinna Eze   ,MOTHER,,Kaduna,"2025/2026, Term 1",N
+STU3199,ibrahim okafor,JSS3,F,28 August 2016,Civic Education,23,150,100,C,  NGOZI OKAFOR,Uncle,+234636897028,Fct Abuja,"2025/2026, Term 1",false
+STU3033,Musa Balogun,JSS2,F,28.05.2007,Civic Education,6,-5,0,A,funmilayo adeyemi   ,Aunt,+234493534874,Port Harcourt,2025-2026 1st Term,0
+STU3181,Musa Olawale,ss3,Female,2017-03-15,Chemistry,33,16,16,C,Grace Okeke,Father,+234249818299,Plateau,2025/2026 First Term,no
+STU3282,Fatima Yusuf   ,JSS2,Male,03/26/2009,Basic Science,7,33,33,F,Kunle Chukwu,Uncle,09233095849,abuja,2025-2026 1st Term,N
+STU3301,SEGUN ADEYEMI,JSS3,M,2014/09/21,Geography,15,54,54,A,Tunde Balogun,Father,+234414183285,Imo,"2025/2026, Term 1",Y
+STU3089,Emeka Chukwu,jss1,M,16-Aug-2015,Basic Science,6,82,82,Distinction,zainab okeke,father,234-861-317-127,LAGOS,"2025/2026, Term 1",No
+STU3240,Kemi  Mohammed,JSS2,M,14.10.2008,Mathematics,26,150,100,a,amaka mohammed,father,(509) 977-0088,Oyo,2025-2026 1st Term,FALSE
+STU3242,Amaka Yusuf,JSS1,Female,15-Feb-2011,Mathematics,23,82,82,D,sadiq ogundimu,Guardian,+234823398454,oyo,"2025/2026, Term 1",true
+STU3082,Kunle Bello,SS1,M,30.12.2009,English Language,2,105,100,A,  Grace Okafor,Guardian,08771906594,Imo,2025/2026 First Term,N
+STU3345,adaeze balogun,JSS3,F,2016/04/24,Physics,0,-5,0,Distinction,musa mohammed,father,03103241714,Rivers,2025-2026 1st Term,0
+STU3281,Aliyu Olawale,JSS1,Female,12-May-2010,Basic Science,15,13,13,a,FATIMA  BELLO,Father,+234171339596,Oyo State,2025/2026 First Term,Yes
+STU3030,  Ibrahim Suleiman,JSS3,F,2008-10-10,Mathematics,17,70,70,Pass,femi mohammed,MOTHER,0107 991 1838,Kaduna,First Term 2025,Yes
+STU3109,Sadiq  Olawale,jss1,Female,02/24/2017,English Language,28,?,5,E,Obinna Afolabi   ,Uncle,(098) 593-1746,Kano,2025/2026 First Term,1
+STU3170,Femi Lawal,SS 1,Female,04/22/2010,Civic Education,16,150,100,Fail,Chioma Okonkwo,Guardian,65820297021,Anambra,"2025/2026, Term 1",N
+STU3064,Obinna Ajayi,JSS2,F,2010-02-26,Geography,25,-5,0,D,segun suleiman,MOTHER,71657262849,Ogun,2025/2026 First Term,Y
+STU3084,Bola Nnamdi,JSS2,M,14 February 2015,Further Mathematics,25,44,44,Pass,obinna nwosu,father,(742) 967-1756,Oyo,2025/2026 First Term,No
+STU3361,Emeka Okafor,SS 1,F,27/03/2008,Chemistry,5,23,23,a,HALIMA OLAWALE   ,father,+234103579727,oyo,First Term 2025,TRUE
+STU3379,Aliyu Lawal,JSS1,Female,05.12.2010,Agricultural Science,1,100,100,C,  Aliyu Afolabi   ,Guardian,234-985-625-753,Enugu,2025/2026 First Term,N
+STU3381,Zainab Yusuf,SS1,M,22 December 2011,Computer Studies,3,-5,0,Pass,  kemi balogun,father,05064890901,Kaduna,2025-2026 1st Term,Yes
+STU3196,Yusuf Yusuf,jss1,Male,2016/06/26,Computer Studies,19,73,73,Distinction,EMEKA SULEIMAN   ,father,0470 551 6940,Ogun,First Term 2025,TRUE
+STU3194,Segun Suleiman,JSS3,Male,2013-01-31,Computer Studies,3,-5,0,B,CHIOMA ADEYEMI,father,57872982595,Delta,First Term 2025,yes
+STU3230,Tobi  Okafor,SS2,M,20.05.2010,English Language,39,150,?,A,Halima Abubakar,Father,08668826343,Imo,2025-2026 1st Term,TRUE
+STU3226,Kunle Okafor,SS1,Male,2007-04-20,Basic Science,4,105,100,a,Sadiq Adekunle,Aunt,00284395995,Akwa Ibom,First Term 2025,Y
+STU3257,Adaeze Nnamdi,SS2,F,04/01/2015,Mathematics,22,-5,0,D,Obinna Chukwu,Aunt,37124065965,Edo,"2025/2026, Term 1",Y
+STU3029,CHIOMA SULEIMAN,JSS1,F,06/06/2014,Mathematics,39,-5,0,D,KEMI SULEIMAN,Father,(543) 534-6247,Cross River,2025-2026 1st Term,false
+STU3327,Segun Chukwu,JSS2,F,08 December 2017,Chemistry,10,80,80,A,Amara Adeyemi,father,(856) 420-5930,ABUJA,"2025/2026, Term 1",TRUE
+STU3302,Aliyu Adekunle,jss1,M,21.04.2016,Further Mathematics,5,150,100,C,Kemi Abubakar,MOTHER,09146303161,Abuja,"2025/2026, Term 1",TRUE
+STU3328,Chioma Bello   ,SS 1,F,2015/09/28,Economics,19,26,26,B,YUSUF NWOSU   ,Guardian,234-785-932-133,Akwa Ibom,2025/2026 First Term,true
+STU3247,Femi Adeyemi,ss3,Male,not set,Mathematics,19,105,100,Fail,ADAEZE OKEKE,Uncle,234-142-939-685,Plateau,"2025/2026, Term 1",Y
+STU3183,Kemi Afolabi,JSS2,Female,18-May-2017,Civic Education,31,85,85,a,Chioma Adeyemi,father,(396) 907-8447,Anambra,2025/2026 First Term,TRUE
+STU3201,Ngozi Nnamdi,ss3,Male,2007/11/24,Agricultural Science,4,59,59,Distinction,  Adaeze Olawale,Aunt,0549 733 4843,Kaduna,First Term 2025,yes
+STU3339,tunde balogun   ,SS2,Female,2008/03/20,Computer Studies,15,-5,0,Distinction,KUNLE  LAWAL,Guardian,0626 765 8617,Anambra,2025-2026 1st Term,no
+STU3287,Chidi Abubakar,Jss 1,F,18/07/2009,Chemistry,12,150,100,Pass,  BLESSING SULEIMAN,father,invalid,Kaduna,2025-2026 1st Term,1
+STU3150,Amara  Okonkwo,ss3,Female,unknown date,Geography,33,2,2,A,Ifeoma Yusuf,Uncle,0805 929 6222,Ogun,2025-2026 1st Term,FALSE
+STU3355,Halima Adekunle,SS 1,M,29/09/2017,Economics,20,150,100,D,tobi chukwu   ,Father,+234702462996,Delta,First Term 2025,N
+STU3154,Yusuf Eze,ss3,Male,2017/08/24,N/A,9,-5,null,D,Segun Balogun,father,81814124782,Ogun,2025/2026 First Term,Y
+STU3093,Ngozi Okonkwo,JSS1,F,29.03.2010,Computer Studies,35,57,57,a,  Zainab Ogundimu   ,Guardian,N/A,Anambra,First Term 2025,Y
+STU3248,Tunde Olawale,jss1,M,2009-12-02,Mathematics,16,-5,0,Pass,Bisi Mohammed,Mother,+234185016315,Rivers State,2025-2026 1st Term,false
+STU3179,  Adaeze Yusuf,SS3,Male,00/00/0000,Civic Education,24,-5,0,Pass,Sadiq Ajayi,father,N/A,Imo,First Term 2025,no
+STU3121,Segun Adeyemi,jss1,Female,22 September 2016,Biology,1,-5,0,A,Emeka Adeyemi,MOTHER,0789 611 8367,Edo,2025/2026 First Term,true
+STU3195,Amaka  Abubakar,Jss 1,Male,2010/09/23,Further Mathematics,29,150,100,Distinction,kemi chukwu,Guardian,02694958887,FCT,"2025/2026, Term 1",0
+STU3322,Ngozi Adekunle,Jss 1,F,2007-01-29,Civic Education,0,-5,0,D,IBRAHIM  ADEYEMI,father,0013 721 5107,Edo,First Term 2025,No
+STU3215,Ngozi Ogundimu,SS1,M,2011/03/10,Further Mathematics,17,-5,0,C,bisi olawale,Aunt,(279) 568-7833,Anambra,2025-2026 1st Term,No
+STU3304,Kemi Okafor,SS2,F,2007-09-08,Geography,21,74,74,D,  segun bello,Father,0000000000,Plateau,2025-2026 1st Term,Yes
+STU3382,Zainab Ogundimu,JSS2,Male,20 August 2009,Geography,1,97,NULL,a,Yusuf Afolabi   ,Father,234-167-618-472,Imo,First Term 2025,FALSE
+STU3107,Ngozi Eze,SS 1,M,03/22/2008,Basic Science,29,-5,0,E,AMAKA  AJAYI,Mother,0712 368 5160,Anambra,2025/2026 First Term,true
+STU3252,Aliyu Balogun,jss1,Male,unknown date,Physics,14,78,78,Fail,GRACE NNAMDI   ,Guardian,+234541212678,Edo,First Term 2025,N
+STU3035,Chinedu Bello,Jss 1,M,04/24/2010,Agricultural Science,22,1,1,C,Grace Eze,Aunt,+234801128059,Abuja,First Term 2025,false
+STU3223,IBRAHIM OKEKE   ,JSS2,M,not set,Geography,28,105,100,D,amara  nnamdi,Aunt,78686337524,Edo,2025/2026 First Term,TRUE
+STU3002,Tunde Chukwu,SS 1,Male,06-Apr-2011,Computer Studies,18,77,77,Distinction,FATIMA  BALOGUN,Mother,0001 338 9083,Oyo State,2025-2026 1st Term,no
+STU3110,Zainab  Chukwu,ss3,Female,unknown date,Chemistry,30,105,100,C,Tunde Nwosu,Father,+234004711382,Ogun,"2025/2026, Term 1",no
+STU3265,Blessing Balogun,SS 1,F,29 May 2009,Computer Studies,27,105,100,a,  AMAKA OKONKWO,father,(899) 375-6798,Abuja,"2025/2026, Term 1",0
+STU3046,Sadiq Eze,jss1,M,11/24/2011,Civic Education,10,105,100,D,ifeoma chukwu,Father,+234738721489,Rivers,2025/2026 First Term,Y
+STU3102,  Aliyu Nwosu,JSS3,Male,N/A,Mathematics,10,105,100,E,YUSUF CHUKWU,MOTHER,234-367-136-959,Cross River,"2025/2026, Term 1",yes
+STU3068,sadiq adekunle,SS1,F,2015-08-29,Economics,17,24,24,a,Amaka Chukwu,father,0136 783 7770,Edo,First Term 2025,false
+STU3335,Grace Nwosu,Jss 1,Female,30 December 2015,Physics,33,105,100,B,EMEKA CHUKWU   ,Mother,05392644220,Imo,First Term 2025,no
+STU3255,Ngozi Mohammed,SS1,Male,2007/12/25,Mathematics,15,24,24,D,  Bola Yusuf,Mother,0622 444 7212,Delta,"2025/2026, Term 1",Yes
+STU3096,Bisi Afolabi,JSS3,Female,2017-10-18,Mathematics,25,83,83,a,CHIOMA OGUNDIMU,father,234-596-158-657,Delta,"2025/2026, Term 1",no
+STU3249,Aliyu Eze,SS 1,F,28/03/2012,Chemistry,9,-5,0,C,Amaka Okonkwo,Mother,09965047735,Anambra,2025-2026 1st Term,1
+STU3078,Kemi Abubakar,JSS2,Female,00/00/0000,Computer Studies,N/A,105,100,Fail,fatima lawal,Mother,12328120679,Abuja,"2025/2026, Term 1",N
+STU3241,Bisi Olawale,SS1,F,15/05/2008,Computer Studies,17,105,100,Pass,  Femi Chukwu,Mother,+234084840862,Kaduna,"2025/2026, Term 1",false
+STU3136,Tobi Okeke,JSS1,F,17-Feb-2012,Biology,11,17,17,B,Chioma Ajayi,Aunt,+234297516136,Oyo State,First Term 2025,0
+STU3101,yusuf lawal,SS2,F,29-Aug-2014,English Language,34,2,N/A,Fail,Wale Abubakar,MOTHER,48217594647,Edo,2025/2026 First Term,yes
+STU3113,Femi Ajayi,jss1,M,2017-11-11,Computer Studies,0,150,100,Distinction,Adaeze Okonkwo,Aunt,0506 431 7139,Rivers,2025-2026 1st Term,no
+STU3193,Wale Adeyemi,JSS1,Male,2010/06/27,Geography,1,-5,0,F,fatima abubakar,Guardian,234-239-868-000,ABUJA,2025/2026 First Term,N
+STU3320,Zainab Afolabi,SS 1,Male,01/30/2007,Further Mathematics,33,-5,0,C,Halima Chukwu,Father,67883171210,Kano,2025/2026 First Term,yes
+STU3126,Halima Yusuf,SS3,F,13-Apr-2011,Physics,11,19,19,C,FUNMILAYO ADEYEMI,MOTHER,05851493689,Rivers,"2025/2026, Term 1",1
+STU3005,Tunde Suleiman,SS2,Female,31/01/2015,Agricultural Science,19,-5,0,F,Bisi  Okonkwo,Guardian,07816184959,Imo,First Term 2025,yes
+STU3019,Kemi Afolabi,jss1,Female,06/17/2009,Chemistry,--,-5,0,B,GRACE AFOLABI   ,Mother,234-010-310-518,Cross River,"2025/2026, Term 1",yes
+STU3286,bola chukwu,SS2,Female,04/30/2008,Mathematics,34,null,0,F,Kunle  Bello,father,+234590175186,Akwa Ibom,"2025/2026, Term 1",N
+STU3098,Aliyu Abubakar,SS3,Female,unknown date,Further Mathematics,14,-5,NULL,Pass,Bola  Mohammed,Guardian,0240 050 4556,Plateau,2025-2026 1st Term,0
+STU3163,Sadiq Okafor,JSS2,Female,23/01/2009,Basic Science,30,--,0,B,  Tunde Adekunle,Mother,234-195-205-852,Delta,2025-2026 1st Term,Y
+STU3331,Bola Afolabi,jss1,F,,Civic Education,2,105,100,Distinction,  Chinedu Okafor,father,+234270103930,Delta,"2025/2026, Term 1",Y
+STU3052,Sadiq Adekunle,JSS2,Male,20.07.2008,Mathematics,28,-5,0,D,Amaka Ogundimu,Guardian,07143455812,Kaduna,2025-2026 1st Term,Yes
+STU3324,Bisi Eze,JSS3,Female,25 February 2010,Agricultural Science,9,105,NULL,C,  Aliyu Okafor   ,Guardian,+234447209993,kano,2025/2026 First Term,TRUE
+STU3020,Amaka Afolabi,JSS1,M,08/06/2015,Agricultural Science,2,10,10,A,musa mohammed   ,Uncle,234-738-299-737,Rivers,2025/2026 First Term,Y
+STU3162,Musa Yusuf,SS3,F,10 April 2011,Chemistry,4,18,18,E,Zainab Adekunle,Guardian,(067) 065-4051,Delta,"2025/2026, Term 1",Y
+STU3038,Chidi Mohammed,SS2,Male,04/29/2015,Physics,15,105,100,Fail,IFEOMA CHUKWU,MOTHER,56342160733,Kano,2025/2026 First Term,Yes
+STU3263,Adaeze Suleiman,SS 1,M,12 December 2007,Computer Studies,33,92,nil,Fail,amara adekunle,Father,234-589-113-529,Oyo,First Term 2025,No
+STU3329,Amaka Abubakar,SS3,M,2009/10/16,Biology,16,-5,0,F,Adaeze Okafor,Father,(803) 965-2239,Abuja,"2025/2026, Term 1",true
+STU3142,Halima Chukwu,JSS3,Male,03/21/2017,Biology,13,105,100,Fail,Amaka Afolabi,Uncle,04119986798,abuja,First Term 2025,TRUE
+STU3172,Kunle Adeyemi,JSS1,M,2012/04/01,Computer Studies,19,105,100,B,Chidi Nwosu,father,(719) 285-6543,Plateau,"2025/2026, Term 1",false
+STU3260,Halima Eze,JSS3,M,21.06.2007,Basic Science,6,15,15,B,Sadiq Abubakar,MOTHER,234-193-982-807,Anambra,2025-2026 1st Term,No
+STU3081,  Ngozi Nwosu,Jss 1,F,not set,English Language,NIL,90,90,A,Halima  Afolabi   ,Mother,(499) 471-7464,Anambra,First Term 2025,no
+STU3168,Chidi Eze,SS 1,Male,2012/03/02,Biology,23,105,100,B,emeka afolabi,MOTHER,08451154479,Ogun,"2025/2026, Term 1",false
+STU3039,Funmilayo Nwosu,SS3,Female,28 October 2015,n/a,8,72,72,A,ngozi  okafor,Guardian,75433036541,Enugu,2025/2026 First Term,false
+STU3114,Yusuf Balogun,SS2,Female,01/08/2010,Further Mathematics,6,unknown,0,C,Ifeoma Afolabi,Uncle,(053) 293-1839,Edo,2025-2026 1st Term,Y
+STU3041,Halima Yusuf,SS1,F,09/12/2013,Chemistry,29,105,100,F,tobi  adekunle,MOTHER,0401 965 5698,Abuja,First Term 2025,Y
+STU3182,  ALIYU AFOLABI   ,ss3,M,14 November 2016,Agricultural Science,14,N/A,0,Pass,Ngozi Nnamdi,Uncle,+234995900109,Rivers,"2025/2026, Term 1",Yes
+STU3060,Chioma Lawal,JSS2,Female,2010/06/20,Biology,29,105,100,Fail,GRACE OKEKE,Father,(092) 327-1937,rivers,First Term 2025,false
+STU3353,Funmilayo Chukwu   ,SS 1,Male,11.12.2017,Chemistry,23,150,100,D,bola mohammed,Aunt,0986 162 2999,Plateau,"2025/2026, Term 1",1
+STU3071,Halima Ogundimu,SS2,Female,17.07.2016,Agricultural Science,25,-5,  ,B,Yusuf Mohammed   ,Uncle,234-182-337-498,Oyo,2025/2026 First Term,yes
+STU3045,funmilayo eze,SS3,Male,2010/03/31,,29,105,100,Distinction,chioma afolabi,Aunt,68044369957,Imo,First Term 2025,No
+STU3135,Bisi Nwosu,SS3,Male,N/A,Mathematics,26,-5,0,a,Fatima Ogundimu,Father,15969664160,Ogun,2025/2026 First Term,0
+STU3043,Tobi Adekunle,SS3,Male,06/02/2017,Mathematics,25,-5,0,B,chidi nnamdi,father,(615) 951-4846,Ogun,2025/2026 First Term,Yes
+STU3222,TUNDE ADEYEMI   ,SS3,Female,01 September 2009,Computer Studies,34,105,100,Pass,Bisi Mohammed,Aunt,234-128-682-300,Edo,First Term 2025,0
+STU3332,Funmilayo Lawal,SS 1,Male,,Basic Science,18,150,100,A,WALE NWOSU   ,Mother,70593252500,Enugu,2025/2026 First Term,0
+STU3062,Bisi Okeke,SS 1,M,2009-05-13,Physics,25,79,unknown,a,obinna ogundimu,father,234-663-193-149,Enugu,2025-2026 1st Term,no
+STU3057,Segun Ogundimu,SS2,Male,2011/12/24,Mathematics,32,150,100,C,Sadiq Ajayi   ,father,0699 016 2720,Ogun,2025/2026 First Term,FALSE
+STU3152,Aliyu Nnamdi,Jss 1,F,13.04.2014,Physics,36,150,100,D,wale balogun,father,08347359774,Ogun,2025/2026 First Term,TRUE
+STU3233,Chioma Eze,jss1,M,19 June 2016,Civic Education,31,105,100,B,Kemi  Lawal   ,Father,0331 739 3638,Edo,2025/2026 First Term,Y
+STU3065,Tunde Bello,SS1,F,07/12/2017,NIL,21,-5,0,Fail,Ngozi Olawale,MOTHER,234-776-945-314,Anambra,"2025/2026, Term 1",false
+STU3267,Segun Balogun,ss3,Female,20 February 2013,Mathematics,28,150,100,B,Kunle Ajayi,Aunt,0000000000,Plateau,First Term 2025,true
+STU3228,Amara Chukwu,SS1,Female,28.12.2012,Basic Science,35,150,100,Fail,Zainab Suleiman,Father,06870568566,Delta,First Term 2025,yes
+STU3387,Amara Adeyemi,JSS2,Male,04/25/2016,Geography,36,105,100,B,Sadiq Nnamdi,Guardian,(114) 374-4701,Oyo,First Term 2025,N
+STU3293,Bola  Suleiman,JSS2,Female,07 October 2007,Geography,10,105,100,C,BLESSING CHUKWU,Uncle,42622189092,Cross River,2025/2026 First Term,1
+STU3145,Tobi Okeke,JSS2,M,2009-01-12,Mathematics,37,105,100,D,Tunde Yusuf,Aunt,25546659051,Ogun,2025-2026 1st Term,FALSE
+STU3105,Emeka Ogundimu,SS 1,Female,25-Dec-2013,Unknown,22,63,-,A,Bisi Bello   ,Mother,00952145623,Rivers,2025/2026 First Term,Yes
+STU3190,ibrahim nnamdi,JSS3,Female,2010-06-14,Biology,30,41,41,Pass,Ngozi Ogundimu,Uncle,08016245650,Akwa Ibom,First Term 2025,FALSE
+STU3014,  amaka nwosu,SS 1,F,04.06.2010,Civic Education,1,84,84,E,Adaeze Eze,Aunt,(148) 932-5288,KANO,"2025/2026, Term 1",Yes
+STU3251,ADAEZE  BALOGUN,SS1,Female,14-Dec-2015,Biology,9,77,77,E,IFEOMA AJAYI,Uncle,0426 265 5110,Delta,First Term 2025,FALSE
+STU3004,Ngozi Adekunle,ss3,F,23-Feb-2012,Basic Science,8,150,N/A,C,Grace Okonkwo   ,Uncle,(351) 161-5594,Akwa Ibom,2025/2026 First Term,true
+STU3100,Aliyu Olawale,JSS1,M,20 October 2017,Basic Science,25,31,31,D,OBINNA BELLO,Father,234-792-374-740,Port Harcourt,First Term 2025,TRUE
+STU3276,Ifeoma Ogundimu,SS3,F,13-Apr-2013,Mathematics,33,54,54,D,Adaeze Adekunle,Guardian,(225) 790-5072,Cross River,2025/2026 First Term,false
+STU3277,ZAINAB AFOLABI   ,JSS1,M,07/13/2009,English Language,15,25,25,Fail,Kunle Nwosu,father,06887676772,Abuja,2025/2026 First Term,1
+STU3021,Ibrahim Eze,jss1,F,10/26/2017,Economics,40,150,100,Distinction,Kunle Eze   ,father,(311) 656-6701,Edo,First Term 2025,Yes
+STU3307,Chidi Adekunle,SS 1,F,2009/06/21,Geography,14,60,60,F,Chioma Bello,Mother,08000307562,Oyo,First Term 2025,false
+STU3015,WALE SULEIMAN,JSS2,M,2012/10/30,Geography,25,94,94,a,Tobi  Okonkwo,Guardian,(957) 015-4303,Ogun,First Term 2025,0
+STU3360,Amaka Okeke,JSS3,Male,05/04/2009,Biology,24,-5,0,a,fatima balogun,father,0030 705 3457,Imo,2025/2026 First Term,false
+STU3388,Bisi Chukwu,Jss 1,F,2015-12-17,Civic Education,4,58,58,Pass,kunle afolabi,Mother,0045 561 1002,Edo,2025-2026 1st Term,FALSE
+STU3283,Chioma Chukwu,ss3,Female,2012-12-21,Computer Studies,20,54,54,C,Sadiq  Nnamdi,Uncle,(254) 494-8126,Fct Abuja,First Term 2025,0
+STU3106,Emeka Nnamdi,JSS2,Male,2017/05/01,Physics,4,105,100,C,emeka yusuf,father,0858 842 4745,oyo,2025-2026 1st Term,FALSE
+STU3304,Kemi Okafor,SS2,F,2007-09-08,Geography,21,74,74,D,  segun bello,Father,0000000000,Plateau,2025-2026 1st Term,Yes
+STU3073,Halima Chukwu,SS 1,Female,01/04/2012,English Language,33,72,72,Pass,  Bola Nnamdi   ,Aunt,0400 842 7109,Edo,First Term 2025,false
+STU3374,Funmilayo Okeke,JSS2,Male,N/A,Economics,6,150,100,D,BISI NWOSU,Uncle,09725217525,Ogun,First Term 2025,No
+STU3342,Zainab Ogundimu,JSS3,Male,03-Jan-2009,null,25,105,100,Pass,Segun Nnamdi,Aunt,06296201533,Lagos,2025/2026 First Term,false
+STU3004,Ngozi Adekunle,ss3,F,23-Feb-2012,Basic Science,8,150,N/A,C,Grace Okonkwo   ,Uncle,(351) 161-5594,Akwa Ibom,2025/2026 First Term,true
+STU3055,Segun Suleiman,Jss 1,Female,01/07/2007,Computer Studies,NULL,NULL,100,F,Wale Yusuf,MOTHER,234-668-893-734,Kaduna,2025/2026 First Term,true
+STU3311,Chidi Abubakar,ss3,Male,08.01.2016,Further Mathematics,27,-5,-,Pass,YUSUF ADEYEMI,Mother,0493 759 7383,Kano,"2025/2026, Term 1",0
+STU3133,Amaka Suleiman,Jss 1,F,29/05/2016,Economics,20,1,NULL,Fail,Grace Bello,Uncle,0244 510 7622,Delta,First Term 2025,No
+STU3365,Tobi Ajayi,JSS1,Female,08.09.2015,Chemistry,9,?,100,a,Segun Abubakar,Guardian,57437489691,Anambra,"2025/2026, Term 1",TRUE
+STU3087,Chioma Olawale,SS3,Female,08/22/2017,Economics,20,105,100,Distinction,kunle nwosu,Aunt,(038) 597-7034,Rivers,2025/2026 First Term,false
+STU3115,Bola Adeyemi,JSS2,M,23-Jan-2012,Agricultural Science,4,-5,?,Distinction,Ifeoma Lawal,Uncle,03529042284,Kaduna,2025-2026 1st Term,N
+STU3165,  kunle balogun,SS3,M,19/07/2009,Chemistry,31,105,--,E,Musa Nwosu,Uncle,+234486874034,Plateau,"2025/2026, Term 1",1
+STU3250,Bola Nwosu,JSS2,M,28/04/2017,Chemistry,30,-5,0,A,Funmilayo Adeyemi,father,(662) 961-9431,Rivers,First Term 2025,no
+STU3141,aliyu suleiman,ss3,F,14.10.2008,Biology,0,-5,0,Distinction,  wale ajayi,MOTHER,0905 814 7700,Oyo,First Term 2025,Yes
+STU3148,obinna chukwu,SS3,F,18-Mar-2015,Mathematics,2,105,100,Fail,Grace Adekunle,father,(281) 685-0542,Edo,2025/2026 First Term,TRUE
+STU3061,Segun Nnamdi,SS 1,M,2009-07-12,Agricultural Science,5,32,32,C,Yusuf Ajayi,MOTHER,05299124190,Lagos,First Term 2025,true
+STU3085,Ngozi Bello,SS3,M,02/01/2010,Further Mathematics,28,81,81,C,Aliyu  Ogundimu   ,Aunt,(512) 567-4680,Cross River,First Term 2025,1
+STU3146,segun olawale,JSS3,M,10-May-2013,Physics,19,-5,0,B,  Amaka Adekunle,father,05186449251,Imo,2025/2026 First Term,TRUE
+STU3178,TOBI CHUKWU,SS2,Male,28.03.2009,Basic Science,28,96,96,D,Fatima Suleiman,Mother,69125177852,Lag,2025/2026 First Term,yes
+STU3051,Adaeze Afolabi,ss3,M,28.11.2011,Computer Studies,34,92,92,D,Segun Okeke,Aunt,+234277434873,Akwa Ibom,2025-2026 1st Term,FALSE
+STU3161,Femi Okeke,SS3,M,24 October 2009,Mathematics,16,12,12,Distinction,Fatima Okeke,Guardian,(621) 851-8888,Delta,"2025/2026, Term 1",No
+STU3316,Aliyu Mohammed,SS1,M,2014/08/03,Biology,38,-5,0,a,Chioma Okafor,father,05574313291,Kaduna,2025/2026 First Term,no
+STU3295,Femi Abubakar,JSS2,Female,2010-08-14,Economics,0,105,100,Pass,Emeka  Balogun,Mother,(196) 565-2341,Delta,2025/2026 First Term,false
+STU3143,Amara Nwosu,jss1,M,,Agricultural Science,39,105,N/A,F,WALE  NNAMDI,MOTHER,0793 597 8207,Enugu,2025/2026 First Term,0
+STU3094,Blessing Okeke,JSS2,Male,03 October 2015,Further Mathematics,23,105,100,Pass,  Femi Abubakar,Guardian,05766270289,Delta,First Term 2025,no
+STU3221,Funmilayo Olawale,Jss 1,F,06/28/2013,Chemistry,19,150,100,E,BISI ADEYEMI,Mother,234-265-676-618,Rivers,2025-2026 1st Term,Y
+STU3108,Kemi Okonkwo,SS1,Male,09.05.2010,Mathematics,nil,150,100,a,Segun  Balogun,Father,81754965137,Delta,2025-2026 1st Term,No
+STU3375,Sadiq Balogun,JSS1,Female,2007/06/03,Chemistry,8,150,100,E,Obinna Ogundimu,Aunt,+234743292712,Abuja,2025/2026 First Term,N
+STU3377,Ngozi Nnamdi,SS2,F,17/11/2007,Agricultural Science,10,105,100,Fail,Wale Ajayi   ,Father,234-583-003-354,Edo,2025/2026 First Term,Yes
+STU3022,Aliyu Lawal,jss1,Female,2016/07/11,English Language,34,105,100,Distinction,Kemi Olawale   ,Mother,(651) 333-8726,Ogun,"2025/2026, Term 1",no
+STU3074,Chioma  Adekunle,JSS2,F,00/00/0000,Mathematics,8,150,100,a,Segun  Bello,father,+234775204711,Edo,First Term 2025,No
+STU3092,Segun Chukwu,ss3,Male,2008-04-12,Chemistry,19,-5,0,a,ALIYU AJAYI,father,+234997278755,Anambra,2025-2026 1st Term,0
+STU3164,Amaka Okonkwo,SS3,F,27.11.2012,Mathematics,17,-5,0,Fail,Yusuf Okeke,Aunt,(722) 170-4303,Oyo,"2025/2026, Term 1",TRUE
+STU3197,Emeka Okonkwo,JSS2,F,14/10/2014,Geography,11,150,100,Distinction,bisi bello   ,Mother,74993097289,Cross River,2025/2026 First Term,Y
+STU3166,Kemi Balogun,ss3,M,2009/06/22,Physics,17,150,100,E,Tunde Ogundimu,Father,(054) 156-6765,Lagos,First Term 2025,yes
+STU3147,CHINEDU OKEKE,JSS3,M,31.01.2014,Economics,18,150,-,Fail,Chinedu Nwosu,Aunt,+234546291486,Rivers,2025-2026 1st Term,false
+STU3219,yusuf suleiman,ss3,Female,09.02.2011,Further Mathematics,22,71,71,A,bola chukwu,father,(087) 406-4039,Imo,First Term 2025,0
+STU3233,Chioma Eze,jss1,M,19 June 2016,Civic Education,31,105,100,B,Kemi  Lawal   ,Father,0331 739 3638,Edo,2025/2026 First Term,Y
+STU3297,Chidi Afolabi,SS1,F,2009-08-26,Civic Education,20,79,79,a,Grace Yusuf,Mother,36403761379,Kano,2025-2026 1st Term,FALSE
+STU3269,Femi Ajayi,JSS1,M,19-Jan-2016,Unknown,20,51,51,Fail,YUSUF YUSUF   ,Uncle,08258673622,Ogun,First Term 2025,Y
+STU3266,Chidi Okonkwo,JSS2,Male,2007-05-14,n/a,7,150,100,Pass,CHINEDU MOHAMMED   ,Guardian,50714611254,Delta,2025/2026 First Term,No
+STU3289,Ibrahim Balogun   ,jss1,M,2017-01-12,Basic Science,4,150,-,a,  Chioma Okonkwo,Uncle,+234632424154,Rivers,First Term 2025,1
+STU3025,Yusuf Yusuf,Jss 1,Male,18 January 2011,Mathematics,30,68,unknown,B,   Amaka Balogun,Mother,234-474-687-234,Abuja,2025/2026 First Term,TRUE
+STU3175,Amara Abubakar,JSS3,F,2011/06/26,Further Mathematics,6,-5,0,Distinction,Chioma Balogun,Uncle,05518844225,Akwa Ibom,2025-2026 1st Term,false
+STU3253,Aliyu Yusuf,SS 1,Male,12-Nov-2012,Economics,36,6,6,Fail,Chinedu Eze,Father,86101581995,Ibadan,"2025/2026, Term 1",FALSE
+STU3153,Chioma Abubakar,ss3,M,2007/01/30,Further Mathematics,13,-5,0,F,Femi Suleiman,Uncle,88623924075,Abuja,"2025/2026, Term 1",false
+STU3119,Blessing Okafor,JSS2,F,29 October 2012,Further Mathematics,6,150,100,E,Sadiq Suleiman,Aunt,07661771159,rivers,"2025/2026, Term 1",Yes
+STU3050,aliyu nnamdi,JSS3,Female,09.07.2014,Computer Studies,32,-5,0,A,Tobi Olawale,Mother,(278) 895-7986,Cross River,2025-2026 1st Term,false
+STU3078,Kemi Abubakar,JSS2,Female,00/00/0000,Computer Studies,N/A,105,100,Fail,fatima lawal,Mother,12328120679,Abuja,"2025/2026, Term 1",N
+STU3144,Femi Nwosu,SS3,Male,02 October 2008,Basic Science,?,150,100,B,Ibrahim Abubakar,father,+234182037788,Rivers State,2025-2026 1st Term,No
+STU3302,Aliyu Adekunle,jss1,M,21.04.2016,Further Mathematics,5,150,100,C,Kemi Abubakar,MOTHER,09146303161,Abuja,"2025/2026, Term 1",TRUE
+STU3370,Tobi Okafor,JSS2,Male,2011/07/09,Chemistry,38,105,100,F,SADIQ ADEYEMI,father,+234824172482,Anambra,"2025/2026, Term 1",Y
+STU3261,Segun Afolabi,jss1,F,25.12.2009,Computer Studies,23,85,85,Fail,bola balogun,Uncle,74167243426,Imo,2025-2026 1st Term,FALSE
+STU3091,Chioma Okonkwo,JSS1,Female,12.12.2015,Basic Science,4,105,100,F,Funmilayo Abubakar,father,0982 146 5840,Ogun,"2025/2026, Term 1",FALSE
+STU3225,Aliyu  Mohammed,ss3,F,19-Jan-2017,Economics,17,11,11,C,Fatima Okonkwo,Guardian,234-790-306-738,Delta,"2025/2026, Term 1",N

@@ -1,0 +1,481 @@
+ClaimID,PolicyNumber,PolicyType,InsurerName,CustomerName,CustomerPhone,IncidentDate,ClaimDate,CauseOfClaim,PremiumPaid,ClaimAmount,PayoutAmount,ClaimStatus,State,PolicyActive
+CLM-70049,POL850827,Marine,Leadway Assurance,  NGOZI BALOGUN,(163) 287-0831,03/11/2024,12/02/2024,Medical Emergency,"NGN 1,765,954","₦2,403,085.23",0,Settled,Kaduna,Y
+CLM-70321,POL828723,Motor,Leadway Assurance,tobi abubakar,(032) 365-1994,10 August 2023,28.09.2023,Medical Emergency,"₦550,815.68","₦432,315.48","NGN 377,356",pending,Akwa Ibom,FALSE
+CLM-70002,POL678856,Motor Comprehensive,NEM Insurance,CHIOMA BALOGUN,00013389083,25-Aug-2024,2024-09-10,Fire,1457652.69,"N3,654,064",3555827.57,Pending,Delta,1
+CLM-70319,POL512433,Health (Family),WAPIC Insurance,Musa Adeyemi,234-135-680-442,19/09/2023,,  Accident,1362803.8,"NGN 2,013,715",nil,REJECTED,Akwa Ibom,TRUE
+CLM-70071,POL498290,Motor,WAPIC Insurance,Funmilayo Nwosu,51823374989,08/21/2023,25 September 2023,accident,1684195.89,"2,904,131.77 ",,Approved,Enugu,Y
+CLM-70406,unknown,Marine,AXA Mansard,Wale Afolabi,+234698485833,23.07.2024,00/00/0000,Medical Emergency,"67,856.35 ","N4,730,830",0,Pending,Akwa Ibom,0
+CLM-70442,POL599651,Marine,Custodian Insurance,Tunde Okafor,(918) 463-8655,10/05/2023,26-May-2023,Theft,"N836,047","₦4,662,583.29","4,264,240.45 ",Settled,Rivers,FALSE
+CLM-70062,POL138105,Health (Family),Leadway Assurance,Ifeoma Okonkwo,234-663-193-149,15/05/2024,01 July 2024,Theft,"N1,308,534",4684613.51 naira,"₦820,110.81",Partially Approved,Delta,yes
+CLM-70425,POL833859,Fire & Property,AIICO Insurance,Femi Lawal,0015 814 4914,26/05/2023,05-Jun-2023,accident,"N761,955","2,670,879.80 ","N422,748",Pending,Delta,Yes
+CLM-70380,POL678874,Fire & Property,Custodian Insurance,Musa Bello,234-033-230-982,15/05/2023,20-Jun-2023,accident,1135253.85,3428128.04,-,Pending,Kano,Yes
+CLM-70098,POL284654,Motor Comprehensive,NEM Insurance,Segun Okonkwo,0240 050 4556,01/10/2023,27/02/2023,Accident,"₦1,793,595.89",n/a,"₦887,232.46",REJECTED,Lag,false
+CLM-70340,POL209448,Health (Family),AXA Mansard,Femi Nnamdi,03271040541,30.06.2024,18/07/2024,Flood,"₦1,567,423.42",1236144.84 naira,--,approved,Akwa Ibom,No
+CLM-70185,POL841978,Life (Term),Custodian Insurance,Chinedu Nnamdi,05925556258,28/12/2022,2023/02/08,  accident,"NGN 718,109","NGN 775,005",  ,Rejected,Kaduna,TRUE
+CLM-70114,POL971889,Fire & Burglary,AXA Mansard,Bisi Adekunle,00532931839,17/09/2024,2024/09/24,  accident   ,526804.51,"₦3,928,105.13","NGN 2,392,223",approved,Oyo,Y
+CLM-70164,POL419348,LIFE (TERM),AXA Mansard,Blessing Bello,(722) 170-4303,06-Jan-2023,10-Feb-2023,Theft   ,712631.19,"₦3,830,496.16",727221.00 naira,Pending,Delta,FALSE
+CLM-70459,POL328514,Fire & Property,WAPIC Insurance,chioma  abubakar,+234902601279,13/04/2023,28.05.2023,Accident,162308.59 naira,4187959.95,"₦705,175.62",approved,Kaduna,N
+CLM-70360,POL272216,Motor,AXA Mansard,Chidi Mohammed,00307053457,08/05/2024,06/15/2024,Flood,"₦470,949.87",2325143.23 naira,"NGN 2,155,593",Partially Approved,Imo,N
+CLM-70291,POL145939,Marine,NEM Insurance,Chidi Mohammed,0712 938 7005,04/06/2024,13/07/2024,accident,"₦633,643.89","N3,632,246","₦733,710.54",Approved,Ogun,Yes
+CLM-70330,POL157349,Life,AXA Mansard,Adaeze Balogun,(590) 599-2937,2024-01-06,17/02/2024,Theft  ,"NGN 35,566","₦4,041,255.51",1859869.65 naira,Under Review,Imo,true
+CLM-70109,POL538897,Fire & Property,AXA Mansard,Ibrahim Adekunle,(098) 593-1746,12-Aug-2024,2024/09/06,Third Party Liability,"1,197,441.32 ","₦3,410,163.64",null,Partially Approved,Cross River,Y
+CLM-70119,POL851606,Motor,WAPIC Insurance,Blessing Abubakar,0766 177 1159,04 April 2023,04/20/2023,  accident,1109261.88 naira,"N953,966",374809.94,Pending,Plateau,FALSE
+CLM-70357,POL356496,Life (Term),AXA Mansard,Femi Nnamdi,0471 324 7546,23/03/2023,04/06/2023,accident,"NGN 1,741,223","2,813,761.37 ","₦2,553,954.84",Pending,Kano,0
+CLM-70435,POL596759,Motor Comprehensive,AXA Mansard,Segun Adeyemi,+234834110809,2023-02-10,2023-03-10,Theft ,"₦716,498.25",982044.97,"₦699,125.30",Under Review,Anambra,TRUE
+CLM-70056,POL622469,Marine,Custodian Insurance,Fatima Okonkwo,07065627298,19 July 2023,2023/09/12,accident   ,"₦1,626,601.72","NGN 4,071,120",2935800.14 naira,Approved,Enugu,Yes
+CLM-70204,POL145383,Life,AIICO Insurance,Wale Adekunle,+234733848421,2023-07-15,N/A,Medical Emergency,83207.07 naira,3305748.44,"N1,550,668",Rejected,Akwa Ibom,FALSE
+CLM-70059,POL530311,Health (Family),WAPIC Insurance,Aliyu Abubakar,(708) 053-1003,2024-06-10,09-Aug-2024,FIRE,1268424.62 naira,970105.95 naira,"406,261.26 ",approved,Ogun,0
+CLM-70174,POL201987,Health (Family),Custodian Insurance,amaka ogundimu,94731217271,2023-01-22,2023-03-22,accident   ,1366443.71 naira,"2,339,162.91 ",NGN 0,Pending,Anambra,No
+CLM-70089,POL541307,Health (Family),AIICO Insurance,SADIQ  OKEKE   ,(086) 131-7127,2024/04/29,24-Jun-2024,Natural Disaster   ,"N1,760,412","NGN 4,934,675",651292.62 naira,Under Review,Cross River,Y
+CLM-70032,POL867934,Motor Comprehensive,WAPIC Insurance,Amara Chukwu,(808) 412-4118,2024-09-29,2024-10-05,Fire,"1,628,541.57 ",3238776.23,"₦1,427,727.67",Rejected,Rivers,N
+CLM-70136,POL963245,Life (Term),AIICO Insurance,  kunle balogun   ,(529) 751-6136,2024-08-07,20 September 2024,Accident,1240101.89 naira,"NGN 279,223","177,551.33 ",approved,KANO,TRUE
+CLM-70024,POL572387,Motor,Leadway Assurance,chinedu afolabi   ,32677360260,02.11.2024,07-Nov-2024,Theft,"303,776.34 ","₦885,591.47",NGN 0,approved,Delta,No
+CLM-70036,POL628313,Fire & Burglary,AXA Mansard,Tunde Ogundimu,02620450533,15.06.2024,2024/06/22,Theft,"₦1,348,555.86","N2,391,705",  ,Partially Approved,Plateau,no
+CLM-70391,POL338742,Marine,AXA Mansard,Funmilayo Ogundimu,+234697972965,09-Nov-2023,05.01.2024,accident,?,3741420.53 naira,nil,REJECTED,Cross River,TRUE
+CLM-70094,POL433507,Health,Leadway Assurance,Chidi Olawale,+234766270289,13-Aug-2023,31-Aug-2023,Theft,"NGN 488,259","NGN 1,588,744",  ,approved,Akwa Ibom,false
+CLM-70116,POL606545,Health (Family),AIICO Insurance,  Sadiq Mohammed,10205395024,2024/06/23,05 August 2024,FIRE,802738.98,3064389.33 naira,"N1,873,440",Pending,Akwa Ibom,TRUE
+CLM-70276,POL465226,Fire & Burglary,WAPIC Insurance,Tobi Lawal,(225) 790-5072,09/09/2024,2024/11/06,Medical Emergency,"N1,531,120","NGN 4,955,495",NIL,Under Review,Plateau,true
+CLM-70352,POL641386,Motor,Custodian Insurance,Fatima Balogun,0168 685 4870,08/30/2023,29-Sep-2023,FIRE,"NGN 293,794","NGN 4,073,067",1151047.37,Settled,Ogun,no
+CLM-70082,POL247111,Motor,AXA Mansard,Obinna Yusuf,+234771906594,08 September 2024,12-Oct-2024,Natural Disaster,1255843.44 naira,"₦3,233,395.27",null,Approved,Oyo State,Y
+CLM-70004,POL590785,Motor,WAPIC Insurance,Chioma Ajayi,(351) 161-5594,24.09.2024,04/10/2024,Medical Emergency,"1,430,940.87 ","NGN 2,122,357",₦0.00,Rejected,Akwa Ibom,true
+CLM-70458,POL707794,Health (Family),Leadway Assurance,Ibrahim Afolabi,(621) 372-1386,30/04/2023,2023-06-27,Flood,416106.37 naira,"NGN 554,787",N0,pending,Ogun,N
+CLM-70386,POL668714,Marine,NEM Insurance,Fatima Eze,(530) 011-9721,07 October 2024,11/10/2024,Medical Emergency,"₦373,655.85",599703.83 naira,Unknown,Under Review,Kaduna,yes
+CLM-70270,POL496077,HEALTH (FAMILY),Leadway Assurance,Ibrahim Balogun,06093796603,unknown date,03/10/2024,Theft    ,1133348.08,"NGN 4,344,443",unknown,pending,Cross River,no
+CLM-70161,POL788108,Motor Comprehensive,AIICO Insurance,Wale Mohammed,06218518888,30.09.2023,2023/11/13,Accident,1276617.09 naira,2628551.31 naira,0,approved,Rivers,No
+CLM-70423,POL775282,Health (Family),AIICO Insurance,Aliyu Chukwu,(024) 819-3466,09/17/2024,06 November 2024,Fire,NULL,"NGN 4,503,765","NGN 3,440,771",Pending,Edo,1
+CLM-70050,POL182760,Health,NEM Insurance,BOLA AFOLABI,+234788957986,2024-11-08,2024/12/09,Third Party Liability,677040.8,"₦3,990,508.58",0.00 naira,Partially Approved,Cross River,false
+CLM-70169,POL945197,life,AXA Mansard,SEGUN SULEIMAN,234-757-059-640,2023/06/11,01/08/2023,Fire,1117171.69 naira,2084867.82 naira,n/a,pending,Imo,TRUE
+CLM-70234,POL775156,Health (Family),WAPIC Insurance,Chioma Ogundimu,(467) 854-4587,2023/12/19,12/19/2023,FIRE,"N1,492,931",4503038.44 naira,"₦661,324.38",Approved,Imo,TRUE
+CLM-70206,POL729554,Health (Family),Leadway Assurance,Ibrahim Ogundimu,0712 082 6773,04/12/2024,22.12.2024,accident,"N1,013,910","N222,231",25717.11 naira,Rejected,Fct Abuja,false
+CLM-70314,POL581430,MOTOR,AXA Mansard,Tunde Eze,0386 571 9182,04.10.2023,09/10/2023,accident,"N1,684,582","NGN 3,144,641",1821862.31,pending,Cross River,Y
+CLM-70016,POL608136,HEALTH (FAMILY),AXA Mansard,kemi nnamdi   ,+234171822782,26/04/2023,2023-06-12,FIRE   ,"NGN 1,554,153",2261347.39,"₦1,899,221.75",Settled,Delta,Yes
+CLM-70305,POL193563,Health (Family),AXA Mansard,Segun Chukwu,0648 149 1778,11/08/2023,18 November 2023,  accident,"1,682,949.35 ",-,N0,REJECTED,Kaduna,No
+CLM-70132,POL123536,Life (Term),Leadway Assurance,Grace Afolabi,N/A,unknown date,05 December 2023,Natural  Disaster,226176.19,"N3,382,643","₦1,998,434.43",pending,Ogun,0
+CLM-70053,POL190403,Health (Family),NEM Insurance,Ngozi Ajayi,(362) 316-6587,2024-05-19,20-May-2024,accident,665591.33,"N2,869,941",,Rejected,Anambra,Y
+CLM-70035,POL317220,Fire & Property,AXA Mansard,Amaka Suleiman,(680) 112-8059,N/A,21 February 2023,Medical Emergency   ,"₦616,978.75","NGN 4,944,328","N1,014,604",Approved,rivers,false
+CLM-70165,POL195620,Motor Comprehensive,AIICO Insurance,Zainab Eze,(548) 687-4034,04/05/2024,10-Apr-2024,Accident,"N468,896","₦3,464,752.79","₦2,759,627.86",Approved,Enugu,yes
+CLM-70281,POL809388,Fire & Burglary,Leadway Assurance,Bola Adekunle,51713395962,11 February 2023,18-Mar-2023,Fire,null,"₦1,921,275.92",N/A,REJECTED,Edo,No
+CLM-70348,POL720209,Life (Term),AIICO Insurance,Ifeoma Olawale,0115 869 3806,2023/12/21,29.12.2023,Natural Disaster,"₦739,113.57",2793565.09,,REJECTED,Edo,true
+CLM-70033,POL486490,Life (Term),WAPIC Insurance,Tunde Ogundimu,+234493534874,01 July 2024,24 July 2024,Third  Party Liability,"185,287.60 ",--,,approved,Delta,No
+CLM-70266,POL724094,Health,AXA Mansard,bola yusuf,50714611254,04/18/2023,09/06/2023,Accident,1717919.60 naira,2420363.60 naira,1034456.84,Settled,Delta,yes
+CLM-70301,POL626251,Motor,AXA Mansard,Kemi Okeke,+234414183285,19-Dec-2023,02/10/2024,Natural Disaster,"776,926.86 ","4,742,244.98 ","NGN 3,373,665",Settled,Akwa Ibom,1
+CLM-70323,POL220783,marine,AIICO Insurance,Tunde Nwosu,(296) 670-6625,19-May-2024,26/06/2024,Flood,"NGN 901,169",2179155.4,"NGN 1,408,486",approved,Plateau,Yes
+CLM-70150,POL840951,Fire & Property,Leadway Assurance,Adaeze Lawal,234-059-296-222,2022-12-09,22 January 2023,FIRE,"695,539.86 ",3627507.81 naira,0,Partially Approved,Enugu,false
+CLM-70045,POL289630,Health,WAPIC Insurance,Ngozi Okonkwo,68044369957,21-Jun-2024,23.06.2024,accident,1199924.4,  ,null,Settled,Anambra,TRUE
+CLM-70272,POL599250,Life,WAPIC Insurance,Segun Afolabi,47859696915,10/28/2024,25/11/2024,Medical Emergency,439566.61 naira,2432990.0,1931697.66 naira,Under Review,KANO,false
+CLM-70044,POL723945,Life,WAPIC Insurance,Chioma Mohammed,64823662994,2024/07/08,19 August 2024,Theft,"NGN 276,035","₦1,762,107.52",NULL,Pending,Rivers,TRUE
+CLM-70353,POL568894,Life,Leadway Assurance,Ibrahim Afolabi,09861622999,19-Apr-2024,07.05.2024,accident,"N196,346","₦579,589.76","NGN 437,568",Settled,Lagos,no
+CLM-70295,POL238599,MOTOR,WAPIC Insurance,Grace Adeyemi,01965652341,03/09/2024,09.09.2024,Third Party Liability   ,695728.36,123165.26,94030.00 naira,Under Review,Lagos,yes
+CLM-70381,POL372660,Fire & Burglary,WAPIC Insurance,Kunle Afolabi,05064890901,2024/10/17,2024/11/29,accident   ,"NGN 746,265","2,608,442.23 ","₦1,005,073.46",Pending,Kaduna,1
+CLM-70029,POL592296,Life,Custodian Insurance,Ngozi Balogun,54353462475,25-Apr-2024,2024/06/22,accident    ,"N836,047",3617770.26,2368848.41 naira,Rejected,Cross River,true
+CLM-70147,POL294969,MARINE,Custodian Insurance,Femi Okafor,+234546291486,N/A,2024-12-18,accident,"NGN 898,293","1,616,805.74 ",₦0.00,Settled,Abuja,Y
+CLM-70285,POL336001,Health,NEM Insurance,WALE NNAMDI,46671168457,24 October 2024,01.12.2024,Theft,"₦100,181.87","N2,254,287",0,Partially Approved,Akwa Ibom,Yes
+CLM-70298,POL244935,Fire & Property,Custodian Insurance,Kunle Olawale,(180) 552-6965,08 January 2024,30-Jan-2024,Theft,"N591,786",2130683.71,"NGN 881,984",Approved,Kano,Yes
+CLM-70451,POL141686,MOTOR COMPREHENSIVE,WAPIC Insurance,tunde suleiman   ,(990) 881-1729,N/A,07/24/2024,accident,873236.54 naira,"₦4,854,909.57","N2,826,142",Partially Approved,Akwa Ibom,No
+CLM-70034,POL539486,Life (Term),WAPIC Insurance,Zainab  Suleiman,0164 005 2427,07/04/2023,29/08/2023,Third Party Liability,"NGN 979,145","₦1,955,456.24",unknown,Rejected,Edo,N
+CLM-70373,POL918941,Fire & Burglary,AXA Mansard,HALIMA CHUKWU,01684602235,2024/02/24,03/11/2024,FIRE,"₦1,342,165.39","NGN 597,473",-,Approved,Imo,FALSE
+CLM-70349,POL411792,Health (Family),NEM Insurance,Tunde Nwosu,0687 937 4160,04-Jan-2024,01/24/2024,  Fire,803492.0,2553162.61 naira,"2,412,146.59 ",REJECTED,abuja,No
+CLM-70268,POL775699,Life,NEM Insurance,Bisi Balogun,+234401051238,2023-09-03,18 September 2023,FIRE,1093815.06 naira,"4,759,855.66 ","₦58,724.18",REJECTED,Akwa Ibom,Y
+CLM-70037,POL855855,Fire & Property,Custodian Insurance,Tunde Suleiman   ,234-869-232-260,2024/08/01,03/09/2024,Theft    ,548443.5,"2,537,644.35 ","N2,012,596",Partially Approved,Anambra,no
+CLM-70318,POL152072,Marine,Custodian Insurance,Fatima Abubakar,,14.06.2024,10/08/2024,accident,1172129.45,"₦3,417,016.97","₦2,779,382.72",Rejected,Akwa Ibom,1
+CLM-70244,POL230824,Health (Family),AIICO Insurance,YUSUF OKAFOR,(666) 870-0217,12.11.2024,11/19/2024,accident   ,651565.65,"N4,067,651",  ,Settled,Abuja,FALSE
+CLM-70091,POL635593,Health,AXA Mansard,Obinna Ogundimu,09821465840,,15-Mar-2024,Third Party Liability,"954,841.23 ","N1,329,489",834298.16,Settled,kano,false
+CLM-70255,POL594932,Health,Custodian Insurance,Amara Okafor,0622 444 7212,16-Oct-2023,03/11/2023,Third Party Liability,1484598.22 naira,3919978.71 naira,"₦1,590,564.62",Pending,Ogun,Y
+CLM-70358,POL161795,fire & property,AXA Mansard,Bisi Nwosu,0000000000,2023-03-18,27.03.2023,FIRE,"N740,671","NGN 4,193,591",3521148.36 naira,Rejected,Imo,No
+CLM-70279,POL890110,Life,Leadway Assurance,Zainab Eze,09788191485,14.05.2024,03/07/2024,Fire,"NGN 1,466,648",2453045.05,null,REJECTED,Anambra,Y
+CLM-70289,POL746412,Life (Term),Custodian Insurance,Aliyu Okafor,+234632424154,16-Aug-2023,23 August 2023,Natural Disaster,"NGN 259,825","NGN 211,065","NGN 196,100",Approved,Rivers,true
+CLM-70176,POL328182,Motor,Leadway Assurance,Adaeze Balogun,234-132-370-589,11 October 2024,12/02/2024,Third Party Liability,1083619.61,4102931.33,2646346.05,Partially Approved,Enugu,Y
+CLM-70051,POL479742,Health,WAPIC Insurance,Emeka Chukwu,0727 743 4873,23 January 2023,2023-02-01,Natural Disaster,"₦1,531,388.03","₦3,396,882.58",nil,approved,Plateau,0
+CLM-70099,POL714483,Health,Leadway Assurance,Zainab Bello,38692221969,2023/03/01,2023/04/24,FIRE,"NGN 959,173","N1,837,151",NGN 0,approved,Rivers,false
+CLM-70437,POL442475,Marine,AXA Mansard,Chioma Okonkwo,(639) 427-8816,N/A,19/11/2023,Fire,"NGN 1,303,890",2759633.05,"NGN 1,783,629",Settled,Kaduna,No
+CLM-70163,POL579770,Motor,NEM Insurance,Zainab Olawale,234-195-205-852,2023/07/25,29 July 2023,FIRE,"₦339,313.81",4774401.36 naira,"2,946,089.05 ",Under Review,Anambra,TRUE
+CLM-70149,POL921533,Health,AXA Mansard,Adaeze Okeke,0573 322 1418,02 May 2023,21.06.2023,  Accident,515077.58,"₦615,854.97",5499.5,REJECTED,Cross River,0
+CLM-70382,POL580501,Fire & Property,AXA Mansard,Funmilayo Balogun,00167618472,03/29/2023,26/05/2023,Flood,"NGN 456,447",2423303.2,NGN 0,pending,Edo,yes
+CLM-70444,POL526772,Health (Family),AXA Mansard,Chidi Chukwu,32225913651,25-May-2023,17-Jun-2023,Third Party Liability   ,"₦1,194,017.38",1868935.95,272295.92 naira,Pending,Imo,Yes
+CLM-70306,POL877039,Fire & Burglary,AIICO Insurance,GRACE ADEYEMI,0079 252 4191,2024-05-05,2024/06/02,FIRE,491518.69,4380171.55,"₦2,718,394.58",REJECTED,ABUJA,0
+CLM-70392,POL918506,Health (Family),AIICO Insurance,Bola Suleiman,02771670145,11.09.2023,2023/10/17,Natural Disaster,-,"₦354,205.20",NGN 0,Partially Approved,Cross River,false
+CLM-70297,POL793875,Health,AIICO Insurance,Wale Lawal,+234640376137,10/02/2024,14-Nov-2024,accident,"₦560,275.69","N4,091,461","NGN 425,195",Rejected,Kaduna,Y
+CLM-70402,POL722838,Motor,Leadway Assurance,Chidi Ajayi,+234373516091,03/02/2023,18-Mar-2023,Theft  ,--,"₦3,347,238.45",unknown,Pending,Edo,yes
+CLM-70320,POL178687,Life (Term),AXA Mansard,Adaeze Yusuf,(678) 831-7121,10/11/2024,12/05/2024,Theft ,118171.49 naira,"₦4,418,930.35",N0,pending,Ibadan,N
+CLM-70344,POL680290,Motor,AXA Mansard,Funmilayo Adeyemi,invalid,20/08/2023,2023-08-27,  Theft,"NGN 1,186,916","NGN 937,592","412,830.24 ",Settled,Abuja,yes
+CLM-70199,POL516869,Motor Comprehensive,Custodian Insurance,wale chukwu,26368970283,2024/05/14,08.06.2024,accident,370148.82 naira,?,"₦1,511,739.61",approved,Delta,TRUE
+CLM-70123,POL815819,Fire & Burglary,AIICO Insurance,Blessing Okonkwo   ,234-711-116-152,07/22/2024,unknown date,  Theft ,"N1,335,749",998416.03 naira,"NGN 193,191",REJECTED,Anambra,N
+CLM-70447,POL749338,Motor,WAPIC Insurance,Ibrahim Afolabi,invalid,2024-10-14,08.11.2024,Natural Disaster,"N43,759",2995853.1,unknown,Rejected,Delta,yes
+CLM-70188,POL901351,MOTOR COMPREHENSIVE,AXA Mansard,Amaka Abubakar,07877470168,31.10.2024,25 November 2024,Natural Disaster   ,"₦600,517.02","₦4,879,749.28",null,Settled,Plateau,0
+CLM-70046,POL681478,Fire & Burglary,AIICO Insurance,Obinna Chukwu,+234738721489,2023-04-24,15-Jun-2023,Accident,"₦379,463.47","NGN 3,031,224","₦158,168.67",REJECTED,Cross River,Y
+CLM-70179,POL192742,Life,WAPIC Insurance,Ifeoma Ajayi,234-922-680-182,2024-04-30,23/06/2024,accident,"NGN 1,771,011","NGN 3,898,772","NGN 305,019",Pending,Lagos,FALSE
+CLM-70228,POL255362,FIRE & PROPERTY,Leadway Assurance,Ibrahim Ogundimu,0687 056 8566,29.01.2024,03/22/2024,Flood,"NGN 1,136,255","₦3,954,257.45",0.00 naira,Settled,Akwa Ibom,0
+CLM-70456,POL308865,Health (Family),NEM Insurance,Amara Afolabi   ,04869594636,,10 April 2024,FIRE,"N1,783,765","NGN 2,926,246",N0,Approved,ABUJA,false
+CLM-70047,N/A,health,Leadway Assurance,Obinna Ogundimu,(134) 332-0037,22.01.2023,2023-02-09,  Theft,1653378.20 naira,"₦2,372,825.57","N1,800,598",Approved,Edo,TRUE
+CLM-70210,POL499060,Motor Comprehensive,Custodian Insurance,Bisi Olawale,01527420549,25/08/2024,27/08/2024,FIRE,"N252,552",NIL,"₦1,077,256.89",REJECTED,Enugu,FALSE
+CLM-70229,POL343170,Life (Term),NEM Insurance,TOBI LAWAL,46287334270,2023/10/23,10/25/2023,Medical Emergency,890306.31 naira,"N2,440,783",1492527.18,pending,Rivers,false
+CLM-70018,Unknown,Health (Family),Leadway Assurance,Kemi Balogun,71331509839,,12/01/2023,Accident,"₦1,376,182.73",null,"₦1,587,351.93",Rejected,Cross River,Y
+CLM-70452,POL272734,Motor Comprehensive,Leadway Assurance,Bola Okeke,0068 650 8637,unknown date,14/11/2024,Flood,"N1,547,676","744,105.03 ","₦355,450.34",Partially Approved,Imo,1
+CLM-70427,POL791442,Health,NEM Insurance,Bisi Ogundimu,24508821009,2023/08/30,2023-09-27,FIRE,"NGN 1,793,173",1700838.78,0.00 naira,approved,Abuja,true
+CLM-70219,POL299800,Marine,AXA Mansard,Emeka Abubakar,0087 406 4039,26 May 2024,22.06.2024,Medical Emergency,1397712.79,"₦4,642,858.66","NGN 2,294,264",pending,Imo,N
+CLM-70249,POL108474,Health,AIICO Insurance,Ibrahim Chukwu   ,99650477358,25.06.2024,08/20/2024,accident,"NGN 985,530","N745,211","N449,608",Settled,Kaduna,Y
+CLM-70262,POL514254,motor,AXA Mansard,FATIMA SULEIMAN   ,61797968868,2024/01/29,01/03/2024,Theft,216138.80 naira,1649164.5,312595.07,approved,Abuja,true
+CLM-70020,POL912270,Marine,AXA Mansard,Kunle Suleiman,04738299737,16-Dec-2024,25-Dec-2024,Theft  ,"797,989.68 ","₦3,674,300.61",992363.91,REJECTED,Oyo,false
+CLM-70445,POL992440,Motor Comprehensive,Leadway Assurance,Amaka Okonkwo,0777 392 6030,05 April 2024,02 June 2024,Theft,1550987.99,"N3,132,813",1692380.06 naira,REJECTED,Plateau,no
+CLM-70422,POL268104,Health (Family),Leadway Assurance,Chioma Adekunle,38612075011,08-May-2024,03-Jul-2024,accident,"NGN 664,240","NGN 739,149",128872.94,Under Review,Kano,FALSE
+CLM-70183,POL722999,Life,WAPIC Insurance,Bola Adeyemi,(396) 907-8447,2023/06/28,2023/08/13,Theft ,"₦527,852.21","NGN 981,536",₦0.00,pending,Imo,yes
+CLM-70145,POL285636,Life (Term),NEM Insurance,Zainab Suleiman,234-554-665-905,02/28/2024,23-Apr-2024,Medical Emergency,"₦984,536.89","1,376,623.85 ","NGN 1,334,695",pending,Anambra,Yes
+CLM-70339,POL695642,Fire & Property,AIICO Insurance,KUNLE SULEIMAN   ,+234267658617,08/21/2023,26-Aug-2023,Theft   ,"NGN 1,069,796",1151086.91,1022551.18,pending,Plateau,yes
+CLM-70012,NULL,Marine,AIICO Insurance,Amaka Nwosu,66978480184,2022/12/17,09 February 2023,Third Party Liability   ,"₦860,474.79",N/A,"NGN 354,509",REJECTED,Enugu,FALSE
+CLM-70115,POL110142,Health,AXA Mansard,Bisi  Adeyemi,+234529042284,02-Oct-2023,2023-10-25,Natural Disaster,n/a,"N1,577,281",n/a,Rejected,Enugu,FALSE
+CLM-70354,POL609089,Motor,AXA Mansard,Adaeze Adekunle,+234914856467,02.11.2024,22 November 2024,Theft  ,754931.62,"4,048,972.11 ",-,Partially Approved,Abuja,TRUE
+CLM-70144,POL880009,FIRE & BURGLARY,AIICO Insurance,Emeka Adekunle   ,05182037788,11 March 2024,2024/04/06,Natural Disaster,"N321,990","₦4,273,974.99",₦0.00,REJECTED,Akwa Ibom,no
+CLM-70370,POL310141,Life,Leadway Assurance,  chinedu mohammed,234-824-172-482,N/A,13-Nov-2023,FIRE,"N1,384,336","4,011,418.33 ",663256.25,Rejected,Enugu,Y
+CLM-70039,POL196214,Motor Comprehensive,AXA Mansard,grace okafor,+234543303654,27 December 2022,,Medical Emergency,1569006.30 naira,"NGN 2,840,279","NGN 402,964",Rejected,Oyo,FALSE
+CLM-70003,POL944151,marine,NEM Insurance,Emeka Adeyemi,63794026542,2024/09/03,2024-10-17,Fire,"N1,013,586",NULL,"₦2,661,197.78",pending,Abuja,No
+CLM-70277,POL812449,Life,AXA Mansard,Chioma Afolabi,06887676772,21 November 2023,06 January 2024,Natural Disaster,"₦1,544,650.80","NGN 527,700","N452,994",Pending,Edo,false
+CLM-70133,POL791691,Health (Family),Custodian Insurance,Yusuf Ajayi,0244 510 7622,10/06/2023,not set,FIRE,"₦1,498,895.35",3012176.8,2471350.03 naira,Rejected,abuja,FALSE
+CLM-70177,POL215027,Fire & Property,Custodian Insurance,Femi Chukwu,234-829-114-678,10-Feb-2023,05 March 2023,Flood,"NGN 1,624,409",4840139.59,0,Pending,Lagos,Y
+CLM-70287,POL133141,Motor Comprehensive,WAPIC Insurance,Aliyu Olawale,0637 454 5892,15.12.2024,12/27/2024,Third Party Liability,221431.52,1438800.83,₦0.00,Rejected,Cross River,Yes
+CLM-70097,--,Motor Comprehensive,Custodian Insurance,Grace Suleiman,(091) 343-1611,20-Sep-2023,14/10/2023,Third Party Liability   ,"NGN 268,594","1,013,299.88 ","NGN 532,807",Under Review,rivers,yes
+CLM-70337,POL133842,motor,AIICO Insurance,Grace Okafor,+234513552157,30.05.2024,13 July 2024,Accident   ,1607959.87,2922207.11,"₦2,878,180.93",Approved,ABUJA,N
+CLM-70041,POL519902,Marine,WAPIC Insurance,aliyu okeke,234-019-655-698,10.10.2024,12/07/2024,  Flood,"₦667,288.53",2194824.66,  ,pending,Delta,FALSE
+CLM-70087,-,Life (Term),WAPIC Insurance,TOBI OGUNDIMU,234-385-977-034,20.12.2022,02.01.2023,Fire,"N871,332","N680,845",NGN 0,Under Review,Edo,false
+CLM-70293,POL780154,Motor Comprehensive,AXA Mansard,Tunde Okafor,234-262-218-909,2023/01/12,22.02.2023,Third Party Liability,1764542.0,4947890.62,₦0.00,Settled,Edo,yes
+CLM-70166,POL752801,Marine,Custodian Insurance,Fatima Okafor,0000000000,14 March 2024,01-Apr-2024,Natural  Disaster,  ,"N605,419",₦0.00,Pending,Lagos,Yes
+CLM-70273,POL331081,Life,WAPIC Insurance,Chioma Adekunle   ,(579) 249-9125,23 March 2023,2023-04-19,Natural Disaster,"N1,788,217",165524.47,54043.87 naira,Under Review,kano,No
+CLM-70221,POL455652,motor comprehensive,NEM Insurance,Halima Lawal,234-265-676-618,N/A,16.05.2023,Medical Emergency,"1,018,219.69 ","N2,910,825",NGN 0,REJECTED,Enugu,Y
+CLM-70157,POL358207,Health,WAPIC Insurance,Musa Nnamdi,04727790104,2023-04-19,2023-05-19,Third Party Liability   ,1017750.71,n/a,  ,REJECTED,Rivers,No
+CLM-70227,POL582515,Health (Family),AXA Mansard,Grace Lawal,234-283-644-089,2024/02/15,20.03.2024,  Medical Emergency   ,"56,799.51 ","N1,986,771",₦0.00,pending,Edo,Y
+CLM-70055,POL356773,Marine,Custodian Insurance,IBRAHIM LAWAL,234-668-893-734,2024-08-15,24.09.2024,Third Party Liability   ,"N78,757","NGN 4,447,204","NGN 2,854,693",Under Review,Rivers State,1
+CLM-70363,POL556564,Health,Custodian Insurance,Tunde Suleiman,0933 334 6800,17 February 2024,03/23/2024,Natural Disaster,"₦808,923.10","NGN 3,481,597",N0,REJECTED,Abuja,yes
+CLM-70335,POL683499,Motor,AXA Mansard,Grace Okeke,05392644220,2023/06/08,28/06/2023,Fire,216098.29 naira,"₦2,258,557.96",0,Partially Approved,Delta,N
+CLM-70125,POL145981,Motor Comprehensive,NEM Insurance,BLESSING LAWAL,+234451983273,16.10.2023,2023/10/17,Natural Disaster,"1,642,621.27 ",4114103.14,"3,302,870.86 ",Rejected,Plateau,true
+CLM-70061,POL876880,Health (Family),NEM Insurance,  tunde ajayi,+234299124190,not set,08/08/2023,Natural Disaster,"N1,494,614",1370240.96,"NGN 372,187",Approved,Imo,No
+CLM-70400,POL547232,Health,AIICO Insurance,  Kunle Chukwu,234-130-554-885,01 March 2024,12/04/2024,FIRE,196293.56 naira,"₦4,283,947.63",1126092.81,Under Review,Plateau,false
+CLM-70356,POL857190,Motor,AIICO Insurance,Bola Nnamdi,+234530745054,24 March 2023,05/15/2023,Theft ,1339433.18,"NGN 1,364,593",₦0.00,pending,Enugu,yes
+CLM-70095,POL151328,Motor,AIICO Insurance,Chioma Nnamdi,(171) 870-2621,06/17/2023,09/08/2023,  Fire   ,"NGN 1,545,418","₦758,652.51","N734,679",Rejected,Ogun,FALSE
+CLM-70383,POL711561,Marine,AXA Mansard,Chinedu Abubakar,(046) 184-9926,04 December 2024,2024-12-12,Fire,"NGN 285,084",1475817.74,939745.14 naira,pending,Imo,1
+CLM-70008,POL794022,health,AIICO Insurance,Aliyu Suleiman,76483503056,24/01/2024,24 January 2024,FIRE,"₦1,773,923.20","N1,340,711","NGN 610,035",Rejected,Imo,FALSE
+CLM-70122,POL335203,Fire & Property,NEM Insurance,Tobi Suleiman,234-576-615-654,10/06/2023,28-Jul-2023,Natural Disaster,"N985,580","₦1,806,238.54","N1,112,840",pending,Akwa Ibom,N
+CLM-70107,POL271456,Fire & Property,AIICO Insurance,segun chukwu,71236851604,12/17/2023,17-Jan-2024,  FIRE,"₦1,079,427.38",904366.8,"₦530,755.01",approved,Ogun,yes
+CLM-70292,POL502810,Marine,Leadway Assurance,BISI NNAMDI,0627 136 1115,2024/01/12,2024-02-12,Flood,"NGN 1,240,332",4353873.49 naira,"N720,645",approved,Imo,Y
+CLM-70361,POL485115,Marine,NEM Insurance,Amara Yusuf,06103579727,05/10/2024,2024-10-05,Fire   ,"N1,671,986",1387411.46,1204402.4,approved,Cross River,false
+CLM-70217,POL960085,marine,AIICO Insurance,Funmilayo Afolabi,,01/31/2023,24.03.2023,  Fire,"N1,408,536","₦2,468,625.47",2287174.63,Pending,Akwa Ibom,FALSE
+CLM-70326,POL303258,Life,AXA Mansard,Fatima Balogun,0838 065 7875,01 December 2023,2024/01/01,Third Party Liability,,"N2,896,369","1,247,525.68 ",Rejected,Enugu,0
+CLM-70015,POL254739,Life,AIICO Insurance,Chioma Nwosu,95701543039,16/03/2024,11.04.2024,Theft,1597893.01,2886841.08,1108484.81,Partially Approved,Enugu,TRUE
+CLM-70081,POL653349,Life (Term),NEM Insurance,SADIQ LAWAL,234-994-717-464,18 June 2023,07/11/2023,  Third Party Liability,"N603,623",2298601.10 naira,₦0.00,Settled,Enugu,Y
+CLM-70240,POL456470,Fire & Burglary,AXA Mansard,WALE OKAFOR,05099770088,05-Feb-2023,28/03/2023,Theft ,"NGN 972,040","₦1,615,747.18",null,Settled,Akwa Ibom,No
+CLM-70453,POL537588,Health,Leadway Assurance,Musa Okafor,invalid,29-Jul-2023,2023-09-05,Medical Emergency,"950,233.82 ",2495724.75 naira,0,Partially Approved,Imo,true
+CLM-70160,POL336540,Health,AIICO Insurance,Femi Adekunle,89324609539,2023/01/24,05-Mar-2023,Flood,"N482,381",1948109.54 naira,?,Partially Approved,Edo,N
+CLM-70247,POL755725,Motor,AIICO Insurance,Bisi  Eze,06142939685,2023/11/05,08/12/2023,Accident,"₦1,434,547.24",4718866.93,"N2,923,652",Approved,Delta,1
+CLM-70201,POL603825,Health (Family),WAPIC Insurance,Segun Okeke,54973348434,23.01.2023,30 January 2023,  Accident,"NGN 1,382,375","₦2,475,390.12","N1,482,490",REJECTED,Lag,true
+CLM-70232,POL261790,Health,AIICO Insurance,Obinna Eze,0013 983 7354,02/06/2023,30.07.2023,accident,"NGN 666,908",3647179.4,"N2,779,022",Pending,Cross River,TRUE
+CLM-70275,POL423896,Marine,WAPIC Insurance,Musa Olawale,+234662782827,2024/08/20,07/09/2024,Third Party Liability,NIL,"₦3,333,446.51","₦2,343,302.26",pending,Plateau,1
+CLM-70195,POL969856,Fire & Burglary,AXA Mansard,Halima Nnamdi,26949588879,17.04.2024,30/05/2024,Flood,N/A,"₦291,210.79","N131,747",pending,Rivers,TRUE
+CLM-70253,NULL,Health (Family),Leadway Assurance,chioma okeke,(861) 015-8199,12.11.2024,12-Dec-2024,FIRE,"N1,295,279",2484064.29 naira,0.00 naira,pending,Kaduna,yes
+CLM-70108,POL810091,Life,AIICO Insurance,Blessing Yusuf,234-175-496-513,12 January 2024,2024-03-09,Theft,"NGN 693,244","NGN 1,756,572",0,Under Review,Rivers,N
+CLM-70103,POL189870,Life (Term),NEM Insurance,ZAINAB EZE,0406 409 0974,02/26/2024,26/03/2024,Natural Disaster,492536.44,"N4,188,652","₦633,033.83",pending,Rivers,Y
+CLM-70378,POL880195,Health,Leadway Assurance,  Ibrahim Suleiman,234-689-421-044,09/09/2024,2024/10/01,Natural Disaster,nil,"NGN 2,088,657",  ,REJECTED,Anambra,TRUE
+CLM-70093,  ,Marine,AIICO Insurance,Ifeoma Okafor,234-675-339-636,11/09/2022,07 January 2023,Natural Disaster,"₦752,814.09","₦1,180,328.75",N/A,Approved,Enugu,true
+CLM-70346,POL736592,Health (Family),AXA Mansard,Halima Adeyemi,234-741-862-565,2024-07-02,11/08/2024,Flood,"₦998,113.63","N2,102,039",unknown,Under Review,Delta,1
+CLM-70304,POL455488,Life (Term),AIICO Insurance,Blessing Mohammed,0588 425 2410,25 April 2024,05/28/2024,Theft ,"₦1,786,295.00","3,051,519.85 ",2345508.67,Rejected,Delta,No
+CLM-70026,POL438977,Fire & Burglary,AIICO Insurance,Funmilayo Adekunle,0098 050 0978,not set,23.10.2023,accident,1702718.53 naira,NIL,"₦1,851,850.45",Under Review,Plateau,Y
+CLM-70211,POL950874,Marine,AXA Mansard,Obinna Nnamdi,29668516122,22.10.2023,27.11.2023,FIRE,"N198,463","2,452,025.92 ",504892.53,Rejected,Ogun,no
+CLM-70119,POL851606,Motor,WAPIC Insurance,Blessing Abubakar,0766 177 1159,04 April 2023,04/20/2023,  accident,1109261.88 naira,"N953,966",374809.94,Pending,Plateau,FALSE
+CLM-70286,POL105404,Life (Term),AXA Mansard,Segun Eze,0759 017 5186,unknown date,24-Sep-2024,Third Party Liability,"891,672.97 ","₦1,791,605.44","588,635.19 ",Pending,Port Harcourt,Yes
+CLM-70359,POL274270,Life,AIICO Insurance,Chidi Eze,14862890233,13-Dec-2024,17.12.2024,FIRE   ,691842.74,-,NGN 0,Pending,rivers,FALSE
+CLM-70436,  ,Life (Term),AIICO Insurance,Fatima Mohammed,0693 084 8872,24/07/2023,12-Sep-2023,Medical Emergency,"N692,416","NGN 3,509,218",-,Partially Approved,Delta,no
+CLM-70316,POL511907,Marine,Leadway Assurance,Fatima Adekunle,0557 431 3291,19-Feb-2024,2024/03/22,Medical Emergency,1704763.57 naira,"N4,613,294",N0,Rejected,Delta,Y
+CLM-70377,POL259151,Fire & Property,NEM Insurance,Amaka Ogundimu,234-583-003-354,2024/06/14,08/07/2024,accident,null,2797132.47,894083.27 naira,Pending,Ogun,FALSE
+CLM-70329,POL628288,Health (Family),AXA Mansard,Blessing Olawale,0803 965 2239,01 December 2023,00/00/0000,Theft,"NGN 1,579,761",2195726.22 naira,?,approved,Lagos,1
+CLM-70252,POL995940,Motor Comprehensive,Leadway Assurance,Amara Abubakar,+234541212678,15.10.2023,2023/11/22,  Theft ,"N787,434",3187991.88 naira,2432700.41 naira,REJECTED,Plateau,no
+CLM-70369,POL730133,Marine,AIICO Insurance,Chidi Chukwu,(099) 353-8758,25-Jul-2024,30 August 2024,Natural Disaster,"NGN 1,257,735","N3,660,155",891572.54 naira,Pending,Rivers,Yes
+CLM-70331,POL821184,HEALTH,AIICO Insurance,Obinna Ajayi,04270103930,26.09.2023,05-Nov-2023,Accident,"₦576,831.22","NGN 4,946,010",NGN 0,pending,Akwa Ibom,true
+CLM-70014,POL550770,Motor Comprehensive,Custodian Insurance,Ibrahim Abubakar,(148) 932-5288,17.08.2024,2024/09/22,Theft,"₦559,186.03",null,₦0.00,Approved,Lagos State,FALSE
+CLM-70104,POL974625,Life,AIICO Insurance,amaka mohammed,95339421047,09 July 2023,17/07/2023,  Natural Disaster,N/A,"N410,275",Unknown,REJECTED,Imo,1
+CLM-70186,POL792829,Life,WAPIC Insurance,Adaeze Bello,15371473210,01/30/2023,03/24/2023,Accident,"₦840,859.85",3837210.29 naira,677721.58 naira,pending,Lagos,no
+CLM-70418,POL536089,Fire & Property,Custodian Insurance,ZAINAB OKAFOR   ,39878015739,2023/05/30,07/29/2023,  accident,1584658.86,3688435.17,NGN 0,approved,Oyo,yes
+CLM-70077,POL517584,Life (Term),Custodian Insurance,Funmilayo Okonkwo,234-649-909-133,20.09.2024,2024-10-28,Theft,"₦266,620.94",1616912.47,NIL,Under Review,Delta,yes
+CLM-70131,POL641760,Fire & Property,NEM Insurance,Grace Balogun,234-438-156-149,21-Aug-2023,27/09/2023,FIRE,991221.36 naira,"NGN 885,772","₦323,569.69",Rejected,Edo,N
+CLM-70216,POL424291,Life,NEM Insurance,Femi Bello,0187 851 9108,00/00/0000,2024-11-09,  Medical Emergency,"NGN 1,695,006",3459598.63,"829,182.17 ",Settled,Cross River,Yes
+CLM-70410,POL338891,Fire & Burglary,Leadway Assurance,Kunle Ajayi,04380571983,10-Feb-2023,09-Apr-2023,Theft,"N1,416,988","₦2,547,120.09","798,483.38 ",Pending,Abuja,No
+CLM-70242,POL969659,Health,AIICO Insurance,Amaka Ogundimu,18233984546,06.08.2023,09/09/2023,Fire,"NGN 1,715,887","₦4,807,533.50",null,Settled,Kano,no
+CLM-70300,POL356949,Life (Term),Leadway Assurance,Ngozi Balogun,+234848666188,2024/03/11,03-May-2024,Natural Disaster,"₦1,079,218.02","₦807,702.52",?,Pending,Anambra,Y
+CLM-70376,POL733992,health (family),AIICO Insurance,Halima Adeyemi,0000000000,2023-06-22,09 August 2023,  Third Party Liability,"NGN 1,685,474","N1,388,438","N257,852",pending,Ogun,1
+CLM-70058,POL968524,Marine,Custodian Insurance,Funmilayo Nnamdi,65375564641,22-May-2023,16.06.2023,Accident,1783342.93,"NGN 3,701,810",Unknown,Settled,Rivers,N
+CLM-70063,POL872399,Fire & Property,Leadway Assurance,Yusuf Okafor,90586518506,04/05/2023,04/26/2023,Accident,NIL,"N2,305,394",NGN 0,Under Review,Lagos,0
+CLM-70200,POL534649,Health,Leadway Assurance,aliyu adekunle   ,234-578-652-785,2023/01/09,09/03/2023,Accident,"N1,729,169","₦3,785,447.99",NGN 0,Pending,Delta,false
+CLM-70374,POL474221,Marine,WAPIC Insurance,YUSUF YUSUF,(972) 521-7525,2023/08/20,16-Sep-2023,Natural Disaster,"N623,995",1494799.38,"811,300.12 ",pending,LAGOS,Yes
+CLM-70355,POL940208,Life (Term),Leadway Assurance,Emeka Yusuf,09702462996,,06 January 2024,Theft,"NGN 377,231","₦801,824.70","N689,347",Approved,Oyo,1
+CLM-70224,POL286657,Life (Term),AIICO Insurance,chioma adekunle,+234106903311,07-Oct-2023,2023/11/27,Medical Emergency,"₦123,574.67","NGN 372,206",141955.98 naira,Settled,Delta,yes
+CLM-70134,POL831531,Fire & Burglary,Custodian Insurance,Sadiq Adeyemi,234-388-516-060,11/06/2022,02/01/2023,Medical Emergency,"₦1,689,479.34",3399225.61,Unknown,Approved,Enugu,true
+CLM-70322,POL779878,Life,WAPIC Insurance,SADIQ OKEKE,234-137-215-107,08 June 2023,27-Jul-2023,Flood,"₦735,363.71","NGN 361,824",NIL,Settled,kano,Y
+CLM-70184,POL390756,Motor Comprehensive,AIICO Insurance,Bisi Balogun   ,0647 102 7677,13-Oct-2024,09 December 2024,Natural Disaster,1209953.08,"₦3,855,195.66",null,pending,Lagos,Y
+CLM-70175,POL350164,Health (Family),Custodian Insurance,amara afolabi,234-518-844-225,03/31/2023,2023/04/20,Theft,"₦1,012,166.00","N373,201","₦172,036.49",pending,Port Harcourt,No
+CLM-70443,POL125598,Fire & Property,Leadway Assurance,Fatima Adekunle,79082723184,not set,03-Nov-2024,FIRE,"1,727,986.27 ","₦4,384,351.62","N3,151,783",pending,Akwa Ibom,0
+CLM-70324,POL278501,LIFE,Custodian Insurance,ZAINAB NWOSU,02447209993,07.06.2023,09 July 2023,Third Party Liability,"NGN 1,636,314","₦3,118,149.38","N2,658,422",approved,Akwa Ibom,N
+CLM-70135,POL365953,Motor Comprehensive,NEM Insurance,Grace Okeke,234-596-966-416,15-Oct-2024,2024-12-05,Theft ,"585,725.54 ","N1,824,104",0.00 naira,Pending,Fct Abuja,no
+CLM-70084,POL944565,Marine,NEM Insurance,Fatima Abubakar,74296717565,19 November 2024,28.12.2024,FIRE,1148167.87,846588.46,₦0.00,Pending,kano,N
+CLM-70171,POL417003,Motor,Leadway Assurance,Fatima Nnamdi,03556909275,23 February 2024,2024-02-28,accident,"₦907,271.62","1,203,458.39 ",1144160.08,Pending,Kano,0
+CLM-70148,POL359168,Fire & Property,AIICO Insurance,Chioma Ogundimu,0281 685 0542,2023-07-24,09/14/2023,Accident,702299.90 naira,"NGN 82,825","₦59,193.67",Under Review,Fct Abuja,no
+CLM-70281,POL809388,Fire & Burglary,Leadway Assurance,Bola Adekunle,51713395962,11 February 2023,18-Mar-2023,Fire,null,"₦1,921,275.92",N/A,REJECTED,Edo,No
+CLM-70190,POL319770,Health (Family),AIICO Insurance,SEGUN  YUSUF,08016245650,2024/05/13,24 May 2024,Third Party Liability,"NGN 308,573","₦4,614,911.74",NGN 0,Settled,Akwa Ibom,N
+CLM-70389,POL318742,Motor,AIICO Insurance,Amaka Abubakar,(557) 941-5521,2024-02-01,02/23/2024,Fire,1171282.07 naira,  ,196566.29,Under Review,Oyo,FALSE
+CLM-70254,POL408824,Life,AXA Mansard,Ifeoma Balogun,06046618398,15 January 2023,01/26/2023,Third Party Liability,"808,997.08 ","₦1,342,811.89",₦0.00,Partially Approved,Imo,yes
+CLM-70426,POL285844,Life (Term),Leadway Assurance,Segun Balogun,06607283268,13.10.2024,18 November 2024,Theft ,"₦635,296.15","NGN 1,712,088",n/a,Approved,Edo,N
+CLM-70408,POL993605,Fire & Burglary,AXA Mansard,  Musa Bello,234-996-846-081,04/01/2024,02/12/2024,accident,NULL,"1,009,125.67 ",NGN 0,Under Review,Delta,true
+CLM-70338,POL911192,Motor Comprehensive,Custodian Insurance,Adaeze Okafor,(433) 154-1006,16-Feb-2024,2024/03/17,Fire,563567.57 naira,4252170.84,"₦91,180.41",Settled,Imo,Yes
+CLM-70086,POL117072,Health (Family),Custodian Insurance,Kunle Ogundimu,+234545168087,2023-10-22,2023-12-18,  Medical Emergency,"₦1,236,529.67","N261,078",0,Settled,Edo,No
+CLM-70218,POL966929,LIFE (TERM),AXA Mansard,Tobi Okeke,(718) 707-2867,2023/10/27,24/11/2023,accident,874098.73 naira,3681157.10 naira,₦0.00,REJECTED,Rivers,No
+CLM-70455,POL645377,Marine,WAPIC Insurance,Blessing Okeke,234-635-651-269,01-Jun-2023,14 July 2023,accident   ,"NGN 1,242,614",3568852.77,"₦729,703.65",Under Review,Cross River,yes
+CLM-70243,POL458224,Motor Comprehensive,AIICO Insurance,Tobi Olawale,01567933410,26/09/2024,2024/10/12,Fire,1763861.62,3544615.39 naira,N0,Rejected,Anambra,Yes
+CLM-70158,POL827497,Health (Family),AIICO Insurance,Chinedu Olawale,(328) 986-1434,02/10/2023,2023/02/25,Accident,"NGN 1,709,370","₦4,635,113.88","N3,801,414",approved,Lagos,No
+CLM-70449,POL995017,motor,AIICO Insurance,Blessing Yusuf,04257991366,11-Aug-2023,17-Sep-2023,Fire   ,"NGN 233,862","N2,593,347",NGN 0,pending,Cross River,false
+CLM-70388,POL739760,Fire & Burglary,Custodian Insurance,Sadiq Okonkwo,04556110022,2024-06-25,07.08.2024,Medical Emergency,"299,410.83 ","NGN 798,811","N627,714",Settled,Lagos,1
+CLM-70118,POL480992,Health (Family),AXA Mansard,Blessing Olawale,0178 390 8470,2024-08-02,10/09/2024,Theft,"1,156,630.17 ",Unknown,"₦2,914,753.76",Pending,Delta,Y
+CLM-70430,POL411132,Marine,Leadway Assurance,Grace Okeke,87814141397,18/05/2023,2023/07/11,Medical  Emergency,595494.67 naira,nil,₦0.00,pending,Lagos,true
+CLM-70317,n/a,Life (Term),Leadway Assurance,HALIMA CHUKWU,234-277-561-853,2024/05/22,07-Jun-2024,Theft ,"NGN 1,066,693","N1,481,498","₦955,711.52",approved,Plateau,FALSE
+CLM-70441,POL100283,Motor,AXA Mansard,Musa Eze,0184 498 9266,06/20/2024,2024-07-28,Flood,"NGN 531,483","NGN 4,934,170","NGN 1,226,232",Approved,Imo,No
+CLM-70127,POL764845,Motor Comprehensive,AIICO Insurance,Femi Yusuf,08094024455,not set,30 April 2024,FIRE,--,699179.67,?,approved,KANO,FALSE
+CLM-70173,POL279594,Motor Comprehensive,NEM Insurance,Amara Nwosu,0027 868 1447,17/06/2024,09/07/2024,Theft,"N1,000,124","1,369,839.46 ","N1,101,355",approved,Kaduna,N
+CLM-70043,POL849014,Motor,Leadway Assurance,Tunde Olawale,(615) 951-4846,10/19/2023,2023-11-26,Natural Disaster,869241.52,"N771,288",  ,Settled,oyo,no
+CLM-70405,POL978922,Life,AIICO Insurance,Tunde Okeke,(866) 934-6547,11 August 2024,13-Sep-2024,Accident,"N1,569,948",3344434.03 naira,0.00 ,Settled,Edo,Yes
+CLM-70120,POL738576,Marine,Custodian Insurance,Chioma Afolabi,0124 998 5698,05/06/2023,2023/05/12,FIRE,712644.9,3010719.19,"N1,517,734",approved,Edo,no
+CLM-70420,POL166741,Motor Comprehensive,WAPIC Insurance,Ibrahim Nnamdi,0000000000,11/26/2023,2023-12-25,FIRE,"₦381,152.50","₦3,227,793.15","₦494,167.12",Pending,Plateau,no
+CLM-70248,POL642337,HEALTH (FAMILY),NEM Insurance,Chinedu Ogundimu,+234185016315,01/18/2024,2024-03-14,Third Party Liability,"NGN 1,125,874",524364.08,--,Partially Approved,Edo,no
+CLM-70299,POL989980,Health,AXA Mansard,Segun Chukwu,(271) 091-0430,25-Jun-2024,25.07.2024,  Flood   ,1724767.99,"NGN 4,606,102",-,Approved,Plateau,No
+CLM-70432,POL499987,Life (Term),AXA Mansard,Kunle Olawale,07594929955,00/00/0000,2023-06-06,  Flood,1334700.07,"NGN 1,940,110",1694417.49,Settled,Enugu,Y
+CLM-70187,POL256189,MOTOR,WAPIC Insurance,Sadiq  Suleiman,+234696325953,,20.02.2024,Theft,"400,728.76 ","₦3,276,172.67",3079896.48,Under Review,Abuja,1
+CLM-70433,POL248350,Fire & Property,Custodian Insurance,Musa Yusuf,20533645257,2024/11/09,12 November 2024,Natural Disaster,"NGN 652,231","NGN 547,937","₦386,856.93",pending,FCT,1
+CLM-70010,POL262998,Motor Comprehensive,Leadway Assurance,Tunde Suleiman,(238) 849-6965,04.11.2024,00/00/0000,  Medical Emergency,unknown,"N688,770",₦0.00,Rejected,Imo,false
+CLM-70220,POL820216,Life (Term),WAPIC Insurance,Zainab Bello,(065) 180-1704,unknown date,19-Aug-2024,Third Party Liability,"N1,173,843",446978.6,?,Settled,Oyo,true
+CLM-70042,POL258290,Marine,AXA Mansard,Grace Olawale,06934060883,30-Sep-2024,unknown date,  Medical Emergency,"N1,590,635",3222099.32 naira,"N1,041,409",Approved,Delta,FALSE
+CLM-70017,POL938722,motor comprehensive,Custodian Insurance,Chidi Suleiman,89638346578,15-Sep-2023,02.11.2023,accident,717226.3,"N4,460,375",unknown,Pending,LAGOS,N
+CLM-70409,POL683346,Life (Term),Leadway Assurance,Blessing Afolabi,62003424420,29-May-2023,2023/05/29,Third Party Liability,551807.81,"NGN 4,823,661",NIL,Under Review,Cross River,TRUE
+CLM-70054,POL987025,Marine,AXA Mansard,ifeoma yusuf,+234366909670,08 June 2023,18 June 2023,Third Party Liability,"₦597,722.83","₦3,552,474.02","N3,342,537",Under Review,Cross River,FALSE
+CLM-70235,POL372374,Motor,WAPIC Insurance,Adaeze Chukwu,(175) 355-6093,14-Jul-2023,09/05/2023,Theft ,1399130.07 naira,"N3,638,016","NGN 401,789",Pending,Plateau,1
+CLM-70066,--,FIRE & PROPERTY,WAPIC Insurance,Adaeze Balogun,0379 965 0752,11-Aug-2024,15-Aug-2024,  Natural Disaster,"₦105,389.40","1,735,753.76 ",--,Partially Approved,Rivers,N
+CLM-70290,POL615151,Life,WAPIC Insurance,Yusuf Adekunle,(520) 643-6110,2023-07-19,2023-08-06,Flood   ,"N862,903","N4,544,240",  ,Under Review,Kano,No
+CLM-70141,POL459762,Fire & Property,Custodian Insurance,Obinna Ajayi,0905 814 7700,11/07/2023,30 November 2023,Flood,"N1,112,681","1,313,309.83 ","311,437.18 ",Pending,Delta,Yes
+CLM-70110,POL489737,Motor Comprehensive,Custodian Insurance,Ifeoma Olawale,02004711382,27-Oct-2024,01-Nov-2024,Accident,"NGN 419,500",1132173.07,"₦476,047.72",Pending,Cross River,No
+CLM-70078,POL849979,Health (Family),NEM Insurance,Tobi Mohammed,(123) 281-2067,11.01.2024,23 February 2024,Accident,911263.21 naira,"N3,174,013",  ,REJECTED,Rivers,Yes
+CLM-70214,POL429153,Life (Term),AXA Mansard,Sadiq Balogun,0684 145 9332,2023/05/20,06/30/2023,Theft,"N1,538,225","N4,819,659",95953.34 naira,pending,Imo,No
+CLM-70280,POL566532,Motor Comprehensive,NEM Insurance,Ibrahim Suleiman,(078) 361-3407,11/04/2024,2024/11/04,Accident,"465,798.33 ",249907.99,"NGN 226,072",Pending,Plateau,FALSE
+CLM-70215,POL543410,fire & property,AXA Mansard,Kunle Nwosu,(279) 568-7833,not set,06/09/2024,Third Party Liability,"NGN 1,397,414",1580783.44,-,approved,Lagos,FALSE
+CLM-70431,POL375185,Motor Comprehensive,WAPIC Insurance,Bola Okeke,234-523-149-135,2023-10-17,2023/11/23,Flood,1394210.34 naira,"4,574,093.79 ",2769645.16,Settled,Delta,0
+CLM-70069,POL689704,Fire & Burglary,Leadway Assurance,blessing adeyemi   ,(436) 349-5788,07/12/2023,00/00/0000,Theft ,424986.57,4290555.37,0.00 naira,REJECTED,Oyo,Yes
+CLM-70007,POL522179,Life,Leadway Assurance,  Tunde Adeyemi,02553419283,12.02.2024,09/03/2024,Accident,"₦853,968.79",3650797.73,3592988.12 naira,pending,Kano,Yes
+CLM-70156,POL442707,MOTOR,WAPIC Insurance,Amara Mohammed,(361) 530-5152,23/08/2024,2024-10-11,  Natural Disaster,1147143.68,289557.18 naira,"NGN 92,460",Settled,Cross River,false
+CLM-70023,POL615633,Motor,Leadway Assurance,Bola Bello,(473) 178-1080,05 July 2023,08 July 2023,Natural Disaster,?,"₦4,311,380.36",₦0.00,Under Review,Edo,N
+CLM-70413,POL684191,Health,AIICO Insurance,Musa Adeyemi,03472122816,2023-11-16,not set,Theft    ,"N1,359,472",2628859.02 naira,  ,Pending,Ogun,no
+CLM-70113,POL753404,Life,WAPIC Insurance,Bisi Suleiman,,14-Apr-2023,2023-05-07,accident,"₦1,287,220.41",3964793.23 naira,?,Pending,Enugu,No
+CLM-70440,POL722076,Motor,WAPIC Insurance,Zainab Abubakar,234-038-567-700,18/07/2023,07/30/2023,Fire,"NGN 1,373,573","NGN 3,683,799",N0,Pending,Imo,0
+CLM-70142,POL414608,Motor,Custodian Insurance,FUNMILAYO LAWAL,41199867980,2024-02-05,07 March 2024,Medical Emergency,"N263,687","N4,468,487","N2,386,094",Partially Approved,Rivers,yes
+CLM-70197,POL283877,Health,Leadway Assurance,IBRAHIM OKONKWO   ,(749) 930-9728,2023/12/10,2023-12-28,Fire,"NGN 834,270",unknown,603964.16,Pending,Lagos,TRUE
+CLM-70048,POL796643,Motor Comprehensive,AIICO Insurance,Aliyu Okonkwo,(176) 936-7632,10-May-2023,28/05/2023,Natural  Disaster,786899.04,"NGN 3,081,752",N0,REJECTED,Rivers State,true
+CLM-70241,POL382368,Life (Term),AIICO Insurance,Chioma Eze,+234084840862,12/07/2023,27 July 2023,Theft,"NGN 1,360,037",2938424.80 naira,NULL,Pending,Kaduna,TRUE
+CLM-70350,POL735615,Marine,Leadway Assurance,Wale Adekunle,N/A,,2023-10-08,Theft ,804077.22 naira,4429038.83,₦0.00,Settled,Delta,yes
+CLM-70074,POL180674,Life (Term),WAPIC Insurance,Ngozi Bello,77752047116,2023/05/05,03 July 2023,  Third Party Liability,"NGN 1,534,509",97977.31,NGN 0,REJECTED,Lagos,0
+CLM-70137,POL389340,Life (Term),Custodian Insurance,Yusuf Balogun,68164535218,02/12/2024,2024/12/16,FIRE,"NGN 1,116,962","N3,376,641",2211764.69,approved,Rivers,TRUE
+CLM-70226,POL367240,Motor,AIICO Insurance,Kemi Chukwu,+234284395995,20/03/2023,2023/04/21,Medical Emergency,779221.50 naira,"490,532.13 ",278856.83,Under Review,Rivers State,true
+CLM-70313,nil,Motor,NEM Insurance,Bola Okafor,01383670241,07/08/2024,10/04/2024,accident,"N486,908","NGN 2,773,469","565,129.28 ",Settled,Cross River,yes
+CLM-70411,POL515494,Fire & Burglary,WAPIC Insurance,Zainab Mohammed,(638) 406-6658,21 July 2024,08/06/2024,FIRE,nil,"NGN 3,644,247",?,Rejected,Anambra,1
+CLM-70457,POL470725,Marine,AXA Mansard,Wale Suleiman,0872 588 7449,22 September 2023,N/A,Theft,"452,207.48 ","₦1,117,779.28",840264.38 naira,Under Review,Delta,FALSE
+CLM-70315,POL463629,Fire & Burglary,AIICO Insurance,Tunde  Olawale,N/A,2023-11-02,11/02/2023,Accident,unknown,"₦3,305,138.64",  ,approved,Delta,false
+CLM-70048,POL796643,Motor Comprehensive,AIICO Insurance,Aliyu Okonkwo,(176) 936-7632,10-May-2023,28/05/2023,Natural  Disaster,786899.04,"NGN 3,081,752",N0,REJECTED,Rivers State,true
+CLM-70379,POL286255,Fire & Burglary,Custodian Insurance,Blessing Okonkwo,08985625753,2024/01/23,06-Feb-2024,Natural Disaster   ,"N1,549,825",2484269.41 naira,--,Approved,Kaduna,FALSE
+CLM-70264,POL565280,Marine,AXA Mansard,Chidi Ajayi,(965) 610-1438,17-Jul-2023,2023-07-26,Accident,"NGN 691,953","₦3,217,353.71",0,Under Review,Ogun,1
+CLM-70325,POL574602,Fire & Burglary,AXA Mansard,Kunle Olawale,0768 701 4626,unknown date,2024-05-30,FIRE,"N1,365,112","₦3,880,777.63",0,Approved,Rivers,N
+CLM-70345,POL408347,HEALTH,Leadway Assurance,Segun Lawal,N/A,06 January 2023,2023/01/26,FIRE,"NGN 1,102,366","N1,814,229","₦1,628,074.99",Rejected,Abuja,N
+CLM-70404,POL977353,Motor,WAPIC Insurance,Emeka Lawal,234-829-221-699,13.06.2024,2024-06-19,  Theft,"N182,217","NGN 3,664,161","NGN 3,169,811",pending,Anambra,FALSE
+CLM-70318,POL152072,Marine,Custodian Insurance,Fatima Abubakar,,14.06.2024,10/08/2024,accident,1172129.45,"₦3,417,016.97","₦2,779,382.72",Rejected,Akwa Ibom,1
+CLM-70265,POL765181,Health,AIICO Insurance,Fatima Adeyemi,0899 375 6798,2023/11/15,26-Nov-2023,Fire,nil,50092.45 naira,"NGN 3,506",Settled,Port Harcourt,TRUE
+CLM-70336,POL560197,Life,NEM Insurance,Ngozi Balogun   ,234-902-959-391,unknown date,2024-08-07,Natural Disaster   ,?,"NGN 1,773,488","N990,843",approved,Enugu,FALSE
+CLM-70375,POL767671,Motor,Leadway Assurance,Bola Olawale,07432927129,31/07/2024,15-Sep-2024,Theft,"N1,157,121",4412543.70 naira,"N4,325,469",Approved,Kaduna,FALSE
+CLM-70146,POL674842,Fire & Burglary,Custodian Insurance,EMEKA OKAFOR,0518 644 9251,14 April 2024,03 May 2024,Medical Emergency,41210.36 naira,"2,163,567.86 ",NGN 0,pending,Ogun,0
+CLM-70168,POL191928,Marine,Custodian Insurance,Amara Nnamdi,(845) 115-4479,26 January 2024,02/28/2024,Theft ,397475.53 naira,"₦1,061,073.88",0,Under Review,Lagos State,true
+CLM-70178,POL578180,Life (Term),NEM Insurance,Kunle Afolabi,(691) 251-7785,00/00/0000,11/04/2024,FIRE,"₦1,755,580.67","₦696,163.21",NGN 0,pending,Plateau,No
+CLM-70407,POL206218,Life,NEM Insurance,Amaka Yusuf,0945 228 8515,16.11.2023,2023-12-08,Third Party Liability,N/A,"₦3,704,499.44",843036.36 naira,Partially Approved,Oyo,TRUE
+CLM-70172,POL449479,Life (Term),WAPIC Insurance,Musa Balogun,invalid,11/06/2024,12/31/2024,Medical Emergency,"₦952,162.15","₦40,467.15","₦27,803.05",Partially Approved,Anambra,No
+CLM-70398,POL236113,Life,WAPIC Insurance,Emeka Nnamdi   ,80199488375,2024/04/03,2024/05/04,Theft ,1353976.08,"₦4,262,802.99",N0,Approved,Plateau,1
+CLM-70230,POL752048,Life,WAPIC Insurance,Sadiq Okonkwo,+234668826343,09/01/2024,02-Mar-2024,Medical Emergency,"NGN 1,695,625","NGN 3,269,451","₦1,544,242.91",Partially Approved,Lagos,no
+CLM-70302,POL480320,Motor,Leadway Assurance,  Tunde Balogun,(914) 630-3161,05/01/2023,25/02/2023,Theft ,"₦684,373.69","NGN 2,132,625",₦0.00,REJECTED,Cross River,yes
+CLM-70341,POL315723,Fire & Burglary,AIICO Insurance,Adaeze Nwosu,invalid,20 August 2023,2023-10-13,Medical Emergency,"NGN 1,107,302","2,486,880.34 ",956611.47 naira,Approved,Cross River,No
+CLM-70394,POL327788,Motor Comprehensive,Custodian Insurance,  Kemi Nwosu,03756289002,21-Sep-2023,19.11.2023,Natural Disaster   ,433434.34 naira,"N1,059,860","₦449,681.31",Under Review,Abuja,false
+CLM-70112,POL420984,Marine,AXA Mansard,Halima Okeke,(405) 377-3515,2023/07/07,2023-08-20,accident,NULL,"NGN 1,574,219",NGN 0,Approved,Ogun,TRUE
+CLM-70261,POL509593,Motor,AIICO Insurance,Zainab Eze,+234416724342,07/13/2023,10/08/2023,  Natural Disaster   ,"N1,261,718","₦4,185,775.68","₦2,683,133.23",Pending,Plateau,Y
+CLM-70401,POL665661,Fire & Burglary,Leadway Assurance,FEMI CHUKWU,02726149331,15 May 2024,06/22/2024,  Medical Emergency,"NGN 1,409,389",2823157.36 naira,132674.90 naira,REJECTED,Rivers,yes
+CLM-70031,POL579027,fire & burglary,Custodian Insurance,aliyu adekunle,0000000000,07 June 2023,11.06.2023,Accident,809070.37,"NGN 1,740,917","NGN 1,112,339",Under Review,Ogun,yes
+CLM-70139,POL681489,Motor Comprehensive,Leadway Assurance,Funmilayo Balogun,32921277997,10/26/2024,12/18/2024,Flood,"NGN 492,446","NGN 1,450,702","₦1,086,268.53",Rejected,Abuja,true
+CLM-70288,POL550536,Life (Term),Custodian Insurance,Tobi Olawale,+234500170127,18/05/2023,2023/06/09,Flood,912501.65,"₦3,841,577.06",N0,Under Review,Akwa Ibom,FALSE
+CLM-70334,POL970198,Fire & Burglary,Leadway Assurance,Amara Ajayi,54522675289,03/10/2024,11/05/2024,Natural  Disaster,"N485,126","₦3,494,888.15","₦2,029,567.94",REJECTED,Ogun,true
+CLM-70395,POL217432,motor comprehensive,Custodian Insurance,Kemi Nnamdi,234-721-753-540,2023-10-26,21-Nov-2023,Medical Emergency,"363,991.53 ","4,926,057.48 ",NIL,REJECTED,lagos,Y
+CLM-70006,POL359947,Fire & Burglary,Leadway Assurance,Blessing Eze,,12/12/2024,31/12/2024,FIRE,"₦733,211.33",3365001.06,3027202.35,Settled,KANO,1
+CLM-70085,POL522419,Life (Term),AXA Mansard,Grace Balogun,(512) 567-4680,,16-May-2024,Third Party Liability,1049930.31,1358211.42 naira,"NGN 613,900",Partially Approved,Ogun,Y
+CLM-70260,POL443000,Health (Family),AIICO Insurance,Tunde Mohammed,+234193982807,05/01/2024,01/26/2024,  Medical Emergency,"N1,349,074","₦4,281,750.26",45974.70 naira,Pending,Kano,true
+CLM-70159,POL342397,Life,AXA Mansard,Ibrahim Bello,00369711798,21 October 2024,07 November 2024,  Accident,1201792.40 naira,4566086.53,-,approved,Kano,TRUE
+CLM-70100,POL209167,Life (Term),Leadway Assurance,grace okeke,37923747407,02-Aug-2024,N/A,Flood,348195.12,"₦1,604,720.22",981095.70 naira,Pending,Imo,1
+CLM-70170,POL692385,Fire & Burglary,AIICO Insurance,Halima Yusuf,234-582-029-702,2024-02-28,2024/04/18,FIRE,"N1,470,146","4,640,394.08 ",0,REJECTED,Plateau,Yes
+CLM-70181,POL961639,Life (Term),Custodian Insurance,Ngozi Ajayi,42498182992,30.04.2024,05/11/2024,accident,1443885.31,4312831.85 naira,364009.33,pending,Ibadan,Yes
+CLM-70412,POL864062,Health,NEM Insurance,Chinedu Lawal,0043 973 5989,04-Jul-2023,2023-07-19,  Fire,"1,764,112.97 ",3873196.33 naira,3236982.83 naira,Under Review,Kaduna,true
+CLM-70246,POL149246,Health (Family),AXA Mansard,   ADAEZE NWOSU,14890250392,04/02/2024,02/21/2024,Fire   ,"₦241,048.91",2601110.44 naira,-,approved,Kano,no
+CLM-70021,POL682144,Health (Family),Custodian Insurance,Aliyu Lawal,+234116566701,07/23/2024,23 July 2024,Third Party Liability,942013.37,"NGN 971,461",NGN 0,approved,Kano,no
+CLM-70245,POL168535,Health,AXA Mansard,Amara Okonkwo,(591) 803-3974,2024-05-10,2024/05/20,Accident,"NGN 1,004,419","N3,305,995",2255957.01,Approved,Akwa Ibom,no
+CLM-70283,POL155432,Motor Comprehensive,WAPIC Insurance,Amara Adekunle,0254 494 8126,09/23/2023,2023-09-23,accident,1243818.57,"3,571,848.85 ","509,596.18 ",approved,Enugu,no
+CLM-70446,POL336783,Fire & Property,WAPIC Insurance,Zainab Eze   ,234-922-809-202,07-Jan-2024,02/09/2024,FIRE,"₦1,190,983.12","NGN 1,976,143","1,481,763.76 ",Rejected,Abuja,1
+CLM-70448,POL353103,Motor Comprehensive,AXA Mansard,Chioma Olawale,0772 369 2929,31-Mar-2023,2023/04/05,Fire,460566.40 naira,"₦4,156,537.71","NGN 390,738",Settled,Cross River,TRUE
+CLM-70151,POL790266,Fire & Property,NEM Insurance,Chidi Balogun,+234706537947,2022-12-12,2023-01-20,   Theft,,"NGN 3,884,563",₦0.00,Settled,Edo,0
+CLM-70307,POL252582,Motor,NEM Insurance,Ngozi Lawal,234-000-307-562,03-Nov-2024,12/20/2024,Accident,"N870,290","₦1,406,307.81",null,pending,Akwa Ibom,1
+CLM-70091,POL635593,Health,AXA Mansard,Obinna Ogundimu,09821465840,,15-Mar-2024,Third Party Liability,"954,841.23 ","N1,329,489",834298.16,Settled,kano,false
+CLM-70222,POL298096,MOTOR COMPREHENSIVE,AXA Mansard,  Blessing Adeyemi,51286823004,31-Mar-2024,18.05.2024,  Fire   ,"₦1,711,339.99","₦2,787,260.05","NGN 1,774,515",Under Review,Ogun,Yes
+CLM-70198,POL799282,Health (Family),AXA Mansard,Bisi Okeke,06230913075,26 October 2023,06/12/2023,Natural Disaster,"NGN 1,277,176","N2,380,075",0.00 naira,approved,KANO,0
+CLM-70342,POL700417,Marine,Leadway Assurance,Blessing Afolabi,+234629620153,04/12/2023,2024/02/02,  Medical Emergency,"NGN 1,305,302","NGN 3,396,288","NGN 3,185,637",approved,Cross River,true
+CLM-70180,POL948188,Marine,Leadway Assurance,Adaeze Yusuf,234-253-584-143,15 July 2024,31.07.2024,  Medical Emergency   ,"N134,017","₦2,376,339.45",0.00 ,approved,Cross River,false
+CLM-70028,POL568238,Fire & Burglary,NEM Insurance,Sadiq Mohammed,0939 909 1699,00/00/0000,03.01.2023,Natural Disaster,,"₦4,190,630.09","NGN 2,765,568",Rejected,Akwa Ibom,0
+CLM-70367,POL409258,Life,Custodian Insurance,fatima okonkwo,+234454443283,not set,13 October 2023,Theft ,"1,027,945.92 ",2081634.21,"N567,869",Partially Approved,Anambra,false
+CLM-70152,POL113721,Fire & Burglary,AIICO Insurance,Zainab Balogun,234-347-359-774,17-Aug-2024,30.09.2024,Accident,"₦1,072,784.12","NGN 264,446",NIL,Under Review,Anambra,1
+CLM-70447,POL749338,Motor,WAPIC Insurance,Ibrahim Afolabi,invalid,2024-10-14,08.11.2024,Natural Disaster,"N43,759",2995853.1,unknown,Rejected,Delta,yes
+CLM-70416,POL193519,Fire & Burglary,Leadway Assurance,Adaeze Abubakar,(515) 832-8182,unknown date,2024-05-24,  FIRE,1393064.87,3858796.83 naira,"NGN 2,035,709",Approved,Imo,N
+CLM-70075,POL189856,health (family),AIICO Insurance,AMARA BELLO,07190229413,2023-07-31,22.08.2023,  Medical Emergency   ,"N1,006,642",1889626.44 naira,Unknown,Rejected,Ogun,FALSE
+CLM-70351,POL862693,life,Custodian Insurance,Kunle Nwosu,02061632945,2023-05-04,21/05/2023,  Natural Disaster,"₦1,323,649.89","N599,984","N47,439",Approved,kano,N
+CLM-70027,POL779172,Marine,NEM Insurance,Blessing Eze,0208 121 9136,07/18/2024,07/18/2024,Natural Disaster,"₦1,005,246.25","₦484,181.82","442,024.05 ",REJECTED,Imo,TRUE
+CLM-70213,POL985126,Life,WAPIC Insurance,Ngozi Yusuf,0990 453 0174,06/17/2024,08/02/2024,Medical Emergency,"N1,137,496","₦2,620,902.54","₦387,221.81",approved,Cross River,yes
+CLM-70067,POL583000,Motor,WAPIC Insurance,Emeka Nwosu,0000000000,05/01/2023,24/01/2023,Theft,"846,831.92 ","NGN 3,601,088",Unknown,Under Review,Cross River,Yes
+CLM-70238,POL604550,Motor Comprehensive,Custodian Insurance,Adaeze Afolabi,(522) 872-8080,05/16/2023,07-Jul-2023,accident   ,"₦1,337,897.08","N30,387","NGN 2,053",Settled,Kaduna,TRUE
+CLM-70105,POL250840,Life (Term),AIICO Insurance,Kemi Bello   ,234-952-145-623,unknown date,28.01.2024,accident,"NGN 886,913","NGN 3,052,632",0,REJECTED,Oyo,FALSE
+CLM-70191,POL577092,Health (Family),WAPIC Insurance,wale  ajayi,234-983-584-168,10.08.2023,14-Aug-2023,Fire,"₦861,007.71",2432350.43,352547.97,Partially Approved,Akwa Ibom,N
+CLM-70343,,Motor Comprehensive,Custodian Insurance,Yusuf Ogundimu,0688 444 3106,,08 May 2023,FIRE   ,1033982.91,"NGN 1,618,527",₦0.00,Pending,Rivers,true
+CLM-70444,POL526772,Health (Family),AXA Mansard,Chidi Chukwu,32225913651,25-May-2023,17-Jun-2023,Third Party Liability   ,"₦1,194,017.38",1868935.95,272295.92 naira,Pending,Imo,Yes
+CLM-70205,POL104539,motor,NEM Insurance,Bisi Suleiman,93308330165,12-Jun-2024,25/06/2024,Fire,1295565.65 naira,4822033.72 naira,NGN 0,pending,Abuja,0
+CLM-70421,POL161255,Life,Leadway Assurance,Chinedu Okeke,,00/00/0000,2023/02/09,Natural Disaster,1625197.31,"N3,427,897",NGN 0,pending,Delta,Y
+CLM-70130,POL247189,Motor Comprehensive,WAPIC Insurance,Yusuf Nnamdi,22901476797,2024-05-29,00/00/0000,   Flood,"NGN 1,201,254",unknown,  ,REJECTED,Abuja,TRUE
+CLM-70225,POL197462,Health (Family),WAPIC Insurance,Grace Afolabi,234-790-306-738,14/02/2023,03-Apr-2023,  Medical Emergency   ,"775,002.02 ",1853815.44 naira,₦0.00,Rejected,Imo,Yes
+CLM-70117,POL887931,Motor,AIICO Insurance,Yusuf Balogun,0026 811 7758,12/02/2022,12-Jan-2023,Theft ,"₦1,683,509.27",2537726.51 naira,"₦1,258,293.45",Settled,Lagos,Yes
+CLM-70362,POL253607,Motor,AXA Mansard,  Wale Ajayi,234-552-414-060,24/07/2023,03-Aug-2023,Natural Disaster,"29,740.64 ","NGN 1,174,519",NULL,Pending,Edo,yes
+CLM-70073,POL198042,Health (Family),AIICO Insurance,Sadiq Adeyemi,04008427109,30-Nov-2024,2024-12-14,Theft ,NIL,,N0,approved,Imo,TRUE
+CLM-70424,POL740006,Motor,WAPIC Insurance,  OBINNA OLAWALE,06650618091,2023-05-09,06/04/2023,Flood   ,"NGN 586,771",-,"NGN 948,378",Rejected,Cross River,TRUE
+CLM-70402,POL722838,Motor,Leadway Assurance,Chidi Ajayi,+234373516091,03/02/2023,18-Mar-2023,Theft  ,--,"₦3,347,238.45",unknown,Pending,Edo,yes
+CLM-70155,POL361993,Life,NEM Insurance,Ifeoma Okeke,61375060685,05.04.2023,07 April 2023,  Medical Emergency,842156.41,--,0.00 ,Under Review,Plateau,true
+CLM-70333,POL266004,Fire & Burglary,Leadway Assurance,Kemi Okafor   ,29218515691,17-Dec-2022,13.02.2023,Fire,"NGN 1,635,029",4814726.7,3481361.65 naira,Pending,Ogun,false
+CLM-70072,POL606676,Fire & Property,Custodian Insurance,Grace  Ajayi,41343524082,01/25/2023,11/03/2023,  FIRE,"293,077.62 ","NGN 1,109,224","NGN 67,053",Settled,Delta,FALSE
+CLM-70303,POL447412,Life,NEM Insurance,Tobi Eze,(990) 421-0202,15-May-2024,27.05.2024,Accident,NIL,"NGN 1,965,394","N254,552",Pending,Cross River,false
+CLM-70231,POL906747,Marine,Leadway Assurance,Kunle Chukwu,(175) 183-0469,2023/03/19,00/00/0000,accident,427375.2,"N2,818,668","₦2,800,805.21",Partially Approved,Lagos,Y
+CLM-70076,POL354533,motor comprehensive,Leadway Assurance,  ifeoma suleiman,08699938677,01/30/2024,30-Jan-2024,Theft ,"₦543,029.05","NGN 1,951,242",NGN 0,REJECTED,Delta,no
+CLM-70327,POL403858,Marine,Custodian Insurance,  Ngozi Nnamdi   ,08564205930,16/10/2023,2023/10/23,  Accident   ,1745809.05,2504656.55 naira,"N1,167,965",Rejected,Plateau,yes
+CLM-70223,POL127223,Life,Custodian Insurance,   Ifeoma Olawale,78686337524,27-Jul-2024,2024-08-07,Theft  ,"N764,144",402640.60 naira,272550.85,Pending,Kano,true
+CLM-70111,POL319553,Health (Family),Custodian Insurance,Blessing Adekunle,+234586926179,2023/10/28,07-Dec-2023,accident   ,"NGN 1,776,287","₦1,580,802.08",0.00 ,Under Review,Lagos,true
+CLM-70459,POL328514,Fire & Property,WAPIC Insurance,chioma  abubakar,+234902601279,13/04/2023,28.05.2023,Accident,162308.59 naira,4187959.95,"₦705,175.62",approved,Kaduna,N
+CLM-70102,POL980651,FIRE & BURGLARY,AIICO Insurance,Amara  Suleiman,234-367-136-959,18-Aug-2023,2023-09-29,Natural Disaster,"N524,703","NGN 1,202,990",NGN 0,Pending,Delta,Yes
+CLM-70250,POL826894,Fire & Property,Custodian Insurance,Chinedu Nwosu,234-629-619-431,14-Feb-2024,04/10/2024,Accident    ,"₦1,425,814.71","NGN 230,117",N0,REJECTED,Lagos,N
+CLM-70162,POL342128,HEALTH,AIICO Insurance,Amara Ajayi,(067) 065-4051,08-Jul-2023,2023-07-09,Fire,"₦1,378,344.28","₦3,067,668.36",₦0.00,approved,Enugu,N
+CLM-70013,POL645175,Fire & Property,AXA Mansard,Aliyu Okafor,234-146-270-482,2023/04/05,2023/04/29,Medical Emergency,"N1,621,621","N966,592",N0,Settled,Edo,false
+CLM-70192,--,Fire & Property,Leadway Assurance,Obinna Ogundimu,08499121655,03/01/2024,00/00/0000,  FIRE,951139.59,"4,313,751.28 ",NGN 0,Partially Approved,Cross River,Yes
+CLM-70154,POL477496,Life (Term),AIICO Insurance,Chidi Adekunle,(818) 141-2478,N/A,2023-11-28,Accident,"₦452,282.54","2,737,218.67 ","NGN 1,506,124",Partially Approved,Anambra,TRUE
+CLM-70193,POL269662,Motor,Custodian Insurance,Tobi Yusuf,52398680002,04.08.2023,2023/08/12,accident   ,"NGN 661,170","N1,210,531","NGN 19,284",approved,Plateau,FALSE
+CLM-70196,POL565420,MOTOR,AIICO Insurance,Segun Afolabi,(470) 551-6940,02-Oct-2023,2023/10/28,Third Party Liability,1745994.92 naira,2716346.09 naira,nil,approved,kano,Yes
+CLM-70212,POL783185,Marine,Custodian Insurance,Kunle Balogun,0753 046 3745,02 February 2023,2023/03/10,FIRE   ,"1,447,104.57 ","N2,386,836",0,pending,Oyo,TRUE
+CLM-70310,POL534166,Fire & Burglary,Custodian Insurance,Obinna Ogundimu,04451870534,10-Sep-2023,11/06/2023,FIRE,"569,863.62 ","N4,098,877",NGN 0,Rejected,Abuja,No
+CLM-70060,POL823769,Motor Comprehensive,NEM Insurance,Ibrahim Abubakar,234-923-271-937,24 August 2023,10-Sep-2023,Natural Disaster,"NGN 1,015,604","NGN 1,139,838","NGN 339,232",pending,Edo,yes
+CLM-70153,POL882351,Motor Comprehensive,WAPIC Insurance,Femi Afolabi,08862392407,06/14/2023,17 July 2023,Third Party Liability,1190955.81,"N2,858,738","1,596,386.31 ",Settled,Cross River,true
+CLM-70429,POL301996,Motor,NEM Insurance,Grace Nnamdi,22239431290,29.01.2024,19-Mar-2024,Fire   ,"NGN 1,241,942","1,066,890.82 ","₦412,781.07",Rejected,Plateau,No
+CLM-70308,POL458633,FIRE & BURGLARY,Custodian Insurance,Ifeoma Afolabi,+234863536541,27-Jun-2023,2023/08/08,Theft    ,"N1,610,205","₦936,709.88",N0,REJECTED,Edo,false
+CLM-70038,POL729575,Life,Leadway Assurance,Adaeze Yusuf,05634216073,03 February 2024,25.02.2024,Medical Emergency,1575653.09,"N4,706,827","₦4,310,717.49",approved,LAGOS,no
+CLM-70106,POL960899,Life,AXA Mansard,Sadiq Chukwu,(858) 842-4745,14/06/2023,12.07.2023,Flood,400218.14,"NGN 4,123,368",3131670.18 naira,Rejected,Edo,Yes
+CLM-70019,POL179688,Fire & Property,AIICO Insurance,Chioma Abubakar,30103105183,15/03/2023,21 April 2023,Accident,70579.21 naira,"NGN 1,573,547","1,507,730.07 ",Rejected,Enugu,no
+CLM-70065,POL311976,fire & burglary,NEM Insurance,Femi Nnamdi,87769453147,28/11/2024,21-Dec-2024,Accident,"₦163,632.33",2829560.24 naira,0,Settled,Oyo,false
+CLM-70256,POL899897,Motor Comprehensive,NEM Insurance,Tobi Bello,46471543799,10 December 2022,10-Jan-2023,Natural Disaster,"₦1,463,462.46","₦4,174,808.43",1749859.75 naira,approved,ABUJA,Y
+CLM-70258,POL734229,Health (Family),Custodian Insurance,Bola Bello,,03-Nov-2024,02.12.2024,Medical Emergency,513907.74 naira,"₦57,067.68",0.00 naira,Settled,Imo,true
+CLM-70450,POL484487,Fire & Burglary,WAPIC Insurance,Blessing Lawal   ,01038862912,2023-04-04,2023/04/14,Third Party Liability,,"₦3,706,974.84","N2,086,177",pending,Edo,TRUE
+CLM-70209,POL615353,Life (Term),Custodian Insurance,Zainab Okonkwo,0547 887 2874,2024/04/13,15-Apr-2024,accident,"NGN 83,326","N2,792,199","N846,161",approved,Kaduna,Yes
+CLM-70397,POL665680,Fire & Burglary,Leadway Assurance,ALIYU ADEYEMI   ,0775 170 1660,06-Jan-2023,27 January 2023,  accident,"NGN 75,582",2363101.58 naira,"₦341,092.00",Partially Approved,Kaduna,FALSE
+CLM-70129,POL982683,Fire & Burglary,Leadway Assurance,   Musa Balogun   ,06752545991,21 March 2024,18 April 2024,Flood,nil,"₦1,541,249.55",270905.68,approved,Rivers,1
+CLM-70385,POL823201,Fire & Property,WAPIC Insurance,Kemi Okonkwo,(835) 642-0873,2023-01-31,03/23/2023,Theft   ,"NGN 124,355","NGN 2,842,177",0.00 naira,Rejected,Anambra,Yes
+CLM-70208,n/a,Motor Comprehensive,Leadway Assurance,Bola Lawal,0067 240 0499,2024/08/06,05 October 2024,Medical Emergency,"₦263,929.88",516024.88,unknown,REJECTED,Akwa Ibom,1
+CLM-70384,POL738206,Fire & Property,AXA Mansard,Ngozi Adekunle,89141173934,16.09.2024,15.11.2024,FIRE,"₦139,935.86","N1,139,629",0.00 naira,approved,Anambra,TRUE
+CLM-70368,POL790311,Health (Family),NEM Insurance,Tunde Nnamdi,234-652-074-466,02/03/2023,03-Apr-2023,Third Party Liability,"NGN 1,397,801","₦1,305,904.97",41068.17,pending,Cross River,FALSE
+CLM-70296,NULL,Fire & Burglary,Leadway Assurance,halima afolabi,08999404389,06/05/2023,2023-05-07,  Third Party Liability,,"N532,020",0.00 naira,Pending,Edo,1
+CLM-70415,POL161471,Life,NEM Insurance,Adaeze Chukwu,(202) 590-9479,2023-08-18,10-Sep-2023,Flood,"NGN 275,952",4802727.58 naira,"NGN 3,813,625",pending,Ogun,1
+CLM-70182,POL768387,Marine,AXA Mansard,Wale Suleiman,+234995900109,11 March 2024,04 April 2024,Third Party Liability,"₦1,229,325.79","₦4,809,578.36",Unknown,Rejected,Edo,0
+CLM-70267,POL367657,Motor Comprehensive,NEM Insurance,Fatima Afolabi,234-738-757-177,2023/12/29,23-Feb-2024,Flood   ,"N93,918","N4,609,584","N2,607,220",approved,Ogun,0
+CLM-70332,POL877691,Life,AXA Mansard,Yusuf Nnamdi,0705 932 5250,2024-03-09,2024/03/18,Theft,"NGN 1,154,250","₦940,343.11","N618,243",Approved,Edo,true
+CLM-70239,POL699780,Marine,NEM Insurance,Yusuf Okafor,00062312038,22 September 2024,17.11.2024,Accident,811495.76 naira,"₦1,401,328.00",0.00 naira,Approved,Oyo,N
+CLM-70269,POL101655,Life (Term),NEM Insurance,Yusuf Lawal,0825 867 3622,2023-06-05,08/03/2023,Flood,"N1,353,215","NGN 3,501,065",0,Under Review,Oyo,1
+CLM-70207,POL228725,Health (Family),AXA Mansard,Sadiq Bello,(540) 193-8026,18.06.2023,22-Jun-2023,Third Party Liability,670585.24 naira,"NGN 1,011,450",₦0.00,approved,Delta,0
+CLM-70372,POL271487,Life,Custodian Insurance,Aliyu Okonkwo,71709991738,02.03.2024,11.03.2024,Accident   ,"N530,811","₦1,946,341.27","N67,785",Settled,Cross River,Yes
+CLM-70278,POL763049,Life,AIICO Insurance,Chioma  Adekunle,(903) 404-3842,2024/10/20,09.12.2024,Theft ,1215556.21 naira,"N466,264",nil,Partially Approved,Rivers,1
+CLM-70282,POL495476,Motor Comprehensive,AIICO Insurance,Chinedu Eze,92330958498,2023-10-20,08 December 2023,Theft,"NGN 510,024","NGN 4,346,900",0,Settled,Delta,FALSE
+CLM-70203,POL222227,Health (Family),AXA Mansard,blessing balogun,234-665-240-415,2024-05-14,,  Flood,"NGN 1,003,225","NGN 3,786,408",0.00 naira,Rejected,Fct Abuja,1
+CLM-70217,POL960085,marine,AIICO Insurance,Funmilayo Afolabi,,01/31/2023,24.03.2023,  Fire,"N1,408,536","₦2,468,625.47",2287174.63,Pending,Akwa Ibom,FALSE
+CLM-70347,POL798249,fire & property,AXA Mansard,Aliyu Okeke   ,+234047743490,15-Jun-2024,,Natural Disaster,1492541.45,"₦643,900.67",NIL,Pending,ABUJA,1
+CLM-70251,POL357912,Fire & Property,AIICO Insurance,Sadiq Suleiman,234-262-655-110,2023-10-07,2023/10/18,Fire,413627.45,"₦1,324,754.29",nil,Under Review,Kano,false
+CLM-70271,POL496818,Motor Comprehensive,AIICO Insurance,Segun Bello,,2023-11-18,11.12.2023,Flood,1235301.50 naira,1728525.71 naira,414149.63,REJECTED,Lagos,Yes
+CLM-70236,POL846209,Life,AIICO Insurance,Tunde Mohammed,+234489964235,2023-09-05,11-Sep-2023,Theft ,"N606,928","N2,920,198","N1,054,973",pending,Plateau,1
+CLM-70148,POL359168,Fire & Property,AIICO Insurance,Chioma Ogundimu,0281 685 0542,2023-07-24,09/14/2023,Accident,702299.90 naira,"NGN 82,825","₦59,193.67",Under Review,Fct Abuja,no
+CLM-70001,POL191161,LIFE,Leadway Assurance,Ifeoma Suleiman,N/A,2022/12/10,01/26/2023,accident,"513,177.04 ","N1,131,589","₦765,746.02",REJECTED,Abuja,no
+CLM-70439,POL485999,Life (Term),Leadway Assurance,BOLA OKEKE,0927 503 7314,06/17/2023,2023-07-24,Third Party Liability,"N88,910",1162939.83 naira,406309.7,Settled,Kano,1
+CLM-70194,POL639740,Motor,AIICO Insurance,  Wale Adeyemi,(578) 729-8259,06/23/2024,2024-08-12,Flood,392684.91,"3,429,632.60 ",1151309.41,Under Review,Kaduna,no
+CLM-70380,POL678874,Fire & Property,Custodian Insurance,Musa Bello,234-033-230-982,15/05/2023,20-Jun-2023,accident,1135253.85,3428128.04,-,Pending,Kano,Yes
+CLM-70022,POL859782,Marine,AIICO Insurance,Obinna Adekunle,234-513-338-726,03/05/2024,07/02/2024,  Medical Emergency   ,1377886.56,942046.22,null,pending,Delta,0
+CLM-70387,POL634299,FIRE & BURGLARY,Custodian Insurance,Chinedu Olawale,0114 374 4701,2024/05/11,05/30/2024,Flood,1136011.06 naira,"NGN 575,121","₦104,775.69",approved,Imo,FALSE
+CLM-70311,POL204545,Motor,WAPIC Insurance,Wale Suleiman,0493 759 7383,2024-10-26,27-Oct-2024,Natural Disaster,"NGN 1,118,862",2068172.73,"NGN 1,554,701",approved,Oyo,1
+CLM-70328,POL360810,Life (Term),Custodian Insurance,Obinna Chukwu,234-785-932-133,24 June 2023,21 July 2023,Natural Disaster,"N1,063,774","₦421,975.33",null,approved,Fct Abuja,TRUE
+CLM-70083,POL963274,Motor,WAPIC Insurance,Kemi Suleiman,0139 904 9027,16.06.2024,08/02/2024,Medical Emergency   ,"1,396,272.06 ","₦2,486,660.45","₦1,424,145.39",Under Review,Kano,FALSE
+CLM-70128,POL610856,Fire & Property,AIICO Insurance,FATIMA OKEKE,22961201836,17 June 2024,16.07.2024,Third Party Liability,1169297.26,384259.97,"NGN 96,329",REJECTED,Rivers,no
+CLM-70366,POL291366,Life,AIICO Insurance,Tunde Balogun,+234858994417,17-Nov-2023,2023/12/16,Flood,"1,033,507.55 ",3487535.08,"NGN 1,614,747",Settled,Plateau,yes
+CLM-70057,POL813449,FIRE & BURGLARY,AXA Mansard,Kemi Ajayi,234-990-162-720,06/26/2023,19-Jul-2023,  FIRE   ,"1,006,970.69 ",386188.11 naira,n/a,REJECTED,Imo,FALSE
+CLM-70364,POL387492,Motor,WAPIC Insurance,Zainab Adekunle,22903494466,12/07/2022,14.01.2023,FIRE    ,NIL,"₦3,243,146.23","₦1,291,725.69",Rejected,Lagos,no
+CLM-70090,POL865416,fire & burglary,Custodian Insurance,  Ibrahim Afolabi,08467737826,2023/11/06,00/00/0000,Third Party Liability,"₦1,065,925.96","₦3,820,856.17","NGN 2,457,401",Rejected,Cross River,Yes
+CLM-70233,POL933206,Health (Family),Leadway Assurance,Sadiq Nnamdi,(331) 739-3638,14/08/2023,22-Aug-2023,Fire,?,"₦2,078,778.91",953646.19,Partially Approved,Oyo State,false
+CLM-70454,POL363814,Marine,NEM Insurance,Grace Balogun,234-864-300-981,04 April 2024,2024-04-25,Flood,"NGN 186,503",2458584.17 naira,1271082.07,Pending,Cross River,false
+CLM-70447,POL749338,Motor,WAPIC Insurance,Ibrahim Afolabi,invalid,2024-10-14,08.11.2024,Natural Disaster,"N43,759",2995853.1,unknown,Rejected,Delta,yes
+CLM-70143,POL586279,MOTOR COMPREHENSIVE,AXA Mansard,Musa Yusuf,0793 597 8207,17/10/2023,2023-11-29,Flood,"N931,039","NGN 3,878,227",304082.16,REJECTED,Plateau,FALSE
+CLM-70336,POL560197,Life,NEM Insurance,Ngozi Balogun   ,234-902-959-391,unknown date,2024-08-07,Natural Disaster   ,?,"NGN 1,773,488","N990,843",approved,Enugu,FALSE
+CLM-70294,POL263201,Life (Term),AXA Mansard,Grace Bello,(753) 269-7311,2023/06/09,2023-07-31,Accident,"N809,878","₦1,634,829.89",unknown,Settled,Abuja,Y
+CLM-70460,POL776340,Fire & Property,AIICO Insurance,Sadiq Okeke,+234143519066,11/14/2023,2024/01/11,  FIRE   ,1794850.87 naira,"NGN 2,403,083",NGN 0,Pending,Kano,TRUE
+CLM-70428,POL945389,LIFE,AIICO Insurance,Kunle  Mohammed,invalid,16 September 2024,13 November 2024,accident,"N590,540","₦2,553,780.58",N/A,Pending,Abuja,No
+CLM-70312,POL981610,Motor Comprehensive,AXA Mansard,Kunle Chukwu,0060 385 0506,09.11.2022,05-Jan-2023,Fire,1638579.82 naira,"NGN 182,720",NGN 0,Pending,Anambra,No
+CLM-70124,POL323717,Marine,Leadway Assurance,Segun Nwosu,0098 851 6560,13.06.2024,2024/06/17,  Accident,"N1,420,608",,"NGN 328,246",Rejected,Enugu,yes
+CLM-70068,POL348411,Health,Leadway Assurance,Bisi Olawale,(136) 783-7770,2024/05/12,2024/05/30,Natural Disaster   ,"N440,637","NGN 4,583,657","N2,646,947",Settled,rivers,TRUE
+CLM-70434,POL925026,Motor Comprehensive,WAPIC Insurance,WALE LAWAL,(775) 478-1291,04.06.2023,03-Aug-2023,Theft    ,"₦604,006.10",1182522.98,"₦369,582.23",pending,Delta,FALSE
+CLM-70080,POL267914,Health (Family),Leadway Assurance,Yusuf Suleiman,+234618324210,19-Oct-2024,2024/10/25,Theft ,"₦1,226,922.32","NGN 838,483",204516.95,Rejected,Ogun,No
+CLM-70241,POL382368,Life (Term),AIICO Insurance,Chioma Eze,+234084840862,12/07/2023,27 July 2023,Theft,"NGN 1,360,037",2938424.80 naira,NULL,Pending,Kaduna,TRUE
+CLM-70025,POL141797,Marine,AIICO Insurance,Bola Ajayi,64746872343,17 November 2024,N/A,accident,unknown,--,"N2,328,011",Pending,Kaduna,1
+CLM-70086,POL117072,Health (Family),Custodian Insurance,Kunle Ogundimu,+234545168087,2023-10-22,2023-12-18,  Medical Emergency,"₦1,236,529.67","N261,078",0,Settled,Edo,No
+CLM-70070,POL515898,Marine,Custodian Insurance,Musa Abubakar,234-855-744-431,28 May 2023,14-Jul-2023,Theft,"NGN 233,236","NGN 4,997,869","₦1,212,448.84",Under Review,Plateau,Y
+CLM-70202,POL670123,Marine,AXA Mansard,Bisi Okonkwo,04375758441,2024-05-29,10/06/2024,Fire,"NGN 1,385,435",n/a,0.00 ,Partially Approved,Ogun,false
+CLM-70030,POL407618,Fire & Property,NEM Insurance,Kunle Adeyemi,+234079911838,20/03/2024,30-Mar-2024,Theft ,"NGN 1,256,852","N4,519,052",N0,pending,Imo,yes
+CLM-70259,POL387075,Life,WAPIC Insurance,Ifeoma Okonkwo,0265 479 3564,10.11.2024,2024-12-16,Theft,194573.15 naira,"₦3,499,250.89",₦0.00,Approved,Abuja,true
+CLM-70257,POL315893,Life,Custodian Insurance,Chioma Yusuf,03712406596,29-Oct-2024,06/12/2024,Natural Disaster,"NGN 892,289",949726.68 naira,0.00 naira,approved,Ogun,N
+CLM-70011,POL423232,Motor,AXA Mansard,  ngozi adeyemi,(287) 101-2269,07/10/2024,12.07.2024,Fire   ,"NGN 1,506,406",2920897.64,0.00 ,approved,Rivers,No
+CLM-70417,POL698889,Life,Leadway Assurance,Obinna Abubakar,234-861-533-555,N/A,13.04.2024,Third Party Liability,"NGN 354,627","1,123,404.38 ",NULL,approved,Imo,1
+CLM-70263,POL992919,LIFE (TERM),NEM Insurance,Ifeoma Olawale,05891135290,27 September 2024,25/11/2024,  Flood,"NGN 1,750,951",3474729.31 naira,"₦2,207,681.26",Pending,Kaduna,0
+CLM-70140,POL750817,Marine,Custodian Insurance,Obinna Chukwu,(995) 527-1774,20-Sep-2024,20/09/2024,FIRE,1381533.48 naira,"₦2,716,540.29",NGN 0,Approved,Lagos,1
+CLM-70393,POL547898,Motor Comprehensive,NEM Insurance,Emeka Olawale,(089) 935-8891,2022/12/28,01/22/2023,Flood,"₦1,045,159.67","N51,643",974.58,Partially Approved,Kaduna,No
+CLM-70088,POL888996,Motor Comprehensive,Custodian Insurance,TUNDE MOHAMMED   ,(247) 710-9324,2024/01/18,unknown date,Flood,"NGN 1,243,655","₦4,302,613.37",N/A,Under Review,Delta,true
+CLM-70438,POL953922,Health (Family),AXA Mansard,FEMI BALOGUN   ,0803 928 2722,N/A,02/15/2024,Fire,"N135,317","₦2,093,437.53",1454073.67 naira,Settled,Anambra,No
+CLM-70167,POL286906,Health,WAPIC Insurance,Tunde Afolabi,+234758416169,2022/12/23,03/02/2023,Theft,"1,051,114.57 ",3024361.61,"₦265,244.63",pending,Rivers State,no
+CLM-70005,POL100599,Life,AXA Mansard,Bisi Nnamdi,234-816-184-959,09/14/2024,16/10/2024,Theft,1105922.13 naira,"₦781,139.56",Unknown,Settled,Kano,false
+CLM-70403,POL593993,Life,NEM Insurance,Grace Ajayi,07982708086,03.12.2022,2023-01-12,Medical Emergency   ,"NGN 233,193","N1,569,580",₦0.00,pending,Cross River,yes
+CLM-70126,POL685193,Marine,Custodian Insurance,Yusuf Adekunle   ,58514936899,27/12/2022,25 January 2023,Accident   ,"₦1,297,441.20",208673.85,₦0.00,pending,Enugu,1
+CLM-70096,POL228479,Health,NEM Insurance,Bola Olawale,0459 615 8657,00/00/0000,03/18/2023,Fire,"N1,794,962","N1,004,797",813180.61 naira,Partially Approved,Delta,Yes
+CLM-70027,POL779172,Marine,NEM Insurance,Blessing Eze,0208 121 9136,07/18/2024,07/18/2024,Natural Disaster,"₦1,005,246.25","₦484,181.82","442,024.05 ",REJECTED,Imo,TRUE
+CLM-70079,POL685098,Health (Family),AXA Mansard,Halima Nnamdi,,17/10/2023,2023/12/06,Fire,789058.59 naira,"NGN 72,528",unknown,REJECTED,Abuja,Yes
+CLM-70294,POL263201,Life (Term),AXA Mansard,Grace Bello,(753) 269-7311,2023/06/09,2023-07-31,Accident,"N809,878","₦1,634,829.89",unknown,Settled,Abuja,Y
+CLM-70371,POL512982,Motor,Leadway Assurance,Aliyu Ajayi,+234353465549,2023-04-22,17/05/2023,Theft  ,"NGN 1,397,537",4492146.03 naira,N/A,REJECTED,Enugu,true
+CLM-70189,POL725236,Life,WAPIC Insurance,Musa Adeyemi,0339 500 4797,N/A,31 July 2023,Theft,1160690.62 naira,2624972.58 naira,"NGN 2,462,460",Approved,Kano,true
+CLM-70390,POL594761,Motor Comprehensive,WAPIC Insurance,Ibrahim Eze,+234746762120,24 February 2023,02/03/2023,accident,"NGN 124,603",1726605.81 naira,"₦756,468.09",Rejected,Akwa Ibom,false
+CLM-70284,POL188693,Health (Family),AIICO Insurance,Amara Adeyemi,(422) 325-3672,10/06/2024,11 October 2024,FIRE,161130.45,1215382.97,0,Under Review,Plateau,true
+CLM-70237,POL654844,Health,WAPIC Insurance,Zainab Nnamdi   ,234-937-854-777,26/04/2023,28/05/2023,Third Party Liability,"₦250,645.06","₦3,561,529.83",0.00 naira,approved,Imo,yes
+CLM-70399,POL112281,Motor Comprehensive,Leadway Assurance,Chioma Olawale,(503) 758-9975,07/11/2023,2023-07-22,FIRE,50421.07 naira,"NGN 3,180,461","₦756,406.82",REJECTED,Cross River,0
+CLM-70064,POL769737,Marine,Leadway Assurance,Zainab Eze,0716 572 6284,19 May 2023,2023/06/13,FIRE,"1,242,780.68 ",4617067.95,"N3,554,408",Rejected,Anambra,0
+CLM-70274,POL994781,Motor,AXA Mansard,Segun Mohammed,34125286692,03/12/2023,02 April 2023,Theft ,1339531.66 naira,"₦4,687,309.04","544,225.75 ",pending,Edo,0
+CLM-70092,POL943409,Motor Comprehensive,Custodian Insurance,Yusuf Nwosu,234-997-278-755,14 August 2023,2023-10-05,Flood,"NGN 163,250","NGN 1,876,585",1692568.67,Partially Approved,Cross River,N
+CLM-70401,POL665661,Fire & Burglary,Leadway Assurance,FEMI CHUKWU,02726149331,15 May 2024,06/22/2024,  Medical Emergency,"NGN 1,409,389",2823157.36 naira,132674.90 naira,REJECTED,Rivers,yes
+CLM-70419,POL233289,Life,AIICO Insurance,Obinna Abubakar,(930) 561-6484,2023/04/08,03 May 2023,Accident,1485607.53,4422452.26,n/a,REJECTED,Akwa Ibom,yes
+CLM-70138,POL362292,Health (Family),Leadway Assurance,Femi Okeke,0188 355 2312,12 May 2024,30-May-2024,Theft,"NGN 628,439",602704.81,155313.04 naira,REJECTED,Anambra,TRUE
+CLM-70052,POL574001,Life,WAPIC Insurance,Ngozi Balogun,71434558122,31/08/2024,2024-09-18,Medical Emergency,"N1,256,816",4993171.64,₦0.00,Under Review,Cross River,Y
+CLM-70396,POL875788,Life (Term),Leadway Assurance,Kunle Abubakar,(386) 631-7797,2023/04/09,2023/05/12,Fire,"₦301,471.01","NGN 3,481,450","NGN 213,000",approved,Ogun,no
+CLM-70035,POL317220,Fire & Property,AXA Mansard,Amaka Suleiman,(680) 112-8059,N/A,21 February 2023,Medical Emergency   ,"₦616,978.75","NGN 4,944,328","N1,014,604",Approved,rivers,false
+CLM-70040,POL321494,Marine,AXA Mansard,Fatima Yusuf   ,(458) 685-0142,12.05.2024,23-Jun-2024,Accident,"NGN 572,444",1118181.81 naira,"N61,256",approved,FCT,Y
+CLM-70365,POL843764,Motor Comprehensive,NEM Insurance,Amaka  Olawale,(574) 374-8969,2024-06-24,11-Jul-2024,Accident,"₦1,770,541.09",987028.24,"₦16,458.16",approved,Anambra,no
+CLM-70309,POL375568,Motor Comprehensive,Leadway Assurance,Kunle Afolabi,(518) 023-8061,01/06/2023,01/15/2023,Natural Disaster,"NGN 1,616,289","NGN 4,670,421","N1,477,758",Approved,Kaduna,no
+CLM-70101,POL270557,Motor,AXA Mansard,  grace nwosu,04821759464,01/01/2024,23 January 2024,accident,"N994,193",525114.23 naira,NULL,Settled,Plateau,TRUE
+CLM-70414,Unknown,Life,AXA Mansard,Blessing Okafor,64842294057,11 February 2024,27/03/2024,accident,"NGN 1,526,602",3864478.38 naira,"3,147,082.31 ",pending,Abuja,No
+CLM-70009,POL314181,Marine,Custodian Insurance,Funmilayo Adekunle,,07/08/2024,08/15/2024,Third Party Liability,"₦95,541.45","428,277.36 ","N242,074",Partially Approved,Lagos,TRUE
+CLM-70121,POL897730,Life (Term),WAPIC Insurance,Zainab Eze,234-896-118-367,17-Nov-2024,28 December 2024,  Theft   ,"₦1,755,943.60",905507.24,"NGN 576,697",approved,Rivers,false

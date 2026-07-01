@@ -1,0 +1,427 @@
+PatientID,PatientName,Gender,Age,DateOfBirth,BloodGroup,Genotype,Weight_kg,Department,Ward,Diagnosis,AdmissionDate,DischargeDate,PhoneNumber,State,NHIS_Covered,BillAmount
+MUSC-PT-5178,Ibrahim Ogundimu,F,0,12.11.1970,O-,  ,17.3,Dental,Private Ward,  Typhoid Fever,2025/02/11,12/02/2025,+234912517785,Kaduna,N,--
+PT5341,Chioma Okafor,female,56,00/00/0000,O+,SS ,108.9,Maternity,Private Ward,Migraine,2025/05/21,2025-06-04,+234262181599,Abuja,no,216134.57 naira
+PT5164,  Tobi Lawal,M,24,03.09.1963,NIL,AA,229.0 lbs,Dental,NULL,Migraine,2025-10-11,10/11/2025,72217043030,Enugu,N,"NGN 170,239"
+MUSC-PT-5067,Kunle Suleiman,Male,150,2007-01-21,B+,AA,92.0,Emergency,WARD B,  Malaria,2026/03/05,13-Mar-2026,35454948083,Ogun,false,"NGN 226,209"
+PT5042,Bisi Ogundimu,F,-3,1986-09-07,A+,AS,  ,Emergency,-,Peptic Ulcer,05/06/2026,16.05.2026,06934060883,Plateau,1,"N37,359"
+PT5244,Kunle Nwosu,Male,150,1974-07-20,O positive,-,21.2,Cardiology,,Hypertension,2025/04/02,07 April 2025,0666 870 0217,Delta,FALSE,"₦59,152.35"
+MUSC-PT-5107,yusuf afolabi,M,66,20 February 1992,O-,SS ,102.7,Emergency,General Ward,TYPHOID,2025-08-14,16/08/2025,(712) 368-5160,Plateau,yes,13068.17 naira
+MUSC-PT-5132,chidi balogun   ,F,150,04/03/2016,O positive,AS,70.0,Emergency,ward a,TYPHOID   ,01 March 2025,14 March 2025,234-403-690-034,Imo,no,248436.44
+MUSC-PT-5051,Ibrahim Yusuf,F,150,09.06.1988,unknown,AA,31.2,ENT,WARD B,Anaemia,2025-07-16,2025/07/19,+234277434873,Akwa Ibom,TRUE,"N123,467"
+PT5179,Kunle Bello,F,150,01/23/2010,null,AC,98.9,Pediatrics,N/A,Asthma,05/27/2026,31.05.2026,(892) 268-0182,Cross River,0,"NGN 357,144"
+MUSC-PT-5196,Blessing Bello,male,-3,11.07.1945,O positive,As,86.1,Pediatrics,NULL,Typhoid Fever,00/00/0000,10-Feb-2026,(470) 551-6940,kano,Y,"₦214,347.11"
+PT5357,Segun Balogun,male,0,30/10/1989,-,Unknown,61.8 lbs,Cardiology,Ward A,malaria,03 April 2025,2025-04-05,47132475469,Imo,Y,"N270,674"
+MUSC-PT-5140,Chinedu Ajayi,male,24,2011/03/29,A+,As,42.5 lbs,Dental,ward a,Hypertension,08/10/2025,2025-10-10,+234955271774,Plateau,true,444733.05
+MUSC-PT-5013,Chinedu Eze,Male,-3,1979/06/14,a+,aa,86.1,ENT,WARD B,Asthma,05/22/2026,28.05.2026,51462704828,Kano,false,"NGN 130,006"
+MUSC-PT-5310,Kemi Abubakar,male,0,11/08/2019,AB-,AC,113.6,Pediatrics,Ward A,Typhoid Fever,06/04/2025,04/06/2025,0000000000,Delta,Y,282521.88 naira
+MUSC-PT-5323,Amaka Ajayi,Male,150,00/00/0000,O-,aa,27.7,Cardiology,WARD B,Malaria ,2025-06-03,2025-06-03,(296) 670-6625,Plateau,1,"₦113,384.77"
+MUSC-PT-5345,Segun Mohammed,Male,-3,1991/08/24,A+,  ,97.5 lbs,Maternity,General Ward,malaria,14 June 2026,23-Jun-2026,(310) 324-1714,Delta,No,"N335,742"
+PT5118,yusuf eze,Female,0,22.05.1957,A-,AC,NULL,Emergency,Ward A,Migraine,2025/05/02,N/A,0178 390 8470,Lag,yes,89246.43
+MUSC-PT-5405,Chinedu Mohammed,Male,10,2021/07/18,B Positive,n/a,228.8 lbs,Emergency,ward a,Covid-19,2025-03-26,not set,08669346547,Ogun,Yes,"₦370,000.54"
+MUSC-PT-5006,Aliyu Ogundimu   ,Male,0,09-Jul-1981,B+,SS,nil,Pediatrics,Ward A,Malaria ,07/14/2025,15.07.2025,01034131647,Port Harcourt,yes,417080.1
+MUSC-PT-5130,Obinna Abubakar,M,150,17.07.1948,O positive,Unknown,157.7 lbs,Cardiology,Private Ward,Malaria,12 May 2026,05/23/2026,02290147679,Edo,TRUE,"₦368,934.28"
+MUSC-PT-5231,Wale Afolabi,M,150,05 January 1962,A-,AA,143.4 lbs,Maternity,Ward B,Common Cold,2025/01/05,2025/01/05,0175 183 0469,Plateau,N,"₦110,574.09"
+MUSC-PT-5277,Funmilayo Ajayi,M,150,19.04.1968,O+,Unknown,12.1,Dental,ICU,Migraine   ,2025-02-14,2025/02/15,+234887676772,Plateau,No,35664.69 naira
+PT5087,  Bola Adeyemi,female,-3,11/05/2019,AB-,aa,23.2,Maternity,Private Ward,  Hypertension,06 May 2026,2026-05-18,234-385-977-034,kano,FALSE,248248.86 naira
+PT5145,Musa Adeyemi,female,-3,1974/07/15,unknown,SS ,91.2,Emergency,ICU,malaria   ,2026/06/24,30 June 2026,234-554-665-905,Kano,0,"₦282,206.41"
+PT5250,CHIDI NNAMDI,F,-3,27.04.1970,A-,aa,178.6 lbs,Maternity,--,Malaria,N/A,,0662 961 9431,Anambra,yes,--
+MUSC-PT-5090,Ngozi Mohammed,Male,0,07/02/1986,AB+,SS,16.8,Dental,--,Hypertension,2025-01-13,00/00/0000,234-467-737-826,LAGOS,yes,127595.30 naira
+PT5400,Funmilayo Lawal   ,female,150,14-May-1955,NULL,AC,50.1,Emergency,Ward B,Peptic Ulcer,27/02/2026,00/00/0000,11305548851,Akwa Ibom,1,"NGN 36,999"
+PT5387,Obinna Adeyemi,female,150,24-Dec-2009,n/a,aa,33.3,Dental,Ward A,Asthma,2025/04/07,,11437447012,Anambra,0,79915.57 naira
+PT5215,  Obinna Ajayi,female,150,05 June 1996,null,aa,?,Maternity,Ward A,Covid-19,05/10/2025,20/05/2025,27956878339,Delta,false,311944.77 naira
+MUSC-PT-5156,  KUNLE NNAMDI,F,-3,05-Mar-1978,B-,As,64.3,Emergency,Ward A,Anaemia   ,29-Jun-2025,03 July 2025,36153051522,Plateau,1,"₦214,616.13"
+MUSC-PT-5403,Kemi Okeke,female,150,05 March 1952,B+,SS ,111.0,Surgery,Ward B,Peptic Ulcer,2026/04/16,not set,234-982-708-086,Abuja,TRUE,102184.09
+MUSC-PT-5381,Chidi Bello,F,150,10-Feb-1946,O-,SS,28.8,Pediatrics,,   Covid-19   ,10/08/2025,23 August 2025,05064890901,lagos,1,"NGN 334,347"
+PT5279,Bola Chukwu   ,Male,--,18-Aug-1992,B-,null,120.7,ENT,Ward A,TYPHOID   ,09 April 2026,14/04/2026,(978) 819-1485,Plateau,false,"NGN 183,243"
+MUSC-PT-5099,Sadiq Adeyemi   ,Male,n/a,07/24/1971,AB-,AC,106.2,Emergency,WARD B,Typhoid Fever,28.09.2025,05.10.2025,+234869222196,Plateau,false,--
+PT5116,Musa Eze,male,nil,28.09.1954,  ,AS,nil,ENT,Private Ward,  Covid-19,17.01.2025,20.01.2025,10205395024,Ogun,No,"NGN 192,619"
+PT5261,aliyu okonkwo,Male,150,1994/09/19,a+,AA,92.9,ENT,WARD B,Malaria,22/09/2025,2025-10-06,invalid,Rivers,No,"₦96,935.66"
+MUSC-PT-5259,OBINNA SULEIMAN,female,0,2016-12-18,A+,Unknown,71.2,Pediatrics,Ward A,Pneumonia,09/09/2025,15-Sep-2025,+234654793564,Lagos,No,432999.29
+MUSC-PT-5122,CHINEDU OKAFOR,M,0,29 July 2006,AB-,AC,42.7,Emergency,WARD B,Asthma   ,28/06/2025,05 July 2025,0657 661 5654,KANO,Y,"₦213,898.19"
+PT5078,Tunde Okafor,F,150,05-Apr-1968,O positive,AS,211.0 lbs,Pediatrics,Ward B,  Malaria,20-Jun-2025,25.06.2025,0000000000,kano,false,"145,330.94 "
+PT5210,Bisi Ogundimu,M,150,16 April 1990,NIL,AS,183.7 lbs,General Outpatient,Unknown,Migraine,2025/11/22,06.12.2025,0152 742 0549,Edo,No,"160,141.64 "
+PT5344,Obinna Adekunle,M,77,29/03/1982,O-,SS ,92.8 lbs,Maternity,WARD B,Diabetes Mellitus,27 March 2026,03/29/2026,234-720-506-149,Kaduna,false,"N438,333"
+MUSC-PT-5322,Bola Chukwu   ,male,50,02/11/1982,O-,As,61.8,Cardiology,ward a,malaria,2025/07/03,2025-07-05,+234137215107,Enugu,TRUE,"342,305.63 "
+PT5194,Chioma Lawal,Male,0,16 August 1953,B+,Unknown,59.3,Surgery,ward a,Hypertension,12-Jan-2026,20-Jan-2026,+234787298259,Edo,yes,379009.00 naira
+MUSC-PT-5332,Chioma Lawal,F,150,19/11/1975,B Positive,SS,69.2,Pediatrics,unknown,Asthma,09.06.2025,06/18/2025,234-059-325-250,Edo,Yes,"₦180,524.07"
+PT5236,Ibrahim Ajayi,Female,60,20.04.1952,B Positive,SS ,96.1,Dental,ward a,Diabetes Mellitus,23-Dec-2025,unknown date,234-489-964-235,Kano,true,n/a
+MUSC-PT-5290,Segun Afolabi,M,-3,2004/12/27,B Positive,AS,116.4,Emergency,ICU,Malaria ,09.04.2025,,(520) 643-6110,Ibadan,N,25062.60 naira
+PT5185,Amaka Mohammed,male,46,15.09.1950,O positive,aa,53.1,Pediatrics,WARD B,Pneumonia,21-Feb-2026,03/07/2026,0592 555 6258,Enugu,yes,"₦388,579.17"
+PT5298,Emeka Abubakar,Female,?,1954-10-18,O+,SS,67.7,Maternity,n/a,  malaria,21.03.2025,2025/03/29,+234805526965,Enugu,FALSE,16604.59
+MUSC-PT-5161,Bola Suleiman,F,-3,unknown date,A+,N/A,64.9,Dental,ward a,  Malaria ,N/A,not set,N/A,Lagos,yes,"₦369,691.17"
+MUSC-PT-5368,Adaeze Mohammed,F,0,unknown date,O-,AS,32.8 lbs,Emergency,ICU,  Pneumonia   ,04/27/2025,2025/05/07,96520744666,Kaduna,yes,?
+PT5170,  Emeka Lawal,male,-3,1972-04-13,B+,SS ,103.1,Maternity,-,  malaria,16/05/2025,05/30/2025,(658) 202-9702,Rivers,No,414354.42 naira
+MUSC-PT-5300,Aliyu Okeke,M,-3,30-Jul-1982,O+,AS,101.5,Maternity,N/A,Peptic Ulcer,08/24/2025,02/09/2025,06848666188,Rivers,TRUE,--
+MUSC-PT-5391,Ngozi Lawal,F,-3,07/11/1978,B-,SS,215.4 lbs,ENT,Ward A,Migraine   ,05-Feb-2026,2026-02-12,(169) 797-2965,Ogun,no,"413,858.40 "
+PT5073,Grace Balogun,female,0,26-Sep-2001,AB-,SS ,60.1,Dental,ward a,Pneumonia,03.10.2025,13.10.2025,(400) 842-7109,Ogun,Y,255631.67 naira
+PT5193,Chidi Okeke,female,0,2004/01/13,A-,aa,43.9,ENT,NULL,Hypertension,01/06/2025,11-Jan-2025,234-239-868-000,Imo,true,"NGN 272,374"
+PT5374,Kemi Olawale,Female,0,02 July 1961,AB+,AC,62.7,Maternity,General Ward,Malaria   ,11 August 2025,12-Aug-2025,0972 521 7525,Delta,Yes,"N430,672"
+PT5312,Funmilayo Eze,Female,88,12/07/2007,AB-,AS,71.1,Cardiology,ICU,Peptic Ulcer,12 July 2025,2025-07-15,(060) 385-0506,ABUJA,FALSE,"NGN 290,884"
+MUSC-PT-5333,adaeze ogundimu,Female,34,07/25/1974,A+,SS,277.6 lbs,Pediatrics,Ward B,Malaria,04/06/2026,2026-06-05,02921851569,kano,No,"₦215,264.04"
+MUSC-PT-5255,Fatima Okeke,F,-3,1999/03/22,O+,n/a,43.8,Maternity,Ward B,Migraine,31.07.2025,13/08/2025,0622 444 7212,KANO,1,46904.74 naira
+PT5047,KUNLE BELLO,male,0,1989-09-06,unknown,SS,74.1 lbs,Pediatrics,ICU,Typhoid  Fever,24-Oct-2025,03.11.2025,234-343-320-037,Imo,FALSE,"₦325,065.54"
+PT5201,Zainab Afolabi,Female,21,16.08.1975,--,AC,36.4,Emergency,Ward A,  Anaemia,2025-10-21,29-Oct-2025,05497334843,Edo,true,"N69,627"
+MUSC-PT-5103,Halima Mohammed,male,0,1997/10/29,O positive,--,86.5,Emergency,Private Ward,Peptic Ulcer,2025-05-07,05/19/2025,(406) 409-0974,Plateau,false,"231,507.99 "
+PT5270,aliyu adeyemi,M,30,30-Jul-1972,B-,  ,?,ENT,Ward B,Peptic Ulcer,01-Mar-2026,03/11/2026,60937966033,Ogun,1,"N379,678"
+MUSC-PT-5072,Ngozi Abubakar,male,0,29 October 2006,B+,As,23.7,Pediatrics,Ward B,Anaemia   ,2025/12/26,2026/01/08,+234134352408,Cross River,true,"₦177,929.94"
+PT5351,Amara Nnamdi,Female,0,unknown date,A-,AC,111.2,Cardiology,ICU,Pneumonia,2025-02-10,2025-02-15,+234061632945,Kano,TRUE,292432.54
+PT5383,Fatima  Adekunle,female,?,13-Dec-1948,a+,AC,94.2,Cardiology,-,Asthma,2025/03/06,2025/03/18,0046 184 9926,Rivers,no,"NGN 211,433"
+MUSC-PT-5084,Tunde Nwosu   ,Female,-3,04-Apr-1950,AB-,NULL,126.7,Emergency,NIL,Pneumonia,29.04.2026,2026-05-07,07429671756,ABUJA,N,10927.74 naira
+PT5003,Adaeze Olawale,F,41,02-Jun-2002,B+,AS,31.7,ENT,Private Ward,Diabetes Mellitus   ,13.08.2025,23.08.2025,(637) 940-2654,ABUJA,0,239043.23
+PT5382,Ifeoma Eze,female,150,13/02/1970,O-,NULL,100.7,Cardiology,?,  Asthma,04-Mar-2026,,0016 761 8472,Enugu,Y,"N437,862"
+MUSC-PT-5057,Adaeze Ogundimu,Male,26,00/00/0000,B-,SS ,33.9 lbs,Cardiology,Ward B,Migraine,01/17/2025,2025/01/20,0699 016 2720,oyo,true,"N306,080"
+MUSC-PT-5081,Fatima Mohammed,Female,150,2019-08-20,-,SS ,32.3,Pediatrics,  ,Common  Cold,2025-12-01,2025-12-06,04994717464,Edo,yes,--
+MUSC-PT-5077,femi suleiman,male,0,14.12.1989,B Positive,AA,13.0,Surgery,Ward A,   Peptic Ulcer,2026/03/02,2026/03/08,09649909133,Rivers State,TRUE,"233,715.83 "
+MUSC-PT-5132,chidi balogun   ,F,150,04/03/2016,O positive,AS,70.0,Emergency,ward a,TYPHOID   ,01 March 2025,14 March 2025,234-403-690-034,Imo,no,248436.44
+MUSC-PT-5150,Bisi Ogundimu   ,female,25,01/12/1973,?,SS,126.6,Emergency,WARD B,Pneumonia   ,07-Dec-2025,2025-12-20,+234059296222,Anambra,No,183747.32
+PT5240,Ngozi Abubakar,female,0,12.10.1996,nil,--,39.6,General Outpatient,Ward A,Asthma   ,21 May 2025,2025/05/28,05099770088,Fct Abuja,yes,310216.88
+PT5206,Tobi Ogundimu,Male,0,05-May-1999,O+,AC,219.1 lbs,Dental,ward a,Typhoid Fever,2025/05/16,2025/05/28,+234120826773,Ogun,TRUE,"₦260,431.30"
+PT5410,Chinedu Afolabi,Male,0,13.08.1992,B Positive,SS ,72.6 lbs,Surgery,Private Ward,Common Cold,2025/08/23,08/23/2025,0000000000,abuja,0,"₦11,269.52"
+PT5266,Ngozi Abubakar,F,-3,12/22/1969,A+,As,123.4,Maternity,Ward A,Typhoid Fever,2026/04/11,11/04/2026,0507 146 1125,Kaduna,yes,"NGN 75,711"
+PT5058,FUNMILAYO AFOLABI,female,0,17/03/1949,a+,AC,225.9 lbs,Surgery,ICU,Asthma   ,2025-12-19,29/12/2025,+234537556464,Cross River,FALSE,"N326,489"
+PT5241,GRACE OGUNDIMU,Male,0,05-Sep-1978,AB+,AA,82.7 lbs,ENT,ICU,Typhoid Fever,02-Apr-2025,not set,(008) 484-0862,Delta,No,"N234,468"
+MUSC-PT-5291,segun balogun,male,150,09/01/1947,a+,AA,52.3,General Outpatient,Ward A,Common  Cold,18.08.2025,2025/08/31,07129387005,KANO,FALSE,316984.69
+PT5379,  Sadiq Adekunle,F,NULL,01/10/1953,B+,SS,99.8,Cardiology,NIL,Migraine   ,N/A,,234-985-625-753,Anambra,Y,"₦179,937.31"
+MUSC-PT-5363,Halima Abubakar,Male,76,1984-04-21,AB+,SS,--,Maternity,ICU,Diabetes Mellitus,27.05.2025,03 June 2025,(933) 334-6800,Rivers State,Yes,"₦51,891.88"
+PT5076,Tobi Yusuf,Female,88,06/07/1999,B-,AA,,Emergency,?,Peptic Ulcer,19.10.2025,,08699938677,Oyo,1,"N228,962"
+MUSC-PT-5334,Amara Afolabi,male,150,1997-11-16,O+,AC,75.1,Cardiology,ward a,Covid-19,2025/08/09,08/18/2025,234-452-267-528,Imo,TRUE,"₦212,786.84"
+MUSC-PT-5287,Ibrahim Yusuf,F,-3,05-Aug-1966,unknown,AC,unknown,Pediatrics,Private Ward,malaria,24/06/2025,07/02/2025,63745458929,Delta,yes,"₦6,085.79"
+MUSC-PT-5299,Tunde Nnamdi,female,0,1979-03-11,B-,SS,71.2,Emergency,Ward B,Migraine,22-Mar-2025,23 March 2025,234-710-910-430,Edo,0,273137.93 naira
+PT5228,Zainab Okafor,Male,-3,27.06.1997,B-,unknown,66.7,Surgery,NIL,malaria,2026-04-05,11 April 2026,0687 056 8566,Edo,yes,"NGN 338,247"
+MUSC-PT-5192,Ibrahim Okonkwo,M,44,07/29/2009,O positive,AA,28.5,Pediatrics,Ward B,  TYPHOID,01/06/2025,02/06/2025,+234499121655,Lagos State,0,"NGN 283,504"
+MUSC-PT-5023,Ibrahim Nnamdi,Female,0,05/26/1986,A-,SS ,121.4,Cardiology,NIL,Common Cold,01-May-2025,11 May 2025,0473 178 1080,Delta,no,--
+PT5113,Obinna Chukwu,Female,-3,15/04/1959,B Positive,SS ,96.3,General Outpatient,Ward A,  Pneumonia,2025/07/03,07/12/2025,0506 431 7139,Kaduna,FALSE,"294,694.77 "
+MUSC-PT-5202,Zainab Suleiman,M,0,unknown date,a+,AS,115.4,Dental,ward a,Anaemia,17/06/2026,2026/06/21,+234375758441,Anambra,TRUE,"₦129,199.68"
+MUSC-PT-5125,Chinedu Bello,Male,0,1980/08/15,O+,AS,72.4,Maternity,-,Covid-19,2025-04-16,2025/04/17,(945) 198-3273,Ogun,0,"N284,709"
+PT5137,Ngozi Okafor,male,n/a,01/09/1994,unknown,AA,  ,Cardiology,ward a,TYPHOID   ,20-Jun-2026,2026/07/02,234-816-453-521,Delta,FALSE,"₦240,139.17"
+MUSC-PT-5015,aliyu mohammed,F,50,14-Jun-1956,AB+,Unknown,29.0 lbs,Surgery,  ,Malaria,N/A,11/02/2025,+234570154303,Delta,false,"NGN 116,797"
+MUSC-PT-5234,Funmilayo Okafor,female,48,unknown date,A+,SS ,83.2 lbs,General Outpatient,General Ward,Anaemia,2025-10-28,2025-10-29,234-678-544-587,Edo,1,"₦171,539.19"
+MUSC-PT-5124,Ngozi Okonkwo,F,0,14.01.1952,-,AS,83.0,ENT,ICU,Anaemia,26-Jan-2026,02/04/2026,09885165604,Oyo,false,"NGN 337,883"
+MUSC-PT-5346,Sadiq Lawal,Male,150,27 February 1991,-,AC,46.0,Surgery,General Ward,Typhoid Fever,12-Dec-2025,17.12.2025,+234741862565,Enugu,TRUE,"89,305.34 "
+MUSC-PT-5339,Funmilayo Balogun,male,0,18.11.1947,a+,AA,38.5,Surgery,  ,Peptic Ulcer,06/01/2026,2026/06/14,0626 765 8617,Anambra,false,333277.46
+MUSC-PT-5276,Tunde Afolabi,male,null,29-Apr-1992,O-,AA,11.4,Surgery,Ward A,  Hypertension,02/10/2025,,234-257-905-072,Akwa Ibom,TRUE,445325.13
+PT5096,Bisi  Balogun,male,0,26/05/2014,AB-,  ,225.7 lbs,Surgery,ward a,  Common Cold,22.06.2025,,0459 615 8657,Plateau,TRUE,"NGN 269,174"
+MUSC-PT-5205,SEGUN EZE   ,M,-3,1964-01-29,n/a,AS,122.9,Cardiology,ICU,Covid-19   ,12/04/2026,19 April 2026,234-330-833-016,Cross River,1,214901.94
+PT5101,bola lawal,Female,0,30 January 1959,unknown,AC,113.4,General Outpatient,Ward A,Malaria    ,02 June 2026,15 June 2026,48217594647,Delta,no,"₦164,777.43"
+PT5008,Grace Yusuf,Male,?,03/04/2009,A-,aa,19.2,Surgery,ICU,Asthma,2025/11/18,21 November 2025,76483503056,Abuja,Y,120480.73
+PT5226,Ibrahim Ogundimu,Female,84,,A+,AS,115.1 lbs,Pediatrics,WARD B,TYPHOID,2026-06-20,30 June 2026,(028) 439-5995,Enugu,1,"NGN 56,120"
+PT5251,Kemi  Chukwu   ,Male,54,1987-12-29,O-,n/a,41.3,Emergency,  ,Malaria,04.03.2025,12 March 2025,+234262655110,Edo,yes,"NGN 96,095"
+PT5120,chioma okeke,Male,150,02-Jul-1955,B Positive,AS,91.0,Emergency,Private Ward,Migraine,10.06.2026,06/14/2026,234-249-985-698,Kano,yes,83887.43
+MUSC-PT-5221,BLESSING OLAWALE,F,0,N/A,O positive,SS,208.1 lbs,Emergency,ICU,Peptic Ulcer,2026-05-01,04/05/2026,+234265676618,Kaduna,FALSE,"N284,168"
+PT5336,Amaka Yusuf,male,0,03.03.1969,--,SS,267.5 lbs,Cardiology,Ward A,Diabetes Mellitus,2025-08-23,06 September 2025,+234902959391,Cross River,N,278665.02 naira
+MUSC-PT-5007,Ibrahim Abubakar,male,0,05/08/1970,O positive,SS ,48.8 lbs,Maternity,Ward A,TYPHOID,10 March 2026,21-Mar-2026,(255) 341-9283,Anambra,no,"NGN 420,748"
+PT5401,sadiq lawal   ,female,61,31/08/2018,a+,aa,121.6,Dental,ICU,Common Cold,09.06.2026,17/06/2026,(027) 261-4933,Plateau,false,"₦255,725.06"
+MUSC-PT-5249,ALIYU OLAWALE,F,36,1962/10/22,nil,SS ,19.5,ENT,N/A,  Anaemia,04/24/2025,,0996 504 7735,Ogun,false,5596.94 naira
+PT5138,Wale Nnamdi,female,91,1989-12-01,AB-,AS,7.6,General Outpatient,ward a,Peptic  Ulcer,2026-04-14,22-Apr-2026,01883552312,Plateau,1,"N235,282"
+PT5396,Ifeoma Nnamdi,Female,0,1947/01/25,B Positive,SS ,58.2,Cardiology,Ward B,Diabetes Mellitus,06 October 2025,09-Oct-2025,03866317797,Enugu,FALSE,"NGN 156,642"
+PT5135,Zainab Nwosu,F,-3,11 September 1948,--,SS,97.2 lbs,Dental,Private Ward,Malaria    ,11/23/2025,12/01/2025,15969664160,Ogun,N,253403.09
+PT5085,  Wale Olawale   ,M,150,1974/10/06,O+,SS,206.6 lbs,ENT,WARD B,Asthma,26 July 2025,07 August 2025,0512 567 4680,Oyo,yes,59052.07
+MUSC-PT-5197,Obinna Okafor,Female,0,26-Nov-1959,A+,AA,125.4,Dental,ward a,Migraine,06 June 2025,17.06.2025,+234499309728,Plateau,Yes,238682.35 naira
+PT5225,Wale Mohammed,F,150,1962/06/11,B-,null,17.1,General Outpatient,null,Typhoid  Fever,2026/02/11,02/11/2026,00790306738,Imo,true,240469.86 naira
+MUSC-PT-5112,Ifeoma Okafor,male,93,04/28/1993,A+,aa,95.2,Maternity,ICU,Anaemia,21/07/2025,2025/07/25,(405) 377-3515,Edo,Y,"₦341,228.32"
+MUSC-PT-5384,  aliyu chukwu,F,0,03/28/1971,A+,SS ,195.1 lbs,Maternity,WARD B,Hypertension,01.06.2025,14 June 2025,(891) 411-7393,Abuja,yes,"N420,658"
+MUSC-PT-5046,Yusuf  Olawale,Female,-3,02/11/1990,B Positive,  ,90.9 lbs,Maternity,Ward B,Migraine,,,(773) 872-1489,Oyo,FALSE,"N188,631"
+PT5188,Funmilayo Ogundimu,M,0,1991-04-30,AB+,AC,103.6,Surgery,Ward A,Malaria ,05/14/2025,27/05/2025,0787 747 0168,Ogun,yes,?
+MUSC-PT-5219,Kunle Okeke,F,0,23.05.1989,AB-,N/A,83.9,Surgery,Unknown,malaria,01-May-2026,05/05/2026,234-874-064-039,Edo,No,"₦162,873.63"
+PT5172,Segun Bello,M,40,unknown date,AB-,AC,260.3 lbs,Dental,ward a,Anaemia,2025/07/19,26 July 2025,+234192856543,KANO,no,31619.87
+PT5082,Ngozi Eze,Female,59,1985-07-27,B Positive,?,105.0,General Outpatient,  ,Asthma   ,13/09/2025,,+234771906594,Imo,FALSE,196054.06
+MUSC-PT-5110,Chinedu Okeke,Male,-3,2010/06/07,AB-,As,40.0 lbs,Cardiology,  ,Anaemia   ,18 January 2026,2026-01-18,234-004-711-382,ABUJA,0,"NGN 428,290"
+PT5260,Tunde Okeke,Female,-,11/12/1978,--,AS,9.4,Cardiology,General Ward,Pneumonia,27/01/2025,N/A,05193982807,Enugu,1,"306,596.79 "
+PT5114,Sadiq Chukwu,male,n/a,05/10/1991,A-,SS,104.5 lbs,Pediatrics,ward a,Anaemia   ,15 September 2025,21/09/2025,+234532931839,Ogun,FALSE,"N74,186"
+MUSC-PT-5307,Funmilayo Chukwu,female,NULL,10/17/2009,B+,AC,102.0,Emergency,ICU,Malaria  ,not set,03-Feb-2025,invalid,oyo,Yes,"₦124,061.29"
+MUSC-PT-5338,Ngozi Balogun,female,150,31.05.1974,O-,unknown,90.4,Surgery,ward a,Common  Cold,24-Sep-2025,02.10.2025,,Imo,TRUE,"N169,317"
+PT5265,Emeka Suleiman,M,82,27.03.2006,A-,SS ,213.4 lbs,Dental,NIL,Typhoid Fever,2025-02-13,,(899) 375-6798,Delta,N,316626.30 naira
+MUSC-PT-5377,Chioma Afolabi,M,150,10/07/1971,A+,SS ,34.1,Maternity,General Ward,Malaria ,04-Mar-2025,15-Mar-2025,(058) 300-3354,Rivers,No,"NGN 25,486"
+MUSC-PT-5282,Chioma Eze,female,95,23 August 1983,B+,As,27.2,Cardiology,?,Malaria ,04 January 2026,2026-01-07,09233095849,Delta,true,"N67,915"
+MUSC-PT-5203,Ifeoma Suleiman,Male,-3,03 July 1994,nil,As,5.5,General Outpatient,General Ward,Diabetes Mellitus,2025/11/16,11/24/2025,234-665-240-415,Edo,false,"₦258,599.05"
+PT5038,Chinedu Chukwu,M,0,05/16/2019,B+,SS,148.1 lbs,General Outpatient,ward a,Anaemia,2026/06/24,06/25/2026,05634216073,Enugu,no,"NGN 305,011"
+MUSC-PT-5037,Halima Nnamdi,Male,0,20/12/2002,  ,AC,128.9,Maternity,  ,Hypertension,06/26/2025,2025-06-26,58692322602,Cross River,no,"N366,307"
+MUSC-PT-5115,Halima Bello,Male,150,08.07.1948,AB+,AS,120.1,Maternity,Ward B,  malaria,31 May 2025,2025-05-31,(352) 904-2284,Ogun,No,"NGN 104,957"
+MUSC-PT-5053,Musa Eze,Female,4,03/13/2012,A-,As,40.5,Emergency,WARD B,TYPHOID,24.10.2025,07-Nov-2025,+234623166587,rivers,Yes,"NGN 118,832"
+PT5088,tobi ajayi,Male,54,22-Nov-1949,B Positive,As,88.2 lbs,Emergency,Ward B,Common Cold,01/05/2026,05/01/2026,(247) 710-9324,Enugu,FALSE,"₦103,925.72"
+MUSC-PT-5233,kemi  abubakar,Male,150,13-Apr-2010,B Positive,-,233.9 lbs,Dental,Ward B,Typhoid Fever,N/A,03.04.2025,33173936385,Imo,FALSE,"N50,920"
+MUSC-PT-5388,Tobi Mohammed,female,150,30/07/2021,AB+,SS,56.9,Dental,WARD B,  Typhoid Fever   ,16 June 2025,,04556110022,Enugu,Yes,Unknown
+PT5330,Chioma Adeyemi,male,61,03.12.1992,null,SS ,39.9,Maternity,ICU,  Pneumonia,2025-01-25,2025/02/01,+234905992937,Cross River,yes,"N155,414"
+MUSC-PT-5147,Ibrahim Okeke,M,95,16.01.2018,A+,AC,109.0,ENT,Ward B,Covid-19,2026-02-28,03/14/2026,234-546-291-486,Kano,Y,52279.61
+PT5362,Femi Olawale,female,0,1951-04-30,a+,SS ,24.2 lbs,Surgery,Ward A,Asthma,28/04/2025,04/29/2025,85524140602,Cross River,No,"N110,305"
+PT5317,Segun Ogundimu,Female,21,13.01.1998,B-,,30.2,Cardiology,Ward B,Peptic Ulcer,2025-01-21,02/02/2025,(127) 756-1853,Kaduna,no,348022.00 naira
+MUSC-PT-5303,Ifeoma Adeyemi,Female,,1957-08-26,O positive,AC,6.0,Pediatrics,ward a,  Covid-19,04/09/2025,12/04/2025,09904210202,Plateau,N,"NGN 327,858"
+MUSC-PT-5384,  aliyu chukwu,F,0,03/28/1971,A+,SS ,195.1 lbs,Maternity,WARD B,Hypertension,01.06.2025,14 June 2025,(891) 411-7393,Abuja,yes,"N420,658"
+MUSC-PT-5214,  Sadiq Balogun,Male,0,1952-09-03,O+,aa,42.4,General Outpatient,General Ward,Anaemia,2025/03/04,2025-03-18,06841459332,Abuja,FALSE,"₦355,658.56"
+PT5184,Ibrahim Okonkwo,F,0,26/06/2019,B-,SS,36.5,General Outpatient,n/a,Malaria,07.03.2025,,06471027677,Lagos,No,"NGN 142,629"
+PT5342,Sadiq Eze,Male,0,1985-12-30,B-,AA,53.5,General Outpatient,ICU,  Pneumonia,not set,17.01.2025,N/A,Akwa Ibom,false,"NGN 298,107"
+PT5340,emeka olawale,female,0,1981-01-07,unknown,n/a,4.9,General Outpatient,Private Ward,  Covid-19   ,28.10.2025,10/28/2025,+234271040541,Enugu,yes,106374.52
+MUSC-PT-5348,  Chidi Ajayi,Female,150,01-Dec-1971,O+,AS,64.0 lbs,Cardiology,Ward B,Typhoid Fever,01/01/2025,02/01/2025,(115) 869-3806,Oyo,true,"NGN 270,104"
+MUSC-PT-5375,musa mohammed   ,F,0,18-May-1975,B-,SS,80.5,Dental,WARD B,Pneumonia,2025-11-15,11/25/2025,(074) 329-2712,Kano,N,220887.39 naira
+PT5321,funmilayo mohammed,male,31,2019/08/02,?,AS,51.9,General Outpatient,Private Ward,Peptic Ulcer,04/20/2026,01-May-2026,0032 365 1994,Port Harcourt,true,"₦369,931.21"
+PT5398,Ifeoma Okonkwo,Female,0,16.05.1996,A-,N/A,122.6,Emergency,Unknown,Hypertension   ,30 June 2025,04/07/2025,+234019948837,lagos,N,"388,036.35 "
+PT5133,Amara Suleiman,female,150,29-Dec-1981,,SS,80.1,Cardiology,Ward A,Diabetes Mellitus,17.03.2026,30 March 2026,(244) 510-7622,Port Harcourt,no,"NGN 71,936"
+MUSC-PT-5177,Amara Okafor,M,72,19/01/2015,NULL,aa,15.1,Maternity,General Ward,Typhoid Fever,09/05/2025,2025-09-13,07829114678,Anambra,Y,"NGN 224,126"
+PT5031,  Obinna Ogundimu,male,0,18 October 1947,a+,aa,198.0 lbs,Surgery,General Ward,Diabetes Mellitus,2025-03-04,2025-03-11,25135427849,Imo,0,"32,075.72 "
+PT5220,WALE NWOSU,M,69,05.08.2020,AB+,aa,102.7,Cardiology,Ward A,Common Cold,29 May 2026,not set,+234651801704,Akwa Ibom,1,103955.16
+MUSC-PT-5223,Amara Yusuf,female,0,10/16/1972,--,aa,22.7,Dental,General Ward,Malaria,2026/03/19,01-Apr-2026,+234868633752,Enugu,N,"N82,451"
+PT5364,Funmilayo Chukwu,female,-3,24 June 1991,A+,SS ,94.8,General Outpatient,Private Ward,Malaria,2025-01-18,2025/01/27,0229 034 9446,Ogun,yes,n/a
+PT5295,  Adaeze Nwosu,M,0,15.01.1970,AB-,SS,51.5,Emergency,ward a,Peptic Ulcer,29.01.2026,2026/02/05,234-965-652-341,Akwa Ibom,TRUE,"N209,649"
+PT5065,KEMI YUSUF,M,0,1966/10/12,O-,AS,--,Emergency,WARD B,Anaemia,2026/06/18,2026-06-20,87769453147,Kano,1,"NGN 435,989"
+MUSC-PT-5198,Tunde Lawal,F,0,unknown date,unknown,SS,115.9,Emergency,Private Ward,Migraine   ,07-Mar-2025,2025/03/11,0623 091 3075,Cross River,Y,"NGN 280,585"
+MUSC-PT-5212,Tobi Okafor,male,150,17-Feb-1996,A+,As,27.0,Emergency,General Ward,Peptic Ulcer,22.08.2025,,07530463745,Oyo,TRUE,"₦203,089.95"
+MUSC-PT-5390,Emeka Lawal   ,female,-3,15/07/1997,B+,SS ,Unknown,Pediatrics,  ,Anaemia,28-Jun-2026,,234-746-762-120,Cross River,1,"N14,394"
+PT5030,Ngozi Ajayi,Female,-3,21.09.1994,,nil,44.4,General Outpatient,Ward B,Hypertension,01.08.2025,10-Aug-2025,(107) 991-1838,Lagos,true,235610.14 naira
+MUSC-PT-5001,Ngozi Eze,Male,150,,B-,NULL,33.7,ENT,Ward B,Common Cold   ,2025-04-25,25.04.2025,01043321819,Enugu,No,"NGN 162,823"
+MUSC-PT-5128,Amaka Adekunle,Male,-3,16-Mar-1980,O-,NIL,27.0,Surgery,General Ward,Common Cold,15 March 2025,2025/03/23,234-296-120-183,Imo,Yes,"NGN 388,919"
+PT5155,Kunle Yusuf,Male,150,25 September 1985,A+,SS,56.2,Pediatrics,Ward B,Covid-19,2026-06-09,,+234137506068,Imo,FALSE,"N333,057"
+PT5166,Aliyu Okeke,Female,-3,17-Jan-1970,unknown,As,75.0 lbs,Dental,WARD B,   Covid-19,2025/01/15,01/26/2025,+234541566765,Edo,No,"N9,137"
+PT5066,Amaka Bello,Female,150,2007/05/08,NIL,AC,50.4,Pediatrics,WARD B,Anaemia,2026/05/18,27-May-2026,(379) 965-0752,Delta,FALSE,181560.68 naira
+PT5108,IBRAHIM ABUBAKAR,female,0,15.02.2014,B-,AC,64.6,ENT,ward a,Typhoid Fever,19/01/2026,,234-175-496-513,Anambra,No,"NGN 259,583"
+MUSC-PT-5032,Femi Adeyemi,M,150,13.05.1953,B Positive,AC,106.0,Cardiology,Unknown,Diabetes Mellitus,19 March 2026,20 March 2026,0808 412 4118,Akwa Ibom,TRUE,"438,596.88 "
+PT5289,Tobi Lawal,Female,12,26-Aug-1947,null,NIL,145.6 lbs,General Outpatient,Ward B,Migraine   ,06/12/2025,2025-06-15,06324241541,rivers,No,"N262,784"
+PT5227,Chinedu  Bello,Female,0,28-Dec-1976,A-,SS ,85.9,Pediatrics,Private Ward,TYPHOID,2025-11-28,2025/11/30,42836440892,Delta,No,"N152,127"
+PT5252,WALE ABUBAKAR,F,95,1954/07/18,NULL,AC,7.7,Emergency,ICU,  Migraine,14 May 2025,2025-05-24,+234541212678,Oyo,false,"87,205.53 "
+PT5074,Wale Okonkwo,female,0,1975-11-03,A-,  ,4.6,ENT,ward a,Migraine,02/19/2025,02/19/2025,0777 520 4711,LAGOS,No,444693.40 naira
+PT5149,TOBI EZE,male,150,12/29/1962,unknown,aa,222.2 lbs,Emergency,Private Ward,   Hypertension,17/07/2025,21 July 2025,57332214188,Akwa Ibom,false,"N315,316"
+PT5106,Fatima Yusuf,Male,-3,07 February 2003,A-,AC,101.5,Cardiology,Ward A,Migraine   ,12.01.2026,2026/01/24,(858) 842-4745,Anambra,no,34650.6
+PT5230,Segun Bello,F,61,09.01.2002,B+,SS ,123.8,Pediatrics,WARD B,Common Cold,26-Jul-2025,30 July 2025,08668826343,Kaduna,Y,"₦322,258.79"
+MUSC-PT-5347,Bisi Mohammed,Male,150,11/26/1964,unknown,n/a,152.9 lbs,Surgery,WARD B,Migraine,2025-01-18,,0704 774 3490,Ibadan,0,"₦211,665.86"
+MUSC-PT-5352,Funmilayo Chukwu,Female,0,2012/08/01,A-,SS,111.7,Surgery,ICU,Asthma,12/23/2025,04 January 2026,(168) 685-4870,Plateau,true,253097.41
+PT5089,  Emeka Lawal,male,0,24/09/1979,O-,AS,75.5,ENT,Ward A,Peptic Ulcer,2026-06-20,26/06/2026,(086) 131-7127,Enugu,TRUE,"NGN 148,105"
+PT5376,Musa Olawale,male,0,1946/09/28,--,nil,98.1,General Outpatient,General Ward,  TYPHOID,17.11.2025,2025-11-25,(666) 676-0083,Kano,true,86311.39
+PT5371,Chidi Balogun,Male,nil,06/30/1954,A+,AC,27.9,Surgery,ward a,malaria,05.05.2025,,01353465549,abuja,yes,66463.96 naira
+MUSC-PT-5325,Adaeze Chukwu,male,-3,03/21/1996,B Positive,AA,200.2 lbs,Maternity,ICU,malaria,2025/09/25,2025-09-29,(768) 701-4626,Akwa Ibom,0,"N265,386"
+MUSC-PT-5370,Ngozi Chukwu,F,0,20-Jan-2017,  ,SS,n/a,Pediatrics,-,Typhoid Fever,09/06/2026,2026-06-22,(282) 417-2482,Fct Abuja,true,393283.84
+MUSC-PT-5273,  SEGUN EZE,M,-3,1947-08-27,unknown,SS,30.1,ENT,Ward B,Diabetes Mellitus,24 January 2025,02/01/2025,57924991251,Delta,1,397520.09 naira
+PT5157,Halima Adeyemi,M,0,1984/01/02,AB+,SS,89.0,Dental,WARD B,Diabetes Mellitus,2025/01/13,17/01/2025,00472779010,Lag,No,"NGN 309,104"
+PT5320,Adaeze Balogun,M,150,14/06/2012,n/a,SS,226.6 lbs,ENT,Ward A,Hypertension,2025-05-23,,0678 831 7121,Plateau,N,"N410,949"
+PT5111,Funmilayo Lawal,M,36,24 March 2005,AB-,-,117.3,ENT,ICU,Hypertension,29.08.2025,08/30/2025,07586926179,Akwa Ibom,yes,"₦386,703.72"
+PT5366,femi afolabi,male,150,1995-12-29,a+,As,117.3,Dental,Ward A,Peptic Ulcer,19.07.2025,01.08.2025,+234858994417,Enugu,no,"211,923.73 "
+PT5061,Halima Ogundimu,female,-3,1957/05/03,Unknown,aa,8.1 lbs,Cardiology,Ward A,Migraine,25/08/2025,26 August 2025,234-299-124-190,Oyo,No,169127.11 naira
+MUSC-PT-5141,Sadiq Ogundimu,F,0,08 December 1950,a+,As,90.2,General Outpatient,Ward B,Peptic Ulcer   ,01/07/2025,2025-07-15,234-058-147-700,Delta,Y,"N191,263"
+MUSC-PT-5127,Chidi Suleiman,male,150,09-Feb-1952,B-,Unknown,85.4 lbs,Cardiology,unknown,   Migraine   ,09-Mar-2026,2026-03-19,08094024455,Kaduna,No,nil
+MUSC-PT-5308,Ifeoma  Adekunle,female,-3,05/05/2015,A-,SS ,106.8,Emergency,General Ward,Malaria,22 January 2026,01/02/2026,0086 353 6541,Anambra,yes,218540.58
+PT5331,bisi mohammed,female,150,01-Sep-1974,unknown,nil,78.3,Cardiology,WARD B,TYPHOID,07/04/2026,2026/04/18,(427) 010-3930,Enugu,0,"₦279,070.08"
+MUSC-PT-5186,Obinna Nwosu,Female,150,10.11.1992,?,AA,72.1,Surgery,ICU,Common Cold,19 January 2026,30-Jan-2026,0000000000,Imo,yes,136797.89
+PT5319,Blessing Ajayi,F,-3,02/13/1977,AB+,aa,98.4,Surgery,WARD B,  Malaria ,10 November 2025,,234-135-680-442,Imo,FALSE,?
+MUSC-PT-5134,Chioma Okeke,female,150,25-Mar-1997,unknown,SS ,14.2,ENT,Ward A,Anaemia,13/09/2025,2025/09/16,08388516060,Edo,true,"NGN 173,354"
+PT5217,Chidi Okonkwo,Female,-3,1962-11-12,  ,AS,115.4,Surgery,ICU,Pneumonia,22 July 2025,26/07/2025,+234982258713,Cross River,N,"NGN 87,873"
+PT5369,Segun Adekunle,Male,0,2016-09-17,O-,NIL,128.9,Pediatrics,ICU,Hypertension,2026-05-22,22-May-2026,09935387584,Edo,yes,"NGN 314,192"
+PT5105,Femi Adeyemi,male,150,18.09.1970,B-,aa,28.5,Cardiology,ward a,Peptic Ulcer,14 September 2025,,+234952145623,Ogun,0,373832.6
+MUSC-PT-5313,  Chinedu Nwosu,M,0,08/24/1996,a+,AC,29.2,Pediatrics,Ward B,Peptic Ulcer,2025-10-11,23.10.2025,+234383670241,Edo,yes,"320,683.76 "
+MUSC-PT-5131,  Funmilayo Afolabi,Male,-3,18/04/2006,A+,SS ,80.7,Cardiology,Ward A,malaria   ,25.05.2026,,06438156149,Kaduna,TRUE,335077.89
+PT5296,Wale Nwosu   ,male,0,27/12/1995,O positive,SS,62.1,General Outpatient,Ward A,TYPHOID,16-Jun-2026,,invalid,Delta,true,"NGN 380,258"
+PT5394,Funmilayo  Eze   ,Male,0,17.05.1983,A-,As,128.0 lbs,General Outpatient,?,Migraine,17 May 2026,2026-05-26,+234756289002,Lagos,no,"₦343,533.35"
+MUSC-PT-5224,Tunde Bello,female,-3,1983/10/07,B-,AC,91.6,Pediatrics,nil,Anaemia,14-Apr-2026,,31069033119,Plateau,0,172757.69
+MUSC-PT-5378,grace afolabi   ,male,0,not set,A+,N/A,72.6,Pediatrics,NIL,  Diabetes Mellitus,2026-01-13,15 January 2026,0168 942 1044,Edo,1,313174.80 naira
+MUSC-PT-5335,Blessing Olawale,Female,38,11/19/1950,B-,SS,120.5,Cardiology,Private Ward,TYPHOID,19.03.2026,2026-03-29,0539 264 4220,Edo,FALSE,355359.39
+PT5292,OBINNA MOHAMMED,M,53,03/04/1948,A+,AA,115.7,ENT,ward a,Malaria   ,21-Dec-2025,22/12/2025,(627) 136-1115,Imo,no,"NGN 159,602"
+PT5056,Ifeoma Bello,F,0,2013/12/27,-,Unknown,50.2,Surgery,,Common Cold,05/19/2025,2025-05-31,70656272980,Cross River,No,"N16,433"
+PT5083,FATIMA OKONKWO,F,0,06/07/1989,A-,AS,24.5,Surgery,ward a,Malaria ,31 January 2025,06 February 2025,0139 904 9027,Oyo State,FALSE,100121.04
+PT5005,Sadiq Ajayi,female,-3,13 April 1956,NULL,AA,36.3,Surgery,  ,Malaria,05/12/2025,22 May 2025,(781) 618-4959,Ogun,0,110862.76 naira
+MUSC-PT-5237,Wale Okeke,female,150,1992/12/15,unknown,As,113.7,Surgery,Ward B,  Common Cold   ,2026/05/19,05/20/2026,0693 785 4777,Ogun,false,"₦2,751.96"
+PT5344,Obinna Adekunle,M,77,29/03/1982,O-,SS ,92.8 lbs,Maternity,WARD B,Diabetes Mellitus,27 March 2026,03/29/2026,234-720-506-149,Kaduna,false,"N438,333"
+PT5027,Ifeoma Adeyemi   ,female,-3,11.02.2002,a+,SS,82.6,Cardiology,WARD B,Anaemia,14/07/2025,23.07.2025,20812191361,Enugu,TRUE,165867.22
+PT5367,  Kunle Balogun,M,78,09/18/1956,AB+,SS,88.7,Dental,General Ward,Hypertension   ,05/14/2026,19 May 2026,(545) 444-3283,Anambra,true,212366.32
+PT5316,Tobi Bello,Male,150,20 August 2008,B+,,68.3,ENT,Ward B,Covid-19   ,2025-06-23,07/07/2025,0557 431 3291,Abuja,Y,"₦328,838.57"
+MUSC-PT-5167,Blessing Mohammed,female,73,1959-07-08,--,SS ,127.0,Surgery,WARD B,malaria,2026/04/16,00/00/0000,(775) 841-6169,lagos,true,"₦252,338.13"
+MUSC-PT-5219,Kunle Okeke,F,0,23.05.1989,AB-,N/A,83.9,Surgery,Unknown,malaria,01-May-2026,05/05/2026,234-874-064-039,Edo,No,"₦162,873.63"
+PT5105,Femi Adeyemi,male,150,18.09.1970,B-,aa,28.5,Cardiology,ward a,Peptic Ulcer,14 September 2025,,+234952145623,Ogun,0,373832.6
+PT5253,Bisi Nnamdi,F,65,31/05/1989,B+,aa,23.6,Dental,Private Ward,Malaria ,30/06/2026,N/A,86101581995,Rivers,yes,"NGN 417,407"
+MUSC-PT-5258,Tobi Chukwu,female,150,01.10.1970,B+,AS,119.3,Dental,?,Peptic  Ulcer,12/23/2025,06-Jan-2026,75692459375,Enugu,FALSE,"NGN 357,489"
+MUSC-PT-5271,Aliyu Okafor,Male,26,07/05/1968,O positive,As,14.4,Emergency,Ward B,Diabetes Mellitus,12.06.2025,17/06/2025,+234191825537,Edo,Yes,"N287,997"
+MUSC-PT-5204,AMARA  ABUBAKAR,Male,31,11/19/1978,  ,aa,44.3,Cardiology,Private Ward,Peptic Ulcer,17-Jun-2026,06/28/2026,0473 384 8421,Rivers,TRUE,"₦388,745.70"
+PT5297,Blessing Okonkwo,M,150,1950/04/04,?,N/A,124.0,Dental,Private Ward,Malaria    ,2025-03-23,,234-640-376-137,Anambra,false,"NGN 22,040"
+MUSC-PT-5152,Ifeoma Okafor,F,-3,07 May 1989,O-,As,115.6,Cardiology,General Ward,Pneumonia,04.03.2025,2025-03-05,08347359774,Lagos,no,"NGN 51,145"
+PT5361,Chioma Adeyemi,male,150,19-Nov-1960,B Positive,SS ,119.5,Cardiology,General Ward,Peptic Ulcer,04.02.2026,2026/02/17,06103579727,Plateau,0,"N59,742"
+MUSC-PT-5068,Bola Eze,M,0,03/16/1947,a+,NIL,119.9,Cardiology,Ward A,  Typhoid Fever,2026/05/10,05/11/2026,0136 783 7770,Delta,N,"N359,395"
+PT5245,Chidi Adekunle,M,-3,28 January 1991,O+,AS,50.8,Cardiology,ICU,Malaria ,09.06.2025,,234-918-033-974,Akwa Ibom,No,"₦286,335.15"
+MUSC-PT-5408,Wale  Okeke,M,0,03/10/2018,a+,SS,86.4,General Outpatient,ward a,Pneumonia,01.12.2025,12/12/2025,79968460810,Akwa Ibom,false,"NGN 335,336"
+MUSC-PT-5104,Musa Yusuf,Female,-3,02/23/1994,a+,As,61.8 lbs,Dental,Private Ward,TYPHOID,18.11.2025,,N/A,Lagos,N,121606.26
+PT5093,Fatima Ogundimu,male,150,28 May 1972,B Positive,SS ,61.0,Cardiology,N/A,Pneumonia,2025/10/09,10/15/2025,+234675339636,Imo,Yes,"362,832.56 "
+PT5208,Ifeoma Olawale,Male,NULL,01 April 1950,B-,SS ,20.7,Emergency,General Ward,Typhoid Fever,2025-11-02,08/11/2025,(067) 240-0499,Edo,Y,138466.55 naira
+PT5121,sadiq adekunle,Male,-3,23 January 1962,A+,aa,96.3,Emergency,General Ward,malaria,2026-05-26,06/06/2026,0789 611 8367,Delta,TRUE,"NGN 16,588"
+PT5011,Kemi Adeyemi,F,-3,24/06/1947,unknown,aa,76.5,Surgery,ICU,TYPHOID,2025-04-29,2025-05-13,234-871-012-269,Anambra,Y,"N87,944"
+PT5087,  Bola Adeyemi,female,-3,11/05/2019,AB-,aa,23.2,Maternity,Private Ward,  Hypertension,06 May 2026,2026-05-18,234-385-977-034,kano,FALSE,248248.86 naira
+MUSC-PT-5229,Wale Nwosu,Female,-3,2010-10-01,B+,unknown,156.9 lbs,Maternity,n/a,malaria,06-Dec-2025,2025/12/11,0462 873 3427,Rivers,yes,129838.09 naira
+MUSC-PT-5028,Chidi Adekunle,M,0,02/04/1946,O positive,aa,49.5,Dental,ward a,   Peptic Ulcer   ,28/09/2025,,+234399091699,Enugu,0,168213.16
+PT5350,Bola Okafor,Female,150,31-Jul-1967,B Positive,SS ,127.8,ENT,Private Ward,TYPHOID,05/06/2026,10.06.2026,(989) 921-7223,Edo,false,406897.74 naira
+PT5306,Kemi Nnamdi,F,-3,1988-05-26,B Positive,AC,6.2,General Outpatient,ICU,Diabetes Mellitus,16 May 2026,25.05.2026,(079) 252-4191,Ogun,no,59888.47 naira
+PT5242,  musa okonkwo,Male,26,13/01/2009,A-,aa,25.5,General Outpatient,Ward B,Malaria ,08-May-2025,2025-05-20,(182) 339-8454,Kano,true,"NGN 369,254"
+PT5356,Segun Okeke,male,0,05/31/1993,unknown,aa,93.3,General Outpatient,ward a,  Migraine   ,2025/11/19,2025/12/02,234-530-745-054,Rivers State,Y,"318,853.80 "
+MUSC-PT-5025,Emeka Yusuf,F,69,1973/05/30,A-,As,178.6 lbs,General Outpatient,ICU,  Peptic Ulcer,05/15/2026,28-May-2026,+234474687234,Delta,FALSE,66116.74 naira
+PT5018,Chioma Nwosu,F,2,1987/09/18,a+,As,40.0,Surgery,Unknown,Anaemia,18 May 2026,2026-05-25,+234133150983,oyo,yes,8338.47 naira
+MUSC-PT-5213,Emeka Afolabi,Female,73,1962/06/17,unknown,AC,128.8,Emergency,WARD B,Typhoid Fever,09 December 2025,10.12.2025,0990 453 0174,Cross River,No,"N282,156"
+PT5285,Sadiq Bello,F,150,24-Jan-1997,null,SS ,20.5 lbs,Cardiology,Private Ward,Pneumonia   ,2026/06/09,,+234667116845,Anambra,false,"₦435,340.75"
+PT5190,CHIDI AJAYI,male,0,01 January 1974,unknown,Unknown,92.8,ENT,ward a,  Malaria ,2026-02-12,2026-02-22,0801 624 5650,Rivers State,Yes,440375.44 naira
+MUSC-PT-5326,Funmilayo Chukwu,F,71,not set,A-,aa,101.6 lbs,Emergency,ICU,Pneumonia,03 February 2026,10.02.2026,invalid,Anambra,false,"NGN 221,859"
+MUSC-PT-5358,Adaeze Suleiman,Male,0,1984-07-15,A-,AS,14.1 lbs,Surgery,?,Pneumonia,01-Jul-2025,09/07/2025,234-373-678-508,Port Harcourt,N,"₦357,736.17"
+PT5169,Zainab Mohammed,male,-3,00/00/0000,B Positive,AS,37.7,General Outpatient,,Covid-19,23 October 2025,2025-10-24,27570596401,Plateau,TRUE,379174.73 naira
+PT5024,Kunle Bello,female,0,15/12/1965,B+,aa,203.3 lbs,Pediatrics,Private Ward,Malaria,25-Feb-2026,25 February 2026,32677360260,Abuja,true,"NGN 386,985"
+PT5216,Aliyu Olawale,Male,150,2007/02/14,B-,AC,81.1,Emergency,WARD B,Diabetes  Mellitus,unknown date,,234-878-519-108,Delta,N,
+PT5264,BLESSING  OLAWALE,female,39,05-May-1946,AB+,AC,145.4 lbs,Dental,Ward A,Common Cold,2025-05-27,2025-06-08,96561014388,Enugu,TRUE,"203,641.34 "
+MUSC-PT-5021,Kemi Nnamdi,Male,150,23.11.1970,O positive,AA,91.7,General Outpatient,WARD B,Asthma,26-Mar-2026,27/03/2026,0311 656 6701,Kaduna,no,"302,219.81 "
+MUSC-PT-5360,chidi  adeyemi,female,-3,01 January 1953,B+,As,84.2,Maternity,Ward B,Typhoid Fever,11/11/2025,2025/11/25,234-307-053-457,Lagos,true,"366,509.71 "
+PT5374,Kemi Olawale,Female,0,02 July 1961,AB+,AC,62.7,Maternity,General Ward,Malaria   ,11 August 2025,12-Aug-2025,0972 521 7525,Delta,Yes,"N430,672"
+PT5397,Kemi Chukwu,female,0,01/17/1989,A+,NULL,30.6 lbs,Pediatrics,Private Ward,Malaria,03/23/2026,04/03/2026,234-751-701-660,Rivers,N,"N392,571"
+PT5153,zainab bello   ,M,0,19.10.1947,,AA,180.8 lbs,ENT,  ,Anaemia,29-Aug-2025,04-Sep-2025,0886 239 2407,Enugu,no,103131.93 naira
+PT5373,Chidi Lawal,Female,-,06-Jun-1977,AB-,SS ,60.0,Dental,NIL,Anaemia,09-Mar-2025,18-Mar-2025,0168 460 2235,Cross River,true,"₦407,602.31"
+MUSC-PT-5309,Bisi Suleiman,male,0,12/12/1966,O-,null,123.8,Pediatrics,Ward A,Diabetes Mellitus,27 January 2026,27.01.2026,+234180238061,Lagos,yes,186512.65
+MUSC-PT-5142,Blessing Balogun,F,0,00/00/0000,O positive,AS,238.3 lbs,Maternity,ward a,  Typhoid Fever,14-Jun-2026,28 June 2026,0411 998 6798,Anambra,1,"₦21,669.93"
+MUSC-PT-5026,Blessing Yusuf,F,85,1967-10-15,B-,SS ,117.1,Cardiology,ward a,Covid-19,2026/04/16,2026/04/20,234-980-500-978,Cross River,N,"NGN 273,965"
+MUSC-PT-5119,Segun Nwosu,Male,-3,1990-10-21,B Positive,aa,194.5 lbs,Pediatrics,Private Ward,Covid-19,06/13/2026,24-Jun-2026,234-661-771-159,Rivers,TRUE,"NGN 34,429"
+PT5041,Ibrahim Afolabi,M,-3,04 November 1989,a+,AC,207.0 lbs,Emergency,ICU,Pneumonia,17.01.2025,01/27/2025,invalid,Akwa Ibom,true,80439.93
+MUSC-PT-5359,Bola Olawale,female,84,05 April 1950,B Positive,nil,243.3 lbs,ENT,General Ward,Typhoid Fever,07-May-2026,19.05.2026,14862890233,Plateau,Yes,"₦238,342.46"
+MUSC-PT-5094,Grace Lawal   ,male,-3,1998/10/31,B-,As,94.5,Cardiology,  ,Malaria    ,18.02.2026,2026/02/28,57662702895,abuja,false,392401.64 naira
+MUSC-PT-5064,Tobi  Okeke,Female,0,06/03/1985,unknown,,57.6,Cardiology,n/a,Peptic Ulcer,unknown date,21.05.2026,0716 572 6284,Lagos State,No,"N326,730"
+MUSC-PT-5311,Ibrahim Adekunle,M,150,1957-07-20,a+,SS ,17.5,Cardiology,General Ward,Pneumonia,05 March 2026,2026-03-11,+234937597383,Delta,No,"₦447,003.02"
+MUSC-PT-5171,Chidi Suleiman,male,-3,1989/10/21,O-,AA,3.0,Pediatrics,?,Covid-19,05/29/2025,05.06.2025,03556909275,Abuja,0,305324.4
+PT5136,amara balogun,M,150,28.09.1966,O-,NULL,197.6 lbs,Pediatrics,Ward A,Diabetes Mellitus,15/03/2025,2025-03-19,05297516136,Kaduna,N,"NGN 333,526"
+PT5049,Chioma Nnamdi,male,-3,1975-06-04,B+,aa,79.3,Dental,ward a,Asthma,10 January 2026,22.01.2026,01632870831,Ogun,0,"N120,958"
+MUSC-PT-5406,  Ibrahim Ajayi,Female,62,31/03/1960,O-,As,36.6,Maternity,ward a,Asthma,05-Feb-2026,18.02.2026,234-698-485-833,Edo,no,96325.18 naira
+MUSC-PT-5186,Obinna Nwosu,Female,150,10.11.1992,?,AA,72.1,Surgery,ICU,Common Cold,19 January 2026,30-Jan-2026,0000000000,Imo,yes,136797.89
+PT5052,TOBI NNAMDI,Female,Unknown,05/15/1969,O+,AC,73.5 lbs,Emergency,ICU,  Anaemia,21/05/2025,22.05.2025,07143455812,Akwa Ibom,1,"₦355,006.36"
+PT5269,  Kunle Eze,male,79,01 April 1984,A+,SS ,129.4,ENT,unknown,Typhoid Fever,2025/10/18,29/10/2025,+234258673622,Anambra,yes,"N121,889"
+MUSC-PT-5353,Bola Ajayi,M,79,1993-04-16,--,AA,27.8,Cardiology,Private Ward,Typhoid Fever,07/02/2025,08-Jul-2025,98616229991,Kano,0,"NGN 292,257"
+PT5409,Chidi Adeyemi,male,-3,20-Jan-1980,A+,AA,58.0,Dental,WARD B,Asthma,26 June 2026,2026/07/05,+234200342442,Edo,FALSE,"NGN 115,856"
+PT5095,Tunde Lawal,male,150,09/22/1974,  ,AC,61.6,Maternity,Ward B,Pneumonia,2026-01-16,20/01/2026,17187026217,Rivers,Yes,"NGN 204,520"
+MUSC-PT-5168,Grace Lawal,female,-3,08/21/2008,AB-,SS,-,Emergency,General Ward,Malaria ,2025-07-29,2025/07/31,08451154479,Kano,0,"NGN 41,114"
+MUSC-PT-5146,Funmilayo Chukwu,Male,0,2021-01-31,A-,aa,55.3,Emergency,ICU,malaria   ,2025-08-01,13-Aug-2025,51864492519,Port Harcourt,TRUE,403376.01 naira
+PT5014,Ngozi Abubakar,male,-3,not set,O+,SS,51.3,ENT,Private Ward,Malaria ,24-Mar-2025,,14893252880,Cross River,1,"326,433.26 "
+PT5012,Amaka Okafor,female,150,06.01.1979,unknown,AA,54.3,Pediatrics,WARD B,Diabetes Mellitus,N/A,07.07.2025,0669 784 8018,Imo,true,259900.56
+MUSC-PT-5209,Yusuf Nwosu   ,male,150,12/07/1952,A+,AC,71.4,Emergency,WARD B,malaria,28/05/2026,31/05/2026,54788728743,Anambra,yes,"NGN 395,469"
+MUSC-PT-5302,Ifeoma Nnamdi,F,43,02.11.1965,B+,AA,74.4,Surgery,General Ward,malaria,2025-11-01,11/08/2025,234-146-303-161,Ogun,No,"N416,183"
+MUSC-PT-5158,Bola Adeyemi,Female,24,2010/01/25,?,AS,5.5,Maternity,Ward A,Common  Cold,2025-10-18,2025/10/22,234-289-861-434,Oyo,yes,"NGN 350,143"
+MUSC-PT-5256,Tunde Okafor,Male,0,2010-03-15,B+,,51.5,Emergency,WARD B,  Diabetes Mellitus,2025-01-13,22/01/2025,234-647-154-379,Edo,TRUE,"57,137.83 "
+MUSC-PT-5294,Kemi Olawale,Male,-3,21 June 1994,O-,AS,69.7,Cardiology,ward a,Typhoid Fever,2025/10/27,09/11/2025,,Ibadan,yes,"₦372,576.13"
+MUSC-PT-5187,IFEOMA AFOLABI,M,0,07.09.1971,A-,As,182.6 lbs,Emergency,General Ward,  Anaemia,08/04/2025,,234-696-325-953,Kaduna,FALSE,"₦38,839.96"
+MUSC-PT-5272,Ibrahim Adekunle,F,76,12-Apr-1954,  ,AC,16.2,Maternity,Ward B,Hypertension,2025-04-24,01 May 2025,04785969691,Rivers,yes,"₦417,109.26"
+MUSC-PT-5039,Emeka Yusuf,Female,0,07-Nov-1984,O-,SS ,32.3,Surgery,WARD B,Covid-19,19/10/2025,31/10/2025,+234543303654,oyo,1,43087.68
+PT5211,SEGUN ABUBAKAR,Male,22,28.03.2019,unknown,AC,40.5 lbs,Surgery,  ,  Peptic Ulcer,01/02/2026,2026/01/08,+234966851612,Abuja,false,"NGN 31,142"
+MUSC-PT-5314,Femi Afolabi,F,150,04/15/1995,O+,As,197.8 lbs,Surgery,Ward A,  Pneumonia,29 March 2026,2026/04/05,03865719182,Plateau,false,"N115,361"
+PT5144,Amaka Ajayi,Male,18,08/11/2003,B Positive,As,87.5,Maternity,General Ward,Pneumonia   ,24-Dec-2025,24.12.2025,234-182-037-788,Delta,Y,"56,666.41 "
+MUSC-PT-5079,Kunle Nnamdi,Male,64,11.04.1996,AB+,aa,25.4,Cardiology,ward a,Asthma,2026/01/17,01/18/2026,0740 344 7134,LAGOS,true,"378,129.16 "
+PT5195,Halima Afolabi,female,9,1971-07-06,Unknown,  ,68.0,ENT,NIL,Common Cold,18.02.2025,26.02.2025,+234694958887,Rivers State,true,49636.14 naira
+PT5133,Amara Suleiman,female,150,29-Dec-1981,,SS,80.1,Cardiology,Ward A,Diabetes Mellitus,17.03.2026,30 March 2026,(244) 510-7622,Port Harcourt,no,"NGN 71,936"
+MUSC-PT-5071,Blessing Okeke,male,150,1947-12-08,a+,SS,23.9,Dental,Private Ward,  Peptic Ulcer,09/10/2025,12.10.2025,05182337498,Cross River,N,96025.42
+MUSC-PT-5154,Kemi Afolabi,Male,-3,1945/09/01,unknown,NIL,93.3,Cardiology,General Ward,Malaria    ,2026/05/26,,(818) 141-2478,Oyo,no,"₦241,694.90"
+MUSC-PT-5029,Grace Eze,M,-,19-Jun-1993,B-,AA,115.4,Emergency,Ward A,Diabetes Mellitus,03/06/2026,15/03/2026,234-435-346-247,Kano,FALSE,"93,932.10 "
+PT5055,Sadiq Nnamdi,female,-3,17 July 1950,O-,--,unknown,Cardiology,null,   Covid-19,2026/06/02,,04668893734,Imo,0,16217.22 naira
+PT5020,Bola Okonkwo,Female,unknown,26-May-2011,null,As,NULL,Cardiology,WARD B,malaria,2025/04/12,04/24/2025,+234738299737,Cross River,yes,"268,579.73 "
+PT5151,Femi Ogundimu,M,83,07-Aug-1954,O+,SS,103.5,Pediatrics,ward a,malaria   ,30/11/2025,08-Dec-2025,02706537947,Edo,FALSE,"NGN 347,562"
+MUSC-PT-5218,Bisi Ajayi,M,-3,30/07/1978,B Positive,Unknown,119.9,Surgery,unknown,Anaemia   ,2025/11/22,01 December 2025,234-187-072-867,Plateau,no,237413.10 naira
+MUSC-PT-5275,Kemi Ajayi,female,-3,06-Aug-1979,B Positive,SS,unknown,Dental,Ward A,  Peptic Ulcer,10/18/2025,2025/10/27,(966) 278-2827,Lagos,yes,Unknown
+PT5160,Zainab Lawal,M,28,15/11/2017,B Positive,Unknown,51.5,Dental,WARD B,TYPHOID,2025-03-13,2025/03/21,0893 246 0953,Abuja,0,"₦331,425.23"
+PT5126,obinna  suleiman,male,150,1995-08-07,AB+,AA,118.4,Cardiology,Ward A,Anaemia,22-Mar-2026,03/30/2026,58514936899,Edo,1,"NGN 373,135"
+MUSC-PT-5163,Bola Okeke,female,0,05/28/1946,B+,AA,25.4,Pediatrics,ward a,Common Cold   ,14 May 2026,15.05.2026,(319) 520-5852,Anambra,N,"N209,969"
+MUSC-PT-5017,Wale Suleiman,female,150,09/23/1958,A-,AC,81.0,ENT,-,Hypertension,22 March 2026,24/03/2026,+234963834657,Fct Abuja,0,"NGN 250,719"
+MUSC-PT-5062,Sadiq Balogun,Male,150,09 September 1995,,unknown,89.7,Emergency,Private Ward,Typhoid Fever,2025/09/07,18/09/2025,96631931491,Imo,yes,"N404,892"
+MUSC-PT-5365,Yusuf Bello,M,150,1985-10-01,--,As,83.7,Maternity,WARD B,Diabetes Mellitus,04-Jan-2026,2026-01-07,0574 374 8969,Rivers,N,112211.19
+MUSC-PT-5283,IBRAHIM  BALOGUN,M,-,09/12/1991,A+,SS,41.2,Maternity,Ward A,Hypertension,10/24/2025,,+234544948126,Cross River,true,287396.00 naira
+MUSC-PT-5284,Aliyu Olawale,M,150,1953/10/21,O-,AC,24.6,Dental,ward a,TYPHOID,25-Sep-2025,09/10/2025,0422 325 3672,Abuja,FALSE,408268.25
+MUSC-PT-5349,Ifeoma Olawale,Male,0,27/04/1984,B Positive,NIL,22.1,Cardiology,Ward B,Typhoid Fever,02.11.2025,2025/11/15,0687 937 4160,Lagos,yes,379361.6
+PT5243,  Fatima Okeke,Female,-3,1961-11-15,B Positive,NULL,174.5 lbs,Surgery,ward a,TYPHOID,2025-05-26,30/05/2025,+234567933410,ABUJA,No,308422.70 naira
+PT5070,Amara Bello,male,0,06/29/1978,a+,-,78.5,Emergency,Ward A,Diabetes Mellitus,2025/05/25,02-Jun-2025,06855744431,Ogun,Yes,"NGN 358,555"
+PT5304,Funmilayo Adeyemi,male,58,1990/06/29,  ,n/a,92.6,Surgery,unknown,Hypertension,2025/12/10,14.12.2025,+234884252410,Lagos State,TRUE,275825.3
+PT5060,Fatima Olawale,Female,0,1964/11/07,AB-,SS ,40.1,Dental,Ward B,Pneumonia,30 May 2025,30 May 2025,,Akwa Ibom,true,"₦23,734.45"
+PT5288,Yusuf Mohammed,M,0,11/30/1989,AB+,As,67.9,Dental,General Ward,malaria,31 May 2026,03 June 2026,234-500-170-127,Ogun,FALSE,"₦373,789.05"
+MUSC-PT-5267,Aliyu Chukwu,Male,-3,08/08/1982,A-,aa,125.6,Emergency,unknown,Hypertension,2026-05-09,00/00/0000,+234738757177,Edo,0,"N288,235"
+PT5305,Emeka Chukwu,Female,0,1948-06-25,B Positive,SS ,83.0,Cardiology,Ward A,Anaemia,05-Mar-2026,2026-03-16,234-481-491-778,Plateau,1,317758.82
+MUSC-PT-5050,Grace Ajayi,Female,-,20-Aug-2014,unknown,aa,24.2,General Outpatient,NULL,Malaria ,08/22/2025,02 September 2025,27889579868,Edo,true,"NGN 362,036"
+PT5069,aliyu bello,male,-3,21-Sep-1961,A-,SS ,59.8,ENT,Private Ward,Typhoid Fever,2026/03/19,25 March 2026,+234363495788,Kaduna,No,"₦108,880.58"
+MUSC-PT-5044,Amara Mohammed   ,F,0,03/12/2005,AB+,As,99.8,Dental,N/A,Asthma,06.04.2026,2026/04/11,(648) 236-6299,Oyo,Y,320890.48
+MUSC-PT-5238,Segun Mohammed,Female,0,00/00/0000,null,SS ,43.3,Cardiology,Ward B,Covid-19,2025/07/14,2025/07/27,52287280801,Akwa Ibom,N,223771.44
+PT5162,Tunde Eze,Female,75,1999-11-02,unknown,  ,106.8,Surgery,n/a,  Pneumonia,2025-06-24,07 July 2025,,Cross River,true,276373.79
+PT5004,FUNMILAYO EZE,Female,150,1946/01/12,AB+,aa,221.1 lbs,General Outpatient,Private Ward,  Malaria,04/28/2025,,03511615594,Abuja,No,440137.05 naira
+MUSC-PT-5213,Emeka Afolabi,Female,73,1962/06/17,unknown,AC,128.8,Emergency,WARD B,Typhoid Fever,09 December 2025,10.12.2025,0990 453 0174,Cross River,No,"N282,156"
+MUSC-PT-5174,Amara Afolabi,F,150,1989-03-27,a+,AA,-,Dental,n/a,Malaria,2025-03-10,19/03/2025,94731217271,Rivers,FALSE,339177.57 naira
+MUSC-PT-5191,Ifeoma Adekunle,M,0,11/23/2019,AB-,AC,84.9 lbs,Dental,,Diabetes Mellitus,15/10/2025,26/10/2025,09835841687,Anambra,0,"₦207,076.35"
+MUSC-PT-5009,  Fatima Adekunle,Male,nil,1958-12-12,B+,aa,94.0,Maternity,-,malaria,06.10.2025,unknown date,+234139537672,Edo,No,"N160,448"
+MUSC-PT-5182,FUNMILAYO BELLO,F,0,1982-10-14,B+,SS,77.5,Pediatrics,WARD B,Diabetes Mellitus   ,10/01/2025,2025/10/01,02995900109,Ogun,no,"N124,467"
+MUSC-PT-5293,Chidi Suleiman,Male,11,14/03/1950,unknown,AS,31.5,Surgery,--,Asthma,09/01/2025,2025-09-04,+234262218909,Delta,false,"NGN 137,618"
+PT5337,Obinna Okeke,Male,-3,1969/07/31,O-,aa,-,Cardiology,Private Ward,  Common Cold   ,20.04.2025,21.04.2025,234-513-552-157,Ogun,N,253702.70 naira
+MUSC-PT-5385,Funmilayo Chukwu,female,150,1959/10/11,B Positive,SS ,64.9,Pediatrics,N/A,Migraine,21 August 2025,08/31/2025,,oyo,true,"NGN 33,959"
+PT5404,Halima Chukwu,female,19,26/04/1967,O+,unknown,91.4,Emergency,Ward A,Asthma,21-Apr-2026,05/05/2026,+234829221699,Kaduna,Y,"N269,896"
+PT5019,ngozi lawal,M,150,11.08.1969,A-,AA,91.4,Cardiology,Ward A,Typhoid Fever,16.02.2025,16-Feb-2025,(301) 031-0518,Enugu,yes,"₦256,746.00"
+PT5022,  chioma suleiman,Male,150,04-Aug-1974,A+,SS,87.0,General Outpatient,Ward B,Hypertension,2026/02/26,03/09/2026,06513338726,Anambra,1,43757.72
+PT5102,Segun Ogundimu,Female,-,31.12.1964,AB+,SS,206.6 lbs,Maternity,WARD B,Migraine,11.04.2026,16.04.2026,234-367-136-959,Abuja,Yes,"417,128.69 "
+MUSC-PT-5189,Wale Ogundimu,Female,0,13.07.1955,AB+,AC,101.1,Surgery,WARD B,TYPHOID,unknown date,01/26/2025,33950047974,Edo,0,40410.93 naira
+MUSC-PT-5329,Chinedu Abubakar,female,150,13.05.1987,B+,aa,10.8,Maternity,Ward B,  Typhoid Fever   ,24-Jul-2025,29-Jul-2025,80396522395,Anambra,No,"N322,676"
+PT5165,Musa Ogundimu,M,-3,04/04/1987,unknown,AC,30.1,Cardiology,nil,TYPHOID,05/12/2026,,0548 687 4034,Akwa Ibom,N,"267,028.23 "
+PT5386,musa yusuf,male,unknown,03-Sep-1955,AB-,SS,3.8,Pediatrics,General Ward,malaria,09-Mar-2026,,05300119721,Delta,yes,"₦245,593.26"
+MUSC-PT-5235,Zainab Bello,Female,N/A,1976-12-10,unknown,AS,60.8,Dental,Private Ward,  Diabetes Mellitus,2025/12/05,unknown date,+234753556093,Ogun,0,"N181,274"
+MUSC-PT-5286,Wale Okafor,Female,150,not set,A-,AS,94.2,Dental,N/A,Common Cold,08 June 2025,12-Jun-2025,(759) 017-5186,Abuja,Y,65475.41
+MUSC-PT-5254,Chinedu Chukwu,M,-3,07 December 2015,AB+,AC,70.7,General Outpatient,WARD B,Migraine,22.02.2025,04/03/2025,60466183982,Enugu,true,"N117,291"
+PT5337,Obinna Okeke,Male,-3,1969/07/31,O-,aa,-,Cardiology,Private Ward,  Common Cold   ,20.04.2025,21.04.2025,234-513-552-157,Ogun,N,253702.70 naira
+PT5117,  Femi Afolabi,F,150,2013-09-16,O+,AS,78.8,ENT,Private Ward,Common Cold,27 August 2025,10 September 2025,234-268-117-758,Ogun,no,"NGN 348,839"
+MUSC-PT-5035,amara bello,male,55,08/24/2019,AB-,SS ,73.7 lbs,Cardiology,n/a,Anaemia   ,06-Jan-2026,07-Jan-2026,(680) 112-8059,Edo,true,"NGN 443,966"
+MUSC-PT-5301,Amaka Olawale,female,NIL,11-Jul-2007,O+,As,45.4,Maternity,nil,malaria,05 September 2025,16-Sep-2025,0241 418 3285,Rivers,FALSE,127126.21
+PT5248,Segun Eze,Female,0,00/00/0000,O-,aa,97.7 lbs,Dental,  ,Common Cold,12/31/2025,31-Dec-2025,0218 501 6315,Port Harcourt,Yes,"162,938.06 "
+MUSC-PT-5327,Fatima Abubakar,Female,77,1993/03/25,O+,SS,14.9,Emergency,WARD B,Typhoid Fever,15 May 2025,21.05.2025,0856 420 5930,Oyo,0,"72,321.58 "
+MUSC-PT-5380,YUSUF ABUBAKAR,F,?,1945/08/29,a+,,67.6,Surgery,Ward B,Migraine,16.10.2025,2025/10/20,(603) 323-0982,Imo,yes,"₦99,129.11"
+PT5098,Kunle Eze,M,13,2000-11-15,unknown,unknown,38.5,Dental,ICU,Malaria,05/21/2025,27/05/2025,02400504556,Imo,yes,290662.88 naira
+PT5086,Funmilayo Ajayi,F,72,12/25/2007,AB-,AS,25.7,Emergency,NULL,Diabetes Mellitus,05/02/2026,02/18/2026,0154 516 8087,Imo,1,"NGN 159,352"
+MUSC-PT-5109,Chinedu Bello,female,0,1968/03/16,N/A,SS,126.9 lbs,Cardiology,nil,Asthma,02/22/2026,28.02.2026,234-985-931-746,Edo,Y,135529.31
+PT5207,Wale Suleiman,F,60,1996-02-28,O+,AC,39.2 lbs,ENT,Ward A,Pneumonia   ,2026-06-19,22/06/2026,0540 193 8026,Edo,Y,NIL
+MUSC-PT-5263,Bola Nwosu,female,59,19 June 1959,a+,aa,115.4,Maternity,ICU,malaria,05-Jun-2025,15 June 2025,+234589113529,Ogun,true,"₦447,493.23"
+PT5054,segun nwosu,female,38,2012/08/16,AB+,AS,78.8 lbs,Emergency,General Ward,Asthma,2025/10/01,06/10/2025,(036) 690-9670,Plateau,no,"N36,990"
+PT5222,Chioma Abubakar,female,0,not set,NULL,AA,10.6,Cardiology,ward a,  Asthma,05-Feb-2026,02/11/2026,0512 868 2300,Plateau,No,NULL
+MUSC-PT-5200,Amaka Eze,male,0,20.03.1999,N/A,AS,104.4,Maternity,ward a,Asthma,2025-04-17,28.04.2025,0857 865 2785,Cross River,Yes,"111,901.60 "
+MUSC-PT-5175,Amara Chukwu,Female,150,05/15/1973,B-,aa,14.7,Pediatrics,General Ward,   Typhoid Fever   ,2025/11/05,09 November 2025,234-518-844-225,Rivers,Yes,"₦335,518.18"
+MUSC-PT-5016,Chinedu Yusuf,F,150,11/05/1999,O positive,As,16.3,Pediatrics,WARD B,  Anaemia,2025/04/28,10.05.2025,0117 182 2782,Kaduna,true,401425.61 naira
+MUSC-PT-5180,Kunle Suleiman,Male,150,26/05/2004,O+,SS ,Unknown,Cardiology,--,Hypertension,25-May-2026,01 June 2026,(225) 358-4143,Akwa Ibom,Y,"NGN 228,995"
+MUSC-PT-5324,Kemi Chukwu,Female,0,1953/06/26,a+,-,126.5 lbs,Pediatrics,General Ward,  Migraine,10/05/2025,2025/05/21,02447209993,Akwa Ibom,1,434391.7
+MUSC-PT-5246,Ibrahim Suleiman,Male,73,15 July 1966,unknown,aa,13.3,Pediatrics,NULL,Covid-19,04/06/2025,08.04.2025,(148) 902-5039,Edo,FALSE,20975.48 naira
+MUSC-PT-5100,Chioma Chukwu,female,0,31-Dec-1997,A-,null,  ,Surgery,ward a,Malaria  ,05/10/2026,2026/05/22,(379) 237-4740,Imo,FALSE,"N26,446"
+MUSC-PT-5375,musa mohammed   ,F,0,18-May-1975,B-,SS,80.5,Dental,WARD B,Pneumonia,2025-11-15,11/25/2025,(074) 329-2712,Kano,N,220887.39 naira
+MUSC-PT-5354,Aliyu Suleiman,F,0,11-Feb-1946,B Positive,AC,109.3,Cardiology,General Ward,Diabetes Mellitus,31.10.2025,03.11.2025,+234914856467,Abuja,TRUE,319342.56 naira
+MUSC-PT-5268,bisi okonkwo,M,0,unknown date,a+,AA,91.3,ENT,ICU,Malaria ,12-Aug-2025,23 August 2025,0140 105 1238,Enugu,yes,"N380,601"
+PT5083,FATIMA OKONKWO,F,0,06/07/1989,A-,AS,24.5,Surgery,ward a,Malaria ,31 January 2025,06 February 2025,0139 904 9027,Oyo State,FALSE,100121.04
+PT5176,Ngozi Balogun,Male,150,19.07.1956,N/A,AA,N/A,Cardiology,  ,Malaria,05/26/2025,06/06/2025,31323705895,Oyo,no,"159,787.07 "
+PT5075,kunle eze,female,0,10 November 1956,  ,AS,13.9,Maternity,General Ward,Asthma   ,05 May 2026,06-May-2026,+234190229413,Kano,N,"N249,922"
+MUSC-PT-5084,Tunde Nwosu   ,Female,-3,04-Apr-1950,AB-,NULL,126.7,Emergency,NIL,Pneumonia,29.04.2026,2026-05-07,07429671756,ABUJA,N,10927.74 naira
+MUSC-PT-5033,   KEMI YUSUF,female,150,not set,B-,AC,6.2,Pediatrics,nil,  malaria   ,27 January 2025,05.02.2025,234-493-534-874,Enugu,No,"N128,894"
+PT5045,Kunle Mohammed,M,28,16.03.2016,N/A,AA,128.1,ENT,WARD B,  malaria,2026/01/06,14.01.2026,68044369957,Ogun,Y,"₦345,966.17"
+MUSC-PT-5318,Amara Abubakar,male,0,2019-06-03,A-,AS,N/A,Maternity,?,Pneumonia,,24/06/2025,0474 112 4903,Kaduna,no,"₦292,250.83"
+MUSC-PT-5010,Kunle Okonkwo,female,-3,17.06.1981,,SS ,279.4 lbs,Emergency,ICU,Covid-19   ,08.06.2025,,234-388-496-965,Edo,TRUE,181055.92
+PT5372,Funmilayo Nwosu,male,-3,1961/12/27,AB+,SS,26.3,Cardiology,ICU,  Typhoid Fever,07.05.2025,18.05.2025,0717 099 9173,Lagos,true,"N41,528"
+MUSC-PT-5129,kunle adekunle,female,150,18/02/1955,B-,AA,4.4,General Outpatient,Ward A,Hypertension,30 August 2025,09.09.2025,67525459910,kano,no,"NGN 326,531"
+MUSC-PT-5280,SEGUN YUSUF,female,-3,09/23/1964,B+,-,102.7,General Outpatient,ward a,  Pneumonia,02.10.2025,09-Oct-2025,0078 361 3407,Akwa Ibom,N,"₦213,710.57"
+PT5097,Yusuf Bello   ,Male,150,13/08/2006,O+,SS,98.1,General Outpatient,,Malaria,18-May-2025,2025/05/23,234-913-431-611,Enugu,true,47238.97 naira
+PT5199,Yusuf Ajayi,F,-3,21/03/2012,A+,SS,54.1 lbs,General Outpatient,--,Typhoid Fever   ,2025-03-30,09.04.2025,234-636-897-028,Imo,Y,"384,326.85 "
+MUSC-PT-5091,Chidi Ogundimu   ,F,-3,17.06.2007,AB-,aa,89.8 lbs,ENT,Ward B,Malaria    ,11.04.2025,,,Imo,no,"NGN 317,676"
+PT5181,Ibrahim Olawale,Female,150,1989/05/20,  ,SS,100.2,ENT,NULL,Diabetes  Mellitus,22.01.2026,31/01/2026,04249818299,Delta,true,"N388,789"
+PT5048,Obinna  Okafor,M,0,1959/04/19,B Positive,N/A,114.6,Emergency,WARD B,Malaria,26/05/2026,03 June 2026,(176) 936-7632,Edo,FALSE,nil
+MUSC-PT-5183,Grace Yusuf,male,150,08/23/1992,A+,aa,103.9,Dental,ICU,Malaria ,2026/05/02,2026-05-08,+234969078447,Rivers,yes,380166.65 naira
+PT5043,Funmilayo Yusuf,F,150,11-Oct-2018,A+,SS,15.6,General Outpatient,Ward A,Peptic Ulcer,07/04/2025,12-Jul-2025,,Kano,no,n/a
+PT5143,Adaeze Afolabi,F,-3,01/27/1975,nil,unknown,100.6,General Outpatient,Private Ward,Diabetes Mellitus,03 June 2025,05 June 2025,79359782071,Anambra,N,"₦23,915.62"
+PT5315,Grace Ogundimu,female,0,02/05/1996,NIL,AS,285.1 lbs,Pediatrics,General Ward,   Typhoid Fever,01 February 2025,2025/02/14,01990623445,Kaduna,true,"NGN 382,007"
+PT5343,Ngozi Okonkwo,Female,NULL,1982/03/22,AB-,SS,,Dental,Ward A,Hypertension   ,11 June 2025,2025-06-17,06884443106,Enugu,No,52359.94 naira
+MUSC-PT-5247,Amaka Mohammed,F,-3,14/02/1960,AB-,AS,12.1,Cardiology,ICU,Common Cold,2026-06-21,05 July 2026,06142939685,Imo,0,"401,837.27 "
+PT5402,Grace Adekunle,Female,0,04-Oct-1958,null,AA,210.8 lbs,ENT,WARD B,Hypertension,22/01/2026,00/00/0000,+234373516091,Delta,Y,416320.16 naira
+MUSC-PT-5262,Bola Okeke,F,-,1972-09-25,A+,SS ,33.1,ENT,ward a,Hypertension   ,12/07/2025,20/07/2025,0617 979 6886,Delta,FALSE,"₦391,227.93"
+MUSC-PT-5239,Fatima Nwosu,female,-3,18/10/1978,a+,AC,108.1,ENT,Ward A,Common Cold,02/03/2025,14 March 2025,00062312038,Akwa Ibom,false,"N138,225"
+MUSC-PT-5274,   Aliyu Abubakar,male,40,10 January 2012,B Positive,aa,175.8 lbs,Emergency,General Ward,Pneumonia,2025-10-06,19/10/2025,+234412528669,Delta,FALSE,358267.26
+MUSC-PT-5393,Chidi Yusuf,F,-3,1977/06/07,AB+,AC,38.3 lbs,Cardiology,Ward A,Covid-19,2025-11-25,28 November 2025,234-899-358-891,Anambra,FALSE,"NGN 190,381"
+PT5257,WALE NWOSU,F,0,24/03/1954,O-,AA,20.6,Pediatrics,Private Ward,Pneumonia,10/31/2025,11/01/2025,+234712406596,Imo,true,"N309,848"
+MUSC-PT-5150,Bisi Ogundimu   ,female,25,01/12/1973,?,SS,126.6,Emergency,WARD B,Pneumonia   ,07-Dec-2025,2025-12-20,+234059296222,Anambra,No,183747.32
+MUSC-PT-5173,Femi Ogundimu,Female,150,1952-12-08,a+,SS ,55.4,Dental,,Hypertension,2025/01/07,01/13/2025,02786814473,Edo,N,14742.28
+PT5232,Grace Mohammed,female,90,13 December 2017,B Positive,N/A,91.4,ENT,ward a,Typhoid Fever,2026-01-06,16 January 2026,0013 983 7354,Ogun,yes,330802.18
+MUSC-PT-5050,Grace Ajayi,Female,-,20-Aug-2014,unknown,aa,24.2,General Outpatient,NULL,Malaria ,08/22/2025,02 September 2025,27889579868,Edo,true,"NGN 362,036"
+MUSC-PT-5059,Chinedu Abubakar,Male,150,01/04/1988,unknown,AS,124.5,Cardiology,General Ward,TYPHOID,02/08/2025,15.08.2025,+234080531003,Kaduna,no,"N187,441"
+PT5092,Emeka Chukwu,M,50,2018-11-18,A+,AS,89.3,Surgery,ward a,Diabetes  Mellitus,21.04.2026,04/29/2026,(499) 727-8755,Cross River,Yes,"N102,249"
+PT5139,Ibrahim Ajayi,Female,-3,2001/02/13,B-,SS,56.9,ENT,?,Hypertension,2025-08-21,27/08/2025,0329 212 7799,Enugu,yes,200466.01
+PT5389,Zainab Afolabi,Female,150,17/07/1954,A+,NULL,58.1,Emergency,Private Ward,Typhoid Fever,05/03/2026,03/12/2026,0557 941 5521,Lag,Yes,"N52,513"
+PT5407,  TUNDE MOHAMMED,male,10,03-Feb-2008,A-,As,77.4,Surgery,General Ward,Pneumonia,unknown date,08-Jun-2025,0945 228 8515,Cross River,false,388433.33 naira
+MUSC-PT-5395,Bola Okeke,M,69,01/10/2019,O+,AC,124.2,Cardiology,  ,Common Cold,01/28/2026,2026/01/31,+234721753540,Plateau,1,383062.7
+PT5399,Tunde Nwosu,Male,0,26/06/1996,AB+,SS ,24.8,ENT,Private Ward,TYPHOID,2025/10/13,20-Oct-2025,0503 758 9975,Rivers,N,34890.85
+PT5034,  musa adeyemi,Male,39,08/28/1988,O+,AS,30.6,Pediatrics,General Ward,Malaria,24-Jun-2026,04-Jul-2026,0164 005 2427,Lagos,Y,"N360,992"
+MUSC-PT-5123,Ibrahim Adekunle,F,150,10/26/1982,AB+,NIL,102.6,Cardiology,N/A,Pneumonia,2026/05/27,2026-05-29,27111161528,Anambra,0,349085.48 naira
+MUSC-PT-5002,Chioma Balogun,male,58,09/24/1968,  ,AS,126.6,Pediatrics,General Ward,TYPHOID,2025/02/14,25 February 2025,(001) 338-9083,Plateau,N,"NGN 75,204"
+MUSC-PT-5063,Amara Mohammed,F,40,15 December 1947,B-,SS ,125.1,Maternity,WARD B,  Migraine,07/03/2025,17.07.2025,(905) 865-1850,Enugu,no,"NGN 15,272"
+PT5080,Chidi Yusuf,Female,0,01/21/1975,unknown,AA,110.7,Emergency,General Ward,Typhoid Fever,02 January 2025,01/14/2025,234-618-324-210,Akwa Ibom,no,"NGN 416,867"
+MUSC-PT-5040,EMEKA BELLO,Female,0,13.05.1976,O-,AS,66.5,Pediatrics,Ward A,  Covid-19,28.01.2025,03/02/2025,45868501429,Cross River,FALSE,"₦206,786.90"
+MUSC-PT-5036,Grace Yusuf,M,56,09-Apr-2001,null,AA,62.3,ENT,General Ward,Anaemia   ,11/20/2025,11/22/2025,0262 045 0533,Abuja,no,"₦442,108.74"
+MUSC-PT-5328,Grace Okonkwo,Male,150,21 November 1980,a+,aa,?,Surgery,Ward B,Asthma,23.10.2025,23.10.2025,+234785932133,Delta,no,"NGN 325,931"
+PT5281,Bisi Eze,M,-3,24 July 1946,AB+,SS,217.4 lbs,Emergency,Private Ward,Covid-19,25 October 2025,00/00/0000,51713395962,Rivers,N,"N260,758"
+PT5355,   Amara Adeyemi,F,-3,unknown date,O-,-,136.0 lbs,Cardiology,?,Asthma,2025/08/22,2025/09/02,+234702462996,Ogun,TRUE,"₦425,927.97"
+PT5278,Fatima Lawal,M,0,24.01.1964,n/a,AS,106.9,Surgery,WARD B,Typhoid Fever,2025/01/14,24/01/2025,+234034043842,Lagos,Y,121506.99 naira
+MUSC-PT-5159,  Obinna Abubakar,female,-3,1974-11-05,N/A,aa,unknown,Maternity,ward a,Malaria,03 March 2025,,0036 971 1798,Delta,1,182952.91
+MUSC-PT-5148,kunle lawal,M,0,12.10.2014,a+,AS,147.4 lbs,Pediatrics,Ward A,Malaria,26/07/2025,2025/08/09,(281) 685-0542,Cross River,yes,"NGN 288,205"
+MUSC-PT-5392,Bola Lawal,male,-3,1987-02-28,AB+,aa,62.3,Surgery,null,Diabetes Mellitus,08-Jun-2026,15 June 2026,+234277167014,Cross River,false,"N134,167"

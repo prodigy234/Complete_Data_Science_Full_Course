@@ -1,0 +1,479 @@
+StudentMatric,StudentName,University,Faculty,Department,DegreeType,Level,EntryMode,DateOfBirth,EnrollmentDate,CGPA,StudentEmail,PhoneNumber,State,ScholarshipHolder
+Qka/36828/02,FEMI OGUNDIMU,Ahmadu Bello University (ABU),Science,Dept of Computer Science,Bsc,400,Direct Entry,22/05/1998,28 December 2023,NULL,femi.ogundimu@oauife.edu.ng,13736785082,Enugu,N
+QPj/90425/02,Kunle Yusuf,Lagos State University (LASU),MANAGEMENT SCIENCES,Dept of Computer Science,B.Sc.,600,direct entry,30 May 2000,2019-11-13,NULL,kunle.yusuf@student.unilag.edu.ng,0225 358 4143,Oyo,yes
+ZXP/88941/01,Chidi Balogun,University of Lagos (UNILAG),arts,Dept of Accounting,B.Ed,100,UTME,04 November 2000,25.09.2023,1.72,chidi.balogun@gmail.com,05523149135,Anambra,yes
+gYK/36422/03,chioma abubakar   ,University of Lagos (UNILAG),Engineering,Dept of Law,Bsc,level 300,direct entry,12/16/2000,27-Oct-2021,3.0,chioma.abubakar@gmail.com,(229) 014-7679,Plateau,false
+cdH/12790/04,Emeka Yusuf,Ahmadu Bello University (ABU),LAW,Dept of Electrical Engineering,B.Eng,200,UTME,21 October 1995,04/04/2020,4.9,emeka.yusuf@oauife.edu.ng,0311 656 6701,Rivers,TRUE
+iXA/73107/01,yusuf okonkwo,University of Lagos (UNILAG),medicine,Dept of Computer Science,B.Sc.,400 level,Direct Entry,31.05.2004,12.03.2020,0.83,yusuf.okonkwo@oauife.edu.ng,06093796603,Plateau,no
+iXG/72624/04,Sadiq Ajayi,Lagos State University (LASU),science,Dept of Economics,bsc,300,direct entry,10/05/2000,2023/12/07,1.08,sadiq.ajayi@oauife.edu.ng,+234399049027,KANO,true
+aEh/57682/01,Adaeze Yusuf,Covenant University,Engineering,Dept of Electrical Engineering,B.Sc.,500,Transfer,18/04/2001,19 May 2020,2.03,adaeze.yusuf@student.unilag.edu.ng,234-278-681-447,Cross River,no
+Hda/14000/04,aliyu ajayi,Lagos State University (LASU),Science,Dept of Economics,Bsc,400 level,Transfer,23 June 1998,21 December 2023,2.29,aliyu.ajayi@oauife.edu.ng,0866 524 0415,Imo,true
+RPO/32832/03,Ngozi Abubakar,Obafemi Awolowo University (OAU),education,Dept of Accounting,bsc,400 level,UTME ,17 November 2005,21 March 2019,2.66,null,0008 484 0862,Akwa Ibom,true
+FMC/95766/04,NGOZI OLAWALE,Covenant University,SCIENCE,Dept of Biochemistry,B.A.,100L,utme,07/11/1999,unknown date,3.27,ngozi.olawale@gmail.com,00307053457,Delta,No
+aaY/46449/02,Zainab Yusuf,University of Nigeria Nsukka (UNN),Law,Dept of Electrical Engineering,Bsc,100L,UTME,06-Mar-2004,2021/09/21,3.61,zainab.yusuf@gmail.com,0095 214 5623,FCT,Y
+DIg/67630/04,Ngozi Mohammed,Ahmadu Bello University (ABU),Engineering,Dept of Electrical Engineering,B.A.,400,UTME ,29.09.1996,17-Apr-2022,4.53,ngozi.mohammed@gmail.com,(648) 236-6299,Akwa Ibom,N
+VVb/45601/01,Wale Balogun,Covenant University,SOCIAL SCIENCES,Dept of Computer Science,MBBS,400 level,Direct Entry,12-Aug-1996,2021-09-01,0.85,wale.balogun@student.unilag.edu.ng,N/A,Lagos State,Y
+AgD/58089/04,Ngozi Okeke,Ahmadu Bello University (ABU),Arts,Dept of Physics,MBBS,200L,direct entry,28/08/1997,2020/12/10,2.39,Unknown,234-500-170-127,Kaduna,Yes
+Ffc/47492/01,Zainab Mohammed,Obafemi Awolowo University (OAU),Medical Sciences,Dept of Computer Science,LLB,100,Direct Entry,07.06.1998,2019-03-25,4.49,zainab.mohammed@student.unilag.edu.ng,234-865-719-182,Enugu,1
+NBZ/71735/01,Wale Afolabi,Obafemi Awolowo University (OAU),law,Dept of Economics,MBBS,100L,direct entry,01 November 2005,10.02.2023,3.4,wale.afolabi@student.unilag.edu.ng,63840666580,Anambra,1
+VhT/44431/03,Amaka Mohammed,Ahmadu Bello University (ABU),MEDICINE,Dept of Physics,MBBS,200L,direct entry,02 November 1996,25 September 2023,2.58,amaka.mohammed@student.unilag.edu.ng,+234047743490,Anambra,TRUE
+QiX/11511/04,Amara Afolabi,University of Nigeria Nsukka (UNN),arts,Dept of Physics,B.Eng,500,utme,1995-08-29,01/26/2020,3.45,amara.afolabi@oauife.edu.ng,234-353-465-549,Enugu,Yes
+SNV/76029/03,Adaeze  Okeke,University of Lagos (UNILAG),MANAGEMENT SCIENCES,Dept of Biochemistry,M.Sc.,200L,Direct Entry,2010-10-01,10-Jan-2021,2.45,adaeze.okeke@student.unilag.edu.ng,234-788-957-986,Akwa Ibom,Yes
+FTk/81144/02,Ibrahim Lawal,Covenant University,Medicine,Dept of Computer Science,B.Sc.,500,utme,08 December 1995,00/00/0000,1.35,ibrahim.lawal@gmail.com,40640909743,Plateau,Yes
+OAj/80729/02,Chinedu Suleiman,University of Lagos (UNILAG),ENGINEERING,Dept of Electrical Engineering,Bsc,level 300,UTME ,31 August 2006,2022-09-08,0.97,chinedu.suleiman@gmail.com,0539 264 4220,Akwa Ibom,N
+HID/40112/01,Fatima Bello,University of Nigeria Nsukka (UNN),Medical Sciences,Dept of Accounting,M.Sc.,100,UTME ,01/15/1997,11/18/2023,4.44,fatima.bello@gmail.com,01537147321,Kano,No
+TPK/51302/01,segun yusuf,University of Nigeria Nsukka (UNN),MEDICINE,null,B.A.,300,Post-UTME,17/09/2010,23-Apr-2024,3.3,segun.yusuf@oauife.edu.ng,00013389083,Akwa Ibom,Yes
+FYU/91979/02,Bola Balogun,Obafemi Awolowo University (OAU),Science,Dept of Accounting,B.Sc,300,utme,1999/09/19,12.04.2021,n/a,n/a,234-783-908-470,Rivers,FALSE
+bZM/99765/03,Ibrahim Okeke,Obafemi Awolowo University (OAU),Medicine,Dept of Accounting,MBBS,600,UTME,18 September 2009,13-Jan-2022,0.66,ibrahim.okeke@student.unilag.edu.ng,00632424154,abuja,yes
+RIU/65315/03,Ibrahim Olawale,Lagos State University (LASU),Education,Dept of Accounting,B.Sc.,100L,Post-UTME,N/A,30/06/2024,3.1,ibrahim.olawale@student.unilag.edu.ng,0742 967 1756,Kaduna,Yes
+BBV/13735/04,Chinedu Lawal   ,Lagos State University (LASU),law,Dept of Accounting,M.Sc.,200,UTME,12/12/2000,07/11/2022,3.3,chinedu.lawal@oauife.edu.ng,(877) 190-6594,Delta,Y
+UhZ/77410/03,Halima Okonkwo,University of Nigeria Nsukka (UNN),LAW,Dept of Computer Science,LLB,level 300,utme,23.11.1997,09-Jul-2024,4.28,halima.okonkwo@oauife.edu.ng,06213721386,Akwa Ibom,0
+aXO/44402/04,Ngozi  Balogun,Covenant University,Education,Dept of Accounting,MBBS,200L,UTME ,09/12/2007,06/25/2019,1.24,ngozi.balogun@gmail.com,79359782071,Rivers State,0
+RUC/28446/02,IBRAHIM NWOSU   ,University of Lagos (UNILAG),Arts,Dept of Computer Science,Ph.D,500,Transfer,28.07.2005,01/14/2023,0.57,ibrahim.nwosu@gmail.com,49947174648,Rivers,Y
+hAZ/94351/02,Amara Abubakar,Obafemi Awolowo University (OAU),Education,null,B.Sc.,600,direct entry,05-Jun-2009,2019-02-04,2.89,  ,234-795-687-833,Imo,TRUE
+FMe/22879/04,Zainab Okafor,Lagos State University (LASU),SCIENCE,Dept of Accounting,Bsc,400 level,UTME,2009-04-15,2020/07/07,3.14,zainab.okafor@gmail.com,234-877-470-168,rivers,FALSE
+iRM/95865/01,Bola Afolabi,Lagos State University (LASU),ARTS,Dept of Accounting,bsc,100,Post-UTME,18.01.2002,14/05/2019,nil,bola.afolabi@gmail.com,+234343320037,Delta,Yes
+WjK/64778/02,Adaeze Olawale,Lagos State University (LASU),Engr,Dept of Physics,B.Sc.,200L,utme,02-May-2007,20-Apr-2021,3.69,adaeze.olawale@student.unilag.edu.ng,(078) 593-2133,Imo,N
+fXR/61273/04,Halima Suleiman,University of Lagos (UNILAG),Law,Dept of Law,MBBS,300,UTME,29/06/2001,01/12/2021,3.5,halima.suleiman@student.unilag.edu.ng,(287) 101-2269,Delta,Yes
+DGD/82159/02,  Funmilayo Bello   ,University of Lagos (UNILAG),MEDICINE,Dept of Accounting,M.Sc.,400,UTME ,08.09.2004,15/03/2023,2.49,funmilayo.bello@oauife.edu.ng,(965) 207-4466,Imo,No
+Pff/45900/04,BLESSING ABUBAKAR   ,University of Lagos (UNILAG),ENGINEERING,Dept of Accounting,B.Eng,400,utme,2009-12-07,2020-10-10,4.36,blessing.abubakar@student.unilag.edu.ng,06912517785,Ogun,0
+cdH/12790/04,Emeka Yusuf,Ahmadu Bello University (ABU),LAW,Dept of Electrical Engineering,B.Eng,200,UTME,21 October 1995,04/04/2020,4.9,emeka.yusuf@oauife.edu.ng,0311 656 6701,Rivers,TRUE
+LiW/55365/02,Grace Ajayi,Covenant University,Arts,Dept of Biochemistry,B.Sc.,600,utme,20/10/2008,11-Jun-2022,3.27,,0903 404 3842,Imo,TRUE
+gCT/94749/04,Funmilayo Nwosu,University of Nigeria Nsukka (UNN),arts,Dept of Physics,B.Ed,400,Post-UTME,13-Dec-1995,2020/08/06,1.65,funmilayo.nwosu@oauife.edu.ng,234-099-770-088,Fct Abuja,No
+MKi/61842/02,BISI SULEIMAN,Obafemi Awolowo University (OAU),Arts,,bsc,200,UTME ,21-Sep-1999,unknown date,2.13,bisi.suleiman@student.unilag.edu.ng,05869232260,Oyo,1
+Dha/94124/04,Funmilayo Balogun,Lagos State University (LASU),management sciences,NULL,B.Ed,300,UTME,17.01.2006,06/12/2019,  ,  ,+234296120183,Delta,Yes
+eIZ/32531/01,Halima Chukwu,Ahmadu Bello University (ABU),Law,Dept of Law,Bsc,400 level,direct entry,2002-03-11,04.08.2020,3.65,halima.chukwu@oauife.edu.ng,(027) 261-4933,Enugu,Y
+MPF/92689/02,Bola Eze,Obafemi Awolowo University (OAU),Education,Dept of Law,Ph.D,100,utme,2007/03/18,20/01/2020,0.72,bola.eze@gmail.com,234-694-958-887,Enugu,No
+eCU/50607/04,  Bola Nwosu   ,University of Lagos (UNILAG),Arts,Dept of Biochemistry,bsc,300,utme,31 May 2000,13 June 2022,3.22,bola.nwosu@student.unilag.edu.ng,(329) 212-7799,Delta,Y
+KkT/72296/04,Ngozi Nnamdi,Obafemi Awolowo University (OAU),MEDICINE,Dept of Accounting,M.Sc.,300,UTME ,13-Jul-2001,09/25/2022,NULL,ngozi.nnamdi@gmail.com,234-545-494-808,Kaduna,false
+MQk/94205/03,Adaeze Olawale,University of Nigeria Nsukka (UNN),Medical Sciences,Dept of Accounting,B.Sc,level 300,direct entry,16-Aug-2003,unknown date,3.64,adaeze.olawale@gmail.com,0990 881 1729,Kano,TRUE
+NXc/43558/02,Musa Bello   ,Lagos State University (LASU),Law,--,B.Ed,400,UTME ,2005/07/03,2019-06-09,4.52,musa.bello@gmail.com,+234792499125,Kaduna,N
+gef/31381/02,Kemi Suleiman,Covenant University,MEDICINE,Dept of Accounting,M.Sc.,400,direct entry,12/08/2005,16 September 2020,0.53,kemi.suleiman@gmail.com,(413) 435-2408,Kano,Y
+jRR/12956/04,Ifeoma Lawal,University of Lagos (UNILAG),Engineering,Dept of Law,B.Ed,100L,Direct Entry,18 March 2005,2021/04/19,nil,ifeoma.lawal@oauife.edu.ng,+234445107622,Cross River,yes
+FTZ/21993/01,Funmilayo Lawal,Lagos State University (LASU),Arts,Dept of Law,B.Sc,500,direct entry,1999/03/28,06 September 2020,2.21,funmilayo.lawal@gmail.com,66687002176,Imo,0
+gKX/47737/02,Ifeoma Ogundimu,University of Lagos (UNILAG),MEDICINE,Dept of Biochemistry,M.Sc.,level 300,direct entry,1997/11/28,27.09.2018,NULL,ifeoma.ogundimu@gmail.com,07868633752,Edo,yes
+PHd/17447/02,Chioma Mohammed,University of Nigeria Nsukka (UNN),Science,Dept of Economics,B.Eng,500,Transfer,29.12.1997,2024/08/12,4.28,chioma.mohammed@gmail.com,93056164840,Akwa Ibom,0
+iHi/13109/04,Tobi Afolabi,Covenant University,Education,Dept of Computer Science,MBBS,100,Transfer,09 May 2004,16-Jun-2019,4.81,tobi.afolabi@student.unilag.edu.ng,(877) 694-5314,Cross River,No
+kaL/34791/03,Yusuf Afolabi,Obafemi Awolowo University (OAU),Faculty of Engineering,Dept of Biochemistry,B.Sc,level 300,Direct Entry,18.08.1996,17-Feb-2023,4.85,yusuf.afolabi@oauife.edu.ng,0024 819 3466,Delta,FALSE
+Rhj/98754/03,Bola Mohammed,Obafemi Awolowo University (OAU),MANAGEMENT SCIENCES,Dept of Physics,bsc,400 level,Direct Entry,10-Sep-2010,28.03.2021,4.16,bola.mohammed@oauife.edu.ng,59255562588,Cross River,Yes
+IWI/38559/04,Fatima Olawale,University of Nigeria Nsukka (UNN),Law,  ,B.Sc.,500,UTME ,03 September 2005,01 March 2023,2.38,-,+234143744701,Oyo,true
+TaY/81786/02,Ngozi Mohammed,Obafemi Awolowo University (OAU),law,Dept of Computer Science,Bsc,100L,direct entry,1999/09/13,09/18/2021,1.88,ngozi.mohammed@gmail.com,0000000000,Edo,false
+JYY/23141/01,bola suleiman   ,University of Nigeria Nsukka (UNN),MEDICINE,Dept of Economics,B.A.,200,UTME ,08/04/2010,26-Nov-2020,4.35,bola.suleiman@gmail.com,234-754-781-291,Kano,0
+VUh/30394/03,Kunle Olawale,Obafemi Awolowo University (OAU),Social Sciences,Dept of Economics,MBBS,200L,Transfer,11 December 2007,2021/07/24,3.01,kunle.olawale@student.unilag.edu.ng,234-369-711-798,Abuja,TRUE
+GkG/25397/02,Obinna Suleiman,Covenant University,Management Sciences,Dept of Computer Science,B.Ed,200L,UTME ,11/12/1995,16.12.2022,3.21,obinna.suleiman@gmail.com,09821465840,Kano,Yes
+aGb/13603/01,Chinedu Lawal,University of Nigeria Nsukka (UNN),Engineering,Dept of Physics,Ph.D,400 level,direct entry,01-Feb-2000,19-Apr-2019,2.61,chinedu.lawal@gmail.com,+234985625753,Lagos State,TRUE
+RjW/40980/02,Kemi Yusuf,University of Nigeria Nsukka (UNN),management sciences,Dept of Economics,B.Sc.,300,UTME,13 November 2008,2021-02-19,3.22,--,0281 685 0542,Ogun,Y
+MUf/44582/04,Sadiq Bello,Obafemi Awolowo University (OAU),Law,Dept of Accounting,B.Ed,200,UTME ,05.10.1997,,2.99,-,+234184638655,Kano,false
+KDM/78359/03,Musa Eze,Ahmadu Bello University (ABU),Arts,-,Ph.D,100L,Transfer,2005-10-17,2019-12-08,3.2,musa.eze@student.unilag.edu.ng,234-187-072-867,Ogun,N
+cRY/20222/01,Chioma Lawal,Covenant University,Law,Dept of Law,bsc,200L,utme,03.08.1995,04-Oct-2020,4.7,chioma.lawal@gmail.com,+234841459332,Kaduna,TRUE
+EeT/59560/01,Ngozi Balogun,Obafemi Awolowo University (OAU),Science,Dept of Biochemistry,bsc,400,UTME,28/04/2004,03.09.2019,3.57,ngozi.balogun@gmail.com,0637 454 5892,Enugu,Y
+QSU/11294/02,Fatima Bello,Lagos State University (LASU),Arts,Dept of Physics,B.Sc.,600,Direct Entry,08/02/2008,12/13/2021,2.9,fatima.bello@student.unilag.edu.ng,(545) 226-7528,Imo,Yes
+YLE/90862/03,Musa Okafor,University of Nigeria Nsukka (UNN),arts,null,B.Sc,level 300,Direct Entry,2005-01-31,12 May 2023,0.62,musa.okafor@oauife.edu.ng,02025909479,Plateau,Y
+dJh/76537/03,Grace Yusuf,Obafemi Awolowo University (OAU),medicine,Dept of Accounting,Bsc,500,UTME,24 October 2009,not set,4.33,grace.yusuf@gmail.com,03987801573,Rivers,1
+ETE/26144/03,tobi abubakar,University of Lagos (UNILAG),management sciences,Dept of Biochemistry,MBBS,400,Direct Entry,01/02/1998,18 July 2022,4.49,unknown,234-499-309-728,Enugu,No
+BUg/22528/04,Zainab Okeke,Lagos State University (LASU),Law,unknown,B.Ed,400 level,Post-UTME,16-Dec-2005,06/17/2021,3.03,zainab.okeke@oauife.edu.ng,00988516560,Delta,N
+TJC/39800/01,Bola Chukwu,University of Nigeria Nsukka (UNN),ENGINEERING,Dept of Accounting,B.Eng,level 300,utme,06 July 2005,11/11/2018,1.36,bola.chukwu@student.unilag.edu.ng,234-725-887-449,Imo,true
+WNZ/65199/04,Aliyu Yusuf,University of Nigeria Nsukka (UNN),Faculty of Engineering,Dept of Law,B.Ed,600,Transfer,09-Jan-2004,18 March 2021,1.06,aliyu.yusuf@student.unilag.edu.ng,20047113826,Edo,FALSE
+hGk/10529/03,Amaka Bello,Covenant University,Arts,Dept of Economics,Bsc,600,utme,2006/03/31,2019-12-03,2.95,amaka.bello@oauife.edu.ng,+234297516136,Ogun,no
+DVC/47971/01,Yusuf Adekunle,Ahmadu Bello University (ABU),Social Sciences,Dept of Economics,Ph.D,400,direct entry,06/11/2005,2020-03-03,3.25,yusuf.adekunle@gmail.com,+234787298259,Cross River,No
+ZHC/17973/04,Grace Okonkwo,Obafemi Awolowo University (OAU),social sciences,Dept of Computer Science,MBBS,100,UTME,07 June 2001,11/13/2018,3.5,NIL,+234824172482,Imo,Y
+jIM/20372/02,Chinedu Eze,Ahmadu Bello University (ABU),Education,Dept of Law,B.Sc.,500,utme,2005/10/16,2023-02-09,3.7,chinedu.eze@gmail.com,62244472126,Abuja,Yes
+ViT/63686/03,  adaeze eze,University of Lagos (UNILAG),Education,Dept of Economics,Ph.D,100,Transfer,26-Mar-2009,04/17/2022,4.51,adaeze.eze@gmail.com,234-861-622-999,Edo,yes
+aFX/70940/02,Ibrahim Adekunle,University of Nigeria Nsukka (UNN),LAW,Dept of Biochemistry,B.Ed,600,UTME,25-Aug-1995,2018/12/13,3.43,ibrahim.adekunle@oauife.edu.ng,05851493689,FCT,TRUE
+KEe/56351/01,Tobi Okonkwo,University of Lagos (UNILAG),EDUCATION,Dept of Physics,B.Sc,100L,Direct Entry,2007-06-14,2020/10/24,2.93,tobi.okonkwo@oauife.edu.ng,+234569245937,Kaduna,false
+TUT/37982/01,Adaeze Adekunle,University of Nigeria Nsukka (UNN),law,Dept of Economics,B.Ed,400,UTME,2004/04/26,06/06/2020,4.17,adaeze.adekunle@gmail.com,(753) 269-7311,Akwa Ibom,no
+GTV/69325/04,Amara Yusuf,Lagos State University (LASU),Law,Dept of Electrical Engineering,B.Eng,600,utme,unknown date,2020-07-17,3.99,amara.yusuf@gmail.com,(637) 940-2654,Delta,No
+AYY/94003/03,Kunle Balogun,Covenant University,Education,Dept of Computer Science,Bsc,level 300,UTME ,16.04.2004,02/12/2019,2.62,kunle.balogun@gmail.com,(515) 832-8182,Imo,false
+ahi/12288/02,Ibrahim Suleiman,Ahmadu Bello University (ABU),ENGINEERING,N/A,Bsc,400,UTME,01 July 1997,00/00/0000,3.58,ibrahim.suleiman@student.unilag.edu.ng,08175496513,Ogun,TRUE
+Yaa/63778/02,Chinedu Suleiman,Lagos State University (LASU),Social Sciences,Dept of Economics,B.Sc,level 300,UTME,2010/04/30,06/08/2020,4.58,chinedu.suleiman@student.unilag.edu.ng,90586518506,Abuja,Yes
+FXF/79419/01,Fatima Okafor,Lagos State University (LASU),Management Sciences,Dept of Economics,M.Sc.,100L,direct entry,2009-09-27,23-Jan-2021,4.85,fatima.okafor@gmail.com,+234902601279,KANO,Y
+BPa/27106/03,Tobi Yusuf,Lagos State University (LASU),Engineering,Dept of Law,B.Eng,500,UTME,22/02/2004,2022-02-11,1.84,tobi.yusuf@gmail.com,234-499-121-655,Cross River,yes
+WMa/50838/02,Obinna Adekunle,Obafemi Awolowo University (OAU),Social Sciences,Dept of Electrical Engineering,B.Sc.,100,Transfer,06 February 2000,29.11.2023,4.05,obinna.adekunle@student.unilag.edu.ng,(099) 353-8758,Abuja,No
+hGd/20831/03,Amaka Lawal,University of Lagos (UNILAG),science,Dept of Accounting,B.Sc.,300,Transfer,10 January 1999,25-May-2023,  ,amaka.lawal@gmail.com,234-668-893-734,Enugu,yes
+QbV/98473/03,Adaeze Eze,University of Lagos (UNILAG),Education,Dept of Biochemistry,B.Eng,600,utme,unknown date,25/03/2019,3.59,adaeze.eze@oauife.edu.ng,0699 016 2720,KANO,No
+iKG/21668/04,NGOZI OKAFOR   ,Covenant University,Law,Unknown,B.A.,400,Transfer,02.05.2005,12 June 2024,4.19,ngozi.okafor@gmail.com,01823398454,Abuja,Yes
+SeD/79707/02,Tobi Okafor,Obafemi Awolowo University (OAU),Education,Dept of Computer Science,B.A.,500,utme,24.02.2003,2021-09-21,3.7,tobi.okafor@gmail.com,0283 411 0809,Cross River,1
+AbW/96540/01,CHINEDU OGUNDIMU,Lagos State University (LASU),science,Dept of Economics,B.Eng,300,Post-UTME,11 March 1996,2020-01-19,2.7,chinedu.ogundimu@oauife.edu.ng,10341316475,Edo,1
+RjR/21974/02,Zainab Nwosu,University of Lagos (UNILAG),Law,Dept of Economics,B.Sc.,400,Direct Entry,24.12.1998,13-Oct-2023,0.68,zainab.nwosu@student.unilag.edu.ng,+234855744431,Delta,No
+IOX/83765/04,Ngozi Suleiman,Ahmadu Bello University (ABU),Arts,Dept of Electrical Engineering,MBBS,100,direct entry,23 May 2002,03/11/2024,4.13,ngozi.suleiman@student.unilag.edu.ng,0891 411 7393,Cross River,false
+khi/91479/04,Emeka Balogun,University of Nigeria Nsukka (UNN),Faculty of Engineering,Dept of Electrical Engineering,Bsc,400,Post-UTME,2005/04/29,12/25/2018,4.82,emeka.balogun@student.unilag.edu.ng,234-481-491-778,KANO,true
+iki/92639/01,Obinna Lawal,Covenant University,Arts,Dept of Computer Science,B.Ed,level 300,Direct Entry,14/09/2010,02-Feb-2020,1.66,obinna.lawal@student.unilag.edu.ng,(996) 504-7735,Rivers,true
+jPS/25601/03,Bola Mohammed,Ahmadu Bello University (ABU),Management Sciences,Dept of Biochemistry,B.A.,100,UTME,1997-11-10,22-Aug-2022,2.31,bola.mohammed@gmail.com,0543 534 6247,Plateau,Y
+Ckb/83261/04,Chinedu Adekunle,Covenant University,law,Dept of Physics,B.Eng,600,UTME,16-Jan-1995,09 September 2023,4.98,chinedu.adekunle@gmail.com,(838) 851-6060,Rivers State,1
+cYK/87658/04,Obinna Abubakar,University of Lagos (UNILAG),Faculty of Medicine,Dept of Electrical Engineering,MBBS,300,UTME ,1996-12-18,2024/03/26,3.81,obinna.abubakar@oauife.edu.ng,(872) 050-6149,Ogun,FALSE
+fRB/98525/04,Chidi Adeyemi,Ahmadu Bello University (ABU),Education,Dept of Biochemistry,B.Ed,100L,Direct Entry,15/03/1996,01-Jan-2022,1.1,chidi.adeyemi@student.unilag.edu.ng,0286 990 4137,Kano,true
+gPe/73721/02,Tunde Bello,Obafemi Awolowo University (OAU),Medical Sciences,Dept of Biochemistry,Bsc,100L,utme,N/A,22 February 2019,1.1,tunde.bello@oauife.edu.ng,16868548709,Enugu,No
+Ucb/43734/01,Halima  Ajayi,University of Nigeria Nsukka (UNN),Engr,Dept of Biochemistry,B.Ed,200L,Post-UTME,1996-11-17,10.05.2023,NIL,halima.ajayi@student.unilag.edu.ng,234-455-611-002,Rivers,0
+BWG/23206/01,AMARA AFOLABI,Ahmadu Bello University (ABU),Science,Dept of Computer Science,M.Sc.,400,direct entry,00/00/0000,not set,4.4,amara.afolabi@gmail.com,+234666760083,Delta,Y
+hVH/66814/04,Ifeoma Olawale,Ahmadu Bello University (ABU),Management Sciences,Dept of Electrical Engineering,B.Sc.,200L,Post-UTME,2001/12/08,2021-10-06,1.36,ifeoma.olawale@gmail.com,07816184959,Cross River,yes
+USL/75802/02,  Funmilayo Adekunle   ,Ahmadu Bello University (ABU),Social Sciences,Dept of Computer Science,B.Sc.,100,UTME,2003-02-27,05/26/2023,4.08,NULL,02265676618,Cross River,no
+TMe/46331/02,Chinedu Mohammed,University of Lagos (UNILAG),Engineering,Dept of Economics,B.Ed,200,UTME ,11/22/2009,2022/07/28,0.61,chinedu.mohammed@student.unilag.edu.ng,86688263435,Imo,false
+OVC/50437/04,Chioma Ogundimu,Lagos State University (LASU),management sciences,Dept of Economics,Bsc,200,UTME ,01/07/2001,12/04/2019,2.68,chioma.ogundimu@student.unilag.edu.ng,26204505331,Kaduna,no
+Rfc/39312/02,Halima Adekunle,Covenant University,SOCIAL SCIENCES,Dept of Electrical Engineering,Ph.D,level 300,direct entry,09/18/1998,,1.03,halima.adekunle@gmail.com,0251 354 2784,Akwa Ibom,Yes
+iZc/13898/04,  NGOZI EZE   ,Lagos State University (LASU),EDUCATION,Dept of Accounting,B.Sc.,200L,Direct Entry,14 September 2010,28.05.2023,3.94,?,+234472122816,Delta,No
+YAX/40420/01,aliyu mohammed,University of Nigeria Nsukka (UNN),MANAGEMENT SCIENCES,Dept of Physics,B.Ed,100,Direct Entry,08 October 2010,2022-05-01,3.92,aliyu.mohammed@student.unilag.edu.ng,0000000000,Kano,no
+LZC/16493/04,Zainab Ajayi,Ahmadu Bello University (ABU),social sciences,Dept of Accounting,B.Eng,400 level,Direct Entry,unknown date,04 December 2019,3.42,zainab.ajayi@oauife.edu.ng,08039282722,Abuja,true
+ecA/42908/01,  CHIDI CHUKWU,Ahmadu Bello University (ABU),Law,Dept of Economics,Bsc,100L,UTME,01/29/2004,2021-01-26,1.78,chidi.chukwu@student.unilag.edu.ng,06530745054,Edo,Y
+EcG/13580/04,Amaka Chukwu,Covenant University,Faculty of Medicine,Dept of Law,Bsc,400,utme,03/03/1998,03-Dec-2023,0.67,amaka.chukwu@student.unilag.edu.ng,0835 642 0873,Oyo,yes
+RDK/88520/01,Aliyu Eze,Covenant University,Social Sciences,Dept of Computer Science,B.Sc,100,utme,03/05/2000,16 January 2024,3.01,aliyu.eze@student.unilag.edu.ng,+234678544587,Akwa Ibom,true
+YZK/15230/02,Chinedu Nwosu,Lagos State University (LASU),Engr,Dept of Biochemistry,B.Eng,100,Post-UTME,10 April 2010,00/00/0000,1.44,chinedu.nwosu@gmail.com,0759 492 9955,Oyo,false
+bYc/37969/02,IFEOMA OKONKWO,University of Nigeria Nsukka (UNN),law,Dept of Physics,MBBS,100,UTME ,05/10/2000,13-Sep-2018,3.52,ifeoma.okonkwo@gmail.com,0000000000,Akwa Ibom,0
+BNH/83565/01,Tobi Chukwu,Obafemi Awolowo University (OAU),Education,Dept of Physics,B.Ed,500,direct entry,15-May-2008,06/26/2023,?,tobi.chukwu@student.unilag.edu.ng,52287280801,Akwa Ibom,0
+UZL/52809/01,Obinna Chukwu,Ahmadu Bello University (ABU),Faculty of Engineering,Dept of Biochemistry,B.Sc.,level 300,UTME,2009/02/07,14/12/2018,2.45,obinna.chukwu@student.unilag.edu.ng,80940244550,kano,no
+Ggg/93392/01,Fatima Afolabi,University of Nigeria Nsukka (UNN),Engineering,Dept of Biochemistry,B.Sc,200,Post-UTME,23-Dec-2000,04/06/2022,3.53,?,0520 643 6110,Oyo State,N
+CEZ/27427/02,  AMARA EZE,Covenant University,LAW,Dept of Computer Science,LLB,400,utme,2000/03/06,12/02/2019,4.99,amara.eze@oauife.edu.ng,(782) 911-4678,Edo,yes
+fOD/88838/03,Chioma Balogun,Ahmadu Bello University (ABU),ARTS,Dept of Computer Science,M.Sc.,500,UTME,09/09/2001,19 June 2024,0.95,chioma.balogun@oauife.edu.ng,01171822782,Ogun,0
+ACY/33286/04,Femi Suleiman,Lagos State University (LASU),science,Dept of Law,LLB,level 300,Transfer,30-Dec-1997,2022-02-03,4.27,femi.suleiman@oauife.edu.ng,07687014626,Ogun,1
+Phk/70085/01,  ngozi mohammed,University of Lagos (UNILAG),Education,Dept of Law,B.A.,600,Post-UTME,30-Sep-2002,09/30/2021,4.87,ngozi.mohammed@oauife.edu.ng,06537556464,Akwa Ibom,1
+YZB/76879/03,Adaeze Nwosu,Covenant University,Law,Dept of Accounting,bsc,200,UTME,24/03/2006,17 March 2020,1.94,adaeze.nwosu@oauife.edu.ng,234-752-545-991,Anambra,Y
+ahI/48164/01,Chinedu Adeyemi,Ahmadu Bello University (ABU),Management Sciences,Dept of Physics,B.A.,level 300,UTME ,2006-09-08,N/A,4.04,chinedu.adeyemi@oauife.edu.ng,05991624731,Anambra,N
+SLR/28405/03,Emeka Yusuf,Obafemi Awolowo University (OAU),Law,Dept of Electrical Engineering,M.Sc.,500,Transfer,2001-12-18,2020-02-26,0.74,emeka.yusuf@oauife.edu.ng,16328708317,Edo,Y
+YMh/48365/03,Bisi Abubakar,Lagos State University (LASU),Education,Dept of Physics,MBBS,500,Post-UTME,21/08/2004,02-May-2019,1.45,bisi.abubakar@gmail.com,+234132370589,Akwa Ibom,true
+aFg/54069/01,Ifeoma Nnamdi,Lagos State University (LASU),Management Sciences,Dept of Physics,MBBS,300,utme,10/24/1999,2020-12-13,4.17,N/A,80396522395,Anambra,Y
+fiF/46058/03,Funmilayo Afolabi,University of Lagos (UNILAG),Arts,Dept of Accounting,Bsc,400 level,Post-UTME,04.09.2008,03-Jun-2021,4.94,funmilayo.afolabi@oauife.edu.ng,0115 869 3806,Imo,1
+fAX/84126/01,Chidi Okonkwo,University of Lagos (UNILAG),arts,Dept of Biochemistry,bsc,600,Transfer,16/10/1997,2024-07-19,2.85,chidi.okonkwo@oauife.edu.ng,25449481260,Plateau,No
+aDG/46726/03,Musa Chukwu,Covenant University,Law,Dept of Biochemistry,Bsc,500,Transfer,26/09/2010,18-Mar-2024,4.83,musa.chukwu@oauife.edu.ng,234-467-737-826,Abuja,false
+Wbe/27947/03,Yusuf Yusuf,Obafemi Awolowo University (OAU),science,Dept of Economics,M.Sc.,200,UTME ,N/A,2020/01/30,1.96,yusuf.yusuf@oauife.edu.ng,0000000000,Ibadan,yes
+VLZ/88111/02,Chinedu Suleiman,Obafemi Awolowo University (OAU),Science,Dept of Computer Science,Ph.D,100,utme,2006-05-24,2022-02-06,0.89,chinedu.suleiman@gmail.com,0426 221 8909,Abuja,yes
+adB/83257/01,Funmilayo Nnamdi,University of Nigeria Nsukka (UNN),Social Sciences,Dept of Computer Science,B.Sc,500,direct entry,18 June 2005,18 June 2023,2.39,funmilayo.nnamdi@gmail.com,0764 835 0305,Rivers,0
+DXT/88549/01,Blessing Balogun,Obafemi Awolowo University (OAU),science,Dept of Electrical Engineering,B.Eng,200L,direct entry,2006/11/13,2019-04-02,4.33,blessing.balogun@oauife.edu.ng,52621815997,Cross River,FALSE
+RUX/92611/01,Yusuf Okonkwo,Covenant University,Management Sciences,Dept of Accounting,LLB,level 300,UTME ,11/19/1999,12-Aug-2022,2.38,yusuf.okonkwo@oauife.edu.ng,+234663193149,Enugu,yes
+HSP/36965/03,Femi Suleiman,Ahmadu Bello University (ABU),social sciences,Dept of Biochemistry,LLB,300,Transfer,2008-01-18,09-Nov-2023,2.84,NULL,234-186-449-251,Imo,0
+IOX/83765/04,Ngozi Suleiman,Ahmadu Bello University (ABU),Arts,Dept of Electrical Engineering,MBBS,100,direct entry,23 May 2002,03/11/2024,4.13,ngozi.suleiman@student.unilag.edu.ng,0891 411 7393,Cross River,false
+iQZ/72714/02,  Zainab Balogun,Obafemi Awolowo University (OAU),Education,Dept of Accounting,M.Sc.,300,Post-UTME,2010/11/13,17 July 2023,3.93,zainab.balogun@student.unilag.edu.ng,68486661889,Ogun,Y
+WiJ/66904/03,Tunde Mohammed,Obafemi Awolowo University (OAU),management sciences,Dept of Computer Science,MBBS,200,Post-UTME,02/10/2004,26.04.2020,3.16,tunde.mohammed@gmail.com,04733848421,Oyo,yes
+eNk/97688/03,YUSUF MOHAMMED,University of Nigeria Nsukka (UNN),LAW,n/a,B.A.,200L,direct entry,unknown date,07.05.2022,2.39,yusuf.mohammed@student.unilag.edu.ng,0445 187 0534,Kaduna,no
+BcQ/86401/02,Amara Okeke,Lagos State University (LASU),Arts,Dept of Accounting,Bsc,100L,direct entry,16.11.2007,14.11.2021,1.32,amara.okeke@gmail.com,54973348434,Plateau,true
+MIO/66084/01,Obinna Nwosu,Ahmadu Bello University (ABU),social sciences,-,B.Sc,500,UTME ,21.03.2004,02/25/2023,1.19,obinna.nwosu@student.unilag.edu.ng,(386) 120-7501,Enugu,Y
+cbe/96067/04,ALIYU  OKONKWO   ,University of Lagos (UNILAG),engineering,Dept of Economics,B.A.,200,Transfer,23.01.1999,2021-12-18,4.83,aliyu.okonkwo@gmail.com,06046618398,Cross River,TRUE
+RKe/38909/04,Segun Yusuf,University of Lagos (UNILAG),Law,Dept of Physics,B.Ed,100L,Direct Entry,11 September 2005,10/03/2021,4.84,segun.yusuf@gmail.com,08922680182,Oyo,TRUE
+UZG/11668/01,Tunde Okonkwo,University of Nigeria Nsukka (UNN),social sciences,Dept of Economics,B.A.,200L,Transfer,23-Sep-2009,25 June 2019,1.37,tunde.okonkwo@student.unilag.edu.ng,234-688-143-536,Akwa Ibom,FALSE
+JTK/96196/03,Ifeoma Okafor,Obafemi Awolowo University (OAU),ARTS,Dept of Law,B.Sc.,300,UTME ,05 November 2009,23.12.2021,4.69,?,0858 877 0435,LAGOS,N
+LSM/13049/01,Sadiq Adeyemi,Ahmadu Bello University (ABU),engineering,Dept of Law,B.Eng,level 300,UTME ,16 August 2002,21/10/2022,2.95,sadiq.adeyemi@gmail.com,52398680002,Anambra,TRUE
+TKh/18752/02,Blessing Mohammed,Lagos State University (LASU),Faculty of Medicine,Dept of Computer Science,M.Sc.,500,UTME ,04-Mar-1999,10/15/2021,NULL,blessing.mohammed@gmail.com,08347359774,Oyo,Y
+kEN/49389/01,Chidi Balogun,Lagos State University (LASU),Medicine,Dept of Law,B.Sc,400 level,UTME ,2001-05-17,17-Jan-2019,3.79,chidi.balogun@gmail.com,+234158144914,Oyo,no
+LNB/13853/01,Blessing Nnamdi,University of Lagos (UNILAG),Management Sciences,Dept of Economics,LLB,200L,Post-UTME,1995-03-10,19.07.2024,0.55,blessing.nnamdi@student.unilag.edu.ng,04705516940,Imo,FALSE
+eEB/68599/03,Musa Mohammed,Obafemi Awolowo University (OAU),MEDICINE,Dept of Electrical Engineering,LLB,200L,direct entry,2003-04-16,2020-02-07,3.04,musa.mohammed@student.unilag.edu.ng,(271) 111-6152,Imo,N
+kAb/24617/04,Blessing Balogun,Obafemi Awolowo University (OAU),EDUCATION,Dept of Biochemistry,B.Sc,200L,UTME,02-Jun-2008,28-Jan-2021,2.69,blessing.balogun@oauife.edu.ng,51823374989,oyo,no
+aCX/92638/01,Bola Adekunle,Ahmadu Bello University (ABU),Science,Dept of Economics,MBBS,100L,utme,1997/12/01,,2.84,bola.adekunle@student.unilag.edu.ng,06230913075,Kano,Yes
+dEb/87810/03,Emeka Ogundimu,University of Lagos (UNILAG),Science,Dept of Law,Bsc,200,UTME ,1999-06-24,2020-03-11,0.7,emeka.ogundimu@student.unilag.edu.ng,(419) 182-5537,Anambra,0
+FFA/52710/01,Kunle Nwosu,Ahmadu Bello University (ABU),Law,Dept of Law,M.Sc.,200L,UTME ,21 March 2000,14.05.2022,1.89,kunle.nwosu@oauife.edu.ng,234-461-849-926,Plateau,No
+HPk/57798/02,  OBINNA OKAFOR,Obafemi Awolowo University (OAU),Management Sciences,unknown,B.Sc.,400,Direct Entry,27.06.1996,31.08.2022,2.47,obinna.okafor@student.unilag.edu.ng,50648909010,Plateau,No
+UQD/30483/03,Emeka Suleiman,Lagos State University (LASU),Science,Dept of Physics,LLB,200,Post-UTME,2003/12/02,01/12/2019,3.9,emeka.suleiman@student.unilag.edu.ng,(027) 716-7014,Akwa Ibom,No
+ZAX/17863/01,Aliyu Eze   ,Obafemi Awolowo University (OAU),science,Dept of Electrical Engineering,B.Ed,400,Direct Entry,26-Sep-2001,26/04/2020,1.1,aliyu.eze@gmail.com,04119986798,Rivers,TRUE
+SBj/99527/04,Grace Yusuf,Obafemi Awolowo University (OAU),ARTS,Dept of Electrical Engineering,B.Sc,600,Direct Entry,1998-12-13,30/10/2021,0.95,grace.yusuf@gmail.com,234-139-837-354,Plateau,1
+ENf/37097/01,wale abubakar   ,Obafemi Awolowo University (OAU),Arts,Dept of Accounting,LLB,300,utme,1999-12-21,30-Sep-2020,n/a,wale.abubakar@gmail.com,0953 394 2104,Edo,FALSE
+Aaf/57629/04,Segun Okafor,University of Lagos (UNILAG),Education,,Bsc,200,UTME ,01.04.2007,03/05/2024,2.46,segun.okafor@student.unilag.edu.ng,234-756-289-002,Imo,N
+kKG/17017/03,MUSA  ADEYEMI,University of Nigeria Nsukka (UNN),Science,nil,B.Sc.,200,Transfer,21-Oct-2001,01.09.2018,2.5,musa.adeyemi@student.unilag.edu.ng,84036900343,Cross River,Yes
+RVM/57250/02,Kemi Lawal,Lagos State University (LASU),Social Sciences,Dept of Law,B.Eng,100L,utme,29 February 2008,03-Mar-2023,3.7,kemi.lawal@student.unilag.edu.ng,+234271361115,FCT,no
+MEJ/23497/02,  chidi yusuf,University of Nigeria Nsukka (UNN),Social Sciences,Dept of Electrical Engineering,B.Sc,400 level,Transfer,2000/09/17,2023/03/10,3.03,chidi.yusuf@student.unilag.edu.ng,+234159514846,Abuja,FALSE
+Wdh/85669/02,  emeka mohammed,Lagos State University (LASU),Science,Dept of Electrical Engineering,B.A.,200L,Transfer,2004-09-05,26/02/2020,4.47,emeka.mohammed@oauife.edu.ng,57387571775,Port Harcourt,FALSE
+QYG/28594/01,Aliyu Adekunle,University of Nigeria Nsukka (UNN),education,Dept of Computer Science,Ph.D,100,UTME,02/13/2009,15 May 2024,4.63,aliyu.adekunle@oauife.edu.ng,+234019948837,Rivers,No
+GKO/29929/04,Halima Adeyemi,Ahmadu Bello University (ABU),Social Sciences,Dept of Computer Science,MBBS,500,utme,28-Sep-1998,14-Aug-2024,2.19,halima.adeyemi@gmail.com,invalid,Plateau,TRUE
+PHO/25097/01,Chioma Okonkwo,Lagos State University (LASU),Medicine,Dept of Electrical Engineering,bsc,200,Transfer,13 June 1997,12-Jul-2023,3.57,chioma.okonkwo@student.unilag.edu.ng,10433218196,oyo,N
+UEU/33794/01,Obinna Suleiman,Ahmadu Bello University (ABU),EDUCATION,Dept of Law,Bsc,400,Transfer,12-Jun-2007,12.11.2021,2.46,obinna.suleiman@student.unilag.edu.ng,234-884-443-106,Enugu,true
+ATi/73321/04,Emeka Adekunle,Obafemi Awolowo University (OAU),Social Sciences,Dept of Physics,B.Sc,level 300,utme,2008-04-01,23/11/2019,1.31,emeka.adekunle@oauife.edu.ng,0113 055 4885,Oyo State,true
+YcP/99506/04,Bola Okafor,Ahmadu Bello University (ABU),Education,Dept of Accounting,M.Sc.,200L,UTME ,05/02/2001,2022/12/30,3.59,bola.okafor@oauife.edu.ng,234-985-931-746,Plateau,Yes
+ZSQ/15232/02,Zainab Ajayi,Obafemi Awolowo University (OAU),education,Dept of Electrical Engineering,M.Sc.,100L,direct entry,20-Sep-1999,28.02.2020,3.04,zainab.ajayi@student.unilag.edu.ng,+234908272318,Ogun,false
+cfb/77367/01,Blessing Chukwu,Lagos State University (LASU),social sciences,Dept of Accounting,bsc,200,Direct Entry,06-Aug-2006,2019/03/28,3.14,blessing.chukwu@gmail.com,+234472779010,Abuja,yes
+ZOb/42029/04,Bola Olawale,Obafemi Awolowo University (OAU),management sciences,Dept of Accounting,B.Sc,500,Post-UTME,04/06/2008,00/00/0000,  ,bola.olawale@oauife.edu.ng,invalid,Abuja,N
+ZbP/47547/02,Tunde Yusuf,Obafemi Awolowo University (OAU),Law,Dept of Electrical Engineering,LLB,400 level,utme,21/11/2003,07.03.2024,3.15,tunde.yusuf@student.unilag.edu.ng,06218518888,Imo,false
+GbR/47324/01,sadiq okeke   ,University of Lagos (UNILAG),SOCIAL SCIENCES,Dept of Economics,B.Ed,level 300,Direct Entry,05/08/2001,N/A,2.8,sadiq.okeke@oauife.edu.ng,+234478872874,Abuja,yes
+AVO/75648/03,Yusuf Abubakar,Ahmadu Bello University (ABU),Management Sciences,Dept of Law,B.Eng,300,UTME,1996-06-01,26.08.2021,3.44,yusuf.abubakar@student.unilag.edu.ng,N/A,Delta,TRUE
+bZU/63311/02,AMAKA MOHAMMED   ,Covenant University,Law,Dept of Accounting,M.Sc.,200L,UTME ,2005-02-27,09 November 2023,1.09,n/a,89994043898,Rivers,No
+hTf/49344/02,Bola Okonkwo,Covenant University,Education,Dept of Economics,B.Ed,level 300,Post-UTME,31.01.1998,01 July 2020,4.59,bola.okonkwo@student.unilag.edu.ng,(103) 886-2912,Edo,0
+JEM/73195/04,ifeoma ogundimu,University of Nigeria Nsukka (UNN),MEDICINE,Dept of Computer Science,Ph.D,600,direct entry,27.07.2004,2022/05/20,0.99,ifeoma.ogundimu@gmail.com,+234955271774,Rivers,0
+QWW/56186/02,Grace Olawale,Obafemi Awolowo University (OAU),arts,Dept of Economics,bsc,600,Post-UTME,1995-08-21,04/16/2023,3.78,grace.olawale@student.unilag.edu.ng,49972787558,Cross River,N
+fGe/67301/04,  BLESSING SULEIMAN,University of Lagos (UNILAG),Medicine,N/A,bsc,level 300,Transfer,22/02/1996,2021/08/24,4.92,blessing.suleiman@student.unilag.edu.ng,02546291486,ABUJA,false
+CDZ/84878/02,Amara Eze,Obafemi Awolowo University (OAU),Science,Dept of Electrical Engineering,bsc,100L,Transfer,03/12/1996,18/02/2020,2.47,amara.eze@gmail.com,+234290349446,Rivers,Yes
+ObO/80694/02,Halima Afolabi,Lagos State University (LASU),engineering,Dept of Economics,LLB,100L,UTME,28 May 2010,2024/03/05,nil,halima.afolabi@gmail.com,0152 742 0549,Enugu,true
+dSH/25720/04,Segun Abubakar,University of Nigeria Nsukka (UNN),Medicine,n/a,B.Eng,200,Transfer,2006/09/07,2023/08/28,n/a,segun.abubakar@gmail.com,80841241182,Anambra,true
+LCb/74291/02,Funmilayo Nnamdi   ,University of Nigeria Nsukka (UNN),arts,Dept of Computer Science,Bsc,level 300,UTME,2007-04-24,2022/05/23,1.11,nil,,Cross River,true
+ObQ/75697/01,Chioma Olawale,University of Nigeria Nsukka (UNN),Engineering,Dept of Physics,B.Eng,100,Direct Entry,11.12.1995,14.02.2022,2.08,chioma.olawale@gmail.com,11288013361,Ogun,0
+jRU/30502/02,Wale Okonkwo,Lagos State University (LASU),ENGINEERING,Dept of Physics,B.Eng,200L,UTME,01/26/1997,09/04/2023,4.62,Unknown,234-965-652-341,Imo,false
+eYD/31098/01,Tobi Mohammed,Ahmadu Bello University (ABU),Engr,Dept of Computer Science,bsc,level 300,Transfer,01/14/2006,13-Sep-2019,3.76,tobi.mohammed@student.unilag.edu.ng,54019380262,Imo,Y
+PaD/28966/02,Amara Okonkwo,Ahmadu Bello University (ABU),Arts,Dept of Physics,M.Sc.,300,Transfer,2005/03/14,09/26/2018,1.66,amara.okonkwo@student.unilag.edu.ng,06103579727,Rivers,true
+XfV/93245/03,Ibrahim Ajayi,Obafemi Awolowo University (OAU),Education,Dept of Biochemistry,B.Sc,100,Direct Entry,30-Oct-1998,31-Jul-2023,3.02,ibrahim.ajayi@gmail.com,77418625652,Akwa Ibom,No
+bQf/21892/02,chioma  lawal,University of Nigeria Nsukka (UNN),ENGINEERING,null,B.Sc.,400 level,UTME,19/12/2002,26/02/2022,1.3,-,03869222196,Cross River,FALSE
+VRi/58424/04,Zainab Lawal,University of Lagos (UNILAG),law,Dept of Law,B.A.,600,direct entry,30.04.1996,11/15/2022,0.96,zainab.lawal@gmail.com,+234190229413,Kaduna,FALSE
+QRe/25147/04,Aliyu Okeke,University of Lagos (UNILAG),Law,Dept of Biochemistry,bsc,300,utme,2002-09-24,16/04/2023,1.09,aliyu.okeke@gmail.com,invalid,Lag,true
+KDJ/14606/01,Adaeze Lawal,Obafemi Awolowo University (OAU),SCIENCE,Dept of Law,MBBS,300,UTME,01/23/2005,22 February 2023,3.63,adaeze.lawal@student.unilag.edu.ng,234-486-289-023,Lagos State,N
+UcW/72973/03,Bola Olawale,University of Nigeria Nsukka (UNN),Social Sciences,Dept of Electrical Engineering,Ph.D,400,UTME ,2007/10/07,28-May-2019,1.68,bola.olawale@oauife.edu.ng,0124 998 5698,Delta,0
+DMd/49319/03,Musa Abubakar,Lagos State University (LASU),Law,Dept of Biochemistry,MBBS,200L,UTME,13 May 2004,05/07/2022,1.09,musa.abubakar@student.unilag.edu.ng,(205) 336-4525,Plateau,FALSE
+LiN/55252/01,Amara Chukwu,Obafemi Awolowo University (OAU),Arts,Dept of Biochemistry,M.Sc.,200L,Post-UTME,11.04.2009,10/12/2020,3.29,,03792374740,Cross River,yes
+eGi/95490/04,Segun  Ogundimu,Obafemi Awolowo University (OAU),management sciences,Dept of Electrical Engineering,M.Sc.,100L,UTME ,16-Oct-1999,N/A,2.27,segun.ogundimu@gmail.com,75869261796,Ogun,Y
+Peg/45003/02,Adaeze Balogun,Obafemi Awolowo University (OAU),Management Sciences,Dept of Accounting,B.Eng,500,UTME ,2000-11-22,08/01/2024,unknown,adaeze.balogun@oauife.edu.ng,+234788191485,Kaduna,no
+PLe/36186/03,  CHIDI AJAYI,Covenant University,Management Sciences,Dept of Biochemistry,Ph.D,300,utme,15/08/1998,30.10.2020,2.56,chidi.ajayi@student.unilag.edu.ng,07165726284,Lagos,true
+eCf/14131/04,CHIOMA OKAFOR,Lagos State University (LASU),MEDICINE,NIL,B.Sc,400 level,Transfer,2001/10/24,01/01/2021,2.43,chioma.okafor@oauife.edu.ng,234-883-552-312,Anambra,No
+aHd/75951/01,Amaka Adekunle,Covenant University,Law,Dept of Electrical Engineering,B.Ed,300,Post-UTME,2005/06/23,02/04/2020,3.23,amaka.adekunle@oauife.edu.ng,0427 010 3930,Anambra,1
+BDE/92853/04,Ngozi  Okafor,Obafemi Awolowo University (OAU),ENGINEERING,Dept of Economics,B.Eng,200L,Direct Entry,01 January 1995,2024/03/28,3.7,N/A,82586736226,Imo,TRUE
+ZbP/47547/02,Tunde Yusuf,Obafemi Awolowo University (OAU),Law,Dept of Electrical Engineering,LLB,400 level,utme,21/11/2003,07.03.2024,3.15,tunde.yusuf@student.unilag.edu.ng,06218518888,Imo,false
+THi/89958/04,Ibrahim Nnamdi,University of Lagos (UNILAG),Arts,Dept of Law,B.Eng,200,Post-UTME,17 March 2000,2023/12/13,3.47,ibrahim.nnamdi@oauife.edu.ng,00861317127,Abuja,FALSE
+JKO/71803/01,Emeka Lawal,Covenant University,Arts,Dept of Biochemistry,B.Ed,100,Post-UTME,2007-12-29,20-Apr-2024,0.62,emeka.lawal@gmail.com,0114 351 9066,Enugu,0
+Wbe/49769/02,OBINNA MOHAMMED,University of Nigeria Nsukka (UNN),MEDICINE,Dept of Accounting,B.Sc.,level 300,utme,00/00/0000,27-Mar-2024,1.51,obinna.mohammed@gmail.com,(713) 315-0983,Imo,no
+gei/51089/01,Segun Balogun,Lagos State University (LASU),engineering,Dept of Economics,Bsc,level 300,direct entry,02-Mar-1997,10.02.2020,?,segun.balogun@oauife.edu.ng,+234596158657,Lagos,TRUE
+bJL/19843/02,  chidi mohammed,Lagos State University (LASU),law,Dept of Economics,B.A.,500,Post-UTME,04 July 1997,08 September 2020,3.25,chidi.mohammed@gmail.com,(838) 065-7875,Delta,Y
+ERk/43031/01,Grace Adeyemi,University of Nigeria Nsukka (UNN),Social Sciences,Dept of Law,M.Sc.,100L,Direct Entry,1996-06-06,2020/04/28,3.57,grace.adeyemi@student.unilag.edu.ng,0091 343 1611,Rivers,true
+ikd/90973/01,Chioma Okeke,University of Lagos (UNILAG),ENGINEERING,Dept of Physics,bsc,100L,utme,10-Jul-1999,18/03/2024,?,chioma.okeke@gmail.com,+234858994417,Enugu,No
+EkF/83176/01,Halima Olawale,Lagos State University (LASU),education,Dept of Physics,B.Sc,200L,UTME ,03/24/2009,30.05.2022,0.8,halima.olawale@oauife.edu.ng,96499091334,Rivers,No
+Hjb/95471/03,Yusuf Adekunle,University of Nigeria Nsukka (UNN),Engineering,Dept of Economics,Ph.D,100L,Transfer,2010/08/04,02/29/2024,4.05,yusuf.adekunle@gmail.com,234-804-436-995,Abuja,yes
+XIP/77404/03,Halima Lawal,Obafemi Awolowo University (OAU),Science,Dept of Electrical Engineering,MBBS,100L,UTME,20.09.2005,22 February 2020,0.53,halima.lawal@oauife.edu.ng,+234651801704,Rivers State,TRUE
+TOk/26176/02,Ibrahim Okonkwo,Lagos State University (LASU),Social Sciences,Dept of Physics,B.A.,200L,Direct Entry,09/09/1997,07-Nov-2020,2.41,ibrahim.okonkwo@oauife.edu.ng,0364 037 6137,Rivers,Yes
+Nka/36784/03,Funmilayo Abubakar,Obafemi Awolowo University (OAU),Social Sciences,Dept of Accounting,B.Sc,level 300,direct entry,08-Sep-2003,unknown date,2.62,funmilayo.abubakar@gmail.com,invalid,Ogun,Y
+IGG/49257/02,Segun Nwosu,University of Lagos (UNILAG),social sciences,Dept of Biochemistry,B.Ed,400 level,utme,1997-02-09,03/25/2022,1.72,segun.nwosu@gmail.com,05037589975,Anambra,TRUE
+LJf/60831/03,Kemi Chukwu   ,Obafemi Awolowo University (OAU),Engineering,Dept of Economics,M.Sc.,100L,Post-UTME,29.01.2006,2019/11/23,0.96,kemi.chukwu@student.unilag.edu.ng,06788317121,Plateau,TRUE
+iHA/38358/01,Adaeze Mohammed,Obafemi Awolowo University (OAU),Arts,Dept of Computer Science,Ph.D,100,Direct Entry,18/12/2000,2023-06-23,4.27,adaeze.mohammed@student.unilag.edu.ng,234-394-278-816,Ogun,0
+HjB/17472/02,Amaka Afolabi,University of Nigeria Nsukka (UNN),Medicine,NIL,M.Sc.,100,UTME,N/A,20 June 2020,3.64,amaka.afolabi@gmail.com,08564205930,Kaduna,true
+ALX/55844/01,EMEKA OLAWALE,University of Lagos (UNILAG),LAW,Dept of Physics,B.Eng,level 300,UTME ,24.04.2008,2022-10-29,2.6,emeka.olawale@oauife.edu.ng,0086 353 6541,kano,yes
+caj/82250/02,Grace Abubakar,Lagos State University (LASU),engineering,Dept of Biochemistry,B.Sc,100L,Post-UTME,24.09.2008,25.11.2018,2.67,grace.abubakar@oauife.edu.ng,+234718702621,Kaduna,TRUE
+TVB/18888/01,Chinedu Adeyemi   ,University of Lagos (UNILAG),Science,Dept of Accounting,B.Sc,400,UTME ,21 April 2004,2023/03/09,2.42,chinedu.adeyemi@gmail.com,234-062-312-038,Ogun,Yes
+kZc/38159/04,Amara Lawal,Lagos State University (LASU),Education,Dept of Law,B.Eng,level 300,Transfer,02/06/2009,09.10.2020,4.41,amara.lawal@gmail.com,234-125-674-680,Cross River,TRUE
+gCP/55436/04,Tunde Mohammed,Covenant University,ARTS,N/A,B.Ed,100,direct entry,1997-09-03,13.03.2019,2.89,tunde.mohammed@student.unilag.edu.ng,(213) 568-0442,Ogun,FALSE
+QgS/94983/02,Kunle Adeyemi,University of Lagos (UNILAG),Law,-,B.Ed,level 300,UTME ,01.06.2008,11/07/2023,3.73,n/a,(990) 453-0174,Enugu,0
+gOU/52488/02,Obinna Olawale,Ahmadu Bello University (ABU),arts,Dept of Electrical Engineering,LLB,level 300,Post-UTME,2001-01-31,2021/09/03,4.44,obinna.olawale@gmail.com,25546659051,Oyo State,false
+UHW/62178/02,Blessing Olawale,University of Nigeria Nsukka (UNN),Law,Dept of Physics,B.Ed,400 level,utme,14/12/1998,19 December 2019,2.59,nil,68011280598,Kaduna,1
+JHh/22696/02,Ibrahim  Yusuf,University of Lagos (UNILAG),Science,Dept of Electrical Engineering,M.Sc.,400,direct entry,1997-07-28,2020/12/01,0.8,ibrahim.yusuf@gmail.com,23884969653,lagos,Y
+EHI/35368/02,Ibrahim Chukwu,University of Nigeria Nsukka (UNN),medicine,Dept of Electrical Engineering,B.Sc,200L,Post-UTME,1999/06/01,19/04/2020,4.3,ibrahim.chukwu@oauife.edu.ng,234-712-406-596,Edo,true
+CPM/50635/04,ibrahim okonkwo   ,Covenant University,Law,Dept of Law,MBBS,level 300,Post-UTME,16.01.2010,07.06.2020,3.83,nil,13836702410,Kaduna,false
+jhA/44289/03,Kunle Adeyemi,Covenant University,Arts,Dept of Economics,B.Ed,200L,Direct Entry,09-Nov-2006,07/02/2021,1.06,kunle.adeyemi@student.unilag.edu.ng,09835841687,Fct Abuja,FALSE
+jXW/71016/01,Sadiq Eze,Obafemi Awolowo University (OAU),SCIENCE,Dept of Economics,M.Sc.,300,direct entry,09 April 2007,00/00/0000,0.57,sadiq.eze@oauife.edu.ng,234-033-230-982,Enugu,true
+BTg/77969/04,Amaka Abubakar,Lagos State University (LASU),Law,unknown,B.Sc.,300,UTME,10 October 2001,19.12.2021,2.49,nil,+234323651994,Cross River,true
+GfM/89102/02,Wale Yusuf,Ahmadu Bello University (ABU),arts,Dept of Law,bsc,100L,direct entry,27/03/2008,08/09/2020,2.83,wale.yusuf@oauife.edu.ng,0482 175 9464,Kano,Yes
+QNg/13121/03,Ibrahim Abubakar,University of Nigeria Nsukka (UNN),Medicine,Dept of Accounting,MBBS,400 level,direct entry,18-Sep-2007,30 March 2021,4.51,ibrahim.abubakar@gmail.com,(643) 815-6149,Abuja,Yes
+MYW/65919/01,  obinna bello,Obafemi Awolowo University (OAU),Medicine,Dept of Law,B.Sc,100L,Transfer,30 December 1996,19-Feb-2022,2.39,obinna.bello@student.unilag.edu.ng,234-000-307-562,Rivers,1
+ViY/72338/01,funmilayo nwosu,University of Nigeria Nsukka (UNN),Arts,Dept of Economics,M.Sc.,100L,Transfer,2008/03/09,31/10/2023,2.39,funmilayo.nwosu@gmail.com,09232719374,Anambra,no
+LVQ/61698/04,Halima Olawale,University of Nigeria Nsukka (UNN),Education,Dept of Economics,B.Eng,100,utme,1996-02-13,19-Dec-2022,1.23,halima.olawale@oauife.edu.ng,05300119721,Akwa Ibom,false
+RLH/69151/03,Bola Mohammed,Covenant University,Arts,Dept of Biochemistry,B.A.,600,direct entry,05/16/2000,09/14/2018,0.8,bola.mohammed@oauife.edu.ng,(658) 202-9702,Cross River,No
+aBA/81001/02,Grace Bello,Ahmadu Bello University (ABU),Engineering,Dept of Law,B.Sc.,500,Transfer,18/09/1996,2019/08/14,0.83,grace.bello@oauife.edu.ng,0563 421 6073,Anambra,yes
+dFI/22579/01,Segun Okafor,University of Nigeria Nsukka (UNN),Social Sciences,Dept of Law,bsc,600,UTME,02/03/1995,2023/04/30,4.86,segun.okafor@oauife.edu.ng,07192856543,Akwa Ibom,No
+OED/11274/04,Femi Adeyemi,Obafemi Awolowo University (OAU),Social Sciences,Dept of Accounting,B.A.,100,Transfer,10/06/2009,09-Oct-2022,?,femi.adeyemi@gmail.com,06887676772,Anambra,yes
+KWM/42409/02,Musa Adeyemi   ,Ahmadu Bello University (ABU),Medical Sciences,Dept of Accounting,LLB,100,UTME,2008/02/12,2019-01-20,1.51,musa.adeyemi@gmail.com,0000000000,Ogun,TRUE
+CEY/27813/01,Blessing Okonkwo,Covenant University,Arts,Dept of Law,B.Ed,level 300,Transfer,10 May 2009,2020/06/25,3.23,blessing.okonkwo@oauife.edu.ng,(818) 141-2478,Akwa Ibom,0
+eAU/64565/02,ZAINAB CHUKWU,Covenant University,medicine,Dept of Computer Science,LLB,200,UTME,13 January 1998,2022-05-15,1.24,zainab.chukwu@student.unilag.edu.ng,N/A,Ibadan,FALSE
+HBX/63154/04,Grace Okafor,Covenant University,Law,Dept of Law,B.Eng,400 level,UTME,23 September 1995,2021-11-13,1.62,grace.okafor@oauife.edu.ng,234-753-556-093,Delta,No
+YZK/15230/02,Chinedu Nwosu,Lagos State University (LASU),Engr,Dept of Biochemistry,B.Eng,100,Post-UTME,10 April 2010,00/00/0000,1.44,chinedu.nwosu@gmail.com,0759 492 9955,Oyo,false
+kCa/74919/04,Blessing Eze,Covenant University,Law,Dept of Computer Science,M.Sc.,level 300,UTME ,1995-06-27,13 January 2021,3.09,blessing.eze@oauife.edu.ng,234-914-856-467,Abuja,N
+ZQJ/54585/03,  Yusuf Bello,Ahmadu Bello University (ABU),ARTS,Dept of Biochemistry,B.A.,600,Direct Entry,17/12/2010,09/06/2019,3.19,NULL,+234766270289,Kano,0
+DLR/94116/03,NGOZI LAWAL,Lagos State University (LASU),Social Sciences,Dept of Physics,B.Ed,300,Direct Entry,unknown date,15.03.2022,4.54,ngozi.lawal@student.unilag.edu.ng,(557) 431-3291,Cross River,false
+LBk/22310/03,Yusuf Nwosu,University of Lagos (UNILAG),Social Sciences,Dept of Computer Science,Ph.D,400,direct entry,24 January 1998,03/11/2019,1.57,yusuf.nwosu@oauife.edu.ng,(322) 259-1365,Anambra,Y
+LCR/66173/01,Obinna Afolabi,Ahmadu Bello University (ABU),Science,Dept of Computer Science,B.Ed,100,UTME,18-Aug-2000,01 January 2021,3.22,obinna.afolabi@oauife.edu.ng,N/A,Oyo,0
+UCk/11862/02,Segun Ogundimu,Covenant University,Engineering,Dept of Computer Science,M.Sc.,500,UTME ,03/29/1999,2024-04-24,3.96,unknown,+234123685160,Ogun,TRUE
+cjG/12040/03,  Amaka Suleiman,Covenant University,Social Sciences,Dept of Electrical Engineering,MBBS,400 level,UTME ,08 July 2008,30.12.2023,3.29,amaka.suleiman@gmail.com,234-193-982-807,Delta,FALSE
+YiD/70450/03,Fatima Nnamdi,Covenant University,Faculty of Medicine,Dept of Economics,B.Eng,level 300,Direct Entry,11/02/2000,2022/07/03,2.44,fatima.nnamdi@gmail.com,234-647-154-379,Lagos State,yes
+MBb/82456/01,Amaka Olawale,University of Nigeria Nsukka (UNN),EDUCATION,Dept of Physics,B.Eng,100,Direct Entry,10/06/1997,03.03.2024,2.54,amaka.olawale@student.unilag.edu.ng,0970 246 2996,Delta,true
+JaZ/12101/02,   Ibrahim Suleiman,Ahmadu Bello University (ABU),MANAGEMENT SCIENCES,Dept of Economics,B.A.,200L,Direct Entry,2001/08/24,13-Oct-2018,2.52,ibrahim.suleiman@student.unilag.edu.ng,(303) 856-7700,Delta,FALSE
+ESV/51936/02,Bola Adeyemi,University of Nigeria Nsukka (UNN),ARTS,Dept of Law,Bsc,level 300,Post-UTME,1997/10/30,13-Sep-2023,1.17,bola.adeyemi@oauife.edu.ng,07221704303,LAGOS,1
+bVM/75664/04,Ibrahim Adekunle,University of Nigeria Nsukka (UNN),Faculty of Medicine,Dept of Biochemistry,B.Sc.,300,Transfer,30.11.1999,2020/07/21,1.71,ibrahim.adekunle@student.unilag.edu.ng,234-452-288-515,Plateau,0
+Aca/63613/01,Ifeoma Okafor,University of Nigeria Nsukka (UNN),Arts,Dept of Biochemistry,B.Ed,300,direct entry,2000/07/08,02.10.2022,3.33,ifeoma.okafor@student.unilag.edu.ng,234-450-882-100,Delta,yes
+hNb/82816/02,Sadiq Olawale,Ahmadu Bello University (ABU),arts,Dept of Electrical Engineering,bsc,level 300,UTME ,16 August 2002,2022/04/20,2.66,sadiq.olawale@oauife.edu.ng,+234128682300,Enugu,0
+ZkP/37392/03,Chioma Bello,University of Nigeria Nsukka (UNN),ENGINEERING,Dept of Computer Science,B.Eng,200L,Post-UTME,2006/06/07,30-Jul-2022,3.74,chioma.bello@student.unilag.edu.ng,234-061-632-945,Kaduna,No
+FVR/54839/02,Ifeoma Ajayi,University of Lagos (UNILAG),Science,Dept of Law,B.Sc,400 level,UTME ,07 June 2002,01/02/2024,NIL,ifeoma.ajayi@oauife.edu.ng,+234773926030,Edo,Y
+LPA/52661/02,Femi Eze,Lagos State University (LASU),Education,Unknown,B.Sc.,100L,Direct Entry,05-Jan-1999,10/21/2022,1.19,femi.eze@gmail.com,234-862-392-407,Delta,N
+JTK/96196/03,Ifeoma Okafor,Obafemi Awolowo University (OAU),ARTS,Dept of Law,B.Sc.,300,UTME ,05 November 2009,23.12.2021,4.69,?,0858 877 0435,LAGOS,N
+OOV/79434/03,Chidi Lawal   ,Ahmadu Bello University (ABU),engineering,  ,B.Ed,level 300,Transfer,28.11.2007,18/07/2020,1.27,chidi.lawal@oauife.edu.ng,234-982-258-713,kano,true
+gEO/13091/01,MUSA  SULEIMAN,University of Lagos (UNILAG),Law,Dept of Electrical Engineering,B.Sc.,300,UTME,25/02/2007,2021/11/25,4.35,musa.suleiman@gmail.com,234-167-618-472,Enugu,false
+ghQ/26963/03,Bola Lawal,Lagos State University (LASU),Management Sciences,Dept of Electrical Engineering,MBBS,200,UTME,N/A,2020/09/08,3.69,bola.lawal@gmail.com,51462704828,Cross River,N
+QeK/32091/02,Wale Afolabi,Covenant University,Arts,Dept of Biochemistry,Ph.D,100,utme,16.02.2000,2022/07/28,1.71,wale.afolabi@student.unilag.edu.ng,234-706-537-947,Abuja,yes
+QTi/28119/02,Chidi Suleiman,University of Nigeria Nsukka (UNN),Medicine,Dept of Electrical Engineering,Ph.D,400 level,utme,2007-04-05,17/06/2019,4.68,chidi.suleiman@student.unilag.edu.ng,01567933410,Enugu,0
+UfN/23695/02,Segun Bello,Covenant University,Medicine,Dept of Physics,B.Ed,400 level,direct entry,2007-11-13,02 November 2021,2.52,segun.bello@oauife.edu.ng,0772 369 2929,Lagos,FALSE
+LJf/60831/03,Kemi Chukwu   ,Obafemi Awolowo University (OAU),Engineering,Dept of Economics,M.Sc.,100L,Post-UTME,29.01.2006,2019/11/23,0.96,kemi.chukwu@student.unilag.edu.ng,06788317121,Plateau,TRUE
+YKZ/37149/02,Musa Abubakar,Lagos State University (LASU),SOCIAL SCIENCES,Dept of Law,Bsc,400 level,Direct Entry,24/06/2008,14.07.2019,?,musa.abubakar@oauife.edu.ng,0000000000,Plateau,0
+hTf/49344/02,Bola Okonkwo,Covenant University,Education,Dept of Economics,B.Ed,level 300,Post-UTME,31.01.1998,01 July 2020,4.59,bola.okonkwo@student.unilag.edu.ng,(103) 886-2912,Edo,0
+bcU/16002/01,Amaka Afolabi,Ahmadu Bello University (ABU),Education,Dept of Physics,Bsc,200,Transfer,08.03.1997,19.07.2024,1.57,amaka.afolabi@oauife.edu.ng,00874064039,Plateau,FALSE
+GFg/86399/02,Chidi Okafor,Ahmadu Bello University (ABU),Education,Dept of Computer Science,LLB,600,direct entry,2004/03/27,2021/02/03,4.49,chidi.okafor@gmail.com,+234969078447,Rivers,N
+MAg/24129/04,CHIDI AFOLABI,Obafemi Awolowo University (OAU),arts,Dept of Biochemistry,Ph.D,100,UTME,,03.10.2023,4.25,unknown,0681 645 3521,Kaduna,true
+VJC/52132/04,Bisi Nwosu,Ahmadu Bello University (ABU),Science,Dept of Accounting,bsc,200L,UTME ,2004/03/27,29-Jun-2021,1.9,bisi.nwosu@gmail.com,45868501429,Abuja,1
+MGc/82189/01,  Tunde Nnamdi   ,University of Nigeria Nsukka (UNN),MANAGEMENT SCIENCES,Dept of Physics,B.A.,200L,Post-UTME,18.07.1999,2019/04/28,1.23,tunde.nnamdi@student.unilag.edu.ng,05830033542,Cross River,1
+KUh/72098/04,Funmilayo Okonkwo,Ahmadu Bello University (ABU),Law,Dept of Economics,B.Ed,500,Transfer,1998-07-17,04.08.2020,3.25,funmilayo.okonkwo@oauife.edu.ng,0400 842 7109,Lagos,1
+IQS/54770/03,Amara Mohammed   ,Obafemi Awolowo University (OAU),Law,Dept of Economics,B.Sc.,300,UTME,13.02.2010,28-Mar-2023,3.13,amara.mohammed@student.unilag.edu.ng,09399091699,Plateau,Y
+ARR/18688/01,Sadiq Nwosu,Lagos State University (LASU),Arts,Dept of Economics,LLB,400,direct entry,05/02/2005,00/00/0000,2.58,  ,+234713247546,Cross River,yes
+bCk/17742/03,Ngozi Okeke,University of Lagos (UNILAG),education,Dept of Physics,B.A.,100,Transfer,11/03/2002,2022/03/14,1.05,-,(989) 921-7223,Delta,N
+FHH/60145/04,   Blessing Afolabi,Obafemi Awolowo University (OAU),Education,Dept of Accounting,bsc,200L,Direct Entry,14 March 1996,03/25/2020,?,blessing.afolabi@student.unilag.edu.ng,(175) 183-0469,Lagos,0
+UJF/76968/04,Grace  Adekunle   ,Obafemi Awolowo University (OAU),EDUCATION,Dept of Accounting,B.A.,200L,Direct Entry,2007/10/24,26-May-2020,4.74,grace.adekunle@gmail.com,(079) 030-6738,Rivers,Yes
+WOc/49677/03,Obinna Eze,Ahmadu Bello University (ABU),ARTS,Dept of Physics,bsc,500,Transfer,06 February 2006,2020-12-22,3.67,obinna.eze@gmail.com,04738299737,Kano,TRUE
+iGc/39368/01,obinna yusuf,Ahmadu Bello University (ABU),law,Dept of Economics,B.A.,200,UTME ,30.10.2003,28 March 2024,4.78,obinna.yusuf@student.unilag.edu.ng,(754) 330-3654,Plateau,FALSE
+ccR/16569/04,Chioma Yusuf,Obafemi Awolowo University (OAU),Management Sciences,Dept of Biochemistry,B.Sc.,400 level,UTME,2002-06-03,2019-03-14,2.0,chioma.yusuf@oauife.edu.ng,03412528669,Edo,FALSE
+XYk/42532/02,  TOBI OGUNDIMU,Lagos State University (LASU),Arts,Dept of Physics,Ph.D,300,Direct Entry,04.04.1998,24.12.2021,2.91,tobi.ogundimu@student.unilag.edu.ng,(437) 575-8441,Anambra,Yes
+aEe/64689/04,Amara Suleiman,Lagos State University (LASU),Medicine,Dept of Biochemistry,LLB,400 level,Direct Entry,2001-05-19,02.03.2019,NULL,amara.suleiman@gmail.com,234-758-416-169,Lagos,Yes
+eCj/56829/01,Wale Okafor,Obafemi Awolowo University (OAU),Education,Dept of Accounting,bsc,400 level,Transfer,2008-08-23,2019-07-10,N/A,wale.okafor@gmail.com,234-781-414-139,Kaduna,TRUE
+UIj/78019/02,BLESSING NNAMDI,Ahmadu Bello University (ABU),Education,Dept of Law,B.Sc.,level 300,Direct Entry,30/12/2005,25 January 2021,3.69,blessing.nnamdi@gmail.com,(687) 056-8566,Akwa Ibom,FALSE
+YGB/28654/03,Tunde Nwosu,Covenant University,Arts,Dept of Law,B.Sc.,300,Direct Entry,18-May-2005,2019-10-16,4.01,tunde.nwosu@oauife.edu.ng,96627828274,Abuja,Yes
+Eed/50499/03,  CHIOMA OLAWALE,Ahmadu Bello University (ABU),ENGINEERING,NULL,B.Ed,600,UTME ,18/02/2006,05/22/2021,2.31,chioma.olawale@student.unilag.edu.ng,234-751-701-660,Kano,Y
+Uhk/85377/04,Segun Adeyemi,Covenant University,Education,Dept of Economics,M.Sc.,200L,direct entry,2006/08/29,10-Oct-2019,0.91,N/A,0436 713 6959,Ogun,1
+BGN/51039/03,Ibrahim Ajayi,University of Nigeria Nsukka (UNN),SCIENCE,Dept of Physics,Bsc,300,utme,2001/07/10,02/03/2019,4.69,ibrahim.ajayi@student.unilag.edu.ng,09805009788,Anambra,false
+NTf/29516/03,Tunde Ajayi,Obafemi Awolowo University (OAU),arts,Dept of Economics,B.A.,300,direct entry,03/17/2003,29/09/2018,2.75,tunde.ajayi@oauife.edu.ng,234-170-999-173,Imo,false
+kPF/19884/01,Chinedu Mohammed,Covenant University,arts,Dept of Physics,B.Sc,200,Direct Entry,17.05.2003,2020/08/26,0.79,chinedu.mohammed@gmail.com,02681177589,Rivers,Y
+MTK/65611/03,Femi Chukwu   ,University of Nigeria Nsukka (UNN),arts,Dept of Computer Science,MBBS,100,utme,29.02.2000,15-Mar-2022,unknown,femi.chukwu@oauife.edu.ng,(740) 344-7134,Akwa Ibom,No
+PJj/59054/01,Fatima Okonkwo,Ahmadu Bello University (ABU),medicine,Dept of Computer Science,Bsc,100L,Post-UTME,24-Jul-1999,25.04.2021,2.46,fatima.okonkwo@student.unilag.edu.ng,+234623166587,Kaduna,Y
+hhc/51541/03,Aliyu Suleiman,Ahmadu Bello University (ABU),Arts,Dept of Economics,B.A.,400,utme,26-Feb-1996,2024-08-01,3.23,aliyu.suleiman@student.unilag.edu.ng,(208) 121-9136,kano,N
+Ujg/22372/04,  Aliyu Okafor,Ahmadu Bello University (ABU),SOCIAL SCIENCES,Dept of Physics,M.Sc.,500,UTME,25-Dec-1995,15/06/2021,4.63,aliyu.okafor@gmail.com,0000000000,Enugu,No
+kMa/29876/04,Chioma Nwosu,Ahmadu Bello University (ABU),SCIENCE,N/A,M.Sc.,100,Transfer,25.12.1997,20-Oct-2018,1.38,chioma.nwosu@student.unilag.edu.ng,03289861434,Edo,0
+hUM/83160/01,Bisi Balogun,Covenant University,Social Sciences,Dept of Computer Science,B.Sc,100L,direct entry,2004/09/20,05-Feb-2019,0.95,bisi.balogun@student.unilag.edu.ng,+234493534874,Edo,No
+cJe/92434/02,  Wale Okonkwo,Lagos State University (LASU),MEDICINE,Dept of Physics,MBBS,100L,direct entry,2007/01/15,20 March 2021,4.43,wale.okonkwo@student.unilag.edu.ng,47411249035,Kano,Y
+VJC/52132/04,Bisi Nwosu,Ahmadu Bello University (ABU),Science,Dept of Accounting,bsc,200L,UTME ,2004/03/27,29-Jun-2021,1.9,bisi.nwosu@gmail.com,45868501429,Abuja,1
+EWf/97802/01,Chioma Olawale,University of Lagos (UNILAG),Medicine,Dept of Biochemistry,MBBS,200,Post-UTME,22-May-2008,06/06/2023,2.27,chioma.olawale@student.unilag.edu.ng,0036 690 9670,Port Harcourt,true
+PaM/15974/03,Amaka Olawale,Ahmadu Bello University (ABU),Education,Dept of Economics,bsc,100L,UTME,24.02.2005,2019/05/19,?,amaka.olawale@gmail.com,invalid,Plateau,No
+aDF/51878/01,Ifeoma Balogun,Covenant University,ENGINEERING,Dept of Accounting,B.Eng,200L,Post-UTME,1996-05-02,unknown date,unknown,ifeoma.balogun@student.unilag.edu.ng,+234257905072,Delta,FALSE
+YOC/21736/04,Zainab Mohammed,Obafemi Awolowo University (OAU),EDUCATION,Dept of Electrical Engineering,Ph.D,level 300,Post-UTME,10-Apr-2010,09/15/2023,1.12,zainab.mohammed@student.unilag.edu.ng,74167243426,Edo,TRUE
+SgC/51171/04,Tobi Okeke,Lagos State University (LASU),education,Dept of Law,B.Sc.,400 level,UTME,unknown date,10-Jul-2024,1.18,NIL,(339) 500-4797,Rivers,N
+gXa/62409/04,Emeka Nwosu,Ahmadu Bello University (ABU),Law,Dept of Computer Science,B.Sc,200L,Post-UTME,1997-03-18,20/05/2020,3.64,emeka.nwosu@oauife.edu.ng,08932460953,Kaduna,no
+Sia/43462/04,Funmilayo Suleiman,Lagos State University (LASU),ARTS,Dept of Accounting,Ph.D,200L,utme,14/02/2007,2023-06-27,4.46,NIL,93333468007,Anambra,No
+iDk/28442/04,  Emeka Okafor,Ahmadu Bello University (ABU),EDUCATION,Dept of Accounting,bsc,100L,Transfer,1997/09/04,04-Feb-2023,0.73,emeka.okafor@oauife.edu.ng,+234686508637,Oyo State,Yes
+JCX/46357/04,Bisi Balogun,Lagos State University (LASU),Management Sciences,Dept of Electrical Engineering,B.Ed,level 300,utme,27.06.1996,07 May 2023,3.03,bisi.balogun@gmail.com,(518) 203-7788,Rivers,false
+fMi/82146/01,Kemi Yusuf,University of Nigeria Nsukka (UNN),Arts,  ,MBBS,400,Transfer,2010/01/15,2019-10-20,3.7,kemi.yusuf@gmail.com,(074) 329-2712,Anambra,yes
+ciU/23182/04,Ibrahim Balogun,Lagos State University (LASU),Arts,Dept of Electrical Engineering,B.Ed,100,UTME ,2001-04-30,09.03.2021,0.51,ibrahim.balogun@oauife.edu.ng,+234993756798,Enugu,TRUE
+fkW/54535/01,Amaka Chukwu,University of Lagos (UNILAG),Education,Dept of Economics,B.Eng,100L,Direct Entry,12.01.2005,09/14/2020,4.52,amaka.chukwu@oauife.edu.ng,00532931839,Kaduna,FALSE
+Bkf/65918/04,Musa Mohammed,University of Lagos (UNILAG),Science,Dept of Biochemistry,bsc,400 level,utme,22 July 2002,14.04.2021,4.24,musa.mohammed@student.unilag.edu.ng,0660 728 3268,Anambra,Y
+ISD/58929/01,Kunle Okafor,Covenant University,Arts,Dept of Law,B.Eng,level 300,utme,31/08/1998,29-Jun-2020,3.48,kunle.okafor@gmail.com,0127 756 1853,Abuja,FALSE
+FbH/56479/04,Tobi Adeyemi,Covenant University,MEDICINE,Dept of Biochemistry,LLB,100L,Transfer,23-Aug-1997,28.03.2021,1.66,tobi.adeyemi@gmail.com,59180339740,Lagos,1
+Eag/14426/04,Yusuf Afolabi,Ahmadu Bello University (ABU),Engineering,Dept of Accounting,B.Ed,100,Direct Entry,21/06/2005,28.11.2023,?,yusuf.afolabi@oauife.edu.ng,234-922-809-202,Rivers,No
+ATR/83473/03,Kemi Ajayi   ,University of Lagos (UNILAG),Law,Dept of Computer Science,M.Sc.,200,Direct Entry,1998/11/17,04.04.2023,3.36,kemi.ajayi@student.unilag.edu.ng,01769367632,Imo,false
+eKk/24417/01,Ibrahim Balogun,Ahmadu Bello University (ABU),Social Sciences,unknown,Bsc,level 300,utme,N/A,16.01.2019,1.17,ibrahim.balogun@student.unilag.edu.ng,N/A,Delta,yes
+eNQ/22730/03,Chidi Okonkwo,University of Lagos (UNILAG),Social Sciences,Dept of Law,B.Ed,400,direct entry,1998-03-08,2022-06-23,4.61,chidi.okonkwo@gmail.com,03799650752,Cross River,Y
+DcO/91087/02,Chidi Adeyemi,Ahmadu Bello University (ABU),engineering,Dept of Physics,M.Sc.,200,direct entry,22-Dec-1997,11/18/2020,1.83,chidi.adeyemi@gmail.com,0647 102 7677,abuja,N
+DIN/81707/03,Wale Adekunle,Covenant University,SCIENCE,Dept of Computer Science,B.A.,400 level,UTME ,07.11.2000,2023-05-24,1.4,wale.adekunle@oauife.edu.ng,08963834657,Imo,TRUE
+GbU/96146/01,Funmilayo Okonkwo,Obafemi Awolowo University (OAU),Engr,Dept of Biochemistry,Ph.D,300,Transfer,2004/03/28,24.01.2021,4.47,funmilayo.okonkwo@gmail.com,234-284-395-995,Ibadan,false
+SCZ/54388/02,Sadiq Adekunle,University of Nigeria Nsukka (UNN),Engineering,Dept of Electrical Engineering,B.Eng,500,Post-UTME,18-Feb-2006,09/29/2019,3.23,sadiq.adekunle@oauife.edu.ng,0319 520 5852,Rivers,Yes
+VQN/13584/03,Adaeze Yusuf,Lagos State University (LASU),Science,Dept of Law,B.Sc.,200,UTME ,1995/08/01,2022-07-26,4.6,adaeze.yusuf@gmail.com,(651) 333-8726,Cross River,TRUE
+OkQ/98713/01,Obinna Yusuf,Lagos State University (LASU),Science,Dept of Physics,bsc,100,Direct Entry,11-May-2009,not set,3.38,obinna.yusuf@student.unilag.edu.ng,04869594636,Cross River,N
+jPF/53786/02,Obinna Chukwu   ,University of Nigeria Nsukka (UNN),Management Sciences,Dept of Economics,M.Sc.,300,Post-UTME,24.07.1998,08/18/2021,3.16,obinna.chukwu@student.unilag.edu.ng,(551) 884-4225,Cross River,false
+PeB/23036/02,Funmilayo Okonkwo,Covenant University,LAW,Dept of Electrical Engineering,B.Eng,500,utme,14-Oct-1996,06/26/2023,1.98,funmilayo.okonkwo@oauife.edu.ng,(275) 705-9640,Edo,No
+VXV/10358/01,Chidi Okonkwo,Lagos State University (LASU),MANAGEMENT SCIENCES,Dept of Economics,LLB,level 300,Transfer,01 March 2009,08 October 2018,2.12,chidi.okonkwo@student.unilag.edu.ng,00541566765,Delta,false
+eOk/12223/02,Amara Okafor,Covenant University,SCIENCE,Dept of Accounting,B.A.,200,UTME ,2008/05/10,2024-08-20,2.99,amara.okafor@oauife.edu.ng,(310) 324-1714,Cross River,TRUE
+IfU/90000/01,Grace Bello,University of Lagos (UNILAG),LAW,,LLB,200,Transfer,2005-07-05,03/20/2022,1.61,grace.bello@oauife.edu.ng,234-053-773-515,Ogun,0
+CBH/92709/02,Wale Okafor,Covenant University,Arts,null,B.Eng,500,Transfer,18 April 2004,25-Jun-2020,4.45,wale.okafor@gmail.com,0251 355 2157,Akwa Ibom,no
+IJe/31004/02,TOBI YUSUF,Ahmadu Bello University (ABU),Law,Dept of Computer Science,B.Eng,300,utme,1996/04/30,2019/06/01,3.9,tobi.yusuf@oauife.edu.ng,234-477-109-324,Lagos,TRUE
+HeD/88522/02,Tobi Mohammed,Ahmadu Bello University (ABU),arts,Dept of Computer Science,B.Sc.,400,UTME,24 January 2005,,3.99,tobi.mohammed@oauife.edu.ng,0886 153 3555,Anambra,Y
+YJZ/57934/01,Blessing Mohammed,Covenant University,engineering,Dept of Economics,M.Sc.,400,UTME,00/00/0000,2018-12-10,4.05,blessing.mohammed@oauife.edu.ng,(789) 611-8367,Ibadan,FALSE
+NJa/67215/03,IFEOMA OLAWALE,University of Lagos (UNILAG),SOCIAL SCIENCES,Dept of Economics,bsc,400 level,Post-UTME,24 May 2008,30/10/2021,3.66,ifeoma.olawale@student.unilag.edu.ng,234-257-991-366,Kano,false
+Zjc/50844/04,Chioma Adekunle,Covenant University,Management Sciences,-,B.Sc,500,Transfer,04/09/2010,16 June 2021,4.89,chioma.adekunle@gmail.com,66296194311,Cross River,0
+kbU/85781/02,Aliyu Bello,Obafemi Awolowo University (OAU),Arts,Dept of Electrical Engineering,bsc,400,Transfer,2008-05-22,2022/01/20,1.9,aliyu.bello@student.unilag.edu.ng,0255 341 9283,Fct Abuja,false
+LPi/61687/01,Blessing Chukwu,University of Lagos (UNILAG),Law,null,Ph.D,100L,Post-UTME,19 December 2009,03 November 2022,2.81,n/a,46287334270,Ogun,No
+aHR/94281/04,Ngozi Nwosu,University of Lagos (UNILAG),law,Dept of Electrical Engineering,B.Sc,200,UTME,27.10.1995,2019/10/02,1.65,NIL,+234995900109,Edo,false
+Tji/20441/03,Funmilayo Eze,Covenant University,Engineering,Dept of Electrical Engineering,MBBS,100,Transfer,11-Mar-2000,2019-07-20,0.72,funmilayo.eze@student.unilag.edu.ng,(947) 312-1727,Lagos State,Yes
+HEE/79438/04,Amara Olawale,Covenant University,Science,Dept of Economics,B.Sc,300,direct entry,2010/12/21,2019/04/05,3.9,--,24005045562,Enugu,1
+RYV/58076/04,Ibrahim Bello,Ahmadu Bello University (ABU),Law,Dept of Economics,B.Eng,level 300,Direct Entry,2003-09-17,05-Dec-2022,0.66,ibrahim.bello@student.unilag.edu.ng,(102) 053-9502,Imo,No
+ibj/82800/01,Chidi Okeke,Covenant University,MANAGEMENT SCIENCES,Dept of Accounting,B.Sc,200,Transfer,not set,2023-10-25,2.88,chidi.okeke@student.unilag.edu.ng,05071461125,Plateau,FALSE
+ZkJ/19550/02,Segun Okafor,Lagos State University (LASU),Social Sciences,Dept of Computer Science,bsc,500,Direct Entry,09 May 1997,07.09.2023,3.59,segun.okafor@student.unilag.edu.ng,07530463745,Akwa Ibom,no
+hJO/11221/02,funmilayo okonkwo   ,University of Lagos (UNILAG),Education,NULL,B.Eng,100L,utme,1999/06/18,2020/06/15,1.4,funmilayo.okonkwo@oauife.edu.ng,0199 062 3445,Akwa Ibom,1
+aic/76930/03,Kunle Bello,Ahmadu Bello University (ABU),engineering,Dept of Law,B.A.,300,UTME ,12/08/2008,11/07/2019,4.46,kunle.bello@student.unilag.edu.ng,(168) 460-2235,Delta,yes
+HgH/15076/02,Ngozi Adekunle,University of Nigeria Nsukka (UNN),Education,Dept of Electrical Engineering,B.A.,200L,Direct Entry,28/12/1995,27 November 2019,3.0,ngozi.adekunle@gmail.com,+234489964235,Ogun,Yes
+Rii/64624/01,Emeka Ogundimu,Covenant University,law,Dept of Physics,B.Eng,400 level,Post-UTME,not set,2023/06/28,4.81,emeka.ogundimu@student.unilag.edu.ng,0845 115 4479,Anambra,false
+Rjb/66536/04,Halima Okeke,Ahmadu Bello University (ABU),MEDICINE,Dept of Physics,M.Sc.,100,direct entry,2003-05-31,20.11.2022,3.57,halima.okeke@oauife.edu.ng,(754) 121-2678,Delta,yes
+ZMI/56271/03,yusuf olawale,Ahmadu Bello University (ABU),social sciences,Dept of Physics,Ph.D,400,UTME ,29 September 2006,2020-09-17,2.27,  ,+234878519108,Anambra,no
+RRF/42759/03,kemi okonkwo,Covenant University,Management Sciences,Dept of Physics,B.Sc.,200,Transfer,1997-12-16,03.05.2021,4.58,,234-731-781-080,Delta,true
+XWk/21471/01,   grace mohammed,University of Lagos (UNILAG),SCIENCE,NULL,M.Sc.,100L,direct entry,25/09/1995,2020-08-28,1.1,?,00670654051,Delta,FALSE
+RUf/51178/02,Emeka Okafor,Covenant University,social sciences,Dept of Economics,B.Sc,400 level,UTME,08/08/2007,01/29/2024,1.16,emeka.okafor@gmail.com,0945 198 3273,Plateau,Yes
+jUE/67729/02,Sadiq Suleiman,Obafemi Awolowo University (OAU),Law,Dept of Economics,Bsc,100,Direct Entry,14/03/2001,23 July 2019,4.54,sadiq.suleiman@gmail.com,+234267736026,Lagos,yes
+LJe/23538/01,Fatima Bello,University of Nigeria Nsukka (UNN),engineering,Dept of Physics,B.Ed,100L,UTME ,03-May-1996,09/08/2020,null,fatima.bello@student.unilag.edu.ng,05579415521,Ibadan,FALSE
+ENf/37097/01,wale abubakar   ,Obafemi Awolowo University (OAU),Arts,Dept of Accounting,LLB,300,utme,1999-12-21,30-Sep-2020,n/a,wale.abubakar@gmail.com,0953 394 2104,Edo,FALSE
+WdY/95646/04,aliyu  adeyemi,University of Nigeria Nsukka (UNN),Law,Dept of Computer Science,Ph.D,500,UTME ,17/08/2001,2019/10/20,2.18,NULL,234-615-305-152,LAGOS,FALSE
+KGO/80041/02,  Femi Yusuf   ,Ahmadu Bello University (ABU),social sciences,Dept of Economics,B.Sc,100,UTME,22-Jun-2008,03/01/2021,2.47,femi.yusuf@student.unilag.edu.ng,+234267658617,Imo,true
+aQf/30991/02,Musa Balogun,University of Nigeria Nsukka (UNN),science,n/a,B.Ed,100L,UTME ,1997/01/06,04.10.2018,2.84,musa.balogun@oauife.edu.ng,31069033119,Kaduna,TRUE
+PWj/52072/03,Ngozi Ogundimu,Obafemi Awolowo University (OAU),EDUCATION,Dept of Economics,B.Eng,300,Post-UTME,01/09/2007,2021-09-13,3.39,ngozi.ogundimu@student.unilag.edu.ng,234-271-040-541,Ogun,No
+fCU/62425/03,Chioma Okafor,Covenant University,Science,Dept of Accounting,B.Sc.,200L,utme,11-Nov-2006,2018/11/27,1.15,?,0782 922 1699,Port Harcourt,No
+BNL/65137/03,  chidi okafor,Lagos State University (LASU),Faculty of Medicine,Dept of Physics,bsc,100,Post-UTME,1999-01-16,2023-12-27,2.19,chidi.okafor@oauife.edu.ng,,Abuja,No
+iGa/72083/01,Obinna Chukwu   ,Covenant University,MANAGEMENT SCIENCES,Dept of Electrical Engineering,bsc,400,Direct Entry,07/24/2010,07/22/2024,2.16,obinna.chukwu@oauife.edu.ng,(905) 814-7700,oyo,FALSE
+QMg/46732/01,Kunle Lawal,Obafemi Awolowo University (OAU),Science,Dept of Computer Science,B.Eng,500,utme,1998-10-16,00/00/0000,2.14,kunle.lawal@oauife.edu.ng,(352) 904-2284,Lagos,Yes
+Sag/93964/03,fatima  eze,Covenant University,ARTS,Dept of Electrical Engineering,M.Sc.,200,UTME,2000-02-09,09/04/2022,1.23,nil,0766 177 1159,Lagos,true
+Rkb/49896/04,Obinna Okeke,Obafemi Awolowo University (OAU),ENGINEERING,Dept of Accounting,B.Sc,100,direct entry,unknown date,29.05.2021,0.69,obinna.okeke@gmail.com,0493 759 7383,Akwa Ibom,no
+NEj/59209/02,Chioma Suleiman,Lagos State University (LASU),Science,Dept of Law,bsc,500,Transfer,2000-04-20,2022/06/23,2.65,chioma.suleiman@gmail.com,0422 325 3672,rivers,TRUE
+KSP/61657/02,Amaka Suleiman,Obafemi Awolowo University (OAU),medicine,Dept of Computer Science,B.Sc.,600,UTME ,04 July 2000,11/02/2020,1.37,amaka.suleiman@oauife.edu.ng,(386) 631-7797,LAGOS,FALSE
+BMN/96776/03,adaeze afolabi,Lagos State University (LASU),Social Sciences,Dept of Accounting,Ph.D,400 level,UTME ,2005-03-31,03/27/2020,3.95,adaeze.afolabi@gmail.com,0777 520 4711,Lagos,1
+JDQ/21623/03,Fatima Ajayi,Lagos State University (LASU),Medicine,Dept of Accounting,MBBS,600,UTME ,01/13/1998,2021/03/25,3.48,fatima.ajayi@gmail.com,46671168457,Kano,yes
+EOY/32874/04,Funmilayo Nwosu,Lagos State University (LASU),Medicine,Dept of Physics,MBBS,400,UTME ,01-May-1998,19-Apr-2022,NIL,funmilayo.nwosu@oauife.edu.ng,invalid,Oyo,Y
+UXc/38155/02,femi adekunle,Ahmadu Bello University (ABU),MEDICINE,Dept of Electrical Engineering,B.Sc.,300,UTME,07-Sep-2010,06-Jun-2019,3.7,Unknown,(869) 993-8677,Enugu,Yes
+hck/18932/04,  Musa Adeyemi   ,University of Lagos (UNILAG),MANAGEMENT SCIENCES,Dept of Biochemistry,Ph.D,600,Post-UTME,12 November 2003,07/25/2021,2.66,musa.adeyemi@student.unilag.edu.ng,+234142939685,Delta,false
+Hia/30746/04,Obinna Olawale,Ahmadu Bello University (ABU),Engineering,Dept of Accounting,Ph.D,200,Post-UTME,30-May-1998,16/06/2020,1.23,obinna.olawale@oauife.edu.ng,05064317139,Ogun,false
+gUh/59068/04,Halima Nnamdi,University of Nigeria Nsukka (UNN),Management Sciences,Dept of Accounting,bsc,200L,Direct Entry,20-Sep-2002,,3.4,halima.nnamdi@oauife.edu.ng,(136) 783-7770,Cross River,false
+VNX/95994/01,Zainab Okonkwo,Obafemi Awolowo University (OAU),engineering,Dept of Physics,B.Ed,400,UTME,16/06/2003,2019-04-23,1.32,zainab.okonkwo@oauife.edu.ng,02414183285,Delta,true
+WIf/12239/01,  Amaka Balogun,Lagos State University (LASU),Science,Dept of Electrical Engineering,MBBS,500,direct entry,12/16/2009,2021-01-27,3.06,amaka.balogun@gmail.com,0000000000,Imo,Yes
+GEg/68171/01,Kemi Okafor,Obafemi Awolowo University (OAU),Social Sciences,Dept of Economics,LLB,100L,UTME,2008-06-20,2019-03-03,1.56,kemi.okafor@oauife.edu.ng,64746872343,Kaduna,0
+KWk/66561/04,Ibrahim Yusuf,University of Lagos (UNILAG),Social Sciences,Dept of Physics,bsc,200L,Direct Entry,31 August 1995,28 November 2023,1.2,NULL,05299124190,Ogun,yes
+AOa/80283/01,Segun Abubakar,University of Lagos (UNILAG),Social Sciences,Dept of Physics,B.Sc.,200,UTME,05/05/2000,2019-04-26,1.54,segun.abubakar@gmail.com,+234010310518,Ogun,1
+HEW/13082/03,Chidi Okeke,University of Nigeria Nsukka (UNN),SOCIAL SCIENCES,Dept of Electrical Engineering,B.Sc,200L,direct entry,31-Mar-1998,,--,chidi.okeke@gmail.com,(079) 252-4191,Edo,1
+ANL/34534/01,Femi Nwosu,Covenant University,science,Dept of Law,B.Sc,level 300,UTME,2004-07-12,30-Oct-2019,4.8,Unknown,,Delta,0
+FUF/96789/03,Ifeoma Eze,Ahmadu Bello University (ABU),Law,Dept of Biochemistry,B.Sc,500,Direct Entry,02/26/1997,04.08.2019,2.86,NULL,+234454443283,Oyo,0
+GSO/69717/03,Bola Adekunle,University of Nigeria Nsukka (UNN),MANAGEMENT SCIENCES,Dept of Physics,LLB,100L,Transfer,10.07.2009,2024/02/23,3.36,bola.adekunle@student.unilag.edu.ng,06200342442,Kaduna,true
+LhM/86344/04,Kemi Balogun,Covenant University,MEDICINE,-,Ph.D,500,Transfer,00/00/0000,09 April 2022,2.54,unknown,71208267734,Enugu,1
+JWf/14050/02,Kemi Nnamdi,Covenant University,SCIENCE,Dept of Law,B.A.,400,utme,1999-12-10,2023/04/08,3.47,kemi.nnamdi@oauife.edu.ng,+234511615594,Oyo,no
+eFb/99491/01,Segun Nwosu,University of Nigeria Nsukka (UNN),Management Sciences,Dept of Electrical Engineering,Bsc,300,UTME,2002-11-17,02 March 2019,unknown,?,(426) 265-5110,Oyo,yes
+dTf/43411/03,Musa Bello,Lagos State University (LASU),EDUCATION,Dept of Electrical Engineering,B.A.,level 300,Direct Entry,30.05.2007,2018-09-16,4.02,musa.bello@oauife.edu.ng,(292) 185-1569,Edo,no
+QHC/19552/04,Tunde Okonkwo,Lagos State University (LASU),Management Sciences,Dept of Accounting,M.Sc.,600,UTME,11-Jun-1996,2023/05/18,0.78,tunde.okonkwo@student.unilag.edu.ng,14893252880,oyo,1
+AhO/36546/03,Kunle Eze,University of Nigeria Nsukka (UNN),law,-,bsc,200,Transfer,09 October 2007,26 October 2023,4.61,kunle.eze@student.unilag.edu.ng,+234363495788,Oyo,Y
+Tkb/17798/02,Yusuf Okeke,Covenant University,Arts,Dept of Law,Bsc,600,direct entry,22.10.2002,2021/02/27,3.43,yusuf.okeke@student.unilag.edu.ng,08993588916,Edo,FALSE
+FJT/19606/02,Tobi Okafor,Covenant University,Arts,Dept of Law,B.Sc,100L,utme,1997/02/26,25/03/2024,1.11,tobi.okafor@gmail.com,0588 425 2410,Delta,0
+TKd/81667/02,Yusuf Afolabi,University of Nigeria Nsukka (UNN),education,Dept of Physics,B.Sc,400 level,Post-UTME,13-Mar-1999,10/16/2019,4.61,yusuf.afolabi@oauife.edu.ng,0727 743 4873,oyo,TRUE
+ZbP/47547/02,Tunde Yusuf,Obafemi Awolowo University (OAU),Law,Dept of Electrical Engineering,LLB,400 level,utme,21/11/2003,07.03.2024,3.15,tunde.yusuf@student.unilag.edu.ng,06218518888,Imo,false
+WZK/49305/04,Femi Okonkwo,University of Lagos (UNILAG),ENGINEERING,Dept of Computer Science,M.Sc.,300,Direct Entry,20/05/1997,06 October 2018,2.9,femi.okonkwo@student.unilag.edu.ng,63735160917,Enugu,1
+CWY/98974/04,Chinedu Mohammed,Ahmadu Bello University (ABU),Education,Dept of Law,bsc,500,direct entry,23.01.1996,23 October 2018,0.5,chinedu.mohammed@oauife.edu.ng,(690) 295-9391,Cross River,0
+dEU/37899/01,Halima Abubakar,Obafemi Awolowo University (OAU),social sciences,Dept of Electrical Engineering,LLB,100,direct entry,12 August 1995,29 August 2019,2.24,halima.abubakar@gmail.com,(263) 689-7028,Edo,Y
+LdE/79252/04,Fatima Nwosu,University of Nigeria Nsukka (UNN),Engr,Dept of Law,Bsc,100,utme,2000/01/08,13 May 2024,2.07,fatima.nwosu@gmail.com,05905992937,Akwa Ibom,true
+ZIb/44900/02,Yusuf  Balogun,University of Lagos (UNILAG),Arts,Dept of Physics,B.Eng,600,Transfer,15/04/2001,2020-04-15,0.91,yusuf.balogun@oauife.edu.ng,234-401-051-238,Enugu,TRUE
+OED/11274/04,Femi Adeyemi,Obafemi Awolowo University (OAU),Social Sciences,Dept of Accounting,B.A.,100,Transfer,10/06/2009,09-Oct-2022,?,femi.adeyemi@gmail.com,06887676772,Anambra,yes
+HAQ/47108/01,Blessing Afolabi,Ahmadu Bello University (ABU),Engineering,Dept of Economics,B.A.,100L,Transfer,12.06.1999,2020/12/21,4.04,blessing.afolabi@student.unilag.edu.ng,0866 934 6547,Anambra,no
+NTg/87748/02,bisi okonkwo,University of Nigeria Nsukka (UNN),Social Sciences,Dept of Accounting,M.Sc.,400 level,direct entry,07-Feb-1998,21-Sep-2019,1.96,bisi.okonkwo@gmail.com,234-059-325-250,Abuja,FALSE
+XiP/39479/02,ifeoma mohammed,University of Lagos (UNILAG),Medicine,Dept of Accounting,Bsc,level 300,utme,2003-03-15,2020-10-04,3.5,ifeoma.mohammed@oauife.edu.ng,71293870051,Ogun,true
+ZSQ/15232/02,Zainab Ajayi,Obafemi Awolowo University (OAU),education,Dept of Electrical Engineering,M.Sc.,100L,direct entry,20-Sep-1999,28.02.2020,3.04,zainab.ajayi@student.unilag.edu.ng,+234908272318,Ogun,false
+gKT/88230/02,Tunde Afolabi,Lagos State University (LASU),Management Sciences,Dept of Physics,Bsc,600,direct entry,20/04/2008,28.02.2023,0.63,tunde.afolabi@oauife.edu.ng,07143455812,Edo,Y
+YUQ/27040/04,CHINEDU  ABUBAKAR,Obafemi Awolowo University (OAU),Engineering,Dept of Accounting,M.Sc.,400,direct entry,2006-01-23,26/06/2019,nil,chinedu.abubakar@student.unilag.edu.ng,0078 361 3407,Akwa Ibom,true
+dAi/65428/03,Femi Mohammed,Obafemi Awolowo University (OAU),Management Sciences,Dept of Law,M.Sc.,100,Direct Entry,26 March 2000,2020/12/14,2.59,femi.mohammed@student.unilag.edu.ng,234-484-229-405,Oyo,true
+AJH/21584/04,  adaeze chukwu,Covenant University,LAW,Dept of Electrical Engineering,B.Ed,600,direct entry,13 June 2006,23 April 2023,1.64,adaeze.chukwu@gmail.com,(517) 133-9596,Plateau,FALSE
+QRD/84996/01,Halima Okafor,University of Nigeria Nsukka (UNN),MEDICINE,Dept of Biochemistry,B.Ed,300,utme,2003/12/07,13.01.2024,0.7,NIL,77387214895,Rivers,Y
+Sdh/53077/03,Ifeoma Mohammed,Covenant University,Social Sciences,unknown,LLB,400,Transfer,2006/05/19,28-Mar-2019,1.66,ifeoma.mohammed@gmail.com,0168 942 1044,Anambra,false
+WBV/61023/04,Bola Okonkwo,Covenant University,Engr,Dept of Law,B.A.,400,direct entry,10.05.1999,30.08.2024,2.65,bola.okonkwo@oauife.edu.ng,03556909275,Lagos,FALSE
+dCM/49094/02,Chidi Okeke,Ahmadu Bello University (ABU),Arts,Dept of Electrical Engineering,B.Eng,level 300,UTME ,unknown date,13/06/2024,1.37,chidi.okeke@gmail.com,+234223943129,Kaduna,No
+GNC/28423/01,Amaka Nnamdi   ,Covenant University,LAW,Dept of Accounting,B.Ed,400,direct entry,09.02.2009,2018-12-09,4.82,amaka.nnamdi@gmail.com,0957 015 4303,Enugu,true
+Peg/45003/02,Adaeze Balogun,Obafemi Awolowo University (OAU),Management Sciences,Dept of Accounting,B.Eng,500,UTME ,2000-11-22,08/01/2024,unknown,adaeze.balogun@oauife.edu.ng,+234788191485,Kaduna,no
+fgi/13969/02,Blessing  Abubakar,Obafemi Awolowo University (OAU),Medical Sciences,Dept of Economics,bsc,400 level,Direct Entry,28/10/1995,11 December 2020,2.0,blessing.abubakar@student.unilag.edu.ng,234-629-620-153,Cross River,Y
+VDX/66401/02,Yusuf Ogundimu   ,Lagos State University (LASU),SCIENCE,nil,B.A.,400 level,Direct Entry,03.01.1995,19 February 2023,1.68,yusuf.ogundimu@student.unilag.edu.ng,07982708086,Ogun,N
+KEF/33170/02,Grace Suleiman,Covenant University,SCIENCE,Dept of Computer Science,bsc,300,direct entry,13-Jan-2000,29-Aug-2024,3.67,grace.suleiman@student.unilag.edu.ng,(244) 720-9993,Kaduna,yes
+Xke/38207/04,Tunde  Abubakar,University of Nigeria Nsukka (UNN),Medicine,Dept of Economics,B.Eng,100,utme,28.07.2010,05/26/2021,4.1,tunde.abubakar@oauife.edu.ng,234-080-531-003,Abuja,false
+fLY/36496/03,Funmilayo Yusuf,University of Nigeria Nsukka (UNN),Arts,Dept of Electrical Engineering,B.Ed,600,direct entry,05/05/2009,06/09/2019,2.33,funmilayo.yusuf@oauife.edu.ng,(867) 533-9636,Oyo,TRUE
+iXH/33440/04,Chidi Eze,University of Nigeria Nsukka (UNN),Education,Dept of Physics,M.Sc.,100,Transfer,2010/12/20,12/23/2023,2.01,chidi.eze@gmail.com,07065627298,Delta,yes
+Ugi/12708/04,Amara Abubakar,University of Lagos (UNILAG),Law,Dept of Physics,LLB,400,Direct Entry,02/01/1997,09/11/2022,3.33,amara.abubakar@student.unilag.edu.ng,+234879374160,Akwa Ibom,TRUE
+SVZ/63234/02,Femi Eze,Lagos State University (LASU),management sciences,Dept of Physics,M.Sc.,200,utme,15/11/2006,06-Aug-2022,1.45,femi.eze@student.unilag.edu.ng,0927 503 7314,Akwa Ibom,Y
+FJT/19606/02,Tobi Okafor,Covenant University,Arts,Dept of Law,B.Sc,100L,utme,1997/02/26,25/03/2024,1.11,tobi.okafor@gmail.com,0588 425 2410,Delta,0
+DWG/18769/03,Chidi Lawal,Lagos State University (LASU),Management Sciences,Dept of Electrical Engineering,bsc,200L,direct entry,06-Dec-2005,unknown date,4.86,chidi.lawal@oauife.edu.ng,0657 661 5654,Ogun,No
+SAY/12473/01,Yusuf Okeke,Ahmadu Bello University (ABU),Social Sciences,Dept of Biochemistry,Bsc,400,direct entry,1995-06-25,2023/07/08,2.31,yusuf.okeke@student.unilag.edu.ng,234-232-812-067,Rivers,Y
+HKM/67357/01,Zainab Balogun,Covenant University,MANAGEMENT SCIENCES,Dept of Physics,MBBS,100,Transfer,1998-08-20,2018/10/26,2.84,zainab.balogun@oauife.edu.ng,40196556981,rivers,FALSE
+CBK/72707/02,Chioma Suleiman,University of Nigeria Nsukka (UNN),ENGINEERING,Dept of Computer Science,B.A.,100L,UTME ,05/02/2001,16.05.2024,3.32,N/A,09330833016,Ogun,true
+bBR/69383/03,Zainab Yusuf,Obafemi Awolowo University (OAU),management sciences,Dept of Electrical Engineering,Ph.D,100L,Transfer,12/09/2000,not set,4.71,zainab.yusuf@student.unilag.edu.ng,14890250392,Anambra,N
+ZkP/37392/03,Chioma Bello,University of Nigeria Nsukka (UNN),ENGINEERING,Dept of Computer Science,B.Eng,200L,Post-UTME,2006/06/07,30-Jul-2022,3.74,chioma.bello@student.unilag.edu.ng,234-061-632-945,Kaduna,No
+GVG/48086/04,Kunle Nnamdi,University of Lagos (UNILAG),Education,Dept of Computer Science,Bsc,level 300,Post-UTME,1996/03/24,08/13/2019,1.72,kunle.nnamdi@oauife.edu.ng,41395376724,Akwa Ibom,Y
+WUa/35032/02,Bola Okonkwo,Lagos State University (LASU),ARTS,Dept of Electrical Engineering,bsc,200,utme,00/00/0000,06-Jan-2021,4.73,bola.okonkwo@student.unilag.edu.ng,03618324210,Enugu,true
+UTc/84339/03,adaeze chukwu,Covenant University,ENGINEERING,Dept of Physics,B.Ed,400 level,UTME,10-Sep-1999,2019/07/05,  ,adaeze.chukwu@gmail.com,0184 498 9266,Plateau,yes
+Wgg/37627/03,Wale Chukwu,Lagos State University (LASU),Faculty of Engineering,Dept of Law,M.Sc.,300,Transfer,16 March 1995,2021/10/09,4.92,wale.chukwu@student.unilag.edu.ng,234-697-848-018,Imo,1
+BDE/92853/04,Ngozi  Okafor,Obafemi Awolowo University (OAU),ENGINEERING,Dept of Economics,B.Eng,200L,Direct Entry,01 January 1995,2024/03/28,3.7,N/A,82586736226,Imo,TRUE
+QGH/61761/02,Chidi Adekunle,Lagos State University (LASU),management sciences,Dept of Physics,M.Sc.,level 300,UTME,21/05/2001,17/11/2021,4.35,NIL,+234588424745,Enugu,FALSE
+fPZ/77931/02,Wale Eze,University of Lagos (UNILAG),Education,Dept of Electrical Engineering,MBBS,level 300,Direct Entry,12.01.2004,05/09/2019,4.37,wale.eze@oauife.edu.ng,0296 685 1612,Edo,true
+BkV/44214/03,Grace Ogundimu,University of Nigeria Nsukka (UNN),education,Dept of Biochemistry,B.A.,300,utme,02.07.2001,28-Jan-2023,?,grace.ogundimu@student.unilag.edu.ng,234-283-644-089,Kano,FALSE
+FSD/40832/03,Chioma Eze,Covenant University,Science,Dept of Economics,B.A.,400 level,UTME ,01.04.1999,24-Dec-2021,2.18,chioma.eze@gmail.com,234-589-113-529,Enugu,FALSE
+efk/73829/02,Fatima Adekunle,Ahmadu Bello University (ABU),Science,Dept of Economics,B.A.,400,Transfer,2009-04-23,2023-07-11,0.8,fatima.adekunle@student.unilag.edu.ng,0063 565 1269,Cross River,false
+fia/57229/04,  yusuf okeke,University of Nigeria Nsukka (UNN),management sciences,Dept of Physics,Bsc,300,UTME,23.07.2001,07/25/2022,1.16,yusuf.okeke@gmail.com,(159) 696-6416,Rivers,N
+ACG/77463/01,Femi Nnamdi,University of Nigeria Nsukka (UNN),engineering,Dept of Law,B.Eng,level 300,UTME,2000-02-24,2022-05-18,4.46,femi.nnamdi@gmail.com,0265 479 3564,Lagos,N
+ahi/12288/02,Ibrahim Suleiman,Ahmadu Bello University (ABU),ENGINEERING,N/A,Bsc,400,UTME,01 July 1997,00/00/0000,3.58,ibrahim.suleiman@student.unilag.edu.ng,08175496513,Ogun,TRUE
+LAJ/69975/03,BISI AFOLABI,Covenant University,Medicine,Dept of Biochemistry,B.Ed,200,UTME,22.05.2000,2021/04/03,2.39,bisi.afolabi@student.unilag.edu.ng,+234233095849,Abuja,FALSE
+LDh/42960/02,yusuf chukwu,University of Lagos (UNILAG),MANAGEMENT SCIENCES,Dept of Economics,MBBS,100,UTME,,11/01/2020,1.65,yusuf.chukwu@gmail.com,+234650618091,Akwa Ibom,FALSE
+KGF/89026/02,FATIMA CHUKWU,Covenant University,MANAGEMENT SCIENCES,Dept of Electrical Engineering,B.Ed,level 300,UTME ,31-May-2005,07/22/2019,0.55,fatima.chukwu@gmail.com,(067) 240-0499,Lagos,Y
+OdH/25765/03,kemi balogun,Lagos State University (LASU),Social Sciences,Dept of Economics,bsc,400,Direct Entry,03/09/2007,12/14/2018,1.07,kemi.balogun@oauife.edu.ng,(154) 516-8087,Akwa Ibom,TRUE
+jAh/68645/02,musa abubakar,Lagos State University (LASU),Medicine,Dept of Economics,Ph.D,400,Post-UTME,2000/06/06,19/12/2019,1.87,musa.abubakar@oauife.edu.ng,,Anambra,no
+NKU/64278/02,Blessing Lawal,Ahmadu Bello University (ABU),Medicine,Dept of Biochemistry,MBBS,200,utme,31/07/2004,14 February 2023,3.36,blessing.lawal@gmail.com,+234137215107,Rivers,No
+VAN/38548/01,YUSUF BALOGUN,Covenant University,Faculty of Engineering,Dept of Law,B.Sc,200,UTME ,not set,30.04.2020,2.12,yusuf.balogun@student.unilag.edu.ng,05743748969,Lagos,No
+cCV/99817/01,Ifeoma Okafor,Ahmadu Bello University (ABU),Law,Dept of Biochemistry,M.Sc.,100L,direct entry,2003-12-22,27-Jul-2019,4.66,ifeoma.okafor@student.unilag.edu.ng,(169) 797-2965,Oyo,1
+eAj/66392/01,Halima Ajayi,Lagos State University (LASU),MANAGEMENT SCIENCES,Dept of Economics,B.Eng,600,UTME ,2009-01-31,13-Jun-2022,3.55,Unknown,00603850506,Imo,N
+Lhg/16471/02,OBINNA OKAFOR   ,University of Lagos (UNILAG),Management Sciences,Unknown,MBBS,200L,utme,16/09/2007,05 June 2020,1.45,obinna.okafor@gmail.com,61797968868,Delta,false
+TKk/59194/01,Aliyu Mohammed,University of Lagos (UNILAG),Medicine,Dept of Accounting,MBBS,400,Direct Entry,31.10.2009,23-Oct-2022,0.72,aliyu.mohammed@student.unilag.edu.ng,(801) 624-5650,Rivers,yes
+aYY/49258/03,Ngozi Adeyemi,Obafemi Awolowo University (OAU),LAW,Dept of Law,M.Sc.,500,utme,10/09/2001,15-Oct-2022,1.02,ngozi.adeyemi@oauife.edu.ng,+234137506068,Delta,Y
+WNP/29445/02,Musa Okonkwo,Lagos State University (LASU),Education,Dept of Biochemistry,B.Sc.,500,Transfer,1997/11/13,10.07.2022,3.74,musa.okonkwo@oauife.edu.ng,0180 552 6965,Abuja,Yes
+IGP/58880/02,  Wale Mohammed   ,University of Lagos (UNILAG),Law,Dept of Law,Ph.D,100,Post-UTME,04/11/2004,17.02.2020,2.74,wale.mohammed@oauife.edu.ng,(759) 017-5186,Abuja,N
+dYU/67486/02,Chidi Okonkwo,Lagos State University (LASU),ARTS,Dept of Electrical Engineering,B.A.,400,Transfer,24/04/2008,02 October 2018,3.17,chidi.okonkwo@oauife.edu.ng,+234079911838,rivers,1
+THZ/84630/02,Sadiq Yusuf,Obafemi Awolowo University (OAU),law,Dept of Physics,B.Eng,500,UTME ,08/20/1996,2021-07-21,4.06,nil,51802380617,Plateau,TRUE
+IPX/43828/04,Bisi Olawale,Obafemi Awolowo University (OAU),LAW,Dept of Physics,MBBS,600,Post-UTME,25/08/2008,2024-05-06,0.63,bisi.olawale@oauife.edu.ng,86101581995,Imo,true
+cIU/65358/03,Yusuf Lawal,Lagos State University (LASU),Education,Dept of Physics,B.Sc.,300,Transfer,27-Nov-2010,2023-02-15,4.38,yusuf.lawal@student.unilag.edu.ng,234-486-874-034,Imo,N
+SBj/99527/04,Grace Yusuf,Obafemi Awolowo University (OAU),ARTS,Dept of Electrical Engineering,B.Sc,600,Direct Entry,1998-12-13,30/10/2021,0.95,grace.yusuf@gmail.com,234-139-837-354,Plateau,1
+YfH/76278/02,Obinna Bello,Obafemi Awolowo University (OAU),Arts,,B.Ed,200,Direct Entry,1996-01-09,25.10.2023,2.8,obinna.bello@student.unilag.edu.ng,(271) 091-0430,Edo,Y
+MPU/16003/03,Amara Abubakar,Lagos State University (LASU),Management Sciences,Dept of Computer Science,B.A.,400 level,Direct Entry,26.02.1997,00/00/0000,2.21,  ,(424) 981-8299,Delta,false
+LCa/44481/04,Halima Abubakar,Obafemi Awolowo University (OAU),Science,Dept of Accounting,bsc,300,Transfer,2007-07-05,02-Mar-2024,3.25,halima.abubakar@oauife.edu.ng,234-640-052-427,FCT,1
+ZLA/58504/03,Funmilayo Eze,Covenant University,SCIENCE,Dept of Biochemistry,B.A.,600,UTME,02/04/2005,2018/11/09,4.26,,0965 610 1438,Imo,no
+Cac/23325/02,Sadiq Eze,Ahmadu Bello University (ABU),Social Sciences,Dept of Electrical Engineering,B.Eng,200L,Transfer,22-Nov-1996,2023/11/12,1.38,sadiq.eze@student.unilag.edu.ng,(693) 785-4777,Akwa Ibom,TRUE

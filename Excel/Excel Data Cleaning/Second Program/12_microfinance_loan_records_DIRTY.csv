@@ -1,0 +1,437 @@
+LoanID,BorrowerName,BorrowerPhone,Gender,LoanPurpose,PrincipalAmount,InterestRate_pct,DisbursementDate,MaturityDate,AmountRepaid,LoanStatus,CollateralType,LoanOfficer,State,NPL_Flag
+MFL900025,Grace Okonkwo,+234544964759,male,Agricultural Input,"₦1,344,958.72",27.2,19/12/2024,24-Mar-2025,"N1,423,460",DEFAULTED,Vehicle,Grace Yusuf,Port Harcourt,false
+MFL900167,Amara Yusuf,0717 320 3093,Female,Home Renovation,"NGN 4,174,671",30.86,08/29/2023,20 March 2024,"NGN 546,843",Fully Repaid,Land Title,Emeka Nnamdi,Rivers,TRUE
+MFL900104,Bisi Nnamdi,01455616814,Male,Medical Bills,"N543,663",NIL,2022/07/28,not set,"NGN 59,873",active,guarantor,Wale Adekunle,Abuja,Yes
+MFL900209,Kemi Bello,+234028140693,F,Medical Bills,1947447.08 naira,8.35,29-Jul-2024,30-Apr-2025,"N370,081",Defaulted,Land title,Sadiq Abubakar,Kano,1
+MFL900130,Amaka Lawal,39382761539,Male,  SCHOOL FEES,"NGN 1,889,374",4.63,unknown date,24 September 2024,809733.49,Fully repaid,  ,Bola Nwosu,Rivers,TRUE
+MFL900066,Chinedu Adekunle,+234060480589,Male,Medical Bills,"NGN 1,569,379",33.49,21-Jan-2024,05/21/2025,"N366,001",Active,Land title,Bola Afolabi,Ogun,Yes
+MFL900033,Emeka Lawal,80774064930,male,Medical Bills,"N4,926,477",28.75,2022-01-11,2023/10/03,"₦1,856,642.47",Active,guarantor,Amara Balogun,Oyo,Yes
+MFL900035,Ifeoma Yusuf,+234416389448,Female,  Agricultural Input,"NGN 2,848,432",12.72,28-Oct-2022,30 December 2023,?,Active,Land title,Grace Eze,Enugu,Yes
+MFL900016,Emeka Afolabi,,Male,Medical ,"NGN 2,383,350",10.96,20/11/2023,17 February 2025,874146.27 naira,Defaulted,Shop Stock,FATIMA CHUKWU,Ibadan,No
+MFL900014,Obinna Bello   ,0678 085 6271,Female,SCHOOL FEES,2274248.21,25.72,2023-09-13,28 July 2024,689500.04,Written Off,N/A,emeka yusuf,Kano,true
+MFL900046,Adaeze Ajayi,(812) 735-8573,F,Medical ,"N4,466,274",4.25,21.11.2022,28 June 2023,"N1,625,589",Fully Repaid,Land Title,Blessing Suleiman,Cross River,Yes
+MFL900370,Musa Ogundimu,+234735058319,Female,School Fees   ,4171522.25 naira,18.74,02 December 2024,15 November 2025,"N1,307,127",Fully Repaid,Guarantor,Obinna Abubakar,Edo,false
+MFL900091,Chidi Ajayi,99880817703,M,Medical Bills,"N1,915,369",4.2,10/09/2022,23.09.2023,"₦188,655.94",Fully Repaid,n/a,ifeoma okeke,Rivers,TRUE
+MFL900100,ADAEZE OKEKE,03397767199,F,Home Renovation,"1,175,693.20 ",29.96,2022/03/31,2023-07-05,"NGN 1,026,779",Defaulted,Land title,femi okeke,Akwa Ibom,1
+MFL900282,ifeoma abubakar,08005375990,M,Medical Bills,"N3,841,414",30.72,2023/04/29,2023-11-08,"₦2,781,261.04",Fully repaid,N/A,ibrahim balogun,Delta,Yes
+MFL900158,Femi Bello,234-269-212-447,male,  School Fees,1915508.43 naira,25.97,2022-11-05,09 March 2024,"NGN 1,731,951",Written Off,Guarantor,Chidi Yusuf,Ogun,FALSE
+MFL900128,Tunde Nnamdi,+234772459928,F,  Business Expansion,"₦2,581,680.72",15.84,29 July 2024,12 December 2024,"N1,413,774",Defaulted,Land Title,Obinna Afolabi,Cross River,yes
+MFL900068,Obinna  Eze   ,03646225179,male,  School Fees   ,2154592.03,8.69,01-Feb-2024,16/02/2025,583263.77 naira,Written Off,Guarantor,Halima Eze,Edo,no
+MFL900384,Ifeoma Afolabi,234-950-033-423,M,Business Expansion,3486756.52,35.0,2023-02-23,03/09/2024,"1,411,198.82 ",DEFAULTED,Vehicle,Aliyu Balogun,Plateau,TRUE
+MFL900081,wale nnamdi   ,234-084-325-621,female,  Business Expansion,"N2,009,346",  ,2023-05-25,09-Apr-2025,N/A,Fully Repaid,  ,chidi adeyemi,Ogun,TRUE
+MFL900391,Ifeoma Olawale,0255 877 7496,M,Equipment Purchase,4968411.26 naira,5.86,28.03.2024,13 May 2025,556375.36 naira,Active,None,Chidi Okeke,Edo,true
+MFL900345,Aliyu Nwosu,82043397189,female,  Petty Trading,3308100.14,20.91,26-Mar-2024,10/30/2024,"₦3,486,769.50",Written Off,NONE,AMAKA NNAMDI,Plateau,false
+MFL900211,Ifeoma Olawale,234-187-186-375,Male,Petty Trading,1040073.24 naira,16.8,24-Oct-2022,2024-05-21,"NGN 95,883",Defaulted,NONE,amara okafor,Cross River,TRUE
+MFL900073,Wale  Adekunle,(703) 352-1103,F,SCHOOL FEES   ,"2,258,036.50 ",3.48,2022/08/22,2024/08/06,"NGN 1,767,220",Fully Repaid,Shop Stock,Zainab Ajayi,Ogun,TRUE
+MFL900113,Zainab Ajayi,0495 880 3955,male,Medical Bills,"4,589,980.87 ",18.8,2022-04-14,2023/06/25,"₦3,865,437.09",Defaulted,Vehicle,OBINNA OKONKWO,Rivers,FALSE
+MFL900295,SADIQ MOHAMMED,+234326642147,Male,Petty  Trading,"N4,251,582",20.14,,03/22/2024,"NGN 602,013",DEFAULTED,Shop Stock,tunde abubakar,Port Harcourt,No
+MFL900079,Funmilayo Suleiman,87800384576,Male,Medical Bills,973572.82 naira,11.2,01-Jan-2022,16/03/2023,"983,489.34 ",DEFAULTED,?,Aliyu Bello,Delta,false
+MFL900271,aliyu olawale,76561248156,male,Equipment Purchase,464186.38 naira,16.23,2022-10-16,2024-03-16,"₦3,783.08",Active,NONE,Funmilayo Nnamdi,Enugu,TRUE
+MFL900005,Bola Mohammed,09376904268,Female,School Fees,unknown,25.82,15.08.2023,24-Sep-2024,3507265.51 naira,Overdue,None,segun balogun,Enugu,N
+MFL900266,Ngozi Yusuf,0123 476 4907,M,Business Expansion,1600300.09,23.59,18-Nov-2023,06 November 2025,1401484.84,Written Off,,EMEKA BELLO,Anambra,true
+MFL900099,Wale Nnamdi,0094 077 7809,male,  Petty Trading   ,75031.49,5.94,,13/11/2024,"N42,932",Overdue,Land Title,tobi balogun,Enugu,No
+MFL900276,Ngozi Ajayi,(931) 734-2069,F,Medical Bills,  ,19.53,2024/12/06,2025-08-15,"₦869,305.15",Written Off,Land title,HALIMA ABUBAKAR,Delta,N
+MFL900162,sadiq ajayi,234-011-947-072,male,Agricultural Input,unknown,16.31,08-Dec-2023,10/04/2025,"N2,482,369",Overdue,Vehicle,GRACE ADEYEMI,Edo,N
+MFL900399,Chioma Bello,06690782633,female,SCHOOL FEES,"2,125,787.51 ",6.45,30-Jul-2022,11/20/2022,"₦1,624,637.54",Fully Repaid,Land title,GRACE BELLO,Cross River,1
+MFL900205,Fatima Chukwu,234-310-592-745,Female,School Fees,"NGN 409,863",18.85,10/25/2022,unknown date,4348.98,Fully Repaid,Guarantor,EMEKA ADEYEMI,Kaduna,No
+MFL900120,Adaeze Chukwu,234-943-533-448,Female,Business  Expansion,"4,871,836.16 ",9.16,31-Jul-2023,unknown date,"NGN 1,959,436",Overdue,NONE,Amara Adekunle,Cross River,0
+MFL900048,Tobi Nwosu,0392 855 7498,F,Medical  ,"N3,423,736",3.02,12/25/2024,2026-02-13,"2,423,677.46 ",DEFAULTED,None,Halima Bello,Enugu,N
+MFL900152,amaka okafor,(747) 836-6742,F,Agricultural Input,1581054.24,13.08,2022/04/30,2023/08/31,"₦232,291.24",Written Off,Vehicle,TOBI OKONKWO,Rivers,1
+MFL900041,   Yusuf Abubakar,N/A,female,  School Fees,"NGN 4,773,257",13.37,2022/07/02,12-Feb-2023,3753740.54 naira,Fully repaid,NONE,FATIMA OGUNDIMU,Edo,TRUE
+MFL900208,  Bola Ogundimu,234-547-492-975,female,business,"N3,877,162",N/A,2023-07-28,31 December 2024,"₦156,429.20",Defaulted,Land title,Bola Yusuf,Kaduna,false
+MFL900047,CHIOMA  OGUNDIMU,234-524-077-848,F,School Fees   ,Unknown,8.91,22.06.2024,22-Dec-2024,1789073.22 naira,Defaulted,Vehicle,Amara Abubakar,Plateau,Yes
+MFL900418,Yusuf Nnamdi,(912) 418-6210,Female,SCHOOL FEES,215545.65 naira,20.92,07.07.2023,05/15/2025,"NGN 166,143",Fully repaid,,BLESSING MOHAMMED,Anambra,N
+MFL900139,Amara Afolabi,02422010276,Female,Medical     ,234597.16,3.34,09/28/2022,04-May-2023,"NGN 77,874",Written Off,guarantor,MUSA BELLO,Ogun,no
+MFL900416,Bisi Adekunle,+234600412577,F,Medical Bills,,28.98,2024-04-17,01 September 2025,NIL,Fully Repaid,None,Obinna Okeke,Cross River,false
+MFL900222,Tunde Yusuf,+234818321928,M,business   ,"NGN 3,612,987",7.61,09 July 2023,2024/05/08,"2,312,583.93 ",Fully repaid,Land Title,chidi okafor,Anambra,0
+MFL900195,Wale Okonkwo,05790552818,Female,Business Expansion,"NGN 478,996",5.96,21.10.2022,02.05.2024,463130.31,DEFAULTED,None,Adaeze Yusuf,Imo,Y
+MFL900333,Sadiq Adeyemi,234-712-661-106,male,Agricultural Input,"₦3,336,778.16",8.27,2024/12/03,2025-09-25,"NGN 241,049",active,Shop Stock,AMARA NNAMDI,rivers,No
+MFL900020,Bola Okeke,04489061203,male,business,"1,512,894.38 ",n/a,02/06/2023,06/25/2024,773626.45,Fully Repaid,Shop Stock,Bola Olawale,FCT,TRUE
+MFL900046,Adaeze Ajayi,(812) 735-8573,F,Medical ,"N4,466,274",4.25,21.11.2022,28 June 2023,"N1,625,589",Fully Repaid,Land Title,Blessing Suleiman,Cross River,Yes
+MFL900378,Musa Balogun,234-274-954-508,M,Medical  Bills,"N1,579,200",n/a,07/08/2023,18.02.2024,1078746.64,Active,Shop Stock,funmilayo ajayi,Plateau,FALSE
+MFL900161,Halima Eze,N/A,female,Business Expansion,"N936,750",20.64,2022-02-07,2023/11/16,260350.04,Written Off,unknown,Kunle Chukwu,Lagos,true
+MFL900038,Amara Yusuf,04427031207,Male,Medical  Bills,"3,897,232.13 ",16.16,31-May-2023,12/03/2024,"₦638,550.74",Written Off,  ,fatima ajayi,Akwa Ibom,Yes
+MFL900184,yusuf okonkwo,09706239726,female,Equipment  Purchase,"988,057.47 ",28.7,03.08.2024,31-Jan-2025,711187.31,Overdue,Land Title,Femi Balogun,LAGOS,N
+MFL900415,blessing nnamdi,234-380-701-765,Male,Equipment Purchase,"NGN 2,444,595",8.71,22.06.2023,2025-03-22,,Fully repaid,Land title,ibrahim lawal,Anambra,No
+MFL900230,CHIDI ADEKUNLE,01193932501,M,business,3456661.33,8.71,26 March 2022,,"N1,960,928",active,Land title,KEMI AFOLABI,Delta,true
+MFL900156,BISI EZE,06181753443,male,  Medical Bills,n/a,11.18,29.12.2022,09-May-2024,"NGN 1,397,933",Active,NONE,obinna lawal,Edo,Yes
+MFL900090,  Tobi Olawale,(573) 660-9656,female,Equipment Purchase,"N3,537,655",21.23,22.03.2023,23/09/2024,"NGN 60,588",Fully repaid,Land title,NGOZI LAWAL,Akwa Ibom,0
+MFL900190,Bisi Mohammed,0686 717 7318,Female,business,4776977.62,31.06,17 February 2022,,2020333.86 naira,Fully repaid,None,Amaka Balogun,Akwa Ibom,TRUE
+MFL900138,Halima Okeke,+234832723865,Female,School Fees,3361588.90 naira,n/a,24-Mar-2023,31-Jan-2025,"NGN 2,849,252",Fully repaid,Shop Stock,zainab afolabi,Delta,FALSE
+MFL900188,Chidi Nnamdi,+234774063356,F,Medical ,1538838.9,4.66,2022-06-25,2023-12-14,967019.70 naira,Active,?,halima afolabi,Enugu,Y
+MFL900186,  grace chukwu,234-217-762-534,female,  SCHOOL FEES,161889.53,25.26,09/02/2024,01/30/2026,"₦74,911.61",Fully Repaid,guarantor,Femi Okeke,Fct Abuja,TRUE
+MFL900055,Fatima Afolabi,06509480141,M,Home Renovation,"NGN 77,570",14.22,05/22/2022,21.03.2023,"N2,883",active,NONE,Grace Ogundimu,Oyo,Y
+MFL900108,Adaeze Nwosu,72934301071,female,Medical Bills,"N2,756,340",26.67,2022-05-01,13/10/2022,"₦1,447,769.46",Overdue,Land title,sadiq okonkwo,LAGOS,Yes
+MFL900217,Yusuf Okonkwo,234-494-787-300,Female,  Medical ,"₦4,801,161.12",30.87,2022-07-31,05/29/2024,"NGN 3,142,475",Active,Vehicle,BOLA ADEYEMI,Kaduna,true
+MFL900236,Tobi Nwosu,+234479473864,M,Home Renovation,"₦3,603,918.33",22.51,03-Mar-2022,29-Dec-2022,"N2,723,335",Fully Repaid,guarantor,BLESSING ABUBAKAR,Oyo,TRUE
+MFL900012,Fatima Adekunle,79080759579,Female,School Fees   ,"NGN 3,669,700",25.57,27.05.2023,2023-10-11,"NGN 536,724",Written Off,NONE,Tobi Adekunle,Kano,Y
+MFL900342,Bola Suleiman,01996636580,M,SCHOOL FEES,null,Unknown,19 March 2022,10 February 2024,"N200,375",active,Guarantor,Zainab Nwosu,Enugu,1
+MFL900385,Sadiq Mohammed,0258 323 0241,F,Medical Bills,--,7.1,2022/12/10,02/12/2024,4238026.05,Written Off,Guarantor,Fatima Olawale,Kano,Yes
+MFL900207,Wale Eze,+234106727520,male,Petty  Trading,"NGN 1,271,570",14.12,2023/10/18,not set,1041296.65 naira,active,null,Kunle Yusuf,Plateau,no
+MFL900235,Chinedu Lawal,82754801571,male,SCHOOL FEES,2910508.15 naira,34.75,04/03/2024,12/15/2024,2869600.65 naira,Overdue,Guarantor,Amaka Yusuf,Rivers State,Y
+MFL900364,Aliyu Okafor   ,+234921921249,female,Equipment Purchase,651714.5,28.73,03/03/2024,,"NGN 294,694",Fully Repaid,None,Tunde Adeyemi,Imo,Yes
+MFL900358,Wale Suleiman,invalid,Male,Home Renovation   ,"1,437,965.24 ",10.56,21.12.2022,27 October 2023,"₦1,226,496.73",active,Land Title,ngozi lawal,Kaduna,0
+MFL900143,emeka okafor   ,0519 712 8478,F,Petty Trading   ,"₦4,957,957.23",10.11,01.04.2024,02/07/2026,null,Fully repaid,n/a,Wale Nwosu,Anambra,yes
+MFL900070,Femi Okafor,0376 938 9833,M,Equipment Purchase,"NGN 3,000,993",NULL,2024/05/22,02/11/2025,"₦675,277.80",DEFAULTED,NONE,Tunde Yusuf,Edo,FALSE
+MFL900286,  grace okeke,(449) 485-6257,Male,   Equipment Purchase   ,"₦1,974,442.22",27.0,22/08/2024,07 August 2025,"₦750,119.44",DEFAULTED,Land Title,Bisi Yusuf,Edo,0
+MFL900226,Amara Nwosu,01207545279,Male,Medical ,3091890.00 naira,Unknown,08-Feb-2022,2023-01-01,"NGN 2,585,698",Written Off,Land Title,Chidi Afolabi,Lagos State,Y
+MFL900121,Chidi Olawale,+234142241098,F,Petty Trading,"NGN 3,574,926",26.78,02-Apr-2024,21/02/2026,3894527.82 naira,DEFAULTED,-,IBRAHIM CHUKWU,Plateau,Yes
+MFL900229,Femi Nwosu,234-089-071-401,Male,business,"NGN 3,501,799",4.36,20 December 2022,20 January 2024,649829.25,Active,Vehicle,ibrahim suleiman,Kano,1
+MFL900133,Ngozi Ogundimu,09196570132,F,Petty Trading,445519.47 naira,22.86,17.09.2024,08/09/2025,377595.73,DEFAULTED,N/A,grace bello,KANO,true
+MFL900238,Wale Mohammed,01126691215,M,Business  Expansion,3269932.36 naira,11.34,30-Jul-2022,20/11/2023,2778261.00 naira,Active,  ,Femi Adeyemi,Imo,No
+MFL900321,aliyu afolabi,05213760375,male,Medical Bills,3366896.05 naira,  ,2022/08/02,01/21/2023,"₦1,584,794.66",Fully Repaid,Land Title,Grace Suleiman,Delta,Yes
+MFL900148,Chinedu Yusuf,(144) 294-4401,male,Medical    ,"1,507,416.83 ",-,19-Feb-2023,2024/03/11,"NGN 1,500,374",Fully repaid,Shop Stock,blessing lawal,Plateau,Y
+MFL900054,Tunde Balogun,234-910-371-705,Male,Medical  Bills   ,"₦2,535,054.26",13.05,13 August 2023,05/11/2024,"₦1,713,242.35",active,Vehicle,Amaka Eze,Akwa Ibom,no
+MFL900075,Obinna Olawale,+234338848792,Female,Equipment Purchase,4068757.91,11.56,20 December 2022,2023/05/22,"209,559.59 ",DEFAULTED,Vehicle,Aliyu Suleiman,Port Harcourt,FALSE
+MFL900320,musa mohammed,+234352478712,Male,Equipment Purchase,1580066.55 naira,-,26-Dec-2023,29.11.2025,"NGN 1,006,982",Active,Land Title,BISI CHUKWU,Ogun,false
+MFL900165,Chinedu  Nwosu,0554 601 5851,Female,Medical Bills,3522508.08,31.44,07/28/2022,14 April 2023,"NGN 2,309,093",Fully repaid,guarantor,AMARA YUSUF,Akwa Ibom,no
+MFL900410,Funmilayo Adekunle,0000000000,F,Home Renovation,4934484.55,19.04,unknown date,09-Aug-2025,5040073.99,DEFAULTED,NIL,Ngozi Nnamdi,Kaduna,1
+MFL900213,  FEMI NWOSU,+234554781376,Female,Business Expansion,1480303.08,null,01-Feb-2024,25.08.2024,"₦658,088.19",Written Off,Guarantor,Blessing Ogundimu,Cross River,Yes
+MFL900326,Ngozi Ogundimu,+234048926738,male,Agricultural Input,"N4,101,196",4.79,2022-08-13,06/04/2023,"₦1,902,428.20",Fully Repaid,None,Kunle Chukwu,rivers,yes
+MFL900126,Amara Eze,0717 477 3329,male,School  Fees,"₦2,155,841.99",22.94,2023/02/04,04.09.2023,"NGN 537,624",Active,Vehicle,Grace Lawal,Kaduna,Y
+MFL900061,FATIMA OKONKWO,0082 404 3350,male,SCHOOL FEES,"NGN 3,659,555",26.96,2024-01-17,2025-05-27,"₦218,547.47",Written Off,Guarantor,wale adeyemi,Oyo,N
+MFL900096,  Ifeoma Bello,234-111-751-868,F,SCHOOL FEES,"₦1,846,955.67",30.85,28/05/2024,26 February 2025,"NGN 1,156,720",Defaulted,Land Title,Segun Olawale,Fct Abuja,yes
+MFL900274,kemi eze   ,N/A,M,Equipment Purchase,-,14.11,09/24/2024,2025/05/10,"₦708,124.80",Fully repaid,Guarantor,ALIYU OKAFOR,Ogun,yes
+MFL900380,Kemi Afolabi,+234537795995,F,  Petty Trading,2151967.29 naira,8.86,05 January 2022,27.04.2023,"NGN 1,762,779",DEFAULTED,Vehicle,CHIDI SULEIMAN,Ogun,Y
+MFL900112,Halima Okeke,02727857608,M,  Medical    ,1795229.63 naira,33.04,17 December 2022,25 May 2023,1551516.4,Overdue,Land title,zainab eze,Anambra,Yes
+MFL900082,Grace Mohammed,,male,Medical    ,"N2,135,182",11.2,19-Mar-2024,2025/01/15,"2,292,012.18 ",Written Off,NONE,Adaeze Olawale,Oyo State,no
+MFL900319,Adaeze Eze,+234119918081,M,Medical  ,"₦798,557.60",,16 January 2022,22-Oct-2022,"₦589,788.19",Defaulted,Vehicle,Chioma Adekunle,Abuja,no
+MFL900292,Ngozi Okafor,(520) 177-7490,Female,Business Expansion,"₦2,359,455.75",30.19,12/13/2024,08/24/2026,"N554,524",Fully repaid,Land Title,Kemi Nwosu,Anambra,1
+MFL900215,Chidi Ajayi,07851961064,female,Medical ,1337542.32,8.16,25 March 2024,05/21/2025,--,active,guarantor,Ibrahim Okeke,Lagos State,false
+MFL900305,Fatima Adekunle,234-697-499-564,M,SCHOOL  FEES,"NGN 1,495,291",,23 March 2022,28/02/2023,1390913.11 naira,Fully Repaid,Shop Stock,CHIOMA ADEYEMI,Cross River,0
+MFL900092,adaeze eze   ,0886 086 8034,F,  School Fees   ,"N2,807,377",10.0,2022/04/12,22-Feb-2024,"₦449,955.84",Fully Repaid,None,chioma balogun,Imo,false
+MFL900234,Kunle Olawale,66383615171,M,  Medical ,"₦4,937,686.53",3.79,28.10.2024,03/06/2026,4583249.91 naira,Written Off,--,Fatima Okonkwo,Cross River,No
+MFL900382,Halima Abubakar,0379 337 5636,Female,Home Renovation,271767.78 naira,18.11,09-Apr-2024,09 June 2025,"N239,923",DEFAULTED,NIL,Tunde Ogundimu,Akwa Ibom,true
+MFL900401,Tobi Nnamdi,06637780529,female,Medical Bills,"972,018.31 ",Unknown,N/A,02-Nov-2024,47789.77,DEFAULTED,Land title,Kunle Bello,Ogun,no
+MFL900101,Tunde Afolabi,(384) 983-0220,female,SCHOOL FEES,"NGN 2,996,131",12.21,07.12.2023,18/07/2024,"₦1,556,307.58",Fully repaid,Guarantor,Bisi Suleiman,Enugu,N
+MFL900225,kunle okonkwo,(338) 988-8167,female,Equipment Purchase,"₦3,248,289.45",5.99,31.05.2023,29.02.2024,"3,379,326.74 ",Fully repaid,NONE,Bola Lawal,Edo,Yes
+MFL900159,Aliyu Afolabi,07465421406,F,Medical ,"N1,377,180",18.68,2022/02/16,15 August 2023,"NGN 1,158,642",DEFAULTED,NONE,Halima Abubakar,Cross River,TRUE
+MFL900373,Musa Okeke,+234466196399,F,Home Renovation,"₦4,523,836.57",30.07,2023-12-01,05.05.2025,"NGN 1,166,526",Defaulted,guarantor,Ifeoma Balogun,Akwa Ibom,yes
+MFL900301,Amaka Lawal,06617945491,male,Medical Bills,"₦4,717,775.01",12.04,07.12.2022,11.03.2023,"NGN 3,184,022",Overdue,NONE,Grace Adekunle,Plateau,FALSE
+MFL900179,Emeka Olawale,+234837340312,F,School  Fees,3784274.06,14.57,07.07.2023,27-Aug-2024,"3,561,934.66 ",DEFAULTED,Guarantor,Fatima Okeke,Anambra,No
+MFL900243,Chioma Ogundimu,(187) 734-7784,F,Home Renovation   ,"N4,805,615",10.62,2022/11/08,08/27/2023,203202.57,DEFAULTED,Vehicle,CHIOMA OKONKWO,Enugu,FALSE
+MFL900371,Amaka Eze,0717 911 0065,Male,Equipment Purchase,4314774.28,6.13,10/04/2023,2025/02/21,1936160.43,Active,NONE,YUSUF ADEYEMI,Kano,Yes
+MFL900142,adaeze yusuf,03846895009,Female,Medical Bills,"NGN 4,451,879",5.13,2024/09/24,16.03.2026,"₦1,290,357.47",active,Vehicle,Ngozi Ajayi,lagos,no
+MFL900383,Blessing Balogun,0050 150 8124,Male,Petty Trading,2941998.2,-,2022/02/15,02/08/2023,"N844,202",Written Off,Land title,Kemi Okeke,Edo,Y
+MFL900258,Blessing Chukwu,234-374-896-908,female,Petty Trading,null,17.2,2022-04-12,2024-04-09,"NGN 526,461",Fully Repaid,Land Title,GRACE SULEIMAN,Anambra,FALSE
+MFL900397,Ibrahim Balogun,0111 508 3535,Male,Agricultural Input,"NGN 2,599,302",8.11,2022-12-22,05/25/2023,"₦2,586,468.76",DEFAULTED,unknown,Femi Balogun,Abuja,FALSE
+MFL900135,Adaeze Adekunle,0000000000,Female,Petty Trading,"N1,959,002",14.47,09-May-2024,01-Mar-2025,1488231.77 naira,Fully Repaid,guarantor,zainab bello,kano,FALSE
+MFL900264,Kemi Yusuf   ,(319) 818-9847,Male,business,"985,049.41 ",28.12,16-May-2024,00/00/0000,"NGN 189,825",Fully Repaid,Shop Stock,EMEKA EZE,Plateau,1
+MFL900185,Ibrahim Yusuf,+234735435209,Female,   Petty Trading,"NGN 4,917,089",7.78,13.04.2024,2024/09/05,1220132.35,Active,None,Amaka Ogundimu,Delta,Y
+MFL900181,  Blessing Mohammed   ,97010822078,M,School Fees,3075504.86,26.9,22/04/2023,2023/10/16,"N1,204,704",Fully Repaid,Vehicle,Kemi Suleiman,Lagos,false
+MFL900168,Bola Chukwu,0618 478 7005,Female,Business Expansion,"N2,697,992",8.78,2024/08/29,2026-04-29,"2,711,399.90 ",active,guarantor,OBINNA NNAMDI,Anambra,FALSE
+MFL900347,Wale Yusuf,+234564111824,male,School Fees   ,"1,619,584.50 ",33.5,25/12/2024,19-Apr-2025,"₦1,636,268.84",Fully Repaid,None,Adaeze Adeyemi,Kaduna,Yes
+MFL900072,Amara Ogundimu,0559 042 5979,male,SCHOOL FEES   ,unknown,24.38,00/00/0000,08/05/2026,"NGN 702,020",Defaulted,guarantor,Fatima Nnamdi,Ogun,yes
+MFL900146,Halima Ogundimu,invalid,female,SCHOOL FEES,"N693,454",5.84,17-Jan-2023,28.07.2023,"35,963.16 ",DEFAULTED,Guarantor,Wale Nwosu,Kaduna,No
+MFL900058,Fatima Abubakar,+234868528975,male,Medical ,"NGN 3,244,830",8.79,19 June 2024,01/18/2025,1631771.42,Defaulted,Land Title,Kunle Olawale,Ogun,No
+MFL900244,Wale Okeke,234-880-061-675,F,Medical ,"N1,949,967",16.14,21 September 2022,2022/12/31,2073103.61 naira,active,guarantor,Chidi Lawal,Enugu,TRUE
+MFL900027,Sadiq Yusuf,(611) 178-0068,male,Business Expansion,"N2,375,669",13.16,2022-02-17,08/12/2022,2069927.57 naira,Active,  ,Grace Adeyemi,oyo,N
+MFL900289,Musa Balogun,N/A,Female,Agricultural Input,"3,714,828.50 ",6.09,2024-01-04,26.12.2025,"NGN 3,531,571",Active,Land Title,Emeka Lawal,Enugu,N
+MFL900201,Ibrahim Lawal,56704310385,F,School Fees,4047559.26 naira,4.07,2022/06/14,12/12/2022,58798.76,Fully repaid,Guarantor,Kemi Eze,Oyo,true
+MFL900065,Amaka Okeke,09610556613,female,Business Expansion,"N793,134",12.46,31-Oct-2023,14.06.2024,"₦112,377.69",Overdue,Land Title,Fatima Afolabi,Anambra,no
+MFL900136,Yusuf Ogundimu,234-624-058-008,Female,School Fees,"N937,269",14.54,2024-08-12,2024-11-18,--,active,None,Bisi Adekunle,Imo,yes
+MFL900328,BISI OGUNDIMU,(288) 431-8848,F,  Agricultural Input   ,366954.87,33.44,07.07.2023,not set,"NGN 197,077",DEFAULTED,Vehicle,kemi suleiman,Cross River,N
+MFL900404,Ibrahim Balogun,234-663-618-637,F,Medical ,2822591.47 naira,34.37,23/10/2023,28-Sep-2024,1768329.83 naira,Active,guarantor,Ngozi Bello,Cross River,TRUE
+MFL900259,Amaka Yusuf,0572 324 6651,Female,Medical Bills,3164789.90 naira,20.47,08-Mar-2024,05/28/2025,nil,Written Off,Vehicle,Aliyu Okafor,oyo,1
+MFL900098,  Bisi Nnamdi,20644742123,male,Business Expansion   ,"NGN 2,456,228",30.56,2023-08-25,08-Dec-2024,"₦861,783.36",Defaulted,None,Obinna Okonkwo,Imo,TRUE
+MFL900312,Zainab Chukwu,07179576024,male,business   ,"₦3,968,151.05",null,2022-09-26,2023/01/01,N/A,Fully repaid,Vehicle,Halima Eze,Ibadan,0
+MFL900316,   ngozi adekunle   ,234-800-545-228,Male,Petty Trading,"₦2,680,943.62",25.29,2023-10-24,31 January 2024,unknown,Written Off,Guarantor,Yusuf Chukwu,Kano,N
+MFL900375,Adaeze Okeke,234-931-109-193,male,SCHOOL FEES,"₦3,324,313.76",14.14,30.03.2024,13/12/2025,3502917.43 naira,active,guarantor,Bisi Balogun,Anambra,No
+MFL900172,Tunde Adekunle,0799 313 6565,Female,SCHOOL FEES,"₦4,583,725.21",11.67,not set,19.01.2026,1657496.19 naira,Fully Repaid,Land Title,Musa Lawal,FCT,FALSE
+MFL900356,ifeoma yusuf,0000000000,Female,business,"₦1,199,144.04",6.09,15.06.2022,03/05/2024,"N628,711",Overdue,guarantor,Chidi Okonkwo,Oyo,Y
+MFL900290,Grace Bello,234-993-908-926,male,Medical Bills,"2,943,554.77 ",27.76,17 May 2022,N/A,2380071.59,Fully repaid,Guarantor,chidi olawale,Plateau,false
+MFL900395,Funmilayo Ajayi,(665) 754-6027,male,Home Renovation,3484143.98,19.14,2024-01-17,04.10.2024,2308416.67,Written Off,Land title,musa okonkwo,Kano,No
+MFL900379,Zainab Bello,0203 880 6533,male,Medical Bills,3189157.93 naira,8.76,26.12.2022,01.05.2023,1684874.85 naira,active,Guarantor,Kunle Nwosu,oyo,yes
+MFL900178,Grace Adekunle,(560) 833-1819,male,Agricultural Input,"N4,671,453",19.8,00/00/0000,2024/12/27,526442.19,Active,Vehicle,Femi Adekunle,Anambra,0
+MFL900009,Amara Abubakar,00434165182,M,Home Renovation,"3,851,593.96 ",13.5,14 July 2022,09 July 2023,"NGN 524,201",DEFAULTED,Land Title,bisi adeyemi,Imo,1
+MFL900197,SADIQ MOHAMMED,(486) 401-5577,F,SCHOOL FEES,4662817.45 naira,28.84,04 March 2024,05/27/2025,"NGN 4,886,511",Active,NONE,tunde nnamdi,Ogun,0
+MFL900360,Tobi Ogundimu,234-156-956-201,Male,business,128208.28 naira,7.85,08/08/2022,30-Sep-2023,"NGN 82,438",Defaulted,Unknown,Emeka Bello,Abuja,0
+MFL900349,Sadiq Abubakar,00046152654,female,   SCHOOL FEES,1755916.27,35.85,04/02/2024,08.03.2026,"₦313,002.67",Written Off,NONE,Zainab Okeke,KANO,true
+MFL900321,aliyu afolabi,05213760375,male,Medical Bills,3366896.05 naira,  ,2022/08/02,01/21/2023,"₦1,584,794.66",Fully Repaid,Land Title,Grace Suleiman,Delta,Yes
+MFL900151,Sadiq Okonkwo,02395041027,M,Home Renovation,"NGN 2,890,788",31.11,31-Mar-2022,04-Apr-2023,"NGN 713,720",Active,Land Title,tunde nnamdi,Anambra,TRUE
+MFL900127,FATIMA NWOSU,(562) 557-7017,male,Medical ,"N1,793,632",32.48,02/04/2024,01/24/2026,"₦1,300,744.21",Written Off,-,adaeze lawal,Imo,Yes
+MFL900297,Amara Suleiman,(749) 961-6592,F,Agricultural  Input,"N4,529,308",30.09,27-Aug-2024,2026-08-27,"N1,378,725",Fully Repaid,None,Ifeoma Bello,Kaduna,N
+MFL900309,Ngozi Okonkwo,0496 050 1667,Female,Equipment Purchase,"NGN 1,859,821",28.68,03-Apr-2024,,"₦606,056.13",DEFAULTED,Land Title,Chinedu Bello,Enugu,Y
+MFL900183,Musa Olawale,0153 136 3631,female,  Medical Bills,4674538.07 naira,-,14 December 2022,10/05/2023,"₦180,730.28",active,Vehicle,Kunle Okeke,Lagos,N
+MFL900409,Kunle Abubakar,(672) 994-9387,M,Equipment  Purchase   ,"N765,688",20.3,,01/01/2024,639546.57,Fully Repaid,guarantor,blessing nwosu,Imo,TRUE
+MFL900004,FEMI SULEIMAN,(011) 848-9554,female,  Agricultural Input,"NGN 3,333,405",19.39,2023/09/20,08/24/2025,"N2,127,359",DEFAULTED,NONE,Aliyu Abubakar,Kaduna,No
+MFL900252,MUSA SULEIMAN,+234569659171,female,Business Expansion,"N1,417,643",3.61,2022/08/29,2024/06/01,1186926.15 naira,Active,Vehicle,Yusuf Ajayi,Abuja,1
+MFL900303,EMEKA AJAYI,09779452321,F,Agricultural Input,3425543.79,21.17,2022-02-22,07/18/2023,823144.12 naira,Written Off,Land title,Fatima Adekunle,ABUJA,TRUE
+MFL900124,Tobi Adekunle,(016) 016-6299,F,Home Renovation,1440214.04 naira,8.16,07/09/2022,29.04.2024,"N574,678",Written Off,guarantor,amaka mohammed,Delta,0
+MFL900331,Kemi Nwosu,+234753998935,male,School Fees,1313640.43 naira,5.25,,01/04/2023,"₦407,268.04",Written Off,guarantor,Blessing Eze,Akwa Ibom,0
+MFL900210,Ifeoma Nnamdi,0515 093 9834,male,Business  Expansion,"NGN 3,473,561",14.82,01-Sep-2024,01/31/2026,"₦479,067.96",Fully repaid,guarantor,kemi okafor,Lagos,FALSE
+MFL900212,Chidi Mohammed,09805626565,female,Medical Bills,"₦4,233,137.17",unknown,2023/06/16,11-Feb-2024,"N4,006,007",Overdue,Land Title,ADAEZE YUSUF,Imo,TRUE
+MFL900393,Ibrahim Ogundimu,(925) 481-2147,Male,Home Renovation,"NGN 2,683,074",15.41,03/19/2023,unknown date,"N909,991",DEFAULTED,NIL,Sadiq Okonkwo,Kano,0
+MFL900180,segun nnamdi,07220054364,Female,Business Expansion,  ,18.51,11/04/2024,22-Jun-2026,"₦765,460.68",DEFAULTED,Vehicle,WALE ADEKUNLE,Akwa Ibom,Y
+MFL900170,Obinna Nwosu,+234027079032,female,Petty Trading,605219.39 naira,20.56,03/01/2022,06-Jul-2022,"NGN 368,890",DEFAULTED,Land title,Blessing Okonkwo,Imo,no
+MFL900307,SADIQ  AFOLABI,234-683-147-276,male,School Fees,  ,15.16,12/06/2024,01/10/2026,"₦1,780,481.95",Fully repaid,Shop Stock,Aliyu Ajayi,Edo,Y
+MFL900063,Chioma Adeyemi,02459334419,Female,  Medical Bills,2524332.95 naira,23.09,07/03/2023,01.02.2025,319800.55,Fully Repaid,--,Tunde Mohammed,Lagos,0
+MFL900420,Emeka Chukwu,234-647-090-063,male,Medical Bills   ,"3,337,755.82 ",33.17,06-Feb-2023,2023/05/18,2472939.46 naira,DEFAULTED,Land Title,halima nnamdi,Ogun,No
+MFL900355,Ifeoma Ogundimu,0749 465 3984,female,Equipment Purchase,"N4,969,106",8.51,01 March 2022,2023/03/07,"N1,956,668",Fully repaid,None,Bola Adekunle,Enugu,Yes
+MFL900408,Musa Bello,+234286716323,female,Business Expansion   ,"NGN 3,904,316",17.38,28.05.2022,27.08.2023,"₦3,808,241.25",Active,Land Title,Funmilayo Okeke,Edo,Y
+MFL900013,Tobi Nwosu,0472 846 3920,Male,   Home Renovation,unknown,31.71,28/02/2023,06/30/2024,"NGN 1,697,396",Defaulted,NONE,OBINNA NNAMDI,Delta,no
+MFL900078,adaeze afolabi,(368) 157-9812,Male,   Equipment Purchase,"₦2,030,646.19",25.99,29.06.2023,03/27/2025,"NGN 509,179",Defaulted,Shop Stock,tunde nwosu,Plateau,1
+MFL900021,Ngozi Nwosu,+234175455884,male,  business,267891.88,19.19,2022-10-06,2023-07-05,"₦246,913.69",Active,Guarantor,Zainab Okafor,Plateau,Yes
+MFL900362,Ibrahim Chukwu,234-337-504-793,male,Equipment Purchase,3083943.16,32.27,2024/10/09,2026-07-29,2526531.87 naira,Overdue,guarantor,Bola Suleiman,Port Harcourt,TRUE
+MFL900218,Chidi Nwosu,44714627301,female,Business Expansion,"N4,274,860",4.96,11/10/2023,25.01.2025,2906951.44,active,Vehicle,Emeka Bello,Ogun,1
+MFL900032,  Amaka Okafor,+234424008254,M,Petty Trading,"₦1,838,544.40",16.13,01.12.2024,25.09.2025,"N1,228,460",Defaulted,Shop Stock,amaka adekunle,LAGOS,TRUE
+MFL900089,Ifeoma Yusuf,04633312797,F,business,"3,139,438.35 ",10.57,2022-10-24,2023/10/22,--,Active,Shop Stock,Ifeoma Chukwu,Delta,FALSE
+MFL900177,Bola Afolabi,+234329092791,M,SCHOOL FEES,"2,630,138.06 ",-,28/08/2023,25 May 2024,737428.01 naira,Defaulted,Land title,CHINEDU ADEKUNLE,Enugu,N
+MFL900302,Fatima Abubakar,01722601645,male,Medical ,"4,220,117.50 ",12.79,03/12/2022,03/04/2024,"₦3,484,626.49",Written Off,NONE,AMARA OGUNDIMU,Enugu,0
+MFL900221,Zainab Okafor,0725 204 5650,Female,  Business Expansion,"1,296,778.86 ",6.4,11/07/2024,03/20/2026,"₦1,291,950.78",Fully Repaid,Land Title,emeka olawale,Kaduna,No
+MFL900327,zainab okafor,09756341085,male,Home  Renovation   ,"NGN 2,773,014",31.28,2024-10-07,2026/04/22,"2,851,795.34 ",Defaulted,Shop Stock,Grace Mohammed,Imo,FALSE
+MFL900065,Amaka Okeke,09610556613,female,Business Expansion,"N793,134",12.46,31-Oct-2023,14.06.2024,"₦112,377.69",Overdue,Land Title,Fatima Afolabi,Anambra,no
+MFL900394,Zainab Afolabi,0539 078 9567,F,  Home Renovation   ,"NGN 4,960,955",20.73,04/08/2023,2024-07-06,"₦4,080,339.74",Written Off,guarantor,bola chukwu,Ogun,TRUE
+MFL900080,Femi Okeke,(205) 554-3840,male,Business Expansion,"₦3,873,379.35",null,18.09.2024,21.02.2025,"NGN 1,102,213",Fully repaid,Vehicle,Grace Bello,Anambra,1
+MFL900123,Tunde Yusuf,+234149587020,female,Business Expansion,3973560.77 naira,8.19,05/02/2023,,1815924.13 naira,Fully repaid,Vehicle,tunde balogun,Anambra,0
+MFL900193,Bisi Yusuf,0016 580 4649,Female,Business  Expansion,"NGN 3,280,460",19.94,11/08/2022,2023-06-27,"N2,152,342",active,NONE,wale nwosu,Delta,Yes
+MFL900084,Aliyu Okonkwo,+234629251881,M,Medical Bills,4630493.84,3.3,12.12.2023,31/10/2024,"NGN 4,746,751",Fully Repaid,Land Title,ZAINAB EZE,Imo,TRUE
+MFL900062,Tunde Ogundimu,08889921075,Male,Medical Bills,4082630.0,31.22,03/05/2024,2024/08/25,"2,577,109.36 ",active,Guarantor,Fatima Okafor,Delta,No
+MFL900115,Wale Mohammed,234-145-046-173,female,  Agricultural Input,"₦696,393.31",17.48,unknown date,04/11/2023,"N275,140",Active,guarantor,Musa Nwosu,Delta,0
+MFL900407,Musa Lawal   ,234-705-802-566,male,Equipment Purchase,3018516.37 naira,8.24,2023/12/07,06 February 2025,"N1,669,967",Written Off,None,Kemi Ajayi,Cross River,no
+MFL900105,  Ifeoma Okeke,07214586833,Male,  Petty Trading,"₦952,092.38",32.74,2022/06/19,02 February 2023,"NGN 822,062",Fully repaid,Guarantor,ADAEZE LAWAL,Delta,false
+MFL900314,Wale Lawal,234-665-729-341,female,Business Expansion,4080889.94,21.23,29-Jan-2022,21/03/2023,"N4,299,641",Fully repaid,Vehicle,Kunle Suleiman,Enugu,No
+MFL900372,tobi okonkwo,+234070496110,Male,business,"₦2,158,790.31",19.29,20 October 2024,04/06/2025,447684.85 naira,Defaulted,guarantor,Segun Nnamdi,Anambra,N
+MFL900242,Kemi Nnamdi,0702 695 2499,M,Home Renovation,"1,792,056.35 ",10.34,24 September 2023,04/02/2024,"NGN 1,506,238",Overdue,Land title,Segun Adekunle,Enugu,1
+MFL900160,Halima Olawale,(504) 427-1739,male,Business Expansion,"₦2,084,219.77",11.0,12/09/2023,04/04/2024,"₦1,923,287.30",Active,Vehicle,blessing adeyemi,Oyo,Yes
+MFL900175,Kunle Nnamdi,0219 620 7100,Female,  business,"N394,910",14.33,02/28/2023,12/07/2024,302847.04,Fully repaid,guarantor,BISI AFOLABI,Edo,yes
+MFL900345,Aliyu Nwosu,82043397189,female,  Petty Trading,3308100.14,20.91,26-Mar-2024,10/30/2024,"₦3,486,769.50",Written Off,NONE,AMAKA NNAMDI,Plateau,false
+MFL900077,Chidi Adekunle,234-701-645-104,F,SCHOOL  FEES   ,"N4,183,679",15.42,2024-05-13,05/27/2025,"2,516,391.88 ",Written Off,None,Ngozi Okafor,Ogun,N
+MFL900272,SEGUN ADEKUNLE,(985) 700-2720,male,business   ,"3,432,302.08 ",14.79,29 September 2022,22/10/2023,1565800.77 naira,active,guarantor,Sadiq Adeyemi,Delta,Yes
+MFL900219,Chidi Suleiman,+234719597964,M,   Home Renovation,4068636.33,3.88,28.09.2022,03 January 2023,"₦2,525,661.77",Active,Land Title,OBINNA BELLO,Delta,0
+MFL900340,Obinna Mohammed,234-510-679-497,Female,  SCHOOL FEES,"4,070,949.57 ",3.76,2023/08/04,07/04/2024,"NGN 929,948",Active,Guarantor,CHIDI MOHAMMED,Enugu,true
+MFL900254,NGOZI BELLO,0183 440 4963,Female,Medical Bills   ,"₦440,360.80",9.59,2023/08/01,06/13/2024,"₦414,720.68",active,Land title,Obinna Lawal,Kaduna,false
+MFL900308,Yusuf  Olawale,234-227-770-793,F,School Fees,2062273.77,11.36,2024-03-06,11 August 2024,"NGN 781,258",active,N/A,Amara Olawale,Kaduna,true
+MFL900198,Fatima Yusuf,+234178847951,Male,Petty Trading,671492.65,13.34,10 September 2023,06/05/2024,200818.44,DEFAULTED,None,BOLA EZE,Plateau,FALSE
+MFL900051,Fatima Nnamdi,+234878294565,M,  Business Expansion,"₦4,573,707.96",22.77,02.06.2022,24/12/2022,"NGN 829,197",Defaulted,guarantor,Fatima Afolabi,Akwa Ibom,TRUE
+MFL900060,Musa Okeke,+234845776004,F,School Fees,"N3,591,680",6.84,2024/10/17,02-Oct-2026,3529181.43,Fully repaid,Vehicle,femi nnamdi,Rivers,Y
+MFL900367,Ibrahim Bello,0030 468 7506,F,Medical Bills,"NGN 1,126,206",24.62,06-Dec-2022,27/07/2023,"N888,720",Defaulted,Land Title,ibrahim nnamdi,Ogun,1
+MFL900253,Emeka Olawale,05785294563,Female,Medical ,3561005.21 naira,9.82,00/00/0000,20 January 2025,798007.2,Overdue,Guarantor,Adaeze Eze,Ogun,No
+MFL900311,Musa Okeke,invalid,Male,Business Expansion,"4,338,324.57 ",20.36,22/08/2024,10/20/2025,"NGN 1,708,031",Active,guarantor,Bisi Ogundimu,Rivers,TRUE
+MFL900284,Aliyu Afolabi,02428757215,F,Agricultural Input,4579148.2,35.66,24/08/2023,17-Dec-2023,"NGN 4,127,383",Defaulted,Vehicle,Emeka Eze,Anambra,false
+MFL900246,Sadiq Yusuf,+234671978897,M,  School Fees,"NGN 3,718,897",24.82,18-May-2022,24 June 2023,"N3,489,061",Written Off,guarantor,CHIOMA YUSUF,Cross River,true
+MFL900299,Bisi Bello,234-476-174-224,Male,Petty Trading,"N812,775",9.68,2023/11/26,11/05/2024,"NGN 814,288",active,None,Funmilayo Nnamdi,Kano,Yes
+MFL900094,Chidi  Okeke,77181298266,F,Equipment Purchase   ,"NGN 1,881,788",29.91,2023/01/09,12.04.2023,1952928.11,DEFAULTED,Guarantor,FEMI OLAWALE,Ogun,FALSE
+MFL900117,Bola Abubakar,07807823578,male,Business Expansion,"3,119,439.28 ",15.93,20-Jul-2023,25/12/2023,"NGN 517,575",Written Off,Unknown,kunle bello,LAGOS,yes
+MFL900131,Segun Bello   ,+234695832197,female,School Fees,"₦1,184,731.09",30.33,2023-08-11,2024-12-21,"₦617,101.84",Fully Repaid,NONE,fatima okeke,Anambra,0
+MFL900182,  AMARA AFOLABI,234-137-995-635,Male,Home Renovation,"₦3,734,823.58",35.44,30 August 2024,N/A,"NGN 3,555,945",Written Off,Land Title,Fatima Adeyemi,Rivers,0
+MFL900141,Emeka Ogundimu,87653269097,female,Equipment  Purchase,"N2,062,558",24.65,2023-01-11,01/07/2024,"N42,464",DEFAULTED,NONE,Adaeze Mohammed,Edo,No
+MFL900007,Femi Ogundimu   ,invalid,Male,Petty Trading,4180830.27,33.82,18 May 2022,05.04.2023,"₦3,590,672.91",Defaulted,Land title,FEMI OLAWALE,Cross River,Yes
+MFL900318,Bisi Okonkwo,+234508428910,male,Medical Bills,"1,545,075.63 ",16.44,09/26/2022,21.01.2023,"₦920,450.25",active,Land Title,Amara Okonkwo,Oyo,no
+MFL900189,Chidi Lawal,03929060078,M,  Petty Trading,"₦882,454.07",Unknown,31.10.2022,2023/02/07,?,Fully Repaid,Unknown,Amara Okeke,Fct Abuja,Yes
+MFL900402,Chidi Okeke,40755366684,M,  Agricultural Input,"165,304.21 ",31.73,27 March 2022,08 February 2024,115385.77 naira,Overdue,NONE,Zainab Ajayi,kano,true
+MFL900109,IFEOMA  BELLO,(396) 605-5830,female,Medical Bills,"₦1,101,957.01",nil,,15-Jan-2024,"309,224.85 ",Active,guarantor,Grace Suleiman,Enugu,TRUE
+MFL900029,Blessing Nnamdi,22820055778,male,  Business Expansion,N/A,13.81,31 October 2024,21 June 2026,1629187.87 naira,Active,Shop Stock,Funmilayo Lawal,Delta,yes
+MFL900249,Bola Okeke,05616556503,Female,Petty Trading,4953367.75,14.54,05/31/2022,19/01/2024,"₦1,230,076.36",Defaulted,None,Ibrahim Adekunle,Oyo,Yes
+MFL900233,Aliyu Lawal,01387592712,male,Business Expansion,4668428.99 naira,9.04,2022/09/04,16.06.2024,"₦941,860.33",Overdue,Shop Stock,Fatima Yusuf,Rivers,false
+MFL900335,Aliyu Eze,0000000000,Female,Business Expansion,672620.55,20.09,12/04/2022,2024/01/25,"697,996.23 ",Overdue,Land title,WALE EZE,Cross River,TRUE
+MFL900306,Kunle Eze,02203103037,Female,Home  Renovation,3964042.67,6.83,22/07/2022,16.01.2023,3823697.99 naira,DEFAULTED,guarantor,Obinna Balogun,Ogun,N
+MFL900103,Adaeze Ogundimu,22499982795,Male,Equipment Purchase,"NGN 4,579,272",20.83,09/03/2023,20/01/2025,"N1,666,549",Fully repaid,unknown,Grace Yusuf,Edo,FALSE
+MFL900390,Sadiq Mohammed,07912868578,female,Business Expansion   ,"1,267,708.93 ",34.48,15/05/2024,22.08.2025,"NGN 1,274,259",Fully repaid,?,Zainab Ajayi,Ogun,false
+MFL900088,Femi Bello,0526 772 2330,M,Business Expansion   ,"N890,119",9.32,07/12/2022,2024/07/20,"N815,228",Active,NONE,kunle nwosu,Anambra,TRUE
+MFL900224,HALIMA ADEKUNLE,84576521328,M,  Petty Trading,"₦718,129.63",29.02,14.06.2024,01/14/2026,"NGN 14,211",Written Off,Vehicle,IBRAHIM OGUNDIMU,Enugu,N
+MFL900293,Bola Suleiman,0000000000,female,SCHOOL FEES,4729178.41 naira,  ,16.12.2022,00/00/0000,"4,153,519.13 ",active,Shop Stock,chidi balogun,oyo,Yes
+MFL900260,SEGUN  NNAMDI,64424936312,female,School Fees,"₦698,855.05",14.66,2024-04-11,2024-07-26,"NGN 764,363",active,Shop Stock,Ibrahim Ogundimu,Lagos,yes
+MFL900187,Kemi Lawal,(292) 983-1687,female,  Equipment Purchase,3675908.81,29.48,08/04/2024,04/25/2025,3578077.30 naira,Fully Repaid,Land Title,Obinna Yusuf,Ogun,Y
+MFL900350,Zainab Balogun,234-033-993-788,F,Medical ,3501566.63 naira,--,14-Aug-2023,2023-12-07,"N3,405,423",DEFAULTED,guarantor,funmilayo balogun,Edo,1
+MFL900368,chinedu adekunle,05190361332,Female,Equipment Purchase,"₦1,075,684.28",33.46,25 December 2024,05/30/2026,309931.60 naira,active,Land Title,Amara Okonkwo,Rivers,false
+MFL900417,Funmilayo Adeyemi,234-183-727-422,M,  Equipment Purchase,"666,203.50 ",14.53,2023-05-18,08/06/2024,"N234,021",Active,Land Title,Adaeze Bello,Cross River,true
+MFL900241,Musa Okafor,+234147732010,Female,business   ,"NGN 853,416",31.94,2022/10/20,not set,"NGN 201,786",Overdue,Guarantor,bisi yusuf,Kaduna,Y
+MFL900296,Sadiq Afolabi,+234925158377,M,Medical Bills,"N1,254,122",22.72,unknown date,23-Nov-2023,462882.11 naira,DEFAULTED,Vehicle,Chidi Okeke,kano,true
+MFL900018,grace okeke,+234931438663,Female,  Agricultural Input,"NGN 3,494,898",3.89,2024/07/15,2026/05/05,374870.8,DEFAULTED,NONE,Bola Okonkwo,Lagos,TRUE
+MFL900334,Femi Adekunle,0737 158 6988,male,  Agricultural Input,"₦1,708,997.89",4.43,16.08.2024,22-Mar-2026,1280810.85,Written Off,Shop Stock,Bola Chukwu,Plateau,Yes
+MFL900237,Kemi Nwosu,31752071678,female,School Fees,1198401.28 naira,33.11,29-Nov-2022,2023-12-02,"N978,793",Fully Repaid,guarantor,Halima Okeke,Cross River,Yes
+MFL900086,Funmilayo Nwosu,12209949993,F,  SCHOOL FEES,"N1,293,581",27.27,22 February 2023,11/14/2024,"₦1,258,586.88",active,guarantor,SEGUN ADEKUNLE,Edo,1
+MFL900346,Amaka Olawale,05690705626,F,Home Renovation,3235727.75 naira,5.83,03-Feb-2023,08/04/2024,1406541.32 naira,Overdue,NONE,Femi Abubakar,Kaduna,false
+MFL900045,Kemi Bello,(132) 719-5005,female,  Medical Bills,"NGN 2,718,419",17.76,31/01/2022,09 April 2023,313681.1,DEFAULTED,Shop Stock,musa suleiman,Anambra,Yes
+MFL900071,  tobi ogundimu,(465) 911-6655,Male,Medical ,"NGN 3,985,762",NULL,2022/02/21,30.07.2022,"₦2,580,245.54",DEFAULTED,Guarantor,Ibrahim Ajayi,Imo,1
+MFL900270,Amara Ajayi,234-432-756-041,F,Business Expansion,3230047.40 naira,16.23,08-Jun-2023,2025/04/17,1661189.13 naira,Active,Land title,CHIOMA EZE,Anambra,Yes
+MFL900003,Emeka Olawale,234-214-656-693,M,Business Expansion,"NGN 4,648,790",NULL,00/00/0000,28/01/2026,3112999.23 naira,Fully Repaid,None,Ifeoma Suleiman,Lagos,false
+MFL900245,WALE AFOLABI,234-700-284-276,male,  Agricultural Input,"₦3,565,072.04",17.88,11/20/2024,08/06/2026,"₦734,476.73",Fully Repaid,None,Grace Ogundimu,Rivers,false
+MFL900365,Kunle Okafor,(843) 089-4870,M,School Fees,"₦2,196,822.95",11.88,24.07.2024,2025-02-15,882468.69,DEFAULTED,guarantor,Segun Afolabi,Rivers,no
+MFL900336,   Halima Bello,+234728813770,female,  Home Renovation,"NGN 1,629,245",25.88,00/00/0000,2024/04/12,"N861,552",Overdue,Land Title,Amaka Afolabi,Edo,FALSE
+MFL900149,Musa Olawale,0292 752 4372,F,business,"N3,191,571",N/A,2024-03-24,09/02/2025,"3,326,866.67 ",Defaulted,Guarantor,AMARA OKONKWO,Oyo State,1
+MFL900037,Chioma Okeke,+234735020802,F,  Home Renovation,"NGN 198,202",29.55,06/08/2024,00/00/0000,"170,946.40 ",Fully Repaid,Vehicle,kunle nnamdi,Kaduna,No
+MFL900412,Chinedu Lawal,(926) 329-6762,female,Medical  ,62512.05 naira,21.52,2023/08/14,2024-12-20,"₦53,412.65",DEFAULTED,Vehicle,Tobi Eze,Oyo,Y
+MFL900363,Tobi Mohammed,234-614-987-283,Male,Agricultural Input,"NGN 271,035",32.33,31 October 2024,05/07/2025,"NGN 247,486",active,Unknown,Chidi Abubakar,Abuja,true
+MFL900204,Chioma Okeke,234-472-928-422,F,  business,"NGN 4,821,843",8.35,03/13/2023,2024-07-19,"N4,371,794",Defaulted,Land Title,Chidi Eze,Imo,yes
+MFL900386,Bola Ajayi,invalid,female,SCHOOL FEES   ,2224410.99,22.08,12.06.2022,02/01/2023,"NGN 1,470,759",Written Off,NULL,chidi afolabi,Oyo,N
+MFL900366,Obinna Balogun   ,0056 641 8775,Female,Equipment Purchase,4122377.81,22.8,25.11.2023,03/27/2025,unknown,active,Unknown,Sadiq Nnamdi,Oyo,Yes
+MFL900315,  Bisi Adekunle,+234232971674,F,  SCHOOL FEES,"₦1,691,219.33",18.17,unknown date,2023/08/10,"NGN 434,442",Defaulted,NONE,Ibrahim Ogundimu,Delta,Y
+MFL900036,Chidi Nwosu,63122417974,female,Medical ,3758918.96 naira,13.21,24/06/2024,2025-03-19,"3,899,256.93 ",Fully repaid,NONE,Tunde Mohammed,Ogun,FALSE
+MFL900064,Wale Nwosu   ,234-315-727-919,Female,  SCHOOL FEES,"N3,325,502",33.54,10/06/2022,2023-12-21,"₦2,779,944.45",Fully Repaid,Unknown,Tobi Bello,Rivers,Yes
+MFL900028,   zainab eze   ,(149) 216-4334,F,School Fees,"N4,151,202",11.5,12/29/2023,2024/10/12,"NGN 1,438,728",active,Guarantor,Sadiq Adeyemi,Abuja,FALSE
+MFL900387,Zainab Nwosu,0896 112 2338,Male,business,2567916.69,22.73,13.06.2023,27-Oct-2024,--,Defaulted,NONE,Chioma Ogundimu,Plateau,Yes
+MFL900059,Funmilayo Chukwu,(855) 665-9398,male,Agricultural Input,"₦2,788,025.17",7.75,2023/09/13,08/09/2024,"₦2,750,044.51",Written Off,None,chinedu okeke,Akwa Ibom,yes
+MFL900173,Amaka Okeke,09825309251,F,business,"3,702,548.07 ",23.37,01/24/2022,2022-05-17,"₦3,734,433.92",Fully repaid,Guarantor,Blessing Okafor,Edo,no
+MFL900067,ifeoma eze,+234832067998,female,   Home Renovation   ,"NGN 693,439",31.38,24 April 2024,2025/03/13,405073.52 naira,Written Off,None,Segun Ogundimu,Cross River,no
+MFL900281,Ifeoma Nnamdi,72563669411,M,Medical ,"NGN 2,788,732",32.48,22 October 2022,20.02.2024,686848.24 naira,active,Shop Stock,ZAINAB OGUNDIMU,Delta,0
+MFL900118,Tobi Yusuf,+234218230768,male,Equipment Purchase,"₦2,232,827.59",17.24,08-Sep-2023,13.01.2024,"₦2,406,242.87",DEFAULTED,Vehicle,Kunle Afolabi,Imo,false
+MFL900008,sadiq eze   ,+234416335658,M,Petty Trading,"NGN 1,594,688",30.13,12-Oct-2023,unknown date,"NGN 514,760",Fully Repaid,Vehicle,Musa Ajayi,Kaduna,No
+MFL900250,Aliyu Mohammed,03491141520,Male,business   ,"₦2,184,696.97",17.65,not set,2025-02-23,"₦2,304,081.70",active,Vehicle,AMARA CHUKWU,Kaduna,1
+MFL900017,Wale Nwosu,234-636-556-472,male,SCHOOL FEES,4454517.75 naira,32.47,29.07.2023,20/06/2025,NULL,Written Off,Unknown,Amara Nwosu,Oyo State,no
+MFL900129,bisi adekunle,+234158148769,female,  SCHOOL FEES   ,"NGN 3,907,786",18.79,2024/12/29,18 December 2025,"₦1,394,075.42",Defaulted,Vehicle,SEGUN BELLO,Rivers,FALSE
+MFL900298,Kemi Lawal,+234108573278,F,Medical ,3116963.19,16.75,12-Nov-2024,2025-04-13,"N1,029,099",Fully repaid,Shop Stock,ZAINAB AFOLABI,Edo,FALSE
+MFL900011,Tobi Bello,234-333-395-211,M,Agricultural Input,"NGN 2,760,441",4.96,,09/05/2024,640721.1,Defaulted,Vehicle,Amara Eze,Kano,N
+MFL900119,Tobi Nnamdi,00409157018,male,business,"₦3,492,360.38",11.8,2023/12/05,2025-09-23,581254.97,Written Off,None,Femi Olawale,Imo,Y
+MFL900348,Yusuf Nnamdi,0241 246 2095,M,business,958996.56,11.9,,12/17/2023,"NGN 742,653",Active,Land Title,Chioma Adeyemi,Rivers,Yes
+MFL900019,ngozi afolabi,27026728857,male,Medical ,?,28.23,25-Dec-2022,28 May 2024,"136,795.32 ",Overdue,None,Musa Abubakar,Cross River,Yes
+MFL900285,Segun Yusuf,+234241502745,Female,Medical Bills,"NGN 726,691",30.39,2023-03-03,09 July 2023,264929.13 naira,Written Off,Guarantor,wale abubakar,Cross River,1
+MFL900086,Funmilayo Nwosu,12209949993,F,  SCHOOL FEES,"N1,293,581",27.27,22 February 2023,11/14/2024,"₦1,258,586.88",active,guarantor,SEGUN ADEKUNLE,Edo,1
+MFL900322,Ngozi Abubakar,234-214-565-328,male,  Medical Bills   ,3181424.90 naira,9.75,02-Mar-2024,02-Oct-2025,"₦861,154.08",DEFAULTED,Vehicle,FATIMA OKAFOR,Plateau,N
+MFL900287,Zainab Lawal,87032032074,Female,Medical ,"NGN 3,540,905",11.42,03/02/2024,29/07/2024,"2,190,750.93 ",Written Off,guarantor,Chidi Okafor,Edo,FALSE
+MFL900376,  Aliyu Ogundimu,28456797232,Female,  Home Renovation,"1,118,173.53 ",23.52,17 May 2022,14.03.2023,236292.9,Active,NONE,Emeka Okonkwo,Enugu,no
+MFL900369,  Emeka Adekunle,04110760954,male,business,"₦2,438,643.57",4.9,21/08/2022,09 May 2023,884773.08,Written Off,Guarantor,Obinna Olawale,Anambra,FALSE
+MFL900132,Chinedu Adekunle   ,+234975817246,female,  School Fees   ,"NGN 347,981",29.51,03 January 2024,08 October 2024,"N310,511",Overdue,Unknown,OBINNA ABUBAKAR,Enugu,0
+MFL900206,Chioma Yusuf,+234805525782,female,Medical ,"₦3,612,491.01",28.2,12.02.2024,11-Sep-2025,2838470.20 naira,Defaulted,Land title,Kunle Okeke,Akwa Ibom,No
+MFL900169,Sadiq Bello,0506 138 7829,female,Equipment Purchase,2153036.12,18.79,08/08/2022,05 November 2023,"NGN 692,828",Written Off,NONE,IFEOMA OLAWALE,Ogun,FALSE
+MFL900153,Bola Adeyemi,(604) 765-8018,male,  School Fees,"421,763.40 ",9.04,24 October 2022,2023/07/24,141797.74 naira,Defaulted,Unknown,chinedu adeyemi,Enugu,1
+MFL900199,Emeka Okafor,234-116-241-124,Female,Petty Trading,"2,756,174.80 ",5.65,06 October 2024,23 July 2025,"444,920.73 ",Active,NONE,sadiq okafor,Abuja,Yes
+MFL900083,Chinedu Okeke,234-823-298-324,Female,Agricultural  Input,"₦2,475,645.05",17.62,17.05.2024,22-Aug-2025,1463774.04,Defaulted,NONE,IBRAHIM ADEYEMI,Edo,no
+MFL900116,Emeka Mohammed,74384215031,Female,  Medical ,null,22.29,30.07.2024,27 October 2025,1357555.96,active,Land Title,chinedu adekunle,Plateau,TRUE
+MFL900023,Yusuf Yusuf,234-587-716-947,F,   business,"N2,481,139",null,03-Sep-2024,2025-09-22,"₦209,071.34",DEFAULTED,Vehicle,amara eze,Rivers,TRUE
+MFL900114,NGOZI MOHAMMED,24056829962,male,  School Fees,"N680,931",33.58,2023/08/27,2025/05/27,733581.08,Defaulted,Guarantor,Adaeze Adekunle,Plateau,Y
+MFL900338,Kemi Nwosu,0821 545 4470,Male,Petty Trading,"₦679,561.44",5.91,2023/02/15,18/11/2023,NIL,Fully Repaid,NIL,Amaka Mohammed,Lagos,Y
+MFL900257,Amara Adeyemi,06498782082,female,Agricultural Input   ,"N2,747,842",6.98,17.01.2022,15.01.2024,"NGN 2,598,193",Overdue,guarantor,Tunde Okeke,Rivers,Yes
+MFL900053,Wale Afolabi,(109) 678-9940,male,Equipment Purchase,"NGN 4,456,417",33.86,2024-04-03,2024/12/15,  ,Fully repaid,NONE,Kunle Olawale,Akwa Ibom,FALSE
+MFL900154,ADAEZE OKAFOR,06945441496,Male,Petty Trading,"NGN 3,700,627",27.59,2024/04/19,unknown date,"N2,874,845",Defaulted,NONE,Musa Okonkwo,Ogun,FALSE
+MFL900026,Tunde Yusuf,0762 202 3413,Male,Equipment Purchase,"NGN 3,625,135",30.89,25.09.2022,01/05/2024,1718234.00 naira,active,guarantor,tobi okonkwo,Akwa Ibom,false
+MFL900288,Blessing Ogundimu,invalid,female,Equipment Purchase,n/a,32.39,02/27/2024,04 December 2024,286671.72 naira,Fully Repaid,Shop Stock,aliyu suleiman,Enugu,0
+MFL900377,ibrahim yusuf,00249685498,Male,Medical Bills,"NGN 516,016",20.96,24-Sep-2023,06/01/2024,"₦368,277.63",Written Off,Land Title,ALIYU ADEKUNLE,Cross River,FALSE
+MFL900265,Aliyu Mohammed,0391 559 6363,F,Agricultural Input   ,1106548.24 naira,8.11,06-Aug-2023,2024/07/12,941454.01 naira,Overdue,Guarantor,segun adeyemi,Cross River,Yes
+MFL900269,Ibrahim Lawal,(518) 376-0644,female,  business,"₦4,092,271.12",35.08,09 October 2022,2023/07/23,3165449.12 naira,Fully repaid,Unknown,Adaeze Bello,Plateau,N
+MFL900411,Bola Chukwu,77790147546,female,Agricultural Input,4024946.84 naira,15.03,29/06/2024,03-Mar-2025,"₦188,492.76",DEFAULTED,Shop Stock,Segun Bello,Anambra,yes
+MFL900145,Wale Ogundimu,+234807787956,M,  Medical ,"NGN 1,830,816",20.87,2022/04/13,11 August 2023,1081106.28,Defaulted,Shop Stock,Grace Abubakar,Cross River,No
+MFL900022,Bola Balogun,00615939982,F,SCHOOL FEES   ,n/a,27.49,2022/06/21,15 August 2023,"N607,105",DEFAULTED,None,Femi Mohammed,Ogun,TRUE
+MFL900066,Chinedu Adekunle,+234060480589,Male,Medical Bills,"NGN 1,569,379",33.49,21-Jan-2024,05/21/2025,"N366,001",Active,Land title,Bola Afolabi,Ogun,Yes
+MFL900256,Chioma Balogun,+234514846853,M,business,1848345.31,,09/02/2024,05/11/2024,280310.23 naira,Active,NIL,Halima Balogun,Enugu,yes
+MFL900049,Emeka Mohammed,234-827-448-570,F,Agricultural Input,4141018.69,23.18,15/10/2022,2024-01-09,"₦845,835.27",Fully repaid,Land title,FUNMILAYO BELLO,Ogun,Y
+MFL900343,Grace Okafor,+234120948181,Female,Equipment Purchase,3863056.42,16.0,2022/07/01,04.06.2023,2268265.23 naira,Active,guarantor,Emeka Balogun,Akwa Ibom,No
+MFL900214,Adaeze Olawale,234-266-299-123,male,Agricultural Input,"NGN 2,030,307",9.4,19.03.2023,07.09.2023,1981180.82 naira,DEFAULTED,Land title,EMEKA SULEIMAN,Kano,Yes
+MFL900034,Zainab Okeke,(853) 686-6326,male,Equipment Purchase,"N2,935,351",8.46,2024/07/16,02.07.2025,2441743.74 naira,DEFAULTED,Vehicle,segun okeke,Ogun,N
+MFL900313,Tobi Suleiman,0757 383 9597,Female,Petty Trading,2775483.24,8.78,13.08.2023,03/21/2024,"₦1,958,701.13",Overdue,None,Ifeoma Nwosu,Enugu,FALSE
+MFL900325,Aliyu Adekunle,(029) 084-6684,F,Medical Bills,4655243.91,15.73,00/00/0000,2025-04-29,"₦2,402,980.28",Written Off,Vehicle,aliyu olawale,Imo,no
+MFL900324,Bisi Adekunle,0000000000,M,Medical Bills,4600781.99 naira,7.6,2023-11-30,09/30/2024,476973.83 naira,DEFAULTED,guarantor,Emeka Nwosu,Akwa Ibom,no
+MFL900002,FUNMILAYO AJAYI,234-098-839-205,female,SCHOOL FEES,"N240,323",3.3,05.01.2023,05.06.2024,"₦95,360.22",DEFAULTED,-,Chinedu Afolabi,Cross River,No
+MFL900406,Aliyu Lawal,(702) 316-4334,Male,Medical ,"NGN 2,699,130",12.83,04 December 2023,14 May 2025,2797200.20 naira,Defaulted,Land Title,GRACE ABUBAKAR,Delta,no
+MFL900310,Tunde Okafor,09840767899,F,Medical Bills   ,"₦3,947,893.79",19.89,18.06.2023,10/27/2023,"₦3,378,734.94",Defaulted,Vehicle,femi mohammed,Anambra,yes
+MFL900381,Amaka Okafor,(465) 217-0730,female,SCHOOL FEES,"153,076.60 ",11.88,07.11.2023,not set,57255.00 naira,Written Off,None,FUNMILAYO AJAYI,Akwa Ibom,0
+MFL900411,Bola Chukwu,77790147546,female,Agricultural Input,4024946.84 naira,15.03,29/06/2024,03-Mar-2025,"₦188,492.76",DEFAULTED,Shop Stock,Segun Bello,Anambra,yes
+MFL900239,Aliyu Suleiman,05396136749,female,Business Expansion,2040450.27,20.45,2024/07/19,29/03/2025,1348129.79 naira,Active,NONE,Tobi Eze,Imo,1
+MFL900122,Funmilayo Okonkwo,234-385-854-249,M,Medical ,"₦4,589,471.91",13.11,unknown date,2025-11-04,441930.33,Fully Repaid,None,TUNDE YUSUF,Edo,yes
+MFL900279,Amara Balogun,63934362620,female,Equipment Purchase,"NGN 3,757,287",18.27,23 March 2022,N/A,274055.8,Written Off,Land Title,Amara Bello,Rivers,true
+MFL900337,Bisi Bello,234-519-611-594,Male,Medical ,"NGN 1,912,181",26.42,30/08/2024,2025-03-18,"₦913,932.22",DEFAULTED,Vehicle,CHIOMA CHUKWU,Delta,FALSE
+MFL900223,Fatima Abubakar,(544) 518-9520,male,SCHOOL FEES   ,unknown,23.92,05-Oct-2024,14 February 2025,"NGN 1,994,231",Fully repaid,Shop Stock,Femi Okonkwo,Kaduna,false
+MFL900086,Funmilayo Nwosu,12209949993,F,  SCHOOL FEES,"N1,293,581",27.27,22 February 2023,11/14/2024,"₦1,258,586.88",active,guarantor,SEGUN ADEKUNLE,Edo,1
+MFL900216,Sadiq Okonkwo,+234879232648,male,business,"₦2,005,907.62",13.93,09 May 2024,13.11.2025,"₦378,735.46",Overdue,guarantor,SADIQ OKAFOR,Anambra,Yes
+MFL900337,Bisi Bello,234-519-611-594,Male,Medical ,"NGN 1,912,181",26.42,30/08/2024,2025-03-18,"₦913,932.22",DEFAULTED,Vehicle,CHIOMA CHUKWU,Delta,FALSE
+MFL900294,Halima Afolabi,18961642361,M,Business Expansion,"NGN 311,329",9.44,04/07/2024,00/00/0000,63362.22 naira,Fully Repaid,-,Chidi Okeke,Lagos State,1
+MFL900024,YUSUF  OKEKE,0256 996 1125,male,Medical ,"₦1,879,353.17",4.62,12.04.2023,06/04/2024,"₦641,120.67",Active,None,Wale Eze,Oyo,No
+MFL900248,Halima Afolabi,+234500902559,female,Home Renovation   ,N/A,16.48,19/05/2023,19-Aug-2023,"N251,005",Fully repaid,,Obinna Lawal,Edo,Y
+MFL900240,Femi Adeyemi,+234657967842,male,School Fees,  ,16.4,2022-08-14,06.05.2023,"N584,019",Defaulted,None,Halima Lawal,FCT,true
+MFL900150,Zainab Okeke,0051 292 7663,female,Medical Bills,"NGN 800,592",13.49,24-Mar-2023,2023-08-04,"N667,050",Active,NULL,chidi eze,Anambra,Yes
+MFL900203,  Amara Bello,0924 243 7540,F,SCHOOL  FEES,4474098.52,25.34,2022/11/13,23.06.2023,"NGN 4,326,573",Active,Guarantor,KEMI YUSUF,Cross River,Y
+MFL900247,GRACE MOHAMMED,0828 064 7969,F,Medical    ,"N4,547,524",13.87,05 October 2022,02.11.2023,4850312.23,Active,guarantor,NGOZI OKAFOR,Edo,no
+MFL900261,Wale Ogundimu,0303 477 8660,Male,Medical    ,530515.41 naira,29.78,2024/01/19,22.11.2024,405226.91,active,NONE,Ifeoma Eze,Kano,false
+MFL900001,Sadiq Olawale,84902770384,female,Equipment Purchase,"2,344,344.54 ",34.9,01/18/2023,08-Sep-2024,"₦2,021,053.01",Fully repaid,n/a,Emeka Nnamdi,Oyo,false
+MFL900101,Tunde Afolabi,(384) 983-0220,female,SCHOOL FEES,"NGN 2,996,131",12.21,07.12.2023,18/07/2024,"₦1,556,307.58",Fully repaid,Guarantor,Bisi Suleiman,Enugu,N
+MFL900006,Bisi Balogun,234-184-518-489,Female,SCHOOL FEES,4559053.67,--,28-May-2023,13 September 2023,4861612.2,Written Off,Shop Stock,Musa Lawal,Plateau,false
+MFL900200,Tobi Adekunle   ,(272) 380-4682,female,SCHOOL FEES,"₦846,939.44",31.98,08 January 2023,10/07/2023,"NGN 289,740",Active,unknown,Femi Okeke,Imo,Yes
+MFL900107,Tunde Nwosu,(489) 952-9978,male,Medical Bills,"NGN 406,443",12.9,08/06/2023,00/00/0000,"₦274,257.05",Active,NONE,AMARA OKEKE,Lagos State,TRUE
+MFL900278,Amara Adeyemi,77133344762,male,  business,4425322.16 naira,10.52,2022-02-25,28.10.2022,3306780.49 naira,Overdue,guarantor,AMARA NNAMDI,Akwa Ibom,TRUE
+MFL900087,Chidi Mohammed,09330517289,Male,Medical Bills,3281465.20 naira,12.41,2023/06/06,12-Jul-2024,"N1,686,497",Fully Repaid,Land title,Bisi Bello,Kano,true
+MFL900227,Chinedu Okafor,+234240132234,Female,Home Renovation,"₦1,131,023.75",20.35,11.03.2024,24.03.2025,1168723.31 naira,Active,None,bola afolabi,Kano,1
+MFL900095,Bisi Suleiman,(570) 279-3714,Female,Home Renovation,"N2,373,697",20.25,05-Jul-2023,27 June 2025,"NGN 39,282",Written Off,Land Title,Tobi Lawal,FCT,FALSE
+MFL900400,Amara Balogun,N/A,Female,Petty Trading,200861.11 naira,9.39,21/02/2024,00/00/0000,-,Overdue,Vehicle,Fatima Suleiman,FCT,No
+MFL900398,Funmilayo Ogundimu,0443 928 4044,Female,Home Renovation,"N3,088,861",13.0,14/04/2024,17 July 2025,"2,609,653.16 ",DEFAULTED,guarantor,Aliyu Yusuf,Imo,FALSE
+MFL900031,musa  nnamdi,08845783174,female,  Home Renovation,"₦4,083,984.77",8.2,unknown date,25-Oct-2023,968493.14 naira,Active,n/a,Aliyu Okafor,Kano,Yes
+MFL900137,Ibrahim Ajayi,234-403-696-566,M,Medical ,"3,559,731.57 ",28.92,2023/03/30,2024/05/07,"N3,100,091",Defaulted,-,HALIMA AFOLABI,Plateau,0
+MFL900166,Obinna Chukwu,04328063461,M,Business Expansion,"N551,946",6.82,2022-10-14,28.11.2023,"NGN 305,001",active,guarantor,Ibrahim Ogundimu,Plateau,false
+MFL900351,Sadiq Adekunle,(140) 578-6170,female,Agricultural Input,4641018.38,19.97,05/07/2024,02-Aug-2025,"3,401,322.54 ",Fully repaid,Shop Stock,Sadiq Ogundimu,Anambra,0
+MFL900102,Kunle Chukwu,+234209945101,M,Medical Bills   ,NIL,12.79,11 January 2023,2023/06/20,2528735.58,active,None,funmilayo nwosu,Cross River,true
+MFL900125,Fatima Abubakar,09545381792,female,Business Expansion,"₦2,907,658.35",16.21,16/07/2024,2025-02-26,"NGN 1,036,014",Active,n/a,Obinna Okonkwo,FCT,0
+MFL900268,fatima mohammed,54090034864,male,Medical ,"₦4,126,552.97",28.58,02 March 2023,2023-10-24,"NGN 1,981,449",Active,Guarantor,Yusuf Ogundimu,Plateau,Y
+MFL900339,Sadiq Ogundimu,(296) 044-3270,Female,Agricultural Input,"NGN 2,824,599",26.69,01/04/2024,22-Jun-2025,2079941.78 naira,Fully Repaid,None,Ifeoma Nnamdi,Edo,1
+MFL900361,Segun Mohammed,0537 030 4531,Male,business,"N2,203,990",18.97,03/23/2023,unknown date,"NGN 1,873,752",Active,nil,Grace Bello,Anambra,N
+MFL900039,Bola Yusuf,56475705120,M,Business Expansion,1907197.62 naira,4.85,2022/04/09,09/13/2022,"₦1,360,048.78",Fully repaid,Shop Stock,Kemi Okafor,Delta,0
+MFL900015,Chinedu Olawale,0750 036 9155,male,  Petty Trading,"NGN 3,156,221",35.26,21.12.2024,09/24/2025,"N11,703",Fully repaid,Land Title,Musa Abubakar,Kaduna,Yes
+MFL900085,Chinedu Suleiman,+234205664742,Female,School Fees,3994565.64 naira,24.1,unknown date,2025/02/24,4364905.24 naira,DEFAULTED,Vehicle,ALIYU BALOGUN,Abuja,Yes
+MFL900069,Funmilayo Adeyemi,08641686227,F,  business   ,"NGN 783,254",4.01,2024-07-06,21 January 2025,NULL,Written Off,NULL,Chinedu Okafor,Rivers State,0
+MFL900344,Chidi Nwosu,+234890983780,Male,SCHOOL FEES   ,"N3,420,359",34.25,16-Mar-2022,2023-06-06,"N2,537,146",Fully Repaid,NONE,Aliyu Lawal,Abuja,0
+MFL900388,Obinna Lawal,+234596309938,M,SCHOOL FEES   ,"₦4,513,557.79",21.29,09.11.2024,28.10.2026,4401270.1,Overdue,NONE,femi lawal,Oyo,Yes
+MFL900134,AMARA BALOGUN,02278469973,F,Home  Renovation,1204215.56 naira,7.78,2023-11-17,19.08.2024,210007.36 naira,Written Off,None,Amara Ogundimu,Imo,No
+MFL900042,SADIQ OKEKE,234-452-088-147,M,Business Expansion,"₦1,359,763.43",4.62,08/31/2023,2024/10/08,1437761.66,Defaulted,n/a,Grace Balogun,Imo,FALSE
+MFL900255,Sadiq Suleiman,+234919541987,female,  Agricultural Input,2427226.1,26.04,2023/07/25,2024-08-21,2109150.91 naira,Overdue,NONE,NGOZI AFOLABI,Kaduna,false
+MFL900403,Amara Okafor,59090225999,Female,SCHOOL FEES,"N3,253,414",32.21,18/04/2022,16 September 2023,"₦494,054.62",Active,Shop Stock,Bisi Adekunle,Anambra,FALSE
+MFL900275,Emeka Balogun   ,01652669300,F,Agricultural Input,"N3,270,834",29.69,2023-07-08,04-Mar-2024,"NGN 159,370",Fully repaid,Land Title,Bola Nnamdi,Plateau,yes
+MFL900374,Zainab Okonkwo,07676991507,Male,SCHOOL FEES,"NGN 4,495,250",32.85,07 October 2024,03/12/2026,"₦525,598.35",Written Off,Shop Stock,MUSA NWOSU,Cross River,0
+MFL900155,Amaka Ogundimu,+234938525800,Female,SCHOOL FEES,"N2,282,954",20.62,05/08/2022,06-Oct-2022,1085350.91 naira,Fully Repaid,guarantor,Ifeoma Suleiman,Cross River,1
+MFL900263,SADIQ BELLO,0015 941 6516,F,Equipment Purchase,"₦3,941,363.20",7.4,2024/09/08,2025/07/12,2451822.14 naira,Fully repaid,NULL,TOBI OKONKWO,Abuja,No
+MFL900220,Chioma Okonkwo,15890429025,Male,Medical ,1889891.54,8.28,25-Sep-2023,08/17/2025,"₦1,884,327.48",Fully repaid,Shop Stock,Ngozi Afolabi,oyo,true
+MFL900228,Fatima Ogundimu,03216110760,F,Agricultural Input,4504644.53,12.49,16-Dec-2023,2024-12-22,"₦4,535,873.00",Overdue,Guarantor,Amaka Lawal,Ogun,N
+MFL900111,Chinedu Mohammed,+234699023557,Male,Home  Renovation,"N2,124,447",unknown,18.04.2023,03/19/2024,"NGN 418,727",Active,Vehicle,ZAINAB OKONKWO,Cross River,FALSE
+MFL900304,OBINNA AJAYI,invalid,male,Medical     ,"3,655,433.47 ",34.52,28/06/2023,25 December 2023,"3,478,045.33 ",Written Off,NONE,Chioma Suleiman,Plateau,No
+MFL900354,grace  okafor,+234870079420,Male,Medical Bills,"N1,804,019",25.33,21.12.2023,10.07.2024,"1,367,519.64 ",Fully repaid,NIL,CHIDI EZE,Kano,FALSE
+MFL900052,Chinedu Ajayi,01810220317,Male,Petty Trading,4004078.49,17.76,19 July 2022,06/17/2023,1397632.64,Active,None,Emeka Nnamdi,Akwa Ibom,no
+MFL900277,Grace Balogun,(942) 152-9108,Female,Home Renovation,"2,044,132.85 ",30.83,06 January 2022,04/05/2023,480371.38,active,Vehicle,Ngozi Nwosu,ABUJA,FALSE
+MFL900330,Bola Okeke,05485101749,Male,  School Fees,770578.12 naira,23.51,2022/08/21,2023/05/30,"₦647,252.90",Active,Shop Stock,Chidi Nnamdi,Cross River,false
+MFL900332,Ifeoma Ogundimu,0492 683 1589,male,SCHOOL FEES,501491.9,33.6,22 June 2023,26-Oct-2023,20522.02,Written Off,?,Obinna Bello,Ogun,false
+MFL900283,Sadiq Adeyemi,(489) 646-5280,male,School Fees,"4,684,234.56 ",35.27,29.07.2022,04/01/2023,"N4,087,494",DEFAULTED,None,halima yusuf,Delta,FALSE
+MFL900106,Zainab Okeke,+234198179469,female,  School Fees,"N2,345,293",21.17,2023/01/27,not set,"₦2,401,170.63",DEFAULTED,guarantor,Adaeze Abubakar,Anambra,FALSE
+MFL900030,Chinedu Ajayi,(487) 282-9979,M,Medical Bills   ,"642,519.68 ",26.92,04 August 2023,04 July 2025,"NGN 293,671",active,NONE,Funmilayo Okafor,Cross River,1
+MFL900074,Chinedu Suleiman,234-405-147-705,female,   SCHOOL FEES,4492361.83 naira,5.76,07 July 2024,04.03.2025,"₦2,196,326.92",Fully repaid,Shop Stock,blessing nnamdi,Imo,Yes
+MFL900174,  Tunde Okeke,0426 258 2739,M,Medical Bills,3383006.02,,2023-02-04,11.09.2023,"₦2,770,189.79",Fully Repaid,Guarantor,adaeze mohammed,Plateau,0
+MFL900039,Bola Yusuf,56475705120,M,Business Expansion,1907197.62 naira,4.85,2022/04/09,09/13/2022,"₦1,360,048.78",Fully repaid,Shop Stock,Kemi Okafor,Delta,0
+MFL900010,Amara Okafor,(553) 942-3733,male,  Agricultural Input,"N1,381,789",4.72,10/07/2022,2023/09/14,104494.04,Defaulted,Shop Stock,Chinedu Nnamdi,Ogun,false
+MFL900262,Chinedu Chukwu,N/A,Female,business,"NGN 3,154,646",21.47,10/10/2024,10/05/2025,"₦1,374,122.54",Fully repaid,NONE,Fatima Abubakar,Rivers,FALSE
+MFL900097,Bola Eze,26860259222,male,Medical Bills,n/a,15.71,04-Jul-2022,20 February 2023,"₦501,698.92",Active,None,Segun Adekunle,Abuja,no
+MFL900231,Halima Adekunle,24955289389,M,Equipment Purchase,"N1,503,320",18.04,20 April 2024,23.10.2024,"₦1,581,197.40",DEFAULTED,Land Title,Amaka Nnamdi,Ogun,Yes
+MFL900196,AMAKA OKAFOR,+234538179335,female,Home Renovation   ,"N4,938,500",31.12,19-Jun-2024,11/20/2025,1628867.09,Defaulted,Land title,Yusuf Bello,Lagos,1
+MFL900408,Musa Bello,+234286716323,female,Business Expansion   ,"NGN 3,904,316",17.38,28.05.2022,27.08.2023,"₦3,808,241.25",Active,Land Title,Funmilayo Okeke,Edo,Y
+MFL900044,Zainab Adeyemi,+234163009792,F,SCHOOL FEES   ,"NGN 3,419,689",Unknown,2024/05/27,10/11/2025,"NGN 1,706,189",Fully repaid,guarantor,Bola Bello,Edo,no
+MFL900176,Chioma Nwosu,234-946-723-248,M,  School Fees,"N475,444",n/a,07/11/2024,06/18/2025,201786.57 naira,Defaulted,NONE,Grace Bello,Kaduna,N
+MFL900357,KUNLE OGUNDIMU   ,0639 855 4743,Female,Business Expansion,"NGN 2,592,793",NIL,18/05/2024,14/09/2024,1457876.44,Defaulted,Vehicle,Zainab Afolabi,Edo,No
+MFL900392,segun mohammed,234-333-736-346,female,Medical  Bills,"₦4,432,918.78",26.37,2024-02-25,2025-12-06,"NGN 77,155",Overdue,Shop Stock,Aliyu Okonkwo,FCT,No
+MFL900341,Funmilayo Balogun,234-792-287-772,M,Agricultural Input,,27.63,04/12/2022,2022-10-07,1351803.85,active,NONE,Bisi Abubakar,Abuja,Yes
+MFL900273,wale  adekunle   ,34591123829,Male,SCHOOL  FEES,"N1,010,230",32.1,05/18/2023,07 October 2024,"₦331,485.72",Written Off,Land Title,Obinna Ajayi,Akwa Ibom,FALSE
+MFL900353,Bisi Ajayi,67183258238,F,business,"2,316,533.91 ",12.25,17.01.2022,2022/06/08,"N2,338,640",Active,Shop Stock,Chinedu Balogun,Kaduna,TRUE
+MFL900396,Ifeoma Adeyemi,(415) 148-8814,Male,Home Renovation,"N2,685,843",34.5,03/28/2023,09 May 2024,"270,920.53 ",Overdue,Shop Stock,Sadiq Adeyemi,Plateau,No
+MFL900050,Musa Chukwu   ,06209593518,female,business,"N1,147,178",-,06.04.2024,28.02.2026,"NGN 433,240",Active,Shop Stock,Musa Eze,Imo,TRUE
+MFL900267,Chidi Balogun,+234158673425,male,Medical ,4421038.98,29.25,01/01/2024,2025/05/18,4599873.06 naira,Active,guarantor,Chinedu Yusuf,Cross River,true
+MFL900057,Zainab Balogun,+234886195761,M,business,"N2,685,940",28.31,12/08/2023,31/03/2024,"NGN 1,193,707",Fully Repaid,Land title,tobi suleiman,ABUJA,Y
+MFL900040,Ngozi Bello,+234618723460,male,Medical  Bills,"853,445.81 ",26.57,31-Jul-2023,12/02/2024,"N421,540",Fully Repaid,Unknown,tobi suleiman,kano,N
+MFL900147,Bisi Eze,+234904904712,F,Equipment Purchase,"₦932,103.85",null,31/05/2023,26-Aug-2024,"N908,172",DEFAULTED,NONE,Fatima Abubakar,Lagos,N
+MFL900144,Kunle Mohammed,08913718949,Male,business,"₦1,213,189.62",-,00/00/0000,2025-06-16,"N956,494",Overdue,Land Title,obinna lawal,oyo,yes
+MFL900163,   Wale Yusuf,06425690877,M,Equipment Purchase,"NGN 4,448,350",7.05,N/A,09/08/2025,"₦1,129,964.65",Fully repaid,NONE,Ngozi Olawale,Cross River,Y
+MFL900352,Ifeoma Afolabi,+234048913824,female,Home Renovation,4510406.05,12.59,,12.09.2023,"NGN 789,208",Active,guarantor,ADAEZE AJAYI,oyo,false
+MFL900192,Kemi Afolabi,0799 077 2625,male,Medical ,"NGN 388,647",9.71,2023/06/17,,"N326,037",DEFAULTED,Guarantor,Zainab Suleiman,Plateau,TRUE
+MFL900093,Bola Okeke,0000000000,M,Equipment Purchase,"₦1,482,346.83",13.54,27 April 2023,2025/02/11,397810.73,Active,Guarantor,Bisi Okafor,Cross River,1
+MFL900110,Chioma Bello,(441) 448-8501,Male,Home Renovation,?,32.25,03-Jun-2023,06 May 2024,"15,272.50 ",Fully Repaid,Vehicle,amara afolabi,Enugu,Yes
+MFL900359,Funmilayo Yusuf,02687681180,M,Agricultural Input,"N964,787",23.12,2024-02-15,04.09.2025,"₦116,950.48",Active,Vehicle,Amara Lawal,Edo,true
+MFL900191,Chinedu Ajayi,(632) 543-1074,M,Agricultural  Input   ,"4,999,875.94 ",15.82,20/05/2024,22/12/2025,"NGN 223,462",Fully repaid,None,Ngozi Okeke,Oyo,N
+MFL900166,Obinna Chukwu,04328063461,M,Business Expansion,"N551,946",6.82,2022-10-14,28.11.2023,"NGN 305,001",active,guarantor,Ibrahim Ogundimu,Plateau,false
+MFL900140,Wale Okeke,234-267-969-278,female,Petty Trading,"NGN 2,799,117",17.2,23 August 2024,23/11/2024,n/a,active,NONE,TOBI MOHAMMED,kano,yes
+MFL900414,Musa Adeyemi,68151185672,Female,Home Renovation,3643323.73 naira,30.39,,2023-08-15,"N1,064,560",Overdue,Land title,Bisi Yusuf,Oyo,true
+MFL900323,Amara Mohammed,03266678507,Female,Medical Bills,3875900.25 naira,11.11,07/17/2024,24.09.2025,3207600.6,Fully Repaid,Land title,Fatima Lawal,Ogun,No
+MFL900136,Yusuf Ogundimu,234-624-058-008,Female,School Fees,"N937,269",14.54,2024-08-12,2024-11-18,--,active,None,Bisi Adekunle,Imo,yes
+MFL900232,Amaka Eze,0119 083 3428,Male,Home Renovation,2291416.77 naira,33.51,N/A,31-Dec-2022,"N420,775",active,unknown,Grace Ogundimu,Lagos,0
+MFL900164,Wale Yusuf,0000000000,M,business,668176.72,3.26,13-Jan-2023,15/10/2023,"173,393.88 ",active,Shop Stock,Obinna Balogun,Oyo State,N
+MFL900419,Tunde Abubakar,+234752308370,Male,Medical ,"N4,836,841",10.61,08-Jul-2023,01/01/2024,"NGN 1,837,741",Written Off,Land title,Ifeoma Balogun,Oyo,Yes
+MFL900389,SEGUN ABUBAKAR,(253) 042-8973,male,Business  Expansion,"2,362,867.14 ",5.66,2024-09-10,2026/02/13,1551104.36 naira,active,None,Funmilayo Nwosu,Cross River,no
+MFL900202,Tunde Balogun,N/A,male,SCHOOL FEES,"₦1,676,850.93",15.03,13.08.2024,N/A,17385.83 naira,Written Off,Land Title,FEMI NNAMDI,Ogun,0
+MFL900157,Wale Suleiman,234-091-093-911,Female,School Fees,4136332.81 naira,8.51,15/05/2024,27 August 2025,2888336.96 naira,active,None,Obinna Okonkwo,Lagos,false
+MFL900317,Segun Okonkwo,234-561-931-837,female,SCHOOL FEES   ,"₦3,121,883.91",n/a,30-Mar-2023,2023/11/22,"N2,059,701",Fully Repaid,Land title,Obinna Yusuf,Ogun,Y
+MFL900415,blessing nnamdi,234-380-701-765,Male,Equipment Purchase,"NGN 2,444,595",8.71,22.06.2023,2025-03-22,,Fully repaid,Land title,ibrahim lawal,Anambra,No
+MFL900171,Ngozi Nnamdi,02041792911,Female,  Medical Bills,3193791.75 naira,21.84,2024/10/01,01.12.2025,"₦2,649,751.98",active,Land title,Blessing Okafor,Cross River,FALSE
+MFL900076,Tunde Adekunle,(698) 042-0439,F,School Fees   ,"N1,372,316",22.43,04.09.2024,23 January 2025,"NGN 346,195",Written Off,unknown,AMARA BELLO,Edo,Yes
+MFL900082,Grace Mohammed,,male,Medical    ,"N2,135,182",11.2,19-Mar-2024,2025/01/15,"2,292,012.18 ",Written Off,NONE,Adaeze Olawale,Oyo State,no
+MFL900291,Femi Bello,(371) 504-1659,Female,  Medical ,"NGN 3,908,463",33.54,03-Mar-2023,2024/03/04,"₦1,099,840.75",Overdue,None,fatima mohammed,ABUJA,0
+MFL900280,Wale Okeke,44397359710,F,School Fees   ,"N2,758,551",29.64,15-Nov-2023,13.05.2024,N/A,Active,Land title,Emeka Lawal,Ogun,TRUE
+MFL900329,Halima Okonkwo,(200) 894-3468,F,business,"NGN 3,394,691",15.57,2024-05-16,2025-11-19,3536236.7,Defaulted,Guarantor,segun afolabi,Plateau,Yes
+MFL900405,Chidi Afolabi,59741218209,female,Medical Bills,3807739.0,16.33,08 June 2023,2025/02/09,2625315.87 naira,Active,Land Title,ngozi nwosu,Lag,TRUE
+MFL900251,segun nnamdi,0507 698 6407,M,Home Renovation,"NGN 233,345",29.86,30/01/2023,16.01.2024,143315.59 naira,Active,NULL,Ifeoma Okafor,Kaduna,yes
+MFL900300,Obinna Okeke,(864) 908-1081,female,School Fees,--,20.77,04/25/2024,04/11/2024,"₦650,240.74",Active,Land title,obinna mohammed,Delta,false
+MFL900056,  Yusuf Chukwu,08113863383,female,Medical Bills   ,"₦1,863,155.83",20.01,unknown date,24/08/2022,"NGN 1,514,044",Active,Land Title,Aliyu Adekunle,Kano,0
+MFL900043,Aliyu Okonkwo,0350 313 6502,female,Medical ,"NGN 3,159,915",11.62,09/01/2023,07/22/2023,3234628.19 naira,Fully repaid,NULL,Amara Ogundimu,Lag,TRUE
+MFL900194,Femi Mohammed,(931) 950-8501,Male,Equipment Purchase,,23.45,18-Jan-2022,13/02/2023,"₦525,770.89",Defaulted,--,ALIYU OKAFOR,Rivers,TRUE
+MFL900413,Obinna Adekunle,0160 324 8413,M,Medical ,"NGN 2,610,879",24.26,2024/11/30,05.11.2025,"NGN 1,904,009",Written Off,Land title,Tunde Olawale,Cross River,FALSE

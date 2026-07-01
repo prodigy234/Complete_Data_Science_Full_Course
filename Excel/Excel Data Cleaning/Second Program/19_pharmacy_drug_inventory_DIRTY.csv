@@ -1,0 +1,448 @@
+StockID,DrugName,DrugClass,SupplierName,UnitCostPrice,UnitSellingPrice,QuantityReceived,QuantityDispensed,ClosingStock,BatchNumber,ExpiryDate,ReceiptDate,StorageCondition,NafdacApproved,State
+PH400425,Multivitamin Syrup,Supplements,Emzor Pharmaceutical,780.00 naira,"₦1,028.25",0,0,0,BN85097,19 September 2027,04/17/2025,Ambient Temperature,no,Plateau
+PH400223,Amlodipine 5mg Tab,Antihypertensives,Emzor Pharmaceutical,290,N423,-10,0,-10,BN23178,27.02.2027,04 April 2024,Cold Chain (2-8°C),Y,Kaduna
+PH400199,Metformin 850mg Tab,antidiabetics,Emzor Pharmaceutical,N350,N451,-10,0,-10,BN94351,27/05/2026,28.10.2024,ambient,0,Port Harcourt
+PH400070,Lisinopril 10mg Tab,Antihypertensives,Evans Medical,NGN 320,N469,2402,1473,929,BN21137,2027-07-17,26 March 2024,Cold Chain (2-8°C),Y,Kano
+PH400021,Multivitamin Syrup,SUPPLEMENTS,Fidson Healthcare,780.00 naira,"1,121.84 ",-10,0,-10,BN26782,unknown date,2024-09-29,Ambient Temperature,yes,Imo
+PH400042,Lisinopril 10mg Tab,ANTIHYPERTENSIVES,May & Baker Nigeria,320,404.17 ,0,N/A,0,BN74554,01/22/2026,09-Mar-2024,room temp,No,Enugu
+PH400176,Lisinopril 10mg Tab,nil,Fidson Healthcare,NGN 320,₦458.80,4776,654,4122,BN52961,23-Mar-2027,26 September 2024,COLD CHAIN,Yes,Anambra
+PH400259,Paracetamol 1000mg Tab,ANALGESICS,May & Baker Nigeria,120,171.52,-10,0,-10,BN34193,22-Nov-2024,06/15/2025,Controlled,false,Enugu
+PH400169,Ibuprofen 400mg Tab,analgesics,Evans Medical,N180,281.60 naira,--,0,-10,BN89182,09/06/2027,10/17/2024,Controlled,FALSE,Akwa Ibom
+PH400358,  Artemether-Lumefantrine 80/480,-,May & Baker Nigeria,650,NGN 811,2418,1085,1333,BN60729,26-Jul-2025,2024-03-16,Refrigerated,No,oyo
+PH400220,Paracetamol 1000mg Tab,ANALGESICS,Evans Medical,120.00 ,139.42,1874,1806,68,-,18 November 2026,18/04/2024,COLD CHAIN,N,Ogun
+PH400425,Multivitamin Syrup,Supplements,Emzor Pharmaceutical,780.00 naira,"₦1,028.25",0,0,0,BN85097,19 September 2027,04/17/2025,Ambient Temperature,no,Plateau
+PH400182,Amlodipine 5mg Tab,antihypertensives,Emzor Pharmaceutical,₦290.00,₦407.88,0,NIL,0,BN30127,23/07/2025,07/22/2024,room temp,TRUE,Imo
+PH400029,Diazepam  5mg Tab,ANXIOLYTICS,May & Baker Nigeria,550.00 naira,770.09,4868,1585,3283,BN60467,09/04/2027,18/04/2025,COLD CHAIN,Y,Akwa Ibom
+PH400097,Amoxicillin 500mg Cap,antibiotics,May & Baker Nigeria,480,₦619.49,0,0,0,BN73680,2027-03-29,18.05.2024,room temp,yes,Lagos
+PH400350,Artemether-Lumefantrine 80/480,Antimalarials,May & Baker Nigeria,650.00 naira,793.21,0,0,0,BN56191,27 January 2026,2024/08/20,room temp,N,Kano
+PH400270,Multivitamin Syrup,--,Fidson Healthcare,N780,unknown,-10,0,-10,BN37082,17 September 2027,01/19/2025,Refrigerated,0,Cross River
+PH400071,Omeprazole 20mg Cap,GI Drugs,Emzor Pharmaceutical,410,572.41 ,0,0,0,BN56768,03-Aug-2027,27-Jan-2024,Ambient Temperature,no,Plateau
+PH400353,Multivitamin Syrup,supplements,May & Baker Nigeria,N/A,"₦1,158.84",0,0,0,BN33322,09/14/2026,13-May-2024,ambient,1,Imo
+PH400156,Insulin Glargine 100IU/mL,Antidiabetics,Fidson Healthcare,8500,12888.63 naira,3976,1255,2721,BN35934,19 February 2025,06.09.2024,room temp,true,Edo
+PH400322,Lisinopril 10mg Tab,antihypertensives,Evans Medical,320.00 naira,N462,3399,1360,2039,BN40107,22.07.2026,2024-06-20,ambient,Y,Imo
+PH400050,Cotrimoxazole 480mg Tab,Antibiotics,Evans Medical,₦200.00,NGN 269,0,0,0,BN88368,22-Sep-2027,06/27/2025,Cold Chain (2-8°C),N,Enugu
+PH400328,Ibuprofen 400mg Tab,Analgesics,Evans Medical,NGN 180,N243,-10,0,-10,NIL,02-Jan-2027,2024/09/05,ambient,yes,Edo
+PH400348,Metformin 850mg Tab,ANTIDIABETICS,Emzor Pharmaceutical,N350,433.09 naira,4864,1193,3671,BN31725,23 June 2027,04/06/2025,COLD CHAIN,false,Cross River
+PH400395,Artemether-Lumefantrine 80/480,Antimalarials,May & Baker Nigeria,null,1010.09 naira,0,0,0,BN35426,15.04.2027,05/27/2025,COLD CHAIN,Y,Edo
+PH400004,Ibuprofen 400mg Tab,Analgesics,May & Baker Nigeria,NGN 180,243.66,575,414,161,BN48950,28 February 2027,03.05.2025,Controlled,Y,Plateau
+PH400234,Lisinopril 10mg Tab,ANTIHYPERTENSIVES,Evans Medical,320,NGN 500,-10,0,-10,  ,22 March 2025,2024-04-03,Controlled,yes,Kano
+PH400015,Cotrimoxazole 480mg Tab,Antibiotics,Emzor Pharmaceutical,₦200.00,₦281.74,-10,0,-10,BN79081,00/00/0000,2025/04/09,Refrigerated,Yes,Rivers
+PH400139,Artemether-Lumefantrine 80/480,Antimalarials,Fidson Healthcare,NULL,"1,006.15 ",-10,0,-10,BN92463,24-Oct-2025,,room temp,yes,Cross River
+PH400051,Lisinopril 10mg Tab,antihypertensives,Evans Medical,320,469.34,1982,1651,331,BN14288,22.06.2027,12/14/2024,COLD CHAIN,Yes,Abuja
+PH400302,Insulin Glargine 100IU/mL,Antidiabetics,Evans Medical,8500,"₦11,313.47",-10,0,-10,BN38050,14/12/2024,10.08.2024,COLD CHAIN,Y,Lagos
+PH400397,   Metformin 850mg Tab   ,Antidiabetics,Evans Medical,350.00 naira,495.03 ,0,0,,BN58376,28.08.2027,2025-05-06,COLD CHAIN,no,Ibadan
+PH400410,Metformin 850mg Tab,Antidiabetics,Emzor Pharmaceutical,350.00 naira,559.34,0,NIL,0,BN10971,2027/07/26,09/27/2024,COLD CHAIN,true,abuja
+PH400244,Lisinopril 10mg Tab,ANTIHYPERTENSIVES,Fidson Healthcare,320,NGN 501,4997,1662,3335,BN12739,19-Jun-2025,2025/05/13,Cold Chain (2-8°C),true,Edo
+PH400236,Ibuprofen 400mg Tab,Analgesics,Fidson Healthcare,180.00 ,275.71 naira,-10,0,-10,BN39936,29-Oct-2025,2024/04/30,ambient,yes,Enugu
+PH400198,Multivitamin Syrup,SUPPLEMENTS,May & Baker Nigeria,₦780.00,1174.07 naira,-10,0,-10,BN16518,2025-11-20,01/03/2024,Refrigerated,N,Edo
+PH400254,Artemether-Lumefantrine 80/480,Antimalarials,May & Baker Nigeria,650.00 naira,NGN 872,3906,2262,1644,BN33600,2026/03/20,04/29/2024,Controlled,N,Delta
+PH400116,Insulin Glargine 100IU/mL,Antidiabetics,Evans Medical,"NGN 8,500","₦12,606.56",2210,2,2208,BN21896,03/02/2027,24-Nov-2024,Ambient Temperature,N,Edo
+PH400118,Multivitamin Syrup,Supplements,Emzor Pharmaceutical,780.00 ,923.37 naira,-10,0,-10,BN49709,27.01.2027,28/02/2024,Controlled,0,Kaduna
+PH400215,Amlodipine 5mg Tab,ANTIHYPERTENSIVES,Swipha Nigeria,₦290.00,446.73 naira,2477,--,253,--,04-Aug-2027,not set,Ambient Temperature,yes,ABUJA
+PH400063,Omeprazole 20mg Cap,GI DRUGS,Evans Medical,410.00 naira,₦488.50,-10,0,-10,BN92280,08.02.2025,2024/07/30,COLD CHAIN,FALSE,LAGOS
+PH400062,Amoxicillin 500mg Cap,ANTIBIOTICS,May & Baker Nigeria,NGN 480,NGN 756,2878,1870,1008,BN99108,2027-06-11,08.06.2024,room temp,Y,Enugu
+PH400303,Amoxicillin 500mg Cap,Antibiotics,Evans Medical,480.00 naira,614.77,67,19,48,BN20573,06/19/2027,2024/12/23,Cold Chain (2-8°C),Yes,Kano
+PH400359,Omeprazole 20mg Cap,nil,Emzor Pharmaceutical,410.00 naira,N/A,-10,0,-10,BN71719,15.12.2024,12/25/2024,Controlled,No,Lagos State
+PH400341,Multivitamin Syrup,Supplements,May & Baker Nigeria,NGN 780,"NGN 1,023",1402,548,854,BN30164,05 September 2027,18-May-2025,Controlled,TRUE,Cross River
+PH400099,Multivitamin Syrup,Supplements,Evans Medical,780,"₦1,081.48",n/a,1971,1044,BN34660,N/A,01/11/2025,ambient,TRUE,Imo
+PH400318,Paracetamol  1000mg Tab,Analgesics,Evans Medical,N120,N147,--,0,-10,BN90965,2027/07/28,09/15/2024,Refrigerated,FALSE,kano
+PH400305,Omeprazole 20mg Cap,gi drugs,Swipha Nigeria,N/A,₦496.14,4163,1239,2924,BN22419,19.02.2026,02-Mar-2024,ambient,N,Imo
+PH400030,Diazepam 5mg Tab,ANXIOLYTICS,Evans Medical,₦550.00,₦850.10,1013,869,144,BN98786,2027-09-10,2025/01/10,Cold Chain (2-8°C),Yes,Plateau
+PH400032,Artemether-Lumefantrine 80/480,Antimalarials,Evans Medical,650.00 naira,918.41 naira,419,122,297,BN53278,14-Feb-2025,2025/03/08,Controlled,yes,Ogun
+PH400189,Paracetamol 1000mg Tab,ANALGESICS,Swipha Nigeria,N120,₦158.94,0,0,0,BN43034,17-Dec-2025,03/20/2024,ambient,N,Plateau
+PH400166,Omeprazole 20mg Cap,GI Drugs,Emzor Pharmaceutical,N410,642.04,-10,0,-10,BN79472,18.06.2026,unknown date,room temp,No,KANO
+PH400226,Omeprazole 20mg Cap,GI Drugs,Emzor Pharmaceutical,NGN 410,₦517.83,0,0,0,BN73249,2027-08-12,09/05/2024,COLD CHAIN,Yes,Delta
+PH400364,Metformin 850mg Tab,Antidiabetics,Evans Medical,NGN 350,463.20 naira,3886,3355,531,BN27662,not set,2024/01/20,Controlled,No,Plateau
+PH400293,Omeprazole 20mg Cap,GI Drugs,Emzor Pharmaceutical,₦410.00,NGN 578,-10,0,-10,BN68316,01/25/2026,22 August 2024,room temp,Yes,Edo
+PH400413,Ibuprofen 400mg Tab,ANALGESICS,May & Baker Nigeria,180.00 ,₦248.77,-10,0,-10,BN59774,07/06/2025,09/06/2024,Controlled,No,Kano
+PH400105,Ibuprofen 400mg Tab,Analgesics,Fidson Healthcare,180,,0,-,0,BN90419,2025/08/25,N/A,Refrigerated,FALSE,Imo
+PH400134,Omeprazole 20mg Cap,GI Drugs,Emzor Pharmaceutical,NGN 410,477.65,-10,0,-10,BN17976,24-Jan-2026,04/20/2025,Ambient Temperature,No,Ogun
+PH400391,Ibuprofen 400mg Tab,?,Emzor Pharmaceutical,NGN 180,212.68,-10,0,-10,BN47480,30.11.2026,25/06/2024,Controlled,no,Anambra
+PH400229,Amoxicillin 500mg Cap,Antibiotics,May & Baker Nigeria,480,731.16 ,570,378,192,BN59771,2025/08/06,04/05/2025,Refrigerated,0,Fct Abuja
+PH400407,Lisinopril 10mg Tab,Antihypertensives,Swipha Nigeria,₦320.00,489.23 naira,898,895,3,BN83922,30.08.2026,N/A,Refrigerated,Y,ABUJA
+PH400288,Amoxicillin 500mg Cap,Antibiotics,Fidson Healthcare,₦480.00,682.03 ,0,0,0,BN88854,02/22/2027,04/10/2025,Controlled,true,Oyo
+PH400152,Diazepam 5mg Tab,Anxiolytics,May & Baker Nigeria,₦550.00,754.02 naira,3311,1770,1541,BN61064,03 February 2026,04.05.2025,room temp,true,Delta
+PH400325,Amoxicillin 500mg Cap,Antibiotics,May & Baker Nigeria,480,n/a,0,0,0,unknown,13/03/2027,07-Jul-2024,Controlled,N,Cross River
+PH400177,Cotrimoxazole  480mg Tab,ANTIBIOTICS,Emzor Pharmaceutical,₦200.00,-,-10,0,-10,BN53185,21/12/2024,26 January 2025,COLD CHAIN,0,Edo
+PH400120,Insulin Glargine 100IU/mL,Antidiabetics,May & Baker Nigeria,"₦8,500.00","₦13,314.78",-10,0,-10,,2025/08/29,07/03/2024,Ambient Temperature,false,Imo
+PH400142,Amoxicillin 500mg Cap,antibiotics,Fidson Healthcare,480.00 naira,733.05 ,0,0,0,BN99622,25-Nov-2026,2024/12/03,Refrigerated,1,Imo
+PH400031,Cotrimoxazole 480mg Tab,antibiotics,Swipha Nigeria,₦200.00,303.94 naira,-10,0,-10,BN22514,23/12/2025,unknown date,Ambient Temperature,0,Kaduna
+PH400263,Artemether-Lumefantrine 80/480,antimalarials,Emzor Pharmaceutical,N650,905.46,0,0,0,BN30350,23.10.2025,27 June 2025,Ambient Temperature,yes,Enugu
+PH400014,Multivitamin Syrup,supplements,Emzor Pharmaceutical,780.00 ,"NGN 1,136",-10,0,-10,BN60880,05-May-2025,19.03.2025,Cold Chain (2-8°C),TRUE,Oyo State
+PH400163,Amoxicillin 500mg Cap,Antibiotics,Evans Medical,480,748.84,-10,0,-10,BN63245,2025/04/20,19.11.2024,room temp,0,Delta
+PH400357,Cotrimoxazole 480mg Tab,null,Evans Medical,₦200.00,234.92,4340,1523,2817,BN48461,03/07/2026,11 May 2024,Cold Chain (2-8°C),Yes,Plateau
+PH400036,Ibuprofen 400mg Tab,Analgesics,Swipha Nigeria,180.00 naira,217.97 ,0,0,0,BN55579,27-Jun-2026,08/03/2024,COLD CHAIN,No,Kaduna
+PH400430,Ibuprofen 400mg Tab,Analgesics,Evans Medical,N180,NGN 239,N/A,1104,1693,BN64803,2025-01-02,2025-02-11,Cold Chain (2-8°C),0,Ogun
+PH400289,Omeprazole 20mg Cap,GI Drugs,Emzor Pharmaceutical,410,NGN 656,3570,3397,173,BN42094,06/11/2024,2025-05-23,COLD CHAIN,No,Anambra
+PH400404,Ibuprofen 400mg Tab,Analgesics,Evans Medical,180.00 ,237.68 ,NIL,0,0,BN28927,not set,15 March 2024,COLD CHAIN,Y,Kaduna
+PH400253,Multivitamin Syrup,Supplements,Fidson Healthcare,N780,"NGN 1,240",0,0,0,--,05/09/2026,01/14/2024,COLD CHAIN,0,Cross River
+PH400206,Lisinopril 10mg Tab,Antihypertensives,Emzor Pharmaceutical,320,433.14,-10,0,-10,BN29242,00/00/0000,2024-04-20,Ambient Temperature,no,Ogun
+PH400108,Insulin Glargine 100IU/mL   ,ANTIDIABETICS,Emzor Pharmaceutical,"₦8,500.00","N11,974",0,0,0,BN24697,2025/03/11,2024/08/24,room temp,yes,Delta
+PH400057,Diazepam 5mg Tab,ANXIOLYTICS,May & Baker Nigeria,NGN 550,652.60 naira,0,0,0,BN47986,2026/03/11,2024/05/13,room temp,No,Anambra
+PH400098,Artemether-Lumefantrine 80/480,antimalarials,Emzor Pharmaceutical,₦650.00,1023.81,1065,721,344,BN26106,03/06/2026,07 June 2024,Refrigerated,no,Oyo
+PH400238,Paracetamol 1000mg Tab,N/A,Swipha Nigeria,N120,183.3,0,0,0,BN30460,21/11/2024,18-Dec-2024,Ambient Temperature,Y,Lagos
+PH400355,Cotrimoxazole 480mg Tab,Antibiotics,Emzor Pharmaceutical,200,₦233.87,0,0,0,BN95268,2027/07/09,2024/03/13,Ambient Temperature,false,Rivers State
+PH400068,Insulin Glargine 100IU/mL,Antidiabetics,Emzor Pharmaceutical,8500,"N12,054",0,0,0,BN18020,03 March 2027,08.01.2025,Ambient Temperature,0,Abuja
+PH400010,Insulin Glargine 100IU/mL,ANTIDIABETICS,Emzor Pharmaceutical,"NGN 8,500",13208.09,0,0,,BN40440,05/18/2026,12/15/2024,COLD CHAIN,Y,Enugu
+PH400331,Cotrimoxazole 480mg Tab,Antibiotics,Evans Medical,NGN 200,NGN 271,2839,977,1862,BN53114,01.05.2027,05/06/2025,ambient,FALSE,Imo
+PH400394,Multivitamin Syrup,Supplements,May & Baker Nigeria,780.00 naira,"₦1,127.94",0,0,,BN44832,2027-06-25,13.02.2024,room temp,N,Cross River
+PH400273,Ibuprofen 400mg Tab,Analgesics,Swipha Nigeria,180.00 ,NGN 286,4882,2090,2792,BN12189,25.06.2026,06-Aug-2024,Ambient Temperature,no,KANO
+PH400175,Omeprazole 20mg Cap,GI Drugs,Swipha Nigeria,NGN 410,NGN 619,3442,2903,,BN51272,19/01/2025,28/01/2025,Cold Chain (2-8°C),0,Edo
+PH400409,Multivitamin Syrup,Supplements,Swipha Nigeria,N780,1030.92,544,78,466,BN39019,10/05/2025,2024-07-31,Ambient Temperature,yes,kano
+PH400203,Cotrimoxazole 480mg Tab,Antibiotics,Evans Medical,₦200.00,287.35,0,0,0,BN96508,2027-06-27,02 August 2024,COLD CHAIN,FALSE,Kano
+PH400197,Omeprazole 20mg Cap,gi drugs,May & Baker Nigeria,₦410.00,₦655.26,-10,0,-10,BN35198,06 March 2025,23-Nov-2024,Controlled,no,Ogun
+PH400271,Omeprazole 20mg Cap,gi drugs,Swipha Nigeria,NGN 410,₦498.89,  ,0,-10,BN10417,07.11.2026,2024-02-13,ambient,N,Anambra
+PH400161,Insulin Glargine 100IU/mL,Antidiabetics,Fidson Healthcare,"₦8,500.00","NGN 13,145",3697,1856,1841,BN82299,28.02.2026,2025/05/07,Refrigerated,yes,Lagos
+PH400281,Metformin 850mg Tab,Antidiabetics,Fidson Healthcare,N350,504.36 naira,4628,NIL,3693,BN13853,2027/02/27,19.06.2025,room temp,FALSE,Edo
+PH400387,Lisinopril 10mg Tab,antihypertensives,Emzor Pharmaceutical,NGN 320,508.03,-10,0,-10,BN96802,14 May 2027,2024-03-05,room temp,Y,Cross River
+PH400347,Diazepam 5mg Tab,ANXIOLYTICS,Evans Medical,₦550.00,n/a,3022,1539,1483,BN53825,05/19/2026,04-Jan-2024,Refrigerated,N,Enugu
+PH400417,Metformin 850mg Tab,Antidiabetics,Fidson Healthcare,350.00 naira,466.46 ,0,0,0,BN64174,,25 August 2024,room temp,false,Ogun
+PH400221,Cotrimoxazole 480mg Tab,Antibiotics,Fidson Healthcare,N200,305.95 naira,-10,0,-10,null,30/03/2025,2024/06/13,ambient,false,Enugu
+PH400335,Amoxicillin 500mg Cap,ANTIBIOTICS,Swipha Nigeria,NGN 480,N582,-10,0,-10,BN54041,14-Mar-2025,2024-05-17,Controlled,FALSE,Akwa Ibom
+PH400056,Artemether-Lumefantrine 80/480,Antimalarials,May & Baker Nigeria,650,1006.19,-10,0,-10,BN50773,29-Oct-2025,2024/01/17,room temp,N,Edo
+PH400125,Insulin Glargine 100IU/mL,Antidiabetics,Fidson Healthcare,"NGN 8,500","₦12,831.40",3173,3029,144,BN70338,09/18/2027,01/27/2024,room temp,Y,Kano
+PH400053,Metformin 850mg Tab,Antidiabetics,Swipha Nigeria,350.00 naira,479.1,0,0,0,BN16781,2027/04/04,2025-03-13,Ambient Temperature,TRUE,Kano
+PH400180,Diazepam 5mg Tab,Anxiolytics,Emzor Pharmaceutical,550.00 naira,NGN 783,-10,0,-10,BN19111,23-Nov-2026,26.02.2025,Cold Chain (2-8°C),1,Ibadan
+PH400369,Multivitamin Syrup,n/a,Fidson Healthcare,780.00 naira,994.96 ,4184,3039,1145,BN67075,2026/01/07,26.02.2025,Ambient Temperature,yes,Kano
+PH400047,Paracetamol 1000mg Tab,ANALGESICS,Swipha Nigeria,NGN 120,NGN 190,-10,0,-10,BN61215,02 September 2025,01/01/2024,Ambient Temperature,yes,Ogun
+PH400428,Amlodipine 5mg Tab   ,ANTIHYPERTENSIVES,Swipha Nigeria,290.00 naira,N355,-10,0,-10,BN53578,2026/05/09,2024-07-01,Cold Chain (2-8°C),TRUE,Plateau
+PH400400,Paracetamol 1000mg Tab,analgesics,Emzor Pharmaceutical,₦120.00,NGN 183,-10,0,-10,?,16/03/2025,16 May 2025,Ambient Temperature,No,Cross River
+PH400034,Ibuprofen 400mg Tab,Analgesics,Swipha Nigeria,180.00 naira,₦252.22,598,330,268,BN47942,2025-08-21,12/29/2024,Controlled,1,Cross River
+PH400250,Ibuprofen 400mg Tab,ANALGESICS,May & Baker Nigeria,NGN 180,286.72,-10,0,,BN86037,31-Oct-2026,01/26/2025,COLD CHAIN,no,Edo
+PH400297,Insulin Glargine 100IU/mL,Antidiabetics,Fidson Healthcare,8500,"N12,140",53,4,49,BN93705,2025/02/28,19-Jul-2024,Ambient Temperature,Yes,Delta
+PH400316,Paracetamol 1000mg Tab,Analgesics,May & Baker Nigeria,NGN 120,NGN 144,3219,2717,502,BN14273,18.11.2026,09/11/2024,COLD CHAIN,true,Edo
+PH400352,Paracetamol 1000mg Tab,Analgesics,May & Baker Nigeria,₦120.00,NGN 171,-10,0,-10,  ,29 August 2027,01.11.2024,Cold Chain (2-8°C),0,Akwa Ibom
+PH400237,Amoxicillin 500mg Cap,antibiotics,Emzor Pharmaceutical,480.00 naira,619.98 naira,1829,268,1561,NULL,unknown date,2024-05-16,Cold Chain (2-8°C),0,Rivers
+PH400260,Amoxicillin 500mg Cap,ANTIBIOTICS,Emzor Pharmaceutical,N480,595.51,-,NULL,,BN94172,2027-04-09,2024/07/25,Ambient Temperature,1,Oyo State
+PH400095,Amoxicillin 500mg Cap,Antibiotics,May & Baker Nigeria,480,572.31 naira,4599,2584,2015,BN20811,2025-07-05,22-Apr-2025,Controlled,Yes,Akwa Ibom
+PH400302,Insulin Glargine 100IU/mL,Antidiabetics,Evans Medical,8500,"₦11,313.47",-10,0,-10,BN38050,14/12/2024,10.08.2024,COLD CHAIN,Y,Lagos
+PH400294,Diazepam 5mg Tab,N/A,Evans Medical,N550,NGN 739,-10,0,-10,BN48326,2027/09/11,05.09.2024,ambient,yes,Kaduna
+PH400366,Artemether-Lumefantrine 80/480,null,Fidson Healthcare,N650,930.25,0,0,0,BN72591,18.03.2027,23.04.2024,COLD CHAIN,1,Kano
+PH400001,Diazepam 5mg Tab,Anxiolytics,Evans Medical,₦550.00,NGN 681,0,0,0,BN91721,2027/06/04,00/00/0000,room temp,1,Kano
+PH400419,Amlodipine 5mg Tab,ANTIHYPERTENSIVES,May & Baker Nigeria,N290,₦393.47,3703,3327,376,BN43838,05/06/2027,23-May-2025,room temp,yes,Cross River
+PH400282,Metformin 850mg Tab,Antidiabetics,Fidson Healthcare,350,477.97 naira,-10,0,-10,BN67624,09-Jul-2027,11/07/2024,room temp,N,Cross River
+PH400115,Lisinopril 10mg Tab,ANTIHYPERTENSIVES,May & Baker Nigeria,₦320.00,410.16 ,0,0,0,BN64587,2027/02/01,12-Sep-2024,Ambient Temperature,false,Delta
+PH400312,Lisinopril 10mg Tab,Antihypertensives,May & Baker Nigeria,₦320.00,N465,0,0,0,BN78971,19-Jul-2027,01/25/2024,Cold Chain (2-8°C),No,Akwa Ibom
+PH400257,Multivitamin Syrup,SUPPLEMENTS,May & Baker Nigeria,780.00 naira,"₦1,221.75",0,0,0,BN40009,2027-04-16,2024-05-26,Controlled,1,Akwa Ibom
+PH400011,Ibuprofen 400mg Tab,Analgesics,Swipha Nigeria,NGN 180,215.12 ,-10,0,-10,BN22108,20.11.2024,11 November 2024,ambient,Y,Akwa Ibom
+PH400066,Artemether-Lumefantrine 80/480,Antimalarials,Evans Medical,NGN 650,NIL,639,387,252,BN15013,19 April 2026,28-Jul-2024,ambient,N,Lagos State
+PH400024,Lisinopril 10mg Tab,Antihypertensives,Evans Medical,N320,NGN 369,62,27,35,BN27921,2027-08-25,06-Jun-2024,Controlled,Y,Plateau
+PH400426,Amoxicillin 500mg Cap,antibiotics,May & Baker Nigeria,480,NGN 611,0,0,0,BN19462,26.01.2025,N/A,Ambient Temperature,TRUE,Ogun
+PH400292,Omeprazole 20mg Cap,GI Drugs,Emzor Pharmaceutical,410,NGN 501,-,0,0,BN58193,2025/01/18,02.09.2024,Cold Chain (2-8°C),TRUE,Oyo
+PH400079,Diazepam 5mg Tab,null,May & Baker Nigeria,550,NGN 741,4456,519,3937,NULL,01/23/2025,01/30/2024,room temp,true,Plateau
+PH400153,Metformin 850mg Tab,Antidiabetics,Evans Medical,₦350.00,N411,N/A,0,0,BN50353,10/08/2026,06.02.2024,ambient,yes,kano
+PH400196,Amoxicillin 500mg Cap,ANTIBIOTICS,May & Baker Nigeria,₦480.00,₦583.71,null,0,0,BN65119,2025-03-16,2024/04/30,Controlled,true,Enugu
+PH400039,Amlodipine 5mg Tab,ANTIHYPERTENSIVES,Fidson Healthcare,NGN 290,₦459.70,0,0,0,BN59566,01 April 2025,2025/04/22,COLD CHAIN,1,Oyo State
+PH400101,Insulin Glargine 100IU/mL,ANTIDIABETICS,Swipha Nigeria,8500.00 naira,12212.31 naira,-10,0,-10,BN62859,17.06.2026,01/10/2024,Refrigerated,no,kano
+PH400119,Cotrimoxazole 480mg Tab,Antibiotics,Emzor Pharmaceutical,200,301.69 naira,-10,0,-10,BN88328,2026/05/18,06/24/2025,Cold Chain (2-8°C),yes,Imo
+PH400362,Amoxicillin 500mg Cap,ANTIBIOTICS,Emzor Pharmaceutical,N480,N735,0,0,0,BN20076,2025-10-05,07.04.2025,Controlled,yes,Edo
+PH400217,Ibuprofen 400mg Tab,Analgesics,Emzor Pharmaceutical,NGN 180,NGN 225,0,0,0,BN99988,2027-06-20,04/08/2025,Refrigerated,N,Lagos
+PH400110,Lisinopril 10mg Tab,NULL,Fidson Healthcare,320.00 naira,N389,0,0,0,BN87012,N/A,09/02/2024,room temp,no,Edo
+PH400354,Multivitamin Syrup,NULL,Swipha Nigeria,780.00 ,NGN 957,4206,3219,987,-,2025/02/11,11/16/2024,ambient,true,abuja
+PH400052,Ibuprofen 400mg Tab,analgesics,Emzor Pharmaceutical,180,N260,0,0,0,BN37990,13.03.2027,2024/05/13,Cold Chain (2-8°C),FALSE,abuja
+PH400269,Multivitamin Syrup,Supplements,Evans Medical,780,1163.42,559,123,436,BN31213,not set,2024/06/26,Ambient Temperature,yes,Kano
+PH400028,Artemether-Lumefantrine 80/480,ANTIMALARIALS,Swipha Nigeria,?,NIL,0,0,0,BN75910,2025/02/14,15/06/2025,Refrigerated,false,Enugu
+PH400084,Ibuprofen 400mg Tab,Analgesics,May & Baker Nigeria,₦180.00,NGN 234,-10,0,,BN35663,2025/05/06,16-Apr-2025,COLD CHAIN,N,Akwa Ibom
+PH400076,Metformin 850mg Tab,Antidiabetics,Evans Medical,350.00 naira,NGN 519,4925,1104,3821,BN49064,26-Jul-2027,04/06/2025,COLD CHAIN,0,Edo
+PH400228,Metformin 850mg Tab,ANTIDIABETICS,Evans Medical,350,462.43 naira,4773,3552,1221,BN27810,2024/12/19,14-Mar-2025,ambient,no,Akwa Ibom
+PH400315,Cotrimoxazole 480mg Tab,antibiotics,Swipha Nigeria,₦200.00,NGN 278,-10,0,-10,BN26717,2025-06-25,19.08.2024,room temp,TRUE,Anambra
+PH400140,Cotrimoxazole 480mg Tab,ANTIBIOTICS,Fidson Healthcare,₦200.00,NGN 294,-10,0,-10,BN37663,13.04.2026,01/06/2024,Controlled,1,Lag
+PH400002,Amoxicillin  500mg Cap,Antibiotics,May & Baker Nigeria,480.00 naira,649.00 ,3915,1426,2489,BN97148,14.04.2025,N/A,Ambient Temperature,Y,Anambra
+PH400109,Omeprazole 20mg Cap,unknown,Evans Medical,₦410.00,652.74,2439,349,2090,BN78582,2026-08-01,2025/01/04,Controlled,true,LAGOS
+PH400198,Multivitamin Syrup,SUPPLEMENTS,May & Baker Nigeria,₦780.00,1174.07 naira,-10,0,-10,BN16518,2025-11-20,01/03/2024,Refrigerated,N,Edo
+PH400405,Lisinopril 10mg Tab,antihypertensives,Fidson Healthcare,₦320.00,N421,-10,0,-10,BN78073,02-Feb-2025,15-Jul-2024,COLD CHAIN,No,Cross River
+PH400240,Insulin Glargine 100IU/mL,antidiabetics,Swipha Nigeria,8500,"NGN 11,386",0,0,0,BN45665,02/13/2026,unknown date,Refrigerated,No,Cross River
+PH400286,Paracetamol 1000mg Tab,Analgesics,Evans Medical,NGN 120,₦146.35,-10,0,-10,BN59572,2025/12/11,09/04/2024,COLD CHAIN,false,Cross River
+PH400423,Paracetamol 1000mg Tab,Analgesics,Fidson Healthcare,N120,N169,4022,425,3597,BN58067,2025/06/03,03.06.2024,room temp,No,Delta
+PH400184,Lisinopril 10mg Tab,  ,Swipha Nigeria,NGN 320,,1256,388,868,BN96001,06/02/2027,31 January 2024,Refrigerated,Y,Anambra
+PH400065,Diazepam 5mg Tab,Anxiolytics,Swipha Nigeria,NGN 550,813.00 naira,0,0,,BN75433,2026/11/14,29.11.2024,ambient,1,Oyo
+PH400274,Lisinopril 10mg Tab,ANTIHYPERTENSIVES,Fidson Healthcare,320.00 naira,477.12 naira,N/A,0,,BN64923,12 April 2027,2025-02-13,Ambient Temperature,Y,Cross River
+PH400146,Multivitamin Syrup,SUPPLEMENTS,Emzor Pharmaceutical,NGN 780,"1,094.58 ",-10,0,-10,BN84927,22.06.2027,29-Jul-2024,Refrigerated,1,Cross River
+PH400230,Diazepam 5mg Tab,Anxiolytics,Evans Medical,N550,879.08,0,0,0,BN96371,18.11.2024,2025/06/21,Refrigerated,no,Akwa Ibom
+PH400049,Ibuprofen 400mg Tab,Analgesics,Swipha Nigeria,NGN 180,₦251.07,-10,0,-10,BN36224,18/11/2025,2025-02-27,Controlled,true,Akwa Ibom
+PH400149,Amoxicillin 500mg Cap,Antibiotics,May & Baker Nigeria,NIL,NGN 671,-10,0,-10,BN61167,2026/08/27,05/15/2024,room temp,no,Plateau
+PH400159,Ibuprofen 400mg Tab,Analgesics,Emzor Pharmaceutical,180.00 naira,--,0,0,,BN86341,04/08/2025,13/10/2024,Ambient Temperature,false,Kaduna
+PH400040,Metformin 850mg Tab,ANTIDIABETICS,Emzor Pharmaceutical,N350,N461,3398,1291,2107,BN22138,2025/01/02,27.03.2025,room temp,false,Anambra
+PH400416,Lisinopril 10mg Tab,ANTIHYPERTENSIVES,May & Baker Nigeria,N320,₦386.45,265,226,39,BN11076,2025/06/07,16 October 2024,Refrigerated,N,Kano
+PH400290,Insulin Glargine 100IU/mL,Antidiabetics,May & Baker Nigeria,8500.00 naira,"₦11,118.80",2649,  ,1116,BN24240,2026/04/19,23 February 2024,ambient,N,Edo
+PH400332,Omeprazole 20mg Cap,GI Drugs,May & Baker Nigeria,₦410.00,577.56,917,535,382,BN20034,17.01.2027,03-May-2024,Refrigerated,No,Abuja
+PH400367,Amlodipine 5mg Tab,Antihypertensives,Swipha Nigeria,₦290.00,NGN 427,0,,0,BN16378,N/A,not set,Cold Chain (2-8°C),no,Lagos
+PH400061,Lisinopril 10mg Tab,Antihypertensives,Emzor Pharmaceutical,320.00 naira,N465,114,91,23,BN61652,10/26/2026,11.06.2025,COLD CHAIN,N,Akwa Ibom
+PH400368,Diazepam 5mg Tab,ANXIOLYTICS,May & Baker Nigeria,550,NGN 841,4187,1439,2748,BN33600,03 April 2027,29/10/2024,ambient,1,Abuja
+PH400081,Insulin Glargine 100IU/mL,Antidiabetics,Swipha Nigeria,8500.00 naira,"₦13,062.83",0,0,0,BN65695,02-Nov-2024,21 June 2025,Refrigerated,TRUE,Plateau
+PH400218,Amoxicillin 500mg Cap,Antibiotics,May & Baker Nigeria,₦480.00,₦727.48,0,0,0,BN29842,14.03.2025,28-Nov-2024,room temp,false,Anambra
+PH400191,Multivitamin Syrup,Supplements,Swipha Nigeria,₦780.00,N960,-10,0,-10,BN65053,10-Jul-2026,02/06/2024,Controlled,yes,abuja
+PH400194,  Artemether-Lumefantrine 80/480,Antimalarials,May & Baker Nigeria,650,₦820.22,-10,0,-10,BN62446,22-Apr-2025,07.01.2024,room temp,true,Plateau
+PH400380,Multivitamin Syrup,SUPPLEMENTS,May & Baker Nigeria,NGN 780,1161.50 naira,1900,567,1333,BN49887,2025/03/26,2024-07-02,Ambient Temperature,0,Cross River
+PH400185,Multivitamin Syrup,Supplements,Evans Medical,N780,"1,080.78 ",-10,0,-10,BN31421,2024-11-25,15 January 2024,Ambient Temperature,1,Anambra
+PH400308,Metformin 850mg Tab,Antidiabetics,May & Baker Nigeria,350,N555,0,0,0,BN22792,2025/01/02,2024/04/12,Cold Chain (2-8°C),Y,kano
+PH400427,Artemether-Lumefantrine 80/480,Antimalarials,Emzor Pharmaceutical,₦650.00,N854,-10,0,-10,BN71967,04 July 2026,2024-02-29,COLD CHAIN,1,Kaduna
+PH400126,Metformin 850mg Tab,Antidiabetics,Emzor Pharmaceutical,350.00 naira,456.69,-10,0,-10,BN25221,08/19/2027,05/20/2024,ambient,true,Plateau
+PH400314,Paracetamol 1000mg Tab,Analgesics,Emzor Pharmaceutical,N120,NGN 154,0,0,0,BN10931,18-Mar-2025,2025-05-03,Refrigerated,TRUE,Lagos State
+PH400035,Amoxicillin 500mg Cap,antibiotics,May & Baker Nigeria,₦480.00,₦719.70,-10,0,-10,BN71435,2025/12/18,11/04/2024,ambient,yes,Rivers
+PH400255,Amoxicillin 500mg Cap,Antibiotics,Fidson Healthcare,  ,₦602.45,0,0,0,BN40235,23 January 2025,30.11.2024,Refrigerated,TRUE,Abuja
+PH400155,Amlodipine 5mg Tab,Antihypertensives,May & Baker Nigeria,₦290.00,408.4,0,0,0,BN98596,11/24/2026,2025-01-29,ambient,N,Delta
+PH400365,Insulin Glargine 100IU/mL,ANTIDIABETICS,Emzor Pharmaceutical,8500,"11,248.94 ",1843,1520,323,BN29795,2026/10/30,04/10/2025,ambient,true,Akwa Ibom
+PH400124,Multivitamin Syrup,Supplements,Emzor Pharmaceutical,NGN 780,"NGN 1,074",2952,2453,499,BN32532,2027/07/19,05 June 2024,Controlled,yes,Lagos
+PH400048,Diazepam 5mg Tab,ANXIOLYTICS,Fidson Healthcare,550.00 naira,668.18,2879,1241,1638,BN27063,25/08/2027,02/09/2025,Controlled,false,Anambra
+PH400248,Metformin 850mg Tab,ANTIDIABETICS,Emzor Pharmaceutical,350.00 naira,NGN 545,-10,0,-10,BN14139,15-Apr-2025,2024-07-11,room temp,TRUE,Oyo
+PH400085,Diazepam 5mg Tab,Anxiolytics,Swipha Nigeria,550.00 naira,₦648.54,3088,1857,1231,BN68969,10/18/2026,25 March 2024,Controlled,N,Delta
+PH400078,Ibuprofen 400mg Tab,Analgesics,Emzor Pharmaceutical,180.00 naira,248.73 naira,-10,0,-10,BN91375,19 July 2027,11-Oct-2024,Controlled,no,Delta
+PH400069,Insulin Glargine 100IU/mL,Antidiabetics,Swipha Nigeria,"₦8,500.00","N12,287",0,0,0,BN26867,17-May-2025,29-Nov-2024,Ambient Temperature,Y,ABUJA
+PH400153,Metformin 850mg Tab,Antidiabetics,Evans Medical,₦350.00,N411,N/A,0,0,BN50353,10/08/2026,06.02.2024,ambient,yes,kano
+PH400113,Omeprazole 20mg Cap,GI DRUGS,Fidson Healthcare,₦410.00,505.77,-10,0,-10,BN62016,19/11/2026,12 January 2025,Cold Chain (2-8°C),N,Kaduna
+PH400046,Metformin 850mg Tab,ANTIDIABETICS,May & Baker Nigeria,N350,NGN 539,665,297,368,BN91512,08.05.2027,2025/03/08,Refrigerated,no,Ogun
+PH400381,Cotrimoxazole 480mg Tab,NIL,Fidson Healthcare,200.00 naira,268.50 naira,0,nil,0,BN51770,2025/02/03,23.07.2024,ambient,false,Lagos
+PH400101,Insulin Glargine 100IU/mL,ANTIDIABETICS,Swipha Nigeria,8500.00 naira,12212.31 naira,-10,0,-10,BN62859,17.06.2026,01/10/2024,Refrigerated,no,kano
+PH400371,Omeprazole 20mg Cap,GI Drugs,May & Baker Nigeria,NGN 410,643.84 naira,-10,0,-10,BN15867,08/10/2026,11/09/2024,room temp,Yes,abuja
+PH400054,Amlodipine 5mg Tab,Antihypertensives,Swipha Nigeria,290,N432,0,0,0,BN28673,01/18/2027,01/19/2024,Cold Chain (2-8°C),yes,Port Harcourt
+PH400380,Multivitamin Syrup,SUPPLEMENTS,May & Baker Nigeria,NGN 780,1161.50 naira,1900,567,1333,BN49887,2025/03/26,2024-07-02,Ambient Temperature,0,Cross River
+PH400393,Amlodipine 5mg Tab,ANTIHYPERTENSIVES,May & Baker Nigeria,NGN 290,424.11,-10,0,-10,BN14333,2025-09-28,23-Dec-2024,Controlled,FALSE,ABUJA
+PH400068,Insulin Glargine 100IU/mL,Antidiabetics,Emzor Pharmaceutical,8500,"N12,054",0,0,0,BN18020,03 March 2027,08.01.2025,Ambient Temperature,0,Abuja
+PH400016,Amoxicillin 500mg Cap,Antibiotics,Evans Medical,₦480.00,NGN 730,-10,0,-10,BN13133,02 June 2025,2025-03-28,ambient,N,Akwa Ibom
+PH400186,Paracetamol 1000mg Tab,Analgesics,Fidson Healthcare,N120,NGN 167,0,0,0,BN55317,19 September 2025,19 October 2024,COLD CHAIN,Yes,Akwa Ibom
+PH400346,Diazepam 5mg Tab,ANXIOLYTICS,Swipha Nigeria,₦550.00,null,0,0,0,BN73988,22.02.2026,09.12.2024,COLD CHAIN,0,Delta
+PH400137,Insulin Glargine 100IU/mL,Antidiabetics,Swipha Nigeria,8500.00 naira,"N12,305",-10,0,-10,Unknown,05 July 2025,12.05.2024,room temp,1,Anambra
+PH400154,Diazepam 5mg Tab,Anxiolytics,Emzor Pharmaceutical,N550,N/A,-10,0,-10,BN88584,2025-05-21,04/01/2024,Ambient Temperature,true,rivers
+PH400265,Artemether-Lumefantrine 80/480,ANTIMALARIALS,Fidson Healthcare,650.00 ,unknown,0,0,0,BN14869,14-Mar-2025,13 October 2024,ambient,yes,Anambra
+PH400360,Omeprazole 20mg Cap,gi drugs,Fidson Healthcare,410.00 naira,₦563.61,0,0,0,BN14173,2027-08-20,2024/07/10,Cold Chain (2-8°C),yes,Imo
+PH400130,Artemether-Lumefantrine 80/480,Antimalarials,Emzor Pharmaceutical,650.00 ,"N1,013",-10,0,-10,nil,2025/06/02,06/23/2024,COLD CHAIN,No,KANO
+PH400398,Paracetamol 1000mg Tab,ANALGESICS,May & Baker Nigeria,N120,175.64 ,0,0,0,BN36288,2027-01-06,06/09/2025,ambient,Yes,Imo
+PH400392,Metformin 850mg Tab,Antidiabetics,Swipha Nigeria,350.00 ,470.98 naira,1530,1141,389,BN25331,15-Sep-2026,2024-03-27,Controlled,N,Anambra
+PH400284,Cotrimoxazole  480mg Tab,N/A,Emzor Pharmaceutical,200.00 ,285.42,2253,,1202,BN87230,N/A,2024-04-15,Ambient Temperature,yes,Edo
+PH400241,Insulin Glargine 100IU/mL,?,Emzor Pharmaceutical,"NGN 8,500","NGN 9,775",2818,847,1971,BN99164,07/17/2025,01/31/2024,room temp,1,Kano
+PH400216,Multivitamin Syrup,Supplements,Fidson Healthcare,N780,"N1,115",-10,0,-10,BN19073,22.12.2025,04/16/2024,Ambient Temperature,TRUE,Edo
+PH400020,Metformin 850mg Tab,antidiabetics,Emzor Pharmaceutical,NGN 350,₦519.34,0,0,0,BN41419,2026-02-19,29.10.2024,Refrigerated,N,Delta
+PH400337,Omeprazole 20mg Cap,Gi Drugs,Swipha Nigeria,410,557.33,4279,3951,328,BN26457,06/16/2026,21/12/2024,Cold Chain (2-8°C),N,Abuja
+PH400171,Insulin Glargine 100IU/mL,ANTIDIABETICS,Emzor Pharmaceutical,"₦8,500.00","₦10,601.88",Unknown,0,0,BN74341,,29.06.2024,Refrigerated,Y,Plateau
+PH400162,Artemether-Lumefantrine 80/480,Antimalarials,Fidson Healthcare,₦650.00,937.72 ,683,536,147,BN15429,18/09/2026,03 October 2024,Refrigerated,Yes,Cross River
+PH400291,Ibuprofen 400mg Tab,Analgesics,May & Baker Nigeria,180,N251,-10,?,-10,BN37617,04/11/2024,25 August 2024,ambient,N,Lagos
+PH400129,Amlodipine 5mg Tab,Antihypertensives,Fidson Healthcare,₦290.00,NGN 353,0,0,0,BN41375,,06/01/2024,Controlled,true,LAGOS
+PH400307,Lisinopril 10mg Tab,antihypertensives,Swipha Nigeria,320,N488,-10,0,-10,BN99196,15-Jun-2027,25-Oct-2024,Ambient Temperature,N,Plateau
+PH400089,Metformin 850mg Tab,ANTIDIABETICS,May & Baker Nigeria,₦350.00,476.04,0,0,0,BN78550,2025/09/11,22/10/2024,Controlled,true,Kaduna
+PH400385,Multivitamin Syrup,supplements,May & Baker Nigeria,NGN 780,"₦1,186.55",-10,0,-10,BN85027,04 April 2027,12/16/2024,ambient,true,Oyo
+PH400158,Diazepam 5mg Tab,Anxiolytics,Swipha Nigeria,550.00 ,NGN 869,733,301,432,BN51516,28 April 2027,,Controlled,Yes,Oyo
+PH400373,Diazepam 5mg Tab,Anxiolytics,Emzor Pharmaceutical,N550,N876,-10,0,-10,BN54627,16.06.2026,02/12/2025,Refrigerated,1,Lagos
+PH400022,Multivitamin Syrup,SUPPLEMENTS,Emzor Pharmaceutical,780.00 naira,₦956.81,null,0,-10,BN40343,18-Sep-2026,2024-01-29,room temp,false,LAGOS
+PH400376,Ibuprofen 400mg Tab,ANALGESICS,May & Baker Nigeria,₦180.00,₦253.37,2830,1916,914,BN80414,27.04.2027,05-Feb-2025,Refrigerated,true,abuja
+PH400205,Ibuprofen 400mg Tab,Analgesics,Emzor Pharmaceutical,180.00 naira,281.89 naira,4353,1045,3308,BN35010,23.01.2025,07-May-2025,COLD CHAIN,No,Cross River
+PH400272,Insulin Glargine 100IU/mL,Antidiabetics,Swipha Nigeria,"8,500.00 ","12,850.62 ",2375,208,,BN59606,11/15/2024,2024/01/30,Controlled,1,Ogun
+PH400275,Insulin Glargine 100IU/mL,ANTIDIABETICS,Evans Medical,"NGN 8,500","N9,859",3247,2309,938,BN99981,2027-05-12,2024/02/27,Controlled,no,Akwa Ibom
+PH400174,Multivitamin Syrup,Supplements,Fidson Healthcare,780.00 naira,"NGN 1,010",-10,0,-10,BN83867,,21/10/2024,Cold Chain (2-8°C),false,Cross River
+PH400324,Ibuprofen 400mg Tab,Analgesics,Fidson Healthcare,NGN 180,N/A,-10,0,-10,BN92094,27.01.2025,10 July 2024,Refrigerated,0,Oyo
+PH400277,Ibuprofen 400mg Tab,Analgesics,Emzor Pharmaceutical,180,217.74 ,-10,0,,BN65269,26-Jul-2027,04/01/2025,room temp,Y,Lagos
+PH400193,Omeprazole 20mg Cap,GI Drugs,Evans Medical,₦410.00,NGN 498,-10,0,,BN20112,03.08.2026,24-Jul-2024,Refrigerated,Yes,Ogun
+PH400344,Amoxicillin 500mg Cap,antibiotics,Fidson Healthcare,480.00 ,₦764.12,n/a,0,0,BN28928,2025/05/27,09.09.2024,Ambient Temperature,yes,Lagos
+PH400055,Ibuprofen 400mg Tab,analgesics,Fidson Healthcare,N180,249.21 ,3744,1867,1877,BN78987,04/02/2026,01/05/2025,COLD CHAIN,N,Ogun
+PH400131,Omeprazole 20mg Cap   ,GI Drugs,Swipha Nigeria,N410,N567,-10,0,,BN23986,12-Jul-2027,2024-06-22,Controlled,false,Ogun
+PH400326,Multivitamin Syrup,Supplements,May & Baker Nigeria,780.00 ,"₦1,045.01",-10,0,-10,-,29 August 2025,11.05.2024,Cold Chain (2-8°C),1,Akwa Ibom
+PH400147,Amoxicillin 500mg Cap   ,Antibiotics,Swipha Nigeria,480.00 naira,677.14 ,0,0,0,BN68654,2025/11/25,2025/01/08,ambient,false,Cross River
+PH400127,Ibuprofen 400mg Tab,Analgesics,Fidson Healthcare,N180,₦232.07,1595,412,1183,BN41255,2027-08-06,26-Aug-2024,Ambient Temperature,FALSE,Plateau
+PH400421,Insulin Glargine 100IU/mL,Antidiabetics,Evans Medical,8500,"₦11,208.98",0,0,0,BN93100,30.06.2026,01 April 2025,Ambient Temperature,no,Enugu
+PH400279,Artemether-Lumefantrine 80/480,ANTIMALARIALS,Fidson Healthcare,650.00 naira,N818,4985,2127,2858,BN16938,2027-03-20,08/25/2024,ambient,Yes,Delta
+PH400246,Insulin Glargine 100IU/mL,Antidiabetics,May & Baker Nigeria,"NGN 8,500",  ,3892,--,1082,BN55887,2026-06-30,2024-12-11,Cold Chain (2-8°C),0,Plateau
+PH400344,Amoxicillin 500mg Cap,antibiotics,Fidson Healthcare,480.00 ,₦764.12,n/a,0,0,BN28928,2025/05/27,09.09.2024,Ambient Temperature,yes,Lagos
+PH400340,Metformin 850mg Tab,antidiabetics,May & Baker Nigeria,350.00 ,₦543.71,-10,0,-10,BN39581,unknown date,06 June 2024,Cold Chain (2-8°C),0,Kaduna
+PH400285,  Omeprazole 20mg Cap,GI DRUGS,Emzor Pharmaceutical,410.00 ,NGN 474,0,0,0,BN52867,09.03.2027,10-Feb-2024,COLD CHAIN,1,Akwa Ibom
+PH400064,Artemether-Lumefantrine 80/480,Antimalarials,Fidson Healthcare,650.00 naira,₦967.08,0,0,0,BN96040,2027/08/17,N/A,Controlled,N,Enugu
+PH400157,Cotrimoxazole 480mg Tab,Antibiotics,Swipha Nigeria,N200,251.65 naira,4236,2830,1406,n/a,23-Aug-2025,08 February 2025,ambient,0,Ibadan
+PH400033,Insulin Glargine 100IU/mL,Antidiabetics,Emzor Pharmaceutical,"8,500.00 ","11,335.09 ",0,0,0,BN58001,09.12.2026,2024/04/27,Refrigerated,N,Edo
+PH400225,Cotrimoxazole 480mg Tab   ,Antibiotics,Swipha Nigeria,N200,N300,0,0,0,BN81521,2026-04-10,07/05/2024,Cold Chain (2-8°C),N,Delta
+PH400295,Artemether-Lumefantrine  80/480,Antimalarials,Swipha Nigeria,NGN 650,NGN 880,0,0,,-,2026/12/14,23/04/2025,Controlled,1,Cross River
+PH400107,Ibuprofen 400mg Tab,Analgesics,Fidson Healthcare,nil,NGN 267,-10,,-10,BN95455,08 December 2024,2024/07/18,ambient,FALSE,Anambra
+PH400211,Diazepam 5mg Tab,Anxiolytics,Emzor Pharmaceutical,550,N743,0,0,0,BN97262,10/08/2026,28/01/2025,Controlled,true,Abuja
+PH400128,Diazepam 5mg Tab,Anxiolytics,Fidson Healthcare,550.00 ,NGN 775,2405,1402,1003,BN89664,09/07/2026,2024/05/19,room temp,Y,Delta
+PH400041,Diazepam 5mg Tab,Anxiolytics,Swipha Nigeria,₦550.00,₦727.26,0,0,0,BN86988,2026-08-15,10 February 2025,Cold Chain (2-8°C),0,Imo
+PH400351,Ibuprofen 400mg Tab,Analgesics,May & Baker Nigeria,NGN 180,N246,NIL,0,0,BN72521,2025/04/14,23/01/2024,Ambient Temperature,0,Lagos
+PH400168,Diazepam 5mg Tab,null,Fidson Healthcare,550.00 ,NGN 826,unknown,2751,1168,BN69920,2027/06/17,04/02/2025,Ambient Temperature,0,Imo
+PH400143,Amlodipine 5mg Tab,ANTIHYPERTENSIVES,Swipha Nigeria,₦290.00,Unknown,0,0,0,BN64974,2026/02/13,09.06.2024,Cold Chain (2-8°C),yes,Edo
+PH400258,Cotrimoxazole 480mg Tab,Antibiotics,Emzor Pharmaceutical,200.00 naira,₦295.35,3753,263,3490,BN39306,unknown date,2025-06-08,ambient,TRUE,Plateau
+PH400209,Multivitamin Syrup,SUPPLEMENTS,Swipha Nigeria,780.00 ,"N1,031",0,0,0,BN99609,02-Dec-2025,07.04.2024,room temp,1,Cross River
+PH400321,Ibuprofen 400mg Tab,ANALGESICS,Fidson Healthcare,180,₦211.82,0,0,0,BN27575,10.10.2025,2024-04-25,room temp,Y,Edo
+PH400090,Multivitamin Syrup,SUPPLEMENTS,May & Baker Nigeria,NGN 780,1002.61,-10,0,,BN84800,00/00/0000,18.10.2024,Controlled,FALSE,KANO
+PH400117,Amoxicillin 500mg Cap,Antibiotics,Evans Medical,N480,692.40 naira,NULL,688,290,BN59896,2027-05-16,,COLD CHAIN,No,Edo
+PH400323,Lisinopril 10mg Tab,ANTIHYPERTENSIVES,Evans Medical,₦320.00,NULL,  ,0,-10,BN45635,17.01.2026,not set,Controlled,No,Enugu
+PH400378,Amoxicillin 500mg Cap,Antibiotics,Emzor Pharmaceutical,480.00 naira,747.52,0,0,0,BN12970,2026-09-22,19-Jan-2024,Ambient Temperature,Y,Ogun
+PH400403,Paracetamol 1000mg Tab,Analgesics,May & Baker Nigeria,₦120.00,N187,0,0,0,BN40729,01/10/2025,16.10.2024,room temp,1,Delta
+PH400148,Amlodipine 5mg Tab,Antihypertensives,Swipha Nigeria,290,NGN 463,0,0,0,BN17262,2027/07/23,,Controlled,no,Oyo State
+PH400029,Diazepam  5mg Tab,ANXIOLYTICS,May & Baker Nigeria,550.00 naira,770.09,4868,1585,3283,BN60467,09/04/2027,18/04/2025,COLD CHAIN,Y,Akwa Ibom
+PH400320,Amlodipine 5mg Tab,Antihypertensives,Emzor Pharmaceutical,₦290.00,₦432.13,0,0,0,BN18194,2027/01/24,06/20/2025,Cold Chain (2-8°C),false,Ogun
+PH400363,Amlodipine 5mg Tab,antihypertensives,Emzor Pharmaceutical,290.00 naira,N426,0,0,0,N/A,,06/01/2024,COLD CHAIN,true,Plateau
+PH400361,Amoxicillin 500mg Cap,ANTIBIOTICS,Emzor Pharmaceutical,480.00 ,₦640.02,?,0,0,BN41136,11 January 2025,14.03.2025,Refrigerated,yes,Cross River
+PH400422,Ibuprofen 400mg Tab,Analgesics,May & Baker Nigeria,N180,N255,unknown,0,-10,BN72414,13.01.2026,2024/12/09,Controlled,no,Kano
+PH400338,Metformin 850mg Tab,antidiabetics,May & Baker Nigeria,N350,N403,0,0,0,BN37270,2025-02-01,24-Jan-2025,Refrigerated,Y,Ogun
+PH400232,Artemether-Lumefantrine 80/480,ANTIMALARIALS,Evans Medical,₦650.00,N958,0,0,0,NIL,21 December 2025,26-Sep-2024,room temp,No,Cross River
+PH400114,Ibuprofen 400mg Tab,analgesics,May & Baker Nigeria,₦180.00,217.41 naira,-10,0,-10,BN74644,2025-04-17,04/11/2024,Controlled,TRUE,Delta
+PH400319,Omeprazole 20mg Cap,GI Drugs,Swipha Nigeria,NGN 410,504.42 naira,-10,0,-10,N/A,18.05.2027,12/05/2024,Ambient Temperature,false,kano
+PH400019,Lisinopril 10mg Tab,Antihypertensives,Fidson Healthcare,320.00 ,493.70 naira,4546,1460,3086,BN66375,07.02.2025,05/06/2025,ambient,false,Kano
+PH400080,Ibuprofen 400mg Tab,Analgesics,Emzor Pharmaceutical,NGN 180,271.11 ,894,192,702,BN86718,00/00/0000,02/26/2024,COLD CHAIN,Y,Plateau
+PH400003,Ibuprofen 400mg Tab,Analgesics,Fidson Healthcare,NGN 180,208.05 naira,-10,0,-10,BN32249,2025/01/09,01-Jan-2025,Controlled,no,Cross River
+PH400241,Insulin Glargine 100IU/mL,?,Emzor Pharmaceutical,"NGN 8,500","NGN 9,775",2818,847,1971,BN99164,07/17/2025,01/31/2024,room temp,1,Kano
+PH400144,Cotrimoxazole 480mg Tab,ANTIBIOTICS,Emzor Pharmaceutical,200.00 ,NGN 287,0,0,0,BN88079,16 November 2025,2025/06/04,Controlled,FALSE,Abuja
+PH400009,Multivitamin Syrup,Supplements,Fidson Healthcare,780,951.41,-10,0,-10,BN33029,11/16/2025,2025/02/27,Ambient Temperature,1,Rivers State
+PH400210,Metformin 850mg Tab,Antidiabetics,Swipha Nigeria,₦350.00,505.87 naira,-10,0,-10,BN95328,2026-08-13,18.07.2024,Ambient Temperature,FALSE,Plateau
+PH400104,Paracetamol 1000mg Tab,Analgesics,Swipha Nigeria,120,138.66 naira,-10,0,-10,BN47972,18-Apr-2026,2024/03/29,Cold Chain (2-8°C),Y,Oyo
+PH400007,Lisinopril 10mg Tab,N/A,May & Baker Nigeria,320.00 ,493.83,4785,1000,3785,BN62747,08.11.2026,21.05.2024,Cold Chain (2-8°C),yes,Edo
+PH400330,Omeprazole 20mg Cap,gi drugs,Swipha Nigeria,410,n/a,-10,0,-10,BN71993,,2025-01-28,Controlled,1,Edo
+PH400334,Ibuprofen 400mg Tab   ,Analgesics,Swipha Nigeria,NGN 180,265.90 naira,null,0,0,BN64297,03/09/2027,03-Mar-2025,room temp,FALSE,Plateau
+PH400074,Paracetamol 1000mg Tab,Analgesics,May & Baker Nigeria,NGN 120,NGN 150,4869,1829,3040,BN39998,13.12.2026,17.07.2024,room temp,false,Enugu
+PH400377,Paracetamol 1000mg Tab,Analgesics,Swipha Nigeria,-,N165,-10,0,-10,BN58433,11/11/2024,06/19/2025,COLD CHAIN,no,Oyo
+PH400062,Amoxicillin 500mg Cap,ANTIBIOTICS,May & Baker Nigeria,NGN 480,NGN 756,2878,1870,1008,BN99108,2027-06-11,08.06.2024,room temp,Y,Enugu
+PH400299,Amoxicillin 500mg Cap,Antibiotics,Fidson Healthcare,480.00 naira,NGN 557,-10,0,-10,BN74321,2025-03-24,2025/01/27,Controlled,yes,Delta
+PH400027,Multivitamin Syrup,Supplements,Evans Medical,NGN 780,"NGN 1,186",-10,0,-10,BN40541,20/05/2026,10.02.2024,Refrigerated,yes,lagos
+PH400123,Omeprazole 20mg Cap,GI DRUGS,Swipha Nigeria,₦410.00,₦639.75,2027,1363,664,BN68679,not set,19 February 2024,Ambient Temperature,no,Plateau
+PH400172,Amoxicillin 500mg Cap,antibiotics,May & Baker Nigeria,480,NGN 621,0,0,0,BN64178,28.05.2027,04 March 2024,room temp,1,Imo
+PH400214,Amoxicillin 500mg Cap,ANTIBIOTICS,Swipha Nigeria,480,NGN 592,2815,--,1041,BN59179,15.12.2024,04-Jun-2024,Cold Chain (2-8°C),Yes,Kaduna
+PH400190,Amoxicillin 500mg Cap,Antibiotics,Swipha Nigeria,NGN 480,₦554.93,0,0,0,BN28207,16-Feb-2027,2025-03-21,room temp,1,Kaduna
+PH400247,Metformin 850mg Tab   ,ANTIDIABETICS,Evans Medical,₦350.00,N514,-10,0,-10,BN10790,25/02/2027,05/04/2024,Cold Chain (2-8°C),Y,Kaduna
+PH400012,Lisinopril 10mg Tab,antihypertensives,Fidson Healthcare,N320,443.43 ,0,0,0,BN57382,01 January 2027,2024/10/26,Controlled,1,Delta
+PH400278,Cotrimoxazole 480mg Tab,antibiotics,Evans Medical,₦200.00,305.64 naira,-10,0,-10,BN60941,02 October 2025,11.10.2024,COLD CHAIN,FALSE,Ogun
+PH400013,Multivitamin Syrup,SUPPLEMENTS,Swipha Nigeria,₦780.00,1061.65,-10,0,-10,BN40882,10-Apr-2025,10/02/2025,COLD CHAIN,yes,Cross River
+PH400266,Omeprazole 20mg Cap,gi drugs,Swipha Nigeria,410.00 naira,546.63,3348,876,2472,BN99991,03/23/2027,12 March 2024,room temp,FALSE,Lagos State
+PH400196,Amoxicillin 500mg Cap,ANTIBIOTICS,May & Baker Nigeria,₦480.00,₦583.71,null,0,0,BN65119,2025-03-16,2024/04/30,Controlled,true,Enugu
+PH400336,Paracetamol 1000mg Tab,analgesics,Fidson Healthcare,120,NGN 176,-10,0,-10,BN40925,2026-02-10,02/05/2024,Cold Chain (2-8°C),Y,Cross River
+PH400268,Diazepam 5mg Tab,ANXIOLYTICS,Evans Medical,null,709.73 ,0,0,0,n/a,2026-09-27,unknown date,room temp,1,Delta
+PH400414,Paracetamol 1000mg Tab,Analgesics,May & Baker Nigeria,NGN 120,₦187.05,1777,576,1201,BN96585,unknown date,10-Nov-2024,COLD CHAIN,true,Delta
+PH400415,Diazepam 5mg Tab,Anxiolytics,May & Baker Nigeria,₦550.00,₦684.89,0,0,0,BN91600,13-Nov-2025,12/25/2024,Cold Chain (2-8°C),FALSE,Enugu
+PH400094,Cotrimoxazole 480mg Tab,ANTIBIOTICS,Swipha Nigeria,₦200.00,N270,-10,0,-10,BN86546,2026/11/29,2025-03-25,ambient,yes,Kaduna
+PH400296,Diazepam 5mg Tab,Anxiolytics,May & Baker Nigeria,550.00 naira,N755,null,0,-10,unknown,02/01/2026,22/01/2024,COLD CHAIN,true,Ogun
+PH400181,Omeprazole 20mg Cap,Gi Drugs,May & Baker Nigeria,₦410.00,NGN 572,1647,1347,300,BN95601,09-Aug-2026,13 October 2024,ambient,1,Cross River
+PH400058,Diazepam 5mg Tab,Anxiolytics,May & Baker Nigeria,550,713.69,-10,0,-10,BN83436,02/28/2027,2024-03-21,Refrigerated,Yes,Abuja
+PH400201,Metformin 850mg Tab,Antidiabetics,Fidson Healthcare,350,430.84 naira,1042,1029,13,BN83892,19.03.2027,30 December 2024,Refrigerated,yes,kano
+PH400112,Cotrimoxazole 480mg Tab,Antibiotics,Swipha Nigeria,-,N299,0,0,0,BN88383,unknown date,17-Apr-2024,room temp,N,Edo
+PH400262,  Amlodipine 5mg Tab,ANTIHYPERTENSIVES,Evans Medical,290.00 naira,335.24 naira,329,45,284,BN64216,25 January 2027,13/05/2025,Controlled,false,Lagos
+PH400242,Lisinopril 10mg Tab,Antihypertensives,Fidson Healthcare,320,N372,-10,0,-10,NIL,17 December 2025,14/08/2024,Controlled,1,Kaduna
+PH400100,Paracetamol 1000mg Tab,ANALGESICS,Swipha Nigeria,120.00 naira,176.93 naira,2083,1665,418,BN76676,22.09.2025,07-Apr-2025,COLD CHAIN,0,Edo
+PH400103,Cotrimoxazole 480mg Tab,Antibiotics,Emzor Pharmaceutical,200.00 naira,305.29,4478,645,3833,BN19432,2027/03/19,18 May 2024,ambient,TRUE,Imo
+PH400264,Diazepam 5mg Tab,Anxiolytics,Emzor Pharmaceutical,₦550.00,NGN 674,2903,2431,472,BN54651,18.03.2026,07.03.2025,Cold Chain (2-8°C),N,Lagos
+PH400025,Artemether-Lumefantrine 80/480,ANTIMALARIALS,Swipha Nigeria,650.00 naira,₦882.03,0,0,0,BN41995,02/15/2025,10 August 2024,Cold Chain (2-8°C),FALSE,KANO
+PH400145,Cotrimoxazole 480mg Tab,antibiotics,Evans Medical,NGN 200,266.47,0,0,0,BN75947,00/00/0000,06-Jan-2024,ambient,true,Edo
+PH400327,Metformin 850mg Tab,-,Fidson Healthcare,N350,n/a,0,0,0,BN91460,25-Jun-2026,10/19/2024,room temp,yes,Anambra
+PH400111,Artemether-Lumefantrine 80/480   ,Antimalarials,Emzor Pharmaceutical,NGN 650,n/a,-10,0,-10,--,12/09/2024,28-Apr-2024,room temp,N,Kano
+PH400287,  Omeprazole 20mg Cap,GI Drugs,Emzor Pharmaceutical,N410,NGN 589,0,0,0,BN58425,2026-06-01,07/03/2024,Cold Chain (2-8°C),true,Cross River
+PH400401,Paracetamol 1000mg Tab,analgesics,May & Baker Nigeria,N120,N191,0,0,0,BN10390,04/03/2027,2024-01-19,Cold Chain (2-8°C),true,Cross River
+PH400256,Insulin Glargine 100IU/mL,ANTIDIABETICS,Emzor Pharmaceutical,8500.00 naira,"NGN 10,694",3584,1450,2134,BN18831,2025-06-01,27/04/2025,Cold Chain (2-8°C),no,Akwa Ibom
+PH400008,Insulin Glargine 100IU/mL,Antidiabetics,Emzor Pharmaceutical,8500,unknown,-10,0,-10,BN33575,2026/12/15,04/22/2024,Refrigerated,TRUE,Kaduna
+PH400222,  Paracetamol 1000mg Tab,NIL,Evans Medical,120,₦156.61,-10,?,-10,BN73507,2025/09/09,11-Oct-2024,Cold Chain (2-8°C),yes,Lagos
+PH400224,Paracetamol 1000mg Tab,Analgesics,Emzor Pharmaceutical,120.00 naira,N179,0,0,0,BN98997,04/20/2025,2024/01/11,Controlled,false,Kaduna
+PH400379,Insulin Glargine 100IU/mL,antidiabetics,Fidson Healthcare,8500.00 naira,"N11,559",-10,0,-10,BN79056,12/11/2025,16/08/2024,COLD CHAIN,false,Cross River
+PH400329,Multivitamin Syrup,Supplements,May & Baker Nigeria,780.00 naira,972.39,0,0,0,BN34541,26-Apr-2026,17-May-2024,Controlled,false,Kaduna
+PH400267,Cotrimoxazole 480mg Tab,Antibiotics,Emzor Pharmaceutical,N200,272.81 ,0,0,0,BN76479,31-Mar-2026,2024/08/12,ambient,TRUE,Kaduna
+PH400187,Cotrimoxazole 480mg Tab,Antibiotics,Emzor Pharmaceutical,NGN 200,NGN 246,4424,788,,BN65377,04/03/2027,2024/11/21,COLD CHAIN,FALSE,Delta
+PH400133,Amoxicillin 500mg Cap,Antibiotics,Emzor Pharmaceutical,480,₦573.84,-10,0,-10,BN84009,2026-11-01,N/A,Refrigerated,TRUE,oyo
+PH400082,Amlodipine 5mg Tab,Antihypertensives,May & Baker Nigeria,290,436.72,-10,0,-10,NIL,27-Dec-2024,26 May 2025,Refrigerated,false,Lagos
+PH400083,Amoxicillin 500mg Cap,ANTIBIOTICS,May & Baker Nigeria,NGN 480,NGN 603,0,0,0,BN75519,2025-11-09,31 May 2024,room temp,false,Cross River
+PH400374,Metformin 850mg Tab,Antidiabetics,Evans Medical,N350,462.83 naira,0,0,0,BN85514,2027/02/24,2024-12-30,Controlled,N,Imo
+PH400192,Ibuprofen 400mg Tab,Analgesics,Evans Medical,180.00 naira,NGN 218,0,0,0,BN65216,23-Jan-2026,30/08/2024,Cold Chain (2-8°C),no,Enugu
+PH400356,Metformin 850mg Tab,ANTIDIABETICS,Swipha Nigeria,NGN 350,428.22 naira,-10,0,-10,BN96382,01/06/2026,2025/03/24,Ambient Temperature,false,LAGOS
+PH400420,Lisinopril 10mg Tab,Antihypertensives,Swipha Nigeria,NGN 320,NGN 506,-10,0,-10,BN70101,21/05/2026,10 November 2024,Cold Chain (2-8°C),false,Delta
+PH400424,Ibuprofen 400mg Tab,Analgesics,Swipha Nigeria,NGN 180,₦247.93,0,0,,null,03-Apr-2027,N/A,ambient,no,Rivers
+PH400200,Insulin Glargine 100IU/mL,Antidiabetics,Fidson Healthcare,8500.00 naira,12176.41,0,?,0,BN83274,05 September 2025,06 June 2025,COLD CHAIN,N,FCT
+PH400245,Lisinopril 10mg Tab,ANTIHYPERTENSIVES,Fidson Healthcare,NGN 320,N508,2374,1766,608,BN60260,2027-03-22,26.05.2025,Controlled,No,oyo
+PH400411,Artemether-Lumefantrine 80/480,Antimalarials,Fidson Healthcare,650.00 ,₦856.51,-10,0,-10,BN85047,06/08/2027,2024-07-02,Ambient Temperature,TRUE,Oyo
+PH400227,Amlodipine 5mg Tab,Antihypertensives,May & Baker Nigeria,290,339.28,-10,0,,BN98963,11/27/2024,2025-03-06,COLD CHAIN,0,Plateau
+PH400283,Lisinopril 10mg Tab,ANTIHYPERTENSIVES,Emzor Pharmaceutical,NGN 320,485.97 naira,3263,3240,23,BN58007,12-Mar-2026,11.01.2024,Controlled,N,Enugu
+PH400372,Amoxicillin 500mg Cap,Antibiotics,Evans Medical,₦480.00,652.23 naira,4168,3469,699,BN62500,12-Apr-2026,2024-04-09,Controlled,yes,Imo
+PH400132,Lisinopril 10mg Tab,Antihypertensives,Emzor Pharmaceutical,320.00 naira,381.78,4630,2213,2417,BN61863,2025-12-11,30-Mar-2025,room temp,0,Imo
+PH400280,Metformin 850mg Tab,-,May & Baker Nigeria,350.00 naira,504.75 naira,-10,-,-10,BN90431,2026-10-06,03/06/2024,Cold Chain (2-8°C),0,Anambra
+PH400127,Ibuprofen 400mg Tab,Analgesics,Fidson Healthcare,N180,₦232.07,1595,412,1183,BN41255,2027-08-06,26-Aug-2024,Ambient Temperature,FALSE,Plateau
+PH400179,Omeprazole 20mg Cap,GI DRUGS,Evans Medical,₦410.00,N614,-10,0,-10,BN76968,11/01/2026,08/09/2024,Refrigerated,no,Rivers
+PH400073,Amoxicillin 500mg Cap,Antibiotics,May & Baker Nigeria,480.00 naira,NGN 693,,0,-10,BN99185,05-Feb-2027,2024-11-13,Controlled,0,Enugu
+PH400311,Amoxicillin 500mg Cap,antibiotics,Fidson Healthcare,480,₦652.17,-10,0,-10,BN12698,2026-03-26,2024/10/18,Cold Chain (2-8°C),Y,Enugu
+PH400067,Amlodipine 5mg Tab,Unknown,Swipha Nigeria,290.00 ,459.44 ,3245,null,333,BN75723,2025/02/20,02.01.2025,room temp,N,Akwa Ibom
+PH400075,Metformin 850mg Tab,Antidiabetics,May & Baker Nigeria,₦350.00,₦554.27,4162,2523,1639,BN43095,09/10/2026,01.01.2024,Refrigerated,FALSE,Enugu
+PH400072,Amlodipine 5mg Tab,Antihypertensives,Swipha Nigeria,NGN 290,NGN 370,  ,0,0,BN23462,10/07/2026,2025-05-11,Refrigerated,true,Lagos
+PH400150,Cotrimoxazole 480mg Tab,Antibiotics,Emzor Pharmaceutical,200.00 naira,₦296.04,1555,1451,104,BN60996,26 December 2024,2024/12/15,COLD CHAIN,FALSE,Oyo
+PH400306,Omeprazole 20mg Cap,GI Drugs,Fidson Healthcare,410.00 naira,NGN 473,1104,683,421,BN50257,03/08/2027,10 May 2025,room temp,yes,Enugu
+PH400383,Lisinopril 10mg Tab,ANTIHYPERTENSIVES,May & Baker Nigeria,320.00 ,₦424.31,0,0,0,NIL,12.11.2026,05/22/2025,Controlled,1,Edo
+PH400370,Omeprazole 20mg Cap,GI Drugs,Emzor Pharmaceutical,N410,481.17 naira,0,0,0,--,13 September 2026,01.04.2025,Controlled,1,Delta
+PH400298,Insulin Glargine 100IU/mL,ANTIDIABETICS,Fidson Healthcare,8500.00 naira,"N10,182",4745,1419,,--,28.04.2027,12/15/2024,Ambient Temperature,no,Rivers
+PH400092,Artemether-Lumefantrine 80/480,antimalarials,Evans Medical,₦650.00,952.68 ,0,0,0,BN64672,2025-01-24,05/02/2024,Refrigerated,FALSE,Enugu
+PH400233,Amoxicillin 500mg Cap,antibiotics,Swipha Nigeria,,NGN 700,-10,0,-10,BN81711,2024/11/27,03/01/2025,Refrigerated,TRUE,Imo
+PH400349,Paracetamol 1000mg Tab,n/a,Swipha Nigeria,N120,179.66 ,0,0,0,BN22569,10/29/2025,06/16/2024,Cold Chain (2-8°C),FALSE,Rivers State
+PH400088,Ibuprofen 400mg Tab,ANALGESICS,Evans Medical,N180,266.73 naira,Unknown,0,0,BN79284,27-Oct-2026,13.01.2024,Controlled,0,Edo
+PH400309,Ibuprofen 400mg Tab,Analgesics,May & Baker Nigeria,N180,NGN 258,4074,1379,2695,BN61582,2025/04/05,2024/04/03,room temp,Yes,Enugu
+PH400178,Omeprazole 20mg Cap,GI Drugs,Evans Medical,N410,₦487.70,0,0,0,BN12892,10/07/2025,2024/08/01,Ambient Temperature,yes,Plateau
+PH400093,Paracetamol 1000mg Tab,ANALGESICS,Fidson Healthcare,120,,3634,2312,1322,BN89002,07/01/2026,16/03/2024,ambient,yes,Kaduna
+PH400059,Ibuprofen 400mg Tab,ANALGESICS,Evans Medical,NGN 180,NGN 274,-10,0,-10,BN98993,17-Mar-2027,2024/05/20,Cold Chain (2-8°C),Y,Lagos
+PH400173,Insulin Glargine 100IU/mL,Antidiabetics,Emzor Pharmaceutical,8500,"₦12,142.02",-10,0,-10,BN12571,31 July 2025,03.01.2025,ambient,N,Akwa Ibom
+PH400261,Diazepam 5mg Tab,ANXIOLYTICS,Swipha Nigeria,N550,₦852.29,0,0,0,-,2025/12/11,2025-02-20,Refrigerated,TRUE,Anambra
+PH400252,Diazepam 5mg Tab,Anxiolytics,Evans Medical,NGN 550,N646,-10,NIL,-10,BN72227,12/02/2024,19.03.2025,Ambient Temperature,FALSE,Akwa Ibom
+PH400040,Metformin 850mg Tab,ANTIDIABETICS,Emzor Pharmaceutical,N350,N461,3398,1291,2107,BN22138,2025/01/02,27.03.2025,room temp,false,Anambra
+PH400060,Amoxicillin 500mg Cap,Antibiotics,May & Baker Nigeria,₦480.00,N658,297,130,167,BN15602,01/09/2027,21.02.2025,Refrigerated,Yes,Edo
+PH400037,Lisinopril 10mg Tab,ANTIHYPERTENSIVES,Swipha Nigeria,320,₦509.28,-10,0,-10,BN24090,2027-07-18,N/A,ambient,No,KANO
+PH400310,Metformin 850mg Tab,Antidiabetics,Emzor Pharmaceutical,₦350.00,548.99 naira,0,0,0,BN44479,21 August 2026,02/22/2025,Controlled,1,Anambra
+PH400249,Lisinopril 10mg Tab,Antihypertensives,Fidson Healthcare,₦320.00,500.07,-10,0,-10,BN95422,25/12/2025,04/08/2024,room temp,1,Ibadan
+PH400207,Insulin Glargine 100IU/mL,Antidiabetics,Swipha Nigeria,-,"₦12,584.75",-10,0,-10,  ,2027-07-16,2024-10-17,ambient,No,Ogun
+PH400345,Metformin 850mg Tab,Antidiabetics,Emzor Pharmaceutical,₦350.00,₦438.95,-10,N/A,-10,BN68666,08 August 2025,05/29/2024,Controlled,true,KANO
+PH400402,Amoxicillin 500mg Cap,Antibiotics,Evans Medical,480,673.31,2989,733,2256,BN88110,2027-04-05,2024/06/25,Controlled,no,Kaduna
+PH400091,Omeprazole 20mg Cap,Gi Drugs,Emzor Pharmaceutical,NGN 410,531.50 naira,4196,3769,427,BN38957,17.01.2027,04.08.2024,Refrigerated,true,Port Harcourt
+PH400121,Amlodipine 5mg Tab,Antihypertensives,Fidson Healthcare,290,335.05 naira,0,0,0,BN80192,2026/02/03,2024/10/24,ambient,Yes,Abuja
+PH400375,Diazepam 5mg Tab,Anxiolytics,May & Baker Nigeria,NGN 550,687.9,0,0,0,BN40388,28/10/2025,26.08.2024,Ambient Temperature,TRUE,Kaduna
+PH400202,Artemether-Lumefantrine 80/480,unknown,Fidson Healthcare,650.00 naira,753.38 ,2919,2665,254,BN53093,2026-02-01,20 October 2024,Refrigerated,true,Imo
+PH400164,Diazepam 5mg Tab,Anxiolytics,Emzor Pharmaceutical,NGN 550,719.11 ,-10,0,-10,BN17457,2026/09/03,19 September 2024,ambient,No,Cross River
+PH400208,Artemether-Lumefantrine 80/480,ANTIMALARIALS,May & Baker Nigeria,N650,NGN 973,-10,0,-10,,2026/11/10,2024-02-21,Cold Chain (2-8°C),TRUE,Imo
+PH400412,Insulin Glargine 100IU/mL,ANTIDIABETICS,Emzor Pharmaceutical,"₦8,500.00","NGN 10,943",3065,2550,515,BN84255,10/04/2026,09 September 2024,Ambient Temperature,true,Imo
+PH400304,Omeprazole 20mg Cap,GI Drugs,Evans Medical,410,481.27,4202,367,3835,NIL,26-Oct-2025,01/02/2025,Ambient Temperature,Y,Cross River
+PH400300,Paracetamol 1000mg Tab,Analgesics,Swipha Nigeria,120.00 naira,₦185.82,-10,0,,BN70179,16 January 2027,03-Mar-2024,COLD CHAIN,TRUE,Plateau
+PH400044,Amlodipine 5mg Tab,Antihypertensives,Emzor Pharmaceutical,₦290.00,335.35 ,-10,0,-10,BN11562,07 August 2025,,Controlled,Yes,KANO
+PH400045,Amoxicillin 500mg Cap,Antibiotics,Evans Medical,480,693.97 ,2834,n/a,570,BN40921,2025/02/08,2024-12-13,ambient,Yes,Imo
+PH400183,Artemether-Lumefantrine 80/480,Antimalarials,Emzor Pharmaceutical,650.00 naira,886.91 naira,-10,0,-10,BN13793,17-Jun-2027,11/02/2024,room temp,TRUE,Cross River
+PH400390,Insulin Glargine 100IU/mL,Antidiabetics,Emzor Pharmaceutical,"₦8,500.00","N11,665",0,0,0,BN69748,12/07/2027,06 February 2025,Refrigerated,FALSE,Kaduna
+PH400276,Ibuprofen 400mg Tab,analgesics,Evans Medical,180.00 naira,₦283.02,4937,3767,1170,BN79059,03/07/2027,2024-07-08,Ambient Temperature,Yes,Ibadan
+PH400429,Artemether-Lumefantrine 80/480,antimalarials,Evans Medical,₦650.00,777.87 ,-,248,72,BN29712,2027-06-24,06/26/2025,Cold Chain (2-8°C),N,Delta
+PH400005,Artemether-Lumefantrine 80/480,ANTIMALARIALS,Fidson Healthcare,NGN 650,874.09,0,0,0,BN66075,20/06/2025,17/06/2025,Refrigerated,1,Cross River
+PH400406,Amlodipine 5mg Tab,Antihypertensives,Emzor Pharmaceutical,290,₦426.09,2149,null,720,BN56899,2026/05/16,2024/01/15,Cold Chain (2-8°C),true,Kano
+PH400167,Multivitamin Syrup,supplements,Evans Medical,N780,₦937.86,3450,--,1768,BN20301,00/00/0000,2024-02-14,Cold Chain (2-8°C),1,Kaduna
+PH400396,Amoxicillin 500mg Cap,Antibiotics,Evans Medical,480.00 ,₦715.37,0,0,0,BN37849,2026-05-18,not set,Refrigerated,0,Anambra
+PH400138,Insulin Glargine 100IU/mL,Antidiabetics,Evans Medical,8500,12928.22 naira,-10,0,-10,  ,12/04/2027,2024-11-30,Refrigerated,true,Kaduna
+PH400342,Artemether-Lumefantrine 80/480,Antimalarials,Emzor Pharmaceutical,?,--,  ,0,0,BN69762,30/01/2025,2024-12-19,Ambient Temperature,no,Enugu
+PH400204,Multivitamin Syrup,Supplements,Fidson Healthcare,N780,"NGN 1,224",3783,1997,1786,BN43471,11/29/2026,2024-01-29,ambient,Y,Lagos
+PH400141,Diazepam 5mg Tab,Anxiolytics,Emzor Pharmaceutical,550.00 naira,N805,-10,0,-10,BN32365,22.03.2027,05/17/2024,Refrigerated,true,Kaduna
+PH400386,Metformin 850mg Tab,antidiabetics,Emzor Pharmaceutical,N350,556.6,0,0,0,BN95859,22.04.2026,24.03.2025,ambient,Yes,Oyo
+PH400096,Cotrimoxazole 480mg Tab,antibiotics,Emzor Pharmaceutical,N200,301.24,2200,1515,685,BN96489,01/04/2027,2024/09/24,room temp,0,Anambra
+PH400231,Amlodipine 5mg Tab,  ,Emzor Pharmaceutical,290,434.20 ,-10,0,-10,BN84157,06/15/2026,06-Dec-2024,Ambient Temperature,TRUE,Edo
+PH400122,Lisinopril 10mg Tab,Antihypertensives,Emzor Pharmaceutical,NGN 320,NGN 469,1913,561,1352,BN42585,24/08/2026,11-Oct-2024,COLD CHAIN,no,Rivers
+PH400087,Metformin 850mg Tab,ANTIDIABETICS,Swipha Nigeria,NGN 350,N550,0,0,0,BN52879,2027-03-23,10.12.2024,Refrigerated,true,Imo
+PH400399,Omeprazole 20mg Cap,GI DRUGS,May & Baker Nigeria,NGN 410,N533,-10,0,-10,BN99574,17/11/2025,14.04.2024,COLD CHAIN,true,Lagos
+PH400212,Metformin 850mg Tab,Antidiabetics,May & Baker Nigeria,NGN 350,519.34 naira,2913,2647,266,BN62746,03.01.2025,,Refrigerated,no,Lagos
+PH400165,Insulin Glargine 100IU/mL   ,Antidiabetics,Fidson Healthcare,"NGN 8,500","N11,187",-10,0,-10,BN53295,06 June 2025,14-Jun-2025,Refrigerated,TRUE,Enugu
+PH400106,Lisinopril 10mg Tab,Antihypertensives,Evans Medical,NGN 320,447.54,576,489,87,BN24904,11/13/2025,03/08/2025,Ambient Temperature,TRUE,Edo
+PH400006,Lisinopril 10mg Tab,Antihypertensives,Swipha Nigeria,NGN 320,376.72,0,0,,BN91999,2027-08-31,2024/08/02,Cold Chain (2-8°C),N,Cross River
+PH400170,Paracetamol 1000mg Tab,Analgesics,Swipha Nigeria,NIL,140.94 naira,2171,43,2128,BN55258,16.06.2025,06-Jan-2025,Refrigerated,1,Ogun
+PH400418,Omeprazole 20mg Cap,gi drugs,Evans Medical,410.00 naira,NGN 505,606,120,486,BN49627,2027/08/10,2025/04/09,ambient,false,Ogun
+PH400235,Ibuprofen 400mg Tab,Analgesics,Evans Medical,180,225.12,1150,406,,BN49902,2027/04/04,21.05.2025,COLD CHAIN,0,Ogun
+PH400213,Amlodipine 5mg Tab,antihypertensives,May & Baker Nigeria,290.00 naira,N388,2279,332,1947,BN70028,16 November 2025,05-Feb-2025,Controlled,No,Cross River
+PH400293,Omeprazole 20mg Cap,GI Drugs,Emzor Pharmaceutical,₦410.00,NGN 578,-10,0,-10,BN68316,01/25/2026,22 August 2024,room temp,Yes,Edo
+PH400317,Multivitamin Syrup,supplements,Evans Medical,780,"₦1,133.64",0,0,0,BN74204,05-Sep-2027,2024-08-28,Cold Chain (2-8°C),FALSE,Lagos
+PH400086,Diazepam  5mg Tab,Anxiolytics,Evans Medical,₦550.00,NGN 869,4610,457,4153,BN75779,17.10.2025,13 November 2024,Ambient Temperature,1,Delta
+PH400017,Metformin 850mg Tab,antidiabetics,Evans Medical,N350,457.08,-10,N/A,-10,BN94179,24.02.2025,30 June 2024,Controlled,Yes,Rivers
+PH400239,Multivitamin Syrup,Supplements,Swipha Nigeria,₦780.00,"1,144.29 ",unknown,3410,1227,NIL,12/11/2024,17 March 2024,COLD CHAIN,Yes,Enugu
+PH400251,Omeprazole 20mg Cap,GI DRUGS,Evans Medical,410,N534,-10,0,-10,BN83767,11.09.2025,26 November 2024,room temp,N,Cross River
+PH400102,  Ibuprofen 400mg Tab,Analgesics,Evans Medical,₦180.00,₦226.71,4157,3126,1031,BN36175,2025/01/06,2024/07/14,Ambient Temperature,TRUE,Lagos State
+PH400136,Diazepam 5mg Tab,Anxiolytics,May & Baker Nigeria,₦550.00,NGN 739,1173,29,1144,--,01.12.2026,2025/06/13,COLD CHAIN,Yes,Kaduna
+PH400408,Cotrimoxazole 480mg Tab,antibiotics,Evans Medical,200.00 naira,260.85,-10,0,,BN26180,2025/06/14,23 April 2024,Ambient Temperature,false,Akwa Ibom
+PH400388,Cotrimoxazole 480mg Tab,antibiotics,Evans Medical,200,N280,547,265,282,BN43415,07/12/2026,10.03.2025,ambient,No,ABUJA
+PH400023,Omeprazole 20mg Cap,Gi Drugs,May & Baker Nigeria,410,581.99 naira,0,0,0,BN59603,22.01.2027,03-Dec-2024,Controlled,No,Rivers
+PH400384,Lisinopril 10mg Tab,antihypertensives,Evans Medical,320.00 naira,NGN 437,NULL,0,0,BN25913,03/25/2027,2024/05/09,Ambient Temperature,Y,Anambra
+PH400301,Amoxicillin 500mg Cap,Antibiotics,Swipha Nigeria,480,NGN 668,0,0,,BN39527,2027/05/25,2024/03/03,Controlled,true,Ogun
+PH400043,Cotrimoxazole 480mg Tab,Antibiotics,May & Baker Nigeria,200,N234,3135,1310,1825,BN79209,2027/04/04,09 December 2024,COLD CHAIN,TRUE,Oyo State
+PH400151,Metformin 850mg Tab,Antidiabetics,Emzor Pharmaceutical,350,471.04 ,-10,0,-10,BN88651,2026-02-25,2025-02-23,Ambient Temperature,Yes,Delta
+PH400135,Paracetamol 1000mg Tab,analgesics,Swipha Nigeria,NGN 120,₦144.16,0,0,0,BN20115,N/A,2024/12/06,Refrigerated,N,Lag
+PH400188,Multivitamin Syrup,SUPPLEMENTS,May & Baker Nigeria,780,1192.17 naira,2537,99,2438,BN79140,19/11/2024,2024-08-04,ambient,TRUE,Edo
+PH400338,Metformin 850mg Tab,antidiabetics,May & Baker Nigeria,N350,N403,0,0,0,BN37270,2025-02-01,24-Jan-2025,Refrigerated,Y,Ogun
+PH400333,Paracetamol 1000mg Tab,Analgesics,Fidson Healthcare,120.00 ,N166,-10,0,-10,BN64476,2026-06-28,07/17/2024,Refrigerated,yes,Cross River
+PH400314,Paracetamol 1000mg Tab,Analgesics,Emzor Pharmaceutical,N120,NGN 154,0,0,0,BN10931,18-Mar-2025,2025-05-03,Refrigerated,TRUE,Lagos State
+PH400339,Lisinopril 10mg Tab,Antihypertensives,May & Baker Nigeria,320.00 ,₦381.73,4107,3324,783,BN15709,2026/09/10,2024-06-03,Cold Chain (2-8°C),1,Lagos
+PH400219,Paracetamol 1000mg Tab,Analgesics,Fidson Healthcare,N120,162.27 naira,2319,2194,125,BN31976,2025/11/10,27 October 2024,ambient,true,KANO
+PH400313,Metformin 850mg Tab,Antidiabetics,May & Baker Nigeria,350,500.6,0,0,0,BN33868,27-Jul-2025,21-Apr-2025,COLD CHAIN,no,Cross River
+PH400077,Lisinopril 10mg Tab,Antihypertensives,May & Baker Nigeria,320.00 naira,403.24,-10,0,-10,BN88764,08-Jul-2026,02 June 2025,Controlled,Y,Kaduna
+PH400026,Omeprazole 20mg Cap,GI Drugs,Swipha Nigeria,410.00 ,525.06 ,0,0,0,BN74072,2025-08-06,10-Feb-2025,Cold Chain (2-8°C),true,Akwa Ibom
+PH400038,Diazepam 5mg Tab,Anxiolytics,Swipha Nigeria,550.00 naira,N712,3910,383,3527,BN30548,2025/09/14,26 February 2024,Controlled,N,Kaduna
+PH400195,Metformin 850mg Tab,Antidiabetics,Swipha Nigeria,N350,₦532.36,0,0,0,BN62014,07-Nov-2025,13/05/2024,Ambient Temperature,false,Delta
+PH400343,Multivitamin Syrup,supplements,Evans Medical,780.00 naira,1173.98,-10,0,-10,BN15522,00/00/0000,09/02/2024,COLD CHAIN,No,Akwa Ibom
+PH400243,Amoxicillin 500mg Cap,Antibiotics,May & Baker Nigeria,NGN 480,N712,Unknown,147,48,NULL,30/11/2026,2025-01-04,Ambient Temperature,FALSE,Anambra
+PH400160,Lisinopril 10mg Tab,ANTIHYPERTENSIVES,Fidson Healthcare,N320,472.24,-10,0,-10,BN34976,2027-04-28,18/08/2024,room temp,0,Kano
+PH400018,Omeprazole 20mg Cap,gi drugs,Emzor Pharmaceutical,410,₦563.68,-10,0,-10,BN18649,01.05.2027,04/06/2024,Controlled,FALSE,rivers
+PH400389,Ibuprofen 400mg Tab,analgesics,Fidson Healthcare,NGN 180,249.73 naira,-10,  ,-10,BN19878,02-Oct-2026,20.02.2025,room temp,false,FCT
+PH400382,Artemether-Lumefantrine 80/480,Antimalarials,Swipha Nigeria,650,NGN 791,3755,889,2866,BN30481,03/21/2025,02 October 2024,Controlled,No,Delta

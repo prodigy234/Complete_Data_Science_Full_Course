@@ -1,0 +1,479 @@
+SaleID,StationName,AttendantName,FuelType,LitersDispensed,PricePerLiter,TotalSaleAmount,Date,PumpNumber,PumpStatus,PaymentMethod,CustomerVehicle,State,ManagerApproved
+FUL650054,Ardova Petroleum Wuse,Musa Afolabi,Automotive Gas Oil (AGO),26341.83,"₦1,163.97","30,661,099.87 ",13.12.2024,2,Faulty,cash,Generator,Akwa Ibom,0
+FUL650332,Mobil Filling Station Ikeja,ADAEZE NWOSU,Automotive Gas Oil (AGO),25005.81,-,"N33,426,266",22/04/2025,0,Faulty,Cash,Generator,FCT,Y
+FUL650070,Ardova Petroleum Wuse,Aliyu Adeyemi,ago,6631.54,NGN 939,"NGN 6,225,226",,0,Under Maintenance,CASH,Bus,Port Harcourt,false
+FUL650069,Oando PLC Yaba,Halima Afolabi,AGO,unknown,"1,387.24 ","₦59,125,431.19",23.01.2025,1,functional ,POS,Keke,Delta,TRUE
+FUL650298,MRS Oil Apapa,Emeka Ogundimu,pms,6274.91,"₦1,031.79","N6,474,389",05.11.2024,3,Functional,Fleet Card,TRUCK,Edo,true
+FUL650226,Mobil Filling Station Ikeja,Segun Mohammed,AGO,35485.49,1200.49 naira,"NGN 42,599,976",01/11/2025,5,Under Maintenance,Transfer,TRUCK,Oyo,FALSE
+FUL650441,Conoil Aba Road,YUSUF AFOLABI,pms,40301.5,"NGN 1,076","NGN 43,352,324",2024/08/31,0,Functional,CASH,Bus,Cross River,true
+FUL650045,MRS Oil Apapa,Amara Yusuf,LPG,40554.52,"N1,136","NGN 46,055,335",20.08.2024,4,functional,Fleet Card,Generator,Ogun,yes
+FUL650122,Ardova Petroleum Wuse,blessing eze,Premium,25981.08,"NGN 1,236","NGN 32,101,963",03/02/2025,0,functional ,Transfer,Truck,Edo,Y
+FUL650219,Conoil Aba Road,Zainab Suleiman,Kerosene,38890.99,963.10 naira,"37,455,912.47 ",2025/03/04,-1,Under Maintenance,cash,Motorcycle,Cross River,No
+FUL650307,NNPC Mega Station Lugbe,Bola Mohammed,Kerosene,41404.49,748.43,30988362.45 naira,11.09.2024,5,FAULTY,POS,Motorcycle,Oyo,false
+FUL650458,Total Energies Surulere,Fatima Okeke,AGO,18908.5,"1,027.79 ","N19,433,967",25-Aug-2024,3,FAULTY,cash,Generator,Abuja,0
+FUL650158,Conoil Aba Road,Kunle Yusuf,Diesel,26457.45,"1,201.87 ","N31,798,415",22-Jul-2024,1,functional,POS,car,LAGOS,false
+FUL650190,Mobil Filling Station Ikeja,Adaeze Okonkwo,AGO,33610.34,706.08 naira,"NGN 23,731,589",22/01/2025,NIL,FAULTY,Cash,Car,Plateau,No
+FUL650274,MRS Oil Apapa,Chidi Nwosu,LPG,12019.68,₦660.59,"N7,940,080",02 May 2025,1,functional ,Cash,Car,Enugu,No
+FUL650310,Mobil Filling Station Ikeja,Chioma Okeke,pms,30244.62,NGN 905,--,2025-02-23,0,FAULTY,Fleet Card,Keke,Cross River,true
+FUL650417,Total Energies Surulere,Tobi Adeyemi,PMS,n/a,"NGN 1,389",32659099.528399996,2024-11-28,3,FAULTY,cash,Truck,Anambra,yes
+FUL650047,Conoil Aba Road,Ngozi Balogun,Diesel,29085.68,NGN 833,"NGN 24,237,679",12.01.2025,4,Under Maintenance,Coupon,Generator,Cross River,No
+FUL650302,Mobil Filling Station Ikeja,  Kemi Lawal,Premium,18772.64,NGN 983,18460075.544,2025/05/19,null,Faulty,Fleet Card,Car,rivers,no
+FUL650313,MRS Oil Apapa,Amara Lawal,LPG,7387.33,933.16 naira,"N6,893,561",07/11/2024,4,FAULTY,cash,Generator,Cross River,yes
+FUL650398,NNPC Mega Station Lugbe,Zainab Chukwu,Premium Motor Spirit (PMS),34707.4,1196.29,"₦41,520,115.55",2024/11/26,-1,Out of Stock,Coupon,Bus,Oyo,true
+FUL650366,NNPC Mega Station Lugbe,Musa Adekunle,LPG,32800.72,804.95 naira,"N26,402,940",14/05/2025,0,functional,CASH,car,Ibadan,0
+FUL650098,Conoil Aba Road,Yusuf Olawale,Diesel,2780.05,"N1,029",2860866.05 naira,14-Feb-2025,n/a,FAULTY,cash,TRUCK,Ogun,Yes
+FUL650004,Conoil Aba Road,Funmilayo Abubakar,LPG,36227.26,908.96,"₦32,929,130.25",04 July 2024,3,functional,Fleet Card,car,Kaduna,N
+FUL650286,NNPC Mega Station Lugbe,Funmilayo Nwosu,Automotive Gas Oil (AGO),20017.5,"₦1,055.40","21,126,469.50 ",01/01/2025,1,functional,Cash,car,Port Harcourt,Y
+FUL650413,Mobil Filling Station Ikeja,chioma lawal,LPG,43637.74,1094.12,"N47,744,924",2024/12/24,4,Functional,Cash,Truck,ABUJA,N
+FUL650378,Conoil Aba Road,bisi  balogun,Diesel,25712.1,1347.11 naira,34637027.03 naira,2024-12-09,3,Faulty,cash,Motorcycle,Oyo,no
+FUL650396,Conoil Aba Road,Bisi Mohammed,Petrol,--,965.99 naira,Unknown,2025/01/03,2,functional,Transfer,TRUCK,Ibadan,No
+FUL650239,Mobil Filling Station Ikeja,kunle  ajayi,LPG,40771.91,"1,011.98 ","41,260,357.48 ",00/00/0000,2,FAULTY,Coupon,Truck,Imo,no
+FUL650346,Oando PLC Yaba,Chidi Eze,Kerosene,40994.45,NGN 709,"29,055,636.33 ",28-Oct-2024,0,Faulty,CASH,TRUCK,Kaduna,yes
+FUL650001,Total Energies Surulere,TUNDE SULEIMAN   ,Diesel,28774.57,N601,17279417.0307,19-Oct-2024,5,functional ,Cash,Bus,Plateau,1
+FUL650337,MRS Oil Apapa,Wale Lawal,AGO,23728.01,"₦1,110.72","26,355,175.27 ",2024-07-13,N/A,Functional,Fleet Card,Truck,Anambra,1
+FUL650091,Ardova Petroleum Wuse,Femi Adekunle,AGO,34703.07,"N1,158",40186849.1214,20.05.2025,2,Under Maintenance,Coupon,Truck,Kaduna,0
+FUL650039,NNPC Mega Station Lugbe,  Femi Okafor,Petrol,21812.55,N604,NIL,19.04.2025,4,Faulty,cash,Bus,Enugu,N
+FUL650288,Ardova Petroleum Wuse,aliyu nwosu,Kerosene,38799.1,,,29.01.2025,Unknown,functional,cash,Truck,Delta,0
+FUL650338,Ardova Petroleum Wuse,BOLA NNAMDI,ago,--,961.02 ,"N17,861,960",2025/03/19,4,Under Maintenance,Transfer,Bus,KANO,FALSE
+FUL650256,MRS Oil Apapa,ifeoma nwosu,Kerosene,31737.27,837.89,,17 June 2024,2,functional,Coupon,Keke,Cross River,no
+FUL650414,Ardova Petroleum Wuse,Tunde Okeke,Kerosene,1037.18,1049.85,"₦1,088,883.42",2025/03/21,0,Faulty,cash,Car,Enugu,TRUE
+FUL650030,Total Energies Surulere,Segun Adekunle,pms,30068.81,N856,"N25,734,391",02/09/2025,1,functional,cash,Motorcycle,Plateau,0
+FUL650261,MRS Oil Apapa,Ibrahim Chukwu,Premium,1362.86,969.77 naira,1321660.7422,27 November 2024,-1,Under Maintenance,Fleet Card,TRUCK,Enugu,FALSE
+FUL650080,MRS Oil Apapa,Chidi Lawal,Diesel,5840.58,1305.08 naira,"₦7,622,424.15",04/07/2024,4,FAULTY,Transfer,Bus,Imo,TRUE
+FUL650037,Conoil Aba Road,Wale Adekunle,Kerosene,36964.13,1052.52 naira,--,2024/08/29,1,Under Maintenance,cash,TRUCK,Oyo,1
+FUL650329,Mobil Filling Station Ikeja,Sadiq Olawale,ago,16634.33,1141.1,18981433.963,21/01/2025,-,Faulty,cash,Generator,Ogun,true
+FUL650430,MRS Oil Apapa,Zainab Nwosu,PMS,27741.41,654.57 naira,"N18,158,695",2024-06-27,3,Under Maintenance,Coupon,car,Kano,Y
+FUL650076,NNPC Mega Station Lugbe,Blessing Adeyemi,pms,13793.01,1074.15 naira,14815761.6915,00/00/0000,3,Out of Stock,Coupon,Bus,Lag,true
+FUL650118,NNPC Mega Station Lugbe,Chioma Balogun,Petrol,6263.92,828.32 naira,5188530.21 naira,2024/10/08,4,functional ,Transfer,Truck,Abuja,true
+FUL650174,MRS Oil Apapa,Blessing Adekunle,ago,4183.72,1248.27 naira,n/a,02/09/2024,0,functional,Fleet Card,TRUCK,Cross River,FALSE
+FUL650438,MRS Oil Apapa,WALE BELLO,Premium,30931.82,NGN 734,"₦22,705,193.15",13/08/2024,2,Functional,Transfer,Bus,Edo,FALSE
+FUL650026,Oando PLC Yaba,Aliyu Adekunle,Automotive Gas Oil (AGO),20462.01,856.75,,12/12/2024,-1,Out of Stock,Cash,Car,Kano,FALSE
+FUL650394,Oando PLC Yaba,sadiq olawale   ,PMS,23439.76,"N1,382","32,384,606.81 ",04/28/2025,4,Functional,CASH,TRUCK,Abuja,Yes
+FUL650132,Mobil Filling Station Ikeja,Chinedu Ajayi,LPG,17223.06,"NGN 1,247",21476466.897600003,08 August 2024,-1,Faulty,Cash,Truck,Rivers,FALSE
+FUL650109,Oando PLC Yaba,Aliyu Okonkwo,Automotive Gas Oil (AGO),12364.06,1381.53 naira,"N17,081,320",2024-06-09,3,Functional,Transfer,car,Delta,FALSE
+FUL650309,Mobil Filling Station Ikeja,tunde bello,Petrol,34302.55,1157.88 naira,39718236.59 naira,13.03.2025,0,Out of Stock,Transfer,Bus,Lagos,0
+FUL650344,Total Energies Surulere,adaeze okafor,Diesel,N/A,"NGN 1,353","NGN 48,322,175",08-Feb-2025,3,functional ,Transfer,Car,Cross River,TRUE
+FUL650183,Conoil Aba Road,  CHIOMA MOHAMMED,AGO,40224.08,"₦1,017.80",,01/03/2025,0,Under Maintenance,CASH,TRUCK,Abuja,true
+FUL650024,NNPC Mega Station Lugbe,aliyu afolabi   ,ago,3626.91,N704,"2,552,184.03 ",14-Dec-2024,-,Under Maintenance,CASH,car,Akwa Ibom,1
+FUL650415,Mobil Filling Station Ikeja,Amara Suleiman,LPG,36786.01,1222.45,?,27/02/2025,5,Under Maintenance,Cash,Car,Rivers,true
+FUL650009,Total Energies Surulere,Chidi Okeke,Premium,3189.51,775.16,"₦2,472,380.57",09-May-2025,3,functional,CASH,Car,Edo,true
+FUL650007,Mobil Filling Station Ikeja,Ifeoma Yusuf,PMS,?,unknown,44272255.787700005,2025/02/06,4,Faulty,Transfer,car,Kano,false
+FUL650273,Oando PLC Yaba,Ibrahim Ogundimu,ago,31752.65,969.16,,2024/08/14,3,functional,Fleet Card,Keke,Kaduna,yes
+FUL650228,Conoil Aba Road,Bisi Suleiman,Kerosene,2851.32,"NGN 1,373","₦3,915,061.95",16/12/2024,1,Faulty,POS,Car,Kano,No
+FUL650162,Conoil Aba Road,  Bisi Okafor,PMS,29132.45,"1,135.71 ",33086014.7895,16-Oct-2024,0,Under Maintenance,POS,TRUCK,Oyo,FALSE
+FUL650139,Ardova Petroleum Wuse,Obinna Abubakar,Diesel,35303.04,"NGN 1,186",,10/03/2024,5,functional ,Coupon,Car,Kaduna,Yes
+FUL650198,Oando PLC Yaba,Amara Suleiman,Premium,4646.02,"N1,374","N6,384,189",21 April 2025,3,Faulty,Fleet Card,car,Kaduna,no
+FUL650356,NNPC Mega Station Lugbe,Blessing Ogundimu,Kerosene,37515.92,NGN 689,"N25,844,717",08/10/2024,4,Functional,Coupon,TRUCK,Plateau,yes
+FUL650350,Conoil Aba Road,Bola Nnamdi,Premium Motor Spirit (PMS),32629.72,1186.84 naira,"38,726,256.88 ",04-Aug-2024,5,Functional,CASH,Generator,Oyo,no
+FUL650453,NNPC Mega Station Lugbe,Blessing Adekunle,LPG,  ,"₦1,360.68","N51,730,006",12/09/2024,0,functional,POS,car,Akwa Ibom,No
+FUL650125,Mobil Filling Station Ikeja,Kemi Suleiman,pms,25454.71,1213.49,30889036.04 naira,09-Feb-2025,1,Out of Stock,CASH,Motorcycle,Oyo,Yes
+FUL650195,Conoil Aba Road,GRACE AJAYI,PMS,20828.71,N/A,"18,207,833.42 ",04.11.2024,5,functional ,Fleet Card,Motorcycle,Imo,Yes
+FUL650142,Ardova Petroleum Wuse,Femi Chukwu,PMS,4904.67,666.64 naira,"₦3,269,649.21",2025-01-17,0,FAULTY,Cash,Motorcycle,Akwa Ibom,no
+FUL650336,Ardova Petroleum Wuse,Aliyu Balogun,ago,23069.88,N981,22642856.52 naira,unknown date,4,Out of Stock,Coupon,Bus,Imo,0
+FUL650110,NNPC Mega Station Lugbe,Grace Adeyemi,Automotive Gas Oil (AGO),10945.11,"NGN 1,152","N12,605,812",01/11/2024,4,Out of Stock,CASH,Generator,Ogun,No
+FUL650171,MRS Oil Apapa,Tunde Nnamdi,Premium,23414.4,"₦1,090.69","₦25,537,851.94",2025-05-25,0,Faulty,Transfer,car,Ibadan,N
+FUL650050,Ardova Petroleum Wuse,Segun  Abubakar,LPG,29471.83,1263.63,,12/04/2025,0,Functional,Coupon,Motorcycle,Edo,true
+FUL650234,Conoil Aba Road,Adaeze Okeke,ago,35680.9,₦721.78,"NGN 25,753,760",20-May-2025,0,functional ,POS,Car,Edo,true
+FUL650328,NNPC Mega Station Lugbe,Ngozi Afolabi,PMS,8575.3,  ,"₦11,034,610.29",15/10/2024,3,Faulty,Fleet Card,TRUCK,Imo,N
+FUL650303,Mobil Filling Station Ikeja,Halima  Balogun,Kerosene,7349.74,803.59 ,"N5,906,178",2025/01/01,-1,Functional,Fleet Card,Generator,Akwa Ibom,Y
+FUL650028,Mobil Filling Station Ikeja,Ibrahim Ajayi,Automotive Gas Oil (AGO),8925.64,"N1,066",,2025/04/18,3,Out of Stock,Transfer,Car,Akwa Ibom,1
+FUL650357,Conoil Aba Road,Bisi Yusuf,Diesel,29066.6,"N1,290",37498239.327999994,29 May 2025,5,functional,Fleet Card,Car,Abuja,TRUE
+FUL650064,Total Energies Surulere,Blessing Eze,pms,29333.03,₦843.65,"₦24,746,810.76",30-Jan-2025,5,Faulty,Transfer,Generator,Imo,yes
+FUL650170,Conoil Aba Road,Tobi Eze,LPG,39444.61,₦789.75,31151380.75 naira,2025-03-01,4,Faulty,Coupon,Car,Oyo,true
+FUL650180,NNPC Mega Station Lugbe,Amara Eze,Petrol,32255.74,N668,NIL,00/00/0000,0,FAULTY,CASH,Bus,Plateau,FALSE
+FUL650238,NNPC Mega Station Lugbe,Ibrahim Ogundimu,Petrol,NULL,1252.51,48965613.41 naira,08 June 2024,4,Faulty,Coupon,Car,Enugu,FALSE
+FUL650008,MRS Oil Apapa,Blessing Eze,PMS,31044.35,"NGN 1,165","NGN 36,154,871",22/12/2024,-1,Faulty,Cash,Car,Akwa Ibom,no
+FUL650409,MRS Oil Apapa,Ngozi Ajayi,AGO,14217.36,"N1,249",17760894.8064,2024-10-30,5,Functional,Transfer,TRUCK,Edo,N
+FUL650223,Oando PLC Yaba,FEMI LAWAL,Premium Motor Spirit (PMS),37959.74,1360.35,51638532.30899999,2024/06/29,1,Out of Stock,CASH,Truck,Anambra,true
+FUL650046,Ardova Petroleum Wuse,Sadiq Adeyemi,PMS,44671.15,NGN 822,"N36,723,706",2025/05/04,0,functional ,POS,Truck,Imo,true
+FUL650244,Oando PLC Yaba,Zainab Chukwu,Kerosene,3577.31,1219.46 naira,"₦4,362,386.45",,3,Faulty,Coupon,Motorcycle,Cross River,N
+FUL650451,Mobil Filling Station Ikeja,Ngozi Yusuf,Diesel,3375.85,704.97,2379872.97 naira,04/18/2025,3,Under Maintenance,Fleet Card,Generator,Kaduna,No
+FUL650182,Total Energies Surulere,Zainab Yusuf   ,Kerosene,24651.72,N837,"₦20,643,596.85",11-Mar-2025,5,Out of Stock,Coupon,car,Edo,false
+FUL650389,MRS Oil Apapa,Amaka Nnamdi,LPG,32148.84,"N1,312","N42,179,278",28 February 2025,--,functional ,POS,Motorcycle,Kaduna,N
+FUL650133,Oando PLC Yaba,kemi balogun,Premium Motor Spirit (PMS),32850.68,N868,28522931.42 naira,2025/01/06,4,Functional,CASH,Motorcycle,Delta,1
+FUL650354,Mobil Filling Station Ikeja,Aliyu Eze,Automotive Gas Oil (AGO),1468.3,NGN 709,"₦1,040,452.06",2025-03-14,3,Functional,CASH,Bus,Rivers,1
+FUL650094,Oando PLC Yaba,Wale Adeyemi,AGO,32540.57,"₦1,348.07","₦43,866,966.20",2024-08-29,4,FAULTY,Fleet Card,TRUCK,Imo,Y
+FUL650042,Oando PLC Yaba,Tunde Nnamdi,Petrol,n/a,1371.59 naira,"₦7,793,319.52",2024-11-17,3,functional,Coupon,Truck,Akwa Ibom,no
+FUL650282,Ardova Petroleum Wuse,Tobi Okeke,Premium Motor Spirit (PMS),2840.89,NGN 746,"₦2,119,786.89",2024/11/20,3,functional,POS,Car,Port Harcourt,Y
+FUL650407,Oando PLC Yaba,AMARA AJAYI,ago,28510.04,983.41,28037058.44 naira,2025-05-21,1,Functional,Cash,Generator,Plateau,FALSE
+FUL650237,MRS Oil Apapa,fatima olawale,pms,41586.29,n/a,  ,10.05.2025,-1,Functional,Coupon,Car,Kano,Y
+FUL650062,MRS Oil Apapa,Bisi Okeke,Petrol,3391.82,1360.06,"NGN 4,613,079",2025-04-18,2,functional,cash,Keke,Cross River,yes
+FUL650384,MRS Oil Apapa,Tunde Mohammed   ,PMS,16589.98,NGN 589,9772493.6188,15 November 2024,5,FAULTY,POS,TRUCK,oyo,0
+FUL650249,Mobil Filling Station Ikeja,Kemi Okafor,Petrol,12995.84,728.17 naira,"N9,463,181",08/07/2024,5,functional,cash,TRUCK,Abuja,Yes
+FUL650294,Oando PLC Yaba,Amaka Nnamdi,LPG,29011.16,N819,23761300.486399997,2024/07/03,-1,FAULTY,cash,TRUCK,Oyo,yes
+FUL650227,Total Energies Surulere,Amaka Adekunle,Diesel,41151.42,"₦1,034.71","NGN 42,579,786",06/07/2024,5,functional ,Fleet Card,Motorcycle,Kaduna,false
+FUL650115,Total Energies Surulere,Yusuf Mohammed,AGO,40734.44,1382.10 naira,,20-Mar-2025,3,Functional,Transfer,Keke,Kano,0
+FUL650271,Ardova Petroleum Wuse,Kemi Nwosu,Petrol,40956.01,1185.95 naira,,05/04/2025,5,Faulty,CASH,TRUCK,Cross River,1
+FUL650447,MRS Oil Apapa,Grace Bello,PMS,27229.15,₦643.31,17516784.4865,05/21/2025,3,Functional,Cash,Motorcycle,Ogun,Yes
+FUL650167,Ardova Petroleum Wuse,Chinedu Ogundimu,AGO,8116.87,646.27,"₦5,245,689.57",18.11.2024,1,functional,Coupon,car,Enugu,1
+FUL650289,Total Energies Surulere,  Ibrahim Nwosu,Petrol,10823.78,1037.96,,07.06.2024,2,functional,POS,Generator,Edo,0
+FUL650136,MRS Oil Apapa,MUSA AJAYI,Premium Motor Spirit (PMS),42904.31,775.68,33280015.180799995,2024/10/04,3,Faulty,Coupon,Keke,Plateau,No
+FUL650097,MRS Oil Apapa,Wale Lawal,Diesel,6894.2,"1,193.14 ","N8,225,746",07.04.2025,1,FAULTY,Coupon,Generator,Abuja,No
+FUL650255,Conoil Aba Road,Kunle Chukwu,Automotive Gas Oil (AGO),30519.21,"NGN 1,035",,2024/06/10,5,FAULTY,Fleet Card,car,Rivers,yes
+FUL650318,Total Energies Surulere,Amaka Ogundimu,AGO,28253.35,1003.30 naira,28346586.054999996,04 September 2024,-1,FAULTY,POS,Generator,Delta,Y
+FUL650440,Total Energies Surulere,emeka okafor,LPG,4627.59,823.33,"₦3,810,033.67",17/02/2025,3,FAULTY,Transfer,Truck,Kaduna,No
+FUL650232,Conoil Aba Road,Chioma Suleiman,AGO,18556.04,1099.26 naira,"₦20,397,912.53",unknown date,n/a,Under Maintenance,Cash,Keke,kano,Yes
+FUL650124,Total Energies Surulere,Chioma Suleiman,Petrol,2413.45,₦874.41,,2024-06-05,1,FAULTY,Transfer,Bus,Cross River,0
+FUL650269,MRS Oil Apapa,Obinna Okeke,pms,40661.43,1018.73,"₦41,423,018.58",2024/06/06,3,FAULTY,Transfer,Car,Edo,0
+FUL650075,Total Energies Surulere,Obinna Chukwu,Diesel,33449.1,"₦1,313.60",43938737.76 naira,12/15/2024,5,Functional,Cash,Generator,Edo,yes
+FUL650173,Ardova Petroleum Wuse,Funmilayo Afolabi,Automotive Gas Oil (AGO),4492.3,723.26,,2024/06/21,-1,Under Maintenance,cash,Keke,Imo,false
+FUL650428,Mobil Filling Station Ikeja,Funmilayo Afolabi,Premium,5676.43,862.18 naira,4894104.42 naira,06/07/2024,5,FAULTY,POS,Motorcycle,Oyo,yes
+FUL650022,MRS Oil Apapa,Grace Okafor,PMS,25905.61,1169.04,,14.12.2024,1,functional ,cash,Generator,Cross River,0
+FUL650090,Conoil Aba Road,Tobi Lawal,pms,32733.37,"N1,159","N37,929,465",2025-02-21,5,Faulty,Transfer,Keke,Kano,yes
+FUL650035,NNPC Mega Station Lugbe,Bola Nwosu,AGO,21146.59,N607,Unknown,10/26/2024,3,Functional,Cash,Bus,Cross River,yes
+FUL650281,NNPC Mega Station Lugbe,Grace Okafor   ,Kerosene,  ,"₦1,055.06",7072869.0256,07/07/2024,0,functional ,CASH,Truck,ABUJA,N
+FUL650446,Conoil Aba Road,Zainab Nwosu,ago,42670.94,NGN 953,"NGN 40,644,924",2025/05/31,2,Functional,POS,car,Rivers,TRUE
+FUL650292,NNPC Mega Station Lugbe,Adaeze Balogun,pms,34240.1,842.78 naira,"₦28,856,871.48",2024/10/15,0,Under Maintenance,cash,Generator,Cross River,true
+FUL650319,MRS Oil Apapa,Amaka Balogun,Kerosene,10817.59,"N1,192","₦12,895,432.69",11/01/2024,0,functional,cash,car,Enugu,true
+FUL650214,Conoil Aba Road,Chioma Abubakar,Kerosene,10286.28,661.89,"₦6,808,385.87",10/17/2024,0,FAULTY,Coupon,Generator,Cross River,0
+FUL650241,Total Energies Surulere,  Ifeoma Bello,Premium,28161.03,"N1,301","N36,623,983",2024-06-16,5,FAULTY,POS,Motorcycle,Edo,Y
+FUL650068,NNPC Mega Station Lugbe,Aliyu Chukwu,LPG,6942.22,728.29,5055949.4037999995,05/21/2025,3,functional ,cash,Motorcycle,Kaduna,true
+FUL650218,Mobil Filling Station Ikeja,Halima Balogun,Automotive Gas Oil (AGO),2871.59,"₦1,300.53",NULL,08-Mar-2025,-1,FAULTY,CASH,Bus,LAGOS,no
+FUL650253,NNPC Mega Station Lugbe,Chidi Abubakar,Premium,44066.62,581.30 naira,"N25,615,926",13/06/2024,-1,Under Maintenance,Transfer,Truck,Oyo State,Yes
+FUL650149,Mobil Filling Station Ikeja,Zainab Mohammed,pms,15334.82,N726,"NGN 11,125,719",11/13/2024,-1,functional ,Coupon,TRUCK,Edo,no
+FUL650029,NNPC Mega Station Lugbe,Yusuf Nnamdi,Petrol,37005.07,666.54 ,"NGN 24,665,359",03/12/2024,3,Faulty,CASH,TRUCK,Ogun,FALSE
+FUL650203,MRS Oil Apapa,  Obinna Nwosu,AGO,35530.21,892.61,"N31,714,621",29/03/2025,4,Out of Stock,CASH,Generator,Enugu,no
+FUL650079,NNPC Mega Station Lugbe,Femi Yusuf,LPG,43540.29,"NGN 1,389",60477027.4071,08-May-2025,1,FAULTY,Transfer,TRUCK,Cross River,TRUE
+FUL650422,NNPC Mega Station Lugbe,Chidi Nwosu   ,Diesel,42635.51,913.34 ,,2024/11/08,5,Faulty,cash,TRUCK,Anambra,true
+FUL650185,Oando PLC Yaba,Chidi Ajayi,PMS,41016.98,n/a,"₦47,489,459.44",2025/04/28,5,Functional,cash,Keke,Anambra,yes
+FUL650333,Conoil Aba Road,Chinedu Nnamdi,Premium,37573.08,unknown,  ,18/10/2024,4,Functional,CASH,Generator,Port Harcourt,false
+FUL650095,Ardova Petroleum Wuse,  Blessing Adekunle,LPG,38297.84,₦963.78,36910692.235199995,07/09/2024,4,Faulty,POS,TRUCK,Kaduna,N
+FUL650049,NNPC Mega Station Lugbe,Amaka Ogundimu,Premium Motor Spirit (PMS),27879.99,1353.40 naira,unknown,2024/11/15,-1,functional,Fleet Card,Bus,Imo,1
+FUL650023,Oando PLC Yaba,Blessing Okonkwo,Petrol,27569.74,1169.8,"NGN 32,251,082",14-Feb-2025,-1,functional,Cash,Keke,kano,TRUE
+FUL650278,MRS Oil Apapa,Halima Lawal,Petrol,29907.6,798.48 ,23880620.448,25/05/2025,4,functional ,CASH,TRUCK,Abuja,no
+FUL650150,Total Energies Surulere,Amaka Okonkwo,ago,7839.95,"N1,374",10774992.0815,22 May 2025,4,functional ,Fleet Card,Car,Rivers,FALSE
+FUL650360,Mobil Filling Station Ikeja,  Funmilayo Ogundimu   ,Premium Motor Spirit (PMS),10642.86,997.07,"N10,611,676",2025-02-14,5,Functional,CASH,Motorcycle,Cross River,Y
+FUL650377,NNPC Mega Station Lugbe,Obinna Lawal,AGO,20892.56,N844,"N17,631,022",12/09/2024,4,functional,POS,Keke,Enugu,1
+FUL650213,Ardova Petroleum Wuse,SADIQ ADEKUNLE,pms,379.83,1132.76 naira,430256.23079999996,12.12.2024,4,Faulty,Fleet Card,Bus,Ogun,true
+FUL650036,Mobil Filling Station Ikeja,Ibrahim Bello,AGO,26777.39,1255.88 naira,"₦33,629,188.55",2024-10-26,5,Functional,POS,Car,Cross River,true
+FUL650243,Ardova Petroleum Wuse,Wale Adekunle,Kerosene,32718.85,"₦1,207.66",39513246.391,2024-12-29,5,Faulty,Fleet Card,Motorcycle,Kano,no
+FUL650159,Mobil Filling Station Ikeja,kunle yusuf,PMS,10691.83,-,12739422.36 naira,10/16/2024,4,functional ,cash,TRUCK,Cross River,TRUE
+FUL650058,Ardova Petroleum Wuse,Bisi Okeke,Premium,16929.37,₦951.99,"N16,116,591",2024-08-20,4,functional,Fleet Card,TRUCK,Enugu,yes
+FUL650008,MRS Oil Apapa,Blessing Eze,PMS,31044.35,"NGN 1,165","NGN 36,154,871",22/12/2024,-1,Faulty,Cash,Car,Akwa Ibom,no
+FUL650225,NNPC Mega Station Lugbe,Segun Balogun,PMS,402.83,₦614.43,247510.83689999997,20/05/2025,3,Out of Stock,Fleet Card,Truck,Rivers State,TRUE
+FUL650251,Ardova Petroleum Wuse,Chioma Balogun   ,Automotive Gas Oil (AGO),26053.9,"NGN 1,344",35011491.36 naira,18 July 2024,1,Out of Stock,Coupon,Truck,Delta,false
+FUL650199,Conoil Aba Road,Blessing Okonkwo,PMS,21909.28,N975,"₦21,368,778.06",2025/04/06,0,Faulty,cash,Generator,Plateau,No
+FUL650351,Ardova Petroleum Wuse,Chinedu Ogundimu,pms,5572.46,"1,200.38 ","N6,689,070",2024/08/03,-1,FAULTY,POS,Generator,oyo,false
+FUL650117,MRS Oil Apapa,kunle bello,Kerosene,22095.84,"N1,052",23249684.76 naira,03-Oct-2024,0,Out of Stock,Cash,car,Edo,0
+FUL650077,Oando PLC Yaba,Segun Bello,Premium,n/a,N609,"NGN 21,395,816",05 July 2024,2,functional,Transfer,Keke,Kano,Yes
+FUL650101,Total Energies Surulere,Ngozi Adekunle,PMS,32359.51,927.78,"30,022,506.19 ",12.12.2024,1,Functional,Cash,Car,Delta,FALSE
+FUL650206,Ardova Petroleum Wuse,Musa Adeyemi,Kerosene,27406.69,1174.09 naira,"N32,177,921",2024-12-23,?,FAULTY,Fleet Card,Motorcycle,Ogun,Y
+FUL650157,Total Energies Surulere,bola afolabi   ,pms,7780.38,--,"N10,792,788",17 September 2024,4,Functional,CASH,car,abuja,FALSE
+FUL650435,Total Energies Surulere,  EMEKA YUSUF,AGO,13337.07,₦800.18,N/A,unknown date,-1,Under Maintenance,Transfer,Truck,Plateau,TRUE
+FUL650397,Total Energies Surulere,Sadiq Nnamdi,ago,14996.2,"NGN 1,166","N17,488,418",09-Sep-2024,1,Functional,cash,Bus,Kano,yes
+FUL650143,Conoil Aba Road,Ibrahim Adekunle,Diesel,6675.42,"NGN 1,163","7,764,514.77 ",30/11/2024,1,Faulty,POS,Motorcycle,Akwa Ibom,1
+FUL650021,Ardova Petroleum Wuse,Grace Ajayi,pms,9617.35,null,"₦9,309,690.97",N/A,4,functional ,Cash,TRUCK,Enugu,true
+FUL650276,NNPC Mega Station Lugbe,Kemi Afolabi,LPG,31304.72,NGN 788,"₦24,659,980.13",26-Jan-2025,4,Functional,Transfer,Keke,Port Harcourt,N
+FUL650410,Oando PLC Yaba,Amaka Abubakar,Kerosene,22276.65,1157.4,"25,782,994.71 ",12/10/2024,1,Under Maintenance,cash,TRUCK,Kaduna,1
+FUL650267,Conoil Aba Road,Amaka Ogundimu,ago,27199.72,₦929.08,"N25,270,716",09/01/2024,-1,functional,Fleet Card,Generator,Lagos,FALSE
+FUL650290,MRS Oil Apapa,Funmilayo Nnamdi,Premium Motor Spirit (PMS),31675.89,581.12,"N18,407,493",04/18/2025,0,FAULTY,Transfer,Car,Anambra,true
+FUL650078,Ardova Petroleum Wuse,Zainab Ogundimu,PMS,33105.63,NGN 989,32748751.31 naira,16.12.2024,1,Out of Stock,cash,Truck,Cross River,true
+FUL650365,Mobil Filling Station Ikeja,AMAKA BELLO,PMS,12634.76,"N1,322","N16,699,362",05/28/2025,-1,Under Maintenance,Fleet Card,Motorcycle,Imo,TRUE
+FUL650025,MRS Oil Apapa,ALIYU LAWAL,Kerosene,24220.39,1182.4,28638189.136,05/04/2025,-1,functional ,cash,Bus,LAGOS,N
+FUL650121,NNPC Mega Station Lugbe,YUSUF SULEIMAN,ago,38213.25,"₦1,111.34","NGN 42,467,913",05/13/2025,4,functional,Cash,Motorcycle,KANO,No
+FUL650270,Oando PLC Yaba,Chinedu Yusuf,Petrol,26016.77,1049.75 naira,"NGN 27,311,104",2025-05-03,3,Functional,Coupon,Truck,Ogun,Y
+FUL650188,NNPC Mega Station Lugbe,Musa Nwosu,Premium Motor Spirit (PMS),397.16,"NGN 1,129",Unknown,15/01/2025,5,Under Maintenance,Fleet Card,TRUCK,Delta,Yes
+FUL650216,Ardova Petroleum Wuse,Obinna Ogundimu,Automotive Gas Oil (AGO),29244.3,"NGN 1,022","₦29,873,637.34",24.10.2024,3,FAULTY,Fleet Card,car,Akwa Ibom,No
+FUL650087,Conoil Aba Road,Halima Adeyemi,Premium Motor Spirit (PMS),NIL,NGN 880,22085505.03 naira,13 August 2024,2,FAULTY,Transfer,Bus,Enugu,FALSE
+FUL650011,MRS Oil Apapa,Fatima Bello,Premium Motor Spirit (PMS),37621.41,"₦1,374.58",51713637.757800005,2024/09/30,-1,FAULTY,Coupon,TRUCK,rivers,Yes
+FUL650136,MRS Oil Apapa,MUSA AJAYI,Premium Motor Spirit (PMS),42904.31,775.68,33280015.180799995,2024/10/04,3,Faulty,Coupon,Keke,Plateau,No
+FUL650137,Conoil Aba Road,Zainab  Okeke,Premium,34714.59,₦604.07,20970042.3813,2025/01/06,,Faulty,Cash,TRUCK,Kaduna,1
+FUL650010,Oando PLC Yaba,Emeka Abubakar,PMS,44287.45,₦660.70,29260718.21 naira,24/12/2024,4,functional ,Fleet Card,Truck,Lagos,TRUE
+FUL650104,Conoil Aba Road,Aliyu Suleiman,Diesel,38589.5,NGN 698,"N26,949,749",24.01.2025,3,Out of Stock,CASH,Motorcycle,Lag,FALSE
+FUL650034,Ardova Petroleum Wuse,Adaeze Ajayi,Automotive Gas Oil (AGO),17117.63,"NGN 1,325","N22,680,346",10/31/2024,5,Functional,cash,TRUCK,Plateau,FALSE
+FUL650189,Mobil Filling Station Ikeja,Yusuf Suleiman,Diesel,N/A,"NGN 1,114","NGN 14,864,351",12.11.2024,1,functional ,Coupon,car,Edo,No
+FUL650443,MRS Oil Apapa,Zainab Afolabi,Automotive Gas Oil (AGO),24720.72,"₦1,021.77","₦25,258,890.07",02/08/2025,-,Under Maintenance,CASH,Bus,Ibadan,N
+FUL650002,Mobil Filling Station Ikeja,Segun Chukwu,ago,15311.93,NGN 707,NULL,20/11/2024,-1,Under Maintenance,Cash,Motorcycle,Akwa Ibom,No
+FUL650191,Conoil Aba Road,bisi ogundimu   ,PMS,16097.15,NGN 992,15973684.86 naira,10/27/2024,3,functional ,CASH,Generator,Lagos,TRUE
+FUL650165,Ardova Petroleum Wuse,Ngozi Adekunle,pms,16133.01,NGN 826,"13,328,447.54 ",2024-08-27,3,Under Maintenance,cash,Truck,Delta,Yes
+FUL650005,Oando PLC Yaba,Tunde  Mohammed,ago,44879.66,693.43 naira,"N31,120,903",2025/02/08,-1,FAULTY,CASH,Keke,Cross River,true
+FUL650230,Oando PLC Yaba,Halima Adeyemi,Automotive Gas Oil (AGO),42221.04,₦921.08,38888955.52 naira,12/06/2024,5,Faulty,Fleet Card,Motorcycle,Ogun,true
+FUL650345,Conoil Aba Road,Zainab Adeyemi,Petrol,12037.84,703.97,8474278.2248,20.05.2025,1,Functional,Fleet Card,Truck,Rivers,N
+FUL650148,Conoil Aba Road,Zainab Chukwu,Petrol,7925.34,"₦1,065.87",,not set,unknown,Functional,Transfer,Motorcycle,Cross River,Y
+FUL650343,Ardova Petroleum Wuse,Chioma Afolabi,LPG,38405.57,"NGN 1,166",NULL,2025/01/26,1,Faulty,POS,Motorcycle,Rivers,No
+FUL650235,Conoil Aba Road,Funmilayo Nnamdi,PMS,17212.53,N830,14285022.897599999,22/06/2024,2,functional ,cash,Bus,Port Harcourt,FALSE
+FUL650152,MRS Oil Apapa,Chioma Chukwu,Diesel,58.65,896.47 ,"N52,578",01/01/2025,2,functional ,CASH,Car,Oyo State,No
+FUL650084,Conoil Aba Road,EMEKA  OGUNDIMU   ,ago,43891.86,687.23 naira,30163802.947800003,2024/12/07,3,Faulty,cash,TRUCK,Delta,yes
+FUL650154,Total Energies Surulere,CHINEDU AFOLABI,Automotive Gas Oil (AGO),n/a,N659,8815193.76 naira,19.12.2024,4,Out of Stock,Transfer,Truck,Edo,TRUE
+FUL650044,Oando PLC Yaba,Segun Chukwu,Kerosene,31230.36,"₦1,320.81","N41,249,372",24 June 2024,2,Out of Stock,Transfer,TRUCK,Oyo,0
+FUL650116,Ardova Petroleum Wuse,Chioma Olawale,ago,26721.69,740.35 ,"₦19,783,403.19",2024/07/25,2,Faulty,cash,Generator,Oyo,true
+FUL650406,Mobil Filling Station Ikeja,Zainab Okafor,Kerosene,10841.33,NGN 754,"NGN 8,169,484",2025/05/04,4,Out of Stock,Cash,Bus,Imo,TRUE
+FUL650031,Ardova Petroleum Wuse,zainab nwosu,ago,29065.98,N982,28556453.37 naira,06/09/2024,1,Under Maintenance,Cash,Bus,kano,yes
+FUL650353,NNPC Mega Station Lugbe,Blessing Lawal,ago,23353.01,₦903.72,21104582.1972,2024/10/14,5,Functional,Coupon,Motorcycle,Delta,0
+FUL650312,Total Energies Surulere,Obinna Lawal,Premium Motor Spirit (PMS),29748.97,"₦1,006.36",-,08-Feb-2025,n/a,FAULTY,Coupon,Keke,Imo,false
+FUL650383,MRS Oil Apapa,Amara Ogundimu,Kerosene,NIL,N632,,15-Dec-2024,3,Under Maintenance,Coupon,Truck,Delta,Yes
+FUL650128,MRS Oil Apapa,Grace Adekunle   ,Automotive Gas Oil (AGO),11236.23,1163.34,"13,071,555.81 ",05-Oct-2024,3,functional ,CASH,Truck,Plateau,0
+FUL650127,Ardova Petroleum Wuse,Ibrahim Yusuf,Premium,25653.78,"1,016.47 ","N26,076,298",02.04.2025,0,Functional,Transfer,Bus,Plateau,Y
+FUL650408,Total Energies Surulere,Chioma Okeke,Premium Motor Spirit (PMS),42174.54,"N1,191","NGN 50,212,586",30.07.2024,3,functional ,POS,Motorcycle,ABUJA,0
+FUL650208,Mobil Filling Station Ikeja,Halima Yusuf,pms,25871.23,794.11 ,"20,544,602.46 ",26 December 2024,3,functional,Fleet Card,TRUCK,Cross River,N
+FUL650442,Oando PLC Yaba,Amara Afolabi   ,Kerosene,6597.36,NGN 701,4625936.88 naira,15 January 2025,0,Faulty,CASH,Motorcycle,Enugu,1
+FUL650211,NNPC Mega Station Lugbe,Obinna Ajayi,Premium Motor Spirit (PMS),16021.88,1218.73 naira,,01 August 2024,3,FAULTY,CASH,Keke,Delta,Y
+FUL650209,Conoil Aba Road,Obinna Eze,AGO,34086.54,"N1,368","N46,637,886",2025-01-21,4,FAULTY,Fleet Card,Car,Plateau,yes
+FUL650245,NNPC Mega Station Lugbe,Blessing Nwosu,pms,2977.07,1340.22,"N3,989,929",11/01/2025,5,functional,CASH,Car,Imo,N
+FUL650334,Ardova Petroleum Wuse,Grace Ajayi,Petrol,29679.61,952.33,28264782.9913,16/10/2024,0,Under Maintenance,CASH,Car,Plateau,No
+FUL650390,Ardova Petroleum Wuse,Tobi Balogun,PMS,9000.16,₦593.15,"N5,338,445",15/06/2024,4,functional ,Transfer,Generator,Anambra,true
+FUL650175,Conoil Aba Road,Tobi Mohammed,Automotive Gas Oil (AGO),30528.01,NGN 729,"N22,243,624",12 December 2024,-1,Out of Stock,CASH,Generator,Anambra,TRUE
+FUL650355,Total Energies Surulere,Obinna Okafor,Automotive Gas Oil (AGO),2190.25,"₦1,313.29",,2024-10-24,5,Under Maintenance,CASH,car,Delta,false
+FUL650260,Mobil Filling Station Ikeja,Tobi Ogundimu,Petrol,4182.13,"NGN 1,238","N5,177,184",24-May-2025,2,Out of Stock,Transfer,Generator,Delta,0
+FUL650147,Oando PLC Yaba,Halima Chukwu,Premium,1319.63,  ,1642635.84 naira,2024/10/22,1,Faulty,Fleet Card,car,Kaduna,Y
+FUL650020,NNPC Mega Station Lugbe,Tobi Okonkwo,Premium,31374.68,1034.62 naira,"NGN 32,460,871",07.09.2024,5,Under Maintenance,cash,TRUCK,Delta,true
+FUL650408,Total Energies Surulere,Chioma Okeke,Premium Motor Spirit (PMS),42174.54,"N1,191","NGN 50,212,586",30.07.2024,3,functional ,POS,Motorcycle,ABUJA,0
+FUL650448,NNPC Mega Station Lugbe,Emeka Adekunle,Automotive Gas Oil (AGO),34043.71,N833,28374751.4108,unknown date,1,Functional,Transfer,Keke,Enugu,TRUE
+FUL650156,MRS Oil Apapa,Tobi Lawal,Premium,10238.85,630.01 naira,6450577.8885,16 December 2024,0,FAULTY,POS,Truck,Cross River,0
+FUL650242,Ardova Petroleum Wuse,Ifeoma Nnamdi,Kerosene,26146.8,1140.92,"N29,831,407",12/09/2024,5,Out of Stock,Cash,Bus,Kaduna,Y
+FUL650072,Ardova Petroleum Wuse,Musa Chukwu,PMS,740.57,"₦1,002.61",742502.89 naira,02 October 2024,5,FAULTY,Fleet Card,Car,Enugu,0
+FUL650404,Mobil Filling Station Ikeja,Amaka Olawale,Premium Motor Spirit (PMS),29649.77,969.66 ,28750195.9782,12/29/2024,5,Out of Stock,Fleet Card,Truck,Kaduna,1
+FUL650387,MRS Oil Apapa,  FATIMA NNAMDI,Petrol,33993.1,993.6,"NGN 33,775,544",,-1,Under Maintenance,Coupon,TRUCK,Delta,0
+FUL650299,MRS Oil Apapa,Musa Nnamdi,ago,43093.11,"NGN 1,380","NGN 59,476,679",19.12.2024,5,Out of Stock,cash,car,Cross River,0
+FUL650371,Ardova Petroleum Wuse,Chidi Ajayi,Petrol,40696.75,₦683.30,,16 February 2025,4,Out of Stock,CASH,Generator,Oyo,TRUE
+FUL650300,Total Energies Surulere,Musa Balogun,Kerosene,12989.24,1240.65 naira,?,04/01/2025,1,Under Maintenance,cash,Bus,Anambra,0
+FUL650155,Total Energies Surulere,Kemi Ogundimu,Petrol,17439.33,884.24 ,"₦15,420,553.16",13/12/2024,1,functional ,Fleet Card,car,Cross River,FALSE
+FUL650450,Oando PLC Yaba,Ngozi Okonkwo,Diesel,3544.8,1093.28,nil,2024-09-27,3,functional,Cash,car,KANO,FALSE
+FUL650295,Ardova Petroleum Wuse,Adaeze Mohammed,pms,7729.0,793.21,6130720.09 naira,02/03/2025,0,Out of Stock,CASH,Bus,Rivers,no
+FUL650339,Mobil Filling Station Ikeja,Chinedu Okonkwo,Premium,11670.04,"NGN 1,132","N13,212,819",2025/01/09,-1,Under Maintenance,Cash,Bus,Rivers,Yes
+FUL650342,Ardova Petroleum Wuse,Aliyu Lawal,Automotive Gas Oil (AGO),856.87,NIL,"₦901,984.21",11-Mar-2025,3,FAULTY,POS,Generator,Imo,FALSE
+FUL650060,Mobil Filling Station Ikeja,Chidi Adeyemi   ,ago,31665.5,990.22,"₦31,355,811.41",unknown date,2,FAULTY,cash,Generator,Abuja,N
+FUL650272,Total Energies Surulere,Amaka Chukwu,Premium Motor Spirit (PMS),34666.78,775.12,"₦26,870,914.51",2025-01-12,4,functional ,Fleet Card,Motorcycle,Enugu,true
+FUL650348,Mobil Filling Station Ikeja,Chioma Okonkwo   ,Kerosene,34657.06,"₦1,168.45",40495041.757,20 February 2025,3,Out of Stock,Coupon,Keke,Plateau,false
+FUL650264,Conoil Aba Road,Fatima Abubakar,LPG,29740.0,NGN 951,"N28,295,826",28-Oct-2024,-1,Under Maintenance,Cash,Car,Ogun,TRUE
+FUL650146,NNPC Mega Station Lugbe,Femi Okafor,ago,8976.4,"NGN 1,305",11717972.09 naira,25 February 2025,3,Faulty,Cash,Generator,Ogun,N
+FUL650120,Total Energies Surulere,CHINEDU LAWAL,Kerosene,17601.65,"NGN 1,213",21356433.98 naira,29/03/2025,4,functional,Transfer,Truck,Oyo,Yes
+FUL650374,Total Energies Surulere,Fatima Okeke,AGO,16327.41,640.46,"N10,457,053",16/06/2024,2,Functional,Cash,Bus,Enugu,true
+FUL650287,Ardova Petroleum Wuse,  Ngozi Adeyemi   ,Petrol,17430.48,691.85,"NGN 12,059,278",08.09.2024,-1,Faulty,Fleet Card,Motorcycle,ABUJA,0
+FUL650257,Total Energies Surulere,Blessing Bello,Diesel,6449.13,"NGN 1,295",,20.02.2025,1,Functional,Cash,Keke,Lagos,yes
+FUL650246,Conoil Aba Road,Adaeze Abubakar,AGO,23342.1,904.4,"₦21,110,595.24",21/06/2024,-1,Faulty,cash,TRUCK,Abuja,No
+FUL650177,MRS Oil Apapa,Amara Ogundimu,Automotive Gas Oil (AGO),28949.64,910.69 naira,26364147.65 naira,29/09/2024,4,FAULTY,Fleet Card,Car,Akwa Ibom,No
+FUL650460,NNPC Mega Station Lugbe,aliyu abubakar,Petrol,4487.49,NGN 944,4236908.56 naira,2025/03/25,-1,functional,Cash,Generator,Cross River,N
+FUL650331,MRS Oil Apapa,Amaka Adekunle,pms,6381.67,NGN 676,"N4,312,796",2024-06-23,5,Faulty,Transfer,TRUCK,Cross River,Y
+FUL650032,Mobil Filling Station Ikeja,Ibrahim Nwosu,pms,32606.6,"₦1,380.82","NGN 45,023,845",24 February 2025,3,Faulty,Coupon,TRUCK,Abuja,FALSE
+FUL650081,Conoil Aba Road,Adaeze Eze,Diesel,28791.09,₦729.21,20994750.738900002,06 August 2024,3,Under Maintenance,POS,Keke,Rivers,FALSE
+FUL650451,Mobil Filling Station Ikeja,Ngozi Yusuf,Diesel,3375.85,704.97,2379872.97 naira,04/18/2025,3,Under Maintenance,Fleet Card,Generator,Kaduna,No
+FUL650359,Ardova Petroleum Wuse,KEMI  BALOGUN,pms,4097.04,1383.42,"₦5,667,927.08",2025-03-05,3,functional ,Cash,Car,KANO,FALSE
+FUL650362,Oando PLC Yaba,Femi Adekunle,LPG,3148.01,N654,2057444.8957000002,2025/05/24,3,functional,Fleet Card,Generator,Lagos,Y
+FUL650258,Ardova Petroleum Wuse,Funmilayo Ogundimu,Premium,28748.65,₦752.07,21620997.21 naira,2024/09/11,0,Faulty,POS,Truck,Oyo,no
+FUL650169,Ardova Petroleum Wuse,Obinna Chukwu,PMS,23413.46,1009.78,,01/09/2025,2,FAULTY,Fleet Card,Bus,Abuja,1
+FUL650412,NNPC Mega Station Lugbe,Segun Okeke,Automotive Gas Oil (AGO),13099.38,--,"₦9,153,191.77",unknown date,4,Functional,Cash,Generator,Ogun,1
+FUL650019,Ardova Petroleum Wuse,Aliyu Okafor,LPG,44290.63,674.83 naira,29888645.8429,23/03/2025,-1,FAULTY,Transfer,car,Kaduna,1
+FUL650392,NNPC Mega Station Lugbe,Tobi Mohammed,pms,7716.49,1366.41,10543889.1009,04/04/2025,5,functional,cash,Motorcycle,Anambra,FALSE
+FUL650400,Oando PLC Yaba,Chidi Abubakar,Petrol,N/A,669.6,26197390.22 naira,21-Mar-2025,2,Faulty,Coupon,Bus,KANO,No
+FUL650401,Mobil Filling Station Ikeja,Kunle Abubakar,AGO,20280.28,"1,247.78 ",  ,2024-09-04,1,Under Maintenance,Cash,Generator,Lagos,0
+FUL650277,Total Energies Surulere,Aliyu Abubakar,Premium,27463.97,726.32,"₦19,947,630.69",2025-02-07,0,functional,POS,Car,Imo,Yes
+FUL650426,Total Energies Surulere,Segun Yusuf,pms,41090.0,₦585.67,"₦24,065,180.30",03.05.2025,4,Under Maintenance,Coupon,car,lagos,No
+FUL650347,Ardova Petroleum Wuse,Emeka Mohammed,Diesel,22726.52,NGN 650,14769738.08 naira,08-Dec-2024,0,Out of Stock,Transfer,Car,Delta,Y
+FUL650260,Mobil Filling Station Ikeja,Tobi Ogundimu,Petrol,4182.13,"NGN 1,238","N5,177,184",24-May-2025,2,Out of Stock,Transfer,Generator,Delta,0
+FUL650314,Oando PLC Yaba,KUNLE  OKEKE,pms,14422.4,603.08 naira,,06/24/2024,-1,Functional,Coupon,Truck,Akwa Ibom,yes
+FUL650204,Ardova Petroleum Wuse,Aliyu Okeke,pms,4797.14,NULL,4458365.9732,2025-03-27,5,Under Maintenance,Transfer,Generator,Cross River,false
+FUL650323,Ardova Petroleum Wuse,Ibrahim Chukwu,LPG,1567.39,"1,186.35 ","NGN 1,859,473",28-Jun-2024,3,functional ,CASH,Motorcycle,oyo,0
+FUL650301,Total Energies Surulere,Ibrahim Suleiman,Petrol,null,"1,199.30 ","N38,331,319",10/08/2024,null,Under Maintenance,Coupon,TRUCK,Abuja,yes
+FUL650210,Mobil Filling Station Ikeja,Yusuf Lawal,pms,11172.34,NIL,NULL,05/11/2025,0,Faulty,POS,Motorcycle,Akwa Ibom,FALSE
+FUL650130,Mobil Filling Station Ikeja,Aliyu Abubakar,Kerosene,5591.55,"NGN 1,283","7,175,468.37 ",2025-01-12,3,Out of Stock,Coupon,Bus,LAGOS,false
+FUL650262,MRS Oil Apapa,Funmilayo Abubakar,pms,18605.47,"NGN 1,089","₦20,263,589.49",08 March 2025,0,FAULTY,Fleet Card,TRUCK,Kaduna,TRUE
+FUL650018,MRS Oil Apapa,Amaka Suleiman,pms,43510.04,₦808.88,"₦35,194,401.16",2025-04-25,1,functional,Transfer,Generator,Enugu,FALSE
+FUL650086,Conoil Aba Road,Segun Suleiman,AGO,34373.79,880.07 naira,"NGN 30,251,341",2024/12/23,5,Functional,cash,Generator,Cross River,no
+FUL650349,Conoil Aba Road,Zainab Bello,Petrol,14116.97,862.21,12171792.70 naira,22.10.2024,0,functional ,POS,Keke,FCT,1
+FUL650033,Mobil Filling Station Ikeja,  SADIQ LAWAL,LPG,n/a,972.55 ,"₦12,444,740.07",22 November 2024,0,FAULTY,CASH,Motorcycle,Cross River,TRUE
+FUL650014,NNPC Mega Station Lugbe,Ibrahim Eze,Kerosene,44273.42,1241.82,"NGN 54,979,618",2025-02-26,2,functional ,Transfer,TRUCK,Oyo,Yes
+FUL650181,NNPC Mega Station Lugbe,Ifeoma Olawale,Diesel,7815.09,1248.50 naira,"N9,757,140",24-Jul-2024,3,functional,CASH,Bus,Rivers State,false
+FUL650305,Total Energies Surulere,Ifeoma Ajayi,Diesel,41553.52,NGN 973,"₦40,439,885.66",11/07/2024,2,Faulty,Coupon,Motorcycle,oyo,No
+FUL650454,Ardova Petroleum Wuse,Grace Suleiman,Petrol,10038.09,"₦1,296.81",--,2025-05-09,1,FAULTY,cash,Motorcycle,Plateau,false
+FUL650197,Total Energies Surulere,Amara Mohammed,Petrol,30787.59,"NGN 1,201","N36,973,125",11.08.2024,3,functional,Cash,Car,Edo,no
+FUL650056,Ardova Petroleum Wuse,Segun Eze,Premium,18486.98,"₦1,296.36","23,965,781.39 ",03 January 2025,3,Under Maintenance,Fleet Card,Motorcycle,Cross River,1
+FUL650164,NNPC Mega Station Lugbe,Ngozi Okafor,ago,40486.02,"N1,240","50,220,883.51 ",2025/04/04,2,Out of Stock,CASH,TRUCK,Imo,true
+FUL650140,Total Energies Surulere,Emeka Afolabi,Petrol,34152.05,null,30345804.0275,2024/11/05,3,Out of Stock,Cash,Truck,Anambra,Y
+FUL650217,NNPC Mega Station Lugbe,Kemi Ajayi,pms,3560.96,861.77 naira,"₦3,068,728.50",11/08/2024,-1,Under Maintenance,Coupon,Truck,Kano,No
+FUL650229,Conoil Aba Road,Amara Adekunle,Premium Motor Spirit (PMS),1432.74,"N1,106",unknown,16.12.2024,1,Out of Stock,Cash,Generator,Anambra,false
+FUL650222,Mobil Filling Station Ikeja,  FEMI OKAFOR,Premium Motor Spirit (PMS),12246.76,"₦1,090.66","NGN 13,357,051",05.09.2024,4,functional,Coupon,Car,Kaduna,No
+FUL650358,Oando PLC Yaba,Ifeoma Okeke,Petrol,8089.27,595.56 naira,"N4,817,646",14/09/2024,3,functional,Cash,Generator,Enugu,yes
+FUL650106,MRS Oil Apapa,Kunle Lawal,pms,29192.81,NGN 833,"N24,314,983",12/02/2024,1,FAULTY,Fleet Card,car,Oyo State,N
+FUL650085,MRS Oil Apapa,Fatima Okeke,pms,null,653.84 naira,"N14,634,351",19 December 2024,1,functional,POS,Keke,Plateau,no
+FUL650160,Mobil Filling Station Ikeja,HALIMA  BELLO,PMS,39023.64,"NGN 1,253",,,3,Under Maintenance,Transfer,TRUCK,Anambra,1
+FUL650379,Conoil Aba Road,Kunle Adekunle,PMS,40566.51,₦821.50,,02/12/2025,-1,Under Maintenance,Coupon,Keke,Kano,Y
+FUL650459,Conoil Aba Road,Ibrahim Afolabi,LPG,19277.83,N725,"13,977,390.64 ",01.04.2025,0,Out of Stock,Cash,car,ABUJA,TRUE
+FUL650144,Conoil Aba Road,Wale Balogun,Premium Motor Spirit (PMS),16751.42,"₦1,096.84","18,373,627.51 ",27.04.2025,0,Functional,Cash,TRUCK,Lag,1
+FUL650102,MRS Oil Apapa,Femi Abubakar,Premium Motor Spirit (PMS),30241.39,NIL,"N39,168,951",04.10.2024,3,Faulty,Coupon,Motorcycle,Enugu,yes
+FUL650449,NNPC Mega Station Lugbe,Funmilayo Afolabi,Diesel,8770.57,"1,196.51 ","N10,494,075",30 November 2024,0,Under Maintenance,POS,Bus,Edo,0
+FUL650129,Total Energies Surulere,Amaka Abubakar,Petrol,28568.19,"1,151.78 ","N32,904,270",03-Jul-2024,0,Out of Stock,CASH,Car,Lagos State,Yes
+FUL650452,MRS Oil Apapa,Bisi Ogundimu,LPG,3201.96,1162.74,"NGN 3,723,047",22-Jan-2025,0,Out of Stock,POS,TRUCK,Kaduna,TRUE
+FUL650205,NNPC Mega Station Lugbe,KUNLE OKONKWO,Premium,17916.44,693.22,N/A,04-May-2025,5,Functional,Transfer,Motorcycle,Kaduna,No
+FUL650320,Mobil Filling Station Ikeja,Kunle Adekunle,Petrol,40754.6,₦745.63,"NGN 30,387,852",18/10/2024,4,Out of Stock,Coupon,Truck,Enugu,false
+FUL650421,Conoil Aba Road,Adaeze Chukwu,PMS,32095.31,1119.20 naira,35921070.95 naira,13-Aug-2024,5,functional,Fleet Card,Motorcycle,Oyo,No
+FUL650367,Ardova Petroleum Wuse,Femi Ogundimu,pms,NULL,"NGN 1,202","19,559,284.49 ",09/23/2024,-1,Functional,POS,Motorcycle,Rivers,true
+FUL650240,Total Energies Surulere,Blessing Suleiman,Premium Motor Spirit (PMS),Unknown,"NGN 1,070",23328961.885300003,unknown date,3,Faulty,Fleet Card,Keke,Cross River,Yes
+FUL650151,Ardova Petroleum Wuse,Emeka Chukwu,pms,9941.07,NIL,10375991.8125,10/02/2025,3,Out of Stock,Cash,Generator,Oyo,false
+FUL650283,Total Energies Surulere,Zainab Okeke,AGO,704.35,979.31 ,"N689,777",2024/06/04,3,functional,POS,Bus,Ogun,false
+FUL650179,Ardova Petroleum Wuse,Adaeze Okonkwo,Petrol,15361.73,1260.5,"₦19,363,460.66",10/28/2024,1,functional,POS,TRUCK,Akwa Ibom,N
+FUL650369,Mobil Filling Station Ikeja,   Ifeoma Balogun,Premium,28141.07,"₦1,054.73","N29,681,231",14-Jul-2024,4,functional ,cash,Motorcycle,Akwa Ibom,FALSE
+FUL650103,NNPC Mega Station Lugbe,Femi Lawal,Premium Motor Spirit (PMS),12382.65,1036.51,"NGN 12,834,741",03/30/2025,3,functional ,Fleet Card,TRUCK,Kano,yes
+FUL650247,MRS Oil Apapa,Blessing Okafor,Kerosene,8090.53,1060.07,"₦8,576,528.14",2025/05/23,-1,Out of Stock,Coupon,Truck,Fct Abuja,true
+FUL650386,MRS Oil Apapa,   Tobi Okonkwo,Kerosene,18677.96,N727,13583546.41,04/13/2025,4,functional ,Fleet Card,Truck,Kaduna,No
+FUL650138,Total Energies Surulere,  aliyu olawale,Premium Motor Spirit (PMS),41410.27,726.75 ,unknown,19.06.2024,0,Functional,Fleet Card,TRUCK,LAGOS,FALSE
+FUL650439,Oando PLC Yaba,Fatima Mohammed,Petrol,608.35,1372.42,834911.71 naira,25 July 2024,-1,FAULTY,Cash,Car,Akwa Ibom,Yes
+FUL650385,Ardova Petroleum Wuse,Ifeoma Lawal,Petrol,2879.59,₦907.37,"N2,612,854",2024-10-05,-1,functional ,Transfer,car,Ogun,Y
+FUL650113,Conoil Aba Road,Aliyu Okonkwo,LPG,35259.88,NGN 949,"NGN 33,477,493",25/09/2024,1,functional,Coupon,Bus,Plateau,1
+FUL650071,Conoil Aba Road,bola okafor,Diesel,37400.14,1202.25,"₦44,964,318.31",2025/01/27,0,Functional,Cash,TRUCK,Ogun,TRUE
+FUL650168,NNPC Mega Station Lugbe,Chinedu  Olawale   ,PMS,43439.79,894.32 ,"₦38,849,072.99",2024-06-20,2,Functional,Transfer,Keke,Delta,false
+FUL650341,Conoil Aba Road,Ibrahim Okeke,ago,20037.52,977.74 ,"N19,591,485",2024-06-11,1,functional,Fleet Card,TRUCK,Kano,TRUE
+FUL650112,Conoil Aba Road,Amaka Bello,Automotive Gas Oil (AGO),36940.79,--,"₦49,562,719.13",01 November 2024,5,functional ,Transfer,Car,Edo,yes
+FUL650059,Mobil Filling Station Ikeja,Tobi Okeke   ,Premium,NULL,"NGN 1,000","₦9,702,554.17",2024-11-24,NIL,functional,POS,Bus,Enugu,TRUE
+FUL650187,Oando PLC Yaba,Aliyu Suleiman,Diesel,23643.25,"NGN 1,365","N32,266,653",2025-02-22,2,FAULTY,Fleet Card,TRUCK,Anambra,true
+FUL650111,Oando PLC Yaba,Amara Lawal,AGO,N/A,"N1,334",53702377.43 naira,09/26/2024,0,Faulty,Fleet Card,Bus,Cross River,false
+FUL650416,Mobil Filling Station Ikeja,Segun Suleiman,Kerosene,7255.3,null,,18.06.2024,3,functional,POS,TRUCK,Plateau,no
+FUL650263,Mobil Filling Station Ikeja,Tobi Ajayi,ago,4395.33,N945,,11/05/2024,5,Out of Stock,CASH,Car,Cross River,Y
+FUL650213,Ardova Petroleum Wuse,SADIQ ADEKUNLE,pms,379.83,1132.76 naira,430256.23079999996,12.12.2024,4,Faulty,Fleet Card,Bus,Ogun,true
+FUL650361,Conoil Aba Road,Chinedu Ogundimu,Premium,16799.36,unknown,"NGN 23,316,672",2024-10-04,0,FAULTY,CASH,Keke,Lag,FALSE
+FUL650393,Ardova Petroleum Wuse,  Aliyu Nwosu,Kerosene,31708.61,N591,18736617.649,11-Jun-2024,-1,Faulty,Transfer,Generator,Edo,Yes
+FUL650016,Oando PLC Yaba,Sadiq Afolabi,Premium,9454.23,n/a,"7,417,883.40 ",23/07/2024,2,Under Maintenance,CASH,car,Cross River,true
+FUL650340,MRS Oil Apapa,Grace Nwosu,ago,31321.76,734.34 ,"₦23,000,821.24",06/14/2024,4,Functional,POS,Bus,Plateau,false
+FUL650146,NNPC Mega Station Lugbe,Femi Okafor,ago,8976.4,"NGN 1,305",11717972.09 naira,25 February 2025,3,Faulty,Cash,Generator,Ogun,N
+FUL650375,MRS Oil Apapa,Kunle Chukwu,ago,35433.85,₦670.99,23775759.0115,16-Sep-2024,-1,FAULTY,cash,Motorcycle,Imo,Yes
+FUL650131,NNPC Mega Station Lugbe,FATIMA LAWAL,Premium Motor Spirit (PMS),31475.16,772.00 ,24298823.52 naira,02/05/2025,2,Out of Stock,CASH,Truck,FCT,Y
+FUL650268,NNPC Mega Station Lugbe,Chidi Nnamdi,Automotive Gas Oil (AGO),21747.58,N882,"N19,186,368",2025/03/25,1,FAULTY,CASH,Keke,Ogun,Yes
+FUL650427,NNPC Mega Station Lugbe,Adaeze Okonkwo,Automotive Gas Oil (AGO),8531.33,N613,5229790.6033,20.12.2024,0,FAULTY,Coupon,car,Rivers,Yes
+FUL650003,Ardova Petroleum Wuse,Tobi Adekunle   ,Diesel,17106.3,₦951.80,16281776.339999998,2024/12/04,3,functional ,Cash,Motorcycle,Akwa Ibom,Yes
+FUL650280,Mobil Filling Station Ikeja,chidi okeke,Petrol,39834.75,939.15 ,,2024/09/06,1,Faulty,CASH,TRUCK,Edo,TRUE
+FUL650345,Conoil Aba Road,Zainab Adeyemi,Petrol,12037.84,703.97,8474278.2248,20.05.2025,1,Functional,Fleet Card,Truck,Rivers,N
+FUL650315,Mobil Filling Station Ikeja,Sadiq Afolabi,Premium,5152.09,719.22 naira,,03/03/2025,3,functional,Transfer,Truck,Cross River,0
+FUL650248,Conoil Aba Road,Chioma Suleiman,ago,n/a,1009.53,"₦16,488,744.35",12/14/2024,0,functional,Transfer,Keke,Plateau,0
+FUL650178,Conoil Aba Road,Grace Ogundimu,pms,35630.46,"₦1,369.80",48806604.11 naira,23 April 2025,5,Out of Stock,Transfer,TRUCK,abuja,Yes
+FUL650176,MRS Oil Apapa,TOBI BELLO,Premium Motor Spirit (PMS),30971.19,"₦1,086.96","33,664,444.68 ",08/01/2025,0,Faulty,Transfer,Keke,Lagos,TRUE
+FUL650437,Ardova Petroleum Wuse,AMARA BELLO,Petrol,28544.12,"₦1,031.72","29,449,539.49 ",13-Jan-2025,-1,Under Maintenance,Cash,Keke,Rivers,1
+FUL650017,Oando PLC Yaba,Chioma Adeyemi,Petrol,38883.02,"1,244.81 ","NGN 48,401,972",10/15/2024,NULL,functional,Transfer,Keke,Akwa Ibom,No
+FUL650311,MRS Oil Apapa,Ngozi Ogundimu,Automotive Gas Oil (AGO),42445.18,872.00 naira,NIL,,4,Faulty,cash,Generator,Rivers,No
+FUL650434,Mobil Filling Station Ikeja,bisi nnamdi,Kerosene,?,"NGN 1,248","10,681,446.45 ",09-Feb-2025,5,FAULTY,Transfer,Keke,Akwa Ibom,N
+FUL650291,MRS Oil Apapa,Segun Chukwu,Kerosene,16380.21,622.28,10193077.078799998,2024-12-14,2,Out of Stock,cash,Motorcycle,Cross River,false
+FUL650388,Total Energies Surulere,Kemi Okonkwo,Kerosene,3071.6,"N1,030","₦3,162,857.24",10/03/2024,1,Functional,Coupon,Keke,rivers,N
+FUL650092,Oando PLC Yaba,Wale Suleiman,AGO,29519.09,"N1,193","NGN 35,210,961",18 September 2024,2,Functional,Cash,car,Kaduna,false
+FUL650003,Ardova Petroleum Wuse,Tobi Adekunle   ,Diesel,17106.3,₦951.80,16281776.339999998,2024/12/04,3,functional ,Cash,Motorcycle,Akwa Ibom,Yes
+FUL650418,MRS Oil Apapa,  Kemi Afolabi,AGO,11731.09,"N1,113","NGN 13,054,474",23.08.2024,5,functional,CASH,Bus,Kaduna,1
+FUL650370,MRS Oil Apapa,Ifeoma Ajayi,Premium,35436.58,"N1,092","₦38,685,760.02",19 January 2025,2,Functional,Fleet Card,Truck,Ogun,N
+FUL650083,NNPC Mega Station Lugbe,Obinna Nwosu,LPG,1363.84,1308.98 naira,"₦1,785,239.28",07-Mar-2025,2,Faulty,Transfer,Generator,Plateau,no
+FUL650231,NNPC Mega Station Lugbe,grace okeke,Kerosene,42637.7,1037.91 naira,"N44,254,095",13 March 2025,4,Under Maintenance,Fleet Card,Generator,Akwa Ibom,no
+FUL650403,Oando PLC Yaba,  segun bello,Automotive Gas Oil (AGO),NIL,1139.13 naira,N/A,2024-11-23,-1,Faulty,Transfer,TRUCK,Ogun,true
+FUL650161,Ardova Petroleum Wuse,Blessing Okonkwo,Petrol,28593.81,NGN 682,19488969.019800004,2024-06-16,1,Faulty,CASH,Motorcycle,Akwa Ibom,N
+FUL650193,NNPC Mega Station Lugbe,Ibrahim Balogun,AGO,38351.45,1278.14,"NGN 49,018,522",2025/03/09,2,FAULTY,Cash,Motorcycle,Kaduna,0
+FUL650215,MRS Oil Apapa,yusuf  adeyemi,pms,13502.24,"NGN 1,041","14,055,156.73 ",18-Mar-2025,1,Out of Stock,Fleet Card,Motorcycle,Ogun,FALSE
+FUL650352,Conoil Aba Road,Amaka Chukwu,Petrol,16995.58,1184.76,"₦20,135,683.36",07/24/2024,4,Functional,Transfer,car,Ogun,TRUE
+FUL650108,Mobil Filling Station Ikeja,Chinedu Abubakar,Diesel,2184.1,₦585.23,1278200.8429999999,10/08/2024,1,functional,Cash,Car,Anambra,false
+FUL650368,Conoil Aba Road,Wale Olawale,AGO,28138.64,602.86 naira,"16,963,660.51 ",08 January 2025,0,Functional,CASH,TRUCK,Cross River,No
+FUL650321,Mobil Filling Station Ikeja,Amaka Okeke,Diesel,37923.92,N/A,"NGN 29,336,048",2025/03/20,4,Out of Stock,POS,car,Kano,N
+FUL650250,Mobil Filling Station Ikeja,ADAEZE CHUKWU,AGO,11012.85,"₦1,028.82",null,2025/04/14,-1,functional ,Fleet Card,Bus,Delta,false
+FUL650038,Ardova Petroleum Wuse,Tunde Bello   ,Petrol,36610.66,"₦1,031.08",37748519.3128,19.01.2025,1,FAULTY,POS,Keke,Delta,false
+FUL650212,Total Energies Surulere,Ngozi Adeyemi,Diesel,44297.78,1331.13 naira,58966103.89 naira,2024/10/22,0,Functional,Coupon,TRUCK,Kaduna,false
+FUL650382,NNPC Mega Station Lugbe,Bisi Suleiman,AGO,37543.62,₦858.65,-,01.01.2025,5,FAULTY,CASH,car,Enugu,N
+FUL650252,MRS Oil Apapa,Funmilayo Adekunle,Diesel,30989.75,"N1,346","N41,705,696",2025/05/28,-1,functional ,POS,Motorcycle,Plateau,yes
+FUL650052,Ardova Petroleum Wuse,Emeka Okeke,pms,null,"₦1,290.49",6384802.51 naira,07-Aug-2024,4,FAULTY,Fleet Card,Truck,Delta,TRUE
+FUL650433,MRS Oil Apapa,Kemi Suleiman,pms,24010.56,706.01 naira,--,05 August 2024,?,Under Maintenance,Coupon,Bus,Oyo,false
+FUL650107,Ardova Petroleum Wuse,Obinna Lawal,Petrol,17093.41,1263.36,21595130.457599998,11 February 2025,-1,FAULTY,Cash,Truck,Akwa Ibom,true
+FUL650186,Ardova Petroleum Wuse,Wale Mohammed,Premium Motor Spirit (PMS),5853.86,"NGN 1,059",,09 October 2024,0,functional,CASH,Generator,Abuja,no
+FUL650254,Oando PLC Yaba,Funmilayo  Olawale,Kerosene,5123.54,N853,4371865.45 naira,20.12.2024,0,Out of Stock,Cash,Keke,Ogun,false
+FUL650040,Ardova Petroleum Wuse,Sadiq Afolabi,pms,41484.14,996.76 naira,"NGN 41,349,731",09 August 2024,5,functional,CASH,Bus,Delta,TRUE
+FUL650423,MRS Oil Apapa,Fatima Okafor,LPG,44907.95,"1,308.23 ",58749927.43 naira,24 May 2025,4,Out of Stock,CASH,Motorcycle,rivers,TRUE
+FUL650093,Conoil Aba Road,Yusuf Afolabi,LPG,21258.7,"1,138.58 ","₦24,204,730.65",2024-08-10,3,functional ,Cash,Motorcycle,Anambra,false
+FUL650135,Conoil Aba Road,Zainab Nnamdi,Diesel,621.69,NGN 757,470563.38 naira,01.07.2024,2,functional,Fleet Card,Truck,Oyo,false
+FUL650145,NNPC Mega Station Lugbe,Segun Abubakar,Kerosene,36976.02,903.90 naira,"N33,422,624",2024/06/16,3,FAULTY,cash,Car,abuja,1
+FUL650073,NNPC Mega Station Lugbe,kunle balogun,pms,1960.01,NGN 897,"N1,758,599",2024/12/09,4,functional,Coupon,Bus,Cross River,Y
+FUL650055,Ardova Petroleum Wuse,Segun Mohammed,LPG,17943.46,"₦1,178.28","₦21,142,420.05",2024/11/08,3,FAULTY,Cash,Generator,Edo,No
+FUL650063,MRS Oil Apapa,Adaeze Chukwu,AGO,26614.3,868.59 ,"N23,116,915",08-Jul-2024,5,functional ,Coupon,Car,Delta,FALSE
+FUL650306,Mobil Filling Station Ikeja,Bisi Afolabi,Premium Motor Spirit (PMS),19116.8,"₦1,205.68","N23,048,743",2024-07-28,1,Out of Stock,Cash,Truck,Cross River,No
+FUL650236,MRS Oil Apapa,Bisi Mohammed,Kerosene,33539.43,"₦1,029.48","N34,528,172",2024/10/13,5,Functional,Transfer,car,Kaduna,true
+FUL650057,Conoil Aba Road,Amaka Adekunle,Premium Motor Spirit (PMS),38032.14,1379.13,"NGN 52,451,265",N/A,5,Functional,POS,Car,Abuja,N
+FUL650053,Ardova Petroleum Wuse,Chinedu Adeyemi,Petrol,9970.52,1084.39 naira,10811932.182800002,04/05/2025,3,Functional,POS,Keke,Ogun,true
+FUL650297,Ardova Petroleum Wuse,Ibrahim Lawal,AGO,7023.24,1375.52,"N9,660,607",2025/03/07,4,Functional,Coupon,TRUCK,Imo,Yes
+FUL650327,Total Energies Surulere,SADIQ OKONKWO,pms,29120.15,"N1,094",,16.07.2024,4,functional,Cash,Motorcycle,Plateau,N
+FUL650012,Mobil Filling Station Ikeja,Halima Nnamdi,Kerosene,Unknown,"₦1,024.60","N26,704,693",11/08/2024,4,FAULTY,POS,Car,Ogun,No
+FUL650017,Oando PLC Yaba,Chioma Adeyemi,Petrol,38883.02,"1,244.81 ","NGN 48,401,972",10/15/2024,NULL,functional,Transfer,Keke,Akwa Ibom,No
+FUL650074,Ardova Petroleum Wuse,Kunle Abubakar,Diesel,2840.46,"₦1,216.48","NGN 3,455,363",21/01/2025,0,Under Maintenance,Cash,Generator,Enugu,1
+FUL650043,NNPC Mega Station Lugbe,Bisi Lawal,Diesel,N/A,"NGN 1,285","NGN 49,273,789",12/12/2024,4,functional ,Coupon,Truck,Delta,Y
+FUL650141,MRS Oil Apapa,Ngozi Nwosu,AGO,28675.07,NGN 903,25904197.9859,2025-03-31,4,Functional,POS,Bus,Cross River,FALSE
+FUL650457,Mobil Filling Station Ikeja,Blessing Mohammed,AGO,26032.44,₦698.59,"18,186,002.26 ",07-May-2025,-1,Functional,Cash,Motorcycle,Plateau,N
+FUL650338,Ardova Petroleum Wuse,BOLA NNAMDI,ago,--,961.02 ,"N17,861,960",2025/03/19,4,Under Maintenance,Transfer,Bus,KANO,FALSE
+FUL650429,MRS Oil Apapa,Kunle Eze,Diesel,44741.57,₦782.83,"N35,025,043",06/01/2025,2,Under Maintenance,POS,Bus,Enugu,Yes
+FUL650194,Conoil Aba Road,Kunle Olawale,ago,20279.62,"NGN 1,085",22011499.548,2024-11-04,0,Out of Stock,Coupon,Generator,Imo,0
+FUL650372,Ardova Petroleum Wuse,Chinedu Nnamdi   ,Diesel,34897.53,700.88 naira,"NGN 24,458,981",06.11.2024,1,Out of Stock,cash,TRUCK,Ogun,false
+FUL650126,Oando PLC Yaba,Bisi Nwosu,PMS,20238.51,N866,17523109.1133,07/15/2024,5,Faulty,CASH,Motorcycle,Cross River,Yes
+FUL650275,NNPC Mega Station Lugbe,  FATIMA ADEYEMI,PMS,23637.37,"N1,142","₦26,996,476.65",11/27/2024,4,Out of Stock,Fleet Card,Bus,Imo,No
+FUL650100,Mobil Filling Station Ikeja,Tobi Suleiman,Kerosene,20184.72,"NGN 1,332",26886652.58 naira,2024/12/11,2,functional ,Cash,Keke,Delta,true
+FUL650153,NNPC Mega Station Lugbe,ifeoma balogun,ago,3339.94,₦719.49,"₦2,403,053.43",12/10/2024,2,FAULTY,Coupon,Keke,Edo,yes
+FUL650114,MRS Oil Apapa,KEMI EZE,ago,14251.2,₦667.37,"N9,510,823",03.06.2024,--,functional,CASH,Truck,Plateau,TRUE
+FUL650335,Ardova Petroleum Wuse,BISI BELLO,AGO,24622.48,null,26441588.82 naira,2024-07-18,-1,Under Maintenance,Coupon,Truck,Akwa Ibom,no
+FUL650123,Ardova Petroleum Wuse,Halima Bello,ago,14094.05,N776,10931768.00 naira,2024/07/30,2,functional,Transfer,Bus,Port Harcourt,FALSE
+FUL650096,Ardova Petroleum Wuse,CHIDI  OKEKE,Automotive Gas Oil (AGO),308.35,₦894.53,275828.32550000004,2025/01/15,1,Under Maintenance,Transfer,Motorcycle,Kano,0
+FUL650184,Total Energies Surulere,Kunle Yusuf,LPG,--,"NGN 1,289",Unknown,unknown date,2,functional ,CASH,TRUCK,Akwa Ibom,N
+FUL650399,Mobil Filling Station Ikeja,bola bello,PMS,6632.39,₦782.88,"N5,192,365",24 March 2025,-1,FAULTY,Transfer,car,Cross River,false
+FUL650436,Ardova Petroleum Wuse,Grace Okafor,pms,11882.45,,8193662.222,10/04/2025,-1,functional,Coupon,Keke,Akwa Ibom,true
+FUL650325,NNPC Mega Station Lugbe,Grace Mohammed,Premium Motor Spirit (PMS),1231.76,N623,"₦767,041.59",25 April 2025,-1,functional ,Coupon,Bus,Akwa Ibom,FALSE
+FUL650233,Conoil Aba Road,Amara Mohammed,Automotive Gas Oil (AGO),-,"₦1,353.55",null,20/10/2024,5,Faulty,Coupon,Truck,Plateau,no
+FUL650067,Oando PLC Yaba,Emeka Mohammed,Kerosene,821.36,833.27 ,684414.6472,18 September 2024,1,functional ,Fleet Card,Bus,Ogun,1
+FUL650376,Oando PLC Yaba,Emeka Adeyemi   ,Premium,34338.94,"NGN 1,062",36454562.09 naira,02/03/2025,2,functional ,Coupon,Generator,Delta,TRUE
+FUL650381,Ardova Petroleum Wuse,Funmilayo Abubakar,ago,23212.62,"N1,224",28423853.19 naira,2025-01-26,2,Faulty,Transfer,Car,Delta,true
+FUL650013,Ardova Petroleum Wuse,zainab olawale,pms,18865.7,?,NULL,02/23/2025,3,Faulty,Transfer,Keke,Rivers State,FALSE
+FUL650196,NNPC Mega Station Lugbe,Segun Bello,PMS,24822.18,"N1,026","₦25,458,620.70",04/03/2025,4,Functional,Coupon,Motorcycle,Akwa Ibom,FALSE
+FUL650158,Conoil Aba Road,Kunle Yusuf,Diesel,26457.45,"1,201.87 ","N31,798,415",22-Jul-2024,1,functional,POS,car,LAGOS,false
+FUL650041,MRS Oil Apapa,Sadiq Abubakar,PMS,21795.88,NGN 853,"₦18,583,167.29",2025/03/06,0,Out of Stock,CASH,Bus,Delta,Yes
+FUL650279,Ardova Petroleum Wuse,Funmilayo Balogun,Petrol,15005.45,NGN 828,"N12,429,314",2024/06/29,2,functional,Cash,Generator,Delta,No
+FUL650363,Mobil Filling Station Ikeja,Aliyu Suleiman,Petrol,29090.3,581.68 naira,"N16,921,246",30/01/2025,0,functional,Coupon,Truck,Kaduna,1
+FUL650317,Conoil Aba Road,Bola Okeke,LPG,28106.13,1365.51 naira,"N38,379,202",24-Mar-2025,4,FAULTY,cash,Bus,Imo,Yes
+FUL650015,Mobil Filling Station Ikeja,NGOZI ADEKUNLE,Automotive Gas Oil (AGO),4154.34,927.33,"3,852,444.11 ",10/20/2024,4,Under Maintenance,Transfer,Car,Imo,no
+FUL650079,NNPC Mega Station Lugbe,Femi Yusuf,LPG,43540.29,"NGN 1,389",60477027.4071,08-May-2025,1,FAULTY,Transfer,TRUCK,Cross River,TRUE
+FUL650304,MRS Oil Apapa,WALE OKONKWO,Diesel,581.38,"1,004.90 ",584228.76 naira,08.12.2024,0,functional,Cash,Truck,Akwa Ibom,Y
+FUL650395,Mobil Filling Station Ikeja,  femi abubakar,PMS,28546.88,₦696.06,"NGN 19,870,341",2024/09/13,2,functional ,cash,Truck,Kaduna,1
+FUL650430,MRS Oil Apapa,Zainab Nwosu,PMS,27741.41,654.57 naira,"N18,158,695",2024-06-27,3,Under Maintenance,Coupon,car,Kano,Y
+FUL650006,Mobil Filling Station Ikeja,Ifeoma Adekunle,Diesel,15308.56,820.67 naira,"N12,563,276",20 August 2024,5,Under Maintenance,CASH,Bus,Anambra,TRUE
+FUL650444,NNPC Mega Station Lugbe,Chioma Okafor,ago,9483.97,764.16,"₦7,247,270.52",10.08.2024,-,Faulty,Cash,Motorcycle,Fct Abuja,Y
+FUL650014,NNPC Mega Station Lugbe,Ibrahim Eze,Kerosene,44273.42,1241.82,"NGN 54,979,618",2025-02-26,2,functional ,Transfer,TRUCK,Oyo,Yes
+FUL650424,Total Energies Surulere,Tunde Olawale,Automotive Gas Oil (AGO),15898.77,621.74 naira,"₦9,884,901.26",09-Feb-2025,2,Out of Stock,Fleet Card,Car,Imo,0
+FUL650048,Oando PLC Yaba,Segun Balogun,ago,Unknown,₦641.75,13525163.62,24-Sep-2024,0,Under Maintenance,Cash,Motorcycle,Delta,Yes
+FUL650105,MRS Oil Apapa,wale olawale,Automotive Gas Oil (AGO),1780.6,639.68,"N1,139,014",28-Mar-2025,2,functional ,Transfer,car,Delta,TRUE
+FUL650166,MRS Oil Apapa,Halima Eze,LPG,38987.84,"NGN 1,059",,04/14/2025,2,FAULTY,cash,Bus,Kaduna,false
+FUL650445,NNPC Mega Station Lugbe,Obinna Afolabi,pms,34444.03,N965,,11/08/2024,nil,Faulty,Fleet Card,Bus,Lagos State,true
+FUL650284,NNPC Mega Station Lugbe,Ibrahim Chukwu,ago,NULL,₦727.60,1232496.192,11 February 2025,5,functional ,Coupon,Motorcycle,Oyo,Y
+FUL650134,Conoil Aba Road,Chinedu Chukwu,pms,5074.35,989.66 ,"NGN 5,021,881",01.04.2025,4,functional ,Cash,Car,Ogun,No
+FUL650322,MRS Oil Apapa,Zainab Eze,pms,43646.59,940.37 naira,"NGN 41,043,944",10/09/2024,3,Under Maintenance,CASH,Keke,Lagos,FALSE
+FUL650391,MRS Oil Apapa,fatima eze,ago,8530.45,NGN 750,"NGN 6,396,473",05/03/2025,1,functional,Transfer,TRUCK,Abuja,FALSE
+FUL650432,Conoil Aba Road,grace adekunle,Premium,33358.4,N876,"N29,233,300",2025/03/29,4,Functional,Fleet Card,Generator,Oyo,N
+FUL650138,Total Energies Surulere,  aliyu olawale,Premium Motor Spirit (PMS),41410.27,726.75 ,unknown,19.06.2024,0,Functional,Fleet Card,TRUCK,LAGOS,FALSE
+FUL650402,Ardova Petroleum Wuse,Chinedu Okeke,Premium Motor Spirit (PMS),21834.26,1203.64 naira,,05.06.2024,3,functional,CASH,Generator,Ogun,1
+FUL650455,MRS Oil Apapa,Fatima  Olawale,pms,21430.4,NULL,17321549.408,2024/06/20,2,Functional,Transfer,car,Fct Abuja,1
+FUL650324,Oando PLC Yaba,Sadiq Balogun,pms,28411.24,"1,301.16 ","36,967,569.04 ",26 April 2025,1,FAULTY,Coupon,Generator,Delta,false
+FUL650061,Oando PLC Yaba,funmilayo nwosu,Diesel,19606.01,908.37,17809511.3037,11/07/2024,2,Faulty,Fleet Card,Bus,Cross River,true
+FUL650259,NNPC Mega Station Lugbe,CHIOMA ADEYEMI,LPG,24326.43,N622,"NGN 15,121,309",2024/06/15,0,FAULTY,Cash,TRUCK,Ogun,Y
+FUL650065,Oando PLC Yaba,Funmilayo Balogun,pms,17434.36,"N1,215",21183793.4616,14 May 2025,0,Functional,Fleet Card,Bus,Imo,no
+FUL650456,Oando PLC Yaba,ifeoma afolabi,ago,23615.48,1129.11 naira,NIL,11.10.2024,1,FAULTY,POS,Truck,Plateau,true
+FUL650364,Mobil Filling Station Ikeja,Wale Abubakar,Petrol,NIL,₦873.53,N/A,2024/08/30,3,Faulty,POS,TRUCK,Kaduna,Yes
+FUL650051,Total Energies Surulere,Fatima Balogun,Diesel,26871.97,NGN 598,"NGN 16,056,271",18 November 2024,1,Faulty,POS,Keke,Cross River,Y
+FUL650119,Conoil Aba Road,Tobi Bello,pms,29911.56,716.40 naira,,10 April 2025,-1,FAULTY,Coupon,Motorcycle,Delta,no
+FUL650224,Ardova Petroleum Wuse,Chidi Adeyemi   ,AGO,44195.23,967.72,"₦42,768,607.98",2025-05-15,1,Under Maintenance,Fleet Card,Truck,Enugu,N
+FUL650082,Total Energies Surulere,Chidi Ajayi,pms,24006.98,N992,"₦23,817,564.93",not set,3,functional ,Fleet Card,car,Ogun,true
+FUL650265,Ardova Petroleum Wuse,Adaeze Okafor,Diesel,18189.48,NGN 685,"12,452,518.01 ",2024/10/29,5,Under Maintenance,Coupon,car,Enugu,1
+FUL650213,Ardova Petroleum Wuse,SADIQ ADEKUNLE,pms,379.83,1132.76 naira,430256.23079999996,12.12.2024,4,Faulty,Fleet Card,Bus,Ogun,true
+FUL650207,Total Energies Surulere,kemi bello,Automotive Gas Oil (AGO),30331.42,874.99 naira,"N26,539,689",2025-05-02,0,FAULTY,POS,TRUCK,Imo,1
+FUL650089,NNPC Mega Station Lugbe,Obinna Okonkwo,LPG,11949.6,"N1,118","₦13,354,633.97",24-Mar-2025,2,Faulty,cash,TRUCK,Akwa Ibom,false
+FUL650373,MRS Oil Apapa,Tunde Ogundimu,LPG,14902.21,"NGN 1,054","NGN 15,711,400",19.11.2024,3,functional,POS,car,Rivers,Yes
+FUL650200,NNPC Mega Station Lugbe,Chinedu Nwosu,Premium Motor Spirit (PMS),21668.77,N973,21075695.77 naira,09/16/2024,1,Faulty,Fleet Card,car,Ogun,FALSE
+FUL650326,MRS Oil Apapa,Ngozi Adekunle,Kerosene,30859.22,"1,229.97 ","₦37,955,914.82",11/11/2024,4,functional ,Fleet Card,Motorcycle,Lagos,TRUE
+FUL650066,Total Energies Surulere,Bola Yusuf,Diesel,13961.12,1117.96,"N15,607,974",2025/05/06,-1,Functional,Coupon,car,Anambra,no
+FUL650220,Ardova Petroleum Wuse,halima mohammed   ,Petrol,19884.27,879.94,"N17,496,965",12 October 2024,3,FAULTY,cash,car,KANO,true
+FUL650296,Total Energies Surulere,Adaeze Olawale,pms,25854.06,941.53 naira,24342373.11 naira,07/12/2024,4,functional ,POS,TRUCK,Imo,no
+FUL650411,NNPC Mega Station Lugbe,Zainab Suleiman,ago,17598.45,"NGN 1,013","17,824,238.11 ",unknown date,4,FAULTY,POS,TRUCK,Plateau,0
+FUL650027,Conoil Aba Road,Blessing Adekunle,pms,6858.05,N684,"₦4,687,477.17",2025-05-09,1,Under Maintenance,Fleet Card,car,Enugu,false
+FUL650425,Mobil Filling Station Ikeja,Funmilayo Yusuf,pms,40162.33,"NGN 1,276",51233076.26 naira,00/00/0000,4,FAULTY,Fleet Card,Bus,Enugu,No
+FUL650202,Oando PLC Yaba,Tunde Okonkwo   ,Diesel,4886.55,₦745.93,3645024.2415,00/00/0000,5,functional ,Cash,car,Kano,0
+FUL650330,Ardova Petroleum Wuse,Chioma Yusuf,ago,43524.48,"₦1,070.55","₦46,595,132.06",06/24/2024,5,Under Maintenance,cash,Bus,ABUJA,1
+FUL650316,Conoil Aba Road,Tobi Olawale,Kerosene,4503.45,"NGN 1,134",5105065.89 naira,20.11.2024,1,FAULTY,POS,Keke,Ibadan,N
+FUL650099,MRS Oil Apapa,   Chinedu Abubakar,Premium Motor Spirit (PMS),25146.32,"₦1,131.67","₦28,457,335.95",05.11.2024,2,Out of Stock,Coupon,car,Kaduna,1
+FUL650201,Mobil Filling Station Ikeja,Musa Lawal,Premium,28693.38,"₦1,300.38","NGN 37,312,297",2025-05-05,4,Functional,POS,car,Enugu,Y
+FUL650285,Total Energies Surulere,WALE ADEYEMI,Premium,30836.28,1374.23,,29 January 2025,2,Functional,cash,Truck,Abuja,false
+FUL650124,Total Energies Surulere,Chioma Suleiman,Petrol,2413.45,₦874.41,,2024-06-05,1,FAULTY,Transfer,Bus,Cross River,0
+FUL650221,MRS Oil Apapa,Halima Ajayi,LPG,17538.16,N890,"NGN 15,613,347",13/10/2024,2,Functional,Coupon,TRUCK,Ogun,0
+FUL650293,MRS Oil Apapa,chioma okonkwo   ,Kerosene,42541.49,"1,243.21 ","N52,888,006",2024/07/04,5,functional,Transfer,car,Delta,false
+FUL650088,Oando PLC Yaba,Obinna Okeke,AGO,33269.63,₦825.37,"₦27,459,754.51",2024-11-20,0,functional ,Coupon,Car,Ogun,0
+FUL650172,Mobil Filling Station Ikeja,Wale Eze,Premium,30969.49,₦974.14,30168618.99 naira,29/09/2024,3,functional,Transfer,Keke,Delta,Yes
+FUL650163,Conoil Aba Road,Musa Yusuf,AGO,17872.47,663.90 naira,"NGN 11,865,533",2025-02-17,3,Out of Stock,Transfer,Motorcycle,Rivers,N
+FUL650308,Ardova Petroleum Wuse,Yusuf Ogundimu,LPG,4441.76,₦755.49,"NGN 3,355,705",02/14/2025,4,Under Maintenance,Cash,TRUCK,Abuja,0
+FUL650380,Mobil Filling Station Ikeja,Ibrahim Chukwu,ago,44928.23,"1,196.95 ","₦53,776,844.90",06.03.2025,2,Faulty,POS,Motorcycle,Delta,N
+FUL650420,Conoil Aba Road,Amara Yusuf,ago,39398.16,"1,062.84 ",41873940.3744,06.02.2025,4,Faulty,Transfer,Car,Edo,TRUE
+FUL650266,Total Energies Surulere,Chioma Chukwu,Kerosene,  ,₦753.20,14750759.18 naira,08/28/2024,1,functional ,cash,TRUCK,Imo,false
+FUL650419,Ardova Petroleum Wuse,Tunde Suleiman   ,AGO,17053.01,1370.49,"₦23,370,979.67",10/05/2024,4,functional ,Cash,Bus,Anambra,false
+FUL650431,Ardova Petroleum Wuse,Wale Ajayi,Automotive Gas Oil (AGO),1840.97,NGN 623,"NGN 1,146,464",2024/11/12,1,functional ,CASH,Bus,Kaduna,no
+FUL650192,Conoil Aba Road,Bola Yusuf,PMS,6362.68,--,"3,908,276.19 ",03/21/2025,2,Under Maintenance,POS,Truck,Rivers,FALSE
+FUL650405,NNPC Mega Station Lugbe,Musa Abubakar,Diesel,unknown,1352.01,"N57,134,415",30.01.2025,4,functional,Cash,TRUCK,Edo,TRUE

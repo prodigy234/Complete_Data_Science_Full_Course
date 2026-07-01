@@ -1,0 +1,396 @@
+ProjectID,ProjectName,ProjectType,ContractorName,FundingSource,ContractDate,ExpectedCompletionDate,ActualCompletionDate,ContractValue,AmountPaidToDate,PercentageCompletion,ProjectStatus,ProjectManager,State,EnvironmentalClearance
+PROJ800038,Kano State Office Complex,Road Construction,Julius Berger Nigeria,State Government,27-Dec-2023,12-Mar-2025,04/29/2025,"NGN 299,905,870","NGN 279,822,315",56.5,Completed ,bisi okonkwo,Lagos,No
+PROJ800295,Cross River State School Block   ,Hospital Building,Arab Contractors Nigeria,federal,14-Aug-2023,08-Oct-2024,-,"NGN 2,888,055,181","₦1,015,409,506.71",24.5,ONGOING,  Kunle Abubakar,Akwa Ibom,FALSE
+PROJ800174,Kaduna State Bridge,Residential Estate,Borini Prono,World Bank,2019/07/15,2023-08-31,--,2430542885.02 naira,"N1,333,027,831",  ,Abandoned,GRACE SULEIMAN,Oyo,TRUE
+PROJ800345,Anambra State Office Complex,Hospital Building,Arab Contractors Nigeria,World bank,2020/01/01,2022/03/15,01/19/2023,n/a,"NGN 476,870,311",77.2,Suspended,Musa Okonkwo   ,Imo,1
+PROJ800287,Lagos State Hospital Building,School Block,Julius Berger Nigeria,World Bank,2021/11/27,2026/02/19,27 December 2025,nil,"NGN 4,342,480,261",26.1,Abandoned,Kemi Chukwu,Ogun,no
+PROJ800294,Rivers State Hospital Building,Bridge,Julius Berger Nigeria,ADB,16.04.2021,10-Jan-2026,unknown date,1989786007.06 naira,?,22.6,Completed ,Chidi Chukwu,Lagos,yes
+PROJ800060,Plateau State Road Construction,Bridge Rehabilitation,Julius Berger Nigeria,PRIVATE SECTOR,12/29/2023,2026-10-28,07/20/2027,"₦3,224,649,759.36","NGN 577,038,856",24.6,completed,Chidi Bello,Akwa Ibom,false
+PROJ800311,  Plateau State Dam,School Block,Borini Prono,NGO,2024-12-23,09/30/2026,2027/05/25,"N273,308,016","N63,091,252",47.3,Suspended,  kunle afolabi,Anambra,false
+PROJ800059,  Akwa Ibom State Bridge,Dam,Setraco Nigeria,FEDERAL GOVERNMENT,07/15/2020,15/09/2021,2021-12-23,"NGN 368,553,125","NGN 254,295,413",60.4,on hold,Grace Abubakar,Kano,1
+PROJ800086,Imo State School Block,Hospital Building,Cappa & D'Alberto,ADB,12/16/2024,07/07/2027,01-Sep-2027,"NGN 1,672,012,842","NGN 1,228,354,491",89.7,on hold,Chioma Yusuf,Ogun,yes
+PROJ800009,Oyo State Road Construction,Bridge Rehabilitation,Borini Prono,NGO,08/25/2020,20-Nov-2022,30.05.2023,4772153306.1,"NGN 2,026,523,842",26.2,Completed ,  Amara Ajayi,Enugu,false
+PROJ800045,Oyo State Residential Estate,Road Construction,Borini Prono,World bank,not set,17 August 2024,2024-09-26,73912684.71,"N30,493,588",67.7,on hold,kemi olawale,Ogun,FALSE
+PROJ800015,  Ogun State Office Complex   ,Bridge,Cappa & D'Alberto,FEDERAL,,19 October 2024,29.07.2024,3334632900.55 naira,1028359373.39 naira,70.2,Abandoned,musa olawale,Fct Abuja,N
+PROJ800370,Imo State Bridge,Residential Estate,Arab Contractors Nigeria,Private Sector,29.12.2024,23/08/2026,NIL,1072175073.85,"NGN 287,322,316",76.4,Abandoned,  Bola Nwosu,Rivers,0
+PROJ800149,Plateau  State Bridge Rehabilitation,Dam,Julius Berger Nigeria,world bank,10.05.2022,15.08.2026,2027-05-04,"₦1,954,414,205.50",370053200.76 naira,85.5,ONGOING,WALE OLAWALE,Anambra,No
+PROJ800211,Rivers State Road Construction,School Block,LCC Construction,NGO,2023-05-18,13/01/2028,04/14/2028,"NGN 3,522,771,047",3037209883.25,64.4,Completed ,Femi Nwosu,Plateau,TRUE
+PROJ800252,Abuja State Office Complex,Bridge,Cappa & D'Alberto,World Bank,00/00/0000,2028/03/10,NIL,"₦396,434,803.49","₦218,147,138.07",7.7,Suspended,Kunle Nnamdi,Anambra,Y
+PROJ800317,Oyo State Dam   ,Bridge,Borini Prono,ADB,12.07.2021,N/A,2025/09/06,"NGN 1,369,534,192",849638975.62 naira,58.6,ONGOING,KEMI OGUNDIMU,Cross River,no
+PROJ800333,Abuja State Dam,Hospital Building,Borini Prono,Private Sector,14/07/2024,01.03.2026,NULL,"2,593,294,892.21 ",NIL,25.3,on hold,segun suleiman,Oyo,TRUE
+PROJ800098,Edo State Road Construction,Dam,Arab Contractors Nigeria,NGO,10/19/2023,09.04.2026,2026/09/01,"₦393,450,128.14","NGN 312,278,391",90.4,completed,Kemi Bello,Imo,true
+PROJ800010,Akwa Ibom State Residential Estate,Road Construction,Cappa & D'Alberto,State Government,19/12/2022,03 October 2027,24/08/2027,"N3,126,221,712","1,108,717,455.20 ",48.8,Abandoned,MUSA  OKAFOR,Plateau,No
+PROJ800322,Imo State Bridge Rehabilitation,Dam,Cappa & D'Alberto,Ngo,02.02.2021,01/09/2026,unknown,3524536495.25,"NGN 2,391,749,767",64.9,Completed ,  Musa Eze,Ibadan,true
+PROJ800061,Anambra State School Block,Dam,Borini Prono,ngo,04 September 2024,2029-05-08,Unknown,n/a,"N1,852,824,488",13.4,Completed ,Wale Okeke,Oyo State,Yes
+PROJ800314,Anambra State Dam,Road Construction,Cappa & D'Alberto,adb,01.04.2024,03-Oct-2027,2027-09-29,"₦405,682,508.40",192570407.98 naira,21.5,Suspended,Halima Suleiman   ,Edo,No
+PROJ800041,Cross  River State Bridge Rehabilitation,Dam,Cappa & D'Alberto,State Government,06/09/2021,16/06/2025,16.11.2025,"₦4,968,950,400.00","₦1,555,766,680.94",27.0,Completed ,  Ngozi Olawale,Lagos,N
+PROJ800279,Plateau State Dam,Bridge,LCC Construction,World Bank,10/04/2021,2023-06-11,26-Dec-2023,"NGN 3,826,357,955","2,574,591,793.08 ",32.5,on hold,Bisi Ogundimu,Akwa Ibom,N
+PROJ800151,Cross River State School Block,Hospital Building,Borini Prono,World Bank,10/03/2019,27 April 2021,unknown date,"NGN 2,400,040,756","NGN 1,184,944,543",72.8,completed,Kunle Nwosu   ,Lagos,FALSE
+PROJ800340,Anambra State Road Construction   ,Bridge Rehabilitation,LCC Construction,ADB,07 February 2023,2026-12-08,03/04/2027,NULL,749258493.29,97.6,Completed,Segun Mohammed,Abuja,Y
+PROJ800268,Cross  River State Residential Estate,Bridge Rehabilitation,Julius Berger Nigeria,ADB,30/11/2021,02/29/2024,N/A,"4,652,393,442.38 ","₦484,180,473.76",3.8,Completed ,  musa lawal,Anambra,1
+PROJ800273,Akwa Ibom State Bridge Rehabilitation,School Block,Borini Prono,World bank,2024-11-27,07 August 2027,30-Jan-2028,"NGN 3,369,779,607","₦808,555,443.50",35.2,ONGOING,Ngozi Afolabi,Cross River,Y
+PROJ800155,Anambra State School Block,Dam,Arab Contractors Nigeria,PRIVATE SECTOR,06 February 2023,13 December 2025,24-Jul-2026,4623839078.41 naira,4355507347.62 naira,38.8,completed,Aliyu Chukwu,Akwa Ibom,yes
+PROJ800183,Akwa Ibom State Bridge Rehabilitation,Bridge Rehabilitation,LCC Construction,World Bank,25.12.2022,11 January 2026,00/00/0000,"NGN 1,517,408,856",887873094.18,42.4,Suspended,Fatima Nwosu,Oyo State,false
+PROJ800071,Abuja State Bridge Rehabilitation,Bridge,Arab Contractors Nigeria,Federal Government,11-May-2024,2028-03-27,n/a,2095911023.36 naira,"NGN 214,736,142",84.8,ONGOING,Ngozi Nnamdi   ,Akwa Ibom,1
+PROJ800010,Akwa Ibom State Residential Estate,Road Construction,Cappa & D'Alberto,State Government,19/12/2022,03 October 2027,24/08/2027,"N3,126,221,712","1,108,717,455.20 ",48.8,Abandoned,MUSA  OKAFOR,Plateau,No
+PROJ800008,Ogun State Bridge Rehabilitation,Dam,Julius Berger Nigeria,NGO,10.06.2020,05/02/2024,?,2094377792.0,"NGN 1,683,075,385",6.1,ONGOING,Kemi Yusuf   ,Akwa Ibom,1
+PROJ800321,Cross River State Residential Estate,School Block,LCC Construction,World Bank,2021-04-13,08.04.2023,17.11.2023,3471110447.38 naira,"2,496,876,892.82 ",28.0,Suspended,   Wale Afolabi,Fct Abuja,N
+PROJ800105,Delta State Dam,Residential Estate,LCC Construction,World Bank,17 March 2021,2023/08/21,13.07.2024,"NGN 590,911,830","N295,366,216",0.5,on hold,Femi Okonkwo,Anambra,yes
+PROJ800017,  Anambra State Bridge Rehabilitation,Bridge,Borini Prono,Ngo,01/08/2020,05.02.2021,2020/12/06,"N1,863,867,410",N/A,NULL,Suspended,  CHINEDU ADEKUNLE,Cross River,No
+PROJ800040,Imo State Bridge   ,Dam,Julius Berger Nigeria,World Bank,12/07/2024,11/11/2027,06-Oct-2027,"₦2,159,830,430.58","912,419,446.15 ",91.4,Completed,adaeze okafor,Akwa Ibom,yes
+PROJ800240,Kaduna State Dam   ,Road Construction,Cappa & D'Alberto,NGO,07/26/2022,2027/01/26,2028/01/08,"933,937,704.93 ","NGN 748,297,437",34.5,completed,Halima Chukwu,Oyo,Y
+PROJ800366,Kaduna State Hospital Building,Office Complex,Arab Contractors Nigeria,World bank,2022/12/03,23.04.2024,20/03/2024,"₦437,126,748.91",260035479.85,87.7,Suspended,yusuf okonkwo,Akwa Ibom,yes
+PROJ800224,Imo State Office Complex,Dam,Cappa & D'Alberto,Federal,2020-10-21,12.09.2021,10 June 2022,"N3,780,015,795","NGN 3,528,162,111",67.5,Ongoing,ibrahim adekunle,Oyo,No
+PROJ800255,Kaduna State Office Complex,Bridge Rehabilitation,Setraco Nigeria,World Bank,26-May-2021,2025/10/13,,"₦4,682,049,902.91","₦886,349,746.86",83.6,Ongoing,Tobi Okonkwo,Imo,yes
+PROJ800358,Oyo State Road Construction   ,Bridge Rehabilitation,Borini Prono,FEDERAL,2020-03-23,09/16/2023,2023-07-29,"3,387,496,630.30 ","₦1,809,313,427.23",N/A,Completed,Amara Eze,Enugu,FALSE
+PROJ800276,Oyo State Office Complex,Hospital Building,Arab Contractors Nigeria,Ngo,06-Aug-2022,2026-01-17,05/03/2026,nil,"NGN 2,383,732,041",87.6,Completed,Obinna Yusuf   ,Cross River,FALSE
+PROJ800197,Ogun State Dam,Dam,Arab Contractors Nigeria,World Bank,05 February 2021,2021/09/26,05/31/2022,"₦4,172,084,303.35",2082659976.66,12.5,Completed,Sadiq Suleiman   ,Anambra,Yes
+PROJ800356,Akwa Ibom State School Block,Dam,Setraco Nigeria,World bank,02.06.2022,15 February 2025,00/00/0000,null,"NGN 930,563,747",47.5,ONGOING,SEGUN OGUNDIMU,Delta,FALSE
+PROJ800103,  Delta State Bridge,School Block,LCC Construction,World Bank,15 January 2022,2024-12-05,2025-12-04,"N3,003,279,023","NGN 1,905,651,609",25.3,on hold,Emeka Lawal,Imo,no
+PROJ800138,Kaduna State Bridge,Bridge,Julius Berger Nigeria,world bank,2020/05/15,21.11.2024,23.02.2025,4659023567.60 naira,"3,803,951,687.90 ",21.0,Completed,Kunle Eze,Kaduna,TRUE
+PROJ800164,Anambra State Dam,Road Construction,Setraco Nigeria,world bank,2024/09/17,23.05.2029,unknown,845784108.78,,25.7,ONGOING,FEMI OKONKWO,Ogun,FALSE
+PROJ800256,Rivers State School Block,Office Complex,Setraco Nigeria,World Bank,02/07/2023,11-May-2025,16/06/2025,3420708774.52 naira,1736487584.81 naira,31.7,Suspended,Chioma Lawal,Akwa Ibom,Yes
+PROJ800281,Imo State Residential Estate,Bridge Rehabilitation,Setraco Nigeria,Federal Government,10 January 2022,2023/08/05,2024/04/24,Unknown,"NGN 107,190,689",87.8,Suspended,Blessing Lawal   ,Lagos State,0
+PROJ800271,Cross River State Office Complex,Residential Estate,Cappa & D'Alberto,Adb,2024/02/28,09/28/2028,11/04/2029,"NGN 1,209,435,761",unknown,39.5,Completed,EMEKA NNAMDI,Imo,No
+PROJ800365,Kaduna State Bridge,Residential Estate,Borini Prono,Federal Government,2019/01/19,30-Aug-2022,11-Dec-2022,"3,361,134,964.65 ","N2,389,088,241",87.3,Abandoned,CHINEDU ADEKUNLE   ,Ogun,Yes
+PROJ800237,Delta  State Road Construction,Residential Estate,LCC Construction,World Bank,04.02.2022,19/01/2026,15.12.2025,3439024005.7,"₦2,444,006,781.38",29.3,Suspended,CHINEDU OKAFOR,Enugu,true
+PROJ800185,  Enugu State Residential Estate,Road Construction,LCC Construction,State Government,02.10.2020,18-Jul-2024,2024/10/13,"N1,701,658,441","₦1,321,598,779.30",81.7,Abandoned,  bisi yusuf,Akwa Ibom,0
+PROJ800217,Imo State Bridge,Office Complex,Julius Berger Nigeria,STATE GOVERNMENT,22 July 2021,07.04.2023,15.04.2023,3693010692.72,"N3,202,856,061",69.4,Abandoned,Chidi Adeyemi,Edo,false
+PROJ800352,Enugu State Hospital Building   ,Road Construction,Arab Contractors Nigeria,federal,08/23/2019,2021/09/09,2022-07-19,483892758.9,"NGN 394,398,980",2.2,ONGOING,  AMAKA LAWAL,Enugu,true
+PROJ800280,Anambra State Bridge   ,Bridge Rehabilitation,Julius Berger Nigeria,NGO,12/03/2022,11.07.2023,2023-09-13,"NGN 4,614,216,510","₦1,963,174,846.07",19.0,on hold,KEMI LAWAL,Edo,FALSE
+PROJ800186,Abuja State Bridge Rehabilitation,School Block,Arab Contractors Nigeria,world bank,2019-01-13,2023/02/07,07 February 2024,"NGN 1,462,078,286",1123324578.60 naira,48.8,on hold,blessing okonkwo,Delta,Yes
+PROJ800360,Edo State Dam,Hospital Building,Cappa & D'Alberto,WORLD BANK,2024-04-03,00/00/0000,  ,"NGN 3,112,333,668",2963698107.59,21.1,Completed,adaeze adekunle,Anambra,no
+PROJ800136,Abuja State Bridge,Residential Estate,Setraco Nigeria,Federal Government,13-Jun-2021,2025-03-22,-,"₦1,483,403,637.61","NGN 260,711,659",70.5,Suspended,Blessing Eze,Lag,yes
+PROJ800205,Edo State School Block   ,Bridge,Cappa & D'Alberto,Private Sector,05 October 2024,29/08/2028,02/11/2029,"NGN 646,533,360","N401,721,792",50.1,Abandoned,  Chinedu Yusuf   ,Lagos,1
+PROJ800193,Kaduna State Bridge,School Block,Setraco Nigeria,Federal,18 April 2024,2025/07/30,2026-07-18,789220819.8,"N241,152,762",98.3,Completed,AMARA  ADEKUNLE,Akwa Ibom,1
+PROJ800202,Abuja State Dam,Road Construction,LCC Construction,State Government,2022/10/23,28/01/2027,01/27/2028,"NGN 2,994,857,430","2,718,215,704.90 ",80.3,Suspended,TUNDE LAWAL,ABUJA,false
+PROJ800130,Imo State Dam,Office Complex,LCC Construction,Private Sector,11/19/2022,29-Jan-2024,04.09.2024,3161250084.00 naira,null,92.9,Suspended,Chioma Ajayi   ,Plateau,N
+PROJ800181,Enugu State Bridge,Dam,LCC Construction,state government,27 December 2021,02/06/2024,--,2269030942.53,1085630503.12 naira,28.9,Completed,WALE OKEKE,Ogun,Y
+PROJ800101,  Anambra State Residential Estate,Residential Estate,LCC Construction,federal government,22.03.2020,02/07/2025,null,"N4,288,519,013","1,391,176,918.72 ",61.2,on hold,ifeoma suleiman   ,Kaduna,TRUE
+PROJ800377,Delta State Bridge,Bridge Rehabilitation,Julius Berger Nigeria,World bank,27-May-2024,2029-05-12,NULL,315017731.67,"96,706,595.93 ",56.3,completed,Chinedu Abubakar,Plateau,no
+PROJ800337,   Delta State Residential Estate,Office Complex,LCC Construction,WORLD BANK,2023-12-14,22-Mar-2028,06.03.2028,"2,708,000,921.99 ",1089461253.06,54.3,Ongoing,Ngozi Nnamdi,Imo,no
+PROJ800159,Plateau State Office Complex,School Block,Setraco Nigeria,federal,14.03.2020,07/19/2024,09/04/2025,"NGN 4,341,959,463","NGN 1,153,134,393",n/a,Suspended,  Kunle Ogundimu,LAGOS,FALSE
+PROJ800315,Akwa Ibom State Office Complex   ,School Block,Cappa & D'Alberto,PRIVATE SECTOR,01.09.2022,30-Dec-2026,2027/12/13,3876722170.36,2099338849.46,79.1,Suspended,Adaeze Abubakar,Cross River,Y
+PROJ800267,Abuja State Bridge,School Block,Setraco Nigeria,FEDERAL,01 June 2021,04/12/2023,05 March 2024,"NGN 3,294,835,787","NGN 3,245,345,868",6.8,Completed,Funmilayo Ajayi,Ogun,No
+PROJ800230,Imo State Dam,Road Construction,Borini Prono,federal,17.07.2021,30.05.2025,2025-10-29,"N3,684,227,697","NGN 2,068,101,941",8.3,Completed ,TUNDE ADEKUNLE,Delta,0
+PROJ800291,  Rivers State Hospital Building   ,Dam,Julius Berger Nigeria,private sector,28.12.2024,2029/01/12,21.11.2029,"650,849,404.11 ",136638899.63 naira,48.1,Abandoned,  GRACE OGUNDIMU,Edo,yes
+PROJ800126,Kano State Bridge Rehabilitation,Office Complex,Cappa & D'Alberto,Adb,06/09/2021,2024-12-20,09/21/2024,"₦2,680,350,365.32","₦392,104,575.71",89.8,ONGOING,Chioma Okeke,Imo,No
+PROJ800067,Kaduna State Bridge,Bridge,LCC Construction,federal,10/02/2019,2023/08/13,nil,"N4,885,854,151",  ,23.1,completed,Tobi  Olawale,Delta,true
+PROJ800203,Edo State Residential Estate   ,School Block,Cappa & D'Alberto,World Bank,13/11/2023,2026/09/19,Unknown,"N4,650,111,213","NGN 4,580,746,125",64.9,Ongoing,Musa Mohammed,Delta,N
+PROJ800341,Rivers State School Block,Road Construction,Cappa & D'Alberto,State Government,01/13/2024,10/28/2027,05/09/2028,"₦1,160,560,892.97","506,453,007.88 ",92.1,ONGOING,ibrahim  adekunle,Edo,yes
+PROJ800161,  Delta State Residential Estate,School Block,Arab Contractors Nigeria,Private Sector,02-Oct-2024,2028/11/03,,"N1,394,117,229","NGN 892,765,651",81.3,completed,Segun  Okeke   ,Enugu,Yes
+PROJ800169,Lagos  State School Block,Residential Estate,Arab Contractors Nigeria,federal,15 April 2024,22/10/2024,26-Jul-2024,"₦248,438,043.60",219821506.58 naira,17.9,Completed,sadiq balogun,Akwa Ibom,no
+PROJ800209,Lagos State Bridge Rehabilitation,Dam,LCC Construction,Ngo,08/11/2020,25.06.2025,10/27/2025,"537,579,192.37 ","NGN 229,193,051",9.5,on hold,FUNMILAYO LAWAL,Oyo,0
+PROJ800292,Imo State Office Complex   ,Office Complex,Arab Contractors Nigeria,federal,05 July 2021,2022/06/28,05/28/2022,233332266.26 naira,"88,724,488.56 ",86.8,ONGOING,ADAEZE NNAMDI,Oyo,Y
+PROJ800068,  Delta State Dam,School Block,Julius Berger Nigeria,ADB,12.04.2022,2027-02-27,09.11.2027,--,"₦3,714,308,436.73",73.8,ONGOING,Blessing Nnamdi   ,Rivers,no
+PROJ800003,  Oyo State Hospital Building   ,School Block,Cappa & D'Alberto,adb,31-Mar-2021,15.12.2022,04/26/2023,"NGN 599,346,292","₦180,243,255.55",46.6,completed,Obinna Okafor,Cross River,No
+PROJ800218,  Kano State Bridge   ,Road Construction,Borini Prono,private sector,unknown date,17/11/2024,2025-05-01,"4,604,864,586.59 ",3920835121.7,86.3,ONGOING,bola okafor,Edo,Y
+PROJ800147,   Anambra State Residential Estate   ,Residential Estate,LCC Construction,world bank,2020/06/19,2021/08/26,29.05.2021,"₦369,511,375.76",-,90.1,Completed,Ngozi Chukwu,Ogun,Yes
+PROJ800013,Edo State Road Construction,Bridge Rehabilitation,Julius Berger Nigeria,World Bank,07.03.2021,25/10/2022,  ,"₦3,451,982,801.96",1071323887.68 naira,75.1,Suspended,Emeka Balogun,Abuja,true
+PROJ800374,Ogun State Bridge Rehabilitation,Residential Estate,Julius Berger Nigeria,World bank,03.04.2020,2020/10/23,2021/06/29,"₦4,682,668,432.49","NGN 3,810,709,634",15.1,Completed,Obinna Adeyemi,Enugu,yes
+PROJ800351,Ogun State School Block,School Block,Cappa & D'Alberto,adb,06/27/2023,22/01/2026,03 October 2026,2821041198.5,"811,270,217.03 ",47.2,ONGOING,   Amaka Ajayi,Akwa Ibom,Yes
+PROJ800295,Cross River State School Block   ,Hospital Building,Arab Contractors Nigeria,federal,14-Aug-2023,08-Oct-2024,-,"NGN 2,888,055,181","₦1,015,409,506.71",24.5,ONGOING,  Kunle Abubakar,Akwa Ibom,FALSE
+PROJ800227,Delta State Road Construction,Dam,Cappa & D'Alberto,federal government,31 October 2021,01/03/2026,2026/07/10,"NGN 3,657,857,591","1,645,872,077.80 ",58.1,Completed ,Yusuf Okafor,ABUJA,no
+PROJ800090,Delta State Hospital Building,Bridge Rehabilitation,Julius Berger Nigeria,State Government,not set,25-Jul-2024,nil,"N330,060,873","N153,063,505",45.7,ONGOING,fatima lawal,Enugu,No
+PROJ800361,Cross River State Hospital Building,Bridge Rehabilitation,Borini Prono,ngo,2021-01-16,18/05/2022,  ,null,--,5.2,Completed ,SADIQ OKONKWO,Enugu,TRUE
+PROJ800302,  Rivers State Residential Estate,Bridge,Arab Contractors Nigeria,STATE GOVERNMENT,2022/09/20,16.04.2026,nil,"₦3,756,303,193.58",522107318.63,21.5,Completed,Tobi Mohammed,Edo,1
+PROJ800032,  Enugu State Office Complex   ,Office Complex,Cappa & D'Alberto,Federal Government,13-Jul-2023,2025/01/02,-,"N1,957,607,616","NGN 991,557,861",63.4,Suspended,Tunde Nwosu,KANO,1
+PROJ800025,Oyo State Bridge,Hospital Building,Cappa & D'Alberto,Private Sector,19 November 2020,2021-11-16,NIL,"NGN 1,533,454,003","₦176,387,081.59",50.9,Ongoing,Musa Adeyemi,Lagos,0
+PROJ800289,Oyo State Residential Estate,Office Complex,Arab Contractors Nigeria,Federal Government,18.04.2021,2024/08/22,2024/11/30,3377614431.95 naira,2914677788.93 naira,10.1,completed,Bisi Ogundimu,Rivers,TRUE
+PROJ800049,Kano State Road Construction,Bridge Rehabilitation,Julius Berger Nigeria,Private Sector,17/11/2024,08-Sep-2028,NULL,400686254.38 naira,--,7.8,Suspended,Blessing  Chukwu,Lagos State,true
+PROJ800087,Ogun State Office Complex,Dam,LCC Construction,Ngo,15 July 2022,2025/02/06,05/10/2025,3239275126.87 naira,"₦1,001,495,874.69",null,ONGOING,Halima Nnamdi   ,Ogun,N
+PROJ800073,Rivers State Bridge,Bridge,Setraco Nigeria,FEDERAL,25-Nov-2020,00/00/0000,?,1682094415.62 naira,"N977,837,706",19.4,ONGOING,Blessing Yusuf,Oyo,No
+PROJ800187,  Enugu State Bridge Rehabilitation,Bridge Rehabilitation,Julius Berger Nigeria,NGO,2019-12-08,04 June 2024,n/a,4243500331.79,"₦1,845,782,017.34",85.3,Completed,  NGOZI OKONKWO,lagos,yes
+PROJ800089,Delta State Residential Estate,Road Construction,LCC Construction,Private Sector,04/07/2024,07/23/2028,04/22/2029,"N3,177,453,079","991,567,708.12 ",54.3,ONGOING,adaeze suleiman,Edo,1
+PROJ800104,Imo State Bridge,Dam,Arab Contractors Nigeria,Private Sector,2019/07/06,2020-12-12,02/01/2021,1443785413.11 naira,"NGN 1,149,983,111",13.3,ONGOING,Femi Adeyemi,Abuja,No
+PROJ800096,Akwa Ibom State Hospital Building,Bridge,Setraco Nigeria,ngo,01 December 2022,19/07/2027,05/15/2028,2205006314.13,"N953,443,308",6.5,Suspended,bola adekunle,Ogun,FALSE
+PROJ800274,Cross River State Bridge,Dam,Setraco Nigeria,Federal Government,2020/01/05,19-Nov-2022,06/30/2023,"₦4,806,522,677.56","NGN 2,017,606,352",19.1,Abandoned,Halima Bello   ,Abuja,no
+PROJ800044,Delta State Bridge,Hospital Building,Julius Berger Nigeria,adb,03 December 2021,03/29/2023,03-Nov-2023,"₦2,276,979,799.83","NGN 335,487,622",27.2,Abandoned,Ifeoma Okeke   ,Edo,false
+PROJ800233,Rivers State School Block,Residential Estate,Setraco Nigeria,FEDERAL,26/06/2022,not set,2023/04/17,"₦2,179,873,258.51","NGN 1,187,014,832",49.1,Ongoing,  KEMI BALOGUN   ,Edo,0
+PROJ800239,Edo State Dam,Office Complex,Setraco Nigeria,ADB,2024/10/13,23.06.2026,17-Feb-2027,"₦3,354,069,334.29","N1,103,025,917",54.3,Completed,Halima Eze   ,abuja,0
+PROJ800221,Plateau State Dam,Bridge,Cappa & D'Alberto,world bank,,14.04.2028,2029-04-05,"NGN 3,689,357,379",1369090976.86 naira,32.9,completed,TOBI BELLO,Kaduna,yes
+PROJ800016,Kano State Dam   ,Dam,Arab Contractors Nigeria,world bank,2021/06/20,26 February 2023,2023-03-02,2250989604.75,2190603502.02,,Ongoing,Grace Chukwu,Delta,FALSE
+PROJ800359,Akwa Ibom State Residential Estate,Residential Estate,LCC Construction,ADB,16 September 2023,11/22/2026,Unknown,3889417369.68,unknown,50.4,Completed ,Yusuf Afolabi,Edo,yes
+PROJ800034,Delta State Dam,Office Complex,Cappa & D'Alberto,World Bank,26 August 2022,16.09.2023,19-Nov-2023,"NGN 1,330,047,423","₦636,534,194.61",80.1,Abandoned,ifeoma okafor,Rivers,N
+PROJ800109,Anambra State Residential Estate,Road Construction,LCC Construction,World Bank,30/06/2022,03 April 2026,unknown date,"NGN 2,932,980,686",2116190621.00 naira,35.9,on hold,  amaka suleiman,Kano,Yes
+PROJ800259,Kano State Bridge,Hospital Building,Julius Berger Nigeria,World Bank,not set,04 August 2024,2024-05-23,2728535948.94 naira,"NGN 2,296,150,210",32.7,Completed ,Femi Nnamdi,Ogun,1
+PROJ800306,Delta State Road Construction,Residential Estate,Setraco Nigeria,World bank,24-Nov-2023,05/13/2025,2026-01-20,"NGN 459,266,590",381293794.25,78.4,Ongoing,Zainab Nnamdi,Delta,false
+PROJ800246,Enugu State Bridge Rehabilitation,Residential Estate,Arab Contractors Nigeria,State Government,11 June 2023,11 February 2025,31/12/2024,3163918181.46 naira,"NGN 1,511,070,239",3.1,on hold,sadiq adekunle   ,FCT,yes
+PROJ800266,Edo State Residential Estate   ,Dam,Arab Contractors Nigeria,World bank,09 December 2020,01/04/2022,01-Mar-2022,"N403,962,068","51,237,917.36 ",75.4,Suspended,blessing nnamdi,Akwa Ibom,1
+PROJ800242,Delta State Hospital Building,Bridge,Setraco Nigeria,Federal Government,04/07/2022,20/02/2027,08.05.2027,"N2,212,253,492","₦1,677,475,897.87",67.9,Suspended,  bisi ogundimu,Delta,Y
+PROJ800329,   Edo State Road Construction,Residential Estate,Borini Prono,world bank,08 July 2019,03/02/2020,07/19/2020,"₦2,866,923,643.88","N1,499,064,531",38.3,completed,FUNMILAYO BELLO   ,LAGOS,true
+PROJ800200,Cross River State School Block,School Block,Julius Berger Nigeria,FEDERAL,2022/09/04,31-Dec-2023,,"₦116,841,197.06","N65,324,035",99.9,Completed ,Zainab Yusuf   ,Kaduna,FALSE
+PROJ800181,Enugu State Bridge,Dam,LCC Construction,state government,27 December 2021,02/06/2024,--,2269030942.53,1085630503.12 naira,28.9,Completed,WALE OKEKE,Ogun,Y
+PROJ800238,Kano State Road Construction   ,Bridge,Setraco Nigeria,state government,unknown date,28.12.2028,12/09/2028,3148036726.39,"₦1,510,239,982.36",63.2,Suspended,emeka yusuf,Akwa Ibom,Yes
+PROJ800284,Rivers State Office Complex,Office Complex,Borini Prono,FEDERAL GOVERNMENT,2022/10/22,2026/04/05,03/31/2027,3449307501.88,"₦1,869,393,341.85",33.5,Completed ,Grace Abubakar,Akwa Ibom,Yes
+PROJ800139,  Abuja State Road Construction,School Block,Setraco Nigeria,federal,28-Oct-2022,27 February 2027,N/A,537297266.55,231507805.29,8.1,Abandoned,  funmilayo afolabi,Lagos,1
+PROJ800037,Plateau State Bridge,Dam,Setraco Nigeria,State Government,14 February 2020,09/09/2024,,2640428391.59 naira,"₦2,082,502,020.19",56.4,ONGOING,Funmilayo Abubakar,Plateau,No
+PROJ800312,Imo State Dam,Bridge Rehabilitation,Borini Prono,World bank,2024/09/22,19 November 2026,n/a,"₦3,623,646,285.76","NGN 3,428,068,854",70.9,ONGOING,CHIDI OGUNDIMU,Plateau,false
+PROJ800033,Anambra State Dam,Dam,Borini Prono,NGO,29.08.2022,21.04.2023,00/00/0000,"NGN 2,838,928,512","2,434,849,898.59 ",52.7,Ongoing,Blessing Chukwu,Akwa Ibom,1
+PROJ800213,Lagos State Road Construction,Road Construction,Cappa & D'Alberto,World Bank,08.06.2020,15 February 2022,NIL,3884474381.41,"NGN 852,081,690",62.8,Ongoing,funmilayo bello,Akwa Ibom,false
+PROJ800170,  Enugu State School Block,School Block,LCC Construction,World bank,02/13/2020,02/12/2024,-,"₦2,461,091,482.25","N1,503,617,344",79.1,ONGOING,Chinedu Bello   ,Akwa Ibom,Yes
+PROJ800248,Plateau State Hospital Building,Hospital Building,LCC Construction,NGO,25-Aug-2020,30-Jun-2022,  ,"N646,785,735",219755397.29,28.7,ONGOING,Fatima Yusuf,Oyo,Yes
+PROJ800014,Anambra State Residential Estate,Road Construction,Borini Prono,World Bank,2019-04-22,2022-11-06,2022-09-08,813544668.86 naira,"NGN 718,440,685",N/A,Abandoned,Segun Yusuf,Ogun,FALSE
+PROJ800108,Abuja  State Hospital Building,Bridge Rehabilitation,Setraco Nigeria,Adb,24 March 2019,2020/04/04,07/18/2020,"NGN 3,084,460,709","N1,074,873,138",94.1,Completed,Musa Okafor,Oyo,No
+PROJ800143,Kaduna State School Block,Bridge Rehabilitation,Setraco Nigeria,State Government,30-May-2023,2027/04/16,n/a,"₦3,914,668,691.46",,25.6,completed,Amara Yusuf,Abuja,Yes
+PROJ800226,Enugu  State Bridge Rehabilitation,Road Construction,Arab Contractors Nigeria,Ngo,13.07.2023,2026/12/30,-,"N2,760,055,594","N1,648,931,702",37.8,Ongoing,ngozi balogun,Kaduna,N
+PROJ800320,  Kano State Bridge,Bridge Rehabilitation,Cappa & D'Alberto,ngo,11/19/2021,04-May-2023,05/01/2024,"₦2,719,539,544.14","₦2,448,676,577.83",21.7,Completed,Yusuf Nnamdi,Cross River,true
+PROJ800204,Kano State Bridge Rehabilitation   ,Road Construction,Borini Prono,State Government,,23/04/2024,08/27/2024,"N1,562,084,436","₦324,891,093.79",22.3,Abandoned,yusuf bello,Kaduna,No
+PROJ800163,  Rivers State School Block,School Block,Cappa & D'Alberto,State Government,08/09/2020,15-Nov-2021,nil,4789944391.12 naira,-,,Completed,FATIMA OKONKWO   ,Cross River,0
+PROJ800031,Imo State Road Construction,Office Complex,Cappa & D'Alberto,State Government,2020-01-27,11/25/2021,08/08/2022,1415063320.38,"₦469,376,765.40",22.4,ONGOING,Sadiq Mohammed,Kaduna,yes
+PROJ800088,Kano State Residential Estate,Bridge Rehabilitation,LCC Construction,ADB,13 May 2023,16 April 2027,21 May 2027,"₦3,307,285,834.65",2583486558.31 naira,78.9,on hold,Femi Eze,Kaduna,Yes
+PROJ800343,Imo State Residential Estate,Bridge,Cappa & D'Alberto,federal,N/A,2021-09-09,12/03/2021,4775728322.58 naira,4616011089.58 naira,99.3,on hold,blessing ogundimu,Akwa Ibom,TRUE
+PROJ800144,Imo  State Hospital Building,School Block,Arab Contractors Nigeria,ADB,2019-09-14,27.08.2022,nil,"4,019,232,927.50 ",1933775042.19 naira,82.4,ONGOING,ZAINAB OGUNDIMU,Enugu,no
+PROJ800064,Imo State Dam,Bridge,Cappa & D'Alberto,World bank,14 May 2020,11 August 2023,unknown,  ,NIL,41.1,Ongoing,Wale Adeyemi,Cross River,Y
+PROJ800082,Ogun State Dam,Office Complex,Julius Berger Nigeria,Federal Government,29-May-2024,08 February 2027,N/A,420542050.23,223851403.47,88.2,Completed,Chidi Lawal   ,Edo,Yes
+PROJ800373,Cross River State Hospital Building,Bridge Rehabilitation,Borini Prono,World Bank,30-Jan-2024,08-Feb-2026,14 March 2026,446958082.03,286784752.67 naira,63.1,on hold,   femi nwosu,Akwa Ibom,false
+PROJ800083,  Edo State School Block,Bridge,Cappa & D'Alberto,Federal,2022-01-29,10 November 2025,22-Sep-2025,3130469816.23,1495648699.94 naira,64.4,Abandoned,blessing nnamdi,Delta,No
+PROJ800228,Kaduna State Road Construction,Hospital Building,Julius Berger Nigeria,NGO,11 December 2022,19 March 2025,?,"₦1,968,171,071.84",1834837853.7,28.5,on hold,Ifeoma Bello   ,Edo,no
+PROJ800094,Oyo State School Block,Road Construction,Julius Berger Nigeria,World bank,11/25/2023,12/04/2028,26.03.2029,"₦2,710,737,481.15","₦365,491,203.44",31.9,Ongoing,Segun Chukwu,Ogun,true
+PROJ800367,Ogun State Office Complex   ,Bridge Rehabilitation,LCC Construction,Private Sector,23 April 2019,27 October 2023,06.03.2024,4635357543.28,"₦4,239,915,700.77",85.2,Ongoing,Kunle Eze,Cross River,no
+PROJ800178,Akwa Ibom State School Block,Bridge Rehabilitation,Cappa & D'Alberto,World bank,2020-09-19,08 February 2023,07.08.2023,"3,880,301,492.22 ",578256338.43 naira,19.8,Abandoned,Ibrahim Suleiman   ,Cross River,Y
+PROJ800175,  Delta State Road Construction,Bridge Rehabilitation,Setraco Nigeria,ADB,18/06/2022,12-Dec-2023,04-Dec-2023,"₦4,757,939,811.01","NGN 3,643,955,884",99.1,Completed ,Bola Okonkwo,Imo,1
+PROJ800357,  Edo State Road Construction,Office Complex,LCC Construction,world bank,04-Apr-2024,10.05.2028,nil,"N448,050,036","NGN 419,734,033",8.4,Completed ,Chioma Nnamdi,Oyo,0
+PROJ800329,   Edo State Road Construction,Residential Estate,Borini Prono,world bank,08 July 2019,03/02/2020,07/19/2020,"₦2,866,923,643.88","N1,499,064,531",38.3,completed,FUNMILAYO BELLO   ,LAGOS,true
+PROJ800263,Enugu State Hospital Building,Bridge Rehabilitation,Borini Prono,STATE GOVERNMENT,N/A,25/02/2024,,"NGN 910,595,440","₦97,603,015.35",93.7,on hold,  Sadiq Balogun,Cross River,yes
+PROJ800236,Delta State School Block   ,Road Construction,Borini Prono,ADB,2021-09-13,12.05.2023,15/07/2023,3786782950.37,"NGN 1,321,501,904",23.1,Suspended,blessing nnamdi,Imo,false
+PROJ800114,Enugu State Residential Estate,School Block,LCC Construction,federal government,27/10/2020,2024/03/14,02/01/2025,"N2,589,783,795",2327153819.14,67.1,Abandoned,GRACE ADEKUNLE,Cross River,no
+PROJ800129,   Enugu State Dam,Residential Estate,Borini Prono,state government,unknown date,01-Dec-2023,,-,"₦1,837,420,370.07",97.9,Suspended,Obinna Okafor,Akwa Ibom,Yes
+PROJ800229,  Kano State Hospital Building,Bridge,LCC Construction,ADB,N/A,2024-06-25,02/09/2024,"₦3,684,585,828.47",474538039.27,17.5,ONGOING,Adaeze Okonkwo,Delta,FALSE
+PROJ800299,Kano State Hospital Building,Office Complex,LCC Construction,ADB,2022/04/30,N/A,22 January 2026,"₦4,910,745,667.80","NGN 3,160,482,659",53.9,Completed ,Chidi Abubakar,Ibadan,No
+PROJ800182,Enugu State School Block,Hospital Building,Arab Contractors Nigeria,STATE GOVERNMENT,2019/03/03,11/07/2022,04.08.2022,"N4,718,413,275","N4,242,807,236",84.3,Completed ,Sadiq Ogundimu,Plateau,1
+PROJ800201,Rivers State School Block,Bridge,Setraco Nigeria,federal,2019-09-13,07/04/2021,06/05/2022,"N4,609,346,133",3450536481.56,24.8,on hold,GRACE LAWAL,Rivers,false
+PROJ800339,Anambra State School Block,Road Construction,LCC Construction,federal government,05 January 2023,16 February 2025,10 December 2024,"N4,039,935,361","NGN 1,580,351,623",26.1,completed,Bisi Adekunle   ,Cross River,Yes
+PROJ800300,Abuja State Bridge   ,Dam,Borini Prono,World Bank,27 March 2022,10/09/2024,11 February 2025,481801168.14 naira,338540316.70 naira,32.0,ONGOING,Zainab  Nnamdi,Imo,Yes
+PROJ800058,Imo State Bridge,Hospital Building,Setraco Nigeria,ADB,2023-02-05,11/05/2027,14 February 2027,541528307.09 naira,205583404.37,8.9,Completed,amara balogun,Lagos State,false
+PROJ800176,Ogun State Road Construction   ,Hospital Building,Arab Contractors Nigeria,WORLD BANK,06-Nov-2020,20.12.2024,18.05.2025,1602074594.95,"N1,384,807,803",92.4,Suspended,Sadiq Balogun,Kano,Yes
+PROJ800222,Cross River State Bridge,Road Construction,LCC Construction,Ngo,02/11/2023,03 October 2027,26-May-2028,"N4,606,635,744","NGN 4,176,789,701",72.4,Abandoned,Kemi Bello,Kano,FALSE
+PROJ800054,Lagos  State Bridge Rehabilitation,Dam,Arab Contractors Nigeria,world bank,08-Mar-2024,31.03.2026,28.03.2027,877718040.95 naira,"N490,865,914",n/a,on hold,Grace Yusuf,Oyo,0
+PROJ800039,Ogun  State Hospital Building,Dam,Julius Berger Nigeria,World Bank,2020-07-08,24 June 2021,19/06/2021,1860731375.62 naira,"N1,223,395,330",54.0,Ongoing,Segun Mohammed   ,Ogun,0
+PROJ800353,Akwa Ibom State Bridge,School Block,LCC Construction,State Government,27/06/2019,2020-11-17,2021/06/26,3352471781.93,"N2,448,954,024",52.5,Ongoing,chidi balogun,Cross River,true
+PROJ800336,  Lagos State Office Complex,Bridge Rehabilitation,Julius Berger Nigeria,Private Sector,13/08/2019,14 March 2023,03/01/2024,2914480357.26 naira,"N636,357,973",50.4,on hold,Ngozi Nnamdi,Kaduna,No
+PROJ800278,Cross River State Office Complex,Dam,Borini Prono,NGO,2022/11/07,10/31/2024,NIL,"₦3,830,948,430.70",3328837464.8,87.6,Suspended,funmilayo ogundimu   ,Cross River,Yes
+PROJ800074,Rivers State School Block,Bridge Rehabilitation,Cappa & D'Alberto,Federal Government,10/11/2024,2028-01-04,null,4903905587.72,"NGN 3,401,209,393",NIL,on hold,Funmilayo Afolabi,Delta,yes
+PROJ800055,Akwa Ibom State School Block,Hospital Building,Cappa & D'Alberto,Ngo,05/18/2020,2023/03/13,-,"₦4,988,533,655.53","₦1,969,876,248.87",25.7,Abandoned,Grace Okonkwo,Cross River,Y
+PROJ800307,Oyo State Road Construction,School Block,Arab Contractors Nigeria,State Government,18 March 2022,05/09/2026,09.07.2026,"3,630,826,193.85 ","₦1,003,086,728.82",23.1,Completed,Chidi Ajayi   ,Akwa Ibom,yes
+PROJ800132,Akwa Ibom State Office Complex,Hospital Building,Julius Berger Nigeria,Private Sector,29 August 2022,10-Jan-2027,-,"N194,783,158","N92,883,913",88.1,ONGOING,Blessing Nnamdi,Lagos,N
+PROJ800117,  Plateau State Office Complex,Bridge Rehabilitation,Julius Berger Nigeria,federal,09/02/2020,25-Jan-2022,19.01.2022,2075956546.17 naira,"N638,585,277",13.3,Ongoing,Tobi Eze   ,Anambra,yes
+PROJ800282,Oyo State Dam,Road Construction,LCC Construction,Ngo,02/06/2020,17/10/2022,Unknown,"₦2,973,608,671.50",2307620145.08 naira,73.0,completed,FATIMA LAWAL,Delta,false
+PROJ800298,Imo State Residential Estate,School Block,Arab Contractors Nigeria,FEDERAL GOVERNMENT,15 December 2020,30 September 2022,n/a,NULL,3291672780.13 naira,56.9,ONGOING,Ifeoma Lawal,Lagos,0
+PROJ800168,Plateau State Dam,School Block,Arab Contractors Nigeria,Federal Government,08/05/2019,31-Jul-2022,null,"NGN 4,880,501,297","N4,589,595,830",89.1,ONGOING,ALIYU  MOHAMMED   ,Abuja,TRUE
+PROJ800368,Cross River State Bridge Rehabilitation   ,Bridge,Setraco Nigeria,federal,2019-11-12,03/24/2023,null,"₦2,659,496,698.98","₦357,524,804.71",41.4,ONGOING,Blessing Adeyemi,Rivers,0
+PROJ800283,Plateau State Dam,Hospital Building,Arab Contractors Nigeria,ADB,17.11.2022,18.11.2024,,"₦1,183,902,751.49",unknown,33.8,on hold,GRACE OKEKE,Kano,Yes
+PROJ800375,  Ogun State Road Construction,Dam,Setraco Nigeria,FEDERAL,10.01.2021,09-Nov-2022,02/21/2023,"₦3,488,832,133.84",1685777932.11,85.0,completed,Amaka Lawal   ,Kaduna,N
+PROJ800354,Oyo State Office Complex,Dam,Cappa & D'Alberto,World Bank,05/06/2022,2024-07-07,30-Aug-2024,"N2,358,319,803","₦834,326,815.46",5.2,Completed,  musa bello,Enugu,1
+PROJ800269,Plateau State Hospital Building,School Block,Cappa & D'Alberto,Private Sector,08/07/2022,08.09.2024,NULL,"N3,404,664,740","₦1,355,174,909.61",43.3,on hold,Bisi Okeke   ,Edo,TRUE
+PROJ800036,Lagos State Road Construction,Bridge Rehabilitation,LCC Construction,adb,21/08/2020,17 May 2021,23 March 2021,"₦3,016,035,495.63","N1,239,541,316",82.3,Suspended,  ALIYU NWOSU,Cross River,no
+PROJ800362,Cross  River State Bridge Rehabilitation   ,Hospital Building,LCC Construction,STATE GOVERNMENT,00/00/0000,22 May 2028,25-Jan-2029,"4,027,923,873.45 ","N3,634,150,458",55.8,Ongoing,aliyu afolabi   ,Cross River,1
+PROJ800210,Akwa Ibom State Bridge,Road Construction,Cappa & D'Alberto,Private Sector,16.12.2022,12/10/2023,2023-10-13,"₦1,308,617,760.16","₦1,136,383,237.89",61.5,Completed ,Amaka Abubakar,Delta,1
+PROJ800272,Akwa Ibom State Bridge   ,Residential Estate,Setraco Nigeria,federal government,not set,not set,nil,"NGN 1,099,859,280","NGN 599,966,355",84.5,on hold,ZAINAB OKAFOR,Anambra,yes
+PROJ800045,Oyo State Residential Estate,Road Construction,Borini Prono,World bank,not set,17 August 2024,2024-09-26,73912684.71,"N30,493,588",67.7,on hold,kemi olawale,Ogun,FALSE
+PROJ800066,Rivers State School Block,Dam,Cappa & D'Alberto,State Government,12/19/2022,29.08.2023,09/12/2023,"NGN 3,098,990,451",599522656.59,93.3,ONGOING,IBRAHIM OKAFOR   ,Enugu,false
+PROJ800057,Kano State Residential Estate,Office Complex,Arab Contractors Nigeria,World bank,2020/12/06,18 August 2022,n/a,"N1,281,746,636",1038876527.32,33.3,Completed,tunde  abubakar,Ogun,No
+PROJ800077,Kaduna State Bridge,Bridge Rehabilitation,Borini Prono,NGO,2021-05-14,22 April 2022,2022/09/02,2017038067.83 naira,712607390.25,43.6,Completed ,bola eze,Akwa Ibom,yes
+PROJ800318,  Abuja State Dam,Bridge Rehabilitation,Borini Prono,State Government,00/00/0000,18 January 2025,08.11.2025,"N3,463,821,503",941761857.37,63.0,on hold,ALIYU CHUKWU,Abuja,TRUE
+PROJ800011,Ogun State Road Construction,Residential Estate,LCC Construction,ADB,not set,16-May-2025,NIL,3388485647.39,"NGN 2,918,362,102",17.6,completed,Ibrahim Mohammed,Cross River,true
+PROJ800048,   Kano State Hospital Building,Dam,Cappa & D'Alberto,world bank,13 June 2024,11/28/2026,05.03.2027,  ,"₦278,630,176.46",56.3,ONGOING,halima okafor,Cross River,false
+PROJ800219,Plateau State Road Construction,Dam,Arab Contractors Nigeria,Federal Government,08 July 2020,2023/08/02,05-Jun-2024,2670025440.60 naira,"NGN 2,251,948,178",90.6,ONGOING,  Musa Okonkwo,Rivers,yes
+PROJ800118,Oyo State Hospital Building   ,Hospital Building,Borini Prono,ADB,01.02.2021,04/09/2022,06/02/2023,"₦3,446,381,806.93",934509106.81,35.5,completed,FUNMILAYO OLAWALE,Enugu,true
+PROJ800028,Plateau State Dam   ,Bridge Rehabilitation,Borini Prono,NGO,18 November 2022,07.12.2026,19.12.2026,1062361709.47,"₦449,030,927.45",86.7,Abandoned,Kunle Lawal,abuja,yes
+PROJ800241,  Anambra State Residential Estate,Hospital Building,Borini Prono,World Bank,26 July 2019,09 April 2024,05-Feb-2024,2030780368.75,NULL,64.8,ONGOING,emeka  nnamdi,Kano,false
+PROJ800038,Kano State Office Complex,Road Construction,Julius Berger Nigeria,State Government,27-Dec-2023,12-Mar-2025,04/29/2025,"NGN 299,905,870","NGN 279,822,315",56.5,Completed ,bisi okonkwo,Lagos,No
+PROJ800026,  Ogun State Dam,Office Complex,Arab Contractors Nigeria,Private Sector,02-Apr-2023,2027-06-06,20.05.2028,"NGN 3,424,726,795","628,123,931.69 ",67.0,Suspended,Obinna Ogundimu,Imo,Y
+PROJ800355,Ogun State Hospital Building,Bridge Rehabilitation,Setraco Nigeria,Federal Government,2019/04/23,00/00/0000,2023/12/07,2381490754.46,"₦1,406,019,070.35",67.6,Completed ,FATIMA OKAFOR,Akwa Ibom,FALSE
+PROJ800044,Delta State Bridge,Hospital Building,Julius Berger Nigeria,adb,03 December 2021,03/29/2023,03-Nov-2023,"₦2,276,979,799.83","NGN 335,487,622",27.2,Abandoned,Ifeoma Okeke   ,Edo,false
+PROJ800247,Plateau State Bridge,Office Complex,Cappa & D'Alberto,PRIVATE SECTOR,11/12/2020,2023/10/29,28.10.2023,"₦1,648,500,196.67","N1,482,132,393",22.9,Suspended,Tunde Chukwu,Imo,true
+PROJ800184,Delta State Road Construction,School Block,Cappa & D'Alberto,WORLD BANK,2020-01-18,06-Apr-2024,08/16/2024,"₦2,518,852,025.52","NGN 1,385,616,536",-,Completed ,Tobi Suleiman,Rivers,true
+PROJ800152,  Plateau State Residential Estate,Road Construction,Arab Contractors Nigeria,State Government,11 August 2022,2024/10/05,21.01.2025,"2,832,528,857.68 ","542,576,067.68 ",46.0,completed,Chioma Ogundimu,Abuja,N
+PROJ800043,Rivers State Dam,Office Complex,Setraco Nigeria,World bank,25/12/2022,2027/09/01,31/08/2028,"NGN 1,446,579,000","NGN 1,229,171,771",20.4,Suspended,bisi mohammed,Cross River,1
+PROJ800111,Lagos State School Block,Residential Estate,Cappa & D'Alberto,WORLD BANK,2022/08/20,2023-06-17,,1077327789.91,"NGN 996,657,316",38.6,Completed ,Ifeoma Abubakar   ,Kaduna,FALSE
+PROJ800124,Rivers State Dam,Road Construction,Cappa & D'Alberto,world bank,27/01/2024,2025/04/28,06/13/2025,"NGN 3,462,116,886","NGN 2,525,354,916",74.0,on hold,Halima Olawale,Enugu,TRUE
+PROJ800308,Ogun State Residential Estate,School Block,Cappa & D'Alberto,World bank,2021/09/10,N/A,02/10/2024,"N1,108,020,114","₦286,480,131.42",98.9,completed,Bisi Lawal,Delta,FALSE
+PROJ800092,Lagos State Road Construction,Hospital Building,LCC Construction,World Bank,2022/05/09,2024-02-12,2024-11-12,"₦3,488,072,302.24","NGN 1,995,887,738",Unknown,Completed ,chidi nwosu,Oyo,no
+PROJ800305,Delta State Bridge Rehabilitation   ,Office Complex,Borini Prono,private sector,2020/05/30,07 March 2021,09.08.2021,"₦1,092,892,808.52",unknown,52.4,Completed,chinedu mohammed,Cross River,Yes
+PROJ800162,Oyo State Hospital Building,Bridge Rehabilitation,Setraco Nigeria,private sector,05/01/2022,2025/06/11,2025-04-09,4091065570.43,"N950,517,974",n/a,Completed ,ibrahim okeke   ,Edo,No
+PROJ800216,Abuja  State Bridge,Dam,Cappa & D'Alberto,NGO,10-May-2023,2027-02-09,22.05.2027,"N795,186,335",,n/a,Suspended,IBRAHIM OKONKWO,Enugu,yes
+PROJ800076,Edo State Dam,Bridge,Arab Contractors Nigeria,World Bank,,2027-07-02,NIL,"NGN 4,242,134,799",552005465.11,73.5,Completed ,Chidi Eze,Akwa Ibom,Yes
+PROJ800328,  Lagos State Bridge Rehabilitation,Bridge Rehabilitation,Setraco Nigeria,Federal Government,2020-11-17,11-Nov-2023,nil,"₦1,609,754,606.42",?,26.2,Completed ,Tunde Nnamdi,Lagos,false
+PROJ800157,Cross River State Office Complex,Road Construction,LCC Construction,World Bank,2023-12-31,03/08/2028,2027-12-18,"N1,006,671,186","₦575,299,097.01",43.9,ONGOING,Obinna  Suleiman   ,kano,no
+PROJ800347,  Abuja State Dam,Office Complex,LCC Construction,State Government,00/00/0000,07/04/2027,,3676576300.12 naira,"NGN 560,549,413",14.7,on hold,Zainab  Okafor,Kano,0
+PROJ800035,Delta State Bridge Rehabilitation,Bridge Rehabilitation,Borini Prono,State Government,11/25/2023,01/05/2028,2028-10-13,1734152870.92,"₦995,821,263.39",61.5,Abandoned,KEMI EZE,Akwa Ibom,0
+PROJ800084,Ogun State Bridge,Bridge Rehabilitation,Borini Prono,FEDERAL GOVERNMENT,29-Dec-2020,08-Nov-2021,2022/05/29,"NGN 4,838,690,083","NGN 4,204,061,300",65.6,completed,  Fatima Okafor,Edo,Yes
+PROJ800310,Rivers State Bridge,Bridge Rehabilitation,Cappa & D'Alberto,ADB,03/25/2020,13.03.2023,20/05/2023,4170209458.5,,43.0,Completed,adaeze mohammed,Anambra,No
+PROJ800267,Abuja State Bridge,School Block,Setraco Nigeria,FEDERAL,01 June 2021,04/12/2023,05 March 2024,"NGN 3,294,835,787","NGN 3,245,345,868",6.8,Completed,Funmilayo Ajayi,Ogun,No
+PROJ800021,Enugu State Bridge Rehabilitation   ,Road Construction,Cappa & D'Alberto,World Bank,00/00/0000,2022/11/21,13.04.2023,"₦63,750,822.00","NGN 56,440,132",42.5,Ongoing,Aliyu Mohammed,rivers,Y
+PROJ800012,Oyo State Residential Estate,Residential Estate,Julius Berger Nigeria,State Government,unknown date,2027/01/13,08 April 2027,"₦377,739,492.62","NGN 350,173,611",20.7,Abandoned,  Sadiq Yusuf,Imo,true
+PROJ800005,Imo State Bridge,Dam,LCC Construction,State Government,02/28/2019,2024/01/08,2024-08-16,"₦4,112,300,283.92","N2,773,205,591",34.5,on hold,obinna olawale,Ogun,yes
+PROJ800075,Kano  State Residential Estate,School Block,LCC Construction,World Bank,15 April 2022,19-Jun-2025,2025-04-30,1180939075.90 naira,"₦210,326,199.61",33.9,Completed,Ifeoma Afolabi,kano,0
+PROJ800063,Kano State School Block,Hospital Building,Borini Prono,Adb,2019/02/04,08/10/2019,2020-05-26,"₦4,479,154,378.79","NGN 3,085,773,610",73.8,Completed ,KUNLE ADEYEMI,Delta,no
+PROJ800011,Ogun State Road Construction,Residential Estate,LCC Construction,ADB,not set,16-May-2025,NIL,3388485647.39,"NGN 2,918,362,102",17.6,completed,Ibrahim Mohammed,Cross River,true
+PROJ800018,Akwa Ibom State Bridge Rehabilitation,Office Complex,LCC Construction,Adb,13-Aug-2019,12-Dec-2020,2021/12/08,3007358427.69,"NGN 767,148,442",n/a,Suspended,Segun Eze,rivers,0
+PROJ800348,Kano State Bridge Rehabilitation,Dam,Borini Prono,World Bank,06 December 2024,2026/08/07,08.01.2027,1912422719.08 naira,1556534896.40 naira,60.3,Ongoing,NGOZI NNAMDI,Ogun,FALSE
+PROJ800225,Anambra State Dam,Road Construction,Cappa & D'Alberto,ADB,27 May 2020,27/07/2024,NIL,"₦413,307,011.44",,68.7,completed,Ifeoma Balogun,Lagos,true
+PROJ800110,Kaduna State Road Construction,Road Construction,Cappa & D'Alberto,federal,09 May 2019,26 May 2022,04 April 2023,1593065284.05 naira,"NGN 1,502,791,491",unknown,on hold,Emeka Mohammed,Kano,FALSE
+PROJ800277,Abuja State Bridge Rehabilitation,Bridge,Borini Prono,World Bank,2023/04/11,08.05.2024,  ,"2,796,306,691.78 ","₦1,810,209,214.84",6.4,ONGOING,Grace Balogun,Ogun,Yes
+PROJ800093,Delta State Bridge Rehabilitation   ,Hospital Building,Cappa & D'Alberto,World bank,2021-08-19,04/06/2024,18/11/2024,"₦2,848,411,906.06","₦542,045,406.85",6.1,ONGOING,Chidi Adeyemi,Ogun,0
+PROJ800119,  Lagos State Residential Estate,Hospital Building,Arab Contractors Nigeria,State Government,24-Oct-2020,02-Nov-2024,28 October 2025,951648280.03,"N279,538,279",43.0,Ongoing,Amara Eze,Imo,true
+PROJ800120,  Edo State Road Construction,Bridge,LCC Construction,federal,02/28/2024,07-Mar-2026,03/05/2026,"NGN 1,210,688,912","839,606,907.16 ",Unknown,on hold,Aliyu Afolabi,Anambra,false
+PROJ800212,Rivers State Residential Estate,Office Complex,LCC Construction,FEDERAL GOVERNMENT,19-Jul-2019,12-Aug-2020,27 July 2020,"₦2,324,627,936.95",--,41.8,ONGOING,Grace Adekunle,Abuja,TRUE
+PROJ800251,Imo State Bridge   ,Hospital Building,LCC Construction,PRIVATE SECTOR,00/00/0000,29-Jan-2023,Unknown,"2,217,984,083.23 ","₦1,572,780,649.32",68.6,Suspended,Funmilayo  Ajayi,Delta,TRUE
+PROJ800243,Delta State School Block,Bridge Rehabilitation,Cappa & D'Alberto,ngo,11-Aug-2019,2020-07-17,2021-04-25,"N3,481,913,703",3301905625.21,6.4,Completed,Kunle Lawal,Imo,false
+PROJ800290,Rivers State Hospital Building,Bridge,Arab Contractors Nigeria,NGO,2019-12-21,02 January 2021,10-Feb-2021,"NGN 1,292,534,165","262,613,120.40 ",54.9,completed,BOLA OKEKE,Plateau,false
+PROJ800191,Oyo State Bridge Rehabilitation,Office Complex,Borini Prono,federal government,09/12/2020,03.11.2023,06 September 2024,"N1,437,316,450",1117621535.31,96.6,on hold,Ngozi Olawale,Delta,false
+PROJ800097,   Lagos State School Block,Hospital Building,Julius Berger Nigeria,ADB,06/13/2023,11/09/2024,2024/10/11,86853332.56 naira,58849913.11,55.2,on hold,Funmilayo Adekunle,Lagos,N
+PROJ800232,Akwa Ibom State Bridge Rehabilitation,Bridge Rehabilitation,Cappa & D'Alberto,World bank,15-Aug-2024,22.10.2026,  ,4403096198.11 naira,"NGN 4,402,693,635",49.0,Ongoing,GRACE EZE,Kaduna,Y
+PROJ800081,Anambra  State School Block   ,Road Construction,Setraco Nigeria,PRIVATE SECTOR,25/01/2023,2024/12/06,10/10/2024,932348743.13,919578291.13,5.1,Abandoned,ibrahim mohammed,Anambra,FALSE
+PROJ800288,Imo State Residential Estate,Bridge Rehabilitation,LCC Construction,federal government,25-Sep-2023,29.01.2026,nil,3477296490.47 naira,"₦828,203,427.63",70.5,Abandoned,emeka yusuf,Enugu,FALSE
+PROJ800262,  Imo State Hospital Building,Dam,Arab Contractors Nigeria,ADB,2023-06-19,16.04.2025,20 August 2025,3609300429.90 naira,2862793335.22,93.2,Ongoing,kemi okeke,Imo,FALSE
+PROJ800249,  Edo State Bridge Rehabilitation,Hospital Building,Setraco Nigeria,World Bank,10-Apr-2023,16-Mar-2028,2028-04-27,"NGN 3,468,802,981","2,013,894,626.48 ",Unknown,Ongoing,BOLA OKAFOR,Imo,No
+PROJ800257,Enugu  State Dam,School Block,Cappa & D'Alberto,PRIVATE SECTOR,24 February 2024,23 October 2025,2025-10-02,"₦890,648,943.23","860,866,418.80 ",11.1,completed,FEMI YUSUF,Anambra,N
+PROJ800324,Oyo State Dam,Road Construction,Julius Berger Nigeria,Private Sector,24-Apr-2020,27.01.2021,10/15/2021,"N3,993,756,571","2,690,593,549.10 ",46.2,Ongoing,Chioma Afolabi,Lagos,FALSE
+PROJ800095,  Kano State Office Complex,Dam,Cappa & D'Alberto,STATE GOVERNMENT,04 October 2020,2022/01/21,03-Mar-2022,1628152446.91 naira,"N1,545,882,146",33.9,Completed,EMEKA SULEIMAN,Delta,Yes
+PROJ800145,Delta State Bridge,Bridge,Julius Berger Nigeria,WORLD BANK,23/04/2023,2027/09/08,-,"N3,418,917,068",1312777258.25,39.0,ONGOING,Amara Afolabi,Enugu,Y
+PROJ800099,Akwa  Ibom State Road Construction,School Block,Arab Contractors Nigeria,Federal Government,2021/06/24,06-Nov-2023,unknown,2003926070.86 naira,"N876,672,088",37.6,Completed ,Amara Nwosu,Delta,Y
+PROJ800286,  Rivers State Residential Estate,Hospital Building,Julius Berger Nigeria,World bank,08/01/2024,11/12/2027,nil,"₦4,274,626,084.50","₦2,664,747,753.79",87.2,Ongoing,CHIOMA  NNAMDI,Kaduna,true
+PROJ800142,  Enugu State Hospital Building   ,Bridge,LCC Construction,World bank,01-Jan-2020,2024/03/25,n/a,3166639990.11,927917967.94,44.3,Suspended,Halima Yusuf,Anambra,1
+PROJ800327,Lagos State Dam,Residential Estate,Arab Contractors Nigeria,WORLD BANK,2023/11/09,31/07/2026,2026/08/03,"₦4,254,082,133.60",1784071152.49,49.8,Ongoing,Blessing Bello,Imo,yes
+PROJ800223,Anambra State Bridge,School Block,Julius Berger Nigeria,ngo,24 December 2019,2024-09-26,2025-05-21,"₦2,931,865,906.43",795335932.60 naira,93.3,Ongoing,KEMI AFOLABI,Edo,1
+PROJ800172,Kano State Office Complex,Residential Estate,Setraco Nigeria,Ngo,12/13/2021,07/07/2023,08/24/2023,2471065024.82,"NGN 464,211,329",-,completed,Tunde Lawal,Akwa Ibom,1
+PROJ800206,  Imo State Residential Estate,Office Complex,LCC Construction,world bank,27.08.2022,2025/05/23,unknown date,"₦3,034,246,325.51","N2,219,148,991",18.8,Completed,grace afolabi   ,Lagos,0
+PROJ800160,Edo State School Block,Bridge Rehabilitation,Setraco Nigeria,Private Sector,26 October 2024,07 August 2025,n/a,3835687515.35,"₦2,225,530,552.73",44.3,Abandoned,Aliyu Bello,Kaduna,FALSE
+PROJ800261,Oyo State Bridge   ,Hospital Building,Cappa & D'Alberto,World Bank,,2026-11-22,20-Dec-2026,"₦4,647,734,864.61",4035101828.87 naira,70.6,Ongoing,  Femi Adeyemi,LAGOS,yes
+PROJ800030,Oyo  State School Block,Dam,Setraco Nigeria,federal,04/04/2020,19.02.2024,22 December 2024,"NGN 4,389,951,068","₦2,658,572,415.14",41.5,Completed ,Adaeze Eze,Akwa Ibom,true
+PROJ800265,  Imo State Road Construction,Dam,Cappa & D'Alberto,WORLD BANK,16 February 2021,2022-10-24,20-Sep-2022,4109850708.85,"₦590,200,425.53",75.1,Abandoned,Tunde Mohammed,kano,1
+PROJ800190,Abuja State School Block,Dam,Setraco Nigeria,federal,05 September 2020,16-Sep-2022,06 November 2022,"₦2,760,408,826.07",1352270473.31,77.1,on hold,Segun  Eze,Lag,No
+PROJ800050,  Anambra State Residential Estate,Hospital Building,LCC Construction,State Government,18/12/2023,2027-02-03,nil,58016340.00 naira,"₦41,779,650.81",,Ongoing,  Chinedu Mohammed   ,Anambra,N
+PROJ800153,  Lagos State Road Construction   ,School Block,Cappa & D'Alberto,FEDERAL GOVERNMENT,unknown date,11/09/2025,04.09.2025,"1,626,641,868.34 ",1177374158.86,13.3,Completed,Wale Chukwu,Cross River,Y
+PROJ800052,  Akwa Ibom State Bridge Rehabilitation,Dam,Cappa & D'Alberto,world bank,N/A,2026/01/11,2025/12/14,"₦2,191,550,319.70",506836489.30 naira,6.3,Suspended,Wale Olawale,Delta,no
+PROJ800297,Cross River State Residential Estate,Bridge,Setraco Nigeria,World Bank,10/15/2022,22/12/2024,04.03.2025,"₦2,198,813,833.52","₦657,390,247.80",38.5,Suspended,ifeoma okafor,Kano,No
+PROJ800364,Kaduna State Hospital Building,Hospital Building,Setraco Nigeria,state government,05/24/2022,01/19/2024,14/03/2024,"₦4,001,043,959.40","N2,815,004,938",46.7,Completed ,KUNLE BELLO   ,Kaduna,TRUE
+PROJ800293,Akwa Ibom State Hospital Building,Residential Estate,Cappa & D'Alberto,Private Sector,10-Jan-2023,16 May 2027,24 February 2027,4864209974.59,1896931634.64 naira,67.1,completed,BOLA  OKONKWO,Ogun,true
+PROJ800116,Plateau State Dam,School Block,LCC Construction,STATE GOVERNMENT,,N/A,12/23/2027,"₦2,847,118,084.17","₦2,111,416,714.50",98.2,ONGOING,SEGUN EZE,Rivers State,yes
+PROJ800326,  Akwa Ibom State Hospital Building,Bridge,LCC Construction,world bank,20 June 2020,12/26/2020,21 August 2021,"₦2,372,241,513.11","₦262,890,192.03",49.7,completed,Ibrahim  Bello,Plateau,no
+PROJ800195,Abuja State Dam   ,Bridge Rehabilitation,Arab Contractors Nigeria,Private Sector,2024-01-30,2027-09-10,30-Dec-2027,2586603344.55 naira,"NGN 441,630,476",34.0,Completed,Segun Ogundimu   ,Rivers,N
+PROJ800285,Enugu State Hospital Building,Hospital Building,Cappa & D'Alberto,World bank,11 August 2019,20 October 2020,NIL,"3,333,403,846.26 ","1,567,478,468.40 ",54.3,Abandoned,zainab yusuf,Ogun,1
+PROJ800047,Abuja State Residential Estate,Hospital Building,LCC Construction,State Government,14 July 2023,27-Jun-2026,05/01/2027,4627726366.27 naira,"₦2,942,419,108.03",37.3,Suspended,Chidi Ajayi,Kaduna,No
+PROJ800001,Kano State Bridge,Bridge,LCC Construction,ADB,2019-12-25,2021/09/10,2022-01-16,"3,672,730,780.01 ","3,622,169,022.32 ",70.9,Suspended,FUNMILAYO YUSUF,Plateau,true
+PROJ800158,Rivers State Bridge   ,Office Complex,Borini Prono,NGO,15.01.2020,2023/07/06,2024-06-19,1624053725.01,--,23.3,Ongoing,Obinna Okafor,Delta,Yes
+PROJ800319,Kaduna State Office Complex   ,Residential Estate,Setraco Nigeria,NGO,09-Jan-2021,26.10.2025,17.12.2025,n/a,"₦821,751,884.85",37.3,Completed,  Obinna Adeyemi,Cross River,Yes
+PROJ800029,Rivers State Bridge Rehabilitation,Residential Estate,Borini Prono,NGO,30/11/2019,2023/12/08,2023/09/15,,"2,994,064,772.72 ",76.2,Suspended,ifeoma adeyemi,Akwa Ibom,no
+PROJ800313,Imo State Office Complex,Residential Estate,Setraco Nigeria,NGO,2021-08-04,22/02/2022,,"NGN 1,288,232,762","₦444,705,553.08",11.2,Completed,  EMEKA AJAYI,Kaduna,FALSE
+PROJ800199,Anambra State Residential Estate,Dam,Setraco Nigeria,World Bank,N/A,2023-01-16,,"4,880,177,169.36 ",2994303874.75 naira,51.3,Completed,  Emeka Lawal   ,Imo,1
+PROJ800346,Ogun State Office Complex,School Block,Borini Prono,World bank,10/22/2019,13.03.2023,2023/10/23,"N3,246,132,879","₦1,505,486,899.98",35.8,Ongoing,  Ngozi Olawale,Abuja,yes
+PROJ800080,  Enugu State Bridge,Bridge Rehabilitation,LCC Construction,WORLD BANK,11.05.2024,2025-02-25,08-May-2025,1069738966.09,1028255946.52,54.3,Ongoing,Segun Abubakar,Oyo,true
+PROJ800154,Anambra State Residential Estate   ,Road Construction,Julius Berger Nigeria,ADB,2019/03/31,2020/08/27,,"N1,630,617,169","NGN 996,989,794",82.2,completed,HALIMA AJAYI,Imo,0
+PROJ800316,  Plateau State Dam,School Block,Arab Contractors Nigeria,world bank,26/05/2024,2025/03/26,08/05/2025,"₦1,233,376,202.65","₦1,101,768,911.58",47.7,completed,Chidi Suleiman,oyo,0
+PROJ800079,Delta State Hospital Building   ,Residential Estate,Cappa & D'Alberto,World Bank,2022-07-21,30/10/2023,  ,528368702.15,411818728.12 naira,3.9,Completed,Femi Adekunle,Plateau,FALSE
+PROJ800335,Lagos State Road Construction,Dam,Julius Berger Nigeria,NGO,21/06/2023,07.08.2024,02.06.2024,"NGN 1,180,701,014","₦794,598,142.66",20.4,Suspended,  Chioma Abubakar,Abuja,no
+PROJ800085,Plateau State Bridge,Dam,Arab Contractors Nigeria,NGO,09/17/2023,04/08/2028,08 December 2028,"₦4,495,524,537.64","NGN 1,827,150,616",56.4,on hold,HALIMA LAWAL,Plateau,0
+PROJ800220,Akwa Ibom State Bridge,Dam,Borini Prono,NGO,03 November 2022,03/02/2027,NIL,"NGN 2,295,207,472","NGN 1,431,679,609",68.0,completed,Kemi Ogundimu,Kaduna,true
+PROJ800135,  Oyo State Residential Estate,Hospital Building,Arab Contractors Nigeria,state government,09.09.2022,2023-10-07,24 June 2024,"N1,338,080,577","N746,751,553",33.9,Suspended,Adaeze  Okonkwo   ,Lagos,N
+PROJ800180,Akwa Ibom State Bridge   ,Office Complex,Borini Prono,state government,19/01/2022,15/02/2026,2025/11/26,"3,972,384,440.21 ","NGN 498,309,035",1.5,Suspended,Tunde  Chukwu,Port Harcourt,Y
+PROJ800165,  Edo State Bridge,Residential Estate,Borini Prono,World Bank,not set,04/04/2027,nil,1393604880.35,256223775.79 naira,13.6,Completed ,Ifeoma Adeyemi,Plateau,true
+PROJ800123,Plateau State Bridge,Bridge,Cappa & D'Alberto,federal government,unknown date,,  ,"NGN 3,283,738,479","N2,907,820,411",72.1,on hold,Wale Nwosu,Enugu,yes
+PROJ800192,  Ogun State Bridge,Residential Estate,Julius Berger Nigeria,Federal Government,05.05.2020,16 June 2021,2022/06/02,"N4,560,143,144","NGN 1,148,922,723",29.3,Completed ,Amara Balogun,Lagos,No
+PROJ800332,  Kano State Bridge,Bridge Rehabilitation,Arab Contractors Nigeria,federal government,26 April 2023,2027-10-16,2028/04/13,2361802298.93 naira,"903,870,178.86 ",92.8,completed,Yusuf Okeke,Delta,false
+PROJ800233,Rivers State School Block,Residential Estate,Setraco Nigeria,FEDERAL,26/06/2022,not set,2023/04/17,"₦2,179,873,258.51","NGN 1,187,014,832",49.1,Ongoing,  KEMI BALOGUN   ,Edo,0
+PROJ800042,Enugu State Bridge Rehabilitation,School Block,Setraco Nigeria,World Bank,21.12.2019,03-Oct-2020,nil,806781741.61,"NGN 400,643,903",36.3,Ongoing,ALIYU AJAYI,LAGOS,N
+PROJ800189,Oyo State Residential Estate,Road Construction,Julius Berger Nigeria,State Government,2023-08-15,14.02.2028,07-Jun-2028,"N1,697,230,887","252,979,334.27 ",93.7,Completed ,Obinna  Nnamdi,Cross River,no
+PROJ800350,Plateau State Hospital Building   ,School Block,Cappa & D'Alberto,state government,24/11/2022,02 August 2025,22.03.2026,"NGN 4,284,039,521",3121737492.5,--,on hold,Ngozi Okafor,Delta,Yes
+PROJ800100,Cross River State Hospital Building   ,Office Complex,LCC Construction,World bank,20/06/2019,29.11.2023,n/a,"NGN 4,354,449,886","N759,347,107",79.1,Ongoing,BOLA OKEKE,Kano,true
+PROJ800244,Ogun  State Office Complex,Road Construction,Arab Contractors Nigeria,adb,11 October 2024,25/07/2025,NIL,"NGN 4,059,967,182","N3,976,203,630",98.4,Abandoned,MUSA ABUBAKAR,LAGOS,yes
+PROJ800344,Anambra State Bridge,Road Construction,Borini Prono,NGO,04/04/2021,23-Nov-2023,Unknown,3829989719.71 naira,902460180.39,56.9,Completed ,  Zainab Nwosu,Cross River,N
+PROJ800371,Delta State Hospital Building   ,Road Construction,Borini Prono,NGO,26 October 2019,06/27/2021,16-Apr-2022,252166235.06,"N57,149,429",23.2,ONGOING,ngozi chukwu,Kano,no
+PROJ800020,Oyo State Bridge Rehabilitation,School Block,Borini Prono,Ngo,,01.06.2023,30.07.2023,"₦3,859,757,179.13",1615325588.52 naira,42.8,on hold,  Wale Adekunle,Kaduna,FALSE
+PROJ800253,  Plateau State Office Complex,Bridge,Arab Contractors Nigeria,World Bank,08/10/2024,11 July 2026,--,4478219718.42 naira,3942052348.49,35.5,Abandoned,Chinedu Abubakar,Ogun,FALSE
+PROJ800023,Ogun State Bridge,School Block,Setraco Nigeria,World Bank,2022/07/06,04/03/2024,22 March 2025,"N1,173,901,047","₦645,881,093.91",66.1,completed,Bisi Okeke   ,Ogun,1
+PROJ800379,Enugu State Bridge,Hospital Building,Borini Prono,Private Sector,11 April 2021,11 October 2024,unknown date,2069574726.24,"₦295,754,473.61",54.5,Completed,Ibrahim Lawal   ,Anambra,TRUE
+PROJ800122,Enugu State Bridge Rehabilitation,Dam,Setraco Nigeria,Private Sector,2023-08-25,15.05.2024,2025/01/02,"₦2,751,673,711.46","NGN 1,707,122,259",33.1,on hold,ADAEZE AFOLABI   ,Anambra,No
+PROJ800309,Kaduna State Bridge,Bridge,Cappa & D'Alberto,WORLD BANK,22/02/2023,01/01/2024,?,961617711.78,"NGN 769,484,174",unknown,Ongoing,  Kunle Afolabi   ,Plateau,N
+PROJ800214,Imo State Residential Estate,School Block,Setraco Nigeria,world bank,02-Mar-2024,25-Jul-2026,  ,"N577,164,185",322144178.68,54.3,Suspended,Yusuf Eze,Delta,Yes
+PROJ800179,Cross River State Residential Estate,Residential Estate,Setraco Nigeria,State Government,2023/12/10,30-Jun-2028,18/11/2028,"₦4,236,033,525.37","NGN 3,512,120,453",,Completed ,Sadiq Nwosu,Oyo,TRUE
+PROJ800369,Plateau State Dam,Bridge,Julius Berger Nigeria,NGO,02/04/2021,01/05/2026,2026/12/12,"₦3,287,983,822.27",2031104005.28 naira,60.1,Completed ,   YUSUF LAWAL,Rivers,Yes
+PROJ800156,Oyo State Hospital Building   ,School Block,Julius Berger Nigeria,world bank,10 February 2023,02/04/2024,29/08/2024,"N938,454,747",210017873.99 naira,56.8,completed,grace balogun,Ibadan,N
+PROJ800349,Anambra  State Bridge,Bridge,Setraco Nigeria,ngo,2024/03/05,,11-Oct-2027,"4,227,077,987.56 ","₦2,928,728,459.32",83.1,on hold,  Halima Adekunle,Abuja,1
+PROJ800150,  Akwa Ibom State Road Construction,Residential Estate,Arab Contractors Nigeria,NGO,22.12.2024,2029-03-01,16/06/2029,"₦2,237,424,233.61","NGN 2,158,756,290",71.6,completed,Fatima Suleiman,Abuja,yes
+PROJ800254,Cross River State Dam,Hospital Building,LCC Construction,State Government,03/06/2021,30/07/2024,2024-08-18,2459952772.1,"NGN 2,208,748,318",68.2,ONGOING,bola okeke,Edo,no
+PROJ800275,Delta State Hospital Building,Hospital Building,Cappa & D'Alberto,federal,09.12.2022,2024-07-28,nil,"N2,361,448,715","NGN 1,578,727,488",91.3,Ongoing,Segun Suleiman   ,Delta,TRUE
+PROJ800053,Rivers State Hospital Building,Bridge,Borini Prono,NGO,08-Sep-2022,11/03/2023,03/08/2023,"₦1,507,276,460.16","₦1,464,397,120.87",65.1,Abandoned,  MUSA MOHAMMED,Akwa Ibom,false
+PROJ800258,  Kaduna State Bridge,Hospital Building,Setraco Nigeria,World bank,2022/09/05,not set,01/12/2027,712139211.72 naira,"N607,928,332",23.4,completed,  Emeka Olawale,Delta,Y
+PROJ800250,Delta State Road Construction,Bridge,Arab Contractors Nigeria,adb,10/24/2024,08.03.2026,2026-03-22,"2,409,165,850.02 ","NGN 783,288,184",58.7,completed,Bisi Yusuf,Plateau,FALSE
+PROJ800236,Delta State School Block   ,Road Construction,Borini Prono,ADB,2021-09-13,12.05.2023,15/07/2023,3786782950.37,"NGN 1,321,501,904",23.1,Suspended,blessing nnamdi,Imo,false
+PROJ800069,  Edo State School Block,Hospital Building,Julius Berger Nigeria,Federal Government,2019-04-06,24.04.2022,08/07/2022,"NGN 2,167,032,136",N/A,38.7,completed,  Bola Okonkwo,Ogun,1
+PROJ800177,Oyo State Office Complex,Bridge,Arab Contractors Nigeria,WORLD BANK,2024/07/12,28-Oct-2026,-,"N1,031,084,320",453346518.19,11.3,completed,TOBI OKONKWO,Cross River,FALSE
+PROJ800301,Cross River State Office Complex,Bridge Rehabilitation,Cappa & D'Alberto,NGO,22/10/2024,27.02.2029,N/A,"₦85,541,302.19",nil,14.8,completed,ngozi olawale,Abuja,TRUE
+PROJ800070,Lagos State Road Construction,Road Construction,Arab Contractors Nigeria,NGO,01 November 2024,01/12/2026,2026/12/18,"N1,625,846,289","N1,315,012,349",38.8,Ongoing,Amara Eze,Abuja,TRUE
+PROJ800338,Cross River State School Block,Hospital Building,LCC Construction,NGO,26 July 2022,16/06/2027,12/06/2028,"₦668,602,150.47",n/a,82.3,Ongoing,CHINEDU ADEKUNLE,Port Harcourt,no
+PROJ800056,Rivers State Bridge Rehabilitation,Dam,LCC Construction,private sector,02/04/2024,2029/01/17,,"₦1,322,440,236.01","₦1,005,413,361.65",63.2,on hold,Aliyu Olawale,Imo,N
+PROJ800002,Plateau  State Dam,Dam,Cappa & D'Alberto,NGO,25 August 2020,28/04/2021,2021/10/31,"N708,109,604",n/a,59.2,completed,MUSA AJAYI,Kaduna,No
+PROJ800007,Kaduna State Dam,Hospital Building,Setraco Nigeria,NGO,09/10/2021,19-Feb-2025,06/09/2025,nil,"NGN 2,443,938,538",14.8,completed,Wale Chukwu,Anambra,true
+PROJ800148,Lagos State Dam,Bridge,Arab Contractors Nigeria,ADB,2022-08-23,23 July 2026,n/a,3426870338.17 naira,--,60.2,on hold,Blessing Lawal,Ogun,1
+PROJ800304,Abuja State Bridge Rehabilitation,Bridge,Cappa & D'Alberto,World Bank,06 September 2020,,30-Sep-2023,936016140.11,"NGN 133,477,156",34.5,ONGOING,Amaka Adeyemi,Abuja,yes
+PROJ800046,Edo State Road Construction,Office Complex,LCC Construction,Federal,01-Jun-2024,14 May 2026,nil,"N3,681,571,193",3423043797.95,63.2,on hold,Wale Lawal,Abuja,TRUE
+PROJ800323,Rivers State Residential Estate,Bridge,LCC Construction,NGO,2019-07-24,04/10/2024,30/01/2024,"₦241,141,462.61",125184567.34,53.1,on hold,Ngozi Bello,Kaduna,false
+PROJ800376,Kaduna State School Block,Residential Estate,Setraco Nigeria,State Government,2022/10/25,2026-04-19,11/01/2026,"₦1,058,718,175.08",797520437.80 naira,96.4,ONGOING,Tunde Afolabi,Delta,0
+PROJ800325,Plateau State Bridge Rehabilitation,Hospital Building,Setraco Nigeria,FEDERAL,27/06/2020,00/00/0000,28/02/2025,"NGN 1,947,246,601","N1,329,311,761",88.2,Abandoned,Halima Nwosu   ,Imo,Y
+PROJ800065,Oyo State Residential Estate,Bridge,Setraco Nigeria,Federal Government,16 September 2022,18 August 2025,NIL,4547639402.34 naira,"NGN 1,326,237,798",42.5,Completed ,OBINNA OLAWALE,Lagos,0
+PROJ800062,  Enugu State Bridge,School Block,Cappa & D'Alberto,federal,2022/02/19,unknown date,?,96648550.84 naira,"NGN 35,777,945",59.2,on hold,Musa Okonkwo,Imo,false
+PROJ800024,Akwa Ibom State Road Construction   ,School Block,Arab Contractors Nigeria,World bank,2021/09/05,2023/05/07,19/02/2023,"₦2,844,428,868.12",1846444291.78,9.6,ONGOING,bisi nnamdi,Plateau,yes
+PROJ800331,Rivers State School Block,Road Construction,Arab Contractors Nigeria,Federal Government,2020/02/11,19 March 2022,03/01/2023,99592648.12,19026424.89 naira,null,Completed,Obinna Eze,Ogun,Yes
+PROJ800127,Kano State Dam,Office Complex,Setraco Nigeria,World bank,2021-02-20,12/15/2022,?,"₦546,968,805.54","NGN 99,709,626",41.5,completed,  ZAINAB OKEKE,Kano,false
+PROJ800188,Delta State Dam,School Block,Cappa & D'Alberto,private sector,04/26/2023,02.06.2024,2025-01-22,"NGN 494,915,297","₦155,467,669.81",9.0,completed,CHIDI  AJAYI,Kano,TRUE
+PROJ800091,Delta State Residential Estate   ,Bridge,Arab Contractors Nigeria,World bank,08/15/2019,02/02/2024,-,unknown,787987038.35 naira,69.3,ONGOING,Obinna  Mohammed,Delta,Y
+PROJ800334,Oyo State Bridge Rehabilitation,Bridge Rehabilitation,Setraco Nigeria,World Bank,2019/10/02,2023-09-11,N/A,4301620926.91 naira,"₦3,903,807,666.80",6.4,completed,EMEKA MOHAMMED,Delta,false
+PROJ800146,Plateau State Residential Estate,Dam,Arab Contractors Nigeria,Federal Government,20 January 2023,04.08.2027,2027/07/15,1758715871.19 naira,842296245.49,34.9,Abandoned,KEMI MOHAMMED,Kaduna,N
+PROJ800121,Edo  State Hospital Building,Dam,LCC Construction,ADB,2022/01/05,12.09.2023,NULL,"₦1,956,785,190.85","NGN 1,804,941,702",5.9,Ongoing,Tobi Adeyemi,Delta,no
+PROJ800078,Rivers State Residential Estate,Road Construction,Arab Contractors Nigeria,ADB,2023/09/03,16-Jul-2024,24.02.2025,318096233.22 naira,139331504.38,70.8,completed,NGOZI OKAFOR,Lagos,Yes
+PROJ800208,Edo State Hospital Building,Office Complex,Julius Berger Nigeria,State Government,N/A,not set,2027/10/09,664845807.00 naira,"NGN 347,092,855",92.2,ONGOING,  Funmilayo Nnamdi,Edo,No
+PROJ800321,Cross River State Residential Estate,School Block,LCC Construction,World Bank,2021-04-13,08.04.2023,17.11.2023,3471110447.38 naira,"2,496,876,892.82 ",28.0,Suspended,   Wale Afolabi,Fct Abuja,N
+PROJ800196,Anambra State Residential Estate,School Block,Cappa & D'Alberto,Federal Government,24 December 2020,2024-09-19,null,684585741.74 naira,252622826.52,26.9,ONGOING,TOBI OGUNDIMU,Lagos State,Y
+PROJ800051,Abuja State Bridge,Bridge,Julius Berger Nigeria,World bank,21 June 2019,30.09.2021,N/A,"NGN 3,738,735,063","NGN 784,032,202",96.6,on hold,Emeka Okonkwo,Oyo,FALSE
+PROJ800234,  Ogun State Hospital Building,Office Complex,Setraco Nigeria,FEDERAL GOVERNMENT,2022-06-05,2025/07/16,null,"2,822,486,541.13 ",2810418963.71 naira,,Completed ,ADAEZE OKEKE,Plateau,N
+PROJ800140,Cross River State Bridge Rehabilitation,Residential Estate,Arab Contractors Nigeria,adb,07-Jan-2021,2024-02-09,30/09/2024,"N2,796,015,928",970740505.98,46.9,Completed ,Emeka Okafor,Abuja,false
+PROJ800004,Edo State Hospital Building,Hospital Building,LCC Construction,World Bank,14 December 2020,19 January 2022,18 July 2022,4085744151.03,"₦2,595,802,198.00",85.6,Completed ,femi ogundimu,Delta,yes
+PROJ800115,Anambra State Residential Estate,Office Complex,Cappa & D'Alberto,world bank,27/03/2022,07/08/2026,2026/09/25,"NGN 3,784,886,379",1925226115.67,56.4,Ongoing,Segun Balogun,Akwa Ibom,Yes
+PROJ800022,Rivers State Dam,Office Complex,LCC Construction,world bank,02/10/2022,2024-03-22,null,"N3,841,468,912",3196536075.11 naira,56.1,Ongoing,Ngozi Ajayi,Kano,TRUE
+PROJ800006,Enugu State Residential Estate,School Block,Borini Prono,FEDERAL,12/31/2019,12/08/2021,?,NULL,3630977063.08,61.7,ONGOING,  Femi Chukwu,Delta,1
+PROJ800113,Edo State Office Complex,Bridge Rehabilitation,Arab Contractors Nigeria,ADB,10 December 2020,01 November 2023,n/a,"NGN 2,093,059,757","N1,226,567,609",64.6,Completed ,Funmilayo Okonkwo,Kaduna,No
+PROJ800128,  Kano State School Block,Office Complex,Arab Contractors Nigeria,world bank,2023/04/03,2026-03-02,2026-03-18,2034649586.42,"970,207,450.44 ",90.7,Abandoned,Zainab Adekunle,Anambra,N
+PROJ800107,Abuja State School Block,Dam,Arab Contractors Nigeria,PRIVATE SECTOR,19.07.2022,2024/07/01,11.05.2024,"N2,945,888,044","NGN 2,810,950,504",12.6,Ongoing,ibrahim yusuf,Akwa Ibom,Y
+PROJ800245,Plateau State School Block   ,Bridge,Arab Contractors Nigeria,NGO,22 April 2021,05/22/2022,2022/06/28,"N2,233,061,330","665,545,053.61 ",15.1,Completed,MUSA OKEKE,Ogun,TRUE
+PROJ800106,  Delta State Dam,Road Construction,LCC Construction,ADB,2021/03/18,2022/05/18,--,"NGN 3,540,569,870",1354906646.13 naira,68.1,Completed,Chioma Eze,Abuja,FALSE
+PROJ800378,Oyo State Office Complex,Residential Estate,Julius Berger Nigeria,FEDERAL GOVERNMENT,27.12.2021,03/13/2024,NULL,"N1,995,635,912",1915393351.25,59.2,Suspended,Adaeze Okafor,Imo,Y
+PROJ800133,  Akwa Ibom State Bridge   ,Road Construction,Borini Prono,World Bank,2019/08/13,2024-01-19,11.02.2024,"NGN 1,463,735,439","1,132,340,073.03 ",48.3,Suspended,  Amara Mohammed,Cross River,N
+PROJ800166,Delta  State School Block,Residential Estate,Julius Berger Nigeria,federal,02-Feb-2021,07.04.2023,N/A,"N3,578,746,112","₦1,464,391,620.95",73.6,completed,Funmilayo Ajayi,Enugu,TRUE
+PROJ800313,Imo State Office Complex,Residential Estate,Setraco Nigeria,NGO,2021-08-04,22/02/2022,,"NGN 1,288,232,762","₦444,705,553.08",11.2,Completed,  EMEKA AJAYI,Kaduna,FALSE
+PROJ800080,  Enugu State Bridge,Bridge Rehabilitation,LCC Construction,WORLD BANK,11.05.2024,2025-02-25,08-May-2025,1069738966.09,1028255946.52,54.3,Ongoing,Segun Abubakar,Oyo,true
+PROJ800260,Delta State Dam,Office Complex,Julius Berger Nigeria,NGO,13.09.2022,2023-08-18,unknown,--,"₦2,147,565,235.59",50.7,ONGOING,Chidi Olawale,Kaduna,1
+PROJ800167,Kano State School Block,Office Complex,LCC Construction,ADB,20-Mar-2022,15.10.2024,2025/07/14,"₦542,751,809.56","₦60,410,728.15",57.3,Ongoing,CHIDI OKAFOR,Akwa Ibom,TRUE
+PROJ800141,  Oyo State Residential Estate,Bridge Rehabilitation,Arab Contractors Nigeria,PRIVATE SECTOR,05-May-2022,12 September 2025,nil,"₦3,163,893,539.72","₦2,753,156,916.51",83.1,Completed ,Aliyu Nnamdi,Lag,no
+PROJ800198,  Rivers State Bridge,Office Complex,Setraco Nigeria,federal,16/08/2024,2028/01/01,29.12.2027,4990981827.89,"₦3,105,614,141.41",12.9,Completed,  YUSUF OLAWALE,Delta,FALSE
+PROJ800330,Kaduna State Dam,Bridge Rehabilitation,LCC Construction,Federal,04/18/2019,08.01.2023,-,"₦444,618,411.18","N120,169,191",78.7,on hold,Ngozi Nnamdi,rivers,false
+PROJ800134,  Kaduna State Bridge   ,Bridge Rehabilitation,Borini Prono,NGO,20.09.2021,18 April 2024,04 April 2024,unknown,712637009.65,61.7,Completed,Grace Suleiman,Akwa Ibom,1
+PROJ800102,Imo State Residential Estate,Road Construction,Julius Berger Nigeria,federal,2019/06/16,2020-02-15,N/A,"N1,833,519,022","₦1,101,116,974.28",65.8,completed,Musa Eze,Abuja,yes
+PROJ800137,Kano  State Hospital Building,School Block,Julius Berger Nigeria,world bank,16/12/2021,21/09/2026,2027/08/04,"NGN 3,931,212,457",699058430.52,37.8,Completed,Emeka Lawal,Ogun,yes
+PROJ800372,Oyo State School Block   ,Dam,Cappa & D'Alberto,World Bank,2022-06-17,unknown date,  ,4315029913.48 naira,"NGN 2,220,068,404",64.9,Ongoing,Chinedu Nnamdi,Lagos,true
+PROJ800173,Akwa Ibom State Bridge,Dam,LCC Construction,ADB,11/18/2019,10 August 2020,06/06/2020,"NGN 226,911,171","₦203,872,462.39",59.8,on hold,WALE NWOSU,Edo,TRUE
+PROJ800270,Cross River State Residential Estate,School Block,Julius Berger Nigeria,NGO,10/07/2024,23-Oct-2025,unknown date,3805766635.73 naira,"N3,679,654,855",99.1,Completed ,Chioma Mohammed,Anambra,Y
+PROJ800264,Rivers State Bridge Rehabilitation,Office Complex,Borini Prono,Private Sector,17/06/2022,11/04/2026,01 August 2027,"₦2,922,723,259.55",unknown,97.3,Suspended,Obinna Balogun,FCT,Y
+PROJ800207,Akwa Ibom State Road Construction,Dam,Arab Contractors Nigeria,private sector,20 March 2023,10/11/2025,-,"4,032,296,155.63 ",4006128724.13,60.5,ONGOING,Kemi Okeke,Cross River,Y
+PROJ800231,Rivers State Office Complex,Road Construction,Borini Prono,state government,2022/12/01,00/00/0000,NIL,"NGN 3,505,741,342","₦1,614,476,941.37",58.9,completed,  OBINNA AJAYI,Ogun,Y
+PROJ800136,Abuja State Bridge,Residential Estate,Setraco Nigeria,Federal Government,13-Jun-2021,2025-03-22,-,"₦1,483,403,637.61","NGN 260,711,659",70.5,Suspended,Blessing Eze,Lag,yes
+PROJ800380,Anambra State School Block,Residential Estate,LCC Construction,World bank,21/05/2022,03/03/2026,05/02/2026,"366,557,467.13 ",110457161.59,16.5,Suspended,IFEOMA EZE,KANO,no
+PROJ800296,Plateau State Hospital Building,Dam,Setraco Nigeria,ADB,04-May-2021,15/07/2022,27-Apr-2022,"₦1,277,098,952.11","₦750,395,131.52",92.9,Completed,Blessing  Yusuf,Akwa Ibom,1
+PROJ800235,Delta State Road Construction,School Block,Borini Prono,private sector,2023/08/06,24.12.2027,nil,"N1,683,852,836","N438,841,528",31.0,Abandoned,Zainab  Eze,Imo,1
+PROJ800131,Plateau  State Office Complex,Hospital Building,Borini Prono,NGO,24/04/2021,15 January 2023,N/A,"3,094,492,969.93 ","NGN 1,871,698,613",80.2,Completed ,Segun Afolabi,Anambra,yes
+PROJ800303,Oyo State Dam,Bridge Rehabilitation,LCC Construction,WORLD BANK,12-Apr-2021,14-May-2022,?,,"NGN 462,974,474",84.0,Completed ,  Segun Suleiman   ,Oyo,TRUE
+PROJ800019,Imo State School Block,Hospital Building,Cappa & D'Alberto,WORLD BANK,03/16/2022,2025/01/14,?,"₦4,273,738,259.29",1250819087.58,36.4,Ongoing,Bisi Yusuf,Kano,TRUE
+PROJ800112,Lagos  State Bridge Rehabilitation,School Block,Julius Berger Nigeria,Private Sector,15.11.2023,09/01/2026,?,"N343,220,387","₦151,655,444.16",6.2,ONGOING,Aliyu Yusuf,Kaduna,yes
+PROJ800125,Cross River State Hospital Building,Road Construction,Arab Contractors Nigeria,NGO,00/00/0000,01/08/2021,2022/02/07,"NGN 3,255,205,571","624,659,779.13 ",15.2,ONGOING,MUSA BALOGUN,LAGOS,N
+PROJ800072,Abuja State Bridge Rehabilitation,School Block,Setraco Nigeria,NGO,11/23/2023,2026-04-11,02/21/2026,-,"₦1,330,835,469.32",7.8,Suspended,Funmilayo Afolabi,Kano,0
+PROJ800194,Oyo  State Hospital Building,Residential Estate,LCC Construction,World Bank,not set,2024/05/02,03.11.2024,"N907,315,091",528553338.57,12.9,Abandoned,  ngozi okonkwo   ,Enugu,N
+PROJ800171,Ogun State Dam,Dam,LCC Construction,world bank,2022/12/02,2024/04/11,31-May-2024,"N4,578,693,806",NIL,94.4,Completed,Chinedu Okafor,Cross River,0
+PROJ800363,Enugu State Bridge   ,Road Construction,Borini Prono,FEDERAL,01-Nov-2020,07 April 2022,26-Mar-2022,"N4,799,015,423",4193998782.84,null,on hold,CHINEDU SULEIMAN,Delta,FALSE
+PROJ800027,Imo  State Dam,Office Complex,LCC Construction,WORLD BANK,N/A,07/07/2027,03/06/2027,4112095016.27,"NGN 1,849,607,699",67.3,on hold,amara eze,Oyo,TRUE
+PROJ800342,Abuja State Road Construction,Bridge Rehabilitation,Setraco Nigeria,Federal Government,2023-07-28,2027/12/23,nil,"NGN 3,409,539,320",557436816.65 naira,83.2,Suspended,ADAEZE YUSUF,Lagos,No
+PROJ800215,Imo State School Block,Bridge,Setraco Nigeria,FEDERAL,27 January 2020,2023/06/08,,"4,967,300,462.08 ","₦4,215,431,309.20",82.4,Ongoing,amara yusuf,Delta,1

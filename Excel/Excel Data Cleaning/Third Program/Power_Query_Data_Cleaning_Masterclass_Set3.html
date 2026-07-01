@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Power Query Data Cleaning Masterclass - Set 3 (Datasets 21-30) | Excel Workbooks</title>
+<style>
+:root {
+  --bg:       #080d14;
+  --surface:  #0f1622;
+  --surface2: #151d2e;
+  --border:   #1e2a3d;
+  --accent:   #38bdf8;
+  --gold:     #fbbf24;
+  --green:    #34d399;
+  --red:      #f87171;
+  --text:     #e1e7ef;
+  --muted:    #7d8fa8;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',Calibri,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.7}
+
+/* ---- COVER ---- */
+.cover{
+  background:linear-gradient(135deg,#05101e 0%,#0a1930 45%,#071a12 100%);
+  padding:88px 32px 64px;text-align:center;border-bottom:2px solid var(--border);
+}
+.cover .badge{
+  display:inline-flex;align-items:center;gap:8px;
+  background:var(--green);color:#052010;font-weight:700;font-size:.82rem;
+  padding:5px 16px;border-radius:20px;margin-bottom:22px;letter-spacing:.5px;
+}
+.cover .badge span{font-size:1rem}
+.cover h1{font-size:2.6rem;color:#fff;font-weight:700;letter-spacing:-.5px;margin-bottom:14px;line-height:1.2}
+.cover .sub{color:var(--gold);font-size:1.08rem;margin-bottom:8px}
+.cover .author{color:var(--muted);font-size:.9rem}
+
+/* ---- LAYOUT ---- */
+.wrap{max-width:1020px;margin:0 auto;padding:52px 24px 110px}
+h2.sec{font-size:1.55rem;color:var(--accent);border-bottom:2px solid var(--accent);padding-bottom:9px;margin:60px 0 20px}
+h3.sub{font-size:1.17rem;color:var(--gold);margin:34px 0 13px}
+p.body{margin-bottom:14px;font-size:.94rem}
+
+/* ---- CARDS ---- */
+.card{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:22px 26px;margin:16px 0}
+
+/* ---- TABLE ---- */
+table.t{width:100%;border-collapse:collapse;margin:16px 0;font-size:.87rem}
+table.t th{background:var(--surface2);color:var(--accent);border:1px solid var(--border);padding:10px 13px;text-align:left}
+table.t td{border:1px solid var(--border);padding:10px 13px;vertical-align:top}
+table.t tr:nth-child(even) td{background:rgba(56,189,248,.04)}
+.code-col{font-family:Consolas,'Courier New',monospace;color:var(--gold);font-size:.82rem}
+
+/* ---- TOC ---- */
+.toc{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:24px 28px;margin:26px 0}
+.toc a{color:var(--accent);text-decoration:none;font-size:.89rem}
+.toc a:hover{text-decoration:underline}
+.toc ol{columns:2;gap:28px;padding-left:20px}
+.toc li{margin-bottom:7px}
+
+/* ---- DATASET BLOCKS ---- */
+.ds{
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-left:4px solid var(--green);
+  border-radius:9px;padding:28px 30px;margin:28px 0;
+}
+.ds-hdr{display:flex;align-items:flex-start;gap:12px;margin-bottom:6px;flex-wrap:wrap}
+.ds-num{
+  display:inline-block;background:var(--green);color:#052010;
+  font-weight:700;font-size:.8rem;padding:3px 12px;border-radius:20px;white-space:nowrap;margin-top:3px;
+}
+.ds h3{color:#fff;font-size:1.22rem}
+.meta{color:var(--muted);font-size:.84rem;margin-bottom:12px}
+.meta code{background:var(--surface2);padding:2px 7px;border-radius:4px;color:var(--gold);font-family:Consolas,monospace}
+.cols{background:var(--surface2);border-radius:6px;padding:10px 14px;font-size:.81rem;color:var(--muted);margin-bottom:17px;font-family:Consolas,monospace;word-break:break-all}
+h4.bh{font-size:.92rem;text-transform:uppercase;letter-spacing:.5px;margin:18px 0 9px}
+h4.bh.issues{color:var(--red)}
+h4.bh.steps{color:var(--green)}
+ul.issues{padding-left:22px}
+ul.issues li{margin-bottom:8px;font-size:.91rem}
+ul.issues li::marker{color:var(--red)}
+ol.steps{padding-left:22px}
+ol.steps li{margin-bottom:9px;font-size:.91rem}
+ol.steps li::marker{color:var(--green);font-weight:700}
+
+/* ---- CHECKLIST ---- */
+.checklist{padding-left:22px}
+.checklist li{margin-bottom:8px;font-size:.92rem}
+.checklist li::marker{color:var(--accent)}
+
+/* ---- NOTE BOX ---- */
+.note{background:#0e1e0a;border:1px solid #2a5018;border-radius:8px;padding:14px 18px;color:#a8e090;font-size:.88rem;margin:20px 0}
+
+/* ---- FOOTER ---- */
+footer{text-align:center;color:var(--muted);font-size:.81rem;padding-top:24px;border-top:1px solid var(--border);margin-top:60px}
+</style>
+</head>
+<body>
+
+<div class="cover">
+  <div class="badge"><span>&#9679;</span> SET 3 - DATASETS 21 TO 30 - EXCEL WORKBOOKS (.xlsx)</div>
+  <h1>Power Query Data Cleaning Masterclass</h1>
+  <p class="sub">Ten Fresh Dirty Datasets in Excel Format - Excel and Power BI Editions</p>
+  <p class="author">Prepared by Kajola Gbenga Adewale | Data Expert | Prodigy Training Hub, Lagos</p>
+</div>
+
+<div class="wrap">
+
+<h2 class="sec">Introduction</h2>
+<p class="body">This is the third set of ten deliberately dirty Nigerian business-context datasets for teaching Power Query data cleaning in both Microsoft Excel and Microsoft Power BI Desktop. Unlike Sets 1 and 2, every file in this set is delivered as a formatted Microsoft Excel workbook (.xlsx) with styled headers, alternating row colours, and adjusted column widths - exactly the kind of file a trainee will receive from a department head, a project manager, or an IT team that has already done some basic formatting but left the underlying data quality completely unaddressed. The ten domains covered are corporate event management, NGO beneficiary and grant records, media and advertising campaigns, airport passenger and flight records, waste management and sanitation, capital market trading records, ride-hailing trip records, fintech digital wallet transactions, WAEC and NECO examination results, and WASH water and sanitation project records. Every quality problem was deliberately embedded to map to a specific, namable Power Query cleaning technique.</p>
+<p class="body">Open each .xlsx file directly through Power Query. In Excel, go to Data &gt; Get Data &gt; From File &gt; From Workbook, select the file, choose the sheet in the navigator, and click Transform Data. In Power BI Desktop, go to Home &gt; Get Data &gt; Excel Workbook, select the file, choose the sheet, and click Transform Data. Because the files are already formatted workbooks, Power Query will auto-promote the first row as headers in most cases - always confirm this in the Applied Steps pane before proceeding. Every numbered cleaning step in this guide references a specific ribbon command or M function so trainees can follow along click by click.</p>
+
+<h3 class="sub">Excel vs Power BI Desktop - Key Workflow Differences for .xlsx Sources</h3>
+<table class="t">
+  <tr>
+    <th style="width:18%">Area</th>
+    <th style="width:41%">In Excel</th>
+    <th style="width:41%">In Power BI Desktop</th>
+  </tr>
+  
+  <tr>
+    <td><strong>Connecting to an .xlsx file</strong></td>
+    <td>Data &gt; Get Data &gt; From File &gt; From Workbook. Navigate to the file, select the correct sheet in the navigator pane, click Transform Data.</td>
+    <td>Home &gt; Get Data &gt; Excel Workbook. Navigate to the file, select the correct sheet in the navigator pane, click Transform Data. Both paths open the identical Power Query Editor.</td>
+  </tr>
+  <tr>
+    <td><strong>Header promotion</strong></td>
+    <td>If the first row contains column names, Home &gt; Use First Row as Headers promotes them. Confirm this step appears in Applied Steps before any other transformation.</td>
+    <td>Identical. Power Query sometimes auto-promotes headers on load; always verify the Applied Step is present and correct before continuing.</td>
+  </tr>
+  <tr>
+    <td><strong>Handling formatted cells</strong></td>
+    <td>Power Query strips all cell formatting (colours, fonts, borders) on load and treats every cell as plain data. Formatting in the source .xlsx has no effect on the loaded values.</td>
+    <td>Identical. Formatting is irrelevant once data enters Power Query. The styled headers and alternating row colours in these workbooks are there for realism, not for Power Query to read.</td>
+  </tr>
+  <tr>
+    <td><strong>Loading the clean result</strong></td>
+    <td>Home &gt; Close &amp; Load loads to a new worksheet table. Home &gt; Close &amp; Load To lets you choose a Table, PivotTable cache, or Connection Only for data model use without a visible sheet.</td>
+    <td>Home &gt; Close &amp; Apply loads into the internal data model. All downstream use happens through visuals or DAX measures, not a visible grid.</td>
+  </tr>
+  <tr>
+    <td><strong>Refreshing when the source file changes</strong></td>
+    <td>Data &gt; Refresh All refreshes every query in the workbook. The source path is stored in the query - if the .xlsx source file moves, right-click the query and edit the source step to update the path.</td>
+    <td>Home &gt; Refresh in report view refreshes all queries. If published to the Power BI Service, a gateway is required for scheduled refresh of locally stored .xlsx files.</td>
+  </tr>
+  <tr>
+    <td><strong>Multiple sheets in one workbook</strong></td>
+    <td>The navigator shows every sheet. You can load multiple sheets as separate queries by holding Ctrl in the navigator, or by duplicating the query and editing the Table reference in the Source step.</td>
+    <td>Identical navigator behaviour. Each sheet becomes a separate query, which can then be referenced, appended, or merged as needed in the editor.</td>
+  </tr>
+</table>
+
+<h3 class="sub">General Cleaning Checklist - Apply to Every Dataset</h3>
+<div class="card">
+  <ol class="checklist">
+    <li>Connect to the .xlsx file through Power Query - never clean data directly in the Excel sheet. All cleaning must live in the Applied Steps pane so it is repeatable and auditable.</li>
+    <li>Confirm headers were promoted correctly (Home &gt; Use First Row as Headers) and that the first data row was not accidentally consumed as the header row.</li>
+    <li>Set data types explicitly for every column immediately after promotion. Auto-detect fails on mixed-format columns - especially currency-as-text, dates-as-text, and numeric IDs that Power Query tries to parse as whole numbers.</li>
+    <li>Remove exact duplicate rows early (Home &gt; Remove Rows &gt; Remove Duplicates on all columns) before any other transformation so subsequent steps are not applied twice to the same record.</li>
+    <li>Select all text columns in one pass and apply Trim (Transform &gt; Format &gt; Trim) followed by Clean (Transform &gt; Format &gt; Clean) to remove leading, trailing, and double spaces and any non-printable characters carried over from the source system.</li>
+    <li>Run a null standardisation pass: select all text columns, Replace Values to convert blank, N/A, n/a, NULL, null, nil, NIL, -, --, unknown, ?, and Not Available into a true null so all downstream aggregations treat missing data correctly.</li>
+    <li>Standardise text casing (Capitalize Each Word for names and categories, UPPERCASE for codes and short identifiers) before running any Replace Values step - Replace Values searches are case-sensitive by default in Power Query.</li>
+    <li>For every currency-as-text column: Replace Values to strip the naira sign, NGN, and the word naira; Trim the result; then set Data Type to Decimal Number. Inspect the error cells that appear after the type change with Keep Errors before deciding to remove them.</li>
+    <li>For every date-as-text column: set Data Type to Date and immediately filter on errors to find placeholder text such as 00/00/0000, not set, unknown, and N/A - these need a documented business decision, not a formula guess.</li>
+    <li>Rename every Applied Step (right-click &gt; Rename) with a short plain-English label so the finished query reads like a documented cleaning checklist, not a numbered list of Changed Type1, Changed Type2.</li>
+  </ol>
+</div>
+
+<div class="toc">
+  <h3 class="sub" style="margin-top:0">Quick Navigation</h3>
+  <ol>
+    <li><a href="#ds21">Corporate Event Management Records - Events and Hospitality</a></li>
+    <li><a href="#ds22">NGO Beneficiary and Grant Records - Non-Profit and Development</a></li>
+    <li><a href="#ds23">Brand Advertising Campaign Records - Media and Advertising</a></li>
+    <li><a href="#ds24">Airport Passenger and Flight Records - Aviation and Transport</a></li>
+    <li><a href="#ds25">Waste Management and Sanitation Collection Records - Environment and Public Services</a></li>
+    <li><a href="#ds26">Nigerian Stock Exchange Trading Records - Capital Markets and Investment</a></li>
+    <li><a href="#ds27">Ride-Hailing App Trip Records - Transportation and Mobility</a></li>
+    <li><a href="#ds28">Digital Wallet and Fintech Transaction Records - Fintech and Digital Finance</a></li>
+    <li><a href="#ds29">WAEC and NECO Examination Result Records - Education and Examinations</a></li>
+    <li><a href="#ds30">WASH Water and Sanitation Project Records - Water, Sanitation and Hygiene (WASH)</a></li>
+    <li><a href="#cheat">Power Query M Cheat Sheet</a></li>
+    <li><a href="#notes">Facilitator Notes</a></li>
+  </ol>
+</div>
+
+<h2 class="sec">The Ten Datasets</h2>
+
+
+<div class="ds" id="ds21">
+  <div class="ds-hdr">
+    <span class="ds-num">Dataset 21</span>
+    <h3>Corporate Event Management Records</h3>
+  </div>
+  <div class="meta">Domain: Events and Hospitality &nbsp;|&nbsp; File: <code>21_event_management_records_DIRTY.xlsx</code></div>
+  <p class="body">A Lagos-based event management company maintains a client booking register covering corporate conferences, weddings, product launches, galas, and award ceremonies across five-star venues in Lagos and Abuja. The register is managed by three event coordinators who each have their own formatting preferences, so every categorical field in the file has at least three representations for the same value.</p>
+  <div class="cols">Columns: EventID, ClientName, ClientPhone, EventType, VenueName, BookingDate, EventDate, NumberOfGuests, Package, PricePerHead, TotalEventCost, DepositPaid, PaymentStatus, State, Caterer, EventCompleted</div>
+
+  <h4 class="bh issues">Data Quality Issues Deliberately Built In</h4>
+  <ul class="issues">
+    <li>EventType has trailing spaces and inconsistent casing for the same event category (Conference, conference, WEDDING, Workshop, Workshop with a trailing space, product launch).</li>
+    <li>NumberOfGuests contains negative values and zeros, which should never appear on a confirmed event booking.</li>
+    <li>BookingDate and EventDate use mixed date formats, and some EventDate values fall before the BookingDate, which is logically impossible for a new booking.</li>
+    <li>PricePerHead, TotalEventCost, and DepositPaid are all stored as text with mixed currency notation - naira sign, NGN, N prefix, and bare numbers are all present.</li>
+    <li>TotalEventCost should equal NumberOfGuests multiplied by PricePerHead, and rows where it does not match reveal manual override entries that need explanation.</li>
+    <li>DepositPaid exceeds TotalEventCost in some rows, which is logically impossible unless a refund was miscoded as a deposit.</li>
+    <li>PaymentStatus mixes casing and overlapping labels (Paid in Full, paid, PARTIAL, paid in full, Pending).</li>
+    <li>Package has a trailing-space variant (Standard versus Standard with a trailing space) and inconsistent casing.</li>
+    <li>Caterer mixes N/A, Not Confirmed, and blank for what should be three distinct states.</li>
+    <li>EventCompleted mixes Yes/No, Y/N, 1/0, and TRUE/FALSE.</li>
+    <li>Around five percent of rows are exact duplicate bookings from a shared workbook paste collision between two coordinators.</li>
+  </ul>
+
+  <h4 class="bh steps">Step-by-Step Power Query Cleaning Process (Excel and Power BI)</h4>
+  <ol class="steps">
+    <li>Connect to the .xlsx file (Data &gt; Get Data &gt; From File &gt; From Workbook in Excel, or Get Data &gt; Excel Workbook in Power BI), select the Event Records sheet, click Transform Data.</li>
+    <li>Confirm headers were promoted correctly in Applied Steps, then remove exact duplicate rows on all columns (Home &gt; Remove Rows &gt; Remove Duplicates).</li>
+    <li>Trim and Clean all text columns in one multi-select pass (Transform &gt; Format &gt; Trim, then Format &gt; Clean) to remove leading, trailing, and double spaces first, because trailing spaces are responsible for Package, PaymentStatus, and Caterer matching failures.</li>
+    <li>Standardise EventType: Capitalize Each Word, then Replace Values to fold all variants of the same event category (conference into Conference, WEDDING into Wedding, Workshop with a trailing space into Workshop) into one canonical list of eight event types.</li>
+    <li>Standardise Package: Capitalize Each Word - this is sufficient since the only Package issues are casing and the trailing space already removed by Trim.</li>
+    <li>Fix NumberOfGuests: set to Whole Number, then filter for values less than or equal to 0 and route those rows to a review query named Events_InvalidGuests rather than silently deleting them.</li>
+    <li>Fix BookingDate and EventDate: convert both to Date type, resolve format errors using the standard technique. Add a BookingLogicCheck column: if [EventDate] &lt; [BookingDate] then "Event before booking - review" else "OK" to surface logically impossible dates.</li>
+    <li>Clean PricePerHead, TotalEventCost, and DepositPaid with the standard currency-stripping Replace Values chain (naira sign, NGN, N prefix, the word naira), Trim, then set Data Type to Decimal Number.</li>
+    <li>Add a calculated ExpectedTotal column = [NumberOfGuests] * [PricePerHead] where both are positive and not null, then a TotalCostVariance column comparing it to TotalEventCost to surface manual overrides.</li>
+    <li>Add a DepositExceedsTotal flag column: if [DepositPaid] &gt; [TotalEventCost] then "Overpayment - review" else "OK".</li>
+    <li>Standardise PaymentStatus: Trim is already done, so apply Capitalize Each Word, then Replace Values to produce a four-value list (Paid in Full, Partial Payment, Unpaid, Refunded).</li>
+    <li>Handle Caterer nulls deliberately: Replace Values to convert blank, N/A, and Not Confirmed each into their own distinct null-category using a conditional column, since "no caterer confirmed" and "caterer data not captured" are different operational states.</li>
+    <li>Standardise EventCompleted into a Logical True/False column with Replace Values before changing Data Type. Close and load as Events_Clean.</li>
+  </ol>
+</div>
+
+<div class="ds" id="ds22">
+  <div class="ds-hdr">
+    <span class="ds-num">Dataset 22</span>
+    <h3>NGO Beneficiary and Grant Records</h3>
+  </div>
+  <div class="meta">Domain: Non-Profit and Development &nbsp;|&nbsp; File: <code>22_ngo_beneficiary_grant_records_DIRTY.xlsx</code></div>
+  <p class="body">A Lagos-based non-governmental organisation running food support, education bursary, healthcare outreach, widow support, and youth empowerment programmes exports its beneficiary master register ahead of a donor audit. The register was built over three years by programme officers using different data entry templates, and it merges records funded by seven different international and local donors.</p>
+  <div class="cols">Columns: BeneficiaryID, FullName, Gender, DateOfBirth, PhoneNumber, Program, DonorOrganisation, GrantAmount, EnrollmentDate, ExitDate, BeneficiaryStatus, HouseholdSize, MonthlyIncome, State, NINVerified</div>
+
+  <h4 class="bh issues">Data Quality Issues Deliberately Built In</h4>
+  <ul class="issues">
+    <li>Program has trailing spaces and mixed casing for the same programme name (Food Support, food support, EDUCATION BURSARY, Healthcare, Healthcare Outreach - where the last two should be the same value).</li>
+    <li>Gender mixes Male/Female with single-letter M/F across different cases.</li>
+    <li>HouseholdSize contains a negative value and a suspiciously high value (20) that need flagging rather than silent deletion.</li>
+    <li>GrantAmount and MonthlyIncome are stored as text with mixed currency notation.</li>
+    <li>MonthlyIncome is frequently blank, which may mean zero income (subsistence beneficiaries) or simply not captured - these are different states for a donor report.</li>
+    <li>BeneficiaryStatus has inconsistent casing and a trailing-space variant (Active, active, COMPLETED, Active with a trailing space, Pending).</li>
+    <li>DonorOrganisation has inconsistent casing and a trailing-space variant (UNICEF, UNICEF with a trailing space, usaid versus USAID).</li>
+    <li>ExitDate is blank for beneficiaries still on active programmes, which is expected and should not be treated as a data quality error - only missing ExitDate on Completed or Withdrawn records is a genuine gap.</li>
+    <li>DateOfBirth and EnrollmentDate use mixed date formats.</li>
+    <li>NINVerified mixes Yes/No, Y/N, 1/0, and TRUE/FALSE.</li>
+    <li>Around four percent of rows are duplicates from a quarterly backup file being merged with the live register.</li>
+  </ul>
+
+  <h4 class="bh steps">Step-by-Step Power Query Cleaning Process (Excel and Power BI)</h4>
+  <ol class="steps">
+    <li>Connect to the workbook, select the Beneficiary Records sheet, click Transform Data. Confirm header promotion, then remove duplicate rows on all columns.</li>
+    <li>Trim and Clean all text columns in one pass. This is especially important for BeneficiaryStatus, DonorOrganisation, and Program, each of which has trailing-space variants.</li>
+    <li>Standardise Gender: Capitalize, then Replace Values to map M and m to Male and F and f to Female.</li>
+    <li>Standardise Program: Capitalize Each Word, then Replace Values to fold Healthcare into Healthcare Outreach (if the business confirms they are the same), and to fold all food support and food support variants into Food Support.</li>
+    <li>Standardise DonorOrganisation: for acronyms like USAID and UNICEF, use Text.Upper rather than Capitalize Each Word (which would produce Usaid and Unicef), using a custom column: if Text.Length(Text.Trim([DonorOrganisation])) &lt;= 6 then Text.Upper(Text.Trim([DonorOrganisation])) else Text.Proper(Text.Trim([DonorOrganisation])).</li>
+    <li>Clean GrantAmount and MonthlyIncome with the standard currency-stripping and Decimal Number conversion technique.</li>
+    <li>Handle MonthlyIncome blanks deliberately: after the currency conversion, add a conditional column IncomeDataStatus = if [MonthlyIncome] = null and [BeneficiaryStatus] = "Active" then "Income not captured - follow up" else if [MonthlyIncome] = null then "Not applicable" else "Captured", distinguishing missing data from expected blanks.</li>
+    <li>Fix HouseholdSize: set to Whole Number, then add a HouseholdFlag column: if [HouseholdSize] &lt; 1 then "Invalid - negative" else if [HouseholdSize] &gt; 15 then "Unusually large - verify" else "OK".</li>
+    <li>Fix DateOfBirth and EnrollmentDate: convert both to Date type and resolve errors. Add an Age column. Flag beneficiaries below age 5 or above 90 as potentially erroneous.</li>
+    <li>Handle ExitDate logically: convert to Date type, then add an ExitDateCheck column: if [BeneficiaryStatus] = "Completed" or [BeneficiaryStatus] = "Withdrawn" then if [ExitDate] = null then "Exit date missing for closed case" else "OK" else "Expected blank for active case".</li>
+    <li>Standardise BeneficiaryStatus: Trim is already done, Capitalize Each Word, then Replace Values to produce a four-value list (Active, Completed, Suspended, Withdrawn).</li>
+    <li>Standardise NINVerified into a Logical True/False column with Replace Values before changing Data Type. Close and load as NGO_Beneficiaries_Clean.</li>
+  </ol>
+</div>
+
+<div class="ds" id="ds23">
+  <div class="ds-hdr">
+    <span class="ds-num">Dataset 23</span>
+    <h3>Brand Advertising Campaign Records</h3>
+  </div>
+  <div class="meta">Domain: Media and Advertising &nbsp;|&nbsp; File: <code>23_media_advertising_campaigns_DIRTY.xlsx</code></div>
+  <p class="body">A Lagos-based media buying agency exports a campaign performance register covering television, radio, billboard, digital, and print campaigns run on behalf of ten major Nigerian and multinational brands. The register merges data from three media monitoring systems that were never aligned on field conventions, so budget figures, click-through rates, and status labels all have multiple representations.</p>
+  <div class="cols">Columns: CampaignID, BrandName, MediaType, AgencyName, CampaignTitle, StartDate, EndDate, BudgetNGN, ActualSpendNGN, Impressions, ClickThroughRate, CampaignStatus, Region, ROI_pct, ApprovedByNBC</div>
+
+  <h4 class="bh issues">Data Quality Issues Deliberately Built In</h4>
+  <ul class="issues">
+    <li>MediaType has inconsistent casing and overlapping labels (Television, television, Digital, Digital/Social Media, Social Media - where the last three may or may not be the same channel depending on the campaign brief).</li>
+    <li>BudgetNGN and ActualSpendNGN are stored as text with mixed currency notation.</li>
+    <li>ActualSpendNGN exceeds BudgetNGN by more than 10 percent in some rows, which is a budget overrun flag for the finance team.</li>
+    <li>Impressions contains negative values and zeros, which are physically impossible for a launched campaign.</li>
+    <li>ClickThroughRate is inconsistently formatted - some rows use a percentage symbol (3.5%) while others use a bare decimal (3.5) for the same type of value, making aggregation wrong if the column is treated as uniform.</li>
+    <li>ROI_pct is missing for many rows and has both positive and negative values, the latter representing loss-making campaigns.</li>
+    <li>CampaignStatus mixes casing, trailing spaces, and overlapping labels (Running, running, COMPLETED, completed with a trailing space, On Hold).</li>
+    <li>EndDate is blank for currently running campaigns, which is expected, but also blank for some Completed campaigns, which is a data gap.</li>
+    <li>StartDate uses mixed date formats.</li>
+    <li>ApprovedByNBC mixes Yes/No, Y/N, 1/0, and TRUE/FALSE.</li>
+    <li>Around four percent of rows are duplicate campaign entries from a monthly report being merged with the master register.</li>
+  </ul>
+
+  <h4 class="bh steps">Step-by-Step Power Query Cleaning Process (Excel and Power BI)</h4>
+  <ol class="steps">
+    <li>Connect to the workbook, select the Campaign Records sheet, click Transform Data. Confirm header promotion, then remove duplicate rows on all columns.</li>
+    <li>Trim and Clean all text columns in one pass.</li>
+    <li>Standardise MediaType: Capitalize Each Word, then present the business with a reconciliation question - are Digital, Digital/Social Media, and Social Media the same channel or different channels? Document the answer as a comment in the step name. Apply Replace Values based on the agreed answer.</li>
+    <li>Standardise CampaignStatus: Trim is already done, Capitalize Each Word, then Replace Values to produce a five-value list (Running, Completed, Paused, Cancelled, On Hold).</li>
+    <li>Clean BudgetNGN and ActualSpendNGN with the standard currency-stripping and Decimal Number conversion technique. For billion-naira values, the chain must also strip commas (add a Text.Replace step for the comma character) before the type conversion.</li>
+    <li>Add a BudgetOverrun flag: if [ActualSpendNGN] &gt; [BudgetNGN] * 1.10 then "Budget overrun - flag for finance" else "OK".</li>
+    <li>Fix Impressions: set to Whole Number, then filter for values less than or equal to 0 and route to a review query named Campaigns_InvalidImpressions.</li>
+    <li>Standardise ClickThroughRate: Replace Values to remove the percentage symbol (%) from all rows that have it, Trim, then set to Decimal Number. After the type change, all values are now consistent decimals representing the same percentage concept - document this assumption clearly in the step name.</li>
+    <li>Handle ROI_pct: Trim, remove any trailing percentage symbol if present, set to Decimal Number. Null values should remain null - a missing ROI means not yet calculated, not zero.</li>
+    <li>Handle EndDate logically: convert to Date type, then add an EndDateCheck column: if [CampaignStatus] = "Completed" and [EndDate] = null then "End date missing for completed campaign" else "OK".</li>
+    <li>Fix StartDate: convert to Date type and resolve errors. Add a CampaignDuration column = Duration.Days([EndDate] - [StartDate]) where both dates are valid.</li>
+    <li>Standardise ApprovedByNBC into a Logical True/False column with Replace Values before changing Data Type. Close and load as AdCampaigns_Clean.</li>
+  </ol>
+</div>
+
+<div class="ds" id="ds24">
+  <div class="ds-hdr">
+    <span class="ds-num">Dataset 24</span>
+    <h3>Airport Passenger and Flight Records</h3>
+  </div>
+  <div class="meta">Domain: Aviation and Transport &nbsp;|&nbsp; File: <code>24_airport_passenger_flight_records_DIRTY.xlsx</code></div>
+  <p class="body">A Nigerian civil aviation data analyst exports a passenger and flight log from five international and domestic airports covering Air Peace, Ibom Air, United Nigeria Airlines, and Dana Air operations. The log merges data from three airport information systems that use different conventions for airline names, cabin class labels, and flight status codes.</p>
+  <div class="cols">Columns: PassengerID, PassengerName, PassengerPhone, Airline, FlightNumber, DepartureAirport, ArrivalAirport, FlightDate, DepartureTime, CabinClass, TravelType, TicketPrice, BaggageWeight_kg, FlightStatus, Nationality</div>
+
+  <h4 class="bh issues">Data Quality Issues Deliberately Built In</h4>
+  <ul class="issues">
+    <li>Airline has inconsistent casing and trailing spaces for the same carrier (Air Peace, air peace, IBOM AIR, Air Peace with a trailing space, Dana Air with a trailing space).</li>
+    <li>CabinClass mixes full names and abbreviated names for the same class (Business, Business Class, BUSINESS; Economy, Economy with a trailing space).</li>
+    <li>TravelType has a typographical error embedded in the dirty data (Domesctic instead of Domestic, Internatonal instead of International) alongside the usual casing variants.</li>
+    <li>DepartureTime mixes 24-hour and 12-hour AM/PM formats in the same column.</li>
+    <li>FlightDate uses mixed date formats.</li>
+    <li>DepartureAirport and ArrivalAirport are occasionally identical, producing a same-origin-and-destination record that should never exist for a completed trip.</li>
+    <li>TicketPrice is stored as text with mixed currency notation.</li>
+    <li>BaggageWeight_kg is missing for some rows and should be distinguished from a zero-baggage passenger.</li>
+    <li>FlightStatus has inconsistent casing and trailing spaces (On Time, on time, DELAYED, Cancelled with a trailing space).</li>
+    <li>Nationality mixes casing and has trailing spaces (Nigerian, NIGERIAN, Nigerian with a trailing space).</li>
+    <li>Around four percent of rows are duplicate passenger records from an airport gate scanner upload that ran twice.</li>
+  </ul>
+
+  <h4 class="bh steps">Step-by-Step Power Query Cleaning Process (Excel and Power BI)</h4>
+  <ol class="steps">
+    <li>Connect to the workbook, select the Passenger Records sheet, click Transform Data. Confirm header promotion, then remove duplicate rows on all columns.</li>
+    <li>Trim and Clean all text columns in one pass. Trailing spaces are responsible for Airline, CabinClass, FlightStatus, and Nationality duplicates and must be removed before any Replace Values step.</li>
+    <li>Standardise Airline: Capitalize Each Word, then Replace Values to fold any remaining variants. Airline names are proper nouns, so Capitalize Each Word is the right approach rather than UPPERCASE.</li>
+    <li>Standardise CabinClass: Capitalize Each Word, then Replace Values to fold Business Class into Business and Economy with a trailing space (already handled by Trim) into Economy, producing a clean three-value list (Economy, Business, First Class).</li>
+    <li>Fix TravelType: Replace Values to correct the two typos first (Domesctic into Domestic, Internatonal into International), then Capitalize Each Word to standardise the remaining casing variants.</li>
+    <li>Fix DepartureTime: add a custom column that uses Time.FromText with a try/otherwise wrapper to parse both 24-hour (14:30) and 12-hour (2:30 PM) formats into a consistent Time type, replacing errors with null and flagging them for review.</li>
+    <li>Fix FlightDate: convert to Date type and resolve format errors using the standard technique.</li>
+    <li>Add a SameAirportCheck column: if [DepartureAirport] = [ArrivalAirport] then "Same origin and destination - review" else "OK" to catch logically impossible routes.</li>
+    <li>Clean TicketPrice with the standard currency-stripping and Decimal Number conversion technique.</li>
+    <li>Handle BaggageWeight_kg: set to Decimal Number, then add a BaggageStatus column: if [BaggageWeight_kg] = null then "Not recorded" else if [BaggageWeight_kg] = 0 then "Hand luggage only" else "Checked baggage" so the three states are explicit.</li>
+    <li>Standardise FlightStatus: Trim is already done, Capitalize Each Word, then Replace Values to produce a clean five-value list (On Time, Delayed, Cancelled, Diverted, Boarding).</li>
+    <li>Standardise Nationality: Trim is already done, Capitalize Each Word. Close and load as Airport_Passengers_Clean.</li>
+  </ol>
+</div>
+
+<div class="ds" id="ds25">
+  <div class="ds-hdr">
+    <span class="ds-num">Dataset 25</span>
+    <h3>Waste Management and Sanitation Collection Records</h3>
+  </div>
+  <div class="meta">Domain: Environment and Public Services &nbsp;|&nbsp; File: <code>25_waste_management_sanitation_DIRTY.xlsx</code></div>
+  <p class="body">A state waste management authority exports a collection log from six local government areas in Lagos and Abuja covering household, medical, industrial, electronic, recyclable, and hazardous waste streams. The log is compiled from paper route sheets keyed in by data entry clerks at three depots, so unit conventions for weight, trip counts, and disposal site names are inconsistent across the depots.</p>
+  <div class="cols">Columns: RecordID, CollectionDate, LGA, Ward, WasteType, TruckID, DriverName, WeightCollected_kg, TripCount, CollectionStatus, DisposalSite, CollectionCost, State, RecyclingDone</div>
+
+  <h4 class="bh issues">Data Quality Issues Deliberately Built In</h4>
+  <ul class="issues">
+    <li>WasteType has trailing spaces and inconsistent casing for the same category (Household Waste, household, MEDICAL WASTE, Recyclable with a trailing space, industrial waste).</li>
+    <li>WeightCollected_kg mixes kilograms and pounds in the same column - some depot clerks entered values from a scale that displayed in pounds, appending the unit text "lbs" to the value.</li>
+    <li>TripCount contains negative values and zeros, which should not appear on a completed route record.</li>
+    <li>LGA has inconsistent casing across the three depots (Ikeja LGA, ikeja lga, SURULERE LGA).</li>
+    <li>CollectionStatus has trailing spaces and inconsistent casing (Collected, collected, MISSED, Missed with a trailing space, Partial Collection).</li>
+    <li>DisposalSite has N/A values, blank values, and genuinely missing entries that need separate treatment since a hazardous waste collection record with no disposal site is a regulatory compliance gap.</li>
+    <li>CollectionCost is stored as text with mixed currency notation.</li>
+    <li>TruckID is occasionally missing, which is an operational flag since every collection trip must be assigned to a vehicle.</li>
+    <li>CollectionDate uses mixed date formats.</li>
+    <li>RecyclingDone mixes Yes/No, Y/N, 1/0, and TRUE/FALSE.</li>
+    <li>Around four percent of rows are duplicate collection entries from a depot daily upload that ran twice.</li>
+  </ul>
+
+  <h4 class="bh steps">Step-by-Step Power Query Cleaning Process (Excel and Power BI)</h4>
+  <ol class="steps">
+    <li>Connect to the workbook, select the Waste Collection Records sheet, click Transform Data. Confirm header promotion, then remove duplicate rows on all columns.</li>
+    <li>Trim and Clean all text columns in one pass to remove trailing spaces from WasteType, CollectionStatus, and DisposalSite.</li>
+    <li>Standardise LGA: Capitalize Each Word, which collapses Ikeja LGA, ikeja lga, and SURULERE LGA into their correctly cased forms in one step.</li>
+    <li>Standardise WasteType: Capitalize Each Word, then Replace Values to fold household into Household Waste and industrial waste into Industrial Waste, producing a clean six-value controlled vocabulary.</li>
+    <li>Standardise CollectionStatus: Trim is already done, Capitalize Each Word, then Replace Values to produce a clean five-value list (Collected, Missed, Partial Collection, Pending, Delayed).</li>
+    <li>Fix WeightCollected_kg: add a custom column that checks Text.Contains([WeightCollected_kg], "lbs") - if true, extract the numeric portion with Text.BeforeDelimiter([WeightCollected_kg], " "), convert to Decimal Number, and multiply by 0.4536 to convert to kilograms; if false, convert the value directly to Decimal Number. Remove the original text column and rename the calculated column to WeightCollected_kg.</li>
+    <li>Fix TripCount: set to Whole Number, then filter for values less than or equal to 0 and route to a review query named Waste_InvalidTripCount.</li>
+    <li>Clean CollectionCost with the standard currency-stripping and Decimal Number conversion technique.</li>
+    <li>Handle DisposalSite nulls deliberately: after Trim and null standardisation, add a DisposalSiteCheck column: if [DisposalSite] = null and [WasteType] = "Hazardous" then "COMPLIANCE RISK - no disposal site for hazardous waste" else if [WasteType] = "Medical Waste" and [DisposalSite] = null then "COMPLIANCE RISK - no disposal site for medical waste" else if [DisposalSite] = null then "Disposal site not recorded" else "OK".</li>
+    <li>Flag missing TruckID: add a TruckFlag column = if [TruckID] = null then "No vehicle assigned - operational gap" else "OK".</li>
+    <li>Fix CollectionDate: convert to Date type and resolve errors. Add a WeekNumber column using Date.WeekOfYear([CollectionDate]) to support a weekly waste volume trend analysis.</li>
+    <li>Standardise RecyclingDone into a Logical True/False column with Replace Values before changing Data Type. Close and load as WasteCollection_Clean.</li>
+  </ol>
+</div>
+
+<div class="ds" id="ds26">
+  <div class="ds-hdr">
+    <span class="ds-num">Dataset 26</span>
+    <h3>Nigerian Stock Exchange Trading Records</h3>
+  </div>
+  <div class="meta">Domain: Capital Markets and Investment &nbsp;|&nbsp; File: <code>26_capital_market_trading_records_DIRTY.xlsx</code></div>
+  <p class="body">A capital market analyst at a Lagos stockbroking firm exports a trading log covering equities transactions across seven stockbroking houses on the Nigerian Exchange Group (NGX). The log merges exports from three different order management systems that each format trade values, settlement dates, and order types differently.</p>
+  <div class="cols">Columns: TradeID, TraderName, TraderPhone, BrokerName, SecurityName, Sector, OrderType, Quantity, PricePerShare, TotalTradeValue, Commission, TradeDate, SettlementDate, OrderStatus, CHNNumber</div>
+
+  <h4 class="bh issues">Data Quality Issues Deliberately Built In</h4>
+  <ul class="issues">
+    <li>OrderType mixes full labels and abbreviations with inconsistent casing (Buy, buy, Market Buy, Limit Buy; Sell, sell, SELL, Market Sell, Limit Sell).</li>
+    <li>Quantity contains negative values and zeros, which should not appear on an executed trade record.</li>
+    <li>PricePerShare, TotalTradeValue, and Commission are stored as text with mixed currency notation. Some TotalTradeValue entries for high-volume trades include thousands-separator commas embedded in the text that must be stripped before the currency symbols.</li>
+    <li>TotalTradeValue should equal Quantity multiplied by PricePerShare, and rows where it does not match reveal price or quantity transcription errors.</li>
+    <li>SettlementDate should be exactly T+2 business days from TradeDate for equities under NGX rules, and rows where it is not are settlement risk flags.</li>
+    <li>SettlementDate occasionally falls before TradeDate, which is logically impossible.</li>
+    <li>SecurityName has inconsistent casing (Dangote Cement PLC, dangote cement plc, ZENITH BANK PLC).</li>
+    <li>OrderStatus has inconsistent casing and a trailing-space variant (Executed, executed, CANCELLED, Pending with a trailing space).</li>
+    <li>CHNNumber is missing for some traders, which is a compliance gap since every registered investor on the NGX must have a Central Securities Clearing System holder number.</li>
+    <li>Around five percent of rows are duplicate trade entries from a settlement system reconciliation file being merged with the execution log.</li>
+  </ul>
+
+  <h4 class="bh steps">Step-by-Step Power Query Cleaning Process (Excel and Power BI)</h4>
+  <ol class="steps">
+    <li>Connect to the workbook, select the Trading Records sheet, click Transform Data. Set CHNNumber to Text type immediately on load to preserve leading zeros. Remove duplicate rows on all columns.</li>
+    <li>Trim and Clean all text columns in one pass.</li>
+    <li>Standardise SecurityName: Capitalize Each Word resolves all casing variants in one step since security names are proper nouns.</li>
+    <li>Standardise OrderType: Capitalize Each Word, then Replace Values to agree with the business on whether Market Buy and Limit Buy are the same category as Buy for reporting purposes, or whether they need to remain distinct. Document the decision as the step name.</li>
+    <li>Standardise OrderStatus: Trim is already done, Capitalize Each Word, then Replace Values to produce a clean five-value list (Executed, Pending, Cancelled, Partially Filled, Expired).</li>
+    <li>Clean PricePerShare, TotalTradeValue, and Commission: before stripping currency symbols, add a Replace Values step to remove commas from the TotalTradeValue column first (since a value like "NGN 1,250,000" must have its comma removed before the NGN prefix is stripped, otherwise a Text.Replace chain leaves the comma in the numeric string). Then apply the standard currency-stripping chain and set to Decimal Number.</li>
+    <li>Fix Quantity: set to Whole Number, filter for values less than or equal to 0, and route those rows to a review query named Trades_InvalidQuantity.</li>
+    <li>Add a calculated ExpectedTradeValue column = [Quantity] * [PricePerShare] where both are positive and not null, then a TradeValueVariance column to surface transcription discrepancies.</li>
+    <li>Fix TradeDate and SettlementDate: convert both to Date type, resolve errors. Add a SettlementCheck column: if [SettlementDate] &lt;= [TradeDate] then "Settlement before trade - review" else if [SettlementDate] &lt;&gt; Date.AddDays([TradeDate], 2) then "Non-standard settlement - review" else "OK".</li>
+    <li>Flag missing CHNNumber: add a CHNFlag column = if [CHNNumber] = null then "COMPLIANCE GAP - no CHN on record" else "OK".</li>
+    <li>Standardise Sector: Capitalize Each Word. Close and load as CapitalMarket_Trades_Clean.</li>
+  </ol>
+</div>
+
+<div class="ds" id="ds27">
+  <div class="ds-hdr">
+    <span class="ds-num">Dataset 27</span>
+    <h3>Ride-Hailing App Trip Records</h3>
+  </div>
+  <div class="meta">Domain: Transportation and Mobility &nbsp;|&nbsp; File: <code>27_ride_hailing_trip_records_DIRTY.xlsx</code></div>
+  <p class="body">A transport analytics consultant exports a trip dataset from five ride-hailing platforms operating across Lagos and Abuja (Uber, Bolt, inDrive, LAGRIDE, and Rida) for a mobility pattern study. The dataset merges API exports from each platform, and every platform uses slightly different field conventions for the same data points.</p>
+  <div class="cols">Columns: TripID, RiderName, RiderPhone, DriverName, DriverPhone, Platform, VehicleCategory, PickupLocation, DropoffLocation, TripStartTime, TripDuration_min, Distance_km, FareAmount, PaymentMethod, TripStatus, RiderRating, DriverRating</div>
+
+  <h4 class="bh issues">Data Quality Issues Deliberately Built In</h4>
+  <ul class="issues">
+    <li>Platform has inconsistent casing and abbreviation variants (Uber, uber, BOLT, InDrive, inDrive, Lagride, LAGRIDE).</li>
+    <li>VehicleCategory has trailing spaces and inconsistent casing (Economy, economy, COMFORT, Economy with a trailing space, xl versus XL).</li>
+    <li>TripStartTime combines a mixed-format date with a time in the same text field, requiring a two-stage split to produce separate Date and Time columns.</li>
+    <li>TripDuration_min contains negative values and zeros, which are impossible for a completed trip.</li>
+    <li>Distance_km mixes kilometres and miles in the same column - the Uber export used miles while the other four platforms used kilometres, and some Uber rows have the "mi" suffix appended to the value while others do not.</li>
+    <li>FareAmount is stored as text with mixed currency notation.</li>
+    <li>RiderRating and DriverRating contain values outside the valid 1 to 5 range, including 0, 6, and negative numbers, and are frequently missing for cancelled trips.</li>
+    <li>PaymentMethod has a trailing-space variant and inconsistent casing (Cash, cash, WALLET, Card with a trailing space).</li>
+    <li>TripStatus has inconsistent casing and a trailing-space variant (Completed, completed, CANCELLED, Driver No Show, No Show - which may or may not be the same status).</li>
+    <li>Around four percent of rows are duplicate trip entries from a platform API that returned the same trip on a retry call.</li>
+  </ul>
+
+  <h4 class="bh steps">Step-by-Step Power Query Cleaning Process (Excel and Power BI)</h4>
+  <ol class="steps">
+    <li>Connect to the workbook, select the Trip Records sheet, click Transform Data. Remove duplicate rows on all columns.</li>
+    <li>Trim and Clean all text columns in one pass. This resolves the VehicleCategory, PaymentMethod, and TripStatus trailing-space variants immediately.</li>
+    <li>Standardise Platform: for all-caps acronyms and branded names, use a Replace Values lookup table (mapping uber to Uber, BOLT to Bolt, Lagride to LAGRIDE if LAGRIDE is the official capitalisation, etc.) so the result matches each platform's official brand name rather than relying on Capitalize Each Word, which would produce wrong output for inDrive and LAGRIDE.</li>
+    <li>Standardise VehicleCategory: Trim is already done, Capitalize Each Word, then Replace Values to fold xl into XL (since this is an abbreviation, not a word) and to produce a clean five-value list.</li>
+    <li>Split TripStartTime in two stages: first Split Column &gt; By Delimiter (space) into TripDate and TripTime halves. Then convert TripDate to Date type and TripTime to Time type, using try/otherwise wrappers for the mixed-format handling.</li>
+    <li>Fix TripDuration_min: set to Whole Number, filter for values less than or equal to 0, and route to a review query named Trips_InvalidDuration.</li>
+    <li>Resolve the Distance_km unit mix: add a custom column that checks Text.EndsWith(Text.Trim([Distance_km]), "mi") - if true, extract the numeric portion with Text.BeforeDelimiter, convert to Decimal Number, multiply by 1.60934 to convert to kilometres; if false, convert directly to Decimal Number. Drop the original text column and name the result Distance_km.</li>
+    <li>Clean FareAmount with the standard currency-stripping and Decimal Number conversion technique.</li>
+    <li>Standardise PaymentMethod: Trim is already done, Capitalize Each Word.</li>
+    <li>Standardise TripStatus: Capitalize Each Word, then Replace Values to decide - with the business - whether Driver No Show and No Show are the same status and fold them accordingly.</li>
+    <li>Fix RiderRating and DriverRating: set to Whole Number, then add conditional columns RiderRatingValid = if [RiderRating] &gt;= 1 and [RiderRating] &lt;= 5 then [RiderRating] else null and the same for DriverRating, converting out-of-range values to null rather than removing the row.</li>
+    <li>Close and load as RideHailing_Trips_Clean.</li>
+  </ol>
+</div>
+
+<div class="ds" id="ds28">
+  <div class="ds-hdr">
+    <span class="ds-num">Dataset 28</span>
+    <h3>Digital Wallet and Fintech Transaction Records</h3>
+  </div>
+  <div class="meta">Domain: Fintech and Digital Finance &nbsp;|&nbsp; File: <code>28_fintech_digital_wallet_transactions_DIRTY.xlsx</code></div>
+  <p class="body">A fintech compliance analyst exports a transaction log covering eight digital wallet and mobile money platforms (Opay, PalmPay, Kuda, Carbon, FairMoney, Moniepoint, VFD Microfinance, and Piggyvest) for an AML/CFT pattern screening exercise. The export merges API outputs from each platform, and several field conventions clash - particularly around transaction type labels, device type codes, and the format of the combined date-time field.</p>
+  <div class="cols">Columns: TransactionID, UserName, PhoneNumber, WalletApp, TransactionType, Amount, TransactionFee, Narration, RecipientPhone, DateTime, TransactionStatus, DeviceType, State, BVN_Verified</div>
+
+  <h4 class="bh issues">Data Quality Issues Deliberately Built In</h4>
+  <ul class="issues">
+    <li>TransactionType has trailing spaces and inconsistent casing for the same type (Send Money, send money, SEND MONEY, Airtime, Airtime Top-Up - where the last two may be the same category).</li>
+    <li>Amount is stored as text with mixed currency notation, and some high-value transfers have thousands-separator commas embedded that must be stripped before the currency symbols.</li>
+    <li>TransactionFee is frequently blank, which needs to be treated as zero (fee-free transaction) rather than as missing data, since platforms like Kuda advertise zero-fee transfers.</li>
+    <li>Narration mixes genuine free-text entries, null text placeholders (the text "null" and "N/A"), and genuine blank values.</li>
+    <li>DateTime combines a mixed-format date with a time or date-time string in one text field requiring splitting.</li>
+    <li>TransactionStatus has inconsistent casing, trailing spaces, and an overlapping label (Successful, successful, FAILED, Success, Failed with a trailing space - where Successful and Success are the same state).</li>
+    <li>DeviceType has trailing spaces and inconsistent casing (Android, android, IOS, iOS, Web with a trailing space).</li>
+    <li>RecipientPhone is blank for non-transfer transaction types (bill payment, airtime, savings), which is expected, but blank for Send Money transactions, which is a data quality gap requiring flagging.</li>
+    <li>BVN_Verified mixes Yes/No, Y/N, 1/0, and TRUE/FALSE.</li>
+    <li>Around five percent of rows are duplicate transaction entries from a platform API retry that double-submitted the same payload.</li>
+  </ul>
+
+  <h4 class="bh steps">Step-by-Step Power Query Cleaning Process (Excel and Power BI)</h4>
+  <ol class="steps">
+    <li>Connect to the workbook, select the Wallet Transactions sheet, click Transform Data. Remove duplicate rows on all columns first.</li>
+    <li>Trim and Clean all text columns in one pass to handle TransactionType, TransactionStatus, and DeviceType trailing-space variants.</li>
+    <li>Standardise TransactionType: Capitalize Each Word, then Replace Values to fold Airtime into Airtime Top-Up (or vice versa, per the business decision), and to fold Send Money variants into one canonical form. Produce a clean seven-value type list.</li>
+    <li>Standardise TransactionStatus: Trim is already done, Capitalize Each Word, then Replace Values to fold Success into Successful and Failed with a space (already handled by Trim) into Failed, producing a four-value list (Successful, Failed, Pending, Reversed).</li>
+    <li>Standardise DeviceType: Trim is already done. Replace Values to fold IOS into iOS (since this is the correct capitalisation) and android into Android. Capitalize Each Word will not handle iOS correctly, so use Replace Values for all variants.</li>
+    <li>Clean Amount: before stripping currency symbols, add a Replace Values step to remove commas first. Then apply the standard currency-stripping chain (naira sign, NGN, naira word, N prefix) and Trim, then set to Decimal Number.</li>
+    <li>Handle TransactionFee: clean the currency text the same way. Then, after the type conversion, replace null values with 0 using Replace Value on null (not a null-marker text replacement, but a true null replacement after type conversion), since a missing fee on a successfully executed transaction means the fee was zero.</li>
+    <li>Clean Narration: Replace Values to convert the text "null" and "N/A" into a true null, leaving genuine free-text comments untouched. Add a HasNarration conditional column (true where Narration is not null) for AML screening filters.</li>
+    <li>Split DateTime in two stages: Split Column &gt; By Delimiter (space) into DatePart and TimePart. Convert DatePart to Date type using try/otherwise, and TimePart to Time type using try/otherwise.</li>
+    <li>Handle RecipientPhone logically: apply the standard digits-only cleaning (Text.Select), then add a RecipientCheck column: if [TransactionType] = "Send Money" and [RecipientPhone] = null then "Missing recipient phone for transfer - AML flag" else "OK".</li>
+    <li>Standardise BVN_Verified into a Logical True/False column with Replace Values before changing Data Type. Close and load as Fintech_Transactions_Clean.</li>
+  </ol>
+</div>
+
+<div class="ds" id="ds29">
+  <div class="ds-hdr">
+    <span class="ds-num">Dataset 29</span>
+    <h3>WAEC and NECO Examination Result Records</h3>
+  </div>
+  <div class="meta">Domain: Education and Examinations &nbsp;|&nbsp; File: <code>29_waec_neco_exam_results_DIRTY.xlsx</code></div>
+  <p class="body">An education data analyst at a state ministry of education exports a combined WAEC and NECO result register covering senior secondary school certificate examination results from schools across five states. The register was compiled by combining result printouts from the examination bodies' portals with a manually maintained school tracking spreadsheet, producing a file with grade format inconsistencies, score range violations, and school name casing problems.</p>
+  <div class="cols">Columns: CandidateNo, CandidateName, Gender, DateOfBirth, ExamBody, ExamYear, Subject, Score, Grade, ExamCenter, SchoolName, State, ResultStatus, MalpracticeFlag</div>
+
+  <h4 class="bh issues">Data Quality Issues Deliberately Built In</h4>
+  <ul class="issues">
+    <li>ExamBody has inconsistent casing and trailing spaces (WAEC, waec, WAEC with a trailing space, Neco, neco, NECO).</li>
+    <li>ExamYear is stored as text in some rows rather than a number, and some rows have it blank entirely.</li>
+    <li>Score contains values outside the valid 0 to 100 range, including negative numbers and values above 100, which are physically impossible for a standardised exam.</li>
+    <li>Grade mixes two different grading scales in one column - the standard WAEC/NECO alphanumeric scale (A1, B2, B3, C4, C5, C6, D7, E8, F9) alongside word-based grades (Pass, Fail, Credit, Distinction) that come from a different, incompatible scale used in the manual tracking sheet.</li>
+    <li>Grade has inconsistent formatting within the WAEC/NECO scale itself (A1, a1, B 2 with an internal space, C4 with a trailing space).</li>
+    <li>CandidateName has inconsistent casing and leading spaces.</li>
+    <li>SchoolName has inconsistent casing from the manual tracking sheet entries.</li>
+    <li>ResultStatus has inconsistent casing and a trailing-space variant (Released, released, WITHHELD, Released with a trailing space, pending).</li>
+    <li>DateOfBirth uses mixed date formats.</li>
+    <li>MalpracticeFlag mixes Yes/No, Y/N, 1/0, and TRUE/FALSE.</li>
+    <li>Around four percent of rows are duplicate result entries from the two source systems (WAEC portal and manual tracking sheet) having been merged without deduplication.</li>
+  </ul>
+
+  <h4 class="bh steps">Step-by-Step Power Query Cleaning Process (Excel and Power BI)</h4>
+  <ol class="steps">
+    <li>Connect to the workbook, select the Exam Results sheet, click Transform Data. Set CandidateNo to Text type immediately on load. Remove duplicate rows on CandidateNo, Subject, and ExamYear together (not all columns) since the same candidate should only have one result per subject per sitting.</li>
+    <li>Trim and Clean all text columns in one pass to handle trailing spaces in ExamBody, Grade, ResultStatus, and SchoolName.</li>
+    <li>Standardise ExamBody: Text.Upper is the correct transformation here since WAEC and NECO are acronyms - Capitalize Each Word would produce Waec and Neco. Apply via a custom column: Text.Upper(Text.Trim([ExamBody])).</li>
+    <li>Fix ExamYear: set to Whole Number type. Filter on errors and on blank values to isolate rows where the year was not recorded, flagging them for the school to confirm rather than defaulting to a guessed year.</li>
+    <li>Standardise CandidateName: Trim is already done, Capitalize Each Word.</li>
+    <li>Fix Score: set to Whole Number. Add a ScoreValidation column: if [Score] &lt; 0 then "Negative score - impossible" else if [Score] &gt; 100 then "Score above 100 - impossible" else "OK". Route flagged rows to a review query named Results_InvalidScores rather than deleting them.</li>
+    <li>Handle the Grade dual-scale problem in two stages. First, add a GradeScale column: if [Grade] is in the list ("A1","B2","B3","C4","C5","C6","D7","E8","F9") (checking with List.Contains after Trimming and uppercasing the Grade value) then "WAEC/NECO Scale" else "Other Scale". This makes the scale explicit in the data. Second, clean the WAEC/NECO scale values by removing internal spaces (Replace Values " " to "") and standardising to uppercase using a custom column.</li>
+    <li>Standardise ResultStatus: Trim is already done, Capitalize Each Word, then Replace Values to produce a four-value list (Released, Withheld, Pending, Cancelled).</li>
+    <li>Standardise SchoolName: Capitalize Each Word.</li>
+    <li>Fix DateOfBirth: convert to Date type and resolve errors. Add an Age column and flag candidates under 14 or over 30 as potentially erroneous for a senior secondary exam.</li>
+    <li>Standardise MalpracticeFlag into a Logical True/False column with Replace Values before changing Data Type. Close and load as ExamResults_Clean.</li>
+  </ol>
+</div>
+
+<div class="ds" id="ds30">
+  <div class="ds-hdr">
+    <span class="ds-num">Dataset 30</span>
+    <h3>WASH Water and Sanitation Project Records</h3>
+  </div>
+  <div class="meta">Domain: Water, Sanitation and Hygiene (WASH) &nbsp;|&nbsp; File: <code>30_wash_water_sanitation_projects_DIRTY.xlsx</code></div>
+  <p class="body">A WASH sector analyst at a federal government agency exports a project register covering borehole installations, hand-dug wells, pipe-borne water schemes, water kiosks, toilet blocks, and latrines across 15 states. The register merges records from three donor-funded programme databases that each used slightly different controlled vocabularies for facility type, functional status, management model, and water quality assessment.</p>
+  <div class="cols">Columns: FacilityID, FacilityName, FacilityType, LGA, Ward, InstallationDate, LastServiceDate, FunctionalStatus, WaterQuality, PopulationServed, ManagementModel, InstallationCost, FundingOrg, State, CommunityContrib</div>
+
+  <h4 class="bh issues">Data Quality Issues Deliberately Built In</h4>
+  <ul class="issues">
+    <li>FacilityType has inconsistent casing, trailing spaces, and multi-word variant spellings for the same facility type (Borehole, borehole, BOREHOLE; Hand-Dug Well, Hand Dug Well, hand dug well; Pipe-Borne Water, Pipe borne; Water Kiosk, water kiosk, Water kiosk with a trailing space).</li>
+    <li>FunctionalStatus has inconsistent casing, trailing spaces, and overlapping labels across the three programme databases (Functional, functional, NON-FUNCTIONAL, Non Functional, Non-Functional, Functional with a trailing space).</li>
+    <li>WaterQuality has inconsistent casing and trailing spaces (Safe, safe, UNSAFE, Not Tested, Not tested, Safe with a trailing space, Unknown).</li>
+    <li>ManagementModel has inconsistent casing and abbreviations (Community Management, community, GOVERNMENT, NGO Managed, NGO).</li>
+    <li>FundingOrg has inconsistent casing (UNICEF, unicef, World Bank, World bank, ADB, DFID) and N/A values that need to be distinguished from genuinely unfunded facilities.</li>
+    <li>PopulationServed contains negative values and zeros, which should not appear for an operational facility.</li>
+    <li>InstallationCost is stored as text with mixed currency notation, and some values for large schemes include thousands-separator commas.</li>
+    <li>LastServiceDate is blank for facilities that have never been serviced since installation (a data quality flag) and for facilities installed so recently that no service run has occurred yet (which may be acceptable).</li>
+    <li>InstallationDate and LastServiceDate use mixed date formats, and LastServiceDate occasionally falls before InstallationDate, which is logically impossible.</li>
+    <li>CommunityContrib mixes Yes/No, Y/N, 1/0, and TRUE/FALSE.</li>
+    <li>Around four percent of rows are duplicate facility records from the three programme database exports being merged without deduplication.</li>
+  </ul>
+
+  <h4 class="bh steps">Step-by-Step Power Query Cleaning Process (Excel and Power BI)</h4>
+  <ol class="steps">
+    <li>Connect to the workbook, select the WASH Projects sheet, click Transform Data. Remove duplicate rows on all columns first.</li>
+    <li>Trim and Clean all text columns in one pass to remove trailing spaces from FacilityType, FunctionalStatus, WaterQuality, and ManagementModel.</li>
+    <li>Standardise FacilityType: build a reference lookup table mapping every variant to a canonical six-value list (Borehole, Hand-Dug Well, Pipe-Borne Water, Water Kiosk, Toilet Block, Latrine) and Merge Queries (Left Outer join on FacilityType). Note that Capitalize Each Word alone would produce Hand-Dug Well correctly but would fail on hyphenated compound names like Pipe-Borne, making a lookup table the safer approach.</li>
+    <li>Standardise FunctionalStatus: Trim is already done, Capitalize Each Word, then Replace Values to fold Non Functional and Non-Functional into one canonical Non-Functional form, producing a four-value list (Functional, Non-Functional, Under Repair, Abandoned).</li>
+    <li>Standardise WaterQuality: Trim is already done, Capitalize Each Word, then Replace Values to fold Unknown into Not Tested if the business agrees they represent the same state, or keep them distinct if they differ operationally. Document the decision as the step name.</li>
+    <li>Standardise ManagementModel: Capitalize Each Word, then Replace Values to fold community into Community Management and NGO into NGO Managed, producing a four-value list.</li>
+    <li>Standardise FundingOrg: for acronyms, use the same selective-uppercase technique from DS 22 - short values (6 characters or fewer) use Text.Upper, longer values use Text.Proper. Then Replace Values to convert N/A into a true null, distinguishing it from a facility that genuinely has no external funding organisation.</li>
+    <li>Fix PopulationServed: set to Whole Number, then filter for values less than or equal to 0 and route to a review query named WASH_InvalidPopulation.</li>
+    <li>Clean InstallationCost: strip commas first (for billion-naira large scheme costs), then apply the standard currency-stripping chain and set to Decimal Number.</li>
+    <li>Fix InstallationDate and LastServiceDate: convert both to Date type, resolve errors. Add a ServiceDateCheck column: if [LastServiceDate] &lt; [InstallationDate] then "Service before installation - impossible" else if [LastServiceDate] = null and Duration.Days(Date.From(DateTime.LocalNow()) - [InstallationDate]) &gt; 365 then "No service record in over a year - flag for field team" else "OK".</li>
+    <li>Standardise CommunityContrib into a Logical True/False column with Replace Values before changing Data Type.</li>
+    <li>Close and load as WASH_Projects_Clean, with a companion query WASH_ComplianceFlags that filters for every row with a negative population, an impossible service date, or a missing funding organisation for a major facility type.</li>
+  </ol>
+</div>
+
+
+<h2 class="sec" id="cheat">Power Query M Language Cheat Sheet</h2>
+<div class="card">
+  <p class="body" style="margin-bottom:14px">These M snippets are the most frequently used cleaning operations across all ten datasets in this set. Paste them into the Custom Column dialog or the Advanced Editor in either Excel or Power BI Desktop.</p>
+  <table class="t">
+    <tr>
+      <th style="width:40%">Task</th>
+      <th>M Code</th>
+    </tr>
+    
+    <tr>
+      <td>Trim and clean in one formula</td>
+      <td class="code-col">Text.Clean(Text.Trim([Column]))</td>
+    </tr>
+    <tr>
+      <td>Title case for names and categories</td>
+      <td class="code-col">Text.Proper([Column])</td>
+    </tr>
+    <tr>
+      <td>Force UPPERCASE for codes</td>
+      <td class="code-col">Text.Upper([Column])</td>
+    </tr>
+    <tr>
+      <td>Keep digits only (phone numbers, IDs)</td>
+      <td class="code-col">Text.Select([Column], {"0".."9"})</td>
+    </tr>
+    <tr>
+      <td>Keep digits and + prefix for international numbers</td>
+      <td class="code-col">Text.Select([Column], {"0".."9","+"})</td>
+    </tr>
+    <tr>
+      <td>Strip currency symbols and words from an amount field</td>
+      <td class="code-col">Text.Trim(Text.Replace(Text.Replace(Text.Replace(Text.Replace([Column],"NGN",""),"naira",""),"N",""),"\u20a6",""))</td>
+    </tr>
+    <tr>
+      <td>Safe date parse returning null instead of error</td>
+      <td class="code-col">try Date.FromText([Column]) otherwise null</td>
+    </tr>
+    <tr>
+      <td>Extract the numeric part before a space (e.g. "120.5 lbs")</td>
+      <td class="code-col">Number.From(Text.BeforeDelimiter([Column]," "))</td>
+    </tr>
+    <tr>
+      <td>Convert miles to km where a column mixes both units</td>
+      <td class="code-col">if Text.EndsWith(Text.Trim([Column]),"mi") then Number.From(Text.BeforeDelimiter([Column]," "))*1.60934 else Number.From([Column])</td>
+    </tr>
+    <tr>
+      <td>Flag value outside a valid range</td>
+      <td class="code-col">if [Column] &lt; 0 or [Column] &gt; 100 then "Out of range - review" else "OK"</td>
+    </tr>
+    <tr>
+      <td>Safe division avoiding divide-by-zero</td>
+      <td class="code-col">if [Denominator] = null or [Denominator] = 0 then null else [Numerator] / [Denominator]</td>
+    </tr>
+    <tr>
+      <td>Standardise a Yes/No boolean column to Logical</td>
+      <td class="code-col">List.Contains({"Yes","Y","1","TRUE","true","yes"},[Column])</td>
+    </tr>
+    <tr>
+      <td>Compute age in whole years from a date column</td>
+      <td class="code-col">Number.RoundDown(Duration.Days(Date.From(DateTime.LocalNow())-[DateOfBirth])/365.25)</td>
+    </tr>
+    <tr>
+      <td>Standardise a settlement date to T+2 from a trade date</td>
+      <td class="code-col">Date.AddDays([TradeDate],2)</td>
+    </tr>
+    <tr>
+      <td>Concatenate two location columns into a route key</td>
+      <td class="code-col">[PickupLocation] &amp; " - " &amp; [DropoffLocation]</td>
+    </tr>
+  </table>
+</div>
+
+<h2 class="sec" id="notes">Facilitator Notes</h2>
+<div class="card">
+  <ul style="padding-left:22px">
+    <li style="margin-bottom:11px;font-size:.93rem">Start every session by showing Column Quality (View &gt; Column Quality) and Column Distribution (View &gt; Column Distribution) in the Power Query Editor before touching any step. The visual percentage bars for valid, empty, and error cells give trainees an instant overview of every problem column without a single formula.</li>
+    <li style="margin-bottom:11px;font-size:.93rem">Demonstrate that the styled formatting in these .xlsx source files has zero effect inside Power Query. Header colours, alternating row fills, and bold fonts are a common source of trainee confusion when moving from raw CSV work to formatted workbook work.</li>
+    <li style="margin-bottom:11px;font-size:.93rem">Use the Reference query pattern throughout this set. When a lookup table is needed (for category standardisation, broker name normalisation, or grade mapping), create it as a separate named query and use Merge Queries with a Left Outer join rather than stacking Replace Values steps. This produces more maintainable, reusable queries.</li>
+    <li style="margin-bottom:11px;font-size:.93rem">Teach the difference between a Remove Rows step and a routing-to-review-table step. Silent row deletion destroys evidence. A duplicate-query-then-filter approach keeps a separate companion query holding every flagged row so the business team can investigate at source.</li>
+    <li style="margin-bottom:11px;font-size:.93rem">For the financial and trading datasets (DS 26, DS 28), reinforce that stripping thousands-separator commas from amount fields must happen before the Replace Values steps that strip currency words - otherwise a field like "NGN 1,250,000" becomes "1250000" correctly only if the comma is removed first as part of the strip chain.</li>
+    <li style="margin-bottom:11px;font-size:.93rem">Use Group By as a diagnostic throughout, not just as a final reporting step. Grouping a Status or Category column and counting rows before cleaning reveals the full universe of variants that need Replace Values treatment. Grouping again after cleaning confirms the consolidation worked correctly.</li>
+    <li style="margin-bottom:11px;font-size:.93rem">For the exam results dataset (DS 29), use the grade standardisation as a teaching moment on the difference between data cleaning (making Grade A and grade a the same value) and data modelling (deciding whether A1 maps to Distinction and B2 maps to Credit for downstream scoring logic, which belongs in a DAX calculated column or a data model relationship, not in Power Query).</li>
+  </ul>
+</div>
+
+<div class="note">
+  All ten .xlsx files in this set contain deliberately embedded data quality problems for classroom use. Every file is formatted with styled headers, alternating row colours, and adjusted column widths to simulate the kind of file trainees will receive in practice - but formatting has zero effect inside Power Query. Trainees should always connect through Power Query and perform every cleaning step in the Applied Steps pane. Rename every step in plain English so the finished query is fully self-documenting.
+</div>
+
+<footer>
+  Prodigy Training Hub | Data Science and Analytics Training | Lagos, Nigeria<br>
+  Kajola Gbenga Adewale | Data Expert
+</footer>
+
+</div>
+</body>
+</html>

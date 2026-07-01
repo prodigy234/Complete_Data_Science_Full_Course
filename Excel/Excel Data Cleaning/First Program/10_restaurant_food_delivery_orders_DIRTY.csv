@@ -1,0 +1,471 @@
+OrderID,CustomerName,PhoneNumber,Restaurant,DishOrdered,Quantity,UnitPrice,DeliveryAddress,OrderTime,DeliveryStatus,DeliveryFee,PaymentMethod,Rating,ReviewNote
+FD800304,Tobi Afolabi,(588) 425-2410,Bukka Hut,Pounded Yam & Egusi Soup,2,"₦4,000.00","10 Awolowo Way, Yaba, Lagos",22/02/2026 02:00 PM,delivered,"N1,419",Card,2,--
+FD800425,Fatima Okeke,0000000000,Sweet Sensation,Ofada Rice & Sauce,3,"N3,300","91 Toyin Street, Victoria Island, Lagos   ",2026-02-06 07:00,Cancelled,1128.0,cash on delivery,0,Average
+FD800351,Bisi Nwosu,02061632945,Yellow Chilli,Pizza (Medium),NIL,"₦7,500.00","196 Awolowo Way, Ikeja, Lagos",2026/03/25 14:00,Cancelled,1087.00 naira,COD,NIL,Cold food
+FD800421,Aliyu Lawal,234-128-801-336,Sweet Sensation,Pepper Soup (Goat Meat),3,"NGN 3,800","  188 Herbert Macaulay Way, Ikeja, Lagos",05.06.2026 23:00,Cancelled,"₦1,674.00",Wallet,4,Excellent
+FD800019,Segun Nwosu,30103105183,Mama Put Kitchen,Pounded Yam & Egusi Soup,3,"₦4,000.00","40 Toyin Street, Yaba, Lagos   ",2025-03-10 08:00,Cancelled,2318.0,Card,,
+FD800052,Segun Nwosu,(714) 345-5812,Chicken Republic,Jollof Rice & Chicken,2,"NGN 3,500","87 Toyin Street, Surulere, Lagos",2026/04/08 09:00,Out for Delivery,NGN 611,Card,1,
+FD800116,Tobi Mohammed,234-020-539-502,Kilimanjaro,Moi Moi & Plantain,3,"N2,200","147 Toyin Street, Victoria Island, Lagos",2026/02/02 05:00 PM,Preparing,"3,036.00 ",cash on delivery,2,null
+FD800101,Sadiq Ogundimu,04821759464,Bukka Hut,Fried Rice & Turkey,1,"₦4,500.00","200 Toyin Street, Yaba, Lagos",01/07/2026 19:00,Preparing,"₦3,252.00",Cash,2,Too spicy
+FD800325,Kemi Nnamdi,+234687014626,Yellow Chilli,Amala & Ewedu,NIL,Unknown,"199 Toyin Street, Surulere, Lagos",10/04/2026 08:00 PM,Preparing,549.0,Cash,0,Too spicy
+FD800236,Chioma Adekunle   ,0048 996 4235,BUKKA HUT,Asun (Spicy Goat Meat),-1,4200.00 naira,"80 Herbert Macaulay Way, Yaba, Lagos   ",12-Sep-2025 09:00,Out for Delivery,"N1,305",Cash,4,Cold food
+FD800191,Chidi Okonkwo,+234983584168,Local Flavours,Shawarma Large,3,2500,"193 Herbert Macaulay Way, Yaba, Lagos",30.06.2025 21:00,Preparing,3282.00 naira,COD,3,Unknown
+FD800138,Halima Okafor,(188) 355-2312,Genesis Kitchen,Asun (Spicy Goat Meat),1,"₦4,200.00","145 Herbert Macaulay Way, Yaba, Lagos",20-Sep-2025 06:00 PM,Preparing,"₦1,608.00",Card,5,N/A
+FD800417,  chidi okeke,08861533555,Sweet Sensation,Ofada Rice & Sauce,1,"₦3,300.00","58 Awolowo Way, Yaba, Lagos",31 October 2025 22:00,delivered,"NGN 3,463",Card,3,Cold food
+FD800085,HALIMA  LAWAL,,Chicken Republic,Amala & Ewedu,3,"₦2,800.00","190 Toyin Street, Yaba, Lagos",06.04.2026 13:00,Cancelled,"N1,059",Wallet,1,Excellent
+FD800224,Amara Lawal,(310) 690-3311,Kilimanjaro,Ofada Rice & Sauce,-1,3300,"16 Herbert Macaulay Way, Yaba, Lagos   ",2026-05-16 12:00,Out for Delivery,"1,456.00 ",Cash,--,
+FD800291,Wale Okonkwo,234-129-387-005,Bukka Hut,Suya Platter,1,3000.00 naira,"87 Adetokunbo Ademola, Surulere, Lagos",2026-02-22 08:00 AM,Cancelled,2603.00 naira,Cash,2,Great food
+FD800344,Obinna Mohammed,234-720-506-149,Bukka Hut,Amala & Ewedu,2,"NGN 2,800","  76 Allen Ave, Surulere, Lagos",unknown date 07:00 AM,Preparing,"₦2,481.00",Transfer,2,
+FD800056,Zainab Okonkwo,07065627298,Bukka Hut,Pepper Soup (Goat Meat),2,3800.00 naira,"93 Herbert Macaulay Way, Victoria Island, Lagos",10/05/2026 12:00 PM,CANCELLED,2657.00 naira,Wallet,-,Late delivery
+FD800176,Funmilayo Balogun,(313) 237-0589,Genesis Kitchen,Ofada Rice & Sauce,-1,3300.00 naira,"  149 Awolowo Way, Ikeja, Lagos",04/05/2026 16:00,Pending Confirmation,"NGN 2,151",Card,1,
+FD800240,CHINEDU EZE,(509) 977-0088,Sweet Sensation,Pizza (Medium),1,"₦7,500.00","3 Allen Ave, Surulere, Lagos",29 October 2025 20:00,Delivered,1962.00 naira,cash on delivery,0,Too spicy
+FD800091,Amaka Abubakar,234-821-465-840,Bukka Hut,Asun (Spicy Goat Meat),3,4200.00 naira,"  88 Allen Ave, Ikeja, Lagos",20.06.2025 08:00 PM,Out for Delivery,NIL,Card,0,-
+FD800273,Ifeoma Ajayi,57924991251,yellow chilli,Fried Rice & Turkey,3,"NGN 4,500","41 Awolowo Way, Victoria Island, Lagos   ",06-Jul-2025 12:00,Pending Confirmation,N/A,cash on delivery,3,Cold food
+FD800182,Yusuf Adekunle   ,234-995-900-109,Sweet Sensation,Ofada Rice & Sauce,1,"NGN 3,300","  87 Herbert Macaulay Way, Surulere, Lagos   ",00/00/0000 11:00 AM,Out for Delivery,1676.0,cash on delivery,0,Too spicy
+FD800426,Funmilayo Chukwu,+234607283268,Sweet Sensation,Fried Rice & Turkey,3,4500,"164 Adetokunbo Ademola, Victoria Island, Lagos",13.05.2026 09:00,Preparing,1511.00 naira,Transfer,2,NULL
+FD800225,CHIOMA NWOSU,0079 030 6738,Mama Put Kitchen,Ofada Rice & Sauce,1,"NGN 3,300","8 Awolowo Way, Victoria Island, Lagos",10-Jul-2025 14:00,Delivered,"₦3,079.00",cash on delivery,3,Average
+FD800060,obinna okafor,invalid,Local Flavours,Pizza (Medium),3,"₦7,500.00","28 Adetokunbo Ademola, Yaba, Lagos",25-May-2026 04:00 PM,delivered,"N1,084",Cash,4,
+FD800383,Grace Ajayi,04618499261,Chicken Republic,Asun (Spicy Goat Meat),2,"₦4,200.00","151 Awolowo Way, Ikeja, Lagos",11/05/2026 01:00 PM,Pending Confirmation,2005.0,Cash,2,
+FD800413,Fatima Yusuf,0000000000,KILIMANJARO,Amala & Ewedu,1,"2,800.00 ","54 Adetokunbo Ademola, Ikeja, Lagos",31.01.2026 01:00 PM,Cancelled,"N2,020",cash on delivery,NULL,Late delivery
+FD800096,Segun Nnamdi,234-596-158-657,Bukka Hut,Fried Rice & Turkey,1,4500,"31  Allen Ave, Victoria Island, Lagos",23 May 2025 22:00,Out for Delivery,"NGN 1,866",Wallet,n/a,
+FD800288,Emeka Abubakar   ,invalid,Sweet Sensation,Pounded Yam & Egusi Soup,3,"NGN 4,000","122 Allen Ave, Yaba, Lagos",2026-02-03 14:00,delivered,"N2,799",COD,3,Average
+FD800080,Ngozi Bello,36183242102,Chicken Republic,Grilled Fish & Yam,1,"₦4,800.00","79  Adetokunbo Ademola, Victoria Island, Lagos   ",12 April 2025 15:00,Out for Delivery,₦810.00,cash on delivery,1,N/A
+FD800119,Femi Abubakar,234-661-771-159,Genesis Kitchen,Pizza (Medium),3,"N7,500","161 Toyin Street, Yaba, Lagos",03 March 2025 08:00 AM,Delivered,"NGN 2,972",Transfer,4,N/A
+FD800136,  Funmilayo Chukwu,0529 751 6136,Sweet Sensation,Pepper Soup (Goat Meat),1,"₦3,800.00","146 Awolowo Way, Victoria Island, Lagos",2025/06/10 22:00,Out for Delivery,"NGN 1,330",COD,0,Too spicy
+FD800169,Chidi Okonkwo,234-757-059-640,Sweet Sensation,Pepper Soup (Goat Meat),2,3800,"8 Herbert Macaulay Way, Victoria Island, Lagos",2025/11/06 07:00 PM,CANCELLED,"N2,337",Card,n/a,Average
+FD800132,Blessing Nwosu,(840) 369-0034,Mama Put Kitchen,Ofada Rice & Sauce,1,3300,"  99 Awolowo Way, Victoria Island, Lagos",28 April 2025 18:00,Delivered,"N1,389",Transfer,N/A,Cold food
+FD800267,Amara Okonkwo,(573) 875-7177,yellow chilli,Pepper Soup (Goat Meat),3,"NGN 3,800","11 Adetokunbo Ademola, Victoria Island, Lagos",2026-05-30 07:00 PM,Delivered,"NGN 1,039",COD,1,Late delivery
+FD800148,BISI  EZE,02816850542,Chicken Republic,Suya Platter,-1,3000.00 naira,"148 Awolowo Way, Surulere, Lagos",30.08.2025 11:00,Delivered,2077.00 naira,cash on delivery,1,Average
+FD800147,Aliyu Chukwu,invalid,yellow chilli,Suya Platter,1,"NGN 3,000","142 Toyin Street, Surulere, Lagos",2026/04/14 17:00,Cancelled,"₦1,997.00",COD,2,Excellent
+FD800194,Fatima Ajayi,57872982595,MAMA PUT KITCHEN,Pounded Yam & Egusi Soup,1,"NGN 4,000","  115 Allen Ave, Surulere, Lagos",2025-12-02 08:00 PM,Preparing,"N3,214",cash on delivery,0,Too spicy
+FD800332,Segun Suleiman,0705 932 5250,Kilimanjaro,Pizza (Medium),1,"NGN 7,500","  51 Awolowo Way, Surulere, Lagos",07/02/2026 09:00,Out for Delivery,1800.00 naira,cash on delivery,0,N/A
+FD800044,Halima Nnamdi,06482366299,THE PLACE,Pounded Yam & Egusi Soup,-1,4000,"20 Toyin Street, Surulere, Lagos",19 January 2026 10:00,delivered,unknown,Cash,4,
+FD800283,Ifeoma Afolabi,(254) 494-8126,Kilimanjaro,Moi Moi & Plantain,1,2200,"28 Herbert Macaulay Way, Victoria Island, Lagos",2025/11/21 01:00 PM,Cancelled,"₦2,949.00",Cash,0,Average
+FD800047,Ibrahim Suleiman,13433200379,Yellow Chilli,Grilled Fish & Yam,3,4800.00 naira,"93 Allen Ave, Victoria Island, Lagos",05/06/2025 09:00 AM,Cancelled,NGN 965,Cash,5,Great food
+FD800306,emeka adekunle   ,(079) 252-4191,The Place,Moi Moi & Plantain,-1,2200.00 naira,"26 Allen Ave, Victoria Island, Lagos",01/04/2026 06:00 PM,Cancelled,1755.0,cash on delivery,3,Too spicy
+FD800228,Wale Nwosu,68705685662,Mama Put Kitchen,Shawarma Large,2,"₦2,500.00","200 Adetokunbo Ademola, Surulere, Lagos",02.08.2025 09:00 AM,Cancelled,2595.00 naira,Transfer,4,N/A
+FD800394,Kemi Nnamdi,+234756289002,Sweet Sensation,Suya Platter,NULL,"₦3,000.00","107 Toyin Street, Victoria Island, Lagos",07/19/2025 12:00 PM,CANCELLED,"₦1,474.00",Transfer,0,Too spicy
+FD800434,Blessing Suleiman,07754781291,Yellow Chilli,Moi Moi & Plantain,1,"NGN 2,200","62  Adetokunbo Ademola, Yaba, Lagos   ",08-Jan-2026 17:00,CANCELLED,"2,623.00 ",Cash,  ,N/A
+FD800110,Amara Nwosu,20047113826,Genesis Kitchen,Shawarma Large,-1,"N2,500","31 Adetokunbo Ademola, Yaba, Lagos",01/10/2025 22:00,CANCELLED,1806.0,cash on delivery,3,Unknown
+FD800448,Aliyu  Olawale,+234723692929,Mama Put Kitchen,Grilled Fish & Yam,2,"₦4,800.00","98 Toyin Street, Surulere, Lagos   ",2025-07-13 09:00 PM,delivered,3061.0,Wallet,0,N/A
+FD800025,YUSUF SULEIMAN,64746872343,LOCAL FLAVOURS,Pepper Soup (Goat Meat),1,"NGN 3,800","161 Herbert Macaulay Way, Yaba, Lagos",20.05.2025 02:00 PM,Delivered,NGN 998,COD,5,NIL
+FD800125,funmilayo nwosu,09451983273,Local Flavours,Fried Rice & Turkey,1,4500.00 naira,"81 Allen Ave, Surulere, Lagos   ",not set 10:00 PM,Delivered,2875.0,cash on delivery,  ,Too spicy
+FD800401,Musa Adeyemi,234-272-614-933,Chicken Republic,Pizza (Medium),2,"NGN 7,500","184 Toyin Street, Victoria Island, Lagos",2025/12/16 03:00 PM,delivered,"NGN 1,377",COD,NULL,
+FD800370,TOBI ABUBAKAR,02824172482,The Place,Moi Moi & Plantain,N/A,2200.00 naira,"  157 Toyin Street, Yaba, Lagos",05/21/2026 14:00,Out for Delivery,2091.0,Card,3,Too spicy
+FD800133,Fatima Abubakar,02445107622,Kilimanjaro,Asun (Spicy Goat Meat),-1,4200,"40  Allen Ave, Surulere, Lagos   ",2025-03-04 09:00,delivered,unknown,COD,4,Great food
+FD800322,Emeka Bello,234-137-215-107,Genesis Kitchen,Moi Moi & Plantain,3,2200.00 naira,"22 Toyin Street, Ikeja, Lagos",2026-05-12 09:00 AM,Preparing,3489.00 naira,COD,0,
+FD800274,Bola  Ogundimu,+234412528669,Local Flavours,Asun (Spicy Goat Meat),1,"₦4,200.00","  141 Toyin Street, Surulere, Lagos",23/10/2025 07:00,Cancelled,1382.00 naira,Wallet,nil,Great food
+FD800334,Chioma Yusuf,05452267528,Yellow Chilli,Amala & Ewedu,1,"N2,800","175  Adetokunbo Ademola, Victoria Island, Lagos",13/12/2025 09:00,Out for Delivery,858.00 naira,cash on delivery,3,Excellent
+FD800070,Segun Balogun,06855744431,Local Flavours,Moi Moi & Plantain,--,"₦2,200.00","35 Adetokunbo Ademola, Victoria Island, Lagos",24-Mar-2025 08:00 PM,CANCELLED,"₦3,124.00",Transfer,Unknown,Average
+FD800068,Blessing Yusuf,13678377701,Sweet Sensation,Amala & Ewedu,1,"NGN 2,800","35 Adetokunbo Ademola, Yaba, Lagos",01-Apr-2025 10:00,Pending Confirmation,"NGN 2,492",Card,0,Late delivery
+FD800178,Adaeze Olawale,06912517785,Genesis Kitchen,Suya Platter,-1,3000,"30 Awolowo Way, Victoria Island, Lagos",09/29/2025 08:00 PM,Preparing,3267.00 naira,Wallet,1,unknown
+FD800159,Obinna Ogundimu,0036 971 1798,Bukka Hut,Fried Rice & Turkey,2,4500.00 naira,"  154 Herbert Macaulay Way, Yaba, Lagos",2026-06-04 08:00,Pending Confirmation,"NGN 2,414",Card,1,N/A
+FD800268,Kunle Adekunle,01401051238,Genesis Kitchen,Asun (Spicy Goat Meat),-1,"₦4,200.00","85 Awolowo Way, Victoria Island, Lagos",05 December 2025 09:00,Pending Confirmation,2757.0,Transfer,1,
+FD800029,Chidi Mohammed,0543 534 6247,Genesis Kitchen,Fried Rice & Turkey,3,"₦4,500.00","186 Awolowo Way, Surulere, Lagos",06.06.2025 23:00,Out for Delivery,"3,299.00 ",COD,2,Excellent
+FD800400,Amaka Adeyemi,+234130554885,Yellow Chilli,Grilled Fish & Yam,1,"NGN 4,800","169 Awolowo Way, Yaba, Lagos",2025/07/28 19:00,Out for Delivery,3198.00 naira,Card,3,Too spicy
+FD800443,Aliyu Afolabi,0790 827 2318,Chicken Republic,Fried Rice & Turkey,2,"NGN 4,500","186 Herbert Macaulay Way, Yaba, Lagos",2025/06/15 19:00,delivered,1590.00 naira,Wallet,3,Excellent
+FD800208,Segun Okonkwo,+234672400499,Yellow Chilli,Moi Moi & Plantain,1,2200.00 naira,"128 Toyin Street, Surulere, Lagos",12 October 2025 03:00 PM,CANCELLED,1387.0,cash on delivery,?,Too spicy
+FD800440,Ngozi Olawale,+234038567700,The Place,Grilled Fish & Yam,2,"₦4,800.00","98 Toyin Street, Victoria Island, Lagos",2025/03/23 07:00,Pending Confirmation,"1,822.00 ",cash on delivery,5,-
+FD800297,Bisi Adekunle   ,03640376137,Yellow Chilli,Pounded Yam & Egusi Soup,2,4000,"  79 Herbert Macaulay Way, Surulere, Lagos",2026-06-09 17:00,Delivered,-,COD,0,Average
+FD800402,Chidi Nnamdi,+234373516091,Bukka Hut,Pepper Soup (Goat Meat),2,3800.00 naira,"134 Awolowo Way, Surulere, Lagos",03/05/2026 23:00,Out for Delivery,null,Card,?,Late delivery
+FD800043,Blessing Balogun,(615) 951-4846,Kilimanjaro,Grilled Fish & Yam,1,4800.00 naira,"84  Toyin Street, Surulere, Lagos",10/10/2025 07:00,Out for Delivery,"NGN 2,072",Transfer,0,N/A
+FD800202,Kunle Ajayi,(437) 575-8441,Yellow Chilli,Suya Platter,2,3000.00 naira,"56 Herbert Macaulay Way, Surulere, Lagos",01/04/2026 12:00 PM,Out for Delivery,2238.0,Card,5,Average
+FD800276,Kunle Okonkwo,,Chicken Republic,Ofada Rice & Sauce,1,"₦3,300.00","54 Herbert Macaulay Way, Surulere, Lagos   ",06/21/2025 10:00 AM,CANCELLED,"NGN 1,449",Wallet,null,NULL
+FD800404,Chidi Abubakar,+234829221699,Mama Put Kitchen,Pepper Soup (Goat Meat),-1,"NGN 3,800","195 Herbert Macaulay Way, Surulere, Lagos",2025/07/21 09:00 AM,Out for Delivery,₦849.00,Card,1,Excellent
+FD800206,ibrahim balogun,71208267734,Kilimanjaro,Pounded Yam & Egusi Soup,1,"₦4,000.00","89 Adetokunbo Ademola, Surulere, Lagos   ",N/A 12:00,delivered,2434.00 naira,Transfer,0,N/A
+FD800155,Femi Chukwu,0613 750 6068,Yellow Chilli,Moi Moi & Plantain,1,2200,"157 Awolowo Way, Victoria Island, Lagos",12/04/2026 07:00 AM,Preparing,831.00 naira,Wallet,3,
+FD800375,Chinedu Lawal,(074) 329-2712,Local Flavours,Asun (Spicy Goat Meat),-1,NULL,"115 Awolowo Way, Surulere, Lagos",04/07/2025 07:00 PM,Cancelled,1123.0,Cash,2,Too spicy
+FD800393,Chioma Nnamdi,08993588916,Kilimanjaro,Amala & Ewedu,1,"₦2,800.00","192 Awolowo Way, Ikeja, Lagos",2025-05-15 10:00,delivered,"2,042.00 ",Card,0,N/A
+FD800279,Kunle Nwosu,234-788-191-485,MAMA PUT KITCHEN,Suya Platter,-1,n/a,"53 Toyin Street, Ikeja, Lagos",28 March 2025 02:00 PM,CANCELLED,"₦1,901.00",Card,2,Excellent
+FD800193,Bola Ajayi,52398680002,Sweet Sensation,Ofada Rice & Sauce,1,"N3,300","71 Adetokunbo Ademola, Victoria Island, Lagos",26-Feb-2026 10:00 AM,Delivered,"1,275.00 ",Card,NULL,unknown
+FD800105,Segun Bello,234-952-145-623,Bukka Hut,Asun (Spicy Goat Meat),2,"N4,200","125 Awolowo Way, Yaba, Lagos",2026-07-05 09:00 AM,delivered,"NGN 2,943",COD,0,Cold food
+FD800069,Adaeze Suleiman,(436) 349-5788,Chicken Republic,Asun (Spicy Goat Meat),2,"N4,200","  184 Herbert Macaulay Way, Surulere, Lagos",09 April 2025 10:00,delivered,673.00 naira,Transfer,null,Great food
+FD800124,  Obinna Lawal,09885165604,The Place,Amala & Ewedu,-1,"N2,800","87 Herbert Macaulay Way, Ikeja, Lagos",2025/03/15 11:00 AM,Pending Confirmation,2979.0,Cash,0,Too spicy
+FD800213,Musa Okonkwo,99045301742,Sweet Sensation,Ofada Rice & Sauce,1,"N3,300","25 Herbert Macaulay Way, Victoria Island, Lagos   ",27-Mar-2026 10:00,Cancelled,₦807.00,Card,2,Late delivery
+FD800113,Zainab Nnamdi,(506) 431-7139,Mama Put Kitchen,Asun (Spicy Goat Meat),1,"4,200.00 ","  52 Allen Ave, Yaba, Lagos   ",2025-04-03 16:00,delivered,1691.0,Card,3,unknown
+FD800411,Grace Balogun,(638) 406-6658,Genesis Kitchen,Pizza (Medium),2,7500.00 naira,"23 Herbert Macaulay Way, Surulere, Lagos",20-Dec-2025 17:00,Out for Delivery,1854.0,COD,  ,N/A
+FD800410,Blessing Nwosu,43805719838,Sweet Sensation,Pizza (Medium),1,7500,"6 Toyin Street, Ikeja, Lagos",03.06.2025 17:00,delivered,"N1,620",Cash,5,N/A
+FD800048,Ngozi Okonkwo,invalid,The Place,Moi Moi & Plantain,1,"N2,200","193 Adetokunbo Ademola, Yaba, Lagos",31.12.2025 07:00 PM,CANCELLED,null,Wallet,5,Cold food
+FD800094,musa nnamdi,0576 627 0289,Local Flavours,Ofada Rice & Sauce,2,-,"82 Toyin Street, Surulere, Lagos",14.06.2025 23:00,Pending Confirmation,N719,Cash,,Average
+FD800219,Tunde  Eze   ,00874064039,Mama Put Kitchen,Asun (Spicy Goat Meat),2,"NGN 4,200","174 Awolowo Way, Yaba, Lagos",15 May 2025 21:00,Pending Confirmation,"NGN 1,898",Wallet,4,N/A
+FD800104,Zainab Chukwu,(953) 394-2104,Local Flavours,Amala & Ewedu,2,"₦2,800.00","10 Allen Ave, Ikeja, Lagos",not set 07:00 AM,Cancelled,"₦1,522.00",Transfer,?,Cold food
+FD800045,Bola Yusuf,invalid,Yellow Chilli,Moi Moi & Plantain,1,?,"130 Adetokunbo Ademola, Surulere, Lagos",not set 23:00,Preparing,2315.00 naira,Cash,-,Late delivery
+FD800001,EMEKA NWOSU,,Genesis Kitchen,Ofada Rice & Sauce,1,3300,"180 Herbert Macaulay Way, Surulere, Lagos",N/A 15:00,Preparing,"NGN 1,334",Transfer,N/A,N/A
+FD800328,Fatima Ajayi,(078) 593-2133,Kilimanjaro,Moi Moi & Plantain,3,"₦2,200.00","82 Herbert Macaulay Way, Yaba, Lagos   ",2025/07/02 19:00,Out for Delivery,"N3,029",Transfer,-,
+FD800264,Grace Okeke,09656101438,SWEET SENSATION,Fried Rice & Turkey,2,4500,"87 Herbert Macaulay Way, Yaba, Lagos   ",12/10/2025 13:00,Cancelled,1637.0,Cash,3,
+FD800126,Sadiq Ogundimu,05851493689,The Place,Amala & Ewedu,-,"2,800.00 ","75 Herbert Macaulay Way, Victoria Island, Lagos   ",2026/04/23 14:00,Out for Delivery,N821,Card,1,Average
+FD800293,tunde nwosu,42622189092,Local Flavours,Ofada Rice & Sauce,3,"N3,300","  71 Adetokunbo Ademola, Victoria Island, Lagos   ",04 July 2025 08:00 AM,delivered,"N2,219",Transfer,0,Cold food
+FD800277,Tunde Suleiman,(688) 767-6772,Yellow Chilli,Shawarma Large,2,"N2,500","174 Toyin Street, Victoria Island, Lagos",2026/03/28 22:00,Preparing,Unknown,COD,?,Great food
+FD800234,ifeoma lawal,+234678544587,yellow chilli,Fried Rice & Turkey,3,"4,500.00 ","192 Herbert Macaulay Way, Victoria Island, Lagos",10/10/2025 10:00,delivered,unknown,COD,1,Great food
+FD800026,Halima Suleiman,00980500978,Chicken Republic,Pepper Soup (Goat Meat),3,"₦3,800.00","59 Herbert Macaulay Way, Ikeja, Lagos",N/A 15:00,CANCELLED,"NGN 1,827",cash on delivery,4,Too spicy
+FD800006,Femi Okonkwo,+234034131647,Kilimanjaro,Asun (Spicy Goat Meat),1,"N4,200","  113 Herbert Macaulay Way, Surulere, Lagos",05/05/2025 22:00,Delivered,N713,Card,1,NULL
+FD800179,Wale Adeyemi,89226801824,Genesis Kitchen,Asun (Spicy Goat Meat),2,"NGN 4,200","  176 Awolowo Way, Victoria Island, Lagos   ",23-Oct-2025 20:00,Pending Confirmation,N998,Card,nil,
+FD800432,YUSUF  EZE,+234594929955,yellow chilli,Shawarma Large,3,2500.00 naira,"6 Herbert Macaulay Way, Ikeja, Lagos   ",10 May 2025 05:00 PM,Preparing,"₦1,654.00",cash on delivery,5,Late delivery
+FD800315,ngozi eze,+234990623445,Genesis Kitchen,Jollof Rice & Chicken,2,NULL,"15 Toyin Street, Ikeja, Lagos",00/00/0000 10:00 PM,CANCELLED,N818,Wallet,5,n/a
+FD800090,Amaka Nwosu,0846 773 7826,Sweet Sensation,Fried Rice & Turkey,1,"₦4,500.00","197 Allen Ave, Surulere, Lagos",14-May-2025 05:00 PM,Delivered,"3,107.00 ",Cash,0,N/A
+FD800337,Emeka Okeke,234-513-552-157,Local Flavours,Ofada Rice & Sauce,1,"NGN 3,300","76 Allen Ave, Victoria Island, Lagos",11/23/2025 23:00,Delivered,"₦3,415.00",Cash,--,Excellent
+FD800216,Halima Abubakar,+234878519108,Genesis Kitchen,Pounded Yam & Egusi Soup,NIL,"₦4,000.00","55 Herbert Macaulay Way, Surulere, Lagos",04/24/2026 07:00,Out for Delivery,1772.00 naira,Wallet,1,N/A
+FD800377,Obinna Okonkwo,+234583003354,Genesis Kitchen,Pounded Yam & Egusi Soup,1,"₦4,000.00","31 Adetokunbo Ademola, Victoria Island, Lagos",2026-05-28 20:00,Cancelled,925.00 naira,Card,5,N/A
+FD800424,Femi Ajayi,(665) 061-8091,Kilimanjaro,Ofada Rice & Sauce,N/A,"N3,300","  165 Allen Ave, Ikeja, Lagos",23 April 2025 22:00,Out for Delivery,"₦2,655.00",COD,4,Great food
+FD800357,Ifeoma Afolabi,234-713-247-546,Bukka Hut,Asun (Spicy Goat Meat),1,"NGN 4,200","142 Toyin Street, Ikeja, Lagos",2025/03/28 18:00,Pending Confirmation,"₦1,861.00",Wallet,1,Average
+FD800359,Femi Bello,234-486-289-023,Genesis Kitchen,Grilled Fish & Yam,1,"N4,800","146 Herbert Macaulay Way, Victoria Island, Lagos",04/18/2026 10:00,Preparing,NULL,cash on delivery,3,null
+FD800300,Musa Ogundimu,(684) 866-6188,Bukka Hut,Grilled Fish & Yam,-1,"4,800.00 ","132 Awolowo Way, Ikeja, Lagos",2026/02/14 08:00 AM,delivered,"3,052.00 ",Transfer,3,
+FD800407,Sadiq Okonkwo,(945) 228-8515,Kilimanjaro,Suya Platter,3,"NGN 3,000","68 Adetokunbo Ademola, Victoria Island, Lagos",2026-04-07 12:00,Out for Delivery,2190.0,Cash,--,N/A
+FD800209,NGOZI SULEIMAN,(547) 887-2874,Genesis Kitchen,Pounded Yam & Egusi Soup,3,,"22 Herbert Macaulay Way, Surulere, Lagos",04-Jun-2026 08:00 AM,delivered,"₦2,035.00",COD,3,Average
+FD800086,Fatima Adekunle,01545168087,Genesis Kitchen,Shawarma Large,3,"NGN 2,500","118 Allen Ave, Victoria Island, Lagos",03-Mar-2025 13:00,delivered,NGN 843,Wallet,  ,
+FD800335,Wale Ogundimu,,Yellow Chilli,Pepper Soup (Goat Meat),1,"NGN 3,800","  82 Awolowo Way, Surulere, Lagos",unknown date 07:00,Out for Delivery,"N1,980",Cash,3,
+FD800329,Chinedu Ajayi,08039652239,Mama Put Kitchen,Shawarma Large,1,"₦2,500.00","117 Awolowo Way, Yaba, Lagos",01/16/2026 11:00,Pending Confirmation,2858.0,COD,1,Cold food
+FD800298,Zainab Mohammed,(180) 552-6965,Mama Put Kitchen,Fried Rice & Turkey,2,"N4,500","95 Toyin Street, Surulere, Lagos",05 March 2025 11:00 PM,Out for Delivery,2062.0,Card,3,Late delivery
+FD800162,Femi Suleiman,06706540515,Local Flavours,Suya Platter,-1,3000.00 naira,"27 Toyin Street, Yaba, Lagos",15 January 2026 12:00,Preparing,"N3,207",Transfer,3,Average
+FD800150,Amaka Eze,(805) 929-6222,Kilimanjaro,Moi Moi & Plantain,1,"2,200.00 ","190 Toyin Street, Surulere, Lagos",20.12.2025 14:00,delivered,2662.0,Transfer,3,Great food
+FD800065,Ngozi Eze,+234776945314,genesis kitchen,Asun (Spicy Goat Meat),2,"₦4,200.00","85 Adetokunbo Ademola, Ikeja, Lagos   ",06/21/2026 15:00,Out for Delivery,"₦1,932.00",Transfer,3,Great food
+FD800217,Zainab Yusuf,invalid,Kilimanjaro,Asun (Spicy Goat Meat),1,"N4,200","80 Adetokunbo Ademola, Yaba, Lagos",09/11/2025 18:00,Pending Confirmation,"N1,927",Card,1,Too spicy
+FD800438,Chioma Adekunle,0803 928 2722,Mama Put Kitchen,Jollof Rice & Chicken,3,"N3,500","  115 Toyin Street, Yaba, Lagos   ",26/04/2026 08:00 PM,Preparing,1002.0,COD,0,Average
+FD800172,Wale Ogundimu,234-192-856-543,The Place,Suya Platter,1,3000,"156 Adetokunbo Ademola, Victoria Island, Lagos",2025/04/03 12:00,Pending Confirmation,₦616.00,Wallet,1,Excellent
+FD800020,Bola Okeke,04738299737,Sweet Sensation,Shawarma Large,3,"N2,500","31 Herbert Macaulay Way, Ikeja, Lagos",2026-06-26 01:00 PM,Out for Delivery,"₦2,967.00",Transfer,0,Too spicy
+FD800303,Funmilayo Bello,0990 421 0202,Yellow Chilli,Asun (Spicy Goat Meat),3,"NGN 4,200","4 Toyin Street, Ikeja, Lagos",14-Apr-2026 11:00,Preparing,1958.0,Card,Unknown,Cold food
+FD800430,Femi Adeyemi,87814141397,CHICKEN REPUBLIC,Fried Rice & Turkey,1,"N4,500","187 Allen Ave, Surulere, Lagos",2025/12/12 21:00,delivered,"NGN 2,592",Card,5,Unknown
+FD800330,Tunde Ogundimu,+234905992937,BUKKA HUT,Ofada Rice & Sauce,-1,"NGN 3,300","54  Adetokunbo Ademola, Ikeja, Lagos   ",18/05/2026 10:00 AM,Out for Delivery,"NGN 1,626",Wallet,,Cold food
+FD800057,Ifeoma Suleiman,+234990162720,Mama Put Kitchen,Ofada Rice & Sauce,-1,3300.00 naira,"78 Toyin Street, Yaba, Lagos",2025-08-24 11:00,Preparing,  ,Transfer,5,Cold food
+FD800265,Halima Ajayi,08993756798,Bukka Hut,Amala & Ewedu,2,"NGN 2,800","96  Awolowo Way, Surulere, Lagos",02/02/2026 12:00,Preparing,"NGN 2,869",Cash,0,Cold food
+FD800372,ALIYU BELLO,0000000000,Bukka Hut,Amala & Ewedu,3,2800,"  29 Herbert Macaulay Way, Victoria Island, Lagos",00/00/0000 09:00 PM,CANCELLED,"NGN 1,500",cash on delivery,1,Excellent
+FD800439,Tunde Eze   ,(927) 503-7314,Local Flavours,Pepper Soup (Goat Meat),2,"₦3,800.00","   10 Adetokunbo Ademola, Yaba, Lagos",2026-05-13 15:00,Cancelled,1826.0,COD,5,Excellent
+FD800058,  Amaka Okeke,+234537556464,Kilimanjaro,Moi Moi & Plantain,1,"₦2,200.00","161 Herbert Macaulay Way, Victoria Island, Lagos",27-May-2025 05:00 PM,Delivered,"₦2,566.00",Wallet,4,N/A
+FD800396,Bisi Yusuf,+234866317797,Genesis Kitchen,Moi Moi & Plantain,3,"N2,200","32 Allen Ave, Surulere, Lagos",09/29/2025 07:00,CANCELLED,"N3,437",Transfer,2,
+FD800369,Chidi Nwosu,(099) 353-8758,Local Flavours,Pounded Yam & Egusi Soup,2,4000.00 naira,"199 Allen Ave, Victoria Island, Lagos   ",16 April 2026 09:00 AM,Pending Confirmation,"2,175.00 ",COD,1,Great food
+FD800171,Bisi Ajayi,(355) 690-9275,the place,Pounded Yam & Egusi Soup,N/A,"N4,000","123 Toyin Street, Surulere, Lagos",06/03/2025 07:00 AM,Cancelled,597.0,Cash,3,Excellent
+FD800257,Tobi Chukwu,234-712-406-596,Local Flavours,Suya Platter,1,"NGN 3,000","51 Adetokunbo Ademola, Ikeja, Lagos",2026/03/24 15:00,CANCELLED,"N2,547",Cash,N/A,Cold food
+FD800059,Chioma Mohammed,07080531003,Local Flavours,Amala & Ewedu,2,2800.00 naira,"37 Allen Ave, Ikeja, Lagos",11.03.2026 18:00,Pending Confirmation,"N1,482",Transfer,2,Too spicy
+FD800281,Wale Abubakar,0517 133 9596,Chicken Republic,Grilled Fish & Yam,3,"NGN 4,800","151 Allen Ave, Surulere, Lagos",06/09/2025 11:00 AM,Out for Delivery,3371.0,COD,3,Too spicy
+FD800030,Zainab Bello,invalid,Local Flavours,Shawarma Large,1,n/a,"105 Toyin Street, Ikeja, Lagos",2025/08/10 10:00 PM,Preparing,"3,057.00 ",Wallet,3,Too spicy
+FD800218,Tunde Mohammed,234-187-072-867,Chicken Republic,Shawarma Large,3,"2,500.00 ","104 Allen Ave, Yaba, Lagos",23 November 2025 09:00,Pending Confirmation,"N2,868",Wallet,3,Average
+FD800437,Chinedu Nwosu,234-394-278-816,Kilimanjaro,Suya Platter,1,"NGN 3,000","  103 Allen Ave, Yaba, Lagos",17-Jun-2026 16:00,CANCELLED,"N3,091",Card,0,
+FD800054,Segun Ogundimu,00366909670,kilimanjaro,Moi Moi & Plantain,3,"N2,200","  8 Toyin Street, Surulere, Lagos   ",25-May-2025 21:00,Delivered,"N2,315",Transfer,3,Late delivery
+FD800023,Fatima Abubakar,(473) 178-1080,Genesis Kitchen,Amala & Ewedu,1,2800,"76 Toyin Street, Victoria Island, Lagos   ",16/03/2026 12:00,CANCELLED,"N3,332",Wallet,1,
+FD800152,Grace Mohammed,234-347-359-774,Kilimanjaro,Shawarma Large,-1,"₦2,500.00","42 Awolowo Way, Yaba, Lagos",25-Jul-2025 09:00 PM,Out for Delivery,2843.0,cash on delivery,4,Cold food
+FD800040,Femi Adeyemi,234-586-850-142,Kilimanjaro,Grilled Fish & Yam,2,"N4,800","193 Adetokunbo Ademola, Ikeja, Lagos",04/20/2026 11:00 AM,Out for Delivery,"₦1,173.00",cash on delivery,null,Excellent
+FD800343,Grace Eze,68844431069,Local Flavours,Grilled Fish & Yam,1,"4,800.00 ","45 Awolowo Way, Victoria Island, Lagos",2025-06-08 07:00 PM,delivered,"NGN 2,060",cash on delivery,1,Too spicy
+FD800107,Tunde Lawal,71236851604,LOCAL FLAVOURS,Shawarma Large,2,"NGN 2,500","  82 Awolowo Way, Ikeja, Lagos",05 December 2025 19:00,Delivered,1514.0,COD,1,Cold food
+FD800355,Tobi Okafor,0970 246 2996,Kilimanjaro,Suya Platter,-1,3000.00 naira,"30 Adetokunbo Ademola, Ikeja, Lagos",06-Jan-2026 19:00,Cancelled,"N1,196",Card,4,Great food
+FD800342,Chidi Chukwu,0062 962 0153,LOCAL FLAVOURS,Grilled Fish & Yam,2,4800,"  133 Herbert Macaulay Way, Surulere, Lagos",00/00/0000 22:00,CANCELLED,"NGN 3,482",Cash,2,Average
+FD800263,Musa Yusuf,0058 911 3529,Mama Put Kitchen,Amala & Ewedu,-1,2800,"178 Toyin Street, Surulere, Lagos",2025-12-15 17:00,Out for Delivery,"₦1,116.00",Cash,-,Great food
+FD800259,Chidi Nwosu,02654793564,The Place,Amala & Ewedu,1,"NGN 2,800","161 Allen Ave, Ikeja, Lagos",2026-05-25 07:00,Cancelled,NGN 824,Transfer,1,Excellent
+FD800270,Funmilayo Nwosu,0609 379 6603,Genesis Kitchen,Grilled Fish & Yam,1,"N4,800","146 Allen Ave, Yaba, Lagos",11 November 2025 18:00,delivered,--,Cash,5,?
+FD800278,Chidi Afolabi,09034043842,local flavours,Moi Moi & Plantain,1,"NGN 2,200","10 Toyin Street, Surulere, Lagos",06.08.2025 02:00 PM,Pending Confirmation,"N3,433",Transfer,NIL,N/A
+FD800412,Chioma Okeke   ,+234439735989,Chicken Republic,Grilled Fish & Yam,3,"N4,800","52 Herbert Macaulay Way, Victoria Island, Lagos",05/30/2026 07:00 AM,Cancelled,803.00 naira,Cash,2,Late delivery
+FD800106,Yusuf Ajayi,234-588-424-745,The Place,Grilled Fish & Yam,-1,"NGN 4,800","163 Allen Ave, Victoria Island, Lagos",2025-09-17 08:00,CANCELLED,NGN 504,COD,4,Average
+FD800365,chinedu okonkwo,05743748969,Mama Put Kitchen,Suya Platter,1,Unknown,"  100 Adetokunbo Ademola, Victoria Island, Lagos",2026-05-23 21:00,Preparing,"N2,274",COD,-,Too spicy
+FD800087,FUNMILAYO EZE   ,(038) 597-7034,Bukka Hut,Moi Moi & Plantain,1,2200.00 naira,"166 Toyin Street, Yaba, Lagos   ",08/02/2026 11:00,Delivered,"₦1,954.00",Wallet,5,Too spicy
+FD800092,Adaeze Bello,+234997278755,Yellow Chilli,Pepper Soup (Goat Meat),1,"₦3,800.00","123 Allen Ave, Yaba, Lagos",unknown date 12:00,Pending Confirmation,"₦1,767.00",Cash,2,-
+FD800093,Grace Mohammed,86753396360,Kilimanjaro,Pepper Soup (Goat Meat),1,"NGN 3,800","26 Toyin Street, Ikeja, Lagos",09/12/2025 11:00 AM,CANCELLED,N753,cash on delivery,0,Great food
+FD800024,KEMI LAWAL,(326) 773-6026,Yellow Chilli,Pizza (Medium),2,"₦7,500.00","196 Adetokunbo Ademola, Yaba, Lagos",03 June 2025 08:00,Preparing,"₦2,206.00",COD,1,Excellent
+FD800061,Tunde Bello,0529 912 4190,Mama Put Kitchen,Moi Moi & Plantain,NIL,"NGN 2,200","  122 Herbert Macaulay Way, Surulere, Lagos",2025-04-30 11:00 AM,delivered,"NGN 2,718",Transfer,5,Too spicy
+FD800204,Grace Ogundimu,,Chicken Republic,Fried Rice & Turkey,3,"NGN 4,500","193 Awolowo Way, Yaba, Lagos   ",03/06/2025 18:00,CANCELLED,"₦1,592.00",Wallet,3,Great food
+FD800134,Bisi Okeke,(838) 851-6060,local flavours,Pounded Yam & Egusi Soup,-1,"₦4,000.00","  41 Herbert Macaulay Way, Yaba, Lagos",2025/03/04 09:00 AM,CANCELLED,3161.0,COD,3,Great food
+FD800027,Funmilayo Eze,20812191361,Kilimanjaro,Pizza (Medium),2,"N7,500","117 Allen Ave, Victoria Island, Lagos   ",26.09.2025 17:00,CANCELLED,3108.00 naira,Cash,2,Too spicy
+FD800039,Halima Ajayi,07543303654,Genesis Kitchen,Moi Moi & Plantain,-1,"NGN 2,200","116 Toyin Street, Surulere, Lagos",29-Jul-2025 09:00 PM,Preparing,"₦1,623.00",Wallet,N/A,Late delivery
+FD800036,Ifeoma Afolabi,(262) 045-0533,Sweet Sensation,Amala & Ewedu,-,"NGN 2,800","  114 Toyin Street, Victoria Island, Lagos",2025-10-01 11:00 AM,Preparing,"₦1,069.00",Wallet,1,-
+FD800018,Chioma Olawale,71331509839,Local Flavours,Pepper Soup (Goat Meat),3,3800.00 naira,"  101 Herbert Macaulay Way, Ikeja, Lagos",2025-11-04 07:00 AM,Cancelled,"NGN 1,864",Wallet,3,Average
+FD800017,Chioma Mohammed,0896 383 4657,Local Flavours,Pounded Yam & Egusi Soup,1,"NGN 4,000","108 Adetokunbo Ademola, Ikeja, Lagos",unknown date 02:00 PM,Out for Delivery,NIL,COD,5,Excellent
+FD800295,ALIYU OKAFOR,+234965652341,Chicken Republic,Asun (Spicy Goat Meat),2,Unknown,"131  Toyin Street, Ikeja, Lagos   ",03.09.2025 12:00,Cancelled,"NGN 2,306",Transfer,?,null
+FD800433,Femi Abubakar,20533645257,Chicken Republic,Suya Platter,-1,3000,"198 Toyin Street, Yaba, Lagos",11.11.2025 12:00,Pending Confirmation,  ,Card,5,Late delivery
+FD800015,Bola Nwosu,+234570154303,mama put kitchen,Pepper Soup (Goat Meat),-1,"3,800.00 ","19 Adetokunbo Ademola, Surulere, Lagos",03-Feb-2026 05:00 PM,CANCELLED,2563.0,Cash,nil,NULL
+FD800131,Zainab Mohammed,234-438-156-149,Genesis Kitchen,Pepper Soup (Goat Meat),1,3800,"82 Herbert Macaulay Way, Yaba, Lagos",17 August 2025 21:00,Delivered,1548.0,Transfer,3,Too spicy
+FD800011,Ifeoma Adeyemi   ,234-871-012-269,Local Flavours,Pepper Soup (Goat Meat),-1,"₦3,800.00","20 Toyin Street, Ikeja, Lagos",2025-11-06 03:00 PM,Pending Confirmation,"₦3,417.00",Transfer,2,Late delivery
+FD800146,Segun  Adekunle,(518) 644-9251,Yellow Chilli,Asun (Spicy Goat Meat),2,"₦4,200.00","132 Awolowo Way, Victoria Island, Lagos",07.03.2026 06:00 PM,Pending Confirmation,1877.00 naira,cash on delivery,1,  
+FD800177,Musa Adeyemi,78291146786,chicken republic,Shawarma Large,-1,"N2,500","34 Herbert Macaulay Way, Surulere, Lagos",16 June 2025 01:00 PM,Preparing,"₦3,438.00",Cash,4,Late delivery
+FD800427,Zainab  Suleiman,24508821009,Kilimanjaro,Moi Moi & Plantain,2,"₦2,200.00","88 Herbert Macaulay Way, Victoria Island, Lagos",09.06.2026 23:00,Pending Confirmation,"N1,382",Cash,3,Too spicy
+FD800261,Chioma Ogundimu,(741) 672-4342,Mama Put Kitchen,Moi Moi & Plantain,-1,"₦2,200.00","27 Allen Ave, Ikeja, Lagos",06 March 2025 09:00 PM,Out for Delivery,"N1,944",Card,,?
+FD800230,Chinedu Suleiman,08668826343,The Place,Shawarma Large,-1,"2,500.00 ","13 Adetokunbo Ademola, Surulere, Lagos   ",23 June 2025 07:00 AM,CANCELLED,2078.0,Wallet,0,Excellent
+FD800377,Obinna Okonkwo,+234583003354,Genesis Kitchen,Pounded Yam & Egusi Soup,1,"₦4,000.00","31 Adetokunbo Ademola, Victoria Island, Lagos",2026-05-28 20:00,Cancelled,925.00 naira,Card,5,N/A
+FD800157,Fatima Ogundimu,04727790104,Local Flavours,Pizza (Medium),1,7500,"41 Allen Ave, Ikeja, Lagos",13.03.2026 08:00,Delivered,1208.00 naira,Cash,2,Late delivery
+FD800287,Emeka Ajayi,06374545892,Local Flavours,Grilled Fish & Yam,2,"4,800.00 ","26 Adetokunbo Ademola, Victoria Island, Lagos",11.02.2026 21:00,delivered,595.00 naira,Cash,3,unknown
+FD800442,Blessing Nwosu,234-184-638-655,Local Flavours,Ofada Rice & Sauce,3,-,"58 Toyin Street, Victoria Island, Lagos",07/23/2025 07:00 PM,Delivered,"NGN 1,795",Cash,4,Excellent
+FD800371,Ibrahim Eze,+234353465549,Yellow Chilli,Shawarma Large,-1,2500,"89 Adetokunbo Ademola, Yaba, Lagos",30-Aug-2025 22:00,Delivered,1373.00 naira,Wallet,1,N/A
+FD800368,Ifeoma Suleiman,0965 207 4466,Mama Put Kitchen,Asun (Spicy Goat Meat),1,"NGN 4,200","147 Adetokunbo Ademola, Surulere, Lagos",2025/03/15 08:00,Delivered,1833.00 naira,Transfer,1,
+FD800436,Grace Olawale,06930848872,Kilimanjaro,Pepper Soup (Goat Meat),-1,  ,"112  Herbert Macaulay Way, Yaba, Lagos",18-Mar-2026 12:00,Cancelled,"₦2,637.00",Card,  ,--
+FD800379,Amara Yusuf,(898) 562-5753,the place,Suya Platter,2,"₦3,000.00","134 Herbert Macaulay Way, Surulere, Lagos",24.07.2025 20:00,delivered,2505.00 naira,Card,1,nil
+FD800388,Kunle Chukwu,00455611002,The Place,Jollof Rice & Chicken,1,"NGN 3,500","21 Toyin Street, Yaba, Lagos",06 August 2025 11:00,Preparing,₦515.00,Cash,4,Average
+FD800233,Sadiq Adekunle,234-317-393-638,Sweet Sensation,Amala & Ewedu,1,2800,"68 Herbert Macaulay Way, Victoria Island, Lagos",05/05/2025 22:00,CANCELLED,2410.00 naira,Card,n/a,Great food
+FD800141,Bola Abubakar,0905 814 7700,Kilimanjaro,Moi Moi & Plantain,1,"2,200.00 ","47 Herbert Macaulay Way, Victoria Island, Lagos",24/05/2026 04:00 PM,Out for Delivery,₦897.00,cash on delivery,5,Cold food
+FD800327,Fatima Lawal,0856 420 5930,Kilimanjaro,Pizza (Medium),-,7500,"130 Awolowo Way, Victoria Island, Lagos",12-Sep-2025 10:00,Delivered,3201.00 naira,Cash,-,N/A
+FD800185,Chidi Okeke,(592) 555-6258,Genesis Kitchen,Suya Platter,1,3000.00 naira,"79 Adetokunbo Ademola, Ikeja, Lagos",2026-02-03 09:00,CANCELLED,NGN 684,Card,5,Great food
+FD800313,MUSA YUSUF,13836702410,Mama Put Kitchen,Ofada Rice & Sauce,3,3300,"38 Awolowo Way, Yaba, Lagos",16/05/2025 04:00 PM,Out for Delivery,"NGN 3,379",Cash,3,Cold food
+FD800235,Amara Eze,01753556093,Local Flavours,Ofada Rice & Sauce,1,3300,"2 Awolowo Way, Ikeja, Lagos",2025/09/18 18:00,Pending Confirmation,"NGN 2,207",Cash,0,Great food
+FD800226,Emeka Eze,00284395995,Genesis Kitchen,Ofada Rice & Sauce,1,N/A,"198 Awolowo Way, Victoria Island, Lagos",20-Sep-2025 11:00 AM,Delivered,null,cash on delivery,1,N/A
+FD800123,Tobi Okonkwo,234-711-116-152,Kilimanjaro,Jollof Rice & Chicken,1,"3,500.00 ","177 Adetokunbo Ademola, Surulere, Lagos",11/05/2026 11:00,Pending Confirmation,978.00 naira,cash on delivery,4,--
+FD800275,Fatima Adeyemi,0966 278 2827,Genesis Kitchen,Fried Rice & Turkey,3,4500,"27  Adetokunbo Ademola, Victoria Island, Lagos",08/31/2025 12:00,Preparing,"₦3,226.00",Cash,,N/A
+FD800084,Amara Bello,0742 967 1756,yellow chilli,Ofada Rice & Sauce,2,3300.00 naira,"149 Herbert Macaulay Way, Yaba, Lagos",25 May 2025 08:00 AM,Delivered,"NGN 1,948",Cash,1,Cold food
+FD800014,Halima Yusuf,14893252880,BUKKA HUT,Ofada Rice & Sauce,1,"NGN 3,300","192 Toyin Street, Victoria Island, Lagos",04.03.2026 16:00,CANCELLED,1467.00 naira,COD,2,Cold food
+FD800212,Musa Chukwu,234-530-463-745,Local Flavours,Pepper Soup (Goat Meat),3,"3,800.00 ","96  Herbert Macaulay Way, Ikeja, Lagos",2026/07/10 09:00 AM,Cancelled,NGN 659,COD,null,Late delivery
+FD800005,Bisi Okonkwo,78161849593,Genesis Kitchen,Grilled Fish & Yam,2,4800,"139 Herbert Macaulay Way, Ikeja, Lagos",11.07.2026 23:00,Cancelled,674.00 ,Cash,1,Late delivery
+FD800328,Fatima Ajayi,(078) 593-2133,Kilimanjaro,Moi Moi & Plantain,3,"₦2,200.00","82 Herbert Macaulay Way, Yaba, Lagos   ",2025/07/02 19:00,Out for Delivery,"N3,029",Transfer,-,
+FD800331,Tunde Olawale,(427) 010-3930,Mama Put Kitchen,Ofada Rice & Sauce,-1,3300,"32 Toyin Street, Ikeja, Lagos",2026-05-12 08:00 AM,Cancelled,₦588.00,Cash,0,Cold food
+FD800151,Amaka Adekunle,0270 653 7947,Sweet Sensation,Grilled Fish & Yam,1,"N4,800","66 Awolowo Way, Ikeja, Lagos",31 March 2025 13:00,CANCELLED,-,COD,5,Too spicy
+FD800284,Segun Okonkwo,+234223253672,Yellow Chilli,Grilled Fish & Yam,3,"4,800.00 ","48 Toyin Street, Ikeja, Lagos",27.05.2025 12:00,CANCELLED,"₦3,239.00",COD,N/A,N/A
+FD800247,Fatima Balogun,234-142-939-685,Bukka Hut,Shawarma Large,nil,2500.00 naira,"67 Toyin Street, Victoria Island, Lagos",unknown date 04:00 PM,delivered,"₦1,563.00",COD,1,Great food
+FD800211,Fatima Okonkwo,0296 685 1612,Sweet Sensation,Asun (Spicy Goat Meat),3,"N4,200","119 Toyin Street, Ikeja, Lagos",2026/02/27 11:00,CANCELLED,"NGN 2,498",Card,4,nil
+FD800366,Ibrahim Lawal,08589944171,Genesis Kitchen,Ofada Rice & Sauce,3,3300,"95 Adetokunbo Ademola, Surulere, Lagos",15.03.2026 08:00 PM,Preparing,"₦1,980.00",cash on delivery,5,Average
+FD800352,Grace Eze,01686854870,Genesis Kitchen,Asun (Spicy Goat Meat),1,"4,200.00 ","147 Adetokunbo Ademola, Victoria Island, Lagos",14-Apr-2025 07:00,Out for Delivery,"N3,122",Card,5,Late delivery
+FD800051,Tunde Lawal,N/A,Sweet Sensation,Ofada Rice & Sauce,-1,"N3,300","62 Herbert Macaulay Way, Surulere, Lagos",21 October 2025 09:00,Pending Confirmation,"N3,465",Wallet,--,N/A
+FD800212,Musa Chukwu,234-530-463-745,Local Flavours,Pepper Soup (Goat Meat),3,"3,800.00 ","96  Herbert Macaulay Way, Ikeja, Lagos",2026/07/10 09:00 AM,Cancelled,NGN 659,COD,null,Late delivery
+FD800363,Bola Nwosu,93333468007,Kilimanjaro,Fried Rice & Turkey,3,"₦4,500.00","136 Allen Ave, Surulere, Lagos",26 March 2026 09:00 AM,Cancelled,1486.0,Transfer,2,Late delivery
+FD800071,Bisi Okafor,51823374989,Genesis Kitchen,Grilled Fish & Yam,1,"NGN 4,800","118 Awolowo Way, Yaba, Lagos",02.05.2026 07:00,delivered,NULL,Cash,1,Too spicy
+FD800028,Wale Yusuf,09399091699,The Place,Jollof Rice & Chicken,1,"₦3,500.00","105 Allen Ave, Yaba, Lagos",15.07.2025 11:00 AM,CANCELLED,1376.0,Wallet,4,Excellent
+FD800081,Bisi Balogun,+234994717464,Bukka Hut,Jollof Rice & Chicken,2,"₦3,500.00","69 Awolowo Way, Victoria Island, Lagos   ",28-Sep-2025 19:00,Preparing,"NGN 1,255",COD,4,Excellent
+FD800195,Chinedu Bello,0269 495 8887,Genesis Kitchen,Shawarma Large,1,"N2,500","103 Allen Ave, Ikeja, Lagos",02.12.2025 14:00,CANCELLED,"N1,109",Wallet,NIL,Average
+FD800114,Yusuf Adekunle,234-532-931-839,MAMA PUT KITCHEN,Moi Moi & Plantain,-1,2200,"166  Toyin Street, Yaba, Lagos",27.08.2025 18:00,Out for Delivery,"N3,235",cash on delivery,?,
+FD800153,  chidi balogun,0886 239 2407,Yellow Chilli,Fried Rice & Turkey,1,"N4,500","22 Adetokunbo Ademola, Victoria Island, Lagos",02 February 2026 15:00,Delivered,NGN 605,Transfer,4,
+FD800450,  Adaeze Mohammed   ,N/A,yellow chilli,Amala & Ewedu,1,"₦2,800.00","51 Adetokunbo Ademola, Yaba, Lagos",08-Jan-2026 10:00 AM,Delivered,Unknown,cash on delivery,2,-
+FD800364,Segun Suleiman,22903494466,The Place,Pizza (Medium),3,7500.00 naira,"146 Toyin Street, Yaba, Lagos",2025-09-02 09:00,Preparing,"₦1,442.00",Wallet,5,Too spicy
+FD800362,ifeoma yusuf,0855 241 4060,Sweet Sensation,Ofada Rice & Sauce,3,"₦3,300.00","12 Awolowo Way, Yaba, Lagos   ",06 April 2025 20:00,CANCELLED,"N2,025",Transfer,2,Great food
+FD800260,Grace Ogundimu,05193982807,Kilimanjaro,Moi Moi & Plantain,-1,"2,200.00 ","17 Toyin Street, Ikeja, Lagos",11/10/2025 10:00 AM,Delivered,"NGN 2,178",Wallet,nil,Average
+FD800269,Obinna Nnamdi,0825 867 3622,The Place,Shawarma Large,3,2500,"194 Adetokunbo Ademola, Surulere, Lagos   ",2026/04/25 07:00,Out for Delivery,"N1,850",Transfer,2,Cold food
+FD800038,Musa Adeyemi,56342160733,Local Flavours,Pounded Yam & Egusi Soup,3,"₦4,000.00","123 Adetokunbo Ademola, Surulere, Lagos",13/11/2025 02:00 PM,Cancelled,NGN 697,COD,5,N/A
+FD800199,Grace Adekunle,+234636897028,Mama Put Kitchen,Pizza (Medium),1,7500,"157 Allen Ave, Victoria Island, Lagos   ",14 June 2025 11:00,delivered,1586.0,cash on delivery,nil,Excellent
+FD800309,Chidi Mohammed,234-180-238-061,Mama Put Kitchen,Amala & Ewedu,2,"NGN 2,800","72 Toyin Street, Victoria Island, Lagos",12.04.2025 15:00,CANCELLED,"NGN 2,737",COD,3,Excellent
+FD800380,  Obinna Okafor,234-033-230-982,Yellow Chilli,Moi Moi & Plantain,1,"NGN 2,200","199 Adetokunbo Ademola, Surulere, Lagos",13 May 2025 12:00,Cancelled,"3,336.00 ",COD,2,Too spicy
+FD800021,Grace Adekunle,0311 656 6701,Sweet Sensation,Shawarma Large,1,"NGN 2,500","23 Awolowo Way, Surulere, Lagos",11/03/2026 23:00,Preparing,"NGN 1,046",Transfer,3,
+FD800360,kunle ajayi,00307053457,Local Flavours,Amala & Ewedu,-,2800.00 naira,"  143 Toyin Street, Surulere, Lagos",2026-02-01 15:00,Out for Delivery,1039.0,Transfer,3,Cold food
+FD800420,Bisi Okafor,08588770435,Chicken Republic,Asun (Spicy Goat Meat),1,"N4,200","136 Toyin Street, Victoria Island, Lagos",05/12/2025 14:00,Pending Confirmation,2648.00 naira,cash on delivery,4,--
+FD800305,kemi  chukwu,,Chicken Republic,Ofada Rice & Sauce,1,3300.00 naira,"156 Allen Ave, Surulere, Lagos",03/08/2025 10:00,CANCELLED,"2,155.00 ",Transfer,3,N/A
+FD800405,Sadiq Eze,86693465472,Local Flavours,Pepper Soup (Goat Meat),-1,3800.00 naira,"70 Adetokunbo Ademola, Yaba, Lagos",2025-03-05 20:00,Cancelled,"N1,523",cash on delivery,3,Late delivery
+FD800386,Kemi Adeyemi,53001197218,Bukka Hut,Suya Platter,2,"N3,000","169 Herbert Macaulay Way, Ikeja, Lagos   ",06/20/2025 21:00,Preparing,-,Transfer,2,Cold food
+FD800338,Halima Olawale,0433 154 1006,Genesis Kitchen,Amala & Ewedu,1,"₦2,800.00","94 Adetokunbo Ademola, Surulere, Lagos",2026-04-21 23:00,CANCELLED,"1,421.00 ",COD,N/A,Late delivery
+FD800286,Segun Olawale,0000000000,Bukka Hut,Ofada Rice & Sauce,N/A,"3,300.00 ","72 Toyin Street, Victoria Island, Lagos",2025/09/10 08:00 AM,CANCELLED,"3,373.00 ",Cash,0,Great food
+FD800037,bola suleiman,05869232260,Bukka Hut,Suya Platter,1,3000,"  29 Allen Ave, Yaba, Lagos",04/07/2026 01:00 PM,Cancelled,2725.00 naira,COD,1,N/A
+FD800053,  Bisi Abubakar,0362 316 6587,Local Flavours,Asun (Spicy Goat Meat),3,"NGN 4,200","48 Adetokunbo Ademola, Surulere, Lagos",08-Jul-2025 08:00 AM,delivered,"₦3,485.00",Transfer,-,
+FD800326,HALIMA OLAWALE,0838 065 7875,Kilimanjaro,Amala & Ewedu,2,2800,"  26 Allen Ave, Ikeja, Lagos   ",2026/04/29 20:00,delivered,799.00 naira,cash on delivery,1,Average
+FD800374,Chinedu Okafor,+234725217525,KILIMANJARO,Pounded Yam & Egusi Soup,1,"NGN 4,000","83  Adetokunbo Ademola, Ikeja, Lagos",14 November 2025 20:00,Preparing,"NGN 1,789",Wallet,5,
+FD800003,femi nwosu,06379402654,Mama Put Kitchen,Grilled Fish & Yam,1,"₦4,800.00","146 Awolowo Way, Yaba, Lagos",2026-01-06 12:00 PM,CANCELLED,"NGN 2,184",cash on delivery,4,Average
+FD800219,Tunde  Eze   ,00874064039,Mama Put Kitchen,Asun (Spicy Goat Meat),2,"NGN 4,200","174 Awolowo Way, Yaba, Lagos",15 May 2025 21:00,Pending Confirmation,"NGN 1,898",Wallet,4,N/A
+FD800408,Chinedu Abubakar,234-996-846-081,The Place,Fried Rice & Turkey,3,"N4,500","  113 Awolowo Way, Ikeja, Lagos",28 March 2026 15:00,Delivered,"NGN 2,844",COD,?,
+FD800180,Bola Lawal,234-253-584-143,SWEET SENSATION,Amala & Ewedu,1,"₦2,800.00","52 Allen Ave, Surulere, Lagos",2025-07-18 20:00,CANCELLED,"NGN 3,122",Transfer,2,Late delivery
+FD800109,Ibrahim Bello,234-985-931-746,genesis kitchen,Pounded Yam & Egusi Soup,3,"NGN 4,000","48 Adetokunbo Ademola, Ikeja, Lagos",07/05/2026 10:00 AM,CANCELLED,"₦2,502.00",Transfer,5,Excellent
+FD800258,Chidi Adekunle,(756) 924-5937,Mama Put Kitchen,Moi Moi & Plantain,1,"N2,200","167 Allen Ave, Victoria Island, Lagos",26-May-2026 23:00,delivered,null,Wallet,5,Great food
+FD800203,Adaeze Afolabi,86652404157,Local Flavours,Jollof Rice & Chicken,3,"₦3,500.00","193 Allen Ave, Surulere, Lagos   ",11/03/2026 11:00 PM,CANCELLED,1415.0,cash on delivery,0,Too spicy
+FD800064,Ibrahim Yusuf,0716 572 6284,Chicken Republic,Pepper Soup (Goat Meat),-1,3800,"74 Allen Ave, Surulere, Lagos",07/31/2025 02:00 PM,Preparing,"₦3,366.00",Wallet,0,Too spicy
+FD800345,Zainab Adekunle,invalid,Kilimanjaro,Asun (Spicy Goat Meat),-1,"₦4,200.00","67 Awolowo Way, Victoria Island, Lagos",05/19/2025 09:00,Cancelled,1250.00 naira,Card,3,
+FD800130,Wale Bello,invalid,Local Flavours,Grilled Fish & Yam,2,4800,"166 Awolowo Way, Yaba, Lagos",2026/02/18 08:00 AM,Cancelled,"₦2,705.00",Cash,4,?
+FD800388,Kunle Chukwu,00455611002,The Place,Jollof Rice & Chicken,1,"NGN 3,500","21 Toyin Street, Yaba, Lagos",06 August 2025 11:00,Preparing,₦515.00,Cash,4,Average
+FD800431,Musa Adeyemi,05523149135,Yellow Chilli,Ofada Rice & Sauce,-1,3300.00 naira,"187 Toyin Street, Yaba, Lagos",08/09/2025 07:00 AM,Out for Delivery,"NGN 2,686",Cash,4,Average
+FD800050,Wale Eze,+234788957986,Sweet Sensation,Amala & Ewedu,1,"2,800.00 ","195  Adetokunbo Ademola, Surulere, Lagos",03/15/2025 17:00,CANCELLED,2327.00 naira,Transfer,2,Great food
+FD800227,Obinna Nwosu,+234283644089,Chicken Republic,Pounded Yam & Egusi Soup,2,"₦4,000.00","156 Allen Ave, Ikeja, Lagos",2025-12-05 20:00,CANCELLED,"1,589.00 ",Cash,5,Too spicy
+FD800189,Musa Adeyemi,03395004797,Genesis Kitchen,Ofada Rice & Sauce,1,"N3,300","85 Adetokunbo Ademola, Victoria Island, Lagos",not set 16:00,CANCELLED,"NGN 2,855",COD,4,Great food
+FD800016,Tobi Nnamdi,0117 182 2782,Genesis Kitchen,Pounded Yam & Egusi Soup,3,n/a,"191 Adetokunbo Ademola, Surulere, Lagos",08 May 2025 21:00,Cancelled,"₦1,324.00",Transfer,2,N/A
+FD800084,Amara Bello,0742 967 1756,yellow chilli,Ofada Rice & Sauce,2,3300.00 naira,"149 Herbert Macaulay Way, Yaba, Lagos",25 May 2025 08:00 AM,Delivered,"NGN 1,948",Cash,1,Cold food
+FD800152,Grace Mohammed,234-347-359-774,Kilimanjaro,Shawarma Large,-1,"₦2,500.00","42 Awolowo Way, Yaba, Lagos",25-Jul-2025 09:00 PM,Out for Delivery,2843.0,cash on delivery,4,Cold food
+FD800062,Segun Olawale,(966) 319-3149,Mama Put Kitchen,Pepper Soup (Goat Meat),3,"NGN 3,800","168 Herbert Macaulay Way, Yaba, Lagos",22 April 2026 07:00,Out for Delivery,N943,Cash,5,unknown
+FD800097,Chinedu Adeyemi,,Kilimanjaro,Moi Moi & Plantain,1,"₦2,200.00","10 Herbert Macaulay Way, Surulere, Lagos",25.06.2025 11:00 PM,Preparing,N858,Cash,Unknown,Great food
+FD800103,Segun Okeke,+234064090974,THE PLACE,Grilled Fish & Yam,2,"NGN 4,800","121 Herbert Macaulay Way, Victoria Island, Lagos",2025/11/01 10:00 PM,delivered,NULL,cash on delivery,4,?
+FD800319,Kunle  Mohammed,21356804420,Yellow Chilli,Grilled Fish & Yam,-1,"NGN 4,800","56 Toyin Street, Yaba, Lagos",21 April 2025 23:00,Preparing,"₦1,842.00",Transfer,3,NIL
+FD800249,Blessing Lawal,+234965047735,Bukka Hut,Moi Moi & Plantain,3,2200,"136 Allen Ave, Yaba, Lagos   ",20/01/2026 20:00,Out for Delivery,NGN 831,Transfer,1,Late delivery
+FD800429,Funmilayo Nwosu,02223943129,Genesis Kitchen,Amala & Ewedu,1,2800.00 naira,"27 Herbert Macaulay Way, Yaba, Lagos",07/04/2026 11:00,delivered,3010.00 naira,Wallet,4,Late delivery
+FD800140,Yusuf Chukwu,99552717744,Chicken Republic,Pepper Soup (Goat Meat),1,3800.00 naira,"54 Herbert Macaulay Way, Yaba, Lagos",16 May 2025 12:00 PM,CANCELLED,n/a,Transfer,2,Average
+FD800075,Aliyu Adeyemi,+234190229413,Genesis Kitchen,Amala & Ewedu,1,2800.00 naira,"40 Toyin Street, Victoria Island, Lagos",2025/09/06 05:00 PM,Pending Confirmation,2965.0,Wallet,nil,NIL
+FD800248,Segun Yusuf,+234185016315,Genesis Kitchen,Suya Platter,-1,"NGN 3,000","26  Toyin Street, Surulere, Lagos   ",15-Dec-2025 02:00 PM,Delivered,1608.00 naira,cash on delivery,5,Average
+FD800183,Zainab  Suleiman,39690784473,Local Flavours,Pepper Soup (Goat Meat),2,"N3,800","197 Adetokunbo Ademola, Surulere, Lagos",2026-04-23 01:00 PM,CANCELLED,"NGN 3,252",Transfer,4,Late delivery
+FD800310,amara bello,+234451870534,Bukka Hut,Suya Platter,2,3000.00 naira,"  187 Toyin Street, Victoria Island, Lagos",16 July 2025 01:00 PM,Cancelled,NGN 716,COD,Unknown,Cold food
+FD800002,Chidi Ogundimu,0001 338 9083,Sweet Sensation,Moi Moi & Plantain,2,"2,200.00 ","  148 Toyin Street, Ikeja, Lagos",04/18/2026 08:00,Out for Delivery,"N1,334",Transfer,2,Excellent
+FD800115,Sadiq Chukwu,234-529-042-284,Kilimanjaro,Grilled Fish & Yam,2,"₦4,800.00","170  Awolowo Way, Victoria Island, Lagos   ",2025/10/03 07:00 PM,Preparing,1283.0,COD,Unknown,Excellent
+FD800347,  Bola Adeyemi,70477434902,Mama Put Kitchen,Asun (Spicy Goat Meat),3,"N4,200","131 Allen Ave, Yaba, Lagos",2026/05/04 08:00,Cancelled,"NGN 1,403",Cash,4,
+FD800203,Adaeze Afolabi,86652404157,Local Flavours,Jollof Rice & Chicken,3,"₦3,500.00","193 Allen Ave, Surulere, Lagos   ",11/03/2026 11:00 PM,CANCELLED,1415.0,cash on delivery,0,Too spicy
+FD800353,Chinedu Nwosu,234-861-622-999,Chicken Republic,Jollof Rice & Chicken,-1,"3,500.00 ","74 Allen Ave, Yaba, Lagos",02/12/2025 17:00,Delivered,2248.0,COD,--,
+FD800187,Zainab Bello,+234696325953,Local Flavours,Grilled Fish & Yam,-1,"N4,800","93 Adetokunbo Ademola, Yaba, Lagos", 05:00 PM,Out for Delivery,n/a,COD,4,Average
+FD800074,Obinna Abubakar,07775204711,The Place,Suya Platter,-1,NULL,"179 Herbert Macaulay Way, Yaba, Lagos",06-Mar-2026 13:00,Preparing,"NGN 1,425",Wallet,NIL,Too spicy
+FD800142,Ifeoma Suleiman,0411 998 6798,Genesis Kitchen,Fried Rice & Turkey,3,4500,"167 Adetokunbo Ademola, Surulere, Lagos   ",05.06.2026 08:00,Pending Confirmation,"N1,644",COD,0,unknown
+FD800099,Ngozi Adekunle,38692221969,Yellow Chilli,Suya Platter,3,"NGN 3,000","152 Herbert Macaulay Way, Ikeja, Lagos",2025-11-07 08:00,Out for Delivery,2602.0,Transfer,4,Late delivery
+FD800200,Tobi Lawal,08578652785,chicken republic,Suya Platter,1,"NGN 3,000","  195 Adetokunbo Ademola, Ikeja, Lagos   ",12/04/2026 11:00,Delivered,NGN 713,Wallet,5,  
+FD800428,Chinedu Lawal,+234688143536,The Place,Suya Platter,-1,3000.00 naira,"113 Adetokunbo Ademola, Yaba, Lagos",19-May-2025 15:00,CANCELLED,"NGN 2,890",Transfer,4,Excellent
+FD800129,Kunle Okafor,N/A,MAMA PUT KITCHEN,Asun (Spicy Goat Meat),2,"₦4,200.00","74 Awolowo Way, Yaba, Lagos",24/05/2026 08:00 PM,Out for Delivery,807.00 ,COD,5,Average
+FD800137,yusuf ajayi,68164535218,Yellow Chilli,Amala & Ewedu,2,"N2,800","149  Herbert Macaulay Way, Surulere, Lagos",05 November 2025 10:00,Pending Confirmation,NGN 946,cash on delivery,0,Cold food
+FD800406,Ifeoma Nnamdi,02698485833,Sweet Sensation,Fried Rice & Turkey,3,"4,500.00 ","88 Herbert Macaulay Way, Yaba, Lagos   ",2025-03-04 05:00 PM,delivered,"N1,916",cash on delivery,2,Cold food
+FD800384,  Grace Okafor,0891 411 7393,YELLOW CHILLI,Grilled Fish & Yam,-1,"NGN 4,800","161 Allen Ave, Yaba, Lagos",2025/09/26 12:00,Preparing,"N3,012",Card,0,Cold food
+FD800271,Tunde Suleiman   ,0419 182 5537,the place,Pizza (Medium),2,7500.00 naira,"95 Herbert Macaulay Way, Ikeja, Lagos",17/04/2025 12:00 PM,Out for Delivery,"₦1,935.00",Card,2,
+FD800042,Aliyu Adekunle   ,(693) 406-0883,Mama Put Kitchen,Shawarma Large,3,NULL,"78 Toyin Street, Yaba, Lagos",05-Jan-2026 09:00 PM,Out for Delivery,"NGN 2,098",cash on delivery,0,Late delivery
+FD800299,   grace balogun,0271 091 0430,Mama Put Kitchen,Shawarma Large,2,2500.00 naira,"131 Toyin Street, Surulere, Lagos",07/05/2026 09:00,delivered,"1,071.00 ",Cash,0,N/A
+FD800076,Halima Adeyemi,86999386774,Mama Put Kitchen,Asun (Spicy Goat Meat),3,"NGN 4,200","182  Toyin Street, Ikeja, Lagos",03 June 2025 08:00,CANCELLED,"₦1,964.00",cash on delivery,Unknown,
+FD800197,Obinna Okafor,07499309728,BUKKA HUT,Suya Platter,1,3000,"25 Adetokunbo Ademola, Yaba, Lagos   ",19 March 2025 11:00,Cancelled,NGN 689,Transfer,0,  
+FD800398,Chinedu Olawale,80199488375,Yellow Chilli,Asun (Spicy Goat Meat),1,"₦4,200.00","154 Adetokunbo Ademola, Yaba, Lagos",01/01/2026 20:00,CANCELLED,"NGN 3,264",Transfer,1,Excellent
+FD800262,Ibrahim Okeke,+234179796886,Chicken Republic,Shawarma Large,-1,2500,"169 Toyin Street, Ikeja, Lagos",unknown date 06:00 PM,Cancelled,"NGN 2,422",Cash,unknown,Too spicy
+FD800308,Ifeoma Nnamdi,(086) 353-6541,the place,Moi Moi & Plantain,1,"₦2,200.00","58 Allen Ave, Yaba, Lagos",12/29/2025 07:00 AM,Pending Confirmation,655.0,Card,  ,N/A
+FD800316,AMARA AFOLABI,0557 431 3291,Local Flavours,Pounded Yam & Egusi Soup,1,"N4,000","  74 Allen Ave, Yaba, Lagos",04/09/2025 07:00 AM,Pending Confirmation,NIL,Transfer,5,Excellent
+FD800241,Amara Olawale,00848408621,Local Flavours,Jollof Rice & Chicken,-1,"N3,500","166 Awolowo Way, Surulere, Lagos   ",2025-03-10 20:00,delivered,?,COD,0,
+FD800289,  EMEKA ADEKUNLE,00632424154,Bukka Hut,Asun (Spicy Goat Meat),3,4200,"1 Awolowo Way, Ikeja, Lagos",18.04.2026 02:00 PM,CANCELLED,"₦3,302.00",COD,5,Late delivery
+FD800117,Tobi Olawale,+234268117758,Sweet Sensation,Grilled Fish & Yam,-1,?,"76 Adetokunbo Ademola, Ikeja, Lagos",26/03/2026 12:00,Cancelled,"2,001.00 ",Wallet,5,Great food
+FD800128,Ngozi Afolabi,(229) 612-0183,Genesis Kitchen,Amala & Ewedu,2,2800,"52 Toyin Street, Victoria Island, Lagos",10/18/2025 11:00,CANCELLED,2411.0,Transfer,5,Average
+FD800122,Chinedu Balogun,65766156545,Yellow Chilli,Pizza (Medium),2,"₦7,500.00","186 Allen Ave, Victoria Island, Lagos",29/06/2025 07:00 AM,Cancelled,"3,122.00 ",Transfer,0,nil
+FD800118,Aliyu Okeke,+234783908470,Bukka Hut,Fried Rice & Turkey,1,4500.00 naira,"162 Toyin Street, Victoria Island, Lagos   ",06/11/2025 17:00,Cancelled,1969.0,Cash,2,Average
+FD800294,Tunde Olawale,0000000000,Genesis Kitchen,Ofada Rice & Sauce,3,"₦3,300.00","193 Toyin Street, Ikeja, Lagos",31.07.2025 11:00 AM,Delivered,NGN 886,Card,1,N/A
+FD800165,Sadiq Nwosu,05486874034,Kilimanjaro,Shawarma Large,3,2500.00 naira,"82 Herbert Macaulay Way, Yaba, Lagos",20-Jun-2026 10:00,Pending Confirmation,2285.00 naira,Card,4,-
+FD800321,Chioma Afolabi,+234323651994,Genesis Kitchen,Pizza (Medium),1,  ,"106 Herbert Macaulay Way, Surulere, Lagos",2025/09/03 04:00 PM,Pending Confirmation,"1,234.00 ",Cash,2,
+FD800100,Tunde Okonkwo,03792374740,The Place,Fried Rice & Turkey,-1,4500.00 naira,"31 Allen Ave, Yaba, Lagos",04/25/2025 11:00,Preparing,945.0,Transfer,4,
+FD800170,Fatima Mohammed,+234582029702,Sweet Sensation,Moi Moi & Plantain,2,2200,"111 Toyin Street, Yaba, Lagos",2025-10-16 11:00,Cancelled,2681.0,Wallet,4,NULL
+FD800296,chioma ogundimu,89994043898,The Place,Pepper Soup (Goat Meat),3,"N3,800","131 Herbert Macaulay Way, Yaba, Lagos",27/01/2026 12:00,Cancelled,₦733.00,Cash,0,Late delivery
+FD800333,   Amara Chukwu,(292) 185-1569,Genesis Kitchen,Moi Moi & Plantain,3,"₦2,200.00","47  Awolowo Way, Surulere, Lagos",2025-10-06 01:00 PM,Preparing,NGN 867,Cash,0,Too spicy
+FD800285,Obinna Lawal,04667116845,Mama Put Kitchen,Amala & Ewedu,1,"₦2,800.00","55 Herbert Macaulay Way, Ikeja, Lagos",25-Dec-2025 14:00,Preparing,"NGN 2,313",COD,3,Excellent
+FD800144,Chidi Mohammed,51820377889,BUKKA HUT,Pepper Soup (Goat Meat),-1,3800,"141  Herbert Macaulay Way, Ikeja, Lagos",08/24/2025 19:00,delivered,"₦1,806.00",Card,,Average
+FD800244,Bisi Nnamdi,+234668700217,Chicken Republic,Fried Rice & Turkey,2,"₦4,500.00","52 Adetokunbo Ademola, Surulere, Lagos   ",2026-02-26 21:00,Delivered,1298.0,Wallet,3,nil
+FD800418,Kunle Abubakar,,The Place,Jollof Rice & Chicken,3,"NGN 3,500","147 Adetokunbo Ademola, Surulere, Lagos",18-Jan-2026 08:00,Cancelled,"NGN 1,860",Wallet,1,N/A
+FD800120,Segun Abubakar   ,+234249985698,Genesis Kitchen,Ofada Rice & Sauce,1,"NGN 3,300","167 Allen Ave, Surulere, Lagos", 22:00,CANCELLED,"₦3,008.00",Cash,4,Late delivery
+FD800168,adaeze  adekunle,08451154479,Sweet Sensation,Ofada Rice & Sauce,1,"NGN 3,300","28 Allen Ave, Victoria Island, Lagos",2025/09/09 11:00 PM,Preparing,"N1,954",Cash,unknown,Unknown
+FD800108,Funmilayo Abubakar,(817) 549-6513,Genesis Kitchen,Shawarma Large,1,"NGN 2,500","61 Allen Ave, Ikeja, Lagos", 10:00,Preparing,"N2,972",Wallet,NULL,Cold food
+FD800127,Adaeze Okeke,08094024455,Mama Put Kitchen,Suya Platter,2,3000.00 naira,"150 Adetokunbo Ademola, Yaba, Lagos",2025/04/25 20:00,Preparing,"NGN 2,012",cash on delivery,0,
+FD800340,EMEKA EZE   ,(327) 104-0541,Kilimanjaro,Ofada Rice & Sauce,1,"₦3,300.00","188 Awolowo Way, Surulere, Lagos",04 July 2026 10:00 AM,Delivered,783.00 naira,COD,5,
+FD800320,MUSA AJAYI,234-788-317-121,Yellow Chilli,Ofada Rice & Sauce,3,3300.00 naira,"  44 Awolowo Way, Yaba, Lagos",2025/07/01 13:00,Preparing,3458.0,Wallet,0,Late delivery
+FD800446,Femi Suleiman,234-922-809-202,The Place,Asun (Spicy Goat Meat),-1,"N4,200","38 Adetokunbo Ademola, Ikeja, Lagos   ",09/26/2025 12:00,delivered,"2,564.00 ",Wallet,5,Too spicy
+FD800010,Ifeoma Balogun,+234388496965,Genesis Kitchen,Asun (Spicy Goat Meat),2,"N4,200","168 Herbert Macaulay Way, Ikeja, Lagos",05/07/2025 06:00 PM,Delivered,"₦2,727.00",Transfer,-,Excellent
+FD800308,Ifeoma Nnamdi,(086) 353-6541,the place,Moi Moi & Plantain,1,"₦2,200.00","58 Allen Ave, Yaba, Lagos",12/29/2025 07:00 AM,Pending Confirmation,655.0,Card,  ,N/A
+FD800243,tunde  suleiman,234-567-933-410,Genesis Kitchen,Amala & Ewedu,3,"₦2,800.00","13 Adetokunbo Ademola, Surulere, Lagos",28 April 2025 14:00,Delivered,"₦2,971.00",Cash,2,Excellent
+FD800290,Amaka Yusuf,0520 643 6110,SWEET SENSATION,Asun (Spicy Goat Meat),3,"4,200.00 ","180 Allen Ave, Victoria Island, Lagos",2025/08/09 11:00,CANCELLED,2986.00 naira,COD,nil,NIL
+FD800423,BISI YUSUF,02481934667,Kilimanjaro,Shawarma Large,-1,"N2,500","198 Awolowo Way, Victoria Island, Lagos",2025-05-26 22:00,Delivered,539.0,Wallet,2,Excellent
+FD800066,Wale Okonkwo,03799650752,Kilimanjaro,Pounded Yam & Egusi Soup,-1,"₦4,000.00","  192 Awolowo Way, Ikeja, Lagos",2025-06-27 08:00,CANCELLED,2130.00 naira,Card,5,Excellent
+FD800192,  musa adekunle,84991216558,The Place,Ofada Rice & Sauce,2,,"  173 Allen Ave, Ikeja, Lagos   ",07/03/2026 20:00,Preparing,"₦1,079.00",Cash,1,Excellent
+FD800175,Fatima Okafor,0551 884 4225,Local Flavours,Fried Rice & Turkey,1,"₦4,500.00","127 Toyin Street, Yaba, Lagos",04 June 2026 11:00 AM,delivered,"N1,334",Card,,
+FD800112,Wale Adekunle,invalid,Local Flavours,Grilled Fish & Yam,1,"N4,800","59 Toyin Street, Victoria Island, Lagos",26-Mar-2025 22:00,Delivered,"NGN 1,064",Wallet,0,N/A
+FD800124,  Obinna Lawal,09885165604,The Place,Amala & Ewedu,-1,"N2,800","87 Herbert Macaulay Way, Ikeja, Lagos",2025/03/15 11:00 AM,Pending Confirmation,2979.0,Cash,0,Too spicy
+FD800067,Grace Adekunle,invalid,The Place,Amala & Ewedu,1,"2,800.00 ","  104 Adetokunbo Ademola, Victoria Island, Lagos",2026-03-10 21:00,Delivered,"NGN 1,282",Transfer,3,Great food
+FD800307,Aliyu Nnamdi,08000307562,Sweet Sensation,Pounded Yam & Egusi Soup,3,"₦4,000.00","145 Allen Ave, Yaba, Lagos",04/04/2025 10:00 PM,Pending Confirmation,"N2,028",Wallet,4,n/a
+FD800063,Zainab Abubakar,0905 865 1850,Mama Put Kitchen,Amala & Ewedu,3,2800.00 naira,"144 Awolowo Way, Surulere, Lagos",2025-05-17 20:00,CANCELLED,2816.0,COD,0,NULL
+FD800314,Obinna Afolabi,+234865719182,The Place,Amala & Ewedu,2,2800.00 naira,"138 Herbert Macaulay Way, Surulere, Lagos",09-Nov-2025 20:00,Pending Confirmation,2580.0,COD,,Excellent
+FD800220,aliyu  eze,234-651-801-704,Bukka Hut,Asun (Spicy Goat Meat),-1,"₦4,200.00","184 Adetokunbo Ademola, Surulere, Lagos",10 March 2025 08:00,Out for Delivery,"₦2,187.00",Cash,4,Average
+FD800317,Halima Bello,+234277561853,Mama Put Kitchen,Fried Rice & Turkey,2,"₦4,500.00","191 Herbert Macaulay Way, Ikeja, Lagos",12.07.2026 09:00 AM,Delivered,"N2,910",Card,N/A,N/A
+FD800160,Tobi Suleiman,89324609539,Genesis Kitchen,Suya Platter,2,"NGN 3,000","   105 Awolowo Way, Ikeja, Lagos",03/05/2026 09:00,Cancelled,₦821.00,Cash,5,Average
+FD800323,NGOZI ABUBAKAR,0296 670 6625,The Place,Asun (Spicy Goat Meat),1,"4,200.00 ","195 Adetokunbo Ademola, Victoria Island, Lagos",29/06/2026 10:00 PM,CANCELLED,1854.00 naira,Card,0,Cold food
+FD800174,Bola Eze,09473121727,Kilimanjaro,Grilled Fish & Yam,1,4800,"  41 Adetokunbo Ademola, Surulere, Lagos",03.03.2026 10:00 AM,Pending Confirmation,934.0,Cash,4,Too spicy
+FD800356,  BOLA ADEYEMI,234-530-745-054,Kilimanjaro,Jollof Rice & Chicken,1,"₦3,500.00","65 Herbert Macaulay Way, Yaba, Lagos",04/21/2026 08:00,Preparing,3324.0,Transfer,null,N/A
+FD800390,ngozi lawal,234-746-762-120,Local Flavours,Shawarma Large,--,"₦2,500.00","102 Herbert Macaulay Way, Ikeja, Lagos   ",25.01.2026 14:00,Pending Confirmation,NGN 537,cash on delivery,5,  
+FD800158,Amara Lawal,03289861434,LOCAL FLAVOURS,Suya Platter,1,3000,"161 Allen Ave, Ikeja, Lagos",10-Jul-2026 08:00 AM,delivered,2866.0,Wallet,NIL,Average
+FD800445,Chidi Adeyemi,07773926030,mama put kitchen,Fried Rice & Turkey,3,NIL,"39 Toyin Street, Victoria Island, Lagos",09.08.2025 23:00,Preparing,"NGN 2,611",Cash,n/a,Cold food
+FD800252,Emeka Okeke,(754) 121-2678,Mama Put Kitchen,Fried Rice & Turkey,1,n/a,"107 Allen Ave, Victoria Island, Lagos   ",2025-07-19 01:00 PM,Preparing,"₦2,805.00",Wallet,?,NIL
+FD800214,Wale Okafor,234-841-459-332,Local Flavours,Pounded Yam & Egusi Soup,1,4000,"  88 Toyin Street, Victoria Island, Lagos",04/24/2026 11:00,Preparing,₦876.00,Cash,4,nil
+FD800111,Halima Ogundimu,0000000000,BUKKA HUT,Shawarma Large,-1,2500,"26 Allen Ave, Ikeja, Lagos",2025-08-14 03:00 PM,Out for Delivery,2216.00 naira,Card,3,-
+FD800254,Ibrahim Okeke,60466183982,Bukka Hut,Moi Moi & Plantain,1,2200,"  138 Adetokunbo Ademola, Surulere, Lagos",2025/07/05 11:00,Delivered,null,COD,4,Excellent
+FD800266,Kunle Lawal,+234071461125,Genesis Kitchen,Moi Moi & Plantain,3,2200.00 naira,"46 Awolowo Way, Victoria Island, Lagos",16 June 2025 09:00,Pending Confirmation,"₦2,252.00",Card,2,Excellent
+FD800121,Ibrahim Afolabi,234-896-118-367,Bukka Hut,Pizza (Medium),1,7500,"  159 Allen Ave, Victoria Island, Lagos   ",2025-06-14 07:00,Cancelled,1574.00 naira,Card,1,Excellent
+FD800399,Emeka Okonkwo,05037589975,Chicken Republic,Pizza (Medium),1,NIL,"18 Allen Ave, Ikeja, Lagos",14-Feb-2026 09:00 PM,Out for Delivery,3373.0,COD,5,Great food
+FD800149,Zainab Nnamdi,05733221418,Kilimanjaro,Fried Rice & Turkey,3,"NGN 4,500","157 Awolowo Way, Yaba, Lagos",2026-07-13 10:00 AM,Out for Delivery,1132.0,Transfer,3,
+FD800312,  Halima Afolabi,+234603850506,Kilimanjaro,Pounded Yam & Egusi Soup,-1,4000,"29 Adetokunbo Ademola, Yaba, Lagos",30/07/2025 10:00,Delivered,,cash on delivery,Unknown,N/A
+FD800245,Ngozi Afolabi,0591 803 3974,Genesis Kitchen,Asun (Spicy Goat Meat),3,"NGN 4,200","8 Adetokunbo Ademola, Yaba, Lagos",2026-04-08 02:00 PM,Pending Confirmation,₦993.00,Cash,0,Cold food
+FD800166,femi bello,+234541566765,The Place,Pounded Yam & Egusi Soup,3,4000,"63 Allen Ave, Victoria Island, Lagos",2025/12/18 08:00,Preparing,"NGN 1,545",cash on delivery,null,Cold food
+FD800035,Amara Bello,06801128059,Local Flavours,Pounded Yam & Egusi Soup,Unknown,"NGN 4,000","157 Toyin Street, Ikeja, Lagos",05/09/2025 03:00 PM,Delivered,1413.00 naira,Cash,2,Cold food
+FD800055,GRACE ADEKUNLE,234-668-893-734,Local Flavours,Asun (Spicy Goat Meat),2,"N4,200","  178 Adetokunbo Ademola, Yaba, Lagos",20-Sep-2025 17:00,Pending Confirmation,"2,546.00 ",Transfer,0,Late delivery
+FD800409,BLESSING YUSUF,+234200342442,Sweet Sensation,Ofada Rice & Sauce,2,"N3,300","113 Toyin Street, Victoria Island, Lagos",2025-07-20 18:00,Cancelled,"₦2,816.00",COD,0,N/A
+FD800326,HALIMA OLAWALE,0838 065 7875,Kilimanjaro,Amala & Ewedu,2,2800,"  26 Allen Ave, Ikeja, Lagos   ",2026/04/29 20:00,delivered,799.00 naira,cash on delivery,1,Average
+FD800341,tobi balogun,05262181599,Sweet Sensation,Grilled Fish & Yam,1,4800,"3 Herbert Macaulay Way, Victoria Island, Lagos",27/05/2025 05:00 PM,Delivered,2202.0,cash on delivery,n/a,nil
+FD800361,Emeka Eze,(610) 357-9727,Chicken Republic,Fried Rice & Turkey,NIL,"NGN 4,500","  183 Awolowo Way, Victoria Island, Lagos",21/05/2026 08:00,Preparing,827.00 naira,Cash,NULL,N/A
+FD800447,BOLA CHUKWU,28699041379,chicken republic,Pizza (Medium),-1,7500,"  91 Herbert Macaulay Way, Surulere, Lagos",24.08.2025 05:00 PM,delivered,1341.00 naira,Cash,4,NULL
+FD800397,Halima Suleiman,0775 170 1660,Local Flavours,Amala & Ewedu,1,n/a,"103 Awolowo Way, Ikeja, Lagos",04/02/2026 05:00 PM,CANCELLED,1754.00 naira,Card,NULL,Cold food
+FD800222,Amara Okafor,0512 868 2300,Yellow Chilli,Shawarma Large,2,"₦2,500.00","173 Toyin Street, Victoria Island, Lagos",2025-03-11 10:00 PM,Out for Delivery,"N1,105",Cash,null,Great food
+FD800422,Ngozi Bello,234-861-207-501,Yellow Chilli,Pounded Yam & Egusi Soup,1,4000,"154 Adetokunbo Ademola, Yaba, Lagos",07-Jul-2026 03:00 PM,Pending Confirmation,"NGN 3,232",Transfer,1,unknown
+FD800435,Chioma Suleiman,+234834110809,The Place,Moi Moi & Plantain,-1,"N2,200","  104 Adetokunbo Ademola, Surulere, Lagos   ",23 February 2026 11:00 PM,Out for Delivery,3477.0,COD,,Excellent
+FD800250,  Chinedu Mohammed,66296194311,Yellow Chilli,Amala & Ewedu,2,"₦2,800.00","12 Adetokunbo Ademola, Surulere, Lagos",29-Jul-2025 22:00,Pending Confirmation,2317.0,cash on delivery,0,Too spicy
+FD800415,  Halima Mohammed,234-025-909-479,Kilimanjaro,Fried Rice & Turkey,-1,4500.00 naira,"45 Herbert Macaulay Way, Yaba, Lagos",05/03/2025 11:00,Delivered,"NGN 1,993",COD,3,
+FD800414,ALIYU ABUBAKAR,06484229405,Kilimanjaro,Grilled Fish & Yam,-1,"NGN 4,800","80 Allen Ave, Surulere, Lagos",2025/08/31 17:00,Out for Delivery,"₦3,128.00",Transfer,0,NULL
+FD800143,  Kemi Abubakar,+234935978207,Chicken Republic,Suya Platter,1,"₦3,000.00","110 Herbert Macaulay Way, Victoria Island, Lagos",2025/07/24 08:00 PM,Cancelled,1740.0,Wallet,2,Too spicy
+FD800282,Wale Afolabi,09233095849,Chicken Republic,Amala & Ewedu,1,"N2,800","179 Toyin Street, Victoria Island, Lagos",28 January 2026 19:00,Pending Confirmation,₦984.00,Cash,0,Average
+FD800156,YUSUF  EZE   ,N/A,Sweet Sensation,Fried Rice & Turkey,1,4500.00 naira,"96 Adetokunbo Ademola, Ikeja, Lagos",00/00/0000 07:00 AM,Out for Delivery,--,Cash,1,Excellent
+FD800082,Funmilayo Ajayi,(877) 190-6594,Chicken Republic,Fried Rice & Turkey,2,4500.00 naira,"46 Adetokunbo Ademola, Victoria Island, Lagos",03/04/2025 07:00 PM,Preparing,"NGN 2,949",Cash,Unknown,Cold food
+FD800423,BISI YUSUF,02481934667,Kilimanjaro,Shawarma Large,-1,"N2,500","198 Awolowo Way, Victoria Island, Lagos",2025-05-26 22:00,Delivered,539.0,Wallet,2,Excellent
+FD800255,Chidi Suleiman,0622 444 7212,Bukka Hut,Asun (Spicy Goat Meat),2,4200,"54 Herbert Macaulay Way, Victoria Island, Lagos",2025/03/24 12:00,Cancelled,"NGN 2,487",Card,4,NIL
+FD800012,Wale Nwosu,+234697848018,Mama Put Kitchen,Asun (Spicy Goat Meat),3,4200,"106 Toyin Street, Victoria Island, Lagos",00/00/0000 11:00 AM,Pending Confirmation,"NGN 3,255",Card,NULL,Average
+FD800102,Blessing  Adeyemi,+234367136959,Bukka Hut,Pounded Yam & Egusi Soup,2,4000.00 naira,"39 Allen Ave, Yaba, Lagos",02/05/2025 08:00 AM,Cancelled,"N1,758",cash on delivery,2,Great food
+FD800173,Halima Adeyemi,234-278-681-447,Mama Put Kitchen,Shawarma Large,1,  ,"116 Allen Ave, Ikeja, Lagos",11-Dec-2025 19:00,Out for Delivery,575.00 naira,COD,2,Late delivery
+FD800139,Tunde Nnamdi,32921277997,Genesis Kitchen,Pizza (Medium),1,"NGN 7,500","151 Allen Ave, Victoria Island, Lagos",21.03.2025 05:00 PM,Pending Confirmation,"N1,946",cash on delivery,2,  
+FD800389,Zainab Nwosu,+234579415521,Bukka Hut,Pizza (Medium),3,"NGN 7,500","73 Adetokunbo Ademola, Surulere, Lagos",30/04/2026 09:00 PM,delivered,"NGN 1,034",Transfer,3,Great food
+FD800242,Kunle Lawal,(182) 339-8454,Yellow Chilli,Shawarma Large,3,"₦2,500.00","156 Adetokunbo Ademola, Ikeja, Lagos",01 May 2026 06:00 PM,Delivered,"NGN 1,576",COD,Unknown,Great food
+FD800201,Funmilayo Nwosu,0549 733 4843,KILIMANJARO,Amala & Ewedu,1,2800.00 naira,"100 Awolowo Way, Yaba, Lagos",2026-04-03 10:00 AM,CANCELLED,"NGN 2,206",Cash,4,Cold food
+FD800009,  Halima Nnamdi,+234139537672,The Place,Jollof Rice & Chicken,1,"₦3,500.00","21 Adetokunbo Ademola, Victoria Island, Lagos",25-Dec-2025 10:00 PM,CANCELLED,"NGN 1,400",Cash,1,NULL
+FD800049,Adaeze Lawal,01632870831,Genesis Kitchen,Moi Moi & Plantain,1,"NGN 2,200","196 Toyin Street, Victoria Island, Lagos",05/21/2026 15:00,Preparing,3291.00 naira,Wallet,5,Average
+FD800112,Wale Adekunle,invalid,Local Flavours,Grilled Fish & Yam,1,"N4,800","59 Toyin Street, Victoria Island, Lagos",26-Mar-2025 22:00,Delivered,"NGN 1,064",Wallet,0,N/A
+FD800095,Aliyu Bello,+234718702621,Bukka Hut,Ofada Rice & Sauce,-1,"NGN 3,300","163 Allen Ave, Victoria Island, Lagos", 20:00,Delivered,"N1,860",Transfer,0,NIL
+FD800304,Tobi Afolabi,(588) 425-2410,Bukka Hut,Pounded Yam & Egusi Soup,2,"₦4,000.00","10 Awolowo Way, Yaba, Lagos",22/02/2026 02:00 PM,delivered,"N1,419",Card,2,--
+FD800078,Ifeoma Nnamdi,12328120679,Local Flavours,Ofada Rice & Sauce,2,3300,"72  Herbert Macaulay Way, Ikeja, Lagos",12/15/2025 10:00,CANCELLED,?,Card,5,Average
+FD800089,Bisi Nwosu,(086) 131-7127,The Place,Amala & Ewedu,1,"N2,800","137 Awolowo Way, Yaba, Lagos",11.10.2025 10:00,CANCELLED,"₦2,946.00",Wallet,1,Cold food
+FD800339,Obinna Nnamdi,(626) 765-8617,kilimanjaro,Pizza (Medium),1,7500.00 naira,"86 Allen Ave, Surulere, Lagos   ",15-Jul-2025 07:00 AM,Cancelled,"N1,708",cash on delivery,5,
+FD800223,Musa Balogun,(786) 863-3752,Yellow Chilli,Moi Moi & Plantain,3,2200.00 naira,"110 Toyin Street, Victoria Island, Lagos",16-Apr-2026 14:00,Preparing,1100.00 naira,cash on delivery,5,Cold food
+FD800008,Blessing  Suleiman   ,+234648350305,Local Flavours,Pepper Soup (Goat Meat),3,,"100 Awolowo Way, Surulere, Lagos",2025/07/06 09:00,Cancelled,"NGN 1,070",Cash,5,Great food
+FD800188,  Chioma Chukwu,234-877-470-168,Genesis Kitchen,Pizza (Medium),-1,"₦7,500.00","10 Herbert Macaulay Way, Surulere, Lagos   ",10/04/2025 21:00,delivered,3451.0,Wallet,?,Late delivery
+FD800205,femi abubakar,93308330165,the place,Fried Rice & Turkey,-1,4500.00 naira,"  109 Awolowo Way, Ikeja, Lagos",24/02/2026 09:00,delivered,2535.00 naira,Transfer,4,unknown
+FD800077,  KUNLE OKONKWO,234-649-909-133,Yellow Chilli,Pepper Soup (Goat Meat),1,3800.00 naira,"145  Toyin Street, Yaba, Lagos",2025/11/13 20:00,Delivered,"NGN 1,716",Wallet,1,--
+FD800324,Yusuf Abubakar,234-447-209-993,Kilimanjaro,Pounded Yam & Egusi Soup,3,"N4,000","153 Toyin Street, Ikeja, Lagos",23.08.2025 16:00,CANCELLED,2976.0,Cash,2,Cold food
+FD800196,Ifeoma Ogundimu,+234705516940,The Place,Ofada Rice & Sauce,2,3300.00 naira,"79 Adetokunbo Ademola, Surulere, Lagos   ",2025/11/05 09:00 AM,Delivered,"N1,135",cash on delivery,4,Cold food
+FD800163,Chioma Suleiman,0319 520 5852,Kilimanjaro,Amala & Ewedu,,2800,"  133 Toyin Street, Victoria Island, Lagos",02.07.2025 13:00,CANCELLED,2967.0,cash on delivery,,Too spicy
+FD800072,chioma ogundimu   ,41343524082,Chicken Republic,Grilled Fish & Yam,1,"4,800.00 ","170 Herbert Macaulay Way, Yaba, Lagos",2025/07/04 08:00,CANCELLED,"N2,536",Cash,3,Average
+FD800013,CHIOMA SULEIMAN,05146270482,kilimanjaro,Pounded Yam & Egusi Soup,2,4000.00 naira,"131  Allen Ave, Surulere, Lagos",27 August 2025 23:00,delivered,2561.0,Card,3,N/A
+FD800215,Tunde Adeyemi,02795687833,Sweet Sensation,Pizza (Medium),null,"N7,500","194 Allen Ave, Ikeja, Lagos",2025-03-22 01:00 PM,Cancelled,3038.0,Transfer,Unknown,Excellent
+FD800198,Amaka Abubakar,234-230-913-075,SWEET SENSATION,Moi Moi & Plantain,-1,"N2,200","142 Toyin Street, Surulere, Lagos",2025/05/10 17:00,Pending Confirmation,973.00 ,Cash,N/A,
+FD800385,ngozi okeke,83564208737,Yellow Chilli,Shawarma Large,2,"N2,500","90 Herbert Macaulay Way, Surulere, Lagos",31 May 2025 03:00 PM,delivered,  ,COD,NIL,nil
+FD800378,Wale Olawale,+234689421044,LOCAL FLAVOURS,Pepper Soup (Goat Meat),3,"₦3,800.00","18  Allen Ave, Victoria Island, Lagos",23/10/2025 01:00 PM,Out for Delivery,"₦2,283.00",COD,5,N/A
+FD800073,Ibrahim Bello,0400 842 7109,Genesis Kitchen,Amala & Ewedu,3,2800.00 naira,"136 Toyin Street, Surulere, Lagos",26.09.2025 11:00 AM,delivered,"₦2,674.00",Transfer,4,Great food
+FD800079,Kunle Balogun,07403447134,The Place,Asun (Spicy Goat Meat),2,4200,"  153 Adetokunbo Ademola, Victoria Island, Lagos",2025-09-13 11:00,Out for Delivery,"N1,796",COD,?,
+FD800232,  CHIDI AJAYI,(013) 983-7354,Mama Put Kitchen,Grilled Fish & Yam,Unknown,"N4,800","   78 Adetokunbo Ademola, Victoria Island, Lagos",02/26/2026 20:00,Preparing,"₦3,134.00",Transfer,0,Cold food
+FD800403,Amaka Nnamdi,234-982-708-086,Kilimanjaro,Amala & Ewedu,3,2800,"70 Herbert Macaulay Way, Ikeja, Lagos   ",2025-10-22 07:00,Cancelled,"N2,569",Card,2,?
+FD800238,Segun Adekunle,05228728080,LOCAL FLAVOURS,Shawarma Large,1,"NGN 2,500","22 Adetokunbo Ademola, Victoria Island, Lagos",24.10.2025 03:00 PM,Pending Confirmation,"NGN 2,930",Cash,0,
+FD800207,Blessing Yusuf,234-401-938-026,sweet sensation,Ofada Rice & Sauce,-1,"NGN 3,300","13 Toyin Street, Victoria Island, Lagos",06 May 2026 09:00 PM,Cancelled,"N3,018",COD,N/A,Great food
+FD800167,Blessing Adeyemi,77584161692,Yellow Chilli,Moi Moi & Plantain,3,"₦2,200.00","  159 Toyin Street, Victoria Island, Lagos",14/01/2026 11:00 AM,CANCELLED,"NGN 2,114",cash on delivery,3,Cold food
+FD800237,Funmilayo Ogundimu,69378547772,Local Flavours,Shawarma Large,1,"₦2,500.00","120 Adetokunbo Ademola, Ikeja, Lagos",2025-03-21 23:00,delivered,"N1,783",cash on delivery,1,Late delivery
+FD800239,CHINEDU BELLO,(006) 231-2038,Sweet Sensation,Pounded Yam & Egusi Soup,3,  ,"  177 Adetokunbo Ademola, Victoria Island, Lagos   ",2025/11/29 07:00,Pending Confirmation,580.00 naira,Card,  ,nil
+FD800210,Segun Yusuf,01527420549,Local Flavours,Amala & Ewedu,1,2800.00 naira,"   42 Adetokunbo Ademola, Surulere, Lagos",24-Jul-2025 18:00,delivered,"₦3,460.00",cash on delivery,--,
+FD800181,Blessing Bello,04249818299,Mama Put Kitchen,Asun (Spicy Goat Meat),1,"N4,200","23 Awolowo Way, Surulere, Lagos   ",14/06/2025 08:00,Preparing,"NGN 2,417",Card,2,N/A
+FD800354,WALE ADEYEMI,01914856467,Yellow Chilli,Jollof Rice & Chicken,1,"N3,500","157  Allen Ave, Surulere, Lagos",not set 05:00 PM,Preparing,"NGN 1,795",Card,1,Great food
+FD800022,Chidi Afolabi,65133387262,Local Flavours,Asun (Spicy Goat Meat),1,"₦4,200.00","76 Toyin Street, Surulere, Lagos",13 April 2025 02:00 PM,CANCELLED,"NGN 2,151",Wallet,3,NULL
+FD800088,OBINNA OKONKWO,+234477109324,Local Flavours,Pizza (Medium),3,"₦7,500.00","30 Awolowo Way, Victoria Island, Lagos",02/27/2026 21:00,Delivered,"N2,708",Card,3,Great food
+FD800301,Wale Yusuf,(241) 418-3285,Mama Put Kitchen,Grilled Fish & Yam,-1,4800,"15 Awolowo Way, Ikeja, Lagos",N/A 13:00,Delivered,804.00 naira,Cash,5,Cold food
+FD800117,Tobi Olawale,+234268117758,Sweet Sensation,Grilled Fish & Yam,-1,?,"76 Adetokunbo Ademola, Ikeja, Lagos",26/03/2026 12:00,Cancelled,"2,001.00 ",Wallet,5,Great food
+FD800098,  Bisi Yusuf,(240) 050-4556,Chicken Republic,Pounded Yam & Egusi Soup,3,4000,"51  Herbert Macaulay Way, Yaba, Lagos",2026/05/18 16:00,Delivered,"₦3,353.00",COD,4,Unknown
+FD800444,Ibrahim Ajayi,234-222-591-365,Bukka Hut,Pizza (Medium),1,unknown,"7 Toyin Street, Surulere, Lagos",03.12.2025 09:00 PM,Out for Delivery,"2,225.00 ",Card,4,Excellent
+FD800280,Kemi Lawal,07836134074,Bukka Hut,Moi Moi & Plantain,3,2200,"6 Adetokunbo Ademola, Surulere, Lagos",07/09/2026 13:00,Cancelled,1272.00 naira,Wallet,3,n/a
+FD800161,  Adaeze Chukwu,06218518888,Mama Put Kitchen,Asun (Spicy Goat Meat),-1,4200,"107  Awolowo Way, Ikeja, Lagos",2026-02-23 03:00 PM,Cancelled,"₦3,382.00",COD,2,  
+FD800251,Chioma Nwosu,04262655110,Local Flavours,Fried Rice & Turkey,2,"N4,500","43 Allen Ave, Victoria Island, Lagos   ",15 April 2025 20:00,Pending Confirmation,N659,Card,4,Unknown
+FD800391,Ibrahim Afolabi,0169 797 2965,Genesis Kitchen,Ofada Rice & Sauce,3,"₦3,300.00","46  Adetokunbo Ademola, Surulere, Lagos   ",2025/10/03 08:00,Cancelled,"N2,045",Wallet,null,unknown
+FD800154,Grace Okeke,(818) 141-2478,Chicken Republic,Fried Rice & Turkey,-1,"NGN 4,500","23 Adetokunbo Ademola, Victoria Island, Lagos",N/A 09:00 PM,Out for Delivery,"N2,105",Wallet,4,Average
+FD800256,Chinedu Okafor,46471543799,Kilimanjaro,Fried Rice & Turkey,1,4500,"167 Allen Ave, Ikeja, Lagos",06.01.2026 10:00 PM,delivered,"₦1,574.00",COD,-,Excellent
+FD800190,OBINNA BALOGUN,234-016-245-650,Yellow Chilli,Pepper Soup (Goat Meat),-1,3800,"169 Adetokunbo Ademola, Victoria Island, Lagos",14.03.2025 16:00,Delivered,"₦1,529.00",Card,5,Cold food
+FD800246,Aliyu Bello,234-489-025-039,Chicken Republic,Jollof Rice & Chicken,-1,"₦3,500.00","72 Herbert Macaulay Way, Yaba, Lagos",12.07.2026 16:00,Out for Delivery,2592.0,Wallet,2,-
+FD800416,Ifeoma Lawal   ,(515) 832-8182,YELLOW CHILLI,Jollof Rice & Chicken,1,"₦3,500.00","17 Allen Ave, Surulere, Lagos",17.08.2025 07:00,CANCELLED,502.00 naira,Transfer,2,N/A
+FD800381,Grace Chukwu,(506) 489-0901,The Place,Pepper Soup (Goat Meat),1,"₦3,800.00","192  Allen Ave, Yaba, Lagos",11/12/2025 20:00,Preparing,"₦2,008.00",Transfer,1,Too spicy
+FD800184,Ibrahim Chukwu,06471027677,Yellow Chilli,Amala & Ewedu,3,"N2,800","78 Herbert Macaulay Way, Surulere, Lagos",23-Oct-2025 12:00 PM,Preparing,"N1,125",Wallet,4,N/A
+FD800231,Chioma Mohammed,+234751830469,Sweet Sensation,Suya Platter,2,"₦3,000.00","  47 Adetokunbo Ademola, Yaba, Lagos",07/26/2025 10:00 PM,CANCELLED,"₦2,442.00",Wallet,2,Average
+FD800441,Aliyu Nnamdi,+234844989266,Chicken Republic,Jollof Rice & Chicken,1,"₦3,500.00","27 Toyin Street, Ikeja, Lagos",14/02/2026 09:00,Pending Confirmation,"N2,385",Cash,1,Too spicy
+FD800373,SADIQ NWOSU,01684602235,Mama Put Kitchen,Suya Platter,1,3000.00 naira,"125 Allen Ave, Yaba, Lagos   ",04/05/2026 07:00 PM,Delivered,"NGN 2,939",Wallet,2,
+FD800135,Chinedu Okeke,01596966416,Chicken Republic,Asun (Spicy Goat Meat),1,4200,"37 Toyin Street, Yaba, Lagos",03.05.2025 08:00,Delivered,3054.0,Wallet,0,
+FD800292,Amara Mohammed,+234271361115,The Place,Grilled Fish & Yam,NIL,"4,800.00 ","27 Toyin Street, Surulere, Lagos",21/10/2025 12:00 PM,Out for Delivery,"₦1,039.00",cash on delivery,0,Average
+FD800260,Grace Ogundimu,05193982807,Kilimanjaro,Moi Moi & Plantain,-1,"2,200.00 ","17 Toyin Street, Ikeja, Lagos",11/10/2025 10:00 AM,Delivered,"NGN 2,178",Wallet,nil,Average
+FD800348,  HALIMA EZE,234-158-693-806,Bukka Hut,Fried Rice & Turkey,-1,"4,500.00 ","140 Awolowo Way, Surulere, Lagos",05/25/2026 10:00 AM,CANCELLED,"₦2,472.00",COD,0,Too spicy
+FD800311,CHIOMA OKAFOR,234-937-597-383,Mama Put Kitchen,Jollof Rice & Chicken,nil,"₦3,500.00","189 Awolowo Way, Ikeja, Lagos",04/21/2025 07:00 PM,Out for Delivery,₦964.00,COD,3,
+FD800349,  Segun Adekunle,0000000000,KILIMANJARO,Pepper Soup (Goat Meat),1,"N3,800","  169 Herbert Macaulay Way, Surulere, Lagos",2026/07/05 22:00,Delivered,"NGN 3,445",cash on delivery,2,Average
+FD800358,Obinna Okafor,01373678508,KILIMANJARO,Pounded Yam & Egusi Soup,1,"₦4,000.00","79 Allen Ave, Victoria Island, Lagos",21.07.2025 19:00,Pending Confirmation,"NGN 2,760",Cash,3,Average
+FD800186,Chioma Ajayi,15371473210,Sweet Sensation,Ofada Rice & Sauce,1,--,"184 Awolowo Way, Ikeja, Lagos",18.10.2025 04:00 PM,Preparing,Unknown,Transfer,1,Great food
+FD800395,obinna suleiman,+234721753540,Bukka Hut,Ofada Rice & Sauce,-1,"NGN 3,300","9 Herbert Macaulay Way, Ikeja, Lagos",16 August 2025 07:00 PM,Preparing,2753.00 naira,Wallet,?,Cold food
+FD800302,emeka lawal,0914 630 3161,Local Flavours,Pizza (Medium),1,"NGN 7,500","112 Allen Ave, Victoria Island, Lagos",05/19/2025 03:00 PM,CANCELLED,"₦1,494.00",COD,2,unknown
+FD800164,Emeka Adekunle,0722 170 4303,The Place,Fried Rice & Turkey,2,4500,"124 Toyin Street, Surulere, Lagos",04 September 2025 14:00,Delivered,"N2,692",Cash,1,N/A
+FD800046,Blessing Nnamdi,234-738-721-489,Kilimanjaro,Fried Rice & Turkey,1,"NGN 4,500","  154 Allen Ave, Victoria Island, Lagos   ",2025/07/05 21:00,delivered,"NGN 3,120",cash on delivery,-,
+FD800449,Kemi Balogun,04257991366,Chicken Republic,Asun (Spicy Goat Meat),1,n/a,"  196 Allen Ave, Yaba, Lagos",06.11.2025 04:00 PM,Delivered,₦529.00,Transfer,?,Too spicy
+FD800382,Amara Okafor,(016) 761-8472,Local Flavours,Grilled Fish & Yam,2,4800,"  166 Herbert Macaulay Way, Ikeja, Lagos   ",2025/07/19 08:00 AM,Pending Confirmation,895.00 naira,Cash,1,Great food
+FD800007,Chidi Okeke,0255 341 9283,The Place,Pepper Soup (Goat Meat),3,"N3,800","91 Adetokunbo Ademola, Surulere, Lagos",18/06/2025 11:00 AM,CANCELLED,"1,518.00 ",Card,unknown,Cold food
+FD800229,Grace Ogundimu,0462 873 3427,sweet sensation,Jollof Rice & Chicken,1,"₦3,500.00","133 Toyin Street, Surulere, Lagos",2026-01-23 12:00 PM,delivered,2980.0,Card,1,Cold food
+FD800367,Ngozi Adeyemi,54544432830,genesis kitchen,Shawarma Large,2,"NGN 2,500","  89 Awolowo Way, Yaba, Lagos",2026-03-23 12:00,Preparing,3466.0,Card,0,Late delivery
+FD800392,kemi afolabi,00277167014,Sweet Sensation,Pizza (Medium),2,"N7,500","92  Allen Ave, Surulere, Lagos   ",2025/03/26 18:00,Preparing,1536.00 naira,cash on delivery,2,-
+FD800346,Chioma Afolabi,234-741-862-565,Kilimanjaro,Ofada Rice & Sauce,3,3300.00 naira,"  144 Allen Ave, Surulere, Lagos   ",05 December 2025 12:00,Cancelled,2363.0,Cash,  ,Great food
+FD800041,musa adekunle,+234019655698,Kilimanjaro,Asun (Spicy Goat Meat),-1,4200,"8 Allen Ave, Yaba, Lagos",2026-01-09 07:00,delivered,nil,cash on delivery,1,
+FD800221,Chinedu  Okeke,234-265-676-618,Kilimanjaro,Amala & Ewedu,2,"NGN 2,800","90 Allen Ave, Yaba, Lagos",12/08/2025 08:00,Delivered,"₦1,513.00",Transfer,1,Average
+FD800419,Bisi Suleiman,234-305-616-484,Sweet Sensation,Fried Rice & Turkey,2,"NGN 4,500","  165 Allen Ave, Yaba, Lagos",2025/08/22 10:00 PM,Pending Confirmation,1543.00 naira,cash on delivery,1,Cold food
+FD800147,Aliyu Chukwu,invalid,yellow chilli,Suya Platter,1,"NGN 3,000","142 Toyin Street, Surulere, Lagos",2026/04/14 17:00,Cancelled,"₦1,997.00",COD,2,Excellent
+FD800318,  yusuf suleiman,04741124903,Yellow Chilli,Amala & Ewedu,1,"N2,800","124  Allen Ave, Ikeja, Lagos",2025-07-01 16:00,delivered,1085.0,COD,3,Late delivery
+FD800031,Grace Yusuf,0251 354 2784,Yellow Chilli,Jollof Rice & Chicken,-1,"N3,500","8 Allen Ave, Victoria Island, Lagos",05 April 2025 14:00,CANCELLED,"₦2,878.00",Cash,5,Excellent
+FD800376,kemi afolabi,06666760083,The Place,Moi Moi & Plantain,1,2200.00 naira,"81 Toyin Street, Victoria Island, Lagos",2025/03/31 10:00 PM,Delivered,"₦1,777.00",Card,NIL,unknown
+FD800177,Musa Adeyemi,78291146786,chicken republic,Shawarma Large,-1,"N2,500","34 Herbert Macaulay Way, Surulere, Lagos",16 June 2025 01:00 PM,Preparing,"₦3,438.00",Cash,4,Late delivery
+FD800253,Funmilayo Mohammed,0861 015 8199,Yellow Chilli,Jollof Rice & Chicken,2,"NGN 3,500","153 Herbert Macaulay Way, Yaba, Lagos",16/09/2025 10:00 AM,delivered,1721.00 naira,Wallet,,
+FD800033,Wale Ajayi,234-493-534-874,The Place,Shawarma Large,2,"NGN 2,500","163 Toyin Street, Victoria Island, Lagos",2025/03/05 08:00 AM,CANCELLED,"NGN 2,439",Wallet,1,null
+FD800032,Grace Adekunle,0808 412 4118,Genesis Kitchen,Moi Moi & Plantain,1,2200.00 naira,"89 Herbert Macaulay Way, Victoria Island, Lagos",06/27/2025 21:00,Pending Confirmation,"NGN 1,950",cash on delivery,3,  
+FD800034,Ngozi Suleiman,(164) 005-2427,Bukka Hut,Amala & Ewedu,3,"2,800.00 ","124  Awolowo Way, Victoria Island, Lagos",05/29/2025 13:00,CANCELLED,"NGN 2,523",cash on delivery,--,Great food
+FD800083,Zainab Abubakar,13990490278,Kilimanjaro,Asun (Spicy Goat Meat),1,"NGN 4,200","65 Toyin Street, Surulere, Lagos   ",01-Jul-2026 21:00,Pending Confirmation,2575.00 naira,Transfer,0,NULL
+FD800387,Chidi Bello,11437447012,Chicken Republic,Pizza (Medium),-1,7500.00 naira,"11 Toyin Street, Ikeja, Lagos",20/10/2025 08:00 PM,Cancelled,3267.0,cash on delivery,2,-
+FD800145,Ibrahim  Ajayi,(255) 466-5905,Mama Put Kitchen,Shawarma Large,-1,"N2,500","158 Toyin Street, Ikeja, Lagos",2026-01-30 23:00,Preparing,2509.00 naira,Card,NIL,Late delivery
+FD800129,Kunle Okafor,N/A,MAMA PUT KITCHEN,Asun (Spicy Goat Meat),2,"₦4,200.00","74 Awolowo Way, Yaba, Lagos",24/05/2026 08:00 PM,Out for Delivery,807.00 ,COD,5,Average
+FD800350,Blessing Mohammed,0989 921 7223,Bukka Hut,Fried Rice & Turkey,1,4500,"135 Awolowo Way, Yaba, Lagos",28.08.2025 17:00,Delivered,589.0,Card,1,Too spicy
+FD800429,Funmilayo Nwosu,02223943129,Genesis Kitchen,Amala & Ewedu,1,2800.00 naira,"27 Herbert Macaulay Way, Yaba, Lagos",07/04/2026 11:00,delivered,3010.00 naira,Wallet,4,Late delivery
+FD800336,SADIQ AFOLABI,06902959391,Mama Put Kitchen,Jollof Rice & Chicken,1,3500,"  29 Allen Ave, Victoria Island, Lagos",2025-04-23 17:00,Cancelled,"₦2,250.00",Transfer,2,Average
+FD800004,Bisi Adeyemi,+234511615594,Kilimanjaro,Fried Rice & Turkey,-1,"NGN 4,500","153  Adetokunbo Ademola, Victoria Island, Lagos",2025/11/08 09:00,Pending Confirmation,"N1,300",Cash,3,NIL
+FD800272,Amara Abubakar,234-785-969-691,Bukka Hut,Grilled Fish & Yam,3,"N4,800","64 Herbert Macaulay Way, Victoria Island, Lagos",2025/05/21 04:00 PM,CANCELLED,3143.00 naira,COD,0,Average

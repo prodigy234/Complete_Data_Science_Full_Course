@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Power Query Data Cleaning Masterclass - Set 2 (Datasets 11-20) | Excel and Power BI</title>
+<style>
+  :root {
+    --bg: #0c1017;
+    --panel: #141820;
+    --panel2: #1a1f2e;
+    --accent: #63b3ed;
+    --accent2: #f6ad55;
+    --accent3: #68d391;
+    --text: #e2e8f0;
+    --muted: #8896a9;
+    --border: #252c3d;
+    --danger: #fc8181;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Segoe UI', Calibri, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+  }
+  .cover {
+    background: linear-gradient(135deg, #0d1b3e 0%, #0c2040 40%, #0a1e1a 100%);
+    padding: 80px 32px 60px;
+    text-align: center;
+    border-bottom: 2px solid var(--border);
+  }
+  .cover h1 { font-size: 2.5rem; color: #fff; font-weight: 700; letter-spacing: -0.5px; margin-bottom: 12px; }
+  .cover .set-badge {
+    display: inline-block;
+    background: var(--accent);
+    color: #0c1a2c;
+    font-size: 0.85rem;
+    font-weight: 700;
+    padding: 4px 14px;
+    border-radius: 20px;
+    margin-bottom: 18px;
+  }
+  .cover p.sub { color: var(--accent2); font-size: 1.1rem; margin-bottom: 8px; }
+  .cover p.author { color: var(--muted); font-size: 0.92rem; }
+  .wrap { max-width: 1000px; margin: 0 auto; padding: 48px 24px 100px; }
+  h2.sec { font-size: 1.55rem; color: var(--accent); border-bottom: 2px solid var(--accent); padding-bottom: 8px; margin: 56px 0 20px; }
+  h3.sub { font-size: 1.2rem; color: var(--accent2); margin: 32px 0 12px; }
+  p.body-text { margin-bottom: 14px; font-size: 0.95rem; }
+  .card { background: var(--panel); border: 1px solid var(--border); border-radius: 10px; padding: 22px 26px; margin: 16px 0; }
+  table.t { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 0.88rem; }
+  table.t th { background: var(--panel2); color: var(--accent); border: 1px solid var(--border); padding: 10px 13px; text-align: left; }
+  table.t td { border: 1px solid var(--border); padding: 10px 13px; vertical-align: top; }
+  .ds-block {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--accent3);
+    border-radius: 8px;
+    padding: 26px 30px;
+    margin: 28px 0;
+  }
+  .ds-num { display: inline-block; background: var(--accent3); color: #0a1e15; font-weight: 700; padding: 2px 11px; border-radius: 20px; font-size: 0.82rem; margin-right: 8px; }
+  .ds-block h3 { color: #fff; margin: 6px 0 4px; font-size: 1.25rem; }
+  .meta { color: var(--muted); font-size: 0.86rem; margin-bottom: 12px; }
+  .meta code { background: var(--panel2); padding: 2px 7px; border-radius: 4px; color: var(--accent2); font-family: Consolas, monospace; }
+  .cols-box { background: var(--panel2); border-radius: 6px; padding: 9px 14px; font-size: 0.82rem; color: var(--muted); margin-bottom: 16px; font-family: Consolas, monospace; }
+  h4.bh { color: var(--accent); margin: 18px 0 8px; font-size: 0.97rem; text-transform: uppercase; letter-spacing: 0.4px; }
+  ul.issues li::marker { color: var(--danger); }
+  ul.issues li, ol.steps li { margin-bottom: 8px; font-size: 0.92rem; }
+  ol.steps li::marker { color: var(--accent3); font-weight: 700; }
+  ul, ol { padding-left: 22px; }
+  .toc { background: var(--panel); border: 1px solid var(--border); border-radius: 10px; padding: 22px 28px; margin: 24px 0; }
+  .toc a { color: var(--accent); text-decoration: none; font-size: 0.9rem; }
+  .toc a:hover { text-decoration: underline; }
+  .toc ol { columns: 2; gap: 24px; }
+  .toc li { margin-bottom: 6px; }
+  .code-table td:last-child { font-family: Consolas, monospace; color: var(--accent2); font-size: 0.83rem; }
+  footer { text-align: center; color: var(--muted); margin-top: 60px; font-size: 0.82rem; padding-top: 24px; border-top: 1px solid var(--border); }
+  .note { background: #1a2010; border: 1px solid #3a5018; border-radius: 8px; padding: 14px 18px; color: #b8e096; font-size: 0.89rem; margin: 20px 0; }
+  .checklist li::marker { color: var(--accent); }
+</style>
+</head>
+<body>
+
+<div class="cover">
+  <div class="set-badge">SET 2 - DATASETS 11 TO 20</div>
+  <h1>Power Query Data Cleaning Masterclass</h1>
+  <p class="sub">Ten Fresh Dirty Datasets - Excel and Power BI Editions</p>
+  <p class="author">Prepared by Kajola Gbenga Adewale | Data Expert | Prodigy Training Hub, Lagos</p>
+</div>
+
+<div class="wrap">
+
+<h2 class="sec">Introduction</h2>
+<p class="body-text">This is the second set of ten deliberately dirty, Nigerian business-context datasets for teaching Power Query data cleaning in both Microsoft Excel and Microsoft Power BI Desktop. The first set covered retail, banking, HR, healthcare, education, e-commerce, telecom, real estate, logistics, and food delivery. This set covers ten entirely different domains: insurance, microfinance, hospitality, agriculture, government payroll, petroleum retail, university enrollment, electricity billing, pharmaceutical inventory, and construction project management. All ten files simulate the exact kind of messy data that analysts receive from operational systems, manual registers, and inter-departmental exports in Nigerian organisations, and every quality problem in every file was deliberately inserted to map to a specific, namable cleaning technique in Power Query.</p>
+<p class="body-text">Open each CSV file through Power Query in Excel (Data tab, Get Data, From File, From Text/CSV, then click Transform Data) or in Power BI Desktop (Home, Get Data, Text/CSV, then click Transform Data). Follow the numbered steps for each dataset inside the Power Query Editor. Where a technique needs a different ribbon path in Excel versus Power BI, the note is given inline. Every step was written so a trainer can narrate it live in front of a class while learners follow on their own machines.</p>
+
+<h3 class="sub">Excel vs Power BI Desktop - Key Workflow Differences</h3>
+<table class="t">
+  <tr><th style="width:18%">Area</th><th style="width:41%">In Excel</th><th style="width:41%">In Power BI Desktop</th></tr>
+  <tr><td><strong>Starting a query</strong></td><td>Data tab &gt; Get Data &gt; From File &gt; From Text/CSV. Click Transform Data to open the editor instead of Load, which would skip Power Query entirely.</td><td>Home tab &gt; Get Data &gt; Text/CSV. Power BI always routes through the navigator and opens the editor when you click Transform Data.</td></tr>
+  <tr><td><strong>Where cleaned data goes</strong></td><td>Close &amp; Load sends the cleaned table to a worksheet. Close &amp; Load To lets you choose a PivotTable cache, a Table, or a Connection Only (for data model use without a visible sheet).</td><td>Close &amp; Apply always loads into the internal data model. There is no option to load to a visible grid - all interaction happens through visuals or DAX measures.</td></tr>
+  <tr><td><strong>Refreshing the query</strong></td><td>Right-click the query in the Queries &amp; Connections pane, Refresh, or Data &gt; Refresh All for all queries in the workbook.</td><td>Home &gt; Refresh in report view refreshes all queries. After publishing to the Service, scheduled refresh runs the same query from the cloud.</td></tr>
+  <tr><td><strong>Managing multiple queries</strong></td><td>Queries appear in the Queries &amp; Connections pane on the right side of the workbook. Load settings (Load To) are managed per query.</td><td>Queries appear in the left-side Queries panel inside the Power Query Editor. Right-click a query to Enable Load or Disable Load if it is a staging query not meant to appear in the data model.</td></tr>
+  <tr><td><strong>Referencing one query from another</strong></td><td>Right-click a query in the editor's left panel and choose Reference to create a downstream query that builds on the first one without duplicating steps.</td><td>Same process. Reference is essential for the lookup-table merge pattern used in category standardisation throughout this guide.</td></tr>
+  <tr><td><strong>The Advanced Editor</strong></td><td>Home &gt; Advanced Editor shows the full M code of the current query. This is where you copy a query built in Excel to paste into Power BI, or vice versa.</td><td>Home &gt; Advanced Editor, identical. M code is fully portable between Excel and Power BI because the engine is the same.</td></tr>
+</table>
+
+<h3 class="sub">General Cleaning Checklist - Apply to Every Dataset</h3>
+<div class="card">
+  <ol class="checklist">
+    <li>Load via Power Query - never clean data by hand in the CSV. All cleaning happens in the Applied Steps pane so it is repeatable, documented, and rerunnable on the next export.</li>
+    <li>Check the header row was promoted correctly (Home &gt; Use First Row as Headers) and that no data row was accidentally treated as a header.</li>
+    <li>Review the column list on load - right-click each column header to confirm the auto-detected data type is correct. Currency-as-text, dates-as-text, and IDs-as-numbers are the three most common auto-detect failures.</li>
+    <li>Run Remove Duplicates (Home &gt; Remove Rows &gt; Remove Duplicates, selecting all columns) early, before any other transformations, so later steps are not applied twice to the same row.</li>
+    <li>Apply Trim and Clean (Transform &gt; Format &gt; Trim, then Format &gt; Clean) to every text column in one multi-select pass before touching any individual column, because trailing spaces make Replace Values fail silently.</li>
+    <li>Build a standard null replacement pass: select all text columns, Replace Values to convert blank, N/A, NULL, nil, -, --, unknown, and ? into a true null, so downstream measures count missing data correctly.</li>
+    <li>Standardise casing (Capitalize Each Word for names and categories, UPPERCASE for codes and short identifiers) before trying Replace Values on category columns, because a Replace Values search is case-sensitive in Power Query by default.</li>
+    <li>Fix numeric columns that arrived as text - strip all currency symbols and words (NGN, naira, the naira sign) with Replace Values, Trim the result, then change the Data Type to Decimal Number. Errors that appear after the type change should be investigated with Keep Errors before being removed.</li>
+    <li>Fix date columns by setting the Data Type to Date and immediately filtering the column for errors to find placeholder text values such as 00/00/0000, unknown date, and not set, which need a business decision, not a formula guess.</li>
+    <li>Rename every Applied Step (right-click, Rename) with a short plain-English description. A query that reads "Trimmed all text columns", "Replaced null markers", "Fixed currency fields", "Standardised date columns" is far more useful to a future analyst than "Changed Type1", "Replaced Value2".</li>
+  </ol>
+</div>
+
+<div class="toc">
+  <h3 class="sub" style="margin-top:0">Quick Navigation</h3>
+  <ol>
+    <li><a href="#ds11">Insurance Claims Processing Register - Insurance</a></li>
+    <li><a href="#ds12">Microfinance Institution Loan Records - Microfinance and Credit</a></li>
+    <li><a href="#ds13">Hotel and Hospitality Reservation Records - Hospitality</a></li>
+    <li><a href="#ds14">Agricultural Produce Market Sales Records - Agriculture</a></li>
+    <li><a href="#ds15">Federal Civil Service Payroll Register - Government and Public Sector</a></li>
+    <li><a href="#ds16">Petrol Station Daily Fuel Sales Log - Energy and Petroleum Retail</a></li>
+    <li><a href="#ds17">University Student Enrollment and Academic Records - Higher Education</a></li>
+    <li><a href="#ds18">Electricity Distribution Company Billing Records - Utilities and Energy</a></li>
+    <li><a href="#ds19">Pharmacy Drug Inventory and Stock Records - Pharmaceutical and Healthcare Supply</a></li>
+    <li><a href="#ds20">Government Construction and Infrastructure Project Register - Construction and Infrastructure</a></li>
+    <li><a href="#cheat">Power Query M Cheat Sheet</a></li>
+    <li><a href="#notes">Facilitator Notes</a></li>
+  </ol>
+</div>
+
+<h2 class="sec">The Ten Datasets</h2>
+
+<div class="ds-block" id="ds11">
+  <h3><span class="ds-num">Dataset 11</span>Insurance Claims Processing Register</h3>
+  <div class="meta">Domain: Insurance &nbsp;|&nbsp; File: <code>11_insurance_claims_DIRTY.csv</code></div>
+  <p class="body-text">A Lagos-based insurance broker compiles a claims register spanning motor, life, health, and property policies across several underwriting partners. The register is maintained in a shared Excel workbook by a rotating team of claims officers, so formatting standards have drifted across every column.</p>
+  <div class="cols-box">Columns: ClaimID, PolicyNumber, PolicyType, InsurerName, CustomerName, CustomerPhone, IncidentDate, ClaimDate, CauseOfClaim, PremiumPaid, ClaimAmount, PayoutAmount, ClaimStatus, State, PolicyActive</div>
+
+  <h4 class="bh">Data Quality Issues Deliberately Built In</h4>
+  <ul class="issues">
+    <li>PolicyType has overlapping, inconsistently cased entries for the same product (Motor, Motor Comprehensive; Life, Life (Term); Health, Health (Family)) that need consolidation into a clean product hierarchy.</li>
+    <li>IncidentDate and ClaimDate both use mixed date formats, and some ClaimDate values fall before IncidentDate, which is logically impossible.</li>
+    <li>CauseOfClaim has trailing spaces and mixed casing for the same cause (Accident, accident; Theft, Theft; Fire, FIRE).</li>
+    <li>PremiumPaid, ClaimAmount, and PayoutAmount are all stored as text with mixed currency notation.</li>
+    <li>PayoutAmount is blank for many rows, which may mean no payout was made or that the value was simply not recorded.</li>
+    <li>ClaimStatus uses inconsistent casing and overlapping labels (Approved, Partially Approved, Settled) that need a business decision on how to group them.</li>
+    <li>PolicyActive mixes Yes/No, Y/N, 1/0, and TRUE/FALSE for the same boolean fact.</li>
+    <li>CustomerPhone has the standard multi-format problem present across all Nigerian business datasets.</li>
+    <li>Around five percent of rows are exact duplicates inserted when the shared workbook was pasted between tabs.</li>
+  </ul>
+
+  <h4 class="bh">Step-by-Step Power Query Cleaning Process (Excel and Power BI)</h4>
+  <ol class="steps">
+    <li>Load the CSV (Get Data &gt; From Text/CSV &gt; Transform Data) and immediately set PolicyNumber to Text type to prevent Power Query from dropping leading zeros or misinterpreting the format.</li>
+    <li>Remove duplicate rows on all columns using Home &gt; Remove Rows &gt; Remove Duplicates before any other step.</li>
+    <li>Trim and Clean all text columns in one multi-select pass (Transform &gt; Format &gt; Trim, then Format &gt; Clean) to remove leading, trailing, and double spaces and non-printable characters.</li>
+    <li>Standardise CauseOfClaim: apply Capitalize Each Word, then use Replace Values for any remaining variants that capitalisation alone does not resolve.</li>
+    <li>Standardise PolicyType: build a small two-column lookup table as a separate query (DirtyType mapped to CleanType), then use Merge Queries (Left Outer join on PolicyType) to bring in the canonical product name and remove the original column. This is cleaner than stacking 10 Replace Values steps.</li>
+    <li>Fix IncidentDate and ClaimDate: set both to Date type, filter on errors to find and null out placeholder text values, then add a validation column ClaimAfterIncident = [ClaimDate] &gt;= [IncidentDate] to flag the logically impossible rows for the claims team to investigate at source rather than silently deleting them.</li>
+    <li>Clean PremiumPaid, ClaimAmount, and PayoutAmount: Replace Values to strip the naira sign, NGN, and the word naira, Trim the result, set Data Type to Decimal Number. Inspect errors before removing.</li>
+    <li>Handle PayoutAmount blanks deliberately: after converting to numeric, add a conditional column PayoutStatus = if [PayoutAmount] = null and [ClaimStatus] = "Approved" then "Payout missing - review" else if [PayoutAmount] = null then "No payout" else "Paid".</li>
+    <li>Standardise ClaimStatus: Trim, Capitalize Each Word, then apply a Replace Values pass to consolidate Settled into Approved (or whatever the business says is the correct mapping) so reports use a consistent three-bucket system.</li>
+    <li>Standardise PolicyActive into a true Logical (True/False) column using the Replace Values technique (Y, 1, yes, TRUE all mapped to true, then change Data Type to True/False).</li>
+    <li>Clean CustomerPhone using Text.Select([CustomerPhone], {"0".."9","+"}) in a custom column to strip all formatting characters, leaving only the digits and any leading plus sign.</li>
+    <li>Rename every Applied Step in plain English, then close and load as Claims_Register_Clean.</li>
+  </ol>
+</div>
+
+<div class="ds-block" id="ds12">
+  <h3><span class="ds-num">Dataset 12</span>Microfinance Institution Loan Records</h3>
+  <div class="meta">Domain: Microfinance and Credit &nbsp;|&nbsp; File: <code>12_microfinance_loan_records_DIRTY.csv</code></div>
+  <p class="body-text">A microfinance bank serving small traders and farmers across multiple states exports its loan portfolio register for a quarterly non-performing loan (NPL) review. The register merges records from two branch systems that were never aligned on formatting or status terminology.</p>
+  <div class="cols-box">Columns: LoanID, BorrowerName, BorrowerPhone, Gender, LoanPurpose, PrincipalAmount, InterestRate_pct, DisbursementDate, MaturityDate, AmountRepaid, LoanStatus, CollateralType, LoanOfficer, State, NPL_Flag</div>
+
+  <h4 class="bh">Data Quality Issues Deliberately Built In</h4>
+  <ul class="issues">
+    <li>LoanPurpose has trailing spaces and mixed casing for the same purpose category (Business Expansion, business; School Fees, SCHOOL FEES; Medical Bills, Medical).</li>
+    <li>PrincipalAmount, AmountRepaid are text with mixed currency notation.</li>
+    <li>InterestRate_pct is missing for some rows and stored inconsistently (18.5 versus 18.5% with the percent symbol appended).</li>
+    <li>AmountRepaid exceeds PrincipalAmount in some rows by more than 10 percent, which may indicate data entry errors or partial interest records being double-counted.</li>
+    <li>LoanStatus mixes casing and has overlapping labels from the two branch systems (Active, active; Fully Repaid, Fully repaid; Defaulted, DEFAULTED; Written Off, Overdue).</li>
+    <li>CollateralType has inconsistent casing and a high rate of blanks that need to be distinguished from genuinely uncollateralised loans versus missing entries.</li>
+    <li>NPL_Flag mixes Yes/No, Y/N, 1/0, and TRUE/FALSE.</li>
+    <li>DisbursementDate and MaturityDate use mixed formats, and some MaturityDate values predate DisbursementDate, which is logically impossible.</li>
+    <li>Gender mixes Male/Female with single-letter M/F in different cases.</li>
+    <li>Around four percent of rows are duplicate portfolio entries from the two-system merge.</li>
+  </ul>
+
+  <h4 class="bh">Step-by-Step Power Query Cleaning Process (Excel and Power BI)</h4>
+  <ol class="steps">
+    <li>Load the CSV and remove duplicate rows on all columns first.</li>
+    <li>Trim and Clean all text columns in one pass.</li>
+    <li>Standardise LoanPurpose: Capitalize Each Word, then Replace Values to fold short-form entries (business, SCHOOL FEES) into their canonical long-form counterparts.</li>
+    <li>Clean PrincipalAmount and AmountRepaid with the standard currency-stripping Replace Values chain (naira sign, NGN, naira), Trim, then set Data Type to Decimal Number.</li>
+    <li>Fix InterestRate_pct: Replace Values to strip the percent symbol where it was appended, Trim, then set to Decimal Number. After the type change, filter for nulls and errors to isolate missing rates for the portfolio management team.</li>
+    <li>Add an OverRepayment flag: a conditional column that checks if [AmountRepaid] &gt; [PrincipalAmount] * 1.10, and labels those rows "Overpayment - review" rather than silently correcting them, since the cause could be interest capture, rounding, or genuine entry error.</li>
+    <li>Standardise LoanStatus: Trim first (critical, because "paid " and "paid" are different before trimming), Capitalize Each Word, then build a lookup table that maps both branch system variants to one canonical status list (Active, Fully Repaid, Defaulted, Written Off, Overdue) and merge it in.</li>
+    <li>Handle CollateralType nulls deliberately: Replace Values to convert blank, N/A, and None into two distinct values - "None (Uncollateralised)" where the business has confirmed no collateral was taken, or null where the data is simply missing - using a conditional column that the trainer can discuss with the class as a data governance decision.</li>
+    <li>Standardise Gender: Replace Values to map M, m, male into Male and F, f, female into Female.</li>
+    <li>Standardise NPL_Flag into a Logical True/False column with Replace Values before changing Data Type.</li>
+    <li>Fix DisbursementDate and MaturityDate: convert both to Date, then add a MaturityAfterDisbursement validation column to flag rows where MaturityDate is on or before DisbursementDate.</li>
+    <li>Close and load as MFI_Loans_Clean.</li>
+  </ol>
+</div>
+
+<div class="ds-block" id="ds13">
+  <h3><span class="ds-num">Dataset 13</span>Hotel and Hospitality Reservation Records</h3>
+  <div class="meta">Domain: Hospitality &nbsp;|&nbsp; File: <code>13_hotel_hospitality_reservations_DIRTY.csv</code></div>
+  <p class="body-text">A hospitality group with properties in Lagos, Abuja, and Port Harcourt exports a consolidated reservation log from its three property management systems ahead of a revenue and occupancy analysis. Each property uses a slightly different PMS version, so nearly every column has formatting inconsistencies.</p>
+  <div class="cols-box">Columns: ReservationID, GuestName, GuestPhone, HotelName, RoomType, CheckInDate, CheckOutDate, NumberOfNights, RoomRatePerNight, TotalBill, BookingSource, PaymentStatus, State, Nationality, EarlyCheckIn</div>
+
+  <h4 class="bh">Data Quality Issues Deliberately Built In</h4>
+  <ul class="issues">
+    <li>RoomType has inconsistent casing for the same room category (Standard, standard, SUITE, Presidential all representing different tiers, but standard and Standard representing the same tier).</li>
+    <li>NumberOfNights contains a negative value that should never occur in a valid reservation.</li>
+    <li>CheckInDate and CheckOutDate both use mixed date formats, and CheckOutDate is blank for some rows that may represent ongoing stays or missing data.</li>
+    <li>RoomRatePerNight and TotalBill are stored as text with mixed currency notation, and TotalBill is blank for some rows.</li>
+    <li>A validation gap exists: for completed stays, TotalBill should equal NumberOfNights times RoomRatePerNight, and discrepancies can reveal rate override errors.</li>
+    <li>BookingSource mixes formats for the same channel (Walk-in, Walk in, walk-in; ONLINE, Online, online).</li>
+    <li>PaymentStatus uses inconsistent casing and overlapping labels (Paid, paid, PAID; Partial, Partially Paid; Pending, Pending Payment).</li>
+    <li>Nationality has inconsistent casing (Nigerian, nigerian, NIGERIAN) and is occasionally missing.</li>
+    <li>EarlyCheckIn mixes Yes/No, Y/N, 1/0, and TRUE/FALSE.</li>
+    <li>Around four percent of rows are duplicate reservations from PMS sync collisions.</li>
+  </ul>
+
+  <h4 class="bh">Step-by-Step Power Query Cleaning Process (Excel and Power BI)</h4>
+  <ol class="steps">
+    <li>Load the CSV and remove duplicate rows on all columns first.</li>
+    <li>Trim and Clean all text columns in one multi-select pass.</li>
+    <li>Standardise RoomType: Capitalize Each Word, then Replace Values to fold variant spellings of the same tier into one canonical value (Standard, Deluxe, Suite, Executive, Presidential, Twin).</li>
+    <li>Fix NumberOfNights: set to Whole Number, then filter for values less than 1 and route those rows to a separate review query named Reservations_InvalidNights, since a negative or zero-night stay needs a reservations officer to resolve it.</li>
+    <li>Fix CheckInDate and CheckOutDate: convert both to Date type, resolve errors the same way as earlier datasets, then add a StayValidation conditional column: if [CheckOutDate] is null and the row is not flagged as an ongoing stay then "Missing checkout date" else if [CheckOutDate] &lt;= [CheckInDate] then "Checkout before checkin - review" else "OK".</li>
+    <li>Clean RoomRatePerNight and TotalBill with the standard currency-stripping and Decimal Number conversion technique.</li>
+    <li>Add a calculated ExpectedBill column = [NumberOfNights] * [RoomRatePerNight] (only where NumberOfNights is positive and not null), then add a BillVariance column = [TotalBill] - [ExpectedBill] to surface rate-override rows for the revenue manager.</li>
+    <li>Standardise BookingSource: Trim, Capitalize Each Word, then Replace Values to fold "Walk in" and "walk-in" into "Walk-In" and "ONLINE" and "online" into "Online", producing a clean five-value source list.</li>
+    <li>Standardise PaymentStatus: Trim, Capitalize Each Word, then Replace Values to produce a four-value list (Paid, Partial, Pending, Refunded).</li>
+    <li>Standardise Nationality: Trim, Capitalize Each Word. Nulls are acceptable here - missing nationality is not a blocking data quality issue for revenue reporting.</li>
+    <li>Standardise EarlyCheckIn into a Logical True/False column with Replace Values before changing Data Type.</li>
+    <li>Close and load as Hotel_Reservations_Clean.</li>
+  </ol>
+</div>
+
+<div class="ds-block" id="ds14">
+  <h3><span class="ds-num">Dataset 14</span>Agricultural Produce Market Sales Records</h3>
+  <div class="meta">Domain: Agriculture &nbsp;|&nbsp; File: <code>14_agricultural_market_produce_DIRTY.csv</code></div>
+  <p class="body-text">The records unit at a state government agricultural commodities board exports a seasonal produce movement log from five major markets in southern and northern Nigeria. Field officers use paper forms that are keyed in by different data entry staff, so units, grades, and produce names have no standardisation.</p>
+  <div class="cols-box">Columns: RecordID, FarmerName, FarmerPhone, ProduceName, Quantity, Unit, PricePerUnit, TotalValue, Market, SaleDate, ProduceGrade, StorageFacility, State, TransportMode, Certified_Organic</div>
+
+  <h4 class="bh">Data Quality Issues Deliberately Built In</h4>
+  <ul class="issues">
+    <li>Unit mixes inconsistent labels for the same physical unit (kg, KG, Bags, bags, Crates, crates, Tonnes, tonnes) making any sum-by-unit report meaningless.</li>
+    <li>ProduceGrade has overlapping, inconsistently cased grade labels (Grade A, A, Premium are not the same scale, but Grade A and grade a refer to the same grade).</li>
+    <li>Quantity contains zeros and negative values that should never appear in a produce sales record.</li>
+    <li>PricePerUnit and TotalValue are stored as text with mixed currency notation.</li>
+    <li>TotalValue is missing for some rows and should be recomputable from Quantity times PricePerUnit where both are valid.</li>
+    <li>StorageFacility mixes inconsistent casing (Cold Room, COLD ROOM, cold room), the text N/A, and empty blanks.</li>
+    <li>TransportMode has inconsistent casing (Truck, truck, TRUCK).</li>
+    <li>SaleDate uses mixed date formats.</li>
+    <li>ProduceName is occasionally blank.</li>
+    <li>Certified_Organic mixes Yes/No, Y/N, 1/0, and TRUE/FALSE.</li>
+    <li>Around four percent of rows are exact duplicates from a multi-sheet paste of the same market's records.</li>
+  </ul>
+
+  <h4 class="bh">Step-by-Step Power Query Cleaning Process (Excel and Power BI)</h4>
+  <ol class="steps">
+    <li>Load the CSV and remove duplicate rows on all columns first.</li>
+    <li>Trim and Clean all text columns in one pass.</li>
+    <li>Standardise Unit: Capitalize Each Word first to collapse kg/KG and bags/Bags, then Replace Values to produce a clean four-value list (Kg, Bags, Crates, Tonnes) - note that kg is conventionally lowercase but for Power Query display purposes a consistent single choice is more important than typographic convention.</li>
+    <li>Standardise ProduceGrade: Trim, Capitalize Each Word, then build a lookup table that maps A to Grade A, B to Grade B, Premium to Grade A (if the business confirms this equivalence), and Reject to Grade C, and merge it in rather than stacking Replace Values steps.</li>
+    <li>Fix Quantity: set to Decimal Number, then filter for values less than or equal to 0 and route them to a review query named Produce_InvalidQuantity, because a zero or negative quantity sale should never have been recorded.</li>
+    <li>Clean PricePerUnit and TotalValue with the standard currency-stripping and Decimal Number conversion technique.</li>
+    <li>Add a calculated RecalcTotalValue column = [Quantity] * [PricePerUnit] where both are valid and non-null, then add a TotalValueMismatch column = if [TotalValue] is null then "Missing - recalculated" else if Number.Abs([TotalValue] - [RecalcTotalValue]) &gt; 1 then "Mismatch - review" else "OK", surfacing the discrepancies for the records team.</li>
+    <li>Fix StorageFacility: Trim, Capitalize Each Word, then Replace Values to convert N/A and blank into null, and "Cold Chain" variants into a single "Cold Room" canonical value.</li>
+    <li>Standardise TransportMode: Trim, Capitalize Each Word.</li>
+    <li>Fix SaleDate: convert to Date type and resolve errors using the standard technique.</li>
+    <li>Standardise Certified_Organic into a Logical True/False column with Replace Values before changing Data Type.</li>
+    <li>Close and load as AgriProduce_Market_Clean.</li>
+  </ol>
+</div>
+
+<div class="ds-block" id="ds15">
+  <h3><span class="ds-num">Dataset 15</span>Federal Civil Service Payroll Register</h3>
+  <div class="meta">Domain: Government and Public Sector &nbsp;|&nbsp; File: <code>15_government_payroll_records_DIRTY.csv</code></div>
+  <p class="body-text">A state auditor receives a civil service payroll register covering five ministries, compiled from individual ministry HR systems that were never migrated to a unified platform. The file is used for a payroll audit looking for ghost workers, duplicate entries, and salary grade inconsistencies.</p>
+  <div class="cols-box">Columns: StaffID, FullName, Ministry, GradeLevel, DateOfBirth, AppointmentDate, BasicSalary, HousingAllowance, TransportAllowance, TotalAllowances, Deductions, NetPay, BankAccountNo, State, PayStatus</div>
+
+  <h4 class="bh">Data Quality Issues Deliberately Built In</h4>
+  <ul class="issues">
+    <li>Ministry uses up to five different text representations for the same ministry (Ministry of Finance, ministry of finance, Min. of Finance, Finance Ministry, MOF) across the merged file.</li>
+    <li>GradeLevel has inconsistent formats for the same grade (GL-7, GL 7, Level 7, Grade Level 7, gl-7) and needs normalisation before any grade-band analysis.</li>
+    <li>BasicSalary, HousingAllowance, TransportAllowance, TotalAllowances, Deductions, and NetPay are all stored as text with mixed currency notation - the currency cleanup technique needs to be applied to six columns at once.</li>
+    <li>NetPay should equal BasicSalary + TotalAllowances - Deductions, and rows where it does not match (beyond a small rounding tolerance) are ghost-worker or calculation-error signals for the audit.</li>
+    <li>BankAccountNo is missing for some staff, which in a payroll audit context is a critical red flag rather than just a missing value.</li>
+    <li>DateOfBirth and AppointmentDate use mixed date formats.</li>
+    <li>A derived age check against DateOfBirth should flag staff who appear to be below 18 or above 60 (Nigeria's mandatory retirement age for most grades).</li>
+    <li>AppointmentDate should never be after the most recent payroll run date; rows where it is indicate a future-dated entry.</li>
+    <li>PayStatus has inconsistent casing and trailing spaces (Paid, paid, PAID, "paid ").</li>
+    <li>Around four percent of rows are duplicated from ministry files being merged without deduplication.</li>
+  </ul>
+
+  <h4 class="bh">Step-by-Step Power Query Cleaning Process (Excel and Power BI)</h4>
+  <ol class="steps">
+    <li>Load the CSV, set StaffID and BankAccountNo to Text type immediately to preserve formatting, then remove duplicate rows on all columns.</li>
+    <li>Trim and Clean all text columns in one pass - this is especially important for PayStatus, which has a "paid " trailing-space variant that Replace Values will miss if Trim is skipped.</li>
+    <li>Standardise Ministry: build a reference table mapping every dirty variant to one canonical ministry name, then Merge Queries (Left Outer join on Ministry) to bring in the canonical name. This is more maintainable than stacking 15+ Replace Values steps for five ministries with three to five variants each.</li>
+    <li>Standardise GradeLevel: Replace Values to remove "Level ", "Grade Level ", and "gl-" prefixes into the standard "GL-" format, then Capitalize Each Word to handle remaining case inconsistencies.</li>
+    <li>Clean all six salary and allowance columns in sequence - BasicSalary, HousingAllowance, TransportAllowance, TotalAllowances, Deductions, NetPay - using the same currency-stripping chain for each: Replace Values to remove naira sign, NGN, and naira, Trim, then set Data Type to Decimal Number.</li>
+    <li>Add a NetPayCheck column = [BasicSalary] + [TotalAllowances] - [Deductions], then a NetPayVariance column = Number.Abs([NetPay] - [NetPayCheck]), and flag any row where the variance exceeds 1 naira as "Calculation mismatch - audit flag".</li>
+    <li>Flag missing BankAccountNo: add a conditional column BankAccountFlag = if [BankAccountNo] = null then "CRITICAL - no bank account on record" else "OK", so the auditor's attention is drawn immediately to payroll records with no payment destination.</li>
+    <li>Fix DateOfBirth and AppointmentDate: convert both to Date type, resolve errors. Then add an Age column and flag staff younger than 18 or older than 60. Add an AppointmentCheck to flag any AppointmentDate after the report date.</li>
+    <li>Standardise PayStatus: Trim (to catch "paid "), Capitalize Each Word, then Replace Values to collapse all paid variants into "Paid".</li>
+    <li>Close and load as Payroll_Audit_Clean, keeping a companion query Payroll_AuditFlags that filters the main cleaned table for every row where at least one flag column is not "OK", as a ready-made audit exception report.</li>
+  </ol>
+</div>
+
+<div class="ds-block" id="ds16">
+  <h3><span class="ds-num">Dataset 16</span>Petrol Station Daily Fuel Sales Log</h3>
+  <div class="meta">Domain: Energy and Petroleum Retail &nbsp;|&nbsp; File: <code>16_petrol_station_fuel_sales_DIRTY.csv</code></div>
+  <p class="body-text">A petroleum products marketer exports a daily sales log from six filling stations across Lagos, Abuja, and the south-east. The log is produced by mixing a manual pump-reading register with a point-of-sale receipt system that uses different field conventions for the same data.</p>
+  <div class="cols-box">Columns: SaleID, StationName, AttendantName, FuelType, LitersDispensed, PricePerLiter, TotalSaleAmount, Date, PumpNumber, PumpStatus, PaymentMethod, CustomerVehicle, State, ManagerApproved</div>
+
+  <h4 class="bh">Data Quality Issues Deliberately Built In</h4>
+  <ul class="issues">
+    <li>FuelType uses both full product names and abbreviations inconsistently (Premium Motor Spirit (PMS), PMS, pms, Petrol; Automotive Gas Oil (AGO), AGO, ago, Diesel) creating three or four representations per product.</li>
+    <li>LitersDispensed contains negative values and zeros, which are physically impossible for a completed fuel dispensing transaction.</li>
+    <li>PricePerLiter and TotalSaleAmount are stored as text with mixed currency notation.</li>
+    <li>A validation gap exists: TotalSaleAmount should equal LitersDispensed times PricePerLiter, and rows where it does not match reveal pump-reading or receipt discrepancies.</li>
+    <li>PumpNumber contains negative values and zeros, which are physically impossible pump identifiers.</li>
+    <li>PumpStatus has inconsistent casing and trailing spaces (Functional, functional, FAULTY, "functional ") and an "Out of Stock" value that should ideally never appear on a record showing dispensed liters.</li>
+    <li>PaymentMethod and CustomerVehicle have inconsistent casing (Cash, cash, CASH; Truck, truck, TRUCK).</li>
+    <li>ManagerApproved mixes Yes/No, Y/N, 1/0, and TRUE/FALSE.</li>
+    <li>Date uses mixed date formats.</li>
+    <li>Around four percent of rows are exact duplicates from a double-export of a shift change reconciliation.</li>
+  </ul>
+
+  <h4 class="bh">Step-by-Step Power Query Cleaning Process (Excel and Power BI)</h4>
+  <ol class="steps">
+    <li>Load the CSV and remove duplicate rows on all columns first.</li>
+    <li>Trim and Clean all text columns in one pass.</li>
+    <li>Standardise FuelType: build a lookup table mapping every abbreviation and full-name variant to three canonical values (PMS, AGO, Kerosene, LPG) and merge it in, since Replace Values would require at least eight separate steps.</li>
+    <li>Fix LitersDispensed: set to Decimal Number, then filter for values less than or equal to 0 and route them to a review query named FuelSales_InvalidLiters, since a zero or negative volume sale should not have a receipt.</li>
+    <li>Fix PumpNumber: set to Whole Number, then filter for values less than 1 and route to a separate review query, since a pump numbered 0 or lower cannot exist physically.</li>
+    <li>Clean PricePerLiter and TotalSaleAmount with the standard currency-stripping and Decimal Number conversion technique.</li>
+    <li>Add a calculated ExpectedTotal column = [LitersDispensed] * [PricePerLiter] (only where LitersDispensed is positive), then a SalesVariance column = Number.Abs([TotalSaleAmount] - [ExpectedTotal]) and flag any row where variance exceeds 10 naira as "Mismatch - review", surfacing possible cashier or pump calibration issues.</li>
+    <li>Standardise PumpStatus: Trim (to catch "functional "), Capitalize Each Word, then Replace Values to produce a clean four-value list (Functional, Faulty, Under Maintenance, Out of Stock). Add a consistency check: any row where PumpStatus is "Faulty" or "Out of Stock" but LitersDispensed is greater than 0 should be flagged as a logical contradiction.</li>
+    <li>Standardise PaymentMethod and CustomerVehicle: Trim, Capitalize Each Word.</li>
+    <li>Standardise ManagerApproved into a Logical True/False column with Replace Values before changing Data Type.</li>
+    <li>Fix Date: convert to Date type and resolve errors. Add a DayOfWeek column using Date.DayOfWeekName([Date]) to support a weekend versus weekday sales pattern analysis as a closing classroom exercise.</li>
+    <li>Close and load as FuelSales_Clean.</li>
+  </ol>
+</div>
+
+<div class="ds-block" id="ds17">
+  <h3><span class="ds-num">Dataset 17</span>University Student Enrollment and Academic Records</h3>
+  <div class="meta">Domain: Higher Education &nbsp;|&nbsp; File: <code>17_university_student_enrollment_DIRTY.csv</code></div>
+  <p class="body-text">A federal university's academic registry exports a student master file covering undergraduate and postgraduate students across four faculties. The file blends records from two cohorts of data entry clerks whose conventions for matric numbers, level formats, and CGPA scales differ.</p>
+  <div class="cols-box">Columns: StudentMatric, StudentName, University, Faculty, Department, DegreeType, Level, EntryMode, DateOfBirth, EnrollmentDate, CGPA, StudentEmail, PhoneNumber, State, ScholarshipHolder</div>
+
+  <h4 class="bh">Data Quality Issues Deliberately Built In</h4>
+  <ul class="issues">
+    <li>Faculty uses inconsistent representations for the same faculty (Engineering, engineering, Faculty of Engineering, Engr; Medicine, Medical Sciences, MEDICINE).</li>
+    <li>Level has multiple formats for the same academic year (100, 100L, level 300, 400 level) that prevent a simple GROUP BY for enrolment counts by year.</li>
+    <li>EntryMode has inconsistent casing and a trailing-space variant (UTME, utme, "UTME ", Post-UTME).</li>
+    <li>DegreeType mixes official abbreviations with informal ones for the same degree (B.Sc., B.Sc, Bsc, bsc all refer to a Bachelor of Science).</li>
+    <li>CGPA uses two different grading scales in the same column - some departments use a 4.0 scale while others use a 5.0 scale - making any aggregation meaningless without a scale flag.</li>
+    <li>StudentEmail is missing for some students and is not validated for a university domain format.</li>
+    <li>DateOfBirth and EnrollmentDate use mixed date formats.</li>
+    <li>StudentMatric has no consistent format between departments - some use alphabetic prefixes, some use numeric-only formats, and capitalisation is inconsistent.</li>
+    <li>DegreeType, Faculty, and Department need to align logically (an MBBS degree should only appear in Medicine) for an effective validation rule.</li>
+    <li>ScholarshipHolder mixes Yes/No, Y/N, 1/0, and TRUE/FALSE.</li>
+    <li>Around four percent of rows are duplicate enrollment entries from a registry system migration.</li>
+  </ul>
+
+  <h4 class="bh">Step-by-Step Power Query Cleaning Process (Excel and Power BI)</h4>
+  <ol class="steps">
+    <li>Load the CSV and immediately set StudentMatric to Text type so Power Query does not attempt to parse it as a number. Remove duplicate rows on all columns.</li>
+    <li>Trim and Clean all text columns in one pass.</li>
+    <li>Standardise Faculty: build a reference lookup table (DirtyFaculty, CleanFaculty) and merge it in to produce a consistent faculty list. Trim and Capitalize first so the lookup has fewer variant rows to handle.</li>
+    <li>Standardise Level: Replace Values to strip the "L" suffix and the word "level" (case-insensitively, which requires Trim and Lowercase first), then set the column to Whole Number to produce clean numeric year values (100, 200, 300, 400, 500, 600).</li>
+    <li>Standardise EntryMode: Trim first (to catch "UTME "), then Capitalize Each Word, then Replace Values to fold utme into UTME since this is an acronym that should be uppercase.</li>
+    <li>Standardise DegreeType: Replace Values to fold Bsc, bsc, B.Sc, and B.Sc. into B.Sc. (one canonical form), and similarly for B.A., B.Eng, and other degrees, using a lookup table.</li>
+    <li>Handle the CGPA dual-scale problem: add a CGPAScale indicator column that checks if CGPA is above 4.0 and flags it as "5.0 Scale" else "4.0 Scale", making the scale explicit in the dataset before any aggregation. This is a data modelling decision that Power Query surfaces but cannot fully resolve without a business rule on which departments use which scale.</li>
+    <li>Validate StudentEmail: add an IsValidEmail column = Text.Contains([StudentEmail], "@") and not([StudentEmail] = null), flagging missing or malformed emails for the registry office.</li>
+    <li>Fix DateOfBirth and EnrollmentDate: convert both to Date type, resolve errors, and add an Age column. Flag any student under 15 or over 50 as potentially erroneous.</li>
+    <li>Standardise ScholarshipHolder into a Logical True/False column with Replace Values before changing Data Type.</li>
+    <li>Clean PhoneNumber using Text.Select to digits and + only.</li>
+    <li>Close and load as University_Enrollment_Clean.</li>
+  </ol>
+</div>
+
+<div class="ds-block" id="ds18">
+  <h3><span class="ds-num">Dataset 18</span>Electricity Distribution Company Billing Records</h3>
+  <div class="meta">Domain: Utilities and Energy &nbsp;|&nbsp; File: <code>18_electricity_utility_billing_DIRTY.csv</code></div>
+  <p class="body-text">A state electricity distribution company (DISCO) exports a monthly billing run across residential, commercial, and industrial accounts for a revenue assurance audit. Records come from three billing systems that were merged when two smaller DISCOs were consolidated, so unit formats, tariff labels, and account type terminology all clash.</p>
+  <div class="cols-box">Columns: AccountNo, CustomerName, CustomerPhone, DISCO, TariffCategory, AccountType, BillingMonth, UnitsConsumed_kWh, TariffRate_per_kWh, BillAmount, PreviousArrears, TotalAmountDue, PaymentStatus, MeterNumber, State</div>
+
+  <h4 class="bh">Data Quality Issues Deliberately Built In</h4>
+  <ul class="issues">
+    <li>TariffCategory uses both formal code names and informal descriptions for the same tariff (Residential (R1), R1, r1, Residential; Commercial (C1), C1, C1 with a trailing space, commercial).</li>
+    <li>AccountType mixes inconsistent labels for the same concept (Prepaid, prepaid, Pre-paid; Postpaid, POSTPAID, Post paid).</li>
+    <li>UnitsConsumed_kWh contains missing values and occasional outlier readings (very high values for a residential account) that need flagging.</li>
+    <li>TariffRate_per_kWh and BillAmount are stored as text with mixed currency notation.</li>
+    <li>BillAmount should equal UnitsConsumed_kWh times TariffRate_per_kWh, and discrepancies reveal billing calculation errors.</li>
+    <li>PreviousArrears is frequently blank and needs to be treated as zero in billing calculations, not as a missing data problem.</li>
+    <li>TotalAmountDue should equal BillAmount plus PreviousArrears, and rows where it does not match are revenue assurance findings.</li>
+    <li>PaymentStatus has inconsistent casing and trailing spaces (Paid, paid, UNPAID, "paid ") and an Arrears status that overlaps with Unpaid semantically.</li>
+    <li>MeterNumber is missing for some accounts, which may indicate unmetered connections - a critical revenue assurance red flag.</li>
+    <li>BillingMonth uses mixed date formats.</li>
+    <li>Around four percent of rows are duplicate billing entries from the DISCO consolidation data migration.</li>
+  </ul>
+
+  <h4 class="bh">Step-by-Step Power Query Cleaning Process (Excel and Power BI)</h4>
+  <ol class="steps">
+    <li>Load the CSV, set AccountNo and MeterNumber to Text type immediately, then remove duplicate rows on all columns.</li>
+    <li>Trim and Clean all text columns in one pass.</li>
+    <li>Standardise TariffCategory: Trim first (to catch "C1 " with trailing space), then build a lookup table mapping every variant to a clean set such as R1, R2, C1, D3 (the NERC standard codes) and merge it in.</li>
+    <li>Standardise AccountType: Trim, then Replace Values to fold Pre-paid, prepaid into Prepaid and Post paid, POSTPAID into Postpaid.</li>
+    <li>Clean TariffRate_per_kWh, BillAmount, and TotalAmountDue with the standard currency-stripping and Decimal Number conversion technique.</li>
+    <li>Handle PreviousArrears: clean the currency text, then replace any remaining null with 0 (not with a general null-replacement because in billing a missing arrears figure means zero, not unknown), using Replace Value on null after the type conversion.</li>
+    <li>Fix UnitsConsumed_kWh: set to Decimal Number, then add an outlier flag column that checks for residential accounts (TariffCategory R1 or R2) with consumption above 3000 kWh in a single month, flagging them as "High consumption - verify meter reading".</li>
+    <li>Add a calculated ExpectedBill column = [UnitsConsumed_kWh] * [TariffRate_per_kWh] and a BillVariance column to surface calculation errors. Add an ExpectedTotal column = [BillAmount] + [PreviousArrears] and compare to TotalAmountDue.</li>
+    <li>Flag missing MeterNumber: add a MeterFlag column = if [MeterNumber] = null then "CRITICAL - unmetered account" else "OK" for the revenue assurance team.</li>
+    <li>Standardise PaymentStatus: Trim (to catch "paid "), Capitalize Each Word, then Replace Values to produce a clean set (Paid, Unpaid, Partially Paid, Arrears).</li>
+    <li>Fix BillingMonth: convert to Date type, resolve errors. Note that a billing month is conventionally the first day of the month - add a BillingMonth_Start column using Date.StartOfMonth([BillingMonth]) to standardise all dates to the first of the month regardless of which day was actually captured.</li>
+    <li>Close and load as Electricity_Billing_Clean, with a companion query Revenue_Assurance_Flags filtering for every row with at least one flag column that is not "OK".</li>
+  </ol>
+</div>
+
+<div class="ds-block" id="ds19">
+  <h3><span class="ds-num">Dataset 19</span>Pharmacy Drug Inventory and Stock Records</h3>
+  <div class="meta">Domain: Pharmaceutical and Healthcare Supply &nbsp;|&nbsp; File: <code>19_pharmacy_drug_inventory_DIRTY.csv</code></div>
+  <p class="body-text">The supply chain team at a private hospital pharmacy exports its drug stock register ahead of a NAFDAC compliance audit. Records span over two years and were entered by multiple pharmacy technicians using different conventions for storage conditions, quantity units, and expiry date formats.</p>
+  <div class="cols-box">Columns: StockID, DrugName, DrugClass, SupplierName, UnitCostPrice, UnitSellingPrice, QuantityReceived, QuantityDispensed, ClosingStock, BatchNumber, ExpiryDate, ReceiptDate, StorageCondition, NafdacApproved, State</div>
+
+  <h4 class="bh">Data Quality Issues Deliberately Built In</h4>
+  <ul class="issues">
+    <li>DrugClass has inconsistent casing (Antibiotics, antibiotics, ANTIBIOTICS; Analgesics, analgesics).</li>
+    <li>QuantityReceived contains negative values and zeros, which should not appear in a goods-received register.</li>
+    <li>ClosingStock should equal QuantityReceived minus QuantityDispensed, and rows where it does not match reveal dispensing record errors or theft risk signals.</li>
+    <li>Some ClosingStock values are blank - they need to be recomputed where both source quantities are available, rather than left as null.</li>
+    <li>UnitCostPrice and UnitSellingPrice are stored as text with mixed currency notation.</li>
+    <li>A margin validation: UnitSellingPrice should always exceed UnitCostPrice; rows where it does not are pricing errors.</li>
+    <li>ExpiryDate uses mixed date formats, and some drugs have already expired (ExpiryDate before today) which is a regulatory red flag.</li>
+    <li>StorageCondition mixes inconsistent labels (Cold Chain (2-8 degrees C), COLD CHAIN, Refrigerated, Ambient Temperature, ambient, room temp) for what should be a two-value or three-value controlled vocabulary.</li>
+    <li>NafdacApproved mixes Yes/No, Y/N, 1/0, and TRUE/FALSE.</li>
+    <li>BatchNumber is missing for some records, which is a NAFDAC compliance violation.</li>
+    <li>Around four percent of rows are duplicate stock entries from a monthly backup restore that was accidentally appended to the live register.</li>
+  </ul>
+
+  <h4 class="bh">Step-by-Step Power Query Cleaning Process (Excel and Power BI)</h4>
+  <ol class="steps">
+    <li>Load the CSV, set BatchNumber and StockID to Text type, then remove duplicate rows on all columns.</li>
+    <li>Trim and Clean all text columns in one pass.</li>
+    <li>Standardise DrugClass: Capitalize Each Word. Since drug class names are standard pharmacological terms, Capitalize Each Word should resolve all casing issues without needing a lookup table.</li>
+    <li>Clean UnitCostPrice and UnitSellingPrice with the standard currency-stripping and Decimal Number conversion technique, then add a MarginCheck column = if [UnitSellingPrice] &lt;= [UnitCostPrice] then "Pricing error - selling below cost" else "OK".</li>
+    <li>Fix QuantityReceived and QuantityDispensed: set both to Whole Number, then filter for QuantityReceived less than or equal to 0 and route those rows to a review query named Pharmacy_InvalidReceipts.</li>
+    <li>Add a calculated ClosingStockCheck column = [QuantityReceived] - [QuantityDispensed] where both are not null, then compare to the original ClosingStock to flag discrepancies. Fill missing ClosingStock values from this calculated column where the calculated value is available.</li>
+    <li>Fix ExpiryDate and ReceiptDate: convert both to Date type, resolve errors. Then add an ExpiryStatus column: if [ExpiryDate] &lt; Date.From(DateTime.LocalNow()) then "EXPIRED - remove from shelf" else if [ExpiryDate] &lt; Date.From(DateTime.LocalNow()) + #duration(90,0,0,0) then "Expiring within 90 days - review" else "OK". This is the most practically valuable derived column in this dataset for a pharmacy audit.</li>
+    <li>Standardise StorageCondition: Trim, Capitalize Each Word, then build a lookup table that maps "COLD CHAIN", "Refrigerated", "Cold Chain (2-8 degrees C)" to "Cold Chain (2-8 C)" and "Ambient Temperature", "ambient", "room temp" to "Ambient Temperature", producing a three-value controlled vocabulary (Cold Chain (2-8 C), Ambient Temperature, Controlled).</li>
+    <li>Flag missing BatchNumber: add a BatchFlag column = if [BatchNumber] = null then "COMPLIANCE RISK - no batch number" else "OK".</li>
+    <li>Standardise NafdacApproved into a Logical True/False column with Replace Values before changing Data Type.</li>
+    <li>Close and load as Pharmacy_Inventory_Clean, with a companion query Pharmacy_ComplianceFlags filtering for expired drugs, pricing errors, compliance-risk flags, and invalid receipts in one combined audit view.</li>
+  </ol>
+</div>
+
+<div class="ds-block" id="ds20">
+  <h3><span class="ds-num">Dataset 20</span>Government Construction and Infrastructure Project Register</h3>
+  <div class="meta">Domain: Construction and Infrastructure &nbsp;|&nbsp; File: <code>20_construction_project_management_DIRTY.csv</code></div>
+  <p class="body-text">A federal ministry of works exports a project execution register covering road construction, bridge rehabilitation, hospital buildings, and school blocks across all 36 states. The register blends records from three procurement database systems that were never linked, so contractor names, funding sources, and status labels all have multiple representations.</p>
+  <div class="cols-box">Columns: ProjectID, ProjectName, ProjectType, ContractorName, FundingSource, ContractDate, ExpectedCompletionDate, ActualCompletionDate, ContractValue, AmountPaidToDate, PercentageCompletion, ProjectStatus, ProjectManager, State, EnvironmentalClearance</div>
+
+  <h4 class="bh">Data Quality Issues Deliberately Built In</h4>
+  <ul class="issues">
+    <li>ProjectType has overlapping labels from the three procurement systems (Road Construction versus Road; Bridge versus Bridge Rehabilitation; Hospital Building versus Hospital Block).</li>
+    <li>FundingSource has inconsistent casing (Federal Government, federal, World Bank, World bank, NGO).</li>
+    <li>ContractDate, ExpectedCompletionDate, and ActualCompletionDate all use mixed date formats. ActualCompletionDate is blank for ongoing and suspended projects, which is expected, but it is also blank for some rows marked as Completed, which is a data quality gap.</li>
+    <li>ContractValue and AmountPaidToDate are stored as text with mixed currency notation, with some values in the millions and billions making correct thousands-separator stripping critical.</li>
+    <li>AmountPaidToDate exceeds ContractValue in some rows, which is physically impossible without a contract amendment and should be flagged for the auditor.</li>
+    <li>PercentageCompletion is missing for some rows and shows 100 for some projects that are still marked as Ongoing or Suspended, which is logically contradictory.</li>
+    <li>ProjectStatus has inconsistent casing and a trailing-space variant (Completed, completed, ONGOING, "Completed ").</li>
+    <li>EnvironmentalClearance mixes Yes/No, Y/N, 1/0, and TRUE/FALSE.</li>
+    <li>Around four percent of rows are duplicate project entries from a database sync that ran twice.</li>
+  </ul>
+
+  <h4 class="bh">Step-by-Step Power Query Cleaning Process (Excel and Power BI)</h4>
+  <ol class="steps">
+    <li>Load the CSV, set ProjectID and ContractValue to Text type initially to avoid number-format misinterpretation, then remove duplicate rows on all columns.</li>
+    <li>Trim and Clean all text columns in one pass.</li>
+    <li>Standardise ProjectType: Trim, Capitalize Each Word, then build a lookup table to consolidate overlapping labels (Road, Road Construction both become Road Construction; Bridge, Bridge Rehabilitation become their correct distinct types based on ProjectName content) and merge it in.</li>
+    <li>Standardise FundingSource: Capitalize Each Word, then Replace Values to fold "federal" into "Federal Government" and "World bank" into "World Bank".</li>
+    <li>Fix ContractDate, ExpectedCompletionDate, and ActualCompletionDate: convert all three to Date type, resolve errors. Then add a CompletionDataCheck column: if [ProjectStatus] = "Completed" and [ActualCompletionDate] = null then "Missing actual completion date for completed project - audit flag" else "OK".</li>
+    <li>Clean ContractValue and AmountPaidToDate: this dataset contains billion-naira values with thousands commas embedded in the text, so the Replace Values chain must include stripping commas as well as currency symbols and words (add Text.Replace([Column], ",", "") to the chain). Then set to Decimal Number.</li>
+    <li>Add an OverpaymentCheck column = if [AmountPaidToDate] &gt; [ContractValue] then "Overpayment - audit flag" else "OK" to surface the rows where payment exceeds contract value.</li>
+    <li>Fix PercentageCompletion: set to Decimal Number, then add a ProgressConsistency column: if [PercentageCompletion] = 100 and [ProjectStatus] &lt;&gt; "Completed" then "Inconsistency - 100% but not marked Completed" else if [PercentageCompletion] = null then "Completion percentage missing" else "OK".</li>
+    <li>Standardise ProjectStatus: Trim (to catch "Completed " with trailing space), Capitalize Each Word, then Replace Values to produce a four-value canonical list (Completed, Ongoing, Suspended, Abandoned).</li>
+    <li>Standardise EnvironmentalClearance into a Logical True/False column with Replace Values before changing Data Type.</li>
+    <li>Add a ProjectDurationDays column = Duration.Days([ExpectedCompletionDate] - [ContractDate]) where both dates are valid, to support a planned versus actual duration analysis in Power BI.</li>
+    <li>Close and load as Construction_Projects_Clean, with a companion query Projects_AuditFlags that filters for every row with an overpayment flag, a completion data gap, a progress inconsistency, or a missing environmental clearance, producing a ready-made audit exception report.</li>
+  </ol>
+</div>
+
+<h2 class="sec" id="cheat">Power Query M Language Cheat Sheet</h2>
+<div class="card">
+  <p class="body-text" style="margin-bottom:14px">These M snippets cover the most frequently needed cleaning operations across all ten datasets. Paste them into a Custom Column dialog or the Advanced Editor in either Excel or Power BI Desktop.</p>
+  <table class="t code-table">
+    <tr><th style="width:40%">Task</th><th>M Code</th></tr>
+    <tr><td>Trim leading and trailing spaces</td><td>Text.Trim([Column])</td></tr>
+    <tr><td>Remove non-printable characters</td><td>Text.Clean([Column])</td></tr>
+    <tr><td>Trim and clean in one step</td><td>Text.Clean(Text.Trim([Column]))</td></tr>
+    <tr><td>Force Title Case (for names and categories)</td><td>Text.Proper([Column])</td></tr>
+    <tr><td>Force UPPERCASE (for codes and identifiers)</td><td>Text.Upper([Column])</td></tr>
+    <tr><td>Keep digits only - useful for phone numbers, IDs</td><td>Text.Select([Column], {"0".."9"})</td></tr>
+    <tr><td>Keep digits and the + prefix for international phone numbers</td><td>Text.Select([Column], {"0".."9","+"})</td></tr>
+    <tr><td>Strip a currency word or symbol from a text amount field</td><td>Text.Trim(Text.Replace(Text.Replace(Text.Replace([Column],"NGN",""),"naira",""),"₦",""))</td></tr>
+    <tr><td>Safe date parse - returns null instead of an error on bad input</td><td>try Date.FromText([Column]) otherwise null</td></tr>
+    <tr><td>Convert lbs to kg in a conditional column</td><td>if Text.Contains([Column],"lbs") then Number.From(Text.BeforeDelimiter([Column]," "))*0.4536 else Number.From([Column])</td></tr>
+    <tr><td>Flag a value outside an expected range</td><td>if [Score] &lt; 0 or [Score] &gt; 100 then "Out of Range" else "OK"</td></tr>
+    <tr><td>Safe division - avoids divide by zero errors</td><td>if [Denominator] = null or [Denominator] = 0 then null else [Numerator] / [Denominator]</td></tr>
+    <tr><td>Standardise a boolean-style column to true Logical</td><td>List.Contains({"Yes","Y","1","TRUE","true","yes"}, [Column])</td></tr>
+    <tr><td>Compute age in years from a date column</td><td>Number.RoundDown(Duration.Days(Date.From(DateTime.LocalNow()) - [DateOfBirth]) / 365.25)</td></tr>
+    <tr><td>Build a Route key combining two city columns</td><td>[OriginCity] &amp; " - " &amp; [DestinationCity]</td></tr>
+  </table>
+</div>
+
+<h2 class="sec" id="notes">Facilitator Notes</h2>
+<div class="card">
+  <ul>
+    <li style="margin-bottom:10px;font-size:0.93rem">Ask trainees to name each Applied Step as they go, not at the end. Renaming steps as you build them forces the trainee to understand what the step does and produces a self-documenting query.</li>
+    <li style="margin-bottom:10px;font-size:0.93rem">Use Column Quality (View &gt; Column Quality) and Column Distribution (View &gt; Column Distribution) at the start of each dataset lesson. The visual percentage bars instantly reveal the proportion of valid, empty, and error cells in every column without a single manual check.</li>
+    <li style="margin-bottom:10px;font-size:0.93rem">Teach the difference between removing a problem row and routing it to a review table. A Remove Rows step silently destroys data that might have been recoverable. A duplicate-and-filter approach creates a separate query holding just the flagged rows, which the business team can act on.</li>
+    <li style="margin-bottom:10px;font-size:0.93rem">Reinforce that Replace Values is case-sensitive by default. Always Trim and Capitalize (or Uppercase) a column before using Replace Values on it, otherwise a search for "Completed" will not catch "completed " (with a trailing space) or "COMPLETED".</li>
+    <li style="margin-bottom:10px;font-size:0.93rem">Use Merge Queries (Left Outer join) for multi-value category standardisation instead of stacking many Replace Values steps. A separate two-column lookup table (DirtyValue, CleanValue) joined to the main query is more maintainable and reusable across future datasets.</li>
+    <li style="margin-bottom:10px;font-size:0.93rem">Encourage trainees to count the Group By diagnostic before and after each cleaning step on a problematic column. Grouping on Ministry or FuelType before cleaning shows the full explosion of variants; grouping again after cleaning confirms the consolidation worked.</li>
+    <li style="margin-bottom:10px;font-size:0.93rem">The cheat sheet M snippets at the end of this guide can be built into a personal Power Query function library. Advanced trainees can be challenged to wrap the phone cleaning logic and the currency stripping logic into named functions that they call from any future query.</li>
+  </ul>
+</div>
+
+<div class="note">
+  All ten CSV files in this set are generated with deliberate quality problems for classroom use. Trainees should always load the raw file through Power Query and perform every cleaning step inside the Applied Steps pane - never edit the CSV directly. Every step should be renamed in plain English so the finished query is self-documenting and auditable by anyone who inherits the file.
+</div>
+
+<footer>
+  Prodigy Training Hub | Data Science and Analytics Training | Lagos, Nigeria<br>
+  Kajola Gbenga Adewale | Data Expert
+</footer>
+
+</div>
+</body>
+</html>

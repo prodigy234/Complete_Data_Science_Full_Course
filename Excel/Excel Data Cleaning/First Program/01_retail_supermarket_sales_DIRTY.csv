@@ -1,0 +1,505 @@
+TransactionID,Date,Store,ProductName,Category,Quantity,UnitPrice,TotalAmount,PaymentMethod,CustomerName,CustomerPhone,State,CashierID,DiscountApplied
+TXN1418,not set,Prodigy Mart Ikeja,Dettol Soap,personal care,-1,517.14 naira,N517,Cash,unknown,03987801573,Kano,EMP117,TRUE
+TXN1142,31 March 2025,Prodigy Mart Lekki,Rice Bag 50kg (Mama Gold),Groceries,5,"N65,982","NGN 329,912",Transfer,Zainab Nnamdi,(411) 998-6798,ABUJA,EMP134,false
+TXN1230,20-May-2025,PRODIGY MART IKEJA,indomie noodles carton,GROCERIES,2,"₦4,179.02","₦8,358.04",cash,Segun Okonkwo   ,86688263435,Oyo,EMP106,1
+TXN1340,08/09/2025,prodigy mart abuja wuse,Always Sanitary Pad,Personal Care,1,"NGN 1,019",1018.8035216173469,ATM Card,N/A,03271040541,Oyo,EMP138,0
+txn1410,2026/06/03,  prodigy mart abuja wuse,Rice Bag 50Kg (Mama Gold),Unknown,2,60610.29750995913,121220.60 naira,Mobile Money,  Amara Nnamdi,0438 057 1983,rivers,EMP105,FALSE
+TXN1445,20 January 2026,Prodigy Mart Abuja Wuse,Milo 900g,BEVERAGES,0,4381.351021591377,"N4,381",Card,Amara Eze,+234773926030,Abuja,EMP106,Y
+txn1234,29/03/2026,PRODIGY MART LEKKI,Close-Up Toothpaste,Personal Care,-1,₦637.27,N637,cash,Blessing  Abubakar,+234678544587,KANO,EMP139,false
+TXN1159,00/00/0000,  PRODIGY MART IKEJA,Hollandia Yoghurt,dairy,1,N958,957.6719744341974,ATM Card,Yusuf Adekunle,,Abuja,EMP109,0
+TXN1347,01 June 2025,  Prodigy Mart Abuja Wuse   ,Hollandia Yoghurt,DAIRY,1,852.4906596461177,,ATM Card,Chioma Okafor,0704 774 3490,Fct Abuja,EMP137,No
+TXN1146,29 March 2025,Prodigy Mart Abuja Wuse,Dangote Sugar 1kg,Groceries,10,"1,164.37 ",11643.699150145756,Bank Transfer,Chidi Ogundimu,invalid,Lagos State,EMP134,Yes
+TXN1379,2026-02-27,Prodigy Mart Surulere,  Close-Up Toothpaste   ,Personal Care,0,₦633.22,633.2169180941024,Cash,Tobi Balogun,08985625753,Oyo State,EMP128,no
+TXN1432,2025/01/08,PRODIGY MART YABA,golden penny spaghetti,Groceries,1,967.5108875505288,967.5108875505288,Transfer,Musa Suleiman,0759 492 9955,rivers,EMP101,N
+TXN1277,03/22/2025,Prodigy Mart Yaba,HOLLANDIA YOGHURT,dairy,1,₦816.26,₦816.26,POS,  Wale Ajayi   ,234-887-676-772,Fct Abuja,EMP101,1
+TXN1253,05/01/2025,Prodigy Mart Ikeja,Rice Bag 50kg (Mama Gold),Groceries,unknown,68691.75929394628,"₦137,383.52",ATM Card,  Segun Eze,0861 015 8199,ABUJA,EMP109,1
+TXN1433,2026/04/22,Prodigy Mart Lekki,Close-Up Toothpaste,PERSONAL CARE,2,NGN 646,1292.0459917640787,Mobile Money,Emeka Suleiman,+234053364525,Fct Abuja,EMP113,Y
+TXN1371,2025/10/17,Prodigy Mart Lekki,Maggi Cubes Pack,GROCERIES,0,371.41913839638073,NGN 371,Cash,  Ibrahim Mohammed,+234353465549,Port Harcourt,EMP126,1
+TXN1381,23.01.2025,prodigy mart abuja wuse,Kings Vegetable Oil 5L,COOKING OIL,2,"N8,367",16733.59 naira,ATM Card,  Aliyu Lawal,0506 489 0901,oyo,EMP133,yes
+TXN1148,06-Feb-2025,Prodigy Mart Ikeja   ,Power Oil 1L,?,0,"N2,079",2079.10 naira,cash,Sadiq Olawale,0281 685 0542,Oyo,EMP131,0
+TXN1312,27.04.2025,Prodigy Mart Yaba,coca-cola crate,Beverages,10,3645.05 naira,36450.52 naira,cash,Kemi Lawal,(060) 385-0506,Abuja,EMP140,No
+TXN1422,18-Jan-2025,Prodigy Mart Ikeja   ,Bournvita 500g,Beverages,1,2919.66 naira,2919.6575083493817,pos,Kunle Adeyemi,03861207501,LAGOS,EMP108,false
+TXN1443,05.01.2026,prodigy mart ikeja   ,Peak Milk Tin,DAIRY,-1,1345.48 naira,"N1,345",ATM Card,Femi Mohammed,07908272318,ABUJA,EMP100,TRUE
+TXN1331,08/07/2025,Prodigy Mart Yaba,Dettol Soap,Personal Care,5,₦450.08,"NGN 2,250",Bank Transfer,Zainab Okonkwo,234-270-103-930,Lagos,EMP126,true
+TXN1009,2025-06-09,Prodigy Mart Lekki,Always Sanitary Pad,PERSONAL CARE,1,"₦1,066.31","₦1,066.31",cash,Blessing Suleiman,+234139537672,Oyo State,EMP137,TRUE
+TXN1200,2025/07/06,prodigy mart surulere,Dangote Sugar 1kg,groceries,10,"NGN 1,039",  ,POS,Chinedu Okafor   ,85786527858,Oyo,EMP119,FALSE
+TXN1166,14.08.2025,prodigy mart yaba,Dangote Sugar 1kg,Groceries,10,"NGN 1,154","₦11,536.19",Bank Transfer,Segun Suleiman,05415667652,oyo,EMP101,0
+TXN1290,2026/06/24,Prodigy Mart Surulere,Close-Up Toothpaste,Personal Care,5,600.61 naira,3003.03 naira,--,Ngozi Bello,05206436110,Lagos,EMP121,FALSE
+TXN1181,2026-06-10,PRODIGY MART IKEJA,Bournvita 500g,beverages,1,"NGN 2,543","2,542.95 ",cash,Segun Chukwu,04249818299,Oyo,EMP133,N
+TXN1338,N/A,prodigy mart abuja wuse,Kings Vegetable Oil 5L,Cooking Oil,1,"₦8,940.83","₦8,940.83",Mobile Money,Segun Bello,0433 154 1006,Lagos,EMP104,no
+TXN1189,29-Jan-2025,Prodigy Mart Abuja Wuse,OMO DETERGENT 1KG,NIL,1,"₦1,406.24","₦1,406.24",cash,Ifeoma Afolabi,+234395004797,ABUJA,EMP107,TRUE
+TXN1401,2025-07-16,Prodigy Mart Surulere,Bournvita 500g,Beverages,3,"N3,201","N9,602",Card,Amara Nnamdi,02726149331,Port Harcourt,EMP123,N
+TXN1336,13/06/2025,Prodigy Mart Ikeja,Dangote Sugar 1kg,Groceries,0,1220.4157489247343,"1,220.42 ",Cash,Chioma Adeyemi,06902959391,LAGOS,EMP137,No
+TXN1453,15-Mar-2026,Prodigy Mart Yaba,  Power Oil 1L,COOKING OIL,1,"2,148.73 ","N2,149",pos,Bola  Bello,05991624731,rivers,EMP104,TRUE
+TXN1450,14.06.2025,PRODIGY MART SURULERE,Maggi Cubes Pack,GROCERIES,5,₦395.77,"NGN 1,979",Transfer,n/a,01038862912,Ibadan,EMP107,N
+TXN1462,08/24/2025,Prodigy Mart Lekki,kings vegetable oil 5l,Cooking Oil,2,8441.57014644314,"NGN 16,883",cash,Halima Ajayi,30988392053,Fct Abuja,EMP118,true
+TXN1465,07/10/2025,Prodigy Mart Lekki,Bournvita 500g,Beverages,0,"N2,979","N2,979",Card,Ngozi Nwosu,(937) 690-4268,FCT,EMP117,1
+TXN1170,15-Mar-2026,prodigy mart abuja wuse,Maggi Cubes Pack,unknown,10,339.43 naira,"NGN 3,394",POS,Emeka Balogun   ,234-582-029-702,Abuja,EMP105,Yes
+TXN1187,2025-03-19,prodigy mart ikeja,Bournvita 500g,Beverages,10,"NGN 2,965",29648.11 naira,Bank Transfer,Kunle Balogun,+234696325953,KANO,EMP132,0
+TXN1121,2026/02/15,PRODIGY  MART IKEJA   ,Coca-Cola Crate   ,--,1,3051.57 naira,"NGN 3,052",Cash,Amaka Okonkwo,234-896-118-367,ABUJA,EMP132,TRUE
+TXN1083,07-Feb-2026,prodigy mart surulere   ,DETTOL SOAP,personal care,2,500.73 naira,"₦1,001.46",cash,NULL,0139 904 9027,Oyo State,EMP116,Y
+TXN1036,2026/02/15,prodigy mart surulere   ,Milo 900g,BEVERAGES,1,4035.4822985638702,"₦4,035.48",cash,Musa Mohammed,(262) 045-0533,Oyo State,EMP140,no
+txn1252,08.05.2025,Prodigy Mart Ikeja,Maggi Cubes Pack,Groceries,-1,374.95 naira,N375,Transfer,Ifeoma Nnamdi,07541212678,Kano,EMP123,No
+TXN1152,not set,PRODIGY MART SURULERE,dettol soap,personal care,1,482.2933872074928,482.29 naira,Mobile Money,Ngozi Yusuf,08347359774,Abuja,EMP106,1
+TXN1101,17-Jun-2026,Prodigy Mart Ikeja,Dettol Soap,personal care,5,479.44 naira,"N2,397",ATM Card,Chinedu Okafor,04821759464,Oyo,EMP116,true
+TXN1471,11/01/2026,Prodigy Mart Ikeja,Indomie  Noodles Carton   ,Groceries,0,4267.86 naira,"NGN 4,268",pos,Bisi Mohammed   ,04333395211,Abuja,EMP103,1
+TXN1011,04/17/2026,PRODIGY MART LEKKI,Maggi Cubes Pack,groceries,2,332.4626226272533,₦664.93,cash,  Kemi Adeyemi,(287) 101-2269,Lag,EMP112,yes
+TXN1303,22.05.2026,Prodigy Mart Abuja Wuse,Always Sanitary Pad,Personal Care,2,NGN 917,1833.2818813085653,Cash,Unknown,(990) 421-0202,LAGOS,EMP136,no
+TXN1077,2025/01/09,Prodigy Mart Lekki,Kings Vegetable Oil 5L,COOKING OIL,1,"N8,777",n/a,Card,Bola Nwosu,96499091334,rivers,EMP125,yes
+TXN1091,2025-09-29,prodigy mart yaba,  dettol soap,PERSONAL CARE,5,457.98125095682883,"2,289.91 ",Mobile Money,Femi Lawal,09821465840,Oyo,EMP133,FALSE
+TXN1467,02/06/2025,Prodigy Mart Lekki,Pampers Pack (Medium),BABY CARE,-1,"N6,245",6244.919194000483,Mobile Money,Sadiq Okeke,76973577907,oyo,EMP140,TRUE
+TXN1394,not set,prodigy mart surulere,Always Sanitary Pad,Personal Care,10,-,,ATM Card,Chioma Suleiman,37562890028,Kano,EMP124,Yes
+TXN1413,09-Mar-2025,Prodigy  Mart Yaba,Omo Detergent 1kg,HOUSEHOLD,1,1583.65 naira,"N1,584",Bank Transfer,Emeka Yusuf,03472122816,Lagos,EMP109,TRUE
+TXN1190,2025-04-03,Prodigy Mart Surulere,Hollandia Yoghurt,dairy,-1,NGN 867,866.66 ,Cash,Segun Eze,+234016245650,Rivers State,EMP119,Yes
+TXN1463,2025/05/13,Prodigy  Mart Lekki,Milo 900g,BEVERAGES,1,"N4,564","N4,564",cash,Adaeze Bello,+234214656693,Oyo,EMP134,Y
+TXN1177,11 March 2026,PRODIGY MART ABUJA WUSE,Dettol Soap,PERSONAL CARE,1,₦495.64,Unknown,ATM Card,Bisi Mohammed,234-829-114-678,Ibadan,EMP114,Yes
+TXN1345,2026/04/25,prodigy mart surulere   ,power oil 1l   ,Cooking Oil,--,1986.6735152055714,"NGN 3,973",Mobile Money,Amara Olawale,(310) 324-1714,Abuja,EMP105,FALSE
+TXN1439,2025/05/18,PRODIGY MART SURULERE   ,Coca-Cola Crate,Beverages,2,3145.240983518926,"NGN 6,290",Transfer,Bola Eze,09275037314,Oyo,EMP115,FALSE
+TXN1272,30.04.2026,prodigy  mart yaba   ,peak milk tin,Dairy,3,"₦1,316.87","NGN 3,951",cash,Segun Afolabi,47859696915,Oyo,EMP135,FALSE
+TXN1473,2025/11/12,prodigy mart surulere,BEANS BAG 1 PAINT,GROCERIES,5,3931.4122163763986,"₦19,657.06",Cash,Chidi Afolabi   ,+234728463920,Kano,EMP134,Yes
+TXN1469,2025/04/28,PRODIGY MART LEKKI,Bournvita 500g,Beverages,0,"₦2,869.91","N2,870",POS,  Chioma Eze,04341651827,Rivers,EMP133,0
+TXN1251,29-Dec-2025,Prodigy Mart Abuja Wuse,Power Oil 1L,Cooking Oil,1,"₦2,120.45",2120.4540043158777,POS,Adaeze Balogun,0426 265 5110,Oyo,EMP108,0
+TXN1434,29/03/2026,Prodigy Mart Surulere,   OMO DETERGENT 1KG,-,1,1544.2331497030953,"₦1,544.23",Card,  ,(775) 478-1291,Lagos,EMP122,no
+TXN1061,N/A,Prodigy Mart Ikeja,Pampers Pack (Medium),baby care,2,"NGN 6,629","N13,258",cash,Halima Lawal,+234299124190,Rivers,EMP136,N
+TXN1074,2025/10/15,prodigy mart surulere,Peak Milk Tin,DAIRY,0,1185.2446436858493,"₦1,185.24",Transfer,Zainab Olawale,234-775-204-711,Kano,EMP140,No
+TXN1215,01-Apr-2026,prodigy mart abuja wuse,Golden Penny Spaghetti,GROCERIES,-1,NGN 862,N862,cash,Emeka  Nwosu,(279) 568-7833,Fct Abuja,EMP107,yes
+TXN1221,2025-09-02,prodigy mart yaba,  OMO DETERGENT 1KG,Household,10,"₦1,583.97","₦15,839.70",cash,Funmilayo Suleiman,22656766182,Abuja,EMP121,N
+TXN1419,not set,Prodigy Mart Lekki,Pampers Pack (Medium),baby care,5,"N5,877",,Bank Transfer,Grace Nwosu   ,93056164840,Rivers,EMP126,Y
+TXN1158,23.03.2025,   Prodigy Mart Surulere,Beans Bag 1 Paint   ,Groceries,1,"NGN 3,658",3657.74 naira,Mobile Money,Amara Olawale,invalid,Ibadan,EMP137,Y
+TXN1261,21-Mar-2026,Prodigy Mart Lekki,Close-Up Toothpaste,PERSONAL CARE,1,657.4840846855567,₦657.48,Transfer,Emeka Ogundimu,07416724342,Ibadan,EMP101,No
+TXN1447,01-May-2025,PRODIGY MART SURULERE,Beans Bag 1 Paint,Groceries,5,"₦3,926.37","N19,632",pos,  Bola Abubakar,+234869904137,Abuja,EMP120,FALSE
+TXN1346,15.07.2025,Prodigy Mart Surulere,POWER OIL 1L,Cooking Oil,0,2231.34 naira,"N2,231",NULL,Funmilayo Afolabi,77418625652,Abuja,EMP136,no
+TXN1010,12.11.2025,Prodigy Mart Ikeja,Kings Vegetable Oil 5L,Cooking Oil,5,"₦7,920.82","39,604.11 ",Transfer,Chinedu Okonkwo,+234388496965,Rivers,EMP124,Yes
+TXN1281,2026-03-08,PRODIGY MART LEKKI,GOLDEN PENNY SPAGHETTI,Groceries,0,"1,067.01 ",--,Cash,nil,234-171-339-596,Rivers State,EMP125,No
+TXN1019,2025-12-19,prodigy mart yaba   ,Hollandia Yoghurt,Dairy,3,916.48 naira,"₦2,749.45",Card,,30103105183,Abuja,EMP131,No
+TXN1188,2026/06/13,prodigy mart yaba,Pampers Pack (Medium),Baby Care,1,"NGN 7,281","NGN 7,281",cash,Aliyu Olawale,234-877-470-168,ABUJA,EMP115,1
+TXN1172,2025-03-10,Prodigy Mart Lekki,Beans Bag 1 Paint,Groceries,3,"NGN 3,303",9910.08 naira,Bank Transfer,Bola Chukwu,71928565431,Oyo,EMP128,FALSE
+TXN1292,11 May 2026,Prodigy Mart Surulere,Peak Milk Tin,DAIRY,1,1169.98 naira,"N1,170",ATM Card,Kemi Bello,234-271-361-115,kano,EMP100,FALSE
+TXN1287,14 January 2025,Prodigy Mart Abuja Wuse,Maggi Cubes Pack,GROCERIES,2,346.88 naira,₦693.75,Bank Transfer,Kemi Suleiman,63745458929,Rivers,EMP125,FALSE
+TXN1402,16/04/2026,PRODIGY MART SURULERE,Close-Up Toothpaste,Personal Care,10,701.52 naira,7015.192355885754,ATM Card,Obinna Afolabi   ,06373516091,Lagos,EMP117,No
+TXN1385,27 November 2025,prodigy mart yaba,Dettol Soap,Personal Care,1,470.98 ,,cash,  Bisi Okeke,08356420873,ABUJA,EMP110,false
+TXN1055,2025-04-26,PRODIGY MART LEKKI,Power Oil 1L,cooking oil,2,NULL,,Bank Transfer,  ,+234668893734,Lagos,EMP129,yes
+TXN1005,05/09/2025,Prodigy Mart Surulere,Maggi Cubes Pack,Groceries,1,N401,NULL,Card,Chinedu  Okeke,07816184959,Lagos,EMP104,TRUE
+TXN1299,2025/07/04,  Prodigy Mart Lekki,Golden Penny Spaghetti,GROCERIES,1,885.0950249035435,885.0950249035435,ATM Card,Segun Suleiman,(271) 091-0430,Lagos State,EMP139,0
+TXN1275,13/04/2025,Prodigy Mart Surulere,Dangote Sugar 1kg,Groceries,10,1196.2345117831592,11962.345117831592,Mobile Money,Ifeoma Adekunle,0000000000,lagos,EMP123,TRUE
+TXN1179,20.03.2025,Prodigy Mart Ikeja,Peak Milk Tin,Dairy,2,"NGN 1,167","NGN 2,335",Unknown,Ibrahim Chukwu,(892) 268-0182,Abuja,EMP135,FALSE
+TXN1404,unknown date,Prodigy Mart Yaba,OMO DETERGENT 1KG,household,10,1578.60 naira,nil,Mobile Money,Chinedu Lawal,07829221699,Oyo,EMP124,Y
+TXN1330,04/03/2026,PRODIGY MART ABUJA WUSE,  Always Sanitary Pad   ,Personal Care,1,N925,924.6444253233096,Mobile Money,Adaeze Balogun   ,05905992937,Kano,EMP105,no
+TXN1430,03/28/2026,PRODIGY MART SURULERE,Golden Penny Spaghetti,Groceries,1,"₦1,016.73","N1,017",POS,NIL,+234781414139,Lagos,EMP131,N
+TXN1113,02/08/2026,prodigy mart surulere,Peak Milk Tin   ,nil,1,Unknown,"N1,252",cash,Chidi Okeke,(506) 431-7139,Lagos,EMP120,0
+TXN1192,07/12/2025,Prodigy Mart Lekki,Maggi Cubes Pack,Groceries,,N379,3794.82 naira,NULL,Grace Yusuf   ,84991216558,Abuja,EMP126,no
+TXN1296,22-May-2025,  Prodigy Mart Ikeja,KNORR SEASONING   ,groceries,3,NGN 376,"₦1,127.60",cash,Amara Nwosu,89994043898,Lagos,EMP116,true
+TXN1271,18.04.2025,prodigy mart ikeja,Omo Detergent 1kg   ,HOUSEHOLD,-1,1352.98 naira,"₦1,352.98",pos,n/a,+234191825537,Abuja,EMP138,1
+TXN1286,03/13/2025,Prodigy Mart Ikeja   ,Dettol Soap,PERSONAL CARE,-,424.1511645760399,NGN 848,,Amara Yusuf,234-590-175-186,Rivers State,EMP134,yes
+TXN1416,06/11/2025,PRODIGY  MART SURULERE   ,Dangote Sugar 1kg,groceries,-1,"N1,191",1190.579625268351,pos,Amaka Olawale,51583281826,abuja,EMP116,1
+TXN1040,05.04.2026,Prodigy Mart Yaba,La Casera Drink,BEVERAGES,2,380.83 ,761.67 naira,pos,Tunde Nnamdi,+234586850142,Kano,EMP128,no
+TXN1429,10.11.2025,Prodigy Mart Surulere,Bournvita 500g,beverages,1,-,2595.9263650539015,Mobile Money,Emeka  Afolabi   ,0222 394 3129,Lagos State,EMP134,false
+txn1066,2025-04-20,  PRODIGY MART SURULERE,Kings Vegetable Oil 5L,Unknown,5,"N8,323","NGN 41,615",cash,Bisi Balogun,37996507527,kano,EMP119,yes
+TXN1375,2025/07/06,prodigy mart abuja wuse   ,Hollandia Yoghurt,Dairy,3,"N1,019",3058.385972213985,POS,  Kunle Lawal,+234743292712,Oyo,EMP131,no
+txn1414,06/05/2025,Prodigy Mart Surulere,  Milo 900g,BEVERAGES,10,"N4,721","₦47,214.10",Transfer,  Amaka Lawal,234-484-229-405,ABUJA,EMP116,Y
+TXN1182,05 January 2025,prodigy mart yaba,bournvita 500g,BEVERAGES,2,"₦2,640.24",5280.482847856912,cash,Adaeze Balogun   ,0299 590 0109,Abuja,EMP118,1
+TXN1225,21.12.2025,  Prodigy Mart Abuja Wuse,Indomie Noodles Carton,Groceries,2,"NGN 4,367","N8,734",Mobile Money,Chidi Ogundimu   ,0079 030 6738,ABUJA,EMP101,no
+TXN1255,14.02.2026,PRODIGY MART YABA,KINGS VEGETABLE OIL 5L   ,Cooking Oil,unknown,"NGN 9,246",27738.198153473462,Card,Chidi Nnamdi,62244472126,KANO,EMP106,false
+TXN1438,02/04/2026,Prodigy Mart Surulere,Golden Penny Spaghetti,GROCERIES,10,1062.442995698638,10624.43 naira,cash,Kemi Yusuf,N/A,Lag,EMP132,TRUE
+TXN1060,21.01.2026,prodigy mart lekki,Milo 900g,Beverages,5,"NGN 3,937","N19,683",ATM Card,Bola Suleiman,00923271937,Abuja,EMP137,false
+TXN1176,19.07.2025,  PRODIGY MART SURULERE,Golden Penny Spaghetti,Groceries,3,N868,"₦2,604.21",pos,Zainab Afolabi,(313) 237-0589,Lagos State,EMP126,0
+TXN1069,2026/01/04,PRODIGY MART IKEJA,Milo 900g,Beverages,-1,nil,"₦3,818.60",cash,Chidi Nnamdi,43634957885,Oyo,EMP109,no
+TXN1097,not set,prodigy mart lekki,Maggi Cubes Pack,Groceries,2,337.70 naira,675.399597724598,Mobile Money,Yusuf Olawale,234-913-431-611,Rivers State,EMP129,No
+TXN1256,2025-06-02,Prodigy  Mart Lekki,Knorr Seasoning,groceries,0,N359,NGN 359,cash,  ,+234647154379,Rivers,EMP127,Y
+TXN1144,unknown date,prodigy mart yaba,Kings Vegetable Oil 5L,Cooking Oil,1,8060.677137641835,"8,060.68 ",pos,Chidi Okeke,0518 203 7788,Kano,EMP102,N
+TXN1208,07/17/2025,  Prodigy Mart Yaba   ,Omo Detergent 1Kg,Household,1,1472.94 naira,1472.94 naira,ATM Card,  Aliyu Okonkwo   ,(067) 240-0499,Lagos,EMP129,0
+TXN1090,18/06/2025,prodigy mart surulere,Indomie Noodles Carton,groceries,5,"₦5,110.25","25,551.24 ",,Aliyu Balogun,N/A,Rivers,EMP130,No
+TXN1342,07/07/2025,Prodigy Mart Surulere,Power Oil 1L,Cooking Oil,3,"N2,225",6674.665686241986,Bank Transfer,Kemi Nwosu,234-629-620-153,Rivers,EMP120,0
+TXN1451,2025-11-22,PRODIGY MART YABA   ,  milo 900g,beverages,2,4646.43 naira,"₦9,292.85",cash,Adaeze Nwosu,+234908811729,Kano,EMP131,true
+TXN1119,01 May 2025,Prodigy Mart Abuja Wuse,Peak Milk Tin,Unknown,-1,nil,"N1,231",POS,Kemi  Lawal,234-661-771-159,Abuja,EMP136,TRUE
+TXN1044,2026/01/12,PRODIGY MART YABA,COCA-COLA CRATE,Beverages,10,"₦3,433.65","NGN 34,337",Bank Transfer,  Kunle Adeyemi,06482366299,Abuja,EMP128,Yes
+TXN1062,04-Mar-2026,Prodigy Mart Abuja Wuse,Kings Vegetable Oil 5L,COOKING OIL,1,8204.14498355826,8204.14498355826,Cash,Amaka Balogun,+234663193149,Lagos,EMP100,N
+TXN1441,2025/01/14,prodigy mart yaba,Kings Vegetable Oil 5L,?,0,"NGN 8,763","NGN 8,763",Cash,Musa Balogun,234-844-989-266,ABUJA,EMP130,no
+TXN1400,2025-12-16,Prodigy Mart Yaba,Always Sanitary Pad,Personal Care,5,N922,"₦4,608.49",ATM Card,Femi Nnamdi   ,(113) 055-4885,Oyo State,EMP115,FALSE
+TXN1213,02/21/2026,prodigy mart lekki,Pampers Pack (Medium)   ,Baby Care,1,"₦6,345.00",6345.00 naira,cash,Chioma Chukwu,(990) 453-0174,Oyo,EMP125,false
+TXN1300,2025/05/21,prodigy mart abuja wuse,Always Sanitary Pad,Personal Care,1,₦903.34,₦903.34,cash,--,06848666188,abuja,EMP127,TRUE
+TXN1383,11/17/2025,prodigy mart abuja wuse,Hollandia Yoghurt,--,10,1010.3753364411323,"₦10,103.75",Cash,Emeka Okafor,234-461-849-926,Kano,EMP138,TRUE
+TXN1132,08/05/2026,Prodigy  Mart Lekki,Pampers Pack (Medium),Baby Care,-1,6048.4799572202055,"N6,048",Transfer,Bola Nwosu   ,84036900343,lagos,EMP134,No
+TXN1393,18.01.2026,prodigy mart yaba,Dangote Sugar 1kg,nil,3,1191.2600420417555,3573.780126125266,cash,Chioma  Yusuf,,rivers,EMP104,No
+TXN1007,05/08/2026,PRODIGY MART YABA,Omo Detergent 1kg,Household,1,"₦1,502.41","₦1,502.41",?,Obinna  Nnamdi,02553419283,oyo,EMP125,No
+TXN1351,2025/04/18,prodigy mart surulere,Close-Up Toothpaste,Personal Care,2,729.12 naira,"N1,458",Cash,  ,N/A,Abuja,EMP136,0
+TXN1118,10-Aug-2025,prodigy mart lekki   ,Indomie Noodles Carton,Groceries,2,"N5,116","N10,231",POS,  Chioma Mohammed,+234783908470,Ibadan,EMP139,FALSE
+TXN1367,2025/04/12,PRODIGY MART SURULERE,Beans Bag 1 Paint,GROCERIES,1,"3,946.83 ",3946.8293386525024,pos,Chioma Adeyemi,54544432830,Oyo,EMP140,yes
+TXN1238,22-Jul-2025,Prodigy Mart Abuja Wuse   ,Beans Bag 1 Paint,groceries,1,"N3,766","3,766.04 ",Transfer,   Bola Bello   ,05228728080,Lagos,EMP137,Yes
+TXN1421,30 March 2025,PRODIGY MART ABUJA WUSE,indomie noodles carton   ,Groceries,0,"N4,955",4954.922252264618,POS,Chidi Nwosu,234-128-801-336,Rivers,EMP102,0
+TXN1020,2026-05-06,  PRODIGY MART YABA,Indomie Noodles Carton,GROCERIES,0,"₦4,369.88","N4,370",Bank Transfer,Kunle Ajayi,0473 829 9737,Rivers,EMP103,FALSE
+TXN1186,02/26/2026,Prodigy Mart Surulere   ,MILO 900G,Beverages,3,"N4,822",--,pos,  Kunle Lawal,234-537-147-321,Abuja,EMP123,1
+TXN1043,2025/06/29,Prodigy Mart Yaba   ,   peak milk tin,Dairy,3,1243.80 naira,3731.412370686922,Card,Sadiq Adeyemi,61595148465,Kano,EMP124,no
+TXN1361,04.06.2026,prodigy mart abuja wuse,Kings Vegetable Oil 5L,cooking oil,1,9734.65 naira,"N9,735",POS,Yusuf  Okafor,+234103579727,Lagos,EMP104,false
+TXN1408,2026/05/17,Prodigy Mart Yaba,Dettol Soap,Personal Care,10,NGN 465,"₦4,645.00",ATM Card,--,234-996-846-081,Port Harcourt,EMP112,Yes
+TXN1417,09 December 2025,Prodigy Mart Abuja Wuse,GOLDEN PENNY SPAGHETTI,groceries,10,n/a,"N10,629",Mobile Money,Chioma Nnamdi,08861533555,Kano,EMP137,TRUE
+TXN1115,19 February 2026,Prodigy Mart Surulere,knorr seasoning,Groceries,1,419.20 naira,419.20 ,Transfer,Ngozi Ogundimu,35290422842,Kano,EMP102,N
+TXN1337,12/14/2025,PRODIGY MART SURULERE   ,coca-cola crate,Beverages,3,"N3,210","₦9,630.94",-,Amara Chukwu,25135521570,Kano,EMP109,false
+TXN1338,N/A,prodigy mart abuja wuse,Kings Vegetable Oil 5L,Cooking Oil,1,"₦8,940.83","₦8,940.83",Mobile Money,Segun Bello,0433 154 1006,Lagos,EMP104,no
+TXN1235,09/05/2026,Prodigy Mart Surulere,Milo  900G,BEVERAGES,1,"₦4,640.58",,Mobile Money,Segun Lawal,234-753-556-093,Oyo,EMP107,1
+TXN1391,03/22/2026,  prodigy mart ikeja,Peak Milk Tin,dairy,0,1330.62 naira,"N1,331",Bank Transfer,Chioma Chukwu,0169 797 2965,Ibadan,EMP105,FALSE
+TXN1182,05 January 2025,prodigy mart yaba,bournvita 500g,BEVERAGES,2,"₦2,640.24",5280.482847856912,cash,Adaeze Balogun   ,0299 590 0109,Abuja,EMP118,1
+TXN1164,2026/01/03,prodigy mart ikeja,Maggi Cubes Pack,groceries,1,364.6338399822943,NGN 365,POS,  Segun Lawal,72217043030,Ibadan,EMP104,TRUE
+TXN1051,03 November 2025,Prodigy Mart Yaba,Rice Bag 50kg (Mama Gold),Groceries,1,61890.79611193049,"₦61,890.80",ATM Card,Grace Okeke,(727) 743-4873,KANO,EMP115,Yes
+TXN1363,2025/12/06,Prodigy Mart Yaba,indomie noodles carton,GROCERIES,10,"NGN 4,870","₦48,697.51",ATM Card,-,09333346800,Oyo State,EMP124,yes
+TXN1464,2025-03-31,Prodigy Mart Yaba,MAGGI  CUBES PACK,nil,5,360.3846137917756,"N1,802",Card,Chioma Adeyemi,00118489554,Kano,EMP112,0
+TXN1124,10/03/2025,Prodigy Mart Yaba,Beans Bag 1 Paint,  ,2,"₦3,932.53",7865.053442522861,pos,Obinna Okeke,+234988516560,Ibadan,EMP130,TRUE
+TXN1373,01/25/2025,Prodigy Mart Surulere,Milo 900g,Beverages,1,"NGN 4,770",4770.359244235823,ATM Card,N/A,01684602235,Lagos,EMP120,no
+TXN1236,2026-03-23,Prodigy  Mart Abuja Wuse,Hollandia Yoghurt,dairy,  ,N854,853.70 naira,Transfer,Musa  Okeke,0048 996 4235,Kano,EMP105,TRUE
+TXN1470,08-Aug-2025,  prodigy mart surulere,Omo Detergent 1kg,household,2,1697.0561195806804,"₦3,394.11",Cash,  ,+234539423733,Abuja,EMP124,Y
+TXN1329,2026-04-07,  Prodigy Mart Abuja Wuse,Always Sanitary Pad,,1,998.363561233075,998.36 ,ATM Card,?,234-039-652-239,kano,EMP101,TRUE
+TXN1435,06/01/2026,  Prodigy Mart Ikeja,Close-Up Toothpaste,personal care,1,NGN 714,,Bank Transfer,  Adaeze Ajayi,02834110809,Rivers,EMP117,TRUE
+TXN1233,05/08/2025,  PRODIGY MART ABUJA WUSE,Indomie Noodles Carton,Groceries,0,"NGN 4,904","₦4,903.81",Bank Transfer,Ibrahim Okafor,33173936385,Abuja,EMP114,FALSE
+TXN1348,13-Jun-2026,prodigy mart abuja wuse,Golden Penny Spaghetti,GROCERIES,1,-,975.34 ,Bank Transfer,Grace Yusuf,01158693806,Rivers,EMP120,Yes
+TXN1016,06-Jul-2025,prodigy mart surulere,Milo  900g,Beverages,1,,"₦4,690.19",Cash,Emeka Mohammed   ,234-171-822-782,Abuja,EMP107,Y
+TXN1167,02-Apr-2025,Prodigy Mart Yaba,Golden Penny Spaghetti   ,Groceries,1,856.7156987831783,₦856.72,Card,Halima Eze,77584161692,abuja,EMP107,Y
+TXN1370,2025/08/19,PRODIGY MART YABA,KINGS VEGETABLE OIL 5L,COOKING OIL,NIL,"₦8,724.39","NGN 17,449",Transfer,   Tobi Nwosu   ,+234824172482,Lagos,EMP104,Yes
+TXN1448,07/16/2025,Prodigy Mart Abuja Wuse,RICE BAG 50KG (MAMA GOLD),GROCERIES,1,"NGN 59,705","₦59,704.92",Cash,Bisi Bello   ,07723692929,Lagos,EMP124,TRUE
+TXN1349,10-Jan-2025,PRODIGY MART IKEJA,Kings Vegetable Oil 5L,Cooking Oil,2,"₦8,026.89","₦16,053.77",NULL,Ibrahim Bello,234-879-374-160,Lagos,EMP102,false
+TXN1263,2025/10/21,Prodigy Mart Ikeja,MILO 900G,n/a,5,3934.75 naira,"N19,674",Transfer,Tobi Yusuf,234-589-113-529,Rivers,EMP104,Yes
+TXN1397,04/02/2025,PRODIGY MART IKEJA,Pampers Pack (Medium),baby care,1,"₦6,530.26","₦6,530.26",Card,Femi Chukwu,07751701660,oyo,EMP109,yes
+TXN1440,18/05/2025,Prodigy Mart Yaba,Golden Penny Spaghetti,Groceries,2,NGN 972,1943.98 naira,Bank Transfer,Chidi Nnamdi   ,03038567700,Ibadan,EMP107,TRUE
+TXN1268,15/02/2025,PRODIGY MART SURULERE,Omo Detergent 1kg,Household,2,"NGN 1,382","N2,764",pos,  Chidi Nnamdi,(140) 105-1238,lagos,EMP129,No
+TXN1072,2026/01/28,Prodigy Mart Lekki   ,MILO 900G   ,Beverages,0,3924.76 naira,3924.76 naira,ATM Card,  Bola Okeke,+234134352408,Kano,EMP131,TRUE
+TXN1461,2025/10/14,Prodigy Mart Surulere,Milo 900g,Beverages,10,"4,345.86 ","43,458.61 ",cash,Ngozi Yusuf,234-490-277-038,Lagos,EMP102,Yes
+TXN1021,28 September 2025,PRODIGY MART IKEJA,dangote  sugar 1kg,groceries,2,"N1,162","₦2,324.03",POS,Grace  Mohammed,31165667010,Oyo,EMP128,No
+TXN1027,2025-05-27,Prodigy Mart Ikeja,La Casera Drink,Beverages,2,358.5458845821957,NGN 717,pos,  ,02081219136,Oyo,EMP118,N
+TXN1427,16.09.2025,Prodigy Mart Ikeja,maggi cubes pack,unknown,2,N353,N707,cash,NULL,0245 088 2100,Abuja,EMP135,TRUE
+TXN1100,17.05.2026,PRODIGY MART YABA,  Kings Vegetable Oil 5L,cooking oil,3,"N9,767","₦29,300.39",POS,Chinedu Adeyemi,+234792374740,Abuja,EMP140,Yes
+TXN1018,02/10/2025,Prodigy Mart Surulere,PAMPERS PACK (MEDIUM),Baby Care,10,6605.419878906076,"₦66,054.20",Card,Chidi Afolabi,07133150983,Lagos State,EMP115,yes
+TXN1157,05/28/2025,PRODIGY MART IKEJA,Indomie Noodles Carton,Groceries,1,4779.44 naira,"NGN 4,779",Card,Musa Okafor,(047) 277-9010,Oyo,EMP136,0
+TXN1362,29.01.2025,Prodigy Mart Lekki,Always Sanitary Pad,personal care,0,Unknown,N915,Cash,--,85524140602,ABUJA,EMP111,Y
+TXN1194,2025-07-28,Prodigy Mart Surulere,Maggi Cubes Pack,null,1,334.64 naira,N335,ATM Card,Obinna Mohammed,0578 729 8259,Oyo,EMP135,Yes
+TXN1103,25 March 2026,Prodigy Mart Ikeja,Milo  900G,  ,0,4286.808593067363,"NGN 4,287",pos,  Zainab Ajayi,0406 409 0974,Abuja,EMP135,FALSE
+TXN1242,26.01.2026,Prodigy  Mart Yaba   ,Rice Bag 50kg (Mama Gold),groceries,5,"N69,908",,Cash,Fatima Bello,(182) 339-8454,Oyo,EMP106,1
+TXN1122,N/A,Prodigy Mart Ikeja,Omo Detergent 1kg,Household,0,"₦1,413.56","1,413.56 ",pos,Amaka Adekunle,N/A,Kano,EMP135,No
+TXN1169,03/23/2026,prodigy mart yaba,  hollandia yoghurt,DAIRY,10,822.2263550785183,"NGN 8,222",Transfer,Grace Ajayi,(275) 705-9640,Kano,EMP113,FALSE
+TXN1123,30 April 2025,prodigy mart abuja wuse,knorr seasoning,Groceries,2,NGN 374,NGN 749,Card,Aliyu Chukwu   ,27111161528,rivers,EMP130,no
+TXN1403,2025/04/09,  PRODIGY MART ABUJA WUSE,pampers pack (medium),Baby Care,-1,"₦6,286.17",6286.173220776475,Transfer,NIL,234-982-708-086,Kano,EMP126,N
+TXN1479,24.10.2025,Prodigy Mart Ikeja,Pampers Pack (Medium),Baby Care,-1,6867.19 naira,6867.19 naira,Cash,Adaeze Okafor   ,+234702672885,Abuja,EMP119,FALSE
+TXN1311,2025-08-02,prodigy mart abuja wuse,Milo 900g,BEVERAGES,1,"NGN 4,295",4295.225709495127,Bank Transfer,Femi Lawal,0493 759 7383,KANO,EMP127,No
+TXN1076,2025-10-08,PRODIGY MART LEKKI,   DETTOL SOAP,Personal Care,1,₦503.37,₦503.37,Bank Transfer,-,+234699938677,Kano,EMP108,true
+TXN1039,07.01.2026,PRODIGY MART YABA,Milo 900g,Beverages,-1,4159.92 naira,"4,159.92 ",Transfer,Ngozi Okonkwo,07543303654,KANO,EMP115,0
+TXN1045,11 January 2026,Prodigy Mart Lekki,Kings Vegetable Oil 5L,Cooking Oil,1,"NGN 8,151",8151.490183393248,ATM Card,  Wale Suleiman,68044369957,Kano,EMP104,0
+TXN1031,29/05/2025,PRODIGY MART IKEJA,  kings vegetable oil 5l,COOKING OIL,0,"N7,656","NGN 7,656",Cash,Wale  Nnamdi,0251 354 2784,Lagos State,EMP104,No
+TXN1279,10/05/2025,Prodigy Mart Surulere,Kings Vegetable Oil 5L,Cooking Oil,2,"₦7,827.32","N15,655",Transfer,Chidi Lawal,09788191485,oyo,EMP136,no
+TXN1247,01/05/2025,Prodigy Mart Abuja Wuse   ,Dangote Sugar 1kg,GROCERIES,2,"₦1,255.56","NGN 2,511",Mobile Money,Tobi Okafor   ,(614) 293-9685,kano,EMP120,TRUE
+TXN1289,05 October 2025,  prodigy mart ikeja,Pampers Pack (Medium),baby care,1,7399.73853856143,"₦7,399.74",Bank Transfer,  Funmilayo Okeke,234-632-424-154,Lagos State,EMP134,Y
+TXN1173,2026-04-14,PRODIGY MART IKEJA,Beans Bag 1 Paint,Groceries,1,3314.809384609873,"NGN 3,315",ATM Card,Chinedu Yusuf   ,234-278-681-447,Kano,EMP120,0
+TXN1178,29-Apr-2026,Prodigy Mart Lekki,  Indomie Noodles Carton,Groceries,1,4345.51 naira,"₦4,345.51",Mobile Money,Chinedu Adekunle   ,+234912517785,Lagos State,EMP140,no
+TXN1003,2025/11/19,  PRODIGY MART YABA,Always Sanitary Pad,Personal Care,1,unknown,₦905.11,POS,Yusuf Afolabi,(637) 940-2654,Lagos,EMP107,true
+TXN1199,18-Aug-2025,Prodigy Mart Abuja Wuse,Knorr Seasoning,Groceries,3,434.4608201089118,"NGN 1,303",Cash,Wale Adeyemi,234-636-897-028,Rivers,EMP132,Yes
+TXN1293,04/01/2026,Prodigy Mart Yaba   ,Dettol Soap,Personal Care,1,477.57 naira,₦477.57,Transfer,Chidi Okeke,234-262-218-909,KANO,EMP130,1
+TXN1089,03.08.2025,  Prodigy Mart Ikeja,Rice Bag 50Kg (Mama Gold),Groceries,10,55976.63211458022,559766.32 naira,Cash,Funmilayo Adekunle   ,(086) 131-7127,Lag,EMP130,false
+TXN1219,27/01/2025,PRODIGY MART IKEJA,La Casera Drink,BEVERAGES,1,344.72 naira,₦344.72,Transfer,Adaeze Mohammed,(087) 406-4039,FCT,EMP138,no
+TXN1266,03/20/2025,  Prodigy Mart Lekki,Beans  Bag 1 Paint,  ,nil,"₦3,219.12","NGN 3,219",Bank Transfer,Ifeoma Ogundimu,0507 146 1125,Abuja,EMP133,1
+TXN1086,23.11.2025,PRODIGY MART SURULERE,Close-Up Toothpaste,Personal Care,2,NGN 614,NULL,Bank Transfer,Amaka Okonkwo,01545168087,Rivers,EMP136,Y
+TXN1162,14 May 2025,Prodigy Mart Lekki,Dangote Sugar 1kg,Groceries,1,1225.52 naira,1225.521226683919,pos,Bisi Balogun   ,234-670-654-051,Fct Abuja,EMP112,FALSE
+TXN1102,10/31/2025,Prodigy Mart Ikeja,Omo Detergent 1kg   ,Household,10,NIL,"17,207.50 ",Transfer,Chioma Ogundimu,+234367136959,Lagos,EMP110,No
+TXN1028,14.07.2025,Prodigy Mart Lekki,La Casera Drink   ,Beverages,3,334.16 naira,1002.49 naira,cash,Kemi Lawal,09399091699,Abuja,EMP114,true
+TXN1250,16/10/2025,prodigy mart lekki,Maggi Cubes Pack,Groceries,1,361.28 naira,NGN 361,Mobile Money,  Tobi Mohammed,234-629-619-431,Abuja,EMP126,false
+TXN1344,2025/02/17,prodigy  mart yaba,hollandia yoghurt,Dairy,10,1024.210207339413,"10,242.10 ",cash,Femi Balogun,234-720-506-149,Lagos,EMP120,no
+TXN1354,06/19/2026,PRODIGY MART SURULERE,Close-Up Toothpaste,Personal Care,2,648.34 naira,"1,296.68 ",Card,null,0191 485 6467,Lagos,EMP137,true
+TXN1087,20/05/2026,prodigy  mart ikeja,Hollandia Yoghurt,dairy,2,998.2567891650006,"₦1,996.51",Transfer,Sadiq Nnamdi,00385977034,rivers,EMP110,false
+TXN1108,05/30/2025,PRODIGY MART ABUJA WUSE   ,Coca-Cola Crate,Beverages,2,"NGN 3,427",6853.424525863658,cash,Adaeze Bello,08175496513,Port Harcourt,EMP114,true
+txn1468,02/11/2025,Prodigy Mart Yaba,CLOSE-UP TOOTHPASTE,Personal Care,1,₦714.79,N715,pos,Bola Yusuf,+234416335658,Lagos,EMP130,No
+TXN1048,07 June 2025,Prodigy  Mart Surulere,Coca-Cola Crate,Beverages,0,"N3,633",nil,Bank Transfer,Bola Adeyemi,17693676320,Rivers,EMP122,1
+TXN1374,2025-11-11,Prodigy Mart Abuja Wuse,Bournvita 500g,BEVERAGES,1,"N3,191","N3,191",cash,Ifeoma Nwosu,+234725217525,kano,EMP110,Yes
+TXN1318,03/03/2026,Prodigy Mart Surulere   ,Knorr Seasoning   ,Groceries,NULL,NGN 343,"3,429.33 ",cash,Bisi Bello,04741124903,FCT,EMP136,No
+TXN1365,2025/06/08,Prodigy Mart Abuja Wuse,  coca-cola crate,,1,3278.120839555023,3278.120839555023,POS,Bola Olawale,57437489691,abuja,EMP128,N
+TXN1098,14.03.2025,Prodigy Mart Yaba,Maggi Cubes Pack,groceries,1,NIL,₦390.81,pos,Yusuf Olawale   ,+234400504556,Kano,EMP105,Y
+TXN1104,10.06.2025,PRODIGY MART LEKKI,peak milk tin,Dairy,1,"1,273.02 ","₦1,273.02",ATM Card,Chinedu Eze   ,(953) 394-2104,Rivers,EMP135,N
+TXN1446,17/03/2026,  Prodigy Mart Yaba,Omo Detergent 1kg,Household,2,"N1,643","NGN 3,285",Mobile Money,Chidi Nwosu,+234922809202,Oyo,EMP118,Yes
+TXN1067,22/03/2026,prodigy mart surulere,MAGGI CUBES PACK,Groceries,1,NGN 321,320.54 ,Transfer,Musa Abubakar,35454948083,Kano,EMP115,no
+TXN1332,unknown date,PRODIGY MART LEKKI,Kings Vegetable Oil 5L,Cooking Oil,2,-,"16,434.98 ",Transfer,Chidi Lawal,,Kano,EMP122,No
+TXN1371,2025/10/17,Prodigy Mart Lekki,Maggi Cubes Pack,GROCERIES,0,371.41913839638073,NGN 371,Cash,  Ibrahim Mohammed,+234353465549,Port Harcourt,EMP126,1
+TXN1063,not set,PRODIGY MART YABA,Knorr Seasoning,n/a,10,N377,"NGN 3,775",Bank Transfer,Chioma Ogundimu,90586518506,Lagos State,EMP124,TRUE
+TXN1399,28.02.2026,Prodigy Mart Surulere   ,COCA-COLA CRATE,Beverages,2,3381.55 naira,6763.11 naira,Bank Transfer,?,,oyo,EMP102,no
+TXN1240,26.11.2025,Prodigy Mart Surulere,Bournvita 500g,beverages,1,3210.33 naira,"N3,210",POS,Ibrahim Ajayi   ,(509) 977-0088,Lagos,EMP119,true
+TXN1231,01/05/2025,Prodigy  Mart Surulere   ,Dettol Soap   ,PERSONAL CARE,10,410.8967163212456,,Mobile Money,Funmilayo Olawale,01751830469,FCT,EMP120,Y
+TXN1156,07/06/2026,Prodigy Mart Surulere   ,Beans Bag 1 Paint,GROCERIES,--,3659.8861055977964,"NGN 3,660",Bank Transfer,Aliyu Suleiman,234-615-305-152,KANO,EMP108,Y
+TXN1207,16/11/2025,Prodigy Mart Ikeja,Bournvita 500G,beverages,1,2878.170124785975,2878.17 naira,Cash,Emeka Okeke,234-401-938-026,rivers,EMP124,TRUE
+TXN1130,03.09.2025,prodigy mart surulere,Omo Detergent 1kg,HOUSEHOLD,2,"N1,380","N2,759",Card,Ngozi Adeyemi   ,0229 014 7679,lagos,EMP100,0
+TXN1431,31/05/2026,Prodigy Mart Yaba,Milo 900g,BEVERAGES,3,"₦3,885.10","11,655.29 ",Card,NIL,55231491357,Rivers,EMP127,Y
+TXN1343,04-Mar-2026,  Prodigy Mart Surulere,Dettol Soap,personal care,5,468.37 ,,Bank Transfer,Funmilayo Suleiman,06884443106,LAGOS,EMP130,false
+txn1304,2025-10-17,Prodigy Mart Surulere,MILO 900G,Beverages,1,"NGN 4,454",4453.981378583602,pos,  Chioma Okeke,05884252410,Abuja,EMP136,true
+TXN1466,04/20/2026,prodigy mart yaba,Dangote Sugar 1kg,GROCERIES,10,"1,189.32 ","₦11,893.16",Transfer,Yusuf Adeyemi,81845184894,LAGOS,EMP108,FALSE
+TXN1115,19 February 2026,Prodigy Mart Surulere,knorr seasoning,Groceries,1,419.20 naira,419.20 ,Transfer,Ngozi Ogundimu,35290422842,Kano,EMP102,N
+TXN1472,05/06/2026,Prodigy  Mart Abuja Wuse,Dangote Sugar 1kg   ,Groceries,3,"NGN 1,159","₦3,476.76",Cash,   Zainab Yusuf   ,0790 807 5957,Oyo,EMP140,0
+TXN1201,09/02/2026,  PRODIGY MART LEKKI,La Casera Drink,Beverages,3,375.43 naira,"₦1,126.30",Transfer,Chidi Ogundimu,(549) 733-4843,Kano,EMP106,true
+TXN1335,23 February 2026,Prodigy Mart Yaba   ,La Casera Drink,beverages,-1,NIL,₦402.40,Card,Ibrahim Balogun,+234392644220,Abuja,EMP132,true
+TXN1147,03 May 2026,prodigy mart ikeja,La Casera Drink,BEVERAGES,10,₦335.81,"N3,358",cash,  Bola Adeyemi,25462914865,Oyo,EMP135,Y
+TXN1008,10 February 2025,prodigy mart abuja wuse,HOLLANDIA YOGHURT,?,2,NULL,"₦1,880.51",pos,Ifeoma Nwosu,76483503056,Oyo State,EMP106,Y
+TXN1229,2025/06/11,Prodigy Mart Ikeja,Peak Milk Tin,Dairy,2,"₦1,345.66","NGN 2,691",ATM Card,  Fatima Nnamdi   ,234-628-733-427,Kano,EMP125,Yes
+TXN1138,not set,PRODIGY  MART ABUJA WUSE,La Casera Drink,beverages,1,370.47 naira,NGN 370,Bank Transfer,Funmilayo Balogun,0188 355 2312,Abuja,EMP130,TRUE
+TXN1088,28 June 2025,prodigy mart surulere,Milo 900g,BEVERAGES,10,nil,"₦44,616.39",pos,Musa Nwosu   ,234-477-109-324,Rivers,EMP140,false
+TXN1449,2025/03/24,PRODIGY MART SURULERE,Peak Milk Tin,Dairy,0,"₦1,274.49",1274.49 naira,cash,Adaeze Ogundimu,+234257991366,Rivers,EMP131,false
+TXN1194,2025-07-28,Prodigy Mart Surulere,Maggi Cubes Pack,null,1,334.64 naira,N335,ATM Card,Obinna Mohammed,0578 729 8259,Oyo,EMP135,Yes
+TXN1126,03-Jun-2025,Prodigy Mart Lekki,Close-Up Toothpaste,personal care,2,NGN 609,"₦1,217.40",cash,Grace Eze,234-851-493-689,Rivers,EMP122,true
+TXN1344,2025/02/17,prodigy  mart yaba,hollandia yoghurt,Dairy,10,1024.210207339413,"10,242.10 ",cash,Femi Balogun,234-720-506-149,Lagos,EMP120,no
+TXN1222,17.01.2026,Prodigy Mart Abuja Wuse   ,Dettol Soap,Personal Care,10,NGN 432,,Card,Ibrahim Mohammed   ,(512) 868-2300,Kano,EMP130,true
+TXN1109,21-Jul-2025,  Prodigy Mart Lekki,BEANS BAG 1 PAINT,unknown,0,"₦3,628.29","NGN 3,628",Cash,Grace Ajayi,09859317461,Rivers,EMP111,TRUE
+TXN1081,12.09.2025,   Prodigy Mart Ikeja,  Pampers Pack (Medium),Baby Care,5,"₦6,214.84","NGN 31,074",cash,Ibrahim Ajayi,49947174648,Oyo,EMP115,Y
+TXN1080,03/10/2025,Prodigy Mart Surulere   ,Beans Bag 1 Paint,GROCERIES,1,3806.05 naira,"NGN 3,806",cash,,0361 832 4210,rivers,EMP111,Yes
+TXN1239,08.01.2025,Prodigy Mart Surulere,Dangote Sugar 1kg,Groceries,2,"NGN 1,134","₦2,267.28",ATM Card,  Chioma Mohammed   ,+234062312038,Port Harcourt,EMP132,1
+TXN1250,16/10/2025,prodigy mart lekki,Maggi Cubes Pack,Groceries,1,361.28 naira,NGN 361,Mobile Money,  Tobi Mohammed,234-629-619-431,Abuja,EMP126,false
+TXN1210,16.05.2025,   Prodigy Mart Yaba,Rice Bag 50kg (Mama Gold),Groceries,5,"NGN 63,166",,ATM Card,Grace Balogun,(152) 742-0549,Lagos,EMP105,N
+TXN1269,25 May 2025,Prodigy Mart Abuja Wuse,GOLDEN PENNY SPAGHETTI,GROCERIES,2,"NGN 1,065","N2,130",Transfer,Obinna Eze   ,08258673622,kano,EMP110,yes
+TXN1042,14 April 2026,PRODIGY MART ABUJA WUSE,Dangote Sugar 1kg,GROCERIES,1,1055.57 naira,1055.5708634514513,Bank Transfer,Adaeze  Bello,69340608835,Lagos,EMP121,Y
+TXN1068,07 February 2026,PRODIGY MART ABUJA WUSE   ,Close-Up Toothpaste,personal care,2,₦717.68,1435.3607175156965,ATM Card,Ibrahim Nwosu,(136) 783-7770,Kano,EMP134,TRUE
+TXN1112,2025/01/07,PRODIGY MART ABUJA WUSE,Indomie Noodles Carton,groceries,n/a,4807.46 naira,"NGN 24,037",Mobile Money,Grace Mohammed,04053773515,Oyo,EMP109,No
+TXN1284,19-Apr-2025,Prodigy Mart Abuja Wuse,power oil 1l,Cooking Oil,1,,2335.10 naira,pos,  Wale Suleiman,04223253672,Kano,EMP103,true
+TXN1409,2025/05/31,Prodigy  Mart Lekki,Bournvita 500G,Beverages,5,"₦3,062.55",15312.752202410906,cash,null,(620) 034-2442,Ibadan,EMP104,no
+TXN1267,27 February 2025,Prodigy Mart Abuja Wuse,Kings Vegetable Oil 5L,Cooking Oil,2,"N8,501","₦17,001.71",POS,?,invalid,Abuja,EMP140,Yes
+TXN1106,04/07/2026,PRODIGY MART YABA,Hollandia Yoghurt,Dairy,1,N984,983.73 ,POS,Musa Ajayi,+234588424745,Rivers State,EMP118,0
+TXN1327,21/01/2026,PRODIGY MART YABA   ,Close-Up Toothpaste,Personal Care,2,NGN 733,1466.67 naira,Cash,Musa Okonkwo,0856 420 5930,Lagos,EMP108,0
+TXN1111,08.01.2025,Prodigy Mart Lekki   ,Golden Penny Spaghetti,Groceries,1,894.756267188205,894.76 naira,N/A,Adaeze Okonkwo,0758 692 6179,Kano,EMP127,no
+TXN1223,2026-02-02,Prodigy Mart Yaba,La Casera Drink,Beverages,1,NULL,NGN 330,Bank Transfer,Wale Chukwu   ,+234868633752,Oyo State,EMP127,0
+TXN1368,11.01.2025,Prodigy Mart Lekki,Bournvita 500g,Beverages,2,2806.44 naira,"NGN 5,613",cash,Zainab Bello,0965 207 4466,Abuja,EMP135,0
+TXN1259,2026-01-29,PRODIGY MART LEKKI,Coca-Cola Crate,Beverages,10,3480.58 naira,"NGN 34,806",cash,   Yusuf Nwosu,+234654793564,Rivers,EMP103,true
+TXN1329,2026-04-07,  Prodigy Mart Abuja Wuse,Always Sanitary Pad,,1,998.363561233075,998.36 ,ATM Card,?,234-039-652-239,kano,EMP101,TRUE
+TXN1151,30.03.2025,prodigy mart surulere   ,Rice Bag 50kg (Mama Gold),Groceries,unknown,-,60008.209957294006,Mobile Money,Funmilayo Mohammed   ,+234706537947,Lag,EMP107,Yes
+TXN1025,2025-12-07,Prodigy Mart Lekki,power oil 1l,Cooking Oil,-1,"₦2,144.28","₦2,144.28",pos,   Sadiq Ogundimu,+234474687234,LAGOS,EMP121,FALSE
+TXN1092,04/05/2026,PRODIGY MART LEKKI,La Casera Drink,Beverages,1,325.52466404110044,NGN 326,Bank Transfer,Sadiq  Adekunle,0499 727 8755,lagos,EMP136,FALSE
+TXN1129,14/11/2025,prodigy  mart yaba,Hollandia Yoghurt,Dairy,5,927.78 naira,4638.89 naira,ATM Card,Bisi Afolabi,(675) 254-5991,Kano,EMP124,1
+TXN1153,03.07.2025,Prodigy Mart Yaba,Peak Milk Tin,Dairy,1,1207.94 naira,"1,207.94 ",ATM Card,Ibrahim Ogundimu,234-862-392-407,KANO,EMP121,no
+TXN1411,02/12/2025,Prodigy Mart Yaba,Close-Up Toothpaste,personal care,N/A,₦649.09,,ATM Card,  ,234-384-066-658,Oyo,EMP123,0
+TXN1382,12/05/2025,prodigy mart yaba,Rice Bag 50kg (Mama Gold),Groceries,3,68310.43 naira,"NGN 204,931",pos,Ifeoma Mohammed,(016) 761-8472,Abuja,EMP115,0
+TXN1013,2025/12/10,prodigy mart surulere   ,  Golden Penny Spaghetti,GROCERIES,2,NGN 977,"₦1,954.84",POS,Emeka Okonkwo,05146270482,kano,EMP133,TRUE
+TXN1356,2025/04/18,Prodigy Mart Surulere,  maggi cubes pack,Groceries,5,NGN 352,"1,759.48 ",ATM Card,Amaka Okeke,(653) 074-5054,Lagos,EMP107,N
+TXN1004,15/12/2025,Prodigy Mart Surulere,Pampers Pack (Medium),Baby Care,2,"NGN 7,099",14197.945881136697,Cash,  Obinna Okafor,+234511615594,Oyo,EMP105,false
+TXN1249,2026-06-08,prodigy mart yaba,Bournvita 500g,Beverages,3,"₦2,914.55",8743.648528757452,Transfer,  Emeka Adekunle,09965047735,Abuja,EMP119,FALSE
+TXN1195,28.04.2026,Prodigy Mart Abuja Wuse   ,Peak Milk Tin   ,DAIRY,3,1359.32 naira,4077.96 naira,POS,   Halima Afolabi   ,234-694-958-887,Rivers,EMP118,yes
+TXN1029,2026-02-09,Prodigy Mart Surulere,CLOSE-UP TOOTHPASTE,unknown,-1,NGN 644,₦644.44,Cash,  Obinna Eze,54353462475,oyo,EMP126,true
+TXN1191,2025-02-25,prodigy mart abuja wuse,La Casera Drink,Beverages,1,₦388.63,388.62888457031437,cash,Amaka Nwosu,09835841687,Kano,EMP117,No
+TXN1298,N/A,Prodigy  Mart Abuja Wuse,maggi cubes pack   ,Groceries,2,N383,NGN 767,pos,Adaeze Nwosu,(180) 552-6965,Oyo,EMP115,Yes
+TXN1307,2025/12/11,PRODIGY MART IKEJA,Dettol Soap,Personal Care,1,442.89093299553144,442.89093299553144,Mobile Money,Ifeoma Okafor,(800) 030-7562,Oyo,EMP114,yes
+TXN1264,04-Feb-2026,PRODIGY MART IKEJA,KINGS VEGETABLE OIL 5L,Cooking Oil,1,"N8,331",8330.544007115312,Bank Transfer,Obinna Suleiman,0965 610 1438,Oyo,EMP114,false
+TXN1052,03/28/2026,Prodigy Mart Yaba,Hollandia Yoghurt,Dairy,1,--,₦852.93,Mobile Money,Segun Adekunle,234-143-455-812,Rivers,EMP131,no
+TXN1358,27.09.2025,Prodigy Mart Abuja Wuse,  Power Oil 1L,Cooking Oil,1,"NGN 2,060","₦2,060.37",Bank Transfer,Obinna Okonkwo,0137 367 8508,Rivers,EMP110,no
+TXN1211,24 February 2025,PRODIGY  MART IKEJA,La Casera Drink,beverages,-1,365.47 naira,N365,Bank Transfer,Obinna  Okafor,02966851612,Lagos,EMP134,Y
+TXN1322,2025/11/21,Prodigy Mart Surulere,La Casera Drink,BEVERAGES,1,344.10818642572633,344.11 naira,cash,Zainab Nnamdi,(013) 721-5107,Port Harcourt,EMP136,false
+TXN1306,2026-02-22,  prodigy mart surulere,Kings Vegetable Oil 5L,Cooking Oil,-1,8170.505851320569,8170.51 naira,POS,   Adaeze Afolabi,0079 252 4191,kano,EMP135,N
+TXN1477,08/03/2025,prodigy mart yaba,KNORR  SEASONING,Groceries,10,₦402.69,"₦4,026.94",Mobile Money,Musa Yusuf,invalid,Abuja,EMP108,Yes
+TXN1107,2026-06-09,Prodigy Mart Abuja Wuse,Kings Vegetable Oil 5L,Cooking Oil,1,"₦8,527.08",8527.08 naira,Bank Transfer,Ifeoma Suleiman,N/A,Lagos,EMP112,yes
+TXN1425,06.01.2025,Prodigy Mart Lekki,Knorr Seasoning   ,Groceries,2,N436,872.0329010449572,cash,Obinna Okafor,+234158144914,oyo,EMP108,false
+TXN1392,03.01.2026,Prodigy Mart Lekki,always sanitary pad,Personal Care,1,934.04 ,934.04 ,POS,Femi Adeyemi,02771670145,Abuja,EMP121,0
+TXN1324,30 December 2025,Prodigy Mart Yaba,Power Oil 1L,COOKING OIL,2,1938.52 naira,"N3,877",cash,Zainab Nnamdi,+234447209993,Kano,EMP133,true
+TXN1442,02/22/2026,  Prodigy Mart Abuja Wuse,INDOMIE NOODLES CARTON   ,Groceries,0,-,4206.705360681462,pos,Wale Bello,91846386557,Abuja,EMP102,N
+TXN1032,2025/05/10,prodigy mart surulere,  Rice Bag 50kg (Mama Gold),Groceries,0,unknown,58099.174297735655,pos,N/A,08084124118,Rivers,EMP135,Yes
+TXN1326,2026/06/09,PRODIGY MART ABUJA WUSE,Close-Up Toothpaste,Personal Care,0,₦589.64,N/A,Transfer,  Fatima Afolabi,0838 065 7875,Fct Abuja,EMP135,true
+TXN1341,17-Mar-2026,Prodigy Mart Lekki,Dettol Soap,Personal Care,0,NGN 406,NGN 406,Mobile Money,Unknown,+234262181599,Fct Abuja,EMP119,No
+TXN1243,11/20/2025,  Prodigy Mart Yaba,Indomie Noodles Carton,-,-1,NIL,"N5,009",Card,  Zainab Bello,+234567933410,Lagos,EMP111,0
+TXN1037,29/03/2026,Prodigy  Mart Surulere,Kings Vegetable Oil 5L,COOKING OIL,10,"N7,795",77951.08 naira,Mobile Money,Chidi Adeyemi,+234869232260,LAGOS,EMP105,TRUE
+TXN1059,not set,prodigy mart surulere,Peak Milk Tin,Dairy,5,1211.688843446238,"NGN 6,058",Mobile Money,Ifeoma Okonkwo,70805310033,Kano,EMP120,false
+TXN1180,27.04.2025,Prodigy Mart Lekki,Knorr Seasoning,Groceries,-1,NGN 410,₦409.69,POS,Sadiq Mohammed,02253584143,Lagos State,EMP127,Yes
+TXN1395,2025/04/05,Prodigy Mart Ikeja,maggi cubes pack,n/a,1,N357,,Mobile Money,Halima Okonkwo,07721753540,Rivers,EMP133,0
+TXN1346,15.07.2025,Prodigy Mart Surulere,POWER OIL 1L,Cooking Oil,0,2231.34 naira,"N2,231",NULL,Funmilayo Afolabi,77418625652,Abuja,EMP136,no
+TXN1127,28 June 2025,Prodigy Mart Yaba   ,La Casera Drink,Beverages,2,-,NGN 731,cash,Musa Bello,0809 402 4455,Kano,EMP108,false
+TXN1384,05/04/2025,Prodigy Mart Abuja Wuse,Bournvita 500g,BEVERAGES,2,"₦3,190.41",6380.8159739762,POS,Bisi Mohammed,234-914-117-393,KANO,EMP138,0
+TXN1245,14/03/2026,Prodigy Mart Surulere   ,Kings Vegetable Oil 5L,Cooking Oil,5,9669.60 naira,,Card,Ibrahim Ajayi,59180339740,Lagos,EMP124,yes
+TXN1030,14-Oct-2025,  Prodigy Mart Lekki,Dangote Sugar 1kg,groceries,10,"₦1,159.30",11593.04 naira,Card,  Musa Okafor,(107) 991-1838,Abuja,EMP114,no
+TXN1093,2025-04-14,prodigy mart yaba,Hollandia Yoghurt,dairy,1,"₦1,018.11","NGN 1,018",nil,NULL,86753396360,Kano,EMP120,yes
+TXN1070,03/02/2026,prodigy mart surulere,Indomie Noodles Carton,Groceries,10,"N4,168","₦41,676.18",Card,Femi Okonkwo,+234855744431,KANO,EMP139,N
+TXN1378,25/03/2025,Prodigy  Mart Yaba   ,Kings Vegetable Oil 5L,Cooking Oil,2,"N9,601","₦19,201.51",Transfer,Bola Okonkwo,01689421044,LAGOS,EMP114,Y
+TXN1057,12/02/2025,Prodigy  Mart Abuja Wuse,Hollandia Yoghurt,null,-1,843.7167858110432,₦843.72,pos,--,+234990162720,kano,EMP128,1
+TXN1026,25-Jan-2026,  PRODIGY MART ABUJA WUSE,Close-Up Toothpaste,Personal Care,1,N723,723.41 naira,cash,Adaeze Olawale,(098) 050-0978,Abuja,EMP139,1
+TXN1161,2025/09/19,Prodigy Mart Lekki,Always Sanitary Pad,PERSONAL CARE,2,"1,045.55 ",,POS,?,(621) 851-8888,Abuja,EMP140,No
+TXN1134,03/06/2025,Prodigy Mart Abuja Wuse,   la casera drink,Beverages,N/A,343.06 naira,N686,Bank Transfer,Halima Ajayi,+234388516060,Kano,EMP105,0
+TXN1302,10/15/2025,prodigy mart abuja wuse   ,omo  detergent 1kg,household,1,"1,690.39 ","₦1,690.39",Cash,Segun Lawal,(914) 630-3161,Oyo,EMP128,Y
+TXN1398,2025/03/03,  Prodigy Mart Surulere,Kings Vegetable Oil 5L,Cooking Oil,5,7673.79 naira,"₦38,368.93",Bank Transfer,Grace Suleiman   ,08019948837,Kano,EMP104,FALSE
+TXN1334,2026/01/07,Prodigy Mart Surulere,Milo 900g,beverages,0,"4,072.82 ","₦4,072.82",pos,Grace Okonkwo   ,+234452267528,Lagos,EMP108,FALSE
+TXN1047,03/17/2025,Prodigy Mart Abuja Wuse,Golden Penny Spaghetti,GROCERIES,1,"₦1,085.94",1085.9401862345194,pos,Halima Yusuf,234-343-320-037,Oyo,EMP132,true
+TXN1325,27/11/2025,Prodigy  Mart Surulere,coca-cola crate   ,beverages,10,"₦2,991.85",29918.52 naira,Bank Transfer,Obinna Nwosu,+234687014626,Ibadan,EMP117,FALSE
+TXN1407,03.07.2025,prodigy mart ikeja,Power Oil 1L,Cooking Oil,-1,2289.45 naira,"NGN 2,289",pos,Kemi Ogundimu,09452288515,Lagos,EMP108,Yes
+TXN1196,23.03.2026,Prodigy Mart Lekki,LA CASERA DRINK,Beverages,2,360.24 naira,720.4702199978888,ATM Card,  Sadiq Mohammed   ,(470) 551-6940,Rivers,EMP137,N
+TXN1260,2025-01-02,PRODIGY MART SURULERE,Omo Detergent 1kg   ,Household,2,"₦1,550.47",3100.95 naira,POS,Zainab Bello,0519 398 2807,abuja,EMP137,true
+TXN1477,08/03/2025,prodigy mart yaba,KNORR  SEASONING,Groceries,10,₦402.69,"₦4,026.94",Mobile Money,Musa Yusuf,invalid,Abuja,EMP108,Yes
+txn1226,09.11.2025,prodigy mart surulere,Kings Vegetable Oil 5L,Cooking Oil,nil,"₦9,506.72",9506.719197874772,Bank Transfer,  Fatima Bello,02843959953,Rivers,EMP135,Y
+TXN1282,18-Feb-2025,Prodigy Mart Ikeja   ,Pampers Pack (Medium),BABY CARE,3,6652.455225922324,"₦19,957.37",pos,Femi Okafor,234-233-095-849,Lag,EMP124,yes
+TXN1352,2026-02-20,Prodigy Mart Abuja Wuse,Maggi Cubes Pack,Groceries,3,331.43 ,NGN 994,pos,Unknown,+234686854870,Port Harcourt,EMP135,No
+TXN1436,06 May 2025,Prodigy Mart Lekki   ,Kings  Vegetable Oil 5L,Cooking Oil,5,"N8,453",42263.29 naira,pos,Chinedu Ajayi,06930848872,Rivers,EMP107,1
+TXN1298,N/A,Prodigy  Mart Abuja Wuse,maggi cubes pack   ,Groceries,2,N383,NGN 767,pos,Adaeze Nwosu,(180) 552-6965,Oyo,EMP115,Yes
+TXN1396,16/06/2025,  Prodigy Mart Lekki,Coca-Cola Crate,beverages,10,"N3,115",31147.115805957023,POS,Ngozi Mohammed,38663177971,KANO,EMP123,true
+TXN1317,05/05/2025,Prodigy Mart Ikeja,Indomie Noodles Carton   ,Groceries,1,"NGN 4,635",4634.931395699586,Transfer,Halima Abubakar,+234277561853,Rivers,EMP108,Y
+TXN1355,10 October 2025,Prodigy Mart Surulere,Kings Vegetable Oil 5L,Cooking Oil,2,"8,592.19 ","₦17,184.37",cash,Blessing Afolabi,+234702462996,Oyo State,EMP115,true
+TXN1377,2025/10/16,Prodigy Mart Ikeja,ALWAYS SANITARY PAD,PERSONAL CARE,-1,₦900.81,900.8145653165669,pos,Musa Balogun,05830033542,Lagos,EMP103,false
+TXN1217,01/06/2026,prodigy  mart ikeja,DANGOTE SUGAR 1KG   ,Groceries,-1,"NGN 1,118","NGN 1,118",--,Kunle Okafor,+234982258713,Rivers,EMP121,TRUE
+TXN1350,01/22/2026,PRODIGY MART IKEJA   ,Kings Vegetable Oil 5L,COOKING OIL,5,"NGN 7,749",  ,Mobile Money,Musa Eze,+234899217223,Abuja,EMP106,false
+txn1414,06/05/2025,Prodigy Mart Surulere,  Milo 900g,BEVERAGES,10,"N4,721","₦47,214.10",Transfer,  Amaka Lawal,234-484-229-405,ABUJA,EMP116,Y
+TXN1171,16-Apr-2026,Prodigy Mart Yaba,Maggi  Cubes Pack,Groceries,--,329.1577479357953,N658,Card,Bola  Ajayi,03556909275,Lagos State,EMP139,Yes
+TXN1321,2025/01/14,prodigy mart yaba,  Beans Bag 1 Paint,Groceries,2,3589.944186667863,7179.89 naira,,N/A,03236519941,Lag,EMP117,N
+TXN1202,25 October 2025,Prodigy Mart Abuja Wuse,MILO 900G,Beverages,5,"N4,671",23355.24 naira,null,Chidi Abubakar,(437) 575-8441,kano,EMP124,1
+TXN1095,19.12.2025,prodigy mart ikeja,Maggi Cubes Pack,Groceries,0,NGN 363,₦363.24,Cash,Ngozi Okonkwo   ,17187026217,Port Harcourt,EMP122,0
+TXN1319,28 January 2026,Prodigy Mart Surulere,KINGS VEGETABLE OIL 5L,Cooking Oil,-1,"₦8,898.05",nil,ATM Card,Obinna Olawale,21356804420,KANO,EMP120,TRUE
+TXN1168,14-Feb-2025,prodigy  mart surulere,Maggi Cubes Pack,Groceries,10,330.43 naira,3304.2833401992148,pos,Chidi Olawale   ,+234451154479,Kano,EMP104,0
+TXN1116,14.01.2026,prodigy  mart surulere,Maggi Cubes Pack,GROCERIES,2,NGN 321,N641,Transfer,Chioma  Chukwu,+234020539502,Oyo State,EMP131,0
+TXN1054,,prodigy  mart abuja wuse,Maggi Cubes Pack,Groceries,10,₦371.92,3719.221355389982,Transfer,-,03669096705,Oyo,EMP108,TRUE
+TXN1412,2025/12/05,Prodigy Mart Abuja Wuse,ALWAYS SANITARY PAD,Personal Care,0,null,₦987.66,Card,Emeka  Nwosu,04397359893,kano,EMP119,No
+TXN1212,04/02/2025,Prodigy  Mart Ikeja   ,dettol soap,Personal Care,1,425.55025420151566,425.55 naira,Mobile Money,  Tunde Adekunle,+234530463745,Lag,EMP106,N
+TXN1139,07/20/2025,PRODIGY MART LEKKI,Bournvita 500g,null,10,"NGN 2,797","27,967.23 ",Transfer,Wale Nwosu,03292127799,Abuja,EMP109,yes
+TXN1227,2025-07-11,prodigy  mart lekki   ,Peak Milk Tin,DAIRY,0,"₦1,226.58",1226.58 naira,ATM Card,  Chioma Abubakar,(428) 364-4089,Oyo,EMP137,N
+TXN1041,2026-05-30,PRODIGY MART LEKKI,Indomie Noodles Carton,GROCERIES,5,"N4,110",20549.569990337295,ATM Card,  Ifeoma Balogun,0401 965 5698,Lagos,EMP115,yes
+TXN1140,N/A,prodigy mart abuja wuse,Indomie Noodles Carton,Groceries,3,"NGN 4,831",14491.56 naira,cash,Ibrahim  Abubakar,0000000000,Rivers,EMP123,No
+TXN1376,10/11/2025,Prodigy  Mart Surulere,Coca-Cola Crate,BEVERAGES,1,3399.524092905545,,Bank Transfer,Obinna Bello,(666) 676-0083,kano,EMP108,no
+TXN1380,05/16/2026,PRODIGY MART ABUJA WUSE,Maggi Cubes Pack,Groceries,3,NGN 359,"1,076.17 ",pos,Sadiq Mohammed   ,(603) 323-0982,Abuja,EMP125,0
+TXN1283,03 May 2025,Prodigy Mart Yaba,Coca-Cola Crate,BEVERAGES,1,"NGN 3,347","NGN 3,347",Card,  Bola Lawal   ,02544948126,Rivers State,EMP119,false
+TXN1237,14 March 2026,Prodigy Mart Yaba,Bournvita 500g,BEVERAGES,5,"2,636.08 ","NGN 13,180",Bank Transfer,Chinedu  Okonkwo   ,69378547772,Rivers,EMP110,Y
+TXN1364,03/13/2025,prodigy mart abuja wuse,Indomie Noodles Carton,Groceries,0,"4,683.79 ","₦4,683.79",,Wale Suleiman,02290349446,Rivers,EMP137,TRUE
+TXN1002,23 January 2026,Prodigy Mart Surulere   ,PEAK MILK TIN   ,Dairy,10,"NGN 1,241",12408.684274364103,Transfer,Emeka Okonkwo,234-013-389-083,Lagos,EMP120,1
+TXN1457,2025-06-30,PRODIGY MART SURULERE,Dangote Sugar 1kg,Groceries,1,"1,066.89 ","1,066.89 ",Card,Fatima Suleiman,08725887449,Rivers State,EMP130,Y
+TXN1353,08.06.2026,PRODIGY MART IKEJA,Knorr Seasoning,Unknown,1,NGN 380,379.77 naira,pos,Tobi Okonkwo,(986) 162-2999,oyo,EMP117,Yes
+TXN1440,18/05/2025,Prodigy Mart Yaba,Golden Penny Spaghetti,Groceries,2,NGN 972,1943.98 naira,Bank Transfer,Chidi Nnamdi   ,03038567700,Ibadan,EMP107,TRUE
+TXN1460,31-Mar-2025,Prodigy Mart Abuja Wuse,Dangote Sugar 1kg,Groceries,2,"₦1,251.36","NGN 2,503",Mobile Money,Sadiq Chukwu,0114 351 9066,kano,EMP137,TRUE
+TXN1456,23.03.2026,prodigy mart lekki,Pampers Pack (Medium),Baby Care,  ,"₦7,242.66","NGN 7,243",Cash,Ifeoma Okafor,234-869-594-636,Kano,EMP101,true
+TXN1452,18-Mar-2025,Prodigy Mart Abuja Wuse,Knorr Seasoning,Groceries,1,428.94 ,N429,ATM Card,Aliyu Nwosu,06865086376,Rivers State,EMP114,FALSE
+TXN1276,17 March 2026,Prodigy Mart Yaba,La Casera Drink,Beverages,3,344.32 naira,"₦1,032.96",Transfer,Grace Okeke,234-257-905-072,Abuja,EMP127,Yes
+TXN1305,05 May 2025,Prodigy Mart Yaba,Pampers Pack (Medium),Baby Care,5,-,"₦33,629.11",Card,Ifeoma Afolabi,(648) 149-1778,Fct Abuja,EMP114,FALSE
+TXN1437,06.01.2025,Prodigy Mart Lekki,Always Sanitary Pad,personal care,-1,884.51 naira,884.5128081845021,Mobile Money,Tobi Yusuf,234-394-278-816,Oyo,EMP119,yes
+TXN1455,2025/03/09,Prodigy  Mart Abuja Wuse,La Casera Drink,BEVERAGES,-1,363.43 naira,363.43 naira,Mobile Money,  Tobi Okonkwo,00635651269,KANO,EMP131,1
+txn1265,07/28/2025,PRODIGY MART IKEJA,Golden Penny Spaghetti,groceries,2,940.9059898233465,"1,881.81 ",Cash,Tunde Mohammed   ,89937567982,oyo,EMP101,Y
+TXN1236,2026-03-23,Prodigy  Mart Abuja Wuse,Hollandia Yoghurt,dairy,  ,N854,853.70 naira,Transfer,Musa  Okeke,0048 996 4235,Kano,EMP105,TRUE
+TXN1248,08/03/2025,PRODIGY MART IKEJA,Beans Bag 1 Paint,groceries,0,"N3,621","NGN 3,621",Bank Transfer,Yusuf Bello,+234185016315,Lagos,EMP117,true
+TXN1241,04/02/2026,PRODIGY MART LEKKI,Pampers Pack (Medium),BABY CARE,10,"NGN 6,123",61230.85883495688,ATM Card,Tobi Eze,234-084-840-862,Abuja,EMP138,No
+TXN1424,01/11/2025,Prodigy Mart Surulere,PAMPERS PACK (MEDIUM),Baby Care,2,7322.77 naira,"N14,646",Mobile Money,Emeka Balogun,06650618091,KANO,EMP108,Y
+TXN1389,19.06.2025,   PRODIGY MART LEKKI   ,RICE BAG 50KG (MAMA GOLD)   ,Groceries,10,"NGN 71,056",710555.5702713646,pos,Aliyu Okafor   ,+234579415521,Lagos,EMP101,0
+TXN1214,14.10.2025,Prodigy Mart Surulere,Dangote Sugar 1kg,groceries,1,"NGN 1,189","NGN 1,189",Transfer,Chinedu Ajayi,68414593327,Kano,EMP134,No
+TXN1291,2025/12/06,  Prodigy Mart Abuja Wuse,Dangote Sugar 1kg,Groceries,2,"1,145.50 ","NGN 2,291",Cash,  Musa Abubakar   ,+234129387005,Lag,EMP128,1
+TXN1015,2026/03/07,Prodigy  Mart Ikeja,Milo 900g,Beverages,1,"NGN 3,997",3997.18 naira,Cash,Tobi Bello,0957 015 4303,Oyo,EMP101,No
+TXN1458,2025/06/25,prodigy mart lekki,Rice Bag 50kg (Mama Gold),Groceries,5,"NGN 58,399",,ATM Card,Chioma Suleiman,234-213-721-386,FCT,EMP140,FALSE
+txn1149,,Prodigy Mart Lekki,Coca-Cola Crate,NULL,0,"NGN 3,066","NGN 3,066",Mobile Money,Chinedu Eze,N/A,FCT,EMP130,0
+TXN1444,2025/09/01,  PRODIGY MART ABUJA WUSE,Power Oil 1L,COOKING OIL,2,"N2,070","₦4,139.74",pos,unknown,(322) 259-1365,ABUJA,EMP136,FALSE
+TXN1099,18/02/2026,PRODIGY MART ABUJA WUSE   ,La Casera Drink,BEVERAGES,5,NGN 370,"NGN 1,852",Transfer,Halima  Okeke   ,(386) 922-2196,Oyo,EMP127,true
+TXN1017,16-Nov-2025,PRODIGY MART LEKKI,Dettol Soap,Personal Care,1,470.10203240728987,470.10 naira,pos,  Grace Olawale,0896 383 4657,ABUJA,EMP117,FALSE
+TXN1333,26/10/2025,Prodigy Mart Lekki,Bournvita 500g,BEVERAGES,-1,2778.43 naira,?,POS,Fatima Abubakar,29218515691,Kano,EMP122,N
+TXN1163,22 April 2025,Prodigy  Mart Ikeja   ,Close-Up Toothpaste,personal care,1,₦689.89,689.8910162781127,cash,Funmilayo Bello,31952058527,Lagos,EMP100,1
+TXN1146,29 March 2025,Prodigy Mart Abuja Wuse,Dangote Sugar 1kg,Groceries,10,"1,164.37 ",11643.699150145756,Bank Transfer,Chidi Ogundimu,invalid,Lagos State,EMP134,Yes
+TXN1050,not set,prodigy mart lekki,Kings Vegetable Oil 5L,Cooking Oil,2,"₦9,195.95","NGN 18,392",pos,n/a,0278 895 7986,oyo,EMP120,FALSE
+TXN1316,17 May 2026,Prodigy  Mart Yaba,Pampers  Pack (Medium),Baby Care,1,"NGN 6,187","N6,187",ATM Card,Funmilayo Nwosu,05574313291,Lagos,EMP124,Y
+TXN1064,25.06.2025,Prodigy Mart Surulere   ,maggi cubes pack,null,1,N371,,NULL,n/a,(716) 572-6284,Kano,EMP134,no
+TXN1135,02.03.2026,  prodigy mart abuja wuse   ,Peak Milk Tin,NIL,3,"NGN 1,247","N3,742",Transfer,Femi Afolabi,0159 696 6416,lagos,EMP135,1
+TXN1075,13/01/2026,Prodigy Mart Ikeja,Close-Up Toothpaste,personal care,-1,N707,706.84 naira,pos,n/a,07190229413,KANO,EMP108,true
+TXN1254,2025-09-14,Prodigy Mart Yaba,Dangote Sugar 1kg,Groceries,10,₦991.90,9919.003742769239,POS,Adaeze Mohammed,0604 661 8398,Port Harcourt,EMP135,0
+TXN1155,21-Mar-2025,Prodigy Mart Ikeja,  Omo Detergent 1kg   ,Household,1,"N1,598","1,598.48 ",Cash,Tobi Mohammed,234-137-506-068,Rivers,EMP119,1
+txn1143,30-May-2025,prodigy mart yaba,Dangote Sugar 1kg,GROCERIES,1,"₦1,077.34","N1,077",Card,Emeka Okafor,79359782071,Port Harcourt,EMP131,0
+TXN1185,2026/03/30,Prodigy Mart Surulere,Power Oil 1L,Cooking Oil,3,"₦2,337.76","NGN 7,013",Bank Transfer,Segun  Yusuf   ,59255562588,Oyo State,EMP124,No
+TXN1085,2026-03-13,  Prodigy Mart Surulere,Close-Up Toothpaste,Personal Care,10,₦589.79,5897.91 naira,Mobile Money,Kunle Suleiman,0512 567 4680,Rivers,EMP132,no
+TXN1426,02/17/2025,Prodigy Mart Surulere,Peak Milk Tin,DAIRY,2,"₦1,379.44",2758.8869871944007,pos,Aliyu Bello,+234607283268,KANO,EMP115,0
+TXN1359,14.11.2025,Prodigy Mart Abuja Wuse,Indomie Noodles Carton,Groceries,1,NIL,?,POS,Emeka Ogundimu,N/A,abuja,EMP128,true
+TXN1171,16-Apr-2026,Prodigy Mart Yaba,Maggi  Cubes Pack,Groceries,--,329.1577479357953,N658,Card,Bola  Ajayi,03556909275,Lagos State,EMP139,Yes
+TXN1206,06.03.2026,Prodigy Mart Surulere,Peak Milk Tin,Dairy,-1,"N1,372","N1,372",ATM Card,Ifeoma  Bello,71208267734,Abuja,EMP134,yes
+TXN1049,19-Apr-2025,  PRODIGY MART LEKKI,Kings Vegetable Oil 5L,Cooking Oil,3,null,"₦26,233.00",Bank Transfer,Emeka Abubakar   ,16328708317,Kano,EMP106,1
+TXN1478,17/04/2026,Prodigy Mart Ikeja,Bournvita 500g,Beverages,10,2555.6865567035966,"₦25,556.87",pos,Bisi Ajayi,+234931438663,Lagos State,EMP101,false
+TXN1285,13 July 2025,  Prodigy Mart Yaba   ,CLOSE-UP TOOTHPASTE,Personal Care,5,N617,"NGN 3,083",Card,Ifeoma Adekunle,234-667-116-845,Lag,EMP139,0
+TXN1165,,PRODIGY MART YABA,Dettol Soap,Personal Care,10,n/a,"₦4,650.68",Cash,  Grace Mohammed,(548) 687-4034,Abuja,EMP104,No
+TXN1131,2026-05-26,Prodigy Mart Ikeja   ,Bournvita 500G,Beverages,3,"NGN 2,814",8442.51 naira,Cash,Chidi Eze,234-438-156-149,Abuja,EMP102,false
+TXN1023,,  prodigy mart surulere,Maggi Cubes Pack,GROCERIES,2,₦372.98,N746,ATM Card,Bisi Adeyemi,04731781080,Lagos,EMP138,N
+TXN1415,2025-08-18,Prodigy Mart Lekki,Knorr Seasoning,Groceries,1,NGN 389,₦389.16,N/A,Ngozi Eze   ,234-025-909-479,Ibadan,EMP127,1
+TXN1096,18/06/2026,Prodigy Mart Abuja Wuse,Always Sanitary Pad,personal care,2,NGN 966,"NGN 1,932",cash,nil,0459 615 8657,Rivers,EMP101,true
+TXN1175,16-Jun-2025,Prodigy Mart Yaba,Kings Vegetable Oil 5L,Cooking Oil,3,"NGN 8,603",25808.73549201823,Transfer,  ,234-518-844-225,lagos,EMP128,no
+TXN1409,2025/05/31,Prodigy  Mart Lekki,Bournvita 500G,Beverages,5,"₦3,062.55",15312.752202410906,cash,null,(620) 034-2442,Ibadan,EMP104,no
+TXN1406,23 August 2025,  PRODIGY MART ABUJA WUSE,Close-Up Toothpaste,personal care,3,₦592.80,"N1,778",Transfer,Obinna Afolabi,02698485833,lagos,EMP134,No
+TXN1354,06/19/2026,PRODIGY MART SURULERE,Close-Up Toothpaste,Personal Care,2,648.34 naira,"1,296.68 ",Card,null,0191 485 6467,Lagos,EMP137,true
+TXN1244,2025/06/13,Prodigy Mart Yaba,Close-Up Toothpaste,PERSONAL CARE,2,744.96 ,1489.926601200394,ATM Card,Amara Mohammed,+234668700217,Lag,EMP106,true
+TXN1420,06 January 2026,  Prodigy Mart Abuja Wuse,Milo 900g,nil,2,4545.619882360866,9091.24 naira,POS,Amaka Suleiman   ,08588770435,rivers,EMP134,yes
+TXN1120,30/07/2025,Prodigy Mart Lekki,Dangote Sugar 1kg,Groceries,-1,NGN 992,N992,Transfer,Femi Lawal,12499856984,Lagos,EMP128,false
+TXN1056,2025-11-15,Prodigy Mart Surulere   ,Coca-Cola Crate,Beverages,5,3428.86 naira,"N17,144",Card,Tobi Ajayi   ,(706) 562-7298,Lag,EMP132,N
+TXN1459,18-Mar-2025,PRODIGY MART LEKKI,DANGOTE SUGAR 1KG,groceries,-1,"NGN 1,217",1216.6903583605979,pos,Fatima Afolabi,234-902-601-279,Lag,EMP117,Y
+TXN1366,2026-01-22,Prodigy Mart Abuja Wuse,  Dettol Soap,PERSONAL CARE,5,N450,"NGN 2,252",Cash,Adaeze Yusuf,0085 899 4417,Oyo,EMP111,TRUE
+TXN1105,25 February 2025,Prodigy Mart Abuja Wuse,  Power Oil 1L,Cooking Oil,3,"₦2,080.75",6242.26 naira,Bank Transfer,Musa Abubakar,09521456232,Port Harcourt,EMP102,true
+TXN1084,09/13/2025,PRODIGY MART IKEJA,Indomie Noodles Carton,groceries,5,"N5,011","25,057.13 ",Cash,Fatima Ogundimu   ,0742 967 1756,Lag,EMP127,false
+TXN1055,2025-04-26,PRODIGY MART LEKKI,Power Oil 1L,cooking oil,2,NULL,,Bank Transfer,  ,+234668893734,Lagos,EMP129,yes
+TXN1308,15-Jun-2026,prodigy mart surulere,Maggi Cubes Pack,Groceries,3,319.23 naira,N958,POS,Yusuf Eze,234-863-536-541,Oyo,EMP114,true
+txn1387,24-Oct-2025,PRODIGY MART ABUJA WUSE   ,  close-up toothpaste,Personal Care,1,₦667.92,N668,cash,Halima Bello,234-143-744-701,kano,EMP128,Yes
+TXN1339,03/06/2025,prodigy mart lekki,Omo Detergent 1kg,Household,2,"NGN 1,427","N2,855",Bank Transfer,  Funmilayo Nnamdi,06267658617,Kano,EMP115,N
+TXN1184,04/11/2026,PRODIGY MART LEKKI,MAGGI CUBES PACK,Groceries,-1,339.40 naira,339.40 naira,cash,Obinna Nnamdi,06471027677,Kano,EMP107,1
+TXN1284,19-Apr-2025,Prodigy Mart Abuja Wuse,power oil 1l,Cooking Oil,1,,2335.10 naira,pos,  Wale Suleiman,04223253672,Kano,EMP103,true
+TXN1372,02-Feb-2026,Prodigy Mart Lekki,Power Oil 1L,Cooking Oil,10,"N2,123","₦21,230.44",POS,Blessing Yusuf,234-170-999-173,Oyo,EMP124,TRUE
+TXN1388,09/06/2026,Prodigy Mart Yaba,Power Oil 1L,Cooking Oil,0,2398.060756266039,"₦2,398.06",Card,Ifeoma  Adekunle   ,+234455611002,Kano,EMP124,false
+TXN1301,2025-12-23,Prodigy Mart Surulere,Peak Milk Tin,Dairy,2,1089.391829836851,"₦2,178.78",Bank Transfer,Wale Yusuf,(241) 418-3285,Port Harcourt,EMP129,false
+TXN1058,17 May 2025,Prodigy  Mart Yaba,close-up toothpaste,Personal Care,1,NGN 696,695.9436825415004,  ,Aliyu  Ajayi,06537556464,Kano,EMP103,N
+TXN1110,2026/02/18,prodigy mart surulere,Golden Penny Spaghetti,groceries,-1,,NGN 893,POS,  Femi Yusuf,0200 471 1382,lagos,EMP120,TRUE
+TXN1038,2026-03-25,Prodigy Mart Surulere,Coca-Cola Crate,beverages,1,3078.1949788786274,"₦3,078.19",Transfer,   Ibrahim Bello,234-634-216-073,Abuja,EMP133,No
+TXN1154,05/02/2026,Prodigy Mart Surulere   ,Power Oil 1L,Cooking Oil,10,1905.8886694112177,19058.89 naira,Bank Transfer,Emeka  Suleiman,0818 141 2478,Kano,EMP121,TRUE
+TXN1046,24 November 2025,Prodigy Mart Surulere,Coca-Cola Crate,Beverages,10,"NGN 3,678",36778.09923218433,Cash,Amara Chukwu,0773 872 1489,Kano,EMP126,FALSE
+TXN1033,06.05.2025,Prodigy Mart Yaba,Hollandia Yoghurt,DAIRY,-1,936.3787608531887,936.38 ,Mobile Money,Amaka  Ajayi,234-493-534-874,LAGOS,EMP121,no
+TXN1320,20.06.2025,Prodigy Mart Yaba,Golden Penny Spaghetti,Groceries,-,"1,055.02 ","NGN 1,055",Bank Transfer,unknown,+234788317121,Lagos,EMP121,No
+TXN1012,2025-07-21,prodigy mart abuja wuse,Peak Milk Tin,Dairy,5,1080.5073834655889,5402.54 naira,Cash,Fatima Afolabi,(669) 784-8018,Kano,EMP110,true
+TXN1218,26/03/2026,Prodigy Mart Ikeja,Omo Detergent 1kg,nil,1,"NGN 1,641","₦1,640.91",Cash,Ibrahim Bello,(718) 707-2867,Lagos State,EMP127,FALSE
+TXN1035,29.07.2025,  prodigy mart surulere,Close-Up Toothpaste,personal care,0,593.90 naira,₦593.90,pos,-,(680) 112-8059,Kano,EMP123,No
+TXN1295,06 April 2026,PRODIGY MART LEKKI,Indomie Noodles Carton,Groceries,1,"₦4,411.30",,POS,Kunle Mohammed,+234965652341,oyo,EMP136,0
+TXN1309,05/06/2026,Prodigy Mart Abuja Wuse,always sanitary pad,PERSONAL CARE,1,877.7943027326854,₦877.79,Bank Transfer,Bola Mohammed,+234180238061,Lag,EMP121,yes
+TXN1474,11.01.2026,Prodigy Mart Ikeja,Knorr Seasoning,null,1,419.17 naira,NGN 419,Bank Transfer,  Zainab Abubakar,234-780-856-271,kano,EMP138,yes
+TXN1270,08.01.2026,prodigy mart yaba,Coca-Cola Crate,BEVERAGES,1,"₦3,104.09",3104.09 naira,Transfer,Halima Ajayi,60937966033,Lagos,EMP103,false
+TXN1386,01/01/2026,  Prodigy Mart Yaba,Omo Detergent 1kg,NULL,1,"₦1,633.00","NGN 1,633",  ,NULL,+234300119721,Abuja,EMP120,1
+TXN1476,unknown date,prodigy mart abuja wuse,Power Oil 1L,Cooking Oil,0,"N2,145","N2,145",POS,Yusuf  Adeyemi,(428) 434-7955,Kano,EMP125,FALSE
+TXN1246,30 April 2025,PRODIGY MART LEKKI,Power Oil 1L,Cooking Oil,3,"N1,896","N5,688",POS,Zainab  Suleiman,(148) 902-5039,KANO,EMP134,false
+TXN1203,15/06/2025,PRODIGY MART YABA,Beans  Bag 1 Paint,GROCERIES,10,"₦3,849.79",N/A,pos,  Musa Nwosu,08665240415,oyo,EMP132,FALSE
+TXN1133,22/12/2025,  prodigy mart yaba,kings vegetable oil 5l,cooking oil,10,"8,144.43 ","N81,444",POS,Blessing Yusuf,24451076226,Abuja,EMP139,no
+TXN1071,2025/01/05,Prodigy Mart Ikeja,POWER OIL 1L,cooking oil,0,"₦2,115.52",2115.52 naira,Transfer,Zainab Yusuf,05182337498,abuja,EMP132,1
+TXN1224,00/00/0000,  prodigy mart lekki,Power Oil 1L,null,5,"₦2,104.70","₦10,523.50",Card,Tobi Olawale,(310) 690-3311,Abuja,EMP134,yes
+TXN1022,06 October 2025,Prodigy  Mart Ikeja,Power  Oil 1L,Cooking Oil,2,2257.3601846122515,4514.72 naira,ATM Card,Yusuf Okeke,234-513-338-726,Lagos,EMP121,1
+TXN1315,28-Sep-2025,prodigy mart ikeja,Always Sanitary Pad,Personal Care,10,903.1333396298722,9031.333396298722,POS,Amara Okafor,234-990-623-445,Abuja,EMP105,No
+TXN1117,2025/05/23,prodigy mart surulere,la casera drink,Beverages,1,358.91 ,,Cash,  Amara Okonkwo,+234268117758,Oyo,EMP138,FALSE
+TXN1257,not set,prodigy mart lekki,Always Sanitary Pad,personal care,10,NGN 941,"₦9,413.51",  ,Amaka  Abubakar,234-712-406-596,Kano,EMP112,TRUE
+TXN1357,2026-03-08,Prodigy Mart Yaba,Beans Bag 1 Paint,Groceries,0,"₦3,738.53","₦3,738.53",pos,Wale Afolabi,234-713-247-546,Rivers,EMP115,yes
+TXN1273,2025/05/29,PRODIGY MART SURULERE,Bournvita 500g,Beverages,1,"N3,026","N3,026",Cash,Fatima Afolabi,+234792499125,Oyo,EMP123,no
+TXN1205,2026/01/17,PRODIGY MART LEKKI,Knorr Seasoning,Groceries,1,350.10 ,NGN 350,Cash,Bisi  Okafor,+234330833016,Kano,EMP109,FALSE
+TXN1274,2026/05/30,Prodigy Mart Yaba,Indomie Noodles Carton,groceries,2,"NGN 5,059","₦10,117.47",Bank Transfer,Sadiq Afolabi,03412528669,Lagos,EMP139,1
+TXN1458,2025/06/25,prodigy mart lekki,Rice Bag 50kg (Mama Gold),Groceries,5,"NGN 58,399",,ATM Card,Chioma Suleiman,234-213-721-386,FCT,EMP140,FALSE
+TXN1114,2025-11-10,Prodigy Mart Surulere,Power Oil 1L,Cooking Oil,3,"N2,214",6640.74 naira,ATM Card,Ibrahim Lawal,+234532931839,Oyo,EMP104,Yes
+TXN1399,28.02.2026,Prodigy Mart Surulere   ,COCA-COLA CRATE,Beverages,2,3381.55 naira,6763.11 naira,Bank Transfer,?,,oyo,EMP102,no
+TXN1405,12/28/2025,Prodigy Mart Yaba   ,Close-Up Toothpaste,personal care,2,620.4133584615545,"₦1,240.83",cash,Kemi Chukwu,(866) 934-6547,Oyo,EMP112,Yes
+TXN1294,2026/06/04,Prodigy Mart Surulere,MAGGI CUBES PACK,Groceries,0,NGN 373,372.66003339203274,POS,Yusuf  Bello,75326973112,LAGOS,EMP138,true
+TXN1258,05.03.2026,Prodigy Mart Abuja Wuse,Kings Vegetable Oil 5L,COOKING OIL,1,7921.64 naira,,cash,  Ngozi Yusuf,0756 924 5937,Kano,EMP132,No
+TXN1001,2025/09/08,PRODIGY MART ABUJA WUSE   ,Dangote Sugar 1kg,GROCERIES,1,1193.93 naira,"N1,194",Cash,Yusuf Afolabi,01043321819,Rivers,EMP138,yes
+TXN1065,22/03/2025,  prodigy mart yaba,Close-Up Toothpaste,Personal Care,1,713.4559388505493,NGN 713,Mobile Money,Aliyu  Okonkwo,87769453147,lagos,EMP124,false
+TXN1286,03/13/2025,Prodigy Mart Ikeja   ,Dettol Soap,PERSONAL CARE,-,424.1511645760399,NGN 848,,Amara Yusuf,234-590-175-186,Rivers State,EMP134,yes
+TXN1278,2025-03-20,Prodigy Mart Yaba   ,Golden Penny Spaghetti,-,10,1082.81 naira,10828.14 naira,Transfer,Kemi  Eze   ,234-034-043-842,Lagos,EMP101,no
+TXN1141,2026/01/31,Prodigy  Mart Ikeja,Indomie  Noodles Carton,Groceries,2,5025.836748211292,,pos,null,09058147700,Oyo,EMP114,Y
+TXN1209,14/01/2026,  Prodigy Mart Surulere,Peak Milk Tin,dairy,1,"₦1,363.22","₦1,363.22",cash,Fatima Okonkwo,0547 887 2874,Kano,EMP136,0
+TXN1323,01/04/2025,prodigy mart lekki   ,Golden Penny Spaghetti,groceries,0,"1,075.94 ",1075.9398020801227,NIL,Ibrahim Okonkwo,+234966706625,Abuja,EMP116,false
+TXN1423,15 October 2025,PRODIGY  MART SURULERE,Always Sanitary Pad,personal care,5,1092.3291768047677,"NGN 5,462",POS,Bisi Olawale   ,00248193466,Rivers,EMP135,FALSE
+TXN1125,28-Jun-2025,  Prodigy Mart Surulere,Peak Milk Tin,Dairy,-1,1184.19 naira,1184.1866884985197,pos,Chioma Adekunle,94519832731,Rivers,EMP135,1
+TXN1390,29 August 2025,prodigy mart surulere,COCA-COLA CRATE   ,Beverages,1,"N2,970",,POS,Ifeoma Adekunle,+234746762120,Abuja,EMP100,true
+TXN1297,09/25/2025,Prodigy Mart Lekki,Indomie Noodles Carton,?,1,4430.300897911798,"₦4,430.30",POS,Musa Ajayi,03640376137,lagos,EMP122,1
+TXN1183,00/00/0000,prodigy mart ikeja,Bournvita 500g,BEVERAGES,1,"NGN 3,146",3146.33 naira,Card,Chidi Lawal,39690784473,KANO,EMP138,1
+TXN1082,2025-12-21,Prodigy Mart Ikeja,Indomie Noodles Carton,GROCERIES,5,"NGN 4,077",20384.50 naira,pos,Chidi Balogun,08771906594,Kano,EMP108,N
+TXN1073,02 October 2025,Prodigy Mart Ikeja,Knorr Seasoning,Groceries,1,₦396.41,396.41 ,POS,Tunde Nwosu,0400 842 7109,Abuja,EMP113,N
+TXN1198,26.01.2026,PRODIGY MART YABA,Peak Milk Tin   ,Dairy,1,"N1,244","N1,244",pos,Obinna Ogundimu,234-230-913-075,Ibadan,EMP105,Yes
+TXN1053,08-Oct-2025,Prodigy Mart Yaba,Maggi Cubes Pack,Groceries,3,364.0426641456692,"N1,092",Card,Tobi Nnamdi,36231665876,ABUJA,EMP110,1
+TXN1174,01.04.2026,PRODIGY MART SURULERE,Hollandia Yoghurt,DAIRY,-1,₦999.43,999.4292708367515,cash,Yusuf Mohammed   ,234-473-121-727,Abuja,EMP120,no
+TXN1288,12 February 2025,Prodigy Mart Ikeja,Milo 900g,BEVERAGES,2,"N4,105","NGN 8,210",,-,07500170127,LAGOS,EMP118,TRUE
+TXN1079,03/22/2025,prodigy mart abuja wuse,Kings Vegetable Oil 5L,cooking oil,2,"NGN 7,828",?,Cash,  Chidi Okonkwo,(740) 344-7134,Oyo,EMP116,Y
+TXN1006,08 August 2025,Prodigy Mart Abuja Wuse,Omo Detergent 1Kg,Household,2,1600.87 naira,"3,201.73 ",Card,  Femi Ogundimu,(103) 413-1647,Lag,EMP100,No
+TXN1228,08 January 2025,Prodigy Mart Lekki,Knorr Seasoning,Groceries,10,368.17 naira,3681.6689286501523,cash,Amaka Okonkwo,68705685662,Abuja,EMP106,1
+TXN1034,15/02/2026,Prodigy Mart Ikeja,Indomie  Noodles Carton,GROCERIES,1,"N5,029","N5,029",ATM Card,  ,0164 005 2427,Oyo,EMP102,N
+TXN1078,26 April 2025,Prodigy Mart Ikeja   ,Peak Milk Tin,dairy,2,1228.46631598298,,NULL,Adaeze Adeyemi,0123 281 2067,KANO,EMP134,FALSE
+TXN1160,2026/03/27,PRODIGY  MART SURULERE,Milo 900G,beverages,5,"NGN 4,030",20149.22 naira,cash,Unknown,0893 246 0953,Oyo,EMP117,no
+TXN1262,27/03/2025,  Prodigy Mart Ikeja,Indomie Noodles Carton,groceries,1,4198.70 naira,"NGN 4,199",Transfer,null,0617 979 6886,abuja,EMP101,N
+TXN1232,2025/01/13,Prodigy Mart Surulere   ,Indomie Noodles Carton   ,Groceries,5,4785.741854502038,"N23,929",Transfer,?,(013) 983-7354,Abuja,EMP100,N
+TXN1137,2025-02-08,prodigy mart abuja wuse,Hollandia Yoghurt,-,0,₦844.81,N845,POS,nil,0681 645 3521,Kano,EMP107,N
+TXN1014,30-Mar-2026,Prodigy Mart Abuja Wuse,La Casera Drink,Beverages,3,398.13 naira,1194.39 naira,cash,Funmilayo Olawale   ,+234489325288,LAGOS,EMP134,0
+TXN1220,06/15/2026,Prodigy Mart Abuja Wuse   ,Dettol Soap,Personal Care,3,₦514.16,"N1,542",ATM Card,Funmilayo Okeke,00651801704,Kano,EMP140,N
+TXN1314,2025-08-24,Prodigy Mart Ikeja,Coca-Cola Crate,Unknown,2,3121.17314829972,"₦6,242.35",Mobile Money,Ngozi Eze,234-865-719-182,Kano,EMP101,yes
+TXN1480,28.03.2025,prodigy mart abuja wuse,Close-Up Toothpaste,Personal Care,1,709.2490519232466,N709,-,Emeka Eze,04489061203,Kano,EMP115,Y
+TXN1136,2026-03-30,Prodigy Mart Surulere,Knorr Seasoning,groceries,3,₦404.47,,cash,Halima Mohammed,05297516136,Rivers,EMP132,TRUE
+TXN1369,06/02/2025,PRODIGY MART YABA,Bournvita 500g,Beverages,1,"₦2,882.76",2882.7578906483272,Card,  Chidi Olawale   ,+234993538758,Rivers,EMP125,1
+TXN1128,23/03/2025,  Prodigy Mart Yaba,omo detergent 1kg,household,2,"N1,703","3,405.33 ",-,Sadiq Olawale,+234296120183,Ibadan,EMP140,false
+TXN1280,04 February 2025,  prodigy mart abuja wuse,Beans Bag 1 Paint,  ,1,"₦3,543.23","₦3,543.23",Cash,null,(078) 361-3407,FCT,EMP138,true
+TXN1197,04-Jul-2025,  Prodigy Mart Ikeja,Hollandia Yoghurt,DAIRY,1,928.35 naira,N928,Cash,Adaeze Ajayi,(749) 930-9728,Abuja,EMP118,no
+TXN1193,2025-05-17,PRODIGY MART SURULERE,Power Oil 1L,Cooking Oil,10,2348.590567938725,23485.90567938725,Card,  Sadiq Okonkwo,+234239868000,Ibadan,EMP129,true
+txn1313,21.01.2025,Prodigy Mart Surulere,La Casera Drink,beverages,0,343.85 naira,NGN 344,Transfer,,(138) 367-0241,Lagos,EMP131,Yes
+TXN1428,15.01.2026,Prodigy Mart Abuja Wuse   ,Kings Vegetable Oil 5L,cooking oil,1,8218.8110592413,"N8,219",Mobile Money,Grace Lawal   ,(968) 814-3536,Kano,EMP100,0
+TXN1145,10/02/2025,prodigy mart lekki,Knorr Seasoning   ,GROCERIES,-1,379.58306368040974,379.58306368040974,Mobile Money,Aliyu Olawale,0255 466 5905,lagos,EMP107,No
+TXN1413,09-Mar-2025,Prodigy  Mart Yaba,Omo Detergent 1kg,HOUSEHOLD,1,1583.65 naira,"N1,584",Bank Transfer,Emeka Yusuf,03472122816,Lagos,EMP109,TRUE
+TXN1360,07-Sep-2025,Prodigy Mart Yaba,Bournvita 500g,beverages,1,"NGN 2,529",2528.692847995126,pos,Kemi Afolabi,03070534578,abuja,EMP134,FALSE
+TXN1216,18 July 2025,PRODIGY MART ABUJA WUSE,Hollandia Yoghurt,Dairy,-1,NGN 921,₦921.15,Mobile Money,Tobi Suleiman   ,234-878-519-108,Kano,EMP126,yes
+TXN1475,06.01.2025,Prodigy Mart Lekki,Maggi Cubes Pack,Groceries,1,₦332.90,₦332.90,Card,  Zainab Lawal   ,234-500-369-155,Oyo,EMP107,Yes
+TXN1310,17/03/2025,PRODIGY MART YABA,Power Oil 1L,Cooking Oil,-1,"N2,243","N2,243",Card,Kemi Lawal,04451870534,Oyo,EMP113,Yes
+TXN1454,23.05.2025,Prodigy Mart Abuja Wuse,Coca-Cola Crate,Beverages,1,"3,665.36 ",3665.361633125652,Card,Femi Afolabi,+234864300981,Rivers,EMP121,false
+TXN1024,22/02/2026,Prodigy Mart Yaba,Coca-Cola Crate,Beverages,2,"N3,321","₦6,641.34",POS,NIL,(326) 773-6026,Oyo,EMP131,Y
+TXN1328,22-Mar-2026,prodigy  mart lekki,Bournvita 500g,Beverages,1,"2,667.86 ","₦2,667.86",POS,Chioma Okafor   ,0000000000,Kano,EMP119,1
+TXN1150,17.04.2026,  Prodigy Mart Yaba,Peak Milk Tin,?,1,1224.4486569361081,"NGN 1,224",Transfer,Chinedu Olawale,(805) 929-6222,Lagos,EMP119,false
+TXN1094,2025/07/12,Prodigy Mart Yaba,milo 900g   ,NULL,0,"NGN 4,458","₦4,457.83",Cash,Zainab Abubakar,05766270289,ABUJA,EMP128,Y
+TXN1204,25/03/2026,Prodigy Mart Ikeja,Dangote Sugar 1kg,Groceries,1,"NGN 1,245",1244.823827074644,ATM Card,Obinna Eze,0473 384 8421,Lagos State,EMP121,yes

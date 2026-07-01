@@ -1,0 +1,479 @@
+RecordID,FarmerName,FarmerPhone,ProduceName,Quantity,Unit,PricePerUnit,TotalValue,Market,SaleDate,ProduceGrade,StorageFacility,State,TransportMode,Certified_Organic
+AGR500318,Kemi Adeyemi,234-611-110-286,Palm Oil,1443.65,kg,40264.24,58127470.076,Oyingbo Market Lagos,unknown date,grade a,COLD ROOM,rivers,Motorcycle,yes
+AGR500011,musa chukwu,+234604873682,Rice (Local),51.91,Tonnes,"N81,960",--,Oyingbo Market Lagos,09-Jun-2024,A,Cold Room,lagos,Bicycle,true
+AGR500398,Tunde Afolabi,0178 509 0255,Beans,437.71,Crates,"NGN 26,233","11,482,533.97 ",Oyingbo Market Lagos,05-Aug-2024,Unknown,,Plateau,truck,no
+AGR500427,Bola Ogundimu,55611404288,Cassava,4923.67,kg ,"NGN 60,408",297427432.5489,Dawanau Market Kano,18/08/2024,grade a,,KANO,TRUCK,TRUE
+AGR500261,Musa Okonkwo,234-690-618-120,Plantain,2099.64,KG,-,"NGN 8,045,254",Dawanau Market Kano,03/22/2024,Premium,warehouse,Akwa Ibom,Truck,true
+AGR500298,Sadiq Mohammed,234-057-303-627,Maize (Corn),3102.06,KG,"N14,583","NGN 45,237,465",Oyingbo Market Lagos,2024/11/11,Standard,N/A,Oyo,Bicycle,FALSE
+AGR500094,Adaeze Eze,234-372-450-184,Rice (Local),1250.56,tonnes,"₦64,640.27",80836536.05119999,Dawanau Market Kano,,Reject,Cold Room,Abuja,Truck,TRUE
+AGR500278,Bisi Chukwu,N/A,Sorghum,1661.9,Crates,"53,717.64 ","N89,273,346",Dawanau Market Kano,10 April 2025,Grade B,Cold Room,Akwa Ibom,truck,FALSE
+AGR500140,Ngozi Nwosu,0631 403 5263,Onions,1107.62,kg,"NGN 30,916",34242670.41 naira,Mile 12 Market Lagos,28/04/2025,Premium,Cold Room,Plateau,Van,no
+AGR500118,Aliyu Bello,00878057215,Onions,2213.28,Bags,"₦68,668.80","₦151,983,281.66",Oyingbo Market Lagos,18 March 2025,--,,Ogun,Van,Yes
+AGR500229,Bisi Olawale,0687 304 5195,Cassava,2766.0,Crates,"N26,288","₦72,713,825.04",Ariaria Market Aba,2024/04/29,Premium,Warehouse,Kano,Motorcycle,true
+AGR500197,emeka adeyemi,(485) 953-2593,Rice (Local),891.43,crates,"N84,870","N75,655,940",Ariaria Market Aba,2024/02/04,Grade B,COLD ROOM,Akwa Ibom,Bicycle,TRUE
+AGR500199,Bola Nwosu,,Onions,1000.55,Crates,24012.77 naira,"₦24,025,977.02",Dawanau Market Kano,05/07/2024,A,,Imo,Bicycle,no
+AGR500393,Kemi Nwosu,02308981388,Sorghum,4873.59,KG,"₦31,600.28",154006808.61 naira,Bodija Market Ibadan,10/03/2025,n/a,COLD ROOM,Abuja,Van,Y
+AGR500334,Emeka Balogun,234-704-506-917,Cassava,3256.22,kg ,"NGN 3,049",9927400.72 naira,Ariaria Market Aba,08-Jan-2025,GRADE B,Open Air,Anambra,Van,true
+AGR500111,CHIOMA LAWAL,(153) 703-8240,Onions,4366.9,kg,"₦30,000.18","₦131,007,786.04",Ariaria Market Aba,2024-02-23,B,warehouse,Anambra,Motorcycle,yes
+AGR500236,Grace Balogun,234-863-956-137,Beans,3937.7,tonnes,"N19,923","N78,450,443",Mile 12 Market Lagos,04/24/2024,Premium,N/A,Rivers,TRUCK,TRUE
+AGR500003,Blessing Ajayi,(988) 305-9736,Sorghum,2119.82,Tonnes,82379.77 naira,174630284.04140002,Dawanau Market Kano,02/11/2024,B,COLD ROOM,Plateau,Van,FALSE
+AGR500155,Emeka Nwosu,+234577278532,Cassava,49.1,kg,13652.81,"N670,353",Bodija Market Ibadan,2024-08-03,null,Open Air,Cross River,truck,1
+AGR500445,Grace Abubakar,0826 958 2641,Onions,1610.68,tonnes,"N51,809",83447397.98400001,Mile 12 Market Lagos,00/00/0000,A,COLD ROOM,Rivers State,Motorcycle,yes
+AGR500286,Tobi Nwosu   ,39898306503,Yam,1813.38,kg,82000.34 naira,148697776.5492,Mile 12 Market Lagos,2024/12/18,GRADE B,N/A,Akwa Ibom,Motorcycle,Yes
+AGR500435,Segun Abubakar,234-591-015-709,Rice (Local),4063.83,KG,82048.45,"N333,430,953",Oyingbo Market Lagos,23.03.2025,Grade C,COLD ROOM,Enugu,Motorcycle,Yes
+AGR500406,BLESSING OKONKWO,0950 982 2104,Pepper,245.02,tonnes,35246.17,,Mile 12 Market Lagos,2024-08-25,Grade A,COLD ROOM,Enugu,TRUCK,No
+AGR500010,emeka nnamdi   ,(577) 029-9295,Rice (Local),2755.25,Tonnes,"NGN 1,516","4,177,620.26 ",Bodija Market Ibadan,2024-03-10,,N/A,Kaduna,TRUCK,no
+AGR500281,Emeka Nwosu,05078967935,Rice (Local),4009.52,KG,"N15,311","61,389,881.01 ",Mile 12 Market Lagos,2025/02/01,Standard,N/A,FCT,truck,Yes
+AGR500302,Tobi Okonkwo,(887) 071-5534,Sorghum,unknown,kg,"₦2,369.03","NGN 6,408,060",Bodija Market Ibadan,2025/05/20,grade a,N/A,Rivers,truck,Y
+AGR500191,Wale Nnamdi,(724) 530-7624,Beans,1561.74,Crates,40138.21,"N62,685,448",Mile 12 Market Lagos,04/06/2025,Reject,Cold Room,Imo,Bicycle,yes
+AGR500228,Ifeoma Eze,invalid,Sorghum,96.72,KG,"NGN 1,573","₦152,170.54",Ariaria Market Aba,16/05/2025,B,warehouse,Cross River,Van,0
+AGR500136,Wale Nnamdi,+234408031499,Pepper,2091.52,KG,"₦72,100.77","150,800,202.47 ",Mile 12 Market Lagos,2024-09-19,Standard,Cold Room,Cross River,TRUCK,0
+AGR500241,femi ogundimu,0070 755 0476,Beans,1015.71,tonnes,"35,975.51 ",36540685.26 naira,Ariaria Market Aba,00/00/0000,A,N/A,Edo,Bicycle,true
+AGR500445,Grace Abubakar,0826 958 2641,Onions,1610.68,tonnes,"N51,809",83447397.98400001,Mile 12 Market Lagos,00/00/0000,A,COLD ROOM,Rivers State,Motorcycle,yes
+AGR500004,Tunde Ajayi,0248 096 2440,Sorghum,3000.05,Bags,-,"228,672,631.15 ",Oyingbo Market Lagos,2025/01/18,A,warehouse,Imo,Truck,Yes
+AGR500201,YUSUF SULEIMAN   ,59782457598,Plantain,4430.38,Tonnes,"₦28,038.21",124219924.8198,Bodija Market Ibadan,2025-03-23,Grade A,N/A,Anambra,Motorcycle,TRUE
+AGR500418,Grace Mohammed,18093391373,Maize (Corn),2499.12,Bags,"NGN 48,559",121353643.48 naira,Bodija Market Ibadan,2024/06/28,A,N/A,Ogun,truck,N
+AGR500242,Aliyu Chukwu,16995706071,Yam,3532.43,tonnes,NIL,"NGN 123,442,533",Dawanau Market Kano,20/02/2024,Standard,Open Air,Kaduna,Van,0
+AGR500208,musa yusuf,05990802711,Palm Oil,3136.48,Tonnes,58516.06,"NGN 183,534,452",Mile 12 Market Lagos,27/01/2025,Grade A,Warehouse,Ogun,TRUCK,Y
+AGR500127,Ifeoma Okonkwo,+234409951239,Groundnut,1046.96,KG,"N41,201","NGN 43,136,019",Bodija Market Ibadan,N/A,Premium,Open Air,Edo,Truck,0
+AGR500439,Musa Okafor   ,234-693-259-140,Plantain,726.25,Crates,"₦27,346.46",19860366.575,Dawanau Market Kano,08/03/2024,Premium,N/A,Ogun,Truck,yes
+AGR500391,Funmilayo Abubakar,46871912038,Rice (Local),1326.56,Bags,51432.42,"N68,228,191",Dawanau Market Kano,2024/02/27,Grade B,Open Air,Enugu,Motorcycle,no
+AGR500411,Wale Okonkwo,31441706462,Beans,1259.23,crates,3427.37 naira,"N4,315,847",Oyingbo Market Lagos,04/22/2024,Grade B,Warehouse,Edo,Van,No
+AGR500360,Segun Adekunle,+234937830639,Yam,904.95,bags,"NGN 45,100",-,Mile 12 Market Lagos,2024-09-14,A,Open Air,Lagos,truck,no
+AGR500348,BLESSING BELLO   ,(309) 505-5605,Tomatoes,3498.84,KG,"N50,881","178,024,757.95 ",Mile 12 Market Lagos,2024-02-13,Reject,N/A,Abuja,Van,1
+AGR500276,Tunde Bello,234-532-638-902,Onions,750.35,KG,72944.11 naira,,Mile 12 Market Lagos,28/08/2024,GRADE B,N/A,kano,truck,TRUE
+AGR500056,Segun Nnamdi,(344) 902-1666,Cassava,2836.13,crates,"₦70,540.11","NGN 200,060,922",Ariaria Market Aba,00/00/0000,Premium,Warehouse,Ogun,Bicycle,0
+AGR500297,ADAEZE ABUBAKAR,31954196664,Rice (Local),3151.85,Crates,"NGN 66,915","₦210,906,105.79",Dawanau Market Kano,2024-06-07,Grade B,COLD ROOM,lagos,Van,false
+AGR500238,  halima nnamdi,+234813000413,Maize (Corn),2074.05,Crates,"N58,883","N122,126,141",Dawanau Market Kano,13 September 2024,A,Cold Room,Cross River,truck,Y
+AGR500226,Bisi Eze,N/A,Tomatoes,729.83,Tonnes,29597.69,"N21,601,282",Oyingbo Market Lagos,08/12/2024,Reject,COLD ROOM,Lagos,Motorcycle,TRUE
+AGR500192,Chinedu Eze,+234337976627,Rice (Local),4073.72,bags,"₦50,389.61",205273162.05 naira,Oyingbo Market Lagos,2024-12-29,Grade A,COLD ROOM,Rivers,Van,yes
+AGR500221,Ibrahim  Olawale,09277894319,Yam,3434.28,kg,49682.66,170624165.58 naira,Dawanau Market Kano,2025-03-24,Grade C,N/A,Rivers,Motorcycle,1
+AGR500365,Tobi Okafor,+234061537221,Palm Oil,581.25,kg ,NULL,"NGN 9,782,920",Dawanau Market Kano,06-Oct-2024,grade a,Warehouse,Edo,Bicycle,Yes
+AGR500385,Tobi Nnamdi,(333) 247-0739,Plantain,79.91,Tonnes,84714.21,"6,769,512.52 ",Oyingbo Market Lagos,00/00/0000,Grade A,warehouse,Kano,Motorcycle,Yes
+AGR500017,SADIQ ABUBAKAR,234-199-605-932,Sorghum,3430.26,Bags,"N61,951","NGN 212,507,934",Oyingbo Market Lagos,06/20/2025,null,N/A,Enugu,Bicycle,1
+AGR500133,Fatima  Ogundimu,01815899886,Tomatoes,932.58,KG,"N9,259","₦8,634,525.08",Oyingbo Market Lagos,03/31/2025,Grade C,N/A,Imo,Bicycle,Yes
+AGR500187,Segun Ogundimu,(757) 574-7583,Palm Oil,2102.07,KG,"₦54,782.65",,Mile 12 Market Lagos,2025-02-08,nil,,Plateau,Motorcycle,N
+AGR500357,Halima Ajayi,11901707568,Tomatoes,1896.69,kg ,"NGN 75,888","N143,935,119",Oyingbo Market Lagos,2024-11-20,Grade A,Warehouse,Plateau,Bicycle,true
+AGR500342,Ngozi Bello,0210 314 2175,Cassava,1496.29,kg ,"N28,451","42,570,348.27 ",Dawanau Market Kano,15/02/2024,Grade A,,Rivers,TRUCK,Y
+AGR500368,Kunle Adekunle,234-007-843-614,Beans,1596.42,kg ,23341.77,"N37,263,268",Oyingbo Market Lagos,29/06/2024,Standard,warehouse,Kano,Bicycle,true
+AGR500019,Bisi Mohammed,N/A,Plantain,4388.76,Tonnes,N/A,72667157.03 naira,Bodija Market Ibadan,13 May 2024,grade a,,Kaduna,Van,yes
+AGR500212,Kunle Okafor,00370033228,Maize (Corn),370.11,crates,"₦45,101.16","16,692,390.33 ",Mile 12 Market Lagos,04/03/2025,Premium,warehouse,Abuja,truck,No
+AGR500203,Wale Balogun,234-660-443-240,Groundnut,688.06,Bags,"₦12,634.66",8693404.159599999,Bodija Market Ibadan,26.07.2024,Grade B,,Oyo,Van,0
+AGR500296,   YUSUF AFOLABI,(996) 486-2872,Cassava,2755.18,kg,"N33,018",,Dawanau Market Kano,05-Mar-2025,Standard,warehouse,Akwa Ibom,truck,false
+AGR500161,Chidi Suleiman,03358268627,Onions,1120.63,bags,"₦2,553.06","2,861,035.63 ",Oyingbo Market Lagos,2025-05-25,Grade B,Warehouse,Delta,truck,true
+AGR500176,Sadiq Olawale,+234548374417,Palm Oil,4665.46,bags,"₦46,119.55","N215,168,916",Mile 12 Market Lagos,2024-10-02,  ,COLD ROOM,FCT,Van,TRUE
+AGR500301,WALE SULEIMAN,234-505-766-194,Sorghum,488.43,Tonnes,28241.24,"NGN 13,793,869",Mile 12 Market Lagos,09/26/2024,GRADE B,,Anambra,Van,no
+AGR500344,Fatima Eze,+234263840911,Palm Oil,425.39,tonnes,59195.0,"25,180,961.05 ",Ariaria Market Aba,12/08/2024,Grade B,Open Air,Ogun,Bicycle,false
+AGR500024,Bisi Adeyemi,24912565237,Sorghum,1292.47,Tonnes,"NGN 41,235",53294922.90180001,Oyingbo Market Lagos,19/05/2024,Grade B,warehouse,Delta,TRUCK,0
+AGR500195,Musa Okonkwo,(192) 845-5259,Yam,4998.29,kg ,--,299551468.35 naira,Dawanau Market Kano,15/03/2024,GRADE B,warehouse,Akwa Ibom,TRUCK,1
+AGR500423,Ifeoma Balogun,16093659520,Plantain,3478.35,Bags,"NGN 72,978",253841426.25899997,Mile 12 Market Lagos,14 December 2024,GRADE B,warehouse,Ogun,Van,1
+AGR500016,Tunde Afolabi,0966 630 9329,n/a,4807.54,bags,"₦66,231.99","NGN 318,412,941",Ariaria Market Aba,11.03.2024,GRADE B,Open Air,Anambra,Truck,Y
+AGR500152,Blessing Nwosu,+234925502130,Beans,2863.01,Bags,"₦78,017.99","₦223,366,285.55",Mile 12 Market Lagos,09/28/2024,GRADE B,warehouse,Abuja,Motorcycle,0
+AGR500083,Funmilayo Ogundimu,234-673-794-871,Yam,3458.58,Bags,"₦10,730.92",,Mile 12 Market Lagos,unknown date,GRADE B,,Cross River,Motorcycle,true
+AGR500274,Chidi Bello,+234001594463,Maize (Corn),3056.02,kg ,82498.58 naira,252117310.45 naira,Mile 12 Market Lagos,14 March 2024,A,warehouse,Kaduna,Van,no
+AGR500219,Chioma Ogundimu,09457039438,Palm Oil,608.72,kg ,"N83,574","N50,873,196",Oyingbo Market Lagos,2024-06-14,A,N/A,Enugu,Bicycle,1
+AGR500442,Wale Adeyemi,0617 607 2348,Cassava,1430.68,crates,"58,574.25 ",,Oyingbo Market Lagos,27.08.2024,GRADE B,warehouse,Edo,Motorcycle,FALSE
+AGR500371,Ngozi Adekunle,(720) 376-3882,Onions,  ,Crates,"₦82,773.91","₦192,662,069.70",Dawanau Market Kano,04 July 2024,grade a,Open Air,Kaduna,Van,TRUE
+AGR500419,Yusuf Nnamdi,0265 306 0119,Maize (Corn),3762.5,kg,"N3,016",11348941.625,Oyingbo Market Lagos,2025/04/27,Grade A,COLD ROOM,KANO,Motorcycle,0
+AGR500350,Femi Afolabi,0885 190 5348,Plantain,303.85,tonnes,36370.29,"₦11,051,112.62",Dawanau Market Kano,2024/10/25,Premium,COLD ROOM,Imo,Motorcycle,0
+AGR500225,Ifeoma Adeyemi,07201137984,Beans,4084.81,KG,"NGN 32,814",134039077.8843,Bodija Market Ibadan,04/12/2024,Reject,Open Air,Anambra,Van,No
+AGR500248,Chioma Okafor,234-730-626-042,Palm Oil,976.46,Crates,7199.7,,Mile 12 Market Lagos,01/22/2025,GRADE B,warehouse,Kaduna,Van,no
+AGR500330,Yusuf  Abubakar,234-752-023-897,Palm Oil,4045.02,Crates,"NGN 40,806",165063068.1798,Bodija Market Ibadan,18/08/2024,B,N/A,Kaduna,TRUCK,1
+AGR500116,Zainab Adekunle,(878) 519-3583,Sorghum,3588.03,KG,"₦83,236.74",,Dawanau Market Kano,04.04.2024,Standard,warehouse,Kano,truck,Y
+AGR500095,Kemi Okafor,(197) 374-1897,NIL,3110.68,Bags,"₦47,567.25",N/A,Oyingbo Market Lagos,2025/04/03,Grade C,COLD ROOM,lagos,TRUCK,FALSE
+AGR500130,Funmilayo Okonkwo,15298217392,Plantain,1892.0,Tonnes,"₦52,926.23",,Mile 12 Market Lagos,2025/01/25,Grade A,Cold Room,Ogun,Truck,Y
+AGR500299,Emeka Chukwu,+234463203747,Yam,274.55,Tonnes,"12,397.23 ",,Ariaria Market Aba,23 August 2024,Grade A,COLD ROOM,Delta,Bicycle,N
+AGR500102,Tunde Nwosu,66057798066,Rice (Local),4794.36,kg,17831.11 naira,"85,488,760.54 ",Bodija Market Ibadan,2024-06-22,Grade B,Cold Room,Imo,Van,TRUE
+AGR500456,Bola Suleiman,234-688-413-337,Yam,657.45,tonnes,1092.71 naira,,Oyingbo Market Lagos,15/02/2024,Grade A,Cold Room,Oyo,Bicycle,FALSE
+AGR500268,Amara Okafor,234-339-527-536,Cassava,85.31,tonnes,72491.65,"NGN 6,184,263",Mile 12 Market Lagos,2024/07/12,grade a,Warehouse,Plateau,Bicycle,false
+AGR500332,Ngozi Afolabi,17833258486,Sorghum,2058.29,KG,55707.54,"NGN 114,662,273",Mile 12 Market Lagos,14-Mar-2024,B,Warehouse,Akwa Ibom,Bicycle,N
+AGR500164,Funmilayo Suleiman,+234111000515,Palm Oil,3323.3,kg,NIL,"N86,103,479",Mile 12 Market Lagos,26/09/2024,Grade B,,oyo,Van,false
+AGR500441,Tunde Afolabi,234-698-069-087,Beans,698.01,kg,"NGN 8,037","N5,609,927",Dawanau Market Kano,12/02/2024,Premium,N/A,Imo,TRUCK,N
+AGR500172,Musa Lawal,54384807520,Groundnut,1238.03,crates,"N82,144","N101,696,452",Oyingbo Market Lagos,17-May-2024,B,Cold Room,Oyo,Van,0
+AGR500422,Bola Balogun,+234803657744,Plantain,2036.46,tonnes,63357.09,129024179.5014,Oyingbo Market Lagos,05-May-2025,grade a,,Lagos,Motorcycle,1
+AGR500057,Ibrahim Eze,08085096085,Cassava,3677.72,Crates,64162.64 naira,"NGN 235,972,224",Mile 12 Market Lagos,11/30/2024,grade a,,Plateau,truck,true
+AGR500306,Ifeoma Chukwu,0981 265 7422,Tomatoes,1587.0,crates,73841.27,-,Dawanau Market Kano,03 May 2025,GRADE B,warehouse,Imo,truck,no
+AGR500097,Ifeoma  Suleiman,0743 811 9953,Yam,2307.15,tonnes,49726.99 naira,114727624.9785,Ariaria Market Aba,05/22/2024,Premium,Warehouse,abuja,Van,true
+AGR500455,Amara Ajayi,(817) 760-2991,Cassava,1664.17,Bags,"NGN 73,482",122287255.5331,Oyingbo Market Lagos,10/27/2024,Grade C,warehouse,Edo,TRUCK,no
+AGR500188,Bisi Okonkwo,234-205-677-567,Cassava,282.03,Crates,"NGN 66,699","₦18,811,144.35",Bodija Market Ibadan,12.03.2025,B,COLD ROOM,Lagos,TRUCK,TRUE
+AGR500320,Adaeze Chukwu,+234102451091,Onions,2654.08,Tonnes,"₦33,416.85",88690993.248,Bodija Market Ibadan,13-Feb-2024,Grade A,Warehouse,Lagos State,Bicycle,Yes
+AGR500013,Ngozi Afolabi,+234865369455,Pepper,1393.39,KG,32331.74,,Oyingbo Market Lagos,23/11/2024,Grade B,N/A,Fct Abuja,Truck,FALSE
+AGR500154,Segun Adeyemi,00796496737,Onions,1870.43,tonnes,36050.24,"₦67,429,450.40",Ariaria Market Aba,30 April 2024,Premium,,KANO,Truck,Y
+AGR500282,Chioma Olawale,0196 263 3556,Onions,1529.7,Crates,"₦74,838.19","₦114,479,979.24",Oyingbo Market Lagos,02/03/2024,Premium,warehouse,Kano,Motorcycle,No
+AGR500029,Chidi  Ogundimu,+234394290458,Maize (Corn),3524.27,crates,5962.35 naira,21012931.234500002,Dawanau Market Kano,09 December 2024,Reject,N/A,Delta,truck,No
+AGR500027,Segun Nnamdi,0403 595 4429,Palm Oil,4502.08,tonnes,"N53,385","NGN 240,342,145",Bodija Market Ibadan,09/09/2024,Grade C,Warehouse,Ibadan,TRUCK,true
+AGR500292,wale adekunle,02480880622,Maize (Corn),3189.66,tonnes,"NGN 74,327",237077252.7846,Dawanau Market Kano,10/05/2024,  ,,Ogun,TRUCK,No
+AGR500063,Amara Nnamdi,0923 234 2108,Rice (Local),1061.68,bags,"NGN 42,565",,Oyingbo Market Lagos,15 January 2024,Grade B,COLD ROOM,Abuja,Van,yes
+AGR500109,Sadiq Nwosu,0826 913 1196,Palm Oil,2388.66,KG,"NGN 69,173",NIL,Oyingbo Market Lagos,24.01.2024,Premium,Open Air,Lagos,Bicycle,Yes
+AGR500081,MUSA OKEKE   ,+234529060320,Sorghum,2504.01,Tonnes,"₦39,773.38","NGN 99,592,941",Dawanau Market Kano,02 February 2024,GRADE B,Cold Room,Lagos State,Truck,No
+AGR500366,Bisi Okeke,+234668473236,Cassava,?,KG,49860.35 naira,--,Dawanau Market Kano,2025/06/06,A,,Plateau,Truck,No
+AGR500403,Funmilayo Ogundimu,08266913624,Cassava,3957.79,kg,23930.64 naira,"₦94,712,447.69",Dawanau Market Kano,2024-12-26,grade a,Cold Room,lagos,Truck,yes
+AGR500211,Bola Nnamdi,0137 214 3308,Onions,891.12,tonnes,"₦47,424.88","NGN 42,261,259",Oyingbo Market Lagos,2024-02-03,,Open Air,Edo,Motorcycle,No
+AGR500183,Funmilayo Abubakar,0113 253 2694,Pepper,4555.03,Crates,"NGN 57,649",262594746.482,Dawanau Market Kano,2025-05-02,B,Warehouse,Cross River,Truck,FALSE
+AGR500129,Ifeoma Nnamdi,(282) 709-0814,Rice (Local),2950.03,Tonnes,Unknown,"NGN 61,449,302",Oyingbo Market Lagos,06 June 2025,,warehouse,Enugu,TRUCK,Y
+AGR500392,Obinna Okonkwo,01876920828,Rice (Local),2464.26,Bags,"N7,749",19095008.6028,Oyingbo Market Lagos,28.05.2025,Grade B,Warehouse,Abuja,truck,no
+AGR500325,Chioma Balogun,N/A,unknown,,kg ,"NGN 79,418","NGN 182,445,291",Bodija Market Ibadan,08/08/2024,Grade B,Warehouse,Enugu,Van,false
+AGR500166,Fatima Lawal,234-244-182-226,Groundnut,2777.66,kg ,"₦47,782.85","NGN 132,724,511",Ariaria Market Aba,,Grade C,warehouse,Akwa Ibom,Bicycle,1
+AGR500275,TUNDE ABUBAKAR   ,03999485320,Maize (Corn),4943.35,kg,"₦60,262.51","NGN 297,898,679",Ariaria Market Aba,2024/09/10,B,Cold Room,Anambra,Van,Yes
+AGR500431,Yusuf Ajayi,31234550688,Maize (Corn),4271.7,Tonnes,"NGN 23,556",nil,Mile 12 Market Lagos,03/16/2025,grade a,Cold Room,Delta,Bicycle,no
+AGR500087,Bola Okeke,0000000000,Rice (Local),381.03,Bags,"N63,121",24050838.41 naira,Mile 12 Market Lagos,27/09/2024,Grade B,,Abuja,Van,No
+AGR500347,Femi Abubakar   ,03787655300,Tomatoes,1705.4,Bags,78363.2,"₦133,640,601.28",Oyingbo Market Lagos,24.02.2024,Grade B,Warehouse,kano,Truck,no
+AGR500426,TUNDE OGUNDIMU,234-239-982-137,NIL,4584.63,crates,22248.07 naira,,Dawanau Market Kano,2024-07-27,Grade B,Warehouse,Edo,Van,false
+AGR500223,Tobi Balogun,invalid,Maize (Corn),1821.4,Bags,"NGN 28,860",,Ariaria Market Aba,26-Jul-2024,nil,COLD ROOM,Oyo,truck,No
+AGR500414,Tobi Bello,09880315388,Pepper,3662.92,Bags,"₦15,367.06",56288311.4152,Ariaria Market Aba,09 July 2024,Grade B,Warehouse,Rivers,Motorcycle,FALSE
+AGR500434,Ifeoma Ogundimu,(354) 378-8260,Groundnut,1830.17,crates,"₦49,421.23","N90,449,253",Dawanau Market Kano,2025/04/19,GRADE B,warehouse,Rivers,Truck,No
+AGR500433,Musa Chukwu,(844) 013-4808,Onions,454.17,bags,?,5198057.40 naira,Bodija Market Ibadan,04.03.2024,B,Warehouse,Anambra,TRUCK,true
+AGR500165,Fatima Nwosu,(323) 415-9597,Cassava,2789.92,kg ,"₦57,192.71",Unknown,Ariaria Market Aba,22-Jun-2025,GRADE B,Cold Room,kano,Van,yes
+AGR500351,Femi Adeyemi,+234010424624,Tomatoes,2595.42,kg,"₦14,930.93","₦38,752,034.34",Mile 12 Market Lagos,14.04.2025,A,Cold Room,Akwa Ibom,Van,Yes
+AGR500341,Zainab Eze,63251448811,Groundnut,2530.29,crates,14420.60 naira,36488299.974,Dawanau Market Kano,07.04.2025,B,,Kaduna,Bicycle,true
+AGR500188,Bisi Okonkwo,234-205-677-567,Cassava,282.03,Crates,"NGN 66,699","₦18,811,144.35",Bodija Market Ibadan,12.03.2025,B,COLD ROOM,Lagos,TRUCK,TRUE
+AGR500114,Grace Adeyemi,+234696454655,Groundnut,1942.52,Crates,16444.39 naira,,Dawanau Market Kano,13-Apr-2024,Grade B,Warehouse,Imo,Bicycle,yes
+AGR500012,Zainab Chukwu,+234116331942,Palm Oil,323.91,KG,"7,884.67 ","N2,553,923",Mile 12 Market Lagos,02-Apr-2025,GRADE B,Cold Room,Kano,Van,No
+AGR500240,Emeka Adeyemi,(565) 346-9979,  ,4000.85,kg ,57286.40 naira,"NGN 229,194,293",Mile 12 Market Lagos,12 June 2024,Grade A,warehouse,Abuja,Motorcycle,Yes
+AGR500117,Obinna Suleiman,0490 797 7961,Groundnut,3746.39,Crates,,"NGN 179,263,151",Bodija Market Ibadan,30 May 2025,Grade B,warehouse,ABUJA,truck,0
+AGR500182,Fatima Eze,N/A,Groundnut,276.5,kg ,NIL,"N15,317,185",Bodija Market Ibadan,07-Mar-2025,B,,Enugu,Motorcycle,Y
+AGR500437,OBINNA ADEKUNLE,49269996996,Onions,4549.8,kg,"NGN 46,996",213821354.35 naira,Ariaria Market Aba,04.01.2025,unknown,,Edo,Van,FALSE
+AGR500395,Emeka Ogundimu,67323182971,-,4165.86,crates,16125.21,  ,Bodija Market Ibadan,2024/10/15,B,warehouse,Ogun,TRUCK,0
+AGR500177,Adaeze Lawal,58102131251,Beans,2922.28,tonnes,"₦65,329.65",190911529.60200003,Bodija Market Ibadan,2025-04-11,Premium,,Delta,truck,TRUE
+AGR500280,chioma ogundimu,234-960-843-768,Rice (Local),4244.8,kg ,NGN 681,"₦2,891,685.10",Ariaria Market Aba,06/06/2024,nil,Warehouse,Anambra,Motorcycle,No
+AGR500322,Amaka Eze,+234194217942,Tomatoes,4134.81,bags,"72,542.72 ","₦299,950,364.08",Mile 12 Market Lagos,04/25/2025,Standard,Open Air,Akwa Ibom,Motorcycle,N
+AGR500170,Bisi  Afolabi,+234512294621,Cassava,1557.46,KG,"₦49,113.56","₦76,492,405.16",Oyingbo Market Lagos,09 November 2024,grade a,,Imo,truck,TRUE
+AGR500285,Zainab Adeyemi,01645345472,Onions,3385.0,bags,"N1,934",6546014.55,Bodija Market Ibadan,27/12/2024,B,warehouse,Port Harcourt,Truck,false
+AGR500376,Tobi Yusuf,(999) 516-7933,Beans,--,tonnes,35935.64,"78,108,629.03 ",Bodija Market Ibadan,2024/11/03,Grade A,N/A,Cross River,Truck,yes
+AGR500162,ZAINAB BALOGUN,+234369249269,Yam,1182.33,KG,NULL,73922582.12 naira,Oyingbo Market Lagos,07/24/2024,Grade A,,Ogun,Van,1
+AGR500053,ibrahim bello   ,05622949381,Palm Oil,747.1,Tonnes,"44,169.07 ",null,Dawanau Market Kano,2024/12/19,Reject,,Anambra,Van,true
+AGR500218,Grace  Okonkwo,03210613394,Sorghum,3595.62,bags,"N25,043","N90,046,334",Ariaria Market Aba,21.10.2024,unknown,,Kaduna,Truck,0
+AGR500186,Kunle Bello,07015959194,Pepper,4756.81,kg,7021.04,33397753.2824,Mile 12 Market Lagos,21-Feb-2025,grade a,warehouse,Plateau,Bicycle,0
+AGR500405,Halima Mohammed,N/A,Sorghum,1355.61,kg ,"NGN 37,491","₦50,823,486.30",Bodija Market Ibadan,06/07/2024,Grade A,N/A,Abuja,truck,0
+AGR500030,Kunle  Mohammed   ,+234792529858,Sorghum,2398.67,kg ,"N53,485","NGN 128,293,417",Dawanau Market Kano,06 June 2024,?,,Cross River,Truck,FALSE
+AGR500220,Kunle Okonkwo,04032537657,Beans,4400.01,Bags,"NGN 74,048",325813348.4832001,Mile 12 Market Lagos,26.05.2025,Grade C,N/A,Akwa Ibom,TRUCK,0
+AGR500295,Kemi Eze,234-876-886-878,Maize (Corn),841.21,crates,"N54,176",45572997.59 naira,Dawanau Market Kano,16-Feb-2025,grade a,Open Air,Anambra,Truck,Y
+AGR500039,Chioma Nnamdi,234-490-961-739,Sorghum,4128.62,tonnes,18426.23 naira,76074901.70 naira,Mile 12 Market Lagos,11-May-2024,Grade B,N/A,Ogun,Truck,TRUE
+AGR500180,Tunde Chukwu,+234106330165,Rice (Local),4643.31,Crates,"N38,215","₦177,444,788.15",Bodija Market Ibadan,20.05.2025,Premium,warehouse,Imo,Truck,FALSE
+AGR500205,Bisi Lawal,234-147-439-742,Palm Oil,2269.98,Bags,n/a,144564107.60 naira,Bodija Market Ibadan,18.07.2024,GRADE B,N/A,Oyo,Motorcycle,FALSE
+AGR500032,Ngozi Olawale,+234433249135,Palm Oil,583.69,Crates,"N11,003","NGN 6,422,423",Bodija Market Ibadan,20.04.2025,grade a,warehouse,Kaduna,Truck,N
+AGR500246,  Tobi Balogun,+234680491872,Sorghum,--,Bags,17989.66 naira,67173390.44 naira,Oyingbo Market Lagos,2024/07/30,Grade C,Cold Room,Edo,TRUCK,0
+AGR500034,Bisi Nwosu,+234148881079,Rice (Local),607.34,Bags,79569.42,"NGN 48,325,692",Ariaria Market Aba,23-Oct-2024,Premium,N/A,Lag,Truck,false
+AGR500124,FUNMILAYO AJAYI   ,01452647124,Tomatoes,4274.1,tonnes,"₦58,517.18","₦250,108,279.04",Mile 12 Market Lagos,26.06.2024,B,COLD ROOM,Lagos State,Bicycle,N
+AGR500160,ifeoma suleiman,43627187496,Tomatoes,4721.17,crates,"₦67,959.45",,Oyingbo Market Lagos,05-Oct-2024,GRADE B,warehouse,Ibadan,TRUCK,true
+AGR500204,Zainab Afolabi,06157276829,Palm Oil,3788.03,Bags,"NGN 72,425",274348224.2712,Mile 12 Market Lagos,2025/06/05,Grade C,,Kano,truck,1
+AGR500300,Bola Adekunle,07753726032,Tomatoes,3494.02,KG,"₦13,140.06","NGN 45,911,632",Bodija Market Ibadan,02/23/2025,Premium,COLD ROOM,Ogun,TRUCK,false
+AGR500158,FEMI OKEKE,(776) 755-5628,Maize (Corn),2532.38,Crates,"N55,439","140,393,805.04 ",Dawanau Market Kano,2025/03/09,B,COLD ROOM,Imo,Truck,1
+AGR500057,Ibrahim Eze,08085096085,Cassava,3677.72,Crates,64162.64 naira,"NGN 235,972,224",Mile 12 Market Lagos,11/30/2024,grade a,,Plateau,truck,true
+AGR500135,Ifeoma Olawale,17071587964,Tomatoes,4784.7,kg ,"₦29,142.27",139437019.27 naira,Oyingbo Market Lagos,25.03.2024,B,,Delta,Van,FALSE
+AGR500369,Tunde Eze,0442 607 8197,Maize (Corn),2443.32,crates,"₦26,470.41","NGN 64,675,682",Ariaria Market Aba,04/21/2025,Standard,Open Air,abuja,Truck,FALSE
+AGR500337,kunle okafor,03606014886,Cassava,384.45,Bags,"N68,160","NGN 26,204,266",Bodija Market Ibadan,14/01/2025,grade a,COLD ROOM,Kaduna,Truck,yes
+AGR500128,Segun Adeyemi,+234835129592,Plantain,1029.7,crates,"NGN 6,805","N7,007,510",Oyingbo Market Lagos,11-Jun-2024,Grade C,COLD ROOM,Plateau,Van,false
+AGR500159,Yusuf Yusuf,03339395786,Beans,3883.45,KG,"N57,758",,Oyingbo Market Lagos,2024-05-17,B,COLD ROOM,Delta,truck,FALSE
+AGR500156,Kunle Lawal,26425064207,Pepper,2149.42,Tonnes,"N26,121","NGN 56,145,967",Oyingbo Market Lagos,N/A,Premium,Cold Room,Akwa Ibom,truck,TRUE
+AGR500112,Yusuf Chukwu,(333) 373-2043,Sorghum,4839.17,KG,"NGN 68,922",333525613.48 naira,Mile 12 Market Lagos,12/25/2024,unknown,COLD ROOM,Kaduna,TRUCK,No
+AGR500359,  Sadiq Balogun   ,01073228360,Cassava,924.71,Tonnes,"N47,473",,Oyingbo Market Lagos,2024/08/16,A,Open Air,Imo,Bicycle,no
+AGR500364,Ifeoma Olawale,0301 623 4190,Palm Oil,2067.47,tonnes,"N43,659",90262949.12 naira,Ariaria Market Aba,2024-07-26,Grade A,Warehouse,Delta,Truck,yes
+AGR500247,Chioma Adeyemi,234-204-956-121,Groundnut,3743.59,KG,₦769.06,"₦2,879,045.33",Mile 12 Market Lagos,15-Dec-2024,Grade B,,Edo,Truck,true
+AGR500179,Sadiq Okeke,(975) 191-0231,Beans,1509.7,crates,23915.86 naira,"₦36,105,773.84",Oyingbo Market Lagos,00/00/0000,?,N/A,Ogun,Bicycle,Y
+AGR500020,Zainab Olawale,+234773973278,Palm Oil,2725.0,Tonnes,"NGN 10,519","28,664,738.25 ",Dawanau Market Kano,2024/01/14,Premium,Warehouse,Ogun,truck,TRUE
+AGR500040,  Bola Okeke,(704) 694-7258,Onions,872.18,Bags,"NGN 53,347",46527872.48 naira,Oyingbo Market Lagos,18/01/2025,GRADE B,,Edo,Motorcycle,Y
+AGR500415,Bola Suleiman,0245 279 0504,Maize (Corn),4621.02,Crates,21351.42 naira,"₦98,665,338.85",Dawanau Market Kano,2024-09-20,Standard,COLD ROOM,Akwa Ibom,Motorcycle,1
+AGR500143,Yusuf Adeyemi,0906 072 3111,Tomatoes,4477.58,Tonnes,"₦57,780.04",258714751.5032,Dawanau Market Kano,14.04.2024,NULL,warehouse,Abuja,truck,TRUE
+AGR500122,Amaka Okonkwo,0623 392 2071,Beans,--,kg ,"80,500.96 ",200843455.12320003,Bodija Market Ibadan,06-Oct-2024,B,Open Air,Edo,truck,yes
+AGR500022,Grace Lawal,06164819807,Plantain,3521.55,crates,unknown,"N299,169,407",Mile 12 Market Lagos,13 December 2024,B,Cold Room,Rivers,TRUCK,FALSE
+AGR500061,Funmilayo Nnamdi,00694096003,Rice (Local),709.12,Bags,"₦14,420.78","NGN 10,226,064",Bodija Market Ibadan,2025/01/06,Reject,N/A,Enugu,Van,false
+AGR500233,Wale Chukwu,234-058-295-829,Palm Oil,1567.06,tonnes,"₦24,208.21",,Ariaria Market Aba,2024-11-27,Reject,warehouse,KANO,Truck,Yes
+AGR500413,Emeka Ogundimu,234-301-764-644,Palm Oil,62.95,Bags,27657.18,,Oyingbo Market Lagos,2024-06-21,?,Cold Room,Imo,Van,no
+AGR500312,Fatima Balogun,234-745-847-609,Sorghum,1588.79,Crates,"57,444.07 ","N91,266,564",Mile 12 Market Lagos,10/26/2024,Grade B,warehouse,Lagos State,Bicycle,Yes
+AGR500384,FATIMA  OKEKE,0019 043 2230,Yam,4559.18,Bags,"₦48,305.55",Unknown,Ariaria Market Aba,2025/01/13,Grade A,Open Air,Ogun,Bicycle,Y
+AGR500144,Kunle Balogun,+234128524648,Tomatoes,752.12,kg ,41980.14,"NGN 31,574,103",Dawanau Market Kano,09 February 2024,grade a,COLD ROOM,Fct Abuja,Van,1
+AGR500014,Emeka Ogundimu,(588) 863-6774,Beans,2680.87,bags,"4,180.84 ",11208288.53 naira,Ariaria Market Aba,14 September 2024,,COLD ROOM,Akwa Ibom,Truck,no
+AGR500237,Tobi Okeke   ,0308 172 1436,Yam,NULL,tonnes,31239.30 naira,,Ariaria Market Aba,31-Jul-2024,Unknown,warehouse,Oyo,Truck,0
+AGR500098,Grace Lawal,66014448564,Sorghum,2477.87,crates,"₦12,665.80",-,Oyingbo Market Lagos,19 November 2024,Reject,Warehouse,Lagos,TRUCK,no
+AGR500077,Obinna Abubakar,+234290477425,Maize (Corn),577.42,crates,"₦4,046.65",,Ariaria Market Aba,19.08.2024,Grade A,N/A,Rivers,Bicycle,0
+AGR500101,Amaka Mohammed,234-191-911-359,Sorghum,4385.52,Crates,"₦14,909.84",65387401.51680001,Oyingbo Market Lagos,22 May 2024,Grade B,Cold Room,Anambra,Bicycle,TRUE
+AGR500269,Musa Lawal,+234978524914,Pepper,4096.59,KG,"NGN 75,546",,Dawanau Market Kano,04 November 2024,Standard,,Delta,truck,0
+AGR500420,amaka mohammed,75617868800,Maize (Corn),4976.43,crates,-,"NGN 329,521,578",Dawanau Market Kano,,GRADE B,COLD ROOM,Kano,Motorcycle,FALSE
+AGR500193,Grace Nwosu,234-115-794-238,Plantain,3216.38,crates,"N70,848","N227,874,219",Dawanau Market Kano,01-May-2024,A,COLD ROOM,Abuja,Truck,true
+AGR500363,Chidi Lawal,0342 929 1320,Beans,818.2,kg ,"₦38,491.32","NGN 31,493,598",Mile 12 Market Lagos,2025-01-05,Grade A,Cold Room,Lagos,truck,Y
+AGR500436,  Halima Olawale,234-599-144-920,Plantain,2872.94,bags,"NGN 39,515","NGN 113,524,598",Dawanau Market Kano,03.06.2024,Grade A,warehouse,Akwa Ibom,Van,Y
+AGR500035,Grace Ajayi,03342337209,Tomatoes,3309.32,KG,"N15,360","N50,831,023",Ariaria Market Aba,08/17/2024,Grade B,warehouse,Rivers,Van,no
+AGR500293,Sadiq Nwosu,07223959473,Tomatoes,3274.07,Tonnes,"25,250.15 ","82,670,758.61 ",Oyingbo Market Lagos,18 April 2025,Grade A,Open Air,Delta,Van,No
+AGR500041,KUNLE NWOSU,+234444835488,Beans,3893.47,kg ,"NGN 60,791",236686260.58 naira,Dawanau Market Kano,16-Aug-2024,B,N/A,Kaduna,Bicycle,Yes
+AGR500424,Kemi Yusuf,234-491-189-418,Tomatoes,3705.79,tonnes,12153.53 naira,,Dawanau Market Kano,2025/01/22,B,Warehouse,Ogun,Truck,1
+AGR500190,Tunde Ajayi,0506 229 2310,?,2220.89,kg,36897.68 naira,81945688.54 naira,Mile 12 Market Lagos,07/26/2024,Reject,COLD ROOM,KANO,Van,TRUE
+AGR500407,Kemi Adekunle,0164 818 8044,Groundnut,3606.86,bags,"₦83,388.97","300,772,340.33 ",Bodija Market Ibadan,not set,GRADE B,N/A,Lagos State,Motorcycle,N
+AGR500327,  Sadiq Nwosu,+234894370526,Maize (Corn),837.11,kg,"NGN 84,291","₦70,560,914.35",Oyingbo Market Lagos,2025-06-26,Grade A,N/A,Abuja,Bicycle,No
+AGR500133,Fatima  Ogundimu,01815899886,Tomatoes,932.58,KG,"N9,259","₦8,634,525.08",Oyingbo Market Lagos,03/31/2025,Grade C,N/A,Imo,Bicycle,Yes
+AGR500352,Segun Lawal,234-185-174-460,Plantain,3429.95,bags,"N2,578","NGN 8,841,245",Dawanau Market Kano,20 April 2025,Grade A,,Ogun,Bicycle,false
+AGR500454,Ifeoma Yusuf,0207 266 2925,Pepper,1224.97,bags,"₦81,310.38","NGN 99,602,776",Dawanau Market Kano,08 April 2024,Reject,COLD ROOM,Kaduna,Motorcycle,true
+AGR500224,Musa Eze,04014247310,Rice (Local),947.76,bags,"₦17,752.03",,Ariaria Market Aba,2025-02-19,GRADE B,warehouse,Enugu,Bicycle,0
+AGR500206,Halima Adeyemi,0250 105 8752,Plantain,3439.22,tonnes,"N33,171","₦114,083,811.09",Ariaria Market Aba,02 August 2024,A,Open Air,Ogun,Motorcycle,No
+AGR500314,Segun Okeke,85666954132,Cassava,554.89,KG,"NGN 44,458","NGN 24,669,461",Dawanau Market Kano,04/09/2024,Grade C,Warehouse,Akwa Ibom,Van,No
+AGR500329,Fatima Nnamdi,(725) 659-2024,Beans,4096.81,kg,"NGN 61,966","N253,862,683",Dawanau Market Kano,27-Aug-2024,grade a,Cold Room,Anambra,TRUCK,Y
+AGR500230,Funmilayo Afolabi,07825588255,Groundnut,3082.84,tonnes,"NGN 48,747",,Ariaria Market Aba,2024/02/11,A,COLD ROOM,Cross River,truck,0
+AGR500067,Ngozi Okafor,+234112898123,Onions,2978.74,Bags,41491.48,"₦123,592,331.14",Ariaria Market Aba,14/03/2025,Premium,N/A,FCT,Bicycle,Yes
+AGR500078,Musa Nnamdi,(591) 779-3238,Onions,2573.19,Crates,"NGN 28,078","NGN 72,249,900",Bodija Market Ibadan,04.04.2025,A,COLD ROOM,Delta,TRUCK,true
+AGR500460,Ifeoma Mohammed,05613371844,Sorghum,2052.05,KG,"N52,838","₦108,425,704.89",Oyingbo Market Lagos,14-May-2024,GRADE B,Cold Room,Rivers,Bicycle,No
+AGR500383,Adaeze Adekunle,93940655782,Beans,97.02,bags,"N68,054","NGN 6,602,637",Dawanau Market Kano,unknown date,Premium,N/A,Cross River,Bicycle,No
+AGR500307,Kemi Nnamdi,0196 463 0040,Tomatoes,3626.34,Crates,"₦36,513.79",,Mile 12 Market Lagos,2025-01-28,B,Warehouse,Kaduna,Motorcycle,N
+AGR500388,ALIYU BALOGUN,(126) 163-2488,Sorghum,2865.2,kg,"N12,846","₦36,806,674.37",Bodija Market Ibadan,04/01/2025,Premium,Cold Room,FCT,truck,N
+AGR500209,Halima Okafor,(218) 231-5551,Cassava,3522.91,KG,"NGN 2,669","₦9,402,188.81",Mile 12 Market Lagos,02/27/2025,GRADE B,N/A,Plateau,Van,0
+AGR500259,Chioma Chukwu,0605 603 5679,Pepper,1522.76,tonnes,"NGN 52,049",null,Oyingbo Market Lagos,2025-02-16,Grade B,N/A,Delta,Van,Y
+AGR500001,Segun Okonkwo,234-029-168-154,Beans,3122.73,Tonnes,72144.62,"₦225,288,169.21",Bodija Market Ibadan,05.06.2025,B,warehouse,kano,Bicycle,FALSE
+AGR500387,Chinedu Adeyemi,234-250-826-112,Sorghum,1937.58,crates,"N42,266",81892826.24 naira,Mile 12 Market Lagos,not set,B,Open Air,Kaduna,Bicycle,N
+AGR500272,Kunle Okeke,N/A,-,2606.83,crates,"₦70,004.21",182489074.7543,Ariaria Market Aba,02/24/2024,--,,Oyo,Bicycle,0
+AGR500374,YUSUF CHUKWU,78020586950,Cassava,2772.15,bags,"₦16,822.32",46633994.388000004,Ariaria Market Aba,30.10.2024,?,COLD ROOM,Edo,truck,no
+AGR500448,  Emeka Lawal,+234823948400,Maize (Corn),41.12,Crates,"NGN 23,679",NULL,Ariaria Market Aba,,Premium,warehouse,Cross River,TRUCK,false
+AGR500106,Fatima Nwosu,(598) 354-1165,Rice (Local),313.66,kg,"N75,719",23750052.906000003,Bodija Market Ibadan,15/02/2025,A,COLD ROOM,Abuja,Truck,N
+AGR500380,MUSA AJAYI,(040) 961-4973,Yam,N/A,tonnes,"NGN 29,571",,Ariaria Market Aba,2024/12/06,Reject,,Akwa Ibom,Bicycle,FALSE
+AGR500449,yusuf chukwu,+234300869661,Cassava,1047.16,bags,"2,451.62 ","NGN 2,567,238",Dawanau Market Kano,2024/07/04,Reject,warehouse,Imo,Bicycle,1
+AGR500394,chidi adekunle,+234881445822,Pepper,1578.65,kg ,"₦9,488.08","₦14,978,357.49",Mile 12 Market Lagos,2024-09-06,Grade B,Cold Room,Abuja,Bicycle,1
+AGR500290,Sadiq Adekunle,0230 391 1142,Tomatoes,1287.97,Bags,?,11993769.84 naira,Mile 12 Market Lagos,03/28/2025,grade a,Open Air,Edo,truck,yes
+AGR500174,  GRACE ADEKUNLE,08029090463,Maize (Corn),2898.91,crates,"NGN 21,425","₦62,108,508.99",Dawanau Market Kano,23 January 2025,nil,,Akwa Ibom,truck,false
+AGR500033,Musa Balogun,(790) 833-5061,nil,357.3,kg,25812.52 naira,"NGN 9,222,813",Ariaria Market Aba,24-Mar-2025,B,,Akwa Ibom,TRUCK,No
+AGR500273,Ibrahim Adekunle,01418842163,Rice (Local),958.82,bags,"N14,675",,Oyingbo Market Lagos,2024/06/01,Grade A,Open Air,Lagos,Van,0
+AGR500289,Segun Adekunle,+234319092487,Beans,3550.69,tonnes,"₦3,923.49","NGN 13,931,097",Mile 12 Market Lagos,15.11.2024,Standard,warehouse,Enugu,Motorcycle,yes
+AGR500202,Blessing Okonkwo,33991403884,Pepper,944.04,crates,"N62,580",59077749.43 naira,Ariaria Market Aba,18-Jun-2025,Grade A,Warehouse,Kaduna,truck,Y
+AGR500065,Blessing Nwosu,234-643-350-271,Groundnut,2533.0,kg ,"₦66,717.94","NGN 168,996,542",Mile 12 Market Lagos,02.05.2024,B,warehouse,Kaduna,Truck,yes
+AGR500270,Sadiq Okafor,0686 013 4778,Beans,4606.44,Tonnes,"NGN 66,850","₦307,942,586.90",Mile 12 Market Lagos,26 June 2025,GRADE B,N/A,Edo,truck,true
+AGR500074,OBINNA  NWOSU,0465 495 0050,--,2425.28,tonnes,77317.98,"NGN 187,517,751",Mile 12 Market Lagos,03-Jan-2025,Grade C,Warehouse,Akwa Ibom,Van,TRUE
+AGR500015,  FUNMILAYO NNAMDI,,Beans,2713.78,kg,"NGN 50,589",137287579.2468,Dawanau Market Kano,13 January 2024,GRADE B,COLD ROOM,Ogun,Truck,true
+AGR500196,Amaka  Ajayi,234-075-633-535,Yam,523.1,Bags,"N64,656","N33,821,444",Dawanau Market Kano,04-Jun-2024,Premium,COLD ROOM,Plateau,Bicycle,false
+AGR500231,Adaeze Chukwu,(296) 575-4278,Pepper,4055.19,crates,"N46,748","NGN 189,570,684",Bodija Market Ibadan,2025/03/17,A,COLD ROOM,Lagos,truck,yes
+AGR500169,Adaeze Suleiman,05799270795,Plantain,4434.28,bags,"NGN 4,374","₦19,396,604.95",Bodija Market Ibadan,03/04/2025,GRADE B,Open Air,Delta,Van,yes
+AGR500038,Halima Okeke,0717 173 1893,Rice (Local),3487.9,kg ,"N28,777","₦100,371,298.30",Dawanau Market Kano,11/01/2024,  ,Open Air,Ogun,Motorcycle,N
+AGR500216,Ibrahim Okafor,+234858623945,Tomatoes,4326.1,kg ,79442.24 naira,"N343,675,074",Bodija Market Ibadan,06/02/2024,Standard,Warehouse,Delta,Bicycle,N
+AGR500311,Musa Abubakar,0558 298 4933,Pepper,2871.47,Tonnes,"N23,425",67264759.04 naira,Ariaria Market Aba,15/09/2024,Standard,,Delta,Van,yes
+AGR500076,Zainab Ajayi,(053) 161-1776,Rice (Local),4616.91,Bags,"₦1,992.40",9198731.48 naira,Ariaria Market Aba,19/05/2024,Standard,COLD ROOM,Abuja,truck,true
+AGR500091,Tunde Olawale,24014843991,Tomatoes,1129.34,bags,"68,665.64 ",77546853.88 naira,Dawanau Market Kano,12/22/2024,Grade B,,Akwa Ibom,Bicycle,FALSE
+AGR500037,Tunde Balogun,39977180513,Tomatoes,4356.76,tonnes,"N71,419","₦311,154,614.66",Bodija Market Ibadan,28 May 2025,grade a,COLD ROOM,Enugu,Van,0
+AGR500113,Kunle Bello,(977) 688-9362,NULL,4938.82,kg,9972.90 naira,"49,254,357.98 ",Ariaria Market Aba,2024/04/19,GRADE B,warehouse,Cross River,Van,false
+AGR500153,Ngozi Olawale,(090) 691-3098,Cassava,3052.62,KG,"25,603.02 ","NGN 78,156,291",Ariaria Market Aba,2024/03/29,null,N/A,Kaduna,TRUCK,FALSE
+AGR500299,Emeka Chukwu,+234463203747,Yam,274.55,Tonnes,"12,397.23 ",,Ariaria Market Aba,23 August 2024,Grade A,COLD ROOM,Delta,Bicycle,N
+AGR500072,Ifeoma Ogundimu,+234009345962,N/A,1658.37,tonnes,"34,666.54 ","N57,489,950",Dawanau Market Kano,08/03/2025,A,COLD ROOM,Kano,TRUCK,no
+AGR500150,ifeoma adeyemi   ,0235 707 1398,Beans,1810.03,Bags,"₦27,506.44","NGN 49,787,482",Oyingbo Market Lagos,13/01/2025,Standard,Cold Room,Anambra,Truck,no
+AGR500185,Halima Olawale   ,42101750961,Rice (Local),4270.08,tonnes,"₦19,809.80",84589430.78 naira,Mile 12 Market Lagos,27 February 2025,Grade B,,Plateau,Bicycle,1
+AGR500234,EMEKA SULEIMAN,03616188081,Beans,4342.2,kg,44666.72 naira,193951831.584,Dawanau Market Kano,01 October 2024,  ,Open Air,Ibadan,TRUCK,Y
+AGR500457,Ifeoma Adekunle,12552356178,Pepper,3179.2,KG,"₦9,118.22",,Dawanau Market Kano,2025/04/08,Standard,,Abuja,Motorcycle,TRUE
+AGR500070,Ngozi Afolabi,+234416431670,Rice (Local),2652.19,Crates,9399.56 naira,24929419.04 naira,Ariaria Market Aba,2024-09-11,Standard,,Abuja,Bicycle,1
+AGR500092,Grace Yusuf,+234622723626,Palm Oil,57.65,kg ,3350.42,"N193,152",Mile 12 Market Lagos,27 November 2024,Reject,Cold Room,Edo,Van,TRUE
+AGR500409,Blessing Okonkwo,(432) 126-9428,Yam,3952.24,Crates,NIL,"₦17,088,062.95",Ariaria Market Aba,2025/04/11,Premium,COLD ROOM,Delta,Motorcycle,TRUE
+AGR500147,  SADIQ OKEKE,11369572790,Beans,Unknown,Crates,?,"N117,804,417",Ariaria Market Aba,03.09.2024,Grade A,warehouse,Imo,truck,Yes
+AGR500043,FUNMILAYO NNAMDI,(164) 175-8231,Groundnut,1698.71,KG,9889.17 naira,,Bodija Market Ibadan,13.01.2024,Standard,warehouse,Kano,TRUCK,yes
+AGR500283,AMAKA OGUNDIMU,0343 697 0931,Palm Oil,769.68,KG,"₦35,839.63","NGN 27,585,046",Oyingbo Market Lagos,25-Jul-2024,Standard,Open Air,Edo,Van,yes
+AGR500014,Emeka Ogundimu,(588) 863-6774,Beans,2680.87,bags,"4,180.84 ",11208288.53 naira,Ariaria Market Aba,14 September 2024,,COLD ROOM,Akwa Ibom,Truck,no
+AGR500168,Chidi Yusuf,+234102676720,Pepper,  ,Bags,"₦62,623.82","NGN 41,341,741",Oyingbo Market Lagos,17-May-2025,nil,Open Air,Port Harcourt,Bicycle,1
+AGR500279,Chidi Lawal,0967 331 1677,Sorghum,3098.15,kg,71343.15 naira,"221,031,780.17 ",Bodija Market Ibadan,08/10/2024,Grade A,,Anambra,Motorcycle,Yes
+AGR500328,amara mohammed   ,+234100462776,Maize (Corn),1564.38,Bags,"₦78,615.35","₦122,984,281.23",Oyingbo Market Lagos,07/08/2024,Premium,Warehouse,Imo,Motorcycle,no
+AGR500139,Aliyu Nnamdi   ,23513739900,Rice (Local),3348.72,KG,"₦56,094.76","₦187,845,644.71",Ariaria Market Aba,30/06/2024,Premium,Cold Room,Enugu,truck,No
+AGR500333,  Sadiq Nwosu,89993607984,Sorghum,787.85,tonnes,36849.83 naira,29032138.565500002,Bodija Market Ibadan,04/10/2024,  ,,Imo,Van,TRUE
+AGR500054,chinedu  lawal,0359 848 8402,Tomatoes,4911.27,crates,57221.16 naira,"N281,028,566",Dawanau Market Kano,00/00/0000,Grade A,,Kano,Van,FALSE
+AGR500052,Chinedu Adeyemi,234-548-574-172,Rice (Local),2521.19,crates,"N28,039","N70,691,193",Mile 12 Market Lagos,09/12/2024,Premium,N/A,Rivers,Motorcycle,1
+AGR500287,Grace Nnamdi,(121) 980-4184,Plantain,2680.38,Tonnes,30189.85 naira,80920270.143,Bodija Market Ibadan,03/26/2024,B,Warehouse,Abuja,Van,1
+AGR500320,Adaeze Chukwu,+234102451091,Onions,2654.08,Tonnes,"₦33,416.85",88690993.248,Bodija Market Ibadan,13-Feb-2024,Grade A,Warehouse,Lagos State,Bicycle,Yes
+AGR500315,Kemi Abubakar   ,0971 506 6626,Yam,3831.62,bags,84477.52 naira,NIL,Mile 12 Market Lagos,00/00/0000,Grade A,,Delta,Van,N
+AGR500060,Chinedu Bello,77251295786,  ,2773.12,KG,"N12,142","N33,672,110",Oyingbo Market Lagos,2025/05/04,A,warehouse,Kano,Van,yes
+AGR500066,Kemi Yusuf,(073) 607-7633,Onions,3832.65,kg ,31763.23,  ,Oyingbo Market Lagos,16/03/2025,A,,Delta,truck,Yes
+AGR500079,Tunde Yusuf,+234311649133,Maize (Corn),4820.71,KG,28213.78 naira,"NGN 136,010,451",Mile 12 Market Lagos,08-Feb-2024,B,Warehouse,Delta,truck,Yes
+AGR500200,Segun Okafor,0634 250 7330,Cassava,793.9,crates,"79,515.45 ",null,Bodija Market Ibadan,04/26/2025,Grade B,COLD ROOM,Kaduna,TRUCK,0
+AGR500110,Wale Olawale,234-585-626-149,nil,1814.2,bags,7675.81,13925454.502,Oyingbo Market Lagos,2025/01/13,,Cold Room,Kano,TRUCK,No
+AGR500173,Chidi Adekunle,34476504715,Maize (Corn),1316.52,KG,"₦54,280.67",71461587.67 naira,Mile 12 Market Lagos,not set,Reject,Warehouse,Oyo,truck,TRUE
+AGR500146,Chioma Ajayi,28077113062,Tomatoes,4027.31,bags,"84,507.37 ","NGN 340,337,376",Dawanau Market Kano,21.01.2024,Grade A,N/A,LAGOS,truck,yes
+AGR500222,Amara Nnamdi,00090040476,Groundnut,473.25,kg ,"N81,108","₦38,384,124.38",Bodija Market Ibadan,26-Jan-2024,,,Enugu,Truck,Y
+AGR500194,  Zainab Nwosu,0000000000,Plantain,323.05,KG,"₦9,474.58","3,060,763.07 ",Mile 12 Market Lagos,17 March 2024,A,Open Air,Delta,truck,FALSE
+AGR500235,blessing abubakar,0048 235 7155,Beans,2639.02,tonnes,"N14,905","₦39,334,513.93",Bodija Market Ibadan,08 March 2024,A,Cold Room,oyo,Truck,true
+AGR500006,Blessing Eze,(305) 319-4979,Rice (Local),1767.09,Crates,"₦41,085.08",72601034.0172,Dawanau Market Kano,unknown date,Grade C,warehouse,Rivers,truck,Yes
+AGR500458,Amara Adeyemi,+234703211920,Groundnut,-,KG,"₦34,897.07","₦161,637,295.74",Mile 12 Market Lagos,04-Oct-2024,grade a,,Delta,Truck,0
+AGR500068,fatima yusuf,79556331857,Maize (Corn),2182.3,Tonnes,"NGN 10,976","N23,952,532",Dawanau Market Kano,26/12/2024,Reject,Warehouse,Imo,Motorcycle,true
+AGR500055,Femi Eze,(557) 325-7375,Pepper,2247.69,Tonnes,5977.79,13436218.8051,Bodija Market Ibadan,05/11/2024,NULL,Cold Room,Akwa Ibom,Van,false
+AGR500071,Bisi Yusuf,(502) 329-0282,Beans,4847.96,tonnes,54593.96,264669334.32 naira,Ariaria Market Aba,13.04.2025,GRADE B,Warehouse,Plateau,truck,Yes
+AGR500373,Sadiq Okonkwo,(913) 443-8998,Palm Oil,4380.28,kg,44262.05 naira,,Ariaria Market Aba,09-Jul-2024,Reject,,Fct Abuja,Bicycle,no
+AGR500438,Amara  Okafor,04899718428,Plantain,2447.62,tonnes,"NGN 7,000","₦17,132,336.48",Mile 12 Market Lagos,2024/01/01,Grade B,COLD ROOM,Rivers,Motorcycle,Yes
+AGR500345,Adaeze Suleiman,(252) 883-7505,Yam,3399.25,bags,"32,724.59 ",,Dawanau Market Kano,N/A,?,Open Air,Edo,TRUCK,true
+AGR500401,Blessing Ajayi,0056 708 6700,Plantain,1284.89,Tonnes,23837.36,30628385.4904,Mile 12 Market Lagos,24 August 2024,Grade B,COLD ROOM,Rivers,TRUCK,0
+AGR500379,  Emeka Adeyemi,234-118-723-335,Sorghum,3144.06,bags,"33,306.95 ","₦104,719,049.22",Dawanau Market Kano,02/05/2024,-,warehouse,Oyo,TRUCK,No
+AGR500005,Segun Okeke,0306 244 7951,  ,1619.85,KG,82796.14,--,Mile 12 Market Lagos,,A,warehouse,Edo,Van,0
+AGR500232,Zainab Eze,+234619425577,Cassava,1443.34,KG,16423.37 naira,"₦23,704,506.86",Ariaria Market Aba,08-May-2025,Standard,,Cross River,Motorcycle,false
+AGR500198,Bola Okafor,+234337970581,Cassava,913.94,Crates,"₦31,164.78","NGN 28,482,739",Bodija Market Ibadan,02/08/2024,A,N/A,Kaduna,TRUCK,no
+AGR500048,Blessing  Chukwu,(606) 527-4033,Maize (Corn),1119.08,Bags,23666.94 naira,26485199.22 naira,Bodija Market Ibadan,04/11/2025,nil,Cold Room,Imo,Truck,no
+AGR500305,Tobi Suleiman,50891776808,Rice (Local),1937.83,kg ,"NGN 80,999","NGN 156,961,440",Mile 12 Market Lagos,25.02.2024,B,Open Air,Lagos,Motorcycle,N
+AGR500090,Ifeoma Yusuf,+234406468677,Yam,1274.86,crates,"₦84,878.82","₦108,208,612.47",Ariaria Market Aba,2024-11-20,Grade C,,ABUJA,Bicycle,1
+AGR500207,Chinedu Yusuf,234-806-562-590,Pepper,737.06,bags,49697.13,"N36,629,767",Mile 12 Market Lagos,21 January 2025,grade a,N/A,Cross River,Van,Y
+AGR500148,Adaeze Adekunle,83350902542,Groundnut,unknown,kg ,"NGN 27,107","₦112,588,353.90",Mile 12 Market Lagos,2024/09/05,Grade A,Cold Room,Imo,truck,TRUE
+AGR500189,Amara Abubakar   ,07226602562,Yam,3178.38,kg,"NGN 70,816",225079109.21 naira,Dawanau Market Kano,2024-06-01,  ,,Ogun,TRUCK,true
+AGR500284,Wale Bello,06955607676,Maize (Corn),1720.53,tonnes,"N27,329","₦47,021,155.81",Ariaria Market Aba,N/A,A,N/A,Akwa Ibom,Truck,No
+AGR500215,Tunde Bello,234-582-632-809,Cassava,?,KG,"NGN 17,975","NGN 21,794,789",Dawanau Market Kano,28.01.2024,NULL,N/A,Port Harcourt,Van,N
+AGR500250,  Funmilayo Eze,09077560858,Cassava,4689.01,tonnes,"44,984.41 ","N210,932,348",Dawanau Market Kano,23/09/2024,NULL,Warehouse,Akwa Ibom,TRUCK,no
+AGR500080,Chidi Adekunle,0245 798 8942,Tomatoes,2383.0,tonnes,53665.22 naira,127884219.26,Mile 12 Market Lagos,2024-06-26,Standard,warehouse,Kaduna,Truck,Yes
+AGR500172,Musa Lawal,54384807520,Groundnut,1238.03,crates,"N82,144","N101,696,452",Oyingbo Market Lagos,17-May-2024,B,Cold Room,Oyo,Van,0
+AGR500416,emeka yusuf,43333538495,Pepper,80.16,crates,"49,958.42 ",4004666.95 naira,Oyingbo Market Lagos,,Premium,warehouse,Kaduna,Motorcycle,Yes
+AGR500025,sadiq yusuf,234-415-177-345,Plantain,3767.15,Crates,54947.59,"NGN 206,995,814",Ariaria Market Aba,11/07/2024,Grade C,N/A,Cross River,truck,TRUE
+AGR500400,Blessing Suleiman,(874) 781-2248,Plantain,4254.87,Crates,"N38,185",,Ariaria Market Aba,2024/10/14,B,Cold Room,Rivers,Bicycle,TRUE
+AGR500084,Segun Ajayi,08552457871,Palm Oil,794.92,Tonnes,35753.04,--,Dawanau Market Kano,19/08/2024,Grade C,Open Air,kano,Van,0
+AGR500257,Funmilayo Bello,(268) 812-2821,Cassava,4191.81,Crates,"N51,253","N214,843,970",Ariaria Market Aba,26/06/2024,Premium,Cold Room,Anambra,Van,Y
+AGR500210,Bisi Balogun,(517) 680-8662,Pepper,1069.95,Tonnes,47741.3,,Oyingbo Market Lagos,17 August 2024,Premium,,Enugu,truck,false
+AGR500430,Chioma Lawal   ,234-669-106-271,Rice (Local),3764.18,crates,"₦67,532.56","254,204,711.70 ",Oyingbo Market Lagos,30/08/2024,GRADE B,warehouse,Rivers,Van,0
+AGR500059,amara nwosu   ,08281979316,Tomatoes,3948.16,kg ,  ,247231923.5648,Ariaria Market Aba,2024-11-06,null,Warehouse,Anambra,Bicycle,Yes
+AGR500267,Ibrahim Nwosu,234-588-537-982,Cassava,602.98,crates,45719.74 naira,"NGN 27,568,089",Mile 12 Market Lagos,01/22/2025,-,Cold Room,Delta,truck,0
+AGR500399,Femi Ogundimu,(184) 442-1829,Yam,3961.12,KG,"₦10,445.99","₦41,377,819.91",Dawanau Market Kano,20 May 2025,Standard,Warehouse,Plateau,Van,false
+AGR500399,Femi Ogundimu,(184) 442-1829,Yam,3961.12,KG,"₦10,445.99","₦41,377,819.91",Dawanau Market Kano,20 May 2025,Standard,Warehouse,Plateau,Van,false
+AGR500317,Kemi Nwosu,06634392529,Yam,1806.33,kg ,null,111114276.5439,Dawanau Market Kano,03/31/2024,nil,Open Air,Akwa Ibom,TRUCK,N
+AGR500363,Chidi Lawal,0342 929 1320,Beans,818.2,kg ,"₦38,491.32","NGN 31,493,598",Mile 12 Market Lagos,2025-01-05,Grade A,Cold Room,Lagos,truck,Y
+AGR500447,Kunle Suleiman,+234238595143,Tomatoes,2238.45,Crates,5311.67 naira,"₦11,889,907.71",Dawanau Market Kano,2024/04/17,Reject,COLD ROOM,Kano,Truck,N
+AGR500047,Blessing Eze,45557469660,Groundnut,1738.31,kg ,"NGN 55,812","₦97,018,488.19",Ariaria Market Aba,05-Jan-2025,Premium,warehouse,Edo,Motorcycle,No
+AGR500171,Wale Olawale,05415970996,Sorghum,2497.68,Bags,nil,77048932.176,Bodija Market Ibadan,20/05/2025,Grade B,Warehouse,Plateau,Motorcycle,Yes
+AGR500088,Tunde Eze,(929) 880-8583,Rice (Local),154.35,Tonnes,"N9,310",1437071.04 naira,Mile 12 Market Lagos,2024-02-07,Premium,Warehouse,Akwa Ibom,Van,yes
+AGR500294,Wale Olawale,02132901620,Maize (Corn),4434.35,Crates,"N83,280","₦369,293,200.12",Oyingbo Market Lagos,N/A,Grade A,,Anambra,truck,false
+AGR500428,Femi Okeke,+234050537666,Unknown,1625.0,KG,"NGN 9,605","₦15,608,255.00",Oyingbo Market Lagos,2025-02-24,Unknown,warehouse,Ogun,TRUCK,No
+AGR500354,Kunle Bello,(145) 512-9391,Sorghum,2656.7,tonnes,"N27,292","NGN 72,506,364",Bodija Market Ibadan,03/06/2025,NULL,COLD ROOM,Oyo,Van,No
+AGR500031,Tobi Nnamdi,234-728-727-601,Sorghum,1993.72,KG,"8,794.09 ","N17,532,953",Ariaria Market Aba,2024/01/15,Grade C,,Anambra,Motorcycle,Yes
+AGR500336,Zainab Balogun,(394) 640-8303,Sorghum,?,tonnes,"₦14,826.85","NGN 4,715,383",Dawanau Market Kano,15/07/2024,Grade A,N/A,Akwa Ibom,Bicycle,true
+AGR500358,Fatima Nnamdi,234-429-831-522,Palm Oil,98.64,kg ,"N20,152",,Mile 12 Market Lagos,2025-02-12,Reject,Cold Room,Rivers,Van,no
+AGR500132,Chioma Ogundimu,05237360507,Yam,3599.19,kg,43692.79,157258652.84010002,Dawanau Market Kano,13/01/2025,Premium,Cold Room,Cross River,Van,N
+AGR500108,Emeka Mohammed,(250) 139-4884,Onions,NIL,tonnes,"NGN 23,316",50449185.08 naira,Mile 12 Market Lagos,04.05.2025,Premium,N/A,Plateau,Truck,FALSE
+AGR500417,Segun Okafor,16321119787,Tomatoes,256.81,kg,"N69,077","NGN 17,739,759",Bodija Market Ibadan,11/05/2025,B,Cold Room,Kano,Bicycle,0
+AGR500253,  amaka ajayi,234-378-584-712,Plantain,4909.21,Tonnes,"₦68,865.37",338074563.06 naira,Oyingbo Market Lagos,31/01/2024,A,warehouse,Delta,Bicycle,TRUE
+AGR500254,Musa Okafor,0618 033 2426,Beans,2137.9,KG,"₦43,274.59","NGN 92,516,746",Mile 12 Market Lagos,04 February 2025,B,N/A,Oyo,Bicycle,0
+AGR500390,Funmilayo Chukwu,0297 454 9303,Sorghum,124.43,Tonnes,35970.23,null,Mile 12 Market Lagos,2025-01-25,B,Open Air,Rivers,Truck,false
+AGR500421,Funmilayo Balogun,+234300915618,Rice (Local),1275.48,Bags,"8,662.92 ","N11,049,381",Ariaria Market Aba,08/02/2025,grade a,Warehouse,Akwa Ibom,Motorcycle,true
+AGR500321,aliyu bello,0000000000,Yam,2280.35,Crates,"27,086.74 ",61767247.559,Bodija Market Ibadan,2024-12-07,NULL,Cold Room,Lagos,truck,No
+AGR500115,musa okonkwo,05851253892,Pepper,2972.63,tonnes,"24,401.37 ","NGN 72,536,245",Dawanau Market Kano,2025/06/01,Reject,Open Air,Cross River,truck,0
+AGR500335,  BLESSING NNAMDI   ,234-993-593-744,Cassava,--,KG,NIL,"NGN 16,264,296",Oyingbo Market Lagos,31/01/2024,B,Cold Room,Akwa Ibom,Truck,true
+AGR500452,Aliyu Nnamdi,+234762839762,Plantain,695.37,Crates,"N84,809",,Oyingbo Market Lagos,unknown date,GRADE B,Cold Room,Plateau,TRUCK,1
+AGR500064,SEGUN OGUNDIMU,(028) 515-5333,Palm Oil,1312.93,crates,35048.15,"N46,015,768",Ariaria Market Aba,2024/06/06,Reject,warehouse,Oyo,TRUCK,FALSE
+AGR500023,Tobi Abubakar,04605687611,Onions,1344.61,bags,"19,361.23 ","N26,033,303",Ariaria Market Aba,08.01.2025,Reject,warehouse,Enugu,TRUCK,0
+AGR500256,Emeka Olawale,(253) 733-7773,Tomatoes,1203.78,kg,"N46,649",56154760.05 naira,Ariaria Market Aba,2024/02/01,Premium,Cold Room,Kano,TRUCK,FALSE
+AGR500050,Ifeoma Chukwu,(987) 411-3257,Cassava,--,crates,74630.32 naira,"₦76,038,594.14",Ariaria Market Aba,18 July 2024,Premium,,Edo,Bicycle,true
+AGR500141,Chinedu Ogundimu,+234022939469,Yam,3554.69,Bags,45866.74 naira,"N163,042,042",Ariaria Market Aba,07/01/2024,GRADE B,Open Air,Plateau,Truck,FALSE
+AGR500069,Chinedu Chukwu,48170066615,Palm Oil,3865.93,Tonnes,73699.93,284918770.38 naira,Bodija Market Ibadan,12/13/2024,  ,Open Air,Edo,truck,N
+AGR500085,segun lawal,(841) 560-8213,Onions,414.96,Bags,"₦25,935.69","NGN 10,762,274",Ariaria Market Aba,14 February 2024,Reject,,Imo,truck,FALSE
+AGR500453,halima chukwu,53440777946,Cassava,?,crates,"₦66,596.54","₦169,223,140.07",Bodija Market Ibadan,07/06/2024,Reject,N/A,Ibadan,Motorcycle,0
+AGR500397,Adaeze Chukwu,00001529113,Yam,3083.62,Crates,"24,386.34 ",75198205.7508,Bodija Market Ibadan,2024/11/17,grade a,N/A,KANO,Motorcycle,N
+AGR500096,aliyu eze,15406417692,Plantain,3179.18,crates,15026.5,47771948.269999996,Oyingbo Market Lagos,2024/03/19,Grade A,,Kano,Motorcycle,true
+AGR500324,Kemi Nwosu,+234844663453,Beans,4691.84,kg ,"₦14,974.81",null,Oyingbo Market Lagos,2024/06/13,Premium,Warehouse,Lagos,truck,FALSE
+AGR500008,Kunle Ogundimu,72773826460,Palm Oil,2098.52,kg,"NGN 70,311","NGN 147,548,242",Dawanau Market Kano,N/A,GRADE B,Open Air,Ibadan,Motorcycle,No
+AGR500009,Amaka  Afolabi,91785138544,Maize (Corn),782.1,bags,"N65,633","N51,331,366",Bodija Market Ibadan,2024/02/26,Grade C,COLD ROOM,Plateau,Van,No
+AGR500303,Sadiq Afolabi,(201) 284-0083,Palm Oil,1725.78,kg,"₦69,729.24","N120,337,328",Mile 12 Market Lagos,01/17/2025,GRADE B,Warehouse,Plateau,Motorcycle,yes
+AGR500319,Aliyu Suleiman,12007202455,Tomatoes,2537.84,Bags,3521.78 naira,"N8,937,714",Mile 12 Market Lagos,01/18/2025,Standard,Open Air,Ogun,truck,0
+AGR500175,  IFEOMA BELLO,234-604-655-866,Onions,1150.69,kg,57837.20 naira,,Bodija Market Ibadan,2024/12/25,A,COLD ROOM,Edo,Bicycle,N
+AGR500412,Ibrahim Lawal,+234540263558,Sorghum,1933.78,Bags,"NGN 70,573",,Mile 12 Market Lagos,2024-02-05,A,,Lagos State,Van,Yes
+AGR500381,Chinedu Okeke,05391149830,Onions,2714.75,bags,17736.72,48150760.620000005,Ariaria Market Aba,00/00/0000,B,Warehouse,Kaduna,TRUCK,N
+AGR500149,Fatima Suleiman,invalid,Palm Oil,4578.63,kg ,"₦28,250.08","NGN 129,346,664",Mile 12 Market Lagos,2025-05-08,grade a,Cold Room,Kaduna,TRUCK,Y
+AGR500018,Bisi  Afolabi,invalid,Groundnut,1776.22,Tonnes,"N60,954","NGN 108,268,016",Mile 12 Market Lagos,2024-05-02,Grade A,Open Air,Imo,TRUCK,false
+AGR500432,Tunde Yusuf,26917768293,Tomatoes,1309.88,tonnes,"N71,305","93,400,849.31 ",Ariaria Market Aba,2025-03-20,Premium,COLD ROOM,Edo,Truck,FALSE
+AGR500244,Chinedu Okonkwo   ,(970) 548-7396,Tomatoes,1417.42,Tonnes,23202.89 naira,,Ariaria Market Aba,2024/11/28,Grade A,warehouse,Plateau,Van,N
+AGR500181,Segun Adeyemi,234-737-927-490,Pepper,3749.71,Bags,73116.8,274166796.128,Ariaria Market Aba,,grade a,Open Air,Kaduna,Motorcycle,TRUE
+AGR500301,WALE SULEIMAN,234-505-766-194,Sorghum,488.43,Tonnes,28241.24,"NGN 13,793,869",Mile 12 Market Lagos,09/26/2024,GRADE B,,Anambra,Van,no
+AGR500131,Blessing Adeyemi,234-578-671-815,Plantain,3880.2,KG,"N24,146","NGN 93,689,990",Mile 12 Market Lagos,09/11/2024,grade a,Cold Room,Edo,Truck,Yes
+AGR500213,Chinedu Balogun,+234660847068,Tomatoes,2878.23,kg ,"19,533.35 ","₦56,221,473.97",Mile 12 Market Lagos,2024/02/13,Premium,Open Air,Lagos,TRUCK,TRUE
+AGR500429,aliyu okonkwo   ,0811 260 0308,Plantain,3322.41,Tonnes,NULL,"N146,027,029",Ariaria Market Aba,28/03/2024,GRADE B,Warehouse,Ibadan,TRUCK,Yes
+AGR500443,BLESSING NNAMDI   ,+234935953828,Maize (Corn),4808.3,Tonnes,"N6,164",29637976.536000002,Mile 12 Market Lagos,01/20/2025,grade a,Warehouse,Kano,Van,yes
+AGR500264,Ibrahim Adeyemi,(175) 889-1444,Pepper,2280.26,tonnes,"15,162.77 ","NGN 34,575,058",Dawanau Market Kano,2024-09-23,GRADE B,COLD ROOM,Edo,Van,false
+AGR500252,Ibrahim Eze,(576) 832-1021,Groundnut,3408.24,crates,9723.95,"33,141,555.35 ",Ariaria Market Aba,23-Feb-2024,Grade B,warehouse,Kaduna,Bicycle,0
+AGR500310,Sadiq Eze,11759574988,Rice (Local),3596.82,tonnes,"NGN 7,343",26410945.71 naira,Mile 12 Market Lagos,06 January 2024,grade a,warehouse,Abuja,Motorcycle,true
+AGR500071,Bisi Yusuf,(502) 329-0282,Beans,4847.96,tonnes,54593.96,264669334.32 naira,Ariaria Market Aba,13.04.2025,GRADE B,Warehouse,Plateau,truck,Yes
+AGR500163,Wale Ogundimu,0265 732 7599,Pepper,N/A,Bags,45105.60 naira,?,Oyingbo Market Lagos,15 January 2024,grade a,Warehouse,Edo,Motorcycle,no
+AGR500400,Blessing Suleiman,(874) 781-2248,Plantain,4254.87,Crates,"N38,185",,Ariaria Market Aba,2024/10/14,B,Cold Room,Rivers,Bicycle,TRUE
+AGR500367,Amaka Ogundimu,(337) 746-0406,Beans,3645.49,Bags,40088.52,"NGN 146,142,299",Dawanau Market Kano,06/17/2024,Reject,N/A,Delta,TRUCK,N
+AGR500338,Tobi Mohammed   ,08490793884,Sorghum,666.63,Crates,"39,186.42 ",26122843.1646,Oyingbo Market Lagos,22/02/2024,Grade A,N/A,Akwa Ibom,Van,no
+AGR500151,Chinedu Okafor,08228501168,Sorghum,472.01,Bags,"₦24,962.18","N11,782,399",Bodija Market Ibadan,10.05.2024,Grade C,N/A,Ogun,Motorcycle,1
+AGR500266,Bisi Adekunle,+234864496392,Onions,268.44,kg ,"₦29,717.35",7977325.433999999,Dawanau Market Kano,18-Nov-2024,A,Open Air,Kaduna,Motorcycle,Yes
+AGR500145,Ifeoma Chukwu,49411631873,Yam,2183.61,kg,"₦35,428.09",unknown,Bodija Market Ibadan,19.02.2025,Grade A,Open Air,Kaduna,Bicycle,no
+AGR500157,Amara Ogundimu,68362536667,Maize (Corn),1014.22,Tonnes,"N75,107","₦76,175,427.23",Oyingbo Market Lagos,2024/02/14,GRADE B,warehouse,Delta,truck,true
+AGR500028,Aliyu Ogundimu,07742229464,Sorghum,3230.58,Tonnes,50528.45,163236200.00 naira,Mile 12 Market Lagos,23.10.2024,Reject,N/A,Oyo,Bicycle,FALSE
+AGR500093,Blessing  Bello,93351342619,Pepper,2887.25,KG,"N58,340","168,443,031.18 ",Bodija Market Ibadan,2024/11/24,A,N/A,Akwa Ibom,TRUCK,FALSE
+AGR500073,chinedu eze,02282251207,Groundnut,4707.57,Tonnes,"62,023.43 ","N291,979,638",Dawanau Market Kano,08/06/2025,Grade B,,Imo,TRUCK,N
+AGR500260,Zainab Okonkwo,234-798-623-984,Tomatoes,4526.22,kg,55606.63,"251,687,840.84 ",Dawanau Market Kano,19-Mar-2024,  ,Warehouse,Enugu,truck,1
+AGR500026,Halima Yusuf,0000000000,Palm Oil,941.64,kg ,8933.74,8412366.93 naira,Oyingbo Market Lagos,10/15/2024,Grade A,,Edo,Bicycle,0
+AGR500378,NGOZI OKAFOR,(011) 923-6037,Beans,2405.85,bags,"NGN 74,425",,Dawanau Market Kano,2024-04-06,Premium,Cold Room,Enugu,truck,Yes
+AGR500386,Amara Yusuf,00135462127,Palm Oil,4836.14,Tonnes,"₦67,264.38",325299958.69320005,Dawanau Market Kano,23/02/2025,,N/A,Abuja,Motorcycle,false
+AGR500089,Ibrahim Mohammed,25212932896,Tomatoes,162.96,crates,"48,642.72 ",,Ariaria Market Aba,11/20/2024,B,Open Air,Oyo,TRUCK,No
+AGR500346,Chinedu Nnamdi,+234186323979,Rice (Local),1961.49,Bags,"₦41,347.91",81103511.99 naira,Ariaria Market Aba,25.02.2025,grade a,COLD ROOM,Edo,Truck,true
+AGR500099,Emeka Okafor,234-101-739-739,Plantain,688.35,Tonnes,81557.06 naira,56139802.251,Ariaria Market Aba,03.12.2024,Grade C,warehouse,Ogun,Bicycle,0
+AGR500036,Amara Olawale,08413128403,Pepper,3493.2,crates,22103.82,N/A,Ariaria Market Aba,09-Feb-2024,Standard,N/A,Cross River,TRUCK,true
+AGR500372,Ngozi Ajayi,04584148460,Palm Oil,3462.36,bags,"NGN 16,748","NGN 57,986,844",Dawanau Market Kano,2024-11-19,Premium,,Cross River,Truck,No
+AGR500337,kunle okafor,03606014886,Cassava,384.45,Bags,"N68,160","NGN 26,204,266",Bodija Market Ibadan,14/01/2025,grade a,COLD ROOM,Kaduna,Truck,yes
+AGR500021,Segun Bello,95237100687,Yam,2951.66,crates,n/a,5261363.47 naira,Bodija Market Ibadan,01/27/2025,Premium,Warehouse,Abuja,truck,false
+AGR500331,Amara Mohammed,32600559550,n/a,216.29,crates,"N54,413","11,769,013.72 ",Dawanau Market Kano,25/01/2025,Grade B,Cold Room,Imo,Bicycle,no
+AGR500316,Chinedu Okonkwo,05514377693,Onions,1376.23,tonnes,18044.54,"₦24,833,437.28",Ariaria Market Aba,01 March 2025,Standard,warehouse,Lagos,Bicycle,Y
+AGR500410,Adaeze Chukwu,+234642036258,Beans,296.2,Bags,"₦9,273.73",2746878.83 naira,Mile 12 Market Lagos,07/30/2024,Grade C,COLD ROOM,Edo,truck,1
+AGR500404,AMARA OKONKWO,03550542960,Yam,765.25,crates,"NGN 15,041",11510484.92 naira,Dawanau Market Kano,2024-12-25,GRADE B,N/A,Enugu,Bicycle,Y
+AGR500262,Kunle Nwosu,04647548954,Maize (Corn),2407.07,Bags,69297.57 naira,"₦166,804,101.82",Bodija Market Ibadan,21.07.2024,--,Warehouse,Abuja,truck,yes
+AGR500382,  Ngozi Adeyemi   ,48207365118,Groundnut,1341.09,Bags,"NGN 51,856","NGN 69,543,241",Ariaria Market Aba,2024-07-31,Standard,,Anambra,TRUCK,false
+AGR500126,Aliyu Chukwu,00805120800,Rice (Local),NULL,tonnes,"N77,030",382650177.79800004,Oyingbo Market Lagos,26-Sep-2024,GRADE B,Warehouse,Rivers State,Motorcycle,TRUE
+AGR500123,Musa Bello,+234169666725,Cassava,3462.9,Crates,"N4,402","NGN 15,245,383",Mile 12 Market Lagos,2025-05-08,Reject,COLD ROOM,Fct Abuja,truck,no
+AGR500214,sadiq adekunle,0039 033 9705,Yam,4164.28,kg,"N26,842","₦111,776,354.48",Oyingbo Market Lagos,17/03/2024,GRADE B,Open Air,Plateau,TRUCK,no
+AGR500309,Fatima Suleiman,234-120-471-372,Beans,531.2,KG,"₦33,784.68",17946422.016000003,Bodija Market Ibadan,2024/05/03,Grade C,COLD ROOM,Edo,truck,0
+AGR500396,Zainab  Okonkwo,06815724500,Plantain,2922.69,KG,"N82,138","₦240,063,911.22",Ariaria Market Aba,04/05/2025,A,COLD ROOM,Lagos,Van,No
+AGR500249,Femi Abubakar,+234973711222,Palm Oil,1321.66,kg ,"N66,859","₦88,364,443.01",Mile 12 Market Lagos,28.01.2025,grade a,Cold Room,Oyo,Motorcycle,1
+AGR500258,Aliyu Balogun,+234192365346,Pepper,2037.87,Tonnes,"₦37,649.68",,Bodija Market Ibadan,24.06.2025,GRADE B,N/A,Akwa Ibom,truck,TRUE
+AGR500251,Wale Adeyemi,0670 468 6111,Palm Oil,4158.68,Tonnes,51762.67 naira,"₦215,264,380.48",Bodija Market Ibadan,2024-02-01,Premium,Open Air,Delta,TRUCK,No
+AGR500075,Tunde Suleiman,0026 086 9822,Groundnut,3029.57,tonnes,"NGN 12,719","₦38,534,100.59",Mile 12 Market Lagos,10/12/2024,Grade B,warehouse,Akwa Ibom,truck,FALSE
+AGR500051,Bisi Lawal,0706 734 9960,Rice (Local),2526.19,Crates,73133.17 naira,"184,748,282.72 ",Bodija Market Ibadan,29.05.2024,GRADE B,COLD ROOM,Delta,TRUCK,FALSE
+AGR500391,Funmilayo Abubakar,46871912038,Rice (Local),1326.56,Bags,51432.42,"N68,228,191",Dawanau Market Kano,2024/02/27,Grade B,Open Air,Enugu,Motorcycle,no
+AGR500389,Chidi Olawale,99572989376,Maize (Corn),1259.97,bags,"NGN 59,938",75520308.65460001,Oyingbo Market Lagos,2025/02/19,N/A,Open Air,Plateau,Motorcycle,N
+AGR500239,Tunde Adekunle,(114) 716-5609,Maize (Corn),3937.86,kg ,"N55,108","NGN 217,007,392",Bodija Market Ibadan,N/A,B,warehouse,Abuja,Truck,no
+AGR500425,Obinna Adekunle,+234368750926,Maize (Corn),2154.83,KG,"₦10,609.66","22,862,013.66 ",Oyingbo Market Lagos,04/24/2025,NIL,,Cross River,TRUCK,FALSE
+AGR500007,Obinna Afolabi,+234586780555,Sorghum,1477.61,crates,43740.41,NULL,Oyingbo Market Lagos,13 April 2024,B,Warehouse,Imo,Van,Y
+AGR500227,Sadiq Olawale,07676209014,Cassava,4048.51,KG,"₦65,680.82","N265,909,457",Ariaria Market Aba,13 February 2024,Grade C,,Abuja,TRUCK,No
+AGR500440,Zainab Yusuf   ,+234993231234,Plantain,4801.26,Tonnes,42288.25 naira,203036883.19500002,Ariaria Market Aba,06 May 2025,Grade A,Warehouse,Anambra,Motorcycle,Yes
+AGR500042,Tunde Okafor,(712) 705-8772,Rice (Local),3425.4,kg,76285.20 naira,,Oyingbo Market Lagos,08-Sep-2024,B,Warehouse,Cross River,Truck,false
+AGR500142,Ibrahim Okeke,03460666437,Sorghum,805.02,crates,"₦70,430.99",56698355.569800004,Oyingbo Market Lagos,08/26/2024,A,,Delta,Bicycle,false
+AGR500086,Tunde Lawal,01184254768,Sorghum,585.58,KG,"₦69,424.27","40,653,464.03 ",Dawanau Market Kano,2024-09-12,GRADE B,Cold Room,Imo,TRUCK,N
+AGR500121,Fatima Nwosu,+234090591191,-,?,Bags,33486.79,"₦109,700,379.96",Ariaria Market Aba,2025/02/23,Grade C,COLD ROOM,Kaduna,TRUCK,TRUE
+AGR500137,Yusuf Lawal,02508004635,Palm Oil,4265.14,bags,"NGN 74,844","N319,219,882",Mile 12 Market Lagos,2025/06/14,grade a,warehouse,Lagos,Van,0
+AGR500049,Blessing Nwosu,234-505-665-883,Plantain,71.35,kg ,"₦24,722.14","1,763,924.69 ",Mile 12 Market Lagos,04/26/2024,Reject,Cold Room,Cross River,Van,no
+AGR500104,Funmilayo Nnamdi,234-555-347-057,Tomatoes,1611.16,bags,20157.89,,Oyingbo Market Lagos,30 December 2024,A,Warehouse,Lagos,Motorcycle,false
+AGR500107,Aliyu Eze,07263475575,Rice (Local),2865.46,Bags,55605.03 naira,,Bodija Market Ibadan,29-Jan-2024,Grade C,warehouse,Plateau,Bicycle,Y
+AGR500082,Funmilayo Okonkwo,(032) 650-9775,Plantain,3389.12,KG,"₦84,069.12","284,920,335.97 ",Bodija Market Ibadan,01-Aug-2024,Grade B,COLD ROOM,Rivers,Truck,0
+AGR500343,Fatima Okafor,0887 817 9415,Sorghum,4391.06,kg ,13040.95 naira,"₦57,263,593.91",Mile 12 Market Lagos,10/04/2024,B,COLD ROOM,Ogun,Motorcycle,true
+AGR500167,Bola Yusuf,,?,4141.5,kg ,"NGN 49,972","206,960,404.69 ",Dawanau Market Kano,2025-03-20,N/A,warehouse,Imo,truck,yes
+AGR500313,Bisi Yusuf,(412) 833-3721,Maize (Corn),4534.34,kg ,"N84,576","383,496,657.24 ",Mile 12 Market Lagos,28-Jun-2025,,warehouse,Anambra,Motorcycle,0
+AGR500450,Sadiq  Ajayi,234-683-113-950,Maize (Corn),329.02,kg ,"81,145.65 ",26698541.762999997,Bodija Market Ibadan,29-Nov-2024,B,Warehouse,Anambra,Van,yes
+AGR500408,Funmilayo Eze,+234773836381,Maize (Corn),491.99,Bags,31137.77 naira,"₦15,319,471.46",Dawanau Market Kano,04/22/2025,B,Open Air,Lagos,Bicycle,N
+AGR500120,Zainab Balogun,48453986289,Tomatoes,682.5,Crates,"31,358.53 ","NGN 21,402,197",Bodija Market Ibadan,2024-01-19,Standard,Warehouse,Plateau,Bicycle,false
+AGR500119,Funmilayo Okeke,49409762637,Beans,3969.81,kg ,36028.89 naira,"143,027,847.81 ",Ariaria Market Aba,03-Apr-2025,Grade B,Warehouse,Cross River,Van,0
+AGR500459,Sadiq Bello   ,+234363852778,Plantain,4976.58,Tonnes,"NGN 56,048","NGN 278,925,564",Dawanau Market Kano,2024-01-31,Standard,warehouse,Delta,TRUCK,Yes
+AGR500062,chidi  adeyemi,62439587395,Cassava,3359.26,kg ,3475.92 naira,"NGN 11,676,519",Dawanau Market Kano,not set,unknown,Cold Room,Ogun,truck,TRUE
+AGR500045,FUNMILAYO ADEYEMI   ,0000000000,Beans,4431.48,Crates,"42,643.25 ",188972709.51 naira,Oyingbo Market Lagos,2024-10-22,Reject,Open Air,Enugu,Van,Yes
+AGR500349,Kemi Abubakar,+234219881927,Rice (Local),1670.87,Crates,"NGN 2,468","4,123,807.41 ",Bodija Market Ibadan,11/02/2024,Standard,COLD ROOM,Enugu,Truck,N
+AGR500106,Fatima Nwosu,(598) 354-1165,Rice (Local),313.66,kg,"N75,719",23750052.906000003,Bodija Market Ibadan,15/02/2025,A,COLD ROOM,Abuja,Truck,N
+AGR500353,ALIYU MOHAMMED,04521289915,Groundnut,3533.4,kg,"₦75,446.64",266583157.776,Bodija Market Ibadan,2024-03-17,GRADE B,Warehouse,Ogun,Motorcycle,No
+AGR500340,Bisi Nwosu,03701242446,Plantain,2148.28,tonnes,50606.89,"N108,717,770",Mile 12 Market Lagos,2024/11/21,B,Cold Room,Cross River,truck,FALSE
+AGR500402,Ibrahim Okeke,00436551584,Groundnut,1109.1,Crates,70096.67,"N77,744,217",Mile 12 Market Lagos,19.04.2025,--,warehouse,Kaduna,Bicycle,No
+AGR500323,Kemi Okafor,234-793-406-527,Maize (Corn),2773.33,crates,"NGN 57,903","₦160,584,237.92",Bodija Market Ibadan,N/A,Grade C,Cold Room,lagos,Motorcycle,0
+AGR500046,Amara Eze,234-796-434-745,Plantain,2667.84,kg ,63155.31 naira,168488262.23 naira,Oyingbo Market Lagos,20 November 2024,Premium,COLD ROOM,Plateau,truck,true
+AGR500265,Bola Nwosu,234-835-539-354,Groundnut,21.64,Bags,"59,106.14 ",1279056.8696,Mile 12 Market Lagos,2025-06-07,NIL,Warehouse,Lag,Motorcycle,true
+AGR500197,emeka adeyemi,(485) 953-2593,Rice (Local),891.43,crates,"N84,870","N75,655,940",Ariaria Market Aba,2024/02/04,Grade B,COLD ROOM,Akwa Ibom,Bicycle,TRUE
+AGR500058,Grace Suleiman,(874) 951-1918,Plantain,3689.57,Crates,46816.36 naira,172732237.3652,Bodija Market Ibadan,,Grade C,Cold Room,Lagos,Truck,no
+AGR500002,Aliyu Ajayi,60241613944,Pepper,4855.0,KG,"₦2,341.98",,Dawanau Market Kano,00/00/0000,grade a,Open Air,Kano,Truck,Yes
+AGR500446,Amara Bello,69656130876,Beans,3352.53,bags,"₦73,094.13",245050263.64890003,Dawanau Market Kano,2024-11-03,B,Warehouse,Delta,truck,Y
+AGR500255,Segun  Yusuf,0508 018 4980,Onions,939.43,Crates,"NGN 5,004",,Dawanau Market Kano,21.05.2024,Reject,Cold Room,Imo,Bicycle,1
+AGR500271,Amaka Ogundimu,0489 634 0679,Beans,1469.13,kg ,"N64,371",,Bodija Market Ibadan,19-Jan-2024,Grade B,,Edo,truck,0
+AGR500362,Segun Balogun,+234916497016,Maize (Corn),4860.77,bags,"N40,364",196199877.2415,Bodija Market Ibadan,2024-03-27,A,COLD ROOM,Kaduna,Truck,0
+AGR500243,Amara Mohammed,234-481-131-765,Rice (Local),3575.23,Tonnes,75637.05,"N270,419,850",Ariaria Market Aba,05 January 2025,Reject,Open Air,Cross River,truck,1
+AGR500377,Musa Ajayi,00557385736,Maize (Corn),4339.07,Crates,"NGN 49,558",215034285.9483,Dawanau Market Kano,not set,Premium,Open Air,Lagos,TRUCK,N
+AGR500277,Adaeze Adeyemi,09947113633,Plantain,830.96,Tonnes,22101.3,"N18,365,296",Ariaria Market Aba,2024-04-30,GRADE B,N/A,Akwa Ibom,TRUCK,1
+AGR500375,  Adaeze Nwosu,(732) 146-4493,Plantain,null,tonnes,"NGN 64,431","245,943,918.36 ",Bodija Market Ibadan,27.04.2025,Premium,COLD ROOM,Edo,Motorcycle,1
+AGR500125,Bisi Adekunle,03351571840,Maize (Corn),4157.7,Bags,37020.56,"N153,920,382",Oyingbo Market Lagos,28-Jun-2024,N/A,Cold Room,Anambra,Motorcycle,TRUE
+AGR500044,Emeka Yusuf,34845871493,Pepper,3816.34,tonnes,20969.02,"₦80,024,909.79",Ariaria Market Aba,08/12/2024,N/A,Warehouse,Lagos State,Bicycle,N
+AGR500355,Tobi Ogundimu,04488189848,Groundnut,1525.61,kg,22048.91 naira,"NGN 33,638,038",Ariaria Market Aba,17-Aug-2024,GRADE B,Cold Room,Anambra,TRUCK,N
+AGR500304,Tobi  Adeyemi,0507 659 7595,Plantain,3231.15,KG,58261.42,,Dawanau Market Kano,10-May-2025,Premium,,Oyo,Van,yes
+AGR500138,  Ifeoma Adeyemi,(068) 828-5031,Sorghum,2746.53,crates,72348.48,"N198,707,271",Oyingbo Market Lagos,2024/11/29,grade a,Cold Room,Kaduna,Truck,N
+AGR500370,Sadiq Eze,43734764273,Sorghum,4218.96,Tonnes,34114.24 naira,143926613.9904,Ariaria Market Aba,01-Mar-2025,Grade C,Cold Room,Anambra,Motorcycle,Y
+AGR500356,Chinedu Okonkwo,+234160461540,Groundnut,1282.09,bags,"NGN 60,536",nil,Ariaria Market Aba,2024/01/17,Grade A,COLD ROOM,Enugu,Truck,No
+AGR500263,Ifeoma Nwosu,234-769-899-927,Yam,3185.21,kg ,"NGN 79,750","NGN 254,019,860",Ariaria Market Aba,05/13/2025,Grade A,,Anambra,Bicycle,false
+AGR500444,Segun Yusuf,+234056129965,Onions,3300.19,kg ,"₦76,847.24","N253,610,493",Bodija Market Ibadan,2024-07-12,Reject,Open Air,FCT,truck,No
+AGR500291,Chinedu Okafor,0000000000,Palm Oil,1310.15,Tonnes,"NGN 38,886","N50,947,135",Mile 12 Market Lagos,30-Nov-2024,Grade A,,KANO,Bicycle,TRUE
+AGR500184,Tobi Okeke,68436453804,Sorghum,2826.78,tonnes,"N56,250",,Oyingbo Market Lagos,2024/11/19,Grade C,warehouse,Edo,Truck,no
+AGR500245,  Amaka Okafor,00290871827,Maize (Corn),2949.61,Bags,715.81 ,,Ariaria Market Aba,04/06/2025,Reject,warehouse,Imo,Truck,0
+AGR500105,Funmilayo Nnamdi,0238 856 5271,Beans,1408.86,KG,"₦41,165.18","57,995,975.49 ",Bodija Market Ibadan,18/06/2024,Premium,warehouse,Enugu,Van,true
+AGR500103,Femi Okafor,00392051460,Onions,1357.08,Crates,"₦51,078.99","NGN 69,318,276",Bodija Market Ibadan,2024-09-09,grade a,warehouse,Akwa Ibom,Van,Yes
+AGR500217,  Chinedu Okafor   ,05461470798,Cassava,3029.01,tonnes,"N50,190","NGN 152,025,133",Mile 12 Market Lagos,2025-05-31,grade a,Warehouse,Anambra,TRUCK,true
+AGR500339,YUSUF OLAWALE,+234685283061,n/a,3162.7,kg,81094.18 naira,"NGN 256,476,563",Bodija Market Ibadan,25/05/2025,Standard,N/A,Cross River,Truck,false
+AGR500326,Aliyu Okonkwo,(221) 455-9376,Maize (Corn),2112.77,Crates,"41,895.12 ",88514752.6824,Bodija Market Ibadan,07/21/2024,Standard,Warehouse,Enugu,Motorcycle,FALSE
+AGR500178,Halima Ajayi,29311005912,Tomatoes,1284.12,Tonnes,41996.99 naira,"₦53,929,174.80",Bodija Market Ibadan,07 May 2025,GRADE B,Open Air,Enugu,truck,No
+AGR500288,Emeka Okafor,234-426-423-642,Maize (Corn),480.75,crates,"NGN 45,858","NGN 22,046,219",Ariaria Market Aba,N/A,Reject,Cold Room,Enugu,TRUCK,Y
+AGR500100,ALIYU BALOGUN   ,+234178996986,Maize (Corn),,Crates,"NGN 61,480",68883131.71890001,Mile 12 Market Lagos,2024-04-11,GRADE B,Warehouse,Anambra,Bicycle,false
+AGR500451,Tobi Lawal,,Rice (Local),2190.47,kg,"NGN 49,811",109108559.26789999,Ariaria Market Aba,27.11.2024,-,COLD ROOM,Edo,Truck,no
+AGR500241,femi ogundimu,0070 755 0476,Beans,1015.71,tonnes,"35,975.51 ",36540685.26 naira,Ariaria Market Aba,00/00/0000,A,N/A,Edo,Bicycle,true
+AGR500308,Amara Adekunle,234-693-626-894,Onions,N/A,KG,"NGN 43,571",97127032.3198,Bodija Market Ibadan,19-May-2024,Grade A,Warehouse,Edo,Truck,No
+AGR500134,Funmilayo Adekunle,0345 273 4666,Tomatoes,2085.48,Bags,"18,136.51 ","NGN 37,823,329",Dawanau Market Kano,25/01/2025,B,Cold Room,Abuja,TRUCK,Yes
+AGR500361,Blessing Nnamdi,234-845-269-694,Groundnut,-,tonnes,nil,"N18,612,753",Ariaria Market Aba,2024/02/26,A,warehouse,kano,Truck,yes

@@ -1,0 +1,365 @@
+EmployeeID,FullName,Department,JobTitle,Gender,DateOfBirth,HireDate,Email,PhoneNumber,MaritalStatus,EmploymentType,MonthlySalary,State,YearsOfExperience,Active
+PTH-2160,Amara Okafor,Operations,Supervisor,F,25-Dec-2012,10/17/2020,amara.okafor@prodigytraininghub.com,(893) 246-0953,Divorced,Full time,"₦534,111.07",Edo,5,FALSE
+PTH-2157,   Amara Yusuf,marketing,Officer,M,01/07/1980,27 May 2019,amara.yusuf@yahoo.com,04727790104,SINGLE,Full-Time,"NGN 1,078,410",Delta,2,no
+PTH-2173,yusuf olawale,customer service,Coordinator,female,09 September 2010,09-Jul-2024,yusuf.olawale@prodigytraininghub.com,N/A,single,Part-Time,"NGN 159,905",Enugu,0,0
+PTH-2161,Tunde Okafor,FINANCE,Coordinator,Male,19 December 1986,30/07/2017,tunde.okafor@prodigytraininghub.com,(621) 851-8888,Single,FT,511717.31 naira,Kaduna,-1,1
+PTH-2032,Chinedu Suleiman,Sales Dept,Analyst,Female,02/07/1977,2022/12/17,chinedu.suleiman@gmail.com,0808 412 4118,SINGLE,Contract,"NGN 428,040",Imo,99,Y
+PTH-2132,Bola Olawale,Ops,Intern,male,2000/09/13,05/07/2018,bola.olawale@yahoo.com,(840) 369-0034,Single ,Contract,201077.07,Edo,12,yes
+PTH-2235,Ibrahim Okeke,Procurement,Manager,male,08/09/1994,06/10/2024,ibrahim.okeke@yahoo.com,+234753556093,Divorced,Part-Time,"₦578,687.06",Kaduna,1,no
+PTH-2215,  Blessing Nnamdi,Procurement,Analyst,male,2003-09-02,20/08/2024,blessing.nnamdi@gmail.com,(279) 568-7833,married,Full time,"NGN 952,334",Lagos,3,FALSE
+PTH-2177,Kemi Ajayi,finance,Unknown,Male,05/06/1990,02/21/2022,kemi.ajayi@yahoo.com,,NULL,Contract Staff,771856.94 naira,Cross River,12,0
+PTH-2167,Amaka Okeke,procurement,Coordinator,Male,1981-07-24,2025/09/23,amaka.okeke@prodigytraininghub.com,234-758-416-169,Single ,Full-Time,1061246.61,Oyo,8,no
+PTH-2069,Chidi Chukwu,finance,Director,F,1976-01-04,01 November 2019,chidi.chukwu@gmail.com,(436) 349-5788,Married,Part-Time,"NGN 1,068,350",Cross River,5,no
+PTH-2294,Amaka Adeyemi,Finance,Executive,f,1980/09/10,23/04/2020,amaka.adeyemi@prodigytraininghub.com,0753 269 7311,married,Part-Time,1153858.98,Lagos,12,FALSE
+PTH-2101,Segun Suleiman,FINANCE,Coordinator,m,08.10.2004,01/02/2018,segun.suleiman@gmail.com,invalid,married,Part-Time,688278.92 naira,Abuja,2,false
+PTH-2332,Amara Suleiman,Procurement,Analyst,F,13/11/1972,24 June 2020,amara.suleiman@yahoo.com,234-059-325-250,?,full time,"N661,169",Abuja,-1,No
+PTH-2223,IBRAHIM ABUBAKAR,Finance,Intern,f,08/14/1990,,ibrahim.abubakar@yahoo.com,0786 863 3752,Married,Full time,931707.45 naira,Akwa Ibom,12,Yes
+PTH-2046,Segun Eze,Sales Dept,Officer,F,1982-11-26,2025-11-10,segun.eze@prodigytraininghub.com,0773 872 1489,Single,Full time,"₦752,459.30",Oyo,3,no
+PTH-2261,Kemi Yusuf,human resources,Officer,F,30.08.2008,2025/08/11,kemi.yusuf@prodigytraininghub.com,+234416724342,Single,Full time,"NGN 991,022",Delta,2,true
+PTH-2066,Wale Nwosu,Ops,Specialist,male,21/05/1977,05/30/2018,wale.nwosu@yahoo.com,37996507527,married,Full-Time,"261,402.99 ",Lag,3,FALSE
+PTH-2290,Yusuf Afolabi,Legal,Coordinator,Female,2010/06/09,18 January 2015,yusuf.afolabi@prodigytraininghub.com,0520 643 6110,Married,FT,"90,728.05 ",Kaduna,8,false
+PTH-2326,TUNDE YUSUF,CUSTOMER SERVICE,Intern,female,20 June 1980,2024-01-25,tunde.yusuf@prodigytraininghub.com,0838 065 7875,Single ,Contract Staff,330376.94,Imo,1,FALSE
+PTH-2249,Bisi Yusuf,SALES,Coordinator,male,21-Dec-1994,25 December 2016,bisi.yusuf@yahoo.com,(996) 504-7735,SINGLE,Contract,818540.35 naira,Enugu,3,1
+PTH-2130,Tobi Okafor,Procurement,Intern,male,1998/07/03,14/06/2019,?,+234290147679,Widowed,full time,"NGN 1,113,842",Enugu,nil,true
+PTH-2276,Sadiq Abubakar,PROCUREMENT,Supervisor,f,29/06/1977,2016-03-07,sadiq.abubakar@gmail.com,+234257905072,SINGLE,Full-Time,"NGN 785,517",Cross River,12,TRUE
+PTH-2191,Tobi Chukwu,Sales,Supervisor,m,08-Jun-1987,2015/09/30,tobi.chukwu@prodigytraininghub.com,(098) 358-4168,Married,PT,"N819,618",Plateau,Unknown,yes
+PTH-2346,Chidi Okeke,marketing,Supervisor,m,03/04/2003,2019/01/16,chidi.okeke@yahoo.com,77418625652,Widowed,PT,Unknown,Ogun,5,0
+PTH-2140,Musa Adekunle,sales,Intern,M,14-Jan-1986,2018-09-08,musa.adekunle@gmail.com,0995 527 1774,Divorced,Full-Time,1081870.93,ABUJA,12,true
+PTH-2050,Aliyu Okeke,FINANCE,Supervisor,F,11/19/2007,2019/11/24,aliyu.okeke@prodigytraininghub.com,234-788-957-986,married,Contract,"NGN 198,567",rivers,1,true
+PTH-2314,  Chinedu Nwosu,Sales Dept,Analyst,female,05/09/1996,08/24/2020,NIL,0386 571 9182,married,Contract Staff,"N869,185",Cross River,-1,1
+PTH-2216,Yusuf Okeke,sales,Officer,male,25 March 1998,09.09.2015,N/A,(187) 851-9108,Divorced,Contract Staff,"609,939.80 ",Oyo,2,TRUE
+PTH-2098,Ifeoma Abubakar,Customer Service,Manager,F,1971/04/24,09/06/2019,ifeoma.abubakar@yahoo.com,+234400504556,married,PT,"₦905,874.97",Edo,12,true
+PTH-2253,BISI SULEIMAN,Sales Dept,Coordinator,m,1993/02/12,03 January 2022,bisi.suleiman@prodigytraininghub.com,+234610158199,single,FT,"NGN 587,616",Akwa Ibom,0,1
+PTH-2027,NGOZI LAWAL,Sales,Supervisor,f,08/02/1983,16/03/2021,ngozi.lawal@yahoo.com,+234081219136,NULL,Part-Time,"N861,107",Enugu,2,1
+PTH-2085,Ifeoma Lawal,Marketing,Coordinator,female,1981-09-25,17/06/2018,ifeoma.lawal@yahoo.com,05125674680,single,FT,"NGN 482,802",kano,2,true
+PTH-2281,Fatima Chukwu,SALES,Director,Female,15-Sep-1984,07-Mar-2016,fatima.chukwu@prodigytraininghub.com,(517) 133-9596,Single ,FT,"658,426.04 ",Ogun,12,0
+PTH-2337,Wale Chukwu,customer service,Director,M,2002-12-28,13 May 2021,wale.chukwu@gmail.com,25135521570,Widowed,Part-Time,-,Akwa Ibom,0,No
+PTH-2075,Wale Balogun,Sales Dept,Specialist,Male,10/21/1982,08.08.2018,wale.balogun@prodigytraininghub.com,0000000000,SINGLE,Full time,"803,405.67 ",Lag,0,no
+PTH-2195,Obinna Mohammed,i.t,Coordinator,female,26-Jul-1973,01/11/2019,obinna.mohammed@prodigytraininghub.com,,single,full time,850718.24,Kano,0,0
+PTH-2292,Bola Mohammed,Sales Dept,Manager,male,20-May-1996,00/00/0000,bola.mohammed@yahoo.com,234-271-361-115,Single ,FT,"NGN 223,636",Edo,99,no
+PTH-2263,Halima Lawal,IT,Officer,m,17/01/1978,07/05/2021,halima.lawal@gmail.com,05891135290,married,Full time,nil,Imo,3,1
+PTH-2237,Obinna Adeyemi,Legal,Analyst,F,11/29/2000,19.10.2018,obinna.adeyemi@gmail.com,0693 785 4777,Married,FT,"₦205,793.50",Kaduna,99,true
+PTH-2026,Chidi Suleiman,Finance,Executive,f,22 August 1978,02 February 2023,chidi.suleiman@yahoo.com,+234980500978,single,Contract,"NGN 433,414",Plateau,99,Yes
+PTH-2162,Bisi Bello,human resources,Officer,F,27/12/2005,10 July 2025,bisi.bello@gmail.com,,Married,FT,"N619,978",Plateau,5,No
+PTH-2196,Ifeoma Nwosu,Legal,Director,m,1984/07/29,18 September 2022,ifeoma.nwosu@yahoo.com,04705516940,Married,Full-Time,"1,050,787.89 ",Kano,8,Yes
+PTH-2193,Aliyu Yusuf,Human Resources,Coordinator,F,13 October 1980,06.09.2019,aliyu.yusuf@prodigytraininghub.com,52398680002,Divorced,Contract,"N721,646",Ogun,1,TRUE
+PTH-2304,Chioma Bello,Ops,Manager,M,11/20/2006,2018/02/28,chioma.bello@prodigytraininghub.com,(588) 425-2410,SINGLE,PT,"NGN 468,228",abuja,8,false
+PTH-2056,Chioma Nnamdi,Legal,Executive,M,07/07/2004,06.03.2020,chioma.nnamdi@gmail.com,(706) 562-7298,Married,Contract,"NGN 395,584",Imo,99,1
+PTH-2200,Tobi Okeke,marketing,--,M,1976-07-09,2015/05/31,tobi.okeke@yahoo.com,+234578652785,SINGLE,Contract Staff,null,Kaduna,5,No
+PTH-2296,Aliyu Lawal,IT,Officer,Male,1992-10-29,23 February 2022,aliyu.lawal@yahoo.com,(899) 940-4389,Divorced,Full time,"N367,040",Oyo,99,true
+PTH-2201,Obinna Mohammed,customer service,Manager,Female,1994/09/10,16.06.2024,obinna.mohammed@yahoo.com,234-497-334-843,single,Contract Staff,152716.97,Delta,99,0
+PTH-2300,Grace Nwosu,Marketing,Executive,male,1996-11-23,2018/07/26,grace.nwosu@gmail.com,(684) 866-6188,SINGLE,Part-Time,561084.98,Cross River,0,1
+PTH-2208,Amaka Abubakar,Legal,Specialist,f,14/12/1985,2021/11/29,null,06724004991,SINGLE,full time,"₦429,933.53",Imo,3,1
+PTH-2175,Amara Afolabi,Legal,Supervisor,f,06.08.2003,2022-01-28,amara.afolabi@gmail.com,05518844225,Single,Contract,"NGN 792,153",Delta,unknown,0
+PTH-2229,Ifeoma Afolabi,Finance,Intern,F,31/03/1996,13/04/2020,ifeoma.afolabi@gmail.com,0462 873 3427,Single ,Contract Staff,"NGN 622,537",Oyo,1,TRUE
+PTH-2232,Grace Balogun,Legal,Specialist,F,31/05/1998,2022-11-23,grace.balogun@yahoo.com,01398373540,married,Part-Time,"NGN 81,527",Delta,-1,Y
+PTH-2169,Ifeoma Okeke,Marketing,Specialist,F,02/24/1984,00/00/0000,ifeoma.okeke@gmail.com,invalid,Single ,Contract,631421.22 naira,Abuja,12,Yes
+PTH-2006,Wale Okafor,Procurement,Analyst,male,12/05/2004,10/09/2025,wale.okafor@prodigytraininghub.com,(103) 413-1647,Divorced,PT,Unknown,Akwa Ibom,8,TRUE
+PTH-2316,BLESSING YUSUF,i.t,Coordinator,F,04.07.1973,2020-09-09,blessing.yusuf@gmail.com,0557 431 3291,Single ,PT,"₦557,388.59",Enugu,8,yes
+PTH-2134,Sadiq Yusuf,Finance,Intern,male,08/12/1985,29.06.2017,sadiq.yusuf@yahoo.com,08388516060,SINGLE,Part-Time,"330,127.28 ",Enugu,99,Yes
+PTH-2131,Yusuf Ajayi,Sales Dept,Supervisor,male,2010/11/21,25-Apr-2020,yusuf.ajayi@gmail.com,+234438156149,SINGLE,FT,"N228,192",Lagos,5,FALSE
+PTH-2120,Musa Nwosu,legal,Officer,female,N/A,06/05/2015,musa.nwosu@prodigytraininghub.com,01249985698,married,FT,"N142,908",Kaduna,3,Y
+PTH-2205,Ifeoma Nwosu,Human Resources,Manager,Female,25/07/1988,17 January 2018,ifeoma.nwosu@prodigytraininghub.com,93308330165,single,Contract,177213.52,Abuja,99,Y
+PTH-2297,Amaka Suleiman,human resources,Intern,F,08/25/1980,2015-08-23,amaka.suleiman@prodigytraininghub.com,0364 037 6137,married,Contract Staff,"N647,961",Enugu,5,0
+PTH-2282,Yusuf Mohammed,Legal,Coordinator,Female,29-Aug-2013,2023/03/17,yusuf.mohammed@prodigytraininghub.com,09233095849,Single ,Contract Staff,"N546,953",Lagos,0,no
+PTH-2081,aliyu suleiman,Operations,  ,m,18/03/2000,11/03/2020,aliyu.suleiman@prodigytraininghub.com,49947174648,Single,Full-Time,885385.25 naira,Kano,-1,yes
+PTH-2287,Ifeoma Olawale   ,Customer Service,Executive,m,1984-05-10,09-Feb-2016,ifeoma.olawale@yahoo.com,0637 454 5892,Widowed,Full-Time,"NGN 239,556",Ogun,0,TRUE
+PTH-2258,Amaka Eze,Marketing,Specialist,m,12.12.1988,2023-01-17,amaka.eze@gmail.com,75692459375,Divorced,Contract,"₦1,061,972.57",Kano,5,No
+PTH-2324,Fatima Mohammed,Finance,unknown,Female,1987/04/07,27.03.2023,fatima.mohammed@gmail.com,02447209993,SINGLE,full time,"NGN 409,127",Rivers,0,false
+PTH-2133,Amara Okeke,customer service,Executive,f,1987/06/02,2019-07-16,amara.okeke@prodigytraininghub.com,+234445107622,n/a,Full time,905139.95,Anambra,1,no
+PTH-2095,Femi Nnamdi,Legal,Director,female,01.07.1991,2021/09/15,femi.nnamdi@prodigytraininghub.com,17187026217,married,Full-Time,"N732,113",Edo,8,no
+PTH-2070,HALIMA ADEYEMI,i.t,Specialist,female,09 January 1997,2017-03-26,halima.adeyemi@yahoo.com,(685) 574-4431,SINGLE,Full time,650217.22 naira,Lagos,8,false
+PTH-2111,Tunde Okeke,sales,Executive,Male,,15-Feb-2019,tunde.okeke@gmail.com,07586926179,Single ,full time,365730.01 naira,Plateau,5,No
+PTH-2226,GRACE  AJAYI   ,sales,Supervisor,f,06/26/1974,2016-06-30,grace.ajayi@yahoo.com,+234284395995,Single,PT,"N965,979",Abuja,3,Yes
+PTH-2305,   Femi Okafor,Customer Service,Intern,m,05.09.1989,08.05.2017,femi.okafor@yahoo.com,06481491778,Single,Contract,583968.57,Ogun,8,N
+PTH-2210,Musa Nwosu,Legal,Director,F,28 June 1996,30-Jun-2019,musa.nwosu@yahoo.com,+234527420549,Divorced,Part-Time,543054.93,Plateau,12,FALSE
+PTH-2335,chinedu ajayi,Human Resources,Analyst,female,05/04/2005,07/19/2018,--,+234392644220,Single ,Part-Time,"₦565,662.39",Plateau,3,0
+PTH-2266,Tobi Lawal,HR,Manager,Male,24-Aug-1990,2015/11/29,tobi.lawal@yahoo.com,+234071461125,Widowed,Full time,"NGN 1,010,383",Lagos,99,1
+PTH-2156,Musa Balogun,Legal,Officer,F,1974/11/19,09/03/2021,musa.balogun@prodigytraininghub.com,(361) 530-5152,Single ,full time,276862.58,Anambra,99,Y
+PTH-2079,Ifeoma Nnamdi,Sales,Coordinator,m,28/02/1996,2023/01/15,ifeoma.nnamdi@gmail.com,07403447134,Widowed,Full-Time,627487.32 naira,Plateau,0,Yes
+PTH-2165,Grace Lawal,Sales Dept,Specialist,Male,13 September 2004,08/09/2025,grace.lawal@yahoo.com,N/A,Single,Part-Time,998656.18,Kaduna,8,N
+PTH-2243,Fatima Mohammed,human resources,Analyst,f,01/03/1980,19/09/2022,fatima.mohammed@yahoo.com,01567933410,null,Full-Time,424319.72,Cross River,0,N
+PTH-2025,Fatima Balogun,Operations,Coordinator,Male,06/16/1970,03/26/2021,fatima.balogun@gmail.com,(647) 468-7234,married,Contract Staff,"NGN 658,623",Delta,3,N
+PTH-2112,  Adaeze Okonkwo,Marketing,Supervisor,f,N/A,04.05.2016,adaeze.okonkwo@gmail.com,234-053-773-515,SINGLE,full time,834124.8,Anambra,2,1
+PTH-2048,Segun Afolabi,Sales Dept,Director,Male,unknown date,01.06.2017,segun.afolabi@prodigytraininghub.com,01769367632,Single,FT,"₦653,827.86",Enugu,99,TRUE
+PTH-2272,Amara  Nwosu   ,Legal,Director,f,18 November 1970,2020-04-15,amara.nwosu@prodigytraininghub.com,(478) 596-9691,SINGLE,Full-Time,1042972.02 naira,Enugu,5,yes
+PTH-2048,Segun Afolabi,Sales Dept,Director,Male,unknown date,01.06.2017,segun.afolabi@prodigytraininghub.com,01769367632,Single,FT,"₦653,827.86",Enugu,99,TRUE
+PTH-2119,Tobi Nwosu   ,Sales Dept,Director,M,28 February 1977,2025/12/03,tobi.nwosu@yahoo.com,76617711592,married,Contract,"N192,150",Kano,12,Y
+PTH-2103,Emeka Bello,i.t,Supervisor,m,2001/11/29,22.08.2016,emeka.bello@prodigytraininghub.com,40640909743,married,PT,"NGN 440,748",Lagos,0,0
+PTH-2238,ALIYU CHUKWU,Marketing,Executive,f,20-Aug-1976,2019-06-17,aliyu.chukwu@prodigytraininghub.com,0522 872 8080,Single ,Part-Time,"₦881,879.43",Oyo State,0,FALSE
+PTH-2319,Tobi Okonkwo,i.t,Analyst,F,02/05/1981,2017-11-07,tobi.okonkwo@yahoo.com,21356804420,Single ,FT,754407.25,Imo,0,FALSE
+PTH-2159,Yusuf Nwosu,Operations,Analyst,m,2009/07/26,2020/08/17,yusuf.nwosu@gmail.com,03697117980,,Contract,"N235,644",Rivers,1,yes
+PTH-2062,Aliyu Okonkwo,Human Resources,-,m,01.01.1990,09/06/2018,aliyu.okonkwo@yahoo.com,96631931491,Divorced,Contract,"754,936.22 ",Edo,N/A,N
+PTH-2060,Amaka Ogundimu,Procurement,Officer,Female,29-Jun-2006,N/A,amaka.ogundimu@prodigytraininghub.com,234-923-271-937,single,PT,"NGN 799,931",Cross River,2,Yes
+PTH-2089,Ifeoma Nnamdi,marketing,Coordinator,Female,2008-06-26,06 May 2021,-,N/A,Divorced,FT,?,Kano,8,TRUE
+PTH-2010,FATIMA YUSUF   ,PROCUREMENT,Coordinator,M,not set,06/04/2022,fatima.yusuf@prodigytraininghub.com,+234388496965,Single ,full time,"N625,072",Lagos,8,FALSE
+PTH-2274,Sadiq Okonkwo,marketing,Analyst,M,03/10/1991,05/12/2023,sadiq.okonkwo@gmail.com,+234412528669,Widowed,Full-Time,"NGN 975,726",oyo,1,TRUE
+PTH-2241,Segun Adeyemi,SALES,Analyst,M,26.10.1988,19.01.2019,segun.adeyemi@yahoo.com,00848408621,?,Contract Staff,"792,596.79 ",LAGOS,5,1
+PTH-2105,Ifeoma Yusuf,customer service,Officer,male,20.11.2000,2017/04/08,ifeoma.yusuf@prodigytraininghub.com,0000000000,Married,full time,1098536.08 naira,Delta,-,No
+PTH-2239,Wale Adekunle,Customer Service,Officer,m,19-Apr-1970,unknown date,wale.adekunle@yahoo.com,0006 231 2038,,Contract,"NGN 538,596",Edo,12,true
+PTH-2051,Obinna Ogundimu,Finance,Coordinator,female,2012/09/02,26-Dec-2016,obinna.ogundimu@prodigytraininghub.com,234-277-434-873,Single,Part-Time,"NGN 945,590",Delta,-1,yes
+PTH-2144,Tunde Adeyemi,IT,Officer,m,01 June 1993,21/02/2021,tunde.adeyemi@gmail.com,+234182037788,married,FT,"₦498,757.20",Edo,0,0
+PTH-2318,Wale Eze,Finance,Intern,f,2009-09-12,2019/08/02,wale.eze@gmail.com,+234741124903,-,Full-Time,"N123,486",Edo,1,0
+PTH-2315,  chidi olawale,Ops,Executive,m,01/24/1971,02/06/2023,chidi.olawale@prodigytraininghub.com,+234990623445,Single,Contract,n/a,Ogun,99,N
+PTH-2345,Kemi Chukwu,Sales Dept,Intern,M,,2018-05-31,kemi.chukwu@prodigytraininghub.com,(310) 324-1714,Married,Full time,null,Abuja,99,Y
+PTH-2164,Zainab Okonkwo,Finance,Manager,Male,22.04.1980,22 May 2023,null,07221704303,Single,FT,"N580,186",Anambra,3,FALSE
+PTH-2166,Wale Balogun,Procurement,Specialist,female,21.01.2003,04 March 2015,wale.balogun@prodigytraininghub.com,00541566765,single,Part-Time,"N868,057",Anambra,3,No
+PTH-2017,Fatima Nnamdi,Marketing,Officer,male,1989/10/26,19/03/2020,fatima.nnamdi@prodigytraininghub.com,+234963834657,NULL,PT,"N575,219",Cross River,0,true
+PTH-2049,Bola Bello,PROCUREMENT,Manager,Female,20 December 1999,06-May-2024,bola.bello@yahoo.com,0163 287 0831,Single,Contract,"982,944.21 ",Ogun,12,no
+PTH-2067,Ifeoma Suleiman,customer service,Analyst,M,31-Aug-1998,2021-12-06,ifeoma.suleiman@yahoo.com,234-545-494-808,married,Contract,113920.21,Anambra,99,N
+PTH-2012,Tunde Eze,FINANCE,Supervisor,female,2009/05/23,12 July 2025,tunde.eze@gmail.com,06697848018,Married,Full time,"₦230,406.05",Kaduna,1,yes
+PTH-2242,Fatima Mohammed,Marketing,Specialist,Female,09/11/2010,04/30/2025,fatima.mohammed@prodigytraininghub.com,234-823-398-454,Divorced,Contract Staff,"₦262,592.64",Oyo,2,false
+PTH-2154,Chidi Chukwu   ,i.t,Supervisor,M,27 July 2003,10.05.2017,chidi.chukwu@yahoo.com,234-181-412-478,Married,full time,910402.14,Delta,5,true
+PTH-2236,Tobi Olawale,SALES,Intern,M,26/03/1995,20-Apr-2017,tobi.olawale@gmail.com,234-489-964-235,NIL,Contract Staff,"N871,991",Oyo State,1,false
+PTH-2030,Emeka Okeke,MARKETING,Supervisor,M,1981/03/26,2021-10-08,emeka.okeke@prodigytraininghub.com,0107 991 1838,Married,FT,"NGN 108,969",Edo,0,no
+PTH-2093,Grace Lawal,MARKETING,Analyst,Male,2012-05-10,27-Oct-2017,grace.lawal@gmail.com,86753396360,Divorced,full time,356180.88 naira,Rivers,5,false
+PTH-2203,Chidi Okeke,FINANCE,Officer,female,13-Dec-1984,10.09.2022,chidi.okeke@prodigytraininghub.com,86652404157,SINGLE,Contract Staff,462324.98 naira,Akwa Ibom,8,Yes
+PTH-2065,  Kunle Suleiman,Marketing,Director,Female,1995-09-03,19-Mar-2021,kunle.suleiman@gmail.com,(877) 694-5314,Divorced,Contract,493180.51 naira,Imo,-1,TRUE
+PTH-2211,Blessing Okonkwo,Legal,Intern,Male,25.11.1994,25 August 2018,blessing.okonkwo@yahoo.com,29668516122,Divorced,Full time,"NGN 189,372",Ogun,12,true
+PTH-2034,Zainab Bello,CUSTOMER SERVICE,Specialist,female,10.04.1984,28/06/2015,zainab.bello@yahoo.com,N/A,Single ,Contract,"₦914,069.77",Cross River,3,false
+PTH-2212,Tobi Yusuf,Marketing,Intern,Male,01 August 1995,05/12/2018,Unknown,07530463745,married,Full time,"969,668.26 ",KANO,8,false
+PTH-2273,Musa Chukwu,Customer Service,Officer,F,27-Mar-1991,12/20/2024,musa.chukwu@yahoo.com,(579) 249-9125,SINGLE,Full time,210973.63,Enugu,8,true
+PTH-2348,Bola Okonkwo,Legal,Specialist,m,11/19/1993,09/05/2022,bola.okonkwo@yahoo.com,(115) 869-3806,SINGLE,Full time,"NGN 1,054,686",kano,99,N
+PTH-2247,Amara Okeke,Legal,Director,male,22-Apr-2004,2018-02-14,amara.okeke@gmail.com,+234142939685,,Part-Time,879113.06 naira,Lagos,8,no
+PTH-2113,Amaka Okafor,Sales,Director,male,17 April 1994,12-Aug-2017,amaka.okafor@gmail.com,+234064317139,NULL,FT,467994.54,Kaduna,12,No
+PTH-2188,Funmilayo Balogun,Operations,Manager,male,09 September 1987,2023/10/26,funmilayo.balogun@prodigytraininghub.com,+234877470168,SINGLE,full time,"N245,774",Plateau,99,No
+PTH-2088,Halima Adekunle,procurement,Director,m,10/23/1980,09/01/2016,halima.adekunle@gmail.com,24771093248,--,FT,"N294,964",Lagos,1,1
+PTH-2328,Chidi Nwosu,Sales,Officer,m,25.02.2002,14.04.2024,chidi.nwosu@prodigytraininghub.com,234-785-932-133,Single ,Contract Staff,315886.66,Enugu,0,yes
+PTH-2224,Chidi Adeyemi,Sales Dept,Specialist,M,07/07/1972,21/10/2018,chidi.adeyemi@yahoo.com,0310 690 3311,Single,Contract,"₦458,244.84",Edo,-1,No
+PTH-2102,Aliyu Okonkwo,Marketing,Executive,female,18 November 2001,2024-08-27,aliyu.okonkwo@yahoo.com,(436) 713-6959,Married,FT,763493.22,Akwa Ibom,1,Y
+PTH-2003,Tobi Adekunle,Marketing,Analyst,M,08/10/1986,28-Oct-2016,tobi.adekunle@gmail.com,(637) 940-2654,Widowed,Full-Time,"NGN 477,903",Lagos,8,N
+PTH-2042,Ngozi Okeke,Sales Dept,Intern,Male,04/17/2005,27 July 2015,ngozi.okeke@gmail.com,06934060883,nil,full time,"N453,530",Lagos,1,TRUE
+PTH-2129,Sadiq Chukwu,Customer Service,Officer,m,25.09.1991,23 April 2023,sadiq.chukwu@prodigytraininghub.com,+234752545991,Single,PT,"₦930,632.49",Kaduna,2,0
+PTH-2045,Kemi Chukwu,Finance,Coordinator,Female,22/02/1989,2018-07-04,kemi.chukwu@prodigytraininghub.com,(680) 443-6995,married,FT,"NGN 430,026",Edo,8,false
+PTH-2009,Wale Balogun,Information Technology,Analyst,Male,02.10.1990,02/14/2018,wale.balogun@gmail.com,0413 953 7672,Single,Full-Time,nil,Cross River,12,false
+PTH-2251,Kemi Okafor,Customer Service,Intern,m,02/02/1993,15/05/2021,kemi.okafor@yahoo.com,(426) 265-5110,married,Full time,"NGN 1,089,579",Enugu,2,No
+PTH-2259,Bisi Mohammed,Ops,Director,female,01.03.1993,2017-10-19,bisi.mohammed@prodigytraininghub.com,234-654-793-564,-,Contract,"NGN 879,192",Enugu,,TRUE
+PTH-2186,AMARA OKEKE   ,i.t,Executive,male,02-Nov-1994,04/22/2025,-,+234537147321,SINGLE,Part-Time,"N652,624",Ibadan,0,no
+PTH-2333,Yusuf Afolabi,Procurement,Executive,male,23-Apr-1986,07-May-2018,yusuf.afolabi@yahoo.com,234-921-851-569,Widowed,Full-Time,"NGN 1,162,229",Kano,1,N
+PTH-2151,Bisi Chukwu,Information Technology,Coordinator,male,11/18/2010,12/04/2015,bisi.chukwu@prodigytraininghub.com,(270) 653-7947,Single,full time,"N658,892",Cross River,2,1
+PTH-2114,Chioma Balogun,FINANCE,Officer,male,28.12.1975,01.09.2020,chioma.balogun@yahoo.com,+234532931839,Married,Contract,793681.56,Ogun,0,Y
+PTH-2286,Aliyu Okonkwo,Legal,Intern,Female,22/11/2011,2024-08-31,aliyu.okonkwo@prodigytraininghub.com,+234590175186,single,Contract,"₦106,054.84",Kaduna,,yes
+PTH-2227,Halima Eze,Procurement,Specialist,f,1978/08/11,23/08/2017,halima.eze@prodigytraininghub.com,0428 364 4089,SINGLE,Full-Time,"₦211,608.76",Kaduna,3,yes
+PTH-2150,Ifeoma Abubakar,procurement,Supervisor,f,15.02.1974,2019/07/11,ifeoma.abubakar@prodigytraininghub.com,+234059296222,Widowed,Contract Staff,"NGN 471,331",Cross River,0,TRUE
+PTH-2257,Femi Nwosu,marketing,Director,male,08.06.2006,2025-02-16,femi.nwosu@prodigytraininghub.com,0371 240 6596,married,FT,847478.14,Oyo,12,1
+PTH-2260,Fatima Adekunle,SALES,Manager,m,12/28/1973,2025-03-03,fatima.adekunle@prodigytraininghub.com,51939828073,Single ,PT,"1,171,022.88 ",Delta,0,N
+PTH-2271,Amaka Okafor,Sales Dept,Manager,M,16-Aug-1970,07.07.2016,amaka.okafor@yahoo.com,0419 182 5537,Divorced,Full-Time,"₦293,698.33",Imo,1,0
+PTH-2121,Grace Olawale,customer service,Officer,male,1998/09/04,not set,grace.olawale@gmail.com,(789) 611-8367,Single,Contract Staff,1155941.55,Kano,0,Y
+PTH-2236,Tobi Olawale,SALES,Intern,M,26/03/1995,20-Apr-2017,tobi.olawale@gmail.com,234-489-964-235,NIL,Contract Staff,"N871,991",Oyo State,1,false
+PTH-2039,Sadiq Olawale,Legal,Analyst,F,2006/03/06,06-Nov-2025,sadiq.olawale@yahoo.com,07543303654,single,PT,"NGN 410,558",Plateau,3,true
+PTH-2107,Kunle Mohammed,customer service,Manager,male,17 March 2013,2018/12/10,kunle.mohammed@gmail.com,+234123685160,SINGLE,full time,560915.39 naira,Ogun,0,Yes
+PTH-2146,Chidi Nnamdi,Ops,Executive,male,1997/01/10,2019/08/18,chidi.nnamdi@yahoo.com,(518) 644-9251,married,Contract Staff,"N864,016",Ogun,8,TRUE
+PTH-2004,IFEOMA OGUNDIMU,Marketing,Director,M,27/05/1999,20.05.2017,ifeoma.ogundimu@prodigytraininghub.com,35116155940,Single ,FT,"NGN 639,139",Delta,99,TRUE
+PTH-2020,Bisi Okeke,Sales,Director,female,05-Nov-1988,04.05.2024,bisi.okeke@gmail.com,(473) 829-9737,Widowed,Full time,516214.03 naira,Lagos State,1,Y
+PTH-2176,IBRAHIM AJAYI,human resources,Executive,m,05/10/2004,07-Feb-2015,ibrahim.ajayi@yahoo.com,(313) 237-0589,single,Full time,562087.55 naira,Akwa Ibom,0,yes
+PTH-2021,Amara Okafor,procurement,Coordinator,m,07.09.2010,21.04.2015,amara.okafor@prodigytraininghub.com,03116566701,married,Part-Time,521302.69,Edo,-1,N
+PTH-2317,Kemi Bello,Procurement,Director,f,10/19/1994,09/17/2016,kemi.bello@prodigytraininghub.com,invalid,SINGLE,FT,893846.02,Kaduna,8,true
+PTH-2094,Funmilayo Bello,Legal,Officer,Male,01-Nov-1995,11/07/2025,funmilayo.bello@gmail.com,05766270289,Single ,Contract,"N955,811",Kano,8,No
+PTH-2240,Zainab Nwosu,Human Resources,Coordinator,male,17-Jan-1978,05.09.2019,zainab.nwosu@prodigytraininghub.com,05099770088,single,Full-Time,"₦630,912.88",Delta,1,Yes
+PTH-2008,Amara Okeke,Procurement,Director,Female,2002-06-13,25-Jun-2016,  ,07648350305,Single,Contract Staff,"1,127,775.95 ",abuja,99,1
+PTH-2041,Amaka Lawal,HR,Manager,F,08/11/1988,05/12/2024,amaka.lawal@yahoo.com,40196556981,null,full time,813512.53,Akwa Ibom,12,N
+PTH-2153,Zainab Balogun,finance,Coordinator,Male,18 June 2003,2023/06/24,zainab.balogun@gmail.com,234-862-392-407,Divorced,Contract Staff,Unknown,Rivers,8,No
+PTH-2248,Bisi Balogun,Information Technology,Coordinator,F,25-Nov-1997,2018-05-25,bisi.balogun@yahoo.com,(218) 501-6315,Single,Full-Time,778020.53,FCT,8,Yes
+PTH-2019,obinna ogundimu,Legal,Supervisor,male,1977-02-20,22 January 2025,obinna.ogundimu@prodigytraininghub.com,30103105183,Divorced,Part-Time,912894.10 naira,Kaduna,99,Yes
+PTH-2221,Wale Abubakar,SALES,Coordinator,m,1973/02/11,10-Dec-2019,wale.abubakar@yahoo.com,,single,Full-Time,  ,Lagos,8,false
+PTH-2028,Amara Afolabi,legal,Executive,Female,11/10/1989,03/10/2025,amara.afolabi@prodigytraininghub.com,0939 909 1699,null,Full time,413035.51,Delta,0,yes
+PTH-2014,Funmilayo Afolabi,Customer Service,Executive,Female,17/01/1978,04/12/2015,funmilayo.afolabi@prodigytraininghub.com,234-489-325-288,Widowed,full time,"NGN 904,952",Oyo,3,TRUE
+PTH-2096,Emeka Nnamdi,Customer Service,Executive,m,1970/06/22,09 March 2016,emeka.nnamdi@prodigytraininghub.com,,single,Part-Time,"₦190,439.35",Plateau,1,no
+PTH-2230,Obinna Abubakar,IT,--,F,20-Jun-1988,21 December 2015,obinna.abubakar@prodigytraininghub.com,0866 882 6343,unknown,Full-Time,1039810.62 naira,Enugu,12,false
+PTH-2339,Wale Nnamdi,MARKETING,Coordinator,F,2003-02-24,27 September 2017,wale.nnamdi@gmail.com,0626 765 8617,Divorced,Part-Time,"NGN 820,515",Edo,2,No
+PTH-2252,Ibrahim Okeke,procurement,Analyst,Female,1982-11-22,26.05.2017,ibrahim.okeke@yahoo.com,07541212678,single,Full time,376973.71 naira,Anambra,5,1
+PTH-2265,Yusuf Nnamdi,i.t,Executive,Male,29 September 1982,26/09/2024,yusuf.nnamdi@prodigytraininghub.com,234-993-756-798,Single,Part-Time,"NGN 282,334",Ogun,0,Y
+PTH-2031,CHIOMA SULEIMAN   ,Customer Service,Manager,f,03/23/1992,12 October 2022,chioma.suleiman@gmail.com,+234513542784,single,Full time,402803.93 naira,Plateau,12,true
+PTH-2182,MUSA NWOSU,Ops,Coordinator,M,2008-06-08,2021-12-13,  ,+234995900109,Divorced,full time,"₦487,764.22",KANO,8,TRUE
+PTH-2015,Chinedu Eze,customer service,?,m,05.11.2007,15 August 2022,chinedu.eze@yahoo.com,+234570154303,--,Full-Time,680561.62 naira,Cross River,99,false
+PTH-2288,Bola Nnamdi,Information Technology,Director,f,00/00/0000,01 June 2018,bola.nnamdi@gmail.com,07500170127,SINGLE,Full time,"535,555.43 ",Enugu,5,N
+PTH-2264,Bisi Mohammed,Ops,Coordinator,M,N/A,unknown date,bisi.mohammed@prodigytraininghub.com,0965 610 1438,Single,PT,1193912.87 naira,Abuja,1,No
+PTH-2295,  femi adeyemi,Customer Service,Manager,f,27 July 1974,2015-09-27,femi.adeyemi@yahoo.com,0196 565 2341,married,Part-Time,"₦838,872.19",Ogun,0,N
+PTH-2225,Bola Eze   ,legal,Director,M,28.08.1977,08/11/2021,bola.eze@yahoo.com,234-790-306-738,Divorced,Contract,"N1,015,594",Anambra,1,FALSE
+PTH-2142,Grace  Bello,SALES,Specialist,f,05/07/1985,2020-05-27,grace.bello@prodigytraininghub.com,(411) 998-6798,Widowed,FT,823355.92 naira,kano,12,0
+PTH-2091,  bola ajayi,Ops,Officer,female,12/04/1996,unknown date,bola.ajayi@gmail.com,+234821465840,Married,PT,"N819,953",Anambra,8,No
+PTH-2118,Chinedu Bello,Human Resources,Coordinator,f,25 December 2005,27-Jan-2022,chinedu.bello@gmail.com,+234783908470,Single,Full time,"₦688,895.48",Delta,99,FALSE
+PTH-2302,Bola Yusuf,Human Resources,Executive,f,1973-10-20,05-Mar-2021,bola.yusuf@gmail.com,234-146-303-161,single,Contract,230449.95 naira,Oyo,5,yes
+PTH-2222,Halima Lawal,Marketing,Analyst,Male,1987/07/22,22-Feb-2025,halima.lawal@prodigytraininghub.com,234-128-682-300,married,FT,"₦723,597.08",Edo,0,no
+PTH-2190,   Sadiq Yusuf,Sales Dept,Specialist,male,09 November 1997,08/22/2025,sadiq.yusuf@yahoo.com,,single,Full time,"NGN 1,117,937",Plateau,3,true
+PTH-2090,Kunle Balogun,Marketing,Manager,F,2003-11-23,22 April 2019,kunle.balogun@yahoo.com,08467737826,single,PT,908514.59 naira,Kaduna,99,1
+PTH-2016,Tobi Olawale,Ops,Analyst,male,1989/05/07,31-Jan-2019,tobi.olawale@yahoo.com,0117 182 2782,Single ,Contract,"N158,371",Oyo,3,1
+PTH-2245,tobi eze,MARKETING,Intern,Female,09-Jun-1996,2022/10/30,tobi.eze@gmail.com,invalid,SINGLE,Full time,287340.87 naira,Plateau,3,0
+PTH-2035,sadiq suleiman,CUSTOMER SERVICE,Analyst,male,1973/08/08,15/04/2022,sadiq.suleiman@yahoo.com,+234801128059,single,Full-Time,"NGN 1,033,977",LAGOS,8,TRUE
+PTH-2122,Funmilayo Okonkwo,Marketing,Intern,male,1973/06/28,2023-05-11,funmilayo.okonkwo@prodigytraininghub.com,0000000000,Single ,FT,346555.44 naira,Enugu,5,No
+PTH-2143,Chidi  Okafor   ,Legal,Supervisor,F,29-Apr-1975,2018-07-18,chidi.okafor@prodigytraininghub.com,234-935-978-207,SINGLE,Contract Staff,1178351.23,abuja,-1,true
+PTH-2344,Sadiq Okeke,PROCUREMENT,Analyst,Male,02/16/1978,08-Nov-2021,sadiq.okeke@prodigytraininghub.com,08720506149,Single ,Full time,291309.28,kano,12,1
+PTH-2329,SADIQ SULEIMAN,Operations,Supervisor,M,29-May-2011,2022-10-23,sadiq.suleiman@prodigytraininghub.com,+234039652239,Single,Part-Time,"N298,503",Akwa Ibom,1,1
+PTH-2283,Ngozi Mohammed,human resources,Manager,male,10/19/1991,2018/04/19,Unknown,02544948126,Single ,Full time,"N111,335",Imo,5,0
+PTH-2299,Kemi Okonkwo   ,sales,Manager,M,24.10.1977,2018-03-09,kemi.okonkwo@prodigytraininghub.com,234-710-910-430,Divorced,FT,"325,218.45 ",abuja,2,1
+PTH-2349,Grace Mohammed,HR,Officer,Male,09/07/1980,12/25/2020,grace.mohammed@yahoo.com,68793741608,married,Full time,406864.49,Enugu,3,Yes
+PTH-2327,Sadiq Ogundimu,SALES,Supervisor,Male,1987-09-25,2016/03/12,sadiq.ogundimu@prodigytraininghub.com,(856) 420-5930,SINGLE,full time,90291.14 naira,Plateau,8,no
+PTH-2275,Tunde Ajayi,Sales,Specialist,M,09.11.1972,2024/01/18,tunde.ajayi@prodigytraininghub.com,0966 278 2827,SINGLE,Part-Time,458262.93,Ogun,0,Yes
+PTH-2180,Obinna Balogun,marketing,Manager,M,06.01.1974,24-Aug-2023,obinna.balogun@prodigytraininghub.com,22535841438,married,PT,358568.93,Lagos,5,yes
+PTH-2285,Femi Okeke,Procurement,Specialist,f,19/08/1978,15 December 2015,femi.okeke@prodigytraininghub.com,+234667116845,Widowed,PT,"₦1,149,788.53",Anambra,5,Yes
+PTH-2192,Chinedu Chukwu,marketing,Supervisor,male,1987/08/25,29-Jun-2020,chinedu.chukwu@prodigytraininghub.com,+234499121655,Divorced,FT,"N913,718",Abuja,99,FALSE
+PTH-2320,Fatima Bello,MARKETING,Officer,Male,27.05.1976,18 February 2024,fatima.bello@gmail.com,+234788317121,Divorced,Contract,"₦381,303.90",Rivers,0,N
+PTH-2199,Chinedu Ajayi,FINANCE,Coordinator,Male,26-Nov-1975,28 January 2025,chinedu.ajayi@yahoo.com,02636897028,Single,Full time,"N1,155,686",Anambra,n/a,Yes
+PTH-2244,Bola Mohammed,HR,Intern,F,31/01/2000,26 January 2017,bola.mohammed@prodigytraininghub.com,234-668-700-217,Divorced,Full-Time,NULL,Imo,99,0
+PTH-2135,Amara Ogundimu   ,SALES,Intern,Male,12/26/1978,07/16/2016,amara.ogundimu@yahoo.com,01596966416,Divorced,FT,463790.27 naira,Delta,Unknown,N
+PTH-2217,Musa Mohammed,human resources,Director,f,10/14/1973,2018/11/05,null,03982258713,Single,FT,1163427.11 naira,Delta,99,true
+PTH-2184,Femi Suleiman,sales,Intern,m,01/19/1998,23 May 2021,femi.suleiman@gmail.com,(647) 102-7677,SINGLE,Contract Staff,"N1,141,204",Kaduna,5,true
+PTH-2149,KEMI SULEIMAN   ,Procurement,Manager,female,03.12.1986,03 May 2016,kemi.suleiman@yahoo.com,(573) 322-1418,NIL,Contract Staff,125510.34 naira,Rivers,99,TRUE
+PTH-2022,Emeka Mohammed,sales,Executive,male,11/30/1970,2024/05/30,emeka.mohammed@yahoo.com,234-513-338-726,Married,Full time,"N775,896",Imo,8,false
+PTH-2269,Chidi Okeke,customer service,Analyst,Male,1974/03/29,19.08.2019,chidi.okeke@prodigytraininghub.com,0000000000,single,PT,600415.27,Delta,3,Y
+PTH-2059,Segun Balogun,Information Technology,Specialist,Male,23-Dec-1999,00/00/0000,segun.balogun@gmail.com,,married,Part-Time,175887.63,Plateau,5,no
+PTH-2214,Aliyu Suleiman,customer service,Executive,Male,24.01.1978,2021/12/27,aliyu.suleiman@yahoo.com,(684) 145-9332,,PT,588921.68,Abuja,0,false
+PTH-2301,Yusuf Olawale,Procurement,Coordinator,f,13 May 1992,13.03.2019,yusuf.olawale@yahoo.com,+234414183285,SINGLE,FT,"NGN 661,159",Enugu,8,no
+PTH-2231,Femi Okafor,Finance,Executive,male,20/03/1992,unknown date,femi.okafor@prodigytraininghub.com,17518304699,Single,PT,349372.87,Akwa Ibom,8,no
+PTH-2311,Grace Nnamdi,Operations,Analyst,male,03 April 2001,00/00/0000,grace.nnamdi@prodigytraininghub.com,+234937597383,--,Full-Time,NULL,Edo,0,No
+PTH-2334,Aliyu Balogun,marketing,Officer,Female,1975/10/07,2018/02/10,aliyu.balogun@prodigytraininghub.com,54522675289,single,full time,896596.93,Ogun,99,1
+PTH-2336,Sadiq Yusuf,Finance,Manager,m,26.08.1985,06.12.2020,sadiq.yusuf@yahoo.com,0690 295 9391,SINGLE,Full time,"₦864,510.20",Anambra,1,Y
+PTH-2141,Segun Ajayi,Legal,Analyst,f,unknown date,12/01/2017,segun.ajayi@yahoo.com,90581477005,Widowed,Contract Staff,505320.87 naira,Plateau,0,false
+PTH-2108,Sadiq Okeke,Marketing,Officer,Female,,N/A,sadiq.okeke@prodigytraininghub.com,0817 549 6513,single,FT,227820.83 naira,Enugu,0,TRUE
+PTH-2234,ibrahim balogun,Finance,Manager,M,11-Jul-1987,2015/11/25,ibrahim.balogun@prodigytraininghub.com,+234678544587,married,Contract Staff,"N1,085,699",Cross River,5,true
+PTH-2063,Adaeze  Ajayi,MARKETING,Intern,male,05/03/1987,N/A,adaeze.ajayi@gmail.com,09058651850,single,PT,"NGN 1,143,403",Ogun,3,0
+PTH-2168,Funmilayo Chukwu,FINANCE,Executive,F,10/12/2011,21.03.2021,funmilayo.chukwu@prodigytraininghub.com,08451154479,Married,PT,"N279,904",Cross River,99,0
+PTH-2206,  zainab nnamdi,Human Resources,Coordinator,Female,1971/08/22,15/02/2023,zainab.nnamdi@yahoo.com,+234120826773,married,Full time,"NGN 594,493",Kaduna,12,yes
+PTH-2292,Bola Mohammed,Sales Dept,Manager,male,20-May-1996,00/00/0000,bola.mohammed@yahoo.com,234-271-361-115,Single ,FT,"NGN 223,636",Edo,99,no
+PTH-2086,Chidi Lawal,Marketing,Intern,f,29 March 2004,20/11/2017,N/A,15451680876,Single,FT,"₦1,000,182.97",Edo,2,Y
+PTH-2163,Kemi Suleiman,Human Resources,Supervisor,m,25-Mar-1999,12 October 2019,kemi.suleiman@gmail.com,0319 520 5852,single,Contract Staff,735614.61,Enugu,1,true
+PTH-2250,Chinedu  Okeke,Marketing,Intern,m,1982-10-05,06/08/2023,chinedu.okeke@yahoo.com,234-629-619-431,Married,Part-Time,"438,940.72 ",Abuja,99,0
+PTH-2267,Bisi Bello,Finance,Officer,f,1981/06/12,2019-06-22,bisi.bello@yahoo.com,05738757177,married,PT,279372.10 naira,Enugu,12,FALSE
+PTH-2106,  Emeka Bello,customer service,Officer,M,06 December 1975,N/A,emeka.bello@gmail.com,85884247451,Divorced,PT,"615,024.27 ",Abuja,1,FALSE
+PTH-2178,ngozi adeyemi,HR,Director,Female,1973/08/07,14.09.2018,ngozi.adeyemi@gmail.com,+234912517785,SINGLE,Part-Time,1024771.86 naira,KANO,3,Y
+PTH-2124,femi suleiman   ,IT,Officer,Male,1978-07-10,2025/12/05,femi.suleiman@yahoo.com,+234988516560,Divorced,Part-Time,538393.45 naira,Fct Abuja,12,true
+PTH-2109,Halima Abubakar,SALES,Specialist,Female,01-Oct-1973,10.02.2018,N/A,00985931746,SINGLE,Full-Time,"NGN 427,096",Plateau,1,false
+PTH-2127,Wale Balogun,Sales,Specialist,Female,09/10/1996,09 May 2024,wale.balogun@prodigytraininghub.com,08094024455,single,Contract Staff,"368,832.72 ",Ibadan,null,1
+PTH-2255,Segun Balogun,Finance,Analyst,male,04/11/2012,05/02/2025,segun.balogun@gmail.com,0622 444 7212,Widowed,full time,"₦535,847.67",Rivers State,12,FALSE
+PTH-2011,tobi olawale,Procurement,?,Female,12/06/2011,07/19/2018,tobi.olawale@gmail.com,234-871-012-269,single,Full time,"N372,058",Cross River,Unknown,yes
+PTH-2099,Amara Eze,marketing,Analyst,female,1987-06-08,2021-09-11,amara.eze@yahoo.com,(386) 922-2196,Divorced,FT,"₦764,665.43",Edo,99,true
+PTH-2321,Kunle Abubakar,Ops,Officer,Female,1972-08-24,03/04/2017,kunle.abubakar@yahoo.com,00323651994,nil,Full-Time,"N919,906",Cross River,-1,TRUE
+PTH-2047,Tobi Bello   ,human resources,Director,M,2009/01/07,13 January 2017,,(134) 332-0037,Single,Full time,240441.67 naira,Enugu,12,1
+PTH-2033,Aliyu Olawale,Finance,Manager,male,29 August 2004,05-Feb-2018,aliyu.olawale@prodigytraininghub.com,234-493-534-874,Single ,Contract Staff,"964,806.92 ",Plateau,2,N
+PTH-2083,Yusuf Suleiman,Customer Service,Supervisor,M,10/09/1976,31-Jul-2019,yusuf.suleiman@yahoo.com,234-399-049-027,Widowed,Part-Time,415875.11,Abuja,2,1
+PTH-2024,Bisi Lawal,Operations,Supervisor,F,03/04/2006,27-Nov-2021,bisi.lawal@prodigytraininghub.com,32677360260,Single ,PT,"1,109,971.78 ",Rivers State,3,FALSE
+PTH-2254,  kemi ajayi   ,HR,Coordinator,m,16/11/1982,2024-03-27,nil,60466183982,Divorced,Full-Time,,Lagos,0,yes
+PTH-2323,Emeka Chukwu,Ops,Coordinator,F,unknown date,unknown date,emeka.chukwu@prodigytraininghub.com,29667066253,SINGLE,PT,921612.51 naira,Ogun,0,0
+PTH-2187,Wale Eze,marketing,Manager,m,not set,not set,wale.eze@yahoo.com,+234696325953,NIL,FT,566420.92,Ogun,99,1
+PTH-2110,Segun Nnamdi,Operations,Supervisor,M,05.07.1970,13/11/2022,segun.nnamdi@prodigytraininghub.com,(200) 471-1382,Married,Part-Time,263492.55 naira,Anambra,5,FALSE
+PTH-2148,Tobi Olawale,CUSTOMER SERVICE,Supervisor,f,1988/09/08,2019/05/07,tobi.olawale@gmail.com,(281) 685-0542,Widowed,full time,"NGN 1,151,506",Rivers,0,Y
+PTH-2313,Ibrahim Ajayi,sales,Specialist,M,20/09/2009,2015/10/03,ibrahim.ajayi@yahoo.com,13836702410,Divorced,Contract Staff,324788.16,ABUJA,12,true
+PTH-2018,Chioma Nwosu,human resources,Executive,f,N/A,21/01/2023,chioma.nwosu@gmail.com,(713) 315-0983,married,PT,"N510,056",Plateau,99,TRUE
+PTH-2209,Kunle Olawale,Sales,Analyst,female,23.02.2011,05.11.2022,kunle.olawale@gmail.com,05478872874,Single ,Part-Time,"NGN 825,002",Edo,0,TRUE
+PTH-2123,BISI NWOSU,Legal,Analyst,m,04/10/2008,05/11/2023,bisi.nwosu@gmail.com,0271 111 6152,Single,Contract,"N727,422",Enugu,1,no
+PTH-2145,Ngozi Lawal,Legal,Officer,M,06/08/1996,2022/05/21,ngozi.lawal@yahoo.com,0255 466 5905,Single ,full time,"NGN 1,150,933",Kaduna,3,Y
+PTH-2204,Funmilayo Suleiman,procurement,Intern,female,05/06/1995,11/05/2018,funmilayo.suleiman@gmail.com,+234733848421,Single ,Part-Time,"891,959.85 ",Cross River,3,no
+PTH-2277,Bisi Afolabi,Sales Dept,Officer,m,07-Dec-1981,16 December 2015,bisi.afolabi@yahoo.com,N/A,Single,Part-Time,"₦497,128.72",Kaduna,8,Y
+PTH-2284,Blessing Ogundimu,SALES,Intern,m,19-Mar-1976,18/07/2023,blessing.ogundimu@yahoo.com,42232536729,Married,Full-Time,"N645,336",Cross River,3,No
+PTH-2100,   Ngozi Okonkwo,SALES,Executive,f,26-Jun-1977,22.03.2021,ngozi.okonkwo@gmail.com,03792374740,Widowed,Full time,"NGN 628,399",Ibadan,12,No
+PTH-2038,Tobi Mohammed,Ops,Manager,f,unknown date,08/08/2022,tobi.mohammed@gmail.com,+234634216073,Divorced,Contract Staff,887439.78 naira,Imo,3,yes
+PTH-2082,Funmilayo Okeke,Ops,Intern,M,09 February 2011,2024-02-24,?,+234771906594,Single ,Full-Time,899299.58,Edo,8,no
+PTH-2293,Emeka Adeyemi   ,PROCUREMENT,Manager,F,14-Dec-1971,07/06/2023,emeka.adeyemi@prodigytraininghub.com,42622189092,--,Full-Time,"N1,069,859",Edo,5,N
+PTH-2268,  Segun Ajayi,Customer Service,Officer,Female,08-Dec-2003,05.01.2016,segun.ajayi@gmail.com,14010512382,single,FT,"NGN 553,241",Lagos,-1,TRUE
+PTH-2002,FUNMILAYO EZE,Operations,Coordinator,m,1979-08-29,28 September 2016,funmilayo.eze@gmail.com,00013389083,Widowed,Part-Time,"1,152,078.64 ",Akwa Ibom,0,0
+PTH-2280,Tunde Adeyemi,HR,Specialist,Male,18/12/1988,23 February 2023,-,07836134074,Widowed,Full time,"N1,185,389",Akwa Ibom,1,TRUE
+PTH-2136,Bisi Nnamdi,marketing,Officer,male,19.08.1970,unknown date,bisi.nnamdi@gmail.com,234-297-516-136,Single ,Contract,"NGN 1,079,047",Imo,12,N
+PTH-2189,Wale Okeke,i.t,Manager,M,17 April 1989,17.09.2023,wale.okeke@gmail.com,+234395004797,Widowed,Contract,442221.04,Akwa Ibom,0,Yes
+PTH-2256,Tunde Olawale,IT,Executive,M,1993/12/06,2020-07-01,tunde.olawale@prodigytraininghub.com,04647154379,Single,full time,"NGN 499,670",Enugu,3,false
+PTH-2139,TOBI LAWAL,finance,Executive,male,15/12/1974,03/03/2025,tobi.lawal@prodigytraininghub.com,32921277997,married,Part-Time,"₦1,015,460.03",Cross River,n/a,true
+PTH-2054,Kunle Olawale,Finance,Specialist,m,27/01/1995,06/22/2018,kunle.olawale@prodigytraininghub.com,+234366909670,Widowed,Contract,"₦501,880.82",Akwa Ibom,0,TRUE
+PTH-2179,Tunde Adekunle,HR,Executive,Male,01/19/2012,05/09/2023,tunde.adekunle@yahoo.com,invalid,Married,full time,"₦695,529.54",Lagos,12,Y
+PTH-2291,Fatima Ogundimu,Sales Dept,Analyst,male,10/03/1990,26-May-2016,unknown,71293870051,  ,FT,"₦494,938.32",Oyo,12,N
+PTH-2155,Ifeoma Abubakar,i.t,Intern,m,1982-10-16,02/14/2016,ifeoma.abubakar@yahoo.com,234-137-506-068,Divorced,Contract Staff,"773,857.67 ",Delta,12,yes
+PTH-2077,wale nwosu,Finance,Manager,female,22/04/1976,26-Jan-2017,wale.nwosu@gmail.com,96499091334,single,Full time,"NGN 614,749",Kano,12,false
+PTH-2218,Sadiq Afolabi,Customer Service,Manager,female,12-Oct-1981,2020/04/27,sadiq.afolabi@gmail.com,07187072867,single,FT,242567.81 naira,Edo,2,FALSE
+PTH-2093,Grace Lawal,MARKETING,Analyst,Male,2012-05-10,27-Oct-2017,grace.lawal@gmail.com,86753396360,Divorced,full time,356180.88 naira,Rivers,5,false
+PTH-2172,Chinedu Afolabi,Procurement,Officer,male,2006/05/03,13.06.2025,chinedu.afolabi@yahoo.com,(719) 285-6543,single,Contract,"368,640.60 ",Edo,5,FALSE
+PTH-2220,Sadiq Ajayi,Finance,Officer,f,18/12/2012,2022-12-10,sadiq.ajayi@gmail.com,234-651-801-704,single,Part-Time,"NGN 214,374",LAGOS,-1,yes
+PTH-2092,Kunle Olawale,MARKETING,Director,Female,05 March 1974,03/20/2021,kunle.olawale@yahoo.com,+234997278755,Divorced,Full time,748555.50 naira,FCT,8,No
+PTH-2078,Obinna Suleiman,Marketing,Executive,Female,27 June 2001,31/08/2019,obinna.suleiman@yahoo.com,(123) 281-2067,Widowed,Contract,"₦695,142.65",Akwa Ibom,99,true
+PTH-2307,Bola Bello,Sales Dept,Officer,male,1988/10/08,01/06/2021,bola.bello@yahoo.com,+234000307562,SINGLE,Full-Time,--,Ogun,2,FALSE
+PTH-2325,Ifeoma Bello,Sales Dept,Supervisor,Female,03 September 2011,18-Oct-2016,ifeoma.bello@prodigytraininghub.com,+234687014626,Married,FT,1120443.44,Plateau,8,TRUE
+PTH-2185,Emeka Okeke,customer service,Specialist,male,24-Jul-2002,06-Apr-2024,emeka.okeke@prodigytraininghub.com,(592) 555-6258,Single,Full time,"₦442,265.03",kano,-1,false
+PTH-2061,Aliyu Bello,Marketing,Director,M,02-Aug-1975,24.01.2018,aliyu.bello@yahoo.com,0529 912 4190,Married,Contract,975263.50 naira,Kaduna,0,true
+PTH-2171,Kunle Mohammed,CUSTOMER SERVICE,Director,female,1987-02-01,08.08.2024,N/A,03556909275,Widowed,PT,"299,590.80 ",FCT,3,TRUE
+PTH-2040,Chinedu Ajayi,Marketing,Executive,f,2000-04-09,19/03/2016,,0458 685 0142,Unknown,Contract,"NGN 341,881",Kaduna,99,false
+PTH-2183,Zainab Balogun,IT,Manager,m,08.06.1986,21.07.2015,zainab.balogun@yahoo.com,,NULL,Part-Time,"₦327,209.52",Kano,2,true
+PTH-2145,Ngozi Lawal,Legal,Officer,M,06/08/1996,2022/05/21,ngozi.lawal@yahoo.com,0255 466 5905,Single ,full time,"NGN 1,150,933",Kaduna,3,Y
+PTH-2303,Kunle Adekunle,PROCUREMENT,Analyst,F,1994/07/10,2020-10-01,kunle.adekunle@yahoo.com,234-904-210-202,Widowed,Contract,800892.93,Plateau,99,Yes
+PTH-2298,Grace Nwosu,IT,Executive,female,04-Nov-1979,07/24/2020,grace.nwosu@prodigytraininghub.com,01805526965,Married,PT,"₦1,110,348.02",Ogun,,N
+PTH-2341,Halima Mohammed,Customer Service,Manager,male,11-Nov-1978,2020-07-08,halima.mohammed@gmail.com,234-262-181-599,Married,PT,"₦174,913.03",Kaduna,NIL,N
+PTH-2087,Adaeze Ajayi,i.t,Coordinator,Male,not set,14/06/2017,adaeze.ajayi@yahoo.com,234-385-977-034,Single,FT,"590,730.82 ",Imo,1,No
+PTH-2252,Ibrahim Okeke,procurement,Analyst,Female,1982-11-22,26.05.2017,ibrahim.okeke@yahoo.com,07541212678,single,Full time,376973.71 naira,Anambra,5,1
+PTH-2058,Bola Okafor,LEGAL,Supervisor,Female,00/00/0000,12 January 2020,unknown,06537556464,Widowed,Full time,85881.34 naira,Ogun,5,1
+PTH-2343,Chinedu  Nwosu,IT,Supervisor,Female,12/23/1976,2016/05/31,chinedu.nwosu@yahoo.com,06884443106,single,full time,"N465,415",Enugu,2,No
+PTH-2116,Femi  Suleiman   ,Sales Dept,Officer,m,1988/02/21,04/09/2025,femi.suleiman@yahoo.com,01020539502,Single,full time,n/a,Abuja,5,0
+PTH-2147,  chinedu nnamdi   ,SALES,Supervisor,M,2008/01/04,11/03/2024,unknown,25462914865,Widowed,FT,"NGN 553,073",Cross River,3,Yes
+PTH-2181,Ibrahim Suleiman,Sales Dept,Officer,female,2001-09-12,10 June 2020,ibrahim.suleiman@yahoo.com,0424 981 8299,single,Contract Staff,570000.00 naira,Cross River,99,Y
+PTH-2076,Obinna Mohammed,IT,Supervisor,Female,1998/10/08,2020-02-05,obinna.mohammed@yahoo.com,234-699-938-677,Widowed,FT,"688,496.54 ",Anambra,5,true
+PTH-2198,Tunde Ogundimu,sales,Specialist,M,22-Nov-2002,N/A,tunde.ogundimu@gmail.com,+234230913075,Divorced,Contract,218369.52,LAGOS,12,Y
+PTH-2095,Femi Nnamdi,Legal,Director,female,01.07.1991,2021/09/15,femi.nnamdi@prodigytraininghub.com,17187026217,married,Full-Time,"N732,113",Edo,8,no
+PTH-2117,Amaka Bello,human resources,Director,F,2011-06-15,11/19/2016,amaka.bello@prodigytraininghub.com,02681177589,single,PT,"₦722,750.30",Ibadan,2,TRUE
+PTH-2013,ALIYU SULEIMAN,Human Resources,Specialist,M,unknown date,25.04.2023,aliyu.suleiman@prodigytraininghub.com,+234146270482,Married,FT,697882.07,Imo,2,Y
+PTH-2115,Femi Chukwu,legal,Supervisor,Female,02.02.1984,23.03.2020,femi.chukwu@yahoo.com,invalid,NULL,Contract Staff,"NGN 535,294",Lagos,3,Y
+PTH-2001,Emeka Mohammed,Finance,Specialist,m,,13 April 2015,NULL,10433218196,Single ,Full time,"388,032.84 ",Lagos,1,no
+PTH-2073,Obinna Chukwu,Operations,Supervisor,m,16-Aug-2001,28.09.2022,obinna.chukwu@prodigytraininghub.com,40084271094,Married,PT,"N627,683",Plateau,12,TRUE
+PTH-2213,Fatima Okonkwo,CUSTOMER SERVICE,Director,female,02/12/1987,22.07.2019,fatima.okonkwo@yahoo.com,,Divorced,PT,"N567,413",Port Harcourt,12,false
+PTH-2262,Sadiq Olawale,legal,Executive,m,1970-06-19,18 December 2015,NULL,234-179-796-886,Unknown,FT,"NGN 605,147",Enugu,5,TRUE
+PTH-2306,Obinna Eze,Customer Service,NIL,f,N/A,18-Sep-2015,obinna.eze@gmail.com,(079) 252-4191,Married,Contract Staff,512805.90 naira,Port Harcourt,8,No
+PTH-2152,Ifeoma Afolabi,Finance,NIL,female,,unknown date,NULL,0834 735 9774,Single ,FT,1008198.51 naira,Lagos,NIL,FALSE
+PTH-2310,Blessing Mohammed,procurement,Officer,Male,11/13/1980,15 May 2022,blessing.mohammed@yahoo.com,04451870534,single,Contract Staff,"₦879,211.32",Plateau,-1,TRUE
+PTH-2053,Chioma Afolabi,Ops,Manager,female,22/09/1986,30-Jan-2019,chioma.afolabi@gmail.com,(362) 316-6587,Divorced,Contract,  ,Plateau,8,false
+PTH-2338,Adaeze Balogun,Information Technology,Coordinator,Male,15-Mar-1974,2025/08/06,adaeze.balogun@prodigytraininghub.com,43315410067,Married,full time,264926.7,Plateau,8,false
+PTH-2342,Chioma Afolabi,Finance,Officer,f,1982-10-12,15-Feb-2017,chioma.afolabi@yahoo.com,+234629620153,married,FT,125087.06 naira,Imo,8,No
+PTH-2064,Blessing Okonkwo,IT,Analyst,female,1976/02/02,17 May 2016,blessing.okonkwo@gmail.com,71657262849,Divorced,full time,"₦1,035,165.45",Kano,2,Yes
+PTH-2093,Grace Lawal,MARKETING,Analyst,Male,2012-05-10,27-Oct-2017,grace.lawal@gmail.com,86753396360,Divorced,full time,356180.88 naira,Rivers,5,false
+PTH-2137,  Chioma Okafor,SALES,Analyst,Male,2010/09/06,19 August 2025,,68164535218,N/A,FT,1108390.06 naira,Abuja,12,N
+PTH-2279,Kunle Bello,Legal,-,m,1985/06/27,27 October 2022,kunle.bello@yahoo.com,(978) 819-1485,single,Contract,"₦1,074,195.88",Imo,99,N
+PTH-2029,Grace Mohammed,SALES,Analyst,male,24.02.1975,2019-10-08,grace.mohammed@gmail.com,54353462475,Single ,PT,689909.86 naira,Ogun,-1,false
+PTH-2125,Yusuf Chukwu,Human Resources,Officer,male,1998-10-17,2016-01-09,nil,09451983273,Married,FT,689421.15,Anambra,-1,TRUE
+PTH-2080,Aliyu Okonkwo,Finance,Director,m,06-Mar-1991,2025/06/21,aliyu.okonkwo@yahoo.com,234-618-324-210,Married,FT,115543.06 naira,Plateau,2,Yes
+PTH-2332,Amara Suleiman,Procurement,Analyst,F,13/11/1972,24 June 2020,amara.suleiman@yahoo.com,234-059-325-250,?,full time,"N661,169",Abuja,-1,No
+PTH-2170,Tunde Olawale,i.t,Intern,f,15-Jun-1979,2022-07-24,tunde.olawale@gmail.com,+234582029702,Divorced,full time,"504,959.36 ",Plateau,3,TRUE
+PTH-2158,Wale Chukwu   ,sales,Specialist,male,1999-12-29,25 June 2015,wale.chukwu@prodigytraininghub.com,(328) 986-1434,Married,FT,--,Kaduna,5,0
+PTH-2159,Yusuf Nwosu,Operations,Analyst,m,2009/07/26,2020/08/17,yusuf.nwosu@gmail.com,03697117980,,Contract,"N235,644",Rivers,1,yes
+PTH-2228,BLESSING  ADEYEMI,Marketing,Analyst,f,2006-02-12,2021/12/01,blessing.adeyemi@yahoo.com,06870568566,married,full time,1076889.14,Akwa Ibom,2,N
+PTH-2289,FEMI OKEKE,Procurement,Director,female,1972-01-16,26.02.2018,femi.okeke@yahoo.com,234-632-424-154,married,Contract Staff,"₦260,786.26",Plateau,1,Yes
+PTH-2246,SADIQ AFOLABI,SALES,Manager,f,08-Apr-1988,2021/03/18,n/a,14890250392,Married,Contract,"₦405,460.04",KANO,8,1
+PTH-2072,Adaeze Mohammed,Legal,Coordinator,female,21-Jan-2008,2024-10-15,adaeze.mohammed@yahoo.com,41343524082,single,full time,null,Kano,3,false
+PTH-2104,Chioma Abubakar,Marketing,Coordinator,male,03 November 1972,14.07.2024,chioma.abubakar@gmail.com,09533942104,nil,PT,"₦971,159.28",Imo,1,Yes
+PTH-2044,Kemi Ajayi,Marketing,Intern,male,27 August 1976,27.10.2021,kemi.ajayi@yahoo.com,(648) 236-6299,Widowed,full time,153564.10 naira,Akwa Ibom,12,false
+PTH-2174,  Halima Balogun,procurement,Supervisor,M,08.03.1971,09/08/2015,halima.balogun@yahoo.com,0947 312 1727,SINGLE,Full time,943445.75 naira,Rivers,99,FALSE
+PTH-2278,Tobi Mohammed,CUSTOMER SERVICE,Specialist,m,1987/08/23,09.09.2015,tobi.mohammed@gmail.com,234-034-043-842,Single,Contract,930295.47,Delta,2,FALSE
+PTH-2055,bisi ajayi,Procurement,Officer,Male,1999/09/11,04-Jun-2015,bisi.ajayi@yahoo.com,0466 889 3734,Widowed,Full time,457176.1,Imo,2,FALSE
+PTH-2005,Ifeoma Suleiman,Ops,Intern,m,01/05/2002,2022/08/18,ifeoma.suleiman@gmail.com,(781) 618-4959,Married,Full time,"208,297.95 ",Anambra,2,Y
+PTH-2340,Fatima Okafor,i.t,Director,male,1991/09/03,10/05/2018,fatima.okafor@gmail.com,03271040541,unknown,Contract Staff,"NGN 408,770",abuja,8,No
+PTH-2308,Chidi Balogun,legal,Officer,M,1990/10/03,28-Feb-2020,chidi.balogun@yahoo.com,0086 353 6541,Single,Contract,"NGN 725,269",Edo,99,No
+PTH-2322,Bisi Adekunle,IT,Intern,female,1997-01-18,19.03.2019,bisi.adekunle@prodigytraininghub.com,0013 721 5107,Single,Contract Staff,"662,483.02 ",Lagos State,N/A,TRUE
+PTH-2097,Segun  Lawal   ,Legal,Manager,Female,04/13/1979,2023/10/18,segun.lawal@prodigytraininghub.com,234-913-431-611,Single ,full time,663648.61,Edo,1,true
+PTH-2138,  Tobi Nnamdi,Operations,Analyst,Female,17 November 1988,2018-05-18,tobi.nnamdi@yahoo.com,0188 355 2312,single,PT,821064.33,Delta,5,Yes
+PTH-2043,Bisi Chukwu,FINANCE,Specialist,Male,07.11.1972,2023-05-13,bisi.chukwu@gmail.com,0000000000,Single ,Part-Time,613395.48 naira,Imo,12,No
+PTH-2128,Chioma Adeyemi   ,HR,nil,male,21.04.1997,2021/12/07,NULL,22961201836,SINGLE,Contract Staff,"NGN 842,510",Enugu,0,N
+PTH-2068,Ngozi Eze,Legal,Intern,female,12/31/1981,16 May 2016,ngozi.eze@gmail.com,01367837770,Married,PT,-,Lagos State,12,Yes
+PTH-2023,Grace Nwosu,i.t,Manager,m,23/07/1996,2015-11-08,grace.nwosu@prodigytraininghub.com,04731781080,Single ,PT,853488.15,Enugu,1,true
+PTH-2330,Obinna Okonkwo,sales,Specialist,m,1972/07/11,05/20/2025,obinna.okonkwo@prodigytraininghub.com,234-905-992-937,Divorced,FT,187573.46,Cross River,0,true
+PTH-2347,Ngozi Abubakar,Operations,Supervisor,female,02-May-2002,25/12/2020,--,(704) 774-3490,Single,Full time,"N252,113",Rivers,2,1
+PTH-2057,Blessing Chukwu,Finance,Director,F,04/11/2010,12/08/2025,blessing.chukwu@gmail.com,69901627204,married,Contract,"₦328,682.57",Imo,12,Y
+PTH-2011,tobi olawale,Procurement,?,Female,12/06/2011,07/19/2018,tobi.olawale@gmail.com,234-871-012-269,single,Full time,"N372,058",Cross River,Unknown,yes
+PTH-2197,adaeze abubakar,Procurement,Manager,M,1993/02/25,2019/05/06,adaeze.abubakar@yahoo.com,74993097289,Divorced,Contract Staff,936979.06 naira,rivers,12,no
+PTH-2194,Funmilayo Mohammed,Procurement,Director,male,10.04.2002,2025/08/21,funmilayo.mohammed@gmail.com,+234787298259,?,Full time,"N212,594",Ogun,2,N
+PTH-2350,KEMI OKONKWO,i.t,Analyst,m,1985-12-12,2024/03/28,kemi.okonkwo@yahoo.com,+234899217223,married,FT,"₦325,593.14",Kano,8,0
+PTH-2309,bisi suleiman,human resources,Coordinator,F,20-Feb-1992,00/00/0000,bisi.suleiman@gmail.com,+234180238061,null,Part-Time,540631.54,Port Harcourt,12,No
+PTH-2007,Tobi Chukwu,Information Technology,Coordinator,F,26/12/1983,12/30/2022,tobi.chukwu@yahoo.com,25534192832,Single,Full-Time,"526,871.38 ",Abuja,3,N
+PTH-2071,Grace Okeke,Operations,Manager,M,1991/04/16,10.09.2021,grace.okeke@gmail.com,05182337498,Married,PT,"NGN 377,394",rivers,8,FALSE
+PTH-2270,Musa Adekunle,sales,Director,Male,05/07/1973,28-Jan-2017,musa.adekunle@gmail.com,60937966033,SINGLE,Contract Staff,"N916,673",Plateau,8,No
+PTH-2052,Bola Ajayi,finance,Specialist,Male,07.10.2008,03/25/2022,bola.ajayi@gmail.com,07143455812,SINGLE,Contract Staff,  ,Port Harcourt,12,FALSE
+PTH-2207,Musa Suleiman,Sales Dept,Specialist,female,1982/04/11,07 October 2016,musa.suleiman@prodigytraininghub.com,234-401-938-026,,PT,--,Lagos State,1,FALSE
+PTH-2331,SEGUN OKAFOR,CUSTOMER SERVICE,Coordinator,Female,05/14/1998,2018/02/01,segun.okafor@yahoo.com,04270103930,nil,Contract,811578.93 naira,Plateau,-1,TRUE
+PTH-2233,bisi abubakar,Procurement,Executive,F,1973-01-02,27-Nov-2022,-,0331 739 3638,Married,Full time,708049.19 naira,Kaduna,0,0
+PTH-2126,Wale Lawal,customer service,Supervisor,Male,08 January 1994,2025/10/30,wale.lawal@yahoo.com,0585 149 3689,Divorced,Contract,849516.08,Rivers,8,true
+PTH-2219,Yusuf Olawale,Ops,Manager,Male,19 February 1985,30-Oct-2020,yusuf.olawale@gmail.com,+234874064039,N/A,Full-Time,839044.34,Akwa Ibom,2,true
+PTH-2037,Emeka Bello,i.t,Supervisor,male,00/00/0000,25 April 2019,emeka.bello@yahoo.com,(586) 923-2260,SINGLE,Full time,621193.03,Kano,5,N
+PTH-2074,Ngozi Eze,i.t,Executive,F,19/03/1995,2025-06-18,ngozi.eze@yahoo.com,+234775204711,Single,Contract,859711.86 naira,Imo,12,N
+PTH-2036,Yusuf Okonkwo,CUSTOMER SERVICE,Coordinator,f,01/08/2000,07-May-2021,yusuf.okonkwo@gmail.com,0262 045 0533,married,Full time,"N967,622",Enugu,3,yes
+PTH-2097,Segun  Lawal   ,Legal,Manager,Female,04/13/1979,2023/10/18,segun.lawal@prodigytraininghub.com,234-913-431-611,Single ,full time,663648.61,Edo,1,true
+PTH-2312,Halima Eze,Human Resources,Specialist,F,29-Jun-1977,13/02/2023,halima.eze@prodigytraininghub.com,+234603850506,Single,Contract Staff,"₦129,294.01",Kano,3,no
+PTH-2254,  kemi ajayi   ,HR,Coordinator,m,16/11/1982,2024-03-27,nil,60466183982,Divorced,Full-Time,,Lagos,0,yes
+PTH-2202,Emeka Yusuf,LEGAL,Manager,Female,01/26/1978,23-Jan-2024,-,43757584419,NULL,Full time,"NGN 1,069,703",ABUJA,99,Yes
+PTH-2091,  bola ajayi,Ops,Officer,female,12/04/1996,unknown date,bola.ajayi@gmail.com,+234821465840,Married,PT,"N819,953",Anambra,8,No
+PTH-2084,Bisi Okeke,Information Technology,Executive,female,07/04/1973,10/18/2024,bisi.okeke@yahoo.com,0742 967 1756,Widowed,full time,"NGN 290,743",Kano,3,TRUE

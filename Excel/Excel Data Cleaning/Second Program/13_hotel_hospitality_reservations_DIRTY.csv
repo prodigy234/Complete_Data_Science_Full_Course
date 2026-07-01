@@ -1,0 +1,396 @@
+ReservationID,GuestName,GuestPhone,HotelName,RoomType,CheckInDate,CheckOutDate,NumberOfNights,RoomRatePerNight,TotalBill,BookingSource,PaymentStatus,State,Nationality,EarlyCheckIn
+HRS200022,Amaka Chukwu,33705024972,Radisson Blu Ikeja,standard,2024-03-18,19 March 2024,1,299456.17 naira,299456.17 naira,ONLINE,Pending,Kano,American,N
+HRS200020,Yusuf Mohammed,0567 491 6016,Transcorp Hilton Abuja,Standard,2025-03-09,,3,"NGN 57,978","173,934.09 ",ONLINE,Paid,Lagos,Lebanese,no
+HRS200286,Tunde Eze,63928369294,Eko Hotel & Suites,Presidential,04 September 2024,05-Sep-2024,1,"₦316,472.27","₦316,472.27",Phone Booking,Paid,rivers,American,yes
+HRS200199,  ALIYU ADEYEMI,+234728123567,Lagos Continental,Twin Room,08/17/2025,18/08/2025,1,"N34,740","34,740.02 ",Phone Booking,Paid,Oyo,Lebanese,Yes
+HRS200217,Bola Adeyemi,(098) 591-6795,Lagos Continental,Presidential,01 September 2024,02/09/2024,1,"NGN 273,129","NGN 273,129",walk-in,Paid,Oyo,British,Yes
+HRS200180,Chidi Balogun,234-199-423-767,Eko Hotel & Suites,Suite,20.08.2025,08/23/2025,3,"₦341,045.26","N1,023,136",Phone Booking,Pending,Abuja,British,Yes
+HRS200105,Bola Bello,00338105955,Transcorp Hilton Abuja,Deluxe,2025-04-09,2025-04-11,2,"276,823.66 ",,Travel Agent,paid,Kaduna,American,yes
+HRS200017,Chinedu Okonkwo,234-149-828-246,Eko Hotel & Suites,Standard,12/27/2024,,2,"N305,489","610,978.98 ",Phone Booking,Paid,Kaduna,British,0
+HRS200249,Musa Chukwu,19128411730,Bon Hotel,Suite,02-Dec-2025,2025/12/04,2,245679.96,"N491,360",walk-in,Pending Payment,Oyo,Ghanaian,0
+HRS200364,  halima nwosu,234-270-232-441,Transcorp Hilton Abuja,SUITE,12/08/2025,,7,"N186,789","NGN 1,307,520",Walk in,Refunded,Kaduna,Nigerian,Y
+HRS200213,BLESSING AJAYI,45705458971,Radisson Blu Ikeja,Standard,2024-03-26,27 March 2024,1,301052.43,301052.43 naira,Walk-in,paid,oyo,Nigerian ,N
+HRS200106,Chidi Suleiman,84269450053,Lagos Continental,Suite,2025-04-19,2025/04/21,2,"N33,359",66718.42 naira,Walk in,Pending Payment,Lagos,Nigerian ,false
+HRS200351,Segun Bello,(121) 259-0203,Protea Hotel,standard,18/10/2025,23.10.2025,5,"₦184,357.93","₦921,789.65",Corporate,Paid,Abuja,British,Y
+HRS200023,  Aliyu Nwosu,43992011669,Protea Hotel,SUITE,2024/06/26,28/06/2024,2,"₦343,715.01","₦687,430.02",Walk-in,Pending,ABUJA,American,no
+HRS200016,Grace Balogun,(277) 689-6270,Radisson Blu Ikeja,Executive Room,07 March 2025,08-Mar-2025,1,"₦310,610.65","N310,611",ONLINE,PAID,Kano,Ghanaian,No
+HRS200296,Bola Balogun,+234542144773,Eko Hotel & Suites,Presidential,2024/03/30,02/04/2024,null,"285,663.39 ","NGN 856,990",Corporate,paid,rivers,nigerian,FALSE
+HRS200029,Obinna Suleiman,+234121416141,Hawthorn Suites,Deluxe,24 November 2025,26.11.2025,2,"NGN 57,312",,ONLINE,Refunded,Rivers,Nigerian,yes
+HRS200100,Femi Suleiman,(802) 942-4090,Hawthorn Suites,standard,2024/04/16,17.04.2024,1,"160,059.94 ","₦160,059.94",Walk in,PAID,Kaduna,British,1
+HRS200287,Halima Abubakar,45511668297,Lagos Continental,Executive Room,20-Dec-2024,21-Dec-2024,-1,"NGN 254,941","254,941.18 ",ONLINE,Pending Payment,Kaduna,American,No
+HRS200045,tunde eze,234-294-209-548,Southern Sun,Presidential,11/23/2024,24 November 2024,-1,"₦222,445.61",222445.61,ONLINE,paid,Lagos,NIGERIAN,N
+HRS200228,Chioma Okeke,(940) 626-0787,Southern Sun,standard,05/01/2024,2024-01-10,5,130466.75 naira,652333.75 naira,Corporate,Pending,Rivers,nigerian,Yes
+HRS200280,Ibrahim Abubakar,(025) 042-9019,Bon Hotel,Presidential,14/05/2025,2025/05/17,3,"NGN 314,815",,ONLINE,Pending,Rivers,American,TRUE
+HRS200095,Bola Okonkwo,(541) 108-2555,Hawthorn Suites,Presidential,2025-11-27,29-Nov-2025,2,135041.27,"NGN 270,083",Travel Agent,Pending Payment,Oyo,Ghanaian,no
+HRS200115,  Funmilayo Adekunle,0481 001 8418,Eko Hotel & Suites,Executive Room,24 May 2024,05/29/2024,5,203883.13 naira,1019415.65 naira,walk-in,Partial,Kano,NIGERIAN,N
+HRS200082,IFEOMA EZE   ,234-702-437-654,Eko Hotel & Suites,standard,10-Jun-2025,2025/06/17,7,"NGN 182,917","N1,280,420",Walk in,paid,Lagos,Lebanese,No
+HRS200236,Zainab Okeke,04661766204,Lagos Continental,Deluxe,02 March 2025,05/03/2025,3,"335,892.35 ","₦1,007,677.05",Corporate,Pending,Abuja,Nigerian,Y
+HRS200370,Tunde Eze,234-346-156-262,Bon Hotel,Presidential,09-Jan-2025,unknown date,1,272616.71 naira,?,Corporate,PAID,Kaduna,NIGERIAN,FALSE
+HRS200266,Chidi Abubakar,234-049-670-667,Transcorp Hilton Abuja,Twin Room,12 April 2025,2025/04/13,1,"₦81,322.74",  ,Travel Agent,paid,kano,British,true
+HRS200206,Tobi Chukwu,0943 181 4396,Protea Hotel,Standard,unknown date,11/16/2025,7,"N236,811",1657676.93 naira,Walk in,PAID,Port Harcourt,NIGERIAN,Yes
+HRS200324,Amara Adekunle,(074) 645-2059,Protea Hotel,standard,2025/04/23,28 April 2025,5,"NGN 111,170","₦555,848.90",Phone Booking,Pending,Kano,nigerian,true
+HRS200090,Ifeoma Okonkwo,234-231-260-432,Transcorp Hilton Abuja,Suite,15.09.2024,16 September 2024,-1,"N345,667",345666.66 naira,walk-in,paid,Rivers State,British,yes
+HRS200157,Bisi Bello,234-727-910-336,Radisson Blu Ikeja,Standard,21.11.2025,24 November 2025,3,172595.29 naira,"NGN 517,786",Phone Booking,PAID,Rivers,Nigerian,true
+HRS200087,Kemi Chukwu,0803 056 9067,Lagos Continental,Deluxe,28/01/2024,not set,7,"N92,957",,Walk in,paid,Kaduna,American,FALSE
+HRS200053,Emeka Ogundimu,N/A,Radisson Blu Ikeja,SUITE,31/12/2025,not set,3,"N335,222",NULL,walk-in,Refunded,Oyo State,Ghanaian,no
+HRS200326,Obinna Okeke,+234788116162,Southern Sun,SUITE,18/03/2024,,2,"₦303,405.44","NGN 606,811",Corporate,Pending Payment,Kano,American,yes
+HRS200125,Obinna Okonkwo,58721055247,Golden Tulip,Presidential,02 June 2024,06/04/2024,n/a,232969.69 naira,"NGN 465,939",walk-in,Pending Payment,Kano,Lebanese,Y
+HRS200362,Kemi Lawal,49690282498,Eko Hotel & Suites,SUITE,2025-03-08,,7,"NGN 66,528","NGN 465,699",walk-in,Refunded,Kaduna,N/A,FALSE
+HRS200307,Sadiq Suleiman,41314675361,Radisson Blu Ikeja,Deluxe,23 August 2024,,3,113748.62,341245.86 naira,Online,Refunded,Abuja,NIGERIAN,0
+HRS200184,Ibrahim Nnamdi,+234355251050,Eko Hotel & Suites,Presidential,2024-04-22,27.04.2024,5,"NGN 62,370",311850.10 naira,Corporate,Refunded,Rivers State,nigerian,Y
+HRS200316,Musa Ogundimu,+234330416624,Transcorp Hilton Abuja,Standard,28/03/2025,03/30/2025,2,172732.79 naira,"NGN 345,466",Walk-in,Paid,Oyo,null,Yes
+HRS200222,Chidi Nnamdi,234-430-753-666,Eko Hotel & Suites,Standard,05/08/2025,06.08.2025,-1,284051.19 naira,"NGN 284,051",Online,PAID,Abuja,Ghanaian,yes
+HRS200274,Funmilayo Adeyemi,0149 851 7244,Transcorp Hilton Abuja,Deluxe,28-Oct-2025,2025-10-31,3,"NGN 273,766","NGN 821,297",Phone Booking,Refunded,Kaduna,American,Yes
+HRS200192,Zainab Olawale,(910) 300-2156,Lagos Continental,SUITE,22 June 2025,2025/06/24,2,113040.96 naira,226081.92,ONLINE,Refunded,Lagos,nigerian,no
+HRS200146,Kunle Ajayi,+234168740903,Southern Sun,Executive Room,07 June 2025,14/06/2025,7,"₦116,136.11","₦812,952.77",Corporate,PAID,KANO,Nigerian,yes
+HRS200328,  ZAINAB ADEYEMI,08728660416,Lagos Continental,Deluxe,2025-06-15,,-1,"₦219,259.42","₦219,259.42",Walk in,Refunded,Lagos State,nigerian,FALSE
+HRS200257,Tobi Abubakar,234-066-266-821,Golden Tulip,Presidential,04/05/2024,05-May-2024,1,"₦326,954.66","₦326,954.66",Corporate,Pending,Abuja,Ghanaian,false
+HRS200360,Chinedu Abubakar,234-979-966-734,Protea Hotel,Executive Room,14-Mar-2025,16-Mar-2025,2,"N168,934","NGN 337,869",ONLINE,paid,Rivers,NIGERIAN,0
+HRS200185,Sadiq Nnamdi,0379 538 1649,Eko Hotel & Suites,Twin Room,23.04.2025,24/04/2025,1,"N261,015",261014.73,Online,Refunded,Abuja,nigerian,0
+HRS200147,Chinedu Yusuf,0021 462 9613,Hawthorn Suites,standard,05-Mar-2025,08/03/2025,3,n/a,"447,216.78 ",Walk-in,Refunded,Abuja,American,no
+HRS200224,KUNLE LAWAL,42683441497,Eko Hotel & Suites,Executive Room,03/12/2025,03/13/2025,  ,"NGN 73,329",73328.75,walk-in,Pending,FCT,nigerian,Y
+HRS200083,Obinna Adeyemi,62841772256,Golden Tulip,Standard,05/02/2024,2024/02/06,1,41653.54 naira,  ,Travel Agent,Paid,lagos,Ghanaian,FALSE
+HRS200350,Chioma Abubakar,08515791971,Protea Hotel,Presidential,2025/02/19,2025-02-20,1,"NGN 60,944",60943.78 naira,Travel Agent,Partial,abuja,Lebanese,N
+HRS200021,Amara Adekunle,234-364-587-506,Transcorp Hilton Abuja,Suite,01.07.2025,2025-07-02,-1,"₦42,595.17","₦42,595.17",ONLINE,Refunded,lagos,Nigerian,TRUE
+HRS200252,Chioma Mohammed,0081 974 0056,Lagos Continental,SUITE,18-Apr-2024,23-Apr-2024,5,"₦102,488.44",512442.2,Online,Refunded,Rivers State,nigerian,no
+HRS200342,Chidi Chukwu,0836 520 3758,Lagos Continental,Suite,06/20/2024,21.06.2024,1,76247.01,76247.01,Walk in,Refunded,Oyo,American,no
+HRS200046,Amaka Eze,0497 374 6052,Transcorp Hilton Abuja,SUITE,13 September 2024,2024-09-15,n/a,"NGN 179,517",,Walk-in,Pending Payment,Lagos,Nigerian ,false
+HRS200014,Ngozi Yusuf,01674233629,Eko Hotel & Suites,Standard,03/10/2024,2024-10-04,1,233229.91 naira,"233,229.91 ",Phone Booking,paid,Kaduna,nigerian,yes
+HRS200242,Segun  Ogundimu   ,00023117753,Golden Tulip,SUITE,14.08.2025,2025/08/21,7,89291.42,"NGN 625,040",ONLINE,Pending,lagos,Nigerian,FALSE
+HRS200276,Fatima Eze,87950830440,Protea Hotel,Suite,2024-03-15,17-Mar-2024,2,"NGN 115,590",,Walk-in,paid,Kaduna,NIGERIAN,No
+HRS200319,Amara Mohammed,234-149-764-613,Golden Tulip,Deluxe,30-Jan-2024,31.01.2024,n/a,"N182,280","NGN 182,280",ONLINE,Partial,rivers,Ghanaian,Y
+HRS200048,Chioma Okeke,67566184438,Protea Hotel,Presidential,06/27/2025,30/06/2025,3,"NGN 241,453","N724,359",walk-in,Pending Payment,Abuja,American,no
+HRS200160,SADIQ ADEYEMI,08685127652,Radisson Blu Ikeja,Deluxe,2025-04-08,not set,2,"N60,100","₦120,200.32",Travel Agent,Partial,Kaduna,N/A,Y
+HRS200167,MUSA LAWAL,(639) 609-6262,Bon Hotel,Suite,06.08.2024,,1,218426.74,"NGN 218,427",Walk in,Pending,Oyo,Lebanese,TRUE
+HRS200007,TUNDE  AFOLABI,invalid,Lagos Continental,Standard,30-Apr-2025,05/07/2025,7,"₦125,655.59",879589.13,Walk-in,Paid,Kaduna,Ghanaian,no
+HRS200336,Ibrahim Mohammed,0659 994 9732,Golden Tulip,Executive Room,07 August 2025,08/08/2025,1,"N330,937",330937.07,ONLINE,Partial,Oyo,British,1
+HRS200244,Kemi Mohammed,(759) 025-1762,Bon Hotel,Standard,05/23/2025,05/25/2025,2,"70,716.71 ",141433.42 naira,walk-in,Paid,Oyo,NIGERIAN,yes
+HRS200205,Adaeze Nwosu,78610313100,Protea Hotel,standard,00/00/0000,19 May 2025,2,85365.12,NULL,Walk-in,Pending,Port Harcourt,Lebanese,0
+HRS200271,ADAEZE LAWAL,08459609454,Protea Hotel,standard,07/11/2025,2025-07-12,1,25084.08,"NGN 25,084",ONLINE,Refunded,Oyo,Ghanaian,No
+HRS200265,Grace Ajayi,234-710-704-496,Transcorp Hilton Abuja,Twin Room,2025-08-21,24-Aug-2025,3,"105,120.72 ","NGN 315,362",Phone Booking,Pending Payment,Rivers State,Lebanese,no
+HRS200233,segun  okafor,76014672384,Golden Tulip,Single,2024/08/11,2024/08/13,2,"₦166,293.93",,ONLINE,Partial,Kaduna,British,Y
+HRS200210,Sadiq Okafor,24120957907,Golden Tulip,Deluxe,17-Jul-2024,,1,"₦126,436.16","₦126,436.16",Phone Booking,PAID,Oyo State,NIGERIAN,No
+HRS200365,Yusuf Olawale,33613285072,Eko Hotel & Suites,Executive Room,11/08/2025,11-Nov-2025,3,--,,Phone Booking,Refunded,Abuja,Lebanese,No
+HRS200345,Ifeoma Adeyemi,234-772-781-050,Hawthorn Suites,Standard,13/11/2024,2024-11-14,unknown,"N174,964","N174,964",Online,paid,Rivers State,nigerian,yes
+HRS200013,Blessing Lawal,234-232-129-833,Bon Hotel,Single,23 October 2025,30-Oct-2025,7,255191.02,"NGN 1,786,337",Walk-in,Refunded,Abuja,Nigerian,N
+HRS200151,AMARA NWOSU,09096056730,Southern Sun,Standard,06.09.2025,13/09/2025,7,52212.04 naira,"N365,484",Phone Booking,Partial,Kaduna,Ghanaian,Yes
+HRS200235,Ifeoma Nnamdi,0883 774 4197,Protea Hotel,Single,13-Feb-2024,15 February 2024,2,41783.37 naira,83566.74,Corporate,Pending Payment,KANO,Lebanese,No
+HRS200339,Kunle Ogundimu,234-666-754-858,Bon Hotel,Presidential,2025-02-27,28/02/2025,-1,330351.34,"330,351.34 ",Walk in,Partial,Rivers,Nigerian ,Yes
+HRS200196,Obinna Ajayi,234-774-573-144,Protea Hotel,standard,2025/08/23,2025/08/25,2,"₦181,821.44","₦363,642.88",ONLINE,Refunded,Kano,Ghanaian,no
+HRS200128,Tunde Okonkwo,+234521310962,Hawthorn Suites,Twin Room,05 September 2024,,2,133658.65 naira,"₦267,317.30",Phone Booking,Pending,Kaduna,NIGERIAN,N
+HRS200044,Ngozi Lawal,0316 087 5243,Lagos Continental,standard,12/03/2024,05/12/2024,2,296567.92 naira,593135.84 naira,Walk-in,paid,Lag,Nigerian ,N
+HRS200198,ibrahim chukwu,234-637-153-988,Hawthorn Suites,Suite,14-Oct-2025,2025/10/15,1,"NGN 43,162","N43,162",Phone Booking,paid,Oyo State,Nigerian,false
+HRS200047,Aliyu Balogun,0302 764 2086,Radisson Blu Ikeja,Single,2024-02-26,2024/02/27,1,"₦290,842.28","NGN 290,842",Walk-in,Pending Payment,Kaduna,nigerian,N
+HRS200191,Zainab Bello,08579064771,Southern Sun,Single,23.05.2024,24/05/2024,1,"NGN 271,371",271370.64,Corporate,PAID,Port Harcourt,Ghanaian,FALSE
+HRS200298,Amara Adeyemi,+234090883070,Transcorp Hilton Abuja,SUITE,11.08.2024,12-Aug-2024,1,"NGN 29,636",29636.04 naira,walk-in,Partial,Oyo,Ghanaian,N
+HRS200009,Chioma Adeyemi,234-102-574-326,Southern Sun,Single,22.02.2024,unknown date,2,307009.38 naira,"N614,019",Corporate,paid,Oyo,Nigerian,No
+HRS200141,Chidi Ogundimu,0596 063 3991,Radisson Blu Ikeja,Suite,03-Apr-2024,2024/04/04,1,"₦240,210.64","NGN 240,211",walk-in,Pending,Oyo,American,Yes
+HRS200158,Blessing Bello,+234963533905,Southern Sun,Single,31.01.2025,02 February 2025,2,222843.85,"₦445,687.70",Phone Booking,Pending,kano,Ghanaian,yes
+HRS200135,BLESSING OKAFOR,(811) 390-4383,Radisson Blu Ikeja,Single,14-Sep-2024,09/15/2024,1,91434.54 naira,NULL,walk-in,Paid,Oyo,Lebanese,true
+HRS200074,Sadiq Abubakar,234-148-706-827,Hawthorn Suites,Standard,N/A,27-Aug-2024,2,183651.55,"367,303.10 ",Phone Booking,PAID,lagos,nigerian,0
+HRS200006,Wale Abubakar,89241956252,Transcorp Hilton Abuja,Single,29 November 2024,06 December 2024,7,"338,448.87 ","NGN 2,369,142",Travel Agent,Refunded,Rivers,American,No
+HRS200243,  Amara Afolabi,(126) 610-9410,Hawthorn Suites,Twin Room,09/03/2024,14.03.2024,5,"NGN 120,597",602986.05,Walk-in,Refunded,Rivers,British,N
+HRS200225,Kemi Suleiman,(826) 612-8758,Lagos Continental,Deluxe,02/24/2024,26 February 2024,2,219422.45,"NGN 438,845",Travel Agent,Refunded,abuja,Nigerian ,0
+HRS200212,Tobi Nwosu,21145775847,Eko Hotel & Suites,Suite,2025-04-12,unknown date,2,"315,630.41 ",631260.82,Walk-in,paid,Ibadan,Nigerian ,Y
+HRS200175,CHINEDU ADEYEMI,invalid,Transcorp Hilton Abuja,Executive Room,2025-02-19,20/02/2025,1,"N143,079",,Walk-in,Refunded,Kaduna,American,1
+HRS200155,Kunle Afolabi,96089319925,Lagos Continental,Twin Room,2024-01-14,,3,"107,910.35 ","N323,731",Walk in,Pending,Oyo,Nigerian,Yes
+HRS200058,Halima Nwosu,+234087510293,Bon Hotel,SUITE,09 February 2024,11 February 2024,2,?,534784.46 naira,Phone Booking,Partial,Lagos State,American,0
+HRS200084,Blessing Olawale,0053 134 0266,Golden Tulip,Twin Room,2025-09-09,09/10/2025,-1,"N112,435",112434.88,Travel Agent,Paid,Rivers State,Nigerian ,false
+HRS200312,  Fatima Okonkwo,+234952980061,Southern Sun,Deluxe,08/04/2025,08/05/2025,1,"NGN 83,084","N83,084",Walk-in,Partial,Lagos,American,no
+HRS200159,Segun Lawal,04481776655,Transcorp Hilton Abuja,SUITE,02/15/2024,2024-02-17,2,"NGN 45,444",,ONLINE,Pending Payment,Oyo,British,No
+HRS200122,Chidi Lawal,234-576-769-523,Hawthorn Suites,Suite,10/27/2024,29/10/2024,2,296474.73,592949.46,Online,Pending Payment,kano,Ghanaian,yes
+HRS200139,Obinna Balogun,(790) 422-7113,Protea Hotel,Presidential,16 August 2024,19/08/2024,3,"₦185,619.00","₦556,857.00",Travel Agent,Refunded,Kano,Nigerian ,FALSE
+HRS200291,Funmilayo Nwosu,234-101-576-764,Eko Hotel & Suites,Executive Room,00/00/0000,14 July 2024,2,"149,559.78 ",,Walk in,Partial,LAGOS,British,no
+HRS200043,Zainab Eze,98366552899,Bon Hotel,Executive Room,22-Dec-2024,2024-12-24,2,"N258,786",517571.60 naira,Travel Agent,Partial,Kaduna,Lebanese,1
+HRS200138,BOLA CHUKWU,234-156-818-209,Golden Tulip,Deluxe,2025/11/19,,2,"NGN 245,259",490517.7,Phone Booking,Pending Payment,Kaduna,Nigerian,0
+HRS200186,Amara Nnamdi,08318491966,Radisson Blu Ikeja,Executive Room,16 September 2024,2024/09/21,5,N/A,"N1,097,110",Phone Booking,Refunded,Kaduna,Lebanese,Yes
+HRS200359,grace ogundimu,0000000000,Protea Hotel,Standard,16-Aug-2025,19/08/2025,3,53262.11,"N159,786",Online,Paid,ABUJA,American,0
+HRS200107,Amaka  Okonkwo   ,0424 089 1649,Southern Sun,Deluxe,2024/03/31,2024-04-01,1,"₦142,551.66","₦142,551.66",Online,Partial,Rivers,NIGERIAN,TRUE
+HRS200272,MUSA OKAFOR,09014954277,Southern Sun,Deluxe,16/04/2025,2025-04-21,5,"NGN 169,781",,walk-in,PAID,Kaduna,American,no
+HRS200317,Tobi Lawal,0118 600 8921,Lagos Continental,Deluxe,2025/02/14,19.02.2025,5,"N45,870","N229,351",Corporate,Pending Payment,Kaduna,Nigerian ,yes
+HRS200170,Aliyu Chukwu,0000000000,Hawthorn Suites,Suite,19 January 2024,01/21/2024,2,"N155,874","N311,748",Corporate,Refunded,oyo,Ghanaian,yes
+HRS200373,Kemi Lawal,67076604641,Transcorp Hilton Abuja,Presidential,02 August 2024,07/08/2024,5,"₦236,722.06",nil,Travel Agent,Pending Payment,Abuja,American,N
+HRS200332,Sadiq Mohammed,33187510979,Hawthorn Suites,Presidential,15/12/2024,2024-12-22,7,266174.25 naira,"₦1,863,219.75",walk-in,Pending,Lagos,Nigerian ,TRUE
+HRS200193,Bisi Nnamdi,02135800401,Golden Tulip,SUITE,10/24/2025,,-1,"N247,807","247,807.37 ",ONLINE,Refunded,Port Harcourt,American,no
+HRS200012,Blessing Olawale,96852701713,Lagos Continental,standard,2024-06-17,06/18/2024,1,"₦318,812.27","N318,812",Corporate,Pending Payment,Lag,Ghanaian,N
+HRS200004,Kemi Adekunle,234-206-506-373,Southern Sun,Single,2024-02-03,10 February 2024,7,304982.91,"₦2,134,880.37",Travel Agent,Pending,Rivers,nigerian,Yes
+HRS200166,Tobi Adeyemi,02589552963,Southern Sun,standard,2024/05/19,00/00/0000,7,?,"N467,098",Walk in,Pending,Kaduna,Ghanaian,N
+HRS200091,Tunde Ajayi,(093) 106-6843,Radisson Blu Ikeja,Presidential,11/03/2024,13-Mar-2024,2,115231.35 naira,"₦230,462.70",Corporate,Pending,Kano,Nigerian,yes
+HRS200208,Funmilayo Suleiman,40128974325,Protea Hotel,Twin Room,18-Jan-2025,19.01.2025,1,"N101,516",101515.54,Travel Agent,Partial,Abuja,Nigerian,false
+HRS200374,tunde nnamdi,(978) 575-8512,Radisson Blu Ikeja,Deluxe,02/12/2025,,3,306950.96 naira,,Travel Agent,PAID,abuja,Lebanese,FALSE
+HRS200169,FATIMA ABUBAKAR,0000000000,Eko Hotel & Suites,standard,2024/10/22,2024/10/23,1,334587.88 naira,"N334,588",Walk in,paid,Kano,Ghanaian,0
+HRS200060,IBRAHIM EZE,(603) 408-4872,Hawthorn Suites,Deluxe,12.06.2025,06/13/2025,1,"NGN 215,563","N215,563",Travel Agent,Pending Payment,Oyo,Lebanese,TRUE
+HRS200165,Femi Mohammed,234-444-630-600,Golden Tulip,Single,2025/01/23,00/00/0000,7,"₦255,292.17","NGN 1,787,045",Phone Booking,PAID,Rivers,Nigerian ,false
+HRS200223,Ibrahim Lawal,(449) 429-6592,Golden Tulip,Single,05 June 2025,06 June 2025,-1,331758.5,"₦331,758.50",Walk-in,Refunded,Lagos,Nigerian,yes
+HRS200220,Adaeze Adeyemi,0107 406 5004,Hawthorn Suites,Suite,2024-01-04,2024/01/05,1,237446.16 naira,"237,446.16 ",Walk-in,Paid,Rivers,Ghanaian,1
+HRS200077,Kemi Okonkwo,234-285-067-625,Protea Hotel,SUITE,26 August 2024,08/27/2024,-1,NULL,"N169,453",Walk-in,Paid,ABUJA,Nigerian,yes
+HRS200284,Ifeoma Olawale,234-535-375-137,Eko Hotel & Suites,standard,23 August 2025,30 August 2025,7,126026.61 naira,"NGN 882,186",Walk in,Partial,Abuja,Lebanese,1
+HRS200310,Funmilayo Bello,05667664047,Eko Hotel & Suites,Standard,2024/04/10,2024/04/11,-1,182936.30 naira,"182,936.30 ",Corporate,Refunded,Abuja,British,yes
+HRS200089,Halima Lawal,01436371892,Transcorp Hilton Abuja,Deluxe,13.07.2025,2025-07-15,2,292356.69 naira,"NGN 584,713",Walk in,Partial,Ibadan,Nigerian ,TRUE
+HRS200355,Funmilayo Afolabi,20962893654,Golden Tulip,Standard,06.12.2025,2025-12-07,-1,334677.60 naira,,Online,Partial,Kaduna,American,yes
+HRS200230,Grace Balogun,234-198-038-287,Transcorp Hilton Abuja,Presidential,14.04.2025,2025-04-19,5,"₦153,577.02",767885.1,ONLINE,Pending Payment,Rivers,nigerian,N
+HRS200216,Sadiq Ajayi,(824) 556-9644,Bon Hotel,Deluxe,07.07.2024,12 July 2024,5,"NGN 253,723","₦1,268,615.95",Online,paid,Kaduna,NIGERIAN,FALSE
+HRS200255,ibrahim lawal,,Protea Hotel,Twin Room,19/03/2025,21-Mar-2025,2,"N275,117","NGN 550,234",Walk-in,paid,Fct Abuja,American,FALSE
+HRS200347,Aliyu Suleiman,08439055295,Radisson Blu Ikeja,Presidential,03/02/2025,03/03/2025,1,NIL,"304,371.36 ",Online,Partial,Abuja,American,Y
+HRS200190,Chinedu Nwosu,00171644556,Transcorp Hilton Abuja,Twin Room,02/13/2025,,5,111039.59,"N555,198",ONLINE,Paid,lagos,Nigerian ,TRUE
+HRS200237,Chioma Lawal,+234960940970,Eko Hotel & Suites,Suite,14.09.2024,09/21/2024,7,81600.49 naira,"571,203.43 ",walk-in,paid,lagos,NIGERIAN,true
+HRS200246,Funmilayo Okeke,08319013020,Eko Hotel & Suites,Executive Room,25 February 2024,,7,"NGN 262,901",1840307.49 naira,ONLINE,Pending Payment,Lagos,Nigerian,TRUE
+HRS200215,Fatima Nwosu,09653136148,Eko Hotel & Suites,Single,10/09/2024,09/12/2024,2,343669.39 naira,"₦687,338.78",walk-in,Paid,Kaduna,British,No
+HRS200059,fatima okafor,234-840-118-458,Bon Hotel,Standard,not set,2025-11-26,3,"₦28,006.17","₦84,018.51",Phone Booking,Pending,Abuja,American,Y
+HRS200313,ifeoma abubakar   ,(581) 083-5832,Lagos Continental,Deluxe,24-Oct-2024,26-Oct-2024,2,-,"₦393,935.90",Phone Booking,Refunded,Rivers,American,Yes
+HRS200041,Kunle Abubakar,0633 414 1115,Protea Hotel,Deluxe,10/08/2025,13.08.2025,3,"₦218,543.46",,Walk-in,Partial,LAGOS,Nigerian ,no
+HRS200069,Obinna Olawale,(484) 910-2562,Lagos Continental,Presidential,2025-04-06,2025-04-08,2,324628.17 naira,"NGN 649,256",walk-in,Pending Payment,Kaduna,Nigerian ,0
+HRS200099,Bisi Ogundimu,0485 571 6176,Eko Hotel & Suites,standard,11.08.2024,08/12/2024,1,"NGN 330,993",330993.45 naira,Corporate,PAID,Kano,Ghanaian,yes
+HRS200229,Ifeoma Ajayi,(104) 159-1497,Lagos Continental,Executive Room,19.04.2024,04/20/2024,1,Unknown,189102.24 naira,Online,Paid,Lagos State,Nigerian,yes
+HRS200339,Kunle Ogundimu,234-666-754-858,Bon Hotel,Presidential,2025-02-27,28/02/2025,-1,330351.34,"330,351.34 ",Walk in,Partial,Rivers,Nigerian ,Yes
+HRS200322,Femi Afolabi,+234914521182,Bon Hotel,Executive Room,09.09.2025,2025-09-10,1,204748.94,,Online,paid,kano,Nigerian,false
+HRS200179,amaka okeke,0477 686 3423,Eko Hotel & Suites,Suite,01/22/2025,2025/01/23,-1,"305,147.54 ","N305,148",Walk in,Pending Payment,Rivers,American,yes
+HRS200195,Halima Mohammed,234-252-967-188,Southern Sun,Twin Room,04-Jun-2025,2025-06-05,1,"304,110.94 ","304,110.94 ",Online,Partial,Abuja,nigerian,false
+HRS200142,Chinedu Yusuf,97102481717,Eko Hotel & Suites,Twin Room,08.04.2024,2024-04-09,1,35850.21 naira,35850.21,Corporate,Pending Payment,Kano,Lebanese,yes
+HRS200067,Obinna Okeke,234-542-340-163,Golden Tulip,Twin Room,2024/01/09,2024-01-10,1,"177,835.79 ",,Phone Booking,PAID,Abuja,nigerian,no
+HRS200039,Zainab Suleiman,,Protea Hotel,Presidential,2024-12-25,2024-12-27,2,"₦330,598.53","₦661,197.06",Walk in,paid,Rivers,American,yes
+HRS200346,Zainab Abubakar,0222 161 0705,Bon Hotel,Single,25/10/2025,27-Oct-2025,2,"NGN 258,206","₦516,412.52",ONLINE,Pending Payment,kano,Lebanese,true
+HRS200314,Amara Yusuf,,Golden Tulip,Executive Room,23 June 2024,2024/06/25,2,38258.66 naira,"₦76,517.32",Walk in,PAID,Rivers State,American,0
+HRS200018,  Chidi Olawale,0474 689 7152,Bon Hotel,Suite,2025/05/30,,-1,106061.35,"N106,061",Corporate,Pending,Abuja,American,yes
+HRS200134,Kemi Mohammed,0411 159 5034,Transcorp Hilton Abuja,Executive Room,03/20/2025,03/22/2025,2,"NGN 95,557",191114.58 naira,Walk-in,Paid,Oyo,British,N
+HRS200207,aliyu chukwu   ,61347323549,Protea Hotel,Presidential,11-Jan-2025,01/18/2025,-,"₦59,895.54","N419,269",ONLINE,Pending Payment,Kaduna,Nigerian,1
+HRS200176,Chinedu Yusuf,99802841390,Lagos Continental,SUITE,13-Sep-2024,14/09/2024,-1,"N253,812",253811.61 naira,Corporate,paid,Kano,American,Y
+HRS200051,Wale Eze,234-662-015-720,Transcorp Hilton Abuja,Suite,01 June 2024,2024-06-08,7,"NGN 286,639","2,006,473.42 ",Phone Booking,Refunded,Kaduna,American,No
+HRS200110,Chioma Suleiman,09724042269,Bon Hotel,Suite,17-Nov-2025,19-Nov-2025,null,87462.81,"₦174,925.62",walk-in,Paid,Lagos,NIGERIAN,FALSE
+HRS200026,NGOZI LAWAL,234-027-011-686,Bon Hotel,Suite,20-Jun-2025,21/06/2025,1,"NGN 28,910",28910.24,Corporate,Paid,Kano,Lebanese,yes
+HRS200181,Segun Adekunle,0945 919 6639,Protea Hotel,Standard,30 August 2024,2024-08-31,-1,"N286,537","N286,537",Corporate,paid,Oyo,British,Yes
+HRS200294,Kunle Okeke,234-098-898-645,Transcorp Hilton Abuja,Twin Room,30.11.2025,02/12/2025,2,"₦213,531.76","427,063.52 ",Corporate,Pending Payment,Abuja,American,FALSE
+HRS200192,Zainab Olawale,(910) 300-2156,Lagos Continental,SUITE,22 June 2025,2025/06/24,2,113040.96 naira,226081.92,ONLINE,Refunded,Lagos,nigerian,no
+HRS200209,OBINNA ADEYEMI,12257207650,Southern Sun,Presidential,01 June 2025,,1,264420.53 naira,"NGN 264,421",Phone Booking,Paid,Lagos,NIGERIAN,TRUE
+HRS200144,Kunle Abubakar,(274) 747-2197,Bon Hotel,Single,2024/11/03,2024/11/06,3,322104.14 naira,"N966,312",Phone Booking,paid,Rivers,Nigerian ,0
+HRS200304,Aliyu Nnamdi,+234183061789,Golden Tulip,Presidential,10-Oct-2025,13 October 2025,3,"₦93,367.52",280102.56,ONLINE,paid,Kaduna,nigerian,true
+HRS200111,kunle lawal   ,01216376182,Radisson Blu Ikeja,standard,2024-04-04,05-Apr-2024,1,--,"313,553.37 ",walk-in,paid,Rivers,nigerian,true
+HRS200189,Yusuf Adeyemi,0907 426 0880,Eko Hotel & Suites,SUITE,08 August 2024,unknown date,1,"89,968.47 ",89968.47,Phone Booking,paid,ABUJA,nigerian,no
+HRS200096,Tobi Nwosu,(895) 343-9611,Protea Hotel,Single,06-Jun-2024,,1,"103,825.14 ","₦103,825.14",Walk-in,Partial,Kano,American,Y
+HRS200113,Blessing Okafor,0429 001 8513,Radisson Blu Ikeja,Suite,03/02/2024,09/03/2024,7,154654.65,"1,082,582.55 ",Walk-in,PAID,Kano,Nigerian ,Yes
+HRS200124,Funmilayo Ogundimu,96893135030,Radisson Blu Ikeja,Standard,29.09.2025,02 October 2025,3,"NGN 231,784","695,351.49 ",Travel Agent,Pending Payment,Kaduna,NIGERIAN,no
+HRS200231,Amaka Balogun,234-244-079-311,Radisson Blu Ikeja,standard,06/08/2025,2025-08-09,3,"NGN 26,289",78866.88,Walk-in,paid,Lagos,NIGERIAN,TRUE
+HRS200156,Wale Nnamdi,(502) 727-5164,Radisson Blu Ikeja,Single,2025-08-27,unknown date,5,n/a,"N1,471,531",Walk in,PAID,Port Harcourt,American,N
+HRS200232,  BISI CHUKWU,+234918133170,Eko Hotel & Suites,Suite,2024/03/19,20/03/2024,1,"₦168,486.49",168486.49 naira,Online,PAID,Kaduna,Lebanese,N
+HRS200036,Bola Abubakar,09156716493,Protea Hotel,Deluxe,2024-08-13,08/16/2024,3,"N50,510","N151,530",Walk-in,Pending,Rivers State,NIL,yes
+HRS200005,Aliyu Yusuf,04950136497,Bon Hotel,Single,27-Nov-2024,29-Nov-2024,2,"₦341,688.62","NGN 683,377",Travel Agent,Partial,Lagos,N/A,FALSE
+HRS200103,chinedu eze,08788443448,Transcorp Hilton Abuja,Twin Room,18 March 2024,2024-03-19,1,"NGN 200,772","N200,772",walk-in,Pending Payment,Oyo,British,0
+HRS200279,Wale Suleiman,02059556574,Bon Hotel,Standard,08/05/2024,13/05/2024,5,165946.97,829734.85 naira,Walk-in,Refunded,Rivers,Nigerian ,true
+HRS200094,Sadiq Okonkwo,03474916247,Hawthorn Suites,Presidential,2024/08/02,03.08.2024,1,184751.39 naira,"NGN 184,751",ONLINE,Pending Payment,Rivers,nigerian,TRUE
+HRS200064,   Blessing Adekunle,234-146-283-143,Protea Hotel,Twin Room,23/04/2025,2025-04-30,7,nil,"NGN 2,385,312",Phone Booking,Paid,Lagos,NIGERIAN,1
+HRS200149,Obinna Abubakar,,Lagos Continental,Suite,20.06.2024,25 June 2024,5,"NGN 280,256",,Online,PAID,Rivers,Nigerian ,1
+HRS200056,Segun Yusuf,02151826068,Bon Hotel,Suite,not set,unknown date,2,257787.46 naira,"₦515,574.92",Travel Agent,paid,Oyo,NIGERIAN,no
+HRS200079,Obinna Ogundimu,0963 480 7970,Lagos Continental,Suite,16 December 2025,12/19/2025,3,"₦160,386.61",481159.82999999996,Travel Agent,PAID,Abuja,Nigerian ,1
+HRS200203,Ibrahim Adekunle,0686 850 7451,Protea Hotel,Twin Room,2025-04-30,01.05.2025,-1,293056.36,"NGN 293,056",ONLINE,Pending,KANO,nigerian,yes
+HRS200073,grace okafor,invalid,Golden Tulip,SUITE,2024-06-02,00/00/0000,2,"NGN 238,270",,walk-in,paid,Oyo,British,N
+HRS200161,Ifeoma Nwosu,234-286-646-491,Lagos Continental,standard,15.08.2025,18-Aug-2025,3,"NGN 322,836","968,506.74 ",walk-in,Refunded,Kano,nigerian,yes
+HRS200371,Zainab Adeyemi,46704622681,Golden Tulip,Presidential,08/16/2024,19 August 2024,3,"NGN 166,023","NGN 498,070",Walk in,Refunded,Rivers State,Nigerian ,no
+HRS200238,Wale Afolabi,234-774-025-883,Eko Hotel & Suites,Single,07.11.2025,08/11/2025,  ,"NGN 232,932","232,932.31 ",Walk-in,Paid,Abuja,Nigerian,no
+HRS200302,Femi Mohammed,61853800329,Radisson Blu Ikeja,Suite,2025/05/13,2025/05/15,2,83154.8,"N166,310",Walk-in,paid,Kano,Lebanese,Yes
+HRS200378,Emeka Bello,+234607540915,Protea Hotel,standard,2024-03-03,04/03/2024,1,"NGN 151,161",151161.48,Travel Agent,Partial,Oyo,Nigerian,TRUE
+HRS200267,  wale bello,03362680408,Eko Hotel & Suites,SUITE,N/A,11 October 2024,1,"₦115,403.61","N115,404",ONLINE,PAID,rivers,Ghanaian,1
+HRS200040,Grace Okeke,(715) 399-1566,Southern Sun,Single,28/07/2025,04.08.2025,7,276841.66,1937891.62 naira,Online,paid,Kano,NIGERIAN,no
+HRS200363,Wale Adeyemi,234-922-501-425,Southern Sun,Presidential,18.11.2025,2025/11/19,1,"NGN 339,007","N339,007",Walk-in,PAID,oyo,Nigerian ,no
+HRS200320,Adaeze Ajayi,84748836076,Transcorp Hilton Abuja,Single,26 November 2024,2024-11-28,2,261771.71 naira,523543.42,Corporate,Partial,Kaduna,Lebanese,true
+HRS200227,halima balogun,+234294398529,Eko Hotel & Suites,standard,2024/11/22,2024/11/24,2,138666.20 naira,277332.40 naira,Walk in,Partial,Abuja,American,0
+HRS200153,Tobi Mohammed,+234768342016,Radisson Blu Ikeja,Executive Room,unknown date,10 July 2025,1,"N317,246","₦317,245.65",Travel Agent,Partial,Lagos,Lebanese,TRUE
+HRS200133,Funmilayo Mohammed,0177 566 2056,Bon Hotel,SUITE,2024-12-09,10.12.2024,1,"N165,621",,ONLINE,Refunded,Fct Abuja,NIGERIAN,0
+HRS200112,Amaka Bello,0916 601 0023,Eko Hotel & Suites,Executive Room,2025/04/15,2025/04/17,2,"N98,480","₦196,960.88",walk-in,Refunded,Lagos,American,N
+HRS200290,Amara Adeyemi,52683415599,Hawthorn Suites,Suite,07.05.2024,2024/05/12,5,"₦232,006.06",1160030.30 naira,Corporate,Pending Payment,Abuja,n/a,yes
+HRS200001,Amara  Ajayi,0533 106 0053,Protea Hotel,Twin Room,00/00/0000,19-Jan-2024,7,148160.73 naira,"NGN 1,037,125",Phone Booking,Partial,kano,nigerian,0
+HRS200278,Tunde Chukwu,,Golden Tulip,Twin Room,08/12/2025,2025/08/17,5,"₦280,993.29","NGN 1,404,966",Corporate,Refunded,Kaduna,American,N
+HRS200327,Grace Balogun,02812371067,Hawthorn Suites,Presidential,29 July 2024,30-Jul-2024,1,"N346,030",346030.46,Walk in,PAID,Lagos,nigerian,No
+HRS200334,Funmilayo Ogundimu,234-459-648-831,Protea Hotel,SUITE,2025/03/03,03/08/2025,5,276368.35,1381841.75 naira,Walk-in,Paid,Kaduna,Ghanaian,Y
+HRS200218,Kunle Yusuf,+234072728498,Golden Tulip,Executive Room,2025-01-29,03.02.2025,5,"NGN 253,867","N1,269,337",Phone Booking,Partial,LAGOS,American,false
+HRS200038,Wale Ogundimu,N/A,Radisson Blu Ikeja,Deluxe,15-Aug-2024,2024-08-17,2,"303,801.72 ","NGN 607,603",Walk-in,Refunded,Kano,American,0
+HRS200263,Sadiq Yusuf,(881) 056-9741,Lagos Continental,Suite,29.07.2025,03.08.2025,5,"318,543.99 ","₦1,592,719.95",Phone Booking,Paid,Lagos,Nigerian,FALSE
+HRS200068,Blessing Chukwu,0112 849 7185,Eko Hotel & Suites,standard,18 October 2024,20 October 2024,2,121758.42,243516.84,walk-in,Refunded,Oyo,American,no
+HRS200253,Bisi Nwosu,03502385037,Bon Hotel,Single,2025/01/02,07 January 2025,5,258671.25 naira,NIL,Travel Agent,Refunded,Lagos,Nigerian,0
+HRS200318,musa okafor,06394568044,Eko Hotel & Suites,Deluxe,27.02.2024,2024-02-28,-1,264939.73 naira,264939.73 naira,Phone Booking,Paid,Oyo,nigerian,1
+HRS200075,Chioma Eze,0881 609 3068,Bon Hotel,Standard,18/01/2025,01/23/2025,NULL,"N244,874","NGN 1,224,369",Walk-in,paid,Kano,nigerian,1
+HRS200197,Chinedu Okonkwo,234-833-117-030,Eko Hotel & Suites,Presidential,07.01.2025,01/09/2025,2,"N136,639","₦273,278.94",Online,Pending,Rivers,NIGERIAN,0
+HRS200273,Tobi  Suleiman,234-070-578-360,Bon Hotel,Suite,12-Jun-2025,13-Jun-2025,-1,"₦130,476.12","NGN 130,476",Online,Pending,Kaduna,nil,N
+HRS200187,Adaeze Ogundimu,53307704611,Southern Sun,Twin Room,2025-03-13,16/03/2025,3,38269.49 naira,114808.47 naira,Phone Booking,Refunded,Rivers,Nigerian,yes
+HRS200218,Kunle Yusuf,+234072728498,Golden Tulip,Executive Room,2025-01-29,03.02.2025,5,"NGN 253,867","N1,269,337",Phone Booking,Partial,LAGOS,American,false
+HRS200240,Tobi Eze,(446) 176-7929,Radisson Blu Ikeja,Presidential,2025/12/17,19-Dec-2025,2,96347.39 naira,,Walk-in,Pending,Abuja,NIGERIAN,0
+HRS200352,  Zainab Bello,07134324064,Lagos Continental,Single,27.12.2025,28.12.2025,-1,"₦123,996.94","123,996.94 ",ONLINE,PAID,Kaduna,American,true
+HRS200035,Kemi Ogundimu,(050) 505-7397,Lagos Continental,Deluxe,07.01.2024,2024-01-14,7,"NGN 52,713","N368,989",Walk in,Pending Payment,KANO,NIGERIAN,Yes
+HRS200178,Tunde Ogundimu,+234312447315,Hawthorn Suites,Standard,09 December 2024,12 December 2024,3,245294.41 naira,"N735,883",Online,Paid,Ibadan,NIGERIAN,TRUE
+HRS200348,Wale Balogun,(066) 013-8241,Hawthorn Suites,Deluxe,14/05/2024,17-May-2024,3,319547.25 naira,"NGN 958,642",Phone Booking,PAID,Kano,Ghanaian,TRUE
+HRS200343,Zainab Okeke,234-945-154-809,Transcorp Hilton Abuja,Executive Room,01/10/2025,,1,"NGN 268,471","₦268,470.53",Phone Booking,paid,Oyo State,Ghanaian,No
+HRS200104,segun chukwu,23083402424,Lagos Continental,Twin Room,14 December 2024,19.12.2024,5,"₦223,771.76","NGN 1,118,859",Travel Agent,Pending Payment,Rivers State,nigerian,Yes
+HRS200097,Ngozi Afolabi,234-109-337-118,Transcorp Hilton Abuja,Twin Room,29-Mar-2025,2025/03/30,-1,"₦202,170.52",202170.52 naira,Corporate,Refunded,Rivers,Nigerian,true
+HRS200154,Ifeoma Okeke,(423) 567-7826,Hawthorn Suites,Single,unknown date,05/11/2025,1,299891.0,299891.0,Walk-in,PAID,LAGOS,Nigerian ,TRUE
+HRS200353,Grace Balogun,+234295633432,Protea Hotel,Deluxe,09.03.2024,03/14/2024,5,89957.99 naira,"NGN 449,790",Walk in,paid,Abuja,NIGERIAN,no
+HRS200200,  KUNLE SULEIMAN,234-363-146-249,Eko Hotel & Suites,Standard,03/31/2024,2024/04/01,1,"N144,780","N144,780",Travel Agent,Paid,Kaduna,NIGERIAN,true
+HRS200076,Fatima Nwosu,(389) 097-2832,Lagos Continental,Suite,05-Jul-2024,06/07/2024,-,"NGN 204,151","₦204,150.73",Phone Booking,Paid,Lagos,nigerian,TRUE
+HRS200316,Musa Ogundimu,+234330416624,Transcorp Hilton Abuja,Standard,28/03/2025,03/30/2025,2,172732.79 naira,"NGN 345,466",Walk-in,Paid,Oyo,null,Yes
+HRS200265,Grace Ajayi,234-710-704-496,Transcorp Hilton Abuja,Twin Room,2025-08-21,24-Aug-2025,3,"105,120.72 ","NGN 315,362",Phone Booking,Pending Payment,Rivers State,Lebanese,no
+HRS200194,Ibrahim Okeke,234-145-964-229,Eko Hotel & Suites,Single,2024/01/16,2024-01-19,-,"₦191,562.10",574686.30 naira,ONLINE,Pending,Rivers,NIGERIAN,no
+HRS200251,Kunle Ogundimu,04189389846,Protea Hotel,Single,23/02/2025,2025/02/24,1,"NGN 234,690","NGN 234,690",Online,Pending,Kano,Lebanese,FALSE
+HRS200173,Kemi Nnamdi,(442) 117-5361,Golden Tulip,standard,10 November 2024,11/12/2024,2,"NGN 281,517","₦563,034.98",Phone Booking,Pending,Ibadan,American,TRUE
+HRS200372,Femi Suleiman,+234151602529,Bon Hotel,Deluxe,2025/04/26,28.04.2025,2,155789.26,"N311,579",walk-in,Pending Payment,rivers,NIGERIAN,Yes
+HRS200338,Amaka Nwosu   ,02876754813,Hawthorn Suites,Standard,2024/02/19,,2,"₦90,758.03",181516.06,Travel Agent,Pending Payment,lagos,American,false
+HRS200293,Ngozi Lawal,0657 289 4134,Hawthorn Suites,SUITE,20-Dec-2025,22-Dec-2025,2,null,"₦660,156.74",walk-in,Paid,Abuja,American,no
+HRS200071,Yusuf Ogundimu,234-269-405-396,Eko Hotel & Suites,Executive Room,11/30/2025,07/12/2025,7,127394.83,"₦891,763.81",Corporate,Pending Payment,Rivers State,Ghanaian,Yes
+HRS200177,Ibrahim Nwosu,(808) 823-5130,Hawthorn Suites,Twin Room,2024-07-17,18-Jul-2024,-1,"83,891.39 ","NGN 83,891",walk-in,PAID,Fct Abuja,N/A,true
+HRS200357,Ifeoma Okonkwo,0401 827 2795,Lagos Continental,SUITE,2025/02/27,04/03/2025,5,69741.48,"NGN 348,707",Walk in,Partial,Kaduna,British,no
+HRS200228,Chioma Okeke,(940) 626-0787,Southern Sun,standard,05/01/2024,2024-01-10,5,130466.75 naira,652333.75 naira,Corporate,Pending,Rivers,nigerian,Yes
+HRS200016,Grace Balogun,(277) 689-6270,Radisson Blu Ikeja,Executive Room,07 March 2025,08-Mar-2025,1,"₦310,610.65","N310,611",ONLINE,PAID,Kano,Ghanaian,No
+HRS200136,Aliyu Okeke,34199097005,Hawthorn Suites,standard,2025/11/24,25.11.2025,1,"₦180,193.51","N180,194",Corporate,paid,Oyo,American,no
+HRS200101,Zainab Okonkwo,67881278686,Transcorp Hilton Abuja,standard,2025-05-26,2025/05/28,2,"₦92,349.46",?,Walk in,Pending,Oyo,British,1
+HRS200369,Ibrahim Okeke,234-809-961-327,Golden Tulip,Deluxe,2024-03-06,08.03.2024,2,325114.29 naira,"650,228.58 ",Travel Agent,Refunded,Port Harcourt,Nigerian,TRUE
+HRS200303,Fatima Yusuf,63347272742,Eko Hotel & Suites,Standard,12-Jul-2025,13-Jul-2025,-1,"NGN 200,012","N200,012",Corporate,paid,Kaduna,Nigerian,FALSE
+HRS200306,Chioma Nnamdi,0243 477 6958,Transcorp Hilton Abuja,standard,30 January 2025,31/01/2025,1,"N202,725","N202,725",ONLINE,Paid,Oyo,Lebanese,No
+HRS200052,emeka nwosu,08596263013,Golden Tulip,SUITE,17 March 2024,20/03/2024,3,279524.94,838574.82 naira,walk-in,PAID,LAGOS,Nigerian ,Yes
+HRS200008,Halima Lawal,89030914363,Lagos Continental,Standard,2024-10-05,06-Oct-2024,1,154463.37,"NGN 154,463",Phone Booking,Pending Payment,Kaduna,Ghanaian,Y
+HRS200367,Yusuf Okafor,234-252-654-696,Protea Hotel,Deluxe,29/01/2025,05/02/2025,7,103765.65 naira,"NGN 726,360",walk-in,paid,KANO,nigerian,true
+HRS200299,Grace Abubakar,0349 678 2741,Protea Hotel,standard,23.10.2024,,3,286113.24 naira,"₦858,339.72",ONLINE,paid,Abuja,Lebanese,false
+HRS200219,Tobi Okonkwo,47414070349,Hawthorn Suites,Deluxe,05-Jul-2024,2024/07/06,-1,60964.32,60964.32 naira,Walk-in,PAID,Kaduna,Nigerian ,FALSE
+HRS200270,Amara Chukwu,04267320441,Transcorp Hilton Abuja,Twin Room,2024-08-15,16 August 2024,1,241211.34,241211.34 naira,ONLINE,PAID,Kaduna,Nigerian,1
+HRS200258,Kunle Lawal,234-955-356-033,Lagos Continental,Suite,07/06/2024,2024/06/12,5,"N313,697","₦1,568,486.55",Travel Agent,Paid,Kano,NIGERIAN,true
+HRS200125,Obinna Okonkwo,58721055247,Golden Tulip,Presidential,02 June 2024,06/04/2024,n/a,232969.69 naira,"NGN 465,939",walk-in,Pending Payment,Kano,Lebanese,Y
+HRS200032,GRACE BELLO   ,234-965-555-356,Hawthorn Suites,Twin Room,07.06.2024,2024-06-08,-1,"NGN 277,846","₦277,846.46",Walk in,Paid,Oyo,nigerian,TRUE
+HRS200121,Fatima Lawal,0000000000,Transcorp Hilton Abuja,Twin Room,2025-10-05,2025/10/08,3,"207,641.20 ","NGN 622,924",Walk in,PAID,Kaduna,American,no
+HRS200019,Tobi Okeke,32300857666,Golden Tulip,Suite,23 November 2024,11/25/2024,2,265286.06,unknown,Corporate,Pending,rivers,Nigerian,N
+HRS200178,Tunde Ogundimu,+234312447315,Hawthorn Suites,Standard,09 December 2024,12 December 2024,3,245294.41 naira,"N735,883",Online,Paid,Ibadan,NIGERIAN,TRUE
+HRS200275,Chidi Chukwu,(723) 229-0310,Lagos Continental,Deluxe,00/00/0000,04-Apr-2025,7,"₦208,182.94","NGN 1,457,281",walk-in,PAID,Oyo,NIGERIAN,Yes
+HRS200309,Tobi Abubakar,03044836085,Protea Hotel,Suite,05-Sep-2024,,7,232076.91 naira,1624538.37 naira,Walk-in,Refunded,LAGOS,Nigerian,N
+HRS200241,musa ajayi,84259959961,Lagos Continental,Executive Room,2025-10-28,2025-10-30,unknown,50698.8,,walk-in,Pending,Lagos,British,true
+HRS200305,Amaka Ajayi,02064969357,Southern Sun,Twin Room,07.11.2024,2024/11/14,7,"324,588.87 ","NGN 2,272,122",Walk-in,Pending,Lagos,British,false
+HRS200375,Amara Suleiman,08612059438,Hawthorn Suites,Single,10-Jan-2024,01/13/2024,3,344752.53,,Phone Booking,Partial,Oyo State,American,true
+HRS200223,Ibrahim Lawal,(449) 429-6592,Golden Tulip,Single,05 June 2025,06 June 2025,-1,331758.5,"₦331,758.50",Walk-in,Refunded,Lagos,Nigerian,yes
+HRS200248,Ibrahim  Lawal   ,07855982176,Eko Hotel & Suites,standard,22/01/2024,,3,"₦86,005.07","NGN 258,015",ONLINE,Pending Payment,Kano,unknown,Y
+HRS200027,Fatima Afolabi,0622 522 3728,Bon Hotel,standard,20-Dec-2024,23-Dec-2024,3,"₦222,458.58",667375.74,Online,Paid,kano,Nigerian,FALSE
+HRS200031,Ibrahim Ajayi,0013 806 9847,Southern Sun,Deluxe,16 August 2024,2024-08-21,5,76151.26 naira,380756.30 naira,walk-in,Pending Payment,ABUJA,American,no
+HRS200054,Grace Mohammed   ,0011 117 8309,Bon Hotel,Standard,20 December 2024,21-Dec-2024,1,208405.64 naira,"₦208,405.64",ONLINE,PAID,Rivers,nigerian,Yes
+HRS200376,Adaeze Nnamdi,+234607401775,Radisson Blu Ikeja,Standard,03.08.2024,06 August 2024,3,"N167,433",502297.59 naira,Corporate,paid,abuja,Unknown,yes
+HRS200321,Ifeoma Adekunle,(581) 739-0637,Protea Hotel,standard,2025-10-04,2025/10/05,1,"N78,108",78107.95,Phone Booking,Refunded,Kaduna,Lebanese,N
+HRS200239,Amaka Ajayi,+234681225957,Southern Sun,Twin Room,03/15/2024,2024-03-16,1,"₦248,574.83","N248,575",Corporate,PAID,Fct Abuja,NIGERIAN,no
+HRS200109,Sadiq Yusuf,(652) 717-2722,Eko Hotel & Suites,Single,10 February 2024,2024/02/11,1,"119,249.73 ","₦119,249.73",Online,Pending Payment,Oyo,Nigerian,No
+HRS200065,Halima Okeke,98926256609,Radisson Blu Ikeja,Standard,28-Nov-2025,2025/11/29,1,"NGN 67,219","N67,219",walk-in,PAID,Oyo,Lebanese,Yes
+HRS200061,Grace Yusuf,0758 598 8310,Transcorp Hilton Abuja,SUITE,2024/07/16,17.07.2024,-1,"₦235,574.53","₦235,574.53",ONLINE,Pending,Oyo,nigerian,false
+HRS200162,Tunde Afolabi,01109617981,Radisson Blu Ikeja,Twin Room,16 February 2024,18 February 2024,2,"₦56,417.38",,Walk-in,Refunded,Kaduna,American,yes
+HRS200015,Emeka Afolabi,(449) 734-7156,Lagos Continental,standard,2025/08/31,2025/09/02,2,324923.89 naira,649847.78,walk-in,Partial,Abuja,British,no
+HRS200341,Tunde Yusuf   ,234-652-057-563,Protea Hotel,Executive Room,2024-04-18,23.04.2024,5,230478.66 naira,,Walk in,Paid,Kano,Ghanaian,no
+HRS200055,Emeka Adeyemi,+234741926764,Transcorp Hilton Abuja,standard,15 January 2024,16.01.2024,1,142485.47,,walk-in,Pending Payment,Kaduna,NIGERIAN,true
+HRS200254,  Chinedu Ajayi   ,99051699187,Bon Hotel,SUITE,23 May 2024,2024-05-24,1,325809.21,"N325,809",Phone Booking,paid,Lagos,British,Y
+HRS200262,Obinna Adekunle,0000000000,Southern Sun,Standard,,22 December 2025,-1,"NGN 185,011","₦185,010.71",walk-in,Pending,Rivers,Ghanaian,N
+HRS200140,Blessing Yusuf,(228) 898-5725,Southern Sun,Standard,14 February 2025,2025-02-16,2,319951.90 naira,"NGN 639,904",Online,paid,Lagos,n/a,false
+HRS200338,Amaka Nwosu   ,02876754813,Hawthorn Suites,Standard,2024/02/19,,2,"₦90,758.03",181516.06,Travel Agent,Pending Payment,lagos,American,false
+HRS200171,Zainab Abubakar,02334383640,Southern Sun,SUITE,26.03.2025,28.03.2025,--,163665.05 naira,"₦327,330.10",Walk in,PAID,Rivers,Nigerian ,yes
+HRS200011,Emeka Mohammed,04035533803,Southern Sun,Executive Room,07 June 2024,12/06/2024,5,66056.55,"NGN 330,283",Online,Paid,Kano,Ghanaian,FALSE
+HRS200164,Yusuf Mohammed,03715766053,Lagos Continental,Twin Room,2024/11/18,21/11/2024,3,-,363041.97000000003,Travel Agent,PAID,kano,Ghanaian,1
+HRS200264,Chidi Adekunle,+234834831520,Hawthorn Suites,Suite,15.08.2024,08/17/2024,2,"NGN 298,782",,Travel Agent,Pending,Lagos,NIGERIAN,false
+HRS200323,Zainab Abubakar,(793) 126-9789,Protea Hotel,Presidential,05/16/2024,2024-05-17,1,"NGN 146,680","₦146,679.69",Walk in,Partial,Rivers,nigerian,No
+HRS200066,Obinna Suleiman,+234141818615,Protea Hotel,SUITE,13 August 2024,15 August 2024,2,194282.95 naira,388565.9,walk-in,paid,Kaduna,NIGERIAN,FALSE
+HRS200126,Tobi Nnamdi,28633302126,Eko Hotel & Suites,Twin Room,07/03/2024,08/03/2024,-1,336930.42 naira,336930.42,Online,Paid,Oyo,NIGERIAN,FALSE
+HRS200292,Chinedu Ajayi,(229) 812-0995,Bon Hotel,Standard,2024-02-20,,-1,"NGN 116,006",,Walk-in,paid,KANO,nigerian,no
+HRS200285,Femi Ogundimu,(515) 881-5793,Hawthorn Suites,standard,00/00/0000,15-Sep-2025,2,218346.33 naira,"NGN 436,693",Online,Pending,Abuja,NIGERIAN,N
+HRS200148,Zainab Balogun,07157787112,Eko Hotel & Suites,standard,18 July 2025,2025-07-25,7,255802.21 naira,"N1,790,615",Walk-in,Paid,Abuja,Lebanese,Yes
+HRS200050,Tunde Afolabi,+234742333059,Golden Tulip,Deluxe,13-Jul-2024,N/A,7,110084.49,770591.43,Corporate,Pending Payment,Abuja,nigerian,TRUE
+HRS200379,Chidi Afolabi,08632181227,Transcorp Hilton Abuja,Presidential,2025-03-13,,1,"N36,825",36825.16 naira,Online,Refunded,Kaduna,American,Y
+HRS200211,amaka mohammed,0371 009 4388,Hawthorn Suites,Presidential,16.10.2024,,-1,102742.20 naira,,Phone Booking,Refunded,FCT,Lebanese,1
+HRS200268,Yusuf Abubakar,234-954-930-596,Radisson Blu Ikeja,Executive Room,17-May-2025,2025/05/18,-1,283241.58,"N283,242",Online,Refunded,Rivers,nigerian,0
+HRS200014,Ngozi Yusuf,01674233629,Eko Hotel & Suites,Standard,03/10/2024,2024-10-04,1,233229.91 naira,"233,229.91 ",Phone Booking,paid,Kaduna,nigerian,yes
+HRS200116,Zainab Nwosu,(203) 036-6254,Southern Sun,Presidential,28.06.2025,29-Jun-2025,1,"NGN 35,576",35576.01 naira,Online,Partial,Lagos,Ghanaian,Y
+HRS200098,Kemi Chukwu,54738202368,Golden Tulip,Twin Room,03-Jul-2025,07/05/2025,2,"292,760.68 ","N585,521",Walk-in,Paid,Rivers State,Lebanese,0
+HRS200010,  Musa Mohammed,00397524508,Bon Hotel,Standard,22/09/2024,27-Sep-2024,5,"169,766.12 ","₦848,830.60",Travel Agent,Pending,Lagos,Nigerian,TRUE
+HRS200269,Fatima Adekunle,0018 648 7699,Hawthorn Suites,SUITE,27-Mar-2025,,2,47006.48 naira,"₦94,012.96",Travel Agent,Paid,Oyo,NIGERIAN,0
+HRS200361,chioma  ogundimu,234-576-403-816,Southern Sun,Presidential,2025/05/04,05/05/2025,1,"₦128,235.20",N/A,Walk-in,Refunded,Abuja,nigerian,Y
+HRS200315,Halima Adekunle,00081867024,Eko Hotel & Suites,Single,03/04/2024,06-Mar-2024,2,"NGN 279,042",,Corporate,Pending,Rivers,Nigerian,Y
+HRS200080,Chinedu  Olawale,09754510526,Hawthorn Suites,Single,20.09.2024,2024/09/21,1,"NGN 167,203","167,202.72 ",ONLINE,Pending Payment,Lag,NIGERIAN,Y
+HRS200137,Blessing Abubakar,(140) 546-8356,Hawthorn Suites,Single,30 July 2024,08/01/2024,2,"N229,503","N459,005",Corporate,PAID,Kano,Ghanaian,true
+HRS200300,Chioma Chukwu,(767) 412-4151,Hawthorn Suites,SUITE,26/05/2025,,7,209886.45,"NGN 1,469,205",ONLINE,Partial,Abuja,American,TRUE
+HRS200108,Fatima Abubakar,0373 543 9627,Transcorp Hilton Abuja,Twin Room,28-Dec-2025,,5,"NGN 178,722",893611.25,Travel Agent,Paid,Abuja,NIGERIAN,N
+HRS200132,Ngozi Mohammed,+234236903628,Hawthorn Suites,standard,2024-07-17,20/07/2024,3,133499.4,,walk-in,Refunded,Rivers,Nigerian,N
+HRS200354,Fatima Abubakar,04741759558,Transcorp Hilton Abuja,standard,18/08/2025,08/21/2025,3,"N134,293","₦402,880.11",Corporate,Partial,Kaduna,British,Y
+HRS200202,Bisi Bello,+234754181563,Hawthorn Suites,standard,09/07/2024,07/12/2024,3,85563.07,"N256,689",Phone Booking,paid,FCT,Nigerian ,TRUE
+HRS200247,Kemi Okafor,+234981528733,Protea Hotel,standard,05/06/2024,08 June 2024,3,49635.89,148907.66999999998,Walk in,PAID,Oyo,Nigerian,Y
+HRS200331,Chinedu Olawale,+234705622710,Hawthorn Suites,Twin Room,20-Dec-2025,22/12/2025,2,"NGN 217,736","N435,472",Online,Pending,Lagos,NIGERIAN,N
+HRS200358,Aliyu Bello,09690515026,Eko Hotel & Suites,Deluxe,14 April 2025,15-Apr-2025,-1,"₦295,938.12","N295,938",ONLINE,Refunded,Oyo,American,No
+HRS200329,Sadiq Nnamdi,04859592248,Transcorp Hilton Abuja,Standard,08/07/2025,15 July 2025,7,"NGN 281,491","N1,970,436",Phone Booking,PAID,Oyo,Ghanaian,yes
+HRS200145,Blessing Balogun,(546) 692-7589,Protea Hotel,Executive Room,2025-07-09,12/07/2025,3,265548.78 naira,"NGN 796,646",Walk-in,paid,Abuja,Nigerian,Yes
+HRS200259,Adaeze Chukwu,90368900301,Southern Sun,standard,20.08.2025,2025/08/22,2,"NGN 42,146","84,292.74 ",Walk in,Pending Payment,Fct Abuja,Nigerian ,1
+HRS200118,Chidi Okafor,51510922685,Southern Sun,Presidential,2024-04-01,04/03/2024,2,154892.31,309784.62,Corporate,paid,kano,Nigerian,true
+HRS200288,Tobi Bello,(327) 021-6487,Lagos Continental,Presidential,20.04.2025,2025/04/22,2,131281.75,"₦262,563.50",Walk in,Partial,Kano,Lebanese,0
+HRS200328,  ZAINAB ADEYEMI,08728660416,Lagos Continental,Deluxe,2025-06-15,,-1,"₦219,259.42","₦219,259.42",Walk in,Refunded,Lagos State,nigerian,FALSE
+HRS200078,Amara Olawale   ,05381447443,Hawthorn Suites,standard,2025/03/01,2025-03-08,7,143844.32 naira,1006910.24 naira,Walk in,paid,Kano,,false
+HRS200204,Kunle Okeke,(663) 436-2948,Hawthorn Suites,standard,11 January 2024,13.01.2024,2,Unknown,"₦457,293.42",Travel Agent,Partial,Kaduna,nigerian,TRUE
+HRS200330,grace  balogun,0958 947 7352,Transcorp Hilton Abuja,Executive Room,16 June 2024,2024-06-17,1,"₦327,716.43","327,716.43 ",Walk in,paid,Rivers,American,0
+HRS200129,Aliyu Yusuf,(728) 476-5704,Transcorp Hilton Abuja,Deluxe,07/08/2025,2025/08/12,5,"174,296.62 ","871,483.10 ",Walk-in,paid,Lagos,Ghanaian,Yes
+HRS200250,Fatima Nnamdi,+234850344651,Radisson Blu Ikeja,Single,24 March 2025,2025/03/29,5,"₦306,049.67","NGN 1,530,248",Walk in,Pending,Lagos,Lebanese,TRUE
+HRS200325,Musa Nnamdi,0604 387 8753,Radisson Blu Ikeja,SUITE,31 January 2025,2025-02-03,3,"N82,861","NGN 248,583",Walk-in,Paid,Kano,British,true
+HRS200340,  amara olawale,+234324268774,Radisson Blu Ikeja,Deluxe,2024/05/23,2024/05/30,7,"NGN 227,885",1595195.84 naira,Travel Agent,paid,rivers,unknown,yes
+HRS200188,Halima Adeyemi,0729 596 3904,Protea Hotel,Single,2025/09/27,2025-09-29,2,NIL,361485.76,Walk in,Pending,Rivers,Lebanese,FALSE
+HRS200087,Kemi Chukwu,0803 056 9067,Lagos Continental,Deluxe,28/01/2024,not set,7,"N92,957",,Walk in,paid,Kaduna,American,FALSE
+HRS200127,Yusuf Yusuf,06501917920,Protea Hotel,Single,13.04.2025,04/18/2025,5,285079.44,"NGN 1,425,397",walk-in,paid,Lag,Nigerian ,no
+HRS200028,Ibrahim Nwosu,07932302346,Bon Hotel,Executive Room,01/09/2025,,-,92349.17 naira,646444.19 naira,Corporate,Partial,Kano,Ghanaian,Yes
+HRS200123,Emeka Olawale,68788788361,Radisson Blu Ikeja,Single,12/14/2025,19 December 2025,5,215149.57,"N1,075,748",Walk-in,Paid,Lagos State,Nigerian ,false
+HRS200152,Zainab Okonkwo,06442121461,Transcorp Hilton Abuja,Standard,01/02/2025,08.02.2025,7,"₦59,520.46","N416,643",Travel Agent,Paid,Lagos,Nigerian,No
+HRS200333,Tobi  Mohammed   ,234-158-350-344,Golden Tulip,standard,2024-10-24,10/26/2024,2,"NGN 151,561","303,122.92 ",Corporate,paid,Kano,unknown,false
+HRS200119,Funmilayo Okeke   ,09262494514,Hawthorn Suites,Suite,06.10.2024,11 October 2024,5,"N116,263","N581,316",Online,Pending Payment,Kaduna,Ghanaian,N
+HRS200033,  Chioma Afolabi,(905) 510-7620,Southern Sun,standard,13 January 2024,,5,47571.16,"NGN 237,856",walk-in,paid,Oyo State,British,Yes
+HRS200308,Musa Suleiman,27515627796,Transcorp Hilton Abuja,Suite,08/09/2025,,2,230282.28 naira,"₦460,564.56",Travel Agent,Partial,oyo,NIGERIAN,N
+HRS200143,Kunle Adeyemi,05242149551,Radisson Blu Ikeja,Twin Room,03-Apr-2024,2024/04/04,-1,"NGN 347,309","₦347,308.89",Walk in,Pending,Kano,British,FALSE
+HRS200070,WALE ABUBAKAR,+234896792408,Transcorp Hilton Abuja,Executive Room,2025/04/21,04/28/2025,7,55523.82 naira,"NGN 388,667",ONLINE,Pending Payment,Lagos,NIGERIAN,Y
+HRS200117,  Adaeze Eze   ,06172131451,Golden Tulip,Twin Room,11/08/2025,2025/08/12,-1,"₦181,255.41","NGN 181,255",Online,Pending,Kano,NIGERIAN,No
+HRS200245,Sadiq Olawale,08334774332,Lagos Continental,Suite,2025-11-21,22.11.2025,-1,N/A,"266,060.16 ",Corporate,Partial,Lagos,American,N
+HRS200030,Chidi Adeyemi,(093) 771-0040,Radisson Blu Ikeja,Twin Room,27-Aug-2025,08/28/2025,1,"₦189,866.27","NGN 189,866",Walk in,Partial,Oyo,N/A,yes
+HRS200168,Zainab Afolabi,(582) 631-2819,Protea Hotel,Deluxe,18-Dec-2025,N/A,5,"N289,460","N1,447,300",Corporate,paid,Kano,NIGERIAN,0
+HRS200024,Blessing Balogun,18362644886,Eko Hotel & Suites,Deluxe,unknown date,21/11/2025,7,218585.09,1530095.63 naira,Online,PAID,Oyo State,American,1
+HRS200172,Funmilayo Nnamdi,(120) 911-7911,Lagos Continental,Deluxe,2025/10/31,03-Nov-2025,3,"₦91,814.79","₦275,444.37",Phone Booking,Pending Payment,Abuja,Ghanaian,Yes
+HRS200086,Adaeze Chukwu,0568 621 1022,Protea Hotel,Single,2025-04-13,,3,"219,581.30 ",658743.90 naira,Walk in,Pending Payment,Lagos,Ghanaian,no
+HRS200221,Tunde Eze,54882142369,Hawthorn Suites,standard,02-Jun-2025,04 June 2025,2,"N311,306","₦622,611.84",Travel Agent,Partial,Lagos,NIGERIAN,N
+HRS200311,Wale Balogun,05047639283,Protea Hotel,Twin Room,00/00/0000,12/08/2024,-1,"₦61,963.07","N61,963",Walk-in,Refunded,Oyo,NIGERIAN,false
+HRS200214,Chioma Adekunle,234-802-632-570,Golden Tulip,Deluxe,02/02/2024,04.02.2024,2,null,"₦226,416.26",ONLINE,Paid,Lagos,NIGERIAN,no
+HRS200368,SADIQ NWOSU,01579039235,Golden Tulip,Single,07/26/2025,07/28/2025,2,"NGN 273,053",546105.56 naira,Travel Agent,Pending,oyo,American,0
+HRS200062,Emeka Balogun,(032) 432-9839,Eko Hotel & Suites,Executive Room,unknown date,12.07.2025,2,155606.43,"₦311,212.86",Phone Booking,Paid,Rivers,nigerian,N
+HRS200002,Blessing Nwosu,(312) 206-8155,Hawthorn Suites,Suite,12.03.2024,,1,42931.59,"₦42,931.59",Corporate,Pending Payment,abuja,NIGERIAN,N
+HRS200281,chidi lawal,05889536902,Protea Hotel,Single,01-Jun-2024,04 June 2024,3,"N272,102",816305.1000000001,Travel Agent,Paid,Rivers,NIL,No
+HRS200201,Bola Suleiman,234-711-307-240,Southern Sun,Twin Room,03.04.2025,05-Apr-2025,2,331682.02,"663,364.04 ",Travel Agent,Pending Payment,Lagos,British,No
+HRS200226,Wale Okafor,234-567-667-080,Bon Hotel,SUITE,2025/06/06,13-Jun-2025,7,134085.31 naira,"938,597.17 ",Online,paid,rivers,British,true
+HRS200057,CHIDI OLAWALE   ,(871) 898-1312,Lagos Continental,standard,08.03.2024,10-Mar-2024,2,"NGN 228,029",,Corporate,paid,Lagos,nigerian,no
+HRS200072,TUNDE LAWAL,234-757-844-683,Bon Hotel,Presidential,06/01/2024,2024/06/02,1,  ,38310.22,Phone Booking,Pending,Lagos State,Nigerian ,Y
+HRS200182,ADAEZE ADEKUNLE,05172084964,Golden Tulip,Deluxe,N/A,03.05.2025,2,"N174,044","NGN 348,089",Walk in,paid,kano,British,1
+HRS200349,Bola Okeke,234-049-386-204,Transcorp Hilton Abuja,Twin Room,2025-10-04,11.10.2025,7,"₦265,345.88","N1,857,421",Online,paid,Rivers,Nigerian ,yes
+HRS200301,Amara Okonkwo,(152) 854-7815,Golden Tulip,Executive Room,09/19/2024,21/09/2024,2,"NGN 53,690","NGN 107,379",Walk-in,Partial,Oyo,Nigerian,N
+HRS200261,yusuf abubakar,+234967111483,Golden Tulip,Suite,18/09/2025,21-Sep-2025,3,"339,433.28 ",1018299.84 naira,walk-in,Refunded,FCT,nigerian,yes
+HRS200025,Halima Lawal,09461195243,Protea Hotel,SUITE,05 September 2024,,1,"₦157,480.33","NGN 157,480",Phone Booking,Refunded,Oyo,nigerian,Y
+HRS200366,Fatima Okeke,(517) 863-7673,Radisson Blu Ikeja,Single,2024-07-25,28/07/2024,3,30425.92 naira,"₦91,277.76",Corporate,Pending Payment,Oyo,Ghanaian,Y
+HRS200335,Grace Okonkwo,0213 424 9128,Golden Tulip,Suite,10 June 2024,11.06.2024,-1,216421.26,"216,421.26 ",ONLINE,Pending,Lagos,British,no
+HRS200380,Chinedu Afolabi,+234579389701,Lagos Continental,Presidential,15.11.2024,11/18/2024,3,48592.2,"NGN 145,777",Walk in,Refunded,Lagos,Nigerian,Y
+HRS200037,Ibrahim Nnamdi,08980271487,Radisson Blu Ikeja,Deluxe,18.02.2024,2024-02-25,7,"₦172,301.49",1206110.43 naira,walk-in,PAID,Rivers,Ghanaian,Yes
+HRS200282,Chinedu Yusuf,234-139-898-681,Golden Tulip,Presidential,04.08.2024,06.08.2024,2,"₦240,090.57","N480,181",Phone Booking,paid,Lagos State,NIGERIAN,No
+HRS200344,Musa Chukwu,04760440907,Southern Sun,Presidential,29/05/2025,30.05.2025,-1,272680.05 naira,272680.05,Travel Agent,PAID,Kaduna,Nigerian,false
+HRS200260,Musa Okeke,02724055934,Transcorp Hilton Abuja,Presidential,21/04/2024,2024-04-26,5,242124.53 naira,"1,210,622.65 ",Travel Agent,paid,Oyo State,Nigerian,yes
+HRS200093,Ngozi Ogundimu,+234563502000,Eko Hotel & Suites,Executive Room,2025/01/22,2025/01/23,1,--,"₦67,678.89",Walk in,paid,Rivers,Nigerian ,No
+HRS200003,Kunle Bello,0393 866 1331,Southern Sun,Executive Room,15/09/2024,09/18/2024,3,148202.70 naira,"NGN 444,608",Travel Agent,PAID,Rivers State,NIGERIAN,Yes
+HRS200081,Segun Nwosu,234-016-731-882,Lagos Continental,Presidential,25/09/2024,27 September 2024,2,"NGN 205,909",,walk-in,Paid,Kaduna,Nigerian ,false
+HRS200092,Obinna Ajayi,234-670-860-414,Hawthorn Suites,Single,06/24/2025,06/27/2025,3,"₦280,978.44",842935.32 naira,Phone Booking,Pending,Oyo,Lebanese,No
+HRS200297,Yusuf Okafor,+234491342138,Transcorp Hilton Abuja,Twin Room,04 March 2025,05 March 2025,  ,107186.84 naira,107186.84 naira,ONLINE,Pending Payment,KANO,NIGERIAN,no
+HRS200150,SEGUN OLAWALE,0714 708 2723,Protea Hotel,Twin Room,02-Oct-2025,07-Oct-2025,,"N36,759","₦183,795.80",Corporate,Pending Payment,Abuja,NIL,No
+HRS200085,Kunle Chukwu,+234237416787,Bon Hotel,Presidential,04-Aug-2024,2024/08/05,-1,"NGN 119,809","N119,809",Phone Booking,Refunded,Lagos,Lebanese,No
+HRS200356,Musa Balogun,35884183437,Protea Hotel,Executive Room,09/29/2025,02/10/2025,3,"NGN 283,532",850596.09 naira,Walk in,PAID,Lagos,American,0
+HRS200283,Grace Bello,09788754394,Bon Hotel,Presidential,15.02.2025,18-Feb-2025,3,145439.51 naira,"N436,319",Travel Agent,Paid,Oyo,Lebanese,Y
+HRS200289,Obinna Okeke,02060212886,Lagos Continental,Standard,27.08.2025,28 August 2025,-1,"N87,153","NGN 87,153",Travel Agent,Refunded,Lagos State,nigerian,Y
+HRS200088,amaka okonkwo   ,47163928234,Bon Hotel,Executive Room,2025/07/21,26.07.2025,n/a,"₦218,847.65","NGN 1,094,238",ONLINE,PAID,Kano,-,yes
+HRS200034,Kemi  Suleiman,+234843579786,Bon Hotel,Deluxe,28/05/2024,30.05.2024,2,n/a,"NGN 569,509",Online,Pending,Lagos,NIGERIAN,1
+HRS200377,Yusuf Bello,09546540842,Radisson Blu Ikeja,Executive Room,31-Jan-2025,unknown date,1,"N58,517","₦58,516.54",Online,paid,abuja,Nigerian,No
+HRS200013,Blessing Lawal,234-232-129-833,Bon Hotel,Single,23 October 2025,30-Oct-2025,7,255191.02,"NGN 1,786,337",Walk-in,Refunded,Abuja,Nigerian,N
+HRS200183,Sadiq Mohammed,(856) 012-5625,Bon Hotel,standard,18 March 2025,not set,1,"105,483.01 ",,Online,Paid,Abuja,nil,TRUE
+HRS200163,Blessing Nnamdi,0890 463 3786,Radisson Blu Ikeja,SUITE,15-Jun-2024,22.06.2024,7,"₦136,736.18",957153.26,Travel Agent,Partial,Kaduna,Ghanaian,Y
+HRS200295,Ifeoma Yusuf,+234220368499,Lagos Continental,Suite,06 July 2025,11/07/2025,5,"₦188,880.12","NGN 944,401",Corporate,PAID,Kaduna,Lebanese,true
+HRS200234,Tunde Yusuf,09791620223,Radisson Blu Ikeja,Single,2024/03/28,29 March 2024,1,"₦234,015.63",234015.63 naira,Travel Agent,Paid,Lagos,Nigerian,yes
+HRS200131,Segun Adeyemi,84984362418,Southern Sun,SUITE,01-Dec-2025,2025-12-03,2,"₦225,099.48","₦450,198.96",Online,paid,Ibadan,nil,Yes
+HRS200042,Emeka Nwosu,234-195-256-904,Golden Tulip,Suite,08/12/2024,15.12.2024,7,"NGN 170,515","₦1,193,606.05",Walk-in,Pending,Oyo,nigerian,1
+HRS200256,Kemi Ajayi,+234300038960,Eko Hotel & Suites,standard,09/20/2025,21-Sep-2025,-1,"N238,612",238612.27,Walk in,paid,Ibadan,Nigerian,TRUE
+HRS200063,Bisi Yusuf,+234296184462,Eko Hotel & Suites,SUITE,2025-01-11,16-Jan-2025,5,"N336,878","₦1,684,389.50",Corporate,Refunded,Kano,null,no
+HRS200102,Chinedu Suleiman,06943202939,Transcorp Hilton Abuja,Standard,10/08/2024,,1,nil,183661.65 naira,Corporate,Pending,Kano,Nigerian,TRUE
+HRS200337,halima chukwu,(331) 922-2705,Bon Hotel,Single,20-Jun-2024,21-Jun-2024,1,113113.86,"NGN 113,114",Walk-in,Pending,Lagos,Nigerian ,1
+HRS200114,Yusuf Abubakar,234-972-457-230,Southern Sun,Single,26 July 2025,08/02/2025,7,"NGN 89,318","625,224.18 ",walk-in,Partial,Abuja,Lebanese,false
+HRS200120,Tobi Adeyemi,54102252677,Bon Hotel,Standard,03 February 2025,not set,2,198900.77 naira,"NGN 397,802",Online,Paid,FCT,Nigerian,TRUE
+HRS200174,  Amara Abubakar,(061) 713-6657,Lagos Continental,SUITE,19.05.2025,not set,-1,183637.7,183637.7,Travel Agent,Partial,Abuja,Nigerian,0
+HRS200277,Kunle Okeke,+234809351187,Transcorp Hilton Abuja,Twin Room,2025-06-05,2025-06-06,-1,146312.72 naira,"₦146,312.72",Corporate,Paid,Lagos,Lebanese,TRUE
+HRS200130,Zainab Afolabi,+234009282066,Transcorp Hilton Abuja,Standard,24.06.2025,01 July 2025,7,Unknown,"₦2,265,836.23",Phone Booking,paid,Kaduna,British,1
+HRS200049,Ngozi Mohammed,(612) 590-4729,Protea Hotel,Suite,20/11/2024,27 November 2024,7,"NGN 47,817",334721.59 naira,Online,Pending Payment,Kaduna,NIGERIAN,Y

@@ -1,0 +1,541 @@
+TransactionRef,AccountNumber,CustomerName,BankBranch,TransactionType,Channel,Amount,Date,Time,Status,BeneficiaryAccount,PhoneNumber,State,Currency
+REF200162,0099949389,Obinna Eze,FIRST BANK Port Harcourt Main,POS Payment,ATM,"1,441,877.47 ",2026-04-15,23:15,Successful,null,06706540515,Plateau,ngn
+REF200328,0057683626,Femi Adekunle,Zenith Bank Victoria Island,Bill Payment,mobile app,"₦1,210,293.85",2025/04/08,18:03,SUCCESSFUL,,(078) 593-2133,rivers,Naira
+REF200403,0031831063,Wale Chukwu,Access Bank Victoria Island,Loan Repayment,Internet Banking,"N667,789",2026-02-24,12:21,Successful,0041244663,(798) 270-8086,Delta,Naira
+REF200200,0058966946,Ngozi Yusuf,WEMA BANK Ikeja,Salary Credit,Mobile App,"₦839,658.83",00/00/0000,07:03,Reversed,NIL,(857) 865-2785,Kaduna,ngn
+REF200331,0045935572,EMEKA OKONKWO,Sterling Bank Victoria Island,Bill Payment,POS,Unknown,22.06.2025,11:01 PM,Pending,0047295260,42701039308,Edo,USD
+REF200471,0042868828,Amaka Afolabi,gtbank Victoria Island,Deposit,POS,"₦1,182,310.46",17.04.2026,07:34 PM,successful,  ,+234333395211,Oyo,ngn
+REF200346,0045503389,Kemi Lawal,Fidelity Bank Port Harcourt Main,Withdrawal,Internet Banking,638154.2,11/05/2025,21:19,Reversed,,07741862565,Ogun,NGN 
+REF200226,0038538251,Zainab Balogun,UBA Wuse 2,Withdrawal,Internet Banking,"NGN 799,517",27/10/2025,03:25 PM,Successful,NULL,02843959953,Lag,Naira
+REF200133,0023718431,Femi Lawal,GTBank Ikeja,Salary Credit,USSD,1247332.48,2025/07/26,12:13 PM,Pending,null,02445107622,Abuja,NGN
+REF200134,0014265799,Ifeoma Adeyemi,GTBank Port Harcourt Main,Transfer,ussd,NIL,17.11.2025,14:32,Successful,0019335534,0838 851 6060,Plateau,NGN 
+REF200020,0097971488,Bisi Lawal,Wema Bank Port Harcourt Main,Airtime Purchase,ATM,"653,512.97 ",19-Jun-2026,10:12 PM,successful,,0473 829 9737,Akwa Ibom,ngn
+REF200012,0072043515,Musa Olawale,Zenith Bank Apapa,Airtime Purchase,POS,1388399.96 naira,07/21/2025,12:25 PM,Reversed,,(669) 784-8018,Ogun,ngn
+REF200259,0089254563,Zainab  Lawal,GTBank Wuse 2,Bill Payment,Internet Banking,"NGN 885,713",unknown date,11:02,Successful,?,0265 479 3564,Ibadan,NGN
+REF200376,0022575562,Adaeze Adeyemi,sterling bank Ikeja,POS Payment,Branch,164222.25 naira,02/21/2025,22:03,Pending,,(666) 676-0083,Imo,USD
+REF200458,0035808537,Fatima Abubakar   ,ZENITH BANK Victoria Island,Withdrawal,POS,562983.36,03/31/2026,07:07 AM,Successful,null,0621 372 1386,Lagos State,NGN 
+REF200002,0022448136,Halima Ajayi,UBA Victoria Island,Deposit,ussd,"₦1,143,062.32",04.06.2026,03:37,Failed,0085345555,00013389083,Abuja,NGN
+REF200369,0039345092,Zainab Okafor,UBA Wuse 2,Airtime Purchase,Agent Banking,"NGN 985,603",2026/01/16,04:57,failed,  ,0099 353 8758,Kaduna,ngn
+REF200313,0083140807,Fatima Lawal,Access Bank Ikeja,Salary Credit,ATM,"₦432,866.22",N/A,05:49,Failed,0088461803,0138 367 0241,Edo,USD
+REF200462,0041227216,Ngozi Nwosu,Zenith Bank Port Harcourt Main,Loan Repayment,USSD,"NGN 1,278,027",2025/07/20,04:17,Pending,?,(309) 883-9205,Imo,ngn
+REF200378,0014265799,Chidi Olawale,wema bank Wuse 2,Deposit,Branch,788141.14,21.06.2025,05:00,failed,N/A,(168) 942-1044,Plateau,NGN
+REF200399,0031931511,   Kemi Okonkwo   ,Fidelity Bank Garki,POS Payment,USSD,"NGN 1,173,748",2025-01-13,04:14,successful,0018883684,234-037-589-975,Akwa Ibom,NGN 
+REF200270,0046913810,Bisi Okafor   ,Sterling Bank Victoria Island,Loan Repayment,Mobile App,"N1,427,785",13 June 2026,11:17 PM,Reversed,,234-093-796-603,Enugu,NGN 
+REF200502,0016150444,  Ngozi Bello   ,access bank Ikeja,Loan Repayment,Internet Banking,"₦692,729.51",02/17/2026,03:49 PM,successful,0030868105,06452088147,Delta,NGN 
+REF200008,0058966946,  Tobi Eze   ,access bank Garki,POS Payment,ATM,"N1,480,856",26 June 2026,00:16,failed,0032969840,234-648-350-305,lagos,ngn
+REF200197,0022448136,  Tobi Olawale,FIDELITY BANK Victoria Island,Airtime Purchase,POS,693973.88,28 February 2026,01:54,Failed,,74993097289,Akwa Ibom,ngn
+REF200074,0023556182,Amara  Adeyemi,First Bank Port Harcourt Main,POS Payment,Mobile App,1348384.58 naira,02 April 2026,01:53,Successful,null,+234775204711,Cross River,NGN 
+REF200205,0099949389,Funmilayo Bello,ACCESS BANK Wuse 2,Bill Payment,Internet Banking,"NGN 423,673",02/01/2025,08:01 AM,Successful,unknown,+234330833016,Fct Abuja,NGN 
+REF200362,0019335534,Tunde Abubakar,Wema Bank Port Harcourt Main,-,ATM,1001731.35 naira,2026/03/07,07:13 AM,failed,,08552414060,Imo,NGN 
+REF200434,0093016315,CHIOMA BALOGUN,UBA Garki,Salary Credit,ussd,"NGN 1,068,179",09-Jan-2026,03:48,Successful,,234-754-781-291,Edo,ngn
+REF200177,0042868828,OBINNA ABUBAKAR,FIRST BANK Victoria Island,NULL,ussd,988507.1,2025/02/14,04:25 AM,SUCCESSFUL,,78291146786,Lagos,ngn
+REF200086,0013561597,Kunle  Mohammed   ,First Bank Apapa,Withdrawal,Internet Banking,443421.53 naira,10 September 2025,02:30,Successful,0058966946,(154) 516-8087,Cross River,ngn
+REF200415,0052339391,kemi ogundimu,First Bank Victoria Island,Loan Repayment,ussd,"NGN 908,735",16 November 2025,11:02 AM,Successful,,(202) 590-9479,Plateau,NGN
+REF200084,0021668732,Kemi Suleiman,GTBANK Apapa,Deposit,Internet Banking,1351958.8,02-May-2026,09:15,Pending,0031429110,0742 967 1756,Edo,USD
+REF200054,0072043515,Halima Chukwu,Zenith Bank Garki,Deposit,ussd,"₦922,406.97",2025-09-04,07:28 PM,Successful,0083197857,03669096705,Edo,NGN
+REF200040,0058966946,Chioma Ajayi,First Bank Garki,Loan Repayment,USSD,"98,990.51 ",09.10.2025,21:18,failed,0035808537,0458 685 0142,Kaduna,NGN 
+REF200220,0055176955,Kemi Olawale,GTBank Victoria Island,Transfer,ussd,240059.51 naira,02/14/2025,01:50,SUCCESSFUL,NIL,234-651-801-704,Kano,ngn
+REF200223,0035808537,Bola Suleiman,fidelity bank Port Harcourt Main,  ,Branch,"₦796,917.03",06 May 2026,23:46,Successful,n/a,0786 863 3752,Rivers,ngn
+REF200316,0066306997,GRACE OLAWALE   ,Fidelity Bank Victoria Island,Salary Credit,USSD,"NGN 988,485",02-May-2026,17:34,failed,--,+234574313291,Plateau,Naira
+REF200183,0057683626,Tobi Afolabi,GTBank Victoria Island,Bill Payment,ussd,"N107,930",17.03.2026,11:02 AM,Reversed,0063843426,03969078447,Abuja,Naira
+REF200485,0066722344,Kemi Afolabi,first bank Port Harcourt Main,Airtime Purchase,Mobile App,1256762.07 naira,2025-02-15,05:19,Failed,?,0000000000,Lagos,NGN 
+REF200469,0013999315,Chidi Ajayi,Wema Bank Wuse 2,Loan Repayment,USSD,"1,314,425.36 ",2026/05/14,09:56,Pending,  ,234-434-165-182,Fct Abuja,Naira
+REF200397,0058537831,TOBI YUSUF,Fidelity Bank Apapa,POS Payment,POS,67101.12,30.07.2025,12:56,Reversed,,(775) 170-1660,Enugu,ngn
+REF200067,0070291817,Bisi  Ajayi,Access Bank Garki,Bill Payment,ussd,661837.33 naira,03/05/2026,05:10,SUCCESSFUL,0015831819,35454948083,Edo,ngn
+REF200438,0045833156,  Chioma Lawal,WEMA BANK Port Harcourt Main,Salary Credit,Internet Banking,"N917,274",17/04/2026,20:04,SUCCESSFUL,,234-039-282-722,ABUJA,ngn
+REF200174,0020576383,Chinedu Adeyemi,Wema Bank Victoria Island,Bill Payment,ATM,"₦487,107.97",21 June 2025,09:25,failed,  ,(947) 312-1727,Cross River,NGN
+REF200509,0085329037,Emeka Balogun,Fidelity Bank Apapa,Withdrawal,USSD,1390459.63 naira,24 May 2025,05:10,failed,0013561597,01827448570,Akwa Ibom,Naira
+REF200379,0015831819,Emeka Okeke,UBA Wuse 2,Withdrawal,Agent Banking,Unknown,2025/08/14,22:30,Pending,0094374605,234-985-625-753,Oyo State,USD
+REF200454,0057683626,Tobi Adekunle,Zenith Bank Port Harcourt Main,Bill Payment,POS,NULL,01-Apr-2025,02:57 PM,Pending,0060929647,234-864-300-981,Oyo,NGN
+REF200427,0047295260,Kemi Balogun,wema bank Apapa,Bill Payment,Agent Banking,282773.81 naira,24.07.2025,06:02 AM,failed,?,24508821009,Enugu,ngn
+REF200181,0088320463,Segun Afolabi,Sterling Bank Ikeja,POS Payment,Mobile App,"N56,539",26/01/2026,02:40,Successful,0059684848,(424) 981-8299,Plateau,Naira
+REF200365,N/A,  WALE AJAYI,Zenith Bank Apapa,POS Payment,ussd,412809.75,28-May-2025,21:24,Successful,0094374605,234-743-748-969,Edo,NGN 
+REF200443,0047295260,Femi Eze,Gtbank Port Harcourt Main,Deposit,mobile app,"1,493,304.06 ",30/01/2026,02:24,Reversed,,07908272318,FCT,USD
+REF200486,0085329037,Obinna Balogun,Access Bank Victoria Island,Airtime Purchase,mobile app,"NGN 1,034,404",14.03.2025,21:45,Successful,NULL,(762) 202-3413,Akwa Ibom,NGN 
+REF200233,0047295260,Obinna Eze,Fidelity Bank Garki,Deposit,Internet Banking,"N542,958",08-May-2026,19:18,Failed,0028728463,0331 739 3638,Edo,ngn
+REF200252,0083140807,Kunle Mohammed,Gtbank Port Harcourt Main,Airtime Purchase,USSD,"₦680,166.00",2025/01/29,01:46,failed,?,234-541-212-678,Delta,NGN 
+REF200352,0059684848,AMARA  LAWAL,Fidelity Bank Wuse 2,POS Payment,mobile app,302988.02,2025/02/03,08:12,Pending,0014308421,(168) 685-4870,Cross River,Naira
+REF200351,0023756669,  Yusuf Suleiman,Sterling Bank Victoria Island,Deposit,mobile app,"₦782,490.82",09/05/2025,07:13,failed,null,02061632945,Abuja,ngn
+REF200498,0081971316,Amara  Nwosu   ,Fidelity Bank Garki,Withdrawal,ussd,"N193,224",2025/04/20,08:17 AM,Successful,0077827638,44270312073,Imo,NGN
+REF200017,0091756179,Wale Bello   ,WEMA BANK Apapa,Loan Repayment,ussd,"NGN 1,197,314",19-Jun-2025,03:57 PM,failed,0096282117,08963834657,Plateau,USD
+REF200140,0091030736,Blessing Mohammed,Access Bank Port Harcourt Main,Airtime Purchase,Agent Banking,"913,686.04 ",12 September 2025,09:20,Failed,0053524491,234-955-271-774,Imo,Naira
+REF200169,0013561597,wale bello,Access Bank Victoria Island,-,POS,"595,820.27 ",27.03.2025,03:32,Pending,NIL,(275) 705-9640,Ogun,NGN 
+REF200207,0014308421,Tobi Balogun,First Bank Apapa,Deposit,Agent Banking,117812.79,2025-04-01,08:22,failed,0036687537,invalid,Plateau,USD
+REF200059,0021668732,Ifeoma Ogundimu,Fidelity Bank Garki,Airtime Purchase,Internet Banking,1497943.95,2025/07/24,04:11 AM,Pending,NULL,+234080531003,Cross River,NGN 
+REF200413,0085329037,Chioma Nwosu,First Bank Apapa,Bill Payment,Agent Banking,74298.21,04/08/2025,12:21,failed,--,03472122816,Rivers,Naira
+REF200381,0018883684,BOLA ADEKUNLE,first bank Wuse 2,Bill Payment,mobile app,207009.32 naira,18/10/2025,17:08,Pending,--,234-064-890-901,Cross River,USD
+REF200276,0017507864,Ngozi Mohammed,Wema Bank Port Harcourt Main,Salary Credit,POS,"₦848,863.08",12 December 2025,12:52,Failed,,0225 790 5072,Plateau,ngn
+REF200277,0018883684,Femi Eze,ZENITH BANK Garki,Deposit,Agent Banking,"₦1,298,997.38",26/01/2025,07:31 PM,SUCCESSFUL,0013356886,+234887676772,Kano,USD
+REF200080,0017507864,Amaka Olawale,UBA Ikeja,Airtime Purchase,mobile app,"NGN 539,787",05/25/2026,15:54,failed,0058966946,36183242102,Kaduna,ngn
+REF200240,0084093639,Amaka Afolabi,First Bank Port Harcourt Main,Loan Repayment,mobile app,1462823.64,13-Dec-2025,06:50 AM,Pending,0010872248,+234099770088,Lagos,NGN
+REF200145,0058181396,kunle eze,Fidelity Bank Garki,Salary Credit,Branch,Unknown,07/09/2025,01:21 AM,failed,N/A,25546659051,Cross River,Naira
+REF200103,0024942603,Adaeze Adeyemi,Sterling Bank Wuse 2,Withdrawal,Agent Banking,"N1,431,702",2025-03-16,12:34 AM,Failed,-,40640909743,Cross River,NGN
+REF200107,0081971316,Amara Yusuf,UBA Garki,POS Payment,mobile app,"₦466,391.31",2025/03/30,18:52,Successful,  ,71236851604,Plateau,ngn
+REF200402,0017507864,Bisi Balogun,Sterling Bank Ikeja,Deposit,Agent Banking,1409939.78 naira,01/23/2026,19:53,Pending,nil,234-373-516-091,KANO,NGN
+REF200009,NIL,Femi Adeyemi,Fidelity Bank Victoria Island,Loan Repayment,Branch,"NGN 663,032",14.03.2026,07:08 PM,Pending,0066722344,234-139-537-672,Cross River,USD
+REF200516,0066629388,Blessing Lawal,access bank Port Harcourt Main,Bill Payment,mobile app,"NGN 1,054,569",26.08.2025,01:36 AM,failed,,0811 386 3383,Kaduna,NGN 
+REF200182,0057683626,emeka  afolabi   ,GTBank Apapa,Withdrawal,mobile app,1010616.05,02/07/2026,15:12,Failed,0042857966,(299) 590-0109,Ogun,USD
+REF200004,0017507864,Amara Okeke,wema bank Wuse 2,Loan Repayment,USSD,"N357,388",13-May-2026,07:18,Reversed,0042857966,03511615594,LAGOS,NGN
+REF200171,0058537831,Yusuf Bello   ,first bank Port Harcourt Main,Airtime Purchase,USSD,"₦822,544.19",2025/07/13,14:03,successful,0091756179,234-556-909-275,Lag,NGN
+REF200232,0026753883,Obinna Adeyemi,wema bank Ikeja,Transfer,ussd,"₦693,448.89",2025-05-21,06:48,successful,,invalid,Delta,NGN
+REF200092,0081691040,Kunle Okonkwo,Fidelity Bank Wuse 2,POS Payment,Internet Banking,"₦450,745.99",28-Apr-2025,12:46 AM,SUCCESSFUL,--,49972787558,KANO,NGN
+REF200030,0060806024,BISI AFOLABI,Sterling Bank Port Harcourt Main,Transfer,Mobile App,"₦1,399,311.96",2025-07-13,23:48,failed,unknown,N/A,Enugu,Naira
+REF200511,0048840994,Zainab Balogun,UBA Ikeja,Airtime Purchase,POS,60674.97 naira,02/06/2025,07:07,Pending,0058181396,0387 829 4565,Abuja,NGN 
+REF200451,0058181396,Bisi Bello,Wema Bank Wuse 2,Airtime Purchase,Branch,1391363.47 naira,2025-08-04,19:29,Pending,0015831819,234-908-811-729,Delta,ngn
+REF200210,0022448136,bisi suleiman,STERLING BANK Wuse 2,Loan Repayment,Agent Banking,"N174,434",not set,15:50,failed,0088320463,234-527-420-549,Kaduna,ngn
+REF200442,0043101783,obinna abubakar,Wema Bank Port Harcourt Main,Salary Credit,Internet Banking,289950.85,15 June 2025,15:37,failed,unknown,09184638655,Lagos,NGN 
+REF200046,0022575562,fatima chukwu,ZENITH BANK Victoria Island,Transfer,USSD,"₦332,747.30",22-Jun-2025,02:36,SUCCESSFUL,?,(773) 872-1489,Kaduna,ngn
+REF200481,0058966946,Kunle Ogundimu,Zenith Bank Ikeja,Bill Payment,Internet Banking,"NGN 905,453",12/12/2025,15:31,Successful,0088320463,0717 545 5884,Cross River,USD
+REF200345,0088320463,Chioma Eze,WEMA BANK Ikeja,POS Payment,Branch,"NGN 578,382",28/12/2025,22:22,Successful,,(310) 324-1714,Kaduna,USD
+REF200213,0048840994,Fatima Ajayi,STERLING BANK Wuse 2,Withdrawal,mobile app,"-NGN 90,558",29-Sep-2025,06:04,Successful,0021668732,234-904-530-174,Cross River,NGN 
+REF200481,0058966946,Kunle Ogundimu,Zenith Bank Ikeja,Bill Payment,Internet Banking,"NGN 905,453",12/12/2025,15:31,Successful,0088320463,0717 545 5884,Cross River,USD
+REF200354,0019583482,Ngozi Okeke,WEMA BANK Ikeja,Transfer,Branch,646636.72 naira,01.02.2026,08:09,successful,0022981052,234-914-856-467,Rivers State,ngn
+REF200487,0022575562,AMAKA BELLO,Fidelity Bank Victoria Island,Salary Credit,Mobile App,"N777,579",02/06/2025,16:00,Reversed,0059684848,N/A,Kaduna,ngn
+REF200248,0023756669,Bola Olawale,First Bank Wuse 2,Bill Payment,USSD,"NGN 264,390",13.02.2025,04:35 PM,Successful,N/A,(218) 501-6315,Cross River,USD
+REF200090,0042868828,Segun Suleiman,ZENITH BANK Victoria Island,Bill Payment,Mobile App,"N601,507",2026/06/03,23:36,failed,0052235350,08467737826,ABUJA,USD
+REF200077,0060929647,Emeka Yusuf,Access Bank Garki,POS Payment,Branch,"₦1,374,637.35",2025/11/23,19:42,Reversed,,96499091334,Edo,NGN 
+REF200010,0038538251,Ifeoma Afolabi,GTBANK Apapa,Loan Repayment,ATM,"NGN 609,863",08/06/2025,08:04,Successful,unknown,+234388496965,Kano,NGN 
+REF200429,0095320121,Chinedu Ogundimu,Sterling Bank Victoria Island,Airtime Purchase,POS,150761.43 naira,02/01/2026,10:27,Failed,,0222 394 3129,Enugu,ngn
+REF200387,0041244663,  ifeoma nnamdi,Fidelity Bank Victoria Island,Airtime Purchase,Branch,  ,02-Jan-2026,17:05,Failed,,(114) 374-4701,Oyo State,USD
+REF200048,0047308985,yusuf chukwu,GTBank Port Harcourt Main,Bill Payment,USSD,"N259,252",2025-09-11,14:56,Reversed,,01769367632,Ogun,Naira
+REF200349,0023756669,Tunde Mohammed,Sterling Bank Port Harcourt Main,Loan Repayment,USSD,"N1,369,474",06.09.2025,07:11,Failed,0071662963,+234879374160,Fct Abuja,Naira
+REF200078,0026753883,femi lawal,Wema Bank Garki,Loan Repayment,Agent Banking,478442.32 naira,2026-03-03,01:56 PM,Reversed,0035808537,01232812067,Anambra,Naira
+REF200317,0052235350,Amaka Suleiman,Wema Bank Victoria Island,POS Payment,USSD,"₦1,314,412.89",01/06/2026,01:05 AM,Pending,,234-277-561-853,Edo,NGN 
+REF200412,0028728463,chidi nwosu,Access Bank Port Harcourt Main,Withdrawal,POS,"₦1,213,641.30",2026/03/12,01:36 PM,successful,0039476249,234-439-735-989,Cross River,USD
+REF200285,0042857966,Funmilayo Afolabi   ,wema bank Ikeja,--,Agent Banking,3431.47 naira,N/A,21:52,SUCCESSFUL,,46671168457,Enugu,NGN
+REF200457,0018883684,IBRAHIM  OKONKWO,Access Bank Ikeja,Bill Payment,ATM,"N861,870",12/30/2025,19:41,Pending,0088320463,234-725-887-449,Lagos State,NGN
+REF200151,0077827638,Fatima Adekunle,Zenith Bank Ikeja,Deposit,mobile app,163694.54,25/03/2025,09:34,SUCCESSFUL,  ,234-706-537-947,Enugu,Naira
+REF200120,0060806024,Aliyu Suleiman,Wema Bank Victoria Island,Salary Credit,mobile app,1134807.1,21 August 2025,18:53,Reversed,nil,+234249985698,Kano,Naira
+REF200254,0081971316,AMARA EZE,WEMA BANK Port Harcourt Main,POS Payment,Branch,"NGN 927,197",09/24/2025,05:05,Failed,,60466183982,kano,Naira
+REF200393,nil,Fatima Suleiman,Sterling Bank Port Harcourt Main,Deposit,Mobile App,"NGN 647,558",11/07/2025,07:46,successful,N/A,234-899-358-891,Kaduna,Naira
+REF200478,0047308985,yusuf abubakar,ACCESS BANK Wuse 2,Withdrawal,USSD,537845.1,03-May-2025,02:25,successful,-,234-931-438-663,Kaduna,Naira
+REF200102,0070291817,Halima Abubakar   ,Uba Ikeja,POS Payment,USSD,427738.75 naira,2025-01-28,22:28,Failed,0071586053,234-367-136-959,Anambra,Naira
+REF200056,0039345092,Aliyu Bello,Wema Bank Wuse 2,Bill Payment,ussd,"N1,293,277",18.02.2025,22:22,failed,0093016315,(706) 562-7298,Akwa Ibom,Naira
+REF200063,0023556182,Funmilayo  Nwosu,First Bank Garki,Loan Repayment,Internet Banking,"1,291,235.66 ",2026/02/13,04:27,failed,0023556182,234-058-651-850,Delta,NGN
+REF200185,  ,  Chioma Nnamdi,ZENITH BANK Garki,Salary Credit,Mobile App,"₦407,329.91",2026-01-04,03:40,successful,  ,59255562588,Oyo State,NGN
+REF200389,0096977837,Chinedu Okonkwo,FIDELITY BANK Wuse 2,Loan Repayment,Agent Banking,"₦1,270,279.38",16-Mar-2025,15:04,Failed,0085329037,(557) 941-5521,Cross River,Naira
+REF200027,0013999315,Funmilayo Afolabi,wema bank Wuse 2,Deposit,POS,"NGN 705,281",23.02.2026,11:22,SUCCESSFUL,Unknown,02081219136,Kano,USD
+REF200370,0038898923,TUNDE OGUNDIMU,FIRST BANK Garki,Deposit,Branch,"₦74,964.78",21/05/2026,17:01,SUCCESSFUL,0081691040,0000000000,Abuja,NGN 
+REF200271,0024942603,Ifeoma Nnamdi,Access Bank Wuse 2,POS Payment,ussd,"N1,051,335",08.11.2025,10:42,failed,0022448136,(419) 182-5537,Kaduna,NGN 
+REF200194,0042868828,ibrahim olawale   ,zenith bank Victoria Island,Withdrawal,Branch,"NGN 843,485",04/12/2026,19:45,SUCCESSFUL,0057683626,57872982595,Anambra,NGN
+REF200187,0088320463,Bola Suleiman,Access Bank Apapa,Loan Repayment,Branch,645381.42 naira,2025/05/29,22:23,Pending,0066306997,+234696325953,Lagos,USD
+REF200235,0084752529,Tunde Afolabi,Wema Bank Ikeja,Transfer,ussd,"NGN 1,192,763",06/23/2026,18:09,SUCCESSFUL,,234-753-556-093,Lagos,NGN
+REF200390,0077827638,Segun Afolabi,zenith bank Port Harcourt Main,Salary Credit,ATM,"N36,852",2025-04-09,06:56,SUCCESSFUL,,67467621202,Enugu,NGN
+REF200219,0020709497,Bola Yusuf,Fidelity Bank Garki,POS Payment,Agent Banking,916001.71,08 February 2025,20:21,successful,,+234874064039,Abuja,NGN 
+REF200499,0046231783,adaeze balogun,Wema Bank Victoria Island,Salary Credit,Mobile App,1077522.48 naira,04/04/2025,12:07 AM,Failed,0085345555,+234647570512,Plateau,NGN
+REF200095,0046913810,Emeka Yusuf,gtbank Garki,Airtime Purchase,ussd,"N1,259,918",16-May-2026,05:42,Successful,Unknown,234-718-702-621,Anambra,NGN
+REF200435,0094374605,Funmilayo  Yusuf,sterling bank Ikeja,Withdrawal,Internet Banking,"N35,784",2025-10-01,06:06,successful,NIL,(283) 411-0809,Delta,NGN
+REF200222,0088461803,FEMI NWOSU,Wema Bank Apapa,Deposit,ATM,"NGN 443,095",06/10/2025,21:46,SUCCESSFUL,,0512 868 2300,Lagos State,USD
+REF200320,0039476249,Grace Abubakar,FIDELITY BANK Port Harcourt Main,POS Payment,ATM,463682.69,N/A,09:20,Reversed,0077005685,+234788317121,Lagos,ngn
+REF200130,0032969840,  aliyu lawal,GTBank Garki,,ATM,"NGN 1,145,472",2025-04-01,04:25 AM,successful,N/A,234-290-147-679,Oyo State,NGN 
+REF200114,?,Amara Abubakar,Access Bank Ikeja,Deposit,ATM,"₦888,983.00",2026-01-03,20:11,Failed,n/a,234-532-931-839,Lag,Naira
+REF200520,0099949389,Grace Ajayi,GTBank Ikeja,Salary Credit,Mobile App,"NGN 581,927",02.08.2025,10:22,SUCCESSFUL,?,234-845-776-004,Edo,NGN 
+REF200361,0097226012,Yusuf Suleiman,First Bank Ikeja,Withdrawal,USSD,"₦504,072.01",00/00/0000,03:39 PM,Reversed,,0610 357 9727,Anambra,USD
+REF200026,0058537831,Musa Adekunle,GTBANK Port Harcourt Main,Deposit,Branch,"N740,946",03/24/2025,20:24,Reversed,0038898923,(098) 050-0978,Enugu,NGN 
+REF200283,0018883684,Chinedu Eze,wema bank Victoria Island,NIL,Mobile App,1219265.48,2026/01/02,13:12,Successful,,+234544948126,Kano,ngn
+REF200459,0058537831,Grace Yusuf,UBA Ikeja,Loan Repayment,Mobile App,  ,05/01/2026,10:34 AM,Failed,0024942603,+234902601279,Rivers,NGN
+REF200495,0091756179,CHIOMA MOHAMMED,fidelity bank Ikeja,Bill Payment,ussd,"₦1,481,729.04",14-Jan-2026,02:21,Pending,null,03416389448,Delta,ngn
+REF200163,0045264581,Yusuf Abubakar,uba Victoria Island,Bill Payment,USSD,"₦1,397,128.66",2026/05/03,10:42,Successful,,234-195-205-852,Ogun,ngn
+REF200422,0096282117,Ngozi Afolabi,Sterling Bank Victoria Island,Deposit,ussd,908268.8,08-Aug-2025,05:40 AM,SUCCESSFUL,,234-861-207-501,Rivers,NGN
+REF200513,0020576383,Yusuf Lawal,Wema Bank Apapa,POS Payment,USSD,1420219.21,02.02.2026,11:10 AM,Pending,--,+234096789940,abuja,Naira
+REF200487,0022575562,AMAKA BELLO,Fidelity Bank Victoria Island,Salary Credit,Mobile App,"N777,579",02/06/2025,16:00,Reversed,0059684848,N/A,Kaduna,ngn
+REF200333,0055667651,chioma chukwu,Zenith Bank Port Harcourt Main,Salary Credit,POS,1369707.11,N/A,05:18 AM,Pending,0020576383,234-921-851-569,Imo,NGN
+REF200256,0026753883,CHIOMA CHUKWU   ,Access Bank Apapa,Salary Credit,POS,1214874.5,2025-01-06,08:39 AM,Successful,null,0464 715 4379,Oyo,ngn
+REF200318,0048840994,Zainab Olawale,fidelity bank Port Harcourt Main,Loan Repayment,Agent Banking,NULL,20/05/2025,06:14 PM,Successful,0014308421,+234741124903,Plateau,NGN
+REF200149,0072043515,Sadiq Adeyemi,Wema Bank Ikeja,Airtime Purchase,Branch,"₦276,397.09",16-Sep-2025,06:37,Pending,0042857966,234-733-221-418,Ogun,NGN
+REF200436,0032969840,Tunde Bello,zenith bank Port Harcourt Main,Airtime Purchase,Mobile App,"₦559,506.60",2025/05/31,20:47,Successful,N/A,(693) 084-8872,Oyo,USD
+REF200043,0084093639,CHIDI OKAFOR,access bank Port Harcourt Main,Bill Payment,USSD,nil,2025/07/05,04:53 AM,successful,unknown,+234159514846,Cross River,USD
+REF200334,0039345092,Femi Lawal,Sterling Bank Port Harcourt Main,Loan Repayment,USSD,298888.39,2026-05-06,22:42,failed,-,(545) 226-7528,Plateau,NGN
+REF200180,0057683626,Ngozi Eze,Gtbank Victoria Island,Transfer,ATM,"NGN 33,041",10/10/2025,18:53,SUCCESSFUL,,0225 358 4143,Rivers,USD
+REF200401,0081691040,IBRAHIM MOHAMMED,Fidelity Bank Apapa,Deposit,Mobile App,"NGN 489,021",16 January 2026,11:14 PM,SUCCESSFUL,0022981052,02726149331,Anambra,USD
+REF200268,0071586053,Tunde Ajayi,Zenith Bank Ikeja,Withdrawal,USSD,"156,660.96 ",02/21/2025,14:56,Reversed,0041244663,01401051238,Rivers,ngn
+REF200064,0015831819,Ibrahim Lawal,GTBank Wuse 2,Transfer,POS,590166.66,14-Apr-2026,08:13 AM,SUCCESSFUL,0058966946,0716 572 6284,Anambra,NGN 
+REF200196,0052235350,Ibrahim Nnamdi   ,Sterling Bank Garki,Deposit,ATM,"NGN 318,901",2025/07/26,23:33,successful,,47055169409,Delta,USD
+REF200234,0095225343,Tunde Ajayi,first bank Port Harcourt Main,Bill Payment,POS,"437,850.31 ",not set,05:32 PM,failed,0091030736,+234678544587,ABUJA,Naira
+REF200392,null,IFEOMA ADEYEMI,gtbank Ikeja,Deposit,USSD,1405421.87,27/09/2025,22:17,successful,,0027 716 7014,Anambra,Naira
+REF200489,0046231783,Chioma Okafor,UBA Ikeja,unknown,mobile app,"NGN 482,824",09-Feb-2025,04:53,Failed,,22820055778,Delta,NGN 
+REF200400,0010872248,Adaeze  Okonkwo,UBA Port Harcourt Main,Airtime Purchase,Mobile App,"N945,692",2025-05-31,21:05,Successful,N/A,01130554885,Anambra,NGN
+REF200024,0067503414,Sadiq Okeke,Zenith Bank Victoria Island,POS Payment,USSD,"₦624,552.95",20/08/2025,05:50 PM,successful,0045833156,03267736026,kano,NGN 
+REF200042,0047338124,Segun Suleiman,FIDELITY BANK Apapa,POS Payment,Agent Banking,867088.82,2025/08/06,05:16,SUCCESSFUL,,+234934060883,Oyo,ngn
+REF200500,0010872248,grace okeke,First Bank Port Harcourt Main,POS Payment,Branch,"-NGN 114,132",11/07/2025,10:58 AM,Pending,nil,04618723460,Edo,NGN 
+REF200312,0041244663,Tobi Bello,First Bank Port Harcourt Main,Withdrawal,POS,"249,152.50 ",03/14/2026,08:37,successful,n/a,00603850506,Fct Abuja,USD
+REF200291,0039587039,Yusuf Nwosu,ACCESS BANK Victoria Island,Airtime Purchase,Mobile App,"1,369,106.79 ",2026/01/04,01:29,Successful,0070291817,+234129387005,Kaduna,ngn
+REF200258,0070291817,Yusuf Okonkwo,First Bank Port Harcourt Main,POS Payment,Mobile App,1268834.61 naira,01-Jun-2025,04:13,Failed,,07569245937,Oyo,NGN
+REF200281,0040587988,Kemi Bello,FIRST BANK Port Harcourt Main,Withdrawal,mobile app,"N1,458,137",2025/01/01,02:03,Pending,Unknown,234-171-339-596,Imo,ngn
+REF200323,0042857966,  grace ogundimu   ,UBA Garki,Salary Credit,USSD,1486750.36,02-Apr-2025,15:49,Reversed,0057683626,234-966-706-625,Abuja,USD
+REF200178,0061019678,Chidi Nwosu,Access Bank Garki,Loan Repayment,POS,"N1,101,583",08-Nov-2025,02:39,Failed,Unknown,+234912517785,Anambra,USD
+REF200082,0049349722,Halima Adekunle,Sterling Bank Victoria Island,Withdrawal,Agent Banking,"₦989,096.87",17 January 2025,12:13 AM,Pending,0020576383,0877 190 6594,Delta,USD
+REF200431,0045503389,Femi Bello,UBA Ikeja,Loan Repayment,Internet Banking,"NGN 367,476",2026-01-19,00:10,Reversed,Unknown,0552 314 9135,Edo,USD
+REF200388,0045551614,Emeka Eze,Zenith Bank Port Harcourt Main,Salary Credit,ATM,522468.78,02/18/2026,02:18 AM,Failed,--,00455611002,Ogun,ngn
+REF200470,0038317637,Obinna Suleiman,Sterling Bank Port Harcourt Main,N/A,USSD,"N332,472",21.03.2026,10:43 PM,SUCCESSFUL,,0553 942 3733,Plateau,NGN
+REF200330,0023756669,Ibrahim Suleiman   ,Access Bank Garki,Withdrawal,ATM,115501.47,2025/09/03,03:11,Pending,0014308421,(590) 599-2937,Edo,USD
+REF200295,0089254563,Wale Nwosu,ZENITH BANK Apapa,Deposit,POS,"₦442,129.47",2026-05-29,17:30,failed,NIL,+234965652341,Akwa Ibom,USD
+REF200501,0088320463,Zainab Ajayi,Zenith Bank Port Harcourt Main,Bill Payment,ussd,"NGN 1,116,531",01-Apr-2025,10:52,Reversed,0099949389,36730371837,Kaduna,NGN 
+REF200142,0013999315,Tobi Suleiman,UBA Garki,Loan Repayment,Branch,"N443,063",00/00/0000,12:14,failed,Unknown,41199867980,Ibadan,Naira
+REF200306,0056164955,Wale Okeke,gtbank Garki,Withdrawal,mobile app,953212.5,22/11/2025,10:44 PM,successful,0013561597,07925241913,Lag,NGN 
+REF200147,0039345092,GRACE AJAYI   ,Fidelity Bank Ikeja,Airtime Purchase,Branch,"N606,970",20-Nov-2025,00:34,failed,Unknown,25462914865,Enugu,USD
+REF200497,0023556182,Kunle Afolabi,Sterling Bank Victoria Island,Bill Payment,Agent Banking,"₦1,008,019.92",20/01/2026,11:27,Reversed,0072043515,(973) 502-0802,Imo,NGN
+REF200514,0042857966,Bisi Adeyemi,UBA Port Harcourt Main,Deposit,ussd,"₦1,112,898.81",2026/01/17,02:35 AM,failed,,03910371705,Plateau,USD
+REF200057,0060992979,ZAINAB AFOLABI,Fidelity Bank Wuse 2,Airtime Purchase,Mobile App,"₦482,156.54",2025-03-23,11:11,Reversed,,(699) 016-2720,Edo,NGN 
+REF200418,0020709497,Kunle Nnamdi,FIRST BANK Apapa,Airtime Purchase,POS,"N656,683",2025-04-27,01:19,Failed,,(398) 780-1573,oyo,ngn
+REF200439,0013561597,Yusuf Ajayi,Fidelity Bank Wuse 2,Deposit,Branch,"N1,126,411",04/08/2026,23:01,SUCCESSFUL,0096977837,09275037314,abuja,NGN
+REF200111,0088320463,Chinedu Balogun,UBA Wuse 2,Transfer,POS,"₦1,406,393.56",28/03/2025,07:52 PM,SUCCESSFUL,0017507864,07586926179,Enugu,NGN 
+REF200073,0045833156,Bola Nnamdi,Wema Bank Apapa,Withdrawal,USSD,"₦1,203,091.49",12 August 2025,08:26 AM,SUCCESSFUL,0058181396,0400 842 7109,Abuja,USD
+REF200227,0013356886,Emeka Nnamdi,Fidelity Bank Apapa,Bill Payment,Agent Banking,"630,484.89 ",2025-01-22,09:57,failed,0052235350,0428 364 4089,Kaduna,ngn
+REF200160,0087490893,  sadiq nnamdi,UBA Port Harcourt Main,Deposit,Mobile App,null,2025-02-28,05:58,successful,NIL,08932460953,Anambra,ngn
+REF200087,0017507864,Ifeoma Nwosu,Access Bank Victoria Island,Transfer,Branch,19004.75 naira,28-Feb-2026,01:14 PM,Pending,0021668732,+234385977034,Plateau,NGN 
+REF200036,0013999315,Obinna Okafor,Fidelity Bank Victoria Island,Withdrawal,ussd,--,26/01/2026,21:47,Pending,NULL,+234620450533,Enugu,NGN 
+REF200508,0041227216,CHINEDU EZE,Sterling Bank Port Harcourt Main,Loan Repayment,mobile app,"₦297,072.14",10.04.2026,09:43 AM,Pending,0063843426,(392) 855-7498,Lagos,Naira
+REF200327,0058537831,  MUSA NWOSU   ,zenith bank Ikeja,Bill Payment,Branch,"₦629,819.87",2025-06-07,10:47 AM,successful,N/A,08564205930,Rivers,ngn
+REF200473,0039476249,Funmilayo Ogundimu,ZENITH BANK Apapa,Airtime Purchase,Agent Banking,"₦959,392.77",27/01/2026,06:54 AM,Successful,,234-728-463-920,Rivers,USD
+REF200170,0070855700,Segun Lawal,FIRST BANK Ikeja,Deposit,Internet Banking,"NGN 953,959",22/03/2026,17:52,successful,,234-582-029-702,Ogun,Naira
+REF200512,0022575562,Kunle Eze,First Bank Port Harcourt Main,POS Payment,Branch,"NGN 905,250",N/A,13:50,failed,0023556182,,Kano,ngn
+REF200053,0088461803,Kemi Abubakar,Zenith Bank Victoria Island,Airtime Purchase,ATM,208619.64 naira,26-Apr-2026,03:18 PM,failed,,(362) 316-6587,Kano,ngn
+REF200109,0014308421,blessing adekunle   ,ZENITH BANK Victoria Island,Salary Credit,mobile app,"₦391,855.91",19.11.2025,01:24 PM,Pending,0045551614,+234985931746,Cross River,ngn
+REF200297,0045551614,   Segun Mohammed,fidelity bank Wuse 2,Loan Repayment,mobile app,282175.9,2026-03-04,07:09,Successful,n/a,234-640-376-137,Ogun,USD
+REF200406,0018883684,ibrahim lawal,sterling bank Wuse 2,Bill Payment,Internet Banking,"₦658,161.27",2026/06/05,08:04 PM,SUCCESSFUL,0085345555,02698485833,Kaduna,ngn
+REF200025,0038538251,Aliyu Eze,UBA Apapa,Transfer,Internet Banking,350519.0,28.09.2025,21:20,Pending,0016150444,64746872343,Enugu,ngn
+REF200303,0042868828,Femi Abubakar,Wema Bank Port Harcourt Main,Withdrawal,Branch,230667.97 naira,02/01/2026,06:04,failed,0066722344,+234904210202,kano,NGN
+REF200329,0032969840,Zainab Nwosu,Sterling Bank Victoria Island,Salary Credit,ussd,851557.38 naira,01-Oct-2025,01:48,Reversed,,08039652239,Oyo State,NGN
+REF200510,0081691040,Chinedu Adeyemi,Uba Ikeja,POS Payment,Internet Banking,-,25.09.2025,07:45,successful,0045935572,06209593518,Edo,NGN 
+REF200230,0081691040,Halima  Nwosu,Wema Bank Ikeja,Loan Repayment,POS,"-N669,236",05/04/2025,11:08,Pending,0053524491,234-668-826-343,Enugu,ngn
+REF200216,0023756669,Chidi Adeyemi,Access Bank Victoria Island,n/a,ussd,"N749,776",06 April 2026,12:33 AM,Reversed,  ,invalid,Akwa Ibom,NGN
+REF200296,0086125617,Chioma Okeke,Gtbank Garki,Transfer,ATM,"NGN 13,297",03-Nov-2025,09:37 AM,SUCCESSFUL,,0899 940 4389,Kaduna,NGN
+REF200236,0041227216,Bola Afolabi   ,STERLING BANK Ikeja,Deposit,Agent Banking,"N1,285,294",2025-05-26,11:29 PM,Pending,,(048) 996-4235,Kano,Naira
+REF200483,0052339391,Femi Okonkwo,Fidelity Bank Garki,null,mobile app,"₦62,928.00",02/04/2025,10:28,Reversed,,+234587716947,Anambra,ngn
+REF200468,0013999315,Musa Lawal,UBA Apapa,Withdrawal,ussd,"₦16,648.17",01.05.2025,17:46,Pending,,invalid,Abuja,NGN 
+REF200195,0022981052,  amara ajayi,Wema Bank Victoria Island,POS Payment,ATM,"₦1,033,137.09",,14:34,Failed,,234-694-958-887,Kaduna,USD
+REF200093,0019335534,Tobi Lawal,zenith bank Wuse 2,Transfer,Branch,1199353.78,2025-07-11,12:29 PM,Pending,0081971316,(867) 533-9636,Enugu,NGN 
+REF200242,0031831063,Bisi Yusuf,Access Bank Victoria Island,Airtime Purchase,ussd,564816.68,16-Apr-2026,01:13,Reversed,Unknown,(182) 339-8454,Lagos State,USD
+REF200420,0081691040,Bola Okeke,ACCESS BANK Victoria Island,Airtime Purchase,USSD,"₦458,972.61",2026/02/17,08:41,Pending,,85887704358,Akwa Ibom,USD
+REF200036,0013999315,Obinna Okafor,Fidelity Bank Victoria Island,Withdrawal,ussd,--,26/01/2026,21:47,Pending,NULL,+234620450533,Enugu,NGN 
+REF200040,0058966946,Chioma Ajayi,First Bank Garki,Loan Repayment,USSD,"98,990.51 ",09.10.2025,21:18,failed,0035808537,0458 685 0142,Kaduna,NGN 
+REF200336,0038898923,Wale Mohammed,STERLING BANK Victoria Island,Withdrawal,mobile app,223514.79 naira,2025/05/04,04:30,Failed,0040587988,0690 295 9391,Edo,NGN
+REF200100,0021668732,  Emeka Nnamdi,Sterling Bank Wuse 2,Withdrawal,USSD,137253.18,2025-04-08,00:02,Pending,0038317637,+234792374740,Edo,Naira
+REF200112,0082340307,Musa Ajayi,WEMA BANK Apapa,Loan Repayment,ATM,"N322,467",07/11/2025,09:23,failed,--,234-053-773-515,Delta,USD
+REF200122,0085345555,aliyu  adekunle,First Bank Garki,-,ATM,"₦844,244.30",2025-04-14,09:45,Successful,0052235350,234-576-615-654,Akwa Ibom,NGN 
+REF200028,0041227216,Blessing Lawal,ZENITH BANK Port Harcourt Main,POS Payment,Branch,"N938,300",22/02/2025,06:56 AM,failed,N/A,+234399091699,Delta,ngn
+REF200153,0039958838,Funmilayo Eze,First Bank Apapa,Transfer,mobile app,"NGN 542,196",26.04.2026,03:31 PM,Pending,0067503414,0886 239 2407,Kaduna,ngn
+REF200257,0045264581,Chidi Lawal,WEMA BANK Victoria Island,Deposit,Mobile App,1142465.10 naira,28-Sep-2025,17:38,successful,0015831819,(371) 240-6596,Delta,NGN 
+REF200304,0047338124,Tunde Okonkwo,ACCESS BANK Garki,Withdrawal,POS,"N506,006",07/16/2025,23:12,successful,NULL,234-884-252-410,Rivers State,NGN
+REF200384,0060929647,Zainab Adeyemi,access bank Port Harcourt Main,Transfer,Branch,1036044.06,04.03.2025,04:08,Reversed,0083197857,,Anambra,NGN
+REF200014,0090801586,Chinedu Eze,sterling bank Port Harcourt Main,Salary Credit,ATM,n/a,2026/01/29,16:52,SUCCESSFUL,,(148) 932-5288,Akwa Ibom,USD
+REF200411,0058181396,ALIYU EZE,Sterling Bank Wuse 2,Salary Credit,ATM,"₦328,786.33",10/22/2025,14:19,failed,0031831063,234-384-066-658,Edo,ngn
+REF200410,0052339391,Aliyu  Balogun,First Bank Port Harcourt Main,POS Payment,ussd,298260.17 naira,2025-04-01,17:37,Pending,  ,234-380-571-983,Anambra,NGN 
+REF200108,0023756669,Ngozi Adekunle,ZENITH BANK Victoria Island,Loan Repayment,POS,794956.83 naira,01 September 2025,02:19 PM,Failed,?,0817 549 6513,Edo,Naira
+REF200518,0086125617,Tunde Olawale,sterling bank Apapa,Loan Repayment,USSD,"NGN 997,123",06/18/2025,07:44,failed,0095822412,(286) 852-8975,Cross River,NGN
+REF200131,0066306997,WALE BELLO,GTBank Victoria Island,Withdrawal,Mobile App,"NGN 1,493,211",17.12.2025,16:43,Successful,N/A,06438156149,Lagos,NGN 
+REF200305,0042857966,Adaeze Balogun,Uba Garki,Salary Credit,USSD,688434.51,09.03.2025,22:27,Pending,  ,64814917785,Imo,Naira
+REF200377,0083197857,  FUNMILAYO OGUNDIMU,Access Bank Ikeja,Transfer,Mobile App,"N458,334",02 September 2025,05:48 AM,failed,0022575562,,Ogun,ngn
+REF200264,0077005685,fatima okafor,UBA Wuse 2,Transfer,Mobile App,"₦131,908.88",2025/05/19,00:28,successful,0028740864,+234656101438,kano,NGN
+REF200252,0083140807,Kunle Mohammed,Gtbank Port Harcourt Main,Airtime Purchase,USSD,"₦680,166.00",2025/01/29,01:46,failed,?,234-541-212-678,Delta,NGN 
+REF200324,0070855700,Halima Lawal,Zenith Bank Garki,Withdrawal,ATM,1219395.47,21 January 2025,13:26,Successful,,+234447209993,Ogun,Naira
+REF200097,0070855700,zainab yusuf,ZENITH BANK Wuse 2,Deposit,Internet Banking,1208258.02,12/26/2025,18:10,failed,0071586053,0091 343 1611,Rivers,ngn
+REF200374,0029175900,wale mohammed,UBA Victoria Island,Withdrawal,Internet Banking,"N470,382",16 November 2025,15:29,Failed,0013999315,+234725217525,Lagos,Naira
+REF200208,0023718431,Musa Okafor,First Bank Victoria Island,Withdrawal,Branch,"NGN 944,135",2025-06-23,19:33,Successful,,06724004991,Rivers,ngn
+REF200049,0089254563,Chioma Olawale,Zenith Bank Wuse 2,null,Internet Banking,nil,02/06/2026,04:24,Failed,0029175900,(163) 287-0831,Cross River,USD
+REF200248,0023756669,Bola Olawale,First Bank Wuse 2,Bill Payment,USSD,"NGN 264,390",13.02.2025,04:35 PM,Successful,N/A,(218) 501-6315,Cross River,USD
+REF200001,0063843426,Tunde  Mohammed,Sterling Bank Wuse 2,Airtime Purchase,Mobile App,"N329,371",22 May 2025,17:23,failed,--,01043321819,Plateau,ngn
+REF200432,0091030736,Chinedu Ajayi   ,WEMA BANK Victoria Island,Airtime Purchase,POS,"NGN 1,328,439",07/02/2025,08:01 AM,successful,null,0759 492 9955,Rivers,NGN 
+REF200141,0032969840,Tunde Chukwu,First Bank Wuse 2,Deposit,Mobile App,"NGN 975,305",,05:11 PM,failed,,+234058147700,Akwa Ibom,NGN
+REF200339,0053524491,Aliyu Balogun,Access Bank Port Harcourt Main,Transfer,Mobile App,1139153.06,2025/12/22,12:29,successful,,+234267658617,Delta,USD
+REF200274,0099949389,Bisi Bello,Wema Bank Wuse 2,Transfer,Internet Banking,669523.05 naira,2026/01/14,23:06,SUCCESSFUL,0089089901,03412528669,Plateau,Naira
+REF200032,0023756669,SEGUN AFOLABI,ACCESS BANK Garki,Loan Repayment,ATM,1041154.74 naira,01/30/2025,01:34,Pending,0072043515,0000000000,Imo,ngn
+REF200065,0020576383,Funmilayo Suleiman,GTBANK Victoria Island,Bill Payment,Agent Banking,419941.16 naira,02 May 2025,04:23 AM,SUCCESSFUL,0020576383,87769453147,Akwa Ibom,ngn
+REF200019,0039587039,ZAINAB NWOSU,Zenith Bank Garki,Deposit,mobile app,"N1,362,085",2026/01/20,13:32,failed,0048840994,234-010-310-518,Edo,NGN 
+REF200314,0039345092,Funmilayo Okafor,gtbank Ikeja,Deposit,Agent Banking,954832.24,23 March 2025,10:00,failed,0048840994,234-865-719-182,Ogun,NGN 
+REF200343,0081691040,Tunde Nnamdi,Access Bank Ikeja,Withdrawal,Mobile App,"₦215,711.78",,08:22 AM,failed,0090801586,(688) 444-3106,Lagos,NGN
+REF200367,0066629388,Femi Yusuf,uba Victoria Island,Airtime Purchase,USSD,"N1,409,802",2025-10-02,09:20 AM,Failed,unknown,54544432830,Oyo,USD
+REF200088,0020576383,Musa Bello,access bank Garki,POS Payment,Internet Banking,293724.56,2025/04/20,04:37,SUCCESSFUL,null,0247 710 9324,Kaduna,NGN
+REF200292,0085345555,Kunle Abubakar,UBA Port Harcourt Main,Bill Payment,mobile app,,21 March 2026,02:13 AM,SUCCESSFUL,0013561597,06271361115,Edo,ngn
+REF200488,0026753883,IBRAHIM NNAMDI,WEMA BANK Wuse 2,Withdrawal,Agent Banking,"NGN 525,501",25 July 2025,21:59,Successful,0083197857,(149) 216-4334,Lagos,Naira
+REF200146,0084752529,Chidi Afolabi,Zenith Bank Victoria Island,Deposit,POS,"₦636,602.07",04/17/2025,07:01,SUCCESSFUL,0063100814,234-186-449-251,Enugu,NGN 
+REF200239,0045264581,Obinna Chukwu,ACCESS BANK Port Harcourt Main,Salary Credit,mobile app,611219.69 naira,15/03/2026,06:26 AM,successful,0099949389,00623120387,Imo,Naira
+REF200070,0018883684,Amara Nwosu,Access Bank Victoria Island,Deposit,mobile app,431223.93,2025/10/20,22:02,Pending,?,234-855-744-431,Ibadan,Naira
+REF200445,0098753260,Tobi Yusuf,Access Bank Port Harcourt Main,Transfer,Branch,"437,181.84 ",06/12/2025,07:22 PM,Failed,,77739260302,Anambra,USD
+REF200089,0046913810,Blessing Abubakar,Wema Bank Port Harcourt Main,Withdrawal,mobile app,"N300,100",2025-07-04,11:16 PM,Reversed,0093016315,00861317127,Delta,USD
+REF200347,0083140807,Segun Olawale,Wema Bank Port Harcourt Main,Loan Repayment,POS,"₦418,074.98",04/03/2025,11:01,SUCCESSFUL,0070855700,(704) 774-3490,Akwa Ibom,Naira
+REF200126,0031931511,Amaka Chukwu,first bank Ikeja,Salary Credit,Branch,"N596,030",2025-04-15,00:15,Reversed,0013561597,+234851493689,Imo,NGN
+REF200348,0095899313,Emeka Balogun,uba Victoria Island,Deposit,ussd,871655.42,unknown date,17:59,failed,,+234158693806,Akwa Ibom,USD
+REF200430,0063606628,MUSA NNAMDI,Fidelity Bank Ikeja,Withdrawal,Internet Banking,"601,424.82 ",01/30/2025,05:35,Reversed,0082340307,234-781-414-139,abuja,NGN 
+REF200496,0035808537,Funmilayo Adeyemi,First Bank Port Harcourt Main,Salary Credit,POS,"N78,491",02 September 2025,11:54 PM,SUCCESSFUL,0026753883,0631 224 1797,Enugu,NGN 
+REF200506,0038317637,Bisi Adekunle,UBA Apapa,Bill Payment,ussd,"N1,350,696",2025-09-30,02:17,Pending,nil,(812) 735-8573,Ogun,NGN
+REF200106,0053524491,Aliyu Nwosu,fidelity bank Port Harcourt Main,Bill Payment,USSD,"N268,852",2025/02/06,18:52,Failed,0061019678,0858 842 4745,Abuja,ngn
+REF200364,0046913810,GRACE OKEKE,STERLING BANK Port Harcourt Main,Transfer,POS,"₦239,000.23",11/27/2025,06:57 AM,SUCCESSFUL,,0229 034 9446,Cross River,ngn
+REF200150,0060992979,Ngozi Okeke,Fidelity Bank Wuse 2,NULL,ATM,477020.01,2026-04-07,11:12,Failed,unknown,234-059-296-222,Cross River,ngn
+REF200061,0022448136,funmilayo nwosu,FIRST BANK Garki,Airtime Purchase,Branch,"N1,366,113",2025/02/26,04:14 AM,SUCCESSFUL,0031931511,(529) 912-4190,Kaduna,USD
+REF200505,0041227216,Kunle Okeke,UBA Garki,POS Payment,ATM,866041.09 naira,06/12/2025,23:50,Successful,0090801586,01327195005,Anambra,NGN 
+REF200237,0038898923,Segun Chukwu,Access Bank Port Harcourt Main,POS Payment,USSD,"₦527,624.73",03/04/2025,04:58,Reversed,0055176955,(693) 785-4777,Lagos,NGN
+REF200105,0047295260,Amara Balogun,Wema Bank Apapa,Deposit,Internet Banking,"NGN 44,520",16/03/2026,09:17,Reversed,Unknown,,kano,NGN 
+REF200353,0042868828,NGOZI OGUNDIMU,UBA Port Harcourt Main,Transfer,Internet Banking,1194205.91,04 May 2026,20:00,failed,0086125617,234-861-622-999,Kaduna,USD
+REF200409,0058586340,Halima Olawale,UBA Port Harcourt Main,Deposit,Mobile App,"NGN 111,596",19.11.2025,01:18,Reversed,0098753260,+234200342442,Plateau,NGN 
+REF200477,0017507864,Kemi Okafor,sterling bank Wuse 2,Airtime Purchase,Branch,"NGN 1,059,610",07 March 2025,23:16,Failed,,07636556472,Ogun,NGN
+REF200152,0023556182,SEGUN NNAMDI,Access Bank Victoria Island,Salary Credit,Internet Banking,884606.33,2025-10-25,04:34 AM,failed,0083197857,+234347359774,Lagos,USD
+REF200479,0084093639,segun  balogun,GTBank Ikeja,Bill Payment,Mobile App,1318657.27,00/00/0000,03:05,failed,N/A,+234702672885,Edo,USD
+REF200389,0096977837,Chinedu Okonkwo,FIDELITY BANK Wuse 2,Loan Repayment,Agent Banking,"₦1,270,279.38",16-Mar-2025,15:04,Failed,0085329037,(557) 941-5521,Cross River,Naira
+REF200218,0029175900,Chioma Okonkwo,GTBank Ikeja,N/A,Branch,365845.09 naira,11.02.2025,04:33,Failed,0032969840,0718 707 2867,Enugu,Naira
+REF200136,0066722344,TOBI BELLO,GTBank Victoria Island,Salary Credit,Internet Banking,"₦1,032,518.34",04/08/2025,14:46,Pending,0047338124,0529 751 6136,Enugu,Naira
+REF200319,0095822412,AMARA SULEIMAN,Access Bank Garki,POS Payment,Mobile App,191562.49 naira,11/17/2025,12:58,Pending,unknown,234-135-680-442,Rivers,NGN
+REF200211,0052339391,Tobi Okeke,Fidelity Bank Port Harcourt Main,Deposit,Mobile App,147866.04 naira,2026/02/05,15:44,Failed,,,Lagos,Naira
+REF200266,0010872248,Amara Olawale,First Bank Wuse 2,Loan Repayment,POS,432372.17,16.07.2025,04:01 PM,Failed,0052339391,0507 146 1125,rivers,USD
+REF200172,0040742311,BOLA MOHAMMED,Wema Bank Wuse 2,Deposit,Internet Banking,"₦153,859.10",03/10/2025,04:16,Failed,0071586053,0719 285 6543,Akwa Ibom,NGN
+REF200492,0091030736,Yusuf  Bello,uba Port Harcourt Main,Transfer,Internet Banking,"N1,249,415",27.02.2026,01:44 AM,successful,0066722344,+234424008254,Cross River,NGN 
+REF200157,0010872248,Obinna Bello,Fidelity Bank Port Harcourt Main,Withdrawal,Branch,555880.99 naira,14.02.2025,11:48 PM,SUCCESSFUL,NULL,,Ogun,USD
+REF200500,0010872248,grace okeke,First Bank Port Harcourt Main,POS Payment,Branch,"-NGN 114,132",11/07/2025,10:58 AM,Pending,nil,04618723460,Edo,NGN 
+REF200463,0038119557,Sadiq Adeyemi,Sterling Bank Victoria Island,  ,Mobile App,"197,994.79 ",09-Mar-2026,12:47,SUCCESSFUL,0045551614,02146566938,Akwa Ibom,USD
+REF200123,0052339391,amaka olawale,UBA Wuse 2,Salary Credit,POS,"1,027,435.61 ",08/22/2025,04:35 AM,Reversed,Unknown,02711116152,rivers,NGN
+REF200166,0097226012,Ngozi Nnamdi,gtbank Port Harcourt Main,Transfer,Branch,294496.79 naira,03-Jun-2025,16:08,Pending,0031831063,234-541-566-765,Kaduna,NGN
+REF200161,0038898923,Fatima Ogundimu,Zenith Bank Garki,Airtime Purchase,USSD,"838,891.24 ",23 December 2025,11:51,SUCCESSFUL,0087490893,(621) 851-8888,Delta,Naira
+REF200117,0086125617,Grace Nwosu,Access Bank Ikeja,null,USSD,"₦568,379.51",20-Jan-2026,03:27 AM,Successful,,(026) 811-7758,Ogun,NGN 
+REF200368,0045264581,Bola Ogundimu,Access Bank Garki,Airtime Purchase,Branch,"N574,877",24 July 2025,19:21,Successful,0097971488,+234652074466,Kaduna,Naira
+REF200332,0045264581,Obinna Adeyemi,FIDELITY BANK Wuse 2,Bill Payment,USSD,"₦1,384,623.02",06/12/2026,01:12,Successful,0048840994,(705) 932-5250,Anambra,Naira
+REF200139,0099949389,Ngozi Lawal,GTBank Ikeja,Loan Repayment,ussd,621998.28,2025/05/07,15:22,Reversed,  ,234-292-127-799,Anambra,NGN 
+REF200138,0031931511,Funmilayo Chukwu,ZENITH BANK Victoria Island,Salary Credit,mobile app,"₦545,260.17",04/09/2026,03:53 AM,failed,0019335534,+234883552312,Plateau,ngn
+REF200129,0041244663,Tobi Bello,uba Garki,Salary Credit,Internet Banking,875570.14,2025/03/14,16:07,Pending,null,+234752545991,Ogun,Naira
+REF200033,0022448136,Aliyu Adekunle,Wema Bank Victoria Island,Loan Repayment,USSD,"NGN 237,384",29 March 2026,11:47 AM,Reversed,0096282117,234-493-534-874,Lagos,NGN
+REF200265,0014308421,  Chidi Suleiman,wema bank Ikeja,Deposit,POS,"N154,444",2026/03/19,14:11,successful,0091756179,234-993-756-798,Delta,NGN 
+REF200273,0038119557,Ifeoma Suleiman,Access Bank Garki,POS Payment,Agent Banking,"N8,317",2025-12-14,08:03,Failed,,05792499125,Enugu,Naira
+REF200176,--,Ifeoma Okafor,Fidelity Bank Victoria Island,Bill Payment,Agent Banking,"395,392.23 ",2026/01/11,15:29,SUCCESSFUL,0055176955,31323705895,Kaduna,NGN
+REF200251,0097971488,Aliyu Adeyemi,First Bank Wuse 2,Salary Credit,POS,1335424.97,26.03.2026,09:33 PM,Failed,-,42626551104,Akwa Ibom,USD
+REF200047,0038898923,SEGUN NNAMDI   ,FIRST BANK Ikeja,Loan Repayment,Agent Banking,102895.24,not set,21:33,Pending,,234-343-320-037,Plateau,NGN
+REF200173,0087490893,Adaeze Abubakar,wema bank Apapa,Bill Payment,Mobile App,1152334.43,12/09/2025,01:08 PM,Reversed,0071662963,02786814473,Kano,Naira
+REF200309,0089254563,Wale Yusuf,Access Bank Victoria Island,Airtime Purchase,Branch,1190441.12 naira,21 January 2025,13:01,Pending,0098753260,+234180238061,Lag,ngn
+REF200394,0024942603,Chidi Suleiman   ,GTBANK Victoria Island,Salary Credit,Mobile App,"NGN 1,377,144",09/01/2025,07:55,Failed,N/A,03756289002,Oyo,Naira
+REF200294,0057683626,  amaka chukwu,fidelity bank Ikeja,Salary Credit,POS,594152.01 naira,10-Nov-2025,14:30,successful,0026753883,0000000000,Kano,ngn
+REF200417,0070291817,Kunle Lawal,wema bank Port Harcourt Main,POS Payment,ussd,1033651.90 naira,2026/02/21,12:11 AM,Successful,0021668732,08861533555,Rivers,NGN
+REF200302,0055667651,wale  mohammed,UBA Wuse 2,Transfer,Branch,"599,313.08 ",19/07/2025,13:32,Failed,0070855700,+234146303161,Abuja,NGN
+REF200198,0081971316,Ibrahim  Abubakar,UBA Wuse 2,Deposit,Agent Banking,"₦407,610.38",30-Mar-2025,16:57,SUCCESSFUL,0058181396,06230913075,Akwa Ibom,USD
+REF200250,0088461803,Amaka Adeyemi,uba Wuse 2,Airtime Purchase,POS,1073649.01,11/12/2025,00:43,successful,0020576383,234-629-619-431,oyo,ngn
+REF200372,0039958838,ibrahim balogun,Access Bank Garki,Salary Credit,POS,"1,401,198.48 ",23.02.2025,08:51,successful,,+234170999173,Ogun,NGN 
+REF200241,0058181396,  MUSA AJAYI,wema bank Port Harcourt Main,Salary Credit,Branch,40609.96 naira,03 July 2025,13:03,failed,0058537831,00084840862,Enugu,NGN 
+REF200158,0049349722,Ngozi Afolabi,Fidelity Bank Port Harcourt Main,Loan Repayment,mobile app,"N11,287",07/30/2025,23:28,SUCCESSFUL,0060992979,32898614341,Enugu,Naira
+REF200168,0030868105,Bisi Chukwu,Wema Bank Victoria Island,Deposit,ATM,"N979,693",2025/10/01,20:39,Failed,0013999315,0845 115 4479,Anambra,NGN
+REF200476,0013999315,Musa Nwosu,Fidelity Bank Port Harcourt Main,POS Payment,Mobile App,1471526.03 naira,04 June 2026,16:14,Failed,0035808537,04284347955,Imo,ngn
+REF200275,0022575562,AMARA YUSUF,first bank Ikeja,Transfer,mobile app,"₦554,313.42",2025-05-02,08:32 PM,failed,Unknown,09662782827,Enugu,NGN 
+REF200395,0022448136,Bisi Suleiman,First Bank Victoria Island,Airtime Purchase,Agent Banking,1102960.33 naira,00/00/0000,07:31,SUCCESSFUL,0089254563,+234721753540,Akwa Ibom,USD
+REF200494,0095225343,Kemi Nwosu   ,GTBANK Wuse 2,Salary Credit,Internet Banking,178101.48,24.02.2026,05:24,successful,,85368663266,Ogun,ngn
+REF200238,0083140807,Tunde Okonkwo,STERLING BANK Apapa,Withdrawal,Agent Banking,"₦1,380,755.53",2026/05/02,12:30 PM,Reversed,0058181396,0522 872 8080,Oyo State,NGN 
+REF200144,0058966946,Kunle Olawale,Access Bank Garki,Loan Repayment,ATM,1160604.59,2025-11-05,04:44 PM,failed,Unknown,51820377889,LAGOS,NGN 
+REF200202,0036687537,Segun Ajayi,zenith bank Port Harcourt Main,Withdrawal,Agent Banking,713263.88 naira,12/26/2025,16:20,SUCCESSFUL,0040587988,234-375-758-441,Kano,USD
+REF200455,0038538251,Halima Adeyemi   ,GTBank Apapa,Salary Credit,POS,"N963,539",14 March 2026,01:31 PM,SUCCESSFUL,nil,00635651269,Ogun,NGN 
+REF200190,0023718431,Adaeze Nnamdi,Access Bank Port Harcourt Main,Salary Credit,Agent Banking,"₦1,160,628.68",2025/10/20,15:44,successful,0035808537,0000000000,Ogun,Naira
+REF200416,0035808537,Amara Eze,Zenith Bank Victoria Island,Salary Credit,USSD,"₦867,030.29",26-Jan-2025,13:33,failed,nil,0515 832 8182,Oyo,Naira
+REF200371,0038317637,musa adeyemi,Zenith Bank Garki,,Mobile App,"₦412,372.98",21.12.2025,13:39,successful,0066629388,234-353-465-549,Akwa Ibom,USD
+REF200044,0048840994,ibrahim adeyemi   ,UBA Apapa,Airtime Purchase,Mobile App,-645155.49 naira,10/18/2025,23:08,Reversed,0031831063,234-482-366-299,Abuja,NGN 
+REF200288,0099949389,  Tunde Okafor,Access Bank Apapa,Bill Payment,ussd,"₦1,406,408.49",27/01/2025,03:29 PM,Pending,  ,234-500-170-127,Ogun,USD
+REF200449,0045833156,Amara Okafor   ,UBA Port Harcourt Main,Salary Credit,Branch,714315.69,13-Apr-2025,18:30,Pending,  ,(425) 799-1366,KANO,USD
+REF200214,0030868105,Funmilayo Bello,Sterling Bank Port Harcourt Main,Withdrawal,Mobile App,"NGN 746,803",01.01.2025,01:17,SUCCESSFUL,,234-841-459-332,Enugu,NGN
+REF200016,0038119557,Chinedu Okeke,Sterling Bank Apapa,Airtime Purchase,mobile app,93867.43 naira,07.03.2026,13:17,Failed,0030868105,01171822782,Enugu,ngn
+REF200308,0099949389,  kunle abubakar,uba Victoria Island,POS Payment,ussd,nil,2025-07-29,04:17,Failed,0093016315,08635365419,Enugu,Naira
+REF200355,0055667651,Blessing Mohammed,Zenith Bank Wuse 2,Deposit,Branch,269189.79 naira,2026/04/17,08:48 AM,Pending,,09702462996,Edo,NGN 
+REF200039,0097226012,Ngozi Afolabi,Zenith Bank Victoria Island,Deposit,Agent Banking,"NGN 537,684",01/09/2025,08:05 PM,successful,N/A,0754 330 3654,Abuja,ngn
+REF200472,0018883684,Grace Olawale,Sterling Bank Victoria Island,Salary Credit,POS,"NGN 1,486,468",27.09.2025,05:28,Failed,0060992979,79080759579,Abuja,ngn
+REF200148,0052235350,Grace Chukwu,GTBank Garki,Transfer,Mobile App,"N951,251",02 November 2025,23:07,Pending,0014308421,234-816-850-542,KANO,USD
+REF200267,0031831063,Chinedu Chukwu,GTBank Apapa,Loan Repayment,ATM,"₦1,190,326.94",2026-05-21,10:21,failed,0039958838,(573) 875-7177,Oyo,USD
+REF200307,0045935572,Kunle Afolabi   ,fidelity bank Victoria Island,Deposit,ATM,"493,370.43 ",10/12/2025,10:50,successful,  ,0000000000,Abuja,NGN
+REF200124,0063100814,Chioma Eze,Wema Bank Apapa,Bill Payment,Branch,684944.78,2026-01-05,06:47 AM,Successful,0057683626,+234988516560,Akwa Ibom,Naira
+REF200081,0052235350,Ngozi Suleiman,GTBank Ikeja,Deposit,mobile app,"₦733,187.34",18/05/2026,15:43,Successful,0019335534,(499) 471-7464,Edo,USD
+REF200461,0036687537,  Chinedu Chukwu,Wema Bank Wuse 2,Salary Credit,Mobile App,"NGN 70,226",2026-01-22,08:25 PM,Reversed,,08490277038,Delta,NGN 
+REF200331,0045935572,EMEKA OKONKWO,Sterling Bank Victoria Island,Bill Payment,POS,Unknown,22.06.2025,11:01 PM,Pending,0047295260,42701039308,Edo,USD
+REF200357,0096977837,ZAINAB LAWAL,Access Bank Apapa,Deposit,mobile app,"₦299,606.76",03.12.2025,02:12,successful,0089089901,47132475469,Enugu,ngn
+REF200261,0095225343,adaeze nnamdi,Access Bank Garki,Withdrawal,mobile app,"₦634,093.26",2026-01-13,08:57 PM,Failed,NULL,234-416-724-342,Ogun,NGN
+REF200315,0071662963,Chioma Ajayi,GTBank Apapa,NIL,mobile app,1022949.07,12/18/2025,10:45 AM,Successful,NIL,+234990623445,Kaduna,NGN 
+REF200385,0023756669,Ibrahim Bello,Wema Bank Victoria Island,Airtime Purchase,ussd,"155,858.73 ",26-Jan-2025,05:15 PM,Successful,0077005685,+234356420873,Rivers,USD
+REF200373,0047295260,Zainab Balogun,Fidelity Bank Victoria Island,POS Payment,USSD,,26-Nov-2025,16:28,Failed,0091030736,(168) 460-2235,Cross River,USD
+REF200484,0083140807,Zainab Olawale,Zenith Bank Wuse 2,POS Payment,Mobile App,"₦67,558.70",2025/08/08,03:22 AM,Pending,0031429110,234-569-961-125,Rivers,Naira
+REF200311,0088320463,Grace Okafor,access bank Wuse 2,Transfer,Internet Banking,"₦1,389,814.88",2025/09/10,08:16,successful,0099949389,04937597383,Anambra,Naira
+REF200231,0066629388,Ifeoma Ogundimu,Sterling Bank Wuse 2,Transfer,USSD,"₦517,707.86",12.11.2025,15:12,Pending,0099949389,01751830469,LAGOS,NGN 
+REF200408,0088320463,Blessing Afolabi,wema bank Victoria Island,Airtime Purchase,USSD,1246641.2,10/30/2025,03:44,Pending,0056164955,79968460810,Plateau,USD
+REF200428,0041244663,CHIDI ADEKUNLE,GTBank Garki,Transfer,ussd,"N1,023,186",23-Oct-2025,07:04,Successful,0013999315,09688143536,Rivers State,ngn
+REF200344,0040587988,Ifeoma Ogundimu,access bank Wuse 2,Transfer,Agent Banking,"N159,955",13/12/2025,02:54 AM,Successful,0023718431,0872 050 6149,rivers,NGN
+REF200099,0045935572,TUNDE OGUNDIMU,sterling bank Port Harcourt Main,Transfer,Branch,"₦196,326.08",2026-05-12,11:43 AM,Pending,0081971316,38692221969,Rivers State,Naira
+REF200015,0098753260,Bisi Nwosu,uba Ikeja,Airtime Purchase,POS,"NGN 1,360,329",04/02/2026,05:25 AM,successful,,0957 015 4303,Kaduna,USD
+REF200203,0097226012,Bola Okeke,WEMA BANK Garki,Salary Credit,USSD,"1,470,317.74 ",17-Dec-2025,06:35 PM,Successful,--,86652404157,Edo,NGN
+REF200165,0028740864,femi adekunle,Wema Bank Wuse 2,Bill Payment,mobile app,"NGN 316,523",04/14/2025,11:06,Reversed,0014265799,+234486874034,Anambra,NGN 
+REF200022,0052339391,segun ogundimu   ,Zenith Bank Port Harcourt Main,Transfer,ussd,"NGN 553,846",28.06.2026,11:44,Pending,,234-513-338-726,rivers,ngn
+REF200222,0088461803,FEMI NWOSU,Wema Bank Apapa,Deposit,ATM,"NGN 443,095",06/10/2025,21:46,SUCCESSFUL,,0512 868 2300,Lagos State,USD
+REF200423,0056164955,  Segun Adekunle,wema bank Port Harcourt Main,Airtime Purchase,Mobile App,541806.57,19-Jul-2025,00:11,Reversed,0097226012,02481934667,Cross River,USD
+REF200209,0047308985,Funmilayo Balogun,Access Bank Victoria Island,Salary Credit,mobile app,392248.26,30-Aug-2025,16:33,Failed,0040742311,05478872874,Edo,ngn
+REF200426,0066629388,Bola Okonkwo,Access Bank Victoria Island,Bill Payment,ATM,"NGN 852,476",30.03.2025,07:19 PM,failed,--,+234607283268,Oyo State,NGN 
+REF200116,0058586340,funmilayo balogun,Zenith Bank Port Harcourt Main,Bill Payment,Branch,"NGN 903,782",2025-08-15,09:49 PM,Successful,unknown,+234020539502,Imo,NGN 
+REF200466,0091756179,Wale Mohammed,GTBank Wuse 2,Airtime Purchase,Agent Banking,238545.32,06/19/2025,21:40,Pending,0055667651,81845184894,Oyo,NGN
+REF200466,0091756179,Wale Mohammed,GTBank Wuse 2,Airtime Purchase,Agent Banking,238545.32,06/19/2025,21:40,Pending,0055667651,81845184894,Oyo,NGN
+REF200419,0096282117,FUNMILAYO  AFOLABI,UBA Ikeja,Salary Credit,Mobile App,"N1,080,335",19/05/2025,05:36,SUCCESSFUL,,234-305-616-484,Oyo,NGN 
+REF200321,0047308985,Ibrahim Abubakar,STERLING BANK Apapa,Deposit,Branch,710395.72 naira,12/23/2025,13:21,successful,0090801586,03236519941,Kano,NGN
+REF200127,0077827638,Grace Lawal,first bank Wuse 2,Loan Repayment,Mobile App,"N1,203,644",18.02.2026,10:32 PM,Reversed,,0809 402 4455,Imo,ngn
+REF200480,0067503414,SEGUN OKEKE,Access Bank Wuse 2,Deposit,Agent Banking,803053.38,2025-12-20,03:18,Successful,0083140807,+234489061203,Imo,NGN
+REF200290,0056164955,Blessing Adeyemi,Wema Bank Victoria Island,Salary Credit,POS,"849,362.32 ",10-Dec-2025,09:01 PM,Successful,0021668732,(520) 643-6110,Fct Abuja,Naira
+REF200038,0032969840,Chinedu Adeyemi   ,Zenith Bank Garki,POS Payment,ATM,"NGN 1,236,375",04 April 2025,10:37 PM,failed,,+234634216073,Abuja,NGN
+REF200263,0052339391,Kemi Eze,Sterling Bank Ikeja,Loan Repayment,Internet Banking,"N512,331",11-Jul-2025,07:12,Reversed,?,(058) 911-3529,Kaduna,NGN 
+REF200386,0099949389,tobi adekunle   ,STERLING BANK Apapa,Salary Credit,mobile app,"₦720,959.46",2025/10/24,22:47,Reversed,-,0530 011 9721,Imo,NGN 
+REF200424,0013561597,Yusuf Mohammed,Zenith Bank Ikeja,Deposit,Mobile App,"NGN 57,771",2025-01-30,20:55,Failed,,66506180919,Akwa Ibom,ngn
+REF200375,0039345092,Bola Chukwu,sterling bank Wuse 2,Loan Repayment,Mobile App,714622.52 naira,28/06/2026,15:27,Reversed,NULL,(074) 329-2712,Oyo,NGN 
+REF200404,0047295260,Zainab Lawal,ZENITH BANK Ikeja,n/a,USSD,"₦1,314,670.34",16-Jan-2025,05:41,Pending,0084752529,78292216995,Oyo State,USD
+REF200066,0059684848,amaka okafor,GTBank Apapa,POS Payment,ussd,"₦761,218.82",06 June 2026,18:10,successful,0046231783,(379) 965-0752,Plateau,NGN
+REF200342,0030868105,GRACE BELLO,WEMA BANK Victoria Island,Salary Credit,Internet Banking,"₦386,389.08",2025/07/31,03:05 PM,Pending,0085329037,0062 962 0153,Edo,USD
+REF200075,0046231783,Sadiq Suleiman,Access Bank Apapa,Withdrawal,Agent Banking,"NGN 1,337,055",04/05/2026,12:53,failed,0022448136,71902294131,Anambra,NGN 
+REF200037,0013561597,Grace Eze,Wema Bank Apapa,Deposit,ATM,1424096.46 naira,06.03.2026,20:02,Reversed,0088461803,234-869-232-260,lagos,NGN
+REF200278,0048840994,Chinedu Olawale,STERLING BANK Ikeja,Bill Payment,USSD,"₦1,210,478.08",11/25/2025,01:42 PM,Failed,0066629388,0903 404 3842,Edo,Naira
+REF200322,0045551614,  Aliyu Okonkwo,GTBANK Garki,Bill Payment,Internet Banking,"N1,284,284",15/04/2025,11:09 PM,successful,0095899313,+234137215107,Edo,NGN 
+REF200325,0039345092,SEGUN SULEIMAN,GTBank Garki,Airtime Purchase,ussd,"₦132,187.48",2025-09-20,01:11,Pending,NIL,07687014626,Kano,ngn
+REF200284,0063100814,Tunde Adekunle,WEMA BANK Victoria Island,Transfer,Internet Banking,739510.39,03 August 2025,00:14,SUCCESSFUL,  ,invalid,Edo,USD
+REF200507,0055176955,Chioma Afolabi,FIRST BANK Port Harcourt Main,Loan Repayment,ussd,91314.15,19-Jul-2025,17:52,SUCCESSFUL,0087490893,06524077848,Imo,ngn
+REF200089,0046913810,Blessing Abubakar,Wema Bank Port Harcourt Main,Withdrawal,mobile app,"N300,100",2025-07-04,11:16 PM,Reversed,0093016315,00861317127,Delta,USD
+REF200051,0057683626,Blessing Yusuf,Sterling Bank Wuse 2,Transfer,Internet Banking,"1,213,031.49 ",00/00/0000,06:37,SUCCESSFUL,,07277434873,oyo,ngn
+REF200390,0077827638,Segun Afolabi,zenith bank Port Harcourt Main,Salary Credit,ATM,"N36,852",2025-04-09,06:56,SUCCESSFUL,,67467621202,Enugu,NGN
+REF200391,0020709497,musa suleiman,first bank Apapa,Withdrawal,Internet Banking,?,14 June 2026,10:10,SUCCESSFUL,0091756179,16979729659,Imo,NGN
+REF200425,--,Tobi Adeyemi,ZENITH BANK Garki,Transfer,USSD,"₦254,235.71",not set,05:37 PM,SUCCESSFUL,0032969840,00158144914,Oyo State,NGN
+REF200493,0060929647,BOLA BALOGUN,zenith bank Apapa,POS Payment,ATM,"NGN 1,399,564",28 June 2026,21:26,SUCCESSFUL,-,234-077-406-493,oyo,Naira
+REF200517,0081691040,Bisi Suleiman   ,Access Bank Garki,Transfer,Internet Banking,380173.86,21-May-2025,11:21 AM,successful,,(288) 619-5761,Abuja,ngn
+REF200097,0070855700,zainab yusuf,ZENITH BANK Wuse 2,Deposit,Internet Banking,1208258.02,12/26/2025,18:10,failed,0071586053,0091 343 1611,Rivers,ngn
+REF200110,0058181396,Zainab Nwosu   ,ACCESS BANK Wuse 2,Salary Credit,Agent Banking,"NGN 1,045,469",11.02.2025,07:20,Successful,0096282117,+234004711382,Port Harcourt,ngn
+REF200246,0058966946,Chinedu Nnamdi,wema bank Port Harcourt Main,Loan Repayment,Mobile App,603750.28 naira,06/12/2026,03:28 PM,Reversed,--,01489025039,Edo,Naira
+REF200441,0067503414,Amara Afolabi,Access Bank Garki,Withdrawal,mobile app,NULL,2026/04/21,22:23,Successful,?,18449892665,Enugu,USD
+REF200164,0045935572,Kemi Bello,UBA Victoria Island,Deposit,mobile app,-1478049.31 naira,09 October 2025,16:45,failed,N/A,0722 170 4303,Kaduna,NGN
+REF200440,0015831819,Aliyu Ajayi,first bank Apapa,Withdrawal,POS,-268344.35 naira,06/12/2025,13:41,successful,unknown,+234038567700,Enugu,ngn
+REF200156,0083197857,CHIOMA MOHAMMED,Sterling Bank Garki,Withdrawal,Mobile App,"1,086,418.10 ",17.12.2025,03:28 PM,successful,,03615305152,Imo,NGN 
+REF200005,0038898923,Sadiq  Balogun,GTBank Victoria Island,Transfer,ussd,"NGN 285,718",05/04/2026,04:47 AM,Successful,nil,234-816-184-959,Enugu,USD
+REF200272,0055176955,halima  suleiman,first bank Apapa,Loan Repayment,USSD,1110208.31,2025-05-10,17:45,Pending,0063843426,04785969691,Delta,ngn
+REF200300,0039958838,Ibrahim Ogundimu,Fidelity Bank Port Harcourt Main,Airtime Purchase,Internet Banking,1365498.66 naira,18 May 2026,15:42,successful,0031931511,(684) 866-6188,Abuja,Naira
+REF200137,0035808537,OBINNA  OKAFOR,Zenith Bank Garki,Airtime Purchase,Agent Banking,"NGN 666,561",2026-04-04,03:00,Successful,,(681) 645-3521,Ogun,NGN 
+REF200490,0032969840,Chioma Adekunle,access bank Ikeja,Loan Repayment,Internet Banking,"₦230,130.31",04 January 2026,07:38,successful,0095225343,0487 282 9979,Enugu,NGN 
+REF200465,0058537831,BOLA NNAMDI,Access Bank Victoria Island,Deposit,POS,1069186.68 naira,10 May 2025,11:51,SUCCESSFUL,0070855700,+234376904268,Plateau,USD
+REF200058,0059684848,Ngozi Ogundimu,fidelity bank Port Harcourt Main,Airtime Purchase,USSD,"₦101,316.43",11 January 2026,12:21,SUCCESSFUL,0038317637,0653 755 6464,Kano,ngn
+REF200007,0022981052,Chioma Mohammed,ZENITH BANK Garki,Withdrawal,ATM,474896.58 naira,2025-09-25,06:58,Failed,0085329037,(255) 341-9283,Plateau,ngn
+REF200262,0049349722,Tobi Okeke,GTBANK Port Harcourt Main,Salary Credit,Internet Banking,"1,375,994.37 ",00/00/0000,03:40,Pending,0017507864,61797968868,Delta,USD
+REF200031,0020576383,Sadiq Olawale,Sterling Bank Port Harcourt Main,Salary Credit,Mobile App,"N1,172,397",2025/09/29,11:33,Failed,N/A,25135427849,Akwa Ibom,NGN
+REF200191,0053524491,Zainab Eze,ZENITH BANK Wuse 2,Bill Payment,mobile app,135724.4,28 November 2025,23:36,successful,n/a,(098) 358-4168,Akwa Ibom,Naira
+REF200006,0023756669,  Femi Adeyemi,ACCESS BANK Garki,Withdrawal,USSD,"N730,264",07/14/2025,10:07,SUCCESSFUL,0045833156,,Enugu,USD
+REF200201,0066629388,Wale Ogundimu,Zenith Bank Port Harcourt Main,Salary Credit,ATM,"₦297,621.63",2025-03-22,15:53,successful,0088320463,234-497-334-843,Delta,NGN 
+REF200452,0084093639,  Aliyu Chukwu,uba Port Harcourt Main,Airtime Purchase,POS,"₦590,616.54",04-Mar-2026,00:11,SUCCESSFUL,,0068 650 8637,Akwa Ibom,ngn
+REF200383,0095320121,Ifeoma Yusuf,GTBank Wuse 2,Transfer,Mobile App,1180054.80 naira,09 June 2026,12:44,Successful,0030868105,04618499261,Abuja,ngn
+REF200069,0070855700,FEMI ADEKUNLE,UBA Ikeja,Withdrawal,ussd,"₦984,130.09",06/05/2026,07:18,Failed,0058586340,0436 349 5788,Delta,Naira
+REF200154,0087490893,Bola Nnamdi,Zenith Bank Wuse 2,Bill Payment,ussd,"N723,424",07 January 2025,05:07 PM,failed,0066722344,N/A,Rivers,NGN
+REF200076,0038898923,IFEOMA EZE,gtbank Ikeja,Withdrawal,ussd,"N1,235,129",11/09/2025,03:43 PM,Successful,0010872248,08699938677,Rivers,ngn
+REF200104,0063606628,Blessing Ajayi,ZENITH BANK Victoria Island,Deposit,POS,656510.32 naira,2025/09/02,01:58 AM,Pending,0038317637,95339421047,Imo,NGN
+REF200119,0089254563,Tunde Yusuf,STERLING BANK Wuse 2,Bill Payment,Mobile App,"NGN 39,091",06/24/2025,21:47,SUCCESSFUL,0063843426,07661771159,Abuja,USD
+REF200021,0045833156,Kemi Suleiman,GTBank Victoria Island,Withdrawal,mobile app,318573.72 naira,2025/09/22,11:37,Reversed,0052235350,invalid,Kano,ngn
+REF200287,0038538251,  Ibrahim Ajayi,First Bank Wuse 2,Withdrawal,mobile app,"NGN 1,335,181",2025/03/08,04:21,successful,0052235350,(637) 454-5892,Ogun,NGN
+REF200482,0084752529,Chioma Suleiman   ,First Bank Wuse 2,Loan Repayment,USSD,780005.78 naira,2025-11-25,17:59,SUCCESSFUL,0020709497,234-615-939-982,Cross River,NGN
+REF200212,0041227216,Bisi Okeke   ,First Bank Ikeja,Salary Credit,Branch,957305.29,2025/05/03,02:56,Pending,0038317637,07530463745,Enugu,NGN 
+REF200491,0058181396,Ngozi Nnamdi,uba Port Harcourt Main,POS Payment,POS,678741.56,02-Feb-2026,15:49,Pending,0090801586,(884) 578-3174,Edo,NGN 
+REF200095,0046913810,Emeka Yusuf,gtbank Garki,Airtime Purchase,ussd,"N1,259,918",16-May-2026,05:42,Successful,Unknown,234-718-702-621,Anambra,NGN
+REF200337,0066722344,  ADAEZE OKONKWO,wema bank Garki,Withdrawal,Branch,null,2025/10/15,11:58 AM,SUCCESSFUL,-,234-513-552-157,Plateau,USD
+REF200405,0015831819,Wale Afolabi,Wema Bank Wuse 2,Airtime Purchase,Internet Banking,162103.8,16 February 2025,02:31,SUCCESSFUL,0045264581,invalid,Edo,NGN 
+REF200450,0022981052,Halima Lawal,WEMA BANK Ikeja,Loan Repayment,USSD,  ,25.04.2025,06:13 AM,failed,0010872248,(103) 886-2912,Ibadan,NGN
+REF200245,0047338124,Bola Okeke,Zenith Bank Apapa,Withdrawal,Agent Banking,398100.07 naira,01.11.2025,07:34 PM,failed,0038538251,59180339740,Anambra,ngn
+REF200447,0067503414,Chidi  Nnamdi,Zenith Bank Garki,Withdrawal,Agent Banking,"535,073.94 ",16/04/2026,19:26,Successful,0061019678,234-869-904-137,Cross River,Naira
+REF200453,0099949389,Adaeze Bello,STERLING BANK Ikeja,Bill Payment,POS,365085.15 naira,30-Nov-2025,04:22 PM,Reversed,0038317637,+234991624731,Akwa Ibom,Naira
+REF200192,0040742311,Blessing Yusuf,ACCESS BANK Victoria Island,nil,Branch,"₦217,338.76",22-Feb-2025,14:19,Successful,NULL,0849 912 1655,Delta,NGN 
+REF200280,0042857966,Ibrahim Okeke,Sterling Bank Port Harcourt Main,POS Payment,Internet Banking,"NGN 1,445,230",14.04.2025,08:24 AM,successful,,0000000000,Akwa Ibom,USD
+REF200338,0066629388,Ngozi Ajayi,ZENITH BANK Port Harcourt Main,POS Payment,ussd,Unknown,2025-10-10,07:10,failed,0017507864,+234331541006,KANO,ngn
+REF200229,0088320463,Wale Lawal,Fidelity Bank Apapa,Salary Credit,Internet Banking,672919.43,16-Jun-2025,18:12,Successful,,(462) 873-3427,Fct Abuja,USD
+REF200101,0089089901,Ngozi Afolabi,Wema Bank Ikeja,Withdrawal,USSD,"N845,155",18-Jun-2025,15:01,Failed,0081691040,(482) 175-9464,Ogun,USD
+REF200446,0099949389,Funmilayo Nnamdi,fidelity bank Wuse 2,Transfer,ussd,"₦927,880.76",24/06/2025,11:44,Successful,0060992979,+234922809202,Oyo,NGN
+REF200096,0096282117,Emeka Yusuf,Gtbank Apapa,Withdrawal,USSD,662329.19,12.08.2025,14:30,Reversed,0039476249,0459 615 8657,Rivers,Naira
+REF200293,0086125617,TOBI AJAYI,Fidelity Bank Wuse 2,Transfer,POS,1277328.21 naira,16-May-2026,07:08,SUCCESSFUL,0088320463,42622189092,lagos,NGN 
+REF200448,0019335534,  Musa Adekunle,Zenith Bank Victoria Island,Airtime Purchase,ATM,"NGN 976,385",08-Sep-2025,07:47,SUCCESSFUL,nil,+234723692929,Delta,NGN
+REF200083,0089254563,Sadiq Adeyemi,Zenith Bank Wuse 2,Salary Credit,Mobile App,1046005.86,04.11.2025,23:20,failed,0045551614,(139) 904-9027,Imo,NGN
+REF200474,0014308421,Ifeoma Yusuf,zenith bank Victoria Island,Salary Credit,ATM,199981.91 naira,2026-01-30,03:32 AM,Failed,,+234780856271,Delta,Naira
+REF200062,0018883684,Grace Abubakar,First Bank Apapa,Salary Credit,mobile app,"NGN 1,295,740",25/03/2025,01:33 AM,successful,0070291817,+234663193149,Kaduna,ngn
+REF200346,0045503389,Kemi Lawal,Fidelity Bank Port Harcourt Main,Withdrawal,Internet Banking,638154.2,11/05/2025,21:19,Reversed,,07741862565,Ogun,NGN 
+REF200125,0013356886,Bisi Okafor,Wema Bank Port Harcourt Main,Transfer,Mobile App,"NGN 1,016,704",2025-10-03,22:14,Reversed,--,0945 198 3273,Oyo State,USD
+REF200259,0089254563,Zainab  Lawal,GTBank Wuse 2,Bill Payment,Internet Banking,"NGN 885,713",unknown date,11:02,Successful,?,0265 479 3564,Ibadan,NGN
+REF200206,0023556182,amaka  ogundimu,Wema Bank Victoria Island,Airtime Purchase,Agent Banking,"N1,043,238",,21:16,Reversed,0038119557,71208267734,ABUJA,ngn
+REF200244,0094374605,Zainab Lawal,Zenith Bank Ikeja,POS Payment,Agent Banking,"691,633.62 ",03/09/2026,19:23,Pending,  ,06668700217,Akwa Ibom,USD
+REF200184,0038538251,BLESSING LAWAL,First Bank Garki,Transfer,Mobile App,"NGN 1,390,131",22 October 2025,12:28 AM,Failed,0039587039,(647) 102-7677,Oyo,NGN
+REF200341,0042857966,musa chukwu,Access Bank Garki,Airtime Purchase,Mobile App,"N373,888",unknown date,06:14 PM,Pending,0013356886,(526) 218-1599,Abuja,NGN 
+REF200135,0017507864,SADIQ OKONKWO,WEMA BANK Wuse 2,Bill Payment,Internet Banking,973445.30 naira,20-Jun-2025,03:51,Successful,0022981052,N/A,Edo,ngn
+REF200045,0084093639,Aliyu Yusuf,Zenith Bank Apapa,Transfer,ussd,"1,381,783.07 ",17/11/2025,19:39,Successful,0099949389,06804436995,Enugu,ngn
+REF200034,0015831819,fatima ajayi,Access Bank Port Harcourt Main,Deposit,ussd,"₦1,117,885.65",10/21/2025,07:51 AM,Pending,0094374605,+234640052427,Cross River,USD
+REF200035,0055667651,Obinna Yusuf,Fidelity Bank Wuse 2,Withdrawal,ATM,"549,103.37 ",29-May-2026,09:18,failed,--,,Delta,ngn
+REF200217,0045833156,Emeka Balogun,Uba Port Harcourt Main,Loan Repayment,Agent Banking,"₦256,448.74",07.03.2025,03:37 AM,Successful,N/A,0398 225 8713,Rivers,USD
+REF200360,0066306997,Femi Okonkwo,gtbank Apapa,Deposit,Branch,867776.34 naira,2025/02/07,07:27,successful,0015831819,(030) 705-3457,Enugu,USD
+REF200286,0095225343,Obinna Afolabi,first bank Wuse 2,POS Payment,Mobile App,"295,716.79 ",12/04/2025,10:36,failed,N/A,(759) 017-5186,Abuja,NGN
+REF200224,0045264581,Halima Adeyemi,First Bank Apapa,POS Payment,USSD,"N1,056,001",02/01/2025,21:24,Reversed,0028728463,234-106-903-311,Delta,USD
+REF200143,0096977837,chidi abubakar,Access Bank Ikeja,null,Agent Banking,"NGN 1,057,091",12.01.2026,08:05 PM,Pending,0058586340,+234935978207,Imo,ngn
+REF200018,0042857966,  CHINEDU NWOSU,Zenith Bank Victoria Island,Salary Credit,POS,"₦1,427,903.58",2025/08/18,22:11,failed,,07133150983,Imo,ngn
+REF200243,0046913810,ngozi chukwu   ,fidelity bank Wuse 2,Bill Payment,mobile app,"NGN 925,601",12/28/2025,09:42 AM,Pending,,234-567-933-410,Abuja,USD
+REF200215,0091030736,Blessing Yusuf   ,uba Wuse 2,Withdrawal,POS,1438256.42 naira,03-Apr-2025,12:28,Failed,0046913810,(279) 568-7833,Kano,USD
+REF200055,0095320121,Grace Okonkwo,Access Bank Ikeja,NULL,Mobile App,1102912.88,2025-12-07,04:33,SUCCESSFUL,0077005685,234-668-893-734,Lagos,Naira
+REF200279,0022448136,Funmilayo Mohammed,ZENITH BANK Victoria Island,POS Payment,Agent Banking,"NGN 1,441,704",05/07/2025,00:55,SUCCESSFUL,0040587988,N/A,Imo,NGN
+REF200326,0099949389,Ngozi Ajayi,Access Bank Ikeja,Airtime Purchase,Internet Banking,323211.80 naira,2025/05/18,08:33 PM,Reversed,-,83806578759,Akwa Ibom,USD
+REF200189,0038317637,Chidi Bello,GTBank Wuse 2,Salary Credit,Mobile App,"487,680.99 ",14 April 2026,08:25,Reversed,0060806024,33950047974,Lagos State,NGN 
+REF200356,0023756669,Emeka Suleiman,GTBANK Ikeja,Airtime Purchase,mobile app,"394,609.74 ",13.02.2025,21:11,Successful,0016150444,0653 074 5054,Abuja,NGN 
+REF200460,0063100814,Yusuf Okonkwo,access bank Ikeja,NULL,Branch,1203669.22 naira,28.10.2025,12:41 PM,Pending,0046913810,0114 351 9066,Lagos,Naira
+REF200269,0018883684,Emeka Lawal,fidelity bank Victoria Island,Withdrawal,mobile app,"NGN 184,914",07/26/2025,14:59,SUCCESSFUL,0010872248,0825 867 3622,Enugu,NGN 
+REF200363,0045833156,Yusuf Okeke,Sterling Bank Garki,Loan Repayment,mobile app,-,19-Jan-2026,05:42 PM,Reversed,  ,0933 334 6800,Akwa Ibom,ngn
+REF200318,0048840994,Zainab Olawale,fidelity bank Port Harcourt Main,Loan Repayment,Agent Banking,NULL,20/05/2025,06:14 PM,Successful,0014308421,+234741124903,Plateau,NGN
+REF200221,0047338124,AMARA LAWAL,access bank Victoria Island,Salary Credit,POS,n/a,not set,06:49 AM,Failed,0016150444,+234265676618,Cross River,ngn
+REF200358,0089254563,Zainab Ogundimu,GTBANK Wuse 2,Bill Payment,Branch,"₦264,570.38",26-May-2025,02:21,SUCCESSFUL,NIL,13736785082,Ogun,NGN 
+REF200407,0036687537,Wale Adekunle,ACCESS BANK Garki,,Agent Banking,432120.82 naira,14-May-2026,14:58,Successful,0055176955,(945) 228-8515,Enugu,NGN 
+REF200188,0046231783,BOLA LAWAL,Access Bank Wuse 2,Salary Credit,ATM,"NGN 908,604",25/08/2025,20:21,successful,0072043515,+234877470168,Fct Abuja,USD
+REF200255,0066722344,TOBI OGUNDIMU,Sterling Bank Port Harcourt Main,Loan Repayment,Branch,"₦1,464,204.18",30/08/2025,21:05,Failed,0015831819,62244472126,Cross River,USD
+REF200225,0070291817,Funmilayo Nwosu,UBA Victoria Island,Bill Payment,Branch,549966.28 naira,10/03/2025,07:08 PM,Pending,0041244663,00790306738,Delta,USD
+REF200013,0086125617,Grace Olawale,Access Bank Apapa,Bill Payment,ATM,"N1,250,671",11/08/2025,09:47 AM,Successful,0098753260,05146270482,Delta,NGN 
+REF200289,0081971316,Halima Okeke,ACCESS BANK Garki,Deposit,ATM,221539.89,13/11/2025,20:35,Reversed,0095899313,(063) 242-4154,Plateau,ngn
+REF200310,0060992979,Amara Balogun,Sterling Bank Ikeja,Loan Repayment,Internet Banking,"₦1,388,573.76",2026-02-09,12:44,failed,unknown,234-451-870-534,Plateau,NGN
+REF200380,0024942603,Tobi Mohammed,access bank Apapa,Withdrawal,Mobile App,1193101.69 naira,22.12.2025,09:50,Successful,0095822412,60332309821,Akwa Ibom,NGN
+REF200068,0047338124,Ibrahim Yusuf,UBA Wuse 2,Bill Payment,Agent Banking,288800.12,10/09/2025,09:31,SUCCESSFUL,0020576383,+234367837770,Oyo,ngn
+REF200072,0057683626,  Grace Chukwu   ,Sterling Bank Port Harcourt Main,Airtime Purchase,Branch,"NGN 400,858",12/04/2025,10:18,successful,,(413) 435-2408,Imo,NGN 
+REF200085,0041244663,Segun Adeyemi,Zenith Bank Ikeja,Bill Payment,mobile app,  ,24-May-2025,23:31,Pending,n/a,51256746807,Enugu,NGN
+REF200052,0047338124,Ifeoma Chukwu,Gtbank Wuse 2,Bill Payment,USSD,"NGN 770,272",,03:07,Reversed,0090801586,234-143-455-812,Imo,NGN 
+REF200060,0058966946,IFEOMA BALOGUN,Sterling Bank Garki,Withdrawal,POS,"N831,255",2026/01/13,15:57,Failed,,+234923271937,Cross River,Naira
+REF200467,0097971488,Emeka Bello,Access Bank Wuse 2,POS Payment,POS,"₦210,884.75",2026-05-08,05:28 AM,successful,0014308421,76973577907,rivers,ngn
+REF200359,0038119557,Funmilayo Olawale,GTBANK Wuse 2,Transfer,POS,"₦841,582.21",23-Jul-2025,02:39 AM,Reversed,0035808537,+234486289023,Edo,NGN 
+REF200504,0091756179,TUNDE AJAYI,access bank Wuse 2,-,mobile app,"NGN 947,447",2025/12/13,09:31 PM,failed,,0916 300 9792,Cross River,ngn
+REF200228,0036687537,Yusuf Suleiman,FIRST BANK Victoria Island,Transfer,USSD,"₦71,454.75",12/28/2025,09:42,Pending,0031831063,68705685662,Kaduna,ngn
+REF200366,0095225343,Adaeze Eze,Fidelity Bank Wuse 2,Deposit,Branch,,11 January 2025,06:05,Failed,0071662963,+234858994417,lagos,NGN
+REF200118,0085329037,Funmilayo Abubakar,First Bank Apapa,POS Payment,mobile app,"N647,269",06/18/2025,08:43 PM,Successful,0023718431,17839084700,Ogun,NGN 
+REF200253,0058181396,Fatima Balogun,sterling bank Wuse 2,Loan Repayment,ATM,"₦200,697.95",not set,23:27,Reversed,0066629388,+234610158199,Oyo,Naira
+REF200433,0038538251,Yusuf Olawale,Access Bank Wuse 2,  ,mobile app,519757.16 naira,00/00/0000,10:23 PM,Reversed,0097971488,0205 336 4525,Anambra,ngn
+REF200299,0022575562,Aliyu Lawal,uba Port Harcourt Main,Salary Credit,Branch,"N490,495",2026/02/25,13:20,Failed,0090801586,0271 091 0430,Ogun,Naira
+REF200350,0022448136,Chidi Olawale   ,GTBank Ikeja,Transfer,Mobile App,"NGN 704,912",24-May-2025,18:00,failed,0057683626,98992172233,Kano,ngn
+REF200444,0091030736,   emeka lawal,Wema Bank Apapa,Bill Payment,ussd,"NGN 168,120",2025-06-23,12:30,SUCCESSFUL,0077827638,234-222-591-365,LAGOS,USD
+REF200175,0013356886,Segun Mohammed,First Bank Wuse 2,Salary Credit,Agent Banking,"N349,396",12/22/2025,14:58,Pending,?,(551) 884-4225,rivers,NGN 
+REF200115,0031931511,  tunde olawale,Wema Bank Victoria Island,Bill Payment,Internet Banking,"NGN 1,269,798",2026-01-09,02:28 AM,Reversed,0084752529,0352 904 2284,Akwa Ibom,USD
+REF200094,0070855700,Grace Okonkwo,Access Bank Victoria Island,Transfer,ussd,"N862,422",10/03/2026,06:20,Failed,,0576 627 0289,Enugu,NGN 
+REF200155,0061019678,Musa Okeke,GTBank Port Harcourt Main,Airtime Purchase,ATM,220724.22 naira,20.06.2025,08:48,Failed,,+234137506068,Ogun,USD
+REF200023,0032969840,Obinna Eze,GTBank Wuse 2,Salary Credit,Internet Banking,unknown,27/10/2025,23:48,Successful,,(473) 178-1080,oyo,NGN
+REF200193,0038898923,Femi Abubakar,GTBANK Ikeja,,Branch,"NGN 902,024",07/01/2025,08:21,Failed,0055176955,52398680002,Plateau,USD
+REF200396,0077005685,Adaeze Nwosu,Wema Bank Wuse 2,,Branch,"NGN 1,112,992",04.08.2025,04:11,Successful,0019583482,03866317797,Akwa Ibom,NGN 
+REF200091,0016150444,Amara Nnamdi,access bank Ikeja,Salary Credit,mobile app,NIL,2025-08-15,15:12,failed,0040587988,09821465840,Delta,NGN 
+REF200464,0087490893,Kemi Nnamdi,Wema Bank Wuse 2,Withdrawal,POS,1489051.82,10.04.2026,21:12,Reversed,0095320121,+234118489554,Delta,NGN
+REF200335,0066722344,Chidi Nnamdi,access bank Ikeja,Airtime Purchase,ATM,"N434,555",13-May-2026,02:49,failed,0040742311,+234392644220,Kano,USD
+REF200414,0077005685,Grace Bello,Access Bank Apapa,Withdrawal,Agent Banking,1032261.01,04-Feb-2025,09:17 AM,Reversed,,64842294057,Ogun,NGN 
+REF200382,0039587039,Bola Yusuf,STERLING BANK Garki,Salary Credit,Agent Banking,1151606.71,14-Sep-2025,04:37,successful,0067503414,0016 761 8472,Abuja,USD
+REF200085,0041244663,Segun Adeyemi,Zenith Bank Ikeja,Bill Payment,mobile app,  ,24-May-2025,23:31,Pending,n/a,51256746807,Enugu,NGN
+REF200199,0028740864,Chinedu  Yusuf,Wema Bank Ikeja,nil,Branch,"N199,509",02/07/2025,03:40 PM,Pending,,234-636-897-028,Rivers,NGN
+REF200003,0058966946,Halima Ajayi,UBA Wuse 2,Bill Payment,Agent Banking,799292.90 naira,09/05/2025,04:22,SUCCESSFUL,,63794026542,Lagos,ngn
+REF200128,0041227216,Chidi Suleiman,Access Bank Apapa,Withdrawal,ATM,1268206.16,05.07.2025,10:01,Pending,0023718431,02296120183,Delta,NGN
+REF200249,0097971488,Amaka Okeke,UBA Victoria Island,POS Payment,ussd,1326905.01 naira,01/09/2025,20:28,Pending,Unknown,99650477358,Kano,Naira
+REF200247,0046231783,Chioma Nwosu,ZENITH BANK Ikeja,POS Payment,Branch,400768.67 naira,21-Oct-2025,22:03,Successful,0030868105,234-142-939-685,Cross River,ngn
+REF200204,0035808537,Chioma Ajayi,First Bank Wuse 2,Bill Payment,Mobile App,"N1,225,642",01.01.2025,05:00 AM,Pending,0088461803,04733848421,Lagos,ngn
+REF200079,0045935572,tobi suleiman,gtbank Victoria Island,Withdrawal,ussd,566063.38,10-Feb-2025,02:29,SUCCESSFUL,0055176955,(740) 344-7134,Edo,ngn
+REF200159,0085329037,Halima Bello,GTBANK Port Harcourt Main,Deposit,Internet Banking,989094.63 naira,24/08/2025,03:14 PM,Failed,0096977837,0000000000,Imo,NGN 
+REF200113,0083140807,MUSA NWOSU,Wema Bank Garki,POS Payment,USSD,"NGN 516,379",30 May 2026,10:58,Reversed,0047338124,0506 431 7139,Kaduna,Naira
+REF200437,0081971316,fatima afolabi,GTBank Victoria Island,Airtime Purchase,mobile app,"NGN 1,281,438",2025/09/07,11:41 PM,Pending,0052235350,234-394-278-816,Abuja,ngn
+REF200340,0083140807,  Amara Abubakar,first bank Victoria Island,Airtime Purchase,Agent Banking,"₦1,169,168.57",15 February 2026,08:43 PM,Successful,,+234271040541,Oyo,NGN
+REF200298,0020576383,Chioma Abubakar,FIRST BANK Ikeja,NIL,ussd,"-₦861,031.16",05-Feb-2026,01:00 PM,Failed,0047308985,01805526965,Kaduna,USD
+REF200041,0055667651,NGOZI  LAWAL   ,Fidelity Bank Garki,Deposit,Agent Banking,"N1,094,554",17-Nov-2025,14:34,Reversed,NIL,234-019-655-698,Ogun,ngn
+REF200167,0042857966,bisi yusuf,zenith bank Apapa,Salary Credit,Internet Banking,"526,960.19 ",2025-07-23,19:41,SUCCESSFUL,,+234758416169,Kaduna,Naira
+REF200301,0084752529,Ifeoma Abubakar,Wema Bank Garki,Withdrawal,USSD,237319.37,26.10.2025,22:45,successful,0070291817,0241 418 3285,Lagos State,NGN 
+REF200463,0038119557,Sadiq Adeyemi,Sterling Bank Victoria Island,  ,Mobile App,"197,994.79 ",09-Mar-2026,12:47,SUCCESSFUL,0045551614,02146566938,Akwa Ibom,USD
+REF200179,0058181396,Aliyu Afolabi,Fidelity Bank Garki,POS Payment,Agent Banking,unknown,19-Nov-2025,06:46 PM,Successful,Unknown,234-922-680-182,lagos,Naira
+REF200503,0096977837,Aliyu Afolabi,Access Bank Port Harcourt Main,Deposit,USSD,"₦1,244,752.36",12-Oct-2025,07:46,Failed,0020709497,0350 313 6502,Delta,NGN
+REF200121,0095225343,musa  adekunle,Sterling Bank Apapa,Salary Credit,Mobile App,118013.6,22 March 2026,06:53,Successful,0090801586,(789) 611-8367,Cross River,NGN
+REF200260,0063843426,Ngozi Eze,First Bank Wuse 2,Airtime Purchase,Internet Banking,"NGN 312,730",2026-02-02,13:44,successful,0060806024,(519) 398-2807,Ogun,NGN 
+REF200050,0018883684,Musa Bello,ACCESS BANK Port Harcourt Main,Transfer,Mobile App,1325581.41 naira,02/08/2025,22:35,SUCCESSFUL,0052339391,+234788957986,Anambra,Naira
+REF200398,0059684848,Kemi Okonkwo,Sterling Bank Victoria Island,Transfer,Branch,1406995.12,20/04/2026,14:28,failed,--,invalid,Kaduna,ngn
+REF200282,0058181396,blessing ajayi   ,WEMA BANK Ikeja,Transfer,ussd,1469470.7,09.04.2026,09:19,Reversed,0046913810,92330958498,Delta,NGN
+REF200475,0087490893,FEMI OKEKE,Sterling Bank Port Harcourt Main,Bill Payment,Branch,445541.31 naira,01/22/2025,20:53,Pending,0095899313,75003691559,Kano,USD
+REF200186,0047338124,  Ifeoma Bello,Uba Garki,Transfer,Branch,Unknown,2025/01/31,06:56 PM,SUCCESSFUL,n/a,15371473210,Imo,USD
+REF200515,0060929647,Adaeze  Lawal,GTBank Apapa,Airtime Purchase,ATM,"1,097,285.32 ",unknown date,07:21,Failed,0035808537,65094801413,Lagos,NGN 
+REF200071,0040742311,KEMI OKONKWO,UBA Port Harcourt Main,Loan Repayment,Agent Banking,"NGN 702,297",17/07/2025,03:50 AM,Failed,0058586340,234-182-337-498,Enugu,Naira
+REF200456,0038898923,  Ifeoma Mohammed,Sterling Bank Wuse 2,--,Mobile App,"₦1,489,428.11",03/16/2025,11:20 PM,Failed,,48695946368,Edo,Naira
+REF200519,0022448136,Femi Eze,UBA Ikeja,Airtime Purchase,Internet Banking,"1,373,807.62 ",10/11/2025,08:15 AM,Successful,0015831819,08556659398,Plateau,USD
+REF200029,0058966946,Fatima Ajayi,sterling bank Garki,Airtime Purchase,Branch,410500.63,10 May 2026,16:07,successful,unknown,(543) 534-6247,Cross River,USD
+REF200132,0070291817,Grace Okafor,First Bank Ikeja,Airtime Purchase,Internet Banking,185830.80 naira,16 September 2025,16:11,Successful,0086125617,+234403690034,Ogun,Naira
+REF200011,0084093639,Amaka Suleiman,Fidelity Bank Ikeja,Airtime Purchase,Branch,"-₦1,296,597.24",2025-10-13,11:59,Pending,0023556182,(287) 101-2269,KANO,NGN 
+REF200098,0018883684,Halima Adekunle,GTBank Port Harcourt Main,Withdrawal,ussd,"N563,071",19.03.2025,09:37 PM,SUCCESSFUL,0093016315,0240 050 4556,Oyo State,ngn
+REF200421,0089089901,KUNLE AJAYI,GTBANK Wuse 2,Loan Repayment,POS,"NGN 710,374",06/22/2025,00:05,successful,,(112) 880-1336,Kaduna,USD

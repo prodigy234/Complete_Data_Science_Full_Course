@@ -1,0 +1,354 @@
+ListingID,PropertyTitle,PropertyType,ListingType,Bedrooms,Bathrooms,SizeSqm,Price,PricePeriod,Area,State,AgentName,AgentPhone,ListedDate,Furnished,ServiceCharge
+RE-4292,5-Bedroom Land in Ogudu,Detached House,Lease,5,2,113.1,"NGN 2,865,036",Per Annum,OGUDU,lagos,Bisi Bello,234-271-361-115,2025/12/27,true,"NGN 1,154,542"
+RE-4056,  6-Bedroom duplex in Ogudu,Detached House,For Sale,6,4,9.1,"₦5,282,964.00",Per Annum,Ogudu,Lagos State,Bola Chukwu,07065627298,13.01.2025,true,"NGN 185,576"
+RE-4337,4-Bedroom Detached House in Ikeja GRA,Land,For Sale,4,4,168.2,689628.00 naira,per year,Ikeja  GRA   ,Lagos State,segun mohammed,0251 355 2157,03 April 2026,Yes,519821.0
+RE-4198,4-Bedroom Self-Contain in Garki   ,Land,for sale,4,4,499.7,12089658.0,N/A,garki,FCT,Amara Ajayi,06230913075,11/09/2025,0,unknown
+RE-4006,2-Bedroom BUNGALOW in Garki,Duplex,For Rent,2,4,1165.3,3163532.00 naira,per annum,Garki,abuja,Ibrahim Abubakar,(103) 413-1647,20.06.2025,TRUE,N/A
+RE-4282,-1-Bedroom Flat/Apartment in Gwarinpa   ,Bungalow,For Sale,-1,1,122.8,"NGN 19,248,528",per year,Gwarinpa,Abuja,Ifeoma Okonkwo,0923 309 5849,2025/07/01,true,nil
+RE-4225,4-Bedroom Terrace in Lekki,Duplex,For Rent,4,-1,71.8,18207181.0,N/A,Lekki,Lagos,Bola  Lawal,07903067383,2026-05-01,Yes,--
+RE-4107,5-Bedroom BUNGALOW in Gwarinpa   ,BUNGALOW,Shortlet,5,2,797.1,"N18,366,934",per year,GWARINPA,abuja,  Halima Okafor   ,(712) 368-5160,15.06.2026,yes,unknown
+RE-4201,2-Bedroom  BUNGALOW in Gwarinpa,Duplex,For Sale,2,4,88.5,"24,892,277.00 ",per annum,GWARINPA,Abuja,  Blessing Lawal,0549 733 4843,07.04.2026,Y,N/A
+RE-4103,  -1-Bedroom Land in Garki,Flat/Apartment,For Rent,-1,1,642.1,"NGN 20,231,121",Per Annum,Garki,Abuja,CHINEDU NWOSU,N/A,unknown date,Y,637912.0
+RE-4293,  -1-Bedroom Self-Contain in Asokoro,Flat/Apartment,Shortlet,-1,4,98.3,2647126.00 naira,per year,Asokoro   ,Abuja,Musa Okeke,0426 221 8909,2025-10-23,Yes,"N1,331,093"
+RE-4314,4-Bedroom Flat/Apartment in Garki,Terrace,for sale,4,1,--,"NGN 6,976,122",per annum,Garki,FCT,Kunle Ogundimu,(386) 571-9182,27 May 2026,false,"N479,495"
+RE-4052,  0-Bedroom duplex in Ikeja GRA,Duplex,For Rent,0,1,595.9,"N14,234,473",Per Annum,  ikeja gra,Lagos,BISI ADEYEMI,(714) 345-5812,2025/04/26,no,  
+RE-4064,1-Bedroom duplex in Garki,duplex,For Rent,1,1,92.3,"₦7,638,815.00",per year,Garki,Abuja,  FEMI NNAMDI,07165726284,23-Feb-2026,TRUE,NIL
+RE-4035,4-Bedroom Flat/Apartment in Wuse 2   ,BUNGALOW,For Sale,4,-1,333.7,"₦9,859,844.00",,Wuse 2,abuja,blessing ajayi,0680 112 8059,10/30/2025,no,877108.00 naira
+RE-4094,3-Bedroom Flat/Apartment in Ikorodu,Flat/Apartment,For Rent,3,-1,644.6,"5,431,414.00 ",,Ikorodu,Lagos,  Tobi Chukwu,(576) 627-0289,2025-10-08,false,unknown
+RE-4083,5-Bedroom Flat/Apartment in Ajah,duplex,Lease,5,1,381.8,"NGN 3,823,330",N/A,Ajah,lagos,amaka adeyemi,0139 904 9027,2025/07/12,No,400810.00 naira
+RE-4309,-1-Bedroom BUNGALOW in Garki,Terrace,FOR RENT,-1,1,34.8,"5,510,095.00 ",One-off,Garki,Abuja,Yusuf Bello,05180238061,2026/03/13,no,"N1,180,910"
+RE-4199,2-Bedroom Flat/Apartment in Maitama,duplex,For Sale,2,1,28.1,1832271.00 naira,per year,  Maitama,abuja,ngozi abubakar,234-636-897-028,18 October 2025,false,"₦449,389.00"
+RE-4085,6-Bedroom BUNGALOW in Lekki,Detached House,Shortlet,6,3,414.3,"NGN 4,953,294",Per Annum,Lekki,Lagos,Chidi Okafor,05125674680,11 December 2025,N,"N1,084,385"
+RE-4288,2-Bedroom Self-Contain in Victoria Island,duplex,For Sale,2,4,--,"NGN 12,693,222",,VICTORIA ISLAND,Lagos,Zainab Olawale   ,0750 017 0127,14/06/2025,Y,NIL
+RE-4014,3-Bedroom Self-Contain in Ikoyi,Self-Contain,for sale,3,Unknown,-,"NGN 1,862,968",Per Annum,Ikoyi,Lagos,musa mohammed   ,234-489-325-288,12/12/2025,FALSE,"₦1,134,492.00"
+RE-4274,4-Bedroom Self-Contain in Jabi,duplex,FOR RENT,4,1,1076.6,"NGN 2,666,139",Per Annum,jabi,Abuja,musa ajayi   ,03412528669,2025-11-27,no,"N851,697"
+RE-4047,5-Bedroom Detached House in Ajah,Detached House,for sale,5,-1,80.8,"7,796,830.00 ",per year,ajah,LAGOS,chidi lawal,01343320037,21 November 2025,N,Unknown
+RE-4074,  4-Bedroom Duplex in Ikeja GRA,Flat/Apartment,For Sale,4,4,108.2,"₦21,226,269.00",Per Annum,  Ikeja GRA   ,Lagos,Ngozi Abubakar,234-775-204-711,10/06/2026,Yes,"N336,738"
+RE-4173,2-Bedroom Duplex in Asokoro,Land,Shortlet,2,-1,588.5,"5,807,800.00 ",One-off,  asokoro   ,Fct Abuja,kemi  okonkwo,0027 868 1447,2025-12-04,true,"₦998,393.00"
+RE-4312,-1-Bedroom Flat/Apartment in Jabi,Self-Contain,FOR RENT,N/A,3,83.6,19444569.0,One-off,Jabi,Fct Abuja,Emeka Okeke,06038505064,05 September 2025,FALSE,?
+RE-4170,0-Bedroom Flat/Apartment in Gwarinpa   ,Terrace,Lease,0,2,893.9,5000621.00 naira,Per Annum,Gwarinpa,Fct Abuja,Zainab  Afolabi   ,+234582029702,2026-02-23,FALSE,"N1,452,454"
+RE-4269,2-Bedroom Land in Wuse 2   ,Detached House,Lease,2,4,725.1,"₦3,874,637.00",per annum,WUSE 2   ,Abuja,chioma afolabi,234-258-673-622,04 July 2025,No,115595.0
+RE-4115,5-Bedroom BUNGALOW in Wuse 2,Duplex,For Rent,Unknown,1,18.9,"NGN 11,496,789",,   Wuse 2   ,Fct Abuja,Ibrahim Lawal,+234529042284,00/00/0000,No,--
+RE-4174,5-Bedroom Self-Contain in Garki,Self-Contain,For Sale,5,3,825.4,5026352.00 naira,Per Annum,Garki,Abuja,Wale Lawal   ,0947 312 1727,05/17/2026,true,1270230.00 naira
+RE-4124,1-Bedroom  Bungalow in Garki,Terrace,Lease,1,-1,NULL,unknown,per annum,  Garki,ABUJA,Kemi Adeyemi,invalid,2025-11-20,1,"NGN 177,303"
+RE-4265,5-Bedroom Self-Contain in Ogudu,Terrace,For Rent,5,3,82.3,"₦7,534,821.00",per year,Ogudu,LAGOS,Tobi Adekunle,234-993-756-798,16.06.2025,Y,"₦75,037.00"
+RE-4072,  1-Bedroom Terrace in Victoria Island,Detached House,Lease,1,-1,87.9,1016948.0,per year,Victoria Island,Lagos,Chinedu  Nwosu,41343524082,2025/12/02,false,
+RE-4131,5-Bedroom Terrace in Lekki,Duplex,For Rent,5,3,647.5,1008770.00 naira,Per Annum,Lekki,Lagos,Funmilayo Ogundimu,64381561497,27 April 2025,TRUE,-
+RE-4196,4-Bedroom Terrace in Ajah   ,Detached House,FOR RENT,4,2,422.7,"N12,397,842",per annum,Ajah,Lagos,yusuf  ogundimu,(470) 551-6940,19/01/2026,yes,"₦192,693.00"
+RE-4231,0-Bedroom Terrace in Asokoro,Terrace,Shortlet,0,,92.9,4228267.00 naira,per year,  Asokoro,Abuja,  amaka mohammed,+234751830469,03/27/2025,Yes,"N219,992"
+RE-4051,   -1-Bedroom Duplex in Jabi,Duplex,For Sale,-1,--,523.5,"₦17,473,657.00",,Jabi,Fct Abuja,Chioma Balogun,+234277434873,16-Mar-2025,TRUE,
+RE-4303,1-Bedroom Self-Contain in Ikorodu,Bungalow,Lease,1,-1,unknown,"N7,048,107",per year,Ikorodu,lagos,GRACE OLAWALE,0990 421 0202,10-Mar-2025,FALSE,--
+RE-4146,   3-Bedroom Land in Asokoro,Flat/Apartment,For Sale,3,-1,89.7,"12,089,208.00 ",per annum,Asokoro,abuja,Musa  Adeyemi,234-186-449-251,11/06/2025,TRUE,Unknown
+RE-4015,  1-Bedroom Bungalow in Ikeja GRA,Bungalow,Lease,1,3,524.3,"₦4,818,475.00",,ikeja gra,Lagos,Grace Ogundimu,(957) 015-4303,06-Sep-2025,1,"NGN 909,088"
+RE-4281,6-Bedroom Self-Contain in Ogudu,Terrace,FOR RENT,6,1,43.4,"₦6,996,038.00",N/A,  ogudu,Lagos,MUSA  ADEKUNLE,234-171-339-596,07/08/2025,FALSE,1301619.0
+RE-4310,4-Bedroom Land in Ogudu,Self-Contain,For Rent,4,4,499.4,17954979.0,per annum,ogudu,Lagos,tobi  yusuf,+234451870534,20.08.2025,Y,nil
+RE-4068,-1-Bedroom Flat/Apartment in Lugbe,Flat/Apartment,For Sale,-1,1,45.7,"NGN 3,629,051",per year,Lugbe,Abuja,  BOLA EZE,+234367837770,2025/05/21,No,NIL
+RE-4156,5-Bedroom Bungalow in Lekki,Duplex,for sale,5,1,66.3,"N7,779,690",One-off,LEKKI,LAGOS,  Ibrahim Nnamdi,(361) 530-5152,03 May 2026,no,"N1,248,892"
+RE-4215,5-Bedroom duplex in Surulere,duplex,for sale,N/A,1,949.0,?,N/A,Surulere,Lagos,Chioma Lawal,27956878339,20.04.2026,TRUE,
+RE-4095,5-Bedroom BUNGALOW in Lugbe,Flat/Apartment,for sale,5,2,665.5,"NGN 22,181,976",N/A,LUGBE   ,Abuja,Sadiq Nwosu,234-718-702-621,24/02/2025,1,Unknown
+RE-4202,0-Bedroom Bungalow in Ikeja GRA   ,Terrace,FOR RENT,0,-1,23.4,null,per annum,  IKEJA GRA,Lagos,   SEGUN NWOSU   ,43757584419,07/02/2025,No,"₦1,254,153.00"
+RE-4186,3-Bedroom Land in Maitama,BUNGALOW,Lease,3,1,1134.6,"N2,931,633",Per Annum,Maitama,ABUJA,tobi eze,01537147321,27 July 2025,N,256432.00 naira
+RE-4315,4-Bedroom Bungalow in Surulere   ,Detached House,Lease,4,1,22.6,"5,837,492.00 ",per year,Surulere,Lagos,Emeka Nwosu,01990623445,30-Jun-2026,0,"N849,278"
+RE-4291,  5-Bedroom Detached House in Asokoro,Terrace,For Sale,5,-1,36.0,"N2,053,523",One-off,Asokoro,Fct Abuja,Ngozi Ogundimu,0712 938 7005,not set,No,"NGN 863,922"
+RE-4216,-1-Bedroom  BUNGALOW in Jabi,duplex,for sale,-1,2,923.9,"₦3,470,428.00",One-off,  Jabi,ABUJA,Yusuf  Afolabi,234-878-519-108,05-Jul-2025,Y,1057897.00 naira
+RE-4087,3-Bedroom Land in Asokoro,Flat/Apartment,FOR RENT,3,1,13.5,19915647.00 naira,per annum,Asokoro   ,Abuja,Ifeoma  Olawale   ,+234385977034,2025-10-08,yes,?
+RE-4232,  0-Bedroom Duplex in Surulere   ,Duplex,Lease,0,4,614.0,10548737.0,,Surulere,Lagos,IBRAHIM EZE   ,00139837354,31-Jan-2025,true,708730.0
+RE-4142,0-Bedroom Flat/Apartment in Ikoyi,Detached House,FOR RENT,0,3,79.8,"NGN 17,097,076",Per Annum,ikoyi   ,Lagos State,Bola Lawal,(411) 998-6798,10/29/2025,FALSE,1373283.0
+RE-4010,0-Bedroom  BUNGALOW in Wuse 2,Self-Contain,for sale,0,3,19.4,"₦6,827,459.00",N/A,  WUSE 2,Abuja,  tobi abubakar,02388496965,2025-07-02,TRUE,642170.00 naira
+RE-4300,4-Bedroom Detached House in Maitama,duplex,Shortlet,4,4,294.9,null,One-off,MAITAMA,Fct Abuja,   Amara Bello,68486661889,11-Jun-2025,yes,NULL
+RE-4132,5-Bedroom Flat/Apartment in Maitama,Land,Shortlet,--,1,95.1,3043643.00 naira,One-off,maitama   ,Abuja,  Wale Balogun,0840 369 0034,11 July 2025,yes,"257,778.00 "
+RE-4133,-1-Bedroom Duplex in Ajah   ,Detached House,For Sale,-1,3,84.6,"NGN 10,914,529",One-off,ajah,LAGOS,Tunde Okafor   ,234-445-107-622,2025/12/08,yes,"NGN 298,349"
+RE-4022,0-Bedroom BUNGALOW in Jabi,duplex,Shortlet,0,4,32.3,"12,472,926.00 ",per year,  Jabi,Abuja,SADIQ OGUNDIMU   ,+234513338726,28.08.2025,yes,"N1,054,422"
+RE-4156,5-Bedroom Bungalow in Lekki,Duplex,for sale,5,1,66.3,"N7,779,690",One-off,LEKKI,LAGOS,  Ibrahim Nnamdi,(361) 530-5152,03 May 2026,no,"N1,248,892"
+RE-4339,  0-Bedroom Self-Contain in Wuse 2,duplex,For Sale,0,1,81.8,NULL,per year,Wuse 2,Abuja,HALIMA BELLO,234-267-658-617,2025/03/11,yes,696038.0
+RE-4245,6-Bedroom BUNGALOW in Jabi,Land,For Sale,NIL,1,560.9,"N1,359,875",One-off,Jabi,Abuja,tunde suleiman,59180339740,16.03.2025,1,"₦514,176.00"
+RE-4220,  1-Bedroom duplex in Jabi,Duplex,Shortlet,1,-1,617.2,24129826.0,N/A,  Jabi,Abuja,Bisi Nnamdi,00651801704,20-Feb-2026,Y,Unknown
+RE-4238,6-Bedroom Self-Contain in Ikoyi,Self-Contain,For Sale,6,-1,51.0,"N24,157,413",per year,ikoyi,Lagos,FUNMILAYO OKAFOR   ,52287280801,14 June 2025,false,n/a
+RE-4106,0-Bedroom Detached House in Jabi,Self-Contain,Shortlet,0,1,65.6,"N3,599,211",per year,JABI,Abuja,TOBI  ADEYEMI   ,(858) 842-4745,17/09/2025,yes,
+RE-4319,6-Bedroom Duplex in Ogudu,duplex,For Rent,6,3,85.2,"₦4,196,277.00",One-off,Ogudu,lagos,  AMAKA OGUNDIMU,234-135-680-442,19/01/2026,no,"₦905,654.00"
+RE-4152,5-Bedroom Duplex in Lugbe,duplex,Lease,5,-1,61.5,"NGN 6,348,395",per year,Lugbe,FCT,BISI ADEYEMI,(834) 735-9774,02/26/2026,false,"₦1,016,216.00"
+RE-4067,1-Bedroom duplex in Ikoyi,Detached House,For Rent,1,3,110.6,"₦6,932,387.00",,Ikoyi,Lagos,Emeka Afolabi   ,+234545494808,27-Jul-2025,Yes,N/A
+RE-4311,4-Bedroom Self-Contain in Surulere,Terrace,FOR RENT,4,3,N/A,7717186.00 naira,N/A,SURULERE,Lagos,  Femi Ajayi,234-937-597-383,07/05/2025,1,"N420,406"
+RE-4112,6-Bedroom Land in Ikeja GRA   ,Land,FOR RENT,6,-1,47.1,"₦4,156,203.00",One-off,ikeja gra,Lagos,Kemi Ogundimu,+234053773515,20/04/2026,Y,1009933.0
+RE-4279,3-Bedroom Self-Contain in Yaba   ,Flat/Apartment,For Sale,3,-1,429.3,"₦5,458,029.00",per year,yaba,Lag,Bisi Bello,09788191485,2026-04-15,Y,nil
+RE-4069,5-Bedroom Duplex in Garki   ,Bungalow,Lease,5,1,917.6,"₦6,725,252.00",N/A,Garki,Abuja,  Bola Okafor,0436 349 5788,2025/09/03,false,652376.0
+RE-4050,5-Bedroom Bungalow in Lugbe,Terrace,For Rent,5,-1,unknown,10453510.00 naira,One-off,LUGBE   ,Abuja,AMARA SULEIMAN,(278) 895-7986,02 March 2026,0,707477.00 naira
+RE-4338,3-Bedroom Duplex in Ogudu,Self-Contain,for sale,3,4,--,"N13,423,562",per annum,Ogudu   ,LAGOS,EMEKA NWOSU   ,0433 154 1006,N/A,N,"₦1,433,910.00"
+RE-4227,3-Bedroom Detached House in Ogudu,Duplex,Lease,3,-1,1183.5,"NGN 5,086,115",,ogudu,LAGOS,Kemi Abubakar,42836440892,12/31/2025,0,n/a
+RE-4060,4-Bedroom Land in Ikeja GRA,Land,For Sale,4,2,37.8,"N1,832,280",N/A,IKEJA GRA,Lagos,Amaka Balogun,+234923271937,09/06/2025,false,596637.00 naira
+RE-4024,3-Bedroom BUNGALOW in Wuse 2,duplex,For Sale,3,-1,51.6,"N7,589,267",Per Annum,Wuse 2,Abuja,Chidi Adeyemi,+234267736026,2026-04-13,N,"N950,292"
+RE-4250,2-Bedroom Terrace in Ikoyi,Self-Contain,For Sale,2,3,62.8,"NGN 767,660",,ikoyi,Lagos,Zainab Ajayi,06629619431,2025-08-20,0,unknown
+RE-4136,6-Bedroom  duplex in Maitama,Terrace,For Rent,6,1,425.0,14767017.00 naira,One-off,maitama,ABUJA,Kunle Yusuf,(529) 751-6136,not set,1,"₦1,286,133.00"
+RE-4229,  -1-Bedroom duplex in Victoria Island   ,Bungalow,Lease,-1,4,13.2,"₦2,805,387.00",per annum,victoria island,Lagos,Tobi Eze,04628733427,07/05/2025,no,1383817.0
+RE-4318,  2-Bedroom Bungalow in Jabi,Land,For Sale,2,4,900.5,"NGN 16,118,561",per annum,jabi,abuja,Zainab Afolabi,47411249035,2025-07-05,0,"₦809,608.00"
+RE-4285,6-Bedroom Land in Jabi,Bungalow,For Rent,6,3,18.3,14966697.0,per annum,Jabi,abuja,Kemi  Chukwu,+234667116845,09 January 2025,No,
+RE-4125,3-Bedroom Terrace in Surulere,BUNGALOW,For Rent,3,2,583.1,"₦2,842,871.00",Per Annum,Surulere   ,Lagos,Chidi Okafor,94519832731,2025-07-27,Y,"₦204,819.00"
+RE-4017,5-Bedroom duplex in Lugbe,BUNGALOW,Lease,5,1,433.4,"NGN 9,052,329",One-off,LUGBE,Abuja,Zainab  Mohammed   ,0896 383 4657,07/16/2025,Yes,N/A
+RE-4210,2-Bedroom Land in Yaba,Terrace,for sale,2,4,892.2,"₦7,029,061.00",,Yaba   ,LAGOS,tobi ogundimu,0152 742 0549,27.01.2025,false,"NGN 1,114,703"
+RE-4280,-1-Bedroom Detached House in Wuse 2,Duplex,For Rent,-1,4,1187.8,"NGN 6,814,054",Per Annum,wuse 2,ABUJA,FUNMILAYO NNAMDI,234-783-613-407,27.05.2025,1,760636.0
+RE-4224,0-Bedroom Land in Ajah,Flat/Apartment,For Sale,  ,3,35.4,n/a,One-off,Ajah,Lag,bisi mohammed,234-106-903-311,2025-12-26,N,"₦176,485.00"
+RE-4207,2-Bedroom Duplex in Surulere,Duplex,Shortlet,2,4,107.0,"₦10,850,998.00",One-off,Surulere,Lagos State,tobi mohammed,,06-Jun-2026,1,"₦1,462,511.00"
+RE-4247,  1-Bedroom Terrace in Lekki,BUNGALOW,For Sale,1,1,1044.8,"₦1,540,508.00",One-off,LEKKI,lagos,  Wale Mohammed,0614 293 9685,2025/06/24,No,398759.00 naira
+RE-4184,-1-Bedroom Self-Contain in Wuse 2   ,Bungalow,Lease,-1,4,60.0,"NGN 21,192,580",Per Annum,Wuse 2,Abuja,Zainab Okafor,(647) 102-7677,06 April 2026,TRUE,"N126,668"
+RE-4091,  6-Bedroom Self-Contain in Asokoro,BUNGALOW,Shortlet,6,-1,58.2,"16,061,244.00 ",N/A,Asokoro   ,FCT,TOBI BELLO,N/A,28-Mar-2026,0,158555.00 naira
+RE-4257,5-Bedroom duplex in Magodo,Detached House,FOR RENT,5,null,  ,1250148.0,Per Annum,Magodo   ,Lagos,Yusuf Chukwu,(371) 240-6596,2025/04/20,Y,"NGN 1,092,853"
+RE-4180,3-Bedroom Terrace in Garki,BUNGALOW,For Sale,3,3,106.5,3600571.00 naira,per annum,Garki,ABUJA,Ibrahim Afolabi,234-253-584-143,unknown date,TRUE,262950.00 naira
+RE-4042,1-Bedroom Self-Contain in Victoria Island,Bungalow,for sale,1,-1,264.4,"N4,385,766",Per Annum,Victoria Island,Lagos,chidi ajayi   ,69340608835,2025-12-21,true,?
+RE-4181,6-Bedroom duplex in Ogudu,Flat/Apartment,Lease,6,3,948.4,"NGN 6,361,723",One-off,Ogudu   ,Lagos,Emeka  Yusuf   ,42498182992,07/02/2025,Yes,1414947.00 naira
+RE-4253,6-Bedroom duplex in Garki,Detached House,FOR RENT,6,,1118.5,"7,771,024.00 ",Per Annum,GARKI,FCT,Ngozi Chukwu,08610158199,06/20/2026,false,N/A
+RE-4195,0-Bedroom BUNGALOW in Ajah,Terrace,For Sale,0,3,1174.2,2884637.0,per year,Ajah,Lagos State,bisi nnamdi,0269 495 8887,13-Jul-2025,0,nil
+RE-4151,5-Bedroom Land in Yaba   ,BUNGALOW,for sale,5,3,43.4,"13,582,017.00 ",Per Annum,YABA   ,Lagos,tunde okonkwo,27065379473,00/00/0000,true,"NGN 241,440"
+RE-4044,-1-Bedroom  duplex in Victoria Island,duplex,Lease,-1,4,N/A,13471473.00 naira,One-off,Victoria Island,Lagos,  Fatima Chukwu,(648) 236-6299,04/09/2025,Y,621160.0
+RE-4143,2-Bedroom Bungalow in Lekki,Self-Contain,Lease,NIL,4,101.0,2379473.0,Per Annum,  Lekki,Lag,femi chukwu   ,234-935-978-207,2025-02-08,No,"NGN 1,152,657"
+RE-4118,0-Bedroom BUNGALOW in Maitama,Flat/Apartment,Lease,0,4,949.1,7121993.00 naira,Per Annum,MAITAMA,abuja,Tunde Adeyemi,234-783-908-470,N/A,FALSE,68975.0
+RE-4313,2-Bedroom Bungalow in Ikorodu   ,duplex,FOR RENT,2,--,81.2,"N6,230,230",per annum,   Ikorodu,Lagos,Tunde Yusuf,13836702410,02/08/2026,yes,119309.00 naira
+RE-4295,1-Bedroom BUNGALOW in Ikorodu,duplex,FOR RENT,1,1,408.1,"12,085,986.00 ",Per Annum,Ikorodu,Lagos State,FATIMA ADEKUNLE   ,+234965652341,2026-01-08,yes,529459.00 naira
+RE-4081,1-Bedroom Terrace in Garki   ,Duplex,Lease,1,-1,78.9,"N6,638,039",Per Annum,Garki,abuja,Ngozi Adeyemi,(499) 471-7464,2025/08/30,No,Unknown
+RE-4149,0-Bedroom Duplex in Wuse 2   ,BUNGALOW,For Sale,0,4,566.4,"2,349,906.00 ",per annum,  Wuse 2,abuja,ngozi chukwu   ,57332214188,06 January 2025,false,1465810.00 naira
+RE-4093,2-Bedroom duplex in Lugbe   ,duplex,For Rent,2,4,93.8,"₦4,241,052.00",per annum,lugbe,Abuja,ADAEZE OKEKE,0867 533 9636,,TRUE,1266283.00 naira
+RE-4032,6-Bedroom duplex in Asokoro,Flat/Apartment,For Sale,6,1,568.0,4026987.0,One-off,Asokoro,abuja,YUSUF AJAYI   ,0808 412 4118,10.02.2026,FALSE,"N1,390,024"
+RE-4138,0-Bedroom duplex in Jabi,Duplex,For Sale,0,3,727.3,"N10,172,066",per year,Jabi,ABUJA,  Bola Nnamdi,01883552312,29 May 2026,FALSE,"NGN 126,523"
+RE-4114,5-Bedroom  BUNGALOW in Jabi,Flat/Apartment,for sale,5,unknown,53.4,22905232.00 naira,Per Annum,Jabi,Abuja,Fatima Afolabi,0053 293 1839,27/02/2026,1,799085.0
+RE-4070,3-Bedroom BUNGALOW in Ogudu,Bungalow,for sale,3,N/A,23.6,"₦8,381,758.00",N/A,Ogudu,lagos,ZAINAB OKAFOR,+234855744431,2026/02/05,yes,--
+RE-4301,1-Bedroom  Land in Wuse 2,Flat/Apartment,for sale,1,-1,705.0,"₦6,431,900.00",,wuse 2,Abuja,  AMARA BELLO,234-414-183-285,05/31/2026,false,NIL
+RE-4061,0-Bedroom Self-Contain in Jabi,Duplex,Lease,0,4,865.8,6430407.0,Per Annum,JABI,Abuja,Amara Nwosu,234-299-124-190,22-Apr-2025,No,N/A
+RE-4320,3-Bedroom  Terrace in Magodo,Terrace,for sale,3,4,64.4,"NGN 7,399,994",per annum,Magodo,Lag,Bola Olawale,67883171210,2026-04-04,Y,--
+RE-4291,  5-Bedroom Detached House in Asokoro,Terrace,For Sale,5,-1,36.0,"N2,053,523",One-off,Asokoro,Fct Abuja,Ngozi Ogundimu,0712 938 7005,not set,No,"NGN 863,922"
+RE-4252,1-Bedroom Detached House in Maitama,Land,For Rent,1,2,22.2,"₦5,401,709.00",One-off,Maitama,Abuja,halima okonkwo,234-541-212-678,01/02/2025,FALSE,"N547,748"
+RE-4307,0-Bedroom Duplex in Surulere   ,duplex,FOR RENT,0,-1,257.2,"19,537,553.00 ",Per Annum,surulere,Lagos,  Segun Ajayi,+234000307562,04/05/2025,Y,N/A
+RE-4163,5-Bedroom Terrace in Ajah   ,Self-Contain,Lease,5,4,1053.2,"N15,628,228",One-off,ajah,lagos,Funmilayo Lawal,0319 520 5852,2025/01/21,No,"NGN 826,959"
+RE-4004,5-Bedroom Bungalow in Ogudu   ,Detached House,For Rent,?,1,251.2,"₦21,358,395.00",N/A,  Ogudu,Lag,Aliyu Abubakar,35116155940,28-Nov-2025,TRUE,"₦409,463.00"
+RE-4063,6-Bedroom Flat/Apartment in Ogudu,duplex,Lease,6,3,58.4,"N3,931,628",One-off,OGUDU,Lagos,ALIYU AJAYI,90586518506,02/02/2026,TRUE,n/a
+RE-4299,-1-Bedroom Detached House in Jabi,BUNGALOW,Lease,-1,4,106.4,"₦2,964,795.00",Per Annum,jabi,Fct Abuja,TOBI YUSUF,+234710910430,28.09.2025,N,-
+RE-4259,6-Bedroom duplex in Ikoyi,Detached House,FOR RENT,6,3,80.1,15950266.00 naira,N/A,Ikoyi,Lagos,Fatima Adeyemi,02654793564,2025/05/17,false,1106011.00 naira
+RE-4113,0-Bedroom Flat/Apartment in Ajah   ,Flat/Apartment,For Sale,0,4,10.2,"NGN 978,443",,AJAH,LAGOS,Sadiq Lawal,50643171390,21 June 2026,FALSE,"1,135,922.00 "
+RE-4080,5-Bedroom Detached House in Lugbe,Terrace,For Sale,n/a,3,45.0,"₦872,266.00",per annum,Lugbe,FCT,ifeoma bello,234-618-324-210,03/31/2025,false,"NGN 174,276"
+RE-4159,4-Bedroom Duplex in Ikoyi,Flat/Apartment,FOR RENT,4,1,1089.9,"NGN 18,463,668",per year,Ikoyi,Lag,Ngozi  Lawal,00369711798,08-Aug-2025,FALSE,"1,046,218.00 "
+RE-4089,  2-Bedroom Self-Contain in Ikeja GRA   ,Terrace,for sale,2,2,549.1,"₦17,237,108.00",N/A,Ikeja Gra,Lagos,Wale  Eze   ,08613171274,2025-10-17,true,null
+RE-4055,5-Bedroom Duplex in Victoria Island,Land,for sale,5,4,410.6,4880239.00 naira,per year,Victoria Island   ,Lag,Grace Adeyemi   ,,24.01.2026,true,
+RE-4026,6-Bedroom Self-Contain in Jabi,Detached House,Shortlet,6,,105.6,4491960.00 naira,Per Annum,jabi,Abuja,Zainab Suleiman,0098 050 0978,2025-08-15,Yes,365041.00 naira
+RE-4099,2-Bedroom BUNGALOW in Yaba   ,Terrace,For Rent,2,-1,103.9,"NGN 8,666,242",,Yaba   ,Lagos,Chinedu Okeke,38692221969,09-Feb-2026,true,"₦256,560.00"
+RE-4122,3-Bedroom Self-Contain in Wuse 2,duplex,Lease,3,4,34.8,"N5,040,348",,Wuse 2,Abuja,AMARA BALOGUN,65766156545,unknown date,Y,n/a
+RE-4226,2-Bedroom BUNGALOW in Lugbe,Duplex,Lease,2,-1,48.0,"NGN 6,130,458",One-off,Lugbe   ,abuja,Ifeoma Adekunle,+234284395995,31/07/2025,true,"NGN 927,481"
+RE-4160,  5-Bedroom Self-Contain in Ogudu,Self-Contain,FOR RENT,5,1,90.9,"N24,654,134",Per Annum,Ogudu,lagos,MUSA BELLO,(893) 246-0953,03.07.2025,true,"N566,341"
+RE-4197,6-Bedroom Terrace in Ogudu,BUNGALOW,for sale,null,3,87.4,2969310.00 naira,per annum,Ogudu   ,Lagos,ngozi bello,(749) 930-9728,2025/07/15,0,"174,520.00 "
+RE-4082,-1-Bedroom Detached House in Garki   ,BUNGALOW,for sale,-1,3,206.0,"N592,728",Per Annum,GARKI,Fct Abuja,  Ifeoma Olawale,234-771-906-594,2025-04-19,yes,NIL
+RE-4128,5-Bedroom Bungalow in Magodo   ,BUNGALOW,Lease,5,4,n/a,9453720.0,,Magodo   ,LAGOS,ibrahim ogundimu,invalid,00/00/0000,0,?
+RE-4009,4-Bedroom Terrace in Yaba,Duplex,For Rent,4,3,1170.7,"N3,152,590",,Yaba,Lagos,sadiq lawal,+234139537672,2025/06/16,N,"₦453,974.00"
+RE-4200,0-Bedroom Bungalow in Magodo,duplex,for sale,0,3,98.9,"2,351,301.00 ",per annum,magodo,Lagos,YUSUF OKEKE   ,85786527858,2026/04/19,No,"NGN 1,097,494"
+RE-4141,6-Bedroom BUNGALOW in Ikoyi,Terrace,Shortlet,6,2,455.2,,,  IKOYI,Lagos,Segun Nwosu   ,(905) 814-7700,19.09.2025,N,975220.0
+RE-4123,  4-Bedroom Terrace in Maitama,duplex,FOR RENT,NULL,-1,205.9,17763262.0,N/A,Maitama   ,ABUJA,IFEOMA NNAMDI,02711116152,22/10/2025,No,"443,400.00 "
+RE-4110,1-Bedroom Flat/Apartment in Ikorodu,Duplex,For Sale,1,4,642.8,"N14,091,915",One-off,IKORODU,lagos,obinna afolabi,+234004711382,14 April 2026,true,null
+RE-4168,6-Bedroom Self-Contain in Gwarinpa,Land,FOR RENT,6,1,1003.3,18499878.00 naira,,GWARINPA,abuja,Emeka Nnamdi,0845 115 4479,2025-12-27,0,"NGN 1,116,000"
+RE-4157,2-Bedroom Land in Wuse 2,Terrace,For Rent,2,2,61.3,"N14,291,667",N/A,Wuse 2,Abuja,Tunde Mohammed,(047) 277-9010,2026-05-12,Y,"91,701.00 "
+RE-4196,4-Bedroom Terrace in Ajah   ,Detached House,FOR RENT,4,2,422.7,"N12,397,842",per annum,Ajah,Lagos,yusuf  ogundimu,(470) 551-6940,19/01/2026,yes,"₦192,693.00"
+RE-4100,3-Bedroom  Bungalow in Asokoro   ,duplex,for sale,3,2,104.4,unknown,One-off,Asokoro,FCT,ALIYU OKONKWO,234-792-374-740,2025/03/16,no,"NGN 721,130"
+RE-4241,1-Bedroom Terrace in Lugbe,BUNGALOW,FOR RENT,1,4,89.7,"N22,704,307",per year,Lugbe,abuja,ALIYU NWOSU,00848408621,10.12.2025,TRUE,N/A
+RE-4077,3-Bedroom Detached House in Jabi,Land,Shortlet,3,n/a,9.5,13280038.0,N/A,Jabi,Abuja,funmilayo yusuf,0964 990 9133,01/01/2025,false,1055663.0
+RE-4003,-1-Bedroom Self-Contain in Magodo,Bungalow,For Sale,-1,2,52.0,1547227.00 naira,Per Annum,magodo,Lagos,Chinedu Eze,0637 940 2654,06/01/2026,false,431914.00 naira
+RE-4276,4-Bedroom Self-Contain in Ikoyi   ,duplex,FOR RENT,4,1,84.8,"NGN 6,944,773",One-off,Ikoyi,Lagos State,Segun  Suleiman,0225 790 5072,08 October 2025,No,"532,031.00 "
+RE-4263,2-Bedroom Bungalow in Gwarinpa,BUNGALOW,for sale,2,2,83.9,"N3,756,691",N/A,GWARINPA,Abuja,Fatima Mohammed,05891135290,08/14/2025,Yes,"N1,062,596"
+RE-4109,3-Bedroom BUNGALOW in Maitama,Detached House,For Rent,3,2,284.7,3151534.0,Per Annum,Maitama,Abuja,Femi Adeyemi,(098) 593-1746,26-May-2026,Y,"NGN 1,378,210"
+RE-4158,  4-Bedroom Flat/Apartment in Victoria Island,Terrace,For Sale,  ,-1,555.8,null,,  VICTORIA ISLAND   ,Lagos,  Fatima Okonkwo   ,(328) 986-1434,03/21/2025,TRUE,938787.00 naira
+RE-4323,2-Bedroom Bungalow in Ajah,Detached House,Lease,2,-1,154.5,"NGN 7,266,629",per year,Ajah,Lagos,OBINNA LAWAL,02966706625,20 September 2025,no,"N257,000"
+RE-4065,-1-Bedroom Duplex in Ikeja GRA,Self-Contain,For Rent,-1,2,571.8,"N8,044,750",N/A,ikeja gra,LAGOS,Sadiq Nnamdi   ,08776945314,03.08.2025,true,NULL
+RE-4016,-1-Bedroom Detached House in Ikoyi,Detached House,Lease,-1,3,58.9,"₦3,985,313.00",per year,Ikoyi,Lagos,  Obinna Ogundimu,(117) 182-2782,06 July 2025,TRUE,"N1,495,116"
+RE-4172,-1-Bedroom Duplex in Victoria Island,duplex,FOR RENT,-1,2,null,"₦5,794,721.00",per year,Victoria Island,Lagos,HALIMA OKEKE,234-192-856-543,,1,"₦1,397,265.00"
+RE-4048,2-Bedroom Duplex in Ajah,Terrace,for sale,2,1,?,"NGN 11,505,931",,Ajah,Lagos,Yusuf Adeyemi,234-769-367-632,21/02/2026,yes,  
+RE-4167,6-Bedroom Flat/Apartment in Ikeja GRA,BUNGALOW,FOR RENT,6,3,103.6,3258045.00 naira,per year,Ikeja GRA,Lagos,KEMI YUSUF,0775 841 6169,25.02.2025,true,"99,128.00 "
+RE-4031,2-Bedroom Terrace in Wuse 2   ,Terrace,For Rent,2,3,NIL,1331673.00 naira,per year,wuse 2,Abuja,  Bola Bello   ,(251) 354-2784,09-Feb-2026,false,469797.00 naira
+RE-4264,-1-Bedroom  Duplex in Maitama,Self-Contain,FOR RENT,-1,2,416.5,2527239.00 naira,Per Annum,  Maitama,Abuja,Bisi Olawale,234-656-101-438,13 October 2025,1,1184788.0
+RE-4329,  -1-Bedroom Duplex in Magodo,Flat/Apartment,For Sale,-1,2,1186.4,4750873.0,Per Annum,magodo,Lagos,Yusuf Chukwu,0803 965 2239,07/01/2025,Yes,"NGN 1,065,747"
+RE-4005,4-Bedroom BUNGALOW in Ikorodu,BUNGALOW,For Rent,4,-1,101.6,15534123.00 naira,per annum,  IKORODU,Lagos,TOBI EZE,(781) 618-4959,14-Mar-2025,Y,N/A
+RE-4304,6-Bedroom Terrace in Lekki,Flat/Apartment,For Rent,6,2,87.3,11824442.00 naira,Per Annum,Lekki,lagos,tobi abubakar,234-884-252-410,00/00/0000,No,593915.00 naira
+RE-4179,-1-Bedroom duplex in Lekki,Terrace,for sale,-1,3,955.5,24140884.00 naira,Per Annum,LEKKI,Lagos State,bisi okafor,234-922-680-182,12-Feb-2025,no,405904.0
+RE-4284,  0-Bedroom Land in Asokoro,BUNGALOW,FOR RENT,0,?,38.1,7197089.00 naira,per year,Asokoro,FCT,Zainab Nnamdi,+234223253672,28/09/2025,No,965115.00 naira
+RE-4183,3-Bedroom duplex in Magodo,Self-Contain,For Sale,3,-1,857.8,"₦24,264,732.00",One-off,Magodo,Lag,Aliyu Adeyemi,03969078447,2025-06-10,No,"N655,484"
+RE-4235,6-Bedroom BUNGALOW in Victoria Island,Terrace,Lease,6,2,96.5,"₦1,483,982.00",Per Annum,VICTORIA ISLAND,Lagos,BOLA LAWAL,234-753-556-093,10/02/2025,Y,718075.0
+RE-4054,1-Bedroom Self-Contain in Ikeja GRA   ,Bungalow,Shortlet,1,4,97.9,22093271.0,per annum,Ikeja GRA,Lagos,segun  yusuf,0036 690 9670,2025-11-07,N,"N650,199"
+RE-4078,0-Bedroom Flat/Apartment in Ikorodu,Terrace,Shortlet,0,4,7.6,"NGN 9,056,934",One-off,IKORODU   ,Lagos,Ifeoma  Olawale,01232812067,03/02/2025,1,"₦658,497.00"
+RE-4324,4-Bedroom Terrace in Ogudu,Self-Contain,FOR RENT,4,3,42.9,"N18,672,934",One-off,Ogudu,Lag,IBRAHIM SULEIMAN,(244) 720-9993,29 June 2025,false,-
+RE-4334,4-Bedroom Flat/Apartment in Victoria Island,Detached House,For Rent,4,-1,28.0,  ,Per Annum,  victoria island,Lagos,Ngozi Nwosu,54522675289,2026/02/06,yes,"₦672,046.00"
+RE-4316,0-Bedroom BUNGALOW in Asokoro,Terrace,for sale,0,1,81.0,"7,164,531.00 ",,asokoro   ,Abuja,  Halima Lawal,55743132912,27 September 2025,N,"₦882,676.00"
+RE-4019,4-Bedroom Detached House in Ajah,Detached House,FOR RENT,4,3,1097.4,11778196.00 naira,per annum,Ajah,Lagos,chinedu balogun,invalid,03.03.2025,Y,?
+RE-4037,3-Bedroom duplex in Garki,Bungalow,for sale,3,--,1094.6,"N19,453,347",Per Annum,GARKI,Abuja,  emeka mohammed,58692322602,2025-06-03,No,838919.0
+RE-4127,-1-Bedroom  Bungalow in Ogudu,Detached House,FOR RENT,-1,3,660.9,"₦12,508,710.00",One-off,  Ogudu,Lagos,  Blessing Balogun,+234094024455,2026-02-01,0,NIL
+RE-4261,0-Bedroom Land in Lekki   ,Duplex,for sale,0,4,64.4,"₦8,000,265.00",N/A,  Lekki,lagos,Grace Chukwu,,N/A,TRUE,"N600,113"
+RE-4278,3-Bedroom Bungalow in Ogudu,Self-Contain,For Sale,3,4,123.7,-,N/A,Ogudu,Lagos,Kunle Ajayi,234-034-043-842,2026/06/22,Y,unknown
+RE-4290,6-Bedroom Bungalow in Maitama,Duplex,For Rent,6,3,507.7,"₦10,574,293.00",per annum,Maitama,Abuja,  Femi Nwosu,234-206-436-110,12.12.2025,Y,?
+RE-4049,  -1-Bedroom BUNGALOW in Asokoro,Terrace,For Rent,-1,4,55.2,"₦6,566,104.00",,ASOKORO,Fct Abuja,Emeka Ogundimu,invalid,10/07/2025,true,--
+RE-4260,6-Bedroom duplex in Ajah   ,Bungalow,For Sale,6,1,53.1,"NGN 10,199,159",One-off,Ajah,Lagos,Ibrahim Balogun,(519) 398-2807,,FALSE,"NGN 1,380,217"
+RE-4040,-1-Bedroom Flat/Apartment in Lekki,Bungalow,Lease,-1,3,485.6,"NGN 1,004,250",Per Annum,LEKKI,LAGOS,zainab ogundimu,+234586850142,07-Jun-2025,Y,"₦695,411.00"
+RE-4117,-1-Bedroom Flat/Apartment in Ajah,Land,FOR RENT,-1,1,146.9,"₦4,102,236.00",Per Annum,Ajah,lagos,femi chukwu,+234268117758,05/09/2025,0,-
+RE-4273,1-Bedroom Terrace in Ogudu,BUNGALOW,Shortlet,1,3,11.5,"N11,989,332",per annum,Ogudu,Lagos,Ifeoma Yusuf,234-792-499-125,2026-01-25,false,235684.0
+RE-4164,4-Bedroom Self-Contain in Ikeja GRA,Detached House,Lease,4,4,35.9,16365163.00 naira,One-off,Ikeja GRA,Lag,Sadiq Okonkwo,72217043030,14 March 2026,1,"₦1,103,592.00"
+RE-4328,  2-Bedroom Detached House in Ajah,Flat/Apartment,For Rent,2,-1,80.6,"N7,319,342",,Ajah,Lagos,  Tobi Mohammed   ,0078 593 2133,07/11/2025,FALSE,1236030.0
+RE-4028,1-Bedroom Detached House in Victoria Island,Duplex,Shortlet,1,-1,57.0,"₦4,915,447.00",per annum,Victoria Island   ,Lagos,  FUNMILAYO AJAYI,0939 909 1699,10 June 2026,yes,"₦927,869.00"
+RE-4177,1-Bedroom Land in Maitama,duplex,For Rent,1,?,95.7,"₦6,857,221.00",,Maitama,Fct Abuja,chinedu okonkwo,78291146786,07 February 2025,false,"NGN 240,180"
+RE-4006,2-Bedroom BUNGALOW in Garki,Duplex,For Rent,2,4,1165.3,3163532.00 naira,per annum,Garki,abuja,Ibrahim Abubakar,(103) 413-1647,20.06.2025,TRUE,N/A
+RE-4270,-1-Bedroom Self-Contain in Gwarinpa,duplex,FOR RENT,-1,2,864.1,null,per annum,gwarinpa,Abuja,aliyu yusuf,60937966033,2025/06/05,N,"453,472.00 "
+RE-4219,5-Bedroom Flat/Apartment in Gwarinpa,Terrace,Shortlet,5,4,22.3,2218442.0,N/A,gwarinpa,Abuja,  Emeka Yusuf,08740640391,2025/02/24,N,"₦289,414.00"
+RE-4057,3-Bedroom Duplex in Maitama,duplex,for sale,N/A,3,713.8,"₦6,839,973.00",One-off,MAITAMA   ,Abuja,wale balogun,(699) 016-2720,25.06.2026,false,NIL
+RE-4101,2-Bedroom BUNGALOW in Gwarinpa,Duplex,Lease,2,-1,1041.8,"NGN 5,049,707",Per Annum,Gwarinpa,Abuja,segun bello,(482) 175-9464,2025-09-27,TRUE,nil
+RE-4169,4-Bedroom Detached House in Garki,Terrace,For Sale,4,2,1061.6,"₦3,256,997.00",N/A,Garki   ,Abuja,Tunde Okafor,02757059640,01/22/2025,N,"NGN 1,229,448"
+RE-4233,5-Bedroom  BUNGALOW in Jabi,Self-Contain,For Rent,5,-1,NIL,18315115.00 naira,One-off,Jabi,Fct Abuja,  FATIMA ADEKUNLE,invalid,09/05/2025,No,null
+RE-4267,2-Bedroom BUNGALOW in Maitama   ,Land,for sale,2,3,1008.6,"N2,943,418",per year,maitama,abuja,Kunle Olawale,+234738757177,13 March 2026,Yes,267608.0
+RE-4208,0-Bedroom Flat/Apartment in Surulere,Flat/Apartment,for sale,0,4,n/a,"2,766,647.00 ",Per Annum,SURULERE,Lagos State,yusuf okonkwo,0067 240 0499,04/22/2025,Y,nil
+RE-4096,4-Bedroom Detached House in Lekki,Flat/Apartment,Shortlet,4,2,102.3,"₦6,356,937.00",One-off,  Lekki,lagos,Adaeze Mohammed,234-596-158-657,21 July 2025,TRUE,"NGN 1,186,846"
+RE-4188,  6-Bedroom Land in Asokoro   ,BUNGALOW,Shortlet,6,4,97.8,"N7,692,445",Per Annum,Asokoro,Fct Abuja,amaka ajayi,0000000000,05/03/2026,0,nil
+RE-4277,3-Bedroom BUNGALOW in Ikoyi,duplex,for sale,3,3,NIL,"N6,776,682",per annum,Ikoyi,Lagos State,funmilayo nwosu,06887676772,20-Jun-2026,false,
+RE-4030,  6-Bedroom Bungalow in Asokoro,Land,for sale,n/a,-1,NIL,"N3,256,708",Per Annum,ASOKORO,FCT,Chidi  Olawale   ,(107) 991-1838,,yes,"N664,821"
+RE-4126,4-Bedroom Terrace in Jabi,Flat/Apartment,For Rent,4,4,null,  ,per year,  Jabi,Abuja,Obinna Olawale,0585 149 3689,18-Jan-2026,FALSE,879305.00 naira
+RE-4086,5-Bedroom Land in Lugbe,Terrace,for sale,5,3,56.4,"NGN 21,444,643",N/A,lugbe,Abuja,Musa Balogun   ,0154 516 8087,N/A,Y,546871.0
+RE-4182,4-Bedroom Land in Magodo,Terrace,for sale,4,2,472.4,"₦20,523,914.00",Per Annum,   Magodo,Lagos,Chioma Okeke,0299 590 0109,22-Jan-2026,false,"₦1,244,527.00"
+RE-4176,-1-Bedroom duplex in Victoria Island   ,Terrace,For Sale,-1,2,92.0,"N7,015,854",,victoria island,Lagos State,  Ngozi Lawal,0313 237 0589,09.02.2026,0,"N341,941"
+RE-4059,2-Bedroom Duplex in Maitama,Terrace,Lease,2,4,8.7,"NGN 1,197,982",per year,MAITAMA,FCT,Emeka Lawal   ,234-080-531-003,02-Feb-2026,no,"674,394.00 "
+RE-4190,  -1-Bedroom BUNGALOW in Lugbe,BUNGALOW,For Sale,-1,--,41.0,"NGN 2,044,964",per annum,   LUGBE,Abuja,Zainab Afolabi,80162456506,08-Oct-2025,1,"N909,170"
+RE-4298,3-Bedroom duplex in Ajah   ,duplex,FOR RENT,3,1,182.3,"₦5,068,533.00",Per Annum,Ajah   ,Lagos,IBRAHIM OKEKE,18055269658,16.05.2025,true,"₦711,569.00"
+RE-4256,  3-Bedroom Terrace in Asokoro,BUNGALOW,For Sale,3,1,982.3,8920521.00 naira,Per Annum,Asokoro,ABUJA,Kemi Ajayi,+234647154379,2025/04/28,true,NIL
+RE-4141,6-Bedroom BUNGALOW in Ikoyi,Terrace,Shortlet,6,2,455.2,,,  IKOYI,Lagos,Segun Nwosu   ,(905) 814-7700,19.09.2025,N,975220.0
+RE-4066,0-Bedroom Terrace in Yaba,Land,FOR RENT,0,3,783.2,"4,830,691.00 ",Per Annum,Yaba,Lag,Chioma Abubakar,(379) 965-0752,06 April 2025,0,1346524.0
+RE-4002,2-Bedroom Terrace in Jabi,Land,for sale,2,3,1183.4,"₦2,209,237.00",,JABI,Abuja,grace  suleiman,234-013-389-083,25/01/2026,N,872411.0
+RE-4148,0-Bedroom Terrace in Garki,Terrace,Shortlet,0,3,140.9,"N1,051,473",Per Annum,  garki,Abuja,Emeka Yusuf,(281) 685-0542,11/04/2026,1,759359.0
+RE-4027,  6-Bedroom Bungalow in Yaba,Duplex,For Sale,6,2,147.8,"NGN 7,833,819",N/A,yaba,Lag,  Chinedu Adekunle   ,20812191361,04/11/2026,Yes,"N1,193,226"
+RE-4134,1-Bedroom duplex in Jabi,duplex,Lease,1,3,13.0,"N4,991,702",N/A,JABI,Fct Abuja,tunde ogundimu,+234388516060,06 February 2026,yes,"N618,512"
+RE-4082,-1-Bedroom Detached House in Garki   ,BUNGALOW,for sale,-1,3,206.0,"N592,728",Per Annum,GARKI,Fct Abuja,  Ifeoma Olawale,234-771-906-594,2025-04-19,yes,NIL
+RE-4294,6-Bedroom duplex in Victoria Island,duplex,FOR RENT,6,-1,103.3,"₦2,294,865.00",per annum,  Victoria Island,Lagos,Yusuf  Nwosu   ,(753) 269-7311,16.05.2025,1,null
+RE-4129,-1-Bedroom Self-Contain in Gwarinpa   ,Flat/Apartment,For Sale,-1,-1,1068.0,"₦3,826,313.00",per annum,Gwarinpa,Abuja,AMARA SULEIMAN,234-752-545-991,20-Feb-2025,No,"₦1,272,799.00"
+RE-4029,0-Bedroom Terrace in Ogudu,Flat/Apartment,Shortlet,0,1,--,"₦2,213,702.00",,  ogudu   ,Lagos,Tobi Eze,05435346247,17 November 2025,yes,"NGN 887,982"
+RE-4108,5-Bedroom Duplex in Jabi,Detached House,Shortlet,5,4,643.5,6025800.0,per annum,Jabi,Fct Abuja,Grace Nwosu,08175496513,2026-06-10,N,NIL
+RE-4211,1-Bedroom BUNGALOW in Victoria Island,BUNGALOW,For Rent,1,2,111.1,"₦6,476,156.00",per annum,  Victoria Island,LAGOS,Emeka Adekunle,29668516122,22/06/2025,false,"N374,519"
+RE-4021,1-Bedroom Detached House in Victoria Island,Self-Contain,FOR RENT,1,2,596.8,"₦14,701,782.00",N/A,Victoria Island,Lagos,Aliyu Olawale,(311) 656-6701,2026/05/26,0,697494.00 naira
+RE-4102,-1-Bedroom  Flat/Apartment in Ogudu,Land,For Rent,NULL,-1,57.7,5662116.00 naira,per annum,  Ogudu,Lagos,Grace Adekunle,234-367-136-959,11.02.2025,No,595677.0
+RE-4266,4-Bedroom duplex in Yaba,Detached House,FOR RENT,4,2,70.9,"₦11,398,050.00",Per Annum,Yaba,Lag,ZAINAB NWOSU,234-071-461-125,07/03/2025,FALSE,Unknown
+RE-4306,5-Bedroom Duplex in Gwarinpa   ,Duplex,For Sale,5,2,237.6,"NGN 18,781,470",per annum,Gwarinpa,abuja,  Segun Eze,234-792-524-191,12/05/2025,Yes,"₦1,338,790.00"
+RE-4053,5-Bedroom Detached House in Surulere,BUNGALOW,for sale,5,4,51.9,3402026.0,per annum,surulere,Lagos,Femi Afolabi   ,36231665876,18-Feb-2025,no,NULL
+RE-4203,  2-Bedroom Self-Contain in Lekki,Flat/Apartment,For Sale,2,NULL,104.6,"₦20,759,360.00",One-off,Lekki   ,Lag,Obinna Eze,08665240415,2026/03/15,false,1390602.0
+RE-4262,1-Bedroom duplex in Ogudu,Land,for sale,1,4,561.3,"₦10,903,870.00",Per Annum,ogudu,Lagos,Kunle  Okafor   ,234-179-796-886,unknown date,FALSE,"NGN 404,154"
+RE-4036,0-Bedroom Self-Contain in Garki   ,Bungalow,for sale,0,2,12.9,"₦24,224,168.00",per annum,GARKI,Abuja,aliyu  adeyemi,234-620-450-533,16.01.2026,false,"₦1,197,502.00"
+RE-4283,3-Bedroom Bungalow in Ikeja GRA,Bungalow,Lease,3,1,NIL,"₦12,198,174.00",One-off,Ikeja GRA,LAGOS,Blessing Balogun,+234544948126,2025/11/15,Y,"NGN 600,000"
+RE-4205,4-Bedroom Terrace in Wuse 2,Bungalow,FOR RENT,4,n/a,977.6,"₦14,404,170.00",per year,Wuse 2,Fct Abuja,Ibrahim Okonkwo,0933 083 3016,01/26/2026,yes,--
+RE-4218,4-Bedroom Duplex in Gwarinpa,Terrace,for sale,--,2,49.8,NIL,One-off,Gwarinpa   ,Abuja,  ibrahim suleiman   ,+234187072867,2025/04/02,true,"N820,939"
+RE-4041,2-Bedroom Land in Lugbe   ,Flat/Apartment,For Rent,2,1,1033.5,2677717.00 naira,N/A,LUGBE   ,Abuja,Obinna Nnamdi,04019655698,2026/01/06,TRUE,1323042.0
+RE-4268,0-Bedroom Terrace in Ikoyi,Terrace,for sale,0,3,76.0,14396250.0,per annum,Ikoyi,Lagos,Wale Chukwu,+234401051238,11/21/2025,1,"N1,015,559"
+RE-4213,6-Bedroom Duplex in Asokoro,Land,For Rent,6,2,95.6,"NGN 9,104,503",,ASOKORO,abuja,chinedu suleiman,09904530174,2025-08-09,yes,"332,884.00 "
+RE-4162,5-Bedroom Flat/Apartment in Lekki,BUNGALOW,Lease,5,-1,81.9,"NGN 1,731,082",per annum,Lekki,Lagos,CHINEDU OKEKE,invalid,23-Apr-2025,no,"₦647,298.00"
+RE-4249,  5-Bedroom Flat/Apartment in Gwarinpa,duplex,Shortlet,5,3,245.0,"₦23,884,376.00",per annum,gwarinpa,FCT,Tunde Adeyemi,(996) 504-7735,04 September 2025,0,"₦208,318.00"
+RE-4243,1-Bedroom  duplex in Maitama,Flat/Apartment,Shortlet,1,-1,51.1,"NGN 11,516,138",One-off,Maitama,Abuja,  WALE EZE   ,234-567-933-410,04/07/2026,Yes,368654.0
+RE-4154,2-Bedroom BUNGALOW in Victoria Island,Detached House,For Rent,Unknown,4,579.5,unknown,One-off,Victoria Island   ,Lagos State,segun bello,08181412478,19-Jul-2025,false,"NGN 1,215,344"
+RE-4038,1-Bedroom duplex in Surulere,Land,For Rent,Unknown,3,917.0,7857796.0,per annum,Surulere,Lagos,   blessing adeyemi,(563) 421-6073,20.12.2025,TRUE,"N103,100"
+RE-4161,   5-Bedroom BUNGALOW in Gwarinpa   ,Duplex,For Rent,5,3,360.8,"₦5,389,604.00",Per Annum,Gwarinpa,Fct Abuja,obinna nnamdi,06218518888,31/01/2025,1,1286668.00 naira
+RE-4248,-1-Bedroom Land in Wuse 2   ,Terrace,For Sale,-1,4,876.7,"₦2,478,590.00",per year,Wuse 2,Abuja,Zainab Ogundimu   ,0218 501 6315,30.07.2025,FALSE,"₦1,181,031.00"
+RE-4236,2-Bedroom Flat/Apartment in Lugbe,Land,For Sale,2,-1,1042.1,  ,Per Annum,Lugbe,Abuja,IBRAHIM BELLO   ,00489964235,28-Mar-2026,true,"₦1,236,520.00"
+RE-4258,0-Bedroom Detached House in Ikeja GRA,Land,Lease,0,3,501.7,"₦6,794,941.00",Per Annum,Ikeja GRA   ,Lagos,Obinna Olawale,+234569245937,04-Jun-2026,1,"NGN 139,794"
+RE-4088,1-Bedroom Bungalow in Asokoro,Flat/Apartment,FOR RENT,NULL,2,Unknown,"₦2,681,208.00",One-off,Asokoro,Abuja,  Musa Adeyemi   ,,17-Dec-2025,No,"₦737,875.00"
+RE-4011,4-Bedroom Flat/Apartment in Jabi,Land,FOR RENT,4,2,769.4,11670266.0,,JABI,Abuja,Bisi  Nwosu,0287 101 2269,08.11.2025,No,"N1,334,899"
+RE-4228,  3-Bedroom duplex in Ajah,Self-Contain,For Sale,3,2,1071.5,"N16,893,978",per annum,  ajah   ,Lagos,Ngozi Nwosu,06870568566,13/03/2025,TRUE,540665.0
+RE-4043,  5-Bedroom BUNGALOW in Magodo   ,duplex,FOR RENT,5,-1,78.7,"NGN 16,763,868",One-off,  Magodo,Lagos State,  Tunde Adekunle   ,0615 951 4846,10.04.2026,Y,1403940.0
+RE-4175,2-Bedroom Duplex in Jabi   ,Bungalow,Shortlet,2,2,55.8,"₦4,350,609.00",per annum,Jabi,Abuja,musa adekunle,(551) 884-4225,2025/12/30,No,"NGN 75,977"
+RE-4221,-1-Bedroom  Detached House in Ikeja GRA,Duplex,Lease,-1,3,NIL,"₦2,097,995.00",One-off,IKEJA GRA,Lagos,  Aliyu Eze,234-265-676-618,20-Apr-2026,Y,440748.0
+RE-4321,1-Bedroom duplex in Maitama   ,Detached House,Lease,1,-1,39.3,2911359.0,N/A,MAITAMA,Abuja,Amaka Afolabi,+234323651994,02/26/2025,N,"NGN 155,797"
+RE-4193,4-Bedroom Land in Surulere,Land,Lease,4,3,43.0,24459748.0,Per Annum,Surulere,lagos,Emeka Lawal,+234239868000,24/04/2026,no,Unknown
+RE-4116,0-Bedroom Terrace in Ikoyi,Detached House,for sale,0,1,303.1,"₦19,738,183.00",per annum,Ikoyi,Lagos,emeka afolabi,01020539502,18 June 2026,false,"NGN 914,508"
+RE-4120,6-Bedroom Land in Wuse 2,Land,FOR RENT,6,,1005.3,"N3,592,575",N/A,WUSE 2   ,FCT,Chinedu Adekunle,0124 998 5698,08/08/2025,yes,"NGN 894,126"
+RE-4166,2-Bedroom Land in Surulere,BUNGALOW,for sale,2,1,344.4,"11,128,586.00 ",One-off,Surulere,Lagos,FATIMA MOHAMMED,00541566765,2026-06-19,false,508910.00 naira
+RE-4092,1-Bedroom Detached House in Yaba,duplex,for sale,1,4,--,4628717.00 naira,N/A,Yaba,Lagos,Ifeoma Nnamdi,+234997278755,2026-03-31,TRUE,919929.0
+RE-4237,  0-Bedroom Self-Contain in Ikoyi,duplex,For Rent,0,3,463.5,2965405.0,Per Annum,Ikoyi,Lagos,bisi  afolabi   ,234-937-854-777,03-May-2026,1,"NGN 1,020,984"
+RE-4171,0-Bedroom Detached House in Lekki,duplex,For Rent,0,-1,228.1,"NGN 3,460,226",per year,Lekki,LAGOS,Musa Adekunle,+234556909275,2025/07/03,true,"₦127,172.00"
+RE-4071,5-Bedroom Bungalow in Jabi,Bungalow,Lease,5,1,635.7,"₦18,383,435.00",Per Annum,jabi,Abuja,Sadiq Adeyemi,0518 233 7498,2026-05-27,yes,"₦878,727.00"
+RE-4130,5-Bedroom Bungalow in Asokoro,Detached House,FOR RENT,5,3,859.3,"N9,571,796",per year,Asokoro,Abuja,ifeoma ajayi,02290147679,06/26/2026,FALSE,"NGN 650,360"
+RE-4327,4-Bedroom Terrace in Maitama,Detached House,Shortlet,4,2,52.4,"7,174,435.00 ",per year,Maitama,Abuja,Funmilayo Ajayi,08564205930,25/01/2025,Yes,NIL
+RE-4308,4-Bedroom Bungalow in Wuse 2,Duplex,Shortlet,4,4,108.8,  ,Per Annum,Wuse  2,FCT,Fatima Okeke,08635365419,15.05.2025,TRUE,nil
+RE-4185,1-Bedroom BUNGALOW in Magodo,Bungalow,Lease,1,4,1157.9,n/a,per annum,MAGODO,Lagos,femi okonkwo,59255562588,09 September 2025,no,null
+RE-4271,5-Bedroom Land in Maitama,Detached House,For Rent,5,-1,99.6,"₦2,658,824.00",Per Annum,Maitama,Abuja,chinedu chukwu,0419 182 5537,23/09/2025,false,1274879.00 naira
+RE-4254,-1-Bedroom Duplex in Asokoro,Self-Contain,Shortlet,-1,-1,553.3,"NGN 2,365,464",per annum,Asokoro   ,Abuja,femi okonkwo,234-046-618-398,2025/09/25,false,563581.00 naira
+RE-4076,3-Bedroom Detached House in Gwarinpa,Flat/Apartment,For Sale,3,2,1083.3,NULL,N/A,Gwarinpa,Abuja,Yusuf Nwosu,invalid,29 April 2026,Y,322939.0
+RE-4150,  6-Bedroom Flat/Apartment in Surulere,BUNGALOW,Lease,6,1,14.8,16416652.0,,  surulere,LAGOS,Yusuf Suleiman,(805) 929-6222,28-Jun-2026,false,NIL
+RE-4272,2-Bedroom Detached House in Gwarinpa,BUNGALOW,Shortlet,2,3,N/A,21883563.0,One-off,GWARINPA,Abuja,grace okafor,0478 596 9691,18.03.2025,Y,"₦459,770.00"
+RE-4240,2-Bedroom Detached House in Lugbe,Bungalow,Shortlet,2,-1,9.1,"24,893,354.00 ",per year,lugbe,Abuja,Segun Ogundimu,invalid,17 April 2025,yes,null
+RE-4275,4-Bedroom BUNGALOW in Yaba,Duplex,For Sale,4,-1,1042.9,6786118.00 naira,per year,  yaba,Lagos,  Amaka Bello,09662782827,2026/01/18,false,"71,376.00 "
+RE-4206,0-Bedroom duplex in Magodo   ,Detached House,Lease,0,-1,998.0,13621729.00 naira,per annum,magodo,Lagos,  Fatima Mohammed,0712 082 6773,26-Jan-2026,false,"N759,849"
+RE-4305,-1-Bedroom Duplex in Surulere,Terrace,For Sale,-1,-1,741.0,1989783.00 naira,per year,Surulere,Lagos State,chinedu okafor,234-481-491-778,03-Jun-2026,true,"₦1,499,575.00"
+RE-4209,  -1-Bedroom Self-Contain in Ikeja GRA   ,duplex,Shortlet,-1,nil,169.4,"N16,417,260",Per Annum,IKEJA GRA   ,Lagos,Bisi Adekunle,234-478-872-874,11.10.2025,N,"NGN 1,014,364"
+RE-4178,-1-Bedroom Land in Gwarinpa,Self-Contain,FOR RENT,-1,2,85.4,"NGN 20,394,366",One-off,gwarinpa,Abuja,FUNMILAYO AFOLABI,234-912-517-785,13.05.2025,TRUE,NIL
+RE-4165,3-Bedroom duplex in Yaba,Flat/Apartment,for sale,3,2,1025.4,"₦6,098,251.00",per year,Yaba,Lagos,  fatima okonkwo,54868740345,2025/07/28,0,null
+RE-4075,  2-Bedroom Land in Ikoyi,Terrace,For Rent,2,4,?,"N2,982,015",,ikoyi,lagos,Aliyu Abubakar,07190229413,24.05.2026,false,839551.00 naira
+RE-4228,  3-Bedroom duplex in Ajah,Self-Contain,For Sale,3,2,1071.5,"N16,893,978",per annum,  ajah   ,Lagos,Ngozi Nwosu,06870568566,13/03/2025,TRUE,540665.0
+RE-4192,   6-Bedroom Bungalow in Jabi,Terrace,Lease,6,-1,588.6,16971193.0,per annum,  JABI   ,Abuja,halima chukwu,234-499-121-655,21/04/2025,TRUE,"₦1,033,536.00"
+RE-4084,6-Bedroom duplex in Asokoro,Terrace,For Rent,6,2,79.1,"₦6,782,403.00",,ASOKORO,FCT,Musa Yusuf,0742 967 1756,29-Jan-2025,yes,"NGN 1,245,251"
+RE-4242,  1-Bedroom Self-Contain in Lekki,Land,For Rent,1,2,772.3,"NGN 16,464,565",per annum,Lekki,Lagos,  Grace Okeke,234-823-398-454,27/01/2026,No,"574,026.00 "
+RE-4325,4-Bedroom Bungalow in Victoria Island   ,Duplex,Shortlet,4,4,991.4,"NGN 2,135,737",N/A,victoria island,Lagos State,Obinna Mohammed,0768 701 4626,08/18/2025,no,"NGN 676,018"
+RE-4028,1-Bedroom Detached House in Victoria Island,Duplex,Shortlet,1,-1,57.0,"₦4,915,447.00",per annum,Victoria Island   ,Lagos,  FUNMILAYO AJAYI,0939 909 1699,10 June 2026,yes,"₦927,869.00"
+RE-4046,3-Bedroom duplex in Lekki,Self-Contain,Shortlet,3,-1,245.5,"5,908,871.00 ",,Lekki,Lagos,obinna nnamdi,77387214895,2025/04/23,true,"N1,055,304"
+RE-4187,  0-Bedroom BUNGALOW in Ajah,Detached House,Shortlet,0,3,55.8,"24,111,099.00 ",One-off,AJAH,Lagos,Amaka Mohammed,234-696-325-953,2025-06-21,true,unknown
+RE-4147,4-Bedroom Land in Ikorodu,Duplex,Shortlet,4,2,389.6,"12,676,968.00 ",per annum,IKORODU,Lagos,OBINNA NNAMDI,+234546291486,2026-05-01,N,"₦522,892.00"
+RE-4025,5-Bedroom Duplex in Ikoyi,BUNGALOW,for sale,5,3,16.8,"750,234.00 ",per annum,Ikoyi,Lagos,Ngozi Nwosu,234-474-687-234,01-Dec-2025,Yes,-
+RE-4119,6-Bedroom Duplex in Magodo,Bungalow,For Rent,6,1,1000.7,"NGN 7,536,829",per year,Magodo,Lagos,Aliyu Eze,07661771159,09/30/2025,TRUE,"₦539,394.00"
+RE-4251,3-Bedroom Duplex in Wuse 2,Bungalow,For Sale,3,-1,96.2,"NGN 24,410,530",N/A,  WUSE 2   ,Abuja,Blessing Lawal,04262655110,2026-05-01,false,"N800,855"
+RE-4287,2-Bedroom Terrace in Lugbe,Duplex,For Rent,2,2,41.5,"NGN 10,914,200",Per Annum,Lugbe,abuja,  adaeze abubakar,234-374-545-892,11.03.2026,0,--
+RE-4223,5-Bedroom Detached House in Gwarinpa   ,Terrace,Shortlet,5,2,771.7,"₦13,176,373.00",,Gwarinpa,Abuja,  EMEKA EZE,(786) 863-3752,13.09.2025,Yes,811208.0
+RE-4302,3-Bedroom Flat/Apartment in Garki,Bungalow,Shortlet,3,3,41.5,15565591.0,,Garki,FCT,  Kemi Ajayi   ,0914 630 3161,28.06.2026,TRUE,-
+RE-4001,4-Bedroom Detached House in Lekki,BUNGALOW,FOR RENT,4,-1,741.4,7133847.0,per year,Lekki,Lagos,chioma  eze,01043321819,12-Aug-2025,No,"N1,252,637"
+RE-4230,6-Bedroom BUNGALOW in Surulere,Land,for sale,6,1,78.9,15791064.0,per year,surulere,Lagos,Tunde Okeke   ,0866 882 6343,23-Dec-2025,1,"N1,460,631"
+RE-4333,6-Bedroom Bungalow in Maitama,duplex,for sale,6,4,861.8,"₦7,372,500.00",N/A,MAITAMA,Fct Abuja,  Blessing Ogundimu,N/A,26-Sep-2025,true,--
+RE-4097,2-Bedroom BUNGALOW in Victoria Island,BUNGALOW,FOR RENT,2,1,183.0,"NGN 1,695,279",,Victoria Island,Lagos,Chioma Adekunle,(091) 343-1611,06/12/2025,yes,329143.00 naira
+RE-4322,1-Bedroom Duplex in Ikorodu,Land,FOR RENT,n/a,-1,1115.2,?,,Ikorodu,Lagos,Kemi Afolabi,0013 721 5107,05/12/2025,true,110609.0
+RE-4013,  4-Bedroom Flat/Apartment in Victoria Island,Duplex,Lease,4,1,49.8,"NGN 10,809,812",per annum,Victoria Island,LAGOS,ALIYU LAWAL,0514 627 0482,02 March 2026,TRUE,?
+RE-4137,6-Bedroom BUNGALOW in Lekki,Terrace,Shortlet,6,2,80.5,4523061.0,per year,lekki    ,Lagos,Ngozi Lawal   ,0681 645 3521,2025/11/22,FALSE,953710.00 naira
+RE-4104,-1-Bedroom Terrace in Maitama,Land,FOR RENT,-1,1,271.0,"₦4,035,601.00",per year,Maitama,Abuja,Yusuf Lawal,09533942104,07/06/2025,FALSE,51740.0
+RE-4318,  2-Bedroom Bungalow in Jabi,Land,For Sale,2,4,900.5,"NGN 16,118,561",per annum,jabi,abuja,Zainab Afolabi,47411249035,2025-07-05,0,"₦809,608.00"
+RE-4145,1-Bedroom duplex in Victoria Island,Bungalow,FOR RENT,1,N/A,351.8,"N12,838,052",N/A,victoria island,Lagos,tobi bello,+234554665905,26 June 2025,Y,"₦225,081.00"
+RE-4001,4-Bedroom Detached House in Lekki,BUNGALOW,FOR RENT,4,-1,741.4,7133847.0,per year,Lekki,Lagos,chioma  eze,01043321819,12-Aug-2025,No,"N1,252,637"
+RE-4317,2-Bedroom Self-Contain in Gwarinpa   ,Bungalow,Shortlet,2,3,13.4,1785059.0,per annum,Gwarinpa   ,Abuja,Ibrahim Suleiman,0127 756 1853,04 May 2026,true,nil
+RE-4023,0-Bedroom BUNGALOW in Garki,Bungalow,FOR RENT,0,1,1057.1,nil,Per Annum,garki   ,Abuja,  KUNLE OKONKWO,(473) 178-1080,29-Aug-2025,true,
+RE-4296,1-Bedroom Detached House in Jabi,Detached House,FOR RENT,1,3,99.0,"₦1,610,180.00",N/A,jabi,FCT,NGOZI OKEKE,0899 940 4389,10/26/2025,no,901346.00 naira
+RE-4007,4-Bedroom Bungalow in Ikoyi,Detached House,For Rent,4,3,728.4,"N11,286,838",One-off,Ikoyi,Lagos,AMARA EZE,+234553419283,03/06/2026,0,"N1,070,133"
+RE-4330,5-Bedroom  Duplex in Wuse 2,Duplex,for sale,5,4,  ,"NGN 6,198,238",per annum,wuse 2,FCT,Ngozi Chukwu,59059929378,2025/05/14,no,"₦1,348,938.00"
+RE-4212,  0-Bedroom Self-Contain in Yaba   ,Terrace,Shortlet,0,-1,985.5,6388114.0,Per Annum,yaba,LAGOS,Kunle Mohammed,0753 046 3745,25.10.2025,yes,774757.00 naira
+RE-4239,1-Bedroom Bungalow in Lugbe,Duplex,for sale,1,1,88.0,"7,842,740.00 ",Per Annum,Lugbe,ABUJA,Aliyu Nnamdi,(006) 231-2038,10 August 2025,1,"N1,275,383"
+RE-4222,6-Bedroom  Flat/Apartment in Asokoro,Terrace,FOR RENT,6,3,203.9,19183095.00 naira,,Asokoro,Abuja,WALE BELLO,05128682300,02/09/2026,Yes,546104.0
+RE-4255,1-Bedroom Duplex in Gwarinpa,Detached House,For Sale,1,4,769.0,24022310.00 naira,N/A,  Gwarinpa   ,Abuja,FUNMILAYO AJAYI,62244472126,09 June 2026,false,1067280.00 naira
+RE-4020,2-Bedroom duplex in Lugbe,BUNGALOW,For Sale,2,3,96.7,3562611.0,N/A,  Lugbe,ABUJA,Segun Ajayi,234-738-299-737,2026/02/26,0,?
+RE-4332,1-Bedroom  Detached House in Magodo,Flat/Apartment,for sale,1,2,277.0,"N12,177,876",N/A,Magodo,lagos,Halima Okafor,07059325250,2025/07/13,Yes,"₦1,235,670.00"
+RE-4194,-1-Bedroom Detached House in Victoria Island,Land,Lease,-1,null,129.2,"₦4,892,648.00",,VICTORIA ISLAND,Lagos State,Emeka Chukwu,0578 729 8259,18/10/2025,No,nil
+RE-4204,6-Bedroom Flat/Apartment in Yaba,Duplex,For Rent,nil,1,70.8,24494495.0,N/A,  YABA,Lagos,Emeka Ajayi,04733848421,27-Jan-2026,true,"NGN 1,138,299"
+RE-4034,  3-Bedroom BUNGALOW in Jabi   ,Detached House,for sale,3,-1,537.8,"N7,384,526",per year,Jabi,Abuja,ibrahim suleiman,16400524278,09 December 2025,No,"NGN 663,939"
+RE-4050,5-Bedroom Bungalow in Lugbe,Terrace,For Rent,5,-1,unknown,10453510.00 naira,One-off,LUGBE   ,Abuja,AMARA SULEIMAN,(278) 895-7986,02 March 2026,0,707477.00 naira
+RE-4079,6-Bedroom  Self-Contain in Gwarinpa,Duplex,for sale,6,n/a,963.4,"₦1,260,714.00",Per Annum,Gwarinpa   ,Abuja,Obinna Okafor,234-403-447-134,06/16/2025,1,1096955.0
+RE-4033,   3-Bedroom Land in Garki,Land,for sale,3,1,69.0,4016908.00 naira,N/A,Garki   ,Abuja,Fatima Olawale,234-493-534-874,04/06/2026,TRUE,106756.0
+RE-4246,5-Bedroom Duplex in Gwarinpa,Duplex,FOR RENT,5,Unknown,753.6,"₦11,688,457.00",,GWARINPA,FCT,Bisi Chukwu,14890250392,22-Jan-2025,true,"NGN 226,049"
+RE-4289,-1-Bedroom BUNGALOW in Asokoro,Land,Shortlet,-1,1,58.4,"NGN 12,002,425",Per Annum,Asokoro   ,Abuja,  femi bello   ,0063 242 4154,2025-02-21,0,"403,946.00 "
+RE-4026,6-Bedroom Self-Contain in Jabi,Detached House,Shortlet,6,,105.6,4491960.00 naira,Per Annum,jabi,Abuja,Zainab Suleiman,0098 050 0978,2025-08-15,Yes,365041.00 naira
+RE-4139,  -1-Bedroom duplex in Magodo,Detached House,For Sale,-1,-1,null,"2,986,355.00 ",N/A,MAGODO    ,Lagos,Kemi Mohammed,(329) 212-7799,2025/06/21,0,304329.0
+RE-4140,1-Bedroom Flat/Apartment in Magodo,Flat/Apartment,For Rent,1,null,92.9,"₦9,885,504.00",per year,Magodo,Lagos,Emeka Bello,234-955-271-774,27-Feb-2026,1,"N1,444,556"
+RE-4286,5-Bedroom  Flat/Apartment in Ogudu,Bungalow,for sale,5,2,1145.7,"₦22,391,691.00",Per Annum,Ogudu,lagos,Aliyu Balogun,N/A,14-May-2025,TRUE,1063231.0
+RE-4297,3-Bedroom duplex in Gwarinpa,Bungalow,Shortlet,3,4,1084.8,4115394.0,N/A,Gwarinpa,Abuja,FUNMILAYO NNAMDI,03640376137,17 December 2025,N,n/a
+RE-4336,-1-Bedroom BUNGALOW in Maitama,duplex,For Rent,-1,1,155.0,7253229.00 naira,per year,Maitama,Abuja,Fatima Abubakar   ,+234902959391,10 October 2025,yes,NIL
+RE-4121,  4-Bedroom Self-Contain in Maitama,Duplex,for sale,4,4,273.7,"5,926,854.00 ",per year,Maitama,Abuja,Adaeze Yusuf,+234896118367,00/00/0000,0,"₦884,120.00"
+RE-4045,3-Bedroom Land in Jabi   ,Flat/Apartment,for sale,3,3,21.7,6578331.0,One-off,Jabi,Abuja,obinna okafor,68044369957,2026/05/01,Yes,"N435,019"
+RE-4058,  1-Bedroom Land in Ogudu,duplex,For Rent,1,4,87.4,"N4,246,773",Per Annum,Ogudu,Lagos State,Zainab  Mohammed   ,234-537-556-464,01/12/2025,Y,Unknown
+RE-4008,2-Bedroom Detached House in Ogudu,Detached House,Lease,2,1,1076.5,"NGN 23,595,390",Per Annum,  ogudu,Lagos State,FEMI OKAFOR,invalid,10/06/2025,1,nil
+RE-4090,   2-Bedroom Duplex in Gwarinpa,Flat/Apartment,Shortlet,2,3,77.9,"N7,056,053",,GWARINPA,Abuja,Kemi Bello,+234467737826,29/04/2025,Y,unknown
+RE-4244,-1-Bedroom Detached House in Ikeja GRA,Terrace,Shortlet,-1,3,91.6,1189774.0,N/A,ikeja gra,Lagos,Aliyu Ajayi,(666) 870-0217,2026/06/09,No,--
+RE-4016,-1-Bedroom Detached House in Ikoyi,Detached House,Lease,-1,3,58.9,"₦3,985,313.00",per year,Ikoyi,Lagos,  Obinna Ogundimu,(117) 182-2782,06 July 2025,TRUE,"N1,495,116"
+RE-4326,4-Bedroom Self-Contain in Magodo,Land,for sale,4,4,49.7,"NGN 1,437,682",,MAGODO,Lagos,Ifeoma Ogundimu,+234380657875,17 April 2026,true,1361780.0
+RE-4340,2-Bedroom Flat/Apartment in Asokoro,Duplex,Shortlet,2,-1,66.8,"NGN 2,958,182",Per Annum,asokoro,Fct Abuja,Chidi Olawale,(327) 104-0541,2025/08/08,N,
+RE-4105,6-Bedroom Self-Contain in Jabi,Bungalow,FOR RENT,6,4,90.9,"₦5,732,321.00",N/A,Jabi,Abuja,  AMARA NNAMDI,234-952-145-623,25-Dec-2025,true,428889.00 naira
+RE-4234,1-Bedroom  Terrace in Ogudu,Land,for sale,1,-1,711.4,7527709.0,per year,  Ogudu,lagos,Chinedu  Okeke,46785445877,2025/02/19,No,"NGN 385,777"
+RE-4135,-1-Bedroom Land in Garki,Bungalow,FOR RENT,-1,1,473.6,13212655.0,N/A,Garki,Fct Abuja,chioma balogun,234-596-966-416,10/17/2025,Y,162947.0
+RE-4073,1-Bedroom Bungalow in Ikeja GRA,Duplex,FOR RENT,1,2,864.9,"NGN 7,229,656",per annum,Ikeja GRA,lagos,  NGOZI OKEKE,234-008-427-109,04/08/2025,0,"₦434,261.00"
+RE-4155,3-Bedroom Self-Contain in Lugbe,Duplex,FOR RENT,3,3,56.8,21216765.0,per year,LUGBE,Abuja,ibrahim  okeke,invalid,2025/03/09,true,unknown
+RE-4062,  5-Bedroom Land in Victoria Island   ,Duplex,for sale,5,2,17.6,6382025.00 naira,N/A,VICTORIA ISLAND,lagos,yusuf afolabi,09663193149,11/23/2025,yes,"₦1,222,658.00"
+RE-4018,2-Bedroom duplex in Surulere   ,Terrace,Lease,2,4,66.0,15271487.00 naira,N/A,Surulere,lagos,KEMI  BALOGUN   ,(713) 315-0983,29/03/2025,N,unknown
+RE-4153,6-Bedroom Duplex in Ikoyi   ,Flat/Apartment,Lease,6,1,286.6,"₦3,806,665.00",per annum,Ikoyi,Lagos,Grace Yusuf,+234862392407,2025/11/21,0,212858.00 naira
+RE-4012,4-Bedroom Self-Contain in Gwarinpa,Flat/Apartment,FOR RENT,4,-1,30.2,5394141.0,,Gwarinpa,Fct Abuja,Blessing Adekunle,+234697848018,21/02/2025,false,-
+RE-4335,6-Bedroom Detached House in Ogudu,Land,Shortlet,6,3,493.9,18669405.00 naira,One-off,Ogudu,LAGOS,Kunle Okeke,0539 264 4220,19/01/2025,no,188595.0
+RE-4214,6-Bedroom Flat/Apartment in Maitama,Flat/Apartment,For Rent,6,2,NIL,"19,302,129.00 ",Per Annum,Maitama   ,abuja,WALE  ADEYEMI,68414593327,17-Jun-2025,Y,"₦635,791.00"
+RE-4144,  1-Bedroom BUNGALOW in Victoria Island,Flat/Apartment,For Sale,1,-1,100.7,5455506.0,,victoria island,Lagos,ADAEZE OLAWALE   ,51820377889,2026/05/14,TRUE,N/A
+RE-4039,6-Bedroom Duplex in Wuse 2,BUNGALOW,for sale,6,?,84.8,"₦6,495,068.00",One-off,  wuse 2,Abuja,Aliyu Okonkwo   ,0754 330 3654,14.12.2025,Yes,-
+RE-4191,4-Bedroom Detached House in Garki,duplex,Lease,4,1,1012.4,2287694.0,per year,GARKI   ,Abuja,Tobi  Adeyemi,+234983584168,16.03.2025,true,707446.00 naira
+RE-4217,4-Bedroom BUNGALOW in Jabi,Land,for sale,4,-1,27.0,"NGN 17,822,397",,Jabi   ,abuja,FEMI ABUBAKAR,234-982-258-713,2025/08/09,TRUE,"₦658,545.00"
+RE-4098,1-Bedroom BUNGALOW in Victoria Island,Self-Contain,Shortlet,1,1,1048.7,16419461.00 naira,One-off,  VICTORIA ISLAND,lagos,Wale Adekunle,02400504556,2025/07/30,false,"N1,146,143"
+RE-4331,2-Bedroom Terrace in Ikoyi,Bungalow,For Rent,2,4,952.3,"N6,073,466",N/A,IKOYI,Lagos,ZAINAB  BALOGUN,234-270-103-930,01/14/2025,0,1076945.00 naira
+RE-4111,  0-Bedroom Self-Contain in Ogudu,BUNGALOW,Shortlet,0,4,8.4,"N6,509,454",per annum,OGUDU,Lagos,Tunde Ogundimu,234-586-926-179,,no,"₦1,446,519.00"
+RE-4189,  4-Bedroom Land in Lugbe,Terrace,For Sale,4,4,30.4,5100820.00 naira,per year,Lugbe,Abuja,  BOLA OKEKE,(339) 500-4797,2026-01-07,N,83520.0
