@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Power Query Data Cleaning Masterclass - Set 4 (Mixed CSV and Excel) | Datasets 31-40</title>
+<style>
+:root{
+  --bg:#080c12;
+  --surface:#0e1420;
+  --surface2:#131c2e;
+  --border:#1c2638;
+  --acc:#60a5fa;
+  --gold:#f59e0b;
+  --grn:#34d399;
+  --red:#f87171;
+  --purple:#a78bfa;
+  --text:#dde4ee;
+  --muted:#7a8fa8;
+  --csv:#f59e0b;
+  --xlsx:#34d399;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',Calibri,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.7}
+
+/* COVER */
+.cover{
+  background:linear-gradient(140deg,#040d1f 0%,#071525 35%,#0b1f13 70%,#0d1225 100%);
+  padding:90px 32px 66px;text-align:center;border-bottom:2px solid var(--border);
+}
+.cover .tag-row{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin-bottom:22px}
+.pill{display:inline-block;font-weight:700;font-size:.75rem;padding:3px 13px;border-radius:20px;letter-spacing:.4px}
+.pill-csv{background:var(--csv);color:#3d2a00}
+.pill-xlsx{background:var(--xlsx);color:#052916}
+.pill-set{background:var(--acc);color:#071330;font-size:.8rem;padding:4px 16px}
+.cover h1{font-size:2.5rem;color:#fff;font-weight:700;line-height:1.2;margin-bottom:14px}
+.cover .sub{color:var(--gold);font-size:1.07rem;margin-bottom:8px}
+.cover .author{color:var(--muted);font-size:.89rem}
+
+/* LAYOUT */
+.wrap{max-width:1040px;margin:0 auto;padding:54px 24px 110px}
+h2.sec{font-size:1.52rem;color:var(--acc);border-bottom:2px solid var(--acc);padding-bottom:9px;margin:60px 0 20px}
+h3.sub{font-size:1.16rem;color:var(--gold);margin:32px 0 13px}
+p.body{margin-bottom:14px;font-size:.93rem}
+
+/* GENERIC CARD */
+.card{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:22px 26px;margin:16px 0}
+
+/* TABLE */
+table.t{width:100%;border-collapse:collapse;margin:16px 0;font-size:.86rem}
+table.t th{background:var(--surface2);color:var(--acc);border:1px solid var(--border);padding:10px 13px;text-align:left}
+table.t td{border:1px solid var(--border);padding:10px 13px;vertical-align:top}
+table.t tr:nth-child(even) td{background:rgba(96,165,250,.04)}
+.code-cell{font-family:Consolas,'Courier New',monospace;color:var(--gold);font-size:.81rem}
+
+/* TOC */
+.toc{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:24px 28px;margin:26px 0}
+.toc h3{margin-top:0}
+.toc a{color:var(--acc);text-decoration:none;font-size:.88rem}
+.toc a:hover{text-decoration:underline}
+.toc ol{columns:2;gap:28px;padding-left:20px}
+.toc li{margin-bottom:7px}
+
+/* DATASET BLOCKS - left border colour driven by format */
+.ds{
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-radius:9px;
+  padding:28px 30px;margin:28px 0;
+}
+.ds.fmt-csv {border-left:4px solid var(--csv)}
+.ds.fmt-xlsx{border-left:4px solid var(--xlsx)}
+.ds-hdr{display:flex;align-items:flex-start;gap:10px;flex-wrap:wrap;margin-bottom:6px}
+.ds-num{display:inline-block;font-weight:700;font-size:.79rem;padding:3px 11px;border-radius:20px;white-space:nowrap;margin-top:3px}
+.fmt-csv  .ds-num{background:var(--csv);color:#3d2a00}
+.fmt-xlsx .ds-num{background:var(--xlsx);color:#052916}
+.ds h3{color:#fff;font-size:1.2rem}
+.ds .meta{color:var(--muted);font-size:.83rem;margin-bottom:12px}
+.ds .meta code{background:var(--surface2);padding:2px 7px;border-radius:4px;color:var(--gold);font-family:Consolas,monospace;font-size:.82rem}
+.cols{background:var(--surface2);border-radius:6px;padding:10px 14px;font-size:.8rem;color:var(--muted);margin-bottom:17px;font-family:Consolas,monospace;word-break:break-all}
+h4.bh{font-size:.91rem;text-transform:uppercase;letter-spacing:.5px;margin:18px 0 9px}
+h4.issues{color:var(--red)}
+h4.steps{color:var(--grn)}
+ul.issues{padding-left:22px}
+ul.issues li{margin-bottom:8px;font-size:.9rem}
+ul.issues li::marker{color:var(--red)}
+ol.steps{padding-left:22px}
+ol.steps li{margin-bottom:9px;font-size:.9rem}
+ol.steps li::marker{color:var(--grn);font-weight:700}
+
+/* CHECKLIST */
+.checklist{padding-left:22px}
+.checklist li{margin-bottom:9px;font-size:.92rem}
+.checklist li::marker{color:var(--acc)}
+
+/* LEGEND */
+.legend{
+  display:flex;gap:20px;flex-wrap:wrap;
+  background:var(--surface);border:1px solid var(--border);border-radius:8px;
+  padding:14px 20px;margin:20px 0;align-items:center;font-size:.87rem;
+}
+.legend span{font-weight:600;color:var(--muted)}
+
+/* NOTE */
+.note{background:#0c1808;border:1px solid #2a4f12;border-radius:8px;padding:14px 18px;color:#9dd970;font-size:.88rem;margin:20px 0}
+
+/* FOOTER */
+footer{text-align:center;color:var(--muted);font-size:.8rem;padding-top:22px;border-top:1px solid var(--border);margin-top:60px}
+</style>
+</head>
+<body>
+
+<div class="cover">
+  <div class="tag-row">
+    <span class="pill pill-set">SET 4 - DATASETS 31 TO 40</span>
+    <span class="pill pill-csv">5 x CSV Files</span>
+    <span class="pill pill-xlsx">5 x Excel Workbooks</span>
+  </div>
+  <h1>Power Query Data Cleaning Masterclass</h1>
+  <p class="sub">Ten Fresh Dirty Datasets - Mixed CSV and Excel Format</p>
+  <p class="author">Prepared by Kajola Gbenga Adewale | Data Expert | Prodigy Training Hub, Lagos</p>
+</div>
+
+<div class="wrap">
+
+<!-- INTRO -->
+<h2 class="sec">Introduction</h2>
+<p class="body">This is the fourth set of ten deliberately dirty Nigerian business-context datasets for teaching Power Query data cleaning in both Microsoft Excel and Microsoft Power BI Desktop. Set 4 is the first mixed-format set: five datasets are delivered as plain CSV files and five are delivered as formatted Excel workbooks (.xlsx). This mirrors the real-world situation an analyst faces daily - some exports from operational systems arrive as raw text files with no formatting, while others arrive as styled workbooks from colleagues who have done some light formatting but left the underlying data quality completely untouched. The ten domains covered in this set are: solid minerals and mining, pension and retirement benefits, legal services and law firm case records, printing and publishing, sports academy and football player records, cold chain and refrigerated logistics, urban planning and land use records, veterinary clinic and animal health records, tax administration (FIRS), and funeral and cemetery management. Every quality problem in every file was deliberately embedded to map to a specific, namable Power Query cleaning technique.</p>
+<p class="body">The connection step in Power Query differs by file format. For each CSV file, go to Data &gt; Get Data &gt; From File &gt; From Text/CSV in Excel, or Home &gt; Get Data &gt; Text/CSV in Power BI Desktop, select the file, and click Transform Data. For each .xlsx file, go to Data &gt; Get Data &gt; From File &gt; From Workbook in Excel, or Home &gt; Get Data &gt; Excel Workbook in Power BI Desktop, select the file, choose the correct sheet in the navigator, and click Transform Data. After that point the Power Query Editor is identical regardless of the source format, and every cleaning step in this guide applies equally in both tools. Where a step differs between Excel and Power BI, the note is given inline.</p>
+
+<!-- FORMAT LEGEND -->
+<div class="legend">
+  <span>Format guide:</span>
+  <span class="pill pill-csv">CSV</span> Plain text file - connect via Get Data &gt; From Text/CSV
+  &nbsp;&nbsp;
+  <span class="pill pill-xlsx">XLSX</span> Excel workbook - connect via Get Data &gt; From Workbook
+</div>
+
+<!-- COMPARISON TABLE -->
+<h3 class="sub">Excel vs Power BI Desktop - Key Differences for Mixed-Format Sources</h3>
+<table class="t">
+  <tr>
+    <th style="width:18%">Area</th>
+    <th style="width:41%">In Excel</th>
+    <th style="width:41%">In Power BI Desktop</th>
+  </tr>
+  
+  <tr>
+    <td><strong>Loading a CSV</strong></td>
+    <td>Data &gt; Get Data &gt; From File &gt; From Text/CSV. Power Query detects the delimiter automatically in most cases. Always confirm UTF-8 encoding in the preview dialog before clicking Transform Data.</td>
+    <td>Home &gt; Get Data &gt; Text/CSV. Identical process. If delimiter detection is wrong, expand the File Origin and Delimiter dropdowns in the preview dialog before proceeding.</td>
+  </tr>
+  <tr>
+    <td><strong>Loading an .xlsx file</strong></td>
+    <td>Data &gt; Get Data &gt; From File &gt; From Workbook. Select the sheet in the navigator (not the workbook root). Click Transform Data - not Load - to open the editor.</td>
+    <td>Home &gt; Get Data &gt; Excel Workbook. Select the correct sheet in the navigator. Click Transform Data. Selecting the workbook root loads a metadata table of sheets instead of the data.</td>
+  </tr>
+  <tr>
+    <td><strong>Auto-detected types after load</strong></td>
+    <td>Power Query adds a Changed Type step automatically for both CSV and .xlsx sources. Always review this step - it guesses wrong on mixed-format columns, currency-as-text, and numeric IDs with leading zeros.</td>
+    <td>Identical behaviour. Delete the auto-generated Changed Type step and re-set data types manually column by column after cleaning text columns, not before.</td>
+  </tr>
+  <tr>
+    <td><strong>Refreshing a mixed-format query set</strong></td>
+    <td>Data &gt; Refresh All refreshes every query in the workbook regardless of whether the source is a CSV or an .xlsx file. The source path is stored in each query's Source step.</td>
+    <td>Home &gt; Refresh refreshes all queries. Both CSV and .xlsx sources refresh identically from the same stored file path. A gateway is required if files are stored locally and the report is published to the Power BI Service.</td>
+  </tr>
+  <tr>
+    <td><strong>Combining CSV and .xlsx data</strong></td>
+    <td>Use Append Queries (Home &gt; Append Queries) to stack data from a CSV query and an .xlsx query into one combined table after both have been cleaned to matching column names and types.</td>
+    <td>Identical. Clean both queries to the same schema first, then Append Queries. The result is a single combined query that refreshes both sources in sequence.</td>
+  </tr>
+  <tr>
+    <td><strong>The Advanced Editor</strong></td>
+    <td>Home &gt; Advanced Editor shows the full M code. CSV and .xlsx sources use different Source step functions (Csv.Document versus Excel.Workbook) but the rest of the M code is identical.</td>
+    <td>Identical. The M source functions differ by file type at the top of the code, but all downstream transformation steps are fully portable between Excel and Power BI.</td>
+  </tr>
+</table>
+
+<!-- GENERAL CHECKLIST -->
+<h3 class="sub">General Cleaning Checklist - Apply to Every Dataset</h3>
+<div class="card">
+  <ol class="checklist">
+    <li>Identify the file format before connecting - CSV files use Get Data &gt; From Text/CSV; .xlsx files use Get Data &gt; From Workbook. Using the wrong connector produces an error or loads metadata instead of data.</li>
+    <li>For .xlsx files: always select the correct named sheet in the navigator, not the workbook root node. The workbook root returns a table of sheet metadata, not the data itself.</li>
+    <li>Delete the auto-generated Changed Type step immediately after load for both CSV and .xlsx sources, and re-set data types manually after all text cleaning is complete.</li>
+    <li>Confirm header promotion (Home &gt; Use First Row as Headers) is the first Applied Step after Source for both file types. For CSV files Power Query usually promotes automatically; for .xlsx files it depends on whether the workbook had a frozen header row.</li>
+    <li>Remove exact duplicate rows (Home &gt; Remove Rows &gt; Remove Duplicates on all columns) before any other transformation, so subsequent steps are not applied twice to copied records.</li>
+    <li>Select all text columns in one pass and apply Trim (Transform &gt; Format &gt; Trim) then Clean (Transform &gt; Format &gt; Clean) to strip leading, trailing, and double spaces and non-printable characters before any Replace Values steps.</li>
+    <li>Run a null standardisation pass across all text columns: Replace Values to convert blank, N/A, n/a, NULL, null, nil, NIL, -, --, unknown, ?, and Not Available into a true null.</li>
+    <li>Standardise text casing (Capitalize Each Word for names, titles, and categories; Text.Upper for acronyms and short codes) before Replace Values steps, because Replace Values searches are case-sensitive in Power Query by default.</li>
+    <li>For every currency-as-text column: strip the naira sign, NGN, naira, and N prefix with Replace Values; strip commas from large values; Trim the result; then set Data Type to Decimal Number. Inspect error cells before removing.</li>
+    <li>Rename every Applied Step in plain English (right-click &gt; Rename) so the finished query reads like a documented cleaning checklist and is auditable by anyone who inherits the file.</li>
+  </ol>
+</div>
+
+<!-- TOC -->
+<div class="toc">
+  <h3 class="sub">Quick Navigation</h3>
+  <ol>
+    <li>
+      <span class="pill pill-csv">CSV</span>
+      <a href="#ds31">Mining License and Mineral Production Records - Solid Minerals and Mining</a>
+    </li>
+    <li>
+      <span class="pill pill-xlsx">XLSX</span>
+      <a href="#ds32">Pension Fund Administrator Membership Records - Pension and Financial Services</a>
+    </li>
+    <li>
+      <span class="pill pill-csv">CSV</span>
+      <a href="#ds33">Law Firm Case Management Records - Legal Services</a>
+    </li>
+    <li>
+      <span class="pill pill-xlsx">XLSX</span>
+      <a href="#ds34">Print Shop Order and Production Records - Printing and Publishing</a>
+    </li>
+    <li>
+      <span class="pill pill-csv">CSV</span>
+      <a href="#ds35">Football Academy Player Records - Sports and Athletics</a>
+    </li>
+    <li>
+      <span class="pill pill-xlsx">XLSX</span>
+      <a href="#ds36">Cold Chain and Refrigerated Cargo Shipment Records - Cold Chain and Logistics</a>
+    </li>
+    <li>
+      <span class="pill pill-csv">CSV</span>
+      <a href="#ds37">Land Use Zoning and Planning Permit Records - Urban Planning and Land Administration</a>
+    </li>
+    <li>
+      <span class="pill pill-xlsx">XLSX</span>
+      <a href="#ds38">Veterinary Clinic Patient and Treatment Records - Veterinary and Animal Health</a>
+    </li>
+    <li>
+      <span class="pill pill-csv">CSV</span>
+      <a href="#ds39">Federal Inland Revenue Service (FIRS) Taxpayer Records - Tax Administration and Revenue</a>
+    </li>
+    <li>
+      <span class="pill pill-xlsx">XLSX</span>
+      <a href="#ds40">Funeral Home and Cemetery Management Records - Funeral Services and Cemetery Management</a>
+    </li>
+    <li><a href="#cheat">Power Query M Cheat Sheet</a></li>
+    <li><a href="#notes">Facilitator Notes</a></li>
+  </ol>
+</div>
+
+<!-- DATASETS -->
+<h2 class="sec">The Ten Datasets</h2>
+
+
+<div class="ds fmt-csv" id="ds31">
+  <div class="ds-hdr">
+    <span class="ds-num">Dataset 31 &nbsp;|&nbsp; CSV</span>
+    <h3>Mining License and Mineral Production Records</h3>
+  </div>
+  <div class="meta">
+    Domain: Solid Minerals and Mining &nbsp;|&nbsp; File: <code>31_mining_solid_minerals_DIRTY.csv</code>
+  </div>
+  <p class="body">The Nigerian Mining Cadastre Office exports a license and production register covering gold, iron ore, coal, limestone, tin, columbite, barite, and other minerals across eight mining states. The register merges data from the online mining cadastre portal with a manually maintained inspection log, so mineral names, license types, quantity units, and status labels all have multiple inconsistent representations.</p>
+  <div class="cols">Columns: LicenseID, CompanyName, MineralType, MineSite, LicenseType, LicenseIssueDate, LicenseExpiryDate, QuantityMined_tonnes, RevenueNGN, RoyaltyPaidNGN, MineStatus, ContactPhone, State, EnvironmentalClearance, NMRCRegistered</div>
+
+  <h4 class="bh issues">Data Quality Issues Deliberately Built In</h4>
+  <ul class="issues">
+    <li>MineralType has inconsistent casing and trailing spaces for the same mineral (Gold, gold, GOLD; Iron Ore, Iron ore; Tin, Tin with a trailing space).</li>
+    <li>LicenseType mixes full names and abbreviated forms with inconsistent casing (Exploration, Mining Lease, mining lease, MINING LEASE, Small-Scale Mining, Small Scale, small-scale mining).</li>
+    <li>QuantityMined_tonnes mixes metric tonnes and short tons in the same column, with some rows appending the text "short tons" to the numeric value.</li>
+    <li>LicenseIssueDate and LicenseExpiryDate use mixed date formats. Some LicenseExpiryDate values precede LicenseIssueDate, which is logically impossible.</li>
+    <li>RevenueNGN and RoyaltyPaidNGN are stored as text with mixed currency notation. Large revenue values include thousands-separator commas.</li>
+    <li>RoyaltyPaidNGN is blank for many rows, which may indicate royalty not yet due or simply a data capture gap.</li>
+    <li>MineStatus has inconsistent casing and a trailing-space variant (Active, active, Suspended, Suspended with a trailing space, Inactive).</li>
+    <li>EnvironmentalClearance and NMRCRegistered both mix Yes/No, Y/N, 1/0, and TRUE/FALSE.</li>
+    <li>ContactPhone uses the standard multi-format problem seen throughout these datasets.</li>
+    <li>Around five percent of rows are exact duplicates from the portal and manual log being merged without deduplication.</li>
+  </ul>
+
+  <h4 class="bh steps">Step-by-Step Power Query Cleaning Process (Excel and Power BI)</h4>
+  <ol class="steps">
+    <li>Load the CSV (Get Data &gt; From Text/CSV &gt; Transform Data). Confirm delimiter is Comma and encoding is UTF-8. Delete the auto-generated Changed Type step. Promote headers if not done automatically.</li>
+    <li>Remove duplicate rows on all columns (Home &gt; Remove Rows &gt; Remove Duplicates).</li>
+    <li>Trim and Clean all text columns in one pass.</li>
+    <li>Standardise MineralType: Capitalize Each Word, then Replace Values to fold trailing-space variants already removed by Trim. The result should be a clean named mineral list with no casing variants.</li>
+    <li>Standardise LicenseType: Capitalize Each Word first, then build a small lookup table (DirtyType, CleanType) mapping every abbreviated and long-form variant to a canonical four-value list (Exploration, Mining Lease, Quarry Lease, Small-Scale Mining) and Merge Queries with a Left Outer join.</li>
+    <li>Resolve the QuantityMined_tonnes unit mix: add a custom column that checks Text.Contains([QuantityMined_tonnes], "short tons") - if true, extract the numeric portion with Text.BeforeDelimiter, convert to Decimal Number, and multiply by 0.907185 to convert short tons to metric tonnes; if false, convert directly to Decimal Number. Name the result QuantityMined_tonnes and drop the original.</li>
+    <li>Fix LicenseIssueDate and LicenseExpiryDate: convert both to Date type using try/otherwise to catch the mixed-format errors. Add a LicenseLogicCheck column: if [LicenseExpiryDate] &lt;= [LicenseIssueDate] then "Expiry before issue - review" else if [LicenseExpiryDate] &lt; Date.From(DateTime.LocalNow()) then "License expired" else "Valid".</li>
+    <li>Clean RevenueNGN and RoyaltyPaidNGN: strip commas first (Replace Values, comma to empty string), then apply the standard currency-stripping chain (naira sign, NGN, naira, N prefix), Trim, then set to Decimal Number.</li>
+    <li>Handle RoyaltyPaidNGN blanks deliberately: after currency conversion, add a RoyaltyStatus conditional column - if [RoyaltyPaidNGN] = null and [MineStatus] = "Active" then "Royalty not recorded for active mine - flag" else if [RoyaltyPaidNGN] = null then "Not applicable" else "Recorded".</li>
+    <li>Standardise MineStatus: Trim already done, Capitalize Each Word, then Replace Values to produce a four-value list (Active, Inactive, Suspended, Reclaimed).</li>
+    <li>Standardise EnvironmentalClearance and NMRCRegistered into Logical True/False columns with Replace Values before changing Data Type for each.</li>
+    <li>Clean ContactPhone using Text.Select([ContactPhone], {"0".."9","+"}).</li>
+    <li>Close and load as Mining_Licenses_Clean.</li>
+  </ol>
+</div>
+
+<div class="ds fmt-xlsx" id="ds32">
+  <div class="ds-hdr">
+    <span class="ds-num">Dataset 32 &nbsp;|&nbsp; XLSX</span>
+    <h3>Pension Fund Administrator Membership Records</h3>
+  </div>
+  <div class="meta">
+    Domain: Pension and Financial Services &nbsp;|&nbsp; File: <code>32_pension_retirement_benefits_DIRTY.xlsx</code>
+  </div>
+  <p class="body">A Pension Fund Administrator (PFA) exports its member register ahead of a National Pension Commission (PenCom) regulatory review. The register merges records from three legacy pension systems - the old defined benefit scheme, the contributory pension scheme, and a military/police scheme - each of which used different field conventions for member status, scheme type, and contribution amounts.</p>
+  <div class="cols">Columns: MemberID, FullName, Gender, DateOfBirth, RSAPin, PFAName, Scheme, Sector, EmployerName, JoinDate, RetirementDate, MemberStatus, MonthlyContribution, TotalAccumulation, MonthlyBenefit, BankAccountNo</div>
+
+  <h4 class="bh issues">Data Quality Issues Deliberately Built In</h4>
+  <ul class="issues">
+    <li>Scheme has inconsistent casing, abbreviations, and trailing spaces for the same scheme (Contributory Pension Scheme (CPS), CPS, cps, CPS with a trailing space, contributory; Legacy Defined Benefit, Legacy, LEGACY DB, Defined Benefit).</li>
+    <li>Sector mixes full names and abbreviations with inconsistent casing (Public Service, PUBLIC SERVICE, Private Sector, Private with a trailing space, private sector).</li>
+    <li>MemberStatus has trailing spaces and inconsistent casing across the three legacy systems (Active Contributor, active contributor, RETIREE, Retiree, Active with a trailing space, Deferred with a trailing space, death benefit).</li>
+    <li>MonthlyContribution, TotalAccumulation, and MonthlyBenefit are all stored as text with mixed currency notation.</li>
+    <li>TotalAccumulation is blank for some members whose records were migrated from the legacy defined benefit system without accumulation data.</li>
+    <li>MonthlyBenefit is blank for active contributors who have not yet reached retirement, which is expected, but also blank for some Retiree records, which is a data gap.</li>
+    <li>RetirementDate uses mixed date formats and is blank for active contributors, which is expected.</li>
+    <li>BankAccountNo is missing for some members, which is a critical compliance gap for benefit payment.</li>
+    <li>Gender mixes Male/Female with single-letter M/F in different cases.</li>
+    <li>RSAPin is missing for some members on the legacy defined benefit scheme, since RSA pins only apply to the contributory scheme.</li>
+    <li>Around four percent of rows are duplicates from the three-system merge.</li>
+  </ul>
+
+  <h4 class="bh steps">Step-by-Step Power Query Cleaning Process (Excel and Power BI)</h4>
+  <ol class="steps">
+    <li>Connect to the workbook (Get Data &gt; From Workbook), select the Pension Records sheet, click Transform Data. Delete the auto-generated Changed Type step. Confirm header promotion.</li>
+    <li>Set BankAccountNo and RSAPin to Text type immediately to preserve leading zeros. Remove duplicate rows on all columns.</li>
+    <li>Trim and Clean all text columns in one pass.</li>
+    <li>Standardise Scheme: build a reference lookup table mapping every variant to three canonical values (Contributory Pension Scheme (CPS), Defined Benefit, Military/Police Scheme) and Merge Queries with a Left Outer join. A lookup table is the right tool here because there are too many variants for stacked Replace Values steps to be maintainable.</li>
+    <li>Standardise Sector: Capitalize Each Word, then Replace Values to fold Private and "private sector" into Private Sector and "PUBLIC SERVICE" into Public Service.</li>
+    <li>Standardise MemberStatus: Trim already done, Capitalize Each Word, then Replace Values to produce a clean five-value list (Active Contributor, Retiree, Deferred, Death Benefit, Disability).</li>
+    <li>Standardise Gender: Replace Values to map M and m to Male and F and f to Female.</li>
+    <li>Clean MonthlyContribution, TotalAccumulation, and MonthlyBenefit with the standard currency-stripping and Decimal Number conversion technique for each column in sequence.</li>
+    <li>Handle TotalAccumulation blanks: add a AccumulationStatus column - if [TotalAccumulation] = null and [Scheme] = "Defined Benefit" then "Defined benefit - accumulation not applicable" else if [TotalAccumulation] = null then "Missing - follow up with employer" else "Recorded".</li>
+    <li>Handle MonthlyBenefit blanks: add a BenefitStatus column - if [MemberStatus] = "Retiree" and [MonthlyBenefit] = null then "MISSING benefit amount for retiree - critical gap" else if [MemberStatus] &lt;&gt; "Retiree" then "Not yet payable" else "Recorded".</li>
+    <li>Fix DateOfBirth, JoinDate, and RetirementDate: convert all three to Date type using try/otherwise. Add an Age column from DateOfBirth. Add a TenureYears column from JoinDate to today, or to RetirementDate where not null. Flag any TenureYears above 45 or below 1 as potentially erroneous.</li>
+    <li>Flag missing BankAccountNo: add a BankAccountFlag = if [BankAccountNo] = null then "CRITICAL - no bank account for benefit payment" else "OK".</li>
+    <li>Close and load as Pension_Members_Clean.</li>
+  </ol>
+</div>
+
+<div class="ds fmt-csv" id="ds33">
+  <div class="ds-hdr">
+    <span class="ds-num">Dataset 33 &nbsp;|&nbsp; CSV</span>
+    <h3>Law Firm Case Management Records</h3>
+  </div>
+  <div class="meta">
+    Domain: Legal Services &nbsp;|&nbsp; File: <code>33_legal_lawfirm_case_records_DIRTY.csv</code>
+  </div>
+  <p class="body">A Lagos-based multi-practice law firm exports its case management register covering civil litigation, criminal defence, commercial disputes, property law, family law, and employment law matters across multiple courts. The register is maintained in a shared practice management system by different teams in each practice group, and formatting conventions for case numbers, court names, fee amounts, and case status labels vary across the groups.</p>
+  <div class="cols">Columns: CaseID, CaseNumber, ClientName, ClientPhone, CaseType, CourtName, AssignedLawyer, DateFiled, NextHearingDate, ClosingDate, CaseStatus, Outcome, LegalFeeNGN, AmountPaidNGN, State, ProBonoCase</div>
+
+  <h4 class="bh issues">Data Quality Issues Deliberately Built In</h4>
+  <ul class="issues">
+    <li>CaseType mixes full practice area names with abbreviated forms and inconsistent casing (Civil Litigation, civil litigation, CRIMINAL, Criminal Defence, Commercial dispute, Property law with a trailing space, Labour Law).</li>
+    <li>CaseNumber has inconsistent formatting across practice groups (SUIT/FHC/1234/2024 versus suit/fhc/1234/2024 versus mixed case) with no standardised capitalisation convention.</li>
+    <li>DateFiled, NextHearingDate, and ClosingDate all use mixed date formats. Some NextHearingDate values fall before DateFiled, which is logically impossible for a newly filed case. Some ClosingDate values exist on rows where CaseStatus is still Active, which is a contradictory state.</li>
+    <li>CaseStatus has inconsistent casing and trailing spaces, and overlapping labels from different practice groups (Active, active, Closed, CLOSED, Settled Out of Court, Settled, Adjourned with a trailing space, Struck Out).</li>
+    <li>Outcome is frequently blank for active cases, which is expected, but also blank for some Closed cases, which is a data quality gap.</li>
+    <li>LegalFeeNGN and AmountPaidNGN are stored as text with mixed currency notation.</li>
+    <li>AmountPaidNGN exceeds LegalFeeNGN for some rows, which may indicate a retainer overpayment or a data entry error.</li>
+    <li>ProBonoCase mixes Yes/No, Y/N, 1/0, and TRUE/FALSE.</li>
+    <li>AssignedLawyer has leading spaces and inconsistent casing.</li>
+    <li>Around four percent of rows are duplicate case entries from a system migration.</li>
+  </ul>
+
+  <h4 class="bh steps">Step-by-Step Power Query Cleaning Process (Excel and Power BI)</h4>
+  <ol class="steps">
+    <li>Load the CSV (Get Data &gt; From Text/CSV &gt; Transform Data). Delete the auto-generated Changed Type step. Remove duplicate rows on all columns.</li>
+    <li>Trim and Clean all text columns in one pass.</li>
+    <li>Standardise CaseType: Capitalize Each Word, then build a lookup table mapping every variant to a canonical six-value practice area list (Civil Litigation, Criminal Defence, Commercial Dispute, Property Law, Family Law, Employment Law) and Merge Queries with a Left Outer join.</li>
+    <li>Standardise CaseNumber: apply Text.Upper to produce a consistent all-caps format (SUIT/FHC/1234/2024), since case numbers are formal court references that should use a fixed convention.</li>
+    <li>Fix DateFiled, NextHearingDate, and ClosingDate: convert all three to Date type using try/otherwise. Add a HearingLogicCheck column: if [NextHearingDate] &lt; [DateFiled] then "Hearing before filing - impossible" else "OK". Add a ClosingStatusCheck: if [CaseStatus] = "Active" and [ClosingDate] &lt;&gt; null then "Active case with closing date - review" else "OK".</li>
+    <li>Standardise CaseStatus: Trim already done, Capitalize Each Word, then Replace Values to consolidate Settled Out of Court and Settled into one canonical value (Settled Out of Court, or whichever the firm prefers) and to produce a clean six-value status list.</li>
+    <li>Handle Outcome blanks: add an OutcomeStatus column - if [CaseStatus] = "Closed" or [CaseStatus] = "Settled Out of Court" or [CaseStatus] = "Struck Out" then if [Outcome] = null then "Outcome missing for closed case - follow up" else "Recorded" else "Expected blank for active or adjourned case".</li>
+    <li>Clean LegalFeeNGN and AmountPaidNGN with the standard currency-stripping and Decimal Number conversion technique.</li>
+    <li>Add an Overpayment flag: if [AmountPaidNGN] &gt; [LegalFeeNGN] then "Overpayment - review with accounts" else "OK". Add a BalanceOwing column = [LegalFeeNGN] - [AmountPaidNGN] where both are not null.</li>
+    <li>Standardise ProBonoCase into a Logical True/False column with Replace Values before changing Data Type.</li>
+    <li>Clean ClientPhone using Text.Select to digits and + only.</li>
+    <li>Close and load as LawFirm_Cases_Clean.</li>
+  </ol>
+</div>
+
+<div class="ds fmt-xlsx" id="ds34">
+  <div class="ds-hdr">
+    <span class="ds-num">Dataset 34 &nbsp;|&nbsp; XLSX</span>
+    <h3>Print Shop Order and Production Records</h3>
+  </div>
+  <div class="meta">
+    Domain: Printing and Publishing &nbsp;|&nbsp; File: <code>34_printing_publishing_orders_DIRTY.xlsx</code>
+  </div>
+  <p class="body">A commercial printing company operating in Lagos and Abuja exports its order register covering book printing, newspaper, magazine, packaging, branding and stationery, and flexographic print jobs. The register is compiled from two production management systems used by the Lagos and Abuja branches respectively, and every categorical field has formatting differences between the two branches.</p>
+  <div class="cols">Columns: OrderID, ClientName, ClientPhone, ClientType, PrintType, ProductTitle, PaperSize, QuantityCopies, CostPerCopy, TotalCostNGN, OrderDate, DeliveryDate, OrderStatus, State, VAT_Applied</div>
+
+  <h4 class="bh issues">Data Quality Issues Deliberately Built In</h4>
+  <ul class="issues">
+    <li>PrintType has inconsistent casing and trailing spaces across the two branches (Book Printing, book printing, NEWSPAPER, Magazine with a trailing space, Packaging, packaging, Branding/Stationery, Branding).</li>
+    <li>ClientType has abbreviations and inconsistent casing (Corporate, corporate, Individual, INDIVIDUAL, Government, Govt, NGO, ngo).</li>
+    <li>PaperSize has inconsistent formatting for the same size (A4, a4, A 4 with an internal space; B2, B2 with a trailing space; FOOLSCAP versus Foolscap).</li>
+    <li>QuantityCopies contains negative values and zeros, which should not appear on a valid print order.</li>
+    <li>CostPerCopy and TotalCostNGN are stored as text with mixed currency notation. TotalCostNGN should equal QuantityCopies multiplied by CostPerCopy and rows where it does not match reveal quote-to-order transcription errors.</li>
+    <li>TotalCostNGN is blank for some rows.</li>
+    <li>OrderDate and DeliveryDate use mixed date formats. DeliveryDate is blank for orders not yet completed, which is expected, but blank for some Completed and Delivered orders, which is a data gap.</li>
+    <li>OrderStatus has inconsistent casing and trailing spaces (Completed, completed, IN PRODUCTION, Awaiting Approval, Awaiting approval, Cancelled with a trailing space).</li>
+    <li>VAT_Applied mixes Yes/No, Y/N, 1/0, and TRUE/FALSE.</li>
+    <li>Around four percent of rows are duplicate order entries from the two-branch system merge.</li>
+  </ul>
+
+  <h4 class="bh steps">Step-by-Step Power Query Cleaning Process (Excel and Power BI)</h4>
+  <ol class="steps">
+    <li>Connect to the workbook (Get Data &gt; From Workbook), select the Print Orders sheet, click Transform Data. Delete the auto-generated Changed Type step. Remove duplicate rows on all columns.</li>
+    <li>Trim and Clean all text columns in one pass. This resolves trailing spaces in PrintType, PaperSize, and OrderStatus immediately.</li>
+    <li>Standardise PrintType: Capitalize Each Word, then Replace Values to fold Branding into Branding/Stationery and packaging into Packaging, producing a clean six-value type list.</li>
+    <li>Standardise ClientType: Capitalize Each Word, then Replace Values to fold Govt into Government and ngo into NGO (since NGO is an acronym, apply Text.Upper to that value specifically using a conditional column rather than Capitalize Each Word, which would produce Ngo).</li>
+    <li>Standardise PaperSize: Replace Values to remove the internal space from "A 4" (already handled if Trim was applied globally, but an internal space is different from a leading/trailing space - use Replace Values with "A 4" as the find string and "A4" as the replace), then Capitalize, producing a clean five-value size list (A3, A4, A5, B2, Foolscap).</li>
+    <li>Fix QuantityCopies: set to Whole Number, then filter for values less than or equal to 0 and route to a review query named PrintOrders_InvalidQuantity.</li>
+    <li>Clean CostPerCopy and TotalCostNGN with the standard currency-stripping and Decimal Number conversion technique.</li>
+    <li>Add a calculated ExpectedTotal column = [QuantityCopies] * [CostPerCopy] where both are positive and not null, then a TotalCostVariance column to flag transcription discrepancies between the expected and recorded total.</li>
+    <li>Fix OrderDate and DeliveryDate: convert both to Date type using try/otherwise. Add a DeliveryGap column = if [OrderStatus] = "Completed" or [OrderStatus] = "Delivered" then if [DeliveryDate] = null then "Missing delivery date for completed order" else "OK" else "Expected blank".</li>
+    <li>Standardise OrderStatus: Trim already done, Capitalize Each Word, then Replace Values to produce a clean five-value list (Completed, In Production, Awaiting Approval, Cancelled, Delivered).</li>
+    <li>Standardise VAT_Applied into a Logical True/False column with Replace Values before changing Data Type.</li>
+    <li>Close and load as PrintOrders_Clean.</li>
+  </ol>
+</div>
+
+<div class="ds fmt-csv" id="ds35">
+  <div class="ds-hdr">
+    <span class="ds-num">Dataset 35 &nbsp;|&nbsp; CSV</span>
+    <h3>Football Academy Player Records</h3>
+  </div>
+  <div class="meta">
+    Domain: Sports and Athletics &nbsp;|&nbsp; File: <code>35_sports_academy_player_records_DIRTY.csv</code>
+  </div>
+  <p class="body">A Nigerian football federation data analyst exports a player register from seven NPFL-affiliated academies covering player profiles, contract details, performance statistics, and registration data. The register merges exports from two player management systems, one used by northern academies and one by southern academies, each with different conventions for position names, nationality labels, and performance stat formats.</p>
+  <div class="cols">Columns: PlayerID, PlayerName, Nationality, DateOfBirth, Position, PreferredFoot, Academy, JoinDate, ContractEndDate, MonthlySalaryNGN, GoalsScored, Assists, AppearancesTotal, PlayerStatus, FIFARegistered, ContactPhone</div>
+
+  <h4 class="bh issues">Data Quality Issues Deliberately Built In</h4>
+  <ul class="issues">
+    <li>Position has inconsistent casing, trailing spaces, and multi-word spacing errors for the same playing position (Goalkeeper, goalkeeper; Defender, DEFENDER; Midfielder, Mid fielder with an internal space; Forward, Forward with a trailing space; Striker with a trailing space).</li>
+    <li>PreferredFoot mixes full words and abbreviations with inconsistent casing (Right, right, right foot; Left, LEFT; Both, both).</li>
+    <li>Nationality has trailing spaces and inconsistent casing (Nigerian, NIGERIAN, Nigerian with a trailing space, nigerian).</li>
+    <li>GoalsScored and Assists contain negative values and an impossibly high outlier (999) that should be flagged for review.</li>
+    <li>AppearancesTotal also contains a negative value and an outlier.</li>
+    <li>MonthlySalaryNGN is stored as text with mixed currency notation.</li>
+    <li>ContractEndDate uses mixed date formats and is blank for some players, which may indicate an expired or informal contract.</li>
+    <li>JoinDate and DateOfBirth use mixed date formats. A player whose DateOfBirth plus 15 years is after their JoinDate would have joined the academy under age 15, which needs flagging.</li>
+    <li>PlayerStatus has trailing spaces and inconsistent casing (Active, active, INJURED, Loaned Out, Loaned out, Active with a trailing space).</li>
+    <li>FIFARegistered mixes Yes/No, Y/N, 1/0, and TRUE/FALSE.</li>
+    <li>Around four percent of rows are duplicate player records from the two-system merge.</li>
+  </ul>
+
+  <h4 class="bh steps">Step-by-Step Power Query Cleaning Process (Excel and Power BI)</h4>
+  <ol class="steps">
+    <li>Load the CSV (Get Data &gt; From Text/CSV &gt; Transform Data). Delete the auto-generated Changed Type step. Remove duplicate rows on all columns.</li>
+    <li>Trim and Clean all text columns in one pass. This resolves trailing-space variants in Position, Nationality, and PlayerStatus.</li>
+    <li>Standardise Position: Replace Values to remove the internal space from "Mid fielder" first (this is not a leading/trailing space so Trim will not catch it), then Capitalize Each Word to resolve casing variants, producing a clean six-value position list (Goalkeeper, Defender, Midfielder, Forward, Winger, Striker).</li>
+    <li>Standardise PreferredFoot: Capitalize Each Word, then Replace Values to fold "right foot" into Right, producing a clean three-value list (Right, Left, Both).</li>
+    <li>Standardise Nationality: Capitalize Each Word. This resolves all casing variants in one step.</li>
+    <li>Fix GoalsScored, Assists, and AppearancesTotal: set each to Whole Number. Add a StatsFlag conditional column: if [GoalsScored] &lt; 0 then "Negative goals - impossible" else if [GoalsScored] &gt; 200 then "Outlier - verify" else "OK", and equivalent checks for Assists and AppearancesTotal. Route flagged rows to a review query.</li>
+    <li>Clean MonthlySalaryNGN with the standard currency-stripping and Decimal Number conversion technique.</li>
+    <li>Fix DateOfBirth, JoinDate, and ContractEndDate: convert all three to Date type using try/otherwise. Add an AgeAtJoining column = Duration.Days([JoinDate] - [DateOfBirth]) / 365.25, rounded down, and flag any player who joined under age 14 or over 35 as needing verification. Add a ContractStatus column: if [ContractEndDate] = null then "No contract end date - verify" else if [ContractEndDate] &lt; Date.From(DateTime.LocalNow()) then "Contract expired" else "Active contract".</li>
+    <li>Standardise PlayerStatus: Trim already done, Capitalize Each Word, then Replace Values to produce a clean five-value list (Active, Injured, Loaned Out, Retired, Transferred).</li>
+    <li>Standardise FIFARegistered into a Logical True/False column with Replace Values before changing Data Type.</li>
+    <li>Clean ContactPhone using Text.Select to digits and + only.</li>
+    <li>Close and load as AcademyPlayers_Clean.</li>
+  </ol>
+</div>
+
+<div class="ds fmt-xlsx" id="ds36">
+  <div class="ds-hdr">
+    <span class="ds-num">Dataset 36 &nbsp;|&nbsp; XLSX</span>
+    <h3>Cold Chain and Refrigerated Cargo Shipment Records</h3>
+  </div>
+  <div class="meta">
+    Domain: Cold Chain and Logistics &nbsp;|&nbsp; File: <code>36_cold_chain_refrigerated_logistics_DIRTY.xlsx</code>
+  </div>
+  <p class="body">A cold chain logistics company exporting frozen poultry, fresh seafood, dairy products, vaccines, blood products, and pharmaceutical cargo across major Nigerian cities exports its shipment log for a supply chain quality audit. The log merges data from two temperature monitoring systems and a manual dispatch register, producing a file where temperature readings, cargo type labels, and shipment status codes all have multiple representations.</p>
+  <div class="cols">Columns: ShipmentID, ClientName, CarrierName, CargoType, DispatchDate, DeliveryDate, OriginCity, DestinationCity, SetTemperature_C, ActualTemperature_C, WeightKg, ShippingCostNGN, TemperatureStatus, ShipmentStatus, InsuranceCovered</div>
+
+  <h4 class="bh issues">Data Quality Issues Deliberately Built In</h4>
+  <ul class="issues">
+    <li>CargoType has inconsistent casing and trailing spaces for the same cargo category (Frozen Poultry, frozen poultry; Vaccines, VACCINES; Fresh Seafood, Fresh seafood; Dairy Products, Dairy with a trailing space; Blood Products, Blood products).</li>
+    <li>ActualTemperature_C mixes Celsius and Fahrenheit values in the same column, with some rows appending the letter "F" to Fahrenheit readings.</li>
+    <li>SetTemperature_C is occasionally missing, which makes the TemperatureStatus column unverifiable for those rows.</li>
+    <li>TemperatureStatus has inconsistent casing and trailing spaces (Within Range, within range, BREACH DETECTED, Breach with a trailing space, Temperature Unknown).</li>
+    <li>ShipmentStatus has inconsistent casing and trailing spaces (Delivered, delivered, IN TRANSIT, Delayed with a trailing space, SPOILED).</li>
+    <li>DeliveryDate uses mixed date formats and is blank for in-transit shipments, which is expected, but blank for some Delivered rows, which is a data gap.</li>
+    <li>WeightKg is occasionally missing and should be flagged since weight is a required field for a shipment invoice.</li>
+    <li>ShippingCostNGN is stored as text with mixed currency notation.</li>
+    <li>InsuranceCovered mixes Yes/No, Y/N, 1/0, and TRUE/FALSE.</li>
+    <li>A logical check is possible: any shipment where TemperatureStatus is "Breach Detected" and CargoType is "Vaccines" or "Blood Products" is a critical public health risk flag, not just a data quality flag.</li>
+    <li>Around four percent of rows are duplicate shipment entries from the two monitoring system merge.</li>
+  </ul>
+
+  <h4 class="bh steps">Step-by-Step Power Query Cleaning Process (Excel and Power BI)</h4>
+  <ol class="steps">
+    <li>Connect to the workbook (Get Data &gt; From Workbook), select the Cold Chain Shipments sheet, click Transform Data. Delete the auto-generated Changed Type step. Remove duplicate rows on all columns.</li>
+    <li>Trim and Clean all text columns in one pass.</li>
+    <li>Standardise CargoType: Capitalize Each Word, then Replace Values to fold Dairy into Dairy Products and Blood Products variants into one canonical value, producing a clean eight-value cargo type list.</li>
+    <li>Resolve the ActualTemperature_C unit mix: add a custom column that checks Text.EndsWith(Text.Trim([ActualTemperature_C]), "F") - if true, extract the numeric portion with Text.BeforeDelimiter([ActualTemperature_C], " "), convert to Decimal Number, and apply the formula (value - 32) * 5/9 to convert to Celsius; if false, convert the value directly to Decimal Number. Name the result ActualTemperature_C. Fix SetTemperature_C directly to Decimal Number since it has no unit mix.</li>
+    <li>Add a TemperatureBreach calculated column: this step is only possible after both temperature columns are Decimal Number type. The formula is: if [SetTemperature_C] = null or [ActualTemperature_C] = null then "Cannot verify - missing temperature data" else if [ActualTemperature_C] &gt; [SetTemperature_C] + 2 then "BREACH - temperature exceeded" else "Within acceptable range".</li>
+    <li>Add a CriticalBreachFlag column: if [TemperatureBreach] = "BREACH - temperature exceeded" and ([CargoType] = "Vaccines" or [CargoType] = "Blood Products") then "CRITICAL PUBLIC HEALTH RISK - cold chain breach on sensitive cargo" else "OK".</li>
+    <li>Standardise TemperatureStatus and ShipmentStatus: Trim already done, Capitalize Each Word, then Replace Values to produce clean controlled-vocabulary values for each.</li>
+    <li>Fix DispatchDate and DeliveryDate: convert both to Date type using try/otherwise. Add a DeliveryGap check: if [ShipmentStatus] = "Delivered" and [DeliveryDate] = null then "Missing delivery date for delivered shipment" else "OK".</li>
+    <li>Handle missing WeightKg: set to Decimal Number, then add a WeightFlag = if [WeightKg] = null then "Weight not recorded - required for invoice" else "OK".</li>
+    <li>Clean ShippingCostNGN with the standard currency-stripping and Decimal Number conversion technique.</li>
+    <li>Standardise InsuranceCovered into a Logical True/False column with Replace Values before changing Data Type.</li>
+    <li>Close and load as ColdChain_Shipments_Clean, with a companion query ColdChain_CriticalFlags filtering for every Critical Public Health Risk row and every missing weight flag.</li>
+  </ol>
+</div>
+
+<div class="ds fmt-csv" id="ds37">
+  <div class="ds-hdr">
+    <span class="ds-num">Dataset 37 &nbsp;|&nbsp; CSV</span>
+    <h3>Land Use Zoning and Planning Permit Records</h3>
+  </div>
+  <div class="meta">
+    Domain: Urban Planning and Land Administration &nbsp;|&nbsp; File: <code>37_urban_planning_land_use_DIRTY.csv</code>
+  </div>
+  <p class="body">A state land bureau exports its land use and planning permit register covering residential, commercial, industrial, agricultural, mixed use, and government reserve parcels. The register merges data from three separate local government areas whose staff used different unit conventions for plot size, different abbreviations for tenure types, and different date formats, making geographic or financial aggregation across the LGAs unreliable.</p>
+  <div class="cols">Columns: PlotID, OwnerName, OwnerPhone, LandUseCategory, TenureType, PlotSizeField, LandValueNGN, ZoningStatus, ApplicationDate, ApprovalDate, LGA, State, SurveyNumber, DisputeFlagged, GroundRentPaid</div>
+
+  <h4 class="bh issues">Data Quality Issues Deliberately Built In</h4>
+  <ul class="issues">
+    <li>LandUseCategory has inconsistent casing, abbreviations, and trailing spaces (Residential, residential, COMMERCIAL, Mixed Use, Mixed use, Industrial with a trailing space, Agric, Govt Reserve).</li>
+    <li>TenureType has a wide range of abbreviations and inconsistent casing for the same tenure instrument (Certificate of Occupancy, C of O, CofO, COO, c of o; Deed of Assignment, Deed; Leasehold, Leasehold with a trailing space; Right of Occupancy).</li>
+    <li>PlotSizeField mixes square metres and square feet in the same column, with no unit label on most rows and some rows having extremely large values that are plausible only if the unit is square feet rather than square metres.</li>
+    <li>LandValueNGN is stored as text with mixed currency notation, and multi-billion-naira values include thousands-separator commas.</li>
+    <li>ZoningStatus has inconsistent casing and trailing spaces (Approved, approved, PENDING, Rejected with a trailing space, Under Review).</li>
+    <li>ApplicationDate and ApprovalDate use mixed date formats. Some ApprovalDate values precede ApplicationDate, which is logically impossible. ApprovalDate is blank for Pending and Rejected applications, which is expected.</li>
+    <li>LGA has inconsistent casing across the three local governments (Ikeja LGA, ikeja lga, SURULERE LGA).</li>
+    <li>SurveyNumber is missing for some plots, which is a legal documentation gap.</li>
+    <li>DisputeFlagged and GroundRentPaid both mix Yes/No, Y/N, 1/0, and TRUE/FALSE.</li>
+    <li>Around four percent of rows are duplicate plot records from a quarterly GIS data sync.</li>
+  </ul>
+
+  <h4 class="bh steps">Step-by-Step Power Query Cleaning Process (Excel and Power BI)</h4>
+  <ol class="steps">
+    <li>Load the CSV (Get Data &gt; From Text/CSV &gt; Transform Data). Delete the auto-generated Changed Type step. Remove duplicate rows on all columns.</li>
+    <li>Trim and Clean all text columns in one pass.</li>
+    <li>Standardise LandUseCategory: Capitalize Each Word, then Replace Values to fold Agric into Agricultural and Govt Reserve into Government Reserve, producing a clean six-value category list.</li>
+    <li>Standardise TenureType: build a reference lookup table mapping every abbreviation and variant to a canonical four-value list (Certificate of Occupancy, Deed of Assignment, Leasehold, Right of Occupancy) and Merge Queries with a Left Outer join. A lookup table is essential here because TenureType has too many variants (C of O, CofO, COO, c of o, Deed, Leasehold with a space) for stacked Replace Values steps to be maintainable.</li>
+    <li>Resolve the PlotSizeField unit mix: since the source data carries no explicit unit label on most rows, build a documented business rule using domain knowledge - residential plots in Nigeria are typically 300 to 5000 square metres, so any PlotSizeField value above 50000 is almost certainly square feet and should be divided by 10.764 to convert to square metres. Add a conditional column applying this conversion where the value exceeds the threshold, and add a PlotSizeUnit column marking each row "sqm (original)", "sqm (converted from sqft)", or "Unresolved" for values in an ambiguous range. Document this assumption explicitly as the step name.</li>
+    <li>Clean LandValueNGN: strip commas first, then apply the standard currency-stripping chain, Trim, and set to Decimal Number.</li>
+    <li>Standardise ZoningStatus: Trim already done, Capitalize Each Word, then Replace Values to produce a clean five-value list (Approved, Pending, Rejected, Revoked, Under Review).</li>
+    <li>Fix ApplicationDate and ApprovalDate: convert both to Date type using try/otherwise. Add an ApprovalLogicCheck column: if [ApprovalDate] &lt; [ApplicationDate] then "Approval before application - impossible" else if [ZoningStatus] = "Approved" and [ApprovalDate] = null then "Missing approval date for approved plot" else "OK".</li>
+    <li>Standardise LGA: Capitalize Each Word, which resolves all three LGA casing variants in one step.</li>
+    <li>Flag missing SurveyNumber: add a SurveyFlag = if [SurveyNumber] = null then "Survey number missing - legal documentation gap" else "OK".</li>
+    <li>Standardise DisputeFlagged and GroundRentPaid into Logical True/False columns with Replace Values before changing Data Type.</li>
+    <li>Close and load as LandUse_Plots_Clean.</li>
+  </ol>
+</div>
+
+<div class="ds fmt-xlsx" id="ds38">
+  <div class="ds-hdr">
+    <span class="ds-num">Dataset 38 &nbsp;|&nbsp; XLSX</span>
+    <h3>Veterinary Clinic Patient and Treatment Records</h3>
+  </div>
+  <div class="meta">
+    Domain: Veterinary and Animal Health &nbsp;|&nbsp; File: <code>38_veterinary_clinic_animal_health_DIRTY.xlsx</code>
+  </div>
+  <p class="body">A veterinary clinic chain operating across Lagos and Abuja exports its patient register covering dogs, cats, goats, cattle, poultry, sheep, rabbits, horses, and pigs. The register merges records from two clinic branches whose data entry conventions differ particularly on animal weight units, treatment type labels, diagnosis terminology, and the format of the vet name field.</p>
+  <div class="cols">Columns: RecordID, AnimalName, AnimalType, Breed, Age_years, Weight_kg, OwnerName, OwnerPhone, VisitDate, TreatmentType, Diagnosis, VetName, ConsultationFee, NextVisitDate, AnimalStatus, VaccinationCurrent</div>
+
+  <h4 class="bh issues">Data Quality Issues Deliberately Built In</h4>
+  <ul class="issues">
+    <li>AnimalType has inconsistent casing and trailing spaces for the same type (Dog, dog, CAT; Cattle, Cattle with a trailing space; Poultry (Hen), Poultry; Sheep, sheep).</li>
+    <li>TreatmentType has inconsistent casing, trailing spaces, and multi-word spacing errors (Vaccination, vaccination, SURGERY, Deworming with a trailing space, Wound dressing, Wound Dressing; General Check-up versus Consultation).</li>
+    <li>Weight_kg mixes kilograms and pounds in the same column, with some rows appending "lbs" to the value.</li>
+    <li>Age_years contains negative values, a 0 (which may be valid for a newborn), and an impossibly large value (150).</li>
+    <li>Diagnosis has inconsistent casing, a high rate of nulls, N/A, and unknown values mixed together.</li>
+    <li>VetName uses inconsistent capitalisation across the two branches (DR. EMEKA OKAFOR, Dr. Emeka Okafor, dr. emeka okafor).</li>
+    <li>ConsultationFee is stored as text with mixed currency notation.</li>
+    <li>NextVisitDate uses mixed date formats and is blank for one-off treatments where no follow-up was scheduled.</li>
+    <li>AnimalStatus has trailing spaces and inconsistent casing (Treated, treated, DECEASED, Under Observation, Discharged with a trailing space).</li>
+    <li>VaccinationCurrent mixes Yes/No, Y/N, 1/0, and TRUE/FALSE.</li>
+    <li>Around four percent of rows are duplicate patient records from a clinic system migration.</li>
+  </ul>
+
+  <h4 class="bh steps">Step-by-Step Power Query Cleaning Process (Excel and Power BI)</h4>
+  <ol class="steps">
+    <li>Connect to the workbook (Get Data &gt; From Workbook), select the Vet Records sheet, click Transform Data. Delete the auto-generated Changed Type step. Remove duplicate rows on all columns.</li>
+    <li>Trim and Clean all text columns in one pass.</li>
+    <li>Standardise AnimalType: Capitalize Each Word, then Replace Values to fold Poultry into Poultry (Hen) where the business confirms the dataset only covers hens, or keep Poultry as a broader category if other poultry types are present.</li>
+    <li>Standardise TreatmentType: Replace Values to correct the internal-space error in "Wound dressing" (making it "Wound Dressing") first, since Trim only catches leading/trailing spaces. Then Capitalize Each Word. Then Replace Values to decide - with the business - whether "General Check-up" and "Consultation" are the same service or distinct, and fold accordingly.</li>
+    <li>Resolve the Weight_kg unit mix: add a custom column using the same Text.Contains("lbs") pattern used in DS 36 and DS 38 from earlier sets - extract the numeric portion and multiply by 0.4536 where lbs is present, otherwise convert directly to Decimal Number. Name the result Weight_kg and drop the original column.</li>
+    <li>Fix Age_years: set to Decimal Number, then add an AgeFlag column: if [Age_years] &lt; 0 then "Negative age - impossible" else if [Age_years] &gt; 30 then "Unusually old - verify species" else "OK". Note that age 0 is valid for a newborn animal.</li>
+    <li>Standardise Diagnosis: Trim already done, Capitalize Each Word, then Replace Values to fold N/A, unknown, and Unknown into a true null, keeping genuine diagnosis names intact.</li>
+    <li>Standardise VetName: Capitalize Each Word resolves the casing differences across branches. Verify the "Dr." prefix is correctly capitalised as "Dr." and not "Dr" or "DR." after the transformation.</li>
+    <li>Clean ConsultationFee with the standard currency-stripping and Decimal Number conversion technique.</li>
+    <li>Fix VisitDate and NextVisitDate: convert both to Date type using try/otherwise. Add a FollowUpStatus column: if [NextVisitDate] = null then "No follow-up scheduled" else if [NextVisitDate] &lt; Date.From(DateTime.LocalNow()) then "Follow-up date passed - check if attended" else "Upcoming".</li>
+    <li>Standardise AnimalStatus: Trim already done, Capitalize Each Word, then Replace Values to produce a clean five-value list (Treated, Deceased, Under Observation, Referred, Discharged).</li>
+    <li>Standardise VaccinationCurrent into a Logical True/False column with Replace Values before changing Data Type.</li>
+    <li>Close and load as VetClinic_Animals_Clean.</li>
+  </ol>
+</div>
+
+<div class="ds fmt-csv" id="ds39">
+  <div class="ds-hdr">
+    <span class="ds-num">Dataset 39 &nbsp;|&nbsp; CSV</span>
+    <h3>Federal Inland Revenue Service (FIRS) Taxpayer Records</h3>
+  </div>
+  <div class="meta">
+    Domain: Tax Administration and Revenue &nbsp;|&nbsp; File: <code>39_tax_administration_FIRS_DIRTY.csv</code>
+  </div>
+  <p class="body">A FIRS regional office exports a taxpayer compliance register covering company income tax, VAT, personal income tax, withholding tax, capital gains tax, and education tax assessments across eight business sectors. The register merges exports from the FIRS Integrated Tax Administration System (ITAS) with a manually maintained audit tracking sheet, producing a file where tax type codes, compliance status labels, and financial amounts all have multiple inconsistent representations.</p>
+  <div class="cols">Columns: TaxpayerID, CompanyName, TaxType, Sector, RegistrationDate, AssessmentYear, TurnoverNGN, TaxLiabilityNGN, TaxPaidNGN, OutstandingNGN, ComplianceStatus, PenaltyNGN, ContactPhone, State, AuditFlag</div>
+
+  <h4 class="bh issues">Data Quality Issues Deliberately Built In</h4>
+  <ul class="issues">
+    <li>TaxType mixes full official names with abbreviated codes and inconsistent casing (Company Income Tax (CIT), CIT, cit, Company Income Tax; Value Added Tax (VAT), VAT, vat; Education Tax, Education Tax with a trailing space).</li>
+    <li>ComplianceStatus has inconsistent casing and trailing spaces (Compliant, compliant, NON-COMPLIANT, Non-Compliant, Under Audit, Under audit, Exempted with a trailing space, Partially Compliant).</li>
+    <li>TurnoverNGN, TaxLiabilityNGN, TaxPaidNGN, OutstandingNGN, and PenaltyNGN are all stored as text with mixed currency notation. Billion-naira values have thousands-separator commas.</li>
+    <li>OutstandingNGN should equal TaxLiabilityNGN minus TaxPaidNGN, and rows where the recorded outstanding balance does not match this calculation are financial discrepancies.</li>
+    <li>TaxPaidNGN exceeds TaxLiabilityNGN for some rows, which may indicate an overpayment credit or a data entry error.</li>
+    <li>PenaltyNGN is blank for Compliant and Exempted taxpayers, which is expected, but also blank for some Non-Compliant taxpayers, which is a data gap.</li>
+    <li>AssessmentYear is stored as text in some rows and as a number in others, and some rows have it blank.</li>
+    <li>RegistrationDate uses mixed date formats.</li>
+    <li>AuditFlag mixes Yes/No, Y/N, 1/0, and TRUE/FALSE.</li>
+    <li>Around five percent of rows are duplicate taxpayer-year records from the ITAS and manual audit sheet merge.</li>
+  </ul>
+
+  <h4 class="bh steps">Step-by-Step Power Query Cleaning Process (Excel and Power BI)</h4>
+  <ol class="steps">
+    <li>Load the CSV (Get Data &gt; From Text/CSV &gt; Transform Data). Set TaxpayerID to Text type immediately. Delete the auto-generated Changed Type step. Remove duplicate rows on TaxpayerID and AssessmentYear together (since the same taxpayer can appear in multiple years).</li>
+    <li>Trim and Clean all text columns in one pass.</li>
+    <li>Standardise TaxType: build a reference lookup table mapping every abbreviated code and full-name variant to the canonical official FIRS tax type name (Company Income Tax (CIT), Value Added Tax (VAT), Personal Income Tax (PIT), Withholding Tax (WHT), Capital Gains Tax (CGT), Education Tax (EDT)) and Merge Queries with a Left Outer join.</li>
+    <li>Standardise ComplianceStatus: Trim already done, Capitalize Each Word, then Replace Values to fold Non-Compliant and NON-COMPLIANT into Non-Compliant (using the hyphenated form as the canonical value), producing a clean five-value list (Compliant, Non-Compliant, Under Audit, Exempted, Partially Compliant).</li>
+    <li>Clean TurnoverNGN, TaxLiabilityNGN, TaxPaidNGN, OutstandingNGN, and PenaltyNGN: for each column, strip commas first, then apply the standard currency-stripping chain, Trim, then set to Decimal Number. Inspect errors before removing.</li>
+    <li>Add a calculated OutstandingRecalc column = [TaxLiabilityNGN] - [TaxPaidNGN] where both are not null, then an OutstandingVariance column = Number.Abs([OutstandingNGN] - [OutstandingRecalc]) and flag any row where the variance exceeds 1 naira as "Balance discrepancy - review".</li>
+    <li>Add an Overpayment flag: if [TaxPaidNGN] &gt; [TaxLiabilityNGN] then "Overpayment - possible credit balance or entry error" else "OK".</li>
+    <li>Handle PenaltyNGN blanks deliberately: add a PenaltyStatus column - if [ComplianceStatus] = "Non-Compliant" and [PenaltyNGN] = null then "Penalty not recorded for non-compliant taxpayer - follow up" else "OK". Do not convert null to zero here since a missing penalty is different from a waived penalty.</li>
+    <li>Fix AssessmentYear: set to Whole Number. Filter on errors and blank values, flagging them for the tax officer to confirm. Add a LiabilityPercentage column = [TaxLiabilityNGN] / [TurnoverNGN] where both are non-null and TurnoverNGN is non-zero, to compute the effective tax rate and flag any outlier rows for the audit team.</li>
+    <li>Fix RegistrationDate: convert to Date type using try/otherwise.</li>
+    <li>Standardise AuditFlag into a Logical True/False column with Replace Values before changing Data Type.</li>
+    <li>Close and load as FIRS_Taxpayers_Clean, with a companion query FIRS_ComplianceFlags filtering for non-compliant taxpayers with missing penalties, balance discrepancies, and overpayment flags combined in one audit exception view.</li>
+  </ol>
+</div>
+
+<div class="ds fmt-xlsx" id="ds40">
+  <div class="ds-hdr">
+    <span class="ds-num">Dataset 40 &nbsp;|&nbsp; XLSX</span>
+    <h3>Funeral Home and Cemetery Management Records</h3>
+  </div>
+  <div class="meta">
+    Domain: Funeral Services and Cemetery Management &nbsp;|&nbsp; File: <code>40_funeral_cemetery_management_DIRTY.xlsx</code>
+  </div>
+  <p class="body">A Lagos state cemetery authority exports a burial and service register covering six cemeteries across the state. The register is compiled from paper ledgers that were digitised by different clerks over many years, and every categorical field carries the casing and spelling inconsistencies of manual data entry. This is the most sensitive dataset in Set 4 and should be handled with appropriate care in a classroom context.</p>
+  <div class="cols">Columns: RecordID, DeceasedName, AgeAtDeath, Gender, Religion, DateOfDeath, BurialDate, ServiceType, CemeteryName, GraveNumber, GraveStatus, NextOfKinName, NextOfKinPhone, ServiceFeeNGN, GraveRenewalDate, State</div>
+
+  <h4 class="bh issues">Data Quality Issues Deliberately Built In</h4>
+  <ul class="issues">
+    <li>ServiceType has inconsistent casing and trailing spaces for the same service (Burial, burial, CREMATION, Cremation with a trailing space, Vault Interment, Vault interment).</li>
+    <li>Religion has inconsistent casing and trailing spaces (Christian, christian, MUSLIM, Muslim with a trailing space, Traditional).</li>
+    <li>GraveStatus has inconsistent casing and trailing spaces (Occupied, occupied, VACANT, Reserved with a trailing space, Under Maintenance).</li>
+    <li>AgeAtDeath contains negative values, a zero (which is valid for an infant death), and an impossibly high value (200) that needs flagging.</li>
+    <li>Gender mixes Male/Female with single-letter M/F in different cases.</li>
+    <li>DateOfDeath and BurialDate use mixed date formats. Some BurialDate values precede DateOfDeath, which is logically impossible.</li>
+    <li>GraveRenewalDate is blank for many records, which may mean no renewal is required or that the renewal was never tracked.</li>
+    <li>GraveNumber is missing for some records, which is a cemetery management gap.</li>
+    <li>ServiceFeeNGN is stored as text with mixed currency notation.</li>
+    <li>NextOfKinPhone uses the standard multi-format problem present across all Nigerian datasets.</li>
+    <li>Around four percent of rows are duplicate burial records from a ledger page being keyed in twice.</li>
+  </ul>
+
+  <h4 class="bh steps">Step-by-Step Power Query Cleaning Process (Excel and Power BI)</h4>
+  <ol class="steps">
+    <li>Connect to the workbook (Get Data &gt; From Workbook), select the Funeral Records sheet, click Transform Data. Delete the auto-generated Changed Type step. Remove duplicate rows on all columns.</li>
+    <li>Trim and Clean all text columns in one pass.</li>
+    <li>Standardise ServiceType: Trim already done, Capitalize Each Word, then Replace Values to produce a clean five-value list (Burial, Cremation, Vault Interment, Embalming Only, Memorial Service).</li>
+    <li>Standardise Religion: Trim already done, Capitalize Each Word, producing a clean three-value list (Christian, Muslim, Traditional).</li>
+    <li>Standardise GraveStatus: Trim already done, Capitalize Each Word, then Replace Values to produce a clean four-value list (Occupied, Vacant, Reserved, Under Maintenance).</li>
+    <li>Fix AgeAtDeath: set to Whole Number, then add an AgeFlag column: if [AgeAtDeath] &lt; 0 then "Negative age - impossible" else if [AgeAtDeath] = 0 then "Infant death - verify" else if [AgeAtDeath] &gt; 120 then "Age above 120 - verify" else "OK". Note that age 0 is valid for infant deaths and should not be removed.</li>
+    <li>Standardise Gender: Replace Values to map M and m to Male and F and f to Female.</li>
+    <li>Fix DateOfDeath and BurialDate: convert both to Date type using try/otherwise. Add a BurialLogicCheck column: if [BurialDate] &lt; [DateOfDeath] then "Burial before death - impossible" else if Duration.Days([BurialDate] - [DateOfDeath]) &gt; 30 then "Burial more than 30 days after death - verify" else "OK".</li>
+    <li>Handle GraveRenewalDate: convert to Date type using try/otherwise. Add a RenewalStatus column: if [GraveRenewalDate] = null then "No renewal date on record" else if [GraveRenewalDate] &lt; Date.From(DateTime.LocalNow()) then "Renewal date passed - follow up" else "Renewal upcoming".</li>
+    <li>Flag missing GraveNumber: add a GraveNumberFlag = if [GraveNumber] = null then "Grave number missing - cemetery management gap" else "OK".</li>
+    <li>Clean ServiceFeeNGN with the standard currency-stripping and Decimal Number conversion technique.</li>
+    <li>Clean NextOfKinPhone using Text.Select to digits and + only.</li>
+    <li>Close and load as Cemetery_Records_Clean.</li>
+  </ol>
+</div>
+
+
+<!-- CHEAT SHEET -->
+<h2 class="sec" id="cheat">Power Query M Language Cheat Sheet</h2>
+<div class="card">
+  <p class="body" style="margin-bottom:14px">Quick-reference M snippets covering the most frequently used cleaning operations across all ten datasets in this set, including the mixed-format source connection functions and unit conversion formulas introduced in Set 4 for the first time.</p>
+  <table class="t">
+    <tr>
+      <th style="width:38%">Task</th>
+      <th>M Code</th>
+    </tr>
+    
+    <tr>
+      <td>Connect to a CSV file in M code</td>
+      <td class="code-cell">Csv.Document(File.Contents("C:\path\file.csv"),[Delimiter=",",Encoding=65001])</td>
+    </tr>
+    <tr>
+      <td>Connect to an Excel sheet in M code</td>
+      <td class="code-cell">Excel.Workbook(File.Contents("C:\path\file.xlsx"),true){[Name="SheetName"]}[Data]</td>
+    </tr>
+    <tr>
+      <td>Trim and clean in one step</td>
+      <td class="code-cell">Text.Clean(Text.Trim([Column]))</td>
+    </tr>
+    <tr>
+      <td>Force UPPERCASE for acronyms and codes</td>
+      <td class="code-cell">Text.Upper([Column])</td>
+    </tr>
+    <tr>
+      <td>Title case for names and categories</td>
+      <td class="code-cell">Text.Proper([Column])</td>
+    </tr>
+    <tr>
+      <td>Strip currency markers and commas from an amount field</td>
+      <td class="code-cell">Text.Trim(Text.Replace(Text.Replace(Text.Replace(Text.Replace(Text.Replace([Col],",",""),"NGN",""),"naira",""),"N",""),"₦",""))</td>
+    </tr>
+    <tr>
+      <td>Keep digits only for phone number normalisation</td>
+      <td class="code-cell">Text.Select([Column],{"0".."9"})</td>
+    </tr>
+    <tr>
+      <td>Safe date parse returning null on error</td>
+      <td class="code-cell">try Date.FromText([Column]) otherwise null</td>
+    </tr>
+    <tr>
+      <td>Convert Fahrenheit to Celsius where column mixes both</td>
+      <td class="code-cell">if Text.EndsWith(Text.Trim([Column]),"F") then (Number.From(Text.BeforeDelimiter([Column]," "))-32)*5/9 else Number.From([Column])</td>
+    </tr>
+    <tr>
+      <td>Convert short tons to metric tonnes (mining context)</td>
+      <td class="code-cell">Number.From(Text.BeforeDelimiter([Column]," "))*0.907185</td>
+    </tr>
+    <tr>
+      <td>Convert lbs to kg in a mixed-unit weight column</td>
+      <td class="code-cell">if Text.Contains([Column],"lbs") then Number.From(Text.BeforeDelimiter([Column]," "))*0.4536 else Number.From([Column])</td>
+    </tr>
+    <tr>
+      <td>Flag a value outside an expected numeric range</td>
+      <td class="code-cell">if [Column] &lt; 0 or [Column] &gt; MaxValue then "Out of range - review" else "OK"</td>
+    </tr>
+    <tr>
+      <td>Standardise a boolean Yes/No column to Logical</td>
+      <td class="code-cell">List.Contains({"Yes","Y","1","TRUE","true","yes"},[Column])</td>
+    </tr>
+    <tr>
+      <td>Safe division avoiding divide-by-zero</td>
+      <td class="code-cell">if [Denominator] = null or [Denominator] = 0 then null else [Numerator]/[Denominator]</td>
+    </tr>
+    <tr>
+      <td>Compute outstanding balance from two amount columns</td>
+      <td class="code-cell">if [TaxLiabilityNGN] = null or [TaxPaidNGN] = null then null else [TaxLiabilityNGN] - [TaxPaidNGN]</td>
+    </tr>
+  </table>
+</div>
+
+<!-- FACILITATOR NOTES -->
+<h2 class="sec" id="notes">Facilitator Notes</h2>
+<div class="card">
+  <ul style="padding-left:22px">
+    <li style="margin-bottom:11px;font-size:.92rem">Open the first lesson by loading one CSV and one .xlsx file side by side in two separate queries, and show trainees that once both files are in the Power Query Editor the transformation experience is completely identical. The difference is only in the Source step at the top of the M code.</li>
+    <li style="margin-bottom:11px;font-size:.92rem">Use Column Quality (View &gt; Column Quality) and Column Distribution (View &gt; Column Distribution) at the start of every dataset. These two views do more diagnostic work in 30 seconds than a trainee could do by scrolling through data for 10 minutes.</li>
+    <li style="margin-bottom:11px;font-size:.92rem">For the mixed-unit columns in this set (temperature in Celsius and Fahrenheit in DS 36, weight in kg and lbs in DS 38, land area in square metres and square feet in DS 37, mined quantity in metric tonnes and short tons in DS 31), always make the business assumption explicit in the Applied Step name before applying a conversion formula. An undocumented unit conversion is a silent error waiting to cause problems downstream.</li>
+    <li style="margin-bottom:11px;font-size:.92rem">The tax dataset (DS 39) is an excellent vehicle for teaching the OutstandingNGN recomputation pattern: clean TaxLiabilityNGN and TaxPaidNGN to Decimal Number first, then add a calculated OutstandingRecalc = TaxLiabilityNGN - TaxPaidNGN column, and compare it to the original OutstandingNGN to surface rows where the carried-forward balance was wrong in the source system.</li>
+    <li style="margin-bottom:11px;font-size:.92rem">The pension dataset (DS 32) is a good opportunity to teach the cross-column date validation pattern: RetirementDate must always be after JoinDate, and a calculated TenureYears column (Duration.Days between them divided by 365.25) should fall within a plausible range for the Sector. Flag rows outside the range for the PFA compliance team rather than correcting them silently.</li>
+    <li style="margin-bottom:11px;font-size:.92rem">For the cold chain dataset (DS 36), use the temperature breach logic as a teaching moment about conditional column chains: a TemperatureBreach flag derived from SetTemperature_C versus ActualTemperature_C is only meaningful after both columns have been cleaned to a consistent Celsius numeric type, which is itself only possible after the mixed-unit conversion step. The order of Applied Steps matters and this dataset demonstrates it clearly.</li>
+    <li style="margin-bottom:11px;font-size:.92rem">Encourage trainees to build a reusable currency-cleaning function query (a named query that takes a text column and returns a Decimal Number column after stripping all known currency markers) by the end of Set 4. They have now applied the same pattern across 40 datasets and are ready to abstract it into a function.</li>
+  </ul>
+</div>
+
+<div class="note">
+  This set contains five CSV files and five Excel workbooks. The connection step differs by format (Get Data &gt; From Text/CSV for CSVs; Get Data &gt; From Workbook for .xlsx files) but every transformation step inside the Power Query Editor is identical regardless of source format. Trainees should never edit the raw CSV or open the .xlsx to edit cells directly - all cleaning must happen inside the Applied Steps pane. Rename every step in plain English so the finished query is fully self-documenting and auditable.
+</div>
+
+<footer>
+  Prodigy Training Hub | Data Science and Analytics Training | Lagos, Nigeria<br>
+  Kajola Gbenga Adewale | Data Expert
+</footer>
+
+</div>
+</body>
+</html>

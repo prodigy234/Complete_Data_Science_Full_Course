@@ -1,0 +1,481 @@
+LicenseID,CompanyName,MineralType,MineSite,LicenseType,LicenseIssueDate,LicenseExpiryDate,QuantityMined_tonnes,RevenueNGN,RoyaltyPaidNGN,MineStatus,ContactPhone,State,EnvironmentalClearance,NMRCRegistered
+MML600037,Grace Afolabi Mining Ltd,Tin ,Nasarawa Barytes Mine,Small-Scale Mining,18.07.2013,05/16/2015,37547.31,"NGN 59,616,380,837","₦3,189,647,366.79",Suspended ,(586) 923-2260,Plateau,FALSE,false
+MML600022,Grace Balogun Mining Ltd,Iron Ore,Plateau Mining Zone,Small-Scale Mining,08/06/2010,11/01/2019,45850.85,"N206,310,018,672","N9,077,313,562",INACTIVE,(651) 333-8726,Zamfara,Y,yes
+MML600249,Sadiq Balogun Mining Ltd,limestone,Ebonyi Lead-Zinc Site,Quarry Lease,00/00/0000,11-Apr-2022,34619.29,"₦153,470,163,830.28",7231278781.28 naira,Inactive,+234965047735,Zamfara,no,N
+MML600360,Sadiq Suleiman Mining Ltd,COAL,Cross River Barite Site,Small-Scale Mining,04/02/2018,29/10/2027,69615.98,"NGN 94,775,399,298",,Suspended ,03070534578,Zamfara,true,FALSE
+MML600105,Chinedu Okafor Mining Ltd,Limestone,Benue Coal Field,Quarry Lease,09/11/2020,2022/07/27,11279.92,"NGN 11,917,791,958","NGN 681,689,465",Suspended,09521456232,Kogi,No,TRUE
+MML600251,  Musa Olawale Mining Ltd   ,limestone,Sokoto Gypsum Deposit,Small-Scale Mining,09-Mar-2011,2012-12-12,42341.72,7157128968.19 naira,,Active,04262655110,Benue,0,no
+MML600402,Aliyu Nnamdi Mining Ltd,Barite,Zamfara Gold Belt,Exploration,2021/01/06,03/12/2026,57702.33,"NGN 60,787,073,521",3628146768.86 naira,Inactive,63735160917,Sokoto,N,N
+MML600076,Obinna Olawale Mining Ltd,Gold,Nasarawa Barytes Mine,Quarry lease,10.05.2017,2019-04-30,34071.13,"₦16,165,515,111.17","N1,119,743,326",Active,0869 993 8677,Nasarawa,Y,1
+MML600224,Segun Suleiman Mining Ltd,gold,Zamfara Gold Belt,Small Scale,2016-10-16,04/13/2022,4692.02,"N21,051,781,352","NGN 1,176,436,200",Inactive,234-106-903-311,Sokoto,No,true
+MML600007,Femi Nwosu Mining Ltd,Gold,Zamfara Gold Belt,Exploration,16/02/2020,25/06/2022,21072.35,7057451129.21 naira,217661464.36,Abandoned,0255 341 9283,Benue,N,No
+MML600416,Emeka Afolabi Mining Ltd,Tin,Nasarawa Barytes Mine,exploration,26/02/2015,16-Jul-2022,70364.88,312491496069.05 naira,"₦20,945,891,843.31",Suspended,05158328182,Kogi,No,1
+MML600189,Musa Okafor Mining Ltd,Iron ore,Plateau Mining Zone,exploration,2019-05-06,09/10/2021,73931.92,"₦78,286,039,700.71",4392721072.97,Inactive,234-395-004-797,Benue,Y,Y
+MML600239,Obinna Mohammed Mining Ltd,gold,Kogi Iron Ore Field,Exploration,24 August 2013,2020-08-17,25632.93,106272364053.48,4907922735.44,Abandoned,00062312038,Sokoto,Yes,Y
+MML600044,Zainab Eze Mining Ltd,Barite,Benue Coal Field,Small Scale,25-Nov-2021,16-Mar-2026,38566.08,"NGN 105,831,078,440","NGN 3,594,778,896",Suspended,0648 236 6299,Zamfara,No,No
+MML600359,Femi Suleiman Mining Ltd,Iron ore,Zamfara Gold Belt,Quarry lease,08.07.2015,2020/10/23,35586.36,"NGN 80,500,090,365","4,133,746,123.14 ",INACTIVE,+234486289023,Zamfara,Yes,no
+MML600333,Ngozi Abubakar Mining Ltd   ,Limestone,Kogi Iron Ore Field,Quarry lease,02-Sep-2013,02/21/2021,11693.11,,,INACTIVE,+234921851569,Benue,N,Yes
+MML600318,Chioma Abubakar Mining Ltd,Zinc,Sokoto Gypsum Deposit,MINING LEASE,2011-10-13,14.06.2013,12888.93 short tons,26534514684.71 naira,1010446830.25,Reclaimed,234-741-124-903,Ebonyi,N,N
+MML600279,Sadiq Abubakar Mining Ltd,Columbite,Nasarawa Barytes Mine,Small Scale,14-Apr-2012,04/08/2019,3567.88,"1,852,012,733.84 ","NGN 102,225,630",Suspended ,09788191485,Cross River,0,no
+MML600427,Ibrahim Okonkwo Mining Ltd,gold,Benue Coal Field,Small-Scale Mining,06/14/2014,18/03/2017,71242.75,128955930805.79 naira,7571366376.68,Active,234-450-882-100,Plateau,N,true
+MML600364,amara lawal mining ltd   ,Gypsum,Benue Coal Field,small-scale mining,23.09.2010,2014-06-03,22879.65,"₦100,582,396,290.58",5289816564.14,Inactive,+234290349446,Plateau,FALSE,1
+MML600403,Ngozi Balogun Mining Ltd,Iron ore,Zamfara Gold Belt,Mining Lease,16 August 2020,29/03/2027,Unknown,"NGN 83,868,922,663",4390361345.93,active,234-982-708-086,Zamfara,Y,yes
+MML600082,Yusuf Afolabi Mining Ltd,Iron Ore,Ebonyi Lead-Zinc Site,Quarry lease,2016-03-04,08-Nov-2017,47321.26,126959093076.69,"7,542,447,297.05 ",active,+234771906594,Sokoto,Yes,TRUE
+MML600294,Emeka Okafor Mining Ltd,GOLD,Cross River Barite Site,Mining Lease,2010/03/11,2012/08/03,39329.13,unknown,7923563167.3,Reclaimed,0000000000,Zamfara,yes,FALSE
+MML600336,NGOZI  OKEKE MINING LTD,Limestone,Nasarawa Barytes Mine,MINING LEASE,01/14/2014,2015/02/04,51975.65 short tons,170324801751.98,"N5,948,050,728",Abandoned,0690 295 9391,Ebonyi,TRUE,no
+MML600123,IFEOMA AFOLABI MINING LTD,Lead,Nasarawa Barytes Mine,exploration,29/10/2020,22 September 2029,2634.91,"NGN 11,182,210,360","NGN 409,267,644",Abandoned,02711116152,Cross River,Y,true
+MML600286,Kunle Okeke Mining Ltd,Gypsum,Nasarawa Barytes Mine,Small-Scale Mining,2018/05/26,19/10/2022,,4360567233.16 naira,"N155,736,680",INACTIVE,0759 017 5186,Kogi,Y,TRUE
+MML600240,Segun Balogun Mining Ltd,Lead,Cross River Barite Site,Exploration,15.08.2012,2017/01/27,2108.11,"NGN 5,898,434,581","N228,945,331",Active,234-099-770-088,Benue,Y,false
+MML600062,Halima Bello Mining Ltd,Limestone,Nasarawa Barytes Mine,exploration,04/02/2016,2020-01-19,81644.22,"NGN 13,496,962,536","₦505,352,218.22",Suspended,0966 319 3149,Zamfara,true,no
+MML600160,HALIMA ADEKUNLE MINING LTD,Zinc,Benue Coal Field,MINING LEASE,24-Feb-2010,10-Oct-2016,74972.97,"150,511,927,321.90 ",,Active,(893) 246-0953,Kogi,Y,true
+MML600173,Kemi Lawal Mining Ltd,Limestone,Sokoto Gypsum Deposit,MINING LEASE,2011-01-26,14.07.2016,N/A,"NGN 6,536,059,643","N252,414,081",Suspended,234-278-681-447,Ebonyi,no,true
+MML600424,Segun Suleiman Mining Ltd,Limestone,Cross River Barite Site,Mining Lease,21.07.2016,16-Jan-2025,41230.35,"N148,244,568,084",,Abandoned,66506180919,Zamfara,no,false
+MML600184,Fatima Eze Mining Ltd,Limestone,Plateau Mining Zone,Quarry lease,01 July 2011,26 December 2012,70991.52,"N44,546,858,283",,Reclaimed,06471027677,Sokoto,true,Yes
+MML600208,IBRAHIM OKEKE MINING LTD,Tin,Plateau Mining Zone,Small Scale,09/11/2017,06/01/2025,29841.25 short tons,18406708618.97,"N1,070,794,589",Abandoned,234-672-400-499,Ebonyi,N,false
+MML600431,Grace Nwosu Mining Ltd,Coal,Zamfara Gold Belt,Quarry lease,10-Sep-2014,27/02/2024,47805.03,"₦106,358,287,305.54",--,Abandoned,(552) 314-9135,Sokoto,Y,false
+MML600400,Blessing Mohammed Mining Ltd,limestone,Benue Coal Field,Small Scale,11/30/2013,08 April 2022,12869.66,"₦38,208,779,459.62",?,Suspended ,01130554885,Kogi,N,No
+MML600351,Yusuf Ogundimu Mining Ltd,Iron ore,Benue Coal Field,Quarry lease,12/01/2018,06/19/2025,58199.17,"₦228,294,273,125.74",15720694468.16 naira,active,+234061632945,Nasarawa,false,yes
+MML600247,Amara Chukwu Mining Ltd,Coal,Zamfara Gold Belt,Exploration,2017/11/19,2019-03-18,7716.7,"₦29,432,140,265.88",1991784749.8,Abandoned,(614) 293-9685,Kogi,0,true
+MML600451,Chidi Okonkwo Mining Ltd,Lead,Plateau Mining Zone,Quarry lease,24.05.2018,10/27/2025,40198.33,138089293268.76,"₦6,556,179,350.71",Reclaimed,invalid,Cross River,No,FALSE
+MML600215,Segun Adeyemi Mining Ltd,limestone,Ebonyi Lead-Zinc Site,Mining Lease,2015/04/24,2024/04/17,42647.2,80101176710.8,"₦4,152,977,706.72",Inactive,27956878339,Zamfara,true,true
+MML600089,Chioma Balogun Mining Ltd,gold,Benue Coal Field,Quarry Lease,2010/05/09,03 September 2013,49898.28,"₦169,531,022,546.13","₦9,918,998,372.93",Suspended ,234-861-317-127,Plateau,true,yes
+MML600421,Zainab Eze Mining Ltd,COAL,Sokoto Gypsum Deposit,exploration,09/07/2021,2024/02/05,70638.3,"96,243,979,926.04 ","NGN 3,309,310,278",Inactive,(112) 880-1336,Ebonyi,yes,0
+MML600428,Grace  Bello Mining Ltd   ,COAL,Plateau Mining Zone,Exploration,19 July 2015,12/03/2016,25528.74 short tons,"NGN 13,900,463,267","852,962,235.09 ",INACTIVE,96881435368,Plateau,yes,yes
+MML600065,Ngozi Yusuf Mining Ltd,Coal,Kogi Iron Ore Field,Quarry Lease,15 May 2016,03 April 2018,21301.83,"₦61,264,149,494.61","₦3,187,797,717.88",active,(877) 694-5314,Benue,FALSE,true
+MML600011,Bisi Balogun Mining Ltd   ,Columbite ,Nasarawa Barytes Mine,Quarry Lease,17/11/2018,2021-05-06,57093.83,79074212621.65 naira,3372284892.41,Active,(287) 101-2269,Nasarawa,true,No
+MML600216,Obinna Ogundimu Mining Ltd,limestone,Ebonyi Lead-Zinc Site,Quarry lease,03.01.2017,11/18/2024,4945.28 short tons,7082866994.2,"N433,054,175",Active,(187) 851-9108,Kogi,FALSE,Yes
+MML600191,Yusuf Chukwu Mining Ltd,Tin ,Kogi Iron Ore Field,Small Scale,N/A,2018-11-13,29284.95,"₦86,875,967,374.00","NGN 5,280,951,294",Suspended,234-983-584-168,Plateau,no,false
+MML600133,Tobi Chukwu Mining Ltd,Columbite,Kogi Iron Ore Field,exploration,12/27/2014,2023/09/07,45444.22,"₦160,999,414,339.12","NGN 10,667,991,889",Inactive,+234445107622,Nasarawa,1,no
+MML600054,Ifeoma Okonkwo Mining Ltd,Iron Ore,Benue Coal Field,MINING LEASE,06/17/2013,11 April 2016,15372.32,48163985813.56 naira,"NGN 2,648,519,239",Abandoned,+234366909670,Ebonyi,true,FALSE
+MML600425,Sadiq Lawal Mining Ltd,Zinc,Plateau Mining Zone,exploration,12/06/2018,31.10.2027,10885.35,"NGN 43,276,482,633",2752593456.20 naira,Abandoned,234-158-144-914,Plateau,yes,0
+MML600012,Kemi Yusuf Mining Ltd,gold,Cross River Barite Site,exploration,2013-01-05,23.12.2016,10815.73 short tons,"5,164,091,551.91 ",,INACTIVE,66978480184,Nasarawa,Y,false
+MML600413,tunde nnamdi mining ltd,Coal,Benue Coal Field,exploration,2011-01-02,2018-09-26,19949.62,"N10,688,557,125",537394118.67,Suspended,234-472-122-816,Kogi,FALSE,Yes
+MML600008,Chidi Adeyemi Mining Ltd,Limestone,Plateau Mining Zone,Quarry lease,05.03.2012,07/25/2020,36639.63,"₦70,894,931,403.95",3451235214.30 naira,Inactive,(764) 835-0305,Zamfara,Yes,true
+MML600322,Bisi Chukwu Mining Ltd,limestone,Ebonyi Lead-Zinc Site,Exploration,23-Aug-2013,10/26/2016,64850.94,"NGN 279,447,959,932","₦17,004,636,154.17",Suspended,0013 721 5107,Kogi,yes,N
+MML600297,Obinna Afolabi Mining Ltd,gold,Nasarawa Barytes Mine,Small-Scale Mining,09/09/2013,19.05.2018,29121.75 short tons,74915279967.9,2537308905.64,Abandoned,36403761379,Sokoto,FALSE,No
+MML600340,Chidi Adekunle Mining Ltd,COAL,Sokoto Gypsum Deposit,Quarry Lease,2021-07-09,08 July 2030,13217.18,8093397441.79 naira,  ,Inactive,0327 104 0541,Ebonyi,No,true
+MML600122,ifeoma bello mining ltd,Zinc,Kogi Iron Ore Field,Small Scale,30.10.2019,,35670.81,"₦28,187,290,615.46","NGN 1,312,421,858",Inactive,06576615654,Ebonyi,FALSE,FALSE
+MML600014,Wale Afolabi Mining Ltd,Zinc,Nasarawa Barytes Mine,Quarry Lease,21/12/2013,05/08/2019,2107.33,"7,012,587,116.77 ","NGN 303,556,795",Reclaimed,14893252880,Cross River,1,no
+MML600372,Halima Eze Mining Ltd,Tin ,Benue Coal Field,Quarry lease,28.04.2010,22 June 2015,69171.34,-,"N556,071,498",Suspended ,71709991738,Benue,true,yes
+MML600079,Amaka Okafor Mining Ltd,Coal,Plateau Mining Zone,Quarry lease,15/05/2020,29/11/2028,unknown,"₦224,186,159,952.28",10276233631.47,Suspended ,0740 344 7134,Sokoto,1,1
+MML600061,Grace Bello Mining Ltd,Tin ,Plateau Mining Zone,Quarry Lease,28.02.2016,2024-04-30,83302.33,"N355,548,879,429",nil,Inactive,(529) 912-4190,Ebonyi,1,no
+MML600213,Adaeze Okafor Mining Ltd,GOLD,Zamfara Gold Belt,exploration,01/25/2019,30 June 2021,72463.01,"NGN 23,748,083,825",1568395360.31 naira,Suspended,+234904530174,Benue,no,1
+MML600179,BLESSING OKAFOR MINING LTD,limestone,Ebonyi Lead-Zinc Site,Small Scale,01/07/2010,31.07.2013,82648.29,"NGN 107,889,878,811",3776314941.93 naira,Suspended,234-922-680-182,Benue,Yes,No
+MML600393,tobi  okonkwo mining ltd   ,Gypsum,Zamfara Gold Belt,Exploration,17/06/2020,2029/02/04,n/a,"NGN 55,570,098,861","3,053,677,255.37 ",Suspended,08993588916,Nasarawa,Y,false
+MML600124,Obinna Lawal Mining Ltd,Lead,Zamfara Gold Belt,small-scale mining,2016-07-18,2018-06-18,unknown,22703718439.17 naira,"NGN 1,393,896,222",Active,09885165604,Zamfara,No,true
+MML600090,Yusuf Okeke Mining Ltd,Coal,Nasarawa Barytes Mine,Small-Scale Mining,08/02/2020,09-Aug-2026,19392.15,48694035304.65,"₦2,192,063,275.02",Active,0846 773 7826,Ebonyi,yes,No
+MML600373,Musa Afolabi Mining Ltd,Columbite ,Plateau Mining Zone,exploration,03/23/2012,16-Mar-2014,68504.98,"35,072,054,539.41 ","NGN 1,963,508,393",Abandoned,16846022356,Benue,Yes,no
+MML600142,Tobi  Bello Mining Ltd,Columbite,Sokoto Gypsum Deposit,Small Scale,20/02/2012,2017-12-27,56245.8,"₦65,029,573,119.53","N2,850,244,857",Suspended ,04119986798,Sokoto,0,FALSE
+MML600259,Amara Bello Mining Ltd,Zinc,Benue Coal Field,Small-Scale Mining,05/05/2015,2023-01-24,10393.97,"N37,831,537,985","NGN 1,633,241,838",Inactive,0265 479 3564,Sokoto,true,N
+MML600057,Adaeze Nwosu Mining Ltd,Tin ,Zamfara Gold Belt,Mining Lease,02-Nov-2021,01/08/2027,9451.33,12589663239.68,"₦529,345,582.15",INACTIVE,0699 016 2720,Kogi,true,true
+MML600153,Musa Balogun Mining Ltd,Iron Ore,Zamfara Gold Belt,MINING LEASE,19/05/2010,2015/09/30,57230.56,139071001750.98,"NGN 7,740,262,208",Active,(886) 239-2407,Cross River,Y,false
+MML600370,Sadiq Afolabi Mining Ltd,Lead,Kogi Iron Ore Field,Exploration,22-Jul-2011,16.08.2015,34431.12,Unknown,"₦2,774,231,246.38",Suspended ,28241724825,Benue,Yes,TRUE
+MML600327,Emeka Ajayi Mining Ltd,Coal,Ebonyi Lead-Zinc Site,Quarry lease,29-Jan-2018,04.08.2019,82415.81,"NGN 273,980,480,661",15648991549.41,Active,08564205930,Nasarawa,true,TRUE
+MML600028,Musa Ajayi Mining Ltd,Zinc,Benue Coal Field,Small Scale,2016-10-25,08-Oct-2018,84483.04,"N48,755,960,904",NULL,active,+234399091699,Cross River,Y,TRUE
+MML600193,Emeka Bello Mining Ltd,Limestone,Ebonyi Lead-Zinc Site,Small Scale,29 January 2018,04/14/2020,1622.15,NULL,"NGN 355,034,432",Abandoned,+234239868000,Plateau,no,true
+MML600230,Amara Olawale Mining Ltd,gold,Cross River Barite Site,Mining Lease,20/07/2021,07-Nov-2023,6023.52,"NGN 6,608,308,910",315829822.08 naira,Suspended ,(866) 882-6343,Sokoto,Y,1
+MML600131,Ibrahim Adekunle Mining Ltd,Iron ore,Ebonyi Lead-Zinc Site,Small Scale,19-Nov-2013,16 August 2021,68073.61,"₦71,189,791,218.03","N3,868,008,697",INACTIVE,(643) 815-6149,Nasarawa,yes,true
+MML600459,Amara Chukwu Mining Ltd,Gypsum,Kogi Iron Ore Field,exploration,21-Feb-2013,10/20/2015,44351.48,"₦7,337,294,496.37","NGN 478,441,669",Reclaimed,N/A,Nasarawa,Y,FALSE
+MML600168,Emeka Olawale Mining Ltd,Tin ,Sokoto Gypsum Deposit,Exploration,2015-08-12,2024/05/24,37635.61,65034606922.35,3209145413.72 naira,INACTIVE,08451154479,Nasarawa,N,yes
+MML600396,Adaeze Bello Mining Ltd,Iron Ore,Zamfara Gold Belt,Exploration,2018/05/15,17 October 2020,58175.31 short tons,213985380246.91 naira,"₦13,933,060,888.78",Active,(386) 631-7797,Kogi,TRUE,false
+MML600235,Obinna Okeke Mining Ltd,Barite,Cross River Barite Site,MINING LEASE,2014-08-05,21-Feb-2017,-,92740872198.93 naira,"3,203,483,693.14 ",Abandoned,17535560932,Nasarawa,0,FALSE
+MML600030,Ifeoma Afolabi Mining Ltd,Lead,Plateau Mining Zone,Mining Lease,2016/02/09,19 September 2022,nil,"N91,706,759,323","₦4,944,962,948.96",Suspended,10799118384,Sokoto,yes,Y
+MML600365,Tobi Ogundimu Mining Ltd,Tin,Kogi Iron Ore Field,small-scale mining,2020/09/12,09 April 2028,73849.12,15985888388.16,"NGN 582,668,369",Suspended ,0000000000,Cross River,N,FALSE
+MML600109,  Wale Afolabi Mining Ltd,Columbite,Zamfara Gold Belt,Exploration,2019/10/24,00/00/0000,81041.4,90112880736.94,"₦3,584,617,417.69",Suspended,234-985-931-746,Zamfara,Yes,no
+MML600161,Wale Okonkwo Mining Ltd,Iron ore,Plateau Mining Zone,exploration,07/01/2021,08-Dec-2022,75717.86,"53,271,277,337.72 ",1952587002.42,Suspended,(621) 851-8888,Nasarawa,Y,false
+MML600045,Femi Adeyemi Mining Ltd,gold,Zamfara Gold Belt,Quarry lease,2012/02/03,06-Dec-2017,8208.43,27396802308.54,"N1,711,499,374",Reclaimed,0680 443 6995,Cross River,No,no
+MML600070,Zainab Okafor Mining Ltd,Lead,Cross River Barite Site,Exploration,06/16/2012,2018/02/16,49614.89,"₦178,393,260,403.01","₦10,527,515,857.15",Inactive,0685 574 4431,Ebonyi,1,Y
+MML600405,  OBINNA MOHAMMED MINING LTD,COAL,Sokoto Gypsum Deposit,exploration,05/03/2019,,69268.86 short tons,"₦263,026,244,501.82","NGN 17,228,415,059",Active,08669346547,Benue,1,false
+MML600426,Emeka Okeke Mining Ltd,Barite,Zamfara Gold Belt,MINING LEASE,29 November 2014,,54082.81,13685491796.83,655609695.87,Inactive,(660) 728-3268,Cross River,no,TRUE
+MML600078,Amaka Suleiman Mining Ltd,Barite,Kogi Iron Ore Field,Quarry Lease,05 November 2021,2030/09/26,30752.03,"₦127,059,359,994.20","4,382,067,889.36 ",Abandoned,0123 281 2067,Sokoto,FALSE,Yes
+MML600319,Emeka Ajayi Mining Ltd,Columbite ,Ebonyi Lead-Zinc Site,Quarry Lease,19/03/2011,01-Sep-2019,92607.26 short tons,"N303,826,046,959","NGN 17,576,677,691",Inactive,(213) 568-0442,Cross River,N,TRUE
+MML600357,Bola Adeyemi Mining Ltd,Columbite,Benue Coal Field,small-scale mining,09/17/2011,08/12/2019,28366.94,"N46,924,482,119","3,143,381,387.34 ",active,47132475469,Ebonyi,yes,false
+MML600344,Ngozi Afolabi Mining Ltd,Iron ore,Ebonyi Lead-Zinc Site,exploration,04/10/2012,2018-02-07,41824.17,"17,863,513,644.81 ","NGN 903,406,902",Suspended ,N/A,Zamfara,N,yes
+MML600150,Halima Okonkwo Mining Ltd,Iron ore,Zamfara Gold Belt,MINING LEASE,02/16/2017,2024-01-08,18697.16,16233201213.75,531264930.05,Active,234-059-296-222,Sokoto,N,true
+MML600040,Wale Yusuf Mining Ltd,Limestone,Kogi Iron Ore Field,Exploration,2017-05-11,13/03/2025,20741.73 short tons,"₦6,234,237,506.29","N392,471,522",Suspended ,45868501429,Kogi,1,true
+MML600446,Segun Olawale Mining Ltd,Gold,Benue Coal Field,Mining Lease,08/09/2010,02/02/2014,75275.05,"NGN 63,442,726,291",2500043312.95 naira,active,99228092024,Sokoto,Yes,yes
+MML600134,Adaeze Okeke Mining Ltd,Coal,Sokoto Gypsum Deposit,Small-Scale Mining,03.05.2018,04 April 2022,n/a,"₦105,208,443,862.27",3651917528.07 naira,Abandoned,83885160607,Kogi,No,0
+MML600025,Funmilayo Adekunle Mining Ltd,Lead,Plateau Mining Zone,small-scale mining,01/02/2021,24-Sep-2025,15456.8,"N15,363,028,746",951175719.69 naira,Active,+234474687234,Benue,false,N
+MML600159,  Blessing Adeyemi Mining Ltd,Lead,Nasarawa Barytes Mine,small-scale mining,21-Aug-2014,2021-06-11,77156.76,"₦127,892,620,515.75",--,INACTIVE,234-369-711-798,Sokoto,0,FALSE
+MML600296,Tobi Nnamdi Mining Ltd,GOLD,Plateau Mining Zone,Small-Scale Mining,00/00/0000,2015-10-14,40528.5 short tons,"₦164,650,317,834.51","₦6,744,311,455.95",Reclaimed,0899 940 4389,Zamfara,N,N
+MML600342,Tobi Nnamdi Mining Ltd,Columbite,Zamfara Gold Belt,MINING LEASE,05 November 2021,07/07/2030,51781.65,"NGN 142,545,162,081",,Reclaimed,00629620153,Nasarawa,yes,0
+MML600046,Sadiq Suleiman Mining Ltd,Gold,Nasarawa Barytes Mine,Exploration,2018/03/31,2020-07-13,64821.6,"₦168,843,739,741.44","₦10,517,083,196.43",Active,(773) 872-1489,Cross River,1,1
+MML600449,chinedu suleiman mining ltd,Iron Ore,Zamfara Gold Belt,MINING LEASE,14 April 2018,02/10/2022,36185.0,"₦110,499,344,966.77",6704365436.56 naira,active,0425 799 1366,Cross River,false,TRUE
+MML600114,Sadiq Olawale Mining Ltd,Iron ore,Ebonyi Lead-Zinc Site,MINING LEASE,05/26/2011,04/10/2017,56307.9,"₦35,566,990,593.10",,Abandoned,0053 293 1839,Zamfara,TRUE,no
+MML600335,ZAINAB AFOLABI MINING LTD,Columbite,Benue Coal Field,Exploration,14.02.2012,10.01.2022,?,88625587667.36 naira,"N6,203,628,743",Reclaimed,05392644220,Kogi,FALSE,false
+MML600353,Chinedu Chukwu Mining Ltd,Limestone,Benue Coal Field,exploration,2019/02/28,01/06/2027,25066.46,"NGN 111,155,028,941","6,117,774,068.27 ",Suspended ,+234861622999,Benue,no,Y
+MML600438,Adaeze Chukwu Mining Ltd,Tin,Zamfara Gold Belt,Quarry lease,14/08/2020,,74369.69,"NGN 252,121,374,499","N15,706,462,603",Active,80392827229,Ebonyi,false,Y
+MML600186,Yusuf Okonkwo Mining Ltd,Columbite ,Ebonyi Lead-Zinc Site,Quarry Lease,11 January 2018,2026-08-04,38991.52,117377283085.45,"N7,666,257,886",INACTIVE,(153) 714-7321,Cross River,1,TRUE
+MML600069,Adaeze Adeyemi Mining Ltd,Columbite ,Kogi Iron Ore Field,MINING LEASE,2018-03-15,01 September 2027,12263.15,"NGN 33,490,173,751",1542406140.28 naira,active,04363495788,Ebonyi,no,true
+MML600185,Kunle Adeyemi Mining Ltd,Lead,Plateau Mining Zone,Mining Lease,04/02/2018,08 May 2025,69661.26 short tons,253567491491.05 naira,15944592811.49 naira,Reclaimed,+234925556258,Benue,false,No
+MML600314,Zainab Adeyemi Mining Ltd,Barite,Sokoto Gypsum Deposit,Exploration,02.04.2010,2018/11/05,23226.81,"NGN 46,707,443,958","₦1,733,668,649.13",Active,0000000000,Cross River,N,no
+MML600271,Tobi Ajayi Mining Ltd,Iron ore,Sokoto Gypsum Deposit,exploration,04-Jan-2021,29-Dec-2030,36750.75,133709214481.29 naira,"₦5,669,812,522.31",INACTIVE,41918255371,Cross River,true,true
+MML600320,emeka afolabi mining ltd,Lead,Sokoto Gypsum Deposit,Mining Lease,2011-10-03,07/13/2017,61624.21,"N88,492,995,092","₦5,209,312,773.21",Abandoned,0000000000,Benue,No,yes
+MML600383,Tunde Afolabi Mining Ltd,Lead,Ebonyi Lead-Zinc Site,MINING LEASE,19 December 2021,17-Nov-2028,3325.7,"N9,708,555,430","318,228,627.79 ",Inactive,(046) 184-9926,Zamfara,Yes,N
+MML600172,Emeka Eze Mining Ltd,Zinc,Benue Coal Field,Quarry lease,09.04.2016,04/29/2022,--,9687901691.75 naira,"513,804,736.57 ",INACTIVE,234-192-856-543,Nasarawa,TRUE,FALSE
+MML600062,Halima Bello Mining Ltd,Limestone,Nasarawa Barytes Mine,exploration,04/02/2016,2020-01-19,81644.22,"NGN 13,496,962,536","₦505,352,218.22",Suspended,0966 319 3149,Zamfara,true,no
+MML600152,Bisi Afolabi Mining Ltd,Coal,Kogi Iron Ore Field,Exploration,2012-05-01,,50385.86 short tons,"N145,227,978,100","NGN 10,027,840,394",active,0834 735 9774,Benue,1,no
+MML600194,Halima Adekunle Mining Ltd,Lead,Benue Coal Field,Exploration,2017-11-22,2022-11-16,53144.82,"₦58,518,356,917.10",4045360594.82,Reclaimed,(578) 729-8259,Kogi,1,yes
+MML600042,  Ngozi Ajayi Mining Ltd   ,Columbite,Zamfara Gold Belt,Exploration,2014-08-25,03/22/2022,null,"₦71,959,194,416.94",3104491063.83 naira,Inactive,234-934-060-883,Zamfara,0,TRUE
+MML600178,Wale Ajayi Mining Ltd,Lead,Nasarawa Barytes Mine,small-scale mining,25-Nov-2015,14/10/2017,35890.64,"N40,055,751,517","NGN 2,426,638,783",Abandoned,06912517785,Kogi,Yes,TRUE
+MML600002,Chidi Ogundimu Mining Ltd,Iron ore,Zamfara Gold Belt,small-scale mining,2012/03/03,12.03.2017,72037.1,"₦197,135,347,599.10",12278600936.33,Inactive,00013389083,Benue,yes,0
+MML600287,Funmilayo Balogun Mining Ltd,COAL,Benue Coal Field,Small-Scale Mining,2020-05-03,2029/11/16,38244.27,"N78,338,896,752",5064909094.32,active,06374545892,Zamfara,N,FALSE
+MML600050,Grace Balogun Mining Ltd,Tin ,Ebonyi Lead-Zinc Site,MINING LEASE,14/04/2013,2017/02/25,16768.5,"₦45,789,331,861.26","NGN 2,766,069,974",Abandoned,invalid,Nasarawa,No,true
+MML600277,Aliyu Chukwu Mining Ltd,Columbite,Cross River Barite Site,exploration,04/07/2020,12/23/2022,75069.8,245277641861.97 naira,NULL,Reclaimed,06887676772,Ebonyi,yes,no
+MML600317,Yusuf Olawale Mining Ltd,limestone,Zamfara Gold Belt,MINING LEASE,not set,26 April 2027,78587.08,"N273,699,822,731","NGN 9,666,327,102",Inactive,12775618537,Benue,N,FALSE
+MML600377,  Amara Eze Mining Ltd   ,Columbite,Zamfara Gold Belt,Mining Lease,2016-03-02,02/04/2018,79472.98,"₦225,870,088,100.24",,Inactive,0058 300 3354,Benue,no,true
+MML600407,Musa Nwosu Mining Ltd,Tin,Benue Coal Field,Small Scale,2011/04/10,2013-09-10,37277.53,48742312631.79,2074718259.15,Abandoned,234-452-288-515,Nasarawa,true,N
+MML600074,Grace Adeyemi Mining Ltd,Coal,Cross River Barite Site,small-scale mining,16.09.2020,01/01/2029,16954.16,--,"₦3,152,282,793.44",active,07775204711,Nasarawa,FALSE,FALSE
+MML600423,Bola Nnamdi Mining Ltd,Barite,Plateau Mining Zone,Quarry lease,13 March 2014,2023/06/03,42222.0,"NGN 26,873,208,664","N1,488,531,455",INACTIVE,02481934667,Kogi,yes,N
+MML600290,Obinna Nnamdi Mining Ltd,Iron ore,Zamfara Gold Belt,exploration,17-Sep-2012,17/04/2014,17217.95,"NGN 58,489,292,444","NGN 3,125,735,816",Inactive,(520) 643-6110,Kogi,yes,FALSE
+MML600375,Grace Bello Mining Ltd,Columbite,Benue Coal Field,MINING LEASE,28-Oct-2018,2020/05/26,68113.29,"N178,555,488,052","6,277,085,788.27 ",active,+234743292712,Ebonyi,N,No
+MML600419,Emeka Yusuf Mining Ltd,Iron Ore,Benue Coal Field,exploration,2013-12-18,08/31/2020,67698.88 short tons,79403014020.33,"NGN 4,837,251,689",INACTIVE,234-305-616-484,Kogi,No,yes
+MML600087,Tobi Afolabi Mining Ltd,Columbite,Zamfara Gold Belt,Mining Lease,02/29/2016,03 March 2023,83085.76,10492448588.26,,Suspended ,+234385977034,Cross River,yes,true
+MML600429,Chioma Yusuf Mining Ltd,Zinc,Benue Coal Field,small-scale mining,2020-04-17,26 July 2023,8473.18,36970328358.24,1961203726.18,Inactive,(222) 394-3129,Plateau,1,N
+MML600366,Chinedu Mohammed Mining Ltd,Gypsum,Zamfara Gold Belt,Small Scale,2011-09-07,2014-05-23,48186.79,"NGN 215,640,711,196",,Suspended,0085 899 4417,Nasarawa,0,yes
+MML600085,Kemi Suleiman Mining Ltd,COAL,Nasarawa Barytes Mine,Quarry Lease,04/14/2019,17.10.2020,47814.82,nil,1772943150.55,Abandoned,51256746807,Ebonyi,Y,Y
+MML600220,Amara Abubakar Mining Ltd,Columbite,Ebonyi Lead-Zinc Site,small-scale mining,,10/12/2024,65717.95,"N222,353,697,426",13201703401.08,active,00651801704,Zamfara,Yes,FALSE
+MML600116,Emeka  Mohammed Mining Ltd,Lead,Zamfara Gold Belt,Exploration,04/14/2012,09-Mar-2022,11882.84,"1,226,407,811.87 ","₦77,527,238.94",Abandoned,(102) 053-9502,Benue,false,1
+MML600149,TOBI BALOGUN MINING LTD,Lead,Kogi Iron Ore Field,Quarry Lease,2014-05-29,00/00/0000,61617.87,"₦56,137,873,575.13","₦2,691,956,822.15",active,(573) 322-1418,Ebonyi,No,false
+MML600237,Amaka Nnamdi Mining Ltd,COAL,Ebonyi Lead-Zinc Site,MINING LEASE,2010/06/25,01.10.2014,16070.56,"N2,379,454,561","NGN 147,715,502",active,234-937-854-777,Nasarawa,Yes,Y
+MML600267,Bisi Adekunle Mining Ltd,COAL,Kogi Iron Ore Field,MINING LEASE,01-Feb-2018,11/28/2023,24049.03,"N95,050,590,522","₦5,181,898,025.18",Active,05738757177,Sokoto,yes,Y
+MML600337,Adaeze Abubakar Mining Ltd   ,GOLD,Nasarawa Barytes Mine,Quarry Lease,14-Jun-2021,2024-10-20,58474.23,"₦175,343,494,545.62",5574068361.63,Suspended,02513552157,Nasarawa,true,false
+MML600338,Musa Okonkwo Mining Ltd,Tin,Ebonyi Lead-Zinc Site,Quarry lease,28 April 2014,2023-05-02,31632.41,94108486481.16 naira,,Inactive,234-331-541-006,Nasarawa,Y,N
+MML600333,Ngozi Abubakar Mining Ltd   ,Limestone,Kogi Iron Ore Field,Quarry lease,02-Sep-2013,02/21/2021,11693.11,,,INACTIVE,+234921851569,Benue,N,Yes
+MML600356,Femi Yusuf Mining Ltd   ,Zinc,Benue Coal Field,Quarry lease,2016/01/01,2024/01/14,46207.33,"6,671,191,459.28 ",,Suspended,+234530745054,Zamfara,yes,no
+MML600316,grace olawale mining ltd,GOLD,Plateau Mining Zone,Mining Lease,19-Mar-2015,10 August 2018,9000.7,13401923799.55,410095958.5,active,(557) 431-3291,Ebonyi,true,false
+MML600455,Grace Okafor Mining Ltd,Tin,Zamfara Gold Belt,Quarry lease,2018-08-07,02/07/2026,55514.03,"₦243,451,276,729.27",11299000318.85,Suspended ,+234635651269,Kogi,0,no
+MML600432,Chidi Adekunle Mining Ltd,GOLD,Kogi Iron Ore Field,Quarry Lease,2019/05/19,08 November 2024,787.47,"N451,413,703","NGN 31,522,116",INACTIVE,75949299556,Kogi,Y,TRUE
+MML600232,Emeka Nwosu Mining Ltd,Gold,Benue Coal Field,Exploration,00/00/0000,22 October 2026,26157.7 short tons,78274917020.19 naira,"4,653,221,074.99 ",Abandoned,00139837354,Plateau,false,false
+MML600374,Amaka Afolabi Mining Ltd,Gold,Benue Coal Field,Exploration,N/A,17.09.2021,24106.73,"N95,565,149,378",3878030208.84,Reclaimed,0972 521 7525,Cross River,FALSE,true
+MML600256,Yusuf Okafor Mining Ltd,Columbite ,Kogi Iron Ore Field,Small Scale,09.01.2019,03-Nov-2022,53122.12,"109,796,372,400.21 ",6646818601.48,Active,234-647-154-379,Sokoto,Y,N
+MML600163,Obinna Bello Mining Ltd,COAL,Kogi Iron Ore Field,exploration,04/23/2018,17/10/2019,59299.79,116159712491.92 naira,7845062834.46,Active,03195205852,Plateau,1,true
+MML600020,Bisi Okeke Mining Ltd,Gold,Benue Coal Field,Small Scale,unknown date,10-Feb-2026,5293.05,19882631487.26 naira,906231902.18 naira,Reclaimed,234-738-299-737,Benue,0,Yes
+MML600197,Kemi Afolabi Mining Ltd,Tin ,Sokoto Gypsum Deposit,MINING LEASE,05/03/2014,14.11.2017,3020.33 short tons,"NGN 9,459,022,248","N289,451,476",Active,0749 930 9728,Sokoto,Yes,N
+MML600195,Femi Abubakar Mining Ltd,Gypsum,Kogi Iron Ore Field,Quarry lease,21.05.2017,03 June 2023,46090.1,"N44,710,617,419","₦1,589,152,205.47",INACTIVE,+234694958887,Plateau,no,1
+MML600148,Chidi Suleiman Mining Ltd,Iron Ore,Benue Coal Field,Quarry lease,19.04.2012,2020-03-16,NIL,"NGN 246,490,166,659",15921701872.66,Abandoned,28168505423,Ebonyi,FALSE,TRUE
+MML600349,Amara Nnamdi Mining Ltd,Zinc,Nasarawa Barytes Mine,Small-Scale Mining,03/12/2012,08/20/2017,30648.66,"₦112,010,335,093.93",6688952633.17,Reclaimed,06879374160,Zamfara,TRUE,FALSE
+MML600441,  Yusuf Yusuf Mining Ltd,Columbite ,Sokoto Gypsum Deposit,Quarry Lease,not set,19 September 2022,19207.02,17049909262.83 naira,"N1,114,087,842",active,18449892665,Nasarawa,No,TRUE
+MML600236,  Ifeoma Balogun Mining Ltd,Coal,Zamfara Gold Belt,Quarry Lease,2018/04/04,03/23/2028,57231.21,"N179,410,843,148",12401483489.19,Suspended,0048 996 4235,Sokoto,false,true
+MML600211,Chidi Okeke Mining Ltd,Limestone,Sokoto Gypsum Deposit,MINING LEASE,04.09.2017,2024-10-12,N/A,"N48,394,792,228","2,748,059,940.44 ",INACTIVE,29668516122,Plateau,No,N
+MML600130,Femi  Chukwu Mining Ltd,Gold,Benue Coal Field,Exploration,18 December 2020,08/16/2028,37919.07,"N163,974,029,099",8031987676.02 naira,Active,22901476797,Plateau,0,Y
+MML600009,  Obinna Lawal Mining Ltd,Lead,Sokoto Gypsum Deposit,exploration,2010/05/01,17 May 2012,78741.23,"₦301,318,751,304.73","₦11,044,068,786.15",Active,04139537672,Plateau,FALSE,0
+MML600112,Amara Yusuf Mining Ltd,Zinc,Sokoto Gypsum Deposit,MINING LEASE,05-May-2017,23.04.2019,47012.99,4017862811.6,"₦152,786,650.94",Suspended ,invalid,Plateau,no,Yes
+MML600145,Femi Afolabi Mining Ltd,limestone,Kogi Iron Ore Field,Quarry Lease,04/23/2021,2023/10/26,81927.67,5677787689.95 naira,337536286.33,Reclaimed,234-554-665-905,Nasarawa,0,Y
+MML600389,Ibrahim Okafor Mining Ltd,Zinc,Kogi Iron Ore Field,MINING LEASE,11/02/2013,25-Aug-2023,unknown,49909116794.95 naira,,active,+234579415521,Plateau,FALSE,no
+MML600096,Ibrahim Olawale Mining Ltd,Barite,Sokoto Gypsum Deposit,MINING LEASE,01-May-2019,16-Apr-2021,9866.34,"41,793,904,087.43 ",,INACTIVE,45961586578,Kogi,false,N
+MML600442,Halima Okonkwo Mining Ltd,Tin ,Ebonyi Lead-Zinc Site,MINING LEASE,2014/09/23,15/08/2018,18552.06,"NGN 22,462,172,320","₦1,502,197,645.59",Abandoned,91846386557,Zamfara,Y,no
+MML600301,Zainab Olawale Mining Ltd,gold,Nasarawa Barytes Mine,Quarry lease,01/04/2014,26.09.2022,40436.89,126514593550.11,6160766732.97 naira,Reclaimed,24141832856,Ebonyi,false,1
+MML600204,HALIMA SULEIMAN MINING LTD,Gold,Kogi Iron Ore Field,Small-Scale Mining,2014-07-07,02-Apr-2023,23938.63,"N85,374,011,578","N3,612,251,435",INACTIVE,0473 384 8421,Plateau,TRUE,yes
+MML600361,SEGUN MOHAMMED MINING LTD,Columbite,Sokoto Gypsum Deposit,Quarry Lease,2011/08/28,01-Jan-2018,71182.24,279292241924.5,"NGN 8,715,992,870",Suspended,61035797279,Plateau,FALSE,Y
+MML600367,obinna adeyemi mining ltd,Tin ,Ebonyi Lead-Zinc Site,small-scale mining,2019-12-01,2028/03/16,78553.7,"332,458,200,834.96 ","₦22,895,473,991.44",Active,+234454443283,Plateau,Y,No
+MML600398,Tobi Ogundimu Mining Ltd,Limestone,Benue Coal Field,Quarry Lease,02/16/2014,2017/10/05,71546.35,177642479034.99,11167931151.44 naira,active,08019948837,Sokoto,no,true
+MML600329,Chidi Bello Mining Ltd,COAL,Cross River Barite Site,Small-Scale Mining,2011-06-14,02/09/2019,29174.52,"₦119,622,642,109.26","N7,143,710,207",Suspended,0803 965 2239,Plateau,yes,Yes
+MML600223,Ifeoma Bello Mining Ltd,Columbite ,Sokoto Gypsum Deposit,Small Scale,08.01.2010,11.06.2011,56491.66,"₦69,803,487,007.29","4,048,756,370.68 ",Abandoned,(786) 863-3752,Ebonyi,no,true
+MML600371,Tobi Olawale Mining Ltd,COAL,Nasarawa Barytes Mine,small-scale mining,15-Jun-2014,28.04.2016,61431.65,NULL,"₦5,768,982,436.84",Suspended,+234353465549,Ebonyi,N,N
+MML600031,ALIYU OLAWALE MINING LTD,Iron ore,Plateau Mining Zone,Small Scale,2019-10-11,23.11.2027,69210.91,301918462041.26,14733746484.83 naira,Reclaimed,(251) 354-2784,Sokoto,true,0
+MML600255,Kunle Nwosu Mining Ltd,Coal,Zamfara Gold Belt,MINING LEASE,20 October 2014,09-Jan-2019,22538.55,"₦30,947,123,984.49",1638366359.54 naira,active,(622) 444-7212,Ebonyi,N,1
+MML600201,  yusuf mohammed mining ltd   ,Gypsum,Ebonyi Lead-Zinc Site,Mining Lease,00/00/0000,03/09/2024,53434.2,"N197,681,970,491",7572307518.98,Suspended,54973348434,Ebonyi,Yes,No
+MML600155,Fatima Eze Mining Ltd,Tin ,Zamfara Gold Belt,exploration,2021-06-30,2024/02/03,13681.54,"NGN 14,126,278,483","NGN 895,463,870",active,+234137506068,Ebonyi,0,0
+MML600066,Ibrahim Lawal Mining Ltd,Columbite,Sokoto Gypsum Deposit,Quarry lease,09/06/2010,04/06/2017,75564.79,187235932979.75,-,Inactive,0379 965 0752,Zamfara,yes,0
+MML600206,Bola Ogundimu Mining Ltd,limestone,Kogi Iron Ore Field,Small-Scale Mining,04-Dec-2013,07 March 2016,31808.65,6883643480.58,,Suspended,07120826773,Sokoto,1,false
+MML600174,Musa Yusuf Mining Ltd,Tin,Kogi Iron Ore Field,MINING LEASE,13 June 2021,30.11.2027,65853.38,"NGN 134,264,440,810","N4,449,026,905",active,0947 312 1727,Nasarawa,0,no
+MML600412,Blessing Okonkwo Mining Ltd,Columbite,Kogi Iron Ore Field,Exploration,2011/10/14,not set,76248.82,"₦190,922,700,969.66","₦13,007,894,193.92",active,00439735989,Ebonyi,TRUE,false
+MML600086,Adaeze Nnamdi Mining Ltd,COAL,Kogi Iron Ore Field,Small-Scale Mining,12/14/2020,not set,  ,"N191,919,308,545",10684604392.04 naira,Abandoned,0000000000,Plateau,Yes,TRUE
+MML600228,ngozi abubakar mining ltd,Iron Ore,Kogi Iron Ore Field,Small Scale,13/05/2016,11.01.2022,58947.95,"N210,766,696,402",10336103951.44,INACTIVE,(687) 056-8566,Cross River,0,true
+MML600303,Kunle Chukwu Mining Ltd,Columbite ,Benue Coal Field,Mining Lease,06/28/2012,04/14/2017,79569.73,"NGN 112,000,130,543","N4,435,876,870",Active,(990) 421-0202,Cross River,TRUE,yes
+MML600059,zainab ogundimu mining ltd,Gypsum,Benue Coal Field,small-scale mining,03/06/2020,03/21/2029,40675.41,"₦35,027,104,321.61","NGN 1,239,752,947",INACTIVE,0708 053 1003,Sokoto,1,no
+MML600120,TUNDE OLAWALE MINING LTD,limestone,Ebonyi Lead-Zinc Site,Quarry Lease,09 March 2018,31 December 2019,31755.53,"N134,692,931,840","NGN 6,172,145,000",active,12499856984,Plateau,false,FALSE
+MML600437,Wale Chukwu Mining Ltd,Columbite ,Plateau Mining Zone,exploration,unknown date,29-Dec-2024,18260.79 short tons,"NGN 44,041,161,300",1899850337.46,Abandoned,63942788165,Sokoto,0,Y
+MML600048,BISI ADEKUNLE MINING LTD,Zinc,Ebonyi Lead-Zinc Site,Mining Lease,2011/03/25,,17376.36,"NGN 73,965,815,871",4489279829.93 naira,Suspended ,0176 936 7632,Plateau,no,Y
+MML600263,Funmilayo Yusuf Mining Ltd,Zinc,Plateau Mining Zone,Exploration,2020/09/23,12/21/2029,11348.77,"₦9,328,480,853.98","₦501,133,609.30",Suspended ,(058) 911-3529,Nasarawa,Y,No
+MML600115,Yusuf Yusuf Mining Ltd,Iron Ore,Cross River Barite Site,MINING LEASE,2014/08/28,2020-09-21,null,"NGN 32,215,264,553","₦1,120,979,814.26",Suspended ,(352) 904-2284,Cross River,No,0
+MML600093,Obinna Okeke Mining Ltd,gold,Benue Coal Field,exploration,26-Dec-2013,14 June 2019,82341.66,"₦110,909,627,492.40","₦6,410,389,110.19",Abandoned,+234675339636,Sokoto,yes,false
+MML600310,Bola Ogundimu Mining Ltd,Columbite,Zamfara Gold Belt,Quarry Lease,24-Jul-2011,19-Nov-2016,24124.86,"₦26,224,336,693.12",1478601418.89 naira,Abandoned,(445) 187-0534,Nasarawa,FALSE,N
+MML600299,Grace Okafor Mining Ltd,gold,Cross River Barite Site,Mining Lease,30 May 2020,29 April 2030,36389.27,"N102,251,579,260","NGN 3,481,780,499",Suspended ,(271) 091-0430,Sokoto,Y,N
+MML600183,Yusuf Okafor Mining Ltd,GOLD,Cross River Barite Site,MINING LEASE,2018/03/27,28.04.2024,61.69,178235733.68 naira,"N8,049,436",INACTIVE,234-969-078-447,Zamfara,No,TRUE
+MML600180,Adaeze Abubakar Mining Ltd,Limestone,Cross River Barite Site,Small Scale,2015-08-02,11/24/2020,Unknown,132496729843.08 naira,"N7,884,186,177",Reclaimed,02253584143,Cross River,No,N
+MML600018,Grace Okafor Mining Ltd,Limestone,Benue Coal Field,Small-Scale Mining,2014/05/12,01/06/2023,59190.26,"₦133,176,806,614.47",5295026939.50 naira,INACTIVE,0713 315 0983,Benue,TRUE,0
+MML600225,Amara Nwosu Mining Ltd,Coal,Nasarawa Barytes Mine,Small Scale,28.10.2019,24/01/2029,nil,3363625201.34,"NGN 104,321,437",Abandoned,(079) 030-6738,Kogi,false,FALSE
+MML600198,Halima Adeyemi Mining Ltd,Columbite,Benue Coal Field,exploration,20/08/2021,08/31/2028,33627.25,"₦111,693,141,655.41","₦5,842,449,097.22",Suspended,234-230-913-075,Sokoto,Yes,Y
+MML600036,Aliyu Okeke Mining Ltd,Columbite,Kogi Iron Ore Field,Quarry Lease,05.04.2011,2015/07/19,30469.7,"₦59,920,377,628.63","NGN 2,382,907,423",active,0262 045 0533,Nasarawa,true,TRUE
+MML600006,Bola Lawal Mining Ltd,Tin,Kogi Iron Ore Field,Small Scale,11/24/2016,31.07.2020,4924.11,19485406021.54,1322629957.59,Suspended ,10341316475,Ebonyi,0,TRUE
+MML600252,Sadiq Yusuf Mining Ltd,Columbite,Sokoto Gypsum Deposit,Quarry lease,2018/06/10,26.05.2024,39071.05,"N7,666,759,479","N400,715,926",Abandoned,+234541212678,Plateau,1,yes
+MML600388,Aliyu Eze Mining Ltd,Zinc,Zamfara Gold Belt,Small-Scale Mining,12/01/2019,01/04/2022,55660.46 short tons,"NGN 121,517,464,944",6044843651.71,Suspended ,+234455611002,Nasarawa,0,N
+MML600362,Ifeoma Ogundimu Mining Ltd,Lead,Nasarawa Barytes Mine,Small-Scale Mining,04/15/2021,31/01/2024,924.24,"₦3,470,915,314.57","N198,522,964",Reclaimed,85524140602,Zamfara,false,0
+MML600430,NGOZI BALOGUN MINING LTD,Tin,Benue Coal Field,Small Scale,11.01.2020,03/04/2025,44675.3 short tons,21675637523.10 naira,"919,575,760.45 ",Active,(878) 141-4139,Benue,Yes,yes
+MML600067,Musa Afolabi Mining Ltd,gold,Cross River Barite Site,Quarry Lease,24 July 2015,2018-02-20,8229.44,"NGN 11,039,328,156","NGN 500,810,088",INACTIVE,invalid,Sokoto,FALSE,true
+MML600170,Bisi Suleiman Mining Ltd,limestone,Ebonyi Lead-Zinc Site,MINING LEASE,09 September 2012,27-Jul-2014,57444.19,172461081184.99 naira,9408282988.21,Suspended,0658 202 9702,Sokoto,TRUE,Yes
+MML600270,Kunle Okeke Mining Ltd,Coal,Benue Coal Field,Mining Lease,02/29/2020,20.10.2024,80530.59,"362,323,547,627.89 ",24013041913.14,active,60937966033,Kogi,No,yes
+MML600140,Musa Adekunle Mining Ltd,Coal,Ebonyi Lead-Zinc Site,MINING LEASE,07-Feb-2013,17-Jul-2021,55012.06,"83,207,978,420.84 ","N5,473,512,740",Suspended,99552717744,Plateau,Y,No
+MML600217,Halima Balogun Mining Ltd,Lead,Nasarawa Barytes Mine,Quarry Lease,2016-07-18,24/10/2025,53067.13,70384508594.05,"NGN 2,343,832,760",Suspended,39822587139,Cross River,0,Y
+MML600452,grace ajayi mining ltd   ,GOLD,Sokoto Gypsum Deposit,Quarry Lease,2016/06/15,14 August 2025,60523.0,"NGN 225,753,128,941",,Inactive,(068) 650-8637,Ebonyi,No,N
+MML600063,Sadiq Okonkwo Mining Ltd,Columbite,Ebonyi Lead-Zinc Site,small-scale mining,10/17/2017,10/01/2026,Unknown,"N13,594,611,489",N/A,Inactive,90586518506,Sokoto,TRUE,1
+MML600281,Yusuf Afolabi Mining Ltd,Iron Ore,Nasarawa Barytes Mine,Quarry lease,2021/08/09,21.05.2023,7206.61,null,"N724,363,713",Suspended,0517 133 9596,Cross River,TRUE,FALSE
+MML600023,Chioma Bello Mining Ltd,Barite,Zamfara Gold Belt,Small-Scale Mining,04.06.2012,2019/11/30,2183.15,3139827588.55,179264975.59 naira,INACTIVE,47317810801,Ebonyi,Yes,1
+MML600144,FEMI NNAMDI MINING LTD,COAL,Zamfara Gold Belt,exploration,01/18/2010,16.11.2014,30187.14,86630820514.94,"₦5,370,808,411.31",Suspended ,,Sokoto,0,true
+MML600397,Ibrahim Yusuf Mining Ltd,Gold,Sokoto Gypsum Deposit,Small-Scale Mining,09/02/2021,21/08/2023,19001.59,"₦58,083,668,650.08",,Abandoned,07751701660,Nasarawa,1,0
+MML600147,Sadiq Afolabi Mining Ltd,Columbite ,Zamfara Gold Belt,Exploration,13/05/2019,12/03/2027,63568.97,241192266890.29,"₦9,994,312,715.43",active,(254) 629-1486,Plateau,no,0
+MML600077,Ibrahim Chukwu Mining Ltd,Zinc,Kogi Iron Ore Field,Small Scale,2021/04/09,2030-02-27,65436.6,204279466133.97 naira,"N11,347,408,325",Reclaimed,96499091334,Zamfara,TRUE,0
+MML600399,  amaka afolabi mining ltd,Iron Ore,Sokoto Gypsum Deposit,Exploration,2016-03-04,23-Jul-2021,32795.07,"₦118,369,070,253.65",5747830170.05 naira,Reclaimed,50375899757,Benue,TRUE,No
+MML600387,CHINEDU OGUNDIMU MINING LTD,Coal,Ebonyi Lead-Zinc Site,Quarry lease,16-Apr-2012,10 December 2014,39181.37,"NGN 20,645,509,391",,Suspended ,0114 374 4701,Cross River,yes,N
+MML600262,Blessing Okafor Mining Ltd,Columbite,Sokoto Gypsum Deposit,Quarry Lease,N/A,2023-08-11,51180.05,"NGN 187,818,234,939",11177330017.9,Suspended,61797968868,Benue,no,0
+MML600212,Ngozi Mohammed Mining Ltd,Gypsum,Benue Coal Field,Small Scale,2013/02/12,2020-08-17,76776.81,"NGN 221,177,947,027",6636969292.55 naira,INACTIVE,(753) 046-3745,Plateau,FALSE,TRUE
+MML600106,Grace Mohammed Mining Ltd,Tin ,Cross River Barite Site,Mining Lease,03/11/2010,12 January 2018,55251.89,110970239797.66 naira,"NGN 6,535,845,402",Inactive,(858) 842-4745,Nasarawa,false,Yes
+MML600188,Ibrahim Balogun Mining Ltd,Barite,Zamfara Gold Belt,MINING LEASE,12/11/2015,2021/01/21,75618.21,"₦87,858,017,807.27","₦3,536,263,563.09",Suspended ,07877470168,Ebonyi,no,1
+MML600199,Bola Adekunle Mining Ltd,Coal,Zamfara Gold Belt,Small Scale,05/03/2020,17-Oct-2027,76212.54,"N307,615,710,135","N20,087,901,999",Active,234-636-897-028,Kogi,Y,Y
+MML600343,Fatima Yusuf Mining Ltd,Columbite ,Plateau Mining Zone,Small Scale,01.08.2016,2020-07-20,19963.94 short tons,"NGN 60,385,958,149",,INACTIVE,+234884443106,Benue,no,Yes
+MML600019,Amaka Adekunle Mining Ltd,Columbite ,Sokoto Gypsum Deposit,Small-Scale Mining,27/07/2013,11/28/2022,73227.14,150321436000.40 naira,"NGN 9,029,969,724",Suspended,03010310518,Benue,1,no
+MML600236,  Ifeoma Balogun Mining Ltd,Coal,Zamfara Gold Belt,Quarry Lease,2018/04/04,03/23/2028,57231.21,"N179,410,843,148",12401483489.19,Suspended,0048 996 4235,Sokoto,false,true
+MML600374,Amaka Afolabi Mining Ltd,Gold,Benue Coal Field,Exploration,N/A,17.09.2021,24106.73,"N95,565,149,378",3878030208.84,Reclaimed,0972 521 7525,Cross River,FALSE,true
+MML600115,Yusuf Yusuf Mining Ltd,Iron Ore,Cross River Barite Site,MINING LEASE,2014/08/28,2020-09-21,null,"NGN 32,215,264,553","₦1,120,979,814.26",Suspended ,(352) 904-2284,Cross River,No,0
+MML600121,Wale Ajayi Mining Ltd   ,Zinc,Ebonyi Lead-Zinc Site,MINING LEASE,13/10/2018,2028/06/04,82040.65,15924353189.42 naira,"NGN 861,436,592",Inactive,07896118367,Plateau,Yes,1
+MML600285,AMAKA OKONKWO MINING LTD   ,Columbite ,Zamfara Gold Belt,Small-Scale Mining,15/11/2019,06 August 2028,79138.06,"N176,355,822,866","₦12,156,365,471.71",active,N/A,Zamfara,no,yes
+MML600073,Wale Suleiman Mining Ltd,Tin,Zamfara Gold Belt,Small-Scale Mining,2015/10/02,02/17/2025,--,"NGN 38,653,429,582","N1,992,318,241",Suspended,N/A,Benue,true,0
+MML600113,Emeka Afolabi Mining Ltd,Iron Ore,Kogi Iron Ore Field,exploration,06/10/2018,19 September 2027,61813.41,31683893417.63 naira,"N1,621,980,235",Suspended,0506 431 7139,Zamfara,FALSE,FALSE
+MML600095,Bisi Olawale Mining Ltd,COAL,Zamfara Gold Belt,Exploration,12/29/2010,22 April 2018,83606.71,"NGN 256,233,659,171",11782830470.55 naira,Suspended,01718702621,Sokoto,No,yes
+MML600304,Ngozi Nnamdi Mining Ltd,limestone,Cross River Barite Site,Mining Lease,02.05.2013,03/01/2018,21009.97,59901382140.59,2468112590.64 naira,Suspended,234-884-252-410,Sokoto,false,0
+MML600071,Obinna Adeyemi Mining Ltd,Columbite ,Cross River Barite Site,small-scale mining,2019/04/06,02-Jan-2028,17331.19,-,"2,154,881,270.05 ",active,+234182337498,Cross River,yes,TRUE
+MML600433,Chinedu Yusuf Mining Ltd,Barite,Zamfara Gold Belt,small-scale mining,17/08/2020,26-Sep-2021,  ,"N22,887,215,269","N1,117,347,840",Reclaimed,0205 336 4525,Nasarawa,no,FALSE
+MML600406,Tunde Ajayi Mining Ltd,GOLD,Ebonyi Lead-Zinc Site,Small-Scale Mining,22/10/2012,17/08/2018,59613.86,148764892034.57,5150735649.09,Active,02698485833,Cross River,Yes,No
+MML600015,CHIOMA SULEIMAN MINING LTD,Lead,Plateau Mining Zone,Mining Lease,2016-04-01,2018-01-10,82185.59,"₦106,192,511,837.14","₦5,910,597,639.93",Active,09570154303,Cross River,no,1
+MML600026,Aliyu Suleiman Mining Ltd,Barite,Ebonyi Lead-Zinc Site,Mining Lease,13.11.2016,04/24/2025,49432.43,106576772621.55,5460661016.07 naira,active,+234980500978,Nasarawa,N,no
+MML600016,Tunde Yusuf Mining Ltd,COAL,Ebonyi Lead-Zinc Site,Quarry lease,28 July 2011,07-Jan-2020,78265.56,220946929712.86,"N12,491,344,935",Suspended ,01171822782,Nasarawa,yes,N
+MML600097,Blessing Nwosu Mining Ltd,Columbite,Kogi Iron Ore Field,Quarry lease,2021/07/29,07/12/2024,46912.6,"₦71,443,384,652.21","NGN 3,361,752,415",Inactive,(091) 343-1611,Kogi,no,no
+MML600411,  Emeka Suleiman Mining Ltd,Lead,Plateau Mining Zone,Mining Lease,2012/12/16,2014-02-16,23859.87,"₦73,668,884,189.14",,Active,0638 406 6658,Cross River,1,Yes
+MML600417,Ngozi Adeyemi Mining Ltd,Gold,Kogi Iron Ore Field,Mining Lease,28.11.2015,28-Jun-2025,47139.42,197469716690.67 naira,11791738197.9,Inactive,234-861-533-555,Zamfara,false,Yes
+MML600282,Bisi Abubakar Mining Ltd,Coal,Plateau Mining Zone,small-scale mining,2019/12/02,09/26/2028,29346.63,"NGN 107,486,384,368","NGN 6,013,893,329",INACTIVE,+234233095849,Plateau,Yes,TRUE
+MML600064,Blessing Ogundimu Mining Ltd,GOLD,Kogi Iron Ore Field,small-scale mining,03/09/2019,08/18/2026,6269.27,"₦27,441,157,803.27","₦1,528,295,317.88",Suspended,71657262849,Cross River,no,TRUE
+MML600346,Amaka Olawale Mining Ltd,Gold,Benue Coal Field,Small Scale,20-Sep-2017,29-Apr-2024,1160.65,3593079458.16 naira,115271714.51,active,+234741862565,Benue,N,0
+MML600181,CHIOMA NWOSU MINING LTD,GOLD,Zamfara Gold Belt,Small-Scale Mining,27/09/2019,2024-05-17,1281.25,"N4,593,329,000",,Suspended,04249818299,Kogi,0,N
+MML600233,Bola Okafor Mining Ltd,Gypsum,Kogi Iron Ore Field,Small Scale,2019/02/14,25-Jul-2022,11280.95,15412794288.68,"861,661,634.74 ",Abandoned,03317393638,Zamfara,1,false
+MML600266,Musa Adeyemi Mining Ltd,Tin,Plateau Mining Zone,Quarry Lease,24 July 2020,2025-07-14,84722.85,"NGN 358,376,184,184","₦24,616,284,457.86",Inactive,+234071461125,Sokoto,yes,false
+MML600177,Ibrahim Okafor Mining Ltd,Gold,Sokoto Gypsum Deposit,Small Scale,04.02.2015,2017-02-04,37558.41,63013088397.20 naira,NULL,Suspended,78291146786,Benue,1,N
+MML600332,Chioma Olawale Mining Ltd,limestone,Ebonyi Lead-Zinc Site,Quarry lease,16 September 2016,2025-02-06,77552.04,"58,816,231,168.28 ","₦1,815,223,748.47",Active,70593252500,Nasarawa,0,true
+MML600385,Aliyu Ogundimu Mining Ltd,Columbite ,Cross River Barite Site,Small Scale,2017-02-28,2019/10/27,64008.08,256077313564.81,"NGN 17,575,469,634",Reclaimed,83564208737,Cross River,false,No
+MML600200,BISI  OGUNDIMU MINING LTD,Lead,Plateau Mining Zone,Small Scale,05-Jan-2014,21/08/2023,60524.18,"NGN 116,033,237,233",4917573555.48 naira,Abandoned,(857) 865-2785,Plateau,N,TRUE
+MML600024,Blessing Mohammed Mining Ltd,Columbite ,Nasarawa Barytes Mine,small-scale mining,29-Dec-2020,2023/03/06,36849.77,"NGN 61,234,617,823","NGN 4,020,848,746",Abandoned,0326 773 6026,Benue,no,Yes
+MML600345,Yusuf Abubakar Mining Ltd,Lead,Zamfara Gold Belt,Quarry lease,26-Nov-2010,2013/05/26,33536.71,112698830902.99,7442620921.77,Suspended ,03103241714,Plateau,Y,Y
+MML600246,NGOZI  ABUBAKAR MINING LTD,limestone,Benue Coal Field,Exploration,27/12/2014,06 June 2017,72829.36,null,1944508058.3,Inactive,+234489025039,Cross River,Y,true
+MML600292,  Ibrahim Adeyemi Mining Ltd   ,Tin,Nasarawa Barytes Mine,Quarry lease,12 July 2018,2023-06-20,71607.37,"N71,375,068,496",4541407732.68,active,234-271-361-115,Ebonyi,N,0
+MML600083,Fatima Olawale Mining Ltd,Tin ,Ebonyi Lead-Zinc Site,Mining Lease,04.04.2019,2024-12-04,47369.6,"₦30,634,523,913.53",,Reclaimed,234-399-049-027,Nasarawa,Yes,N
+MML600418,Grace Ogundimu Mining Ltd,COAL,Nasarawa Barytes Mine,Small Scale,2011/08/28,08.12.2020,78261.55,334735590170.79 naira,"₦22,235,470,669.60",INACTIVE,0398 780 1573,Benue,no,0
+MML600039,Bola Mohammed Mining Ltd,Zinc,Benue Coal Field,small-scale mining,22.10.2020,2025-02-11,63457.67,"N98,821,543,059","N3,419,896,220",INACTIVE,+234543303654,Sokoto,Yes,FALSE
+MML600055,Aliyu Okonkwo Mining Ltd,Tin,Nasarawa Barytes Mine,Exploration,19.11.2019,22/01/2026,65402.39,"₦229,735,833,799.04",,Suspended,(466) 889-3734,Kogi,1,No
+MML600280,Aliyu Chukwu Mining Ltd,Zinc,Kogi Iron Ore Field,small-scale mining,06/07/2016,04-Feb-2023,14557.67,17960809968.28 naira,1052646966.96,INACTIVE,0078 361 3407,Kogi,Yes,false
+MML600352,Grace Mohammed Mining Ltd,Lead,Kogi Iron Ore Field,exploration,02/09/2012,08/03/2015,19034.39,"₦46,146,361,656.65","N1,923,091,100",INACTIVE,16868548709,Nasarawa,false,Y
+MML600355,Amaka Adeyemi Mining Ltd,Gold,Zamfara Gold Belt,small-scale mining,2012-03-27,21/06/2017,32639.5,"N17,614,168,658","₦537,973,390.88",INACTIVE,+234702462996,Plateau,TRUE,false
+MML600394,Obinna Chukwu Mining Ltd,Lead,Nasarawa Barytes Mine,exploration,31-May-2014,2020-04-03,49744.32,20355118344.28,788848578.97 naira,Reclaimed,03756289002,Nasarawa,FALSE,true
+MML600103,Grace Chukwu Mining Ltd,Iron ore,Cross River Barite Site,Quarry lease,21-Jan-2010,26.09.2019,72009.3,"₦33,446,906,919.41",2304024020.63,Active,0000000000,Plateau,No,Y
+MML600309,Ngozi Mohammed Mining Ltd,gold,Benue Coal Field,Quarry lease,20-Sep-2016,17-May-2021,49891.39,"N128,506,228,722",N/A,Suspended,0000000000,Plateau,Y,N
+MML600196,  WALE ADEKUNLE MINING LTD   ,Lead,Cross River Barite Site,Small-Scale Mining,23/03/2019,2023/08/16,37655.66,"158,352,214,825.64 ","N10,414,065,668",Suspended,0470 551 6940,Sokoto,Y,Y
+MML600219,Ngozi Nnamdi Mining Ltd,Gold,Nasarawa Barytes Mine,Small Scale,2021-12-11,2025/07/25,32283.38,102982520743.98 naira,"5,044,452,876.16 ",active,234-874-064-039,Zamfara,yes,true
+MML600165,Chioma Olawale Mining Ltd,Iron Ore,Kogi Iron Ore Field,Quarry lease,07/01/2020,18.10.2029,59441.62,45769350375.75 naira,,Reclaimed,(548) 687-4034,Plateau,false,1
+MML600013,Ifeoma Mohammed Mining Ltd,GOLD,Kogi Iron Ore Field,Quarry lease,2019-11-29,04.02.2027,-,"NGN 152,715,998,731","₦5,264,877,218.16",Suspended ,51462704828,Kogi,N,Y
+MML600192,Femi Abubakar Mining Ltd,Tin,Plateau Mining Zone,Quarry lease,2012/06/30,2016-11-30,38255.51,5785346822.58,"₦221,928,112.06",Active,84991216558,Nasarawa,true,true
+MML600151,  Tunde Bello Mining Ltd,Columbite ,Sokoto Gypsum Deposit,Small Scale,N/A,30/11/2016,58017.02,85759000860.12,,Inactive,27065379473,Cross River,true,1
+MML600456,NGOZI YUSUF MINING LTD,Tin ,Cross River Barite Site,Quarry Lease,15 May 2015,01.05.2018,40134.62,unknown,"₦4,912,700,071.65",Active,0486 959 4636,Sokoto,1,No
+MML600431,Grace Nwosu Mining Ltd,Coal,Zamfara Gold Belt,Quarry lease,10-Sep-2014,27/02/2024,47805.03,"₦106,358,287,305.54",--,Abandoned,(552) 314-9135,Sokoto,Y,false
+MML600101,Tunde Nwosu Mining Ltd,COAL,Kogi Iron Ore Field,Quarry Lease,02.02.2020,13/01/2024,29629.37,"N109,167,701,299",?,active,(482) 175-9464,Zamfara,Y,1
+MML600010,Yusuf Balogun Mining Ltd,Zinc,Benue Coal Field,Mining Lease,12 April 2021,26 March 2028,14751.33 short tons,"N57,884,252,705","NGN 1,922,015,273",active,23884969653,Ebonyi,N,yes
+MML600358,grace mohammed mining ltd,Coal,Zamfara Gold Belt,Quarry lease,2011-09-18,2021-07-23,185.69,"NGN 780,319,984",28049162.05 naira,Suspended ,13736785082,Ebonyi,Y,true
+MML600378,Amara Ajayi Mining Ltd,Limestone,Ebonyi Lead-Zinc Site,MINING LEASE,11 February 2020,01/12/2022,15283.96,,54007250.85 naira,Suspended,234-689-421-044,Zamfara,N,Yes
+MML600072,Zainab Abubakar Mining Ltd,limestone,Ebonyi Lead-Zinc Site,Small Scale,11.09.2016,2020-03-20,80026.3,"NGN 353,800,939,379","21,527,715,414.51 ",Suspended,234-134-352-408,Zamfara,no,0
+MML600295,Tobi Ajayi Mining Ltd,Coal,Kogi Iron Ore Field,Mining Lease,22 March 2021,05 October 2027,14490.97,"13,219,787,971.24 ",,active,0196 565 2341,Plateau,1,true
+MML600210,sadiq okonkwo mining ltd,Limestone,Ebonyi Lead-Zinc Site,small-scale mining,07.12.2020,09-Apr-2022,5556.51,"N3,069,123,879",-,Reclaimed,(152) 742-0549,Benue,1,FALSE
+MML600453,Blessing Okafor Mining Ltd,Gold,Nasarawa Barytes Mine,small-scale mining,11/17/2021,07 January 2027,25843.13,"87,642,219,268.08 ",,Reclaimed,05991624731,Nasarawa,Y,Y
+MML600207,  Musa Balogun Mining Ltd,Gold,Nasarawa Barytes Mine,Small-Scale Mining,09/19/2021,06 January 2024,349.84,"₦1,468,943,589.12","NGN 84,437,952",Active,(540) 193-8026,Zamfara,N,TRUE
+MML600003,Wale Balogun Mining Ltd,Columbite,Cross River Barite Site,Quarry Lease,2018-03-08,2021/01/02,31465.7,"NGN 30,908,954,933","₦1,257,348,866.77",Active,0637 940 2654,Nasarawa,No,N
+MML600306,Chinedu Okonkwo Mining Ltd,Lead,Zamfara Gold Belt,MINING LEASE,2019-09-14,15 April 2025,31238.83,"NGN 70,726,792,387","₦2,894,195,414.25",INACTIVE,N/A,Ebonyi,N,true
+MML600202,  Aliyu Suleiman Mining Ltd,COAL,Cross River Barite Site,Small-Scale Mining,17/09/2016,2021/05/01,31328.72,54395433551.17,1779093337.62,active,234-375-758-441,Nasarawa,TRUE,FALSE
+MML600289,Tunde Eze Mining Ltd,Gypsum,Kogi Iron Ore Field,Quarry Lease,23/04/2019,29-Jul-2020,-,"₦106,854,326,604.30","NGN 4,304,852,194",Inactive,0063 242 4154,Ebonyi,yes,1
+MML600218,Wale Mohammed Mining Ltd,COAL,Benue Coal Field,Small-Scale Mining,2021/10/30,03/14/2023,29142.41,"₦12,402,616,926.42","444,048,538.21 ",Active,0718 707 2867,Sokoto,yes,0
+MML600328,FEMI NWOSU MINING LTD,Gold,Kogi Iron Ore Field,MINING LEASE,21.06.2020,2023/05/10,76194.78,n/a,"N16,148,104,677",Abandoned,07859321334,Ebonyi,N,FALSE
+MML600231,KEMI ABUBAKAR MINING LTD,Tin ,Sokoto Gypsum Deposit,Quarry lease,2018-05-18,2020-11-26,38908.19,"N35,561,673,502","₦1,576,932,888.93",Reclaimed,(175) 183-0469,Sokoto,N,FALSE
+MML600162,Ngozi Eze Mining Ltd,Limestone,Kogi Iron Ore Field,Small Scale,08 September 2017,not set,50705.54,18068964399.90 naira,"N815,424,430",Active,06706540515,Benue,TRUE,1
+MML600182,blessing  abubakar mining ltd,Tin ,Nasarawa Barytes Mine,small-scale mining,02/07/2017,13 May 2024,67027.86,"NGN 229,054,572,631",14252008014.05,Inactive,0299 590 0109,Nasarawa,yes,TRUE
+MML600171,Tunde Nnamdi Mining Ltd,Gold,Plateau Mining Zone,Small-Scale Mining,09/04/2021,01 March 2026,33466.24,"NGN 103,886,135,704",n/a,Abandoned,0355 690 9275,Ebonyi,no,1
+MML600458,Wale Nwosu Mining Ltd,Barite,Nasarawa Barytes Mine,Mining Lease,2012/07/04,2021/08/08,14361.46,"NGN 27,105,447,523",1181618208.48 naira,Abandoned,(621) 372-1386,Nasarawa,FALSE,Yes
+MML600075,Obinna Mohammed Mining Ltd,Tin ,Nasarawa Barytes Mine,Small-Scale Mining,2012-05-29,01-Mar-2017,24188.1,"₦107,673,149,171.42","NGN 5,570,149,436",Reclaimed,71902294131,Benue,1,TRUE
+MML600190,Kemi Balogun Mining Ltd,Barite,Sokoto Gypsum Deposit,Quarry lease,07/16/2017,2019/06/19,40447.91,"NGN 136,174,033,831","N7,070,985,981",Inactive,0801 624 5650,Benue,no,no
+MML600339,Tunde Eze Mining Ltd,Columbite ,Ebonyi Lead-Zinc Site,exploration,20 February 2016,31/03/2017,8325.93,"NGN 36,706,604,191",1427483970.25,Suspended ,+234267658617,Nasarawa,Yes,true
+MML600323,Chioma Bello Mining Ltd,Coal,Cross River Barite Site,Quarry lease,15-Aug-2013,2014-10-04,9922.55,4571922467.13,267294606.46,Inactive,(296) 670-6625,Ebonyi,Y,yes
+MML600135,Blessing Adekunle Mining Ltd,Coal,Kogi Iron Ore Field,Quarry lease,17-Jun-2017,14-Jul-2025,NULL,121158337491.42,3915903320.79,Reclaimed,,Cross River,N,false
+MML600118,yusuf  okafor mining ltd,limestone,Ebonyi Lead-Zinc Site,Small-Scale Mining,14/11/2020,09/23/2025,77577.59,NULL,n/a,Suspended,234-783-908-470,Ebonyi,FALSE,Yes
+MML600138,Tunde Nnamdi Mining Ltd,Limestone,Nasarawa Barytes Mine,Mining Lease,21-Jan-2016,01/14/2024,51479.12,--,"₦2,149,413,405.57",Abandoned,18835523124,Sokoto,no,N
+MML600214,Bola Okafor Mining Ltd,Tin,Benue Coal Field,Small Scale,2013/06/17,10-Sep-2017,84783.76,257046900338.80 naira,"NGN 9,092,031,083",Reclaimed,(684) 145-9332,Plateau,FALSE,0
+MML600305,Grace Adeyemi Mining Ltd,COAL,Benue Coal Field,Quarry Lease,2020-08-17,20/08/2024,49401.08,142747874890.15 naira,"N8,796,834,828",Abandoned,234-481-491-778,Benue,0,0
+MML600243,Obinna Nwosu Mining Ltd,GOLD,Sokoto Gypsum Deposit,Quarry lease,2020/08/07,2022/12/28,55574.28,223545042630.38,,active,01567933410,Kogi,no,0
+MML600265,Musa Ogundimu Mining Ltd,GOLD,Sokoto Gypsum Deposit,Mining Lease,N/A,2029/01/17,12405.57,"NGN 16,640,318,984","N673,466,633",Inactive,08993756798,Plateau,no,N
+MML600167,Fatima Nnamdi Mining Ltd,GOLD,Ebonyi Lead-Zinc Site,exploration,03/10/2016,06-Dec-2025,33952.16,102874912606.03 naira,,Inactive,234-758-416-169,Zamfara,TRUE,yes
+MML600311,ngozi ogundimu mining ltd,limestone,Sokoto Gypsum Deposit,Small Scale,2021/04/09,2030/04/22,58211.21,74260759505.03,"NGN 2,249,932,616",Suspended,+234937597383,Benue,0,1
+MML600445,Obinna Okonkwo Mining Ltd,Iron ore,Sokoto Gypsum Deposit,Small-Scale Mining,28/06/2015,2018-03-20,58200.81,221932746636.32,"9,980,384,952.03 ",Suspended ,(777) 392-6030,Zamfara,no,0
+MML600088,Chioma  Bello Mining Ltd,COAL,Ebonyi Lead-Zinc Site,Mining Lease,23/10/2011,20.02.2020,84292.35,"NGN 247,990,648,642","N7,754,017,884",active,(247) 710-9324,Plateau,Y,no
+MML600203,Obinna Lawal Mining Ltd,Zinc,Nasarawa Barytes Mine,Small-Scale Mining,,22.05.2020,52214.84,117951564872.29,6978886211.60 naira,INACTIVE,86652404157,Cross River,Yes,true
+MML600099,Yusuf Lawal Mining Ltd,Columbite,Kogi Iron Ore Field,Small Scale,06/16/2021,24-Oct-2026,35550.61,NULL,1069685583.75,Abandoned,0386 922 2196,Benue,false,0
+MML600081,SADIQ ADEYEMI MINING LTD,Iron Ore,Kogi Iron Ore Field,small-scale mining,07/06/2011,2013/08/22,50485.46,102821855536.41,"NGN 5,848,604,358",Suspended,(499) 471-7464,Cross River,1,yes
+MML600166,Adaeze Okonkwo Mining Ltd,Tin ,Plateau Mining Zone,Small-Scale Mining,27.12.2018,11/14/2026,61481.42 short tons,73890148494.55 naira,"₦5,064,518,920.52",Active,05415667652,Plateau,Y,No
+MML600080,Sadiq Chukwu Mining Ltd   ,Gold,Plateau Mining Zone,exploration,2011/10/20,15 June 2020,81952.29,323036591481.64 naira,"₦11,409,520,694.07",Inactive,0000000000,Plateau,N,N
+MML600293,MUSA LAWAL MINING LTD,limestone,Benue Coal Field,small-scale mining,2017/05/14,18 July 2018,85640.22 short tons,"N50,117,257,043","NGN 3,352,358,922",Suspended ,234-262-218-909,Benue,Y,false
+MML600108,Adaeze Bello Mining Ltd,Columbite ,Benue Coal Field,Quarry lease,17/05/2010,16 December 2017,5740.73,"NGN 6,984,886,743","NGN 220,674,047",Suspended,0817 549 6513,Zamfara,yes,false
+MML600313,  Adaeze Okafor Mining Ltd,Tin ,Zamfara Gold Belt,Mining Lease,05/11/2020,19-Aug-2025,29211.23,"53,370,996,113.71 ","₦2,016,150,401.05",Inactive,01383670241,Benue,Y,No
+MML600363,Adaeze Chukwu Mining Ltd,Barite,Nasarawa Barytes Mine,Mining Lease,2020-09-15,20.03.2025,55479.67,"₦102,786,876,334.76",,Reclaimed,234-333-346-800,Cross River,TRUE,N
+MML600053,Fatima Olawale Mining Ltd,limestone,Cross River Barite Site,Small-Scale Mining,07/01/2019,13.03.2026,30755.71,51163957454.80 naira,1903837304.31 naira,INACTIVE,(362) 316-6587,Kogi,FALSE,1
+MML600242,Wale Adekunle Mining Ltd,Tin ,Kogi Iron Ore Field,Small-Scale Mining,26-Jun-2011,08-Feb-2019,70845.27 short tons,"28,509,760,520.75 ","N1,322,237,806",Abandoned,01823398454,Kogi,yes,yes
+MML600272,Blessing Afolabi Mining Ltd,Gypsum,Cross River Barite Site,small-scale mining,24 June 2013,,44818.93,131326321806.41 naira,4380889038.92 naira,active,(478) 596-9691,Zamfara,TRUE,Yes
+MML600347,Sadiq Okeke Mining Ltd,Tin,Cross River Barite Site,Mining Lease,24/04/2012,03/04/2021,62088.96,"N171,948,978,070",,Active,(704) 774-3490,Nasarawa,false,true
+MML600157,Amaka Mohammed Mining Ltd,Barite,Nasarawa Barytes Mine,Mining Lease,10/06/2012,2015/05/30,60486.02 short tons,22759994054.23 naira,938272506.33,Abandoned,+234472779010,Ebonyi,1,N
+MML600257,Funmilayo Balogun Mining Ltd,COAL,Nasarawa Barytes Mine,exploration,2013-05-17,09/29/2022,58251.22,"₦80,749,399,548.41","3,828,777,302.18 ",Abandoned,0371 240 6596,Benue,true,Yes
+MML600158,Halima Okafor Mining Ltd,Columbite,Kogi Iron Ore Field,Small Scale,11 July 2016,2019/01/10,39499.86,91692343143.33,"₦4,206,056,727.48",Abandoned,234-289-861-434,Ebonyi,N,Yes
+MML600110,Grace Balogun Mining Ltd,Columbite ,Ebonyi Lead-Zinc Site,Exploration,19 August 2019,09/06/2023,44527.85,"N54,329,585,113","NGN 3,748,851,309",Active,,Cross River,Yes,0
+MML600119,Kunle Lawal Mining Ltd,Columbite,Sokoto Gypsum Deposit,Exploration,11/20/2017,02/04/2025,?,"NGN 122,441,778,632",4595159948.14,INACTIVE,+234661771159,Kogi,No,TRUE
+MML600056,  chioma nnamdi mining ltd,Limestone,Ebonyi Lead-Zinc Site,Quarry Lease,2014-12-24,13-Jan-2021,75193.59,315106263947.05,"₦14,682,652,475.04",Inactive,N/A,Kogi,TRUE,false
+MML600382,Fatima Adeyemi Mining Ltd,limestone,Plateau Mining Zone,exploration,17/06/2019,09 February 2028,64277.22,"N94,110,570,024","N4,028,389,432",Active,234-167-618-472,Kogi,1,Yes
+MML600350,CHIDI MOHAMMED MINING LTD,GOLD,Ebonyi Lead-Zinc Site,Small Scale,10/09/2017,26/01/2022,61654.94,274606080165.08,"NGN 10,456,989,833",Suspended,(989) 921-7223,Plateau,false,N
+MML600457,Musa Suleiman Mining Ltd,Tin ,Sokoto Gypsum Deposit,Exploration,10-May-2019,2023/04/09,75085.41,183296208079.66,"N10,746,985,529",Suspended ,08725887449,Kogi,yes,FALSE
+MML600327,Emeka Ajayi Mining Ltd,Coal,Ebonyi Lead-Zinc Site,Quarry lease,29-Jan-2018,04.08.2019,82415.81,"NGN 273,980,480,661",15648991549.41,Active,08564205930,Nasarawa,true,TRUE
+MML600176,Chinedu Adeyemi Mining Ltd,gold,Sokoto Gypsum Deposit,Small Scale,16 May 2016,05 May 2022,53251.04,"N33,770,911,877","N2,145,827,757",Suspended ,31323705895,Nasarawa,no,0
+MML600384,CHIDI AFOLABI MINING LTD,Gold,Plateau Mining Zone,exploration,27/01/2011,2012-03-09,12999.39 short tons,"N52,728,880,143","NGN 3,398,669,014",Suspended,(891) 411-7393,Sokoto,No,Y
+MML600049,Emeka Afolabi Mining Ltd,Columbite ,Zamfara Gold Belt,Quarry lease,2020/04/27,2029-01-19,78180.47,"N34,569,681,657","₦2,204,832,669.04",INACTIVE,16328708317,Kogi,N,No
+MML600422,Wale Adeyemi Mining Ltd,Columbite ,Ebonyi Lead-Zinc Site,Small-Scale Mining,2021/07/03,2030/01/14,72806.46 short tons,"₦211,046,576,630.15","NGN 8,988,979,578",Reclaimed,234-861-207-501,Sokoto,Y,0
+MML600222,Yusuf Ogundimu Mining Ltd,Limestone,Kogi Iron Ore Field,small-scale mining,09/19/2018,12/06/2023,84656.48,"₦101,516,816,592.85",,active,05128682300,Sokoto,Y,true
+MML600034,Obinna Bello Mining Ltd,Iron Ore,Kogi Iron Ore Field,small-scale mining,2018-08-04,17.03.2022,72761.17,n/a,"N5,838,300,554",Suspended,234-640-052-427,Ebonyi,FALSE,false
+MML600092,Segun Adekunle Mining Ltd,limestone,Cross River Barite Site,Small Scale,2013-10-01,00/00/0000,23457.12,"32,462,250,427.76 ","NGN 1,990,152,311",Suspended,(499) 727-8755,Cross River,0,no
+MML600084,Emeka Ajayi Mining Ltd,Iron ore,Cross River Barite Site,small-scale mining,2014-04-06,30 July 2023,9972.32,"NGN 44,856,447,031",2205000967.79 naira,Abandoned,234-429-671-756,Cross River,no,no
+MML600254,Ifeoma Afolabi Mining Ltd,Iron ore,Ebonyi Lead-Zinc Site,Mining Lease,25/04/2017,09/25/2018,39177.57,152478707608.53,"N8,038,978,793",INACTIVE,+234046618398,Sokoto,true,No
+MML600241,Ibrahim Ogundimu Mining Ltd,Coal,Cross River Barite Site,Small Scale,05-Aug-2019,2024-09-26,32819.88,3421440340.23,"149,848,167.47 ",Inactive,234-084-840-862,Sokoto,TRUE,no
+MML600261,Grace Olawale Mining Ltd,COAL,Plateau Mining Zone,exploration,13.04.2015,13-Aug-2019,17883.25,"71,740,408,834.75 ","4,780,467,486.21 ",Inactive,74167243426,Nasarawa,TRUE,No
+MML600408,Segun Afolabi Mining Ltd,limestone,Nasarawa Barytes Mine,Mining Lease,10/25/2021,24 October 2025,27103.35,"NGN 66,655,684,061","2,277,966,459.17 ",Suspended,N/A,Sokoto,true,0
+MML600004,blessing mohammed mining ltd,Iron ore,Ebonyi Lead-Zinc Site,Small-Scale Mining,01/21/2017,09/06/2020,55712.46,"₦100,870,860,758.42","N6,716,173,926",Inactive,(351) 161-5594,Sokoto,TRUE,yes
+MML600392,Funmilayo Bello Mining Ltd,Lead,Nasarawa Barytes Mine,Small-Scale Mining,not set,26.12.2026,14871.35,60986761558.68 naira,2680600057.67,active,00277167014,Sokoto,true,Y
+MML600444,Zainab Nnamdi Mining Ltd   ,Iron Ore,Zamfara Gold Belt,exploration,09/05/2013,02-Jun-2020,14143.12,"N19,624,898,656","₦1,057,272,696.81",active,+234222591365,Cross River,1,No
+MML600386,AMAKA BELLO MINING LTD,gold,Nasarawa Barytes Mine,Small Scale,08.09.2011,03/25/2018,5123.16,555453393.26,21465728.96,Reclaimed,0530 011 9721,Kogi,true,yes
+MML600226,   Obinna Ajayi Mining Ltd,Gypsum,Zamfara Gold Belt,Small Scale,24.03.2015,12.01.2017,3135.08,"N2,132,097,687","₦119,724,238.03",Reclaimed,02843959953,Benue,no,No
+MML600399,  amaka afolabi mining ltd,Iron Ore,Sokoto Gypsum Deposit,Exploration,2016-03-04,23-Jul-2021,32795.07,"₦118,369,070,253.65",5747830170.05 naira,Reclaimed,50375899757,Benue,TRUE,No
+MML600159,  Blessing Adeyemi Mining Ltd,Lead,Nasarawa Barytes Mine,small-scale mining,21-Aug-2014,2021-06-11,77156.76,"₦127,892,620,515.75",--,INACTIVE,234-369-711-798,Sokoto,0,FALSE
+MML600258,Kemi  Suleiman Mining Ltd,Coal,Ebonyi Lead-Zinc Site,exploration,13-Jul-2014,2017/04/25,23180.88,4165170903.94,"₦256,519,520.78",Inactive,(756) 924-5937,Nasarawa,0,No
+MML600288,Chinedu Eze Mining Ltd,Columbite,Plateau Mining Zone,exploration,03/10/2011,31.07.2018,44349.31,"150,343,524,593.75 ",7533045296.39 naira,Active,07500170127,Ebonyi,1,Y
+MML600348,grace adeyemi mining ltd,gold,Plateau Mining Zone,Quarry Lease,,2018-09-04,28575.45,n/a,3142785390.80 naira,INACTIVE,01158693806,Plateau,true,TRUE
+MML600141,Musa Bello Mining Ltd,Gold,Kogi Iron Ore Field,Small Scale,02/05/2019,15-Dec-2026,45225.16 short tons,"NGN 105,925,038,266","N5,034,247,623",Reclaimed,90581477005,Ebonyi,TRUE,TRUE
+MML600175,Chidi Nwosu Mining Ltd,Coal,Cross River Barite Site,Quarry Lease,07/09/2021,25-Sep-2027,--,30554695583.80 naira,"₦944,874,741.25",Suspended,0551 884 4225,Nasarawa,N,N
+MML600128,Obinna Eze Mining Ltd,Zinc,Kogi Iron Ore Field,exploration,15-Jun-2010,2015-03-29,69477.89,"N97,171,397,802","NGN 4,004,808,980",Suspended ,(229) 612-0183,Ebonyi,Yes,TRUE
+MML600273,Chioma Adeyemi Mining Ltd,Tin ,Nasarawa Barytes Mine,MINING LEASE,22.07.2012,11/10/2021,56234.33,"N47,743,355,083","₦1,780,269,759.17",Active,,Plateau,Y,true
+MML600136,Yusuf Balogun Mining Ltd,Gypsum,Nasarawa Barytes Mine,Small Scale,21 September 2017,22-Mar-2022,10959.55,"NGN 19,253,733,271","NGN 1,030,976,335",Reclaimed,0529 751 6136,Plateau,N,N
+MML600391,Sadiq Ajayi Mining Ltd,Lead,Plateau Mining Zone,Quarry Lease,28.11.2017,04/14/2022,?,242456471888.75,"NGN 14,785,250,677",Inactive,0169 797 2965,Zamfara,yes,true
+MML600331,Zainab Okeke Mining Ltd,Barite,Sokoto Gypsum Deposit,exploration,05-Dec-2016,unknown date,84178.49,"50,457,837,502.47 ","NGN 3,525,688,121",Active,+234270103930,Sokoto,false,1
+MML600146,Amaka Suleiman Mining Ltd,Barite,Cross River Barite Site,Small-Scale Mining,2013-02-05,2018/09/22,51214.78,Unknown,"NGN 10,329,852,421",Inactive,(518) 644-9251,Sokoto,FALSE,FALSE
+MML600264,Aliyu Ogundimu Mining Ltd,limestone,Zamfara Gold Belt,Small-Scale Mining,04/03/2018,27.02.2021,80515.72,46071884738.41 naira,"2,706,416,249.27 ",Reclaimed,234-656-101-438,Cross River,1,Y
+MML600248,Halima Nwosu Mining Ltd,gold,Zamfara Gold Belt,Small Scale,05/29/2012,2015-06-08,70953.17,"₦313,385,251,928.44","₦14,717,722,774.72",active,21850163159,Nasarawa,true,0
+MML600077,Ibrahim Chukwu Mining Ltd,Zinc,Kogi Iron Ore Field,Small Scale,2021/04/09,2030-02-27,65436.6,204279466133.97 naira,"N11,347,408,325",Reclaimed,96499091334,Zamfara,TRUE,0
+MML600143,Obinna  Okafor Mining Ltd   ,Gypsum,Cross River Barite Site,Small Scale,2020-01-19,13.01.2022,72810.16,"N148,492,908,971",5159872300.18 naira,INACTIVE,07935978207,Zamfara,true,N
+MML600435,Adaeze Mohammed Mining Ltd,Tin ,Benue Coal Field,Small Scale,20 March 2013,01/24/2016,40414.7,"NGN 2,065,133,428","NGN 68,379,660",INACTIVE,(283) 411-0809,Cross River,Y,true
+MML600324,AMAKA LAWAL MINING LTD,COAL,Kogi Iron Ore Field,Quarry Lease,2014/09/13,02-Feb-2024,33827.77,48070835022.32 naira,"₦3,340,010,636.43",Active,+234447209993,Nasarawa,1,0
+MML600253,  Ibrahim Olawale Mining Ltd,Gold,Ebonyi Lead-Zinc Site,Quarry lease,2021-02-04,20-Sep-2028,82524.03,"NGN 230,686,151,709","N10,175,693,216",Inactive,08610158199,Ebonyi,Y,Yes
+MML600106,Grace Mohammed Mining Ltd,Tin ,Cross River Barite Site,Mining Lease,03/11/2010,12 January 2018,55251.89,110970239797.66 naira,"NGN 6,535,845,402",Inactive,(858) 842-4745,Nasarawa,false,Yes
+MML600308,BLESSING OGUNDIMU MINING LTD,COAL,Cross River Barite Site,Small Scale,16 September 2014,N/A,19866.85,nil,"NGN 2,755,753,246",Reclaimed,08635365419,Benue,false,TRUE
+MML600209,Ngozi Balogun Mining Ltd,Tin ,Zamfara Gold Belt,Small Scale,2021/12/19,05-Nov-2023,82762.97,"₦282,474,656,574.57","NGN 13,736,125,207",INACTIVE,54788728743,Ebonyi,no,0
+MML600129,Sadiq Nnamdi Mining Ltd,Gold,Kogi Iron Ore Field,Small-Scale Mining,07/26/2013,04/20/2015,-,60963911932.23,"2,159,707,107.65 ",Suspended ,06752545991,Plateau,N,no
+MML600001,  Tunde Suleiman Mining Ltd,Gold,Cross River Barite Site,small-scale mining,01-Jul-2012,11.10.2013,63031.92,"₦71,841,812,632.29","NGN 2,556,240,688",Reclaimed,234-043-321-819,Zamfara,No,1
+MML600436,Zainab Adekunle Mining Ltd,COAL,Ebonyi Lead-Zinc Site,Quarry Lease,unknown date,16.03.2025,12145.57,"NGN 24,239,307,907",1155387765.5,Suspended ,69308488725,Plateau,N,0
+MML600315,Funmilayo Abubakar Mining Ltd,Coal,Cross River Barite Site,Mining Lease,09.05.2015,2018/08/05,7768.3,"₦14,965,537,902.15","N1,041,176,791",Reclaimed,(199) 062-3445,Benue,1,No
+MML600326,chioma ajayi mining ltd   ,Iron ore,Kogi Iron Ore Field,Exploration,11.09.2017,2022/03/25,69432.1,294212285829.46 naira,"16,653,336,678.13 ",Suspended ,08380657875,Ebonyi,Yes,true
+MML600395,Tunde Mohammed Mining Ltd,gold,Ebonyi Lead-Zinc Site,Small Scale,05-May-2020,18-Jun-2027,15587.04,"₦55,048,835,090.98","₦3,487,569,065.27",Suspended,234-721-753-540,Cross River,FALSE,TRUE
+MML600100,Ibrahim Adeyemi Mining Ltd,limestone,Zamfara Gold Belt,Mining Lease,17 December 2020,2023-11-02,7027.46,1316455066.43,"NGN 79,569,526",Suspended ,37923747407,Cross River,yes,Yes
+MML600330,Tobi Mohammed Mining Ltd,Zinc,Zamfara Gold Belt,Quarry lease,00/00/0000,11.08.2019,83287.22,122633044006.80 naira,"N5,469,550,718",Suspended,59059929378,Plateau,FALSE,no
+MML600410,Funmilayo Ajayi Mining Ltd,COAL,Plateau Mining Zone,Mining Lease,2017/07/17,2021-06-26,68870.81,184557647370.48 naira,"N11,126,996,923",active,0438 057 1983,Sokoto,false,N
+MML600369,Obinna Mohammed Mining Ltd,gold,Plateau Mining Zone,Quarry lease,06.09.2020,18-Dec-2022,23662.24,"NGN 5,214,126,211",,Suspended ,09935387584,Kogi,No,Y
+MML600058,Halima Nnamdi Mining Ltd,Iron ore,Sokoto Gypsum Deposit,Exploration,2011-12-03,16/10/2018,NULL,29093150854.12,1484983597.66,INACTIVE,234-537-556-464,Ebonyi,true,Y
+MML600221,Sadiq Ajayi Mining Ltd,Limestone,Kogi Iron Ore Field,exploration,2014/11/12,2022/08/02,54237.23,173609805556.06,"N6,041,462,275",INACTIVE,02265676618,Nasarawa,Yes,1
+MML600415,HALIMA OGUNDIMU MINING LTD,GOLD,Cross River Barite Site,Small Scale,20/09/2012,21-Aug-2019,67847.57,"NGN 186,689,641,295",10523304966.14 naira,INACTIVE,(202) 590-9479,Cross River,0,1
+MML600005,Kemi Olawale Mining Ltd,Lead,Kogi Iron Ore Field,small-scale mining,05.04.2010,20.11.2018,61261.49,"₦188,906,613,149.83",9724688253.67 naira,Active,0781 618 4959,Plateau,No,no
+MML600292,  Ibrahim Adeyemi Mining Ltd   ,Tin,Nasarawa Barytes Mine,Quarry lease,12 July 2018,2023-06-20,71607.37,"N71,375,068,496",4541407732.68,active,234-271-361-115,Ebonyi,N,0
+MML600154,Ngozi Yusuf Mining Ltd,GOLD,Plateau Mining Zone,small-scale mining,10/09/2018,14/09/2028,67786.29,168006549556.65 naira,,Reclaimed,81814124782,Ebonyi,N,1
+MML600250,Amaka Afolabi Mining Ltd,Lead,Nasarawa Barytes Mine,Quarry lease,2017/08/06,03-Nov-2020,50571.87,"₦225,471,793,118.52","₦7,871,330,036.68",Abandoned,66296194311,Kogi,Yes,No
+MML600307,Kemi Abubakar Mining Ltd,Tin,Nasarawa Barytes Mine,Exploration,2017-05-21,10.03.2021,25731.17,"94,671,748,666.79 ","₦5,428,627,005.42",Suspended,+234000307562,Cross River,false,false
+MML600111,Adaeze Suleiman Mining Ltd,COAL,Cross River Barite Site,MINING LEASE,2018/03/01,16.06.2023,86221.92 short tons,66202950401.88 naira,"₦4,529,187,848.87",Active,07586926179,Sokoto,yes,yes
+MML600302,BOLA CHUKWU MINING LTD,GOLD,Plateau Mining Zone,Exploration,2014-08-09,2020-02-03,15661.19,"N69,769,932,622","₦3,105,647,091.78",active,09146303161,Kogi,1,true
+MML600278,Bola Olawale Mining Ltd,Zinc,Zamfara Gold Belt,small-scale mining,2013-07-23,07.07.2016,Unknown,"NGN 283,637,779,854","N8,871,849,477",Inactive,0903 404 3842,Sokoto,No,No
+MML600052,KUNLE OLAWALE MINING LTD,Tin,Ebonyi Lead-Zinc Site,Mining Lease,05/06/2016,2021-09-08,34745.69,"NGN 54,055,044,457",--,INACTIVE,71434558122,Zamfara,true,true
+MML600102,Emeka Mohammed Mining Ltd,Zinc,Benue Coal Field,Small Scale,2011/05/01,09-Jun-2015,73699.11,45299331178.84,2928291541.82 naira,active,234-367-136-959,Sokoto,0,no
+MML600244,wale chukwu mining ltd   ,Columbite,Zamfara Gold Belt,Quarry Lease,14.01.2013,16.01.2018,13881.67,"N17,537,866,914","₦820,431,239.05",INACTIVE,06668700217,Kogi,TRUE,yes
+MML600043,Halima Yusuf Mining Ltd,Gold,Plateau Mining Zone,Small Scale,20-Dec-2014,12-Nov-2022,3686.51,n/a,,active,(615) 951-4846,Ebonyi,1,FALSE
+MML600227,  AMARA OKONKWO MINING LTD,Columbite,Sokoto Gypsum Deposit,Small-Scale Mining,30/01/2013,08.09.2017,71096.38,254475445787.94,,Abandoned,04283644089,Kogi,No,false
+MML600060,Kemi Balogun Mining Ltd,Coal,Benue Coal Field,Quarry Lease,2014-03-11,2020-10-02,58825.98,"N99,103,765,254","N6,133,694,088",INACTIVE,09232719374,Ebonyi,FALSE,1
+MML600414,Chidi Nnamdi Mining Ltd,GOLD,Cross River Barite Site,Quarry lease,20/05/2012,03/18/2020,17976.16,"₦25,945,363,076.94",,Reclaimed,(648) 422-9405,Benue,TRUE,false
+MML600101,Tunde Nwosu Mining Ltd,COAL,Kogi Iron Ore Field,Quarry Lease,02.02.2020,13/01/2024,29629.37,"N109,167,701,299",?,active,(482) 175-9464,Zamfara,Y,1
+MML600038,Emeka Abubakar Mining Ltd,Tin,Zamfara Gold Belt,Exploration,21-Feb-2021,unknown date,65938.1,"NGN 70,819,289,167","₦4,396,268,722.73",Suspended,234-634-216-073,Nasarawa,Y,yes
+MML600325,Kemi Balogun Mining Ltd,Iron Ore,Nasarawa Barytes Mine,Exploration,13.06.2012,01/08/2020,14121.14,"NGN 19,125,797,057",unknown,Abandoned,(768) 701-4626,Benue,no,no
+MML600405,  OBINNA MOHAMMED MINING LTD,COAL,Sokoto Gypsum Deposit,exploration,05/03/2019,,69268.86 short tons,"₦263,026,244,501.82","NGN 17,228,415,059",Active,08669346547,Benue,1,false
+MML600164,Aliyu Okeke Mining Ltd,Iron ore,Cross River Barite Site,Quarry lease,10 August 2014,2023-04-27,68364.51,127797920982.74,"NGN 4,378,782,168",Suspended,72217043030,Zamfara,false,N
+MML600027,Adaeze Suleiman Mining Ltd,Gold,Nasarawa Barytes Mine,Small Scale,2014-01-09,31/05/2018,1203.1,"₦2,919,804,770.25",,Abandoned,20812191361,Plateau,Y,Y
+MML600007,Femi Nwosu Mining Ltd,Gold,Zamfara Gold Belt,Exploration,16/02/2020,25/06/2022,21072.35,7057451129.21 naira,217661464.36,Abandoned,0255 341 9283,Benue,N,No
+MML600275,Ngozi Ogundimu Mining Ltd,limestone,Plateau Mining Zone,Small Scale,05/24/2020,20.01.2023,,"₦5,925,952,964.76",217151922.53 naira,Suspended ,96627828274,Nasarawa,Yes,0
+MML600312,Emeka Okonkwo Mining Ltd,Barite,Sokoto Gypsum Deposit,Quarry lease,11 February 2014,2022-12-12,53277.41 short tons,87061512819.04,5905164278.02 naira,active,00603850506,Sokoto,Yes,No
+MML600238,Zainab Suleiman Mining Ltd,Tin,Kogi Iron Ore Field,Small-Scale Mining,2017-12-02,08-Feb-2022,38754.03,"N30,627,917,292",,INACTIVE,+234228728080,Ebonyi,0,TRUE
+MML600245,tunde abubakar mining ltd,Columbite ,Zamfara Gold Belt,Quarry lease,14/05/2018,02/05/2028,41216.67,"NGN 64,479,080,592","4,283,443,276.44 ",INACTIVE,234-918-033-974,Plateau,false,No
+MML600298,Zainab Balogun Mining Ltd,Iron Ore,Sokoto Gypsum Deposit,Exploration,2011/12/02,06/08/2013,77920.76,"NGN 134,756,812,357","₦8,840,498,253.37",Suspended ,(180) 552-6965,Plateau,0,1
+MML600390,Adaeze Okafor Mining Ltd,Gypsum,Cross River Barite Site,small-scale mining,17.08.2020,01/03/2028,94.85 short tons,"NGN 338,677,526","NGN 16,562,256",active,234-746-762-120,Ebonyi,0,Yes
+MML600300,Halima Chukwu Mining Ltd   ,gold,Nasarawa Barytes Mine,MINING LEASE,01 February 2013,2023/01/09,3746.49,"2,316,002,723.21 ","₦123,630,290.80",INACTIVE,+234848666188,Cross River,No,no
+MML600125,Adaeze Bello Mining Ltd,COAL,Sokoto Gypsum Deposit,Small-Scale Mining,17/09/2017,12.10.2024,35189.16,120214374680.1,"N4,700,443,401",Inactive,0945 198 3273,Kogi,Y,N
+MML600439,Tobi  Adeyemi Mining Ltd,Tin ,Plateau Mining Zone,exploration,2018/03/20,01/01/2025,1205.05,Unknown,"NGN 169,059,154",Inactive,0927 503 7314,Zamfara,No,No
+MML600107,Ibrahim Adeyemi Mining Ltd,Zinc,Sokoto Gypsum Deposit,Quarry lease,07-Oct-2016,26/01/2020,44008.92,101985189434.0,"6,110,314,698.72 ",Suspended ,71236851604,Kogi,0,No
+MML600032,Ifeoma Lawal Mining Ltd,Gold,Benue Coal Field,Mining Lease,27.02.2011,09-Jun-2014,22700.15,"₦14,369,396,273.76","NGN 596,634,085",active,0808 412 4118,Sokoto,N,0
+MML600156,Amara Chukwu Mining Ltd,COAL,Kogi Iron Ore Field,Exploration,13.05.2017,2025/04/10,56051.06,"NGN 175,769,884,309","NGN 6,344,554,323",Abandoned,234-615-305-152,Nasarawa,0,TRUE
+MML600450,  Chidi Eze Mining Ltd,COAL,Benue Coal Field,Exploration,2020/04/13,2021/09/26,6506.03,11118409788.51,"N398,817,558",active,(103) 886-2912,Cross River,false,Yes
+MML600068,Ifeoma Adekunle Mining Ltd,Iron ore,Ebonyi Lead-Zinc Site,Exploration,22 July 2020,2024-10-04,45618.95,174260603813.29 naira,"NGN 8,231,567,446",Inactive,01367837770,Benue,no,no
+MML600033,Ngozi Balogun Mining Ltd,Gold,Nasarawa Barytes Mine,exploration,30 March 2013,18-Jul-2018,16202.29,44025353545.89 naira,2634992332.94,Suspended ,234-493-534-874,Cross River,false,N
+MML600376,Chinedu Ajayi Mining Ltd,Coal,Benue Coal Field,Exploration,02/04/2012,2013/05/19,37181.07,"NGN 105,913,210,052","NGN 5,690,878,577",Reclaimed,0666 676 0083,Nasarawa,true,Yes
+MML600098,Grace Olawale Mining Ltd,Iron ore,Zamfara Gold Belt,MINING LEASE,03-Jun-2014,20.07.2020,9686.62,29395223915.57,"NGN 1,457,396,364",Reclaimed,+234400504556,Ebonyi,false,Y
+MML600381,   emeka balogun mining ltd,Gold,Ebonyi Lead-Zinc Site,Small-Scale Mining,28.07.2012,08/03/2015,68768.54,"N134,839,376,965","₦5,047,927,235.25",active,50648909010,Zamfara,FALSE,true
+MML600047,AMARA AJAYI MINING LTD,Lead,Sokoto Gypsum Deposit,Quarry lease,05-Mar-2020,12/30/2024,13380.21,19224502354.68 naira,"N826,179,058",Abandoned,234-343-320-037,Plateau,N,1
+MML600143,Obinna  Okafor Mining Ltd   ,Gypsum,Cross River Barite Site,Small Scale,2020-01-19,13.01.2022,72810.16,"N148,492,908,971",5159872300.18 naira,INACTIVE,07935978207,Zamfara,true,N
+MML600283,Halima Eze Mining Ltd,GOLD,Nasarawa Barytes Mine,small-scale mining,21/10/2015,05/07/2019,70739.55,"₦99,215,211,106.88","NGN 4,654,169,216",Reclaimed,234-544-948-126,Kogi,false,1
+MML600137,Segun Adeyemi Mining Ltd,Iron Ore,Zamfara Gold Belt,Exploration,,23-Apr-2016,62396.65,166856948021.12,"N6,133,559,572",Active,68164535218,Zamfara,true,TRUE
+MML600312,Emeka Okonkwo Mining Ltd,Barite,Sokoto Gypsum Deposit,Quarry lease,11 February 2014,2022-12-12,53277.41 short tons,87061512819.04,5905164278.02 naira,active,00603850506,Sokoto,Yes,No
+MML600021,Amaka Ogundimu Mining Ltd,Gold,Benue Coal Field,Exploration,21-Sep-2018,28-Jun-2023,56854.42,"NGN 204,774,460,249","NGN 12,074,987,837",Suspended ,0311 656 6701,Nasarawa,No,0
+MML600091,  aliyu eze mining ltd,Iron ore,Plateau Mining Zone,exploration,21.12.2012,13 December 2014,15928.71,"N32,611,713,911","NGN 1,701,992,305",Suspended,234-821-465-840,Sokoto,Y,No
+MML600234,Musa Suleiman Mining Ltd,Barite,Zamfara Gold Belt,MINING LEASE,20/06/2017,2024/06/02,--,"NGN 5,410,151,638","NGN 220,688,608",Suspended,46785445877,Zamfara,TRUE,false
+MML600368,Chioma Ogundimu Mining Ltd,GOLD,Sokoto Gypsum Deposit,Small Scale,09.07.2016,25/09/2021,13447.91,--,"NGN 808,711,958",INACTIVE,(965) 207-4466,Sokoto,N,false
+MML600443,Kunle Ajayi Mining Ltd,COAL,Benue Coal Field,Small Scale,2016-11-14,11 September 2019,39681.77,"NGN 34,857,071,235","1,076,037,745.97 ",Inactive,234-908-272-318,Benue,FALSE,Yes
+MML600256,Yusuf Okafor Mining Ltd,Columbite ,Kogi Iron Ore Field,Small Scale,09.01.2019,03-Nov-2022,53122.12,"109,796,372,400.21 ",6646818601.48,Active,234-647-154-379,Sokoto,Y,N
+MML600448,Kunle Okonkwo Mining Ltd,Iron ore,Zamfara Gold Belt,Quarry Lease,not set,09 August 2029,28480.73,69232597215.11 naira,,active,0000000000,Sokoto,no,Yes
+MML600440,Chinedu Okonkwo Mining Ltd,Barite,Ebonyi Lead-Zinc Site,Small Scale,2014/02/04,2023-04-11,7345.96,nil,"NGN 591,742,967",Suspended ,+234038567700,Nasarawa,Y,FALSE
+MML600334,Yusuf Bello Mining Ltd,Coal,Sokoto Gypsum Deposit,Quarry lease,2012/08/31,13/05/2016,33715.11,47098955499.73 naira,2536100680.44 naira,Active,(545) 226-7528,Sokoto,yes,false
+MML600354,Yusuf Abubakar Mining Ltd,Columbite,Nasarawa Barytes Mine,Exploration,09/29/2020,2022/10/17,N/A,88288710241.46 naira,"N5,528,985,083",Suspended ,(191) 485-6467,Kogi,false,Yes
+MML600094,IBRAHIM NWOSU MINING LTD,limestone,Benue Coal Field,small-scale mining,21.07.2011,22 June 2021,74492.99 short tons,205761136737.0,"N7,318,340,282",Inactive,+234766270289,Ebonyi,Y,true
+MML600379,Kemi Adekunle Mining Ltd,Coal,Ebonyi Lead-Zinc Site,small-scale mining,07-May-2017,25-Nov-2019,18680.08,NULL,--,Inactive,(898) 562-5753,Nasarawa,Y,N
+MML600454,  musa adekunle mining ltd,gold,Benue Coal Field,Small-Scale Mining,30-Dec-2018,2026-03-01,34724.17,null,,INACTIVE,98643009818,Kogi,true,No
+MML600132,Sadiq Adekunle Mining Ltd,Zinc,Plateau Mining Zone,Quarry lease,2012/06/04,29/10/2018,5426.62,"NGN 24,138,725,260","NGN 1,342,687,381",Active,(840) 369-0034,Cross River,no,false
+MML600126,Fatima Mohammed Mining Ltd,Lead,Ebonyi Lead-Zinc Site,Mining Lease,28 April 2014,2016-09-25,3627.93,NIL,82926402.58 naira,Suspended ,+234851493689,Kogi,FALSE,FALSE
+MML600127,Femi Chukwu Mining Ltd,Lead,Benue Coal Field,Small Scale,31-Mar-2012,unknown date,47828.34,"N23,885,830,301","NGN 989,917,524",INACTIVE,08094024455,Sokoto,yes,no
+MML600268,Blessing Chukwu Mining Ltd,limestone,Sokoto Gypsum Deposit,Small Scale,2020/06/23,15/05/2026,9862.49,"NGN 39,780,646,531",1980934223.17,active,14010512382,Cross River,FALSE,Yes
+MML600291,Ngozi Chukwu Mining Ltd,Columbite,Cross River Barite Site,small-scale mining,15 February 2019,14/02/2025,7132.67,"N20,537,136,141","₦783,250,972.03",Active,0712 938 7005,Nasarawa,FALSE,yes
+MML600229,Sadiq Lawal Mining Ltd,Columbite,Plateau Mining Zone,Exploration,2014-09-01,2018-10-07,4511.34,2487652551.87,,Active,+234628733427,Kogi,Yes,0
+MML600029,Ibrahim Adeyemi Mining Ltd,Lead,Cross River Barite Site,Quarry lease,09/07/2011,2014-06-09,227.94,"₦468,357,774.22",25175376.81,active,0543 534 6247,Nasarawa,false,1
+MML600409,Chioma Yusuf Mining Ltd,Coal,Plateau Mining Zone,exploration,24-Jul-2012,19.10.2013,42407.39,"NGN 8,490,596,313","N349,122,225",Active,06200342442,Ebonyi,Yes,FALSE
+MML600041,Zainab Chukwu Mining Ltd,GOLD,Ebonyi Lead-Zinc Site,Exploration,03/22/2012,16.09.2018,52330.63,"NGN 221,295,042,968",-,Reclaimed,(401) 965-5698,Cross River,No,TRUE
+MML600447,Blessing Balogun Mining Ltd,Columbite,Ebonyi Lead-Zinc Site,Quarry Lease,17-Jun-2019,21/06/2022,13901.56,42905941674.21 naira,"NGN 2,718,919,481",active,02869904137,Sokoto,TRUE,no
+MML600276,  IFEOMA LAWAL MINING LTD,Lead,Benue Coal Field,Small Scale,19 December 2018,2025-06-01,43635.48,"₦142,885,824,643.96",9632110354.38 naira,Abandoned,+234257905072,Ebonyi,FALSE,false
+MML600183,Yusuf Okafor Mining Ltd,GOLD,Cross River Barite Site,MINING LEASE,2018/03/27,28.04.2024,61.69,178235733.68 naira,"N8,049,436",INACTIVE,234-969-078-447,Zamfara,No,TRUE
+MML600383,Tunde Afolabi Mining Ltd,Lead,Ebonyi Lead-Zinc Site,MINING LEASE,19 December 2021,17-Nov-2028,3325.7,"N9,708,555,430","318,228,627.79 ",Inactive,(046) 184-9926,Zamfara,Yes,N
+MML600274,Musa Lawal Mining Ltd,Iron ore,Nasarawa Barytes Mine,Mining Lease,13/09/2020,10.11.2026,64819.88 short tons,"230,279,522,271.63 ","N15,804,579,245",Reclaimed,34125286692,Cross River,No,yes
+MML600284,Amaka Chukwu Mining Ltd,Tin,Benue Coal Field,Quarry lease,28/08/2021,12/04/2030,21049.21,"NGN 31,761,552,603","N1,692,724,381",Suspended ,(422) 325-3672,Sokoto,true,1
+MML600139,TOBI LAWAL MINING LTD,Lead,Cross River Barite Site,Small Scale,2010-01-23,16/03/2011,62929.75 short tons,"₦233,243,661,358.24","14,789,814,173.15 ",INACTIVE,03292127799,Zamfara,Yes,Yes
+MML600035,Femi Bello Mining Ltd,limestone,Plateau Mining Zone,Mining Lease,2018/12/01,03/15/2027,6827.26,"₦10,323,615,028.54","588,180,737.72 ",Abandoned,234-801-128-059,Plateau,Yes,no
+MML600260,Amaka Yusuf Mining Ltd,Iron Ore,Cross River Barite Site,exploration,2016-03-25,2026/01/09,79642.68,"₦132,632,232,666.30","7,775,809,898.93 ",Suspended ,0000000000,Nasarawa,yes,No
+MML600169,Wale Okonkwo Mining Ltd,GOLD,Cross River Barite Site,exploration,2012/02/01,07/23/2017,57264.49,212095208388.36,"NGN 7,007,870,193",Reclaimed,(275) 705-9640,Ebonyi,Y,No
+MML600051,Kunle Adeyemi Mining Ltd,Barite,Ebonyi Lead-Zinc Site,Small Scale,10/01/2012,03.12.2019,50496.99,88922524099.46,"₦4,731,849,951.63",Reclaimed,0727 743 4873,Kogi,no,no
+MML600321,  Blessing Yusuf Mining Ltd   ,Tin,Cross River Barite Site,Exploration,not set,2020-08-16,61765.24,73806260110.86,3583002348.49 naira,Inactive,00323651994,Zamfara,1,FALSE
+MML600205,KUNLE CHUKWU MINING LTD,Columbite,Benue Coal Field,Quarry Lease,28.01.2017,2024-04-20,45550.5,"₦44,492,270,436.58",2554734245.16 naira,Reclaimed,234-330-833-016,Cross River,TRUE,yes
+MML600017,Blessing Abubakar Mining Ltd,Columbite,Zamfara Gold Belt,exploration,2019/08/23,14/06/2029,49298.92,"N146,094,392,741","₦7,100,118,473.66",Active,0000000000,Zamfara,0,1
+MML600341,Adaeze Balogun Mining Ltd,limestone,Plateau Mining Zone,Quarry lease,2011/10/14,23-Aug-2013,62046.14,263985101015.17,"N9,663,049,236",Active,52621815997,Ebonyi,N,false
+MML600187,Chidi Adeyemi Mining Ltd,Gold,Kogi Iron Ore Field,exploration,N/A,2020-09-25,90103.28 short tons,"N166,862,773,127","N7,656,268,486",Suspended,0469 632 5953,Ebonyi,Y,Y
+MML600104,Zainab Mohammed Mining Ltd,Gypsum,Kogi Iron Ore Field,exploration,2019-11-25,2026-01-06,57.95,"₦249,952,337.59",9521366.47,Reclaimed,09533942104,Zamfara,Yes,N
+MML600380,Amaka Olawale Mining Ltd,Iron ore,Benue Coal Field,Small-Scale Mining,2020-12-10,20.10.2026,82720.57 short tons,"₦145,255,427,781.98","N8,698,355,592",active,60332309821,Ebonyi,1,Yes
+MML600117,  Wale Okonkwo Mining Ltd,Gypsum,Sokoto Gypsum Deposit,Quarry lease,16-Feb-2021,2022-06-16,32532.31,"N63,394,244,704","NGN 2,799,345,948",Active,02681177589,Ebonyi,0,TRUE
+MML600460,Halima Bello Mining Ltd,Columbite,Ebonyi Lead-Zinc Site,Quarry Lease,09 April 2010,2014-03-06,30954.07,"N71,603,959,020",4640602632.36 naira,Abandoned,01143519066,Zamfara,no,N
+MML600269,Bisi Lawal Mining Ltd,gold,Plateau Mining Zone,exploration,2021/10/19,2031-05-26,48517.18,"92,331,323,465.05 ","₦3,053,712,502.71",Abandoned,234-258-673-622,Plateau,no,Yes
+MML600404,HALIMA YUSUF MINING LTD   ,Lead,Plateau Mining Zone,Exploration,2011-09-05,01.09.2018,53908.98 short tons,"188,125,548,200.92 ",12655649979.48,Active,07829221699,Plateau,no,No
+MML600401,Bisi Nwosu Mining Ltd,Coal,Plateau Mining Zone,exploration,20.05.2012,25-Dec-2018,79409.92,"172,322,534,366.56 ","NGN 10,407,655,761",Abandoned,02726149331,Cross River,N,yes
+MML600420,Wale Adekunle Mining Ltd,Limestone,Cross River Barite Site,exploration,02/22/2016,07 August 2022,,148852397242.14,"₦6,183,202,480.02",Active,234-588-770-435,Benue,false,0
+MML600434,amara mohammed mining ltd,Columbite ,Benue Coal Field,MINING LEASE,17.01.2019,2022-11-25,47694.76,"N138,558,864,188","NGN 5,279,581,072",Active,+234754781291,Zamfara,FALSE,Y

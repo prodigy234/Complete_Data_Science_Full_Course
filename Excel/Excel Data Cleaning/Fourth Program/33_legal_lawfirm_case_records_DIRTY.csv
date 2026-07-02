@@ -1,0 +1,448 @@
+CaseID,CaseNumber,ClientName,ClientPhone,CaseType,CourtName,AssignedLawyer,DateFiled,NextHearingDate,ClosingDate,CaseStatus,Outcome,LegalFeeNGN,AmountPaidNGN,State,ProBonoCase
+CASE200097,SUIT/fhc/3651/2020,fatima nwosu,(268) 602-5922,Commercial dispute,Customary Court Enugu,Amara Balogun,25-Nov-2024,16.04.2026,30 June 2028,settled out of court,n/a,"NGN 3,138,281","₦764,162.98",Cross River,Yes
+CASE200227,SUIT/fhc/8764/2025,Halima Eze,05240132234,Property law ,Kano State High Court,Kemi Adekunle,2021/12/17,11/06/2022,01/10/2023,settled out of court,pending,"NGN 10,584,406","N11,010,579",Delta,yes
+CASE200355,SUIT/fhc/8241/2022,Femi Adekunle,234-494-653-984,Labour Law,Federal High Court Lagos,Tunde Lawal,19-Aug-2024,10/12/2025,13.05.2026,Adjourned,n/a,3213908.36 naira,-,Kano,N
+CASE200370,SUIT/FHC/9266/2025,CHIDI BELLO,17350583199,Property Law,Court of Appeal Abuja,Kunle Okafor,08/01/2020,2020/09/21,08/02/2022,Active,Lost,"₦1,288,255.91","₦610,343.17",Lagos,FALSE
+CASE200101,SUIT/fhc/3554/2023,  Grace Lawal,0384 983 0220,Property Law,Federal High Court Abuja,Aliyu Suleiman,02 August 2019,14 November 2020,20/05/2021,Adjourned,Withdrawn,"N10,934,200","₦3,257,257.73",Abuja,0
+CASE200107,SUIT/FHC/6844/2024,YUSUF ADEYEMI,0489 952 9978,civil litigation,Federal High Court Lagos,Zainab Ogundimu,11/01/2022,2022-02-27,not set,Pending Hearing,pending,unknown,"NGN 5,030,036",Imo,Y
+CASE200039,SUIT/fhc/665/2024,Chinedu Afolabi,(564) 757-0512,Civil Litigation,Magistrate Court Ikeja,Grace Olawale,08/05/2024,2025/06/19,,Adjourned,Lost,--,"NGN 11,182,435",ABUJA,Yes
+CASE200038,SUIT/FHC/278/2021,HALIMA  YUSUF,+234427031207,CRIMINAL,Kano State High Court,Emeka Bello,08/05/2020,05-Apr-2021,2023/04/28,Adjourned ,Settled ,"N22,125,054","NGN 14,849,273",LAGOS,TRUE
+CASE200313,SUIT/fhc/8619/2025,Chinedu Nnamdi,07573839597,Property law ,Kano State High Court,Halima Mohammed,04-Oct-2024,unknown date,16-Dec-2027,Adjourned ,Pending,13090886.75 naira,4491093.36 naira,Imo,TRUE
+CASE200273,SUIT/FHC/2957/2019,sadiq olawale   ,+234459112382,CRIMINAL,Lagos State High Court,Grace Olawale,26.12.2021,30-Mar-2022,2022-04-02,Adjourned,Settled ,NULL,6030236.94 naira,Enugu,false
+CASE200152,suit/FHC/344/2020,Femi Abubakar,0000000000,CRIMINAL,Kano State High Court,YUSUF MOHAMMED,2021/05/10,02-Dec-2021,13 May 2023,Closed,Pending,"NGN 23,107,636","₦19,422,467.80",Lagos,N
+CASE200398,SUIT/fhc/9933/2024,  Ifeoma Olawale,234-439-284-044,CRIMINAL,Kano State High Court,Tunde Ogundimu,2021/06/11,2023/03/21,16.08.2023,Active,Lost,"NGN 22,773,862","N20,484,546",Oyo,N
+CASE200295,suit/fhc/9540/2022,  Chioma Afolabi,+234326642147,Employment Law,Customary Court Enugu,Ngozi Afolabi,00/00/0000,26/07/2023,29.09.2024,Active,LOST,"NGN 21,916,161","NGN 13,967,735",Akwa Ibom,Yes
+CASE200298,SUIT/fhc/2850/2023,SADIQ YUSUF   ,+234108573278,civil litigation,Lagos State High Court,Bisi Olawale,14-May-2023,,27.11.2025,Pending Hearing,Settled,n/a,"₦5,311,134.57",Cross River,No
+CASE200030,suit/FHC/7605/2024,Kemi Ogundimu,(487) 282-9979,Civil Litigation,Federal High Court Lagos,Aliyu Olawale,2024-06-28,19.06.2025,11-Aug-2025,CLOSED,-,16252657.65,"N13,497,237",Delta,yes
+CASE200084,SUIT/FHC/1719/2021,Wale Mohammed,0262 925 1881,Civil Litigation,Lagos State High Court,Tunde Adekunle,2024-06-13,08/10/2025,,Pending Hearing,pending,"N23,715,458",15622034.68,Edo,0
+CASE200417,SUIT/FHC/6245/2021,Zainab Balogun,01183727422,civil litigation,Customary Court Enugu,Wale Okonkwo,11/08/2022,05/09/2024,2024-11-03,settled out of court,NIL,20230705.5,13559893.87,Kano,No
+CASE200187,SUIT/fhc/108/2025,Blessing Suleiman   ,02929831687,Commercial Dispute,Lagos State High Court,obinna chukwu,10-Jan-2020,2021/09/21,20/05/2023,Adjourned ,pending,"₦24,619,909.86",18017863.21 naira,Imo,0
+CASE200277,SUIT/fhc/342/2022,Amaka Adeyemi,(942) 152-9108,Property law ,Lagos State High Court,Bisi Balogun,07/03/2023,01 July 2025,2025/07/31,active,Withdrawn,"NGN 10,208,017","₦3,933,551.97",Plateau,Yes
+CASE200077,suit/FHC/6693/2020,Sadiq Bello,(070) 164-5104,Criminal Defence,Court of Appeal Abuja,Kunle Afolabi,06 March 2021,08-Aug-2022,2024-09-21,Adjourned,NULL,"₦15,807,677.98","NGN 3,585,343",Edo,no
+CASE200376,SUIT/fhc/7686/2019,Yusuf Nnamdi,(284) 567-9723,Property Law,Federal High Court Lagos,Blessing Suleiman,2019/01/18,not set,,CLOSED,Won,"₦6,780,754.27",5652473.41,Lag,no
+CASE200056,SUIT/FHC/9409/2022,Grace Lawal,08113863383,Criminal Defence,Court of Appeal Abuja,Segun Nwosu,08-Oct-2021,05/06/2022,2024/03/14,Settled,--,"NGN 20,768,212","₦7,575,621.78",Rivers,Yes
+CASE200047,SUIT/FHC/4273/2023,tunde nnamdi,234-524-077-848,Commercial dispute,Kano State High Court,Femi Adeyemi,2020-07-25,2021/03/22,01/05/2022,Adjourned,Settled ,"N2,089,498",1205804.13,Plateau,Yes
+CASE200231,suit/fhc/3605/2020,  Amaka Yusuf,24955289389,civil litigation,,kunle mohammed,25/07/2023,unknown date,,Adjourned,LOST,9361197.98 naira,"₦10,228,702.10",Ogun,no
+CASE200172,suit/fhc/4667/2024,Ngozi Mohammed   ,234-993-136-565,Property law ,Court of Appeal Abuja,Adaeze Adekunle,2022/04/21,,,Pending Hearing,Withdrawn,"NGN 23,169,200",25056194.69,rivers,Y
+CASE200016,SUIT/fhc/1642/2022,Yusuf Okonkwo,0428 434 7955,civil litigation,Customary Court Enugu,Chinedu Lawal,2020-10-22,08-Jun-2021,,Struck Out,null,15058060.45 naira,"NGN 13,295,347",Edo,true
+CASE200189,n/a,Ibrahim Okeke,0392 906 0078,Family Law,Supreme Court Nigeria,Grace Ogundimu,2022-12-12,04 February 2023,2024-06-15,Closed,LOST,"NGN 20,198,478","NGN 8,989,508",Plateau,Yes
+CASE200246,SUIT/FHC/4642/2023,Halima Nnamdi,0467 197 8897,Family Law,Federal High Court Lagos,  KUNLE OKONKWO   ,10/24/2023,2024-07-19,2025/06/29,Settled Out of Court,Withdrawn,"₦16,945,347.02",15421274.34 naira,Oyo,TRUE
+CASE200018,suit/FHC/5627/2022,Tunde Lawal,0293 143 8663,Criminal Defence,Lagos State High Court,Fatima Ajayi,08.04.2022,26.08.2022,2023-02-26,Active,Settled ,14773152.86,"5,180,158.46 ",Abuja,No
+CASE200145,suit/FHC/4328/2025,MUSA OKAFOR,05807787956,civil litigation,Federal High Court Abuja,Aliyu Mohammed,20/01/2024,2024/12/30,13.08.2025,Settled Out of Court,Lost,"NGN 4,847,574",3178940.23,Enugu,0
+CASE200121,SUIT/fhc/3441/2024,Ifeoma Balogun,+234142241098,Commercial Dispute,Federal High Court Abuja,Halima Nwosu,2019-01-30,2020-12-01,05-Mar-2021,Settled Out of Court,,"NGN 1,521,663","N1,315,427",Anambra,true
+CASE200308,SUIT/FHC/3258/2024,Tobi Ogundimu,0122 777 0793,Commercial Dispute,Court of Appeal Abuja,  Musa Adekunle,01/15/2022,00/00/0000,,active,won,17002231.22,"N11,285,784",Enugu,yes
+CASE200214,SUIT/fhc/419/2024,Aliyu Ogundimu,42662991234,Civil Litigation,Federal High Court Lagos,Amara Adeyemi,2021/02/23,06/16/2022,2024-04-26,Struck Out,?,null,"N23,056,895",Enugu,TRUE
+CASE200082,SUIT/fhc/7424/2020,Fatima Eze,234-936-392-649,Employment Law,Kano State High Court,Amaka Okafor,2020/06/28,2021/03/08,,Settled Out of Court,Withdrawn,"₦2,859,708.21","N579,194",Edo,N
+CASE200068,SUIT/fhc/6750/2025,Obinna Balogun,234-646-225-179,Employment Law,Lagos State High Court,Bisi Olawale,26-Jun-2023,27-Sep-2024,07/30/2025,Struck Out,Withdrawn,"₦2,074,173.60","₦718,080.82",Kaduna,FALSE
+CASE200307,SUIT/FHC/2209/2020,Halima Lawal,03683147276,Employment Law,Supreme Court Nigeria,Bola Nnamdi,08/12/2020,10/21/2022,,Struck Out,,9972407.23 naira,6132887.21 naira,Ogun,FALSE
+CASE200213,SUIT/fhc/1836/2023,Femi Suleiman,+234554781376,CRIMINAL,Federal High Court Abuja,emeka ajayi,17 February 2021,29.01.2023,2024/01/01,Adjourned,Won,N/A,"N9,671,039",Cross River,FALSE
+CASE200346,SUIT/FHC/8254/2023,Femi Ajayi,+234690705626,CRIMINAL,Lagos State High Court,Emeka Okafor,06/11/2020,25-Jan-2022,,Adjourned ,-,"N2,170,811",1430446.11,Cross River,no
+CASE200066,SUIT/fhc/1185/2020,  Aliyu Suleiman,0906 048 0589,Criminal Defence,Lagos State High Court,Amara Adekunle,2023/09/10,14.05.2025,,Settled,Pending,19996818.11 naira,19893833.25,Edo,true
+CASE200182,SUIT/fhc/674/2020,fatima bello,01137995635,Property law ,Magistrate Court Ikeja,Halima Balogun,05/18/2022,2023/02/04,12 January 2025,active,Withdrawn,"₦19,804,427.76","₦17,671,796.72",Plateau,0
+CASE200004,suit/fhc/9473/2022,Ngozi Adeyemi,(011) 848-9554,Family Law,Customary Court Enugu,Amaka Nwosu,27.04.2023,04.03.2025,,settled out of court,Settled ,"N4,987,509","NGN 1,815,230",Anambra,yes
+CASE200204,SUIT/FHC/8878/2022,ZAINAB CHUKWU   ,05472928422,civil litigation,Supreme Court Nigeria,Femi Mohammed,2019/11/09,00/00/0000,31 May 2022,Settled,Settled ,16585519.68 naira,"16,504,121.29 ",Anambra,no
+CASE200412,SUIT/FHC/3507/2019,BOLA OLAWALE,0000000000,Employment Law,Kano State High Court,Bisi Lawal,2022-12-23,2023-04-14,12.07.2024,active,LOST,"NGN 8,800,770","₦4,120,897.43",Kano,Y
+CASE200254,SUIT/fhc/6025/2022,Chinedu Ogundimu,18344049639,Property Law,Customary Court Enugu,FATIMA ADEYEMI,28-Sep-2023,12/02/2025,21 March 2025,active,Settled ,"NGN 8,984,671","₦5,367,340.48",Port Harcourt,true
+CASE200162,SUIT/FHC/3688/2024,Aliyu Adeyemi,(101) 194-7072,Property Law,Supreme Court Nigeria,Chidi Afolabi,20.09.2023,14.04.2025,,Struck Out,LOST,21558002.85 naira,"NGN 23,306,621",Lagos State,yes
+CASE200291,SUIT/FHC/868/2024,Tobi Chukwu,03715041659,Property law ,Court of Appeal Abuja,Emeka Ajayi,2022-08-07,12/12/2023,,settled out of court,Pending,nil,13609036.78,Rivers,true
+CASE200352,suit/fhc/7779/2022,Kunle Abubakar,234-048-913-824,civil litigation,Supreme Court Nigeria,  ngozi nwosu,2020-08-07,26 April 2021,,Closed,Lost,--,10122115.24,Kaduna,Yes
+CASE200205,SUIT/fhc/3053/2019,Chidi Eze,+234310592745,Commercial Dispute,Lagos State High Court,  Musa Afolabi,08/05/2023,21-Mar-2025,29 August 2027,Closed,Lost,"N10,012,430","₦4,803,092.73",Cross River,1
+CASE200148,suit/FHC/2625/2024,Sadiq Abubakar,14429444019,Criminal Defence,Customary Court Enugu,Sadiq Balogun,06/05/2022,2024/05/03,2026/03/01,Settled Out of Court,Settled ,"₦11,707,240.21","10,136,020.44 ",Anambra,1
+CASE200403,SUIT/fhc/1171/2024,Emeka Suleiman,59090225999,Civil Litigation,Court of Appeal Abuja,Chioma Balogun,2023/10/01,2025-07-06,,Active,LOST,"₦4,238,629.87",2171351.3,oyo,yes
+CASE200218,suit/FHC/9456/2022,Chidi Yusuf,+234471462730,Property Law,Lagos State High Court,Tunde Ogundimu,29/05/2021,06/28/2022,28 April 2023,Adjourned ,Settled,"₦10,987,092.15",7427625.40 naira,Anambra,Y
+CASE200230,SUIT/FHC/4558/2019,chinedu adeyemi,0011 939 3250,Property law ,Supreme Court Nigeria,Zainab Lawal,19.01.2024,04-Jun-2025,,Active,,"N6,749,847","₦3,047,884.21",Enugu,yes
+CASE200184,SUIT/FHC/8851/2025,Sadiq Lawal,0970 623 9726,Family Law,Magistrate Court Ikeja,Tobi Afolabi,2021/06/29,02/20/2023,2024/11/28,settled out of court,Won,24049622.24,"NGN 20,092,937",rivers,false
+CASE200072,SUIT/FHC/7466/2020,Obinna Ogundimu,55904259792,Employment Law,nil,  tobi bello,N/A,20 September 2019,2021-12-20,Adjourned,Settled,6341939.84,"N2,333,239",Plateau,no
+CASE200116,suit/FHC/7984/2023,Tunde Nnamdi,invalid,Property Law,Kano State High Court,Amaka Okeke,2022-03-22,01/13/2023,,Closed,Withdrawn,"NGN 4,894,281",3745666.18,Delta,false
+CASE200203,SUIT/FHC/3047/2019,Grace Afolabi   ,+234242437540,Property Law,Lagos State High Court,Yusuf Ajayi,06/07/2023,30 March 2024,07/17/2025,Settled Out of Court,Lost,"₦16,725,957.88","15,574,001.33 ",Abuja,Y
+CASE200093,SUIT/fhc/902/2021,Kunle  Adekunle,0644 726 4908,Property Law,Court of Appeal Abuja,Halima Nwosu,11 December 2024,12/06/2025,09.01.2027,Pending Hearing,pending,"₦3,117,411.14","NGN 1,782,147",Lagos,1
+CASE200128,SUIT/fhc/4797/2022,Sadiq Okafor,57724599281,Employment Law,Federal High Court Abuja,Amara Olawale,2019/04/04,25/11/2020,08/27/2022,Pending Hearing,,"₦13,144,168.68","N13,535,025",Delta,Yes
+CASE200216,SUIT/fhc/1440/2020,Sadiq Nwosu,+234879232648,Property law ,NULL,Femi Nwosu,06/03/2023,06/12/2024,,Settled,Withdrawn,"N10,954,981","N3,874,231",Delta,0
+CASE200419,SUIT/FHC/1735/2019,Ibrahim Okafor,(275) 230-8370,Commercial dispute,Supreme Court Nigeria,Blessing Ogundimu,2019/09/15,07-Sep-2020,,Adjourned,Pending,Unknown,4439353.16,Rivers,No
+CASE200287,suit/FHC/7089/2022,Yusuf Nwosu,234-703-203-207,Commercial dispute,Kano State High Court,Funmilayo Nwosu,16.02.2019,18.02.2020,unknown date,CLOSED,,"₦16,241,664.72","N4,061,230",Kano,Yes
+CASE200074,SUIT/FHC/9781/2020,  Aliyu Ogundimu,234-405-147-705,Civil Litigation,unknown,  WALE AJAYI   ,27 July 2023,20/04/2025,2027/07/09,Pending Hearing,Pending,"N1,616,822",1530479.40 naira,Ogun,N
+CASE200236,SUIT/FHC/8768/2025,Aliyu Yusuf,(647) 947-3864,Labour Law,Magistrate Court Ikeja,Adaeze Adeyemi,2019-05-14,27 October 2020,,CLOSED,Pending,21166950.86,"₦6,721,915.47",Ogun,TRUE
+CASE200384,-,Musa Olawale,(395) 003-3423,Commercial Dispute,Magistrate Court Ikeja,Bola Afolabi,11/03/2023,05/08/2024,,Settled Out of Court,Withdrawn,"NGN 21,109,855",21756923.42,Imo,TRUE
+CASE200334,SUIT/FHC/4136/2024,Tobi Yusuf,73715869886,Commercial dispute,Magistrate Court Ikeja,Aliyu Suleiman,15 March 2021,14.01.2023,2023/08/31,Closed,NULL,"N8,133,340",3182187.55 naira,ABUJA,true
+CASE200002,SUIT/fhc/1740/2019,  Adaeze Suleiman,(309) 883-9205,CRIMINAL,Magistrate Court Ikeja,Chioma Ajayi,00/00/0000,2020-09-19,,Settled Out of Court,won,"NGN 21,807,103","N22,291,641",Plateau,No
+CASE200297,SUIT/FHC/4323/2025,Ngozi Ogundimu,07499616592,Employment Law,Supreme Court Nigeria,Segun Lawal,2023-05-27,08/07/2023,,settled out of court,,"N17,929,365","₦10,530,717.64",Anambra,FALSE
+CASE200071,SUIT/fhc/1303/2021,Amara Eze,46591166553,CRIMINAL,Kano State High Court,Ngozi Eze,2021/05/12,12 February 2022,2024/02/02,Adjourned,Settled ,"NGN 3,922,716","NGN 1,065,048",Kaduna,No
+CASE200335,suit/FHC/166/2019,Fatima Lawal,(497) 677-6228,Civil Litigation,Magistrate Court Ikeja,  ngozi bello   ,16 March 2021,31.07.2022,,Settled,LOST,"N6,158,836","3,987,184.28 ",Plateau,FALSE
+CASE200165,SUIT/FHC/5897/2024,Blessing Abubakar,+234546015851,Labour Law,--,Sadiq Mohammed,30 November 2023,2024-10-14,,active,Settled,"20,877,100.62 ",6052349.87 naira,Anambra,FALSE
+CASE200048,null,BISI BELLO   ,0392 855 7498,Employment Law,?,Ibrahim Abubakar,08/28/2024,15 January 2025,29-Mar-2025,Pending Hearing,,"N17,388,688",-,Lagos State,1
+CASE200088,suit/fhc/3445/2021,Tobi Ogundimu,52677223306,civil litigation,Magistrate Court Ikeja,Emeka Ajayi,04-Jan-2021,unknown date,N/A,Pending Hearing,nil,"₦3,359,072.78","₦2,065,055.85",Enugu,No
+CASE200193,suit/fhc/7191/2025,Ngozi Adeyemi,(016) 580-4649,Property Law,Federal High Court Lagos,Emeka Okafor   ,18-Aug-2023,30-Sep-2024,28 December 2026,Adjourned ,LOST,"N14,660,848","N14,268,364",Akwa Ibom,0
+CASE200427,SUIT/fhc/2663/2022,Tobi Balogun,57150997683,Criminal Defence,Customary Court Enugu,Zainab Yusuf,24-Jun-2024,2025-05-01,2026-08-12,Pending Hearing,LOST,"₦24,135,930.79",6716716.63 naira,Anambra,FALSE
+CASE200221,suit/FHC/7600/2023,Chidi Nnamdi,(725) 204-5650,Employment Law,Magistrate Court Ikeja,Bisi Nnamdi,08/11/2024,01/10/2025,24 March 2026,Settled,pending,16281249.89,"8,968,953.04 ",Akwa Ibom,Y
+CASE200041,SUIT/fhc/220/2024,Segun Nnamdi,234-673-037-183,Property Law,Federal High Court Abuja,Ifeoma Okonkwo,29-Jul-2021,not set,2024/04/07,settled out of court,LOST,"₦17,560,514.07","NGN 12,703,713",Abuja,N
+CASE200416,SUIT/FHC/8241/2022,Bola Suleiman   ,invalid,Commercial dispute,Federal High Court Abuja,Wale Afolabi,12.11.2020,31.07.2021,12/05/2022,Adjourned ,pending,"NGN 16,146,236","₦15,411,136.79",ABUJA,no
+CASE200268,SUIT/FHC/3191/2023,Grace Bello,05409003486,Commercial Dispute,Magistrate Court Ikeja,yusuf yusuf,2020/03/11,10/08/2021,,Settled,--,"₦18,246,935.79",14548636.1,Akwa Ibom,Yes
+CASE200276,SUIT/fhc/9894/2025,Halima Afolabi,(931) 734-2069,Property law ,Customary Court Enugu,Funmilayo Abubakar,2022/02/25,06/18/2022,15/08/2024,Settled,Won,"12,821,923.49 ",8427551.86 naira,Plateau,No
+CASE200360,suit/FHC/6169/2022,Ibrahim Afolabi,+234156956201,Commercial Dispute,Supreme Court Nigeria,Ifeoma Ajayi,11 April 2023,2023-05-19,,Closed,Lost,"NGN 16,945,601","₦12,640,243.05",Kaduna,TRUE
+CASE200368,SUIT/fhc/1675/2019,Obinna Okeke,0519 036 1332,Civil Litigation,Federal High Court Lagos,tunde balogun,2022-03-11,12.08.2023,16.10.2024,Adjourned,Withdrawn,1299217.71 naira,393163.93,Kaduna,0
+CASE200160,SUIT/fhc/8027/2021,Bola Afolabi,(504) 427-1739,Property law ,Supreme Court Nigeria,Amara Olawale,10.12.2023,03.03.2024,20-Jul-2024,CLOSED,,"NGN 5,030,259","1,154,671.96 ",Kaduna,Y
+CASE200083,SUIT/FHC/3439/2022,blessing okonkwo,07823298324,Property law ,Customary Court Enugu,Adaeze Adeyemi,2024/06/29,11.12.2025,03-Mar-2027,Struck Out,Settled,1270888.98 naira,"₦257,674.84",Cross River,N
+CASE200063,SUIT/fhc/4989/2019,Kunle Adeyemi,234-459-334-419,Civil Litigation,Federal High Court Abuja,Fatima Balogun,26.10.2021,05/15/2023,01 November 2023,Settled Out of Court,Pending,"₦12,603,656.08",8189276.32,Ibadan,false
+CASE200413,suit/fhc/9449/2024,bisi okafor,01603248413,Criminal Defence,Kano State High Court,Sadiq Adeyemi,13/08/2023,2024-11-25,2026/09/02,Settled,Pending,"₦17,104,280.64",17513168.28,Delta,0
+CASE200361,SUIT/fhc/1106/2021,amara adeyemi   ,(537) 030-4531,Labour Law,Lagos State High Court,Ibrahim Adekunle,03-Sep-2019,08 April 2021,,Adjourned ,--,23793882.70 naira,"NGN 20,471,627",Ibadan,0
+CASE200348,suit/FHC/6617/2021,Obinna Bello,+234412462095,Employment Law,Federal High Court Lagos,Musa Ajayi,08/28/2019,02/17/2020,28 November 2021,Active,Won,561367.38 naira,"₦253,916.34",Abuja,no
+CASE200316,suit/FHC/6155/2023,Bola Olawale,+234800545228,civil litigation,Court of Appeal Abuja,Obinna Ajayi,06/12/2019,17.10.2020,02/02/2022,Pending Hearing,Settled ,"₦12,878,998.95","N6,664,471",Edo,No
+CASE200021,suit/fhc/4133/2023,Chioma Nwosu,(717) 545-5884,Labour Law,Supreme Court Nigeria,Segun Bello,2019-01-20,23/10/2019,20-Feb-2022,CLOSED,Pending,"₦8,302,229.87",2983422.7,Oyo,true
+CASE200042,SUIT/fhc/3865/2023,Ifeoma Okeke,06452088147,Family Law,Federal High Court Lagos,amaka yusuf,30-Mar-2021,12/03/2022,04-Oct-2023,settled out of court,,20831595.97,"NGN 16,806,634",Ogun,No
+CASE200255,SUIT/fhc/7396/2024,Ibrahim Adeyemi,01919541987,Property Law,Federal High Court Abuja,Blessing Afolabi,03-Dec-2024,02/18/2026,05/25/2027,Adjourned,pending,4689115.48 naira,3116268.80 naira,Lagos,yes
+CASE200423,SUIT/fhc/8534/2023,Ifeoma Bello,39386613315,civil litigation,Federal High Court Abuja,Funmilayo Chukwu,30 August 2024,02/09/2025,2027/08/07,Active,LOST,?,"₦1,512,548.17",Abuja,false
+CASE200225,SUIT/FHC/7148/2019,Adaeze Okafor,+234389888167,Criminal Defence,Federal High Court Abuja,Grace Olawale,01-Jul-2023,2025-03-03,,active,null,"NGN 8,863,085",8141906.57,Edo,Y
+CASE200144,SUIT/FHC/4588/2025,Adaeze Yusuf,0891 371 8949,CRIMINAL,nil,Wale Bello,18.05.2022,2022-11-03,,active,LOST,24283305.08 naira,10325163.62 naira,Anambra,Yes
+CASE200270,suit/fhc/4546/2022,Chinedu Okafor,+234432756041,Labour Law,Lagos State High Court,Amara Olawale,21-May-2023,2024/04/03,,Adjourned ,Pending,"₦13,166,753.36",13765230.42 naira,Rivers,false
+CASE200235,SUIT/FHC/4282/2022,Zainab Yusuf,(827) 548-0157,Labour Law,Kano State High Court,Chidi Ajayi,08/01/2020,2020-07-30,2022-02-03,Active,pending,22027013.37 naira,"N24,098,234",Abuja,No
+CASE200209,SUIT/fhc/7384/2022,Amaka Adekunle,234-028-140-693,Property law ,Kano State High Court,Emeka Balogun,2020/11/15,2020/12/21,2022/06/25,Pending Hearing,Won,"13,090,034.51 ","₦12,706,110.83",Enugu,1
+CASE200133,SUIT/fhc/5188/2021,  CHINEDU ADEYEMI,234-196-570-132,Civil Litigation,Federal High Court Lagos,adaeze adekunle,2019/09/20,2021/04/09,,Struck Out,NULL,"N3,498,639",3387993.78,Kaduna,Y
+CASE200087,SUIT/fhc/6847/2021,Zainab Okafor,(933) 051-7289,Family Law,Federal High Court Lagos,Wale Lawal,14-Sep-2021,11/28/2021,,Pending Hearing,null,"₦13,549,824.78","10,725,598.47 ",Kano,false
+CASE200143,SUIT/FHC/3820/2025,Tunde Balogun,0519 712 8478,Property Law,Kano State High Court,Obinna Balogun,01/19/2023,28 October 2023,2024-11-21,Adjourned ,Won,"₦22,234,387.83","₦5,337,133.32",Edo,true
+CASE200262,suit/fhc/2848/2020,Yusuf Chukwu,02420448207,Property law ,Court of Appeal Abuja,Fatima Nwosu   ,27.11.2021,05 July 2023,09.08.2023,Adjourned,,14640300.45,"₦5,212,202.47",rivers,1
+CASE200354,suit/fhc/1461/2021,Ibrahim Nnamdi,06870079420,Civil Litigation,Court of Appeal Abuja,Segun Afolabi,28 September 2020,09 January 2021,01/31/2022,Adjourned,Lost,"NGN 20,477,449","NGN 13,620,270",Edo,true
+CASE200305,suit/fhc/5261/2023,Kunle Adekunle,+234697499564,Property law ,Customary Court Enugu,Aliyu Balogun,01.01.2023,10.11.2024,17 February 2027,settled out of court,NIL,"N23,598,727","NGN 23,474,464",Kaduna,Yes
+CASE200168,SUIT/FHC/9482/2024,kemi  okonkwo   ,(618) 478-7005,Civil Litigation,Kano State High Court,amara adeyemi,2021-11-10,04/22/2022,27/10/2022,Closed,LOST,"NGN 7,182,433","₦4,405,996.49",Imo,Yes
+CASE200261,NIL,Segun Okafor,0303 477 8660,Civil Litigation,,Blessing Okafor,28 December 2022,25.08.2023,22/05/2024,Settled Out of Court,Settled,15604545.71,11920962.1,Kano,yes
+CASE200067,SUIT/fhc/464/2022,Halima Adekunle,234-832-067-998,Family Law,Lagos State High Court,Kunle Ajayi,08/30/2022,03/21/2024,,Settled,Settled,"N17,064,834",14418209.78 naira,Enugu,false
+CASE200098,SUIT/FHC/8248/2021,Halima Okafor,20644742123,civil litigation,Federal High Court Lagos,Emeka Bello,13 March 2020,03/20/2021,12/07/2021,Struck Out,N/A,"13,766,023.84 ","N13,130,544",Ogun,yes
+CASE200065,SUIT/FHC/9078/2024,Tunde Ogundimu,+234961055661,civil litigation,Federal High Court Abuja,Bisi Lawal,2022-11-22,18.09.2024,29/09/2025,Adjourned ,LOST,"NGN 1,320,363","₦878,434.51",Lagos,N
+CASE200393,SUIT/fhc/457/2020,Femi Okeke,09254812147,Civil Litigation,Supreme Court Nigeria,Chioma Okeke,2021/12/08,2023/05/12,,Adjourned,Lost,"N6,293,786","₦3,032,813.89",Rivers,false
+CASE200418,suit/FHC/6161/2023,Amaka Okonkwo,09124186210,Property law ,Lagos State High Court,Ibrahim Okonkwo,11/23/2021,21/01/2023,,Struck Out,NULL,"₦3,222,025.10",NULL,Akwa Ibom,Yes
+CASE200194,SUIT/fhc/5461/2022,fatima balogun,+234319508501,Property Law,Kano State High Court,Kemi Chukwu,10.01.2019,2020-08-30,12/03/2022,Struck Out,LOST,"₦2,018,088.45","NGN 1,445,552",Edo,0
+CASE200342,suit/FHC/5682/2022,Emeka Adeyemi,+234996636580,Employment Law,Federal High Court Abuja,CHINEDU CHUKWU,11-Oct-2023,13.12.2024,15-May-2026,active,Won,"14,276,816.51 ",15057391.93 naira,Edo,Yes
+CASE200302,suit/FHC/102/2019,Tobi Okonkwo,0017 226 0164,Labour Law,Lagos State High Court,Chinedu Okeke,05/07/2021,02-Feb-2023,2024-11-30,Closed,won,"N3,560,249","₦1,149,941.35",Enugu,Yes
+CASE200427,SUIT/fhc/2663/2022,Tobi Balogun,57150997683,Criminal Defence,Customary Court Enugu,Zainab Yusuf,24-Jun-2024,2025-05-01,2026-08-12,Pending Hearing,LOST,"₦24,135,930.79",6716716.63 naira,Anambra,FALSE
+CASE200076,SUIT/FHC/8858/2022,Yusuf Eze,06980420439,Employment Law,Lagos State High Court,Bisi Ogundimu,2021-09-08,14 December 2021,06.03.2024,Closed,Lost,"NGN 18,973,275",8406033.48 naira,Plateau,TRUE
+CASE200364,SUIT/fhc/3416/2019,Aliyu Suleiman,0992 192 1249,Commercial Dispute,Customary Court Enugu,Obinna Ajayi,2019/06/27,2019-10-03,2021-04-07,Active,Settled,"20,368,879.14 ","NGN 21,104,756",oyo,Yes
+CASE200201,suit/fhc/403/2021,Amaka Abubakar,(567) 043-1038,Employment Law,Federal High Court Lagos,FATIMA YUSUF,2023-04-16,28.11.2023,12/24/2025,Pending Hearing,Settled ,"N18,411,717",  ,Edo,N
+CASE200132,suit/fhc/1971/2024,Halima Adekunle,99758172461,civil litigation,Supreme Court Nigeria,Obinna Yusuf,22 September 2022,11.01.2023,22-Apr-2025,Struck Out,LOST,21762217.84 naira,"₦11,425,360.65",Kaduna,FALSE
+CASE200320,SUIT/fhc/7413/2023,Bola Adeyemi,234-352-478-712,Labour Law,Supreme Court Nigeria,Amara Ogundimu,21-Aug-2022,2024-06-23,N/A,CLOSED,LOST,"23,363,126.03 ","₦15,897,053.95",Kano,FALSE
+CASE200031,suit/fhc/1853/2020,FUNMILAYO NNAMDI,,Employment Law,Lagos State High Court,Ifeoma Eze,28-Dec-2021,2022-04-22,09/03/2024,Adjourned ,n/a,"₦2,165,642.79",1731648.7,Abuja,Yes
+CASE200321,SUIT/fhc/2724/2023,Sadiq Eze,+234213760375,Criminal Defence,Kano State High Court,Segun Okeke,31/07/2022,03.01.2024,,Closed,won,12490297.59,"N9,938,713",Akwa Ibom,N
+CASE200282,suit/fhc/4937/2025,Ifeoma Lawal,80053759900,Employment Law,Court of Appeal Abuja,IFEOMA OKAFOR,01/23/2021,2022-12-11,,Adjourned ,Settled ,"24,958,079.60 ",20276446.18,Kano,true
+CASE200306,suit/FHC/9774/2021,BISI AFOLABI,22031030372,Criminal Defence,Lagos State High Court,Ibrahim Abubakar   ,01-Mar-2022,2023/12/02,10/09/2025,Settled Out of Court,Withdrawn,5228051.78,"NGN 4,920,598",Delta,yes
+CASE200024,suit/fhc/3928/2019,Chidi Olawale,(256) 996-1125,Criminal Defence,Court of Appeal Abuja,  Segun Adeyemi,01-Apr-2020,06 July 2020,2022/01/04,Adjourned,Settled ,"NGN 485,672",n/a,Delta,TRUE
+CASE200044,suit/fhc/9327/2022,Ifeoma Okeke,0916 300 9792,Labour Law,unknown,Zainab Suleiman,12/16/2020,29 January 2021,,Active,Lost,"18,133,985.30 ",11056655.69,Plateau,0
+CASE200196,suit/fhc/9498/2019,Kunle Nwosu,+234538179335,Property Law,Supreme Court Nigeria,Chinedu Mohammed,15/10/2020,05-Jun-2021,,Settled,won,"₦13,031,833.38","4,404,579.93 ",Rivers,FALSE
+CASE200303,suit/FHC/4758/2020,Femi Nwosu,0977 945 2321,CRIMINAL,Customary Court Enugu,TUNDE OKAFOR,18-Dec-2023,2024/12/13,19.11.2026,Settled,Won,"NGN 15,253,328","NGN 4,003,938",Cross River,Yes
+CASE200045,SUIT/fhc/9327/2025,Emeka Ogundimu,+234327195005,Civil Litigation,Supreme Court Nigeria,Kunle Okafor,10-Apr-2021,2022-02-07,,Pending Hearing,won,6835462.91 naira,"NGN 6,731,512",Edo,no
+CASE200331,SUIT/fhc/9892/2021,Yusuf Nnamdi,234-753-998-935,Commercial Dispute,Court of Appeal Abuja,Chioma Eze,04.07.2021,15-Mar-2023,,CLOSED,Won,"N5,734,232",2046423.40 naira,KANO,Yes
+CASE200402,SUIT/FHC/2299/2021,Ifeoma Abubakar,(407) 553-6668,Civil Litigation,Magistrate Court Ikeja,Blessing Adeyemi   ,19 June 2022,2023/12/07,09/02/2025,Active,Settled,"NGN 13,501,835","NGN 11,287,712",Ogun,true
+CASE200271,SUIT/FHC/8674/2021,Fatima Ogundimu,07656124815,civil litigation,Court of Appeal Abuja,Yusuf Ogundimu,11/02/2020,14-Apr-2021,29-Jul-2023,active,Unknown,7228250.47 naira,7400672.2,Delta,FALSE
+CASE200198,SUIT/FHC/4342/2024,Adaeze Chukwu,08178847951,CRIMINAL,Customary Court Enugu,ADAEZE OGUNDIMU,08/01/2020,2021/05/17,31 October 2021,Settled,Settled,16564838.99 naira,"₦5,286,875.01",Anambra,No
+CASE200112,SUIT/fhc/719/2025,Ibrahim Suleiman,(027) 278-5760,Family Law,Supreme Court Nigeria,Sadiq Okafor,28/12/2024,26-Dec-2026,,Pending Hearing,pending,10777528.82,"₦8,062,293.60",Edo,0
+CASE200224,SUIT/fhc/2086/2020,AMARA LAWAL,84576521328,Criminal Defence,Federal High Court Lagos,IBRAHIM MOHAMMED,2019/11/23,02 January 2020,,Settled,Withdrawn,21448342.61 naira,NIL,Kaduna,TRUE
+CASE200151,SUIT/FHC/4258/2022,Amaka Lawal,(239) 504-1027,Commercial dispute,Kano State High Court,TUNDE ADEKUNLE,07 September 2019,15 August 2020,07/03/2021,Closed,pending,"NGN 12,056,959","10,040,671.84 ",Imo,FALSE
+CASE200319,-,Obinna Ajayi,07119918081,Criminal Defence,Supreme Court Nigeria,Musa Nwosu,2023/12/08,29/11/2025,11/30/2026,Pending Hearing,won,"₦3,218,110.39",914756.68 naira,Delta,No
+CASE200014,SUIT/fhc/9997/2020,Kunle Nnamdi,(678) 085-6271,Property Law,Customary Court Enugu,Zainab Lawal,10-Aug-2022,19-May-2023,12/31/2024,Active,pending,"N3,262,679",NIL,Rivers State,No
+CASE200003,suit/fhc/1653/2024,Halima Mohammed,+234214656693,Family Law,Magistrate Court Ikeja,Kunle Mohammed,11-May-2024,27 October 2025,2028-03-17,Settled Out of Court,won,"N14,302,426","N4,480,230",Imo,Yes
+CASE200229,SUIT/FHC/1946/2021,Chinedu Adekunle,01089071401,Commercial Dispute,Magistrate Court Ikeja,Tunde Nwosu,30/06/2021,26/03/2022,,Pending Hearing,Settled,"NGN 7,134,919","₦4,476,495.88",Lagos,no
+CASE200006,SUIT/FHC/3807/2025,Yusuf Chukwu,(818) 451-8489,civil litigation,Court of Appeal Abuja,Yusuf Eze,2019-07-12,06 February 2021,29-Sep-2021,Settled,null,"₦17,357,683.95","NGN 19,049,318",Anambra,true
+CASE200134,SUIT/fhc/8770/2022,Grace Ajayi,(022) 784-6997,CRIMINAL,Lagos State High Court,Amaka Lawal,2019-06-23,09-Apr-2020,09/04/2021,Adjourned,Settled ,"₦995,550.33",727429.87 naira,oyo,no
+CASE200343,SUIT/FHC/6997/2025,Emeka Okafor,0000000000,civil litigation,Federal High Court Lagos,Amaka Bello,06/12/2019,01 November 2020,01-Sep-2022,CLOSED,Settled,23028484.67,"₦6,911,042.64",Akwa Ibom,true
+CASE200017,-,MUSA ADEYEMI,+234636556472,Labour Law,Customary Court Enugu,femi adeyemi,01-Dec-2019,12.12.2020,03/18/2021,Settled,Won,13120488.48,2864998.86,Abuja,yes
+CASE200232,suit/fhc/2337/2021,Obinna Ajayi,0000000000,Property Law,Customary Court Enugu,Funmilayo Okafor,00/00/0000,08/06/2022,26 January 2024,CLOSED,Unknown,827872.82 naira,"₦418,131.85",Enugu,0
+CASE200421,suit/FHC/2379/2024,Wale Balogun,53310600531,Employment Law,Customary Court Enugu,  Chidi Okafor,00/00/0000,2020-10-21,29 July 2022,Settled,Settled,"₦6,811,202.06",4874380.17 naira,FCT,No
+CASE200281,suit/FHC/1940/2024,Bola Balogun,+234256366941,CRIMINAL,Kano State High Court,  ALIYU SULEIMAN   ,2022/10/20,06/19/2024,,CLOSED,Withdrawn,NULL,"NGN 12,436,422",Ogun,1
+CASE200300,SUIT/fhc/5020/2025,Grace Nnamdi,0864 908 1081,Criminal Defence,Court of Appeal Abuja,Grace Okeke,2022-07-31,14 December 2023,,Settled,LOST,"₦23,342,716.94","N6,348,209",Lagos,N
+CASE200176,SUIT/FHC/743/2023,Ngozi Eze,19467232487,Property law ,Lagos State High Court,Tobi Nnamdi,07/16/2020,01.08.2021,2023/02/20,Adjourned ,,"NGN 17,400,887","NGN 7,654,642",Kaduna,N
+CASE200252,SUIT/FHC/6459/2024,Bola Bello,05696591713,Property law ,Federal High Court Abuja,Obinna Chukwu,2019-03-05,,2020-04-08,Settled,LOST,nil,"N1,980,598",Enugu,No
+CASE200398,SUIT/fhc/9933/2024,  Ifeoma Olawale,234-439-284-044,CRIMINAL,Kano State High Court,Tunde Ogundimu,2021/06/11,2023/03/21,16.08.2023,Active,Lost,"NGN 22,773,862","N20,484,546",Oyo,N
+CASE200059,suit/FHC/6455/2025,  ALIYU NNAMDI,0855 665 9398,Property Law,Court of Appeal Abuja,Funmilayo Olawale,2023-04-07,30-May-2023,03-Mar-2024,Active,,"N5,167,963",4165274.82 naira,Cross River,Yes
+CASE200163,suit/FHC/9833/2019,  Chioma Okonkwo,06425690877,Property law ,Lagos State High Court,  FATIMA OKEKE,2019/07/25,unknown date,2022/06/25,Settled,NIL,"₦8,422,310.40","N2,291,336",Enugu,false
+CASE200127,SUIT/fhc/3060/2019,Bisi Balogun,56255770171,Employment Law,Customary Court Enugu,Tunde Eze   ,2024-02-29,23/05/2025,30-Mar-2027,Pending Hearing,Pending,"₦3,533,894.48",1073064.67,Oyo,yes
+CASE200043,SUIT/FHC/1693/2019,Chinedu Yusuf,35031365024,Employment Law,Lagos State High Court,Blessing Bello,02/01/2019,2019-03-04,28-Jul-2021,Adjourned,Lost,329737.13,"N147,329",Lagos,0
+CASE200288,SUIT/fhc/4161/2025,Funmilayo Lawal,+234761707587,Employment Law,Court of Appeal Abuja,Ngozi Yusuf,12 January 2024,02-Nov-2025,12/02/2026,Settled,Settled ,"N23,414,360","₦13,757,156.17",Kaduna,Yes
+CASE200120,SUIT/fhc/204/2020,Blessing Ogundimu,+234943533448,Employment Law,Supreme Court Nigeria,Chidi Yusuf,13.08.2020,2022/02/05,12.01.2024,Closed,Settled,"₦24,762,053.04","NGN 9,901,775",Rivers,true
+CASE200279,SUIT/FHC/1334/2022,Kemi Nwosu   ,234-393-436-262,Labour Law,Court of Appeal Abuja,Kunle Adeyemi,27 October 2020,31.08.2021,,Active,Lost,"22,815,946.42 ",19809928.0,Plateau,true
+CASE200013,SUIT/FHC/9407/2020,Musa Lawal,47284639208,Property law ,Kano State High Court,Amaka Ogundimu,03.06.2021,28-Nov-2021,,active,won,-,"₦1,340,570.76",Plateau,Y
+CASE200392,suit/fhc/4829/2024,chidi yusuf,+234333736346,Civil Litigation,Supreme Court Nigeria,Amaka Adeyemi   ,23/02/2024,2024-07-02,,settled out of court,--,21159380.27,"NGN 14,224,978",Imo,1
+CASE200170,suit/fhc/2856/2019,Yusuf Nwosu,01027079032,Employment Law,Lagos State High Court,Zainab Suleiman,2020/05/31,01/07/2020,26.10.2020,Closed,pending,2316311.03 naira,"NGN 1,180,918",Anambra,No
+CASE200241,SUIT/fhc/237/2021,Ibrahim Okonkwo,(114) 773-2010,Commercial Dispute,Federal High Court Abuja,  Wale Nwosu,30 March 2024,00/00/0000,19/12/2025,Active,Settled ,"NGN 15,947,478","NGN 5,954,598",Enugu,Yes
+CASE200367,suit/FHC/363/2019,CHIOMA NNAMDI,03046875063,Employment Law,Court of Appeal Abuja,Sadiq Nwosu,07/08/2023,15/11/2024,26.12.2024,Struck Out,Withdrawn,15201028.64,12937389.88 naira,Kaduna,false
+CASE200380,SUIT/FHC/9862/2020,Ibrahim Olawale,01537795995,Civil Litigation,Customary Court Enugu,Kunle  Adeyemi,10/13/2022,13-May-2024,,Settled Out of Court,,"N643,291",547861.16,Edo,Yes
+CASE200269,SUIT/fhc/1482/2023,grace adeyemi   ,05183760644,Property law ,Court of Appeal Abuja,CHINEDU NWOSU,19/01/2023,2024-05-03,,CLOSED,Lost,1715495.06,"1,633,766.27 ",Lagos State,Y
+CASE200383,SUIT/fhc/2400/2025,Aliyu Ogundimu,0050 150 8124,Family Law,Lagos State High Court,Fatima Nwosu,09 May 2019,08.08.2020,,Pending Hearing,Settled ,"₦4,702,600.64","N4,517,699",lagos,No
+CASE200329,SUIT/fhc/7109/2025,Adaeze Afolabi,+234008943468,Civil Litigation,n/a,GRACE SULEIMAN,2024-11-18,10/11/2025,21.03.2026,Settled Out of Court,Settled,"₦8,300,178.70","NGN 5,052,546",Port Harcourt,0
+CASE200060,suit/fhc/6106/2021,Blessing Afolabi,0684 577 6004,Employment Law,Federal High Court Lagos,   Bola Afolabi,2023-05-12,2025-01-16,10-Feb-2026,Struck Out,Settled,"NGN 561,328",332678.35 naira,Kano,FALSE
+CASE200199,SUIT/fhc/4273/2023,zainab olawale,+234116241124,Criminal Defence,Magistrate Court Ikeja,Chioma Bello,06-Jan-2021,14/07/2021,2021-08-24,settled out of court,LOST,20076478.05,"₦14,584,355.74",Imo,No
+CASE200012,SUIT/FHC/4415/2020,Bola Balogun,0790 807 5957,Criminal Defence,Supreme Court Nigeria,Zainab Ajayi,04/28/2022,22/12/2023,02/01/2025,Pending Hearing,NULL,"15,480,850.94 ",NULL,Delta,true
+CASE200378,SUIT/FHC/4289/2019,Tobi Ajayi,+234274954508,Employment Law,Supreme Court Nigeria,Segun Afolabi,2024/07/19,20-Nov-2024,09 January 2027,settled out of court,LOST,"6,963,381.75 ","₦3,843,267.51",Plateau,yes
+CASE200055,SUIT/fhc/5411/2020,kemi adekunle,0650 948 0141,Labour Law,Court of Appeal Abuja,Sadiq Yusuf,28.06.2024,07/13/2025,2027-04-05,settled out of court,pending,15802578.54,"N6,738,751",Rivers State,true
+CASE200138,Unknown,Zainab Eze,234-832-723-865,Labour Law,Court of Appeal Abuja,Kemi Balogun,08-May-2024,18.04.2026,2027/01/16,Pending Hearing,LOST,"N1,126,211",584702.78,Plateau,true
+CASE200365,SUIT/FHC/3766/2023,Obinna Mohammed,0843 089 4870,CRIMINAL,Customary Court Enugu,Ifeoma Okafor,28.03.2024,11/08/2024,2024/11/15,Settled,pending,"₦13,402,513.33",9487272.16,Lagos,Y
+CASE200035,suit/FHC/8277/2022,Amaka Suleiman,34163894484,Civil Litigation,Federal High Court Abuja,kemi nwosu,14.01.2022,24-Jan-2023,,Active,Pending,"NGN 12,458,195","NGN 4,266,741",Ogun,1
+CASE200033,SUIT/FHC/4223/2021,AMAKA CHUKWU,08077406493,Labour Law,NIL,Chidi Nwosu,30.04.2022,2024-02-04,20 November 2025,Pending Hearing,Lost,7170805.22,"NGN 4,186,825",Kaduna,false
+CASE200117,SUIT/fhc/1887/2021,Adaeze Okafor,invalid,Commercial Dispute,Customary Court Enugu,Musa Adekunle,2024/11/18,27-Mar-2025,,settled out of court,Won,"10,684,939.52 ",10325961.83,lagos,N
+CASE200015,SUIT/fhc/7507/2021,Musa Lawal,(750) 036-9155,Commercial dispute,Kano State High Court,Aliyu Mohammed,2022-02-04,10 October 2023,,Active,won,22418397.11,"₦5,040,087.81",Abuja,false
+CASE200219,SUIT/fhc/3074/2019,ibrahim suleiman,(471) 959-7964,Civil Litigation,Lagos State High Court,Aliyu Okonkwo,2019/10/07,2020-11-01,07-Mar-2022,Settled,Lost,13605461.19 naira,"NGN 5,124,760",Rivers,1
+CASE200012,SUIT/FHC/4415/2020,Bola Balogun,0790 807 5957,Criminal Defence,Supreme Court Nigeria,Zainab Ajayi,04/28/2022,22/12/2023,02/01/2025,Pending Hearing,NULL,"15,480,850.94 ",NULL,Delta,true
+CASE200105,SUIT/FHC/5239/2023,Kunle Afolabi,+234214586833,Family Law,Kano State High Court,Tunde Mohammed,,02/01/2024,05/30/2026,Active,Won,5454971.03 naira,"N3,849,108",Imo,1
+CASE200215,SUIT/FHC/7246/2025,Kunle Mohammed,234-851-961-064,Property Law,Court of Appeal Abuja,Tunde Olawale,30.06.2023,00/00/0000,,Struck Out,Settled ,"NGN 23,502,963","NGN 12,692,701",Cross River,no
+CASE200286,SUIT/FHC/5096/2024,WALE  BELLO,04494856257,Property Law,Customary Court Enugu,Ngozi Ajayi,01-Apr-2022,01 March 2023,,Adjourned ,pending,"NGN 24,473,274","N20,277,469",oyo,yes
+CASE200290,SUIT/fhc/1268/2025,Bola Okafor,+234993908926,Labour Law,Magistrate Court Ikeja,Zainab Lawal,2023-12-24,2025-07-23,,settled out of court,won,"NGN 19,372,948",9370538.50 naira,Abuja,No
+CASE200414,SUIT/fhc/6381/2023,Tobi Okafor,invalid,Commercial Dispute,Federal High Court Abuja,Kemi Ogundimu,08/10/2023,10 February 2024,2026/04/02,Settled Out of Court,Withdrawn,"₦16,215,348.97","₦10,702,285.31",Plateau,Y
+CASE200324,SUIT/fhc/2117/2023,Yusuf Eze,00811556260,Civil Litigation,Magistrate Court Ikeja,Femi Abubakar,2022-11-25,24/01/2023,15.11.2024,Settled Out of Court,Settled,?,12252271.86 naira,Abuja,N
+CASE200095,SUIT/FHC/4877/2024,Ibrahim  Adekunle,+234702793714,Labour Law,Federal High Court Abuja,Bola Ogundimu,18.06.2020,30/07/2021,12-Dec-2023,CLOSED,Pending,"NGN 13,231,610","NGN 5,193,233",Ogun,TRUE
+CASE200062,SUIT/FHC/4675/2022,NGOZI MOHAMMED,0888 992 1075,Commercial Dispute,Federal High Court Lagos,Emeka Ajayi,13.08.2024,10 February 2026,20 March 2027,Settled,pending,"N3,416,980",832068.9,Plateau,1
+CASE200125,SUIT/fhc/8865/2022,Fatima Chukwu,09545381792,Property Law,Federal High Court Lagos,Tobi Nnamdi,2024/03/22,04 October 2025,06 March 2028,active,Lost,"NGN 14,244,587","7,327,153.69 ",Kano,FALSE
+CASE200280,suit/FHC/2657/2022,Bisi Adeyemi,04439735971,CRIMINAL,Magistrate Court Ikeja,Tunde Lawal,04-Aug-2020,2022/07/04,2023-06-05,Struck Out,pending,86743.82,"₦90,693.63",Rivers,true
+CASE200426,SUIT/FHC/6640/2021,Aliyu Lawal,234-924-195-625,Family Law,Federal High Court Abuja,Wale Afolabi,10/07/2024,10/23/2025,06-Nov-2027,active,won,7485750.02,"N7,844,389",Rivers,false
+CASE200091,,Aliyu Suleiman,99880817703,Civil Litigation,Federal High Court Lagos,Bola Olawale   ,22.06.2021,04.05.2023,,settled out of court,  ,3738164.41,"N2,235,844",Plateau,Y
+CASE200263,suit/FHC/4514/2025,Amara Suleiman,(015) 941-6516,Property law ,Magistrate Court Ikeja,grace nwosu,2020-10-30,28/07/2022,04-Aug-2022,Settled Out of Court,,"NGN 20,305,551","₦4,548,180.72",Kano,no
+CASE200341,SUIT/fhc/1188/2022,Adaeze Afolabi,234-792-287-772,Commercial Dispute,Customary Court Enugu,Musa Afolabi,unknown date,2019/10/31,2020/01/23,Settled,,23006027.44,"NGN 9,110,743",Anambra,no
+CASE200103,SUIT/FHC/3285/2020,Ibrahim Okafor,0224 999 8279,civil litigation,Federal High Court Lagos,Bisi Nnamdi,23-Apr-2023,2025/03/05,14.11.2025,CLOSED,Won,"₦3,715,949.70","NGN 2,633,887",Anambra,false
+CASE200379,SUIT/FHC/6923/2025,Wale Chukwu,234-038-806-533,Commercial dispute,Federal High Court Abuja,Grace Suleiman,06 September 2024,04/27/2025,2026/11/23,CLOSED,,"N18,548,163","N7,526,414",Ibadan,FALSE
+CASE200109,suit/fhc/7501/2020,Adaeze Eze,(396) 605-5830,Criminal Defence,Magistrate Court Ikeja,Aliyu Adekunle,21 November 2020,08/05/2022,27.12.2022,Settled Out of Court,Lost,21609864.5,"10,040,264.08 ",Abuja,yes
+CASE200150,SUIT/fhc/3662/2022,Amaka Suleiman,invalid,Property Law,Lagos State High Court,Ifeoma Chukwu,2023/01/12,05 November 2023,,CLOSED,,1384505.71 naira,"N939,475",Anambra,Y
+CASE200141,SUIT/fhc/9393/2022,Grace Adeyemi,+234765326909,Family Law,Federal High Court Lagos,Sadiq Abubakar,22.07.2024,16.01.2025,,settled out of court,N/A,15426176.46 naira,9040139.73 naira,Akwa Ibom,No
+CASE200344,SUIT/fhc/2648/2023,Femi Mohammed,234-890-983-780,Civil Litigation,Federal High Court Lagos,Ibrahim Okafor,22.10.2020,13/04/2021,,Adjourned,won,"13,827,744.08 ",-,Cross River,0
+CASE200285,SUIT/FHC/6650/2023,Emeka Abubakar,+234241502745,Employment Law,N/A,  Funmilayo Suleiman,24.09.2020,2022-06-18,25 February 2024,Adjourned,n/a,19788581.93 naira,"₦17,030,338.79",Imo,No
+CASE200200,SUIT/FHC/4225/2024,Grace Nwosu,02723804682,CRIMINAL,Lagos State High Court,Musa Mohammed,02/05/2024,unknown date,03/09/2025,CLOSED,Settled,"NGN 7,319,134","1,701,320.17 ",Ogun,true
+CASE200264,suit/fhc/7039/2025,Emeka Eze,(319) 818-9847,Labour Law,Kano State High Court,Obinna Chukwu,05.02.2020,27/10/2021,,Adjourned ,,9918304.24,2662193.59 naira,oyo,yes
+CASE200094,SUIT/FHC/9069/2022,Chinedu Adekunle,0771 812 9826,Property Law,Lagos State High Court,  Grace Adekunle,01 November 2021,2023/05/26,,Pending Hearing,Pending,"₦13,917,046.36","NGN 9,412,943",Enugu,false
+CASE200229,SUIT/FHC/1946/2021,Chinedu Adekunle,01089071401,Commercial Dispute,Magistrate Court Ikeja,Tunde Nwosu,30/06/2021,26/03/2022,,Pending Hearing,Settled,"NGN 7,134,919","₦4,476,495.88",Lagos,no
+CASE200029,SUIT/FHC/1228/2020,  tobi okeke,22820055778,Employment Law,Supreme Court Nigeria,Segun Olawale,12 December 2023,31-Aug-2025,not set,CLOSED,Settled,"NGN 22,355,002",23992886.40 naira,Anambra,Yes
+CASE200040,suit/FHC/4372/2020,Bola Abubakar,04618723460,Labour Law,Court of Appeal Abuja,Blessing Okonkwo,19-Nov-2024,2026/02/18,30 March 2027,Struck Out,NIL,"N17,379,936","N12,049,297",Lagos,N
+CASE200328,SUIT/FHC/4084/2019,Halima Adeyemi,02884318848,Family Law,Court of Appeal Abuja,Adaeze Eze,24/01/2020,02/08/2021,,Settled,unknown,"₦17,474,208.41","N16,145,331",Enugu,true
+CASE200102,suit/fhc/358/2024,Zainab Balogun,+234209945101,civil litigation,Kano State High Court,Kunle Yusuf,15.03.2019,24.12.2020,27 May 2022,Adjourned ,Unknown,"NGN 9,237,658",6540406.28 naira,Kaduna,FALSE
+CASE200243,suit/fhc/6095/2022,Amaka Okafor,18773477848,Family Law,Customary Court Enugu,tunde ajayi   ,08/14/2020,07.12.2021,2022/07/19,Settled Out of Court,Settled ,"₦21,310,649.28",10013046.86 naira,Lagos,1
+CASE200260,suit/FHC/2184/2022,Femi Olawale,(644) 249-3631,Criminal Defence,Magistrate Court Ikeja,tunde ajayi   ,07-Sep-2019,00/00/0000,05-Dec-2021,CLOSED,won,18226763.13 naira,"₦17,057,722.13",Edo,yes
+CASE200245,SUIT/FHC/2780/2021,Kunle Afolabi,0000000000,Labour Law,Supreme Court Nigeria,Amaka Adekunle,30/03/2023,2024/11/09,,Adjourned ,Settled ,2806048.00 naira,"₦780,621.74",Rivers,true
+CASE200081,suit/fhc/9779/2022,chioma abubakar   ,0608 432 5621,Civil Litigation,Lagos State High Court,  amaka nnamdi,2024/07/10,2026/02/20,,Active,Withdrawn,10771591.73,8099506.25,Edo,1
+CASE200136,SUIT/fhc/1934/2019,Musa Nnamdi,(862) 405-8008,Commercial dispute,Supreme Court Nigeria,Ifeoma Okeke,09.12.2019,04 September 2020,2022-08-23,Struck Out,nil,"₦18,785,595.52",13420546.26,Anambra,TRUE
+CASE200046,SUIT/fhc/7173/2019,Ibrahim Mohammed,234-127-358-573,Labour Law,Customary Court Enugu,Amaka Lawal,26/07/2023,19.02.2024,03/06/2025,Adjourned ,won,"11,713,730.19 ","₦6,005,552.24",Cross River,FALSE
+CASE200358,suit/FHC/2459/2025,Musa Nnamdi,+234379502097,Civil Litigation,Supreme Court Nigeria,Ngozi Balogun,08-Apr-2022,09-Mar-2024,,Active,LOST,"N654,472","N266,475",Akwa Ibom,TRUE
+CASE200397,suit/FHC/8732/2021,Wale  Eze,+234115083535,Property law ,Federal High Court Abuja,Kunle Nwosu,04 December 2020,2021/04/30,30.07.2023,Adjourned,,24592557.43 naira,"9,222,773.65 ",Rivers State,false
+CASE200258,?,Femi Nwosu,07374896908,Commercial Dispute,Kano State High Court,Adaeze Chukwu,04/03/2023,2023-07-28,,Settled Out of Court,LOST,"20,936,885.35 ","₦11,802,823.31",Anambra,Yes
+CASE200342,suit/FHC/5682/2022,Emeka Adeyemi,+234996636580,Employment Law,Federal High Court Abuja,CHINEDU CHUKWU,11-Oct-2023,13.12.2024,15-May-2026,active,Won,"14,276,816.51 ",15057391.93 naira,Edo,Yes
+CASE200408,SUIT/FHC/5513/2019,Kunle Ogundimu,234-286-716-323,CRIMINAL,Kano State High Court,Tunde Yusuf,2019-10-23,18.03.2021,18-Sep-2022,Adjourned,pending,"N14,716,293",14856948.45,Enugu,TRUE
+CASE200009,SUIT/fhc/4216/2021,Amaka Adekunle,00434165182,CRIMINAL,Kano State High Court,Ifeoma Adekunle,18/07/2024,02 November 2025,2027/08/17,Closed,nil,"NGN 2,674,493","N2,388,191",Plateau,FALSE
+CASE200338,SUIT/fhc/6661/2019,Fatima Adeyemi,82154544702,Labour Law,Lagos State High Court,bola adekunle,22 December 2021,21-Apr-2022,02/07/2022,CLOSED,pending,21631131.86,"₦13,936,103.83",Ogun,FALSE
+CASE200070,SUIT/FHC/2678/2024,Musa Yusuf,+234769389833,Family Law,Federal High Court Lagos,Ngozi Balogun,16-Mar-2020,2021-01-13,2022-10-05,Struck Out,LOST,20929403.2,"5,536,140.62 ",Edo,no
+CASE200166,SUIT/FHC/2955/2023,Tunde Nwosu,234-328-063-461,Labour Law,Federal High Court Abuja,Grace Olawale,10/03/2022,13-Jun-2022,,Adjourned ,,"NGN 7,532,303",5664953.24 naira,Imo,TRUE
+CASE200203,SUIT/FHC/3047/2019,Grace Afolabi   ,+234242437540,Property Law,Lagos State High Court,Yusuf Ajayi,06/07/2023,30 March 2024,07/17/2025,Settled Out of Court,Lost,"₦16,725,957.88","15,574,001.33 ",Abuja,Y
+CASE200147,suit/FHC/7943/2021,Yusuf  Adeyemi,29049047128,Commercial Dispute,Federal High Court Abuja,Fatima Nnamdi,11/03/2020,17 September 2022,12/03/2022,settled out of court,won,"NGN 3,724,505",1116669.71,Ibadan,yes
+CASE200425,suit/FHC/8184/2019,Amaka Okeke,234-950-136-497,civil litigation,Magistrate Court Ikeja,Funmilayo Nwosu,08 January 2023,2023/05/13,04/07/2024,Closed,pending,"NGN 11,882,091","NGN 9,216,276",Enugu,TRUE
+CASE200099,SUIT/fhc/2895/2025,Funmilayo Okafor,(094) 077-7809,Commercial Dispute,Lagos State High Court,   amara mohammed,2020/03/21,24 October 2021,,settled out of court,LOST,"₦5,822,170.24","NGN 3,941,025",Lagos,no
+CASE200266,SUIT/fhc/8172/2024,Chinedu Yusuf,+234234764907,Commercial Dispute,Kano State High Court,Bisi Suleiman,09/08/2022,13-Mar-2024,2025/11/07,Struck Out,LOST,Unknown,4708088.44,Kaduna,false
+CASE200426,SUIT/FHC/6640/2021,Aliyu Lawal,234-924-195-625,Family Law,Federal High Court Abuja,Wale Afolabi,10/07/2024,10/23/2025,06-Nov-2027,active,won,7485750.02,"N7,844,389",Rivers,false
+CASE200113,SUIT/FHC/529/2023,CHIOMA LAWAL,(495) 880-3955,Commercial dispute,Customary Court Enugu,Fatima Suleiman,11.01.2020,09 February 2021,07-Oct-2021,Active,pending,22385141.56 naira,"NGN 12,568,988",Rivers,N
+CASE200349,SUIT/FHC/9325/2025,IBRAHIM OKEKE,+234046152654,Property law ,Federal High Court Abuja,WALE OKAFOR   ,10/07/2021,12/18/2022,,Settled Out of Court,,"₦13,387,700.79",6476872.68,Abuja,0
+CASE200396,SUIT/fhc/9284/2023,Tunde Afolabi,(415) 148-8814,Property law ,Federal High Court Lagos,Musa Yusuf,10/02/2023,03/06/2024,04/09/2024,Settled,Lost,18633918.12 naira,"₦16,359,928.37",Edo,false
+CASE200011,SUIT/FHC/3828/2021,Sadiq Balogun,0433 339 5211,Property Law,Supreme Court Nigeria,Funmilayo Chukwu,11-Aug-2022,25.10.2023,01/01/2026,active,?,"NGN 20,395,963",19585179.69 naira,Edo,TRUE
+CASE200217,SUIT/fhc/5420/2020,Musa Chukwu,234-494-787-300,Commercial Dispute,Federal High Court Abuja,Femi Olawale,,2022/01/13,unknown date,Adjourned ,Lost,16081324.41 naira,"NGN 13,803,497",Kano,true
+CASE200312,SUIT/FHC/5896/2023,Kemi Adekunle,234-179-576-024,Property law ,Federal High Court Lagos,Ngozi Adeyemi,07/04/2019,2019/12/24,10-Mar-2021,Settled,Pending,77189.52 naira,"N65,264",Abuja,No
+CASE200008,SUIT/FHC/2617/2019,Tobi Ogundimu,234-416-335-658,Civil Litigation,Kano State High Court,Ibrahim Eze,28-Jun-2022,01/15/2024,,settled out of court,NIL,"N15,732,216","N9,816,878",Kaduna,N
+CASE200422,--,Tobi Nnamdi,invalid,Family Law,Customary Court Enugu,Ifeoma Okafor,24 April 2022,01/05/2023,,Adjourned ,Won,"₦17,944,599.21",4310764.99 naira,Plateau,FALSE
+CASE200426,SUIT/FHC/6640/2021,Aliyu Lawal,234-924-195-625,Family Law,Federal High Court Abuja,Wale Afolabi,10/07/2024,10/23/2025,06-Nov-2027,active,won,7485750.02,"N7,844,389",Rivers,false
+CASE200369,SUIT/FHC/8379/2022,amara  balogun,0411 076 0954,Commercial Dispute,Kano State High Court,Amaka Adekunle,01/01/2020,06-Oct-2021,,Pending Hearing,Settled,"₦7,128,016.48","₦4,010,419.48",Imo,false
+CASE200339,SUIT/fhc/2654/2019,Fatima Adekunle,(296) 044-3270,Criminal Defence,Court of Appeal Abuja,Halima Olawale,12.06.2019,20.03.2020,,Closed,n/a,3093747.78,"₦2,973,304.78",Edo,yes
+CASE200020,SUIT/fhc/7207/2024,Ibrahim Bello,44890612034,Civil Litigation,Court of Appeal Abuja,Fatima Chukwu,2020/12/11,2022/10/28,12/16/2022,Adjourned ,--,"NGN 13,380,589","N3,244,616",Imo,yes
+CASE200005,suit/FHC/2169/2025,Emeka Ogundimu,09376904268,Commercial dispute,Magistrate Court Ikeja,Amaka Eze,09/16/2019,2020/10/24,19/11/2020,Adjourned,won,24120601.07,"N7,564,350",Anambra,TRUE
+CASE200026,SUIT/FHC/6788/2021,  FATIMA AJAYI,(762) 202-3413,civil litigation,Federal High Court Lagos,Segun Ogundimu,2020/06/29,22 January 2022,,CLOSED,Settled,"₦5,463,134.79","NGN 2,031,568",Ogun,true
+CASE200284,SUIT/fhc/9689/2019,Chioma Ogundimu,0242 875 7215,Labour Law,Magistrate Court Ikeja,musa ajayi,11 August 2023,12-Feb-2024,21/06/2024,Settled,,"₦5,808,986.04",?,Imo,FALSE
+CASE200212,SUIT/fhc/8533/2025,   Kemi Yusuf,0980 562 6565,Civil Litigation,Kano State High Court,Funmilayo Okafor,24/12/2024,05/12/2025,07.03.2026,Struck Out,won,19421323.06,"₦13,212,981.98",Imo,TRUE
+CASE200388,SUIT/FHC/3470/2021,Emeka Adeyemi,234-596-309-938,Labour Law,Lagos State High Court,Kemi Okafor,27-Nov-2020,27/08/2022,N/A,settled out of court,Settled,"₦11,342,097.87","6,316,876.36 ",Kaduna,No
+CASE200375,suit/FHC/6449/2021,Zainab Yusuf,+234931109193,Property law ,Federal High Court Abuja,Tunde Ogundimu,21 February 2023,2024/09/17,,Closed,Pending,"₦781,689.99","207,300.95 ",Kaduna,Yes
+CASE200007,SUIT/fhc/4072/2022,Bisi Afolabi,+234697357790,Property Law,Federal High Court Abuja,Ngozi Mohammed,30-Jun-2022,2023/02/28,2024/11/16,Settled Out of Court,Withdrawn,"N14,869,924",3868162.75,Lagos,TRUE
+CASE200119,suit/FHC/745/2019,Bola  Afolabi,04091570184,Criminal Defence,Federal High Court Abuja,FUNMILAYO OKAFOR   ,25 March 2022,2022/10/23,2023-08-30,Struck Out,pending,"NGN 23,952,228","N24,417,813",Plateau,0
+CASE200032,SUIT/FHC/8215/2023,Grace Nnamdi,(642) 400-8254,Civil Litigation,Customary Court Enugu,FATIMA LAWAL   ,2023/11/09,03.08.2024,,Closed,Withdrawn,"NGN 17,938,630",  ,Akwa Ibom,FALSE
+CASE200137,suit/fhc/7871/2021,Femi  Okonkwo,01403696566,Labour Law,Lagos State High Court,Adaeze Okafor,12.08.2021,18.04.2023,2024/09/18,CLOSED,pending,"₦9,376,292.10",9744370.39,Enugu,FALSE
+CASE200104,suit/FHC/386/2025,SEGUN NWOSU,01455616814,Property law ,Kano State High Court,Ifeoma Nnamdi,07/23/2021,05.02.2023,2024/01/04,Settled Out of Court,LOST,"₦16,770,156.66","N12,446,141",Ogun,1
+CASE200197,suit/FHC/3881/2024,Grace Chukwu,+234864015577,Property Law,Federal High Court Lagos,Fatima Adeyemi,11/23/2022,not set,,Struck Out,nil,"N18,722,400",6669006.99,Imo,Yes
+CASE200183,SUIT/FHC/3738/2025,   Chinedu Yusuf,01531363631,Commercial dispute,n/a,Segun Lawal,18/07/2021,09.05.2023,,Settled Out of Court,Withdrawn,"₦13,079,201.01",9771881.05 naira,Rivers State,true
+CASE200096,SUIT/fhc/2299/2022,Zainab Nnamdi,234-111-751-868,Civil Litigation,Supreme Court Nigeria,Halima Okonkwo,2024-08-31,23 October 2024,2026-11-10,Closed,LOST,"2,768,681.33 ","1,155,368.10 ",ABUJA,0
+CASE200146,suit/FHC/1612/2021,Chinedu Eze,234-420-949-407,Commercial dispute,Kano State High Court,Bola Okonkwo   ,25-Apr-2024,08 April 2025,30.05.2027,Closed,Settled,nil,2067679.02,Ibadan,yes
+CASE200256,Unknown,Zainab Olawale,+234514846853,CRIMINAL,Court of Appeal Abuja,Bisi Chukwu,2024-10-18,06-May-2026,2028-01-01,Active,won,"N17,001,615","NGN 6,098,963",Delta,Yes
+CASE200111,SUIT/fhc/2708/2019,Amaka Okonkwo,05699023557,Employment Law,Customary Court Enugu,Yusuf Nwosu,03/05/2019,11 April 2020,05/01/2021,Closed,?,"NGN 13,538,485",3735501.67 naira,Ogun,Yes
+CASE200022,SUIT/fhc/3104/2023,Bola Eze,06159399824,civil litigation,Supreme Court Nigeria,  Tunde Okonkwo   ,08/06/2023,19-Aug-2023,20 November 2024,Active,Settled ,"₦3,265,761.76","₦2,679,718.97",Enugu,Y
+CASE200175,SUIT/fhc/7169/2022,Amara Yusuf,+234196207100,Property Law,Kano State High Court,Bisi Adekunle,12/11/2019,08/16/2021,23-Sep-2022,Settled Out of Court,LOST,"₦9,083,167.38","NGN 2,310,759",Port Harcourt,true
+CASE200395,SUIT/FHC/6940/2021,Tunde Eze,,CRIMINAL,Court of Appeal Abuja,Kemi Suleiman,2019/08/21,08.08.2020,,Adjourned,Lost,"NGN 21,712,808","₦6,422,865.70",Ogun,0
+CASE200301,suit/FHC/7185/2022,Chinedu Eze,+234617945491,Property Law,Kano State High Court,Amara Okonkwo,12.05.2024,09-Oct-2025,07.01.2026,Adjourned ,Settled,13574419.05 naira,5700232.34,Plateau,Y
+CASE200411,SUIT/FHC/4566/2024,amaka lawal,0777 901 4754,CRIMINAL,Supreme Court Nigeria,Kemi Lawal,17.09.2024,07-Jul-2026,25 January 2028,Settled,n/a,"₦22,875,011.43","17,039,782.80 ",Enugu,0
+CASE200149,SUIT/FHC/4276/2021,adaeze balogun,+234927524372,Family Law,Court of Appeal Abuja,  musa bello,26/11/2020,2021/03/10,07-Mar-2022,Settled,pending,17869708.57,"NGN 14,109,016",Rivers State,true
+CASE200409,SUIT/fhc/9099/2023,Chidi Balogun,(672) 994-9387,Employment Law,Magistrate Court Ikeja,Chinedu Balogun,2019-08-01,18.07.2021,06/13/2022,CLOSED,won,"₦12,828,115.72","₦5,114,072.49",Enugu,N
+CASE200251,suit/FHC/3664/2020,Ibrahim Mohammed,50769864079,Commercial dispute,Supreme Court Nigeria,Chioma Balogun,02 January 2020,26 December 2020,,Struck Out,,"₦2,930,229.92",1658261.24,Ogun,No
+CASE200374,suit/FHC/9966/2024,Bola Bello,0767 699 1507,Family Law,Court of Appeal Abuja,Amaka Olawale,2024-10-09,19-Nov-2024,10/24/2026,CLOSED,won,"4,908,170.02 ","NGN 3,824,560",Lagos,N
+CASE200322,SUIT/FHC/6474/2019,Bola Suleiman,0821 456 5328,CRIMINAL,Supreme Court Nigeria,Segun Adekunle,2021/07/17,11 February 2022,02/03/2023,Pending Hearing,Settled ,21370684.09,"₦18,437,540.76",FCT,Yes
+CASE200428,SUIT/fhc/1906/2022,Fatima Chukwu,89030914363,Employment Law,Customary Court Enugu,  Chidi Nnamdi,10/15/2023,2024/07/14,22-Jul-2024,CLOSED,LOST,"N22,842,198",5592645.82 naira,Oyo,No
+CASE200415,SUIT/FHC/1199/2021,Obinna Nwosu,+234380701765,Property Law,Lagos State High Court,Musa Suleiman,07/26/2024,2025-10-31,24.03.2028,Settled Out of Court,Won,"N482,860","NGN 217,487",Lagos,false
+CASE200323,SUIT/fhc/5012/2025,Femi Balogun,03266678507,Property law ,Supreme Court Nigeria,Grace Yusuf   ,2020/10/23,10 May 2021,,CLOSED,Pending,16626889.05,9378239.52,Lagos,1
+CASE200129,SUIT/fhc/2235/2020,WALE CHUKWU,06158148769,civil litigation,Lagos State High Court,femi olawale   ,2020/02/03,24/10/2020,22.02.2021,Adjourned ,Won,"₦3,589,881.47","1,334,289.99 ",Anambra,true
+CASE200373,NIL,Aliyu  Ajayi,0046 619 6399,Commercial Dispute,Court of Appeal Abuja,Emeka  Lawal,25-Jul-2020,28.11.2020,04-Apr-2021,CLOSED,Settled,"₦18,687,551.20",6090978.16 naira,Delta,TRUE
+CASE200351,NIL,Emeka Lawal,01405786170,civil litigation,Magistrate Court Ikeja,Musa Lawal,2020/03/11,21-Nov-2021,,Closed,pending,"NGN 6,125,790","N3,285,290",Lagos,FALSE
+CASE200366,SUIT/FHC/5814/2024,Ibrahim Yusuf,0056 641 8775,CRIMINAL,Lagos State High Court,Obinna Abubakar,27-Oct-2019,2020/01/14,2022/01/16,Settled,Lost,21445859.98,7007028.52 naira,Cross River,1
+CASE200429,SUIT/fhc/3690/2022,Ibrahim Suleiman,234-102-574-326,Family Law,Supreme Court Nigeria,chinedu balogun,04.09.2024,2024/11/07,,CLOSED,Settled,"₦19,851,165.30","NGN 7,481,538",KANO,yes
+CASE200001,SUIT/FHC/4901/2021,Obinna Adeyemi,+234490277038,Commercial dispute,Magistrate Court Ikeja,Adaeze Ajayi,27/12/2020,27/08/2022,,Settled,Withdrawn,"N12,989,619",-,Lagos,no
+CASE200399,SUIT/FHC/9894/2022,Adaeze Ajayi,(669) 078-2633,Civil Litigation,Kano State High Court,Emeka Okafor,27 October 2021,10/17/2022,,Pending Hearing,Pending,"₦7,883,084.23",3120639.09,Akwa Ibom,Y
+CASE200296,SUIT/FHC/279/2025,GRACE AFOLABI,invalid,Commercial Dispute,Federal High Court Lagos,Kemi Okafor,28.02.2023,14.05.2023,,active,,"N13,296,001","NGN 10,330,513",Abuja,Y
+CASE200309,SUIT/FHC/2920/2021,BISI CHUKWU,(496) 050-1667,Commercial Dispute,Supreme Court Nigeria,Ifeoma Lawal,2022-09-15,09/03/2024,2025-08-26,Struck Out,Unknown,"N23,678,197",11607675.74 naira,oyo,N
+CASE200123,SUIT/fhc/9563/2025,Yusuf Olawale,21495870207,CRIMINAL,Court of Appeal Abuja,Grace Chukwu,05/11/2019,2021-09-20,09 April 2023,Settled,,"₦13,788,940.24",5692202.11,Akwa Ibom,FALSE
+CASE200086,suit/FHC/3458/2022,Bola Eze,12209949993,Commercial dispute,Customary Court Enugu,amara  mohammed   ,21/12/2024,2025/12/27,13-Mar-2027,Adjourned,Lost,"NGN 23,939,670","₦5,141,959.46",Cross River,yes
+CASE200371,SUIT/FHC/3878/2021,ibrahim suleiman,(717) 911-0065,Property Law,Federal High Court Lagos,Adaeze Okonkwo,19-Aug-2021,11/24/2021,11-May-2023,Settled Out of Court,pending,"₦2,893,253.56",587898.57,abuja,true
+CASE200100,suit/fhc/394/2019,Adaeze Nnamdi,+234397767199,Employment Law,Kano State High Court,Zainab Eze,31.08.2021,N/A,29/04/2024,active,n/a,10912512.68,"NGN 9,948,487",Kaduna,no
+CASE200061,NULL,Chidi Okonkwo,00824043350,Family Law,Magistrate Court Ikeja,Ibrahim Suleiman,2019-08-02,04/09/2021,06/21/2023,Adjourned,Won,"₦21,802,105.73","NGN 21,368,818",Akwa Ibom,Yes
+CASE200384,-,Musa Olawale,(395) 003-3423,Commercial Dispute,Magistrate Court Ikeja,Bola Afolabi,11/03/2023,05/08/2024,,Settled Out of Court,Withdrawn,"NGN 21,109,855",21756923.42,Imo,TRUE
+CASE200272,SUIT/FHC/1374/2025,ibrahim suleiman,234-857-002-720,CRIMINAL,Federal High Court Lagos,Emeka Ogundimu,2021-02-12,06-Sep-2021,,Settled Out of Court,LOST,"₦4,609,665.34","N4,581,935",Port Harcourt,false
+CASE200080,suit/FHC/6751/2023,Amara Okafor,(205) 554-3840,Criminal Defence,Federal High Court Lagos,Tunde Lawal,2020/01/16,19.12.2021,01/16/2024,CLOSED,Won,"1,348,734.01 ","N353,197",Plateau,N
+CASE200023,SUIT/FHC/3196/2025,Ngozi Ogundimu,234-587-716-947,CRIMINAL,Court of Appeal Abuja,musa adeyemi,2019-12-09,17-Mar-2020,,Active,NULL,"N15,402,255","NGN 9,153,525",Rivers State,Yes
+CASE200207,SUIT/fhc/7490/2022,Musa Okonkwo,0410 672 7520,Property Law,Court of Appeal Abuja,Tobi Okeke,08.01.2019,05-Feb-2020,07/19/2020,Adjourned,Settled ,23126375.6,22159835.38 naira,Edo,No
+CASE200210,SUIT/fhc/8410/2023,Amara Eze,+234150939834,Property law ,Supreme Court Nigeria,Ngozi Olawale,00/00/0000,05/01/2024,22 June 2026,Active,Settled ,4311832.47 naira,4238056.36,Enugu,1
+CASE200051,SUIT/FHC/436/2024,Amara Okafor,03878294565,civil litigation,--,Blessing Lawal,20/02/2020,2020/09/05,,active,Settled ,18521892.01,"19,485,126.45 ",Abuja,FALSE
+CASE200325,SUIT/fhc/5087/2021,chinedu eze,0029 084 6684,Family Law,Kano State High Court,Obinna Ogundimu,28.11.2023,05.03.2025,not set,CLOSED,Withdrawn,"₦12,231,142.57","NGN 9,240,350",Ogun,FALSE
+CASE200410,suit/FHC/2566/2020,Halima Ajayi,0302 716 9385,Civil Litigation,Customary Court Enugu,Chioma Nwosu,2021-11-05,2022-10-12,16-May-2023,Settled Out of Court,LOST,"NGN 15,740,257",-,Plateau,Yes
+CASE200317,SUIT/FHC/1734/2020,Sadiq Olawale,15619318374,civil litigation,Lagos State High Court,Chidi Balogun,08.01.2021,04 June 2021,,Active,Settled ,"NGN 16,714,107",3761870.48,Ogun,TRUE
+CASE200155,NULL,Chidi Okeke,(393) 852-5800,Labour Law,Lagos State High Court,Amara Ajayi,27-Oct-2023,28/01/2025,2025-11-25,Adjourned ,LOST,13871329.24 naira,"₦7,492,301.39",Delta,1
+CASE200249,SUIT/FHC/8488/2019,Blessing Eze,+234616556503,Property Law,Kano State High Court,Aliyu Eze,04/15/2024,02.10.2024,07-Jun-2026,CLOSED,pending,nil,"NGN 16,047,159",Lagos,false
+CASE200177,suit/FHC/669/2025,Segun Suleiman,invalid,Employment Law,Customary Court Enugu,Emeka Nwosu,2020/07/02,2021-05-16,23-Nov-2021,Adjourned ,Pending,22229637.49,"NGN 17,784,586",Kano,1
+CASE200391,SUIT/FHC/5738/2021,WALE CHUKWU   ,02558777496,Labour Law,Kano State High Court,Aliyu Ajayi,2019-11-26,09/23/2021,,CLOSED,LOST,16082424.84 naira,"NGN 8,453,347",Lagos State,N
+CASE200283,suit/fhc/7061/2021,Funmilayo Mohammed,+234896465280,civil litigation,Supreme Court Nigeria,Sadiq Yusuf,13/01/2024,2024/02/12,,Adjourned ,Settled ,"NGN 18,867,648","NGN 7,887,710",Plateau,1
+CASE200179,suit/fhc/4784/2019,Zainab Okeke,(883) 734-0312,Property Law,Court of Appeal Abuja,  Tunde Adekunle,25.02.2019,not set,2021/04/11,Settled,  ,  ,"N1,838,244",ABUJA,no
+CASE200191,SUIT/fhc/4991/2021,Musa Bello,234-325-431-074,Property Law,Supreme Court Nigeria,Segun Yusuf,2022-04-02,21-Oct-2023,16 May 2025,Adjourned ,Withdrawn,"NGN 21,020,375",18647292.79,Akwa Ibom,yes
+CASE200381,SUIT/FHC/179/2021,SEGUN EZE,+234652170730,CRIMINAL,Supreme Court Nigeria,Segun Adeyemi,16.09.2021,14-May-2023,17.07.2023,active,NIL,10571667.67,"₦5,302,476.26",Rivers State,FALSE
+CASE200332,SUIT/FHC/3005/2023,Ifeoma Nwosu,0492 683 1589,Employment Law,Federal High Court Abuja,Kemi Okeke,2022/12/31,10 October 2023,16-Jan-2025,Struck Out,Lost,15934602.12,"NGN 9,978,217",KANO,false
+CASE200075,suit/FHC/332/2024,chioma suleiman   ,+234338848792,Labour Law,Supreme Court Nigeria,Chidi Olawale,12/27/2024,2026-12-04,2029-02-09,Struck Out,pending,"N2,940,998","₦1,209,779.69",Rivers,Yes
+CASE200122,SUIT/FHC/7780/2020,Adaeze Suleiman,13858542493,Property Law,Magistrate Court Ikeja,Sadiq Okonkwo,02/01/2024,28 March 2025,10/16/2026,CLOSED,Settled,6065169.23,1771180.75,Edo,FALSE
+CASE200078,SUIT/FHC/2008/2023,Bola Mohammed,36815798123,Employment Law,Lagos State High Court,Amaka Eze,19.10.2022,2024-01-17,01/24/2024,Struck Out,LOST,"NGN 24,241,114","23,654,628.47 ",Abuja,no
+CASE200161,SUIT/FHC/3412/2025,Bola Ajayi,27128639174,Criminal Defence,Federal High Court Lagos,kunle nnamdi,19-Nov-2021,09/30/2022,22.11.2024,active,Settled ,2933398.74,"2,794,646.44 ",Kaduna,Y
+CASE200110,SUIT/FHC/3895/2025,OBINNA AJAYI,234-414-488-501,Property Law,Customary Court Enugu,Blessing Nwosu,28/10/2024,2026/01/30,,Active,LOST,13675820.54 naira,11776155.72,Cross River,Y
+CASE200326,SUIT/fhc/4404/2025,Bisi Okonkwo,invalid,Civil Litigation,Magistrate Court Ikeja,Grace Okonkwo,2023/01/01,19.11.2024,2026-08-08,Struck Out,Pending,"NGN 15,860,957","₦8,254,256.31",Anambra,TRUE
+CASE200288,SUIT/fhc/4161/2025,Funmilayo Lawal,+234761707587,Employment Law,Court of Appeal Abuja,Ngozi Yusuf,12 January 2024,02-Nov-2025,12/02/2026,Settled,Settled ,"N23,414,360","₦13,757,156.17",Kaduna,Yes
+CASE200169,SUIT/FHC/3148/2019,Amara Suleiman,234-061-387-829,Commercial Dispute,NULL,Kunle Suleiman,02/27/2022,2024/02/21,2025-06-02,active,pending,"NGN 8,385,371",8291551.71,Plateau,FALSE
+CASE200274,SUIT/fhc/6452/2025,Segun Afolabi,06577242954,Employment Law,Supreme Court Nigeria,kemi  afolabi,00/00/0000,2023/07/09,13.10.2024,Closed,Won,"NGN 21,088,872","₦22,495,857.35",Delta,true
+CASE200202,SUIT/fhc/5976/2023,Wale Lawal,234-955-798-877,Commercial dispute,Lagos State High Court,Obinna Olawale,unknown date,07/21/2022,2023-09-18,Closed,Lost,"5,867,627.87 ",,Rivers,no
+CASE200049,suit/fhc/1522/2022,tobi  lawal,234-827-448-570,Property Law,null,Chinedu Bello,06-Feb-2020,13-May-2021,2023/02/07,Settled Out of Court,,22021861.92,Unknown,Port Harcourt,TRUE
+CASE200159,suit/fhc/5857/2023,Wale Suleiman,07465421406,Property law ,Federal High Court Abuja,Wale Chukwu,28.01.2024,30.10.2024,,Pending Hearing,Lost,24842460.71 naira,6589194.19,Lagos,N
+CASE200362,SUIT/FHC/9254/2024,Ifeoma Ogundimu,04337504793,Criminal Defence,Federal High Court Abuja,Kunle Eze,10 December 2021,14/02/2022,,Closed,,"23,182,178.00 ","NGN 5,412,612",Kaduna,FALSE
+CASE200139,Unknown,musa afolabi,24220102762,civil litigation,Supreme Court Nigeria,Chinedu Adekunle,05 March 2022,12/19/2023,30-Jun-2025,Settled Out of Court,Pending,"₦6,253,940.31",2741403.69,Ogun,FALSE
+CASE200176,SUIT/FHC/743/2023,Ngozi Eze,19467232487,Property law ,Lagos State High Court,Tobi Nnamdi,07/16/2020,01.08.2021,2023/02/20,Adjourned ,,"NGN 17,400,887","NGN 7,654,642",Kaduna,N
+CASE200115,suit/FHC/8018/2020,YUSUF ADEKUNLE,+234145046173,Employment Law,Federal High Court Abuja,Bola Olawale,29/06/2021,13-Feb-2022,22/09/2023,Pending Hearing,Settled ,23366681.09,"N11,827,454",Lagos,0
+CASE200054,SUIT/FHC/2484/2025,musa okafor,(391) 037-1705,Property law ,Federal High Court Abuja,Aliyu Balogun,06-Oct-2020,10.07.2021,30 April 2022,settled out of court,,12453480.43,"₦3,331,927.04",Kaduna,No
+CASE200131,suit/fhc/6859/2023,Bisi Eze,06695832197,CRIMINAL,Magistrate Court Ikeja,  KUNLE NNAMDI,14 July 2020,,2021/04/29,Active,Unknown,"₦2,808,477.77",1964382.08 naira,KANO,N
+CASE200206,suit/fhc/7177/2022,Fatima Eze,38055257828,Civil Litigation,NULL,Chidi Suleiman,02/11/2022,10/23/2023,29/01/2024,active,Won,"₦16,309,607.69","NGN 10,802,156",Anambra,N
+CASE200387,SUIT/fhc/7644/2022,  CHIOMA OKEKE,invalid,Employment Law,Lagos State High Court,ifeoma balogun   ,00/00/0000,19 May 2023,,Adjourned,pending,"N2,493,858",1733107.73,Oyo,Yes
+CASE200257,SUIT/FHC/4052/2025,Kemi Okonkwo,64987820829,Property Law,n/a,Aliyu  Balogun   ,2024-04-24,18-Oct-2025,04/02/2027,Settled,Lost,"₦12,520,295.76","NGN 6,324,012",Ogun,TRUE
+CASE200240,SUIT/fhc/979/2019,Amara Adekunle,04657967842,Commercial dispute,Magistrate Court Ikeja,Sadiq Bello,03 May 2019,2020-09-01,04/12/2022,CLOSED,-,15199878.53 naira,"₦6,465,185.83",Oyo,Y
+CASE200188,SUIT/FHC/8861/2023,Chioma Okafor,97740633569,Property Law,Supreme Court Nigeria,Blessing Olawale,05-Aug-2021,11/24/2021,not set,Pending Hearing,,"₦4,675,088.37","₦2,777,302.62",Lag,No
+CASE200181,SUIT/fhc/1114/2024,Funmilayo Afolabi,234-701-082-207,Commercial Dispute,Customary Court Enugu,Fatima Abubakar,,28-Oct-2022,03/12/2023,Settled Out of Court,Lost,"NGN 14,453,753","N8,098,069",Kano,FALSE
+CASE200089,SUIT/FHC/5507/2022,Femi Nnamdi,(046) 333-1279,Property Law,Customary Court Enugu,Ifeoma Okeke,2023-11-16,06 August 2024,2025/01/23,Active,Withdrawn,"NGN 6,690,196",4470627.36 naira,Imo,No
+CASE200069,n/a,ngozi suleiman,86416862278,Property law ,null,Aliyu Lawal,not set,16/07/2023,,Adjourned ,Won,"₦2,103,640.93","₦1,816,887.72",Enugu,0
+CASE200313,SUIT/fhc/8619/2025,Chinedu Nnamdi,07573839597,Property law ,Kano State High Court,Halima Mohammed,04-Oct-2024,unknown date,16-Dec-2027,Adjourned ,Pending,13090886.75 naira,4491093.36 naira,Imo,TRUE
+CASE200377,suit/fhc/785/2019,Fatima Eze,+234024968549,Family Law,Magistrate Court Ikeja,Grace Suleiman,2020-09-03,06 April 2021,,Settled,won,21282002.68,"NGN 12,072,575",Lagos,no
+CASE200336,SUIT/FHC/9685/2025,Wale Abubakar,+234728813770,civil litigation,Supreme Court Nigeria,Musa Eze,04/11/2020,05-Jan-2022,04-Nov-2022,Struck Out,,"N8,644,593",4883447.75 naira,Edo,Yes
+CASE200037,suit/fhc/9972/2024,Chioma Mohammed,234-735-020-802,Commercial Dispute,Federal High Court Abuja,musa olawale,06/24/2024,2026-02-20,2026-03-11,Adjourned ,pending,"7,870,828.21 ","₦7,813,019.71",Imo,FALSE
+CASE200359,SUIT/FHC/8586/2021,kunle mohammed,+234268768118,civil litigation,Customary Court Enugu,Chinedu Adeyemi,13 October 2023,2024/06/04,,settled out of court,,1730722.13,"N561,596",Plateau,N
+CASE200385,SUIT/FHC/6665/2021,Ibrahim Mohammed,+234583230241,Property Law,Lagos State High Court,adaeze mohammed,13/12/2024,2025-02-20,2026/02/07,Struck Out,Pending,"₦21,262,716.34","5,983,463.66 ",Kano,N
+CASE200315,SUIT/FHC/7119/2021,Obinna Okeke,22329716743,Labour Law,Unknown,Adaeze Adeyemi,20-Aug-2024,2026-05-05,,active,Withdrawn,"₦3,830,034.14","1,356,355.00 ",Akwa Ibom,TRUE
+CASE200148,suit/FHC/2625/2024,Sadiq Abubakar,14429444019,Criminal Defence,Customary Court Enugu,Sadiq Balogun,06/05/2022,2024/05/03,2026/03/01,Settled Out of Court,Settled ,"₦11,707,240.21","10,136,020.44 ",Anambra,1
+CASE200118,SUIT/FHC/9661/2023,Ngozi Olawale,234-218-230-768,Family Law,Magistrate Court Ikeja,Femi Afolabi,2024/10/07,2026-04-29,2028-06-22,Adjourned ,LOST,8740490.57,"NGN 3,028,672",Plateau,FALSE
+CASE200233,SUIT/FHC/1917/2023,Sadiq Adekunle,0138 759 2712,Civil Litigation,Customary Court Enugu,CHIDI AFOLABI,06.08.2020,03/14/2021,,Settled Out of Court,  ,"NGN 20,116,411","₦8,619,826.67",Rivers State,No
+CASE200237,-,chinedu  okonkwo   ,+234175207167,Family Law,Kano State High Court,Bola Okonkwo,08/08/2023,29 July 2024,,Adjourned ,N/A,4727916.83 naira,"₦3,985,512.42",Ogun,No
+CASE200130,suit/fhc/376/2023,Grace Okafor,(393) 827-6153,Labour Law,Customary Court Enugu,Emeka Yusuf,14/03/2020,29 March 2021,2023-08-30,active,Pending,"₦4,007,031.18","NGN 3,969,880",Delta,No
+CASE200406,SUIT/fhc/4373/2023,SADIQ OKAFOR,70231643348,CRIMINAL,Lagos State High Court,Sadiq Afolabi,23-Nov-2021,04/04/2023,,Pending Hearing,NIL,17534865.63 naira,10728154.68,Enugu,0
+CASE200171,SUIT/FHC/5665/2020,Zainab Eze,+234041792911,Criminal Defence,Kano State High Court,Chioma Suleiman,2022-07-05,2024/03/08,12 February 2026,Settled Out of Court,Settled,24321660.90 naira,"₦8,530,371.50",Rivers,FALSE
+CASE200350,SUIT/fhc/4044/2023,Aliyu Ogundimu,0103 399 3788,Civil Litigation,Kano State High Court,  femi okonkwo,25 April 2022,not set,27.02.2025,active,Won,"₦3,318,997.95","₦1,566,009.22",Ogun,Yes
+CASE200057,SUIT/FHC/261/2019,Tunde Afolabi,0288 619 5761,Property Law,Court of Appeal Abuja,Fatima Adeyemi,15 October 2019,08/24/2020,,Settled Out of Court,Won,"NGN 13,403,805","NGN 4,217,908",Cross River,1
+CASE200025,--,Chioma Adekunle,+234544964759,civil litigation,Magistrate Court Ikeja,Ifeoma Okonkwo,15-Jan-2023,01-Oct-2023,,Settled,Settled ,15945475.69 naira,"NGN 5,691,225",Edo,1
+CASE200404,SUIT/fhc/710/2023,Tunde Nnamdi,+234663618637,Family Law,Court of Appeal Abuja,Chioma Afolabi,10/20/2024,24.05.2026,unknown date,Settled Out of Court,pending,6470989.0,4046800.19,Imo,0
+CASE200027,suit/fhc/4125/2025,Chioma Okeke,(611) 178-0068,Property law ,Federal High Court Lagos,Kunle Abubakar,06/12/2020,11.10.2021,,active,won,"₦14,105,931.92","NGN 4,799,827",Akwa Ibom,No
+CASE200064,suit/fhc/7720/2022,Emeka Mohammed,234-315-727-919,Employment Law,unknown,ifeoma  eze,2024/03/20,2025-05-04,not set,Adjourned,pending,3303832.02 naira,"NGN 3,514,142",Ogun,0
+CASE200239,SUIT/FHC/1495/2021,Chidi Nwosu,53961367499,Family Law,Federal High Court Abuja,Blessing Balogun,2024-10-10,19/08/2025,2026-05-01,Pending Hearing,NULL,"NGN 10,892,323","NGN 10,906,339",Enugu,1
+CASE200238,SUIT/FHC/8815/2025,Tobi Lawal,01126691215,civil litigation,Federal High Court Lagos,Fatima Ogundimu,24.04.2023,25.12.2024,28 September 2026,CLOSED,Settled ,"NGN 3,849,090","₦1,584,236.19",Lagos,FALSE
+CASE200304,SUIT/FHC/4974/2024,Grace Yusuf,41680061027,Labour Law,Kano State High Court,Bola Adeyemi,04-Oct-2022,07/24/2024,23/04/2026,CLOSED,,"NGN 12,610,413",5974964.19 naira,Cross River,TRUE
+CASE200185,SUIT/fhc/6483/2020,Amaka Ajayi,+234735435209,Criminal Defence,Lagos State High Court,Funmilayo Abubakar   ,2021-01-24,24 August 2021,21.08.2022,Closed,pending,"₦10,155,433.01","N5,477,071",Kano,Y
+CASE200382,SUIT/FHC/3101/2025,BLESSING ADEKUNLE,234-793-375-636,Employment Law,Supreme Court Nigeria,Ngozi Suleiman   ,30/04/2019,2020-03-06,23-Aug-2020,Pending Hearing,Pending,"NGN 10,057,570",3682936.44,Kano,false
+CASE200178,SUIT/FHC/7159/2020,CHIDI AJAYI   ,invalid,Property law ,Supreme Court Nigeria,Bisi Nnamdi,27-Feb-2023,2024-10-26,2027-03-22,Adjourned ,LOST,"6,807,820.11 ","₦3,730,639.84",Akwa Ibom,N
+CASE200058,suit/fhc/4065/2022,Kemi Lawal,234-868-528-975,Criminal Defence,Federal High Court Lagos,Tunde Eze,12 April 2021,17-Nov-2022,30/04/2023,Closed,LOST,2324884.89 naira,2014304.68,Enugu,FALSE
+CASE200153,suit/FHC/9116/2024,Bisi Adeyemi,06047658018,Property Law,Federal High Court Lagos,Kunle Lawal,31/03/2022,22.03.2023,2025-01-06,Adjourned ,LOST,"₦23,587,963.38","₦17,235,002.36",Plateau,Yes
+CASE200124,SUIT/FHC/8254/2024,Adaeze Olawale,234-160-166-299,Commercial Dispute,Court of Appeal Abuja,Emeka Ajayi   ,2023/12/03,04 January 2024,,Adjourned,,"NGN 4,399,548","N1,156,616",Ogun,true
+CASE200356,SUIT/fhc/7077/2020,Obinna Afolabi,28914161284,Employment Law,--,Kemi Nnamdi,25-Jun-2024,03 August 2025,20-Jun-2026,settled out of court,won,"₦23,262,290.03","N12,731,744",Akwa Ibom,1
+CASE200208,suit/FHC/2669/2020,Bisi Eze,85474929751,Commercial dispute,Court of Appeal Abuja,Chinedu Balogun   ,07.07.2023,2024/02/03,00/00/0000,Settled,,6233412.39 naira,"N4,344,283",Kaduna,FALSE
+CASE200250,suit/fhc/3151/2020,Kemi Yusuf,234-491-141-520,CRIMINAL,Supreme Court Nigeria,Fatima Mohammed,09-Feb-2023,2024-03-05,30 July 2025,Closed,Withdrawn,835371.71,"N294,673",Imo,Y
+CASE200028,suit/FHC/2590/2020,Funmilayo Okonkwo,+234492164334,Commercial dispute,Customary Court Enugu,Ibrahim Yusuf   ,26/01/2023,11/24/2024,14-Jul-2026,CLOSED,Settled ,"₦22,617,652.89","N13,614,817",Akwa Ibom,no
+CASE200386,n/a,Grace Okonkwo,26153473552,CRIMINAL,Magistrate Court Ikeja,Tobi Okeke,21/11/2023,09/10/2025,03 December 2027,Closed,?,"₦2,159,682.92","₦506,059.66",Anambra,0
+CASE200137,suit/fhc/7871/2021,Femi  Okonkwo,01403696566,Labour Law,Lagos State High Court,Adaeze Okafor,12.08.2021,18.04.2023,2024/09/18,CLOSED,pending,"₦9,376,292.10",9744370.39,Enugu,FALSE
+CASE200394,suit/fhc/6278/2024,MUSA NWOSU,05390789567,Commercial dispute,Unknown,Kemi Balogun,10-Apr-2020,18-Mar-2022,2023/07/25,settled out of court,Pending,23379302.40 naira,"NGN 12,741,056",Ogun,0
+CASE200002,SUIT/fhc/1740/2019,  Adaeze Suleiman,(309) 883-9205,CRIMINAL,Magistrate Court Ikeja,Chioma Ajayi,00/00/0000,2020-09-19,,Settled Out of Court,won,"NGN 21,807,103","N22,291,641",Plateau,No
+CASE200073,SUIT/FHC/8373/2021,Halima Abubakar,(703) 352-1103,Property law ,Court of Appeal Abuja,Fatima Mohammed,08-Mar-2023,17 March 2024,,settled out of court,Pending,12095819.23,"₦11,392,950.98",Kaduna,Yes
+CASE200090,SUIT/FHC/2315/2019,Sadiq Eze,+234736609656,Property Law,Federal High Court Lagos,Femi Lawal,04/17/2020,23/09/2020,16 May 2021,Closed,Pending,18438239.26 naira,"12,541,480.22 ",lagos,Y
+CASE200043,SUIT/FHC/1693/2019,Chinedu Yusuf,35031365024,Employment Law,Lagos State High Court,Blessing Bello,02/01/2019,2019-03-04,28-Jul-2021,Adjourned,Lost,329737.13,"N147,329",Lagos,0
+CASE200211,SUIT/FHC/8259/2021,Femi Okafor,234-187-186-375,civil litigation,Supreme Court Nigeria,Femi Ajayi,01.06.2022,2022-09-03,12-Apr-2024,Adjourned,Pending,15487460.46 naira,"N9,849,840",KANO,TRUE
+CASE200405,SUIT/fhc/7805/2022,ALIYU  YUSUF,(597) 412-1820,Employment Law,Supreme Court Nigeria,Funmilayo Abubakar,2019-02-03,2019/11/14,2022/02/17,CLOSED,LOST,22612463.49 naira,22301814.82 naira,Anambra,FALSE
+CASE200053,SUIT/fhc/6874/2025,Bola Lawal,0109 678 9940,Civil Litigation,-,Halima Balogun,unknown date,14 April 2020,09/09/2022,Settled Out of Court,Settled ,12771203.92,12452778.56,Cross River,true
+CASE200253,SUIT/FHC/8172/2021,Wale  Eze,+234785294563,civil litigation,Federal High Court Lagos,Ngozi Suleiman,08/03/2022,29/12/2023,,Settled Out of Court,Pending,8457152.87 naira,7357841.4,Kaduna,yes
+CASE200337,suit/fhc/9458/2019,Tunde Adeyemi,(851) 961-1594,Family Law,Federal High Court Lagos,tunde bello,14.08.2023,11.08.2025,2026/03/28,Struck Out,pending,"NGN 5,500,348","2,192,473.19 ",Anambra,false
+CASE200242,suit/FHC/9402/2024,Bola Okafor,07026952499,Commercial Dispute,Federal High Court Lagos,Bola Okonkwo,08/09/2019,04.12.2019,,Struck Out,Pending,"₦6,095,458.62","2,005,356.15 ",Edo,Y
+CASE200275,SUIT/fhc/4162/2022,Ifeoma Afolabi,+234652669300,Civil Litigation,Kano State High Court,Adaeze Olawale,27.04.2023,2023/06/16,,Closed,pending,"₦5,942,887.93","₦3,391,651.93",Enugu,0
+CASE200222,SUIT/FHC/8769/2021,  ifeoma balogun,+234818321928,Commercial dispute,Kano State High Court,BLESSING OKAFOR   ,10-May-2022,02/12/2023,16 September 2025,Adjourned,,15230475.48 naira,14832825.82 naira,Oyo,no
+CASE200114,SUIT/fhc/727/2019,Bisi Bello,+234405682996,Commercial dispute,Kano State High Court,Chioma Ajayi,19.02.2023,2023-05-13,06/12/2023,Pending Hearing,Settled,16606074.31,"16,290,704.50 ",Cross River,1
+CASE200157,SUIT/fhc/4462/2020,Kemi Balogun,(009) 109-3911,Property law ,Lagos State High Court,Musa Okeke,2019-11-02,2020-03-09,06/03/2022,Closed,pending,"NGN 20,877,903",14536933.66 naira,Akwa Ibom,Yes
+CASE200327,suit/FHC/1471/2021,  Emeka Balogun   ,0975 634 1085,Commercial dispute,Customary Court Enugu,Kemi Chukwu,25.07.2021,2023-04-02,,Active,,"NGN 11,747,109",4899487.57 naira,Enugu,1
+CASE200108,SUIT/fhc/3457/2025,Chioma Eze,07293430107,Property law ,N/A,Blessing Suleiman,10 July 2022,2023-08-10,02/01/2024,Adjourned,  ,5105333.36 naira,"NGN 5,229,074",Ogun,Yes
+CASE200363,SUIT/FHC/3497/2021,Adaeze Olawale,234-614-987-283,Property Law,Federal High Court Abuja,Sadiq Okafor,05 November 2024,29 June 2025,12/09/2025,CLOSED,LOST,"₦10,374,889.09",6524159.36,Kaduna,TRUE
+CASE200333,SUIT/fhc/9294/2023,Kemi Bello,57126611062,Property law ,Federal High Court Abuja,aliyu olawale,02/28/2023,2023-09-09,,Settled,Lost,11066209.63 naira,"N12,097,430",Imo,1
+CASE200135,NIL,Amara Ajayi,0354 946 5190,Labour Law,unknown,Ibrahim Okeke,25.11.2023,2024/06/29,,Pending Hearing,Won,"N17,237,660","NGN 11,443,209",Akwa Ibom,TRUE
+CASE200314,suit/FHC/1516/2021,Chioma Okonkwo,04665729341,CRIMINAL,Magistrate Court Ikeja,amaka okeke,09 May 2021,17-Sep-2021,12/15/2022,Settled Out of Court,Settled ,"NGN 4,852,122",981288.49 naira,Delta,FALSE
+CASE200372,-,Amara Yusuf,02070496110,Civil Litigation,Federal High Court Abuja,Bisi Ogundimu,2023/10/24,08.05.2025,,Adjourned ,LOST,"NGN 21,333,585",20879080.35 naira,Anambra,yes
+CASE200156,N/A,Aliyu Chukwu,invalid,Commercial Dispute,Lagos State High Court,Blessing Nnamdi,06/04/2019,03-Jan-2021,,Struck Out,Lost,"₦605,809.78","NGN 168,583",Ogun,Y
+CASE200167,suit/FHC/3668/2024,Bisi Nwosu,71732030937,Employment Law,--,Obinna Nnamdi,29.08.2019,2019-12-12,12/15/2021,Settled Out of Court,won,"₦11,008,846.46","NGN 4,805,264",Enugu,no
+CASE200186,SUIT/fhc/5241/2024,Emeka Okeke,234-217-762-534,Property law ,Lagos State High Court,Amaka Lawal,2023-07-02,2025/06/07,,Struck Out,nil,--,"NGN 15,651,895",Ogun,true
+CASE200010,suit/fhc/7174/2024,SADIQ OGUNDIMU,05539423733,CRIMINAL,Supreme Court Nigeria,Amara Nnamdi,09/24/2023,30.11.2024,00/00/0000,Pending Hearing,Pending,"₦8,715,246.11","N7,924,971",Akwa Ibom,TRUE
+CASE200247,SUIT/fhc/1123/2024,Chidi Nnamdi,(828) 064-7969,Property law ,Federal High Court Lagos,Chioma Adeyemi,,06-Nov-2023,07/08/2024,Closed,Settled ,"N12,441,948",3613541.11 naira,Edo,TRUE
+CASE200019,suit/FHC/4899/2024,Femi Abubakar,02702672885,CRIMINAL,Lagos State High Court,Ibrahim Olawale,05-Aug-2022,25.02.2024,2026/02/13,Active,pending,"₦13,321,545.77","₦7,390,346.31",Imo,FALSE
+CASE200299,SUIT/FHC/1577/2022,Chinedu  Balogun,234-476-174-224,Family Law,Lagos State High Court,Blessing Nwosu,08 February 2023,2024/08/07,2024-10-18,active,nil,"NGN 9,392,748",3561194.56,Ogun,Yes
+CASE200164,SUIT/fhc/5240/2025,Yusuf Okafor,06618306719,Civil Litigation,Magistrate Court Ikeja,Ifeoma Balogun,28/02/2023,24/11/2023,24.08.2024,Settled Out of Court,won,"N17,480,883","N4,804,482",Oyo State,Yes
+CASE200195,suit/FHC/5241/2024,Amaka  Suleiman,57905528183,Criminal Defence,Customary Court Enugu,Amaka Okafor   ,08/30/2023,26.02.2025,2027-01-17,Active,Settled,"N20,034,856",-,Rivers State,false
+CASE200180,suit/fhc/4677/2024,Bola Suleiman,0722 005 4364,Family Law,Supreme Court Nigeria,Kemi Olawale,15/11/2020,05/09/2021,07/29/2021,Pending Hearing,Won,9240590.45 naira,"NGN 6,413,751",Plateau,Y
+CASE200223,SUIT/fhc/9555/2019,Amaka Okeke,05445189520,Labour Law,Federal High Court Abuja,Grace Okonkwo,00/00/0000,10/04/2019,2021/01/01,active,--,"₦16,434,444.71",16102792.72,Abuja,FALSE
+CASE200228,suit/fhc/7530/2021,Bisi Olawale,0321 611 0760,Family Law,Federal High Court Lagos,Femi Ogundimu,03.08.2022,27/08/2023,,settled out of court,Settled ,17687451.00 naira,"N16,768,452",Kaduna,TRUE
+CASE200226,SUIT/fhc/4185/2021,Femi Ajayi,01207545279,Property law ,Customary Court Enugu,Aliyu Bello,2024-09-12,14.06.2025,2025-12-17,CLOSED,-,  ,"N11,103,988",lagos,Yes
+CASE200140,SUIT/FHC/4167/2021,Bola Abubakar,+234267969278,Property Law,Kano State High Court,Amaka Eze,unknown date,14 January 2021,,Closed,LOST,"20,833,864.48 ","₦5,838,975.22",Rivers State,yes
+CASE200244,SUIT/FHC/6797/2025,Ngozi Adekunle,(588) 006-1675,Family Law,Customary Court Enugu,   BOLA AJAYI,06/05/2023,2024-05-29,08-Aug-2026,Struck Out,-,"10,034,724.58 ","3,385,500.13 ",Ibadan,false
+CASE200293,SUIT/FHC/9248/2022,IFEOMA ADEYEMI,(097) 592-3045,Labour Law,Supreme Court Nigeria,BISI AFOLABI   ,2024-04-02,05 March 2025,,active,n/a,"565,592.34 ","NGN 575,261",Edo,No
+CASE200340,suit/fhc/8842/2022,WALE NNAMDI,0851 067 9497,CRIMINAL,Federal High Court Abuja,Femi Balogun,2019/03/08,23 August 2019,2020/12/10,CLOSED,Lost,  ,"₦3,413,257.06",Kaduna,yes
+CASE200173,SUIT/fhc/870/2022,Segun Abubakar,0982 530 9251,CRIMINAL,Customary Court Enugu,Adaeze Mohammed,03 December 2023,25.05.2025,02/10/2025,Pending Hearing,Settled,"₦17,401,542.36","N5,097,118",Akwa Ibom,true
+CASE200330,SUIT/fhc/8608/2020,Ngozi Okafor,00548510174,Employment Law,Court of Appeal Abuja,Tunde Bello,05/31/2019,00/00/0000,01/07/2020,Closed,,"8,027,974.64 ","₦5,859,948.41",kano,N
+CASE200424,-,Tobi Ogundimu,234-206-506-373,Property Law,Magistrate Court Ikeja,Ifeoma Balogun,03 March 2021,23/10/2022,05.08.2023,Adjourned ,Won,"NGN 12,075,760",8817835.41 naira,Anambra,N
+CASE200265,SUIT/fhc/2386/2019,emeka olawale,0391 559 6363,Labour Law,Magistrate Court Ikeja,Segun Okafor,2019/09/08,20.04.2020,,Settled Out of Court,Settled,2692073.33 naira,"NGN 1,395,704",Akwa Ibom,yes
+CASE200126,SUIT/fhc/3357/2022,Chidi Okeke,07174773329,Property law ,Court of Appeal Abuja,Chidi Chukwu,19/01/2020,12 March 2020,30 December 2021,Closed,Settled,"N14,450,852",13024530.32,Abuja,true
+CASE200390,SUIT/fhc/1733/2025,Yusuf Adeyemi,,civil litigation,Court of Appeal Abuja,Adaeze Okafor,23.03.2024,26 September 2025,2026-08-05,Closed,Settled,"₦16,218,000.36","NGN 9,496,768",Cross River,No
+CASE200420,SUIT/FHC/1787/2019,Ngozi Adeyemi,01647090063,Commercial dispute,Magistrate Court Ikeja,  Aliyu Yusuf,08/02/2020,22/10/2021,18-Mar-2024,active,LOST,22625745.84,"9,960,093.34 ",Ogun,1
+CASE200389,suit/FHC/2869/2021,Yusuf  Mohammed,0253 042 8973,Commercial dispute,Lagos State High Court,Chinedu Eze,25.09.2021,not set,,Adjourned ,Lost,1549655.55,1070723.43,Ogun,Yes
+CASE200267,SUIT/fhc/6727/2025,Bisi Olawale,0515 867 3425,Commercial Dispute,Magistrate Court Ikeja,Zainab Afolabi,2024/11/29,2026/06/25,,active,Lost,"NGN 18,483,492","N6,554,553",Rivers State,Yes
+CASE200092,suit/FHC/9936/2024,Ibrahim Yusuf,08860868034,Commercial Dispute,Magistrate Court Ikeja,   Kemi Okonkwo,18/12/2022,,unknown date,Adjourned,LOST,"NGN 19,877,505","NGN 12,992,296",Anambra,yes
+CASE200278,suit/FHC/8874/2024,Amara Yusuf,77133344762,Property law ,Federal High Court Lagos,Yusuf Okafor,26-Dec-2024,03-Apr-2026,12/02/2027,Adjourned ,won,15288111.73 naira,"₦5,418,933.94",Oyo,TRUE
+CASE200318,SUIT/fhc/857/2020,Halima Afolabi,+234508428910,Property Law,Federal High Court Abuja,Tobi Yusuf,12-Aug-2020,12/10/2021,05.06.2022,Pending Hearing,-,"NGN 5,636,397","₦5,719,591.54",Akwa Ibom,no
+CASE200430,SUIT/fhc/797/2020,Segun Afolabi,234-397-524-508,Labour Law,Court of Appeal Abuja,Blessing Mohammed,15-Sep-2019,2020-02-01,06/07/2020,Settled Out of Court,LOST,"NGN 17,779,404",unknown,Edo,TRUE
+CASE200220,SUIT/fhc/5694/2019,Musa Okeke,15890429025,Civil Litigation,?,Kemi Bello,25 September 2019,N/A,,Pending Hearing,won,20350134.19,6570988.08 naira,Enugu,true
+CASE200247,SUIT/fhc/1123/2024,Chidi Nnamdi,(828) 064-7969,Property law ,Federal High Court Lagos,Chioma Adeyemi,,06-Nov-2023,07/08/2024,Closed,Settled ,"N12,441,948",3613541.11 naira,Edo,TRUE
+CASE200345,SUIT/FHC/5988/2022,Chinedu Afolabi   ,,Civil Litigation,Supreme Court Nigeria,Ibrahim  Eze,19.08.2020,05.03.2021,30/08/2022,Pending Hearing,Pending,"N14,821,614",15283784.81,Oyo,true
+CASE200106,SUIT/fhc/517/2019,FATIMA BALOGUN   ,01981794695,Employment Law,Federal High Court Lagos,Bola Abubakar,14 September 2019,09 December 2019,,Settled,LOST,"₦24,492,281.17","NGN 13,433,249",Edo,yes
+CASE200174,suit/FHC/577/2021,Yusuf Okeke,234-262-582-739,Criminal Defence,Kano State High Court,CHIDI NNAMDI,,24 March 2021,,active,LOST,nil,"5,123,277.13 ",Lagos State,Y
+CASE200085,SUIT/fhc/3169/2019,Bisi Suleiman,52056647423,Family Law,Court of Appeal Abuja,Aliyu Okeke,04 December 2024,06/01/2025,,CLOSED,Settled ,-,"NGN 479,947",Cross River,N
+CASE200400,SUIT/fhc/3478/2020,Bisi Balogun,0738 987 7515,Civil Litigation,Customary Court Enugu,Aliyu Bello,03/16/2020,2021/07/30,03.10.2023,Struck Out,Lost,22306281.09 naira,11058558.27,Plateau,N
+CASE200310,SUIT/FHC/7515/2019,Amaka Olawale,invalid,Family Law,Magistrate Court Ikeja,Amaka Lawal,12/07/2024,unknown date,08 May 2027,Adjourned ,pending,473864.68,"NGN 425,520",ABUJA,Yes
+CASE200158,SUIT/fhc/915/2019,Ngozi  Chukwu,+234269212447,Family Law,Customary Court Enugu,Obinna Okafor,30 July 2022,2023/11/17,2024-03-25,Active,Unknown,"N122,009",87868.68,Rivers,false
+CASE200407,SUIT/FHC/9528/2023,Zainab Abubakar,234-705-802-566,Employment Law,Federal High Court Lagos,Segun Ajayi,2022/04/13,02/04/2023,2025-02-13,Active,Settled,17093110.62,"NGN 6,563,228",Rivers,1
+CASE200050,suit/FHC/7091/2019,Blessing Yusuf,0620 959 3518,CRIMINAL,nil,Sadiq Okonkwo,07/19/2019,03/05/2020,04/17/2022,active,,"NGN 12,942,571",4614373.67 naira,Plateau,No
+CASE200154,SUIT/fhc/1517/2024,Bola Okafor,+234945441496,Family Law,Federal High Court Lagos,Ifeoma Bello,21 November 2023,08 March 2025,21 January 2027,Settled,Won,"₦9,778,854.58",4320349.72,Cross River,N
+CASE200142,SUIT/FHC/9631/2022,Femi Afolabi,(384) 689-5009,civil litigation,Supreme Court Nigeria,Musa Suleiman,16 July 2021,2022-07-15,22/08/2023,Closed,Lost,15683422.95,"N16,506,276",Lagos,0
+CASE200353,suit/fhc/5361/2022,Ngozi Okafor,67183258238,Property law ,Federal High Court Lagos,Kunle Okeke,12-Nov-2022,11-Jun-2023,04/04/2025,active,NULL,"N22,413,452","₦12,916,456.40",Kaduna,FALSE
+CASE200347,SUIT/fhc/4983/2021,Chinedu Afolabi,0856 411 1824,Civil Litigation,Kano State High Court,musa afolabi,07/06/2022,2022-07-28,08-May-2023,Closed,Withdrawn,"N4,704,983","NGN 4,729,983",Imo,TRUE
+CASE200294,unknown,Tobi Okonkwo,234-896-164-236,Family Law,Customary Court Enugu,Ngozi Okafor,not set,2021/12/30,2022/02/01,Adjourned,Lost,"₦7,416,952.01","NGN 4,519,443",Abuja,FALSE
+CASE200079,SUIT/FHC/9978/2023,IBRAHIM OLAWALE,+234780038457,Property law ,Lagos State High Court,Yusuf Balogun,04 November 2019,27.04.2021,2022-02-28,settled out of court,--,10201428.44,"₦2,280,355.95",Imo,1
+CASE200036,SUIT/fhc/7424/2021,kunle mohammed,0631 224 1797,Family Law,Federal High Court Abuja,Segun Okeke,05/14/2020,16.02.2022,,Pending Hearing,,"NGN 7,083,333","N6,036,991",Kano,N
+CASE200190,suit/FHC/4562/2023,  Zainab Nwosu,(686) 717-7318,civil litigation,Court of Appeal Abuja,obinna abubakar   ,18 November 2021,21-Nov-2022,,Pending Hearing,Withdrawn,"NGN 10,197,316","₦5,279,180.91",Kaduna,FALSE
+CASE200192,SUIT/FHC/9297/2020,aliyu adekunle,(799) 077-2625,Labour Law,Supreme Court Nigeria,Chinedu Nnamdi,02/03/2022,18-Oct-2023,05-Jun-2024,active,Pending,14394251.90 naira,"₦6,371,979.50",Edo,false
+CASE200248,SUIT/FHC/934/2024,Ifeoma Mohammed,234-500-902-559,Civil Litigation,Lagos State High Court,Bisi Chukwu,2023-08-27,2023/11/11,26-Feb-2024,Settled Out of Court,pending,"22,121,421.26 ",19508955.70 naira,Plateau,Yes
+CASE200234,SUIT/fhc/3092/2022,BLESSING  LAWAL,234-638-361-517,Commercial dispute,Federal High Court Lagos,Ifeoma Okonkwo,2020-08-04,2022-07-15,2024-03-03,Closed,N/A,"₦6,826,349.62","N5,923,340",Kaduna,TRUE
+CASE200034,suit/FHC/6813/2022,Chidi Abubakar,+234536866326,Commercial Dispute,Kano State High Court,EMEKA OKEKE,21/05/2024,04.07.2025,08/24/2027,Settled Out of Court,,"NGN 12,252,732","₦8,470,622.56",Delta,Y
+CASE200259,,BOLA BELLO,0572 324 6651,Property law ,Court of Appeal Abuja,Wale Abubakar,20 October 2019,22-Feb-2021,04/10/2023,settled out of court,Won,--,209919.21,Kaduna,yes
+CASE200311,suit/fhc/2604/2023,sadiq okeke   ,N/A,Employment Law,Kano State High Court,Ifeoma Lawal,10/11/2023,23-Sep-2025,,Pending Hearing,Withdrawn,"N15,204,680",11201880.66,Edo,TRUE
+CASE200052,SUIT/FHC/9637/2022,femi adekunle,(181) 022-0317,Civil Litigation,Lagos State High Court,Obinna Balogun,04-Feb-2021,01/15/2023,,Pending Hearing,Settled ,"NGN 16,513,556","₦11,416,267.23",Anambra,true
+CASE200292,SUIT/FHC/9187/2022,Chidi Adeyemi,0000000000,Employment Law,Magistrate Court Ikeja,Emeka Nnamdi,06-May-2021,28-Jan-2023,03/25/2025,Adjourned,Withdrawn,4049950.10 naira,"NGN 4,235,415",Imo,N
+CASE200357,SUIT/FHC/3630/2021,  EMEKA OLAWALE   ,234-398-554-743,Civil Litigation,Magistrate Court Ikeja,Zainab Okafor,2020/06/01,02/10/2021,2023-09-30,Settled,,"12,330,140.80 ","NGN 9,094,087",Akwa Ibom,TRUE
+CASE200289,SUIT/FHC/9665/2023,Adaeze Mohammed,+234121513422,Property Law,null,Zainab Olawale,13.07.2021,2022-10-15,,Settled,Pending,"₦14,411,188.50","NGN 11,484,518",Enugu,Yes
+CASE200401,suit/FHC/5179/2021,Funmilayo Yusuf,+234637780529,Family Law,Court of Appeal Abuja,Ifeoma Okafor,not set,03-Dec-2020,11/08/2021,Closed,pending,"₦4,661,446.05","NGN 1,916,878",Oyo State,No

@@ -1,0 +1,458 @@
+PlayerID,PlayerName,Nationality,DateOfBirth,Position,PreferredFoot,Academy,JoinDate,ContractEndDate,MonthlySalaryNGN,GoalsScored,Assists,AppearancesTotal,PlayerStatus,FIFARegistered,ContactPhone
+PLY300176,Sadiq Chukwu,Ghanaian,2006-02-26,Forward ,Right,Shooting Stars Academy,not set,2023/10/06,"3,050,052.60 ",999,21,999,INJURED,No,234-318-491-966
+PLY300182,Tobi Lawal,Ivorian,2001/02/20,Forward ,Right ,Kano Pillars Academy,18-Apr-2021,03.06.2023,721417.6,-3,  ,215,Active ,TRUE,91030021563
+PLY300296,Halima Adekunle,Cameroonian,13-May-2010,Goalkeeper,Right ,Shooting Stars Academy,12/08/2024,25-Feb-2028,"₦6,496,166.40",999,-1,999,active,false,(243) 477-6958
+PLY300032,Chinedu Ogundimu,Nigerian,01/13/2010,Goalkeeper,right foot,Kano Pillars Academy,25 September 2019,10 April 2024,"NGN 1,682,163",-3,-1,999,INJURED,0,234-195-256-904
+PLY300155,Grace Balogun,nigerian,06.10.2006,DEFENDER,right foot,Enyimba FC Academy,22.09.2024,01 February 2029,"N4,244,026",999,-1,-1,Retired,TRUE,234-444-630-600
+PLY300190,Fatima Suleiman,Ghanaian,05-Mar-2004,Goalkeeper,Right,Rivers United Academy,30 June 2023,,"NGN 5,044,321",-3,8,999,INJURED,no,08363146249
+PLY300173,Blessing Chukwu,Malian,03 November 2012,Forward ,Right,Enyimba FC Academy,07/16/2021,31/10/2025,1871922.05,25,40,195,Loaned Out,N,0856 012 5625
+PLY300434,Halima Chukwu,NIGERIAN,11/27/2012,DEFENDER,Both,Enyimba FC Academy,31/05/2021,29 July 2023,"₦4,991,278.42",13,,-1,Injured,FALSE,0028 515 5333
+PLY300413,Yusuf Afolabi,Nigerian ,26/11/2015,Mid fielder,right,Sunshine Stars Academy,24.11.2024,2028/10/31,,999,-1,100,Loaned out,No,+234641758231
+PLY300037,Bola Chukwu,Nigerian,15/11/2000,Mid fielder,Both,Lobi Stars Academy,05/03/2022,25-Apr-2025,"₦6,333,065.67",57,-1,92,Loaned out,TRUE,234-027-642-086
+PLY300322,Chinedu Abubakar,Senegalese,2013-11-09,Mid fielder,right,Sunshine Stars Academy,15-Oct-2022,,"N7,253,010",54,28,-1,active,0,+234318751097
+PLY300027,obinna balogun,Cameroonian,2008/12/18,Goalkeeper,LEFT,Shooting Stars Academy,2018/07/17,2020-03-30,"NGN 2,150,147",-3,6,-1,Injured,Y,(898) 027-1487
+PLY300418,Bola Lawal,Cameroonian,,Forward ,both,Enyimba FC Academy,14 April 2021,unknown date,7689974.88 naira,19,6,183,Retired,no,06065274033
+PLY300230,Zainab Ogundimu,Nigerian,2006-12-17,Mid fielder,right foot,Sunshine Stars Academy,19 July 2023,12/04/2024,null,-3,25,254,Active ,1,04461767929
+PLY300344,Funmilayo Adeyemi,Cameroonian,12 September 2014,DEFENDER,Left,Rivers United Academy,03.10.2020,06/22/2022,5042117.15 naira,999,,-1,Loaned out,FALSE,(474) 175-9558
+PLY300085,Kemi Adekunle,Malian,2011-04-16,Midfielder,Right ,Heartland FC Academy,30/06/2022,14/06/2024,2443390.37,999,-1,-1,INJURED,TRUE,54110825559
+PLY300394,Wale Olawale,Nigerian,2008-08-18,Winger,both,Heartland FC Academy,N/A,09 October 2023,4859900.4,-3,-1,41,Retired,false,+234491256523
+PLY300071,Fatima Mohammed,Senegalese,11-Dec-2015,Defender,LEFT,Sunshine Stars Academy,2021-09-17,2023/05/18,"NGN 2,456,082",57,16,--,Injured,0,+234016731882
+PLY300323,fatima ajayi   ,Malian,17-Mar-2013,Mid fielder,Right ,Heartland FC Academy,2022/07/30,26 April 2026,N/A,n/a,-1,48,Loaned Out,1,0215 835 0344
+PLY300135,Femi Ogundimu,Nigerian,06.10.2009,Centre Back,both,Shooting Stars Academy,11 June 2024,,"NGN 2,204,256",63,44,999,Active ,yes,0546 692 7589
+PLY300114,Kunle Okeke,Cameroonian,2014/06/07,Defender,Right ,Heartland FC Academy,07/18/2019,24 May 2021,"NGN 4,245,789",19,?,999,Active,FALSE,09689313503
+PLY300019,Funmilayo Ogundimu,Cameroonian,27-Jun-2014,Forward,right foot,Shooting Stars Academy,2022-12-23,10 June 2024,"NGN 2,436,469",21,-1,-1,Retired,true,0912 141 6141
+PLY300059,Chinedu Abubakar,NIGERIAN,12/04/2015,Striker,Right,Shooting Stars Academy,12 June 2019,03/01/2021,"N3,677,369",22,44,140,active,N,0484 910 2562
+PLY300287,Ibrahim Olawale,Ivorian,2000/08/25,Forward,Right,Rivers United Academy,2019-01-30,17 October 2022,"379,639.03 ",19,-1,165,Active,FALSE,44913421388
+PLY300045,MUSA OKAFOR   ,Malian,25 June 2002,goalkeeper,Right ,Rivers United Academy,10/30/2018,2022/04/22,"N950,914",54,-1,-1,Retired,FALSE,0974 192 6764
+PLY300249,Femi Olawale,Ghanaian,26/11/2009,Goalkeeper,right foot,Heartland FC Academy,27-Mar-2024,15-Jan-2029,"NGN 4,779,839",999,-1,999,Active ,FALSE,+234036890030
+PLY300017,Sadiq Adekunle   ,Cameroonian,13 June 2015,Striker,Left,Kano Pillars Academy,24/03/2024,,"₦3,412,224.88",-3,3,999,Loaned Out,no,+234225223728
+PLY300142,  kemi suleiman,Ivorian,26.07.2010,Centre Back,Both,Heartland FC Academy,N/A,06 August 2026,N/A,-3,-1,47,Active ,1,
+PLY300057,Grace Suleiman,Ghanaian,00/00/0000,Striker ,right,Enyimba FC Academy,12-May-2018,2022-03-17,5960144.13,73,-1,94,Active,No,05542340163
+PLY300267,Yusuf Adeyemi,Nigerian ,2006/06/15,Striker ,both,Kano Pillars Academy,11/01/2020,07/01/2021,"NGN 6,723,562",-3,60,-1,Loaned Out,false,0580 935 1187
+PLY300016,Sadiq Ogundimu,NIGERIAN,08/13/2015,Goalkeeper,right,Lobi Stars Academy,07/10/2018,2020-01-28,"NGN 7,388,350",-3,26,-,Active ,0,+234027011686
+PLY300313,Yusuf Chukwu,Ghanaian,01/23/2014,Forward,Right,Enyimba FC Academy,2018-07-28,10.01.2021,"₦6,037,850.95",999,56,999,Active ,1,79312697893
+PLY300424,Ngozi Nwosu,Nigerian,2007-02-10,Midfielder,Left,Lobi Stars Academy,09 April 2021,not set,"3,394,135.23 ",55,17,999,Loaned Out,N,35984884021
+PLY300213,Amaka Okonkwo,Nigerian,2002-09-18,Goalkeeper,Both,Enyimba FC Academy,11 March 2021,18-Feb-2023,"N3,532,989",19,57,-1,Transferred,TRUE,(449) 429-6592
+PLY300171,Tunde Okafor,Cameroonian,,DEFENDER,right,Lobi Stars Academy,2024/06/28,2025-11-10,6459279.69 naira,-3,null,-1,INJURED,no,94591966395
+PLY300199,Aliyu Mohammed,Ivorian,06 December 2012,Striker ,Both,Sunshine Stars Academy,N/A,2024/02/14,"NGN 1,570,380",-3,-1,999,Active,false,(122) 572-0765
+PLY300101,Tunde Balogun,Ivorian,21.06.2014,Striker,Right ,Rivers United Academy,2023-08-13,13/07/2025,6597415.21,-3,-1,999,Loaned out,N,N/A
+PLY300179,Amara Afolabi,Cameroonian,23.05.2006,Defender,right foot,Sunshine Stars Academy,2021/09/17,2024/10/01,"5,118,693.77 ",999,-1,300,Active,Y,0907 426 0880
+PLY300274,Zainab Afolabi,Ivorian,22/09/2004,Centre Back,LEFT,Sunshine Stars Academy,08.08.2019,2022/06/08,"NGN 3,834,974",-3,-1,N/A,Transferred,FALSE,0353 537 5137
+PLY300119,Tobi Lawal,nigerian,11/03/2010,Goalkeeper,Both,Sunshine Stars Academy,24-Nov-2019,2024/09/04,4569695.23 naira,999,-1,286,Injured,TRUE,0728 476 5704
+PLY300348,Musa Suleiman,Senegalese,29.08.2015,Goalkeeper,Left,Enyimba FC Academy,15.06.2022,2023-09-08,4460212.42 naira,-3,12,999,Loaned out,0,
+PLY300246,Amaka Olawale,nigerian,2007-04-02,Defender,Right ,Rivers United Academy,24 May 2024,,"₦6,576,997.45",Unknown,13,-1,Transferred,No,04300038960
+PLY300240,Ngozi Nwosu,NIGERIAN,2011-05-28,Forward ,right foot,Heartland FC Academy,16.12.2023,2026-05-28,8058363.38,-3,-1,259,Retired,false,98503446512
+PLY300025,Ibrahim Nwosu,Nigerian ,2009-09-16,Striker,right,Heartland FC Academy,20 December 2022,2026/01/02,"NGN 6,906,539",999,14,-1,Retired,TRUE,+234505057397
+PLY300325,Emeka Bello,Senegalese,2008/10/20,Goalkeeper,LEFT,Enyimba FC Academy,12 December 2022,03-Dec-2027,2008646.93 naira,999,-1,102,Loaned Out,true,234-134-249-128
+PLY300319,Amara Balogun,Malian,05/11/2007,Midfielder,right foot,Enyimba FC Academy,2019/05/10,26 November 2021,"N5,011,006",n/a,-1,-1,Transferred,N,48595922483
+PLY300133,Musa Balogun,Nigerian ,,Forward ,Left,Enyimba FC Academy,2020-04-17,2022/11/21,unknown,-3,36,-1,Loaned out,TRUE,52421495511
+PLY300323,fatima ajayi   ,Malian,17-Mar-2013,Mid fielder,Right ,Heartland FC Academy,2022/07/30,26 April 2026,N/A,n/a,-1,48,Loaned Out,1,0215 835 0344
+PLY300039,zainab mohammed   ,Ghanaian,09/25/2006,Striker ,right foot,Enyimba FC Academy,12/02/2022,08.05.2023,"₦1,962,773.80",9,58,63,Loaned Out,false,0612 590 4729
+PLY300265,Femi Eze,Malian,10/24/2009,Forward ,right,Lobi Stars Academy,2019/06/06,11/30/2022,3066378.31 naira,n/a,-1,177,Injured,N,+234232290310
+PLY300194,Amara Nwosu,Senegalese,unknown date,Winger,LEFT,Heartland FC Academy,2024-09-18,06-Nov-2026,"NGN 6,896,130",-3,51,-1,Injured,false,06634362948
+PLY300252,Amara Suleiman,Nigerian,2003-03-08,DEFENDER,right,Sunshine Stars Academy,03/06/2021,06/09/2023,NULL,-3,1,96,active,1,(537) 458-4384
+PLY300196,Blessing Adeyemi   ,Cameroonian,21-Jul-2004,Goalkeeper,Both,Enyimba FC Academy,02/09/2020,15-Sep-2021,"₦2,717,742.80",999,19,999,Retired,N,94318143966
+PLY300090,FUNMILAYO AJAYI,Ivorian,19-Jan-2003,Striker ,LEFT,Shooting Stars Academy,06/26/2019,05/31/2024,"7,837,484.75 ",-3,-1,251,Loaned Out,yes,234-029-424-090
+PLY300074,Chioma Okeke   ,Nigerian,2005/11/23,Midfielder,Both,Enyimba FC Academy,2022-08-11,22-Oct-2023,"₦297,008.38",999,  ,236,Injured,no,+234531340266
+PLY300110,Ifeoma Okeke,Nigerian,2006-02-25,Mid fielder,Both,Lobi Stars Academy,29-Dec-2021,10/06/2024,8491010.56 naira,14,39,999,Retired,TRUE,invalid
+PLY300002,ifeoma okonkwo,NIGERIAN,21 September 2006,Forward ,Left,Sunshine Stars Academy,N/A,unknown date,3344916.94,73,2,null,Loaned Out,no,09685270171
+PLY300177,Chidi Okafor,Ivorian,2000-05-02,goalkeeper,LEFT,Enyimba FC Academy,2021-04-19,,-,999,-1,-1,Active ,TRUE,05330770461
+PLY300038,Funmilayo Mohammed,Malian,24.11.2010,Winger,LEFT,Rivers United Academy,11/20/2024,2026/01/27,"N4,982,292",48,26,201,Retired,0,06756618443
+PLY300028,Ifeoma Okafor,Ghanaian,18.10.2000,DEFENDER,Left,Rivers United Academy,15.06.2023,08/05/2027,nil,11,-1,-1,Active,1,0717 833 3211
+PLY300352,Fatima Eze,Malian,01-Feb-2005,Goalkeeper,Right ,Lobi Stars Academy,10.09.2018,26 August 2023,6766067.37,-3,-1,NIL,Transferred,Yes,234-969-028-249
+PLY300378,Tobi Lawal,Senegalese,2005/09/28,Midfielder,right foot,Lobi Stars Academy,2020-04-22,16/08/2022,"NGN 2,817,769",null,-1,999,Active,0,07277382646
+PLY300013,Funmilayo Okafor,Nigerian ,2000/02/22,DEFENDER,right foot,Enyimba FC Academy,20/08/2021,01/09/2024,"₦8,283,904.21",-3,-1,246,Injured,FALSE,234-399-201-166
+PLY300050,Kunle Adekunle,nigerian,27/08/2001,Forward,Right,Enyimba FC Academy,28 August 2022,01/19/2024,7199443.38 naira,58,-1,  ,Active ,1,+234034084872
+PLY300386,Obinna Okonkwo,Cameroonian,30-Apr-2002,Winger,right foot,Rivers United Academy,2022-03-15,,"N3,013,836",999,-1,5,active,false,(966) 630-9329
+PLY300419,Ngozi Okonkwo,nigerian,01-Aug-2010,DEFENDER,Left,Enyimba FC Academy,2022-11-06,unknown date,"N3,104,769",33,15,-1,Injured,true,04505665883
+PLY300089,Musa Afolabi   ,Senegalese,03/11/2016,Mid fielder,Right,Enyimba FC Academy,2024-07-08,25.05.2029,"NGN 8,362,443",53,-1,-1,Injured,no,0485 571 6176
+PLY300147,Tobi Bello,Malian,10/02/2011,Midfielder,right foot,Shooting Stars Academy,24-Jul-2019,02.07.2023,"NGN 8,334,465",51,-1,NULL,Transferred,FALSE,234-727-910-336
+PLY300307,  Halima Ajayi,Cameroonian,20.09.2010,Mid fielder,Left,Kano Pillars Academy,23.11.2019,2022-10-29,"1,467,308.25 ",4,-1,999,Transferred,no,0118 600 8921
+PLY300335,Funmilayo Suleiman,Senegalese,01.02.2008,Goalkeeper,Right,Shooting Stars Academy,01/29/2021,,n/a,999,39,unknown,Active ,1,09772781050
+PLY300036,Kemi Afolabi,Ivorian,27-Mar-2006,Centre Back,right,Rivers United Academy,12 March 2019,2022-08-24,"₦8,428,933.02",999,-1,28,Retired,Yes,234-973-746-052
+PLY300018,Zainab Mohammed,NIGERIAN,13.01.2001,Winger,right,Lobi Stars Academy,2019-05-04,28/06/2023,"NGN 1,357,531",45,15,-1,Injured,1,(793) 230-2346
+PLY300263,Ngozi  Olawale   ,NIGERIAN,30.11.2007,Forward ,LEFT,Enyimba FC Academy,05/30/2018,,1365317.48,999,-1,-1,Active,false,70705783609
+PLY300068,Chidi Afolabi,NIGERIAN,30 May 2014,Defender,right foot,Enyimba FC Academy,2020/10/31,2023/07/27,?,-3,25,nil,INJURED,no,234-381-447-443
+PLY300236,Amara Nwosu,nigerian,N/A,Striker ,both,Heartland FC Academy,09 May 2018,,"₦6,802,160.59",17,-1,999,Injured,FALSE,83190130205
+PLY300377,Kemi Okonkwo,NIGERIAN,2015/12/30,Winger,right foot,Sunshine Stars Academy,2020/12/22,06 July 2025,"₦7,993,599.73",-,30,999,active,No,+234586780555
+PLY300221,obinna mohammed,NIGERIAN,30/07/2013,Centre Back,right,Lobi Stars Academy,02/10/2018,12/27/2020,6252086.05 naira,32,31,999,Retired,no,234-244-079-311
+PLY300187,Emeka Ogundimu,Ghanaian,18-Feb-2014,DEFENDER,LEFT,Heartland FC Academy,13 July 2019,01/08/2022,"₦3,292,338.24",62,11,-1,active,true,58331170303
+PLY300315,Ibrahim Nnamdi,Malian,2000/10/16,Forward,both,Lobi Stars Academy,08/06/2020,04/30/2022,"₦4,011,137.72",2,48,999,active,TRUE,0604 387 8753
+PLY300354,Kunle Afolabi,Malian,07-May-2003,Centre Back,both,Kano Pillars Academy,16-Mar-2022,2023/11/06,  ,-3,,165,Loaned Out,no,(627) 023-2441
+PLY300014,Femi Lawal,NIGERIAN,25 July 2012,DEFENDER,right,Lobi Stars Academy,02/07/2022,2025-10-28,"N7,845,156",999,42,-1,INJURED,yes,0183 626 4488
+PLY300051,Tobi Ogundimu,Senegalese,11-Feb-2015,Striker,both,Heartland FC Academy,12 June 2020,09.11.2021,568503.11,999,NULL,999,INJURED,yes,0758 598 8310
+PLY300192,Blessing Nwosu,Ivorian,N/A,Defender,Both,Sunshine Stars Academy,23.03.2021,,6840219.59 naira,-3,-1,22,INJURED,No,234-754-181-563
+PLY300146,  Obinna Adekunle   ,Nigerian,2013-04-29,DEFENDER,Right ,Sunshine Stars Academy,02.04.2024,27 June 2026,"NGN 5,831,972",-3,36,999,Retired,Yes,234-027-275-164
+PLY300130,Kunle Chukwu,Nigerian,13/09/2003,goalkeeper,right foot,Sunshine Stars Academy,2019/01/23,2023/05/23,4357887.86,999,-1,-1,Injured,yes,(228) 898-5725
+PLY300006,Chioma Adekunle,Senegalese,2012/11/08,Mid fielder,both,Shooting Stars Academy,27-May-2021,24 October 2022,1144862.04 naira,48,21,null,Retired,yes,27768962706
+PLY300047,Tobi Nwosu,Ivorian,2003/06/01,goalkeeper,Right ,Heartland FC Academy,2020/03/14,,?,-3,-1,999,Active,1,invalid
+PLY300041,Chinedu Okeke,Nigerian,03-Mar-2013,DEFENDER,Left,Rivers United Academy,10 January 2018,05/10/2020,"₦2,684,871.67",999,-1,-1,Loaned Out,Y,26620157201
+PLY300276,Sadiq Eze,nigerian,00/00/0000,Forward ,right,Rivers United Academy,12 May 2021,,"₦447,572.30",999,14,-1,Retired,true,(639) 283-6929
+PLY300077,Kemi Afolabi,Malian,2000-07-30,Midfielder,LEFT,Sunshine Stars Academy,21.11.2018,28.10.2020,"₦3,610,732.38",999,-1,-1,Transferred,no,0803 056 9067
+PLY300216,Ibrahim Adeyemi,NIGERIAN,10/26/2014,Defender,Right,Sunshine Stars Academy,08/13/2024,13/08/2028,"₦4,220,018.33",999,-1,  ,Loaned out,Y,0756 766 7080
+PLY300023,Musa Afolabi,NIGERIAN,02.09.2003,Defender,both,Shooting Stars Academy,09/10/2019,30.12.2023,4602048.78,999,-1,NIL,Retired,Y,09055107620
+PLY300102,Yusuf Balogun,Cameroonian,2006-09-25,Goalkeeper,Both,Kano Pillars Academy,21.08.2018,10.09.2020,7000414.82,null,54,999,active,false,+234166010023
+PLY300364,Grace Okonkwo,Senegalese,18/12/2004,goalkeeper,right foot,Kano Pillars Academy,29/10/2021,03/06/2026,"₦4,428,901.69",999,37,-1,Transferred,Y,+234785758512
+PLY300040,Ibrahim Balogun,Senegalese,2014-10-02,Defender,right,Lobi Stars Academy,20/09/2024,09.07.2026,"N7,556,903",-3,-,999,Loaned Out,no,0774 233 3059
+PLY300139,Funmilayo Okafor,Nigerian,2012-03-12,DEFENDER,right,Lobi Stars Academy,31/08/2022,16/05/2027,"₦3,439,233.26",12,-1,238,Injured,no,0663 651 5597
+PLY300166,Funmilayo Okafor,NIGERIAN,2011-10-04,Forward,right,Shooting Stars Academy,2024-11-08,02/01/2028,2710233.83,999,-1,-1,Active ,Yes,234-980-284-139
+PLY300060,Zainab Bello,nigerian,2012/11/08,Winger,Right,Shooting Stars Academy,03/08/2019,2023-09-23,"₦304,648.09",N/A,-1,999,Active,true,234-896-792-408
+PLY300429,Yusuf Lawal,Nigerian,16 February 2002,Centre Back,Right,Sunshine Stars Academy,01/06/2019,,"₦2,976,482.84",34,-1,999,Loaned Out,TRUE,+234281979316
+PLY300211,  obinna olawale,Ghanaian,2001-11-30,Winger,Left,Shooting Stars Academy,12/28/2019,27.12.2020,"₦7,761,727.16",-3,40,-1,active,TRUE,54882142369
+PLY300409,Obinna Chukwu,NIGERIAN,24.11.2012,Centre Back,right foot,Sunshine Stars Academy,2021/03/31,01/10/2023,--,24,-1,256,Active,N,07490961739
+PLY300144,Amara Bello,Nigerian,2015-09-22,Goalkeeper,both,Shooting Stars Academy,10/15/2024,18.05.2026,7197165.99 naira,999,24,140,Active ,Yes,42356778265
+PLY300079,Sadiq Lawal,Nigerian ,13/11/2015,Forward,Left,Heartland FC Academy,2022/03/27,03-Sep-2024,1059997.74,3,unknown,999,Injured,Y,234-436-371-892
+PLY300104,Zainab Okonkwo,Nigerian ,24/03/2008,Midfielder,Right ,Shooting Stars Academy,04/22/2023,08/09/2024,1757986.78,999,-1,999,Retired,Yes,(797) 245-7230
+PLY300219,Chinedu Suleiman,Cameroonian,2001/04/12,Forward ,right foot,Shooting Stars Academy,18-Nov-2021,02-Dec-2022,"₦6,937,559.39",-3,-1,-1,active,No,234-041-591-497
+PLY300053,Blessing Okeke,Ivorian,07 May 2003,goalkeeper,LEFT,Rivers United Academy,06 July 2022,21.01.2026,7752253.76,-3,56,999,Injured,No,+234296184462
+PLY300343,Halima Yusuf,Senegalese,28-Nov-2010,Striker,LEFT,Shooting Stars Academy,23 October 2020,05 March 2025,3408310.65,19,NULL,999,Transferred,No,0429 563 3432
+PLY300301,fatima ajayi,Nigerian,06.12.2013,Forward,both,Rivers United Academy,,,"NGN 5,843,764",-3,56,42,INJURED,FALSE,0504 763 9283
+PLY300264,CHINEDU  MOHAMMED,Nigerian,14/07/2005,Striker ,Both,Shooting Stars Academy,2020/01/25,12/15/2023,507212.6,999,-1,-1,active,yes,01498517244
+PLY300210,Wale Ajayi,Cameroonian,22/12/2009,Centre Back,Right,Sunshine Stars Academy,N/A,30/06/2025,"₦2,543,627.40",-3,24,-1,Loaned Out,No,10740650042
+PLY300201,Chinedu Lawal,Malian,2002-05-11,goalkeeper,Left,Kano Pillars Academy,04/25/2024,,"3,656,480.73 ",-3,-1,-1,Loaned out,yes,37100943882
+PLY300163,Tunde Chukwu,NIGERIAN,,Striker ,both,Rivers United Academy,06/05/2024,21-Oct-2027,"NGN 8,338,738",-3,-1,211,INJURED,TRUE,(442) 117-5361
+PLY300331,Aliyu Yusuf,NIGERIAN,2010/09/07,Striker,Right,Heartland FC Academy,19.10.2020,06 February 2023,4642119.61 naira,44,-1,999,INJURED,no,+234652057563
+PLY300365,Adaeze Ogundimu,Cameroonian,29.10.2015,Mid fielder,LEFT,Kano Pillars Academy,2021/11/21,01/23/2026,"NGN 4,475,142",-3,49,125,Transferred,false,0861 205 9438
+PLY300250,Ifeoma Eze,Cameroonian,2010/03/12,Forward ,Both,Rivers United Academy,21-Apr-2023,05/08/2024,"NGN 662,450",-3,36,-1,Active ,0,(027) 240-5593
+PLY300374,Sadiq Afolabi,NIGERIAN,2014-05-01,goalkeeper,Right ,Heartland FC Academy,2018/08/12,14.06.2020,"N8,422,094",-3,26,999,Retired,FALSE,24809624406
+PLY300214,Blessing Olawale,Ghanaian,2003-04-18,Winger,Left,Rivers United Academy,03/13/2023,29/03/2025,,76,-1,111,Active ,Y,+234268344149
+PLY300179,Amara Afolabi,Cameroonian,23.05.2006,Defender,right foot,Sunshine Stars Academy,2021/09/17,2024/10/01,"5,118,693.77 ",999,-1,300,Active,Y,0907 426 0880
+PLY300075,Blessing Afolabi,Ivorian,12-Nov-2000,Midfielder,Left,Kano Pillars Academy,2018/08/17,10/14/2020,"N4,984,957",-3,19,999,Loaned Out,No,invalid
+PLY300200,  Amaka Suleiman,Nigerian ,09 December 2004,Goalkeeper,both,Lobi Stars Academy,2022/11/21,27.11.2023,5015516.01 naira,999,null,237,Active ,Y,02412095790
+PLY300153,ADAEZE LAWAL,nigerian,02/13/2012,Defender,both,Lobi Stars Academy,02/15/2024,2027/11/25,"₦2,578,477.23",-3,5,-1,Transferred,N,
+PLY300008,Adaeze Ogundimu,Malian,2012/02/22,Winger,Right ,Sunshine Stars Academy,15/01/2019,20 December 2021,3320291.23 naira,-3,-1,999,INJURED,no,(474) 689-7152
+PLY300064,Chidi Chukwu,NIGERIAN,10-Jul-2015,Forward ,Left,Enyimba FC Academy,23.04.2021,05 January 2026,"NGN 6,225,576",76,-1,-1,Loaned out,yes,01487068277
+PLY300382,KUNLE ADEYEMI,Nigerian,18.11.2004,Mid fielder,Left,Enyimba FC Academy,2018/03/09,13.07.2019,"₦5,558,940.52",-3,9,999,Loaned Out,0,+234116331942
+PLY300113,Wale Nwosu,Ghanaian,08.12.2003,Goalkeeper,right,Rivers United Academy,2022/06/20,2026-04-10,8244612.67,999,-1,,Injured,No,0687 887 8836
+PLY300234,CHINEDU BELLO,Nigerian,10/13/2005,Midfielder,Left,Heartland FC Academy,03/24/2019,18-Oct-2023,"N611,599",75,40,187,Loaned Out,no,07590251762
+PLY300328,Ifeoma Okafor,Malian,15 January 2010,Defender,both,Enyimba FC Academy,04.02.2018,08-Feb-2020,3301801.38 naira,unknown,32,-1,Loaned Out,false,02876754813
+PLY300341,Obinna Balogun,Ivorian,31.08.2005,Mid fielder,Both,Rivers United Academy,25 January 2024,N/A,2027172.99 naira,999,12,999,Active ,FALSE,12125902035
+PLY300256,Tunde Ogundimu,Nigerian ,2005-10-19,Striker,right foot,Kano Pillars Academy,12/09/2021,16-Apr-2025,"N3,881,055",61,-1,-1,Loaned out,1,0104 967 0667
+PLY300333,Tunde Nnamdi,Nigerian ,2003/09/23,Centre Back,right foot,Kano Pillars Academy,2021/01/08,25.10.2025,"₦6,294,428.42",-3,-1,240,Active ,no,234-945-154-809
+PLY300363,Funmilayo Nnamdi,Nigerian,2002/06/19,Mid fielder,Right,Kano Pillars Academy,20/06/2023,02.11.2027,"₦2,160,294.98",999,54,999,Active,no,67076604641
+PLY300407,Tunde Chukwu,Malian,05.06.2004,DEFENDER,both,Enyimba FC Academy,11 August 2019,2023-01-08,"N6,132,922",11,-1,-1,Injured,Y,+234997718051
+PLY300134,Bola Lawal,Nigerian,30 June 2015,Striker ,Right,Kano Pillars Academy,20/03/2020,09.12.2024,4013291.45,999,-1,-,Loaned out,N,0274 747 2197
+PLY300288,Segun Nnamdi,NIGERIAN,10 March 2013,Forward ,right,Shooting Stars Academy,2020-01-18,2024/01/11,"₦2,312,681.97",999,30,999,INJURED,N,(209) 088-3070
+PLY300431,  chidi mohammed,Cameroonian,2010/12/28,Mid fielder,Right ,Enyimba FC Academy,07 November 2020,10.11.2022,"N7,724,306",999,-1,168,Active,FALSE,06940960035
+PLY300183,   bola eze,Senegalese,2015/03/27,Forward,right,Kano Pillars Academy,11-Apr-2018,08/10/2019,"N332,331",999,12,999,Injured,TRUE,+234135800401
+PLY300414,Funmilayo Bello,Cameroonian,22 December 2012,Striker,Right ,Kano Pillars Academy,15 March 2018,17/04/2020,"NGN 5,281,572",77,1,169,Retired,Y,0348 458 7149
+PLY300205,Blessing Nwosu,Ivorian,01/16/2009,Forward ,right,Enyimba FC Academy,17-Aug-2024,08/05/2029,5029025.31,999,23,-1,Active,no,0965 313 6148
+PLY300273,halima mohammed,nigerian,2011/03/10,Goalkeeper,LEFT,Shooting Stars Academy,09 July 2022,2026-01-31,-,3,-1,218,Loaned Out,1,+234978875439
+PLY300289,Emeka Okeke,Malian,30-Nov-2006,Striker ,both,Shooting Stars Academy,23 April 2022,,4559895.69,34,-1,85,active,N,234-496-782-741
+PLY300086,Amaka Okeke,nigerian,20/04/2016,Striker ,Right ,Heartland FC Academy,2021/08/09,12 December 2025,"₦1,929,047.63",21,-1,999,Transferred,Y,0895 343 9611
+PLY300001,Adaeze Okeke,Senegalese,21-May-2004,Midfielder,both,Enyimba FC Academy,2018/01/07,2021/11/12,4120224.06 naira,-3,-1,-1,Active ,1,40355338033
+PLY300302,Chioma Nwosu,Ivorian,,Mid fielder,both,Shooting Stars Academy,N/A,17/05/2025,"₦4,641,373.22",999,-1,-1,Loaned Out,true,234-952-980-061
+PLY300340,Bisi Nnamdi,Malian,2007-10-31,Goalkeeper,Right ,Enyimba FC Academy,2018/08/18,15.08.2020,"₦7,749,430.54",35,NULL,-1,Active,1,08515791971
+PLY300243,Amaka Ogundimu,Nigerian ,04 February 2004,Midfielder,Left,Lobi Stars Academy,24/04/2020,,"₦1,826,154.17",unknown,58,-1,Transferred,false,(350) 238-5037
+PLY300062,Blessing Ogundimu,Senegalese,2015-08-29,Centre Back,Right,Heartland FC Academy,2020-09-28,2025-08-24,1424347.59,70,20,23,active,Y,234-757-844-683
+PLY300257,Femi Chukwu,Nigerian ,2016-02-20,Midfielder,Left,Sunshine Stars Academy,2022-11-09,05-Jan-2026,3437357.50 naira,-3,25,-1,Transferred,Y,0336 268 0408
+PLY300105,Amara Bello,Cameroonian,11/06/2006,Forward,Left,Lobi Stars Academy,2024/04/14,23 June 2025,"₦1,425,331.77",999,3,999,Retired,No,+234810018418
+PLY300430,Segun Okafor,Senegalese,2004-09-13,goalkeeper,Left,Sunshine Stars Academy,15-Sep-2020,2022-02-28,"₦1,616,435.43",-3,31,253,active,true,77251295786
+PLY300122,Femi Afolabi,Malian,09-May-2001,Winger,right foot,Lobi Stars Academy,22 November 2024,2028/03/08,"₦5,676,383.66",  ,1,241,Active,0,N/A
+PLY300355,Fatima Bello,Cameroonian,03/27/2001,Striker,right foot,Lobi Stars Academy,unknown date,16-Sep-2027,"N6,865,638",58,-1,-1,Active,0,+234361328507
+PLY300087,Amaka Okeke,NIGERIAN,11 November 2014,Defender,Both,Enyimba FC Academy,04.07.2019,2020-07-20,"N2,880,298",-3,34,197,Retired,0,0910 933 7118
+PLY300092,FUNMILAYO MOHAMMED,Nigerian,2015-11-23,Forward ,LEFT,Sunshine Stars Academy,2021/04/29,10/09/2022,4468381.10 naira,3,40,-1,Active,no,+234943202939
+PLY300156,Sadiq Ajayi,Senegalese,2013-01-30,Centre Back,right,Lobi Stars Academy,04-Jul-2018,07.09.2020,1861564.30 naira,,11,-1,active,1,0000000000
+PLY300268,Grace Mohammed,Ivorian,11/03/2013,Striker ,Right ,Kano Pillars Academy,16-Jan-2019,06/16/2021,"₦1,295,142.82",999,-1,7,Active,true,81335956164
+PLY300408,Chidi Nwosu,Ivorian,2006/11/18,goalkeeper,Right ,Rivers United Academy,14 May 2018,31 March 2023,"5,660,454.04 ",79,31,999,Loaned out,yes,+234171731893
+PLY300067,Halima Eze,Cameroonian,05 March 2015,DEFENDER,right foot,Heartland FC Academy,2021/12/15,2023/10/09,"₦4,387,925.90",999,-1,999,Transferred,yes,52850676251
+PLY300126,Funmilayo  Suleiman,Malian,04/16/2003,goalkeeper,right foot,Kano Pillars Academy,09/01/2019,03/10/2022,Unknown,-3,7,999,Loaned Out,N,+234419909700
+PLY300370,Bisi Chukwu,Cameroonian,29.12.2002,Striker ,LEFT,Heartland FC Academy,03/05/2022,,"NGN 6,458,484",-3,29,999,INJURED,0,45793897015
+PLY300100,Ngozi Okeke,Ghanaian,2008-04-26,Mid fielder,both,Lobi Stars Academy,15/02/2022,04/08/2023,"N7,579,223",999,-1,187,Active,0,(972) 404-2269
+PLY300175,wale chukwu,NIGERIAN,10/01/2006,Forward ,Both,Rivers United Academy,2023-12-05,15 August 2025,"6,655,890.24 ",999,15,-1,Retired,TRUE,0379 538 1649
+PLY300034,kunle nwosu,Ivorian,11/08/2009,Striker,LEFT,Kano Pillars Academy,09/18/2021,,"₦2,079,913.28",999,-,-1,Active,no,03160875243
+PLY300270,Amaka Nnamdi,Nigerian ,02.07.2004,Forward ,both,Kano Pillars Academy,25.09.2021,N/A,3983807.85,63,20,999,Transferred,TRUE,+234250429019
+PLY300284,Emeka Mohammed,Nigerian,2001/11/20,Mid fielder,right,Shooting Stars Academy,,,"₦3,783,767.42",999,-1,218,Active ,Yes,(509) 889-8645
+PLY300083,Tobi Ajayi,Cameroonian,02/14/2010,Goalkeeper,LEFT,Enyimba FC Academy,20/06/2021,23-Nov-2023,"NGN 7,075,470",-3,-1,187,Retired,N,(456) 350-2000
+PLY300138,ALIYU BALOGUN,Nigerian ,2009-11-24,Mid fielder,right foot,Heartland FC Academy,2021/02/05,,"N3,686,142",74,null,-1,Retired,N,+234157787112
+PLY300160,obinna lawal,Cameroonian,2007-07-19,Forward ,Left,Kano Pillars Academy,18.06.2024,30 March 2028,"N1,547,898",-3,-1,251,Active,true,0209 819 6027
+PLY300293,Obinna Okeke,nigerian,2005-11-08,Centre Back,right,Enyimba FC Academy,not set,,"NGN 686,238",67,-1,999,INJURED,Y,63347272742
+PLY300164,Tobi Ajayi,Malian,17-May-2012,Forward ,LEFT,Lobi Stars Academy,2024/01/05,08-Aug-2028,"NGN 5,852,337",53,--,102,Loaned out,true,234-617-136-657
+PLY300423,Bola Okeke,Ivorian,2007/02/17,Goalkeeper,Right ,Kano Pillars Academy,04/10/2023,25-Jul-2027,"3,266,751.46 ",-3,0,-1,Injured,No,0562 294 9381
+PLY300292,Tunde Afolabi,Cameroonian,30 April 2005,Mid fielder,Right ,Shooting Stars Academy,2023/09/03,14 April 2025,"N7,648,505",9,39,291,Active,Yes,06185380032
+PLY300294,Tunde Okafor,Cameroonian,23.01.2001,Midfielder,Left,Kano Pillars Academy,18 October 2018,20-Apr-2021,"NGN 5,389,592",-3,-1,-1,Active,No,+234183061789
+PLY300312,MUSA BELLO,NIGERIAN,2002-12-14,Mid fielder,right foot,Kano Pillars Academy,2020-12-04,03.01.2024,7917848.30 naira,65,-1,101,Retired,Yes,0791 452 1182
+PLY300412,Femi Ajayi   ,Ivorian,02-Mar-2003,Striker ,Left,Lobi Stars Academy,2022-08-08,,1525279.25 naira,Unknown,-1,-1,Loaned out,true,N/A
+PLY300318,Halima Ogundimu,NIGERIAN,03/14/2002,Centre Back,right foot,Rivers United Academy,12.07.2024,25 January 2029,"N2,942,465",31,-1,258,Loaned Out,Yes,08728660416
+PLY300362,  Ifeoma Ogundimu,nigerian,09/05/2009,Forward ,Right ,Enyimba FC Academy,05 October 2021,25 February 2024,"N1,327,373",18,-1,-1,Injured,Y,(715) 160-2529
+PLY300022,tobi olawale   ,Ivorian,06/03/2005,Winger,Right ,Lobi Stars Academy,06 August 2018,,"N6,476,011",999,3,114,Active ,false,234-965-555-356
+PLY300005,Fatima Balogun,Malian,2001/10/29,Forward ,Right ,Kano Pillars Academy,05/31/2021,04 September 2022,7717075.16 naira,11,58,,active,1,04497347156
+PLY300238,Amara Nwosu,nigerian,2009/09/28,Winger,right foot,Enyimba FC Academy,05/31/2019,2024-03-05,"₦3,915,659.23",46,-1,999,INJURED,Yes,0785 598 2176
+PLY300316,Grace Okonkwo,Ghanaian,10.02.2003,Forward ,Right,Lobi Stars Academy,2018/10/02,11/26/2022,"NGN 2,879,405",999,6,245,Retired,Y,234-788-116-162
+PLY300358,Blessing Afolabi,Malian,28/01/2005,Striker,right,Heartland FC Academy,2019-01-19,21/10/2020,"N1,357,459",999,-1,-1,Loaned Out,TRUE,01579039235
+PLY300120,tunde afolabi,Ghanaian,03 November 2000,Mid fielder,right,Enyimba FC Academy,08-Nov-2023,2028/03/08,2395679.69,-3,46,999,active,false,0200 928 2066
+PLY300116,Ibrahim Ajayi,Nigerian ,2012-12-04,Midfielder,Left,Heartland FC Academy,05-Oct-2021,2026-09-27,"1,098,759.79 ",999,-1,256,Injured,1,28633302126
+PLY300308,chinedu adekunle,nigerian,24 September 2014,Striker,both,Rivers United Academy,15/04/2021,17-Dec-2023,3705123.43,41,15,23,Transferred,1,06394568044
+PLY300009,Kemi Okafor,Nigerian,2012-09-04,Striker ,right foot,Kano Pillars Academy,2023/02/11,17-Dec-2024,1456243.91,73,-1,208,Loaned Out,1,0323 008 5766
+PLY300070,CHIOMA OKEKE,Senegalese,04-Feb-2007,Forward ,both,Shooting Stars Academy,2018-04-15,N/A,"NGN 5,343,233",999,34,-1,Loaned out,N,09754510526
+PLY300422,FATIMA ADEKUNLE   ,Ghanaian,16-Mar-2007,Defender,right,Heartland FC Academy,24/06/2021,04/04/2024,5581826.84 naira,-3,30,999,Injured,0,+234548574172
+PLY300314,Chinedu Afolabi,Ivorian,12-Aug-2014,Forward,both,Sunshine Stars Academy,2018/03/11,2022-02-16,"NGN 3,115,835",44,-1,-1,Active,yes,07464520599
+PLY300123,BISI OKEKE,nigerian,06 December 2010,Winger,Both,Heartland FC Academy,01-Nov-2023,04-Mar-2025,"4,509,316.49 ",999,-1,unknown,Transferred,true,234-775-662-056
+PLY300336,Bisi Chukwu,Nigerian ,2009/07/26,Forward,LEFT,Sunshine Stars Academy,2023/08/26,04 December 2027,"₦6,081,542.21",n/a,12,-1,Transferred,1,22216107051
+PLY300072,KUNLE BELLO,Ghanaian,05/18/2009,DEFENDER,Right,Lobi Stars Academy,20/06/2021,12/15/2023,"₦7,967,800.58",999,-1,999,Active,no,234-702-437-654
+PLY300078,Chinedu Ogundimu,NIGERIAN,16/11/2004,goalkeeper,Left,Shooting Stars Academy,30 January 2023,03/01/2027,3985810.61 naira,-3,-1,999,Loaned Out,1,04716392823
+PLY300396,Funmilayo Ajayi,Ivorian,01/27/2007,Forward ,both,Enyimba FC Academy,2020/04/01,,4702741.73,-3,-1,-1,Loaned Out,TRUE,0757 494 9022
+PLY300368,Amaka Mohammed,NIGERIAN,2007-01-02,Forward ,Left,Kano Pillars Academy,29-May-2018,24 April 2022,"₦1,902,643.71",999,-1,212,INJURED,false,+234607540915
+PLY300281,Tunde Eze,Malian,08/05/2003,Mid fielder,right,Shooting Stars Academy,18-Jan-2022,16.11.2023,"₦5,589,318.13",5,5,-1,Active ,1,(910) 157-6764
+PLY300107,Amaka Lawal,Ivorian,22.01.2011,Striker ,Right ,Shooting Stars Academy,10.11.2018,17/04/2021,"NGN 7,607,392",-3,22,999,Active,no,61721314519
+PLY300172,Halima Adeyemi,Senegalese,20-Mar-2015,Mid fielder,right,Lobi Stars Academy,30-Jan-2018,2020/09/17,NIL,79,30,-1,Transferred,Yes,51720849649
+PLY300239,Blessing Okafor,Ivorian,05/10/2001,Striker,Left,Heartland FC Academy,06/07/2024,16/11/2028,"NGN 7,269,970",28,-1,999,Transferred,N,(191) 284-1173
+PLY300426,Grace Lawal,Malian,11-Mar-2014,Goalkeeper,Left,Kano Pillars Academy,07 March 2019,,"N150,401",999,38,999,Transferred,0,234-449-021-666
+PLY300410,Ibrahim Adeyemi,nigerian,12/30/2015,Forward,right,Enyimba FC Academy,25.04.2020,2021/11/30,"₦4,136,955.84",--,21,276,INJURED,Y,07046947258
+PLY300388,bisi olawale,Nigerian ,05/15/2016,DEFENDER,Both,Shooting Stars Academy,2024/02/23,16 July 2027,"₦3,235,039.86",999,-1,92,Retired,TRUE,0715 096 8832
+PLY300202,Blessing Adekunle,nigerian,04-Sep-2013,Forward,both,Kano Pillars Academy,12/17/2019,06-Dec-2022,"NGN 429,268",-3,-1,-1,active,FALSE,21145775847
+PLY300327,Ifeoma Balogun,Cameroonian,N/A,Forward ,Right ,Kano Pillars Academy,29-Oct-2022,2024/01/11,"₦8,447,140.75",49,-1,208,Retired,true,33192227051
+PLY300224,  SADIQ OKAFOR,NIGERIAN,2014/03/08,Forward,LEFT,Rivers United Academy,24/02/2020,06/03/2022,"6,467,676.01 ",999,-1,33,Injured,N,234-791-620-223
+PLY300168,Tunde Olawale,Nigerian,24.11.2004,Forward ,LEFT,Lobi Stars Academy,14/07/2019,00/00/0000,1710982.82 naira,999,-1,167,Active ,yes,0231 244 7315
+PLY300096,Tunde Eze,nigerian,16/09/2015,Striker,right foot,Heartland FC Academy,2020-07-02,09/29/2024,6774204.06 naira,999,-1,-1,Transferred,yes,234-426-945-005
+PLY300161,Funmilayo Yusuf,Nigerian,07/30/2002,Centre Back,right,Sunshine Stars Academy,28-Jan-2022,2023-03-25,330184.07,9,14,-1,INJURED,yes,23343836404
+PLY300322,Chinedu Abubakar,Senegalese,2013-11-09,Mid fielder,right,Sunshine Stars Academy,15-Oct-2022,,"N7,253,010",54,28,-1,active,0,+234318751097
+PLY300389,Chinedu Olawale,Nigerian,06/29/2005,goalkeeper,Right,Kano Pillars Academy,2021/03/26,27/12/2023,"NGN 474,855",21,-1,-1,Active ,false,(532) 735-2410
+PLY300231,Funmilayo Ogundimu,Cameroonian,05/08/2000,Goalkeeper,Right ,Shooting Stars Academy,27.04.2019,18 February 2023,"N3,963,921",1,15,999,Active,N,08425995996
+PLY300082,Tobi Nwosu,Ivorian,,Striker ,Both,Kano Pillars Academy,16-Jul-2018,15 May 2020,2990731.66 naira,999,30,999,INJURED,no,56708604145
+PLY300367,Kemi Suleiman,Nigerian ,03/30/2007,goalkeeper,Left,Shooting Stars Academy,18 February 2020,10.11.2021,"NGN 6,546,895",28,30,999,active,TRUE,+234546540842
+PLY300399,Chinedu Suleiman,Malian,12/08/2007,Forward,both,Sunshine Stars Academy,18.02.2018,10/11/2020,"₦380,388.39",null,52,-1,Active,0,234-394-290-458
+PLY300108,  Adaeze Afolabi,Nigerian ,09 November 2009,Forward,Both,Lobi Stars Academy,2018/05/07,,6469398.7,999,24,999,Injured,yes,(515) 109-2268
+PLY300385,Segun Mohammed,Malian,2009/10/09,Goalkeeper,right foot,Shooting Stars Academy,N/A,21.12.2024,4764888.8,20,-1,-1,Active ,0,0226 408 5721
+PLY300291,Fatima Adekunle,Ivorian,09/05/2006,DEFENDER,both,Rivers United Academy,2021-02-04,03-Aug-2023,"N3,124,163",999,-1,999,Loaned Out,true,0152 854 7815
+PLY300136,Kemi Nwosu,Malian,00/00/0000,Mid fielder,both,Kano Pillars Academy,27/08/2024,13/08/2028,"₦7,843,968.07",?,-1,-1,Loaned Out,yes,234-168-740-903
+PLY300004,Sadiq Ajayi,Cameroonian,05.05.2012,Forward ,Left,Enyimba FC Academy,21-Sep-2023,10.04.2027,"₦3,149,784.49",999,0,999,active,No,N/A
+PLY300220,AMARA  OLAWALE,Malian,2012-05-22,Winger,Left,Kano Pillars Academy,2021/02/18,2024/02/23,2398288.63,21,--,-1,Retired,1,234-198-038-287
+PLY300317,Musa Adeyemi,Cameroonian,15/01/2013,Forward,Right ,Rivers United Academy,2023/10/13,08/05/2026,"N2,891,628",24,-1,175,Loaned out,false,0281 237 1067
+PLY300269,ifeoma olawale,Cameroonian,2003/02/25,Goalkeeper,right,Rivers United Academy,02-Nov-2021,2025/09/20,"NGN 6,225,972",999,-1,999,Injured,no,0205 955 6574
+PLY300380,Zainab Mohammed,Malian,2001/02/17,Centre Back,right foot,Sunshine Stars Academy,2020/06/12,,2992837.91,-3,-1,999,Transferred,0,234-770-299-295
+PLY300361,Bola Okonkwo,Senegalese,13.02.2013,Winger,both,Kano Pillars Academy,2020/04/02,,n/a,999,21,213,INJURED,No,46704622681
+PLY300112,SEGUN OGUNDIMU,Ghanaian,09 February 2000,goalkeeper,Left,Enyimba FC Academy,02/10/2023,30/04/2025,"₦987,173.79",-3,51,-1,Transferred,1,234-576-769-523
+PLY300115,Bola Abubakar,Cameroonian,23.01.2016,Goalkeeper,right,Rivers United Academy,2024/10/12,29.12.2028,768534.79,46,34,999,Loaned out,FALSE,58721055247
+PLY300029,   Emeka Olawale,Nigerian,03/01/2003,Striker,right foot,Kano Pillars Academy,2018/11/01,06-Aug-2023,"5,708,245.24 ",999,-1,216,Active ,Yes,(025) 643-4712
+PLY300054,Funmilayo Suleiman,Ghanaian,2004-12-13,Centre Back,both,Kano Pillars Academy,09.07.2018,27-Nov-2021,"N2,225,908",999,33,-,Injured,false,71462831435
+PLY300010,Adaeze Abubakar,Nigerian ,10/03/2000,DEFENDER,Right ,Kano Pillars Academy,2022/12/19,08/06/2026,"N7,573,632",999,-1,-1,Active ,FALSE,+234674916016
+PLY300330,Zainab Chukwu,Malian,2001-06-09,Winger,Both,Lobi Stars Academy,2020/02/15,24 May 2023,"N2,431,243",N/A,-1,187,Injured,No,0932 426 8774
+PLY300425,Funmilayo Abubakar,Senegalese,23-Jun-2009,Winger,both,Enyimba FC Academy,21.05.2022,03/03/2025,"₦1,290,986.80",-3,-1,53,Transferred,true,+234573257375
+PLY300148,TUNDE BELLO,Nigerian,2008-12-20,DEFENDER,Both,Shooting Stars Academy,02/25/2024,06/25/2028,"NGN 7,802,786",-3,41,17,Active ,FALSE,0296 353 3905
+PLY300390,Chioma Afolabi,Cameroonian,29 July 2002,Striker ,both,Heartland FC Academy,20-Oct-2024,2028/12/03,"N836,981",-3,46,199,Retired,FALSE,234-773-973-278
+PLY300033,Blessing  Chukwu,Cameroonian,09/09/2008,Striker,both,Lobi Stars Academy,2023-05-24,13 November 2025,"₦4,818,323.61",-3,-1,75,Loaned Out,no,234-836-655-289
+PLY300392,funmilayo okeke,NIGERIAN,07/17/2002,Forward,right,Shooting Stars Academy,30/11/2022,2025-03-15,"NGN 3,259,175",-3,18,999,active,FALSE,06164819807
+PLY300277,Fatima Eze,Malian,20/01/2000,Striker ,Both,Shooting Stars Academy,2019-01-08,10/18/2023,"NGN 7,457,758",20,-1,999,Active,FALSE,04551166829
+PLY300098,Emeka Nwosu,Nigerian,06/13/2012,Centre Back,Right ,Enyimba FC Academy,01-Sep-2024,2027-06-24,1793479.89 naira,10,60,  ,Active,No,+234735439627
+PLY300042,Emeka Abubakar,NIGERIAN,05 August 2010,Striker ,Right ,Enyimba FC Academy,09/22/2024,03/26/2027,"NGN 6,730,228",999,17,45,INJURED,yes,0859 626 3013
+PLY300094,Chidi Okafor,nigerian,02/21/2000,Winger,both,Lobi Stars Academy,03.09.2023,2027-05-19,3842662.59 naira,-3,28,999,Loaned out,0,02308340242
+PLY300326,Fatima Chukwu,Nigerian,09/07/2014,Striker ,LEFT,Enyimba FC Academy,2019-12-19,2022/12/22,"5,375,686.16 ",  ,57,71,Loaned out,true,0659 994 9732
+PLY300049,Chioma Okeke,Malian,01 November 2014,Striker ,Right,Rivers United Academy,N/A,,"N5,927,906",999,-1,999,Active,No,0184 011 8458
+PLY300300,Femi Chukwu,Ivorian,05/11/2009,Midfielder,both,Lobi Stars Academy,24.01.2022,14 November 2024,"3,926,415.54 ",  ,-1,166,Loaned out,FALSE,+234667664047
+PLY300381,Bola Adekunle,Senegalese,2016/04/13,Forward,Left,Lobi Stars Academy,08/28/2022,2027-06-17,"NGN 8,205,393",9,-1,999,active,1,0660 487 3682
+PLY300115,Bola Abubakar,Cameroonian,23.01.2016,Goalkeeper,right,Rivers United Academy,2024/10/12,29.12.2028,768534.79,46,34,999,Loaned out,FALSE,58721055247
+PLY300360,Grace Okonkwo,Malian,19 January 2011,Midfielder,right foot,Shooting Stars Academy,29/12/2020,,"N832,553",-3,-1,187,Loaned out,false,00346156262
+PLY300285,Bola Balogun,Cameroonian,18-May-2013,Defender,Left,Sunshine Stars Academy,00/00/0000,25.06.2021,"299,023.25 ",38,-1,-1,Injured,Y,234-220-368-499
+PLY300251,Tobi Okonkwo,Senegalese,01.01.2004,DEFENDER,Left,Shooting Stars Academy,05-Nov-2022,10/02/2027,"7,678,377.43 ",Unknown,53,999,active,FALSE,+234967111483
+PLY300015,  OBINNA OKAFOR,Ghanaian,09/03/2000,Midfielder,Both,Heartland FC Academy,18.08.2020,,6474042.46,999,32,139,Active ,0,94611952436
+PLY300338,  halima adekunle,Malian,15.05.2001,goalkeeper,Both,Shooting Stars Academy,2019-02-06,,"3,531,810.94 ",-3,11,-1,INJURED,false,0066 013 8241
+PLY300103,Ibrahim Lawal,Cameroonian,06.12.2007,Striker ,right,Shooting Stars Academy,13-May-2023,,"N2,728,519",72,45,58,Retired,yes,42900185132
+PLY300244,OBINNA NWOSU,Ghanaian,12/12/2014,Goalkeeper,both,Enyimba FC Academy,04/17/2022,20.03.2025,"1,880,067.84 ",63,-1,243,Transferred,No,(990) 516-9918
+PLY300178,Bisi Ogundimu,NIGERIAN,22 May 2011,Midfielder,both,Rivers United Academy,04/07/2019,03/23/2024,"1,338,991.79 ",-3,-1,-1,Active,Yes,72959639040
+PLY300427,Bisi Ajayi,Ghanaian,30 September 2015,Striker,Both,Lobi Stars Academy,01.07.2020,31.07.2023,8379414.51,-3,-1,130,Retired,0,
+PLY300111,Aliyu Adekunle,NIGERIAN,2015-08-02,Defender,right foot,Shooting Stars Academy,22/08/2020,12/12/2023,2207590.56 naira,999,-1,-1,Injured,yes,234-196-421-522
+PLY300350,Tobi Ogundimu,Nigerian ,17 August 2009,Forward ,Left,Sunshine Stars Academy,12-Feb-2021,2023-04-27,317839.66,20,-1,-1,INJURED,0,07979966734
+PLY300207,  YUSUF AJAYI,NIGERIAN,14.07.2008,Mid fielder,both,Rivers United Academy,not set,26 July 2029,"N7,271,734",999,-1,999,Transferred,Y,09859167954
+PLY300223,Halima  Okafor,Nigerian,07/01/2007,Defender,Both,Rivers United Academy,2024-07-09,,"₦5,739,656.45",Unknown,15,216,Active ,0,76014672384
+PLY300227,Obinna Okeke,Cameroonian,23/11/2001,Forward,Left,Rivers United Academy,12.02.2023,05/14/2025,Unknown,999,57,999,active,yes,(196) 094-0970
+PLY300306,Ibrahim Eze,NIGERIAN,13/08/2005,goalkeeper,LEFT,Kano Pillars Academy,2018/03/13,14-Aug-2021,"N1,221,293",54,-1,127,Transferred,Yes,234-330-416-624
+PLY300229,Blessing Ogundimu,nigerian,20 July 2007,Forward ,Both,Heartland FC Academy,2020/06/16,26/03/2025,2750708.92,,-1,999,Transferred,Yes,(868) 122-5957
+PLY300065,Wale Adeyemi,Ghanaian,2002/05/02,Midfielder,Both,Enyimba FC Academy,12/26/2018,01.03.2022,"NGN 54,752",Unknown,-1,-1,Injured,Y,88160930685
+PLY300405,Musa Afolabi,Cameroonian,2005-11-20,Winger,Left,Heartland FC Academy,06 March 2019,04/01/2022,1616251.23,-3,22,-1,Loaned Out,Yes,(334) 233-7209
+PLY300347,Halima Balogun,Ivorian,2001/02/24,Mid fielder,Left,Shooting Stars Academy,07-Jun-2020,02 March 2025,"6,307,776.35 ",54,-1,112,active,N,+234018272795
+PLY300233,Kemi Nwosu,NIGERIAN,2003/09/22,Midfielder,both,Sunshine Stars Academy,15-Mar-2023,05.04.2026,5075023.75,60,1,999,Retired,No,234-266-109-410
+PLY300383,zainab  adeyemi,Ghanaian,2013/05/11,Forward ,right foot,Kano Pillars Academy,22/07/2021,10/23/2025,6381577.51,  ,-1,126,Injured,N,0686 536 9455
+PLY300391,bola mohammed,Ghanaian,28 September 2010,Defender,Right ,Rivers United Academy,24 October 2020,06/27/2024,"₦4,078,374.73",35,28,14,Active,no,95237100687
+PLY300421,Yusuf Yusuf,nigerian,2007-02-11,Winger,right foot,Sunshine Stars Academy,2019/04/10,2020/10/17,613541.39 naira,999,16,999,Active,true,(706) 734-9960
+PLY300076,IFEOMA SULEIMAN,Ivorian,11/01/2005,Striker,LEFT,Kano Pillars Academy,12-Apr-2018,20-Dec-2021,768585.33,-3,2,-1,Loaned Out,false,56862110225
+PLY300359,FUNMILAYO OGUNDIMU,nigerian,2010-06-17,Striker,both,Shooting Stars Academy,2024-03-03,2028/11/25,"NGN 151,624",70,15,186,active,Yes,(580) 996-1327
+PLY300128,KEMI OGUNDIMU,Ghanaian,09-Dec-2008,Forward ,right foot,Kano Pillars Academy,00/00/0000,2020-08-21,"NGN 3,092,400",999,40,-1,Active ,N,21568182096
+PLY300165,Chioma  Ajayi,Malian,02.05.2013,Centre Back,right,Rivers United Academy,2022-06-01,2024/11/22,"N6,263,723",-3,-1,-1,Active,TRUE,24029901557
+PLY300024,Aliyu Balogun,Cameroonian,20-Nov-2012,Mid fielder,Right ,Shooting Stars Academy,2018/06/05,15/05/2023,8258243.41,-3,-1,-1,Loaned Out,false,01843579786
+PLY300395,  emeka okafor,Ghanaian,2009-01-28,Forward,Right ,Shooting Stars Academy,2021/12/27,25 October 2023,3841000.26,-3,-1,999,Transferred,Yes,34151773454
+PLY300232,Kemi Bello,Ivorian,06/11/2005,Winger,Left,Enyimba FC Academy,2020/07/21,06-Jun-2024,8353073.29,-3,39,-1,INJURED,no,00023117753
+PLY300106,Wale Lawal,Ghanaian,27.03.2005,DEFENDER,LEFT,Enyimba FC Academy,01.11.2022,,"NGN 3,418,951",-3,59,-1,Transferred,FALSE,02030366254
+PLY300398,Yusuf Abubakar,Nigerian ,04-Apr-2011,Goalkeeper,right foot,Sunshine Stars Academy,2020-04-16,09/03/2023,6627173.55,66,-1,51,Loaned out,0,+234742229464
+PLY300376,chinedu okafor,Nigerian,2014-03-02,Defender,both,Sunshine Stars Academy,2019-09-22,24.06.2021,221748.56,NIL,41,999,Active,true,03053194979
+PLY300329,  Halima Ogundimu,Ivorian,12.07.2012,Goalkeeper,right,Sunshine Stars Academy,00/00/0000,06 August 2028,"1,188,838.14 ",4,3,999,INJURED,no,0866 675 4858
+PLY300280,Grace Okeke,Ivorian,02/15/2016,Defender,right foot,Heartland FC Academy,30/10/2023,2024/11/17,"NGN 7,325,852",999,-1,119,active,Y,0526 834 1559
+PLY300204,Femi Abubakar,NIGERIAN,04/15/2008,Striker,both,Shooting Stars Academy,09/05/2020,,"N367,481",80,-1,-1,Injured,No,+234802632570
+PLY300282,Bisi Okonkwo,Senegalese,02/27/2000,Midfielder,Right,Kano Pillars Academy,06/01/2020,2022-10-22,"NGN 859,938",999,-1,-1,Injured,FALSE,02298120995
+PLY300125,Segun Okonkwo,Malian,04/22/2001,Forward,Right,Kano Pillars Academy,06.06.2020,,7191573.84,999,-1,999,active,No,234-113-904-383
+PLY300245,Musa Okafor,Nigerian ,16/08/2007,Goalkeeper,Right,Sunshine Stars Academy,31/07/2018,22/06/2020,"5,832,874.57 ",999,-1,-1,Retired,FALSE,24010783567
+PLY300417,  Tunde Adeyemi,Senegalese,21/04/2005,goalkeeper,Both,Shooting Stars Academy,27-Mar-2019,,"N5,739,635",-3,16,141,INJURED,N,0455 574 6966
+PLY300254,Aliyu Okonkwo,Malian,2004/06/01,DEFENDER,LEFT,Lobi Stars Academy,unknown date,26 June 2026,3748420.48 naira,48,-1,999,Injured,yes,(283) 483-1520
+PLY300258,Kunle Nwosu,Nigerian ,2001-09-22,Goalkeeper,Right,Sunshine Stars Academy,03/19/2024,29-Mar-2027,"NGN 5,900,287",n/a,-1,-1,Retired,No,+234954930596
+PLY300149,Chinedu Chukwu,Senegalese,27.05.2001,Defender,right,Heartland FC Academy,2023-01-28,2025-01-30,"N962,604",-3,49,76,Injured,Yes,+234448177665
+PLY300080,Bola Bello,Ghanaian,29/12/2002,Forward ,LEFT,Kano Pillars Academy,00/00/0000,,3100143.42,999,-1,-1,Injured,no,0923 126 0432
+PLY300121,Obinna Suleiman,Ghanaian,2016-03-08,Forward,Both,Rivers United Academy,06/01/2023,,"N4,778,348",-3,0,281,INJURED,0,(849) 843-6241
+PLY300208,  Tunde Okafor,Nigerian ,19 April 2013,Striker ,Left,Shooting Stars Academy,26.04.2023,10/10/2025,"NGN 5,307,876",-3,53,-1,Injured,No,10727284982
+PLY300334,Amara Abubakar,Ivorian,13 July 2010,Winger,Left,Lobi Stars Academy,04/13/2024,10/09/2027,6405238.93 naira,-3,33,200,Transferred,false,(047) 604-4090
+PLY300279,Tunde Chukwu,Malian,05-Aug-2006,Winger,right foot,Kano Pillars Academy,19-Jun-2021,not set,2064969.93 naira,999,-1,95,Active,Yes,20602128866
+PLY300369,ifeoma adekunle,Malian,17-Apr-2009,Mid fielder,Right,Shooting Stars Academy,17.01.2024,05/14/2026,unknown,-3,21,-1,Transferred,no,08632181227
+PLY300387,Bisi Okafor,Malian,2012/04/02,Goalkeeper,both,Kano Pillars Academy,,2022/07/30,"4,107,546.98 ",999,-1,-1,Injured,FALSE,(819) 960-5932
+PLY300378,Tobi Lawal,Senegalese,2005/09/28,Midfielder,right foot,Lobi Stars Academy,2020-04-22,16/08/2022,"NGN 2,817,769",null,-1,999,Active,0,07277382646
+PLY300156,Sadiq Ajayi,Senegalese,2013-01-30,Centre Back,right,Lobi Stars Academy,04-Jul-2018,07.09.2020,1861564.30 naira,,11,-1,active,1,0000000000
+PLY300011,Emeka Abubakar,Senegalese,N/A,Forward,right,Rivers United Academy,14/05/2018,24/08/2021,"4,609,951.22 ",-3,12,999,Active,1,23645875066
+PLY300157,Kunle Suleiman,nigerian,20 June 2008,Winger,Right ,Shooting Stars Academy,2019/07/25,06/20/2021,"7,273,121.83 ",70,7,999,INJURED,FALSE,06396096262
+PLY300303,ZAINAB AJAYI,Senegalese,2013/07/12,Striker ,right,Enyimba FC Academy,2020-02-12,2024/10/22,"NGN 1,896,427",64,18,220,Active,true,+234810835832
+PLY300401,Wale Nwosu,Nigerian ,11/26/2006,goalkeeper,LEFT,Sunshine Stars Academy,12/30/2024,09 May 2027,,999,44,178,Transferred,true,234-728-727-601
+PLY300154,Wale  Yusuf,NIGERIAN,04/05/2000,Striker ,both,Shooting Stars Academy,05/07/2022,21-Oct-2023,"₦2,393,716.92",-3,-1,,Retired,true,234-715-766-053
+PLY300137,Yusuf Eze,Nigerian ,N/A,Mid fielder,Right ,Enyimba FC Academy,not set,,"NGN 4,514,893",-3,11,null,Active,N,234-214-629-613
+PLY300048,tunde eze,Senegalese,2012-07-17,Winger,right foot,Rivers United Academy,19.02.2019,24-Oct-2022,"₦7,424,430.02",-3,38,-1,Retired,FALSE,234-087-510-293
+PLY300295,Chinedu Adekunle,Ivorian,21-Feb-2007,Midfielder,right foot,Lobi Stars Academy,10.01.2018,10/21/2019,"₦6,194,393.83",24,26,-1,Active ,yes,02064969357
+PLY300167,Chinedu Bello,Nigerian,08/27/2000,goalkeeper,both,Kano Pillars Academy,29 April 2023,07/25/2025,"NGN 3,925,154",-3,-1,999,INJURED,1,+234088235130
+PLY300345,Fatima Adekunle,nigerian,2002/05/28,DEFENDER,right,Sunshine Stars Academy,2018-10-21,12/06/2022,1105186.81 naira,999,0,-1,Loaned out,yes,02096289365
+PLY300297,Zainab Ajayi,Senegalese,unknown date,DEFENDER,Right ,Kano Pillars Academy,15.02.2023,08.12.2025,"NGN 5,624,449",55,null,51,Retired,FALSE,41314675361
+PLY300384,Bola Nwosu,nigerian,2011-06-04,Defender,both,Sunshine Stars Academy,2024/05/31,04/07/2026,4029654.98 naira,-3,1,191,active,1,0588 863 6774
+PLY300305,Ngozi Bello,Malian,08/10/2005,Goalkeeper,Both,Shooting Stars Academy,04/07/2020,04/10/2023,"NGN 6,569,327",14,  ,-1,Active,0,0000000000
+PLY300253,Amaka Okafor,Nigerian,26/12/2005,DEFENDER,LEFT,Sunshine Stars Academy,2024-11-30,21-Sep-2029,"₦5,137,436.76",null,-1,999,Loaned out,yes,234-810-569-741
+PLY300332,Chidi Chukwu,Senegalese,2010-11-16,Midfielder,LEFT,Lobi Stars Academy,03/08/2021,10.06.2025,"NGN 8,103,450",6,-1,-1,Active ,Yes,+234365203758
+PLY300027,obinna balogun,Cameroonian,2008/12/18,Goalkeeper,LEFT,Shooting Stars Academy,2018/07/17,2020-03-30,"NGN 2,150,147",-3,6,-1,Injured,Y,(898) 027-1487
+PLY300066,Kemi Bello,Ghanaian,2012/12/16,Forward ,Right ,Kano Pillars Academy,16.10.2023,2028/01/29,--,29,-1,112,Loaned out,false,(389) 097-2832
+PLY300428,Grace Okafor,Malian,17/08/2011,Striker,both,Enyimba FC Academy,03-Sep-2021,26/02/2026,3411647.69 naira,999,-1,NULL,Loaned Out,yes,87495119181
+PLY300371,Bisi Adeyemi,Ghanaian,13.02.2001,Goalkeeper,LEFT,Enyimba FC Academy,05 October 2022,15.02.2026,"N5,455,728",-3,30,-1,Loaned out,FALSE,50291681546
+PLY300393,Halima Lawal,Malian,16 October 2012,Striker ,Both,Lobi Stars Academy,10-Jun-2022,25-Apr-2024,"NGN 4,306,849",999,25,999,Active ,false,0046 056 8761
+PLY300035,  Chioma Ogundimu,Nigerian,18.05.2011,Winger,right,Kano Pillars Academy,2018/05/30,,"₦4,812,295.35",70,-1,999,Retired,Yes,72942095481
+PLY300261,Amara Abubakar,Malian,10-Jul-2009,Forward ,Right ,Shooting Stars Academy,04 October 2024,23/06/2027,"₦5,405,784.11",999,60,253,Active,true,(845) 960-9454
+PLY300095,Fatima Adeyemi,NIGERIAN,2001/04/03,Striker ,Both,Shooting Stars Academy,09.11.2020,17/09/2023,"NGN 1,849,559",-3,-1,-1,Transferred,1,03381059551
+PLY300117,Amara Yusuf,Malian,02/11/2016,Striker,Left,Lobi Stars Academy,10/01/2018,20-May-2023,"NGN 8,439,372",-3,-1,999,Active,Yes,00650191792
+PLY300278,OBINNA OKONKWO,Senegalese,07.10.2003,DEFENDER,Right ,Heartland FC Academy,10 June 2023,,"N1,601,344",999,-1,-1,active,N,+234270216487
+PLY300044,Halima Balogun,Senegalese,04/08/2012,Goalkeeper,Right,Sunshine Stars Academy,31/03/2022,22.10.2026,"5,425,464.79 ",999,-1,999,Retired,Yes,00111178309
+PLY300356,Fatima Olawale,Ivorian,17 January 2010,Goalkeeper,LEFT,Shooting Stars Academy,2024/06/15,01-Jun-2029,6260597.24 naira,59,-1,224,active,yes,05178637673
+PLY300433,Sadiq Adekunle,Cameroonian,25.05.2002,Winger,Left,Shooting Stars Academy,01.05.2018,29.12.2021,"₦2,823,063.97",unknown,2,-1,Loaned out,Yes,92323421089
+PLY300093,  BOLA OKONKWO,nigerian,2001-10-11,Midfielder,Right ,Lobi Stars Academy,21 June 2020,02 April 2025,1465897.19,999,-1,999,INJURED,Yes,+234788443448
+PLY300311,Aliyu Suleiman,Cameroonian,18 June 2002,Forward,right foot,Heartland FC Academy,2021-08-24,not set,NIL,53,-1,36,active,1,+234817390637
+PLY300259,KUNLE NNAMDI,nigerian,2012-09-16,Midfielder,LEFT,Rivers United Academy,06-Sep-2020,01/14/2023,6985737.77 naira,10,58,999,Retired,no,0018 648 7699
+PLY300188,  Ifeoma Chukwu,Nigerian ,2008-12-15,Forward ,LEFT,Shooting Stars Academy,03/04/2022,00/00/0000,"₦4,295,412.58",999,0,-1,Active,yes,76371539885
+PLY300411,fatima balogun,nigerian,2013-05-22,DEFENDER,right,Rivers United Academy,28.06.2020,18/04/2024,"N4,515,875",999,--,93,active,Yes,08444835488
+PLY300215,Ifeoma Adekunle   ,Ivorian,N/A,Striker,right,Lobi Stars Academy,2020-01-20,05-Feb-2024,2168462.75,999,8,-1,Retired,true,82661287585
+PLY300304,tobi balogun,Nigerian ,15-Dec-2001,DEFENDER,Right ,Shooting Stars Academy,2020-06-30,2024-02-20,"NGN 7,744,520",69,46,29,Active ,No,63425563830
+PLY300195,Grace Olawale,Nigerian,26/04/2003,Winger,Left,Lobi Stars Academy,16/01/2021,12 January 2023,"₦3,395,733.76",-3,NULL,-1,active,false,0786 103 1310
+PLY300143,Sadiq Ajayi,Senegalese,02/27/2012,Striker,both,Kano Pillars Academy,02 December 2018,08/06/2020,"₦5,688,054.85",999,45,999,INJURED,TRUE,(476) 834-2016
+PLY300439,Amara Ajayi,Ghanaian,22.04.2003,DEFENDER,Both,Heartland FC Academy,15 January 2022,2024/11/02,NULL,-3,53,164,Active ,No,0481 700 6661
+PLY300436,Bisi Nnamdi,Malian,N/A,Centre Back,LEFT,Sunshine Stars Academy,18 June 2019,09 August 2021,7800504.20 naira,999,6,-1,Injured,no,+234736077633
+PLY300262,Tunde Chukwu,Nigerian,2007-01-06,Centre Back,right foot,Shooting Stars Academy,06.06.2019,2020/06/23,"₦1,637,524.42",--,6,208,Retired,FALSE,90149542770
+PLY300437,  Adaeze Bello,Nigerian ,07/11/2004,Forward ,both,Rivers United Academy,17/05/2018,2021/11/15,"₦6,571,758.51",-3,-1,-1,Injured,0,N/A
+PLY300353,Ibrahim Adeyemi,NIGERIAN,15-Mar-2009,Mid fielder,Both,Shooting Stars Academy,04 July 2018,04.05.2020,"NGN 2,064,832",15,-1,-1,Loaned out,FALSE,(392) 250-1425
+PLY300193,  Funmilayo Olawale   ,NIGERIAN,08/15/2007,DEFENDER,both,Enyimba FC Academy,unknown date,2024/11/04,3586493.51,?,unknown,38,Injured,false,0686 850 7451
+PLY300372,MUSA MOHAMMED,Ivorian,2004-12-21,Striker,Right ,Heartland FC Academy,02/11/2020,11 September 2022,1253846.41 naira,41,37,999,Active,N,+234024161394
+PLY300186,Fatima Ajayi,Nigerian,04 August 2005,goalkeeper,LEFT,Lobi Stars Academy,12-Jan-2019,11.11.2021,2840876.11 naira,-3,19,275,Loaned Out,N,97745731441
+PLY300084,Chioma Suleiman,Malian,25.02.2005,Defender,Right ,Rivers United Academy,25/12/2022,10 May 2026,6778070.48,999,-1,999,Active ,Yes,234-474-916-247
+PLY300030,Sadiq Adeyemi,Ivorian,06 November 2000,Mid fielder,Left,Kano Pillars Academy,24/03/2019,21-Jun-2020,"N714,569",-3,46,267,Active ,0,71539915668
+PLY300242,Chinedu Mohammed,Ivorian,31 August 2003,Midfielder,Right,Sunshine Stars Academy,2024-03-12,2027-04-24,"₦2,005,382.96",10,-1,-1,INJURED,0,234-819-740-056
+PLY300206,Fatima Balogun,Cameroonian,2015/07/15,Striker,right,Rivers United Academy,2023/07/21,,"N6,649,236",72,?,-1,Transferred,TRUE,N/A
+PLY300235,Kemi Mohammed,Ghanaian,10.10.2002,Striker,both,Shooting Stars Academy,04.08.2022,03/13/2024,8190059.60 naira,999,-1,188,Transferred,FALSE,83347743326
+PLY300299,Yusuf  Mohammed   ,Ivorian,2001-11-01,Forward ,LEFT,Enyimba FC Academy,04.12.2019,30-May-2021,"NGN 531,147",-3,-1,-1,active,Yes,30448360854
+PLY300063,Chioma Adeyemi,Nigerian,2011-05-12,Mid fielder,Right,Heartland FC Academy,19-Nov-2022,24/11/2024,3962407.82,999,34,67,Retired,no,234-465-111-312
+PLY300127,Zainab Lawal,Nigerian,not set,Winger,Both,Heartland FC Academy,12/10/2021,2026-01-11,"₦1,806,735.13",4,51,999,Active ,N,234-405-468-356
+PLY300081,Emeka Afolabi,Malian,25 June 2010,goalkeeper,Right ,Heartland FC Academy,2019-02-28,2020-06-19,?,36,unknown,26,active,Yes,00931066843
+PLY300118,Blessing Bello,Senegalese,unknown date,Forward ,LEFT,Kano Pillars Academy,2024/03/28,2025/10/25,1110052.04,-3,-1,-1,Loaned Out,TRUE,+234521310962
+PLY300400,Aliyu  Eze,Cameroonian,unknown date,DEFENDER,both,Enyimba FC Academy,unknown date,2022/05/26,"N3,481,268",999,42,-1,Active,true,(679) 252-9858
+PLY300321,Bola Mohammed,Nigerian,05/03/2008,Mid fielder,both,Heartland FC Academy,18/08/2024,07/09/2026,,1,NULL,999,Injured,No,(870) 562-2710
+PLY300052,Zainab Afolabi,Nigerian ,2001-06-01,Striker ,Left,Sunshine Stars Academy,03-Jul-2020,08/31/2021,"NGN 1,364,319",-3,?,999,active,Y,(032) 432-9839
+PLY300097,Musa Balogun,Ivorian,19 January 2015,Striker,both,Kano Pillars Academy,2022/11/02,00/00/0000,?,26,45,142,Active,0,42408916498
+PLY300199,Aliyu Mohammed,Ivorian,06 December 2012,Striker ,Both,Sunshine Stars Academy,N/A,2024/02/14,"NGN 1,570,380",-3,-1,999,Active,false,(122) 572-0765
+PLY300339,Grace Eze,Malian,24.12.2000,Striker ,Left,Lobi Stars Academy,04.09.2018,12/09/2020,  ,-3,26,-1,Retired,Y,0704 938 6204
+PLY300248,Ibrahim Mohammed,Malian,2003/12/29,Centre Back,LEFT,Sunshine Stars Academy,17-Aug-2023,01/12/2027,8123425.71,999,58,146,INJURED,0,01955356033
+PLY300247,Obinna Chukwu,NIGERIAN,2003/10/18,Mid fielder,both,Enyimba FC Academy,19 February 2021,26/10/2022,"NGN 8,050,603",3,-1,-1,Transferred,true,0706 626 6821
+PLY300141,Chinedu Lawal,Ghanaian,24/04/2003,Midfielder,right,Shooting Stars Academy,13/09/2024,2026-11-04,"₦6,025,293.46",999,-1,135,Retired,0,09096056730
+PLY300351,Femi Mohammed,Ghanaian,06-Apr-2003,Mid fielder,both,Heartland FC Academy,27 April 2022,26 February 2025,"6,887,882.72 ",Unknown,53,999,active,no,95764038166
+PLY300276,Sadiq Eze,nigerian,00/00/0000,Forward ,right,Rivers United Academy,12 May 2021,,"₦447,572.30",999,14,-1,Retired,true,(639) 283-6929
+PLY300324,Amara Olawale,Cameroonian,,Winger,right foot,Enyimba FC Academy,19 July 2021,27/01/2024,"₦8,368,507.51",65,43,28,Active ,TRUE,234-459-648-831
+PLY300438,Ifeoma Adeyemi,Cameroonian,2010-11-22,Mid fielder,Both,Enyimba FC Academy,01.06.2024,,"₦5,560,502.55",-3,6,152,Active ,yes,+234955633185
+PLY300018,Zainab Mohammed,NIGERIAN,13.01.2001,Winger,right,Lobi Stars Academy,2019-05-04,28/06/2023,"NGN 1,357,531",45,15,-1,Injured,1,(793) 230-2346
+PLY300255,yusuf afolabi   ,Senegalese,09 February 2008,Forward ,Both,Enyimba FC Academy,15.08.2020,,586742.63 naira,999,-1,999,Transferred,false,(771) 070-4496
+PLY300293,Obinna Okeke,nigerian,2005-11-08,Centre Back,right,Enyimba FC Academy,not set,,"NGN 686,238",67,-1,999,INJURED,Y,63347272742
+PLY300225,Bisi Mohammed,Ivorian,20 March 2008,Striker,right foot,Lobi Stars Academy,2021/09/29,18-Apr-2025,"NGN 4,876,849",17,-1,999,Active ,0,0883 774 4197
+PLY300373,Yusuf Okafor,Cameroonian,2011/11/30,Striker ,right,Rivers United Academy,01.08.2020,05-Nov-2024,"₦7,039,033.88",-3,-1,999,Active ,no,98830597364
+PLY300174,  Kunle Chukwu,Ivorian,N/A,Striker ,both,Shooting Stars Academy,2020-12-20,,"NGN 8,318,084",-3,38,272,INJURED,TRUE,01355251050
+PLY300056,Kemi Balogun,Nigerian,07 October 2007,goalkeeper,Both,Rivers United Academy,2018/10/04,02/12/2022,"₦8,176,115.54",-3,-1,82,Active,TRUE,0000000000
+PLY300124,Bola Ajayi,nigerian,09 November 2008,Winger,Right ,Sunshine Stars Academy,21/07/2021,01/10/2025,"NGN 1,175,808",-3,-1,31,Loaned Out,1,+234111595034
+PLY300158,emeka eze,Cameroonian,08 January 2009,Defender,Left,Kano Pillars Academy,01.07.2022,03/13/2027,,-3,-1,999,Loaned out,false,N/A
+PLY300440,   Amaka Ogundimu,Malian,2012-02-07,Centre Back,both,Sunshine Stars Academy,2020-12-13,,2769491.83,NIL,28,-1,Retired,Yes,05416431670
+PLY300397,Emeka Ogundimu,nigerian,12/04/2012,Winger,Both,Rivers United Academy,19-Sep-2020,25.10.2024,3851674.77,3,-1,-1,Active,1,40359544294
+PLY300169,aliyu balogun,NIGERIAN,09/02/2010,Striker,Right,Lobi Stars Academy,2024/05/06,11/24/2028,4015860.97 naira,66,15,999,INJURED,0,04776863423
+PLY300290,Emeka Adekunle,Ghanaian,01/25/2000,Defender,both,Sunshine Stars Academy,2022-05-19,11/30/2026,--,-3,27,-1,Retired,N,07674124151
+PLY300189,Emeka Olawale,Nigerian,10-Jun-2011,Striker,Left,Shooting Stars Academy,02.11.2022,,"N2,163,007",-3,8,999,Loaned out,1,+234728123567
+PLY300061,Ngozi Okeke,Ivorian,06 June 2007,Midfielder,LEFT,Enyimba FC Academy,12/03/2024,not set,?,-3,-1,99,Loaned Out,false,+234269405396
+PLY300346,Halima Mohammed,Cameroonian,N/A,Forward ,right,Lobi Stars Academy,09-Mar-2019,,"NGN 63,284",999,38,-1,INJURED,1,(358) 841-8343
+PLY300286,Emeka Suleiman,nigerian,03/04/2001,Defender,Left,Lobi Stars Academy,2023-01-09,22-Sep-2027,5155193.96 naira,999,19,213,active,Y,0154 214 4773
+PLY300404,Obinna Adekunle,NIGERIAN,11/11/2003,Striker ,right,Enyimba FC Academy,25.10.2019,02/02/2024,N/A,999,-1,-1,INJURED,no,invalid
+PLY300191,Tunde Eze,Senegalese,27 June 2007,Forward,Right,Rivers United Academy,28/06/2019,2023/02/20,210090.09,-3,N/A,999,Loaned Out,No,(271) 130-7240
+PLY300337,CHIOMA ADEYEMI,Nigerian,10/14/2004,Centre Back,right foot,Rivers United Academy,29 May 2022,2024/07/30,709388.26 naira,25,-1,221,Retired,true,
+PLY300349,Sadiq Olawale,NIGERIAN,30-Nov-2012,Defender,Right,Heartland FC Academy,2022/09/05,04/01/2026,NIL,-3,-1,nil,Injured,false,234-512-542-782
+PLY300091,Fatima Suleiman,NIGERIAN,05/20/2009,Mid fielder,Right ,Kano Pillars Academy,10/02/2020,2021-06-17,"N6,808,316",13,40,-1,INJURED,N,234-788-127-868
+PLY300181,Tunde Afolabi,Senegalese,03.12.2007,Striker ,Right ,Heartland FC Academy,27.12.2021,23 June 2026,"8,190,949.04 ",-3,51,999,Active,TRUE,85790647715
+PLY300197,Blessing Bello,Malian,not set,Defender,Right ,Heartland FC Academy,2023/04/12,17.10.2024,3844732.76,-3,24,999,INJURED,FALSE,+234134732354
+PLY300055,  YUSUF BELLO,nigerian,05/13/2016,Forward ,both,Rivers United Academy,27 December 2020,05.03.2024,"NGN 8,108,901",59,-1,292,active,0,234-892-625-660
+PLY300342,Amaka Okonkwo,Nigerian ,11/12/2007,Striker,Right,Sunshine Stars Academy,2019/07/23,05 March 2021,"₦7,188,078.74",999,0,27,Loaned Out,no,N/A
+PLY300420,Sadiq Ajayi,NIGERIAN,2008/03/27,Striker,Both,Sunshine Stars Academy,2023-04-13,04 October 2024,"N4,261,275",24,-1,-1,Active ,N,09874113257
+PLY300058,Tobi Okonkwo,Nigerian ,05/05/2012,Striker ,right foot,Rivers United Academy,23 April 2021,2023-01-30,"₦4,653,306.36",999,-,41,Transferred,false,234-128-497-185
+PLY300260,Tobi Nwosu,Senegalese,10/28/2012,Mid fielder,both,Heartland FC Academy,16 February 2024,31-Mar-2026,"N5,543,910",999,59,198,Injured,false,234-267-320-441
+PLY300046,Ifeoma Adeyemi,Malian,31-Mar-2015,Centre Back,Left,Heartland FC Academy,2018/04/19,24-Jun-2020,"NGN 6,192,244",46,58,999,Transferred,TRUE,21518260688
+PLY300041,Chinedu Okeke,Nigerian,03-Mar-2013,DEFENDER,Left,Rivers United Academy,10 January 2018,05/10/2020,"₦2,684,871.67",999,-1,-1,Loaned Out,Y,26620157201
+PLY300379,Obinna Adekunle,Nigerian ,13-Feb-2014,Forward ,Right ,Lobi Stars Academy,17-Jan-2020,2023/11/26,"₦302,199.50",52,60,148,INJURED,TRUE,+234178513854
+PLY300170,Ifeoma Bello,Senegalese,04/11/2014,Forward,Right ,Sunshine Stars Academy,29 January 2024,2028-11-21,NIL,999,11,-1,Active ,0,
+PLY300309,Wale Nnamdi,Nigerian,2013-10-25,Striker ,Left,Sunshine Stars Academy,2020/07/24,,"N4,191,282",43,47,216,Injured,1,31497646136
+PLY300241,Wale Adekunle,Ivorian,06/16/2006,goalkeeper,Both,Sunshine Stars Academy,12-Aug-2019,2023/01/27,"₦6,212,986.30",67,8,999,active,true,04189389846
+PLY300357,Ifeoma Lawal,nigerian,2008/11/20,Goalkeeper,right,Sunshine Stars Academy,08-Aug-2020,2024/10/27,613998.97,-3,-1,-1,Retired,yes,0000000000
+PLY300132,Adaeze Nnamdi,Nigerian,,Goalkeeper,Both,Heartland FC Academy,23-Jan-2022,02-Jul-2025,"NGN 6,629,975",47,-1,999,Retired,false,+234710248171
+PLY300272,Segun Mohammed,Malian,unknown date,Forward ,right foot,Shooting Stars Academy,28/09/2019,2021/09/28,"N5,038,352",18,1,999,Retired,true,234-139-898-681
+PLY300099,Chinedu Mohammed,NIGERIAN,20 August 2004,DEFENDER,Left,Rivers United Academy,2023-02-16,2025-09-11,7128608.89 naira,-3,-1,-1,active,FALSE,(652) 717-2722
+PLY300043,Zainab Suleiman,Nigerian,18 May 2000,Forward ,right foot,Heartland FC Academy,07-Jul-2020,06/15/2022,"NGN 3,655,001",-3,14,-1,Active ,1,234-492-617-647
+PLY300031,Segun Adeyemi,Nigerian ,26-Nov-2007,Mid fielder,Both,Sunshine Stars Academy,29 December 2018,,6956186.80 naira,-3,59,999,Active ,No,234-334-141-115
+PLY300217,Aliyu Suleiman,Senegalese,31-Jan-2003,goalkeeper,right,Kano Pillars Academy,2021/11/12,31/05/2024,"1,595,056.05 ",-3,56,295,Retired,true,0129 439 8529
+PLY300228,Kemi Okafor,Senegalese,15.04.2004,goalkeeper,Right ,Enyimba FC Academy,22/08/2020,29/11/2024,1593817.3,999,-1,-,active,true,27740258835
+PLY300162,  Ifeoma Lawal,Nigerian ,08/01/2013,goalkeeper,Right ,Shooting Stars Academy,17 March 2018,14.12.2020,"₦7,141,625.76",999,-1,156,Active,no,0120 911 7911
+PLY300069,Chioma Lawal,Senegalese,2010/02/07,Goalkeeper,Right ,Lobi Stars Academy,09/10/2023,,7840332.34 naira,-3,26,-1,Injured,true,+234634807970
+PLY300218,Segun Ogundimu,Senegalese,26 April 2012,Forward ,both,Kano Pillars Academy,13.10.2022,,230337.68 naira,-3,11,999,Retired,yes,94062607870
+PLY300203,Chioma Ajayi,NIGERIAN,03/17/2015,Striker,Both,Lobi Stars Academy,,28-May-2026,?,999,-1,251,INJURED,FALSE,+234570545897
+PLY300416,Grace Okafor,Nigerian,26-Sep-2011,Centre Back,Right ,Enyimba FC Academy,18/09/2020,24.05.2024,"₦7,167,187.46",999,-1,-1,Active ,Yes,+234796434745
+PLY300073,Funmilayo Olawale,Nigerian,27-May-2009,Forward,both,Sunshine Stars Academy,00/00/0000,23.02.2029,"N3,030,325",-3,-1,-1,Retired,FALSE,06284177225
+PLY300310,chioma adekunle,nigerian,2006/09/07,Forward,Both,Lobi Stars Academy,21-Feb-2018,2021-11-15,5013576.1,999,47,999,Injured,no,0847 488 3607
+PLY300298,Emeka Olawale,Nigerian ,04.01.2012,Midfielder,both,Lobi Stars Academy,28-Feb-2019,07-Dec-2021,87534.06,35,36,-1,INJURED,Yes,234-751-562-779
+PLY300283,halima olawale,NIGERIAN,11-May-2001,DEFENDER,Right ,Enyimba FC Academy,04 November 2021,30/12/2022,"N3,830,181",40,-1,-1,Retired,no,06572894134
+PLY300145,Kemi Adeyemi,nigerian,2009-02-16,goalkeeper,both,Rivers United Academy,2018-06-24,,5977415.10 naira,-3,58,n/a,Loaned out,yes,0960 893 1992
+PLY300010,Adaeze Abubakar,Nigerian ,10/03/2000,DEFENDER,Right ,Kano Pillars Academy,2022/12/19,08/06/2026,"N7,573,632",999,-1,-1,Active ,FALSE,+234674916016
+PLY300209,Sadiq Afolabi,Malian,2011-03-15,goalkeeper,Both,Enyimba FC Academy,03/06/2018,2020-06-23,2581350.93,-3,3,999,Transferred,Yes,04741407034
+PLY300185,Aliyu Nwosu,Malian,2005/10/11,Centre Back,Right ,Sunshine Stars Academy,2023-03-12,2027-10-29,"NGN 4,771,904",-3,-1,-1,Retired,FALSE,234-252-967-188
+PLY300088,  bola ogundimu,Ivorian,03.03.2016,goalkeeper,Right ,Kano Pillars Academy,22 February 2024,2026-07-22,"NGN 5,814,530",23,-1,150,Active,No,+234473820236
+PLY300180,Kunle Mohammed,Ivorian,2010/01/07,DEFENDER,right foot,Rivers United Academy,15/12/2020,15/06/2025,"N6,254,307",-3,19,25,active,no,234-171-644-556
+PLY300226,Ngozi Abubakar,Ghanaian,27 October 2009,Forward,Right ,Heartland FC Academy,02/28/2022,,1889882.50 naira,-3,42,999,active,false,(466) 176-6204
+PLY300415,Femi Yusuf,Malian,2015/01/15,Defender,right foot,Lobi Stars Academy,17 December 2019,18/10/2022,2212542.58 naira,-3,37,999,INJURED,N,(925) 236-2292
+PLY300275,Bisi Nnamdi,NIGERIAN,13 December 2001,Midfielder,LEFT,Rivers United Academy,2024-02-18,2025/05/26,8333708.36,-3,-1,999,active,1,+234158815793
+PLY300375,Chidi  Ogundimu,Cameroonian,08-Jul-2006,DEFENDER,right foot,Shooting Stars Academy,09/05/2021,17-Dec-2025,nil,8,-1,999,Injured,false,30624479513
+PLY300152,Fatima Olawale,nigerian,,Forward,LEFT,Rivers United Academy,03 September 2019,08-Jun-2022,"₦2,676,398.53",23,-1,-1,INJURED,false,N/A
+PLY300109,Kunle Bello,nigerian,09 June 2009,Striker ,Both,Shooting Stars Academy,21 March 2020,14-Aug-2022,"₦1,593,018.04",38,54,999,active,TRUE,92624945147
+PLY300406,Ifeoma Okonkwo,Nigerian ,00/00/0000,Winger,Left,Rivers United Academy,25.12.2022,12.05.2025,"₦5,071,238.33",999,-1,-1,active,no,(841) 312-8403
+PLY300271,Funmilayo Chukwu,Malian,12/24/2001,DEFENDER,Both,Shooting Stars Academy,05-Feb-2018,,"₦1,399,936.99",-3,-1,109,Loaned out,Yes,+234889536902
+PLY300198,Chinedu Nnamdi,Cameroonian,19/07/2005,goalkeeper,both,Heartland FC Academy,2018/10/29,2022-07-24,"5,025,850.18 ",-3,-1,-1,Loaned out,1,04012897432
+PLY300237,Kemi Lawal,NIGERIAN,12.02.2010,Winger,right foot,Rivers United Academy,05/17/2020,,2240637.56 naira,37,,999,Active ,Y,(698) 152-8733
+PLY300320,Wale Suleiman,Nigerian ,2005-09-28,Goalkeeper,Right,Heartland FC Academy,03.08.2021,,"NGN 4,108,180",-3,4,999,Retired,FALSE,95894773522
+PLY300129,Fatima Ajayi,nigerian,07/12/2003,Winger,Both,Kano Pillars Academy,11/18/2022,07/02/2025,"N304,492",999,-1,265,Injured,false,+234904227113
+PLY300323,fatima ajayi   ,Malian,17-Mar-2013,Mid fielder,Right ,Heartland FC Academy,2022/07/30,26 April 2026,N/A,n/a,-1,48,Loaned Out,1,0215 835 0344
+PLY300435,Femi Okafor,Senegalese,09/03/2012,Forward,right,Sunshine Stars Academy,2021-05-20,2023-11-23,"6,086,419.78 ",999,unknown,7,Retired,no,(264) 335-0271
+PLY300246,Amaka Olawale,nigerian,2007-04-02,Defender,Right ,Rivers United Academy,24 May 2024,,"₦6,576,997.45",Unknown,13,-1,Transferred,No,04300038960
+PLY300212,Zainab Olawale,Ghanaian,27/09/2013,Striker ,LEFT,Shooting Stars Academy,10 February 2019,06/11/2023,"NGN 3,203,627",999,10,-1,INJURED,FALSE,(143) 075-3666
+PLY300366,Obinna Nnamdi,Senegalese,not set,Forward ,both,Lobi Stars Academy,N/A,29.09.2025,"NGN 6,095,417",-3,-1,180,Loaned Out,false,(760) 740-1775
+PLY300150,WALE BALOGUN,Senegalese,23.12.2012,Forward,Right ,Lobi Stars Academy,14.01.2021,2023-06-26,"₦7,562,944.85",999,-1,999,Injured,N,(868) 512-7652
+PLY300012,Musa  Yusuf,Nigerian ,2002-12-05,Winger,both,Rivers United Academy,21.02.2020,19/01/2023,3748108.94,-3,49,-1,active,yes,(337) 050-2497
+PLY300020,Sadiq Yusuf,NIGERIAN,10/07/2010,Forward ,right foot,Rivers United Academy,2019-12-05,16.05.2022,"NGN 2,560,216",39,-1,22,Active,N,(093) 771-0040
+PLY300151,Ngozi Yusuf,Nigerian ,2015/04/14,Striker,both,Kano Pillars Academy,2023-10-19,01.04.2025,"₦4,293,997.72",1,-1,999,Loaned Out,N,0928 664 6491
+PLY300021,Adaeze Okafor,Cameroonian,,goalkeeper,both,Sunshine Stars Academy,18-Mar-2018,20-Oct-2022,"NGN 2,558,205",-3,-1,70,Loaned Out,Yes,(013) 806-9847
+PLY300007,bisi nwosu,NIGERIAN,09.01.2016,DEFENDER,LEFT,Lobi Stars Academy,01.08.2024,,5764923.63 naira,29,-1,-1,Loaned out,false,06149828246
+PLY300026,Adaeze Okonkwo,Nigerian ,10.07.2005,Midfielder,Both,Rivers United Academy,2018-03-22,,"N2,014,147",43,40,NULL,active,Yes,09156716493
+PLY300003,femi okeke,Nigerian,10/25/2015,Defender,both,Shooting Stars Academy,09/07/2024,03/17/2028,5818621.04,999,-1,1,INJURED,FALSE,00232129833
+PLY300132,Adaeze Nnamdi,Nigerian,,Goalkeeper,Both,Heartland FC Academy,23-Jan-2022,02-Jul-2025,"NGN 6,629,975",47,-1,999,Retired,false,+234710248171
+PLY300266,Halima Okonkwo,NIGERIAN,04/11/2014,Centre Back,Left,Lobi Stars Academy,19.10.2020,00/00/0000,477056.1,-3,-1,999,active,no,08795083044
+PLY300159,Chidi Olawale,Malian,09.06.2008,Mid fielder,both,Kano Pillars Academy,10/30/2020,,"NGN 8,074,885",12,-1,53,INJURED,N,0482 531 1060
+PLY300184,Bisi Ogundimu,Senegalese,2011-11-06,Midfielder,Right,Kano Pillars Academy,02 May 2021,12/03/2023,8099399.0,999,-1,142,INJURED,yes,04145964229
+PLY300222,Bola Okonkwo,Malian,18-Feb-2015,Forward,Right ,Lobi Stars Academy,21/12/2022,10/17/2027,"NGN 7,246,097",40,52,999,Retired,Yes,29181331708
+PLY300140,Wale Bello,Malian,unknown date,Striker,Left,Kano Pillars Academy,07.01.2019,15.05.2023,unknown,999,7,252,Active ,Yes,(714) 708-2723
+PLY300403,Emeka Okafor,nigerian,26/03/2013,Defender,right foot,Rivers United Academy,15-Aug-2023,07-Apr-2025,"NGN 7,549,712",999,58,215,INJURED,FALSE,0790 833 5061
+PLY300402,  TOBI AJAYI,nigerian,not set,Mid fielder,right foot,Sunshine Stars Academy,14.11.2024,2029/05/28,"N7,061,825",-3,44,999,Loaned out,N,03433249135
+PLY300131,ifeoma okafor,Ivorian,2015-03-21,Forward ,right foot,Shooting Stars Academy,19-Dec-2023,14-May-2027,"NGN 2,133,881",999,22,147,active,no,234-960-633-991
+PLY300432,Tobi Okonkwo,NIGERIAN,04-May-2015,Midfielder,right,Kano Pillars Academy,21/02/2024,23/11/2027,"₦4,227,428.86",77,-1,53,Injured,N,06243958739
+PLY300037,Bola Chukwu,Nigerian,15/11/2000,Mid fielder,Both,Lobi Stars Academy,05/03/2022,25-Apr-2025,"₦6,333,065.67",57,-1,92,Loaned out,TRUE,234-027-642-086

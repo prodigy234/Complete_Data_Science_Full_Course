@@ -1,0 +1,469 @@
+PlotID,OwnerName,OwnerPhone,LandUseCategory,TenureType,PlotSizeField,LandValueNGN,ZoningStatus,ApplicationDate,ApprovalDate,LGA,State,SurveyNumber,DisputeFlagged,GroundRentPaid
+LND800419,obinna balogun,234-179-720-385,Government Reserve,Leasehold,9879.67,1896126164.62,Rejected,2022-03-08,23 March 2023,edo lga,Rivers,SRV/88064/2024,FALSE,N
+LND800328,Chidi Okonkwo,(178) 509-0255,Agric,Leasehold,20430.93,"1,377,436,076.93 ",approved,18/07/2018,2019-07-17,Ogun LGA,Kaduna,SRV/10258/2015,yes,true
+LND800111,YUSUF AFOLABI,37379274907,Industrial ,Deed,207603.44,"NGN 3,874,222,349",Approved,30.05.2019,2019/07/16,Abuja LGA,Cross River,SRV/51972/2011,yes,true
+LND800164,Ibrahim Balogun,0361 618 8081,Govt Reserve,Deed of Assignment,9628.53,"₦3,238,610,469.50",Pending,27-Feb-2016,2018-02-07,AKWA IBOM LGA,Lagos,SRV/81500/2010,TRUE,no
+LND800206,Ifeoma Abubakar,0953 263 8902,Industrial ,Certificate of Occupancy,44075.49,Unknown,Rejected ,03/14/2015,2015-12-07,KANO LGA,Anambra,SRV/39220/2012,N,Yes
+LND800140,Chioma Nnamdi,0517 680 8662,residential,Right of Occupancy,50897.79,"₦535,534,587.09",PENDING,04-Jun-2020,10-Nov-2020,ABUJA LGA,Delta,SRV/10861/2022,TRUE,true
+LND800216,Tunde Chukwu,0398 983 0650,Mixed use,Deed of Assignment,8361.33,2327016668.62 naira,Rejected ,2016/12/14,27-May-2018,AKWA IBOM LGA,Plateau,SRV/79145/2025,yes,Yes
+LND800351,Tunde Ajayi,+234300915618,Commercial,Deed,28827.49,"₦4,205,122,955.19",Pending,2020-09-03,01/06/2022,ANAMBRA LGA,Anambra,SRV/66497/2024,no,false
+LND800270,Sadiq Chukwu,+234701242446,Commercial,c of o,24245.75,"3,764,579,130.48 ",approved,2020/08/02,24-May-2021,Rivers LGA,Enugu,SRV/68498/2014,yes,No
+LND800220,Amaka Eze,+234303911142,residential,C of O,32692.64,"NGN 3,028,804,999",Approved,2020-02-12,2021/07/09,Plateau LGA,Rivers,SRV/21605/2011,no,yes
+LND800087,Chinedu  Okeke,0683 625 3666,Industrial ,Certificate of Occupancy,242839.39,933953983.59 naira,Rejected,08-Nov-2017,,kano lga,Akwa Ibom,SRV/90082/2022,No,Yes
+LND800105,Segun Afolabi,(660) 465-5866,Mixed Use,CofO,33805.26,4171592026.80 naira,Under Review,11 December 2022,16 September 2023,Oyo LGA,Anambra,  ,TRUE,false
+LND800116,Ibrahim Eze,(701) 595-9194,Residential,Leasehold ,25959.03,"₦4,564,603,043.92",approved,2023-08-04,05/01/2025,DELTA LGA,oyo,?,no,yes
+LND800239,amaka yusuf,234-120-471-372,Government Reserve,Leasehold ,61836.49,"₦2,121,753,070.89",Under Review,04/03/2015,30/07/2015,plateau lga,Delta,SRV/62363/2025,false,TRUE
+LND800197,Amara Eze,35885379821,Mixed Use,Leasehold ,328732.78,"NGN 1,994,942,186",Under Review,06 June 2023,,Rivers LGA,FCT,SRV/83857/2012,0,1
+LND800041,Obinna Olawale,01537038240,Mixed Use,Deed of Assignment,17233.75,nil,Rejected,01/02/2023,2024-07-25,plateau lga,Imo,SRV/96359/2017,Y,FALSE
+LND800380,Chioma Ajayi,16831139500,Commercial,CofO,24948.16,?,Revoked,2016/09/26,,Rivers LGA,Ibadan,SRV/54396/2015,Y,No
+LND800015,Obinna Lawal,0841 560 8213,Industrial,Deed of Assignment,21896.36,"₦2,139,757,185.98",Rejected,01/25/2019,2020-06-05,KANO LGA,Edo,SRV/87577/2014,Y,0
+LND800439,Wale Lawal,+234472629052,Government Reserve,Leasehold ,48559.78,"N702,170,994",Rejected,21-Feb-2020,,Plateau LGA,Port Harcourt,NIL,N,N
+LND800102,Chidi Mohammed,0543 848 0752,Commercial,Deed of Assignment,12329.81,2950506718.21,Rejected,28/08/2021,17 August 2022,LAGOS LGA,Ogun,SRV/46626/2022,No,yes
+LND800236,Yusuf Nnamdi,+234812657422,residential,Leasehold,38188.57,4850621681.47 naira,Rejected,2015/01/31,2016-11-20,IMO LGA,Lagos,SRV/58848/2012,no,false
+LND800052,Ibrahim Yusuf,62339220715,Mixed Use,CofO,16326.06,"N3,664,648,012",Rejected ,2015-04-18,15/08/2016,Ogun LGA,Plateau,SRV/28495/2025,true,No
+LND800106,Yusuf Abubakar,0254 837 4417,Residential,C of O,14652.69,"NGN 2,828,072,112",Approved,24.02.2017,19/06/2018,RIVERS LGA,Delta,SRV/77768/2015,FALSE,TRUE
+LND800297,Amaka Suleiman,234-377-460-406,Industrial ,CofO,10641.6,"₦503,329,487.03",Under Review,2018/02/02,06/27/2018,IMO LGA,Ogun,SRV/96020/2013,1,FALSE
+LND800112,BLESSING ADEKUNLE   ,0280 123 4289,Industrial ,Certificate of Occupancy,21009.9,"₦1,529,379,220.12",Revoked,22 March 2015,11/04/2015,Abuja LGA,Abuja,SRV/46002/2020,0,FALSE
+LND800433,Blessing Balogun,+234727367746,Mixed use,Right of Occupancy,43554.01,"N3,432,215,143",Under Review,2021-03-27,unknown date,delta lga,Lagos,SRV/82712/2010,TRUE,Y
+LND800189,Adaeze Bello   ,0605 603 5679,Industrial,CofO,37595.1,"₦1,316,591,675.38",Approved,14-Nov-2017,14/07/2018,DELTA LGA,Plateau,SRV/14173/2019,false,false
+LND800406,zainab mohammed,(386) 767-3820,Agricultural,Leasehold,441116.36,"N4,450,828,747",approved,06/09/2015,02/12/2016,EDO LGA,Plateau,SRV/26726/2013,no,N
+LND800121,Amaka Okafor,(724) 530-7624,residential,Leasehold ,N/A,"N2,946,311,293",Revoked,21.12.2020,2021-01-29,Lagos LGA,Imo,SRV/26099/2020,no,TRUE
+LND800020,Aliyu  Adeyemi,34064686775,Agric,c of o,125387.47,"NGN 29,576,160",Revoked,21 June 2023,17-Feb-2025,Imo LGA,Lagos,unknown,Yes,Y
+LND800305,Amaka Nnamdi,(732) 146-4493,Mixed Use,Leasehold ,29536.04,"NGN 413,556,945",Under Review,2018/08/29,00/00/0000,Oyo LGA,Oyo,SRV/98983/2013,no,1
+LND800013,Ibrahim Mohammed,09673794871,COMMERCIAL,Deed,43900.53,"₦2,221,503,639.90",Approved,not set,,oyo lga,Kaduna,SRV/85599/2025,N,FALSE
+LND800034,Ibrahim Okafor,234-555-347-057,Govt Reserve,Deed,23931.88,"₦160,614,418.01",Pending,13-Apr-2022,02/03/2024,Abuja LGA,Plateau,SRV/73672/2020,no,true
+LND800391,Segun Yusuf,234-029-502-648,Agricultural,Deed,45543.9,--,PENDING,2019-08-27,N/A,oyo lga,Cross River,SRV/27403/2017,TRUE,No
+LND800183,Halima Okafor,234-378-584-712,Residential,CofO,33019.71,"NGN 4,481,780,450",Approved,08-Aug-2016,2017-11-13,Akwa Ibom LGA,Cross River,-,yes,false
+LND800083,Chinedu Ajayi,09069130981,Industrial ,Leasehold,27422.61,-,Approved,23/09/2021,2023/04/10,Rivers LGA,Imo,SRV/77528/2019,false,FALSE
+LND800425,AMAKA BALOGUN   ,+234523888562,Mixed use,CofO,14351.6,"2,413,451,546.59 ",Pending,08/13/2015,26/04/2016,DELTA LGA,Kano,SRV/41787/2021,Y,N
+LND800134,BOLA  NNAMDI,0615 727 6829,Mixed Use,Deed of Assignment,7219.09,"NGN 3,682,684,633",Rejected ,2023-07-18,00/00/0000,Lagos LGA,Rivers,unknown,Y,N
+LND800115,Ibrahim Abubakar,+234210175096,residential,Leasehold ,35272.67,"N1,389,512,856",Pending,30-Oct-2016,03 June 2018,Anambra Lga,Anambra,SRV/89211/2022,Yes,TRUE
+LND800355,Halima Suleiman,234-368-750-926,Residential,CofO,nil,"₦4,527,528,462.33",Pending,25.12.2016,12 May 2017,Plateau LGA,Kaduna,SRV/64804/2023,N,TRUE
+LND800119,Chioma Nwosu,0722 660 2562,Agricultural,COO,36767.58,"₦2,056,105,744.70",Revoked,23.07.2019,14.11.2020,Ogun LGA,Oyo State,SRV/62743/2022,yes,FALSE
+LND800368,Adaeze Afolabi,0489 971 8428,Government Reserve,Leasehold ,30361.07,"N3,185,815,668",Rejected ,2015/02/13,2015/10/25,Anambra Lga,Oyo,NIL,FALSE,Y
+LND800009,Funmilayo Ajayi,23116491334,residential,Certificate of Occupancy,46143.93,"₦2,861,086,879.64",Rejected ,05/16/2023,2024-02-18,Cross River LGA,Cross River,SRV/74801/2025,1,Yes
+LND800076,KEMI OKONKWO   ,0280 771 1306,Mixed Use,c of o,47931.85,"₦3,579,992,278.39",Revoked,06/22/2020,2021/06/24,delta lga,lagos,SRV/99920/2016,No,0
+LND800057,Amaka Okeke,0640 995 1239,Industrial ,Deed,32554.0,"₦2,300,875,737.82",approved,20/09/2018,2020/06/01,Lagos LGA,Oyo,SRV/19073/2014,TRUE,N
+LND800329,Emeka Eze,234-844-421-829,Mixed use,c of o,21004.62,"₦1,874,307,970.86",Revoked,08/10/2023,,Abuja LGA,Ogun,N/A,TRUE,1
+LND800054,bola  olawale   ,0145 264 7124,Agric,CofO,36437.08,"NGN 3,981,105,438",approved,30-Jul-2019,14.10.2020,imo lga,Plateau,SRV/70028/2016,FALSE,true
+LND800375,Kemi Adeyemi,234-269-582-641,Industrial,Deed,10938.69,3460907130.32,Revoked,17 May 2021,04-Feb-2022,KADUNA LGA,Anambra,SRV/45880/2013,1,1
+LND800222,Kunle Nwosu,0248 088 0622,Agric,C of O,43752.06,"NGN 2,578,328,809",approved,23 October 2023,00/00/0000,Imo LGA,Cross River,SRV/27339/2023,N,FALSE
+LND800365,Ifeoma Adekunle,35910157090,Government Reserve,Deed of Assignment,19909.52,679361886.54,Approved,28-Dec-2016,07/05/2017,KANO LGA,Edo,SRV/17912/2018,No,FALSE
+LND800073,Adaeze Nwosu,09060723111,Government Reserve,Deed,35084.82,"N529,497,428",Rejected ,2020-09-07,24-Oct-2021,ogun lga,rivers,SRV/81711/2010,TRUE,TRUE
+LND800256,ifeoma ajayi   ,0221 455 9376,residential,Deed of Assignment,157470.43,"NGN 729,595,369",Under Review,2019/07/19,2021-04-20,Akwa Ibom LGA,Akwa Ibom,SRV/78217/2017,Yes,0
+LND800214,Sadiq Ajayi,+234695560767,Mixed use,c of o,-,3862677029.32,Revoked,2015/10/06,06/02/2017,Akwa Ibom LGA,Plateau,SRV/96802/2024,N,TRUE
+LND800080,Adaeze Chukwu,234-357-071-398,Commercial,Right of Occupancy,13678.08,"₦2,427,005,088.54",Rejected ,03/07/2018,14.03.2020,Imo LGA,Rivers,NULL,no,FALSE
+LND800280,Bisi Adekunle,(885) 190-5348,Residential,Right of Occupancy,5963.71,2028235298.76,Revoked,2017-05-03,14-Jul-2017,Edo Lga,Imo,SRV/91953/2016,false,true
+LND800379,Sadiq Lawal,(730) 086-9661,COMMERCIAL,Deed,6876.98,"NGN 3,710,882,658",Approved,27/07/2020,06 September 2020,Enugu LGA,Edo,SRV/11280/2013,TRUE,No
+LND800078,  Wale Adeyemi,08335090254,Agricultural,Deed,5235.83,"₦1,126,620,943.08",Revoked,16/03/2021,,Edo Lga,Lag,SRV/95547/2012,yes,Yes
+LND800114,Obinna Ajayi,234-843-645-380,Industrial ,Deed,20006.89,4771995301.78 naira,Rejected ,2016-02-10,07/11/2016,CROSS RIVER LGA,Akwa Ibom,SRV/89271/2019,true,Yes
+LND800403,Ifeoma Ajayi,+234205093869,Mixed use,Right of Occupancy,25794.18,2565681632.62 naira,PENDING,23/02/2016,06/09/2016,RIVERS LGA,ABUJA,SRV/74620/2021,true,true
+LND800153,Bola Adeyemi,0210 533 6514,Industrial ,Leasehold,45426.69,"NGN 50,899,570",Under Review,2016/09/25,2016-12-16,abuja lga,Plateau,SRV/18881/2011,true,Y
+LND800323,Musa Lawal,0230 898 1388,Government Reserve,COO,40369.21,"NGN 4,825,702,385",Revoked,2018/03/27,11 March 2019,OYO LGA,abuja,SRV/14438/2017,0,Yes
+LND800437,Kemi Okeke,07238750827,COMMERCIAL,Leasehold,41028.06,"₦3,305,256,765.90",Approved,15/04/2015,31.12.2016,Anambra LGA,Kano,SRV/27586/2013,no,TRUE
+LND800179,Sadiq Adeyemi,234-973-711-222,Mixed Use,Deed of Assignment,43103.69,"NGN 4,933,905,239",Rejected,08/26/2023,11-May-2025,EDO LGA,Edo,SRV/94544/2017,N,false
+LND800234,Tobi Afolabi,0507 659 7595,residential,Leasehold ,37497.9,"₦678,054,754.63",Approved,,,kano lga,Plateau,SRV/13005/2013,FALSE,1
+LND800416,MUSA LAWAL,58951381865,Agricultural,CofO,44197.72,"₦2,684,715,975.22",PENDING,18/05/2016,03/09/2017,Abuja Lga,Rivers,SRV/55912/2016,FALSE,0
+LND800169,amaka yusuf   ,11471656094,residential,Right of Occupancy,39080.65,"NGN 1,939,656,813",approved,07-Apr-2019,09 May 2019,Edo LGA,Lagos,NIL,false,No
+LND800032,Amara Lawal,66057798066,Residential,COO,2900.01,"N3,029,399,708",Revoked,08/27/2019,2020-07-26,Plateau LGA,Kano,N/A,no,no
+LND800428,Kemi Nwosu,05965594282,Mixed Use,Deed of Assignment,34889.03,24035055.48 naira,Pending,2020/10/06,01/25/2021,Lagos LGA,Lagos,null,yes,N
+LND800441,Femi Okeke,,Mixed Use,Certificate of Occupancy,unknown,4505170882.22,PENDING,26.09.2022,29 October 2022,Edo LGA,Abuja,SRV/15554/2020,false,Yes
+LND800204,  Fatima Adekunle,(900) 159-4463,Government Reserve,Leasehold,19678.04,"NGN 2,643,372,766",Pending,07.06.2018,03/10/2019,Cross River LGA,Delta,SRV/62853/2010,FALSE,1
+LND800113,Chioma Bello,(113) 253-2694,COMMERCIAL,Leasehold,17488.16,"₦928,101,422.46",Revoked,2021-11-06,08/08/2023,Delta LGA,Edo,SRV/99261/2021,Yes,yes
+LND800374,Bola Adeyemi,40561299650,COMMERCIAL,COO,20475.45,925906894.31,Revoked,26-Jan-2023,,Abuja LGA,Lag,SRV/67389/2018,TRUE,FALSE
+LND800426,Zainab Eze,(586) 605-9867,Industrial ,c of o,27093.05,338561285.71 naira,Revoked,2017/07/07,19 March 2019,delta lga,Delta,SRV/79920/2015,Yes,true
+LND800337,Funmilayo Bello,16481880442,residential,Right of Occupancy,11341.83,"3,386,835,869.87 ",Rejected,02/25/2020,07.08.2021,Delta Lga,Kano,SRV/23167/2012,No,false
+LND800253,Ibrahim Mohammed,17934065277,Industrial ,Leasehold ,19861.23,"₦1,624,749,634.63",approved,09/09/2019,2020/01/24,CROSS RIVER LGA,Delta,n/a,FALSE,1
+LND800193,HALIMA BALOGUN   ,+234769899927,Agric,CofO,25881.07,"N2,277,856,111",Revoked,31.07.2020,,Kaduna Lga,rivers,SRV/98058/2017,1,No
+LND800372,Aliyu Suleiman,0617 607 2348,Mixed use,Leasehold ,106186.97,"₦2,230,815,665.24",Pending,10/03/2017,03 April 2019,Abuja LGA,Enugu,SRV/55690/2015,N,no
+LND800381,Fatima Ajayi,234-680-941-491,Agric,Deed of Assignment,49281.86,3834062449.14 naira,Revoked,28/05/2018,27-Dec-2019,ogun lga,Imo,NIL,true,true
+LND800084,Grace Suleiman,+234796496737,Residential,Leasehold,17354.26,"NGN 3,717,490,395",Under Review,23/07/2022,2023/11/06,kaduna lga,Delta,null,Y,false
+LND800295,Ifeoma Adekunle,10615372215,Mixed Use,CofO,342209.52,"NGN 3,272,211,846",Pending,unknown date,,Edo LGA,Oyo,SRV/77328/2015,1,no
+LND800173,  Grace Bello,07481131765,COMMERCIAL,CofO,--,"N629,305,060",Rejected ,2015-01-14,2016/05/29,PLATEAU LGA,Enugu,SRV/52346/2022,0,false
+LND800242,AMARA LAWAL,06745847609,Commercial,Deed of Assignment,15439.38,4388307838.74 naira,Under Review,14 June 2022,,Kano Lga,Kaduna,SRV/94827/2021,TRUE,1
+LND800089,Amara Mohammed,03339395786,Industrial,COO,39735.29,"NGN 2,868,176,018",Pending,06 June 2018,2019/03/16,KADUNA LGA,KANO,SRV/80976/2023,FALSE,No
+LND800302,Adaeze Eze,+234584148460,Agric,Deed of Assignment,8286.72,487937468.50 naira,approved,24/09/2020,21/08/2021,akwa ibom lga,Edo,SRV/71996/2015,true,No
+LND800096,Amara Okonkwo,52441822261,Govt Reserve,Certificate of Occupancy,  ,2669192987.12 naira,approved,09/21/2015,,Oyo LGA,Kaduna,SRV/72117/2013,1,Yes
+LND800235,Emeka Okonkwo,234-089-177-680,Agricultural,C of O,31319.71,Unknown,Approved,2018-10-13,2019-11-24,Kano LGA,Akwa Ibom,SRV/84894/2010,FALSE,no
+LND800258,Yusuf Mohammed,(510) 046-2776,Agricultural,Deed,20912.28,"₦126,708,373.44",Under Review,08 August 2021,,lagos lga,Kano,SRV/44716/2014,N,0
+LND800125,Amaka Suleiman,19284552597,Agric,Certificate of Occupancy,31516.55,nil,Revoked,07 January 2017,23.01.2018,Kaduna LGA,Kano,SRV/43726/2011,yes,FALSE
+LND800060,Grace Nwosu,234-529-821-739,Residential,Leasehold ,41509.85,"N4,065,583,075",Revoked,2021-10-30,09/17/2023,Delta LGA,Abuja,SRV/25487/2012,TRUE,false
+LND800260,Halima Balogun,234-752-023-897,Industrial ,COO,1585.98,N/A,Approved,01 August 2016,not set,Anambra LGA,oyo,SRV/40293/2022,0,Y
+LND800367,Grace Ajayi,49269996996,Govt Reserve,c of o,nil,4271422052.8,Approved,2015/09/27,07.06.2017,Rivers LGA,Ibadan,SRV/76292/2019,Yes,false
+LND800105,Segun Afolabi,(660) 465-5866,Mixed Use,CofO,33805.26,4171592026.80 naira,Under Review,11 December 2022,16 September 2023,Oyo LGA,Anambra,  ,TRUE,false
+LND800004,Bola Okonkwo,0465 495 0050,Industrial,COO,26372.31,"NGN 4,303,142,555",Rejected ,20/09/2020,,Lagos Lga,Plateau,SRV/31678/2022,1,no
+LND800251,Femi Ogundimu,0903 267 1494,COMMERCIAL,C of O,46595.34,830264103.13,Approved,19.11.2015,2016/02/03,Delta LGA,Anambra,SRV/69010/2016,TRUE,Yes
+LND800369,Chinedu Abubakar,96932591408,COMMERCIAL,COO,27690.11,"2,506,284,980.31 ",PENDING,2016/11/14,01/05/2018,Lagos LGA,Oyo,SRV/64860/2019,TRUE,No
+LND800182,Chioma Okeke,N/A,Government Reserve,Leasehold,468072.65,"NGN 3,190,306,169",approved,01/04/2022,25/05/2023,Imo LGA,Kaduna,SRV/56541/2023,yes,No
+LND800023,Chinedu Chukwu,09335134261,Industrial,Certificate of Occupancy,43874.31,null,Approved,2022/10/03,05-Mar-2023,Ogun LGA,Akwa Ibom,SRV/37897/2016,Y,0
+LND800127,emeka okafor,234-859-532-593,Mixed Use,Leasehold,22771.23,"N778,094,290",approved,29/11/2018,2020/08/26,cross river lga,Ogun,SRV/56520/2011,TRUE,0
+LND800006,BOLA BALOGUN,00531611776,Agricultural,c of o,,1045526831.31,Pending,2018/07/25,23/09/2018,Imo LGA,Kaduna,SRV/64375/2010,N,Yes
+LND800097,Kemi Balogun,89628874312,Industrial,C of O,48402.13,3961119687.04 naira,Rejected,27.10.2020,,Abuja Lga,Oyo,SRV/14454/2024,1,N
+LND800007,Blessing Abubakar,(729) 047-7425,COMMERCIAL,Certificate of Occupancy,35311.6,  ,approved,27-Jan-2017,,Akwa Ibom LGA,Anambra,SRV/90816/2015,Y,false
+LND800265,Aliyu Abubakar,07993593744,Industrial,C of O,160472.08,"N2,090,747,148",Under Review,28 October 2017,,Plateau LGA,Edo,SRV/85541/2010,yes,0
+LND800290,GRACE OKAFOR,N/A,residential,C of O,465315.34,"N1,870,593,833",PENDING,not set,,cross river lga,Enugu,SRV/63376/2010,true,1
+LND800363,Grace Okeke,234-440-134-808,Agricultural,Deed of Assignment,34229.38,Unknown,PENDING,11/01/2022,24/08/2022,AKWA IBOM LGA,Abuja,SRV/69134/2011,false,yes
+LND800061,Kemi Ogundimu,95786718153,Mixed Use,C of O,19122.24,"₦117,653,991.46",PENDING,02 November 2015,,Abuja LGA,Kano,SRV/30409/2025,No,false
+LND800364,Fatima Yusuf,03543788260,Mixed Use,c of o,39931.15,1089036931.81 naira,Under Review,20-Jan-2017,,Abuja LGA,Cross River,SRV/71479/2019,true,FALSE
+LND800058,Zainab Lawal,(283) 512-9592,Mixed use,Leasehold,33509.62,"NGN 2,585,622,631",PENDING,17 March 2015,22-Sep-2016,Rivers Lga,Oyo,nil,Yes,FALSE
+LND800308,Sadiq Ogundimu,invalid,Commercial,Leasehold ,9383.29,"NGN 902,548,073",Under Review,,06/10/2018,Ogun LGA,Ogun,SRV/83013/2025,N,N
+LND800382,Aliyu Abubakar,00762839762,Industrial,COO,29927.09,"NGN 65,588,388",Pending,26.07.2023,,Lagos LGA,Ogun,SRV/88791/2017,Y,No
+LND800001,Sadiq Yusuf,+234023290282,Commercial,Deed of Assignment,5979.37,"N873,134,272",Pending,2021-11-06,25/08/2023,EDO LGA,Cross River,SRV/34715/2017,false,Yes
+LND800002,grace okeke,70093459626,COMMERCIAL,CofO,47607.32,"N3,400,040,743",approved,14 February 2019,22-Nov-2020,Plateau Lga,Oyo,NULL,Yes,false
+LND800159,NGOZI ABUBAKAR,0687 304 5195,Agric,Certificate of Occupancy,-,"₦2,810,848,659.18",Approved,2015/02/24,2015/03/27,Oyo LGA,Lagos,SRV/57125/2025,Y,yes
+LND800030,   Femi Adekunle,+234178996986,Industrial,C of O,15647.74,"N1,847,742,006",Under Review,05-Aug-2021,,ABUJA LGA,Lagos,SRV/44655/2010,no,false
+LND800223,Kemi Mohammed,+234223959473,Industrial ,Leasehold ,1453.32,3921645916.89,Pending,07/25/2016,06/03/2018,Edo LGA,Edo,SRV/54721/2011,true,0
+LND800266,Amara Chukwu,234-946-408-303,Residential,COO,244770.13,"NGN 3,308,346,779",Under Review,2017-04-15,2017-08-29,Abuja LGA,Kaduna,SRV/95221/2023,true,false
+LND800404,Fatima Olawale,84249598811,Agric,Right of Occupancy,9009.87,3685598268.53,Rejected,2023-10-22,15 August 2024,AKWA IBOM LGA,Kaduna,SRV/42623/2020,No,no
+LND800126,Ifeoma Suleiman,234-075-633-535,Residential,CofO,43485.22,"NGN 1,871,832,745",approved,2015-12-28,,Lagos Lga,Lagos,SRV/94499/2023,FALSE,false
+LND800314,sadiq  mohammed,00190432230,Agricultural,Deed,23391.85,586112971.91,PENDING,2023-06-05,29-Nov-2023,edo lga,Oyo,SRV/69117/2012,TRUE,yes
+LND800354,sadiq abubakar,0000000000,Mixed Use,Leasehold ,34692.14,"N2,675,254,463",Under Review,2017-10-28,2019/05/28,kaduna lga,Oyo,SRV/25060/2025,TRUE,true
+LND800346,Tobi Okafor,0433 335 3849,Agricultural,Leasehold,54458.09,"NGN 3,582,992,249",Pending,04.05.2019,,Ogun LGA,Enugu,NIL,Yes,0
+LND800411,Wale  Suleiman,09001248255,Residential,Deed,48143.37,"4,046,531,602.40 ",Pending,04 July 2019,24.09.2020,Ogun LGA,Plateau,SRV/57665/2019,No,Yes
+LND800271,Tunde Bello,63251448811,COMMERCIAL,CofO,92228.0,null,Under Review,21/03/2021,04 July 2022,AKWA IBOM LGA,Kaduna,SRV/55156/2017,0,no
+LND800360,Chinedu Suleiman,56691062715,Govt Reserve,Right of Occupancy,31966.99,1772075774.38,Rejected ,25.12.2016,11 September 2017,Ogun LGA,rivers,SRV/34547/2022,no,Yes
+LND800315,  Adaeze Okonkwo,0333 247 0739,Industrial,CofO,25195.7,"₦1,134,744,383.96",Approved,12/29/2023,05/02/2025,rivers lga,kano,SRV/14857/2022,true,yes
+LND800426,Zainab Eze,(586) 605-9867,Industrial ,c of o,27093.05,338561285.71 naira,Revoked,2017/07/07,19 March 2019,delta lga,Delta,SRV/79920/2015,Yes,true
+LND800050,Kunle Adeyemi,(484) 539-8628,Agric,c of o,,"NGN 4,008,955,047",Rejected,01/26/2022,17.04.2022,Edo LGA,KANO,SRV/10366/2020,0,1
+LND800264,Bisi Okeke,87045069176,Industrial,Leasehold,43712.96,"NGN 3,093,503,086",approved,19 September 2019,13/08/2021,akwa ibom lga,Delta,SRV/97376/2010,N,true
+LND800138,Kemi Ogundimu,0599 080 2711,Agricultural,COO,19693.2,"₦1,747,894,697.42",Under Review,04/07/2015,11/10/2015,Kano LGA,Kaduna,nil,Y,1
+LND800091,Funmilayo Okafor,(033) 582-6862,COMMERCIAL,Certificate of Occupancy,29125.61,nil,approved,2016/08/05,09 November 2016,Abuja LGA,Kano,SRV/66883/2025,true,yes
+LND800231,FEMI  ADEYEMI,(450) 576-6194,Mixed use,Deed,277115.95,"N3,575,414,840",PENDING,21/08/2018,28 January 2020,Abuja LGA,Oyo,SRV/87663/2021,No,yes
+LND800327,Chioma Adekunle,(000) 152-9113,Government Reserve,COO,81547.96,"₦560,812,619.03",Under Review,05/01/2017,30.08.2018,CROSS RIVER LGA,Kaduna,SRV/43185/2019,FALSE,1
+LND800088,Segun Afolabi,07767555628,residential,C of O,8265.36,3258792018.44,Under Review,14-Jul-2023,02/19/2025,Kaduna LGA,Anambra,  ,No,true
+LND800303,Emeka Afolabi,09134438998,Commercial,CofO,11225.93,"N2,603,018,772",Under Review,01 August 2020,04/16/2021,ABUJA LGA,Delta,SRV/11139/2011,Yes,TRUE
+LND800324,Amara Adeyemi,58814458220,Agricultural,c of o,5156.94,"N4,167,601,918",Rejected ,10.12.2021,,Kaduna LGA,Delta,SRV/50570/2023,No,Yes
+LND800383,Halima Okeke,(534) 407-7794,residential,Leasehold,6703.55,nil,Rejected,02/02/2018,2019-01-19,lagos lga,Akwa Ibom,SRV/16840/2016,FALSE,No
+LND800175,  Aliyu Eze,234-290-871-827,Govt Reserve,Leasehold ,72823.41,"NGN 788,997,058",Approved,2019/06/18,,PLATEAU LGA,lagos,SRV/68666/2015,true,Y
+LND800150,Tunde Mohammed,0403 253 7657,COMMERCIAL,Deed of Assignment,28046.67,"NGN 41,466,894",PENDING,22.10.2017,05/09/2018,Edo Lga,Oyo State,SRV/11836/2010,Yes,TRUE
+LND800021,   Aliyu Adekunle,02401484399,Commercial,Leasehold ,285627.15,4243887079.27,PENDING,06/24/2020,25/05/2022,anambra lga,Delta,SRV/50298/2010,TRUE,Y
+LND800024,ifeoma  okeke,23724501848,Government Reserve,Leasehold,7355.42,"N2,808,996,126",Rejected ,2019-07-26,25/05/2021,DELTA LGA,Oyo,SRV/26134/2016,FALSE,yes
+LND800259,Amara Okonkwo,72565920246,Govt Reserve,COO,41218.49,"2,843,916,844.51 ",PENDING,28-Mar-2018,07/31/2019,ogun lga,Plateau,SRV/42315/2022,TRUE,N
+LND800012,Kemi Mohammed,+234326509775,Govt Reserve,Deed,395390.57,"N1,495,343,282",Approved,11.12.2017,,Kaduna LGA,KANO,SRV/96235/2023,Y,1
+LND800246,Chidi Adeyemi,00551437769,Mixed Use,CofO,40377.1,"NGN 3,005,839,637",Approved,02/14/2020,,imo lga,Rivers State,SRV/87037/2015,Y,FALSE
+LND800289,Amaka Okonkwo,0107 322 8360,residential,Deed,37788.81,unknown,Under Review,2019-10-18,,Enugu LGA,Akwa Ibom,SRV/16849/2022,false,FALSE
+LND800118,IFEOMA LAWAL,92056775677,Industrial,CofO,18666.71,2295525204.23,Under Review,2022-04-25,17.03.2024,KANO LGA,Delta,SRV/73227/2012,Y,1
+LND800409,Musa Ajayi,(893) 708-5806,Industrial ,Deed of Assignment,1192.87,"NGN 1,163,999,521",Under Review,26-Oct-2019,11-Sep-2020,Ogun LGA,Ogun,SRV/38485/2013,true,No
+LND800011,Ibrahim Suleiman,0652 906 0320,Residential,CofO,24982.28,"₦3,966,775,571.33",Pending,2020/10/23,04-May-2021,Lagos LGA,Enugu,SRV/74474/2022,no,Yes
+LND800313,Chioma Okeke,234-394-065-578,Industrial,COO,335965.65,"₦187,065,838.07",Under Review,06 April 2018,2020-03-03,Akwa Ibom LGA,Imo,null,yes,Yes
+LND800281,Bisi Ogundimu,04010424624,residential,Certificate of Occupancy,46770.97,"N212,838,861",Rejected,22/04/2022,2023/01/16,Edo LGA,Edo,SRV/21135/2010,Yes,Y
+LND800430,obinna yusuf,(453) 931-3215,Mixed Use,Deed of Assignment,24551.73,"₦3,680,858,936.78",Revoked,01/03/2016,17-Oct-2016,ANAMBRA LGA,Cross River,SRV/25547/2023,yes,false
+LND800307,Musa Eze,(055) 738-5736,Agricultural,c of o,46428.86,nil,Under Review,2015-12-03,2017-05-03,ABUJA LGA,Kaduna,SRV/10196/2016,true,N
+LND800022,Emeka Okonkwo,00622723626,Commercial,Right of Occupancy,39224.45,"NGN 1,722,699,576",Pending,15-Aug-2020,13.08.2021,cross river lga,Plateau,SRV/57375/2013,FALSE,false
+LND800063,Sadiq Lawal,234-815-899-886,Agric,Certificate of Occupancy,13987.47,"N2,046,436,485",Under Review,15 September 2016,30-Jun-2018,rivers lga,Lagos,SRV/35859/2012,false,TRUE
+LND800217,Amaka Eze   ,12198041847,residential,Leasehold ,49069.79,2846041629.35 naira,Rejected ,01-Nov-2022,,PLATEAU LGA,Port Harcourt,SRV/84645/2015,0,1
+LND800450,Emeka Lawal,06083200487,Agric,c of o,16089.09,"N588,083,903",Revoked,2021/04/30,06/21/2021,Akwa Ibom LGA,Kano,SRV/73127/2021,0,FALSE
+LND800396,Emeka Lawal,+234182856053,Residential,Deed of Assignment,45515.1,"NGN 1,627,463,222",Pending,2017/10/28,,Edo LGA,Fct Abuja,SRV/39871/2016,TRUE,yes
+LND800294,ZAINAB ADEYEMI,03016234190,Commercial,C of O,173865.4,35567887.13 naira,Revoked,25/04/2022,19/04/2024,Imo LGA,Kaduna,SRV/97746/2010,no,FALSE
+LND800046,kunle balogun,234-785-193-583,COMMERCIAL,COO,84892.87,"NGN 3,186,056,385",Under Review,07-May-2017,,lagos lga,Lag,SRV/58631/2010,Y,1
+LND800212,Kunle Okonkwo,19626335564,residential,CofO,43915.85,"NGN 2,658,746,355",Rejected ,21-Jan-2018,,Kaduna LGA,Kaduna,nil,yes,FALSE
+LND800435,Tunde  Ajayi   ,0281 231 2392,Commercial,c of o,NIL,NIL,Rejected ,2021-10-30,2022/07/18,Anambra LGA,Rivers,SRV/14057/2025,yes,TRUE
+LND800358,Chidi Nwosu,+234050537666,Agric,Leasehold,33596.24,  ,Approved,20-Feb-2015,2015-10-31,Abuja LGA,Anambra,SRV/44967/2025,TRUE,0
+LND800096,Amara Okonkwo,52441822261,Govt Reserve,Certificate of Occupancy,  ,2669192987.12 naira,approved,09/21/2015,,Oyo LGA,Kaduna,SRV/72117/2013,1,Yes
+LND800137,Chidi Lawal,0680 656 2590,Government Reserve,Leasehold,35834.83,"₦3,129,259,886.20",Approved,14.07.2023,05/06/2025,lagos lga,Akwa Ibom,unknown,Yes,Yes
+LND800129,Musa Okeke,02951877941,Industrial ,CofO,Unknown,2971694822.52 naira,PENDING,03 October 2022,14.06.2023,Imo LGA,Akwa Ibom,SRV/11982/2020,false,TRUE
+LND800299,Wale Afolabi,04426078197,Agricultural,COO,30084.96,2812564663.04,Approved,23 November 2022,,Cross River LGA,Akwa Ibom,SRV/99229/2012,N,N
+LND800104,Zainab Afolabi,80290904637,Agric,CofO,39908.34,2036434452.3,Rejected ,26.12.2023,06.06.2024,delta lga,Plateau,SRV/64117/2018,1,1
+LND800215,Adaeze Mohammed,234-645-345-472,Mixed use,Certificate of Occupancy,13588.81,4015724200.37 naira,Rejected ,2018/07/26,2019/07/09,OGUN LGA,Plateau,SRV/69163/2022,yes,true
+LND800109,Femi Balogun,97519102312,COMMERCIAL,Certificate of Occupancy,15133.9,"NGN 3,173,191,415",PENDING,01-Aug-2018,30.12.2019,akwa ibom lga,Lagos,SRV/10868/2010,1,No
+LND800038,IBRAHIM NWOSU,25013948848,COMMERCIAL,C of O,29684.61,"N1,699,422,663",Rejected,27/12/2018,07.12.2020,PLATEAU LGA,Edo,SRV/98445/2024,N,Yes
+LND800233,KEMI ADEKUNLE,(201) 284-0083,COMMERCIAL,Certificate of Occupancy,,"N2,157,101,154",Rejected,06/01/2021,30.07.2022,ENUGU LGA,Abuja,SRV/50357/2017,false,Yes
+LND800237,Segun Olawale,0196 463 0040,Mixed Use,Right of Occupancy,25495.84,"₦4,376,345,215.81",Pending,03/01/2020,07.11.2021,Anambra Lga,Edo,SRV/97817/2015,Yes,true
+LND800051,Wale Okonkwo,0509 059 1191,Mixed Use,Deed,8613.17,"₦3,168,668,002.32",Under Review,15/09/2021,,imo lga,Edo,SRV/44098/2016,Y,true
+LND800187,Amara Ajayi   ,02688122821,COMMERCIAL,Certificate of Occupancy,493895.59,"NGN 154,319,447",Revoked,20.10.2015,09/14/2016,abuja lga,Anambra,SRV/77313/2024,Yes,1
+LND800408,Sadiq Olawale,+234829968722,Industrial,Right of Occupancy,380124.09,"₦4,381,995,759.43",approved,04/04/2023,30 November 2024,Plateau Lga,Edo,n/a,N,no
+LND800388,Chinedu Ajayi,01703211920,Mixed Use,CofO,39161.14,"NGN 3,944,447,376",Approved,11-Mar-2021,07/30/2021,Anambra Lga,Edo,SRV/30107/2021,1,TRUE
+LND800391,Segun Yusuf,234-029-502-648,Agricultural,Deed,45543.9,--,PENDING,2019-08-27,N/A,oyo lga,Cross River,SRV/27403/2017,TRUE,No
+LND800199,Funmilayo Balogun,49785249141,Govt Reserve,c of o,47580.67,"N3,860,222,350",Rejected,09 June 2019,,Lagos Lga,Lagos,SRV/13377/2016,No,Yes
+LND800103,Kemi Yusuf,+234447650471,Residential,COO,42453.2,4976645324.36 naira,approved,2022-11-22,03/11/2023,Akwa Ibom Lga,Edo,SRV/82896/2023,0,N
+LND800098,Fatima Ogundimu,(710) 267-6720,Govt Reserve,Right of Occupancy,28242.32,,Revoked,not set,10 September 2016,Abuja LGA,Enugu,SRV/47516/2025,FALSE,Y
+LND800438,Chidi Adeyemi,08172257754,Government Reserve,c of o,42131.01,--,PENDING,2021-06-17,2022-02-22,Abuja LGA,Kaduna,SRV/61778/2022,No,no
+LND800155,Bisi Nwosu,(720) 113-7984,Mixed use,CofO,328188.44,704407498.9,Revoked,2018/08/19,12 September 2019,Abuja LGA,Abuja,SRV/13505/2021,TRUE,0
+LND800309,Halima Abubakar,234-118-723-335,Agric,COO,53161.57,1707684976.64,Rejected ,03/08/2019,2019-09-17,Cross River LGA,Cross River,SRV/58438/2013,TRUE,TRUE
+LND800296,  funmilayo olawale,N/A,COMMERCIAL,CofO,1898.41,2214982878.24,Approved,16.01.2018,21-Sep-2019,Edo LGA,Akwa Ibom,  ,1,FALSE
+LND800139,Kunle Adekunle,21823155516,Agric,Certificate of Occupancy,43292.21,"N4,534,458,475",Rejected ,11/07/2017,,cross river lga,lagos,SRV/17874/2022,true,0
+LND800362,Bisi Olawale,0269 177 6829,residential,c of o,37782.84,"₦269,159,817.08",Revoked,2021/05/12,2021-11-26,plateau lga,Akwa Ibom,SRV/25793/2021,true,TRUE
+LND800350,Chinedu Okafor,75617868800,Industrial,Certificate of Occupancy,15985.8,1939186646.79 naira,Rejected ,09 October 2020,06/11/2021,Plateau LGA,Edo,SRV/94008/2014,FALSE,No
+LND800434,  Halima Okonkwo,invalid,Mixed Use,Deed,62166.94,1490678528.09 naira,approved,2016-01-22,28 September 2016,Imo LGA,Lagos,SRV/21984/2024,false,false
+LND800318,Amaka Bello,+234261632488,Commercial,Deed of Assignment,18834.52,"₦415,991,319.44",Rejected ,12/20/2020,2021-03-13,Rivers LGA,Abuja,SRV/93778/2020,Y,yes
+LND800157,Grace Okonkwo,(767) 620-9014,Mixed Use,COO,28164.98,"NGN 605,388,110",approved,,03/09/2016,Anambra LGA,Anambra,SRV/62144/2021,Yes,0
+LND800285,Zainab Chukwu,234-448-818-984,Mixed use,C of O,180.6,"₦4,909,988,763.95",Under Review,2015-04-22,,Plateau LGA,Anambra,SRV/71110/2010,true,Y
+LND800077,Zainab Nwosu,234-136-957-279,Mixed use,COO,22443.73,"1,542,445,995.17 ",PENDING,12/01/2020,,KANO LGA,Oyo State,SRV/27077/2024,1,No
+LND800067,KEMI NWOSU,(250) 800-4635,residential,CofO,7567.71,"₦1,102,215,320.98",Approved,11/14/2016,unknown date,Akwa Ibom LGA,Cross River,SRV/52738/2011,yes,TRUE
+LND800200,Halima Mohammed,06860134778,residential,Certificate of Occupancy,134862.05,"N4,327,252,138",Under Review,2016/04/18,2016-05-21,Abuja LGA,Enugu,SRV/21058/2010,1,yes
+LND800161,BISI MOHAMMED,234-965-754-278,COMMERCIAL,Right of Occupancy,44315.82,1321150705.7,Rejected ,22.08.2023,12 August 2025,Akwa Ibom Lga,Kaduna,SRV/68893/2021,no,Y
+LND800014,TOBI  ADEYEMI   ,0855 245 7871,Residential,Deed of Assignment,39361.84,"3,686,124,807.76 ",PENDING,23/05/2023,18/04/2025,Lagos LGA,Imo,SRV/72030/2018,yes,no
+LND800330,Ibrahim Nnamdi,87478122489,COMMERCIAL,COO,NULL,"N2,311,461,195",Approved,2020-01-16,2021/04/25,Ogun LGA,Enugu,SRV/61302/2024,1,Y
+LND800243,Yusuf Yusuf,+234128333721,COMMERCIAL,Deed of Assignment,217184.58,2016332816.02 naira,Under Review,12/02/2015,00/00/0000,EDO LGA,Imo,SRV/75237/2018,yes,Yes
+LND800413,FEMI AFOLABI   ,(423) 289-4633,Residential,C of O,?,"4,826,340,829.68 ",Pending,15.11.2016,2017-03-28,lagos lga,Lagos,SRV/11869/2012,true,yes
+LND800312,Yusuf Yusuf,+234820736511,Commercial,Leasehold,25836.97,"N2,490,005,834",Rejected ,16/01/2015,,Oyo LGA,Ogun,SRV/75945/2015,Y,yes
+LND800306,chioma olawale,(999) 516-7933,Commercial,C of O,139187.45,"₦1,314,767,646.53",Rejected,03 August 2017,07.04.2019,enugu lga,Kaduna,SRV/12251/2017,yes,N
+LND800331,Musa Afolabi,(056) 708-6700,Industrial ,Deed of Assignment,18074.48,"N3,960,290,363",approved,14-May-2021,,enugu lga,Ogun,SRV/52945/2018,no,true
+LND800405,Aliyu Okafor,(457) 887-0715,Govt Reserve,Leasehold ,9865.09,"3,948,872,397.14 ",Rejected,2015-09-16,28-Feb-2017,cross river lga,Imo,SRV/23814/2010,true,No
+LND800086,Funmilayo Adeyemi,26425064207,residential,C of O,1337.75,"₦797,852,219.78",Revoked,05-Jun-2015,20.03.2017,ENUGU LGA,Rivers State,SRV/52336/2016,No,N
+LND800194,Wale Mohammed,17588914444,Commercial,Leasehold,346410.38,"2,231,360,211.24 ",Rejected ,not set,19 February 2024,Enugu LGA,Abuja,NULL,FALSE,Yes
+LND800218,Tunde Bello,234-426-423-642,Mixed use,Leasehold ,228606.15,"N3,434,890,963",PENDING,2022-04-25,2023-12-11,Rivers LGA,Lagos,SRV/13393/2016,No,N
+LND800262,bola afolabi,01783325848,Agricultural,Right of Occupancy,16978.75,3903586128.33 naira,Approved,2022-06-17,08/25/2023,Edo LGA,Enugu,  ,No,TRUE
+LND800081,Adaeze Nwosu,(822) 850-1168,Government Reserve,c of o,21038.4,"NGN 1,182,888,376",Pending,31.01.2022,27/01/2024,Cross River LGA,Fct Abuja,NIL,yes,1
+LND800117,Blessing Olawale,+234575747583,Industrial ,Deed of Assignment,8239.16,"NGN 4,524,201,207",Approved,28 February 2020,,Anambra LGA,Lagos State,SRV/78576/2013,Yes,TRUE
+LND800201,Amara Yusuf,0489 634 0679,Govt Reserve,Deed of Assignment,482229.35,"N1,117,313,554",Rejected,03-Jul-2018,05/01/2019,ENUGU LGA,Kaduna,SRV/45201/2011,1,Yes
+LND800148,Aliyu Afolabi,0321 061 3394,residential,Certificate of Occupancy,16693.01,218183504.77,Revoked,2017-11-30,29.11.2019,CROSS RIVER LGA,Oyo State,SRV/80920/2013,Yes,true
+LND800348,Yusuf Chukwu,18093391373,Government Reserve,c of o,10577.37,"1,003,599,263.25 ",Rejected ,15-Feb-2016,11.08.2017,KADUNA LGA,Plateau,SRV/60042/2023,1,FALSE
+LND800311,  MUSA OGUNDIMU,+234391149830,Mixed Use,Leasehold,28235.52,"₦494,405,798.26",Approved,07 February 2017,24.12.2017,delta lga,Enugu,SRV/35259/2017,true,N
+LND800128,chinedu adeyemi,+234337970581,residential,Leasehold,-,"N945,152,019",PENDING,2017/09/22,06 November 2017,Oyo LGA,Kaduna,SRV/60405/2021,0,TRUE
+LND800193,HALIMA BALOGUN   ,+234769899927,Agric,CofO,25881.07,"N2,277,856,111",Revoked,31.07.2020,,Kaduna Lga,rivers,SRV/98058/2017,1,No
+LND800344,Femi Lawal,98803153888,COMMERCIAL,c of o,30857.67,"NGN 2,103,783,857",Rejected ,23.03.2022,,Plateau LGA,Akwa Ibom,SRV/56362/2011,1,FALSE
+LND800393,Halima Yusuf,0781 277 8221,Industrial ,Right of Occupancy,47317.41,819691979.75,Revoked,10.04.2016,29-Aug-2016,Abuja LGA,Akwa Ibom,SRV/63387/2015,no,TRUE
+LND800392,Sadiq Yusuf,16440373416,residential,Deed of Assignment,9309.0,1347254542.82,Revoked,2019/10/19,2020/05/21,Kaduna LGA,kano,NULL,no,1
+LND800286,Musa Adeyemi,(416) 046-1540,Commercial,Certificate of Occupancy,36156.47,"NGN 1,641,361,985",Approved,27/11/2016,11-Apr-2017,Rivers LGA,abuja,SRV/88308/2024,no,0
+LND800070,Bola Nwosu,(631) 403-5263,Mixed use,c of o,,"3,680,684,095.38 ",PENDING,02/09/2021,2022/08/14,Abuja LGA,Plateau,SRV/29665/2017,FALSE,1
+LND800293,Emeka Olawale,(342) 929-1320,Industrial ,Leasehold ,15726.07,"4,949,589,155.61 ",Pending,2017-09-11,23.04.2019,Edo LGA,Plateau,SRV/54531/2014,false,0
+LND800278,Ngozi Adeyemi,03095055605,Govt Reserve,Right of Occupancy,25001.33,"₦2,818,166,187.14",PENDING,,2023/03/30,Akwa Ibom LGA,Rivers,SRV/17184/2021,no,Y
+LND800165,Aliyu Okeke,(048) 235-7155,Agricultural,C of O,21980.62,"NGN 1,117,146,339",Revoked,08-Oct-2021,,Edo LGA,Plateau,SRV/79002/2025,1,yes
+LND800132,Kemi Suleiman,234-399-140-388,Mixed Use,Certificate of Occupancy,112882.5,"NGN 1,994,802,231",Pending,10/03/2020,2021/01/28,EDO LGA,abuja,SRV/62109/2025,FALSE,true
+LND800332,Blessing Eze   ,(004) 365-5158,Govt Reserve,Leasehold ,36672.14,"1,721,190,021.80 ",Under Review,08/18/2020,15.06.2021,Delta LGA,Enugu,SRV/51997/2018,TRUE,true
+LND800377,Kunle Adekunle,234-238-595-143,Govt Reserve,Certificate of Occupancy,44978.98,"₦2,842,433,132.78",approved,2019-10-23,02/08/2021,Kaduna LGA,Delta,SRV/59113/2018,yes,no
+LND800376,Segun Lawal,0696 561 3087,Agric,COO,7147.43,"₦2,001,380,898.06",Rejected,2015/11/29,01 August 2016,Edo LGA,Kaduna,?,FALSE,TRUE
+LND800402,fatima nnamdi,234-843-699-848,Industrial ,C of O,37648.49,916167263.64,Rejected,2016/06/04,2018-01-07,Rivers LGA,Ogun,SRV/68353/2024,no,no
+LND800160,Ifeoma Adeyemi,234-825-588-255,COMMERCIAL,Leasehold,24271.45,"N1,214,458,782",Pending,2020/12/21,,Plateau LGA,Enugu,SRV/42747/2018,yes,true
+LND800334,Ibrahim Olawale,0355 054 2960,residential,COO,49163.72,4901110147.34,Rejected ,15.03.2021,07 October 2021,Imo LGA,Edo,SRV/10694/2017,FALSE,TRUE
+LND800443,Tobi Lawal,62165914388,COMMERCIAL,CofO,222916.41,4767928923.24 naira,approved,26.08.2019,,Enugu LGA,Kaduna,SRV/45659/2024,TRUE,false
+LND800340,  Wale Yusuf,04642036258,Commercial,C of O,27837.05,"N892,950,075",Pending,20.02.2020,2021-10-19,cross river lga,Kano,SRV/95053/2011,0,false
+LND800149,ZAINAB CHUKWU   ,09457039438,Agric,Deed of Assignment,40365.59,2436270530.19,Revoked,2017/02/13,03/23/2018,Akwa Ibom LGA,Akwa Ibom,SRV/95494/2017,no,TRUE
+LND800100,Wale Lawal,01512294621,Industrial,COO,32618.01,"N1,554,887,105",Approved,30-Jul-2019,20 October 2019,ANAMBRA LGA,Kaduna,SRV/13969/2017,1,0
+LND800412,Fatima Adeyemi,0428 679 6325,Government Reserve,Leasehold ,236845.46,"N226,418,085",PENDING,24 October 2018,2019-11-20,Akwa Ibom LGA,Kano,SRV/34686/2013,yes,no
+LND800062,Amaka Suleiman,0000000000,Agric,Certificate of Occupancy,31150.27,"2,170,357,939.30 ",Pending,07.01.2022,21-Apr-2022,Imo LGA,Akwa Ibom,SRV/60952/2013,0,true
+LND800284,Ifeoma Balogun,0145 512 9391,Government Reserve,Right of Occupancy,17065.56,"NGN 3,195,998,849",Approved,2017/09/16,07 July 2019,Ogun LGA,Rivers State,SRV/81806/2021,false,Y
+LND800211,Amaka Okeke,(507) 896-7935,Agric,Deed,15398.04,301448997.10 naira,Revoked,05 September 2021,2022-10-26,OYO LGA,kano,SRV/25913/2019,N,0
+LND800203,Aliyu Balogun,234-418-842-163,Agricultural,Right of Occupancy,8893.64,2782512849.49,Revoked,2020/12/20,03.03.2021,Lagos LGA,Delta,SRV/54492/2017,0,FALSE
+LND800399,Zainab Eze,(212) 235-5216,Commercial,COO,442.06,"NGN 1,308,949,531",Approved,2015/03/31,03/08/2017,Cross River LGA,Port Harcourt,SRV/39095/2023,no,Yes
+LND800263,Ngozi Abubakar,89993607984,Commercial,COO,491237.64,"NGN 19,592,046",PENDING,18.12.2015,21 August 2016,Plateau LGA,Anambra,SRV/54593/2012,0,false
+LND800181,KUNLE  LAWAL,0000000000,Commercial,COO,3053.88,"926,234,829.02 ",approved,25-May-2021,12.06.2022,KADUNA LGA,Ogun,SRV/22841/2018,false,no
+LND800366,Chioma Okonkwo,0859 914 4920,Residential,Deed,48693.72,"N3,051,842,096",Rejected ,16-Sep-2019,,Cross River LGA,kano,unknown,No,Y
+LND800333,Kunle Yusuf,234-266-913-624,Agric,C of O,25031.01,"₦2,970,411,608.00",Approved,03/31/2018,09/08/2018,Enugu Lga,Cross River,SRV/83853/2019,N,TRUE
+LND800049,Segun Olawale,+234940976263,Commercial,c of o,41575.6,4788729707.89,Pending,12/25/2023,2025-08-02,imo lga,Abuja,SRV/65446/2013,1,no
+LND800018,Aliyu Afolabi,92988085838,Agricultural,Deed,19632.11,"₦3,766,508,606.68",PENDING,26.07.2018,12/29/2018,CROSS RIVER LGA,Rivers State,SRV/57131/2011,Yes,1
+LND800156,Bola Adekunle,00971231660,Agric,Leasehold ,1025.68,2935301935.13 naira,PENDING,02/06/2019,06 October 2019,Cross River LGA,Ogun,SRV/99421/2013,yes,TRUE
+LND800319,Amaka Ogundimu,99572989376,Mixed use,Deed,17429.84,"₦1,305,937,036.13",Revoked,2015/01/20,25 May 2015,Edo LGA,kano,SRV/44460/2024,FALSE,0
+LND800283,CHIOMA OKONKWO,04521289915,Agricultural,Deed of Assignment,19595.54,"NGN 2,828,038,022",Pending,27/01/2017,15/08/2018,EDO LGA,Edo,SRV/57869/2025,1,FALSE
+LND800420,Blessing Olawale,+234401536415,Government Reserve,Leasehold,29844.85,"N4,867,628,359",Approved,26-Dec-2022,2023-10-13,ABUJA LGA,Imo,SRV/93972/2012,Yes,Y
+LND800144,Bola Olawale,0039 033 9705,Residential,Right of Occupancy,?,3819834173.07 naira,PENDING,2022/08/31,10/17/2022,Oyo LGA,kano,SRV/67031/2011,TRUE,0
+LND800039,Amaka Bello,82691311964,COMMERCIAL,Certificate of Occupancy,7976.51,"N1,984,486,017",Rejected ,06/08/2020,27/03/2021,Kano LGA,oyo,SRV/56871/2011,1,yes
+LND800326,SADIQ AJAYI   ,(681) 572-4500,Commercial,Deed,8546.78,4143917168.6,Pending,00/00/0000,16 July 2023,Imo Lga,Abuja,nil,1,N
+LND800166,Bola Ajayi,68639561372,Commercial,c of o,282263.73,1464925465.42,Approved,02/26/2023,14-Feb-2024,lagos lga,Plateau,  ,TRUE,yes
+LND800176,Obinna Okeke,09680491872,Agric,c of o,127727.45,"₦2,930,465,219.80",approved,2017/12/20,28-Nov-2019,cross river lga,Lagos,SRV/80432/2024,no,N
+LND800075,Zainab Lawal,+234941163187,Mixed use,Right of Occupancy,452482.07,"₦4,294,486,300.22",Pending,29 September 2023,,oyo lga,Imo,?,0,FALSE
+LND800353,Aliyu Okonkwo,(160) 936-5952,Agricultural,c of o,35688.33,"NGN 2,444,806,002",Pending,08/28/2018,14-Feb-2019,Edo LGA,ABUJA,SRV/24380/2024,No,no
+LND800397,  HALIMA BALOGUN,234-079-866-177,Government Reserve,Deed of Assignment,4522.65,"NGN 3,146,635,818",approved,2015/01/30,23.11.2016,Kano LGA,Akwa Ibom,SRV/37876/2022,0,Y
+LND800387,CHINEDU OKEKE,234-255-235-617,Industrial,C of O,36623.16,"NGN 4,040,232,467",Pending,05.12.2015,00/00/0000,Edo Lga,Edo,SRV/27518/2017,N,true
+LND800333,Kunle Yusuf,234-266-913-624,Agric,C of O,25031.01,"₦2,970,411,608.00",Approved,03/31/2018,09/08/2018,Enugu Lga,Cross River,SRV/83853/2019,N,TRUE
+LND800171,Chioma Balogun,(070) 755-0476,Residential,Certificate of Occupancy,40158.05,"N227,769,703",Rejected,01.08.2018,03/09/2019,Anambra Lga,Cross River,SRV/59027/2023,true,N
+LND800317,Sadiq Mohammed   ,00250826112,Mixed Use,CofO,21905.73,"NGN 1,920,182,924",Rejected,2016-10-14,01/08/2017,Kaduna LGA,Enugu,SRV/44173/2014,FALSE,0
+LND800227,Chinedu Balogun,03195419666,Commercial,CofO,10278.85,"4,505,260,168.01 ",Revoked,29-Jan-2021,,enugu lga,Ogun,SRV/49240/2021,N,true
+LND800131,Blessing Eze,(597) 824-5759,COMMERCIAL,CofO,23441.13,"4,561,046,942.32 ",Approved,25 March 2019,07/02/2021,delta lga,Edo,SRV/26629/2011,FALSE,Yes
+LND800017,Tunde Okafor,+234268323035,Government Reserve,c of o,429484.78,"₦1,081,284,459.27",Pending,21.06.2023,2024/09/07,edo lga,Kano,SRV/58714/2020,FALSE,No
+LND800027,NGOZI LAWAL,0743 811 9953,residential,COO,16287.35,"₦3,568,678,506.37",Under Review,17-Jan-2015,,Rivers Lga,Delta,SRV/76353/2023,N,1
+LND800143,Emeka Adeyemi,0566 084 7068,Industrial,CofO,36446.91,1112889370.60 naira,Pending,2021/11/03,2022/12/27,Edo LGA,KANO,SRV/48169/2012,true,FALSE
+LND800321,Halima Okafor,0468 719 1203,Mixed use,Leasehold ,11705.19,"₦535,408,298.64",Revoked,23.07.2023,,Oyo Lga,Abuja,SRV/94215/2014,Y,N
+LND800427,sadiq afolabi,+234442275854,Residential,Deed,9198.94,"₦1,916,263,680.13",Pending,2021/03/08,2022-02-01,Cross River LGA,Edo,SRV/26169/2024,Y,FALSE
+LND800031,Adaeze Adekunle,+234191911359,Mixed Use,Deed,45425.6,"NGN 2,755,126,365",Rejected ,24-Nov-2017,13-Sep-2018,LAGOS LGA,KANO,SRV/13873/2023,false,false
+LND800026,Blessing Ajayi,0154 064 1769,Agricultural,Right of Occupancy,39509.7,539391248.94,Rejected,2022-11-12,,akwa ibom lga,Akwa Ibom,SRV/39100/2017,FALSE,1
+LND800167,Aliyu Okeke,03081721436,COMMERCIAL,COO,18430.88,"4,712,219,127.45 ",Pending,2018/10/08,2020-08-04,ABUJA LGA,Kano,SRV/44296/2020,Y,N
+LND800042,Emeka Nwosu,(333) 373-2043,Govt Reserve,C of O,35274.89,3872802383.75 naira,Rejected ,20-Jul-2020,2021/11/30,lagos lga,Akwa Ibom,SRV/71924/2024,true,true
+LND800110,BOLA OGUNDIMU,0110 633 0165,Govt Reserve,Leasehold ,43088.46,"₦968,796,545.45",Revoked,2019/07/30,19.07.2021,Ogun LGA,Kaduna,SRV/70053/2020,no,yes
+LND800043,  Kunle Nnamdi,97768893628,Commercial,Certificate of Occupancy,?,2404392487.48 naira,approved,07/29/2023,03 October 2024,KANO LGA,Edo,SRV/44035/2014,TRUE,Y
+LND800064,Yusuf Mohammed,34527346666,COMMERCIAL,Deed,22421.43,3044502295.9,PENDING,08/22/2019,,KADUNA LGA,Ogun,nil,1,N
+LND800304,Bisi Bello,78020586950,Government Reserve,Right of Occupancy,41189.99,"2,285,578,028.84 ",Rejected,2016/07/14,29/11/2016,Edo LGA,FCT,SRV/89395/2022,false,FALSE
+LND800082,amaka okafor,09255021306,Agric,C of O,32454.44,1813933454.19,Rejected,not set,,Edo LGA,lagos,SRV/10287/2013,no,No
+LND800093,Bisi Olawale,234-657-327-599,Commercial,Right of Occupancy,359217.71,"₦2,045,648,758.29",Under Review,2015/11/19,25 July 2017,Cross River LGA,Enugu,SRV/81736/2012,false,1
+LND800003,BLESSING OKEKE   ,+234282251207,residential,c of o,256155.43,"₦3,964,553,433.02",approved,2017/01/04,05/08/2018,Enugu LGA,Plateau,SRV/70472/2025,N,false
+LND800072,FATIMA  NNAMDI,(346) 066-6437,Industrial ,Right of Occupancy,29445.51,"NGN 1,933,526,898",Pending,00/00/0000,19 June 2018,PLATEAU LGA,rivers,NIL,Y,0
+LND800123,  Wale Chukwu,51157942387,COMMERCIAL,Right of Occupancy,47237.79,"N4,206,242,963",PENDING,08/24/2019,2021-08-07,Plateau LGA,Kaduna,SRV/46889/2023,Y,true
+LND800279,Musa Lawal,0121 988 1927,Agricultural,Right of Occupancy,25250.51,140058225.54,approved,12.09.2017,17/02/2019,Kano LGA,Anambra,SRV/36192/2011,yes,No
+LND800195,Obinna Bello,0983 553 9354,Residential,COO,9108.41,?,PENDING,00/00/0000,30-Dec-2024,ENUGU LGA,Plateau,  ,Yes,true
+LND800386,  sadiq chukwu,0068 841 3337,residential,CofO,18811.24,nil,Under Review,06/05/2019,2021-04-08,delta lga,Delta,SRV/29918/2011,no,Y
+LND800339,Zainab Suleiman,234-321-269-428,Residential,CofO,20710.19,"N3,621,203,105",approved,14.05.2023,2023-08-16,Rivers LGA,Ogun,SRV/73481/2015,no,FALSE
+LND800389,FUNMILAYO SULEIMAN,13638527789,Agricultural,COO,409511.75,3292157533.45 naira,PENDING,28/05/2019,2020-08-23,Kano LGA,Plateau,SRV/53649/2024,TRUE,true
+LND800232,  Zainab Bello,88707155348,Agric,Deed of Assignment,31850.35,505335171.65,Rejected,2015/02/28,20/02/2016,Akwa Ibom LGA,Oyo,SRV/31681/2020,N,false
+LND800394,Amaka Adekunle,21798213486,Govt Reserve,CofO,33347.39,"N4,738,540,905",approved,00/00/0000,01.03.2022,DELTA LGA,Delta,SRV/29855/2023,0,no
+LND800185,Chioma Adekunle,(508) 018-4980,COMMERCIAL,Certificate of Occupancy,533579.01,"N4,299,618,789",Rejected ,02/02/2017,18.08.2017,KANO LGA,Edo,SRV/13920/2024,false,Yes
+LND800079,   Emeka Bello,234-730-662-481,Residential,Leasehold ,19469.54,"₦4,326,598,030.89",Revoked,2015-11-03,2016-09-11,LAGOS LGA,Enugu,SRV/34575/2023,No,Yes
+LND800301,adaeze yusuf,(720) 376-3882,Mixed use,Deed of Assignment,41543.8,"NGN 905,656,392",PENDING,05.04.2023,06/25/2023,Edo LGA,Ogun,nil,true,Y
+LND800192,Femi Afolabi,0464 754 8954,Mixed Use,COO,N/A,"₦2,396,278,167.31",Pending,08/31/2016,2017/11/18,Imo Lga,Akwa Ibom,--,0,0
+LND800429,Femi Okafor,0911 650 2000,Commercial,Deed,4931.23,830875713.28,Rejected,30/11/2016,2018-03-26,AKWA IBOM LGA,Imo,SRV/95823/2023,N,TRUE
+LND800345,Femi Olawale,(245) 279-0504,Government Reserve,Leasehold ,34234.97,"NGN 4,984,083,044",Rejected ,25 August 2021,08/01/2022,abuja lga,Cross River,SRV/93521/2020,Yes,Y
+LND800069,ngozi afolabi   ,02351373990,Commercial,Deed of Assignment,18422.79,"4,132,186,674.63 ",Under Review,14.11.2020,13/02/2021,Akwa Ibom LGA,Oyo,SRV/68173/2025,1,false
+LND800448,Adaeze Abubakar,05397871375,Industrial,CofO,29875.01,"NGN 463,818,524",Pending,not set,,ANAMBRA LGA,Delta,SRV/87376/2020,Yes,Yes
+LND800158,  Tobi Okafor,73404337009,Agric,CofO,49365.79,"N2,787,459,250",Rejected,14.05.2022,19.12.2022,Edo Lga,Lagos,SRV/81727/2018,FALSE,false
+LND800199,Funmilayo Balogun,49785249141,Govt Reserve,c of o,47580.67,"N3,860,222,350",Rejected,09 June 2019,,Lagos Lga,Lagos,SRV/13377/2016,No,Yes
+LND800095,Blessing Bello,0323 415 9597,Agricultural,C of O,67859.81,4994036603.59 naira,Revoked,2016-08-08,,Akwa Ibom LGA,Imo,SRV/55742/2023,0,N
+LND800085,Ibrahim  Olawale,04577278532,Residential,Leasehold,5838.38,4678065393.53,PENDING,12/21/2022,2024-05-14,Rivers LGA,Plateau,SRV/28218/2018,true,No
+LND800190,Kunle Adeyemi,(279) 862-3984,Industrial,CofO,46327.62,"NGN 2,185,060,113",Revoked,25/12/2016,27 November 2017,Plateau LGA,Ogun,SRV/41136/2012,FALSE,No
+LND800172,Segun Okeke,+234699570607,Mixed use,C of O,18362.56,"N1,199,686,673",Under Review,15.06.2017,22/06/2018,akwa ibom lga,Kaduna,SRV/74006/2016,N,TRUE
+LND800055,Chinedu Afolabi,33515718409,Industrial,Right of Occupancy,524316.16,"N293,763,198",approved,06-May-2020,2021-10-09,Plateau Lga,Lagos,SRV/22802/2022,no,N
+LND800151,Kemi Eze,234-277-894-319,Mixed use,C of O,NIL,"N4,311,137,525",Under Review,2021-09-03,,Enugu LGA,Anambra,SRV/69331/2014,Y,N
+LND800238,Blessing Okonkwo,invalid,COMMERCIAL,COO,44566.93,null,PENDING,25.10.2016,12/17/2016,lagos lga,Imo,SRV/28152/2018,N,Yes
+LND800213,Blessing Chukwu,0343 697 0931,Agric,C of O,37823.7,"₦1,234,385,030.78",Approved,2022-02-09,2023-08-15,Delta LGA,Kaduna,SRV/76103/2016,false,Yes
+LND800122,Aliyu Balogun,0433 797 6627,Govt Reserve,Leasehold ,374479.78,"₦2,116,062,782.76",Revoked,25.09.2022,25 July 2023,Oyo LGA,LAGOS,SRV/43619/2020,1,No
+LND800432,   Chioma Nnamdi,+234144488966,Govt Reserve,Right of Occupancy,12574.14,"NGN 3,927,258,160",Pending,22.02.2017,00/00/0000,abuja lga,Ogun,SRV/33602/2024,true,TRUE
+LND800180,Musa Abubakar,90775608581,Agricultural,Right of Occupancy,1826.82,781762490.86 naira,PENDING,23/03/2022,13 April 2023,lagos lga,Cross River,SRV/14229/2018,0,no
+LND800008,Halima  Bello,234-917-793-238,Commercial,C of O,9428.94,387188899.05 naira,Approved,06.08.2022,30 May 2023,Plateau LGA,Cross River,SRV/14265/2019,No,no
+LND800254,Amara Adeyemi,0584 466 3453,COMMERCIAL,Certificate of Occupancy,32494.8,"N1,469,123,332",Under Review,04/06/2022,28-Apr-2024,Cross River LGA,Port Harcourt,SRV/34490/2018,yes,no
+LND800053,Halima Olawale   ,11696667252,Commercial,Certificate of Occupancy,42700.77,"₦3,181,013,603.02",Rejected ,24/12/2018,2020-04-28,Oyo LGA,Kaduna,SRV/64296/2023,No,FALSE
+LND800028,Halima Adeyemi,+234601444856,Agricultural,Right of Occupancy,17910.47,"₦2,427,913,854.84",Under Review,not set,10/22/2020,Oyo Lga,Lagos,NIL,1,Y
+LND800371,OBINNA BALOGUN,0669 806 9087,Mixed Use,Deed of Assignment,7695.82,"N2,511,822,502",Revoked,05.04.2017,11/24/2018,Edo LGA,Cross River,SRV/93840/2017,FALSE,N
+LND800444,Funmilayo Okonkwo,0232 553 9835,Residential,CofO,Unknown,"691,723,985.78 ",Under Review,2015-12-27,,ENUGU LGA,Oyo,SRV/80028/2012,false,false
+LND800130,Bola Suleiman,234-342-507-330,Agric,Leasehold ,240471.2,"N3,410,751,908",approved,19.09.2017,29.06.2019,Delta LGA,Kaduna,SRV/64991/2015,true,false
+LND800410,BLESSING ADEKUNLE   ,N/A,Mixed Use,Deed of Assignment,14590.56,"₦4,556,017,577.92",PENDING,14-Jan-2022,17-Sep-2023,kano lga,kano,SRV/14490/2014,FALSE,FALSE
+LND800162,Femi Chukwu,+234619425577,Agric,Deed,20739.71,NULL,Approved,N/A,2020/03/25,oyo lga,kano,SRV/91488/2021,yes,true
+LND800219,Ibrahim Lawal,01319092487,Commercial,CofO,12034.93,643318520.60 naira,Rejected,19/09/2023,2025-01-13,Abuja Lga,Cross River,SRV/89123/2010,Yes,1
+LND800080,Adaeze Chukwu,234-357-071-398,Commercial,Right of Occupancy,13678.08,"₦2,427,005,088.54",Rejected ,03/07/2018,14.03.2020,Imo LGA,Rivers,NULL,no,FALSE
+LND800221,Ibrahim Okeke,(178) 522-8230,COMMERCIAL,c of o,N/A,2979021543.05,Under Review,00/00/0000,2024-01-16,ANAMBRA LGA,LAGOS,SRV/38364/2020,1,N
+LND800356,Ibrahim Balogun,22399821374,Agricultural,C of O,14728.46,"₦391,524,070.84",Rejected ,01-Jul-2020,2021/04/29,Plateau LGA,Ogun,SRV/68397/2023,no,1
+LND800025,Bola Okeke,0197 374 1897,Government Reserve,Right of Occupancy,6931.49,"NGN 4,942,330,295",PENDING,26 November 2021,24-Mar-2022,Anambra LGA,Kaduna,SRV/14158/2020,yes,1
+LND800320,Segun Yusuf,29745493036,Residential,C of O,38620.13,1300076247.51 naira,Under Review,10 June 2021,2023/02/08,anambra lga,Cross River,SRV/69391/2023,0,Y
+LND800248,  BLESSING OKONKWO,(961) 111-0286,COMMERCIAL,Deed,--,2029384077.56 naira,Revoked,2015-10-26,,ogun lga,Rivers,SRV/85097/2020,FALSE,N
+LND800257,Halima Abubakar,0189 437 0526,Mixed use,Right of Occupancy,10892.79,"N1,413,529,082",PENDING,25 July 2021,,Enugu Lga,Enugu,SRV/60140/2010,Yes,0
+LND800424,Bisi Okafor,08198780927,Agric,CofO,382806.59,"N3,893,495,151",Revoked,2021-05-08,23 April 2022,Lagos LGA,Anambra,SRV/53907/2011,Yes,N
+LND800401,  musa ogundimu,02192596790,residential,C of O,41216.04,"₦3,050,512,045.69",Pending,07-Feb-2022,01/04/2023,Edo LGA,Rivers,SRV/47818/2015,Yes,1
+LND800065,Blessing Lawal,(170) 715-8796,Government Reserve,Leasehold ,46620.0,"N4,916,561,140",Rejected ,05/19/2017,2018/03/13,kaduna lga,Plateau,SRV/46471/2018,Y,No
+LND800414,Chioma Nwosu,+234156241528,Industrial,Deed,147581.33,"₦3,007,242,623.36",approved,2020/05/16,2022-03-21,kaduna lga,Imo,SRV/62145/2010,Y,yes
+LND800336,  Chidi Bello,234-509-822-104,Residential,CofO,3758.18,"2,313,502,807.45 ",Rejected,19.10.2016,not set,Anambra LGA,Lag,SRV/44708/2019,Yes,Y
+LND800037,AMAKA OKEKE,,Industrial,Deed,24581.56,"NGN 3,530,313,740",Rejected ,02/07/2018,2019-02-22,Ogun LGA,Ogun,N/A,1,1
+LND800151,Kemi Eze,234-277-894-319,Mixed use,C of O,NIL,"N4,311,137,525",Under Review,2021-09-03,,Enugu LGA,Anambra,SRV/69331/2014,Y,N
+LND800033,Blessing Abubakar,+234392051460,Commercial,c of o,511589.02,"NGN 3,158,884,586",Rejected,16 June 2020,2022-01-20,KANO LGA,ABUJA,SRV/30846/2024,Yes,no
+LND800068,Femi Okonkwo,06882850317,Government Reserve,COO,480360.29,"₦4,289,667,146.45",Revoked,2016/11/30,18.09.2018,Rivers LGA,Kaduna,SRV/76406/2024,1,Yes
+LND800044,Bisi Adeyemi,+234696454655,Mixed Use,COO,25345.43,"₦2,349,434,150.00",PENDING,02 October 2019,30.10.2020,Akwa Ibom LGA,Oyo State,SRV/59663/2021,true,Y
+LND800120,Kemi Nwosu,50622923106,Government Reserve,C of O,1612.73,"₦1,971,039,619.81",Under Review,15/06/2020,21.10.2021,Abuja LGA,Akwa Ibom,SRV/79604/2017,TRUE,Y
+LND800418,aliyu nnamdi,74430349189,residential,Right of Occupancy,38647.39,"NGN 457,648,191",Revoked,not set,,Kano LGA,Edo,SRV/50787/2013,no,1
+LND800059,Funmilayo Okeke,N/A,Agricultural,Deed,3333.65,"₦2,440,890,634.74",Pending,2022-12-30,23 April 2024,abuja lga,Anambra,SRV/30890/2015,1,yes
+LND800163,tunde yusuf,invalid,Agric,Deed of Assignment,14379.19,1433579709.84 naira,Rejected ,01/10/2022,14.07.2023,Kaduna LGA,Kaduna,SRV/52689/2018,FALSE,TRUE
+LND800449,Amaka Bello,invalid,Govt Reserve,c of o,161040.53,2132470983.49 naira,Rejected ,01.08.2023,,RIVERS LGA,Kaduna,SRV/80867/2015,TRUE,N
+LND800273,Funmilayo Okonkwo,+234878179415,Commercial,Right of Occupancy,36588.99,"N1,650,780,590",Rejected ,08/01/2019,07/24/2021,imo lga,Plateau,SRV/99538/2021,No,FALSE
+LND800048,Tunde Okeke,(087) 805-7215,Government Reserve,c of o,40556.96,n/a,Rejected ,2021/05/06,24.09.2021,imo lga,Kaduna,SRV/89072/2020,yes,0
+LND800359,Ibrahim Chukwu,81126003083,COMMERCIAL,Leasehold ,31147.39,"NGN 2,560,202,663",Under Review,2023-01-12,29 November 2024,akwa ibom lga,Abuja,SRV/90233/2011,FALSE,false
+LND800390,Kemi Ajayi,234-613-371-844,Mixed use,COO,22759.3,"₦3,562,263,309.26",Pending,2015-07-22,25 December 2016,Edo LGA,Oyo,SRV/14657/2010,1,no
+LND800135,OBINNA EZE,0514 743 9742,Mixed use,COO,19161.04,"₦4,927,467,890.16",approved,19/06/2016,,DELTA LGA,Ogun,SRV/13332/2018,TRUE,false
+LND800108,Blessing Okafor,29311005912,Mixed use,Right of Occupancy,418259.65,"NGN 4,127,705,223",Pending,16 November 2020,12-Feb-2022,cross river lga,Oyo,SRV/18645/2022,no,no
+LND800208,Halima Abubakar,234-223-410-346,Industrial,CofO,nil,n/a,Approved,05 October 2021,2023/08/27,Plateau LGA,Delta,SRV/76632/2023,no,no
+LND800036,emeka ajayi,234-983-541-165,Agric,C of O,20417.02,1093546798.20 naira,Rejected ,13-Aug-2017,05/04/2019,kano lga,Kaduna,SRV/75173/2018,Yes,TRUE
+LND800417,Blessing Lawal,+234078468509,Government Reserve,Right of Occupancy,19524.89,3236030892.57 naira,Approved,2015-01-07,03/08/2016,Kano LGA,Port Harcourt,SRV/85416/2023,yes,No
+LND800361,  Kemi Eze,+234123455068,Agricultural,CofO,49802.32,"N4,579,356,216",PENDING,12/03/2022,30.11.2022,Ogun Lga,Plateau,SRV/19260/2010,true,true
+LND800207,Musa Adeyemi,99471136337,COMMERCIAL,COO,23368.15,"₦4,952,645,198.78",PENDING,2020/05/17,07/03/2020,Imo LGA,Cross River,SRV/51776/2012,TRUE,Y
+LND800152,  Chinedu Suleiman,(009) 004-0476,Residential,Certificate of Occupancy,173088.46,"₦2,070,565,651.01",PENDING,03-Mar-2021,01-May-2022,Akwa Ibom LGA,Delta,SRV/92526/2015,true,true
+LND800274,chioma okeke,+234263840911,residential,Deed,20523.74,2559314752.03 naira,Pending,12/03/2020,01.08.2021,Kano LGA,Kaduna,SRV/88245/2020,N,FALSE
+LND800241,Amaka Lawal,55829849330,Mixed Use,Leasehold,69901.63,"N720,595,512",Revoked,2022/02/13,19 September 2022,Abuja LGA,kano,SRV/19749/2023,false,FALSE
+LND800167,Aliyu Okeke,03081721436,COMMERCIAL,COO,18430.88,"4,712,219,127.45 ",Pending,2018/10/08,2020-08-04,ABUJA LGA,Kano,SRV/44296/2020,Y,N
+LND800395,Adaeze Bello,02985797363,Industrial ,CofO,22020.48,"NGN 4,050,157,399",Rejected,2019-07-27,09-Aug-2020,kano lga,Ibadan,  ,true,1
+LND800016,Amaka Ogundimu,11842547681,Residential,COO,31145.76,"₦981,796,971.83",Approved,24 December 2016,2018/01/30,Delta LGA,Cross River,  ,Y,no
+LND800352,Funmilayo Mohammed,+234803657744,Mixed use,Deed of Assignment,20633.7,--,PENDING,27/05/2016,02/11/2016,KANO LGA,Ogun,SRV/70409/2019,No,N
+LND800170,Sadiq Eze,56534699799,residential,COO,32027.46,"NGN 4,735,569,255",approved,01/06/2018,31.12.2019,Rivers LGA,KANO,SRV/71680/2014,yes,Yes
+LND800005,  TOBI NNAMDI   ,00260869822,Industrial ,Deed of Assignment,5106.56,1102398248.97,approved,2017/01/18,N/A,enugu lga,Anambra,SRV/23066/2019,N,no
+LND800090,Adaeze Chukwu,234-362-718-749,Agricultural,Certificate of Occupancy,43068.89,4272010881.66 naira,Approved,07 January 2021,not set,Imo LGA,Lagos State,SRV/93538/2025,1,FALSE
+LND800145,Ibrahim Lawal,(958) 263-2809,COMMERCIAL,C of O,31486.89,"N4,605,593,908",approved,12/20/2019,10-Oct-2021,anambra lga,Oyo,SRV/13169/2015,no,No
+LND800385,  ADAEZE OLAWALE,0817 760 2991,Residential,Leasehold ,12749.04,"NGN 2,647,678,724",Rejected ,2022-09-16,,ABUJA LGA,Imo,SRV/98183/2017,Yes,1
+LND800378,Zainab Adeyemi,(682) 394-8400,Industrial ,c of o,42059.65,"₦1,959,060,686.68",Rejected,2017-08-19,2018/10/13,Abuja LGA,Kaduna,SRV/41714/2017,Yes,Y
+LND800196,Femi Abubakar   ,05864496392,Government Reserve,CofO,447683.05,N/A,approved,01.06.2015,,Kano Lga,Enugu,n/a,FALSE,true
+LND800423,musa okeke,234-214-105-276,Govt Reserve,c of o,47504.93,2420009129.63,Approved,01 December 2016,2018/10/18,rivers lga,Akwa Ibom,SRV/64883/2015,TRUE,0
+LND800268,Chioma Suleiman,08490793884,Industrial,COO,48199.59,"NGN 736,006,657",Pending,08-Feb-2021,16/10/2022,Cross River LGA,Edo,SRV/77400/2012,Y,no
+LND800259,Amara Okonkwo,72565920246,Govt Reserve,COO,41218.49,"2,843,916,844.51 ",PENDING,28-Mar-2018,07/31/2019,ogun lga,Plateau,SRV/42315/2022,TRUE,N
+LND800277,Kunle Nwosu,234-787-655-300,Commercial,Certificate of Occupancy,46053.09,"NGN 4,669,634,093",PENDING,17/02/2019,01-Dec-2019,Rivers LGA,kano,SRV/23440/2021,yes,No
+LND800415,kemi mohammed,(725) 629-2693,Agric,CofO,47722.49,"₦3,539,331,889.61",Rejected ,04/18/2015,,Abuja LGA,Anambra,SRV/23383/2015,1,1
+LND800210,Kunle Okonkwo,+234960843768,residential,C of O,32099.11,"₦3,846,831,791.72",Rejected,2019/08/30,12/03/2019,Lagos LGA,Fct Abuja,SRV/13864/2012,yes,No
+LND800029,Grace Afolabi,(510) 173-9739,Agric,Leasehold,28215.83,"N4,381,377,196",Rejected ,03 March 2016,00/00/0000,Akwa Ibom LGA,Edo,SRV/78626/2012,Y,0
+LND800215,Adaeze Mohammed,234-645-345-472,Mixed use,Certificate of Occupancy,13588.81,4015724200.37 naira,Rejected ,2018/07/26,2019/07/09,OGUN LGA,Plateau,SRV/69163/2022,yes,true
+LND800292,Amaka Mohammed,234-916-497-016,Govt Reserve,Deed of Assignment,35026.98,"NGN 4,936,050,905",Under Review,27.02.2018,2018/12/25,ABUJA LGA,Ogun,SRV/53097/2018,TRUE,FALSE
+LND800060,Grace Nwosu,234-529-821-739,Residential,Leasehold ,41509.85,"N4,065,583,075",Revoked,2021-10-30,09/17/2023,Delta LGA,Abuja,SRV/25487/2012,TRUE,false
+LND800255,Sadiq Balogun,+234220109121,Agric,Deed,14775.9,"₦4,450,459,505.11",Pending,16-Jun-2019,2019-07-25,Ogun LGA,Edo,SRV/69520/2015,FALSE,No
+LND800436,Ngozi Nwosu,234-910-601-836,Residential,CofO,5369.19,"₦1,966,282,799.52",approved,18-Oct-2015,,cross river lga,Ogun,SRV/63729/2016,1,Y
+LND800447,Tunde Lawal,+234997029271,Residential,c of o,14866.18,"₦2,810,854,146.26",Pending,2021/08/29,2022/08/23,Edo LGA,Akwa Ibom,SRV/75661/2018,1,No
+LND800275,Musa Olawale,(252) 883-7505,Mixed Use,COO,40358.75,2840816606.39,Approved,2018/01/08,2019-02-20,Kaduna LGA,oyo,SRV/90772/2019,No,yes
+LND800269,emeka afolabi,0368 528 3061,Govt Reserve,C of O,326061.37,"₦1,512,536,028.34",Pending,16/04/2018,17-Jan-2020,EDO LGA,Cross River,SRV/97581/2017,No,Y
+LND800400,Funmilayo Okeke,05871469218,Government Reserve,C of O,7392.46,"₦4,453,081,798.33",PENDING,08 December 2017,2018-08-07,akwa ibom lga,Kano,SRV/55445/2023,1,Yes
+LND800099,kunle eze,0579 927 0795,Govt Reserve,COO,9959.66,"₦2,035,907,209.92",PENDING,2023/02/19,21 July 2024,anambra lga,Imo,SRV/32925/2012,0,No
+LND800010,Ngozi Olawale,invalid,Industrial,Leasehold,45647.11,"1,661,768,602.91 ",Approved,2018-09-02,21-Jun-2019,CROSS RIVER LGA,Plateau,SRV/74490/2020,No,false
+LND800040,Kemi Nwosu,25856261499,Agric,CofO,-,unknown,approved,22-Dec-2016,,anambra lga,Ogun,SRV/56184/2016,TRUE,TRUE
+LND800370,CHINEDU ADEKUNLE,04993231234,Industrial ,C of O,7589.79,"NGN 2,302,744,109",Under Review,2017-06-30,09-Dec-2017,ENUGU LGA,Cross River,SRV/96204/2018,1,Yes
+LND800338,Sadiq Lawal,234-773-836-381,Industrial,Deed,17051.3,"NGN 2,514,942,970",Revoked,00/00/0000,2017/01/20,Enugu LGA,Oyo,SRV/76350/2016,false,TRUE
+LND800229,Funmilayo Olawale,02463203747,Government Reserve,c of o,13309.96,"N4,417,417,858",approved,2020/07/22,04 October 2020,Abuja LGA,Kano,SRV/85911/2012,1,0
+LND800300,fatima abubakar,04373476427,Industrial,c of o,30544.23,4681189844.2,Rejected ,2023/12/06,03 May 2025,EDO LGA,Anambra,SRV/18990/2016,Y,Y
+LND800101,Musa Nwosu,54159709962,Industrial ,Right of Occupancy,8764.34,1217112692.84,Rejected,08.01.2021,,Delta LGA,Anambra,SRV/22636/2018,no,N
+LND800209,Obinna Bello,0967 331 1677,COMMERCIAL,Right of Occupancy,418583.33,"NGN 3,749,642,598",approved,2015-01-03,2015-03-09,Cross River LGA,Akwa Ibom,SRV/66957/2017,no,1
+LND800228,AMARA AFOLABI,05057303627,Government Reserve,Right of Occupancy,265825.38,15411361.74,Rejected ,2017-12-28,11 October 2019,Plateau LGA,Edo,SRV/80713/2010,yes,FALSE
+LND800442,  amaka ajayi,09205222999,Mixed Use,Deed,22560.2,"N3,363,031,014",Pending,29.08.2016,23.09.2017,Kano LGA,Enugu,SRV/44959/2016,1,FALSE
+LND800142,Emeka Okonkwo,03700332285,COMMERCIAL,Certificate of Occupancy,4513.02,"N1,929,038,666",Approved,2021-06-03,2022/07/20,Delta LGA,Cross River,SRV/20050/2021,No,FALSE
+LND800249,Segun Adeyemi   ,(120) 072-0245,Mixed use,C of O,3054.53,"NGN 2,112,663,729",Revoked,07 November 2023,2024/06/07,Lagos LGA,Cross River,?,1,0
+LND800341,Aliyu Ajayi,03144170646,Residential,Leasehold,19075.8,4882361127.44,Revoked,14.12.2021,2023-07-26,Enugu LGA,Delta,SRV/73896/2016,no,Y
+LND800245,Segun Mohammed,+234715066626,Agric,Deed of Assignment,20939.29,"3,704,403,097.96 ",Pending,26-Mar-2018,18.12.2019,Kano LGA,Oyo,SRV/92959/2021,0,FALSE
+LND800422,Halima Lawal,67813675009,Mixed Use,Deed,47063.03,"2,432,497,039.28 ",Rejected,03 September 2022,19.08.2023,Abuja LGA,kano,SRV/90615/2014,0,Yes
+LND800146,Ibrahim Chukwu,+234858623945,Government Reserve,COO,8522.66,"N203,053,003",Under Review,19-Sep-2019,,Ogun Lga,Akwa Ibom,SRV/43070/2018,0,1
+LND800141,Ibrahim Lawal,(137) 214-3308,Mixed Use,Deed,21017.3,"NGN 1,536,029,300",Under Review,11/10/2019,15-Sep-2020,imo lga,Ogun,SRV/84664/2025,N,true
+LND800035,Kemi Olawale,0238 856 5271,Industrial,Leasehold ,45157.65,"N1,503,842,399",Under Review,2016/05/27,15/05/2017,Enugu LGA,FCT,SRV/23659/2017,0,false
+LND800322,Kunle Ajayi,(187) 692-0828,Agric,Deed,11965.15,"₦734,903,063.83",Under Review,04/12/2019,20/04/2020,Ogun LGA,Enugu,SRV/20001/2017,Yes,No
+LND800133,Wale Mohammed,36604432400,residential,Deed,36775.22,"NGN 3,151,176,372",Pending,12-Apr-2022,07/24/2022,delta lga,Kaduna,SRV/27718/2010,No,true
+LND800431,  Amaka Abubakar,(130) 557-0836,Agric,Deed of Assignment,41143.3,2394572932.12 naira,PENDING,12.11.2019,,Kaduna LGA,Imo,--,Yes,Y
+LND800444,Funmilayo Okonkwo,0232 553 9835,Residential,CofO,Unknown,"691,723,985.78 ",Under Review,2015-12-27,,ENUGU LGA,Oyo,SRV/80028/2012,false,false
+LND800139,Kunle Adekunle,21823155516,Agric,Certificate of Occupancy,43292.21,"N4,534,458,475",Rejected ,11/07/2017,,cross river lga,lagos,SRV/17874/2022,true,0
+LND800247,Adaeze Chukwu,0663 439 2529,Mixed Use,COO,17933.13,"NGN 636,326,897",Rejected ,01/09/2022,08/29/2023,delta lga,Anambra,n/a,Yes,yes
+LND800240,  bisi yusuf,(117) 595-7498,residential,c of o,17641.69,2180458309.30 naira,Rejected ,17 January 2020,,DELTA LGA,Abuja,SRV/47051/2025,true,no
+LND800446,chinedu yusuf,0309 544 9791,Industrial,Right of Occupancy,411582.21,"₦4,486,512,647.22",Revoked,13 February 2021,unknown date,Kaduna LGA,Oyo State,SRV/42636/2015,false,Yes
+LND800440,Adaeze Nnamdi,18768316082,Agric,COO,39925.07,"₦1,291,139,328.04",Approved,11/23/2018,04 September 2020,Ogun LGA,Akwa Ibom,SRV/75009/2021,No,false
+LND800056,Bisi  Yusuf,0080 512 0800,Industrial,Leasehold ,41834.39,1610227281.81,Rejected ,10.03.2020,,Abuja LGA,Lagos,SRV/62075/2011,0,Yes
+LND800168,Ibrahim Chukwu,0381 300 0413,Mixed Use,Right of Occupancy,373322.65,n/a,Rejected ,23-Dec-2016,04/02/2018,delta lga,Imo,SRV/14364/2014,No,Yes
+LND800107,Emeka Ogundimu,+234810213125,Industrial ,C of O,nil,3616560400.17 naira,Approved,16-Feb-2021,30-May-2021,Ogun LGA,Anambra,SRV/11259/2022,No,Yes
+LND800252,yusuf okeke,0819 421 7942,Government Reserve,Certificate of Occupancy,3280.63,3264750832.32,Approved,04/28/2016,11 September 2016,Edo LGA,Anambra,N/A,false,Y
+LND800267,Tobi Balogun,+234606014886,Government Reserve,C of O,3365.38,"₦389,704,686.05",PENDING,22.04.2018,2019/01/07,Edo LGA,Imo,SRV/31807/2020,0,1
+LND800342,Tunde Nwosu,05540263558,Commercial,c of o,26588.66,4033606403.86 naira,Revoked,06/29/2018,03.08.2019,Ogun LGA,FCT,SRV/66195/2019,TRUE,0
+LND800094,obinna okafor,01110005155,Agricultural,c of o,40536.45,"₦2,915,274,195.60",Revoked,17 May 2015,12/06/2016,kano lga,Edo,SRV/73117/2013,false,TRUE
+LND800074,Bola Okafor,71285246484,Industrial,Right of Occupancy,46805.47,"₦2,626,661,717.41",Rejected ,09 July 2023,2025/01/20,anambra lga,Cross River,SRV/45650/2016,0,Y
+LND800178,Aliyu Okonkwo,+234730626042,Mixed use,Right of Occupancy,9792.82,320607412.03,Pending,2017-01-16,,rivers lga,Ogun,SRV/13663/2022,true,Yes
+LND800205,Funmilayo Nnamdi,39994853208,Industrial,C of O,1084.61,"NGN 2,136,275,429",Rejected ,07/01/2015,29.10.2015,kaduna lga,Edo,SRV/15440/2019,true,no
+LND800047,zainab abubakar,234-907-977-961,Govt Reserve,c of o,Unknown,"N4,658,408,698",Revoked,02 July 2022,03/11/2023,Plateau LGA,Kano,SRV/91489/2023,N,1
+LND800186,Amaka Yusuf,0000000000,Industrial ,C of O,394875.29,"₦1,471,980,601.61",Under Review,17 March 2023,unknown date,OGUN LGA,Lagos,SRV/18091/2024,N,false
+LND800287,Blessing Adeyemi,(119) 017-0756,residential,Right of Occupancy,476227.88,"₦2,156,876,248.50",Rejected,31/08/2018,30.09.2019,Anambra LGA,rivers,SRV/74107/2019,No,N
+LND800343,Tobi  Ajayi,234-301-764-644,Mixed Use,COO,3588.84,1155285720.98,Rejected,02/21/2021,23 July 2022,Enugu LGA,Kano,SRV/36489/2013,Y,Yes
+LND800316,Amara Okonkwo,234-135-462-127,COMMERCIAL,Deed,364434.6,"₦4,979,427,508.33",Pending,2021-03-31,25/10/2021,kano lga,KANO,SRV/46980/2015,N,0
+LND800335,Chioma Balogun,234-706-336-998,Agric,c of o,10171.54,"₦2,333,897,170.42",approved,03/01/2015,28.05.2015,ANAMBRA LGA,Enugu,NULL,FALSE,yes
+LND800066,Sadiq Olawale,07408031499,Agric,CofO,341391.89,"₦1,567,090,925.38",PENDING,14.09.2017,04/02/2019,delta lga,Anambra,SRV/38273/2025,0,no
+LND800349,NGOZI AFOLABI,+234653060119,Industrial,Deed,17920.47,"NGN 1,805,452,811",approved,2022/03/09,2024/02/26,OYO LGA,Cross River,SRV/44078/2016,TRUE,yes
+LND800276,Ibrahim Adeyemi,0618 632 3979,Industrial,C of O,13239.1,"N1,781,437,206",PENDING,07/05/2021,2021-10-05,Rivers LGA,Plateau,SRV/73554/2024,Yes,N
+LND800198,Kunle Adeyemi,0433 952 7536,Government Reserve,Leasehold,18630.35,"N4,984,138,170",Approved,12/03/2019,12/07/2020,OGUN LGA,Enugu,SRV/74972/2019,0,no
+LND800136,Bisi Bello,234-501-058-752,COMMERCIAL,Leasehold ,NULL,"3,674,381,417.45 ",Revoked,10-Jul-2015,24 November 2015,Cross River LGA,Oyo,SRV/89063/2012,Yes,FALSE
+LND800124,Aliyu Ogundimu,234-670-425-496,Agric,Certificate of Occupancy,?,1402592525.64,Rejected,22 December 2023,2024-03-24,edo lga,Kaduna,SRV/37789/2020,true,yes
+LND800291,Segun Adeyemi,+234845269694,COMMERCIAL,CofO,nil,"N918,108,852",Rejected,not set,,KADUNA LGA,Rivers,SRV/39388/2010,true,false
+LND800230,Bola Nnamdi,(775) 372-6032,residential,COO,31261.06,"₦1,801,673,116.43",Revoked,12/10/2019,not set,Edo LGA,Ogun,SRV/28733/2020,TRUE,true
+LND800071,Bisi Lawal,234-022-939-469,Government Reserve,Deed of Assignment,22699.75,"NGN 4,225,266,317",Rejected ,12/26/2023,,Anambra LGA,Edo,SRV/36936/2018,yes,true
+LND800142,Emeka Okonkwo,03700332285,COMMERCIAL,Certificate of Occupancy,4513.02,"N1,929,038,666",Approved,2021-06-03,2022/07/20,Delta LGA,Cross River,SRV/20050/2021,No,FALSE
+LND800092,Kunle Chukwu,234-369-249-269,Industrial ,c of o,38608.19,"N1,587,481,650",Rejected,10/03/2017,,delta lga,Oyo,SRV/74097/2011,true,FALSE
+LND800298,Chinedu Nnamdi,02007843614,Residential,Certificate of Occupancy,44568.46,"NGN 2,175,091,978",Pending,18/07/2022,2024-07-04,Kaduna LGA,Plateau,SRV/60297/2013,0,N
+LND800357,Amaka Lawal,(556) 114-0428,Agricultural,Right of Occupancy,47467.31,4383555477.19 naira,Under Review,2023-07-29,not set,oyo lga,Delta,SRV/25991/2013,false,Yes
+LND800398,Adaeze Suleiman   ,+234736820506,COMMERCIAL,Leasehold,230073.5,"N4,344,781,471",Approved,02 September 2021,,IMO LGA,Oyo,SRV/60484/2018,Yes,N
+LND800045,Zainab Ogundimu,05851253892,residential,Right of Occupancy,NIL,"NGN 1,376,526,941",PENDING,2023-08-23,07 May 2024,Plateau LGA,Imo,SRV/45321/2020,false,0
+LND800188,grace eze,invalid,Commercial,C of O,38561.25,  ,Rejected,28.08.2019,12/10/2019,KADUNA LGA,Abuja,SRV/66941/2015,0,No
+LND800154,Musa Yusuf,04014247310,Mixed use,Deed,333905.31,4107324078.41 naira,Revoked,02/04/2020,20 July 2020,Ogun LGA,Edo,SRV/80858/2025,yes,FALSE
+LND800421,  blessing olawale,(715) 531-3259,Commercial,C of O,48999.97,"₦42,208,868.40",PENDING,16 June 2018,09-Apr-2019,imo lga,Delta,SRV/30026/2012,1,yes
+LND800202,Segun Olawale,76651221500,Mixed use,Leasehold ,26208.82,3976113243.48 naira,Rejected ,13.05.2023,12/13/2023,AKWA IBOM LGA,Ogun,SRV/68954/2018,FALSE,No
+LND800191,Tobi Nnamdi,(169) 061-8120,Industrial,Leasehold,416054.22,2975610469.80 naira,approved,2023-09-02,2024-07-03,OGUN LGA,Kaduna,SRV/44693/2016,no,Yes
+LND800145,Ibrahim Lawal,(958) 263-2809,COMMERCIAL,C of O,31486.89,"N4,605,593,908",approved,12/20/2019,10-Oct-2021,anambra lga,Oyo,SRV/13169/2015,no,No
+LND800225,Grace Bello,07876886878,Mixed Use,Certificate of Occupancy,-,"N305,023,341",approved,11 October 2019,,Cross River LGA,kano,SRV/37685/2017,no,0
+LND800384,Segun Nnamdi,(207) 266-2925,Mixed use,Deed of Assignment,20478.86,"NGN 3,647,920,727",Approved,09/05/2016,04-Aug-2018,Kaduna LGA,Delta,SRV/19094/2015,true,Yes
+LND800347,Grace Yusuf,234-632-111-978,Mixed Use,Right of Occupancy,unknown,"N2,189,196,945",PENDING,29.03.2023,30-Dec-2023,Delta LGA,Abuja,SRV/48469/2023,false,no
+LND800174,kemi nwosu,(970) 548-7396,COMMERCIAL,Deed of Assignment,89059.94,"NGN 908,816,841",Revoked,25/12/2022,09/06/2023,akwa ibom lga,Plateau,SRV/29265/2011,Y,TRUE
+LND800272,Ibrahim Nwosu,234-103-142-175,Residential,Right of Occupancy,13098.79,2172564555.35 naira,Rejected ,2018-08-29,29 September 2018,EDO LGA,oyo,SRV/56633/2011,1,N
+LND800177,GRACE OGUNDIMU,+234204956121,Commercial,CofO,487229.66,"946,501,386.02 ",Rejected,20-Mar-2019,06/28/2019,ENUGU LGA,Port Harcourt,SRV/69044/2024,false,false
+LND800407,Amaka Ajayi,07461917798,Agric,Deed of Assignment,181590.51,1609576125.99,Pending,28-Apr-2020,09/13/2020,Plateau LGA,kano,SRV/64332/2011,false,1
+LND800224,Obinna Mohammed,02132901620,Agricultural,COO,3081.7,"N1,035,635,558",Revoked,26.01.2021,17/08/2021,abuja lga,Lagos,SRV/98809/2021,yes,0
+LND800147,Musa Bello,05461470798,residential,Leasehold ,457513.81,2004976621.03 naira,Pending,10/29/2018,2019/06/02,anambra lga,Oyo,,no,0
+LND800325,Obinna Yusuf   ,67323182971,Govt Reserve,Deed,31899.58,"4,074,560,958.80 ",Approved,08/03/2015,05/20/2016,Cross River Lga,Lagos,SRV/23138/2010,Y,Y
+LND800445,Amara Chukwu,(446) 177-7326,Commercial,Leasehold ,32997.25,2209798475.95 naira,Under Review,07.01.2021,08/05/2022,LAGOS LGA,Oyo,SRV/96022/2019,false,Y
+LND800244,musa adekunle,08566695413,Mixed Use,C of O,36691.56,"NGN 3,869,444,714",Under Review,05 September 2015,12 March 2016,Rivers LGA,Plateau,SRV/67741/2017,0,0
+LND800184,Emeka Yusuf,+234180332426,COMMERCIAL,Deed of Assignment,7097.6,336228563.01,Revoked,20/03/2023,05.12.2023,Imo Lga,Kano,SRV/13953/2021,No,false
+LND800226,wale chukwu,99648628720,COMMERCIAL,Leasehold ,9369.67,"₦539,062,174.26",Rejected ,09 December 2017,,kano lga,Fct Abuja,-,FALSE,yes
+LND800250,emeka okonkwo,0910 245 1091,Industrial ,Leasehold,14944.05,2059906057.55 naira,PENDING,2019-07-13,2019/09/15,cross river lga,Imo,,yes,N
+LND800280,Bisi Adekunle,(885) 190-5348,Residential,Right of Occupancy,5963.71,2028235298.76,Revoked,2017-05-03,14-Jul-2017,Edo Lga,Imo,SRV/91953/2016,false,true
+LND800019,Blessing Abubakar,(252) 129-3289,COMMERCIAL,Deed of Assignment,1015.23,4003882897.29 naira,Revoked,2021-11-21,21/09/2022,EDO LGA,Enugu,SRV/52285/2019,N,false
+LND800373,Grace Ajayi,(893) 595-3828,Mixed use,Certificate of Occupancy,40432.62,4169131974.81 naira,Rejected ,N/A,11/15/2016,Ogun LGA,Cross River,--,0,Y
+LND800282,Tobi Lawal,+234185174460,Agric,CofO,27899.74,-,Rejected ,2017/08/22,,Abuja LGA,Edo,SRV/34806/2021,0,false
+LND800261,Musa Adekunle,+234260055955,Industrial,Deed of Assignment,177956.37,-,Approved,05-Jan-2018,10.12.2018,AKWA IBOM LGA,Imo,SRV/68011/2018,No,false
+LND800310,Zainab Balogun,(040) 961-4973,Industrial ,C of O,28239.68,"₦2,579,709,162.63",Revoked,20.11.2018,05/22/2020,Kano LGA,Ogun,SRV/95971/2020,yes,N
+LND800288,Yusuf Ajayi,234-429-831-522,residential,Leasehold,n/a,"N1,738,426,822",PENDING,26/05/2017,2018-05-01,akwa ibom lga,Cross River,SRV/49131/2025,N,0
