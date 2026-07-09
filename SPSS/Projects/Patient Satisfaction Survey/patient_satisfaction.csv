@@ -1,0 +1,251 @@
+PatientID,Age,Gender,MaritalStatus,InsuranceType,HospitalBranch,Department,AppointmentChannel,MonthlyIncome_Naira,YearsAsPatient,VisitsPastYear,Q1_StaffCourtesy,Q2_ClearCommunication,Q3_FacilityCleanliness,Q4_WaitTimeReasonable,Q5_QualityOfCare,WaitTimeMinutes,OverallSatisfaction,LikelihoodToRecommend,ComplaintsPast6Months,WouldReturnForCare
+3001,35,Female,Married,Private HMO,Ibadan,Outpatient,Online Booking,275200.0,1.1,2,1,1,2.0,2,1,71.0,2.0,2,3,No
+3002,63,Female,Single,Out-of-Pocket,Lagos,Outpatient,Online Booking,107400.0,2.9,3,3,3,,4,2,57.0,4.0,5,0,No
+3003,40,Female,Married,NHIS,Lagos,Surgery,Online Booking,110400.0,1.6,4,2,4,3.0,2,3,47.0,4.0,2,3,No
+3004,53,Male,Married,Out-of-Pocket,Ibadan,Maternity,Walk-in,166300.0,1.3,3,5,4,3.0,4,4,41.0,8.0,9,1,No
+3005,45,Female,Widowed,Out-of-Pocket,Lagos,Pediatrics,Phone Booking,103800.0,7.5,1,2,3,2.0,3,3,37.0,4.0,0,2,No
+3006,59,Female,Married,Out-of-Pocket,Port Harcourt,Surgery,Walk-in,67400.0,4.1,2,2,3,3.0,3,3,45.0,6.0,4,1,Yes
+3007,37,Male,Single,Employer-Sponsored,Port Harcourt,Pediatrics,Walk-in,275000.0,0.3,1,4,3,4.0,4,4,24.0,6.0,7,0,Yes
+3008,23,Male,Married,Private HMO,Ibadan,Pediatrics,Walk-in,141000.0,0.2,4,3,5,3.0,4,4,41.0,7.0,8,0,No
+3009,35,Female,Single,Private HMO,Lagos,Outpatient,Online Booking,226600.0,1.9,3,3,3,3.0,2,2,45.0,3.0,1,0,Yes
+3010,54,Male,Single,Employer-Sponsored,Port Harcourt,Outpatient,Phone Booking,220200.0,2.7,3,3,4,3.0,3,2,50.0,6.0,7,0,No
+3011,54,Female,Married,Out-of-Pocket,Ibadan,Outpatient,Phone Booking,92100.0,,2,4,4,3.0,5,4,11.0,7.0,8,0,Yes
+3012,74,Female,Married,Employer-Sponsored,Ibadan,Pediatrics,Online Booking,167500.0,8.3,4,2,2,2.0,3,2,50.0,3.0,4,3,No
+3013,32,Female,Widowed,Employer-Sponsored,Abuja,Surgery,Online Booking,133100.0,1.9,3,3,3,3.0,4,3,38.0,5.0,5,3,No
+3014,42,Female,Single,Out-of-Pocket,Abuja,Pediatrics,Online Booking,126600.0,8.6,3,3,4,3.0,4,4,32.0,6.0,6,1,Yes
+3015,72,Male,Divorced,Private HMO,Kano,Emergency,Phone Booking,419100.0,11.5,3,1,1,2.0,3,2,74.0,2.0,0,3,No
+3016,24,Male,Married,NHIS,Port Harcourt,Emergency,Online Booking,82000.0,1.7,7,5,4,5.0,4,5,29.0,7.0,6,0,Yes
+3017,58,Male,Single,Out-of-Pocket,Abuja,Outpatient,Walk-in,119700.0,6.1,3,4,4,4.0,4,5,27.0,9.0,8,0,No
+3018,73,Female,Married,Private HMO,Kano,Emergency,Online Booking,321700.0,3.6,2,4,3,4.0,4,4,39.0,7.0,5,0,Yes
+3019,71,Male,Married,Private HMO,Lagos,Outpatient,Walk-in,292200.0,4.5,5,4,5,4.0,4,3,31.0,8.0,6,1,Yes
+3020,57,Male,Single,Private HMO,Abuja,Maternity,Walk-in,343300.0,8.7,1,2,2,,4,2,,7.0,5,0,Yes
+3021,69,Male,Single,Employer-Sponsored,Port Harcourt,Maternity,Online Booking,138900.0,15.0,3,4,4,4.0,4,5,16.0,5.0,4,0,Yes
+3022,29,Male,Married,NHIS,Kano,Emergency,Referral,75700.0,3.4,2,4,2,2.0,2,2,39.0,6.0,7,1,Yes
+3023,61,Female,Married,NHIS,Ibadan,Emergency,Walk-in,77600.0,4.2,2,1,2,2.0,1,1,54.0,2.0,2,5,Yes
+3024,56,Male,Widowed,NHIS,Lagos,Maternity,Walk-in,81600.0,1.9,2,3,3,2.0,4,3,54.0,5.0,5,0,Yes
+3025,47,Female,Single,Out-of-Pocket,Lagos,Maternity,Phone Booking,184600.0,4.4,2,4,3,4.0,3,2,47.0,6.0,7,3,Yes
+3026,75,Male,Single,Private HMO,Abuja,Emergency,Phone Booking,351800.0,4.7,1,4,2,2.0,3,3,61.0,6.0,4,0,No
+3027,67,Female,Married,Out-of-Pocket,Abuja,Outpatient,Walk-in,219100.0,9.2,5,3,3,,3,1,67.0,5.0,5,0,No
+3028,30,Female,Married,Out-of-Pocket,Lagos,Surgery,Walk-in,195100.0,0.6,0,2,1,3.0,3,2,40.0,4.0,3,1,Yes
+3029,74,Male,Single,Out-of-Pocket,Lagos,Outpatient,Phone Booking,114400.0,12.0,1,2,3,2.0,3,2,52.0,5.0,4,0,Yes
+3030,67,Female,Single,NHIS,Kano,Emergency,Walk-in,102200.0,6.7,2,3,3,3.0,3,3,42.0,5.0,6,2,Yes
+3031,39,Male,Married,NHIS,Lagos,Surgery,Phone Booking,113400.0,1.4,0,2,1,1.0,2,2,63.0,1.0,1,1,No
+3032,58,Female,Married,Out-of-Pocket,Kano,Outpatient,Walk-in,81300.0,9.7,1,2,3,3.0,4,2,45.0,6.0,8,0,Yes
+3033,63,Male,Married,Employer-Sponsored,Port Harcourt,Emergency,Online Booking,309700.0,7.7,1,2,2,3.0,2,3,48.0,5.0,4,1,Yes
+3034,30,Male,Married,Private HMO,Lagos,Emergency,Online Booking,333500.0,2.8,0,3,4,3.0,3,5,,8.0,9,0,Yes
+3035,33,Male,Married,Private HMO,Port Harcourt,Emergency,Online Booking,142000.0,1.8,1,2,1,1.0,1,2,59.0,3.0,1,1,No
+3036,28,Male,Married,NHIS,Lagos,Outpatient,Referral,115700.0,1.4,0,2,3,2.0,3,3,38.0,7.0,7,0,Yes
+3037,44,Male,Married,Out-of-Pocket,Lagos,Surgery,Referral,103100.0,,3,3,3,3.0,2,3,59.0,4.0,3,0,No
+3038,73,Male,Single,NHIS,Lagos,Surgery,Online Booking,89800.0,15.9,4,2,4,3.0,2,3,47.0,,7,1,Yes
+3039,40,Male,Widowed,Out-of-Pocket,Ibadan,Outpatient,Online Booking,200200.0,0.6,4,3,4,4.0,3,3,43.0,7.0,7,1,Yes
+3040,37,Male,Married,Private HMO,Ibadan,Maternity,Online Booking,365800.0,3.2,0,5,4,3.0,3,2,41.0,6.0,7,0,No
+3041,71,Female,Married,Out-of-Pocket,Kano,Emergency,Phone Booking,167000.0,7.6,2,3,3,4.0,4,4,23.0,6.0,5,4,Yes
+3042,43,Male,Married,NHIS,Lagos,Outpatient,Online Booking,63800.0,0.2,3,4,5,5.0,4,5,21.0,7.0,7,0,Yes
+3043,21,Female,Married,Employer-Sponsored,Lagos,Outpatient,Online Booking,171400.0,0.2,3,5,4,3.0,5,4,36.0,8.0,6,1,Yes
+3044,56,Female,Married,Private HMO,Lagos,Pediatrics,Online Booking,333300.0,2.3,2,2,2,3.0,2,2,74.0,3.0,2,1,No
+3045,62,Female,Married,Employer-Sponsored,Ibadan,Outpatient,Walk-in,197900.0,8.6,3,1,1,1.0,2,1,73.0,1.0,1,4,No
+3046,43,Male,Single,NHIS,Lagos,Surgery,Online Booking,114100.0,6.2,2,3,3,2.0,3,3,49.0,5.0,2,2,Yes
+3047,72,Female,Single,Out-of-Pocket,Port Harcourt,Pediatrics,Walk-in,128800.0,2.6,0,3,3,3.0,3,4,,6.0,6,2,No
+3048,18,Male,Married,Out-of-Pocket,Abuja,Surgery,Online Booking,118800.0,1.2,1,5,4,4.0,3,4,17.0,7.0,5,4,No
+3049,68,Female,Single,NHIS,Ibadan,Pediatrics,Referral,132300.0,,1,3,5,3.0,3,4,35.0,7.0,7,0,Yes
+3050,33,Male,Single,NHIS,Ibadan,Pediatrics,Phone Booking,85200.0,1.9,4,4,4,4.0,4,4,,7.0,5,0,Yes
+3051,64,Male,Married,Employer-Sponsored,Lagos,Surgery,Online Booking,212000.0,11.6,4,3,3,2.0,3,3,69.0,4.0,4,0,No
+3052,45,Male,Single,Private HMO,Ibadan,Maternity,Walk-in,237500.0,4.3,3,2,2,2.0,2,2,64.0,,2,1,Yes
+3053,55,Male,Married,Employer-Sponsored,Abuja,Outpatient,Referral,255300.0,4.4,3,3,3,3.0,4,4,45.0,5.0,6,1,No
+3054,62,Male,Widowed,Out-of-Pocket,Kano,Outpatient,Walk-in,121200.0,11.4,2,4,5,4.0,4,5,15.0,8.0,8,0,Yes
+3055,70,Male,Married,Out-of-Pocket,Kano,Emergency,Walk-in,124800.0,8.3,2,3,3,3.0,2,3,45.0,4.0,3,2,No
+3056,53,Female,Single,Out-of-Pocket,Lagos,Pediatrics,Phone Booking,96800.0,4.7,1,2,2,1.0,2,2,63.0,2.0,2,2,No
+3057,54,Female,Married,Out-of-Pocket,Lagos,Maternity,Walk-in,175300.0,10.3,2,3,3,4.0,4,4,35.0,5.0,3,2,Yes
+3058,42,Male,Married,Employer-Sponsored,Lagos,Emergency,Walk-in,151100.0,1.8,0,3,3,3.0,3,4,50.0,7.0,6,0,Yes
+3059,21,Female,Single,Private HMO,Port Harcourt,Outpatient,Walk-in,218400.0,1.7,0,4,3,4.0,4,3,57.0,4.0,6,1,Yes
+3060,29,Female,Single,NHIS,Port Harcourt,Pediatrics,Referral,139200.0,3.8,4,3,3,4.0,4,3,16.0,,8,0,Yes
+3061,24,Female,Widowed,NHIS,Kano,Emergency,Referral,137700.0,1.8,1,3,2,3.0,3,3,49.0,5.0,6,0,Yes
+3062,63,Male,Single,Employer-Sponsored,Lagos,Pediatrics,Phone Booking,338500.0,3.1,0,1,1,1.0,1,1,87.0,2.0,4,1,No
+3063,24,Male,Married,NHIS,Port Harcourt,Emergency,Online Booking,103500.0,0.6,0,2,2,3.0,1,2,34.0,4.0,0,2,No
+3064,28,Female,Married,NHIS,Abuja,Maternity,Walk-in,43200.0,1.4,1,2,2,4.0,3,3,58.0,6.0,6,1,Yes
+3065,31,Female,Single,Employer-Sponsored,Port Harcourt,Surgery,Phone Booking,186300.0,4.4,3,4,4,4.0,3,4,52.0,8.0,8,0,No
+3066,59,Female,Single,Out-of-Pocket,Port Harcourt,Maternity,Referral,93500.0,11.0,2,3,3,3.0,2,3,62.0,3.0,4,1,No
+3067,36,Male,Married,NHIS,Abuja,Surgery,Walk-in,146100.0,3.7,3,4,3,3.0,4,4,32.0,7.0,7,1,Yes
+3068,46,Female,Divorced,Out-of-Pocket,Abuja,Emergency,Phone Booking,79600.0,5.2,2,4,4,3.0,4,4,35.0,,3,2,Yes
+3069,57,Female,Single,Out-of-Pocket,Lagos,Outpatient,Walk-in,111900.0,4.4,1,5,4,4.0,4,5,28.0,8.0,8,0,Yes
+3070,50,Female,Divorced,Private HMO,Lagos,Outpatient,Walk-in,387900.0,6.2,2,3,2,,3,4,46.0,4.0,6,1,No
+3071,46,Male,Single,Private HMO,Port Harcourt,Outpatient,Walk-in,278000.0,1.6,3,4,3,,4,4,,6.0,5,6,Yes
+3072,40,Male,Single,NHIS,Kano,Outpatient,Walk-in,61700.0,2.8,0,3,4,3.0,4,3,53.0,8.0,6,0,Yes
+3073,72,Male,Single,Out-of-Pocket,Kano,Outpatient,Referral,97600.0,7.1,0,3,3,3.0,2,2,57.0,6.0,6,0,Yes
+3074,29,Female,Widowed,Out-of-Pocket,Abuja,Outpatient,Online Booking,156000.0,0.2,2,5,4,4.0,5,5,32.0,8.0,8,0,Yes
+3075,64,Male,Widowed,Out-of-Pocket,Kano,Emergency,Walk-in,146100.0,10.4,2,3,2,2.0,2,3,46.0,4.0,2,1,Yes
+3076,27,Male,Married,NHIS,Port Harcourt,Pediatrics,Online Booking,131200.0,1.1,4,4,4,4.0,3,4,27.0,6.0,7,1,No
+3077,45,Female,Married,Out-of-Pocket,Lagos,Emergency,Referral,180600.0,2.4,2,2,4,3.0,1,2,69.0,5.0,8,2,No
+3078,55,Male,Single,Private HMO,Port Harcourt,Surgery,Phone Booking,197700.0,10.1,3,4,5,4.0,3,4,12.0,5.0,4,0,Yes
+3079,34,Male,Married,Employer-Sponsored,Abuja,Emergency,Walk-in,218600.0,3.0,0,5,4,5.0,5,5,21.0,7.0,5,1,Yes
+3080,34,Male,Single,NHIS,Port Harcourt,Surgery,Online Booking,81600.0,1.6,3,5,4,,4,5,5.0,,6,1,Yes
+3081,27,Female,Married,Private HMO,Ibadan,Surgery,Referral,302400.0,1.6,3,3,1,2.0,3,2,35.0,7.0,7,2,Yes
+3082,18,Female,Single,Private HMO,Kano,Pediatrics,Online Booking,349200.0,0.5,4,2,2,2.0,4,3,42.0,5.0,1,1,Yes
+3083,33,Male,Married,NHIS,Ibadan,Maternity,Phone Booking,162400.0,2.6,5,4,4,3.0,3,3,31.0,8.0,7,2,Yes
+3084,29,Female,Married,Employer-Sponsored,Port Harcourt,Outpatient,Walk-in,261600.0,3.0,0,5,4,4.0,3,5,38.0,9.0,7,1,Yes
+3085,55,Female,Married,Private HMO,Abuja,Emergency,Walk-in,265300.0,6.3,3,2,3,4.0,2,2,45.0,5.0,2,1,No
+3086,71,Female,Married,Employer-Sponsored,Ibadan,Maternity,Walk-in,139100.0,7.7,4,4,4,4.0,2,3,33.0,8.0,6,0,Yes
+3087,19,Male,Single,Private HMO,Lagos,Emergency,Referral,215500.0,0.2,7,2,3,1.0,1,1,66.0,2.0,3,2,No
+3088,59,Female,Married,Out-of-Pocket,Lagos,Pediatrics,Online Booking,166300.0,10.0,3,3,4,3.0,3,3,67.0,7.0,6,6,Yes
+3089,41,Female,Married,Employer-Sponsored,Ibadan,Emergency,Walk-in,193600.0,1.5,2,3,4,3.0,4,3,32.0,6.0,6,0,No
+3090,51,Female,Married,Out-of-Pocket,Lagos,Outpatient,Walk-in,148900.0,6.5,0,2,1,4.0,2,1,51.0,4.0,6,2,No
+3091,73,Male,Single,NHIS,Ibadan,Outpatient,Walk-in,57800.0,9.6,0,4,2,2.0,2,4,46.0,5.0,4,0,Yes
+3092,41,Female,Married,Out-of-Pocket,Port Harcourt,Emergency,Walk-in,117800.0,2.0,1,4,4,3.0,3,4,25.0,7.0,5,1,Yes
+3093,24,Male,Single,Out-of-Pocket,Lagos,Surgery,Online Booking,127100.0,1.0,5,2,3,1.0,2,2,45.0,5.0,5,0,No
+3094,65,Female,Married,Employer-Sponsored,Port Harcourt,Maternity,Referral,112000.0,8.1,4,1,3,2.0,3,2,46.0,4.0,3,0,No
+3095,69,Male,Married,NHIS,Abuja,Emergency,Phone Booking,143700.0,5.9,4,1,2,1.0,1,1,84.0,3.0,4,1,Yes
+3096,33,Female,Married,Employer-Sponsored,Lagos,Maternity,Walk-in,154000.0,4.7,1,5,4,5.0,4,4,28.0,9.0,7,0,Yes
+3097,51,Male,Married,NHIS,Port Harcourt,Pediatrics,Referral,82300.0,4.4,4,2,1,1.0,2,2,61.0,3.0,1,3,No
+3098,54,Male,Married,NHIS,Lagos,Outpatient,Phone Booking,93900.0,5.7,1,1,2,1.0,1,2,48.0,4.0,3,6,No
+3099,25,Female,Widowed,Employer-Sponsored,Lagos,Pediatrics,Walk-in,306200.0,2.1,1,5,4,4.0,4,4,51.0,8.0,7,0,Yes
+3100,18,Female,Divorced,Private HMO,Lagos,Outpatient,Walk-in,335700.0,0.2,4,4,4,4.0,4,4,45.0,5.0,6,3,Yes
+3101,19,Male,Married,Out-of-Pocket,Abuja,Emergency,Referral,95100.0,0.2,4,1,2,2.0,3,3,57.0,3.0,4,2,Yes
+3102,55,Male,Single,Out-of-Pocket,Port Harcourt,Emergency,Referral,201800.0,6.5,2,4,5,4.0,3,5,45.0,6.0,7,2,No
+3103,53,Male,Widowed,NHIS,Abuja,Emergency,Online Booking,163000.0,2.1,4,4,5,4.0,5,4,28.0,9.0,9,0,Yes
+3104,74,Female,Married,NHIS,Abuja,Emergency,Walk-in,150500.0,12.9,2,3,4,2.0,3,2,47.0,,4,0,Yes
+3105,52,Female,Single,Employer-Sponsored,Lagos,Outpatient,Online Booking,292800.0,5.4,2,3,4,4.0,5,5,39.0,7.0,7,3,No
+3106,59,Male,Married,Private HMO,Ibadan,Outpatient,Walk-in,398300.0,11.4,3,4,5,5.0,5,5,12.0,9.0,10,1,Yes
+3107,45,Male,Single,Out-of-Pocket,Lagos,Surgery,Referral,226600.0,0.5,2,3,3,2.0,3,3,48.0,4.0,2,1,Yes
+3108,22,Male,Married,Out-of-Pocket,Port Harcourt,Maternity,Walk-in,172400.0,0.8,0,1,2,1.0,2,1,66.0,4.0,3,5,No
+3109,37,Male,Single,Out-of-Pocket,Lagos,Outpatient,Walk-in,146900.0,2.6,4,4,1,3.0,2,2,48.0,6.0,4,2,Yes
+3110,52,Male,Single,Employer-Sponsored,Lagos,Maternity,Phone Booking,261300.0,6.7,0,5,5,5.0,5,5,29.0,10.0,9,0,Yes
+3111,58,Female,Married,NHIS,Kano,Outpatient,Online Booking,165500.0,5.8,7,1,1,1.0,1,1,56.0,2.0,1,5,No
+3112,36,Male,Single,Private HMO,Abuja,Emergency,Phone Booking,175300.0,5.5,2,4,3,2.0,2,4,35.0,6.0,4,0,Yes
+3113,25,Female,Widowed,NHIS,Lagos,Outpatient,Phone Booking,146200.0,1.1,3,4,3,2.0,3,2,54.0,4.0,3,0,Yes
+3114,71,Male,Married,Employer-Sponsored,Ibadan,Surgery,Referral,305900.0,,4,5,4,4.0,3,4,,7.0,7,1,Yes
+3115,31,Female,Married,NHIS,Lagos,Emergency,Walk-in,109200.0,2.3,1,2,3,2.0,3,2,60.0,5.0,6,0,No
+3116,19,Female,Single,Private HMO,Abuja,Maternity,Walk-in,309500.0,0.2,4,4,3,3.0,3,3,51.0,6.0,6,3,Yes
+3117,41,Male,Single,NHIS,Kano,Maternity,Online Booking,171300.0,0.9,2,1,4,3.0,2,2,66.0,4.0,4,2,Yes
+3118,18,Male,Single,NHIS,Kano,Outpatient,Phone Booking,81500.0,0.4,2,3,2,3.0,3,2,61.0,4.0,4,3,No
+3119,56,Female,Married,Out-of-Pocket,Ibadan,Surgery,Phone Booking,157400.0,7.0,1,3,4,4.0,4,4,34.0,8.0,7,2,No
+3120,23,Female,Single,NHIS,Lagos,Outpatient,Walk-in,72800.0,2.5,5,5,5,4.0,4,5,26.0,10.0,9,0,Yes
+3121,36,Female,Married,Employer-Sponsored,Port Harcourt,Outpatient,Phone Booking,190000.0,4.3,4,4,4,,4,5,,7.0,7,0,No
+3122,37,Male,Single,Private HMO,Ibadan,Emergency,Walk-in,298200.0,4.4,3,3,2,2.0,4,2,49.0,4.0,3,1,No
+3123,59,Female,Single,Private HMO,Lagos,Emergency,Phone Booking,272900.0,1.5,0,1,3,3.0,2,2,47.0,5.0,4,2,Yes
+3124,69,Female,Single,Out-of-Pocket,Abuja,Surgery,Online Booking,204300.0,9.6,3,3,3,3.0,2,3,62.0,5.0,4,1,No
+3125,57,Female,Single,Private HMO,Abuja,Maternity,Walk-in,264200.0,10.4,3,3,2,4.0,2,3,45.0,7.0,7,2,No
+3126,50,Male,Married,Private HMO,Ibadan,Pediatrics,Walk-in,340000.0,5.4,3,2,3,2.0,2,2,48.0,4.0,4,1,No
+3127,31,Male,Single,Out-of-Pocket,Lagos,Outpatient,Online Booking,188700.0,3.0,5,2,2,,3,2,47.0,,5,0,Yes
+3128,56,Female,Married,Private HMO,Lagos,Emergency,Referral,178900.0,4.2,3,2,2,1.0,2,2,46.0,4.0,7,0,No
+3129,60,Female,Married,Out-of-Pocket,Lagos,Emergency,Walk-in,145300.0,5.5,3,2,3,1.0,2,1,65.0,6.0,4,2,No
+3130,20,Male,Single,Out-of-Pocket,Port Harcourt,Outpatient,Referral,237000.0,0.2,3,2,1,3.0,2,1,54.0,,7,2,No
+3131,51,Female,Widowed,NHIS,Kano,Emergency,Referral,89700.0,5.9,4,3,3,3.0,4,2,28.0,7.0,8,1,No
+3132,28,Female,Widowed,NHIS,Lagos,Outpatient,Online Booking,66000.0,1.0,3,1,1,3.0,1,2,61.0,3.0,4,2,No
+3133,23,Female,Single,Out-of-Pocket,Kano,Maternity,Referral,72100.0,1.3,1,1,2,2.0,1,2,53.0,4.0,4,2,No
+3134,40,Male,Married,Employer-Sponsored,Ibadan,Outpatient,Walk-in,179800.0,3.8,2,3,3,5.0,3,5,23.0,5.0,6,1,Yes
+3135,64,Male,Married,Private HMO,Lagos,Outpatient,Online Booking,394300.0,3.1,1,2,3,2.0,2,2,64.0,3.0,4,0,No
+3136,54,Female,Single,NHIS,Port Harcourt,Surgery,Walk-in,120500.0,1.5,3,2,2,2.0,2,2,62.0,5.0,6,1,Yes
+3137,69,Female,Single,NHIS,Ibadan,Pediatrics,Walk-in,98000.0,9.6,2,2,3,3.0,3,2,63.0,3.0,0,1,No
+3138,61,Male,Widowed,Out-of-Pocket,Kano,Outpatient,Referral,64300.0,1.8,3,3,3,3.0,2,2,34.0,6.0,4,1,Yes
+3139,37,Male,Married,Employer-Sponsored,Lagos,Maternity,Phone Booking,238900.0,4.9,5,4,2,2.0,3,4,38.0,5.0,6,0,Yes
+3140,51,Female,Widowed,Private HMO,Lagos,Outpatient,Referral,174600.0,5.0,6,4,5,4.0,4,5,29.0,9.0,10,0,Yes
+3141,35,Male,Single,NHIS,Lagos,Outpatient,Phone Booking,64100.0,6.2,4,3,4,4.0,3,2,30.0,5.0,5,1,Yes
+3142,34,Male,Married,Employer-Sponsored,Lagos,Emergency,Walk-in,251600.0,4.3,1,1,2,1.0,2,2,61.0,3.0,3,1,Yes
+3143,56,Female,Married,Private HMO,Abuja,Outpatient,Referral,330400.0,0.2,1,2,3,3.0,3,2,50.0,4.0,4,1,No
+3144,28,Male,Married,Employer-Sponsored,Ibadan,Emergency,Online Booking,300400.0,0.4,4,1,2,3.0,2,2,61.0,3.0,1,0,No
+3145,42,Female,Single,Private HMO,Ibadan,Outpatient,Referral,379900.0,6.4,0,2,4,3.0,2,3,54.0,6.0,8,0,Yes
+3146,42,Male,Single,NHIS,Ibadan,Emergency,Online Booking,160600.0,4.1,4,2,3,3.0,3,2,52.0,7.0,7,1,Yes
+3147,47,Female,Married,Private HMO,Kano,Maternity,Referral,272500.0,5.6,6,1,2,2.0,2,1,56.0,3.0,3,1,No
+3148,32,Female,Divorced,Employer-Sponsored,Kano,Pediatrics,Phone Booking,235400.0,1.4,2,4,4,5.0,4,5,,8.0,9,0,Yes
+3149,31,Female,Single,Employer-Sponsored,Lagos,Surgery,Walk-in,206800.0,2.5,2,4,5,3.0,4,4,42.0,5.0,3,4,Yes
+3150,62,Female,Divorced,NHIS,Abuja,Maternity,Referral,151400.0,3.3,3,4,4,3.0,3,4,32.0,7.0,6,1,Yes
+3151,46,Female,Married,NHIS,Ibadan,Pediatrics,Walk-in,162300.0,3.8,2,3,2,2.0,2,1,66.0,4.0,5,1,Yes
+3152,69,Male,Single,Private HMO,Lagos,Pediatrics,Phone Booking,332700.0,9.0,1,4,4,,3,5,41.0,7.0,7,0,Yes
+3153,45,Male,Single,Out-of-Pocket,Kano,Pediatrics,Walk-in,77500.0,1.0,2,2,4,4.0,3,2,23.0,4.0,5,2,No
+3154,64,Female,Single,Private HMO,Kano,Maternity,Phone Booking,150800.0,3.0,1,5,3,3.0,4,3,19.0,,6,0,Yes
+3155,64,Male,Married,Out-of-Pocket,Port Harcourt,Maternity,Walk-in,176100.0,12.5,3,4,3,4.0,4,4,16.0,7.0,6,0,Yes
+3156,25,Female,Widowed,NHIS,Kano,Surgery,Walk-in,137700.0,0.7,1,3,3,3.0,3,3,57.0,4.0,4,0,No
+3157,65,Male,Married,Private HMO,Port Harcourt,Maternity,Referral,365300.0,1.7,2,2,1,2.0,2,2,,5.0,5,0,No
+3158,63,Male,Married,Out-of-Pocket,Port Harcourt,Surgery,Online Booking,119500.0,9.3,5,3,4,2.0,3,4,55.0,7.0,8,1,No
+3159,54,Female,Single,Out-of-Pocket,Port Harcourt,Pediatrics,Walk-in,91800.0,2.2,4,3,3,3.0,4,3,48.0,5.0,4,0,No
+3160,18,Female,Single,NHIS,Port Harcourt,Outpatient,Walk-in,73500.0,0.2,1,1,2,2.0,2,1,54.0,4.0,4,0,No
+3161,67,Male,Widowed,Private HMO,Abuja,Pediatrics,Online Booking,151500.0,10.8,2,1,1,1.0,2,2,73.0,1.0,2,2,No
+3162,25,Female,Divorced,NHIS,Abuja,Pediatrics,Walk-in,78000.0,1.7,4,5,5,5.0,5,5,5.0,9.0,10,0,Yes
+3163,70,Female,Single,Private HMO,Lagos,Emergency,Walk-in,422300.0,14.7,3,3,3,2.0,3,2,45.0,,3,0,No
+3164,58,Female,Single,Out-of-Pocket,Lagos,Maternity,Referral,104200.0,,2,1,2,2.0,1,2,,2.0,3,1,No
+3165,38,Female,Married,Employer-Sponsored,Port Harcourt,Emergency,Online Booking,281100.0,3.5,2,1,2,2.0,2,1,67.0,2.0,3,2,No
+3166,36,Female,Married,Private HMO,Port Harcourt,Surgery,Phone Booking,286000.0,5.6,5,3,2,2.0,2,1,39.0,4.0,4,1,No
+3167,49,Female,Single,Private HMO,Ibadan,Emergency,Online Booking,180400.0,1.9,1,4,4,2.0,4,3,57.0,6.0,6,0,Yes
+3168,65,Female,Single,Out-of-Pocket,Kano,Maternity,Walk-in,204000.0,6.9,6,3,3,2.0,1,1,72.0,4.0,5,0,Yes
+3169,36,Female,Single,Private HMO,Kano,Emergency,Online Booking,376200.0,4.6,6,3,3,2.0,3,4,,7.0,6,1,Yes
+3170,57,Female,Married,Out-of-Pocket,Abuja,Maternity,Phone Booking,83800.0,10.3,2,4,2,1.0,4,3,49.0,5.0,2,3,No
+3171,40,Female,Divorced,Out-of-Pocket,Lagos,Outpatient,Phone Booking,166900.0,1.1,3,2,2,2.0,3,2,67.0,3.0,3,3,No
+3172,55,Female,Single,Out-of-Pocket,Ibadan,Outpatient,Online Booking,164600.0,4.2,0,5,4,4.0,3,4,21.0,,8,0,Yes
+3173,56,Male,Married,NHIS,Lagos,Outpatient,Referral,104900.0,8.1,2,4,3,4.0,3,4,43.0,,7,0,Yes
+3174,52,Male,Married,Private HMO,Ibadan,Outpatient,Phone Booking,249600.0,10.2,2,3,3,3.0,4,4,28.0,5.0,7,0,No
+3175,30,Male,Single,Out-of-Pocket,Lagos,Maternity,Walk-in,130200.0,1.5,3,3,4,5.0,4,5,28.0,8.0,6,0,Yes
+3176,70,Male,Married,Private HMO,Kano,Emergency,Walk-in,235600.0,11.0,1,2,3,4.0,2,3,32.0,4.0,4,2,No
+3177,51,Female,Single,Out-of-Pocket,Lagos,Pediatrics,Online Booking,171800.0,8.6,6,4,3,5.0,2,4,46.0,7.0,6,3,Yes
+3178,66,Male,Married,Private HMO,Lagos,Emergency,Online Booking,209400.0,7.1,0,2,2,1.0,3,1,56.0,,3,3,No
+3179,41,Female,Married,Out-of-Pocket,Lagos,Pediatrics,Referral,186400.0,5.2,0,1,2,1.0,2,1,57.0,3.0,2,5,No
+3180,19,Male,Single,NHIS,Ibadan,Emergency,Walk-in,153000.0,0.2,6,4,4,4.0,4,5,36.0,9.0,7,0,Yes
+3181,73,Female,Married,Out-of-Pocket,Kano,Outpatient,Referral,81500.0,9.7,0,3,1,3.0,2,2,53.0,4.0,1,2,Yes
+3182,75,Male,Married,Private HMO,Kano,Outpatient,Phone Booking,270800.0,7.2,4,3,4,4.0,3,3,35.0,4.0,2,1,Yes
+3183,60,Female,Single,Out-of-Pocket,Lagos,Emergency,Referral,150600.0,8.4,2,4,3,4.0,3,3,,7.0,5,2,Yes
+3184,43,Male,Married,Out-of-Pocket,Port Harcourt,Emergency,Walk-in,125000.0,3.8,1,2,4,2.0,3,1,64.0,5.0,4,2,Yes
+3185,54,Male,Single,Out-of-Pocket,Lagos,Outpatient,Walk-in,110200.0,5.5,1,1,1,2.0,2,2,62.0,4.0,5,5,No
+3186,35,Male,Single,Employer-Sponsored,Lagos,Maternity,Online Booking,149600.0,1.2,2,2,2,2.0,3,1,53.0,5.0,3,0,Yes
+3187,31,Female,Married,Out-of-Pocket,Kano,Outpatient,Walk-in,192900.0,0.8,5,3,3,5.0,3,4,40.0,8.0,6,1,No
+3188,68,Female,Single,NHIS,Lagos,Outpatient,Phone Booking,62200.0,3.6,4,4,4,4.0,3,4,33.0,7.0,7,0,No
+3189,30,Female,Married,Out-of-Pocket,Abuja,Outpatient,Online Booking,179000.0,2.4,2,4,3,3.0,4,4,37.0,8.0,7,0,Yes
+3190,71,Male,Married,Out-of-Pocket,Abuja,Pediatrics,Referral,153600.0,3.2,3,1,2,2.0,2,1,59.0,4.0,3,3,No
+3191,53,Male,Single,NHIS,Kano,Outpatient,Online Booking,102700.0,5.0,3,5,5,3.0,4,4,40.0,,8,0,Yes
+3192,62,Female,Single,Employer-Sponsored,Lagos,Outpatient,Online Booking,259300.0,0.2,0,2,1,2.0,2,2,51.0,3.0,5,1,Yes
+3193,28,Male,Divorced,Private HMO,Abuja,Emergency,Walk-in,278700.0,0.9,3,2,3,2.0,2,2,44.0,6.0,6,3,Yes
+3194,59,Female,Married,Employer-Sponsored,Port Harcourt,Outpatient,Referral,323200.0,6.2,1,1,2,2.0,3,3,32.0,5.0,4,3,No
+3195,59,Female,Single,NHIS,Ibadan,Outpatient,Walk-in,63400.0,9.1,2,2,3,2.0,2,1,70.0,2.0,2,0,No
+3196,18,Female,Married,Private HMO,Ibadan,Surgery,Walk-in,156500.0,0.2,4,1,1,1.0,2,1,68.0,3.0,2,4,No
+3197,73,Male,Single,Employer-Sponsored,Lagos,Outpatient,Referral,238800.0,8.3,2,2,1,1.0,1,1,,1.0,1,3,No
+3198,34,Female,Single,NHIS,Lagos,Outpatient,Phone Booking,141800.0,2.3,0,2,2,3.0,3,2,,5.0,4,0,Yes
+3199,60,Male,Married,Out-of-Pocket,Abuja,Outpatient,Phone Booking,117100.0,5.5,4,2,2,1.0,3,2,46.0,5.0,4,3,Yes
+3200,65,Male,Single,NHIS,Lagos,Outpatient,Walk-in,157400.0,2.1,1,3,4,5.0,4,5,31.0,9.0,8,0,Yes
+3201,34,Female,Single,NHIS,Lagos,Outpatient,Referral,49600.0,0.8,1,2,4,3.0,3,2,52.0,5.0,5,1,Yes
+3202,75,Male,Married,Employer-Sponsored,Ibadan,Emergency,Online Booking,192000.0,8.8,1,3,2,2.0,3,2,49.0,3.0,5,0,No
+3203,39,Female,Single,Private HMO,Abuja,Pediatrics,Referral,342100.0,4.6,1,2,3,3.0,4,3,31.0,6.0,6,0,Yes
+3204,34,Male,Single,Private HMO,Kano,Emergency,Referral,345100.0,1.7,6,1,1,2.0,2,2,61.0,2.0,4,1,No
+3205,53,Female,Divorced,NHIS,Kano,Maternity,Phone Booking,51900.0,9.3,3,4,3,3.0,2,5,37.0,8.0,7,0,Yes
+3206,62,Male,Single,Employer-Sponsored,Abuja,Pediatrics,Referral,260600.0,5.0,5,4,3,3.0,2,3,52.0,4.0,4,1,No
+3207,71,Female,Single,Out-of-Pocket,Abuja,Maternity,Walk-in,73600.0,11.7,3,5,5,4.0,3,5,17.0,8.0,6,0,Yes
+3208,24,Male,Married,Out-of-Pocket,Ibadan,Outpatient,Referral,75800.0,0.2,2,2,1,2.0,1,2,40.0,3.0,3,2,No
+3209,20,Male,Married,Out-of-Pocket,Lagos,Pediatrics,Referral,80500.0,0.8,5,1,1,1.0,1,1,61.0,5.0,6,1,No
+3210,61,Female,Married,NHIS,Lagos,Surgery,Phone Booking,167600.0,8.5,7,1,2,1.0,1,2,74.0,2.0,1,1,No
+3211,72,Male,Married,Out-of-Pocket,Lagos,Surgery,Walk-in,110000.0,7.5,2,4,4,4.0,3,3,34.0,7.0,7,1,Yes
+3212,38,Male,Married,NHIS,Lagos,Outpatient,Walk-in,89700.0,2.9,3,2,3,2.0,2,3,52.0,4.0,4,4,Yes
+3213,19,Male,Widowed,Out-of-Pocket,Abuja,Pediatrics,Phone Booking,127900.0,1.8,3,4,4,4.0,3,5,38.0,8.0,6,1,No
+3214,22,Female,Married,Private HMO,Lagos,Outpatient,Online Booking,244000.0,1.2,4,2,3,2.0,1,1,50.0,3.0,2,5,No
+3215,23,Male,Married,Employer-Sponsored,Port Harcourt,Outpatient,Phone Booking,178200.0,0.7,0,1,1,2.0,2,2,76.0,3.0,5,4,No
+3216,28,Female,Single,NHIS,Kano,Emergency,Referral,92000.0,2.1,1,1,2,3.0,3,2,74.0,,1,1,No
+3217,33,Female,Single,NHIS,Abuja,Maternity,Walk-in,110100.0,0.8,3,2,2,3.0,2,2,46.0,5.0,6,1,No
+3218,50,Female,Single,Employer-Sponsored,Lagos,Emergency,Referral,290700.0,,3,4,3,2.0,3,3,39.0,7.0,7,2,Yes
+3219,28,Female,Single,Private HMO,Lagos,Outpatient,Phone Booking,355200.0,0.2,5,5,5,,5,5,21.0,9.0,10,1,Yes
+3220,45,Male,Single,Private HMO,Abuja,Outpatient,Walk-in,371800.0,4.7,2,3,3,4.0,4,5,41.0,10.0,9,1,Yes
+3221,74,Male,Married,Employer-Sponsored,Port Harcourt,Outpatient,Phone Booking,335200.0,,2,5,5,,3,4,29.0,7.0,8,2,Yes
+3222,57,Female,Widowed,Employer-Sponsored,Lagos,Maternity,Walk-in,129500.0,5.5,1,1,2,3.0,2,2,37.0,4.0,2,3,Yes
+3223,19,Female,Single,NHIS,Ibadan,Maternity,Walk-in,139700.0,0.2,0,2,3,2.0,2,1,71.0,3.0,4,3,No
+3224,38,Male,Married,Out-of-Pocket,Abuja,Emergency,Walk-in,132500.0,3.1,1,3,2,1.0,3,2,58.0,3.0,4,5,No
+3225,58,Male,Widowed,Private HMO,Lagos,Surgery,Walk-in,210400.0,3.0,2,3,1,3.0,3,3,50.0,5.0,4,2,Yes
+3226,52,Female,Widowed,Out-of-Pocket,Lagos,Pediatrics,Walk-in,149300.0,8.0,2,2,2,1.0,3,2,76.0,3.0,4,1,No
+3227,35,Male,Single,Employer-Sponsored,Ibadan,Outpatient,Phone Booking,260600.0,1.8,2,4,5,4.0,3,5,33.0,7.0,7,1,No
+3228,39,Male,Married,Out-of-Pocket,Abuja,Maternity,Phone Booking,104500.0,4.8,1,5,5,3.0,4,2,41.0,5.0,3,0,Yes
+3229,35,Male,Married,NHIS,Lagos,Emergency,Walk-in,56200.0,2.1,1,1,2,1.0,1,1,65.0,3.0,3,1,Yes
+3230,62,Female,Single,Private HMO,Kano,Outpatient,Referral,265200.0,11.9,3,2,3,4.0,2,2,62.0,4.0,1,4,No
+3231,66,Male,Single,NHIS,Lagos,Emergency,Phone Booking,161800.0,3.2,4,5,5,5.0,5,5,29.0,8.0,6,2,Yes
+3232,18,Female,Married,Employer-Sponsored,Ibadan,Maternity,Walk-in,318900.0,2.1,0,4,4,4.0,3,3,48.0,6.0,5,0,Yes
+3233,64,Male,Married,Out-of-Pocket,Ibadan,Outpatient,Referral,202600.0,2.4,1,4,3,4.0,4,4,46.0,6.0,8,2,No
+3234,52,Male,Married,Out-of-Pocket,Ibadan,Outpatient,Walk-in,176500.0,,4,3,3,3.0,3,3,43.0,6.0,5,4,Yes
+3235,48,Female,Single,Out-of-Pocket,Lagos,Emergency,Phone Booking,123800.0,4.1,0,3,3,3.0,3,2,,4.0,4,1,No
+3236,52,Male,Single,Employer-Sponsored,Ibadan,Outpatient,Online Booking,334700.0,8.3,1,1,1,1.0,1,1,61.0,1.0,2,3,No
+3237,34,Female,Married,Out-of-Pocket,Ibadan,Outpatient,Walk-in,84600.0,0.2,0,3,2,2.0,4,2,82.0,4.0,5,3,Yes
+3238,21,Male,Married,Employer-Sponsored,Lagos,Outpatient,Phone Booking,179100.0,0.9,1,1,1,2.0,1,1,68.0,3.0,2,2,No
+3239,33,Female,Married,Employer-Sponsored,Port Harcourt,Emergency,Referral,343300.0,0.2,1,4,4,4.0,4,5,35.0,7.0,7,1,No
+3240,62,Male,Married,NHIS,Lagos,Emergency,Referral,139100.0,3.1,2,2,2,4.0,2,3,47.0,4.0,2,2,No
+3241,64,Female,Single,Employer-Sponsored,Lagos,Outpatient,Walk-in,309400.0,6.4,1,3,3,4.0,2,3,44.0,7.0,7,0,No
+3242,54,Female,Single,Out-of-Pocket,Ibadan,Maternity,Walk-in,117600.0,3.6,4,4,4,3.0,4,5,39.0,7.0,8,0,Yes
+3243,51,Male,Married,NHIS,Lagos,Surgery,Referral,129600.0,7.1,2,3,3,3.0,4,3,32.0,7.0,7,2,Yes
+3244,73,Male,Married,Private HMO,Ibadan,Emergency,Phone Booking,285500.0,4.8,1,1,2,1.0,3,2,,3.0,1,3,No
+3245,58,Female,Single,Out-of-Pocket,Ibadan,Outpatient,Online Booking,163800.0,9.4,1,3,3,4.0,5,3,30.0,7.0,4,0,Yes
+3246,28,Male,Married,Employer-Sponsored,Kano,Pediatrics,Phone Booking,304500.0,2.7,3,3,2,4.0,3,3,59.0,6.0,4,2,Yes
+3247,57,Female,Married,Employer-Sponsored,Lagos,Pediatrics,Walk-in,306600.0,2.2,0,5,4,5.0,4,5,19.0,9.0,7,0,Yes
+3248,42,Female,Divorced,Private HMO,Abuja,Outpatient,Online Booking,152700.0,4.5,2,2,2,2.0,2,3,69.0,3.0,4,2,No
+3249,42,Female,Single,NHIS,Port Harcourt,Emergency,Online Booking,142800.0,4.1,3,4,3,3.0,4,3,54.0,5.0,5,1,Yes
+3250,68,Female,Married,Employer-Sponsored,Kano,Outpatient,Walk-in,175500.0,10.0,0,3,2,4.0,3,2,39.0,6.0,6,0,No

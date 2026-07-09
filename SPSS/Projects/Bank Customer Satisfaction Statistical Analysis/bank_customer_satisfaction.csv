@@ -1,0 +1,251 @@
+CustomerID,Age,Gender,MaritalStatus,EducationLevel,MonthlyIncome_Naira,CustomerTenure_Years,BranchLocation,PreferredChannel,Q1_StaffCourteous,Q2_TransactionSpeed,Q3_StaffKnowledge,Q4_EaseOfUse,Q5_ProblemResolution,OverallSatisfaction,LikelihoodToRecommend,ComplaintsPast6Months,WouldContinueBanking
+1001,22,Male,Married,Bachelor's,312700.0,0.5,Kano,Mobile App,2,3,3.0,3,3,5.0,5,1,No
+1002,55,Female,Single,Master's,477600.0,8.0,Ibadan,ATM,4,4,4.0,5,5,7.0,6,2,Yes
+1003,49,Female,Married,Bachelor's,269100.0,3.4,Ibadan,Mobile App,4,5,5.0,5,5,8.0,8,1,Yes
+1004,39,Male,Married,Diploma,57600.0,2.7,Ibadan,ATM,2,3,3.0,1,3,5.0,5,1,No
+1005,38,Female,Single,Master's,410100.0,1.8,Ibadan,Mobile App,4,3,4.0,4,3,7.0,6,0,Yes
+1006,59,Male,Married,Bachelor's,231300.0,13.8,Ibadan,ATM,4,5,5.0,5,5,8.0,9,0,Yes
+1007,22,Female,Married,Master's,335000.0,0.2,Lagos,Mobile App,1,1,1.0,1,1,3.0,2,2,No
+1008,51,Male,Single,Diploma,115900.0,7.2,Lagos,Mobile App,4,4,4.0,4,5,6.0,5,0,Yes
+1009,27,Female,Married,Bachelor's,227000.0,0.9,Lagos,Mobile App,2,2,2.0,3,4,3.0,3,4,Yes
+1010,22,Male,Married,Bachelor's,,2.3,Abuja,Mobile App,3,2,2.0,3,3,5.0,2,0,No
+1011,43,Male,Single,Diploma,183600.0,3.2,Lagos,ATM,4,1,3.0,2,3,6.0,4,4,Yes
+1012,64,Male,Divorced,Master's,180200.0,5.8,Kano,Branch,3,1,2.0,3,2,3.0,4,2,No
+1013,53,Female,Married,Diploma,184300.0,2.0,Port Harcourt,Branch,2,2,1.0,1,2,5.0,2,3,Yes
+1014,54,Female,Single,Secondary,137100.0,2.4,Abuja,Branch,3,3,4.0,3,4,6.0,7,4,Yes
+1015,52,Male,Widowed,Bachelor's,219100.0,5.8,Lagos,Branch,4,4,5.0,5,4,7.0,8,0,Yes
+1016,55,Male,Married,Bachelor's,212500.0,9.6,Lagos,USSD,2,4,3.0,3,3,4.0,3,0,No
+1017,42,Male,Single,Master's,285200.0,6.9,Lagos,Mobile App,4,2,4.0,3,2,6.0,6,0,Yes
+1018,24,Female,Married,PhD,620700.0,1.5,Kano,USSD,3,4,4.0,4,3,7.0,8,2,Yes
+1019,58,Male,Single,Diploma,149600.0,,Port Harcourt,Branch,2,2,1.0,3,1,4.0,3,1,Yes
+1020,39,Male,Widowed,Bachelor's,172700.0,2.7,Kano,ATM,5,3,3.0,4,4,9.0,9,1,Yes
+1021,42,Female,Married,Diploma,71100.0,6.1,Lagos,Mobile App,4,4,4.0,4,5,8.0,6,3,Yes
+1022,35,Female,Married,Bachelor's,155700.0,3.9,Abuja,Mobile App,5,5,,5,5,10.0,8,0,Yes
+1023,26,Male,Single,PhD,403000.0,0.6,Abuja,USSD,3,4,2.0,3,2,5.0,4,1,Yes
+1024,62,Female,Married,Bachelor's,304600.0,14.9,Kano,USSD,1,2,2.0,3,3,5.0,5,3,No
+1025,55,Male,Single,Bachelor's,296700.0,6.3,Kano,USSD,4,5,4.0,4,3,6.0,7,1,No
+1026,48,Female,Single,Bachelor's,162700.0,2.0,Lagos,Branch,4,4,3.0,4,5,8.0,7,4,Yes
+1027,37,Male,Single,Master's,435100.0,0.3,Ibadan,Mobile App,2,3,2.0,2,2,5.0,3,3,No
+1028,57,Female,Married,Bachelor's,175700.0,8.3,Lagos,ATM,3,3,4.0,2,2,5.0,3,3,Yes
+1029,44,Female,Single,Diploma,179700.0,9.1,Ibadan,Mobile App,4,4,3.0,3,3,7.0,7,2,Yes
+1030,39,Female,Divorced,Bachelor's,160800.0,2.6,Lagos,ATM,1,2,3.0,2,3,6.0,8,1,Yes
+1031,39,Male,Married,Secondary,110000.0,5.6,Lagos,Internet Banking,2,3,2.0,4,2,5.0,5,1,Yes
+1032,28,Female,Single,Diploma,177600.0,0.3,Kano,Internet Banking,3,3,3.0,3,3,6.0,5,1,Yes
+1033,22,Male,Single,Secondary,70100.0,0.2,Lagos,USSD,4,3,5.0,4,4,9.0,9,0,Yes
+1034,44,Male,Single,Bachelor's,257900.0,3.2,Abuja,ATM,2,2,3.0,3,2,5.0,4,0,Yes
+1035,60,Female,Married,Bachelor's,318000.0,11.8,Abuja,Branch,2,1,2.0,1,1,2.0,1,2,No
+1036,21,Male,Married,Bachelor's,128300.0,0.2,Lagos,Branch,1,3,1.0,2,1,2.0,1,2,No
+1037,59,Female,Single,Bachelor's,119000.0,8.2,Port Harcourt,Internet Banking,2,2,2.0,2,1,3.0,5,4,No
+1038,57,Female,Married,Master's,,4.0,Kano,Mobile App,2,3,1.0,3,2,3.0,0,4,No
+1039,31,Male,Single,Bachelor's,182700.0,3.8,Ibadan,Mobile App,2,3,3.0,3,3,4.0,5,0,No
+1040,48,Female,Married,Bachelor's,132500.0,2.9,Lagos,Mobile App,2,2,2.0,1,2,2.0,1,1,Yes
+1041,25,Male,Divorced,Diploma,156700.0,3.4,Abuja,ATM,2,1,3.0,3,2,3.0,2,2,No
+1042,54,Male,Married,Master's,386800.0,3.2,Lagos,USSD,2,2,2.0,3,3,3.0,5,1,No
+1043,51,Male,Married,Diploma,106200.0,0.8,Lagos,Internet Banking,2,3,2.0,3,3,4.0,3,0,No
+1044,35,Female,Married,Bachelor's,186900.0,1.7,Lagos,Mobile App,4,5,4.0,4,5,9.0,7,2,Yes
+1045,21,Male,Single,Master's,429000.0,0.2,Ibadan,Mobile App,5,4,4.0,4,4,7.0,6,1,Yes
+1046,64,Male,Single,Bachelor's,213800.0,7.8,Ibadan,Internet Banking,2,4,3.0,2,3,6.0,6,0,Yes
+1047,39,Male,Single,Bachelor's,301900.0,4.3,Kano,Mobile App,2,3,3.0,3,2,3.0,2,3,No
+1048,60,Female,Married,Bachelor's,219100.0,14.1,Abuja,Internet Banking,2,4,3.0,2,2,4.0,2,2,No
+1049,50,Female,Married,Bachelor's,333200.0,9.1,Abuja,ATM,4,3,2.0,3,4,7.0,5,0,No
+1050,55,Female,Married,Diploma,192400.0,5.1,Abuja,Branch,3,5,4.0,4,4,7.0,8,2,Yes
+1051,54,Female,Married,Diploma,75700.0,6.6,Abuja,Branch,2,2,2.0,2,3,3.0,3,3,No
+1052,27,Female,Single,Bachelor's,299400.0,0.2,Abuja,Mobile App,3,3,3.0,3,2,6.0,6,2,Yes
+1053,35,Male,Married,Diploma,142600.0,3.3,Lagos,USSD,1,1,1.0,2,1,4.0,3,3,No
+1054,40,Male,Single,Master's,198700.0,2.8,Lagos,Internet Banking,3,5,4.0,3,4,6.0,5,5,No
+1055,41,Female,Single,Diploma,84200.0,2.8,Ibadan,Branch,5,4,3.0,4,4,6.0,8,2,Yes
+1056,20,Female,Married,Bachelor's,,0.4,Abuja,USSD,4,3,2.0,3,2,5.0,4,1,No
+1057,44,Male,Widowed,Master's,172200.0,11.2,Ibadan,Mobile App,5,5,5.0,4,5,9.0,8,0,Yes
+1058,25,Male,Married,Master's,233900.0,0.8,Lagos,Mobile App,2,3,1.0,2,1,4.0,5,1,Yes
+1059,53,Female,Single,Bachelor's,139500.0,11.5,Abuja,USSD,3,4,,3,3,6.0,5,2,Yes
+1060,50,Male,Married,Bachelor's,,7.4,Lagos,Branch,2,2,4.0,2,4,4.0,3,1,No
+1061,62,Female,Single,PhD,367500.0,2.8,Lagos,Mobile App,4,3,3.0,2,4,4.0,4,3,No
+1062,53,Male,Married,Bachelor's,224200.0,9.7,Lagos,Internet Banking,4,3,3.0,4,2,5.0,5,1,No
+1063,35,Male,Married,Master's,245500.0,1.4,Lagos,Branch,4,2,1.0,3,3,6.0,6,0,No
+1064,64,Female,Single,Master's,174700.0,13.9,Ibadan,ATM,4,4,4.0,3,4,6.0,8,0,Yes
+1065,37,Male,Single,Master's,380500.0,3.3,Lagos,Mobile App,4,4,4.0,3,5,8.0,8,1,Yes
+1066,33,Male,Single,Diploma,130000.0,2.4,Port Harcourt,Branch,3,3,2.0,3,3,6.0,2,1,Yes
+1067,61,Female,Widowed,Bachelor's,256000.0,13.3,Abuja,Mobile App,4,5,5.0,5,4,8.0,8,1,Yes
+1068,35,Female,Married,Secondary,45000.0,3.4,Abuja,Mobile App,2,2,2.0,2,3,4.0,4,2,No
+1069,21,Male,Married,Bachelor's,91700.0,0.2,Abuja,Branch,3,3,4.0,4,4,7.0,6,1,Yes
+1070,40,Male,Married,Master's,257200.0,6.2,Lagos,Branch,2,2,2.0,3,3,4.0,4,3,Yes
+1071,56,Female,Married,Bachelor's,192800.0,8.0,Ibadan,USSD,5,5,3.0,4,3,8.0,7,0,Yes
+1072,27,Female,Single,Bachelor's,177500.0,4.3,Kano,Mobile App,5,5,5.0,4,5,10.0,9,0,Yes
+1073,40,Male,Divorced,Secondary,125200.0,1.9,Kano,Mobile App,3,2,3.0,3,2,6.0,6,1,No
+1074,24,Male,Single,Master's,272500.0,0.3,Abuja,Branch,1,2,1.0,1,1,2.0,1,3,No
+1075,50,Male,Married,Secondary,85400.0,11.7,Lagos,Mobile App,3,3,2.0,3,3,5.0,3,1,No
+1076,40,Male,Married,Secondary,100400.0,5.8,Ibadan,Mobile App,5,3,4.0,3,4,8.0,10,1,Yes
+1077,33,Male,Married,Diploma,93600.0,4.2,Lagos,Internet Banking,3,3,5.0,4,3,7.0,5,1,Yes
+1078,28,Female,Divorced,Secondary,85400.0,0.8,Lagos,Mobile App,2,4,4.0,3,3,7.0,6,2,Yes
+1079,45,Male,Single,Bachelor's,161600.0,2.5,Lagos,USSD,4,4,4.0,4,4,7.0,4,0,No
+1080,50,Male,Married,Bachelor's,,8.8,Kano,USSD,4,3,4.0,4,4,6.0,6,2,Yes
+1081,63,Female,Single,Diploma,93800.0,4.1,Port Harcourt,Branch,4,4,4.0,4,5,8.0,6,1,Yes
+1082,38,Female,Married,Secondary,113800.0,2.1,Kano,Branch,4,4,5.0,3,2,8.0,7,0,Yes
+1083,25,Male,Single,Secondary,,1.6,Kano,Branch,4,5,4.0,5,4,7.0,8,1,Yes
+1084,57,Female,Single,Bachelor's,101600.0,10.4,Lagos,Internet Banking,5,2,4.0,4,3,6.0,6,3,Yes
+1085,48,Female,Single,Secondary,104900.0,7.8,Ibadan,Branch,5,3,4.0,3,4,7.0,7,0,Yes
+1086,51,Female,Single,Bachelor's,290500.0,3.7,Abuja,USSD,3,3,2.0,3,3,3.0,0,2,No
+1087,22,Male,Married,Diploma,97500.0,1.4,Port Harcourt,ATM,3,2,2.0,2,3,4.0,6,6,No
+1088,32,Male,Married,Diploma,184100.0,3.1,Lagos,USSD,5,5,5.0,4,5,8.0,6,0,Yes
+1089,54,Female,Married,Bachelor's,254700.0,3.2,Ibadan,Internet Banking,3,2,3.0,4,3,6.0,7,3,Yes
+1090,57,Male,Single,Bachelor's,273000.0,3.3,Lagos,USSD,4,4,4.0,3,4,8.0,9,0,Yes
+1091,38,Male,Single,Secondary,,2.9,Lagos,Branch,3,4,3.0,4,4,5.0,5,2,No
+1092,56,Male,Single,Secondary,45000.0,7.5,Abuja,Mobile App,4,3,3.0,2,2,4.0,3,3,No
+1093,58,Female,Married,Master's,299800.0,14.4,Lagos,Mobile App,3,3,3.0,3,3,3.0,3,3,No
+1094,36,Female,Single,Secondary,104200.0,5.6,Lagos,USSD,4,4,4.0,4,5,8.0,7,1,Yes
+1095,61,Male,Single,Bachelor's,156000.0,9.7,Port Harcourt,Internet Banking,4,3,3.0,4,5,6.0,5,1,Yes
+1096,31,Female,Single,Bachelor's,188900.0,2.1,Abuja,USSD,1,1,1.0,1,1,2.0,2,2,No
+1097,29,Male,Married,Bachelor's,285700.0,0.8,Ibadan,Branch,4,4,3.0,3,3,,3,1,No
+1098,50,Female,Single,Bachelor's,99700.0,5.5,Lagos,USSD,5,5,5.0,5,5,10.0,10,2,Yes
+1099,48,Female,Married,Master's,299300.0,3.2,Port Harcourt,Mobile App,3,2,3.0,2,3,5.0,4,0,Yes
+1100,24,Male,Married,Master's,416000.0,0.2,Abuja,Mobile App,2,1,2.0,1,1,2.0,1,3,No
+1101,57,Male,Married,Diploma,125800.0,6.6,Port Harcourt,USSD,5,5,5.0,5,5,10.0,8,0,Yes
+1102,27,Male,Married,Bachelor's,223500.0,0.2,Port Harcourt,Mobile App,4,3,4.0,5,4,,7,0,Yes
+1103,56,Female,Married,Diploma,222000.0,7.4,Abuja,Mobile App,3,3,3.0,3,3,5.0,3,0,Yes
+1104,18,Female,Single,Bachelor's,207400.0,0.2,Ibadan,Internet Banking,3,3,3.0,2,3,3.0,0,5,No
+1105,56,Female,Married,Bachelor's,108600.0,2.0,Lagos,Branch,4,5,3.0,4,4,7.0,7,2,Yes
+1106,55,Female,Married,Diploma,72600.0,8.5,Lagos,Mobile App,2,3,2.0,3,2,5.0,5,2,No
+1107,55,Male,Married,Bachelor's,318500.0,11.3,Port Harcourt,Branch,5,5,4.0,4,4,10.0,9,0,Yes
+1108,49,Female,Married,Master's,222600.0,10.6,Kano,Branch,4,3,4.0,4,5,7.0,5,1,Yes
+1109,40,Male,Single,Secondary,105900.0,9.2,Lagos,USSD,3,3,3.0,3,3,5.0,5,0,No
+1110,51,Male,Married,Bachelor's,141200.0,4.9,Abuja,Internet Banking,3,3,3.0,3,3,5.0,3,0,No
+1111,31,Female,Married,Bachelor's,201400.0,3.9,Ibadan,Mobile App,3,3,4.0,2,4,6.0,4,1,No
+1112,55,Female,Married,Diploma,160000.0,3.1,Kano,Mobile App,5,3,5.0,3,4,6.0,4,1,Yes
+1113,44,Male,Divorced,Secondary,77100.0,3.2,Ibadan,Mobile App,2,2,2.0,3,2,4.0,5,2,No
+1114,40,Female,Married,Diploma,240100.0,1.5,Abuja,Internet Banking,1,1,1.0,2,1,3.0,2,3,No
+1115,42,Female,Married,Master's,228600.0,3.3,Port Harcourt,USSD,4,3,4.0,4,3,7.0,6,2,Yes
+1116,45,Female,Married,Secondary,66700.0,3.3,Lagos,USSD,3,3,,3,4,6.0,8,3,Yes
+1117,19,Female,Single,Diploma,214300.0,0.2,Ibadan,Mobile App,3,4,2.0,4,3,7.0,7,0,Yes
+1118,24,Male,Married,Secondary,91200.0,0.2,Abuja,Mobile App,4,4,3.0,5,3,6.0,6,0,Yes
+1119,29,Male,Married,Secondary,91400.0,2.6,Kano,Mobile App,3,4,3.0,3,3,4.0,3,1,No
+1120,23,Male,Single,Bachelor's,296900.0,0.2,Abuja,Internet Banking,3,4,4.0,4,5,9.0,7,2,Yes
+1121,39,Female,Single,Diploma,135000.0,5.2,Abuja,Mobile App,2,3,4.0,3,3,5.0,2,1,Yes
+1122,50,Female,Married,Bachelor's,228100.0,5.3,Port Harcourt,ATM,3,3,3.0,4,1,5.0,6,1,No
+1123,49,Male,Single,Bachelor's,329400.0,,Abuja,Internet Banking,4,3,3.0,2,3,3.0,3,1,No
+1124,40,Male,Single,Master's,248300.0,2.0,Ibadan,Mobile App,4,5,5.0,5,5,,9,2,Yes
+1125,59,Male,Single,Secondary,91500.0,,Abuja,Mobile App,1,3,1.0,1,2,,3,2,No
+1126,45,Female,Single,Master's,142000.0,,Port Harcourt,Mobile App,3,3,3.0,3,3,6.0,6,3,Yes
+1127,21,Female,Single,Bachelor's,199300.0,1.3,Lagos,Branch,1,2,1.0,2,2,3.0,1,2,No
+1128,54,Male,Married,Diploma,117900.0,5.6,Abuja,Branch,3,3,3.0,4,2,6.0,5,0,Yes
+1129,45,Male,Single,Master's,386200.0,6.8,Abuja,ATM,2,2,1.0,4,2,4.0,2,0,No
+1130,48,Female,Married,Master's,,8.0,Lagos,Mobile App,1,1,1.0,2,1,2.0,4,1,No
+1131,45,Male,Married,Diploma,186600.0,11.2,Lagos,Mobile App,3,4,3.0,3,3,5.0,6,0,Yes
+1132,44,Female,Single,Master's,252100.0,7.1,Port Harcourt,Internet Banking,2,2,2.0,4,1,4.0,1,0,No
+1133,22,Male,Single,Bachelor's,223300.0,1.4,Port Harcourt,ATM,1,1,1.0,1,1,3.0,1,0,No
+1134,44,Male,Married,Bachelor's,172100.0,5.5,Port Harcourt,Mobile App,4,3,4.0,3,4,8.0,7,1,Yes
+1135,56,Female,Single,PhD,503400.0,9.7,Lagos,USSD,5,4,4.0,3,4,7.0,6,0,Yes
+1136,32,Male,Single,Bachelor's,204200.0,3.5,Lagos,USSD,5,5,4.0,5,5,7.0,5,0,Yes
+1137,46,Male,Divorced,Master's,261400.0,3.5,Lagos,Internet Banking,2,3,3.0,4,3,6.0,8,3,Yes
+1138,19,Male,Widowed,Diploma,181400.0,1.4,Kano,ATM,3,2,4.0,5,4,6.0,6,1,Yes
+1139,34,Male,Married,Master's,293000.0,1.2,Kano,Branch,5,4,5.0,3,4,,7,0,Yes
+1140,38,Male,Single,Bachelor's,147700.0,4.3,Lagos,USSD,4,4,5.0,5,5,9.0,7,0,Yes
+1141,65,Male,Married,Diploma,207200.0,9.3,Port Harcourt,Mobile App,4,4,3.0,4,3,8.0,8,0,Yes
+1142,28,Male,Married,Bachelor's,174600.0,0.2,Lagos,USSD,2,3,2.0,3,1,4.0,3,0,No
+1143,31,Male,Single,Diploma,106600.0,2.8,Lagos,Internet Banking,4,2,3.0,2,3,7.0,6,1,Yes
+1144,37,Female,Married,Secondary,95700.0,6.0,Lagos,Branch,5,3,4.0,4,5,6.0,6,0,No
+1145,65,Female,Single,Secondary,,3.5,Lagos,Branch,1,1,1.0,2,1,,0,2,No
+1146,58,Male,Single,Bachelor's,163400.0,2.5,Port Harcourt,ATM,5,4,3.0,3,4,5.0,7,0,Yes
+1147,19,Male,Married,Secondary,132100.0,0.2,Ibadan,Internet Banking,5,5,5.0,5,5,10.0,9,0,Yes
+1148,29,Male,Single,Diploma,95000.0,3.0,Lagos,Branch,4,3,4.0,3,3,6.0,7,1,Yes
+1149,57,Female,Single,Bachelor's,302800.0,13.4,Abuja,ATM,5,5,5.0,4,4,9.0,7,2,Yes
+1150,20,Female,Married,Bachelor's,311200.0,0.2,Port Harcourt,USSD,3,3,3.0,3,2,,4,2,No
+1151,59,Male,Widowed,Bachelor's,246500.0,12.5,Ibadan,Mobile App,3,4,3.0,2,2,4.0,2,1,Yes
+1152,31,Male,Married,Diploma,,1.8,Port Harcourt,Mobile App,3,3,2.0,4,4,6.0,6,1,Yes
+1153,62,Male,Married,Master's,374300.0,8.0,Lagos,Branch,2,3,2.0,3,1,5.0,5,0,Yes
+1154,32,Male,Widowed,Bachelor's,328500.0,1.5,Port Harcourt,ATM,2,2,2.0,2,2,4.0,3,1,No
+1155,38,Female,Single,Diploma,154700.0,4.1,Lagos,Mobile App,5,5,4.0,4,4,7.0,5,0,Yes
+1156,49,Male,Married,Diploma,91400.0,10.4,Ibadan,USSD,5,5,5.0,4,5,,6,0,Yes
+1157,24,Male,Single,Bachelor's,226400.0,0.2,Abuja,Mobile App,2,1,2.0,2,2,4.0,4,2,No
+1158,44,Male,Single,Diploma,167700.0,6.2,Port Harcourt,Internet Banking,5,4,3.0,3,5,10.0,8,0,Yes
+1159,42,Female,Married,Bachelor's,163500.0,,Lagos,Mobile App,3,3,3.0,2,3,,5,2,No
+1160,55,Male,Married,PhD,467700.0,3.8,Abuja,Branch,4,4,3.0,4,4,6.0,7,0,Yes
+1161,65,Female,Married,Secondary,45000.0,6.3,Ibadan,ATM,3,3,4.0,3,3,8.0,7,5,Yes
+1162,49,Male,Single,Secondary,144800.0,0.2,Port Harcourt,Mobile App,3,4,3.0,5,4,5.0,6,0,Yes
+1163,37,Female,Single,PhD,287800.0,4.0,Abuja,Internet Banking,3,4,3.0,3,2,6.0,5,2,No
+1164,37,Male,Divorced,Bachelor's,138600.0,3.6,Ibadan,USSD,4,4,4.0,4,4,10.0,9,2,Yes
+1165,38,Female,Single,Diploma,90100.0,6.0,Kano,USSD,4,2,4.0,4,3,6.0,5,6,No
+1166,57,Female,Single,Master's,246000.0,10.1,Lagos,USSD,4,3,4.0,4,3,5.0,2,1,No
+1167,33,Female,Single,Master's,227900.0,1.1,Abuja,Branch,2,2,2.0,3,1,4.0,6,1,No
+1168,26,Female,Married,Bachelor's,91800.0,,Abuja,Internet Banking,5,5,4.0,5,4,10.0,9,0,Yes
+1169,34,Female,Married,Bachelor's,172300.0,5.8,Port Harcourt,USSD,4,4,3.0,3,2,7.0,7,0,No
+1170,19,Female,Married,Diploma,99300.0,0.7,Lagos,Mobile App,4,4,3.0,3,3,,4,2,Yes
+1171,23,Female,Single,Secondary,77000.0,1.3,Lagos,Branch,1,2,1.0,2,2,2.0,2,3,No
+1172,22,Male,Single,Bachelor's,192500.0,0.2,Ibadan,USSD,3,3,2.0,2,1,3.0,2,4,No
+1173,55,Female,Married,Diploma,162300.0,10.3,Ibadan,Mobile App,4,4,5.0,4,3,8.0,9,2,Yes
+1174,52,Male,Married,Bachelor's,191300.0,11.5,Kano,Internet Banking,3,3,3.0,4,4,7.0,7,3,No
+1175,51,Female,Married,Master's,199700.0,4.8,Ibadan,USSD,1,1,1.0,2,1,3.0,3,1,No
+1176,40,Male,Married,Secondary,63100.0,1.9,Kano,Internet Banking,4,3,4.0,3,4,8.0,9,0,Yes
+1177,52,Male,Married,Bachelor's,173800.0,12.3,Kano,Mobile App,1,3,3.0,2,3,3.0,4,3,No
+1178,25,Female,Single,Diploma,,1.9,Kano,Mobile App,5,4,,5,5,7.0,7,2,Yes
+1179,61,Male,Single,Master's,434300.0,,Abuja,Mobile App,2,3,4.0,3,2,6.0,4,0,Yes
+1180,42,Male,Married,Diploma,202900.0,3.3,Abuja,Branch,5,4,3.0,3,3,5.0,4,0,No
+1181,63,Male,Single,Bachelor's,229100.0,5.4,Lagos,ATM,4,4,4.0,4,3,7.0,5,0,Yes
+1182,25,Male,Married,Bachelor's,208300.0,2.9,Port Harcourt,USSD,1,2,2.0,1,4,4.0,5,1,Yes
+1183,41,Male,Married,Bachelor's,173300.0,6.5,Lagos,Mobile App,2,2,2.0,3,1,3.0,3,2,Yes
+1184,51,Male,Married,Bachelor's,264800.0,4.1,Lagos,Mobile App,4,3,2.0,3,2,,2,0,No
+1185,41,Male,Married,Bachelor's,295700.0,7.4,Port Harcourt,USSD,4,3,3.0,5,3,7.0,6,2,Yes
+1186,39,Male,Married,Bachelor's,301600.0,3.1,Abuja,Branch,2,2,1.0,2,1,4.0,2,0,No
+1187,25,Male,Divorced,Bachelor's,311200.0,0.5,Lagos,Internet Banking,1,2,1.0,3,2,4.0,4,2,Yes
+1188,36,Female,Married,PhD,401800.0,4.2,Kano,Mobile App,4,3,3.0,4,5,8.0,5,0,Yes
+1189,29,Male,Married,Bachelor's,273100.0,3.5,Kano,ATM,2,2,2.0,3,2,4.0,4,1,No
+1190,32,Female,Single,Bachelor's,285100.0,,Lagos,Branch,1,2,,3,2,,4,2,No
+1191,50,Female,Married,Secondary,59800.0,2.5,Lagos,ATM,1,1,1.0,2,1,1.0,3,3,No
+1192,48,Male,Married,Master's,413100.0,5.5,Lagos,Mobile App,1,2,3.0,3,2,4.0,5,4,Yes
+1193,47,Male,Single,Bachelor's,,8.5,Kano,Internet Banking,2,4,2.0,3,3,6.0,5,1,Yes
+1194,35,Female,Single,Bachelor's,327600.0,2.4,Kano,Branch,4,5,,5,4,8.0,8,0,Yes
+1195,64,Female,Divorced,Secondary,,6.0,Lagos,Mobile App,2,3,1.0,2,2,2.0,0,3,No
+1196,22,Female,Married,Master's,208700.0,0.2,Kano,Internet Banking,5,5,4.0,4,5,8.0,6,1,Yes
+1197,34,Female,Single,Bachelor's,273300.0,0.2,Lagos,Mobile App,2,2,,2,2,,5,4,Yes
+1198,23,Female,Single,Bachelor's,,0.6,Abuja,Branch,3,4,3.0,3,2,4.0,1,4,No
+1199,34,Female,Single,Diploma,177600.0,0.4,Ibadan,Branch,5,4,4.0,4,4,7.0,6,0,Yes
+1200,64,Male,Single,Master's,412600.0,7.5,Lagos,Mobile App,4,3,,3,4,8.0,6,2,Yes
+1201,35,Female,Divorced,Diploma,196700.0,4.1,Lagos,Branch,2,2,,2,2,4.0,4,0,Yes
+1202,61,Male,Married,Diploma,217600.0,12.5,Abuja,USSD,3,3,2.0,2,3,6.0,4,1,Yes
+1203,41,Female,Single,Master's,203300.0,5.9,Port Harcourt,Mobile App,5,5,5.0,4,5,8.0,8,2,Yes
+1204,51,Female,Married,Master's,236300.0,8.1,Ibadan,USSD,5,4,5.0,3,4,8.0,7,2,Yes
+1205,39,Male,Single,Diploma,,8.0,Ibadan,USSD,2,3,2.0,1,1,3.0,5,0,No
+1206,30,Female,Single,Bachelor's,129000.0,2.7,Lagos,Branch,3,3,3.0,3,2,8.0,7,1,No
+1207,54,Male,Married,Bachelor's,188300.0,5.3,Lagos,ATM,3,3,2.0,3,2,7.0,5,3,Yes
+1208,64,Female,Married,Master's,235200.0,14.8,Kano,USSD,2,1,1.0,3,2,5.0,4,2,No
+1209,30,Male,Widowed,Bachelor's,191100.0,2.7,Lagos,Internet Banking,3,3,3.0,3,3,6.0,4,3,Yes
+1210,55,Female,Married,Bachelor's,223700.0,10.4,Ibadan,Mobile App,3,3,3.0,2,4,5.0,5,0,Yes
+1211,30,Male,Married,Bachelor's,292600.0,1.6,Port Harcourt,Mobile App,4,4,3.0,3,4,9.0,9,1,No
+1212,52,Female,Married,Bachelor's,,3.5,Lagos,Branch,4,4,4.0,5,4,7.0,10,1,Yes
+1213,55,Female,Divorced,Master's,442400.0,5.7,Kano,Internet Banking,3,4,3.0,2,3,5.0,4,4,No
+1214,39,Female,Married,Bachelor's,189500.0,4.0,Lagos,USSD,3,3,,3,3,3.0,2,1,No
+1215,53,Female,Widowed,Secondary,80100.0,4.9,Abuja,USSD,3,3,4.0,3,4,5.0,4,1,No
+1216,31,Female,Married,Master's,311500.0,2.8,Abuja,Branch,3,2,3.0,3,3,5.0,5,1,No
+1217,21,Female,Married,Master's,282200.0,0.6,Abuja,ATM,3,4,4.0,3,4,,6,0,No
+1218,22,Male,Single,Master's,248200.0,0.9,Port Harcourt,Mobile App,2,3,3.0,3,3,,3,1,No
+1219,39,Female,Married,Secondary,73300.0,7.6,Port Harcourt,USSD,3,2,3.0,2,1,4.0,5,1,Yes
+1220,61,Male,Married,Diploma,86100.0,12.1,Ibadan,Branch,2,2,1.0,2,2,6.0,5,3,Yes
+1221,24,Female,Married,Bachelor's,194300.0,1.1,Ibadan,USSD,4,4,5.0,4,5,9.0,9,0,Yes
+1222,39,Male,Married,Secondary,93100.0,3.8,Abuja,USSD,3,3,3.0,3,3,5.0,5,3,Yes
+1223,51,Female,Widowed,PhD,359500.0,3.5,Lagos,Branch,5,4,5.0,4,5,8.0,7,0,Yes
+1224,27,Female,Widowed,Bachelor's,296000.0,0.2,Port Harcourt,Branch,2,2,3.0,3,1,5.0,4,2,No
+1225,52,Male,Single,Bachelor's,180300.0,9.9,Ibadan,USSD,3,3,4.0,5,3,7.0,10,1,No
+1226,32,Female,Married,Master's,457900.0,1.1,Lagos,Branch,5,5,5.0,5,5,9.0,7,0,Yes
+1227,56,Female,Married,Bachelor's,248100.0,2.3,Abuja,Internet Banking,1,3,1.0,3,1,4.0,4,3,Yes
+1228,45,Female,Single,Diploma,221900.0,9.1,Abuja,USSD,2,2,2.0,1,2,2.0,1,6,No
+1229,44,Male,Single,Bachelor's,264100.0,6.6,Lagos,Internet Banking,4,5,4.0,3,4,8.0,10,3,No
+1230,26,Female,Single,Bachelor's,143300.0,2.2,Port Harcourt,Mobile App,1,2,2.0,1,2,4.0,5,1,No
+1231,40,Female,Married,Bachelor's,208400.0,0.2,Abuja,Mobile App,3,3,2.0,4,3,5.0,4,1,Yes
+1232,59,Male,Married,Bachelor's,127300.0,10.8,Kano,Branch,4,1,3.0,2,1,6.0,6,0,No
+1233,18,Male,Widowed,Master's,404700.0,1.7,Kano,USSD,4,4,3.0,3,3,7.0,7,4,Yes
+1234,54,Male,Married,Bachelor's,231400.0,3.5,Kano,Mobile App,3,2,2.0,2,3,4.0,3,3,Yes
+1235,41,Female,Widowed,Diploma,100300.0,7.6,Abuja,Branch,2,3,3.0,2,2,7.0,7,0,Yes
+1236,52,Male,Single,Bachelor's,317600.0,8.0,Lagos,Mobile App,4,4,5.0,3,3,6.0,6,2,No
+1237,49,Female,Married,Bachelor's,126200.0,9.8,Kano,USSD,1,1,3.0,2,3,5.0,5,2,Yes
+1238,38,Female,Single,Diploma,167900.0,1.1,Kano,Branch,2,1,,2,3,5.0,4,1,Yes
+1239,32,Male,Married,Diploma,,1.2,Abuja,USSD,2,2,3.0,2,3,8.0,8,0,Yes
+1240,48,Female,Married,Bachelor's,110200.0,7.4,Ibadan,ATM,1,2,1.0,1,1,2.0,2,1,No
+1241,24,Female,Divorced,Bachelor's,,1.5,Lagos,USSD,2,3,3.0,3,2,4.0,4,0,Yes
+1242,46,Male,Married,Master's,385800.0,7.8,Ibadan,USSD,4,2,3.0,3,3,6.0,5,1,No
+1243,22,Male,Single,Diploma,86100.0,0.2,Lagos,USSD,3,2,2.0,3,2,5.0,7,2,Yes
+1244,49,Male,Single,Secondary,91900.0,1.4,Lagos,USSD,3,2,3.0,3,2,7.0,5,1,Yes
+1245,48,Male,Single,Bachelor's,128300.0,5.9,Abuja,Branch,2,3,3.0,3,3,5.0,5,1,No
+1246,22,Male,Single,Master's,354800.0,1.0,Lagos,ATM,2,1,2.0,2,2,5.0,4,1,Yes
+1247,54,Female,Married,Diploma,75600.0,9.0,Lagos,Internet Banking,3,3,3.0,4,3,8.0,10,1,Yes
+1248,37,Male,Married,Diploma,230600.0,1.6,Lagos,Internet Banking,5,4,,5,5,9.0,7,0,Yes
+1249,55,Male,Married,Diploma,175300.0,12.1,Abuja,USSD,3,3,4.0,3,3,4.0,3,3,No
+1250,19,Female,Married,Bachelor's,126600.0,0.2,Kano,USSD,4,3,4.0,3,5,8.0,6,0,Yes
