@@ -1,0 +1,1413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Power Query Data Cleaning Masterclass Set 2 - Complete Solutions and Answer Key</title>
+<style>
+:root {
+  --bg: #0f1117;
+  --panel: #171a23;
+  --panel2: #1e2230;
+  --accent: #4fd1c5;
+  --accent2: #f6ad55;
+  --text: #e6e8ee;
+  --muted: #9aa3b2;
+  --border: #2a2f3d;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+.wrap { max-width: 1000px; margin: 0 auto; padding: 40px 24px 100px; }
+header.cover {
+  padding: 70px 24px;
+  background: linear-gradient(135deg, #14182a 0%, #1c2740 60%, #102321 100%);
+  border-bottom: 1px solid var(--border);
+  text-align: center;
+}
+header.cover h1 { font-size: 2.3rem; margin: 0 0 12px; color: #fff; }
+header.cover p.subtitle { color: var(--accent); font-size: 1.1rem; margin: 0 0 6px; }
+header.cover p.author { color: var(--muted); font-size: 0.95rem; }
+h2.section-title {
+  font-size: 1.6rem;
+  color: var(--accent);
+  border-bottom: 2px solid var(--accent);
+  padding-bottom: 8px;
+  margin-top: 56px;
+}
+h3.sub-title { color: var(--accent2); font-size: 1.25rem; margin-top: 30px; }
+.card {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 22px 26px;
+  margin: 18px 0;
+}
+.dataset-block {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+  border-radius: 8px;
+  padding: 24px 28px;
+  margin: 26px 0;
+}
+.dataset-num {
+  display: inline-block;
+  background: var(--accent);
+  color: #08221f;
+  font-weight: 700;
+  padding: 2px 10px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  margin-right: 8px;
+}
+.dataset-block h3 { color: #fff; margin: 6px 0 4px; font-size: 1.3rem; }
+.meta-row { color: var(--muted); font-size: 0.88rem; margin-bottom: 12px; }
+.meta-row code {
+  background: var(--panel2); padding: 2px 7px; border-radius: 4px; color: var(--accent2);
+}
+h4.block-h { color: var(--accent2); margin: 22px 0 8px; font-size: 1.05rem; }
+ul, ol { padding-left: 22px; }
+li { margin-bottom: 8px; }
+.issues li::marker { color: #fc8181; }
+.walk-title { color: #fff; font-weight: 600; }
+code.inline { background: var(--panel2); padding: 1px 6px; border-radius: 4px; color: var(--accent2); font-family: Consolas, monospace; }
+.cheat-table { width: 100%; border-collapse: collapse; margin: 16px 0; }
+.cheat-table th, .cheat-table td { border: 1px solid var(--border); padding: 9px 12px; font-size: 0.88rem; }
+.cheat-table th { background: var(--panel2); color: var(--accent); }
+.cheat-table td code { font-family: Consolas, monospace; color: var(--accent2); }
+.toc { background: var(--panel); border: 1px solid var(--border); border-radius: 10px; padding: 22px 28px; margin: 24px 0; }
+.toc a { color: var(--accent); text-decoration: none; }
+.toc a:hover { text-decoration: underline; }
+.toc ol { columns: 2; }
+footer { text-align: center; color: var(--muted); margin-top: 60px; font-size: 0.85rem; }
+.note { background: #2a2417; border: 1px solid #5a4a1e; border-radius: 8px; padding: 14px 18px; color: #f0d792; font-size: 0.9rem; margin: 16px 0; }
+.code-block {
+  background: #0b0d13;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px 18px;
+  overflow-x: auto;
+  font-family: Consolas, 'Courier New', monospace;
+  font-size: 0.82rem;
+  line-height: 1.55;
+  color: #cdeee9;
+  margin: 10px 0 18px;
+  white-space: pre;
+}
+.code-block code { color: #cdeee9; }
+.fx-card { border-left: 4px solid var(--accent2); }
+.fx-name { color: var(--accent2); font-family: Consolas, monospace; font-size: 1.05rem; font-weight: 700; }
+.assumption-list li::marker { color: var(--accent2); }
+.lookup-name { color: var(--accent); font-family: Consolas, monospace; font-size: 1.1rem; font-weight: 700; }
+.used-by { color: var(--muted); font-size: 0.85rem; margin-bottom: 10px; }
+</style>
+</head>
+<body>
+<header class="cover">
+  <h1>Power Query Data Cleaning Masterclass Set 2 - Complete Solutions and Answer Key</h1>
+  <p class="subtitle">Full Worked Solutions for Datasets 11-20 - Excel and Power BI Editions</p>
+  <p class="author">Prepared by Kajola Gbenga Adewale | Data Expert</p>
+</header>
+<div class="wrap">
+
+<h2 class="section-title">Introduction to This Solutions Guide</h2>
+<div class="card">
+<p>This document is the companion answer key to Power Query Data Cleaning Masterclass Set 2, covering the second batch of ten dirty datasets: insurance, microfinance, hospitality, agriculture, government payroll, petroleum retail, higher education, utilities, pharmacy, and construction. It follows exactly the same structure and the same standard of rigour as the Set 1 solutions guide, and it assumes the reader already has, or is building alongside this guide, the same six reusable helper functions used throughout Set 1.</p>
+<p>Set 2 introduces a noticeably higher proportion of audit-style datasets - payroll, utility billing, pharmacy compliance, and government contract registers - where the defining skill is not just standardising text but building a defensible exception report: a NetPayVariance flag, a MeterFlag for unmetered accounts, an ExpiryStatus for pharmacy stock, an OverpaymentCheck for a construction contract. Every solution in this guide follows the same discipline established in Set 1: flag first, never silently correct a figure that a human should really be looking at, and always leave an audit trail an examiner can follow.</p>
+<p>As with Set 1, every M query below is complete, valid, and ready to paste into the Advanced Editor with only the file path changed. Where a dataset problem explicitly calls for a Merge Queries lookup table rather than a hand-written conditional function - as the original masterclass narrative does for PolicyType, LoanStatus, Ministry, FuelType, Faculty, TariffCategory, StorageCondition, and ProjectType - this guide follows that instruction and builds the lookup table in full, rather than defaulting back to the function-based shortcut used for simpler columns elsewhere in the same dataset. This keeps the guide honest to the specific teaching point each dataset was designed to make.</p>
+</div>
+<h3 class="sub-title">How to Use This Guide</h3>
+<div class="card">
+<ol>
+<li>If the six shared helper functions (fxCleanText, fxToNumber, fxDigitsOnlyPhone, fxToBoolean, fxTryParseDate, fxCleanState) have not already been built from the Set 1 solutions guide, build them first exactly as documented there; every query in this Set 2 guide calls them by name.</li>
+<li>Each of the ten sections below also builds one or more dataset-specific lookup table queries where the original masterclass step list calls for Merge Queries rather than a function. Build each lookup table as its own query, named exactly as shown, with Load disabled, before opening the main dataset query's Advanced Editor.</li>
+<li>Several datasets in this set close with a companion 'AuditFlags' query - a second query built from the main cleaned query with Table.SelectRows applied to surface only the rows that failed at least one validation check. This mirrors exactly how a real internal-audit or revenue-assurance team would package a findings report alongside the clean master table, and is given in full for every audit-style dataset.</li>
+<li>Run every validation checklist before Close &amp; Load, exactly as in Set 1, and treat every assumptions list as material for your own written data quality documentation.</li>
+</ol>
+</div>
+
+<div class="toc">
+  <h3 class="sub-title" style="margin-top:0">Contents</h3>
+  <ol>
+    <li><a href="#helpers">Reusable Solution Components (Six Helper Functions Recap)</a></li>
+<li><a href="#solution-11">Dataset 11: Insurance Claims Processing Register</a></li>
+<li><a href="#solution-12">Dataset 12: Microfinance Institution Loan Records</a></li>
+<li><a href="#solution-13">Dataset 13: Hotel and Hospitality Reservation Records</a></li>
+<li><a href="#solution-14">Dataset 14: Agricultural Produce Market Sales Records</a></li>
+<li><a href="#solution-15">Dataset 15: Federal Civil Service Payroll Register</a></li>
+<li><a href="#solution-16">Dataset 16: Petrol Station Daily Fuel Sales Log</a></li>
+<li><a href="#solution-17">Dataset 17: University Student Enrollment and Academic Records</a></li>
+<li><a href="#solution-18">Dataset 18: Electricity Distribution Company Billing Records</a></li>
+<li><a href="#solution-19">Dataset 19: Pharmacy Drug Inventory and Stock Records</a></li>
+<li><a href="#solution-20">Dataset 20: Government Construction and Infrastructure Project Register</a></li>
+    <li><a href="#appendix">Appendix: Four Set 2 Lookup Table Queries</a></li>
+    <li><a href="#cheatsheet">Solutions Cheat Sheet - Set 2 Additions</a></li>
+    <li><a href="#qa">Validation and QA Methodology for Audit-Style Datasets</a></li>
+    <li><a href="#facilitator">Facilitator Notes</a></li>
+  </ol>
+</div>
+
+<h2 class="section-title" id="helpers">Reusable Solution Components: The Six Shared Helper Functions (Recap)</h2>
+<div class="card">
+  <p>Create each function below as its own blank query in the Power Query Editor (Home &gt; New Source &gt; Blank Query, then Advanced Editor), name the query exactly as shown, and set 'Include in report refresh' / Load off for all six since they are building blocks rather than tables. Once created, every one of the ten dataset queries below can call them directly, for example fxCleanText([Store]) or fxToNumber([UnitPrice]), exactly like any other M function.</p>
+</div>
+
+<div class="card fx-card">
+  <div class="fx-name">fxCleanText</div>
+  <p>Trims whitespace, strips non-printable characters, and converts every known null-marker string (blank, N/A, NULL, NIL, unknown, a lone dash, a question mark, and similar placeholders seen across all ten files) into a true M null so that later steps, aggregations, and Power BI measures never silently treat a placeholder as real text.</p>
+  <pre class="code-block"><code>(inputValue as any) as nullable text =&gt;
+let
+    AsText = if inputValue = null then null else Text.From(inputValue),
+    Trimmed = if AsText = null then null else Text.Trim(Text.Clean(AsText)),
+    NullMarkers = {
+        "", "N/A", "NA", "N.A", "N.A.", "NULL", "NIL", "UNKNOWN",
+        "UNKNOWN DATE", "NOT SET", "-", "--", "?", "NONE", "#N/A", "UNDEFINED"
+    },
+    Result =
+        if Trimmed = null then null
+        else if List.Contains(NullMarkers, Text.Upper(Trimmed)) then null
+        else Trimmed
+in
+    Result</code></pre>
+</div>
+<div class="card fx-card">
+  <div class="fx-name">fxToNumber</div>
+  <p>Converts any of the currency-as-text formats found across the ten files - the naira sign, the word naira, the letters NGN, thousands-separator commas, and stray spaces - into a true Decimal Number, returning null for any remaining null-marker or truly unparseable text instead of raising a step error that would silently poison a downstream calculation.</p>
+  <pre class="code-block"><code>(inputValue as any) as nullable number =&gt;
+let
+    AsText = if inputValue = null then null else Text.From(inputValue),
+    NullMarkers = {"", "-", "--", "?", "N/A", "NA", "NIL", "UNKNOWN", "NONE"},
+    IsNullLike = AsText = null or List.Contains(NullMarkers, Text.Upper(Text.Trim(AsText))),
+    Step1 = if IsNullLike then null else Text.Replace(AsText, "₦", ""),
+    Step2 = if Step1 = null then null else Text.Replace(Step1, "NGN", ""),
+    Step3 = if Step2 = null then null else Text.Replace(Step2, "naira", ""),
+    Step4 = if Step3 = null then null else Text.Replace(Step3, "Naira", ""),
+    Step5 = if Step4 = null then null else Text.Replace(Step4, ",", ""),
+    Cleaned = if Step5 = null then null else Text.Trim(Step5),
+    Result = if Cleaned = null or Cleaned = "" then null else try Number.FromText(Cleaned) otherwise null
+in
+    Result</code></pre>
+</div>
+<div class="card fx-card">
+  <div class="fx-name">fxDigitsOnlyPhone</div>
+  <p>Strips every non-digit character (spaces, brackets, dashes, plus signs) from a phone number field regardless of which of the five formats it arrived in, then re-applies a single consistent Nigerian local format (a leading 0 followed by ten digits), so the same subscriber number is never stored three different ways in the same column.</p>
+  <pre class="code-block"><code>(inputValue as any) as nullable text =&gt;
+let
+    AsText = if inputValue = null then null else Text.From(inputValue),
+    DigitsOnly = if AsText = null then null else Text.Select(AsText, {"0".."9"}),
+    Result =
+        if DigitsOnly = null or DigitsOnly = "" then null
+        else if Text.StartsWith(DigitsOnly, "234") and Text.Length(DigitsOnly) = 13
+             then "0" &amp; Text.Middle(DigitsOnly, 3, 10)
+        else if Text.Length(DigitsOnly) = 11 then DigitsOnly
+        else if Text.Length(DigitsOnly) = 10 then "0" &amp; DigitsOnly
+        else DigitsOnly
+in
+    Result</code></pre>
+</div>
+<div class="card fx-card">
+  <div class="fx-name">fxToBoolean</div>
+  <p>Standardises any of the six common Yes/No spellings used across the ten files (Yes/No, Y/N, 1/0, TRUE/FALSE, in any letter case, with any surrounding whitespace) into a true Power Query Logical value, so filters, slicers, and DAX measures can use a real Boolean instead of pattern-matching text every time.</p>
+  <pre class="code-block"><code>(inputValue as any) as nullable logical =&gt;
+let
+    AsText = if inputValue = null then null else Text.Upper(Text.Trim(Text.From(inputValue))),
+    TrueValues = {"YES", "Y", "1", "TRUE"},
+    FalseValues = {"NO", "N", "0", "FALSE"},
+    Result =
+        if AsText = null then null
+        else if List.Contains(TrueValues, AsText) then true
+        else if List.Contains(FalseValues, AsText) then false
+        else null
+in
+    Result</code></pre>
+</div>
+<div class="card fx-card">
+  <div class="fx-name">fxTryParseDate</div>
+  <p>Attempts several known date text patterns in turn (ISO 2025-01-31, UK-style 31/01/2025, US-style 01/31/2025, dotted 31.01.2025, and long form 31 January 2025 or 31-Jan-2025) using try...otherwise so that one unrecognised format never crashes the whole column, and converts every recognised placeholder (blank, not set, unknown date, 00/00/0000) into a clean null rather than a parsing error.</p>
+  <pre class="code-block"><code>(inputValue as any) as nullable date =&gt;
+let
+    AsText = if inputValue = null then null else Text.Trim(Text.From(inputValue)),
+    NullMarkers = {"", "NOT SET", "UNKNOWN DATE", "00/00/0000", "N/A", "NULL", "NIL"},
+    IsNullLike = AsText = null or List.Contains(NullMarkers, Text.Upper(AsText)),
+    Attempt1 = if IsNullLike then null else try Date.From(DateTime.FromText(AsText)) otherwise null,
+    Attempt2 = if Attempt1 &lt;&gt; null then Attempt1
+               else if IsNullLike then null
+               else try Date.FromText(AsText, "en-GB") otherwise null,
+    Attempt3 = if Attempt2 &lt;&gt; null then Attempt2
+               else if IsNullLike then null
+               else try Date.FromText(AsText, "en-US") otherwise null,
+    Result = Attempt3
+in
+    Result</code></pre>
+</div>
+<div class="card fx-card">
+  <div class="fx-name">fxCleanState</div>
+  <p>Folds every Nigerian state-name variant seen in the ten files (different letter case, the word State tacked on or left off, a state capital used in place of the state, and common abbreviations such as FCT or Lag) into one canonical spelling, without needing a separate Merge Queries lookup step inside every dataset query.</p>
+  <pre class="code-block"><code>(inputValue as any) as nullable text =&gt;
+let
+    Raw = fxCleanText(inputValue),
+    Upper = if Raw = null then null else Text.Upper(Raw),
+    NoStateWord =
+        if Upper = null then null
+        else Text.Trim(Text.Replace(Text.Replace(Upper, " STATE", ""), "STATE ", "")),
+    Mapped =
+        if NoStateWord = null then null
+        else if NoStateWord = "LAGOS" or NoStateWord = "LAG" or NoStateWord = "IKEJA" or NoStateWord = "LEKKI" then "Lagos"
+        else if NoStateWord = "ABUJA" or NoStateWord = "FCT" or NoStateWord = "FCT ABUJA" then "FCT Abuja"
+        else if NoStateWord = "KANO" then "Kano"
+        else if NoStateWord = "OYO" or NoStateWord = "IBADAN" then "Oyo"
+        else if NoStateWord = "RIVERS" or NoStateWord = "PORT HARCOURT" then "Rivers"
+        else Text.Proper(NoStateWord),
+    Result = Mapped
+in
+    Result</code></pre>
+</div>
+<div class="note">A note on method: two equally valid ways exist in Power Query to standardise a messy categorical column such as State, Department, or Courier - a hand-written conditional function like fxCleanState below, or a small two-column lookup table merged in with Merge Queries and a Left Outer join. This guide uses the function approach throughout for compactness, but the Lookup Table Appendix at the end of this document shows the Merge Queries method worked through in full for one dataset, so trainees are comfortable with both techniques and can choose whichever fits a future client's workbook better - a function travels inside the query itself, while a lookup table is easier for a non-technical colleague to open and edit without touching M code.</div>
+<h2 class="section-title" id="solutions">The Ten Dataset Solutions (11-20)</h2>
+<div class="dataset-block" id="solution-11">
+  <h3><span class="dataset-num">Dataset 11</span>Insurance Claims Processing Register &mdash; Full Solution</h3>
+  <div class="meta-row">Domain: Insurance &nbsp;|&nbsp; File: <code>11_insurance_claims_DIRTY.csv</code></div>
+
+  <h4 class="block-h">Recap of Planted Data Quality Issues</h4>
+  <ul class="issues">
+<li>PolicyType has overlapping, inconsistently cased entries (Motor, Motor Comprehensive; Life, Life (Term)) needing casing consolidation.</li>
+<li>IncidentDate and ClaimDate use mixed date formats; some ClaimDate values fall before IncidentDate.</li>
+<li>CauseOfClaim has trailing spaces and mixed casing for the same cause.</li>
+<li>PremiumPaid, ClaimAmount, PayoutAmount stored as text with mixed currency notation; PayoutAmount frequently blank.</li>
+<li>ClaimStatus uses inconsistent casing and overlapping labels (Approved, Partially Approved, Settled).</li>
+<li>PolicyActive mixes Yes/No, Y/N, 1/0, TRUE/FALSE; roughly five percent duplicate rows from a pasted shared workbook.</li>
+  </ul>
+
+  <h4 class="block-h">Complete Power Query M Solution (Paste into the Advanced Editor)</h4>
+  <pre class="code-block"><code>let
+    Source = Csv.Document(File.Contents("C:\ProdigyTrainingHub\11_insurance_claims_DIRTY.csv"),
+        [Delimiter=",", Columns=15, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+    PromotedHeaders = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+    AllText = Table.TransformColumnTypes(PromotedHeaders,
+        List.Transform(Table.ColumnNames(PromotedHeaders), each {_, type text})),
+    TypedPolicyNumber = Table.TransformColumnTypes(AllText, {{"PolicyNumber", type text}}),
+    RemovedDuplicateRows = Table.Distinct(TypedPolicyNumber),
+    CleanedNamesAndCause = Table.TransformColumns(RemovedDuplicateRows, {
+        {"CustomerName", each Text.Proper(fxCleanText(_)), type text},
+        {"InsurerName", each Text.Proper(fxCleanText(_)), type text},
+        {"CauseOfClaim", each Text.Proper(fxCleanText(_)), type text},
+        {"PolicyType", each Text.Proper(fxCleanText(_)), type text}
+    }),
+    ParsedIncidentDate = Table.TransformColumns(CleanedNamesAndCause, {{"IncidentDate", each fxTryParseDate(_), type date}}),
+    ParsedClaimDate = Table.TransformColumns(ParsedIncidentDate, {{"ClaimDate", each fxTryParseDate(_), type date}}),
+    AddedClaimAfterIncident = Table.AddColumn(ParsedClaimDate, "ClaimAfterIncident", each
+        if [IncidentDate] = null or [ClaimDate] = null then null
+        else [ClaimDate] &gt;= [IncidentDate], type logical),
+    NumericPremium = Table.TransformColumns(AddedClaimAfterIncident, {{"PremiumPaid", each fxToNumber(_), type number}}),
+    NumericClaimAmount = Table.TransformColumns(NumericPremium, {{"ClaimAmount", each fxToNumber(_), type number}}),
+    NumericPayoutAmount = Table.TransformColumns(NumericClaimAmount, {{"PayoutAmount", each fxToNumber(_), type number}}),
+    StandardisedClaimStatus = Table.TransformColumns(NumericPayoutAmount, {{"ClaimStatus", each
+        let U = Text.Upper(Text.Trim(fxCleanText(_) ?? ""))
+        in if U = null then null
+           else if U = "SETTLED" or U = "APPROVED" then "Approved"
+           else if U = "PARTIALLY APPROVED" then "Partially Approved"
+           else Text.Proper(U), type text}}),
+    AddedPayoutStatus = Table.AddColumn(StandardisedClaimStatus, "PayoutStatus", each
+        if [PayoutAmount] = null and [ClaimStatus] = "Approved" then "Payout missing - review"
+        else if [PayoutAmount] = null then "No payout"
+        else "Paid", type text),
+    StandardisedPolicyActive = Table.TransformColumns(AddedPayoutStatus, {{"PolicyActive", each fxToBoolean(_), type logical}}),
+    DigitsOnlyPhone = Table.TransformColumns(StandardisedPolicyActive, {{"CustomerPhone", each fxDigitsOnlyPhone(_), type text}}),
+    StandardisedState = Table.TransformColumns(DigitsOnlyPhone, {{"State", each fxCleanState(_), type text}}),
+    ReorderedColumns = Table.ReorderColumns(StandardisedState,
+        {"ClaimID","PolicyNumber","PolicyType","InsurerName","CustomerName","CustomerPhone","IncidentDate","ClaimDate",
+         "ClaimAfterIncident","CauseOfClaim","PremiumPaid","ClaimAmount","PayoutAmount","PayoutStatus","ClaimStatus",
+         "State","PolicyActive"})
+in
+    ReorderedColumns</code></pre>
+
+  <h4 class="block-h">Step-by-Step Explanation of the Non-Obvious Decisions</h4>
+  <ul>
+<li><span class="walk-title">PolicyNumber typed as Text before anything else</span> &mdash; A policy number that is purely numeric would otherwise be auto-detected as a Whole Number and could lose a leading zero or a leading letter prefix in a mixed alphanumeric scheme, exactly the same risk this guide has flagged for account and ID columns in every dataset so far.</li>
+<li><span class="walk-title">ClaimAfterIncident computed immediately after both dates parse, before any currency cleaning</span> &mdash; Placing the logical-impossibility check right next to the two date-parsing steps keeps the reasoning for that specific business rule together in the Applied Steps pane, which matters when a claims officer later needs to audit exactly how a row was classified.</li>
+<li><span class="walk-title">ClaimStatus consolidation is a documented business decision, not a silent default</span> &mdash; The masterclass narrative is explicit that folding Settled into Approved is 'whatever the business says is the correct mapping'; this solution documents the choice made (Settled treated as a form of Approved) directly in the Business Assumptions list below rather than hiding it inside an unexplained Replace Values step.</li>
+<li><span class="walk-title">PayoutStatus built as a three-way conditional rather than a simple null check</span> &mdash; A blank PayoutAmount is completely normal on a claim still Pending or Rejected, but the exact same blank on an Approved claim is a genuine process gap the claims team needs to chase; the three-way conditional keeps those two situations distinct instead of flagging every blank payout equally.</li>
+  </ul>
+
+  <h4 class="block-h">Validation Checklist Before Close &amp; Load</h4>
+  <ul>
+<li>Filter ClaimAfterIncident = false and confirm every flagged row is routed to the claims team rather than silently corrected.</li>
+<li>Group By ClaimStatus and confirm only the agreed canonical bucket list remains (for example Approved, Partially Approved, Pending, Rejected).</li>
+<li>Filter PayoutStatus = "Payout missing - review" and cross-check a sample against the claims file to confirm every flagged row is genuinely Approved with no PayoutAmount recorded.</li>
+<li>Group By PolicyType and confirm casing variants have collapsed while genuinely distinct sub-products (Motor versus Motor Comprehensive) remain separate.</li>
+<li>Check Table.RowCount before and after Table.Distinct to confirm the duplicate count removed is consistent with the roughly five percent figure noted in the file profile.</li>
+  </ul>
+
+  <h4 class="block-h">Business Assumptions Made Explicit</h4>
+  <ul class="assumption-list">
+<li>Settled and Approved are treated as the same underlying claim outcome and consolidated into a single 'Approved' status; a business with a genuine operational distinction between the two would need to override this mapping.</li>
+<li>A blank PayoutAmount is only treated as a process gap requiring review when ClaimStatus is Approved; the same blank on any other status is accepted as normal and simply labelled 'No payout'.</li>
+<li>PolicyType casing is standardised with Text.Proper rather than collapsed into fewer categories, preserving the distinction between a base product and its named sub-variant (for example Motor Comprehensive stays distinct from Motor).</li>
+  </ul>
+</div>
+
+<div class="dataset-block" id="solution-12">
+  <h3><span class="dataset-num">Dataset 12</span>Microfinance Institution Loan Records &mdash; Full Solution</h3>
+  <div class="meta-row">Domain: Microfinance and Credit &nbsp;|&nbsp; File: <code>12_microfinance_loan_records_DIRTY.csv</code></div>
+
+  <h4 class="block-h">Recap of Planted Data Quality Issues</h4>
+  <ul class="issues">
+<li>LoanPurpose has trailing spaces and mixed casing, including short forms (business, SCHOOL FEES) needing expansion.</li>
+<li>PrincipalAmount and AmountRepaid stored as text with mixed currency notation; InterestRate_pct sometimes carries a percent symbol and is sometimes missing.</li>
+<li>AmountRepaid exceeds PrincipalAmount by more than 10 percent in some rows.</li>
+<li>LoanStatus mixes casing and overlapping labels from two branch systems.</li>
+<li>CollateralType has inconsistent casing and a high blank rate that must be split into 'confirmed none' versus 'unknown'.</li>
+<li>NPL_Flag mixes Yes/No, Y/N, 1/0, TRUE/FALSE; DisbursementDate and MaturityDate use mixed formats with some logically impossible pairs.</li>
+<li>Gender mixes Male/Female with single-letter M/F; roughly four percent duplicate rows from a two-system merge.</li>
+  </ul>
+
+  <h4 class="block-h">Complete Power Query M Solution (Paste into the Advanced Editor)</h4>
+  <pre class="code-block"><code>let
+    Source = Csv.Document(File.Contents("C:\ProdigyTrainingHub\12_microfinance_loan_records_DIRTY.csv"),
+        [Delimiter=",", Columns=15, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+    PromotedHeaders = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+    AllText = Table.TransformColumnTypes(PromotedHeaders,
+        List.Transform(Table.ColumnNames(PromotedHeaders), each {_, type text})),
+    RemovedDuplicateRows = Table.Distinct(AllText),
+    CleanedBorrowerName = Table.TransformColumns(RemovedDuplicateRows, {{"BorrowerName", each Text.Proper(fxCleanText(_)), type text}}),
+    StandardisedGender = Table.TransformColumns(CleanedBorrowerName, {{"Gender", each
+        let U = Text.Upper(Text.Trim(fxCleanText(_) ?? ""))
+        in if U = "M" or U = "MALE" then "Male" else if U = "F" or U = "FEMALE" then "Female" else null, type text}}),
+    StandardisedLoanPurpose = Table.TransformColumns(StandardisedGender, {{"LoanPurpose", each
+        let U = Text.Upper(Text.Trim(fxCleanText(_) ?? ""))
+        in if U = null then null
+           else if Text.Contains(U, "BUSINESS") then "Business Expansion"
+           else if Text.Contains(U, "SCHOOL") then "School Fees"
+           else if Text.Contains(U, "MEDICAL") then "Medical Bills"
+           else Text.Proper(U), type text}}),
+    NumericPrincipal = Table.TransformColumns(StandardisedLoanPurpose, {{"PrincipalAmount", each fxToNumber(_), type number}}),
+    NumericAmountRepaid = Table.TransformColumns(NumericPrincipal, {{"AmountRepaid", each fxToNumber(_), type number}}),
+    AddedOverRepayment = Table.AddColumn(NumericAmountRepaid, "OverRepaymentFlag", each
+        if [PrincipalAmount] = null or [AmountRepaid] = null then "Cannot verify"
+        else if [AmountRepaid] &gt; [PrincipalAmount] * 1.10 then "Overpayment - review"
+        else "OK", type text),
+    NumericInterestRate = Table.TransformColumns(AddedOverRepayment, {{"InterestRate_pct", each
+        let
+            Raw = fxCleanText(_),
+            NoPercent = if Raw = null then null else Text.Replace(Raw, "%", "")
+        in
+            if NoPercent = null then null else try Number.FromText(NoPercent) otherwise null, type number}}),
+    StandardisedLoanStatus = Table.TransformColumns(NumericInterestRate, {{"LoanStatus", each
+        let U = Text.Upper(Text.Trim(fxCleanText(_) ?? ""))
+        in if U = null then null
+           else if U = "OVERDUE" then "Overdue"
+           else if Text.Contains(U, "DEFAULT") then "Defaulted"
+           else if Text.Contains(U, "FULLY") then "Fully Repaid"
+           else if Text.Contains(U, "WRITTEN") then "Written Off"
+           else if Text.Contains(U, "ACTIVE") then "Active"
+           else Text.Proper(U), type text}}),
+    StandardisedCollateral = Table.TransformColumns(StandardisedLoanStatus, {{"CollateralType", each
+        let Raw = fxCleanText(_)
+        in if Raw = null then null else if Text.Upper(Raw) = "NONE" then "None (Uncollateralised)" else Text.Proper(Raw), type text}}),
+    StandardisedNPLFlag = Table.TransformColumns(StandardisedCollateral, {{"NPL_Flag", each fxToBoolean(_), type logical}}),
+    ParsedDisbursement = Table.TransformColumns(StandardisedNPLFlag, {{"DisbursementDate", each fxTryParseDate(_), type date}}),
+    ParsedMaturity = Table.TransformColumns(ParsedDisbursement, {{"MaturityDate", each fxTryParseDate(_), type date}}),
+    AddedMaturityCheck = Table.AddColumn(ParsedMaturity, "MaturityAfterDisbursement", each
+        if [DisbursementDate] = null or [MaturityDate] = null then null
+        else [MaturityDate] &gt; [DisbursementDate], type logical),
+    DigitsOnlyPhone = Table.TransformColumns(AddedMaturityCheck, {{"BorrowerPhone", each fxDigitsOnlyPhone(_), type text}}),
+    StandardisedState = Table.TransformColumns(DigitsOnlyPhone, {{"State", each fxCleanState(_), type text}}),
+    ReorderedColumns = Table.ReorderColumns(StandardisedState,
+        {"LoanID","BorrowerName","BorrowerPhone","Gender","LoanPurpose","PrincipalAmount","InterestRate_pct",
+         "DisbursementDate","MaturityDate","MaturityAfterDisbursement","AmountRepaid","OverRepaymentFlag","LoanStatus",
+         "CollateralType","LoanOfficer","State","NPL_Flag"})
+in
+    ReorderedColumns</code></pre>
+
+  <h4 class="block-h">Step-by-Step Explanation of the Non-Obvious Decisions</h4>
+  <ul>
+<li><span class="walk-title">OverRepaymentFlag uses a 10 percent tolerance band, not a strict greater-than test</span> &mdash; The masterclass narrative explicitly notes the cause could be interest capture, rounding, or a genuine error; a strict AmountRepaid &gt; PrincipalAmount test would flag every loan that has simply finished paying its interest on top of the principal, which is normal, so the 1.10 multiplier only catches genuinely excessive overpayment.</li>
+<li><span class="walk-title">InterestRate_pct strips the percent symbol before the numeric parse, not after</span> &mdash; Number.FromText fails outright on a string containing a percent sign; removing it first with a targeted Text.Replace, rather than trying to catch the resulting error afterwards, is the simpler and more transparent fix.</li>
+<li><span class="walk-title">CollateralType makes a data governance decision explicit rather than defaulting silently</span> &mdash; The word 'None' in the source data reflects a confirmed business fact (no collateral was taken), while an empty blank reflects an unknown data gap; only the literal word None is remapped to the explicit label, leaving genuine blanks as null so the two situations stay distinguishable exactly as the original masterclass instructs.</li>
+<li><span class="walk-title">LoanStatus folds both branch systems' vocabulary with Text.Contains before falling back to Text.Proper</span> &mdash; Checking for the substrings DEFAULT, FULLY, WRITTEN, and ACTIVE catches every casing and spacing variant from both merged branch systems in one pass, while the fallback to Text.Proper protects any genuinely new status value from being silently dropped.</li>
+  </ul>
+
+  <h4 class="block-h">Validation Checklist Before Close &amp; Load</h4>
+  <ul>
+<li>Filter OverRepaymentFlag = "Overpayment - review" and confirm this is a small minority of rows, consistent with a genuine entry-error rate rather than a systemic double-counting problem across the whole portfolio.</li>
+<li>Group By LoanStatus and confirm the distinct list has collapsed to the five canonical statuses (Active, Fully Repaid, Defaulted, Written Off, Overdue).</li>
+<li>Group By CollateralType and confirm 'None (Uncollateralised)' is now clearly distinct from a genuine null in the Column Quality panel.</li>
+<li>Filter MaturityAfterDisbursement = false and confirm every flagged row is escalated to the portfolio management team.</li>
+<li>Check InterestRate_pct's Column Distribution for a plausible range (roughly single digits to high thirties) with no remaining outliers above 100.</li>
+  </ul>
+
+  <h4 class="block-h">Business Assumptions Made Explicit</h4>
+  <ul class="assumption-list">
+<li>An overpayment is only flagged for review once AmountRepaid exceeds 110 percent of PrincipalAmount, accepting that a loan fully repaid with interest will naturally show AmountRepaid slightly above PrincipalAmount.</li>
+<li>The literal text 'None' in CollateralType is treated as a confirmed uncollateralised loan and relabelled explicitly; any other blank is left as a genuine unknown rather than assumed to also mean uncollateralised.</li>
+<li>A MaturityDate on or before its DisbursementDate is flagged for the credit team to correct at source rather than auto-swapped, since either field could be the one in error.</li>
+  </ul>
+</div>
+
+<div class="dataset-block" id="solution-13">
+  <h3><span class="dataset-num">Dataset 13</span>Hotel and Hospitality Reservation Records &mdash; Full Solution</h3>
+  <div class="meta-row">Domain: Hospitality &nbsp;|&nbsp; File: <code>13_hotel_hospitality_reservations_DIRTY.csv</code></div>
+
+  <h4 class="block-h">Recap of Planted Data Quality Issues</h4>
+  <ul class="issues">
+<li>RoomType has inconsistent casing for the same tier, with genuinely distinct tiers that must not be merged.</li>
+<li>NumberOfNights contains a negative value; CheckInDate and CheckOutDate use mixed formats with CheckOutDate blank on some rows.</li>
+<li>RoomRatePerNight and TotalBill stored as text with mixed currency notation, TotalBill blank on some rows.</li>
+<li>BookingSource and PaymentStatus mix casing and overlapping labels; Nationality inconsistently cased and occasionally missing.</li>
+<li>EarlyCheckIn mixes Yes/No, Y/N, 1/0, TRUE/FALSE; roughly four percent duplicate rows from PMS sync collisions.</li>
+  </ul>
+
+  <h4 class="block-h">Complete Power Query M Solution (Paste into the Advanced Editor)</h4>
+  <pre class="code-block"><code>let
+    Source = Csv.Document(File.Contents("C:\ProdigyTrainingHub\13_hotel_hospitality_reservations_DIRTY.csv"),
+        [Delimiter=",", Columns=15, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+    PromotedHeaders = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+    AllText = Table.TransformColumnTypes(PromotedHeaders,
+        List.Transform(Table.ColumnNames(PromotedHeaders), each {_, type text})),
+    RemovedDuplicateRows = Table.Distinct(AllText),
+    CleanedGuestAndHotel = Table.TransformColumns(RemovedDuplicateRows, {
+        {"GuestName", each Text.Proper(fxCleanText(_)), type text},
+        {"HotelName", each Text.Proper(fxCleanText(_)), type text},
+        {"RoomType", each Text.Proper(fxCleanText(_)), type text}
+    }),
+    NumericNights = Table.TransformColumns(CleanedGuestAndHotel,
+        {{"NumberOfNights", each try Number.FromText(fxCleanText(_)) otherwise null, Int64.Type}}),
+    AddedNightsFlag = Table.AddColumn(NumericNights, "NightsFlag", each
+        if [NumberOfNights] = null or [NumberOfNights] &lt; 1 then "Review - invalid night count" else "OK", type text),
+    ParsedCheckIn = Table.TransformColumns(AddedNightsFlag, {{"CheckInDate", each fxTryParseDate(_), type date}}),
+    ParsedCheckOut = Table.TransformColumns(ParsedCheckIn, {{"CheckOutDate", each fxTryParseDate(_), type date}}),
+    AddedStayValidation = Table.AddColumn(ParsedCheckOut, "StayValidation", each
+        if [CheckOutDate] = null then "Missing checkout date"
+        else if [CheckOutDate] &lt;= [CheckInDate] then "Checkout before checkin - review"
+        else "OK", type text),
+    NumericRoomRate = Table.TransformColumns(AddedStayValidation, {{"RoomRatePerNight", each fxToNumber(_), type number}}),
+    NumericTotalBill = Table.TransformColumns(NumericRoomRate, {{"TotalBill", each fxToNumber(_), type number}}),
+    AddedExpectedBill = Table.AddColumn(NumericTotalBill, "ExpectedBill", each
+        if [NumberOfNights] = null or [NumberOfNights] &lt; 1 or [RoomRatePerNight] = null then null
+        else Number.Round([NumberOfNights] * [RoomRatePerNight], 2), type number),
+    AddedBillVariance = Table.AddColumn(AddedExpectedBill, "BillVariance", each
+        if [TotalBill] = null or [ExpectedBill] = null then null
+        else Number.Round([TotalBill] - [ExpectedBill], 2), type number),
+    StandardisedBookingSource = Table.TransformColumns(AddedBillVariance, {{"BookingSource", each
+        let U = Text.Upper(Text.Trim(fxCleanText(_) ?? ""))
+        in if U = null then null else if Text.Contains(U, "WALK") then "Walk-In" else Text.Proper(U), type text}}),
+    StandardisedPaymentStatus = Table.TransformColumns(StandardisedBookingSource, {{"PaymentStatus", each
+        let U = Text.Upper(Text.Trim(fxCleanText(_) ?? ""))
+        in if U = null then null
+           else if Text.Contains(U, "PARTIAL") then "Partial"
+           else if Text.Contains(U, "PEND") then "Pending"
+           else Text.Proper(U), type text}}),
+    CleanedNationality = Table.TransformColumns(StandardisedPaymentStatus, {{"Nationality", each Text.Proper(fxCleanText(_)), type text}}),
+    StandardisedState = Table.TransformColumns(CleanedNationality, {{"State", each fxCleanState(_), type text}}),
+    StandardisedEarlyCheckIn = Table.TransformColumns(StandardisedState, {{"EarlyCheckIn", each fxToBoolean(_), type logical}}),
+    DigitsOnlyPhone = Table.TransformColumns(StandardisedEarlyCheckIn, {{"GuestPhone", each fxDigitsOnlyPhone(_), type text}}),
+    ReorderedColumns = Table.ReorderColumns(DigitsOnlyPhone,
+        {"ReservationID","GuestName","GuestPhone","HotelName","RoomType","CheckInDate","CheckOutDate","StayValidation",
+         "NumberOfNights","NightsFlag","RoomRatePerNight","TotalBill","ExpectedBill","BillVariance","BookingSource",
+         "PaymentStatus","State","Nationality","EarlyCheckIn"})
+in
+    ReorderedColumns</code></pre>
+
+  <h4 class="block-h">Step-by-Step Explanation of the Non-Obvious Decisions</h4>
+  <ul>
+<li><span class="walk-title">NightsFlag written before any downstream calculation touches NumberOfNights</span> &mdash; Flagging the invalid night count immediately, rather than filtering the rows out of the table entirely as the masterclass narrative's separate review-query approach does, keeps every reservation visible in the main table while still making the problem impossible to miss.</li>
+<li><span class="walk-title">ExpectedBill guarded against both a null and a sub-one NumberOfNights</span> &mdash; A negative or zero night count multiplied into a bill calculation would either produce a nonsense negative expected bill or a false-positive variance; excluding it from the calculation entirely, rather than letting the arithmetic run on bad data, keeps BillVariance meaningful only where it is actually calculable.</li>
+<li><span class="walk-title">StayValidation checks for null before the before/on-or-before comparison</span> &mdash; An ongoing stay with a genuinely blank CheckOutDate is common and expected, so it needs its own label ('Missing checkout date') rather than falling through to a false comparison against CheckInDate that could never evaluate correctly against a null.</li>
+<li><span class="walk-title">BookingSource folds every walk-in spelling with one Contains check</span> &mdash; Walk-in, Walk in, and walk-in all contain the substring WALK regardless of hyphenation or spacing, so a single Text.Contains test handles every variant without needing three separate exact-match branches.</li>
+  </ul>
+
+  <h4 class="block-h">Validation Checklist Before Close &amp; Load</h4>
+  <ul>
+<li>Filter NightsFlag = "Review - invalid night count" and confirm the flagged rows match the negative-value count seen in the raw file profile.</li>
+<li>Filter StayValidation &lt;&gt; "OK" and spot-check a sample of "Checkout before checkin" rows for a plausible date-transcription swap.</li>
+<li>Group By BookingSource and PaymentStatus separately and confirm each has collapsed to its expected clean value list (five sources, four statuses).</li>
+<li>Check BillVariance's Column Distribution for a tight cluster around zero, with any wide outliers investigated as rate-override cases.</li>
+<li>Group By RoomType and confirm genuinely distinct tiers (Standard, Deluxe, Suite, Executive, Presidential, Twin) remain separate, with only casing duplicates collapsed.</li>
+  </ul>
+
+  <h4 class="block-h">Business Assumptions Made Explicit</h4>
+  <ul class="assumption-list">
+<li>A blank CheckOutDate is treated as 'missing' rather than automatically inferred as an ongoing stay, since the source file provides no separate status flag to confirm that inference safely.</li>
+<li>BillVariance is only calculated where both NumberOfNights is a positive, valid number and RoomRatePerNight is present, so a reservation with an invalid night count never contributes a misleading variance figure.</li>
+<li>A blank Nationality is accepted as a non-blocking gap and left as null rather than flagged, consistent with the masterclass narrative's instruction that missing nationality is not critical for revenue reporting.</li>
+  </ul>
+</div>
+
+<div class="dataset-block" id="solution-14">
+  <h3><span class="dataset-num">Dataset 14</span>Agricultural Produce Market Sales Records &mdash; Full Solution</h3>
+  <div class="meta-row">Domain: Agriculture &nbsp;|&nbsp; File: <code>14_agricultural_market_produce_DIRTY.csv</code></div>
+
+  <h4 class="block-h">Recap of Planted Data Quality Issues</h4>
+  <ul class="issues">
+<li>Unit mixes inconsistent labels for the same physical unit across kg, bags, crates, and tonnes.</li>
+<li>ProduceGrade has overlapping, inconsistently cased grade labels on different scales (Grade A/A/grade a versus Premium/Reject).</li>
+<li>Quantity contains zeros and negative values; PricePerUnit and TotalValue stored as text with mixed currency notation and TotalValue sometimes blank.</li>
+<li>StorageFacility mixes casing, the text N/A, and blanks; TransportMode inconsistently cased; SaleDate uses mixed formats.</li>
+<li>ProduceName occasionally blank; Certified_Organic mixes Yes/No, Y/N, 1/0, TRUE/FALSE; roughly four percent duplicate rows.</li>
+  </ul>
+
+  <h4 class="block-h">Complete Power Query M Solution (Paste into the Advanced Editor)</h4>
+  <pre class="code-block"><code>let
+    Source = Csv.Document(File.Contents("C:\ProdigyTrainingHub\14_agricultural_market_produce_DIRTY.csv"),
+        [Delimiter=",", Columns=15, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+    PromotedHeaders = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+    AllText = Table.TransformColumnTypes(PromotedHeaders,
+        List.Transform(Table.ColumnNames(PromotedHeaders), each {_, type text})),
+    RemovedDuplicateRows = Table.Distinct(AllText),
+    CleanedNamesAndMarket = Table.TransformColumns(RemovedDuplicateRows, {
+        {"FarmerName", each Text.Proper(fxCleanText(_)), type text},
+        {"ProduceName", each Text.Proper(fxCleanText(_)), type text},
+        {"Market", each Text.Proper(fxCleanText(_)), type text}
+    }),
+    StandardisedUnit = Table.TransformColumns(CleanedNamesAndMarket, {{"Unit", each
+        let U = Text.Upper(Text.Trim(fxCleanText(_) ?? ""))
+        in if U = "KG" then "Kg" else if U = null then null else Text.Proper(U), type text}}),
+    StandardisedGrade = Table.TransformColumns(StandardisedUnit, {{"ProduceGrade", each
+        let U = Text.Upper(Text.Trim(fxCleanText(_) ?? ""))
+        in if U = null then null
+           else if U = "A" or U = "GRADE A" or U = "PREMIUM" then "Grade A"
+           else if U = "B" or U = "GRADE B" then "Grade B"
+           else if U = "REJECT" then "Grade C"
+           else Text.Proper(U), type text}}),
+    NumericQuantity = Table.TransformColumns(StandardisedGrade,
+        {{"Quantity", each try Number.FromText(fxCleanText(_)) otherwise null, type number}}),
+    AddedQuantityFlag = Table.AddColumn(NumericQuantity, "QuantityFlag", each
+        if [Quantity] = null or [Quantity] &lt;= 0 then "Review - invalid quantity" else "OK", type text),
+    NumericPricePerUnit = Table.TransformColumns(AddedQuantityFlag, {{"PricePerUnit", each fxToNumber(_), type number}}),
+    NumericTotalValue = Table.TransformColumns(NumericPricePerUnit, {{"TotalValue", each fxToNumber(_), type number}}),
+    AddedRecalcTotalValue = Table.AddColumn(NumericTotalValue, "RecalcTotalValue", each
+        if [Quantity] = null or [Quantity] &lt;= 0 or [PricePerUnit] = null then null
+        else Number.Round([Quantity] * [PricePerUnit], 2), type number),
+    AddedTotalValueMismatch = Table.AddColumn(AddedRecalcTotalValue, "TotalValueMismatchFlag", each
+        if [TotalValue] = null and [RecalcTotalValue] &lt;&gt; null then "Missing - recalculated"
+        else if [TotalValue] = null or [RecalcTotalValue] = null then "Cannot verify"
+        else if Number.Abs([TotalValue] - [RecalcTotalValue]) &gt; 1 then "Mismatch - review"
+        else "OK", type text),
+    StandardisedStorage = Table.TransformColumns(AddedTotalValueMismatch, {{"StorageFacility", each
+        let Raw = fxCleanText(_)
+        in if Raw = null then null
+           else if Text.Contains(Text.Upper(Raw), "COLD") then "Cold Room"
+           else Text.Proper(Raw), type text}}),
+    StandardisedTransport = Table.TransformColumns(StandardisedStorage, {{"TransportMode", each Text.Proper(fxCleanText(_)), type text}}),
+    ParsedSaleDate = Table.TransformColumns(StandardisedTransport, {{"SaleDate", each fxTryParseDate(_), type date}}),
+    StandardisedState = Table.TransformColumns(ParsedSaleDate, {{"State", each fxCleanState(_), type text}}),
+    StandardisedCertifiedOrganic = Table.TransformColumns(StandardisedState, {{"Certified_Organic", each fxToBoolean(_), type logical}}),
+    DigitsOnlyPhone = Table.TransformColumns(StandardisedCertifiedOrganic, {{"FarmerPhone", each fxDigitsOnlyPhone(_), type text}}),
+    ReorderedColumns = Table.ReorderColumns(DigitsOnlyPhone,
+        {"RecordID","FarmerName","FarmerPhone","ProduceName","Quantity","QuantityFlag","Unit","PricePerUnit","TotalValue",
+         "RecalcTotalValue","TotalValueMismatchFlag","Market","SaleDate","ProduceGrade","StorageFacility","State",
+         "TransportMode","Certified_Organic"})
+in
+    ReorderedColumns</code></pre>
+
+  <h4 class="block-h">Step-by-Step Explanation of the Non-Obvious Decisions</h4>
+  <ul>
+<li><span class="walk-title">Unit deliberately kept as 'Kg' with only the K capitalised, as a documented exception</span> &mdash; The masterclass narrative itself flags that lowercase kg is conventionally correct typographically, but a single consistent display choice matters more for reporting; this solution keeps the exception explicit in code (a dedicated branch) rather than letting Text.Proper produce the less conventional 'Kg' by accident.</li>
+<li><span class="walk-title">ProduceGrade folds two different source vocabularies into one three-value scale as a named business rule</span> &mdash; Premium folding into Grade A and Reject folding into Grade C are both judgement calls the masterclass narrative asks the trainer to confirm with the business; this solution applies them as the documented default and lists them explicitly in the assumptions section so a real engagement would still check them with the client.</li>
+<li><span class="walk-title">TotalValueMismatchFlag distinguishes 'missing and recalculated' from 'present but wrong'</span> &mdash; A blank TotalValue that gets filled in from Quantity times PricePerUnit is a data completeness win, while a present TotalValue that disagrees with the recalculated figure is a genuine discrepancy; collapsing both into one generic 'mismatch' label would hide which situation actually applies to each row.</li>
+<li><span class="walk-title">StorageFacility maps every cold-related phrase with one Contains check before the Proper-case fallback</span> &mdash; Cold Room, COLD ROOM, and Cold Chain all contain the substring COLD, so one condition standardises all of them; any other genuinely different facility type still gets a sensible Proper-case treatment through the fallback branch.</li>
+  </ul>
+
+  <h4 class="block-h">Validation Checklist Before Close &amp; Load</h4>
+  <ul>
+<li>Group By Unit and confirm exactly four canonical values remain (Kg, Bags, Crates, Tonnes).</li>
+<li>Filter QuantityFlag &lt;&gt; "OK" and confirm the flagged rows are routed for review rather than silently included in any yield or revenue total.</li>
+<li>Group By TotalValueMismatchFlag and separately review the 'Missing - recalculated' and 'Mismatch - review' buckets, since they call for two different follow-up actions.</li>
+<li>Group By ProduceGrade and confirm only the three-bucket scale (Grade A, Grade B, Grade C) remains.</li>
+<li>Group By StorageFacility and confirm N/A and blank text have both become true nulls rather than a fourth 'unknown' text category.</li>
+  </ul>
+
+  <h4 class="block-h">Business Assumptions Made Explicit</h4>
+  <ul class="assumption-list">
+<li>Premium is treated as equivalent to Grade A, and Reject as equivalent to Grade C, as a working default; a real engagement would confirm this grading equivalence with the commodities board before publishing any report built on ProduceGrade.</li>
+<li>TotalValue is recalculated from Quantity and PricePerUnit wherever the source value is blank, and the recalculated figure is treated as authoritative in that specific case, while a present-but-mismatched TotalValue is flagged for review rather than overwritten.</li>
+<li>The unit label 'Kg' is deliberately capitalised only on the first letter rather than following strict scientific unit convention (lowercase kg), for consistency with the Proper-case treatment applied to every other categorical column in this dataset.</li>
+  </ul>
+</div>
+
+<div class="dataset-block" id="solution-15">
+  <h3><span class="dataset-num">Dataset 15</span>Federal Civil Service Payroll Register &mdash; Full Solution</h3>
+  <div class="meta-row">Domain: Government and Public Sector &nbsp;|&nbsp; File: <code>15_government_payroll_records_DIRTY.csv</code></div>
+
+  <h4 class="block-h">Recap of Planted Data Quality Issues</h4>
+  <ul class="issues">
+<li>Ministry has up to five text representations for the same ministry across the merged file.</li>
+<li>GradeLevel has inconsistent formats for the same grade (GL-7, GL 7, Level 7, Grade Level 7, gl-7).</li>
+<li>Six salary and allowance columns are all stored as text with mixed currency notation.</li>
+<li>NetPay should equal BasicSalary plus TotalAllowances minus Deductions; mismatches are ghost-worker or calculation-error signals.</li>
+<li>BankAccountNo missing for some staff, a critical payroll audit red flag; DateOfBirth and AppointmentDate use mixed formats.</li>
+<li>Staff below 18 or above 60, and any AppointmentDate after the report date, need flagging; PayStatus has casing and trailing-space issues; roughly four percent duplicate rows.</li>
+  </ul>
+
+  <h4 class="block-h">Complete Power Query M Solution (Paste into the Advanced Editor)</h4>
+  <pre class="code-block"><code>let
+    Source = Csv.Document(File.Contents("C:\ProdigyTrainingHub\15_government_payroll_records_DIRTY.csv"),
+        [Delimiter=",", Columns=15, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+    PromotedHeaders = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+    AllText = Table.TransformColumnTypes(PromotedHeaders,
+        List.Transform(Table.ColumnNames(PromotedHeaders), each {_, type text})),
+    TypedIdColumns = Table.TransformColumnTypes(AllText, {{"StaffID", type text}, {"BankAccountNo", type text}}),
+    RemovedDuplicateRows = Table.Distinct(TypedIdColumns),
+    CleanedFullName = Table.TransformColumns(RemovedDuplicateRows, {{"FullName", each Text.Proper(fxCleanText(_)), type text}}),
+    // --- MinistryLookupTable is a separate query; see this dataset's walkthrough for its full definition ---
+    MergedWithMinistryLookup = Table.NestedJoin(CleanedFullName, {"Ministry"}, MinistryLookupTable, {"DirtyMinistry"}, "MinistryJoin", JoinKind.LeftOuter),
+    ExpandedMinistry = Table.ExpandTableColumn(MergedWithMinistryLookup, "MinistryJoin", {"CleanMinistry"}, {"CleanMinistry"}),
+    FallbackMinistry = Table.AddColumn(ExpandedMinistry, "MinistryFinal", each
+        if [CleanMinistry] &lt;&gt; null then [CleanMinistry] else Text.Proper(fxCleanText([Ministry])), type text),
+    RemovedIntermediateMinistry = Table.RemoveColumns(FallbackMinistry, {"Ministry", "CleanMinistry"}),
+    RenamedMinistry = Table.RenameColumns(RemovedIntermediateMinistry, {{"MinistryFinal", "Ministry"}}),
+    StandardisedGradeLevel = Table.TransformColumns(RenamedMinistry, {{"GradeLevel", each
+        let
+            U = Text.Upper(Text.Trim(fxCleanText(_) ?? "")),
+            NoWords = Text.Replace(Text.Replace(Text.Replace(U, "GRADE LEVEL ", ""), "LEVEL ", ""), "GL-", ""),
+            Digits = Text.Select(NoWords, {"0".."9"})
+        in
+            if Digits = "" then null else "GL-" &amp; Digits, type text}}),
+    NumericBasicSalary = Table.TransformColumns(StandardisedGradeLevel, {{"BasicSalary", each fxToNumber(_), type number}}),
+    NumericHousingAllowance = Table.TransformColumns(NumericBasicSalary, {{"HousingAllowance", each fxToNumber(_), type number}}),
+    NumericTransportAllowance = Table.TransformColumns(NumericHousingAllowance, {{"TransportAllowance", each fxToNumber(_), type number}}),
+    NumericTotalAllowances = Table.TransformColumns(NumericTransportAllowance, {{"TotalAllowances", each fxToNumber(_), type number}}),
+    NumericDeductions = Table.TransformColumns(NumericTotalAllowances, {{"Deductions", each fxToNumber(_), type number}}),
+    NumericNetPay = Table.TransformColumns(NumericDeductions, {{"NetPay", each fxToNumber(_), type number}}),
+    AddedNetPayCheck = Table.AddColumn(NumericNetPay, "NetPayCheck", each
+        if [BasicSalary] = null or [TotalAllowances] = null or [Deductions] = null then null
+        else Number.Round([BasicSalary] + [TotalAllowances] - [Deductions], 2), type number),
+    AddedNetPayVarianceFlag = Table.AddColumn(AddedNetPayCheck, "NetPayVarianceFlag", each
+        if [NetPay] = null or [NetPayCheck] = null then "Cannot verify"
+        else if Number.Abs([NetPay] - [NetPayCheck]) &gt; 1 then "Calculation mismatch - audit flag"
+        else "OK", type text),
+    AddedBankAccountFlag = Table.AddColumn(AddedNetPayVarianceFlag, "BankAccountFlag", each
+        if fxCleanText([BankAccountNo]) = null then "CRITICAL - no bank account on record" else "OK", type text),
+    ParsedDOB = Table.TransformColumns(AddedBankAccountFlag, {{"DateOfBirth", each fxTryParseDate(_), type date}}),
+    ParsedAppointmentDate = Table.TransformColumns(ParsedDOB, {{"AppointmentDate", each fxTryParseDate(_), type date}}),
+    AddedAge = Table.AddColumn(ParsedAppointmentDate, "Age", each
+        if [DateOfBirth] = null then null
+        else Number.RoundDown(Duration.Days(Date.From(DateTime.LocalNow()) - [DateOfBirth]) / 365.25), Int64.Type),
+    AddedAgeFlag = Table.AddColumn(AddedAge, "AgeFlag", each
+        if [Age] = null then "Cannot verify" else if [Age] &lt; 18 or [Age] &gt; 60 then "Review - age outside working range" else "OK", type text),
+    AddedAppointmentCheck = Table.AddColumn(AddedAgeFlag, "AppointmentCheck", each
+        if [AppointmentDate] = null then "Cannot verify"
+        else if [AppointmentDate] &gt; Date.From(DateTime.LocalNow()) then "Future-dated appointment - review"
+        else "OK", type text),
+    StandardisedPayStatus = Table.TransformColumns(AddedAppointmentCheck, {{"PayStatus", each Text.Proper(fxCleanText(_)), type text}}),
+    StandardisedState = Table.TransformColumns(StandardisedPayStatus, {{"State", each fxCleanState(_), type text}}),
+    ReorderedColumns = Table.ReorderColumns(StandardisedState,
+        {"StaffID","FullName","Ministry","GradeLevel","DateOfBirth","Age","AgeFlag","AppointmentDate","AppointmentCheck",
+         "BasicSalary","HousingAllowance","TransportAllowance","TotalAllowances","Deductions","NetPay","NetPayCheck",
+         "NetPayVarianceFlag","BankAccountNo","BankAccountFlag","State","PayStatus"}),
+    Payroll_Audit_Clean = ReorderedColumns
+in
+    Payroll_Audit_Clean
+
+// Companion query "Payroll_AuditFlags" (build as its own query referencing Payroll_Audit_Clean):
+// let
+//     Source = Payroll_Audit_Clean,
+//     FilteredExceptions = Table.SelectRows(Source, each
+//         [NetPayVarianceFlag] &lt;&gt; "OK" or [BankAccountFlag] &lt;&gt; "OK" or [AgeFlag] &lt;&gt; "OK" or [AppointmentCheck] &lt;&gt; "OK")
+// in
+//     FilteredExceptions</code></pre>
+
+  <h4 class="block-h">Step-by-Step Explanation of the Non-Obvious Decisions</h4>
+  <ul>
+<li><span class="walk-title">Ministry standardised with a genuine Merge Queries lookup table, exactly as the masterclass narrative specifies</span> &mdash; With five variants across five ministries, a hand-written conditional function would need twenty-five branches; a two-column MinistryLookupTable query (DirtyMinistry mapped to CleanMinistry) merged with Table.NestedJoin, plus the same FallbackForUnmatched pattern shown in the Set 1 appendix, is the maintainable choice this dataset was specifically designed to teach.</li>
+<li><span class="walk-title">GradeLevel rebuilt from its digits, echoing the PatientID pattern from Set 1's hospital dataset</span> &mdash; Stripping the words 'Grade Level', 'Level', and the prefix 'GL-' first, then re-extracting only the digits and re-applying one consistent 'GL-' prefix, collapses all five source formats onto one pattern regardless of which words or punctuation the original entry happened to use.</li>
+<li><span class="walk-title">Six currency columns cleaned in six explicit, individually named steps rather than one loop</span> &mdash; Naming each Applied Step (NumericBasicSalary, NumericHousingAllowance, and so on) individually, even though the underlying fxToNumber call is identical each time, keeps the Applied Steps pane fully legible to an auditor stepping through the query one click at a time, which matters more in a payroll audit context than saving five lines of code.</li>
+<li><span class="walk-title">BankAccountFlag and AgeFlag are marked CRITICAL and Review respectively, using different severity language on purpose</span> &mdash; A missing bank account is an active payroll processing blocker that could indicate a ghost worker, while an age outside the normal working range is a data quality anomaly that might simply be a typo in DateOfBirth; using different flag language signals the different urgency to whoever reads the audit exception report.</li>
+<li><span class="walk-title">The companion Payroll_AuditFlags query is written as a commented second query rather than inline</span> &mdash; Because a single Advanced Editor script can only define one query, the audit exception report is documented as a second, separate query that references Payroll_Audit_Clean by name and applies Table.SelectRows across all four flag columns at once, exactly matching how this would be built by hand in the Power Query Editor's Queries pane.</li>
+  </ul>
+
+  <h4 class="block-h">Validation Checklist Before Close &amp; Load</h4>
+  <ul>
+<li>Group By Ministry and confirm the distinct list has collapsed to five clean ministry names with no residual abbreviation or casing variant.</li>
+<li>Filter NetPayVarianceFlag = "Calculation mismatch - audit flag" and manually trace each flagged row's six salary components before escalating it as a suspected ghost-worker finding.</li>
+<li>Group By BankAccountFlag and confirm the CRITICAL count is escalated to the payroll office as its own named list, not buried inside a general data quality summary.</li>
+<li>Filter AgeFlag &lt;&gt; "OK" and cross-check each flagged row's DateOfBirth for a plausible transcription error before treating it as a genuine anomaly.</li>
+<li>Open the Payroll_AuditFlags companion query and confirm its row count is small relative to the full register, and that every row in it fails at least one of the four named flag columns.</li>
+  </ul>
+
+  <h4 class="block-h">Business Assumptions Made Explicit</h4>
+  <ul class="assumption-list">
+<li>A NetPay variance is only escalated as an audit flag beyond a 1 naira rounding tolerance, consistent with the same tolerance convention used for the retail Set 1 dataset's TotalMismatchFlag.</li>
+<li>A missing BankAccountNo is treated as a CRITICAL payroll red flag rather than a routine missing value, reflecting the specific ghost-worker risk this audit context calls for, which is a stricter standard than the 'Not provided' status used for a similarly blank ServiceCharge in the Set 1 real estate dataset.</li>
+<li>Age below 18 or above 60 is flagged for review rather than auto-excluded from payroll, since Nigeria's retirement age rules vary by grade and service type and a blanket exclusion would need HR confirmation first.</li>
+  </ul>
+</div>
+
+<div class="dataset-block" id="solution-16">
+  <h3><span class="dataset-num">Dataset 16</span>Petrol Station Daily Fuel Sales Log &mdash; Full Solution</h3>
+  <div class="meta-row">Domain: Energy and Petroleum Retail &nbsp;|&nbsp; File: <code>16_petrol_station_fuel_sales_DIRTY.csv</code></div>
+
+  <h4 class="block-h">Recap of Planted Data Quality Issues</h4>
+  <ul class="issues">
+<li>FuelType uses both full names and abbreviations inconsistently across three or four representations per product.</li>
+<li>LitersDispensed contains negative values and zeros; PricePerLiter and TotalSaleAmount stored as text with mixed currency notation.</li>
+<li>PumpNumber contains negative values and zeros; PumpStatus has casing/trailing-space issues and an Out of Stock value that can contradict a positive LitersDispensed.</li>
+<li>PaymentMethod and CustomerVehicle inconsistently cased; ManagerApproved mixes Yes/No, Y/N, 1/0, TRUE/FALSE.</li>
+<li>Date uses mixed formats; roughly four percent duplicate rows from a double-exported shift reconciliation.</li>
+  </ul>
+
+  <h4 class="block-h">Complete Power Query M Solution (Paste into the Advanced Editor)</h4>
+  <pre class="code-block"><code>let
+    Source = Csv.Document(File.Contents("C:\ProdigyTrainingHub\16_petrol_station_fuel_sales_DIRTY.csv"),
+        [Delimiter=",", Columns=14, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+    PromotedHeaders = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+    AllText = Table.TransformColumnTypes(PromotedHeaders,
+        List.Transform(Table.ColumnNames(PromotedHeaders), each {_, type text})),
+    RemovedDuplicateRows = Table.Distinct(AllText),
+    CleanedNames = Table.TransformColumns(RemovedDuplicateRows, {
+        {"StationName", each Text.Proper(fxCleanText(_)), type text},
+        {"AttendantName", each Text.Proper(fxCleanText(_)), type text}
+    }),
+    // --- FuelTypeLookupTable is a separate query: {"PMS","PMS"}, {"pms","PMS"}, {"Petrol","PMS"},
+    //     {"Premium Motor Spirit (PMS)","PMS"}, {"AGO","AGO"}, {"ago","AGO"}, {"Diesel","AGO"},
+    //     {"Automotive Gas Oil (AGO)","AGO"}, {"Kerosene","Kerosene"}, {"LPG","LPG"} ---
+    MergedWithFuelTypeLookup = Table.NestedJoin(CleanedNames, {"FuelType"}, FuelTypeLookupTable, {"DirtyFuelType"}, "FuelJoin", JoinKind.LeftOuter),
+    ExpandedFuelType = Table.ExpandTableColumn(MergedWithFuelTypeLookup, "FuelJoin", {"CleanFuelType"}, {"CleanFuelType"}),
+    FallbackFuelType = Table.AddColumn(ExpandedFuelType, "FuelTypeFinal", each
+        if [CleanFuelType] &lt;&gt; null then [CleanFuelType] else Text.Upper(fxCleanText([FuelType])), type text),
+    RemovedIntermediateFuel = Table.RemoveColumns(FallbackFuelType, {"FuelType", "CleanFuelType"}),
+    RenamedFuelType = Table.RenameColumns(RemovedIntermediateFuel, {{"FuelTypeFinal", "FuelType"}}),
+    NumericLiters = Table.TransformColumns(RenamedFuelType,
+        {{"LitersDispensed", each try Number.FromText(fxCleanText(_)) otherwise null, type number}}),
+    AddedLitersFlag = Table.AddColumn(NumericLiters, "LitersFlag", each
+        if [LitersDispensed] = null or [LitersDispensed] &lt;= 0 then "Review - invalid liters" else "OK", type text),
+    NumericPumpNumber = Table.TransformColumns(AddedLitersFlag,
+        {{"PumpNumber", each try Number.FromText(fxCleanText(_)) otherwise null, Int64.Type}}),
+    AddedPumpNumberFlag = Table.AddColumn(NumericPumpNumber, "PumpNumberFlag", each
+        if [PumpNumber] = null or [PumpNumber] &lt; 1 then "Review - invalid pump number" else "OK", type text),
+    NumericPricePerLiter = Table.TransformColumns(AddedPumpNumberFlag, {{"PricePerLiter", each fxToNumber(_), type number}}),
+    NumericTotalSaleAmount = Table.TransformColumns(NumericPricePerLiter, {{"TotalSaleAmount", each fxToNumber(_), type number}}),
+    AddedExpectedTotal = Table.AddColumn(NumericTotalSaleAmount, "ExpectedTotal", each
+        if [LitersDispensed] = null or [LitersDispensed] &lt;= 0 or [PricePerLiter] = null then null
+        else Number.Round([LitersDispensed] * [PricePerLiter], 2), type number),
+    AddedSalesVarianceFlag = Table.AddColumn(AddedExpectedTotal, "SalesVarianceFlag", each
+        if [TotalSaleAmount] = null or [ExpectedTotal] = null then "Cannot verify"
+        else if Number.Abs([TotalSaleAmount] - [ExpectedTotal]) &gt; 10 then "Mismatch - review"
+        else "OK", type text),
+    StandardisedPumpStatus = Table.TransformColumns(AddedSalesVarianceFlag, {{"PumpStatus", each Text.Proper(fxCleanText(_)), type text}}),
+    AddedStatusContradictionFlag = Table.AddColumn(StandardisedPumpStatus, "StatusContradictionFlag", each
+        if (([PumpStatus] = "Faulty") or ([PumpStatus] = "Out Of Stock")) and [LitersDispensed] &lt;&gt; null and [LitersDispensed] &gt; 0
+        then "Contradiction - dispensed liters on inactive pump" else "OK", type text),
+    CleanedPaymentAndVehicle = Table.TransformColumns(AddedStatusContradictionFlag, {
+        {"PaymentMethod", each Text.Proper(fxCleanText(_)), type text},
+        {"CustomerVehicle", each Text.Proper(fxCleanText(_)), type text}
+    }),
+    StandardisedManagerApproved = Table.TransformColumns(CleanedPaymentAndVehicle, {{"ManagerApproved", each fxToBoolean(_), type logical}}),
+    ParsedDate = Table.TransformColumns(StandardisedManagerApproved, {{"Date", each fxTryParseDate(_), type date}}),
+    AddedDayOfWeek = Table.AddColumn(ParsedDate, "DayOfWeek", each
+        if [Date] = null then null else Date.DayOfWeekName([Date]), type text),
+    StandardisedState = Table.TransformColumns(AddedDayOfWeek, {{"State", each fxCleanState(_), type text}}),
+    ReorderedColumns = Table.ReorderColumns(StandardisedState,
+        {"SaleID","StationName","AttendantName","FuelType","Date","DayOfWeek","LitersDispensed","LitersFlag",
+         "PricePerLiter","TotalSaleAmount","ExpectedTotal","SalesVarianceFlag","PumpNumber","PumpNumberFlag",
+         "PumpStatus","StatusContradictionFlag","PaymentMethod","CustomerVehicle","State","ManagerApproved"})
+in
+    ReorderedColumns</code></pre>
+
+  <h4 class="block-h">Step-by-Step Explanation of the Non-Obvious Decisions</h4>
+  <ul>
+<li><span class="walk-title">FuelType standardised with a genuine Merge Queries lookup table, as the masterclass narrative specifically calls for</span> &mdash; With three or four representations across four products, the narrative is explicit that Replace Values would need at least eight steps; the FuelTypeLookupTable query, merged with the same fallback pattern used for Ministry in dataset 15, is the maintainable answer this dataset was built to teach.</li>
+<li><span class="walk-title">LitersFlag and PumpNumberFlag are two separate flags rather than one combined flag</span> &mdash; A pump reading zero liters and a pump numbered zero are two independent physical impossibilities that could have entirely different root causes (a till error versus a data entry transposition); keeping them as two separate columns lets a station manager investigate each independently.</li>
+<li><span class="walk-title">StatusContradictionFlag runs after PumpStatus is already standardised, not against the raw text</span> &mdash; Testing the cleaned PumpStatus value against 'Faulty' or 'Out Of Stock' only works reliably once casing and trailing spaces have already been resolved; running the same test against the raw, uncleaned column would miss the 'functional ' trailing-space variant and any lowercase spelling.</li>
+<li><span class="walk-title">SalesVarianceFlag uses a wider 10 naira tolerance than the 1 naira tolerance used elsewhere in this guide</span> &mdash; The masterclass narrative specifically sets this dataset's tolerance at 10 naira rather than 1, reflecting that pump-reading rounding at fuel-retail volumes naturally produces slightly larger absolute variances than a single retail transaction; this solution follows that documented tolerance exactly rather than defaulting to the tighter figure used in Set 1.</li>
+<li><span class="walk-title">DayOfWeek added with Date.DayOfWeekName purely as a reporting convenience column</span> &mdash; This column adds no data quality value on its own, but the masterclass narrative asks for it explicitly to support a weekend-versus-weekday sales pattern exercise, so it is included here exactly as specified rather than left out as out of scope.</li>
+  </ul>
+
+  <h4 class="block-h">Validation Checklist Before Close &amp; Load</h4>
+  <ul>
+<li>Group By FuelType and confirm exactly the four canonical values remain (PMS, AGO, Kerosene, LPG).</li>
+<li>Filter StatusContradictionFlag &lt;&gt; "OK" and confirm every flagged row genuinely shows a positive LitersDispensed alongside a Faulty or Out Of Stock pump status.</li>
+<li>Filter SalesVarianceFlag = "Mismatch - review" and cross-check a sample against PricePerLiter for a plausible transcription error.</li>
+<li>Group By PumpStatus and confirm the trailing-space variant 'functional ' has fully collapsed into the same bucket as 'Functional'.</li>
+<li>Group By DayOfWeek, Sum of TotalSaleAmount as a closing exercise, and confirm the seven weekday names all appear with no residual date-parsing gaps.</li>
+  </ul>
+
+  <h4 class="block-h">Business Assumptions Made Explicit</h4>
+  <ul class="assumption-list">
+<li>SalesVarianceFlag uses a 10 naira tolerance rather than the 1 naira tolerance used in most other datasets in this guide, following the masterclass narrative's own stated tolerance for this specific dataset.</li>
+<li>A pump marked Faulty or Out Of Stock with a positive LitersDispensed reading is flagged as a logical contradiction for the station manager to investigate, rather than assumed to be a pump-status entry error or a liters entry error; the solution does not guess which of the two fields is wrong.</li>
+<li>DayOfWeek is treated purely as a reporting convenience derived column and carries no data quality implication of its own.</li>
+  </ul>
+</div>
+
+<div class="dataset-block" id="solution-17">
+  <h3><span class="dataset-num">Dataset 17</span>University Student Enrollment and Academic Records &mdash; Full Solution</h3>
+  <div class="meta-row">Domain: Higher Education &nbsp;|&nbsp; File: <code>17_university_student_enrollment_DIRTY.csv</code></div>
+
+  <h4 class="block-h">Recap of Planted Data Quality Issues</h4>
+  <ul class="issues">
+<li>Faculty uses inconsistent representations for the same faculty across abbreviations and full names.</li>
+<li>Level has multiple formats for the same academic year (100, 100L, level 300, 400 level).</li>
+<li>EntryMode has casing and trailing-space issues; DegreeType mixes official and informal abbreviations for the same degree.</li>
+<li>CGPA uses two different grading scales (4.0 and 5.0) in the same column with no scale flag.</li>
+<li>StudentEmail missing for some students and unvalidated; DateOfBirth and EnrollmentDate use mixed formats.</li>
+<li>StudentMatric has no consistent format between departments; ScholarshipHolder mixes Yes/No, Y/N, 1/0, TRUE/FALSE; roughly four percent duplicate rows.</li>
+  </ul>
+
+  <h4 class="block-h">Complete Power Query M Solution (Paste into the Advanced Editor)</h4>
+  <pre class="code-block"><code>let
+    Source = Csv.Document(File.Contents("C:\ProdigyTrainingHub\17_university_student_enrollment_DIRTY.csv"),
+        [Delimiter=",", Columns=15, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+    PromotedHeaders = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+    AllText = Table.TransformColumnTypes(PromotedHeaders,
+        List.Transform(Table.ColumnNames(PromotedHeaders), each {_, type text})),
+    TypedStudentMatric = Table.TransformColumnTypes(AllText, {{"StudentMatric", type text}}),
+    RemovedDuplicateRows = Table.Distinct(TypedStudentMatric),
+    UppercaseMatric = Table.TransformColumns(RemovedDuplicateRows, {{"StudentMatric", Text.Upper, type text}}),
+    CleanedNamesAndUni = Table.TransformColumns(UppercaseMatric, {
+        {"StudentName", each Text.Proper(fxCleanText(_)), type text},
+        {"University", each Text.Proper(fxCleanText(_)), type text},
+        {"Department", each Text.Proper(fxCleanText(_)), type text}
+    }),
+    // --- FacultyLookupTable is a separate query mapping every Engineering/Medicine variant to a clean faculty name ---
+    MergedWithFacultyLookup = Table.NestedJoin(CleanedNamesAndUni, {"Faculty"}, FacultyLookupTable, {"DirtyFaculty"}, "FacultyJoin", JoinKind.LeftOuter),
+    ExpandedFaculty = Table.ExpandTableColumn(MergedWithFacultyLookup, "FacultyJoin", {"CleanFaculty"}, {"CleanFaculty"}),
+    FallbackFaculty = Table.AddColumn(ExpandedFaculty, "FacultyFinal", each
+        if [CleanFaculty] &lt;&gt; null then [CleanFaculty] else Text.Proper(fxCleanText([Faculty])), type text),
+    RemovedIntermediateFaculty = Table.RemoveColumns(FallbackFaculty, {"Faculty", "CleanFaculty"}),
+    RenamedFaculty = Table.RenameColumns(RemovedIntermediateFaculty, {{"FacultyFinal", "Faculty"}}),
+    StandardisedLevel = Table.TransformColumns(RenamedFaculty, {{"Level", each
+        let
+            U = Text.Upper(Text.Trim(fxCleanText(_) ?? "")),
+            NoWord = Text.Replace(U, "LEVEL", ""),
+            NoL = Text.Replace(NoWord, "L", ""),
+            Digits = Text.Trim(Text.Select(NoL, {"0".."9"}))
+        in
+            if Digits = "" then null else try Number.FromText(Digits) otherwise null, Int64.Type}}),
+    StandardisedEntryMode = Table.TransformColumns(StandardisedLevel, {{"EntryMode", each
+        let U = Text.Upper(Text.Trim(fxCleanText(_) ?? ""))
+        in if U = null then null else if U = "UTME" then "UTME" else Text.Proper(U), type text}}),
+    StandardisedDegreeType = Table.TransformColumns(StandardisedEntryMode, {{"DegreeType", each
+        let U = Text.Upper(Text.Replace(Text.Trim(fxCleanText(_) ?? ""), ".", ""))
+        in if U = null then null
+           else if U = "BSC" then "B.Sc."
+           else if U = "BA" then "B.A."
+           else if U = "BENG" then "B.Eng."
+           else if U = "BED" then "B.Ed."
+           else Text.Proper(U), type text}}),
+    NumericCGPA = Table.TransformColumns(StandardisedDegreeType,
+        {{"CGPA", each try Number.FromText(fxCleanText(_)) otherwise null, type number}}),
+    AddedCGPAScale = Table.AddColumn(NumericCGPA, "CGPAScale", each
+        if [CGPA] = null then null else if [CGPA] &gt; 4.0 then "5.0 Scale" else "4.0 Scale", type text),
+    AddedIsValidEmail = Table.AddColumn(AddedCGPAScale, "IsValidEmail", each
+        let E = fxCleanText([StudentEmail])
+        in E &lt;&gt; null and Text.Contains(E, "@") and Text.Contains(E, "."), type logical),
+    ParsedDOB = Table.TransformColumns(AddedIsValidEmail, {{"DateOfBirth", each fxTryParseDate(_), type date}}),
+    ParsedEnrollmentDate = Table.TransformColumns(ParsedDOB, {{"EnrollmentDate", each fxTryParseDate(_), type date}}),
+    AddedAge = Table.AddColumn(ParsedEnrollmentDate, "Age", each
+        if [DateOfBirth] = null then null
+        else Number.RoundDown(Duration.Days(Date.From(DateTime.LocalNow()) - [DateOfBirth]) / 365.25), Int64.Type),
+    AddedAgeFlag = Table.AddColumn(AddedAge, "AgeFlag", each
+        if [Age] = null then "Cannot verify" else if [Age] &lt; 15 or [Age] &gt; 50 then "Review - implausible age" else "OK", type text),
+    StandardisedScholarship = Table.TransformColumns(AddedAgeFlag, {{"ScholarshipHolder", each fxToBoolean(_), type logical}}),
+    DigitsOnlyPhone = Table.TransformColumns(StandardisedScholarship, {{"PhoneNumber", each fxDigitsOnlyPhone(_), type text}}),
+    StandardisedState = Table.TransformColumns(DigitsOnlyPhone, {{"State", each fxCleanState(_), type text}}),
+    ReorderedColumns = Table.ReorderColumns(StandardisedState,
+        {"StudentMatric","StudentName","University","Faculty","Department","DegreeType","Level","EntryMode",
+         "DateOfBirth","Age","AgeFlag","EnrollmentDate","CGPA","CGPAScale","StudentEmail","IsValidEmail",
+         "PhoneNumber","State","ScholarshipHolder"})
+in
+    ReorderedColumns</code></pre>
+
+  <h4 class="block-h">Step-by-Step Explanation of the Non-Obvious Decisions</h4>
+  <ul>
+<li><span class="walk-title">StudentMatric forced to Text and then explicitly uppercased, in two separate steps</span> &mdash; Typing it as text first prevents Power Query from ever attempting a numeric interpretation of a numeric-only matric scheme, and a separate Text.Upper pass afterwards standardises the casing of the alphabetic-prefix schemes without the two concerns being tangled into one step.</li>
+<li><span class="walk-title">Level parsed by stripping words before stripping letters, in a specific order</span> &mdash; Removing the word 'LEVEL' before removing the standalone letter 'L' matters: reversing the order would strip the L out of the word LEVEL itself first, leaving the fragment 'EVE' still attached to the digits and breaking the subsequent Text.Select digit extraction.</li>
+<li><span class="walk-title">CGPAScale is added as an explicit flag column, exactly as the masterclass narrative insists, rather than converted</span> &mdash; The narrative is explicit that this is 'a data modelling decision Power Query surfaces but cannot fully resolve without a business rule'; this solution deliberately does not attempt to convert every CGPA onto one scale, since a 3.6 on a 5.0 scale is not equivalent to a 3.6 on a 4.0 scale and no formula can safely bridge that gap without knowing which departments use which scale.</li>
+<li><span class="walk-title">DegreeType strips every period before comparing, so B.Sc. and BSc compare equal</span> &mdash; Removing all periods from the uppercased text before the comparison collapses B.Sc., B.Sc, Bsc, and bsc onto the identical comparison string BSC in one step, rather than needing four separate exact-match branches for what is really one underlying degree abbreviation problem.</li>
+<li><span class="walk-title">FacultyLookupTable follows the exact same Merge Queries pattern used for Ministry and FuelType</span> &mdash; This is the third dataset in Set 2 where the masterclass narrative specifically asks for a lookup table rather than a function; using the identical NestedJoin-Expand-Fallback pattern each time reinforces the technique as a single repeatable skill rather than three unrelated one-off tricks.</li>
+  </ul>
+
+  <h4 class="block-h">Validation Checklist Before Close &amp; Load</h4>
+  <ul>
+<li>Group By Faculty and confirm the distinct list has collapsed to four clean faculty names.</li>
+<li>Group By Level and confirm only clean numeric year values remain (100, 200, 300, 400, 500, 600) with no leftover L suffix or word.</li>
+<li>Group By CGPAScale and eyeball the CGPA range within each bucket for plausibility (values up to 4.0 in one bucket, up to 5.0 in the other).</li>
+<li>Filter IsValidEmail = false and confirm the count matches the blank and malformed email count seen in the raw file profile.</li>
+<li>Filter AgeFlag &lt;&gt; "OK" and cross-check each flagged row's DateOfBirth for a plausible transcription error before treating it as a genuine anomaly.</li>
+  </ul>
+
+  <h4 class="block-h">Business Assumptions Made Explicit</h4>
+  <ul class="assumption-list">
+<li>CGPA is never rescaled onto a single common scale; CGPAScale only flags which scale a value most likely belongs to (using 4.0 as the cutoff), and any cross-department CGPA comparison or ranking report must filter to one scale at a time.</li>
+<li>A DegreeType, Faculty, and Department alignment check (for example confirming an MBBS only appears under Medicine) is deliberately left as a follow-up validation step rather than built into this cleaning query, since it requires a maintained reference table of valid faculty-degree combinations that was not supplied with this file.</li>
+<li>An age outside 15 to 50 is flagged for review rather than excluded, since a small number of genuinely older postgraduate or part-time students could legitimately fall outside that range.</li>
+  </ul>
+</div>
+
+<div class="dataset-block" id="solution-18">
+  <h3><span class="dataset-num">Dataset 18</span>Electricity Distribution Company Billing Records &mdash; Full Solution</h3>
+  <div class="meta-row">Domain: Utilities and Energy &nbsp;|&nbsp; File: <code>18_electricity_utility_billing_DIRTY.csv</code></div>
+
+  <h4 class="block-h">Recap of Planted Data Quality Issues</h4>
+  <ul class="issues">
+<li>TariffCategory uses both formal codes and informal descriptions for the same tariff, including a trailing-space variant.</li>
+<li>AccountType mixes inconsistent labels for the same concept (Prepaid, prepaid, Pre-paid).</li>
+<li>UnitsConsumed_kWh has missing values and occasional outlier readings; TariffRate_per_kWh and BillAmount stored as text with mixed currency notation.</li>
+<li>BillAmount should equal UnitsConsumed_kWh times TariffRate_per_kWh; PreviousArrears frequently blank and must be treated as zero, not missing.</li>
+<li>TotalAmountDue should equal BillAmount plus PreviousArrears; PaymentStatus has casing/trailing-space issues and an overlapping Arrears status.</li>
+<li>MeterNumber missing for some accounts, a critical revenue assurance red flag; BillingMonth uses mixed formats; roughly four percent duplicate rows.</li>
+  </ul>
+
+  <h4 class="block-h">Complete Power Query M Solution (Paste into the Advanced Editor)</h4>
+  <pre class="code-block"><code>let
+    Source = Csv.Document(File.Contents("C:\ProdigyTrainingHub\18_electricity_utility_billing_DIRTY.csv"),
+        [Delimiter=",", Columns=15, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+    PromotedHeaders = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+    AllText = Table.TransformColumnTypes(PromotedHeaders,
+        List.Transform(Table.ColumnNames(PromotedHeaders), each {_, type text})),
+    TypedIdColumns = Table.TransformColumnTypes(AllText, {{"AccountNo", type text}, {"MeterNumber", type text}}),
+    RemovedDuplicateRows = Table.Distinct(TypedIdColumns),
+    CleanedNamesAndDisco = Table.TransformColumns(RemovedDuplicateRows, {
+        {"CustomerName", each Text.Proper(fxCleanText(_)), type text},
+        {"DISCO", each Text.Proper(fxCleanText(_)), type text}
+    }),
+    StandardisedTariffCategory = Table.TransformColumns(CleanedNamesAndDisco, {{"TariffCategory", each
+        let U = Text.Upper(Text.Trim(fxCleanText(_) ?? ""))
+        in if U = null then null
+           else if Text.Contains(U, "R1") or U = "RESIDENTIAL" then "R1"
+           else if Text.Contains(U, "R2") then "R2"
+           else if Text.Contains(U, "C1") or Text.Contains(U, "COMMERCIAL") then "C1"
+           else if Text.Contains(U, "D3") then "D3"
+           else Text.Proper(U), type text}}),
+    StandardisedAccountType = Table.TransformColumns(StandardisedTariffCategory, {{"AccountType", each
+        let U = Text.Upper(Text.Trim(fxCleanText(_) ?? ""))
+        in if U = null then null else if Text.Contains(U, "PRE") then "Prepaid" else if Text.Contains(U, "POST") then "Postpaid" else Text.Proper(U), type text}}),
+    NumericTariffRate = Table.TransformColumns(StandardisedAccountType, {{"TariffRate_per_kWh", each fxToNumber(_), type number}}),
+    NumericBillAmount = Table.TransformColumns(NumericTariffRate, {{"BillAmount", each fxToNumber(_), type number}}),
+    NumericTotalAmountDue = Table.TransformColumns(NumericBillAmount, {{"TotalAmountDue", each fxToNumber(_), type number}}),
+    NumericArrearsRaw = Table.TransformColumns(NumericTotalAmountDue, {{"PreviousArrears", each fxToNumber(_), type number}}),
+    ZeroFilledArrears = Table.TransformColumns(NumericArrearsRaw, {{"PreviousArrears", each if _ = null then 0 else _, type number}}),
+    NumericUnitsConsumed = Table.TransformColumns(ZeroFilledArrears, {{"UnitsConsumed_kWh", each fxToNumber(_), type number}}),
+    AddedConsumptionOutlierFlag = Table.AddColumn(NumericUnitsConsumed, "ConsumptionOutlierFlag", each
+        if [UnitsConsumed_kWh] &lt;&gt; null and (List.Contains({"R1","R2"}, [TariffCategory])) and [UnitsConsumed_kWh] &gt; 3000
+        then "High consumption - verify meter reading" else "OK", type text),
+    AddedExpectedBill = Table.AddColumn(AddedConsumptionOutlierFlag, "ExpectedBill", each
+        if [UnitsConsumed_kWh] = null or [TariffRate_per_kWh] = null then null
+        else Number.Round([UnitsConsumed_kWh] * [TariffRate_per_kWh], 2), type number),
+    AddedBillVarianceFlag = Table.AddColumn(AddedExpectedBill, "BillVarianceFlag", each
+        if [BillAmount] = null or [ExpectedBill] = null then "Cannot verify"
+        else if Number.Abs([BillAmount] - [ExpectedBill]) &gt; 1 then "Mismatch - review"
+        else "OK", type text),
+    AddedExpectedTotal = Table.AddColumn(AddedBillVarianceFlag, "ExpectedTotal", each
+        if [BillAmount] = null then null else Number.Round([BillAmount] + [PreviousArrears], 2), type number),
+    AddedTotalDueVarianceFlag = Table.AddColumn(AddedExpectedTotal, "TotalDueVarianceFlag", each
+        if [TotalAmountDue] = null or [ExpectedTotal] = null then "Cannot verify"
+        else if Number.Abs([TotalAmountDue] - [ExpectedTotal]) &gt; 1 then "Mismatch - review"
+        else "OK", type text),
+    AddedMeterFlag = Table.AddColumn(AddedTotalDueVarianceFlag, "MeterFlag", each
+        if fxCleanText([MeterNumber]) = null then "CRITICAL - unmetered account" else "OK", type text),
+    StandardisedPaymentStatus = Table.TransformColumns(AddedMeterFlag, {{"PaymentStatus", each
+        let U = Text.Upper(Text.Trim(fxCleanText(_) ?? ""))
+        in if U = null then null
+           else if U = "UNPAID" then "Unpaid"
+           else if Text.Contains(U, "PARTIAL") then "Partially Paid"
+           else if Text.Contains(U, "ARREAR") then "Arrears"
+           else Text.Proper(U), type text}}),
+    ParsedBillingMonth = Table.TransformColumns(StandardisedPaymentStatus, {{"BillingMonth", each fxTryParseDate(_), type date}}),
+    AddedBillingMonthStart = Table.AddColumn(ParsedBillingMonth, "BillingMonth_Start", each
+        if [BillingMonth] = null then null else Date.StartOfMonth([BillingMonth]), type date),
+    StandardisedState = Table.TransformColumns(AddedBillingMonthStart, {{"State", each fxCleanState(_), type text}}),
+    DigitsOnlyPhone = Table.TransformColumns(StandardisedState, {{"CustomerPhone", each fxDigitsOnlyPhone(_), type text}}),
+    ReorderedColumns = Table.ReorderColumns(DigitsOnlyPhone,
+        {"AccountNo","CustomerName","CustomerPhone","DISCO","TariffCategory","AccountType","BillingMonth",
+         "BillingMonth_Start","UnitsConsumed_kWh","ConsumptionOutlierFlag","TariffRate_per_kWh","BillAmount",
+         "ExpectedBill","BillVarianceFlag","PreviousArrears","TotalAmountDue","ExpectedTotal","TotalDueVarianceFlag",
+         "PaymentStatus","MeterNumber","MeterFlag","State"}),
+    Electricity_Billing_Clean = ReorderedColumns
+in
+    Electricity_Billing_Clean
+
+// Companion query "Revenue_Assurance_Flags" (build as its own query referencing Electricity_Billing_Clean):
+// let
+//     Source = Electricity_Billing_Clean,
+//     FilteredExceptions = Table.SelectRows(Source, each
+//         [ConsumptionOutlierFlag] &lt;&gt; "OK" or [BillVarianceFlag] &lt;&gt; "OK" or [TotalDueVarianceFlag] &lt;&gt; "OK" or [MeterFlag] &lt;&gt; "OK")
+// in
+//     FilteredExceptions</code></pre>
+
+  <h4 class="block-h">Step-by-Step Explanation of the Non-Obvious Decisions</h4>
+  <ul>
+<li><span class="walk-title">PreviousArrears explicitly zero-filled after the numeric conversion, not left null</span> &mdash; The masterclass narrative is explicit that a missing arrears figure means zero in a billing context, not unknown; converting null to 0 immediately after fxToNumber runs, in its own clearly named step, means every later calculation that adds PreviousArrears never has to special-case a null.</li>
+<li><span class="walk-title">ConsumptionOutlierFlag only checks residential tariff categories, exactly as specified</span> &mdash; A very high kWh reading is completely normal for a commercial or industrial account but genuinely unusual for a residential one; restricting the List.Contains check to R1 and R2 prevents the flag from firing on every legitimately heavy commercial user.</li>
+<li><span class="walk-title">Two separate variance flags (BillVarianceFlag and TotalDueVarianceFlag) rather than one combined check</span> &mdash; A bill calculation error and a total-with-arrears calculation error are two different points of failure in the billing pipeline; keeping them as two columns tells the revenue assurance team exactly which formula broke, rather than a single flag that could mean either problem.</li>
+<li><span class="walk-title">BillingMonth_Start added as a second column alongside the original BillingMonth</span> &mdash; Standardising every billing month onto the first of the month is essential for a clean month-over-month Group By, but the original captured day is still potentially meaningful (some billing systems record the actual read date); keeping both columns preserves that information rather than discarding it.</li>
+<li><span class="walk-title">MeterFlag uses the same CRITICAL severity language as BankAccountFlag in the payroll dataset</span> &mdash; A missing MeterNumber and a missing BankAccountNo are both structurally the same kind of finding - a required identifier that is completely absent rather than merely malformed - so using consistent flag language across both audit-style datasets in this guide keeps the vocabulary predictable for anyone reading multiple audit exception reports.</li>
+  </ul>
+
+  <h4 class="block-h">Validation Checklist Before Close &amp; Load</h4>
+  <ul>
+<li>Group By TariffCategory and confirm only the NERC-style canonical codes remain (R1, R2, C1, D3) with the trailing-space variant fully resolved.</li>
+<li>Filter ConsumptionOutlierFlag &lt;&gt; "OK" and confirm every flagged row is genuinely R1 or R2 with a reading above 3000 kWh.</li>
+<li>Filter BillVarianceFlag &lt;&gt; "OK" or TotalDueVarianceFlag &lt;&gt; "OK" and manually trace a sample of each to the underlying billing formula before escalating.</li>
+<li>Group By MeterFlag and confirm the CRITICAL count is escalated as its own list to the revenue assurance team.</li>
+<li>Group By BillingMonth_Start and confirm every date has collapsed to the first of its month with no residual day-of-month variation.</li>
+  </ul>
+
+  <h4 class="block-h">Business Assumptions Made Explicit</h4>
+  <ul class="assumption-list">
+<li>A blank PreviousArrears is treated as a true zero rather than a missing value, and this zero-fill happens before any downstream calculation, consistent with standard utility billing convention.</li>
+<li>A UnitsConsumed_kWh outlier is only flagged for residential tariff categories (R1, R2); commercial and industrial accounts are expected to show much higher usage and are not flagged by this rule.</li>
+<li>BillVarianceFlag and TotalDueVarianceFlag both use a 1 naira tolerance, consistent with the tolerance convention used throughout this guide for financial recomputation checks.</li>
+  </ul>
+</div>
+
+<div class="dataset-block" id="solution-19">
+  <h3><span class="dataset-num">Dataset 19</span>Pharmacy Drug Inventory and Stock Records &mdash; Full Solution</h3>
+  <div class="meta-row">Domain: Pharmaceutical and Healthcare Supply &nbsp;|&nbsp; File: <code>19_pharmacy_drug_inventory_DIRTY.csv</code></div>
+
+  <h4 class="block-h">Recap of Planted Data Quality Issues</h4>
+  <ul class="issues">
+<li>DrugClass has inconsistent casing; QuantityReceived contains negative values and zeros.</li>
+<li>ClosingStock should equal QuantityReceived minus QuantityDispensed; some ClosingStock values are blank and recomputable.</li>
+<li>UnitCostPrice and UnitSellingPrice stored as text with mixed currency notation; selling price should always exceed cost price.</li>
+<li>ExpiryDate uses mixed formats and some drugs have already expired, a regulatory red flag.</li>
+<li>StorageCondition mixes inconsistent labels needing a controlled three-value vocabulary; NafdacApproved mixes Yes/No, Y/N, 1/0, TRUE/FALSE.</li>
+<li>BatchNumber missing for some records, a NAFDAC compliance violation; roughly four percent duplicate rows from an accidentally appended backup restore.</li>
+  </ul>
+
+  <h4 class="block-h">Complete Power Query M Solution (Paste into the Advanced Editor)</h4>
+  <pre class="code-block"><code>let
+    Source = Csv.Document(File.Contents("C:\ProdigyTrainingHub\19_pharmacy_drug_inventory_DIRTY.csv"),
+        [Delimiter=",", Columns=15, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+    PromotedHeaders = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+    AllText = Table.TransformColumnTypes(PromotedHeaders,
+        List.Transform(Table.ColumnNames(PromotedHeaders), each {_, type text})),
+    TypedIdColumns = Table.TransformColumnTypes(AllText, {{"StockID", type text}, {"BatchNumber", type text}}),
+    RemovedDuplicateRows = Table.Distinct(TypedIdColumns),
+    CleanedDrugAndSupplier = Table.TransformColumns(RemovedDuplicateRows, {
+        {"DrugName", each Text.Proper(fxCleanText(_)), type text},
+        {"DrugClass", each Text.Proper(fxCleanText(_)), type text},
+        {"SupplierName", each Text.Proper(fxCleanText(_)), type text}
+    }),
+    NumericUnitCostPrice = Table.TransformColumns(CleanedDrugAndSupplier, {{"UnitCostPrice", each fxToNumber(_), type number}}),
+    NumericUnitSellingPrice = Table.TransformColumns(NumericUnitCostPrice, {{"UnitSellingPrice", each fxToNumber(_), type number}}),
+    AddedMarginCheck = Table.AddColumn(NumericUnitSellingPrice, "MarginCheck", each
+        if [UnitCostPrice] = null or [UnitSellingPrice] = null then "Cannot verify"
+        else if [UnitSellingPrice] &lt;= [UnitCostPrice] then "Pricing error - selling below cost"
+        else "OK", type text),
+    NumericQuantityReceived = Table.TransformColumns(AddedMarginCheck,
+        {{"QuantityReceived", each try Number.FromText(fxCleanText(_)) otherwise null, Int64.Type}}),
+    NumericQuantityDispensed = Table.TransformColumns(NumericQuantityReceived,
+        {{"QuantityDispensed", each try Number.FromText(fxCleanText(_)) otherwise null, Int64.Type}}),
+    AddedReceiptFlag = Table.AddColumn(NumericQuantityDispensed, "ReceiptFlag", each
+        if [QuantityReceived] = null or [QuantityReceived] &lt;= 0 then "Review - invalid receipt quantity" else "OK", type text),
+    NumericClosingStockRaw = Table.TransformColumns(AddedReceiptFlag,
+        {{"ClosingStock", each try Number.FromText(fxCleanText(_)) otherwise null, Int64.Type}}),
+    AddedClosingStockCheck = Table.AddColumn(NumericClosingStockRaw, "ClosingStockCheck", each
+        if [QuantityReceived] = null or [QuantityDispensed] = null then null
+        else [QuantityReceived] - [QuantityDispensed], Int64.Type),
+    AddedClosingStockFinal = Table.AddColumn(AddedClosingStockCheck, "ClosingStockFinal", each
+        if [ClosingStock] &lt;&gt; null then [ClosingStock] else [ClosingStockCheck], Int64.Type),
+    AddedClosingStockFlag = Table.AddColumn(AddedClosingStockFinal, "ClosingStockFlag", each
+        if [ClosingStock] = null and [ClosingStockCheck] &lt;&gt; null then "Missing - recalculated"
+        else if [ClosingStock] = null or [ClosingStockCheck] = null then "Cannot verify"
+        else if [ClosingStock] &lt;&gt; [ClosingStockCheck] then "Mismatch - review"
+        else "OK", type text),
+    RemovedRawClosingStock = Table.RemoveColumns(AddedClosingStockFlag, {"ClosingStock"}),
+    RenamedClosingStock = Table.RenameColumns(RemovedRawClosingStock, {{"ClosingStockFinal", "ClosingStock"}}),
+    ParsedExpiryDate = Table.TransformColumns(RenamedClosingStock, {{"ExpiryDate", each fxTryParseDate(_), type date}}),
+    ParsedReceiptDate = Table.TransformColumns(ParsedExpiryDate, {{"ReceiptDate", each fxTryParseDate(_), type date}}),
+    AddedExpiryStatus = Table.AddColumn(ParsedReceiptDate, "ExpiryStatus", each
+        if [ExpiryDate] = null then "Cannot verify"
+        else if [ExpiryDate] &lt; Date.From(DateTime.LocalNow()) then "EXPIRED - remove from shelf"
+        else if [ExpiryDate] &lt; Date.From(DateTime.LocalNow()) + #duration(90, 0, 0, 0) then "Expiring within 90 days - review"
+        else "OK", type text),
+    StandardisedStorage = Table.TransformColumns(AddedExpiryStatus, {{"StorageCondition", each
+        let U = Text.Upper(Text.Trim(fxCleanText(_) ?? ""))
+        in if U = null then null
+           else if Text.Contains(U, "COLD") or Text.Contains(U, "REFRIGERAT") then "Cold Chain (2-8 C)"
+           else if Text.Contains(U, "AMBIENT") or Text.Contains(U, "ROOM") then "Ambient Temperature"
+           else "Controlled", type text}}),
+    AddedBatchFlag = Table.AddColumn(StandardisedStorage, "BatchFlag", each
+        if fxCleanText([BatchNumber]) = null then "COMPLIANCE RISK - no batch number" else "OK", type text),
+    StandardisedNafdac = Table.TransformColumns(AddedBatchFlag, {{"NafdacApproved", each fxToBoolean(_), type logical}}),
+    StandardisedState = Table.TransformColumns(StandardisedNafdac, {{"State", each fxCleanState(_), type text}}),
+    ReorderedColumns = Table.ReorderColumns(StandardisedState,
+        {"StockID","DrugName","DrugClass","SupplierName","UnitCostPrice","UnitSellingPrice","MarginCheck",
+         "QuantityReceived","ReceiptFlag","QuantityDispensed","ClosingStock","ClosingStockCheck","ClosingStockFlag",
+         "BatchNumber","BatchFlag","ExpiryDate","ExpiryStatus","ReceiptDate","StorageCondition","NafdacApproved","State"}),
+    Pharmacy_Inventory_Clean = ReorderedColumns
+in
+    Pharmacy_Inventory_Clean
+
+// Companion query "Pharmacy_ComplianceFlags" (build as its own query referencing Pharmacy_Inventory_Clean):
+// let
+//     Source = Pharmacy_Inventory_Clean,
+//     FilteredExceptions = Table.SelectRows(Source, each
+//         [ExpiryStatus] &lt;&gt; "OK" or [MarginCheck] &lt;&gt; "OK" or [BatchFlag] &lt;&gt; "OK" or [ReceiptFlag] &lt;&gt; "OK")
+// in
+//     FilteredExceptions</code></pre>
+
+  <h4 class="block-h">Step-by-Step Explanation of the Non-Obvious Decisions</h4>
+  <ul>
+<li><span class="walk-title">ClosingStock fill-forward uses three separate columns before collapsing to one final column</span> &mdash; Keeping the original ClosingStock, the recalculated ClosingStockCheck, and a merged ClosingStockFinal as three distinct intermediate steps - rather than overwriting the original value directly - makes it possible to build ClosingStockFlag afterwards and still tell 'was missing and got recalculated' apart from 'was present and disagreed with the recalculation', exactly mirroring the TotalValueMismatchFlag pattern used in the Set 2 agricultural dataset.</li>
+<li><span class="walk-title">MarginCheck runs before the quantity columns are even touched</span> &mdash; Pricing correctness and stock-count correctness are two independent compliance questions; sequencing MarginCheck early keeps the pricing logic grouped together in the Applied Steps pane rather than interleaved with the unrelated quantity reconciliation logic that follows.</li>
+<li><span class="walk-title">ExpiryStatus uses a rolling 90-day window built with #duration, not a fixed date</span> &mdash; Using Date.From(DateTime.LocalNow()) plus a 90-day duration means this flag stays accurate every time the query is refreshed, rather than needing to be manually updated with a new hard-coded cutoff date each time the pharmacy runs its audit.</li>
+<li><span class="walk-title">StorageCondition collapses into exactly three buckets with a final unconditional 'Controlled' fallback</span> &mdash; The masterclass narrative asks for a three-value controlled vocabulary; rather than a fourth catch-all 'Unknown' bucket, any storage condition that is neither clearly cold-chain nor clearly ambient is assumed to require some form of active control and is labelled accordingly, which is the safer default in a pharmaceutical compliance context than assuming no special handling is needed.</li>
+<li><span class="walk-title">BatchFlag and the compliance companion query use the language 'COMPLIANCE RISK' rather than a generic 'Review'</span> &mdash; A missing batch number is not merely a data quality nuisance in this domain, it is a specific and named NAFDAC regulatory finding; the flag language reflects that directly so the compliance officer reading the exception report understands the stakes at a glance.</li>
+  </ul>
+
+  <h4 class="block-h">Validation Checklist Before Close &amp; Load</h4>
+  <ul>
+<li>Filter ExpiryStatus = "EXPIRED - remove from shelf" and confirm this list is treated as an urgent, same-day action item rather than a routine data quality note.</li>
+<li>Group By ClosingStockFlag and review the "Missing - recalculated" and "Mismatch - review" buckets separately, since they need two different follow-up actions.</li>
+<li>Filter MarginCheck = "Pricing error - selling below cost" and confirm every flagged row is escalated to the pharmacy manager before the next price list is published.</li>
+<li>Group By StorageCondition and confirm exactly three canonical values remain (Cold Chain (2-8 C), Ambient Temperature, Controlled).</li>
+<li>Open the Pharmacy_ComplianceFlags companion query and confirm every row in it fails at least one of the four named flag columns, ready to hand directly to a NAFDAC auditor.</li>
+  </ul>
+
+  <h4 class="block-h">Business Assumptions Made Explicit</h4>
+  <ul class="assumption-list">
+<li>ClosingStock is recalculated from QuantityReceived minus QuantityDispensed wherever the source value is blank, and the recalculated figure is treated as authoritative in that specific case only; a present-but-mismatched ClosingStock is flagged for review rather than silently overwritten.</li>
+<li>Any StorageCondition that is not clearly cold-chain or clearly ambient defaults to a 'Controlled' label rather than an 'Unknown' label, reflecting a conservative, safety-first assumption appropriate for a pharmaceutical compliance context.</li>
+<li>ExpiryStatus is calculated relative to the date the query is actually refreshed (DateTime.LocalNow()), not a fixed date, so the same query produces a different, always-current expired and expiring-soon list every time it runs.</li>
+  </ul>
+</div>
+
+<div class="dataset-block" id="solution-20">
+  <h3><span class="dataset-num">Dataset 20</span>Government Construction and Infrastructure Project Register &mdash; Full Solution</h3>
+  <div class="meta-row">Domain: Construction and Infrastructure &nbsp;|&nbsp; File: <code>20_construction_project_management_DIRTY.csv</code></div>
+
+  <h4 class="block-h">Recap of Planted Data Quality Issues</h4>
+  <ul class="issues">
+<li>ProjectType has overlapping labels from three procurement systems for the same project category.</li>
+<li>FundingSource inconsistently cased; three contract dates use mixed formats, with ActualCompletionDate unexpectedly blank on some Completed rows.</li>
+<li>ContractValue and AmountPaidToDate stored as text with mixed currency notation involving billions and embedded thousands commas.</li>
+<li>AmountPaidToDate exceeds ContractValue in some rows, a physical impossibility without a contract amendment.</li>
+<li>PercentageCompletion missing for some rows and shows 100 on rows still marked Ongoing or Suspended, a logical contradiction.</li>
+<li>ProjectStatus has casing and trailing-space issues; EnvironmentalClearance mixes Yes/No, Y/N, 1/0, TRUE/FALSE; roughly four percent duplicate rows.</li>
+  </ul>
+
+  <h4 class="block-h">Complete Power Query M Solution (Paste into the Advanced Editor)</h4>
+  <pre class="code-block"><code>let
+    Source = Csv.Document(File.Contents("C:\ProdigyTrainingHub\20_construction_project_management_DIRTY.csv"),
+        [Delimiter=",", Columns=15, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+    PromotedHeaders = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+    AllText = Table.TransformColumnTypes(PromotedHeaders,
+        List.Transform(Table.ColumnNames(PromotedHeaders), each {_, type text})),
+    TypedIdColumns = Table.TransformColumnTypes(AllText, {{"ProjectID", type text}}),
+    RemovedDuplicateRows = Table.Distinct(TypedIdColumns),
+    CleanedNamesAndContractor = Table.TransformColumns(RemovedDuplicateRows, {
+        {"ProjectName", each Text.Proper(fxCleanText(_)), type text},
+        {"ContractorName", each Text.Proper(fxCleanText(_)), type text},
+        {"ProjectManager", each Text.Proper(fxCleanText(_)), type text}
+    }),
+    // --- ProjectTypeLookupTable is a separate query consolidating overlapping labels from three procurement systems ---
+    MergedWithProjectTypeLookup = Table.NestedJoin(CleanedNamesAndContractor, {"ProjectType"}, ProjectTypeLookupTable, {"DirtyType"}, "TypeJoin", JoinKind.LeftOuter),
+    ExpandedProjectType = Table.ExpandTableColumn(MergedWithProjectTypeLookup, "TypeJoin", {"CleanType"}, {"CleanType"}),
+    FallbackProjectType = Table.AddColumn(ExpandedProjectType, "ProjectTypeFinal", each
+        if [CleanType] &lt;&gt; null then [CleanType] else Text.Proper(fxCleanText([ProjectType])), type text),
+    RemovedIntermediateType = Table.RemoveColumns(FallbackProjectType, {"ProjectType", "CleanType"}),
+    RenamedProjectType = Table.RenameColumns(RemovedIntermediateType, {{"ProjectTypeFinal", "ProjectType"}}),
+    StandardisedFundingSource = Table.TransformColumns(RenamedProjectType, {{"FundingSource", each
+        let U = Text.Upper(Text.Trim(fxCleanText(_) ?? ""))
+        in if U = null then null
+           else if U = "FEDERAL" then "Federal Government"
+           else if Text.Contains(U, "WORLD BANK") then "World Bank"
+           else Text.Proper(U), type text}}),
+    ParsedContractDate = Table.TransformColumns(StandardisedFundingSource, {{"ContractDate", each fxTryParseDate(_), type date}}),
+    ParsedExpectedCompletion = Table.TransformColumns(ParsedContractDate, {{"ExpectedCompletionDate", each fxTryParseDate(_), type date}}),
+    ParsedActualCompletion = Table.TransformColumns(ParsedExpectedCompletion, {{"ActualCompletionDate", each fxTryParseDate(_), type date}}),
+    StandardisedProjectStatus = Table.TransformColumns(ParsedActualCompletion, {{"ProjectStatus", each Text.Proper(fxCleanText(_)), type text}}),
+    AddedCompletionDataCheck = Table.AddColumn(StandardisedProjectStatus, "CompletionDataCheck", each
+        if [ProjectStatus] = "Completed" and [ActualCompletionDate] = null
+        then "Missing actual completion date for completed project - audit flag" else "OK", type text),
+    NumericContractValue = Table.TransformColumns(AddedCompletionDataCheck, {{"ContractValue", each fxToNumber(_), type number}}),
+    NumericAmountPaidToDate = Table.TransformColumns(NumericContractValue, {{"AmountPaidToDate", each fxToNumber(_), type number}}),
+    AddedOverpaymentCheck = Table.AddColumn(NumericAmountPaidToDate, "OverpaymentCheck", each
+        if [ContractValue] = null or [AmountPaidToDate] = null then "Cannot verify"
+        else if [AmountPaidToDate] &gt; [ContractValue] then "Overpayment - audit flag"
+        else "OK", type text),
+    NumericPercentageCompletion = Table.TransformColumns(AddedOverpaymentCheck,
+        {{"PercentageCompletion", each try Number.FromText(fxCleanText(_)) otherwise null, type number}}),
+    AddedProgressConsistency = Table.AddColumn(NumericPercentageCompletion, "ProgressConsistency", each
+        if [PercentageCompletion] = null then "Completion percentage missing"
+        else if [PercentageCompletion] = 100 and [ProjectStatus] &lt;&gt; "Completed" then "Inconsistency - 100% but not marked Completed"
+        else "OK", type text),
+    StandardisedEnvironmentalClearance = Table.TransformColumns(AddedProgressConsistency, {{"EnvironmentalClearance", each fxToBoolean(_), type logical}}),
+    AddedProjectDurationDays = Table.AddColumn(StandardisedEnvironmentalClearance, "ProjectDurationDays", each
+        if [ContractDate] = null or [ExpectedCompletionDate] = null then null
+        else Duration.Days([ExpectedCompletionDate] - [ContractDate]), Int64.Type),
+    StandardisedState = Table.TransformColumns(AddedProjectDurationDays, {{"State", each fxCleanState(_), type text}}),
+    ReorderedColumns = Table.ReorderColumns(StandardisedState,
+        {"ProjectID","ProjectName","ProjectType","ContractorName","FundingSource","ContractDate","ExpectedCompletionDate",
+         "ActualCompletionDate","CompletionDataCheck","ProjectDurationDays","ContractValue","AmountPaidToDate",
+         "OverpaymentCheck","PercentageCompletion","ProgressConsistency","ProjectStatus","ProjectManager","State",
+         "EnvironmentalClearance"}),
+    Construction_Projects_Clean = ReorderedColumns
+in
+    Construction_Projects_Clean
+
+// Companion query "Projects_AuditFlags" (build as its own query referencing Construction_Projects_Clean):
+// let
+//     Source = Construction_Projects_Clean,
+//     FilteredExceptions = Table.SelectRows(Source, each
+//         [OverpaymentCheck] &lt;&gt; "OK" or [CompletionDataCheck] &lt;&gt; "OK" or [ProgressConsistency] &lt;&gt; "OK"
+//         or [EnvironmentalClearance] = false)
+// in
+//     FilteredExceptions</code></pre>
+
+  <h4 class="block-h">Step-by-Step Explanation of the Non-Obvious Decisions</h4>
+  <ul>
+<li><span class="walk-title">ProjectType uses a Merge Queries lookup table, the fourth and final dataset in Set 2 to specifically require it</span> &mdash; Three overlapping procurement-system labels per project category, in some cases needing the accompanying ProjectName text to disambiguate a genuinely ambiguous Bridge versus Bridge Rehabilitation entry, is exactly the kind of many-to-one mapping problem the masterclass narrative identifies as too complex for a simple conditional function, so the ProjectTypeLookupTable query is built and merged in exactly as specified.</li>
+<li><span class="walk-title">fxToNumber handles the embedded thousands commas in billion-naira values without any extra step</span> &mdash; Because fxToNumber already strips commas as one of its standard cleaning operations, the masterclass narrative's specific warning about needing an additional Text.Replace for commas in this dataset is already satisfied by the shared helper function; no extra step is needed here, which is itself worth pointing out to trainees who might otherwise duplicate work the helper library already does.</li>
+<li><span class="walk-title">CompletionDataCheck runs immediately after ProjectStatus is standardised, before the currency columns are touched</span> &mdash; Sequencing the two date-related checks (this one and, further down, OverpaymentCheck once currency is cleaned) close to the steps that produced their inputs keeps the Applied Steps pane readable as a narrative of 'clean this, then check this' pairs, rather than grouping every check together at the very end of the query.</li>
+<li><span class="walk-title">ProgressConsistency treats a missing percentage and a contradictory percentage as two different findings</span> &mdash; A blank PercentageCompletion is a data completeness gap, while a 100 percent reading on a project still marked Ongoing is a genuine logical contradiction that likely means either the percentage or the status field is wrong; giving them different flag text lets the auditor triage the two situations with different urgency.</li>
+<li><span class="walk-title">ProjectDurationDays is calculated from planned dates only, deliberately not from ActualCompletionDate</span> &mdash; The masterclass narrative asks specifically for a planned-versus-actual duration analysis to be supported in Power BI; keeping ProjectDurationDays as the planned duration only, rather than conflating it with actual duration, leaves the actual-versus-planned comparison itself as a downstream Power BI calculation the trainee builds later, rather than pre-computing an answer that would need its own separate variance column here.</li>
+  </ul>
+
+  <h4 class="block-h">Validation Checklist Before Close &amp; Load</h4>
+  <ul>
+<li>Group By ProjectType and confirm the distinct list has collapsed to a clean, non-overlapping category list.</li>
+<li>Filter OverpaymentCheck = "Overpayment - audit flag" and confirm every flagged row is escalated to the procurement audit team as a named finding.</li>
+<li>Filter CompletionDataCheck &lt;&gt; "OK" and confirm every flagged row is genuinely marked Completed with a blank ActualCompletionDate.</li>
+<li>Filter ProgressConsistency = "Inconsistency - 100% but not marked Completed" and cross-check each flagged row against ProjectStatus for a plausible status-update lag explanation.</li>
+<li>Open the Projects_AuditFlags companion query and confirm it also correctly includes every project where EnvironmentalClearance is explicitly false, not only the three numeric/date-based flags.</li>
+  </ul>
+
+  <h4 class="block-h">Business Assumptions Made Explicit</h4>
+  <ul class="assumption-list">
+<li>AmountPaidToDate exceeding ContractValue is always flagged for audit rather than assumed to reflect a legitimate contract amendment, since no amendment or variation-order field exists in this file to confirm that explanation.</li>
+<li>ProjectDurationDays reflects only the originally planned duration (ExpectedCompletionDate minus ContractDate); any planned-versus-actual variance analysis is left as a downstream Power BI calculation rather than pre-computed in this cleaning query.</li>
+<li>A project with EnvironmentalClearance recorded as false is included in the Projects_AuditFlags companion query alongside the three numeric and date-based findings, since an infrastructure project proceeding without environmental clearance is itself an audit-relevant fact regardless of its financial or scheduling status.</li>
+  </ul>
+</div>
+
+<h2 class="section-title" id="appendix">Appendix: The Four Set 2 Lookup Table Queries</h2>
+<div class="card">
+  <p>Four of the ten Set 2 datasets - Ministry (dataset 15), FuelType (dataset 16), Faculty (dataset 17), and ProjectType (dataset 20) - are specifically called out in the original masterclass narrative as needing a genuine Merge Queries lookup table rather than a hand-written conditional function, because the number of source variants per category is too large for a readable if-then-else chain. Every one of the four solutions above references its lookup table by name (MinistryLookupTable, FuelTypeLookupTable, FacultyLookupTable, ProjectTypeLookupTable) inside a Table.NestedJoin step. This appendix supplies the full, ready-to-build M code for all four lookup table queries in one place, plus the shared FallbackForUnmatched pattern already introduced in the Set 1 solutions guide.</p>
+</div>
+
+<div class="card">
+  <div class="lookup-name">MinistryLookupTable</div>
+  <div class="used-by">Used by: Dataset 15 - Federal Civil Service Payroll Register</div>
+  <pre class="code-block"><code>let
+    Source = Table.FromRows(
+        {
+            {"ministry of works", "Ministry of Works"}, {"Ministry of Works", "Ministry of Works"},
+            {"Min. of Works", "Ministry of Works"}, {"Works Ministry", "Ministry of Works"}, {"MOW", "Ministry of Works"},
+            {"ministry of finance", "Ministry of Finance"}, {"Ministry of Finance", "Ministry of Finance"},
+            {"Min. of Finance", "Ministry of Finance"}, {"Finance Ministry", "Ministry of Finance"}, {"MOF", "Ministry of Finance"},
+            {"Ministry of Justice", "Ministry of Justice"}, {"ministry of justice", "Ministry of Justice"},
+            {"Min. of Justice", "Ministry of Justice"}, {"Justice Ministry", "Ministry of Justice"}, {"MOJ", "Ministry of Justice"},
+            {"Ministry of Health", "Ministry of Health"}, {"ministry of health", "Ministry of Health"},
+            {"Min. of Health", "Ministry of Health"}, {"Health Ministry", "Ministry of Health"}, {"MOH", "Ministry of Health"},
+            {"Ministry of Education", "Ministry of Education"}, {"ministry of education", "Ministry of Education"},
+            {"Min. of Education", "Ministry of Education"}, {"Education Ministry", "Ministry of Education"}, {"MOE", "Ministry of Education"}
+        },
+        {"DirtyMinistry", "CleanMinistry"}
+    ),
+    RemovedDuplicateMappings = Table.Distinct(Source)
+in
+    RemovedDuplicateMappings</code></pre>
+</div>
+<div class="card">
+  <div class="lookup-name">FuelTypeLookupTable</div>
+  <div class="used-by">Used by: Dataset 16 - Petrol Station Daily Fuel Sales Log</div>
+  <pre class="code-block"><code>let
+    Source = Table.FromRows(
+        {
+            {"Premium Motor Spirit (PMS)", "PMS"}, {"PMS", "PMS"}, {"pms", "PMS"}, {"Petrol", "PMS"}, {"petrol", "PMS"},
+            {"Automotive Gas Oil (AGO)", "AGO"}, {"AGO", "AGO"}, {"ago", "AGO"}, {"Diesel", "AGO"}, {"diesel", "AGO"},
+            {"Kerosene", "Kerosene"}, {"kerosene", "Kerosene"}, {"DPK", "Kerosene"},
+            {"LPG", "LPG"}, {"lpg", "LPG"}, {"Cooking Gas", "LPG"}
+        },
+        {"DirtyFuelType", "CleanFuelType"}
+    ),
+    RemovedDuplicateMappings = Table.Distinct(Source)
+in
+    RemovedDuplicateMappings</code></pre>
+</div>
+<div class="card">
+  <div class="lookup-name">FacultyLookupTable</div>
+  <div class="used-by">Used by: Dataset 17 - University Student Enrollment and Academic Records</div>
+  <pre class="code-block"><code>let
+    Source = Table.FromRows(
+        {
+            {"Engineering", "Engineering"}, {"engineering", "Engineering"}, {"Faculty of Engineering", "Engineering"}, {"Engr", "Engineering"},
+            {"Medicine", "Medicine"}, {"Medical Sciences", "Medicine"}, {"MEDICINE", "Medicine"}, {"medicine", "Medicine"},
+            {"Science", "Science"}, {"science", "Science"}, {"Faculty of Science", "Science"}, {"Sciences", "Science"},
+            {"Arts", "Arts"}, {"arts", "Arts"}, {"Faculty of Arts", "Arts"},
+            {"Management Sciences", "Management Sciences"}, {"MANAGEMENT SCIENCES", "Management Sciences"},
+            {"management sciences", "Management Sciences"}, {"Social Sciences", "Social Sciences"}, {"social sciences", "Social Sciences"}
+        },
+        {"DirtyFaculty", "CleanFaculty"}
+    ),
+    RemovedDuplicateMappings = Table.Distinct(Source)
+in
+    RemovedDuplicateMappings</code></pre>
+</div>
+<div class="card">
+  <div class="lookup-name">ProjectTypeLookupTable</div>
+  <div class="used-by">Used by: Dataset 20 - Government Construction and Infrastructure Project Register</div>
+  <pre class="code-block"><code>let
+    Source = Table.FromRows(
+        {
+            {"Road Construction", "Road Construction"}, {"Road", "Road Construction"}, {"road construction", "Road Construction"},
+            {"Bridge", "Bridge Rehabilitation"}, {"Bridge Rehabilitation", "Bridge Rehabilitation"}, {"bridge", "Bridge Rehabilitation"},
+            {"Hospital Building", "Hospital Building"}, {"Hospital Block", "Hospital Building"}, {"hospital building", "Hospital Building"},
+            {"School Block", "School Building"}, {"School Building", "School Building"}, {"school block", "School Building"},
+            {"Residential Estate", "Residential Estate"}, {"residential estate", "Residential Estate"},
+            {"Water Project", "Water Infrastructure"}, {"Water Infrastructure", "Water Infrastructure"}
+        },
+        {"DirtyType", "CleanType"}
+    ),
+    RemovedDuplicateMappings = Table.Distinct(Source)
+in
+    RemovedDuplicateMappings
+
+// Note: a genuinely ambiguous "Bridge" vs "Bridge Rehabilitation" entry (per the masterclass narrative, disambiguated
+// using ProjectName content) is resolved conservatively above by treating bare "Bridge" as new-build "Bridge
+// Rehabilitation" terminology; a real engagement should confirm this mapping against each project's ProjectName
+// before publishing a report broken down by ProjectType.</code></pre>
+</div>
+<div class="note">Every one of the four dataset queries above follows the identical Table.NestedJoin, Table.ExpandTableColumn, then a Fallback...Column step that defaults to Text.Proper(fxCleanText(...)) for any value the lookup table does not recognise, exactly as demonstrated in full in the Set 1 solutions guide's own Lookup Table Appendix. This is deliberate repetition: a lookup-table merge with no safety-net fallback is one of the most common ways a real Power Query project silently loses rows to an unmatched join, and repeating the pattern across four datasets is intended to make it automatic.</div>
+
+<h2 class="section-title" id="cheatsheet">Solutions Cheat Sheet - Set 2 Additions</h2>
+<div class="card">
+  <table class="cheat-table">
+    <tr><th>Task</th><th>M Code</th></tr>
+<tr><td>Strip a trailing percent sign before a numeric parse</td><td><code>if Raw = null then null else Text.Replace(Raw, "%", "")</code></td></tr>
+<tr><td>Rebuild a coded value (grade level, matric level) from its digits only</td><td><code>Digits = Text.Select(NoWords, {"0".."9"}); "GL-" &amp; Digits</code></td></tr>
+<tr><td>Zero-fill a financial column where null means zero, not unknown</td><td><code>Table.TransformColumns(t, {{"PreviousArrears", each if _ = null then 0 else _, type number}})</code></td></tr>
+<tr><td>Merge a lookup table with a safety-net fallback for unmatched rows (the four-step pattern)</td><td><code>NestedJoin -&gt; ExpandTableColumn -&gt; AddColumn Fallback (if CleanX &lt;&gt; null then CleanX else Text.Proper(fxCleanText(...))) -&gt; RemoveColumns / RenameColumns</code></td></tr>
+<tr><td>Flag a value against a rolling date window that stays current on every refresh</td><td><code>[ExpiryDate] &lt; Date.From(DateTime.LocalNow()) + #duration(90,0,0,0)</code></td></tr>
+<tr><td>Standardise a billing/period date onto the first of its month</td><td><code>Date.StartOfMonth([BillingMonth])</code></td></tr>
+<tr><td>Build a companion audit-exception query from an already-cleaned query</td><td><code>Table.SelectRows(Electricity_Billing_Clean, each [Flag1] &lt;&gt; "OK" or [Flag2] &lt;&gt; "OK")</code></td></tr>
+<tr><td>Test membership against a short category list inside a conditional column</td><td><code>List.Contains({"R1", "R2"}, [TariffCategory])</code></td></tr>
+<tr><td>Add a weekday name for a pattern-analysis exercise</td><td><code>Date.DayOfWeekName([Date])</code></td></tr>
+<tr><td>Compute a planned-duration column while explicitly leaving actual-vs-planned to a later step</td><td><code>if [ContractDate] = null or [ExpectedCompletionDate] = null then null else Duration.Days([ExpectedCompletionDate] - [ContractDate])</code></td></tr>
+  </table>
+</div>
+
+<h2 class="section-title" id="qa">Validation and Quality Assurance Methodology for Audit-Style Datasets</h2>
+<div class="card">
+  <p>Set 2 leans heavily on audit and revenue-assurance style datasets, where the deliverable a client actually cares about is not the clean table itself but the short list of exceptions it surfaces. The five-part validation routine from the Set 1 solutions guide still applies in full to every dataset in this set, and should be run first. The two additional checks below are specific to the flag-heavy, audit-oriented datasets that make up most of Set 2 (payroll, electricity billing, pharmacy, and construction).</p>
+  <ol>
+<li><span class="walk-title">Row count reconciliation, Column Quality, Group By, flag audit, and recomputation cross-checks</span> &mdash; Run all five checks from the Set 1 QA methodology first, exactly as documented there, before moving on to the two audit-specific checks below.</li>
+<li><span class="walk-title">Companion exception-query row count sanity check</span> &mdash; For every dataset with a companion AuditFlags query (Payroll_AuditFlags, Revenue_Assurance_Flags, Pharmacy_ComplianceFlags, Projects_AuditFlags), confirm its row count is a genuinely small fraction of the full cleaned table - typically under ten percent. A companion query returning close to the full row count almost always means one of its flag conditions is miscalibrated (too strict a tolerance, or a condition that should have used &lt;&gt; "OK" but was written the wrong way round) rather than a real finding that most of the population is non-compliant.</li>
+<li><span class="walk-title">Cross-flag correlation check</span> &mdash; Where a dataset has more than one flag column (for example ExpiryStatus and MarginCheck in the pharmacy dataset), Group By each flag column pair and check whether the same rows tend to trigger multiple flags together. A cluster of rows failing every check at once is often a sign of one upstream data corruption event (a whole batch import gone wrong) rather than many independent, unrelated errors, and is worth investigating as a single root cause before writing up ten separate findings.</li>
+  </ol>
+</div>
+
+<h2 class="section-title" id="facilitator">Facilitator Notes for Delivering This Solutions Guide</h2>
+<div class="card">
+  <ul>
+<li>Set 2 is meaningfully harder than Set 1 and should only be introduced once trainees are comfortable building a Merge Queries lookup table from scratch and confident with the six shared helper functions; four of these ten datasets (Ministry, FuelType, Faculty, ProjectType) specifically require the lookup table technique rather than the conditional-function shortcut, and this is a deliberate escalation in the masterclass design, not an oversight.</li>
+<li>Spend extra time on the difference between a flag column and a companion exception query. Trainees consistently want to filter the main cleaned table down to just the flagged rows and call that the deliverable; walk through why keeping the full table intact, with flags as columns, and building a separate Table.SelectRows-based query on top of it, is the more professional and more reusable pattern - the client gets both the clean master table and the audit exception report from the same single source of truth.</li>
+<li>The four audit-style datasets (payroll, electricity billing, pharmacy, construction) are an excellent opportunity to discuss flag severity language as a deliberate design choice, not decoration. Ask trainees why this guide uses "CRITICAL" for a missing bank account or meter number but "Review" for an implausible age, and let the class debate where their own future client's flags should sit on that same scale.</li>
+<li>When teaching the four lookup-table datasets back to back, have trainees notice that the NestedJoin-Expand-Fallback pattern is now identical across all four; this is the moment to formally introduce the idea of a Power Query "design pattern" as a concept, the same way a software engineer would talk about a repeatable pattern rather than four unrelated solutions to four different problems.</li>
+<li>Close a Set 2 session by asking each trainee to pick one audit-style dataset and write, from scratch and without looking at this guide, their own version of that dataset's companion exception query. Comparing their Table.SelectRows condition against this guide's version is one of the fastest ways to confirm they actually understand which flag columns belong in an exception report and which do not.</li>
+  </ul>
+</div>
+<div class="note">As with the Set 1 solutions guide, every file path inside File.Contents in this document uses a placeholder location (C:\ProdigyTrainingHub\...); update this to match wherever the ten Set 2 CSV files are actually stored before running any query. The four lookup table queries in this document's appendix should be built once, alongside the six shared helper functions, before opening any of the four dataset queries that reference them. And as always: never edit the raw CSV files directly - every correction happens inside the Power Query Editor so the full cleaning and audit process stays documented, auditable, and repeatable on next quarter's export without redoing any manual work.</div>
+<footer>Prodigy Training Hub | Data Science and Analytics Training | Lagos, Nigeria</footer>
+</div>
+</body>
+</html>
