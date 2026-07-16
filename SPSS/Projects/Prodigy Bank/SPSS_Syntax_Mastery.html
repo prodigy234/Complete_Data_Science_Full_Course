@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>SPSS Syntax Mastery</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  :root {
+    --accent: #1F4E78;
+    --accent2: #2E5C8A;
+    --bg: #fbfbfa;
+    --code-bg: #f4f6f8;
+    --tip-bg: #fff4ce;
+    --tip-border: #bf8f00;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; font-family: 'Segoe UI', Calibri, Arial, sans-serif;
+    background: var(--bg); color: #222; line-height: 1.6;
+  }
+  .layout { display: flex; min-height: 100vh; }
+  nav {
+    width: 280px; flex-shrink: 0; background: #12283d; color: #dce7f2;
+    padding: 24px 16px; position: sticky; top: 0; height: 100vh; overflow-y: auto;
+  }
+  nav .brand { font-size: 1.1em; font-weight: 700; color: #fff; margin-bottom: 4px; }
+  nav .brand-sub { font-size: 0.78em; color: #9fb7cc; margin-bottom: 20px; }
+  nav .nav-part {
+    margin-top: 18px; text-transform: uppercase; font-size: 0.72em; letter-spacing: 0.06em;
+    color: #6d93b5; font-weight: 700; border-top: 1px solid #24425e; padding-top: 12px;
+  }
+  nav .nav-part:first-of-type { border-top: none; margin-top: 0; }
+  nav a.nav-chapter {
+    display: block; color: #cfe0ee; text-decoration: none; font-size: 0.86em;
+    padding: 5px 4px 5px 8px; border-radius: 4px; margin-top: 2px;
+  }
+  nav a.nav-chapter:hover { background: #1c3a55; color: #fff; }
+  main { flex: 1; padding: 40px 56px; max-width: 900px; }
+  .cover { padding: 60px 0 40px; border-bottom: 3px solid var(--accent); margin-bottom: 30px; }
+  .cover h1 { font-size: 2.3em; color: var(--accent); margin: 0 0 6px; }
+  .cover .subtitle { font-size: 1.15em; color: #555; font-style: italic; margin-bottom: 22px; }
+  .cover .author { font-weight: 700; font-size: 1.05em; }
+  .cover .org { color: #555; }
+  .dataset-note {
+    background: #eef4fa; border-left: 4px solid var(--accent); padding: 14px 18px;
+    border-radius: 4px; margin: 24px 0;
+  }
+  section.part > h1 {
+    color: #fff; background: var(--accent); padding: 14px 20px; border-radius: 6px;
+    font-size: 1.5em; margin: 50px 0 20px;
+  }
+  article.chapter {
+    background: #fff; border: 1px solid #e3e6ea; border-radius: 8px;
+    padding: 26px 30px; margin-bottom: 22px; box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+  }
+  h2 { color: var(--accent2); font-size: 1.3em; margin-top: 0; }
+  h2 .chnum {
+    display: block; text-transform: uppercase; font-size: 0.6em; letter-spacing: 0.08em;
+    color: #8a99a8; font-weight: 700; margin-bottom: 3px;
+  }
+  p { text-align: justify; color: #333; }
+  .code-caption { font-weight: 600; font-style: italic; color: #555; margin: 16px 0 4px; font-size: 0.92em; }
+  pre.code {
+    background: var(--code-bg); border: 1px solid #dbe0e5; border-radius: 6px;
+    padding: 14px 18px; overflow-x: auto; margin: 0 0 10px;
+  }
+  pre.code code {
+    font-family: 'Consolas', 'SF Mono', Menlo, monospace; font-size: 0.87em;
+    color: #1b3a57; white-space: pre;
+  }
+  .tip {
+    background: var(--tip-bg); border-left: 4px solid var(--tip-border);
+    padding: 10px 16px; border-radius: 4px; margin: 12px 0; color: #7f6000; font-size: 0.94em;
+  }
+  @media (max-width: 900px) {
+    .layout { flex-direction: column; }
+    nav { width: 100%; height: auto; position: relative; }
+    main { padding: 24px; }
+  }
+</style>
+</head>
+<body>
+<div class="layout">
+  <nav>
+    <div class="brand">SPSS Syntax Mastery</div>
+    <div class="brand-sub">Prodigy Training Hub, Lagos, Nigeria</div>
+    <div class="nav-part">Part 1: Foundations of SPSS Syntax</div><a class="nav-chapter" href="#ch-1">Ch. 1: Why Learn SPSS Syntax</a><a class="nav-chapter" href="#ch-2">Ch. 2: The Syntax Editor and How Commands Are Structured</a><a class="nav-chapter" href="#ch-3">Ch. 3: Session Setup: SET, SHOW, and Working Directories</a><div class="nav-part">Part 2: Data Definition and Import</div><a class="nav-chapter" href="#ch-4">Ch. 4: GET DATA: Importing CSV and Excel Files</a><a class="nav-chapter" href="#ch-5">Ch. 5: DATA LIST: Defining Data Inline or From Fixed-Width Files</a><a class="nav-chapter" href="#ch-6">Ch. 6: Labelling the Data: VARIABLE LABELS, VALUE LABELS, MISSING VALUES</a><a class="nav-chapter" href="#ch-7">Ch. 7: VARIABLE LEVEL, FORMATS, and Display Properties</a><div class="nav-part">Part 3: Data Management and Transformation</div><a class="nav-chapter" href="#ch-8">Ch. 8: COMPUTE: Creating New Variables</a><a class="nav-chapter" href="#ch-9">Ch. 9: IF and DO IF / ELSE IF / END IF: Conditional Logic</a><a class="nav-chapter" href="#ch-10">Ch. 10: RECODE and AUTORECODE</a><a class="nav-chapter" href="#ch-11">Ch. 11: SELECT IF, FILTER, and TEMPORARY</a><a class="nav-chapter" href="#ch-12">Ch. 12: SORT CASES and SPLIT FILE</a><a class="nav-chapter" href="#ch-13">Ch. 13: AGGREGATE: Building Summary Tables</a><a class="nav-chapter" href="#ch-14">Ch. 14: MATCH FILES and ADD FILES: Combining Datasets</a><a class="nav-chapter" href="#ch-15">Ch. 15: String Functions and Date/Time Functions</a><a class="nav-chapter" href="#ch-16">Ch. 16: WEIGHT BY: Weighted Analysis</a><div class="nav-part">Part 4: Descriptive Statistics in Syntax</div><a class="nav-chapter" href="#ch-17">Ch. 17: FREQUENCIES</a><a class="nav-chapter" href="#ch-18">Ch. 18: DESCRIPTIVES</a><a class="nav-chapter" href="#ch-19">Ch. 19: EXAMINE: Deeper Distributional Diagnostics</a><a class="nav-chapter" href="#ch-20">Ch. 20: MEANS: Group Comparisons of Averages</a><div class="nav-part">Part 5: Inferential Statistics in Syntax</div><a class="nav-chapter" href="#ch-21">Ch. 21: CROSSTABS and the Chi-Square Test</a><a class="nav-chapter" href="#ch-22">Ch. 22: T-TEST: One-Sample, Independent-Samples, and Paired-Samples</a><a class="nav-chapter" href="#ch-23">Ch. 23: ONEWAY ANOVA and Post-Hoc Tests</a><a class="nav-chapter" href="#ch-24">Ch. 24: UNIANOVA and GLM: Factorial and Covariate-Adjusted ANOVA</a><a class="nav-chapter" href="#ch-25">Ch. 25: CORRELATIONS and NONPAR CORR</a><a class="nav-chapter" href="#ch-26">Ch. 26: REGRESSION: Linear Regression</a><a class="nav-chapter" href="#ch-27">Ch. 27: LOGISTIC REGRESSION</a><a class="nav-chapter" href="#ch-28">Ch. 28: RELIABILITY: Cronbach's Alpha</a><a class="nav-chapter" href="#ch-29">Ch. 29: FACTOR: Exploratory Factor Analysis / PCA</a><a class="nav-chapter" href="#ch-30">Ch. 30: NPAR TESTS: Non-Parametric Alternatives</a><div class="nav-part">Part 6: Output Management and Automation</div><a class="nav-chapter" href="#ch-31">Ch. 31: Exporting Output: OUTPUT SAVE, OMS, and Direct Export</a><a class="nav-chapter" href="#ch-32">Ch. 32: Charts via Syntax: GGRAPH and GRAPH</a><a class="nav-chapter" href="#ch-33">Ch. 33: Macros: DEFINE ... !ENDDEFINE</a><a class="nav-chapter" href="#ch-34">Ch. 34: Looping: LOOP / END LOOP and DO REPEAT</a><a class="nav-chapter" href="#ch-35">Ch. 35: Extending SPSS with Python: BEGIN PROGRAM / END PROGRAM</a><div class="nav-part">Part 7: Best Practices and Reference</div><a class="nav-chapter" href="#ch-36">Ch. 36: Writing Clean, Maintainable Syntax</a><a class="nav-chapter" href="#ch-37">Ch. 37: Common Errors and How to Read Them</a><a class="nav-chapter" href="#ch-38">Ch. 38: Appendix A: Full Worked Syntax Script</a><a class="nav-chapter" href="#ch-39">Ch. 39: Appendix B: Command Quick-Reference</a>
+  </nav>
+  <main>
+    <div class="cover">
+      <h1>SPSS Syntax Mastery</h1>
+      <div class="subtitle">A Comprehensive Guide to Writing SPSS Syntax From First Command to Full Automation</div>
+      <div class="author">Kajola Gbenga Adewale</div>
+      <div class="org">Prodigy Training Hub, Lagos, Nigeria</div>
+    </div>
+    <div class="dataset-note"><strong>About the practice dataset:</strong> All examples in this book use the practice dataset prodigy_bank_survey.csv / prodigy_bank_survey.xlsx, a simulated customer survey of 300 Prodigy Bank Nigeria customers across five branches (Lagos, Abuja, Port Harcourt, Kano, Ibadan). Load it once at the start of a session and every syntax example in this book will run against it without modification.</div>
+    <section class="part" id="part-1"><h1>Part 1: Foundations of SPSS Syntax</h1>
+<article class="chapter" id="ch-1">
+<h2><span class="chnum">Chapter 1</span>Why Learn SPSS Syntax</h2>
+<p>SPSS is usually taught through its point-and-click menus, and that is a reasonable place to start. But every menu click that SPSS performs is, underneath, a line of syntax. Once you can write that syntax directly, you gain four things the menus cannot give you: reproducibility (anyone can re-run your exact analysis), speed (one paragraph of syntax can replace forty clicks), auditability (a syntax file is a written record of every decision you made about the data), and automation (syntax can be looped, macro-ised, and scheduled).</p>
+<p>In a professional or research setting, a saved .sps syntax file is your proof of work. If a supervisor, examiner, or auditor asks 'how did you get this number', the honest answer with syntax is 'run this file and you will get it again'. That is not true of a project built entirely by clicking through menus.</p>
+<p>This book teaches SPSS the way a programmer would teach a language: starting from the syntax window itself, through data definition, data management, every major statistical procedure, and finally macros and automation. Every example runs against one practice dataset so that the syntax you write in Chapter 4 still works when you reach Chapter 34.</p>
+<div class="tip"><strong>TIP:</strong> You can always recover the syntax behind any menu action: run the analysis once through the menus, then click 'Paste' instead of 'OK'. SPSS writes the exact syntax for what you just configured into a new Syntax Editor window.</div>
+</article>
+<article class="chapter" id="ch-2">
+<h2><span class="chnum">Chapter 2</span>The Syntax Editor and How Commands Are Structured</h2>
+<p>The Syntax Editor is a plain text window (File &gt; New &gt; Syntax) where you type SPSS commands. Every SPSS command follows the same skeleton: a COMMAND KEYWORD, one or more optional /SUBCOMMANDS, and a closing period. The period is not decorative — it is how SPSS knows a command has ended, exactly like a semicolon in SQL or a full stop in a sentence.</p>
+<p>Command keywords are conventionally written in upper case and variable names in the case you defined them, though SPSS itself is not case sensitive for either. Indentation and line breaks are free-form: a command can span many lines, and SPSS only cares where the period is.</p>
+<p>Comments start with an asterisk (*) or the word COMMENT, and always end with a period. You can also use C-style block comments with /* text */ inside a command. Get in the habit of commenting your syntax files as if someone else will read them in a year, because that someone is usually you.</p>
+<div class="code-caption">Anatomy of a command</div>
+<pre class="code"><code>* This is a full-line comment describing what the command below does.
+FREQUENCIES VARIABLES=Gender Branch
+  /ORDER=ANALYSIS.
+
+* Everything before the period, across as many lines as needed, is ONE command.
+* A period with nothing after it ends the command; the next line starts a new one.</code></pre>
+<div class="code-caption">Running syntax</div>
+<pre class="code"><code>* Highlight one or more complete commands and press Ctrl+R (or the Run &gt; Selection
+* menu / green play-triangle icon) to execute just the highlighted syntax.
+* Run &gt; All Syntax executes the entire file from top to bottom.</code></pre>
+<div class="tip"><strong>TIP:</strong> A very common beginner error is a missing period at the end of a command — SPSS will then try to interpret the next line as part of the same command and throw a confusing error. If a command 'does not run', check the period first.</div>
+</article>
+<article class="chapter" id="ch-3">
+<h2><span class="chnum">Chapter 3</span>Session Setup: SET, SHOW, and Working Directories</h2>
+<p>Before touching data it helps to configure the session. SET controls global options such as the width of printed output, the decimal symbol, and the random number seed (important for reproducible simulations or bootstrapping). SHOW displays the current value of any of those settings. CD changes SPSS's current working directory, which is useful so that later GET DATA and SAVE commands can use short relative file names instead of full paths.</p>
+<div class="code-caption">Typical session header</div>
+<pre class="code"><code>SET SEED=234.
+SET DECIMAL=DOT.
+CD 'C:\ProdigyBank\SPSS_Course'.
+SHOW SEED.
+SHOW DIRECTORY.</code></pre>
+<div class="tip"><strong>TIP:</strong> Put a SET SEED command at the very top of any syntax file that involves random sampling (SAMPLE, bootstrapping, multiple imputation) so your results are identical every time the file is re-run.</div>
+</article>
+</section><section class="part" id="part-2"><h1>Part 2: Data Definition and Import</h1>
+<article class="chapter" id="ch-4">
+<h2><span class="chnum">Chapter 4</span>GET DATA: Importing CSV and Excel Files</h2>
+<p>GET DATA is the modern, general-purpose command for importing external files. It always follows the same pattern: /TYPE names the file format, /FILE gives the path, and format-specific subcommands control how rows and columns are read. This chapter imports the practice dataset directly from CSV and, separately, from Excel — you only need to run one of the two, but both are shown because you will meet each format in real work.</p>
+<div class="code-caption">Import the CSV file</div>
+<pre class="code"><code>GET DATA  /TYPE=TXT
+  /FILE='prodigy_bank_survey.csv'
+  /DELCASE=LINE
+  /DELIMITERS=','
+  /QUALIFIER='"'
+  /ARRANGEMENT=DELIMITED
+  /FIRSTCASE=2
+  /IMPORTCASE=ALL
+  /VARIABLES=
+  CustomerID A6
+  Branch A15
+  Gender A6
+  Age F3
+  Education A13
+  AccountType A14
+  YearsWithBank F5.1
+  MonthlyIncome F8
+  NumTransactionsMonth F3
+  Q1_ServiceQuality F1
+  Q2_StaffFriendliness F1
+  Q3_AppUsability F1
+  Q4_WaitTimeSatisfaction F1
+  Q5_OverallSatisfaction F1
+  ComplaintFiled A3
+  CreditScore F3
+  LoanDefault A3
+  ChurnRisk A6.
+CACHE.
+EXECUTE.
+DATASET NAME ProdigyBank WINDOW=FRONT.</code></pre>
+<div class="code-caption">Import the Excel file instead</div>
+<pre class="code"><code>GET DATA  /TYPE=XLSX
+  /FILE='prodigy_bank_survey.xlsx'
+  /SHEET=name 'ProdigyBank_Survey'
+  /CELLRANGE=full
+  /READNAMES=on
+  /DATATYPEMIN PERCENTAGE=95.0.
+EXECUTE.
+DATASET NAME ProdigyBank WINDOW=FRONT.</code></pre>
+<div class="tip"><strong>TIP:</strong> CACHE. followed by EXECUTE. forces SPSS to read the whole file into memory immediately rather than lazily, which avoids surprises later if the source file is moved or deleted.</div>
+<div class="tip"><strong>TIP:</strong> DATASET NAME gives the open data a short handle so you can refer to it later when working with more than one dataset open at once (see MATCH FILES in Chapter 14).</div>
+</article>
+<article class="chapter" id="ch-5">
+<h2><span class="chnum">Chapter 5</span>DATA LIST: Defining Data Inline or From Fixed-Width Files</h2>
+<p>Before GET DATA existed, DATA LIST was (and still is) the workhorse command for defining a dataset's structure by hand, either reading an external fixed-width or delimited file, or reading data typed directly inside the syntax file using BEGIN DATA / END DATA. This is invaluable for small teaching datasets, quick simulations, or when you need full manual control of column positions.</p>
+<div class="code-caption">Inline data with BEGIN DATA / END DATA</div>
+<pre class="code"><code>DATA LIST FREE / BranchCode (A4) StaffCount (F3) AvgWaitMinutes (F4.1).
+BEGIN DATA
+LAG1  42  6.2
+ABJ1  27  4.8
+PHC1  19  7.1
+KAN1  15  5.5
+IBD1  22  6.0
+END DATA.
+EXECUTE.</code></pre>
+<div class="code-caption">Fixed-column format from an external file</div>
+<pre class="code"><code>DATA LIST FILE='branch_master.txt' FIXED RECORDS=1
+  / BranchCode 1-4 (A) StaffCount 6-8 AvgWaitMinutes 10-13 (1).
+EXECUTE.</code></pre>
+<div class="tip"><strong>TIP:</strong> FREE format reads values separated by any whitespace and is quickest for small inline tables; FIXED format reads exact column positions and is used for legacy government or mainframe extract files.</div>
+</article>
+<article class="chapter" id="ch-6">
+<h2><span class="chnum">Chapter 6</span>Labelling the Data: VARIABLE LABELS, VALUE LABELS, MISSING VALUES</h2>
+<p>Raw column names and numeric codes are rarely self-explanatory to a reader of your output. VARIABLE LABELS attaches a descriptive sentence to a variable name; VALUE LABELS attaches a text meaning to specific numeric or string codes (essential for Likert items and Yes/No flags); MISSING VALUES declares which codes should be treated as missing rather than as real data (e.g., 99 for 'refused to answer').</p>
+<div class="code-caption">Variable labels</div>
+<pre class="code"><code>VARIABLE LABELS
+  Q1_ServiceQuality 'Service quality meets my expectations'
+  Q2_StaffFriendliness 'Staff are friendly and helpful'
+  Q3_AppUsability 'The banking app is easy to use'
+  Q4_WaitTimeSatisfaction 'I am satisfied with the waiting time'
+  Q5_OverallSatisfaction 'Overall I am satisfied with this bank'
+  MonthlyIncome 'Monthly income in Naira (NGN)'.
+EXECUTE.</code></pre>
+<div class="code-caption">Value labels for the Likert items and flags</div>
+<pre class="code"><code>VALUE LABELS Q1_ServiceQuality Q2_StaffFriendliness Q3_AppUsability
+  Q4_WaitTimeSatisfaction Q5_OverallSatisfaction
+  1 'Strongly Disagree' 2 'Disagree' 3 'Neutral' 4 'Agree' 5 'Strongly Agree'.
+
+VALUE LABELS ComplaintFiled LoanDefault 'No' 'No' 'Yes' 'Yes'.
+EXECUTE.</code></pre>
+<div class="code-caption">Declaring missing codes</div>
+<pre class="code"><code>MISSING VALUES MonthlyIncome (999999) CreditScore (0).
+EXECUTE.</code></pre>
+<div class="tip"><strong>TIP:</strong> Labelling every categorical and Likert variable at the start of a project takes ten minutes and saves hours later, because every FREQUENCIES, CROSSTABS, and chart you run afterwards will automatically print the readable labels instead of raw codes.</div>
+</article>
+<article class="chapter" id="ch-7">
+<h2><span class="chnum">Chapter 7</span>VARIABLE LEVEL, FORMATS, and Display Properties</h2>
+<p>SPSS distinguishes three measurement levels — Nominal, Ordinal, Scale — which control which chart types and statistics some menus offer you (syntax itself does not enforce this, but many procedures assume you set it correctly). VARIABLE LEVEL sets this explicitly. FORMATS controls how numbers print (decimal places, width), and VARIABLE WIDTH / VARIABLE ALIGNMENT control column display in Data View.</p>
+<div class="code-caption">Setting measurement level and display format</div>
+<pre class="code"><code>VARIABLE LEVEL Branch Gender Education AccountType ComplaintFiled
+  LoanDefault ChurnRisk (NOMINAL).
+VARIABLE LEVEL Q1_ServiceQuality TO Q5_OverallSatisfaction (ORDINAL).
+VARIABLE LEVEL Age YearsWithBank MonthlyIncome NumTransactionsMonth
+  CreditScore (SCALE).
+
+FORMATS MonthlyIncome CreditScore (F8.0) YearsWithBank (F5.1).
+EXECUTE.</code></pre>
+<div class="tip"><strong>TIP:</strong> The TO keyword (Q1_ServiceQuality TO Q5_OverallSatisfaction) refers to every variable between two names in file order — a fast way to address a block of consecutively positioned variables without typing each name.</div>
+</article>
+</section><section class="part" id="part-3"><h1>Part 3: Data Management and Transformation</h1>
+<article class="chapter" id="ch-8">
+<h2><span class="chnum">Chapter 8</span>COMPUTE: Creating New Variables</h2>
+<p>COMPUTE creates or overwrites a variable using an arithmetic expression. SPSS supports the usual operators (+ - * / **), a large function library (SUM, MEAN, SQRT, LN, LG10, RND, TRUNC, ABS, and many more), and can reference any existing numeric variable. Every COMPUTE should be followed by EXECUTE (or will run automatically at the next procedure) so you can see the result immediately.</p>
+<div class="code-caption">Building a composite satisfaction score</div>
+<pre class="code"><code>COMPUTE SatisfactionIndex = MEAN(Q1_ServiceQuality, Q2_StaffFriendliness,
+  Q3_AppUsability, Q4_WaitTimeSatisfaction, Q5_OverallSatisfaction).
+VARIABLE LABELS SatisfactionIndex 'Mean of 5 satisfaction items'.
+EXECUTE.
+
+COMPUTE AnnualIncome = MonthlyIncome * 12.
+COMPUTE IncomePerTransaction = MonthlyIncome / NumTransactionsMonth.
+EXECUTE.</code></pre>
+<div class="tip"><strong>TIP:</strong> MEAN(), SUM(), and SD() ignore missing values by default unless you request a minimum number of valid values, e.g. MEAN.3(Q1,Q2,Q3,Q4,Q5) requires at least 3 of the 5 to be non-missing before it computes a result.</div>
+</article>
+<article class="chapter" id="ch-9">
+<h2><span class="chnum">Chapter 9</span>IF and DO IF / ELSE IF / END IF: Conditional Logic</h2>
+<p>The standalone IF command computes a value only for cases meeting a condition, leaving other cases untouched. DO IF ... ELSE IF ... END IF is the block form, letting you route each case through one of several branches — closer to a traditional if/elif/else block in a programming language, and the right tool when you need to assign several variables per branch.</p>
+<div class="code-caption">Standalone IF</div>
+<pre class="code"><code>IF (MonthlyIncome &gt;= 250000) HighIncomeFlag = 1.
+IF (MonthlyIncome &lt; 250000) HighIncomeFlag = 0.
+VARIABLE LABELS HighIncomeFlag 'Monthly income at or above N250,000'.
+VALUE LABELS HighIncomeFlag 0 'No' 1 'Yes'.
+EXECUTE.</code></pre>
+<div class="code-caption">DO IF / ELSE IF block for a multi-category recode</div>
+<pre class="code"><code>DO IF (Age &lt; 25).
+  COMPUTE AgeBand = 1.
+ELSE IF (Age &gt;= 25 AND Age &lt;= 40).
+  COMPUTE AgeBand = 2.
+ELSE IF (Age &gt;= 41 AND Age &lt;= 55).
+  COMPUTE AgeBand = 3.
+ELSE.
+  COMPUTE AgeBand = 4.
+END IF.
+VALUE LABELS AgeBand 1 'Under 25' 2 '25-40' 3 '41-55' 4 '56 and above'.
+VARIABLE LABELS AgeBand 'Age band'.
+EXECUTE.</code></pre>
+<div class="tip"><strong>TIP:</strong> A DO IF block with no matching ELSE branch leaves the target variable as system-missing for any case that fails every condition — always add a final ELSE. to catch the remainder unless that is genuinely what you want.</div>
+</article>
+<article class="chapter" id="ch-10">
+<h2><span class="chnum">Chapter 10</span>RECODE and AUTORECODE</h2>
+<p>RECODE changes existing values into new ones, either overwriting the same variable or, with INTO, writing to a new one (the safer habit, since it preserves the original). AUTORECODE takes any string or scattered-numeric variable and assigns clean sequential integer codes 1, 2, 3... in alphabetical/ascending order — extremely useful before running procedures that require pure numeric grouping variables.</p>
+<div class="code-caption">RECODE into a new variable</div>
+<pre class="code"><code>RECODE Age (18 THRU 25=1) (26 THRU 40=2) (41 THRU 55=3) (56 THRU HIGHEST=4)
+  INTO AgeBandRecode.
+VARIABLE LABELS AgeBandRecode 'Age band (via RECODE)'.
+VALUE LABELS AgeBandRecode 1 'Under 25' 2 '25-40' 3 '41-55' 4 '56 and above'.
+EXECUTE.</code></pre>
+<div class="code-caption">AUTORECODE for a clean numeric grouping variable</div>
+<pre class="code"><code>AUTORECODE VARIABLES=Branch /INTO BranchNumeric /PRINT.
+EXECUTE.</code></pre>
+<div class="tip"><strong>TIP:</strong> THRU and the keywords LOWEST / HIGHEST let you write open-ended ranges without hard-coding the minimum or maximum value in the data, so the RECODE still works correctly if new, more extreme cases are added later.</div>
+</article>
+<article class="chapter" id="ch-11">
+<h2><span class="chnum">Chapter 11</span>SELECT IF, FILTER, and TEMPORARY</h2>
+<p>SELECT IF permanently discards cases that fail a condition for the rest of the session (or until you reload the data) — use it when you genuinely want to work only with a subset from this point on. FILTER BY is non-destructive: it hides cases from later procedures without deleting them, and can be switched off with FILTER OFF. TEMPORARY makes the very next transformation apply only to the next procedure, after which the full dataset returns.</p>
+<div class="code-caption">Permanently keep only Lagos customers</div>
+<pre class="code"><code>SELECT IF (Branch = 'Lagos').
+EXECUTE.</code></pre>
+<div class="code-caption">Non-destructive filter (preferred for exploratory work)</div>
+<pre class="code"><code>COMPUTE FilterHighIncome = (MonthlyIncome &gt;= 250000).
+FILTER BY FilterHighIncome.
+EXECUTE.
+
+* ... run any procedure here and it only sees high-income customers ...
+
+FILTER OFF.
+EXECUTE.</code></pre>
+<div class="code-caption">TEMPORARY for a one-off selection</div>
+<pre class="code"><code>TEMPORARY.
+SELECT IF (Gender = 'Female').
+FREQUENCIES VARIABLES=ChurnRisk.
+* The next procedure after this one sees the FULL dataset again.</code></pre>
+<div class="tip"><strong>TIP:</strong> Prefer FILTER BY over SELECT IF while you are still exploring data, since a mistaken SELECT IF can silently and permanently remove cases you needed later in the same session.</div>
+</article>
+<article class="chapter" id="ch-12">
+<h2><span class="chnum">Chapter 12</span>SORT CASES and SPLIT FILE</h2>
+<p>SORT CASES reorders the rows in memory by one or more variables, ascending or descending — required before some sequential commands (like some LAG functions or AGGREGATE with BREAK) which assume sorted input. SPLIT FILE repeats every subsequent procedure separately for each level of a grouping variable, printing a separate results block per group, which is the fastest way to produce branch-by-branch or gender-by-gender tables without writing a loop.</p>
+<div class="code-caption">Sort by branch, then by income descending</div>
+<pre class="code"><code>SORT CASES BY Branch (A) MonthlyIncome (D).
+EXECUTE.</code></pre>
+<div class="code-caption">Split the output by branch</div>
+<pre class="code"><code>SORT CASES BY Branch.
+SPLIT FILE SEPARATE BY Branch.
+DESCRIPTIVES VARIABLES=MonthlyIncome CreditScore.
+
+* Always turn splitting back off once you are done:
+SPLIT FILE OFF.
+EXECUTE.</code></pre>
+<div class="tip"><strong>TIP:</strong> SPLIT FILE requires the data to already be sorted by the same grouping variable, which is why SORT CASES almost always appears on the line immediately above it.</div>
+</article>
+<article class="chapter" id="ch-13">
+<h2><span class="chnum">Chapter 13</span>AGGREGATE: Building Summary Tables</h2>
+<p>AGGREGATE collapses many rows into one row per group, computing statistics such as means, sums, and counts along the way. Written with /OUTFILE=* it replaces the current dataset; written with a real file name it creates a brand-new branch-level (or any other group-level) dataset while leaving the original case-level data untouched.</p>
+<div class="code-caption">Branch-level summary as a new dataset</div>
+<pre class="code"><code>DATASET DECLARE BranchSummary.
+AGGREGATE
+  /OUTFILE='BranchSummary'
+  /BREAK=Branch
+  /MeanIncome_Branch = MEAN(MonthlyIncome)
+  /MeanSatisfaction_Branch = MEAN(Q5_OverallSatisfaction)
+  /CustomerCount = N.
+
+DATASET ACTIVATE BranchSummary.
+LIST.
+DATASET ACTIVATE ProdigyBank.</code></pre>
+<div class="tip"><strong>TIP:</strong> Always give /OUTFILE a real dataset name (as above) rather than '*' the first time you use AGGREGATE — '*' overwrites your case-level data in memory with the summary table, which is rarely what a beginner intends.</div>
+</article>
+<article class="chapter" id="ch-14">
+<h2><span class="chnum">Chapter 14</span>MATCH FILES and ADD FILES: Combining Datasets</h2>
+<p>MATCH FILES joins two datasets side-by-side on a common key (like a SQL JOIN), adding new columns to matching cases. ADD FILES stacks two datasets with the same variables on top of each other (like a SQL UNION), adding new rows. Both require the input datasets to be sorted by the BY key first, and both operate on datasets you have already opened and named with DATASET NAME.</p>
+<div class="code-caption">MATCH FILES: bring branch-level metrics onto every customer row</div>
+<pre class="code"><code>DATASET ACTIVATE ProdigyBank.
+SORT CASES BY Branch.
+DATASET ACTIVATE BranchSummary.
+SORT CASES BY Branch.
+
+MATCH FILES /FILE=ProdigyBank /TABLE=BranchSummary /BY Branch.
+EXECUTE.</code></pre>
+<div class="code-caption">ADD FILES: stack two survey waves</div>
+<pre class="code"><code>ADD FILES /FILE=Wave1Survey /FILE=Wave2Survey /IN=SurveyWave.
+VALUE LABELS SurveyWave 0 'Wave 1' 1 'Wave 2'.
+EXECUTE.</code></pre>
+<div class="tip"><strong>TIP:</strong> /TABLE= in MATCH FILES marks the smaller 'lookup' dataset (here, one row per branch); the main /FILE= dataset keeps one row per original case, exactly like the left table in a LEFT JOIN.</div>
+</article>
+<article class="chapter" id="ch-15">
+<h2><span class="chnum">Chapter 15</span>String Functions and Date/Time Functions</h2>
+<p>SPSS syntax includes a full string-handling library — CONCAT, SUBSTR, LENGTH, UPCASE/LOWER, LTRIM/RTRIM, INDEX/RINDEX, REPLACE — for cleaning text fields, and a matching date library — DATE.DMY, XDATE.YEAR/MONTH/MDAY, CTIME.DAYS, DATEDIFF — for anything involving calendar dates, such as calculating a customer's tenure or age directly from a date-of-birth field.</p>
+<div class="code-caption">String cleaning example</div>
+<pre class="code"><code>STRING BranchUpper (A15).
+COMPUTE BranchUpper = UPCASE(Branch).
+COMPUTE BranchInitial = SUBSTR(Branch,1,3).
+EXECUTE.</code></pre>
+<div class="code-caption">Working with dates</div>
+<pre class="code"><code>* Suppose JoinDate is a real SPSS date variable (already formatted as DATE11).
+COMPUTE TodayDate = $SYSDATE.
+COMPUTE TenureDays = DATEDIFF(TodayDate, JoinDate, 'days').
+COMPUTE TenureYears = TenureDays / 365.25.
+FORMATS TenureYears (F5.1).
+EXECUTE.</code></pre>
+<div class="tip"><strong>TIP:</strong> $SYSDATE is a built-in system variable holding today's date at the moment the syntax runs — useful for age or tenure calculations that should always be current.</div>
+</article>
+<article class="chapter" id="ch-16">
+<h2><span class="chnum">Chapter 16</span>WEIGHT BY: Weighted Analysis</h2>
+<p>WEIGHT BY tells every subsequent procedure to treat each case as if it appeared as many times as the value of the weight variable — used to correct for unequal sampling probabilities, or to make a convenience sample match known population proportions (e.g., branch size). Weighting stays active until you run WEIGHT OFF.</p>
+<div class="code-caption">Weighting to correct branch representation</div>
+<pre class="code"><code>COMPUTE BranchWeight = 1.
+IF (Branch = 'Lagos') BranchWeight = 0.9.
+IF (Branch = 'Kano') BranchWeight = 1.3.
+EXECUTE.
+
+WEIGHT BY BranchWeight.
+FREQUENCIES VARIABLES=Branch.
+WEIGHT OFF.</code></pre>
+<div class="tip"><strong>TIP:</strong> Always run WEIGHT OFF as soon as the weighted analysis is finished — a weight left silently active is one of the most common causes of 'my sample size looks wrong' errors later in a session.</div>
+</article>
+</section><section class="part" id="part-4"><h1>Part 4: Descriptive Statistics in Syntax</h1>
+<article class="chapter" id="ch-17">
+<h2><span class="chnum">Chapter 17</span>FREQUENCIES</h2>
+<p>FREQUENCIES is the default first step for any categorical or ordinal variable: it prints a count and percentage for every distinct value, plus optional summary statistics and charts. It is also the fastest way to eyeball a scale variable for outliers or data-entry errors before deciding on the right procedure.</p>
+<div class="code-caption">Categorical frequencies with a bar chart</div>
+<pre class="code"><code>FREQUENCIES VARIABLES=Branch Gender Education AccountType ChurnRisk
+  /ORDER=ANALYSIS
+  /BARCHART PERCENT.
+EXECUTE.</code></pre>
+<div class="code-caption">Scale variable frequencies with summary statistics</div>
+<pre class="code"><code>FREQUENCIES VARIABLES=Age MonthlyIncome CreditScore
+  /FORMAT=NOTABLE
+  /STATISTICS=MEAN MEDIAN STDDEV MINIMUM MAXIMUM SKEWNESS
+  /HISTOGRAM NORMAL.
+EXECUTE.</code></pre>
+<div class="tip"><strong>TIP:</strong> /FORMAT=NOTABLE suppresses the long value-by-value table for a continuous variable while still printing the requested summary statistics and histogram — use it whenever a scale variable has too many distinct values for a frequency table to be useful.</div>
+</article>
+<article class="chapter" id="ch-18">
+<h2><span class="chnum">Chapter 18</span>DESCRIPTIVES</h2>
+<p>DESCRIPTIVES is the leaner counterpart to FREQUENCIES, purpose-built for scale variables: one compact table with N, mean, standard deviation, minimum, and maximum for as many variables as you list. Its /SAVE subcommand can also save standardised (z-score) versions of each variable directly into new columns.</p>
+<div class="code-caption">Standard descriptive summary</div>
+<pre class="code"><code>DESCRIPTIVES VARIABLES=Age YearsWithBank MonthlyIncome
+  NumTransactionsMonth CreditScore
+  /STATISTICS=MEAN STDDEV MIN MAX SKEWNESS KURTOSIS.
+EXECUTE.</code></pre>
+<div class="code-caption">Saving z-scores for later use</div>
+<pre class="code"><code>DESCRIPTIVES VARIABLES=MonthlyIncome CreditScore /SAVE.
+EXECUTE.
+* This creates two new variables, ZMonthlyIncome and ZCreditScore.</code></pre>
+</article>
+<article class="chapter" id="ch-19">
+<h2><span class="chnum">Chapter 19</span>EXAMINE: Deeper Distributional Diagnostics</h2>
+<p>EXAMINE goes further than DESCRIPTIVES or FREQUENCIES: it produces normality tests (Shapiro-Wilk, Kolmogorov-Smirnov), confidence intervals for the mean, stem-and-leaf plots, boxplots, and can split all of that by a grouping variable in one command — the standard first check before choosing a parametric or non-parametric test.</p>
+<div class="code-caption">Full distributional check split by gender</div>
+<pre class="code"><code>EXAMINE VARIABLES=MonthlyIncome CreditScore BY Gender
+  /PLOT BOXPLOT STEMLEAF
+  /STATISTICS DESCRIPTIVES EXTREME
+  /CINTERVAL 95
+  /MISSING LISTWISE.
+EXECUTE.</code></pre>
+<div class="tip"><strong>TIP:</strong> Shapiro-Wilk (printed automatically for groups under 50 cases) and Kolmogorov-Smirnov (for larger groups) are the two normality tests EXAMINE reports — a significant result (p &lt; .05) suggests the variable deviates from a normal distribution, which is one of the signals used in Chapter 31 to decide between a parametric and a non-parametric test.</div>
+</article>
+<article class="chapter" id="ch-20">
+<h2><span class="chnum">Chapter 20</span>MEANS: Group Comparisons of Averages</h2>
+<p>MEANS prints the mean, count, and standard deviation of one or more dependent variables broken down by one or more categorical variables, and can layer several grouping variables to build a crossed table of averages — a lightweight alternative to full ANOVA when you only need the descriptive picture, not a significance test.</p>
+<div class="code-caption">Average satisfaction by branch and account type</div>
+<pre class="code"><code>MEANS TABLES=Q5_OverallSatisfaction MonthlyIncome BY Branch BY AccountType
+  /CELLS=MEAN COUNT STDDEV
+  /STATISTICS ANOVA.
+EXECUTE.</code></pre>
+<div class="tip"><strong>TIP:</strong> Adding /STATISTICS ANOVA to a MEANS command layers a one-way ANOVA significance test onto the descriptive table for each grouping variable — a convenient shortcut before running the full ONEWAY procedure in Chapter 24.</div>
+</article>
+</section><section class="part" id="part-5"><h1>Part 5: Inferential Statistics in Syntax</h1>
+<article class="chapter" id="ch-21">
+<h2><span class="chnum">Chapter 21</span>CROSSTABS and the Chi-Square Test</h2>
+<p>CROSSTABS builds a contingency table between two (or more) categorical variables and, with /STATISTICS=CHISQ, tests whether the variables are independent. /CELLS controls which percentages print inside each cell — row, column, and total percentages are the three you will use most often.</p>
+<div class="code-caption">Is complaint filing associated with account type?</div>
+<pre class="code"><code>CROSSTABS
+  /TABLES=AccountType BY ComplaintFiled
+  /CELLS=COUNT ROW COLUMN
+  /STATISTICS=CHISQ PHI.
+EXECUTE.</code></pre>
+<div class="tip"><strong>TIP:</strong> Chi-square requires every expected cell count to be reasonably large (a common rule of thumb is at least 5); CROSSTABS prints a footnote telling you exactly how many cells fell below that threshold, and PHI/Cramer's V (add CC to /STATISTICS for a table larger than 2x2) gives you the effect size alongside the p-value.</div>
+</article>
+<article class="chapter" id="ch-22">
+<h2><span class="chnum">Chapter 22</span>T-TEST: One-Sample, Independent-Samples, and Paired-Samples</h2>
+<p>The T-TEST command has three distinct forms sharing one keyword. A one-sample t-test checks whether a variable's mean differs from a fixed value. An independent-samples t-test compares the means of two separate groups (e.g., male vs. female income). A paired-samples t-test compares two related measurements taken on the same cases (e.g., a before/after satisfaction score).</p>
+<div class="code-caption">One-sample: is average credit score different from 650?</div>
+<pre class="code"><code>T-TEST /TESTVAL=650
+  /VARIABLES=CreditScore
+  /CRITERIA=CI(.95).</code></pre>
+<div class="code-caption">Independent-samples: income by gender</div>
+<pre class="code"><code>T-TEST GROUPS=Gender('Male' 'Female')
+  /VARIABLES=MonthlyIncome
+  /CRITERIA=CI(.95).</code></pre>
+<div class="code-caption">Paired-samples: two related satisfaction items</div>
+<pre class="code"><code>T-TEST PAIRS=Q1_ServiceQuality WITH Q4_WaitTimeSatisfaction (PAIRED)
+  /CRITERIA=CI(.95).</code></pre>
+<div class="tip"><strong>TIP:</strong> For the independent-samples form, always read the Levene's Test for Equality of Variances row first: if it is significant (p &lt; .05), report the 'Equal variances not assumed' row of the t-test instead of the default row.</div>
+</article>
+<article class="chapter" id="ch-23">
+<h2><span class="chnum">Chapter 23</span>ONEWAY ANOVA and Post-Hoc Tests</h2>
+<p>ONEWAY compares the means of a scale variable across three or more groups of a single categorical factor. On its own it only tells you 'at least one group differs' — the /POSTHOC subcommand runs pairwise comparisons (Tukey, Bonferroni, Scheffe are the most common) so you can see exactly which groups differ from which.</p>
+<div class="code-caption">Satisfaction across five branches, with post-hoc tests</div>
+<pre class="code"><code>ONEWAY Q5_OverallSatisfaction BY Branch
+  /STATISTICS DESCRIPTIVES HOMOGENEITY
+  /POSTHOC=TUKEY BONFERRONI ALPHA(0.05)
+  /PLOT MEANS.</code></pre>
+<div class="tip"><strong>TIP:</strong> HOMOGENEITY requests Levene's test of equal variances across groups, the ANOVA equivalent of the t-test's Levene check — if it is significant, consider the Welch or Brown-Forsythe robust F available under /STATISTICS WELCH.</div>
+</article>
+<article class="chapter" id="ch-24">
+<h2><span class="chnum">Chapter 24</span>UNIANOVA and GLM: Factorial and Covariate-Adjusted ANOVA</h2>
+<p>ONEWAY only handles a single factor. UNIANOVA (and the more general GLM command) handles multiple categorical factors at once, their interactions, and continuous covariates — the syntax route to a two-way ANOVA or ANCOVA. Interaction terms are written with an asterisk between factor names.</p>
+<div class="code-caption">Two-way ANOVA: Branch x Gender on satisfaction, with an interaction</div>
+<pre class="code"><code>UNIANOVA Q5_OverallSatisfaction BY Branch Gender
+  /METHOD=SSTYPE(3)
+  /INTERCEPT=INCLUDE
+  /PLOT=PROFILE(Branch*Gender)
+  /EMMEANS=TABLES(Branch*Gender)
+  /PRINT=DESCRIPTIVE ETASQ HOMOGENEITY
+  /DESIGN=Branch Gender Branch*Gender.</code></pre>
+<div class="code-caption">ANCOVA: adjusting for a continuous covariate (Age)</div>
+<pre class="code"><code>UNIANOVA MonthlyIncome BY Branch WITH Age
+  /PRINT=DESCRIPTIVE PARAMETER
+  /DESIGN=Age Branch.</code></pre>
+<div class="tip"><strong>TIP:</strong> ETASQ in /PRINT adds partial eta-squared effect sizes next to the F-tests — always report an effect size alongside significance for a factorial design.</div>
+</article>
+<article class="chapter" id="ch-25">
+<h2><span class="chnum">Chapter 25</span>CORRELATIONS and NONPAR CORR</h2>
+<p>CORRELATIONS computes Pearson's r between every pair of listed scale variables (a full correlation matrix if you list more than two). NONPAR CORR computes the non-parametric equivalents — Spearman's rho and Kendall's tau-b — for ordinal data or when the normality assumption behind Pearson's r is doubtful.</p>
+<div class="code-caption">Pearson correlation matrix</div>
+<pre class="code"><code>CORRELATIONS
+  /VARIABLES=Age YearsWithBank MonthlyIncome NumTransactionsMonth CreditScore
+  /PRINT=TWOTAIL NOSIG
+  /MISSING=PAIRWISE.</code></pre>
+<div class="code-caption">Spearman correlation for the Likert items</div>
+<pre class="code"><code>NONPAR CORR
+  /VARIABLES=Q1_ServiceQuality Q2_StaffFriendliness Q3_AppUsability
+  Q4_WaitTimeSatisfaction Q5_OverallSatisfaction
+  /PRINT=SPEARMAN TWOTAIL NOSIG
+  /MISSING=PAIRWISE.</code></pre>
+<div class="tip"><strong>TIP:</strong> NOSIG suppresses the asterisk-flagging of non-significant correlations so the matrix reads cleanly; remove it if you want every cell's significance flagged automatically.</div>
+</article>
+<article class="chapter" id="ch-26">
+<h2><span class="chnum">Chapter 26</span>REGRESSION: Linear Regression</h2>
+<p>REGRESSION fits an ordinary least squares model predicting one scale dependent variable from one or more independent variables. /DEPENDENT names the outcome, /METHOD=ENTER forces every listed predictor into the model in one step (other methods like STEPWISE add them conditionally), and /STATISTICS controls which diagnostic tables print alongside the coefficients.</p>
+<div class="code-caption">Predicting monthly income</div>
+<pre class="code"><code>REGRESSION
+  /MISSING LISTWISE
+  /STATISTICS COEFF OUTS R ANOVA COLLIN TOL
+  /CRITERIA=PIN(.05) POUT(.10)
+  /NOORIGIN
+  /DEPENDENT MonthlyIncome
+  /METHOD=ENTER Age YearsWithBank NumTransactionsMonth
+  /SCATTERPLOT (*ZRESID ,*ZPRED)
+  /RESIDUALS HISTOGRAM(ZRESID).</code></pre>
+<div class="tip"><strong>TIP:</strong> COLLIN TOL requests collinearity diagnostics (tolerance and VIF) — always check these when a model has more than one predictor, since severely correlated predictors make individual coefficients unreliable even when the overall model fits well.</div>
+</article>
+<article class="chapter" id="ch-27">
+<h2><span class="chnum">Chapter 27</span>LOGISTIC REGRESSION</h2>
+<p>When the outcome is binary (Yes/No, 0/1) rather than continuous, ordinary regression is the wrong tool — LOGISTIC REGRESSION models the log-odds of the outcome instead, and prints odds ratios (Exp(B)) that are directly interpretable as 'this predictor multiplies the odds of the outcome by X'.</p>
+<div class="code-caption">Predicting loan default from credit score and income</div>
+<pre class="code"><code>LOGISTIC REGRESSION VARIABLES LoanDefault
+  /METHOD=ENTER CreditScore MonthlyIncome Age
+  /CONTRAST (Gender)=Indicator
+  /PRINT=GOODFIT CI(95)
+  /CRITERIA=PIN(0.05) POUT(0.10) ITERATE(20) CUT(0.5).</code></pre>
+<div class="tip"><strong>TIP:</strong> The dependent variable in LOGISTIC REGRESSION must be coded numerically as 0/1 (the higher code is treated as the 'event'). Recode a Yes/No string variable with RECODE ... INTO before running this command if it is not already numeric.</div>
+</article>
+<article class="chapter" id="ch-28">
+<h2><span class="chnum">Chapter 28</span>RELIABILITY: Cronbach's Alpha</h2>
+<p>RELIABILITY measures the internal consistency of a set of items meant to measure the same underlying construct — the standard check before you combine several Likert items into a single composite score, as was done informally with SatisfactionIndex back in Chapter 8. Cronbach's alpha above roughly 0.7 is conventionally considered acceptable for a scale.</p>
+<div class="code-caption">Reliability of the five satisfaction items</div>
+<pre class="code"><code>RELIABILITY
+  /VARIABLES=Q1_ServiceQuality Q2_StaffFriendliness Q3_AppUsability
+  Q4_WaitTimeSatisfaction Q5_OverallSatisfaction
+  /SCALE('Satisfaction Scale') ALL
+  /MODEL=ALPHA
+  /STATISTICS=DESCRIPTIVE CORR
+  /SUMMARY=TOTAL.</code></pre>
+<div class="tip"><strong>TIP:</strong> The 'Cronbach's Alpha if Item Deleted' column tells you which single item, if removed, would raise the overall alpha — useful for trimming a weak item from a scale during questionnaire development.</div>
+</article>
+<article class="chapter" id="ch-29">
+<h2><span class="chnum">Chapter 29</span>FACTOR: Exploratory Factor Analysis / PCA</h2>
+<p>FACTOR reduces a set of correlated variables down to a smaller number of underlying dimensions (factors or components). It is commonly used on a bank of Likert items to check whether they really measure one construct or several, and to produce factor scores for later use as predictors.</p>
+<div class="code-caption">Exploratory factor analysis on the satisfaction items</div>
+<pre class="code"><code>FACTOR
+  /VARIABLES=Q1_ServiceQuality Q2_StaffFriendliness Q3_AppUsability
+  Q4_WaitTimeSatisfaction Q5_OverallSatisfaction
+  /MISSING LISTWISE
+  /ANALYSIS=Q1_ServiceQuality Q2_StaffFriendliness Q3_AppUsability
+  Q4_WaitTimeSatisfaction Q5_OverallSatisfaction
+  /PRINT=INITIAL KMO EXTRACTION ROTATION
+  /PLOT=EIGEN
+  /CRITERIA=MINEIGEN(1) ITERATE(25)
+  /EXTRACTION=PC
+  /ROTATION=VARIMAX
+  /SAVE=REG(ALL).</code></pre>
+<div class="tip"><strong>TIP:</strong> Check the KMO (Kaiser-Meyer-Olkin) measure before trusting the factor solution: KMO above 0.6 is generally considered the minimum acceptable threshold for the data to be suitable for factor analysis.</div>
+</article>
+<article class="chapter" id="ch-30">
+<h2><span class="chnum">Chapter 30</span>NPAR TESTS: Non-Parametric Alternatives</h2>
+<p>When a scale variable is badly non-normal, or when data are only ordinal, NPAR TESTS provides distribution-free alternatives to the t-test and ANOVA: Mann-Whitney U (two independent groups), Wilcoxon Signed-Rank (two paired measurements), and Kruskal-Wallis H (three or more independent groups).</p>
+<div class="code-caption">Mann-Whitney U: satisfaction by gender</div>
+<pre class="code"><code>NPAR TESTS
+  /M-W= Q5_OverallSatisfaction BY Gender('Male' 'Female')
+  /MISSING ANALYSIS.</code></pre>
+<div class="code-caption">Kruskal-Wallis H: satisfaction across branches</div>
+<pre class="code"><code>NPAR TESTS
+  /K-W=Q5_OverallSatisfaction BY Branch(1,5)
+  /MISSING ANALYSIS.</code></pre>
+<div class="code-caption">Wilcoxon Signed-Rank: two paired Likert items</div>
+<pre class="code"><code>NPAR TESTS
+  /WILCOXON=Q1_ServiceQuality WITH Q4_WaitTimeSatisfaction (PAIRED)
+  /MISSING ANALYSIS.</code></pre>
+<div class="tip"><strong>TIP:</strong> K-W requires numeric group codes with an explicit low/high range in parentheses — if Branch is still a string variable, run AUTORECODE first (Chapter 10) to get the numeric BranchNumeric variable K-W needs.</div>
+</article>
+</section><section class="part" id="part-6"><h1>Part 6: Output Management and Automation</h1>
+<article class="chapter" id="ch-31">
+<h2><span class="chnum">Chapter 31</span>Exporting Output: OUTPUT SAVE, OMS, and Direct Export</h2>
+<p>Once your analysis works, you often need the tables and charts outside SPSS entirely. OUTPUT EXPORT writes the whole Viewer to a Word, PDF, HTML, or Excel file in one command. The Output Management System (OMS) is more surgical: it intercepts specific tables as they are produced and routes them straight into a chosen file format, which is what you want inside an automated or looped job.</p>
+<div class="code-caption">Export the entire Viewer contents to Word</div>
+<pre class="code"><code>OUTPUT EXPORT
+  /CONTENTS EXPORT=ALL
+  /DOCX DOCUMENTFILE='ProdigyBank_Results.docx'
+  DOCUMENTTYPE=DOCUMENT.</code></pre>
+<div class="code-caption">OMS: capture only the Descriptives table to Excel</div>
+<pre class="code"><code>OMS
+  /SELECT TABLES
+  /IF COMMANDS=['Descriptives'] SUBTYPES=['Descriptive Statistics']
+  /DESTINATION FORMAT=XLSX OUTFILE='Descriptives_Only.xlsx'
+  /TAG='DescCapture'.
+
+DESCRIPTIVES VARIABLES=MonthlyIncome CreditScore.
+
+OMSEND TAG='DescCapture'.</code></pre>
+<div class="tip"><strong>TIP:</strong> Always pair an OMS command with a matching OMSEND — an OMS block left open keeps intercepting every future table of that type for the rest of the session, which silently pollutes files you did not mean to write to.</div>
+</article>
+<article class="chapter" id="ch-32">
+<h2><span class="chnum">Chapter 32</span>Charts via Syntax: GGRAPH and GRAPH</h2>
+<p>GGRAPH generates modern, highly customisable charts using the Graphics Production Language (GPL) that SPSS builds internally whenever you use the Chart Builder. The legacy GRAPH command is shorter to type for simple bar and line charts. Pasting a chart you built visually in Chart Builder is the fastest way to learn GPL syntax for a specific chart type.</p>
+<div class="code-caption">Simple legacy bar chart</div>
+<pre class="code"><code>GRAPH
+  /BAR(SIMPLE)=MEAN(MonthlyIncome) BY Branch
+  /TITLE='Average Monthly Income by Branch'.</code></pre>
+<div class="code-caption">GGRAPH: clustered bar of satisfaction by branch and gender</div>
+<pre class="code"><code>GGRAPH
+  /GRAPHDATASET NAME='graphdataset' VARIABLES=Branch Gender
+  MEAN(Q5_OverallSatisfaction)[name='MeanSat']
+  MISSING=LISTWISE REPORTMISSING=NO
+  /GRAPHSPEC SOURCE=INLINE.
+BEGIN GPL
+  SOURCE: s=userSource(id('graphdataset'))
+  DATA: Branch=col(source(s), name('Branch'), unit.category())
+  DATA: Gender=col(source(s), name('Gender'), unit.category())
+  DATA: MeanSat=col(source(s), name('MeanSat'))
+  GUIDE: axis(dim(1), label('Branch'))
+  GUIDE: axis(dim(2), label('Mean Overall Satisfaction'))
+  GUIDE: legend(aesthetic(aesthetic.color.interior), label('Gender'))
+  ELEMENT: interval(position(Branch*MeanSat), color.interior(Gender),
+    shape.interior(shape.square))
+END GPL.</code></pre>
+<div class="tip"><strong>TIP:</strong> You rarely write GPL from a blank page: build the chart once in Graphs &gt; Chart Builder, click Paste, and edit the generated GGRAPH block — this is far faster than memorising GPL syntax.</div>
+</article>
+<article class="chapter" id="ch-33">
+<h2><span class="chnum">Chapter 33</span>Macros: DEFINE ... !ENDDEFINE</h2>
+<p>A macro is a reusable block of syntax with parameters, similar to a function in a programming language. Once defined with DEFINE ... !ENDDEFINE, you call it anywhere later in the session simply by writing its name and arguments, and SPSS expands it into the full syntax before running it. Macros remove repetition when you need the same analysis run many times with only one detail changing.</p>
+<div class="code-caption">A macro that runs the same descriptive block for any variable</div>
+<pre class="code"><code>DEFINE !QuickDescribe (!POS !TOKENS(1)).
+  DESCRIPTIVES VARIABLES=!1
+    /STATISTICS=MEAN STDDEV MIN MAX.
+  FREQUENCIES VARIABLES=!1 /HISTOGRAM NORMAL /FORMAT=NOTABLE.
+!ENDDEFINE.
+
+!QuickDescribe MonthlyIncome.
+!QuickDescribe CreditScore.
+!QuickDescribe Age.</code></pre>
+<div class="tip"><strong>TIP:</strong> Macro names conventionally start with an exclamation mark (!) so they are visually distinct from ordinary command keywords and variable names in the syntax file.</div>
+</article>
+<article class="chapter" id="ch-34">
+<h2><span class="chnum">Chapter 34</span>Looping: LOOP / END LOOP and DO REPEAT</h2>
+<p>LOOP ... END LOOP repeats a block of transformation commands a set number of times or while a condition holds, case by case — useful for iterative calculations like running totals. DO REPEAT ... END REPEAT is different: it applies the same transformation to a whole list of variables in parallel, one substitution at a time, which is the everyday tool for recoding, renaming, or recalculating many similarly-structured variables at once.</p>
+<div class="code-caption">DO REPEAT: rescale every Likert item to a 0-100 scale at once</div>
+<pre class="code"><code>DO REPEAT src=Q1_ServiceQuality Q2_StaffFriendliness Q3_AppUsability
+  Q4_WaitTimeSatisfaction Q5_OverallSatisfaction
+  /dst=Q1_100 Q2_100 Q3_100 Q4_100 Q5_100.
+  COMPUTE dst = ((src - 1) / 4) * 100.
+END REPEAT.
+EXECUTE.</code></pre>
+<div class="code-caption">LOOP: a simple case-by-case running index</div>
+<pre class="code"><code>COMPUTE RunningFlagCount = 0.
+LOOP #i = 1 TO 5.
+  DO IF (#i = 1 AND Q1_ServiceQuality &gt;= 4).
+    COMPUTE RunningFlagCount = RunningFlagCount + 1.
+  END IF.
+END LOOP.
+EXECUTE.</code></pre>
+<div class="tip"><strong>TIP:</strong> DO REPEAT is worth learning before LOOP: in real teaching and analysis work it is used far more often, because most repetitive tasks are 'do the same thing to many variables', not 'do the same thing many times to one case'.</div>
+</article>
+<article class="chapter" id="ch-35">
+<h2><span class="chnum">Chapter 35</span>Extending SPSS with Python: BEGIN PROGRAM / END PROGRAM</h2>
+<p>If the SPSS Python Integration Plug-in is installed, a syntax file can embed real Python code inside a BEGIN PROGRAM / END PROGRAM block, with full access to the SPSS Python libraries (spss, spssaux) for tasks syntax alone cannot easily do, such as reading external metadata, dynamic file names, or advanced string processing. This is an advanced, optional bridge rather than a requirement for everyday syntax work.</p>
+<div class="code-caption">A minimal embedded Python block</div>
+<pre class="code"><code>BEGIN PROGRAM.
+import spss
+varCount = spss.GetVariableCount()
+print("This dataset has " + str(varCount) + " variables.")
+END PROGRAM.</code></pre>
+<div class="tip"><strong>TIP:</strong> Everything taught in Chapters 1-34 works in any standard SPSS Statistics installation; the Python Integration Plug-in in this chapter is an optional add-on, so treat this chapter as a preview of what becomes possible once you also know Python, not as a prerequisite for the rest of the book.</div>
+</article>
+</section><section class="part" id="part-7"><h1>Part 7: Best Practices and Reference</h1>
+<article class="chapter" id="ch-36">
+<h2><span class="chnum">Chapter 36</span>Writing Clean, Maintainable Syntax</h2>
+<p>A syntax file is code, and the same habits that make code maintainable apply here. Keep one command per logical block with a comment above it stating its purpose. Prefer INTO when recoding, so the original variable is never destroyed. Always run FILTER OFF, SPLIT FILE OFF, and WEIGHT OFF as soon as you finish a temporary state change, rather than trusting yourself to remember later. Save a master syntax file per project and re-run it from the top whenever the source data changes, instead of hand-repeating menu clicks.</p>
+<p>Name your syntax files and datasets descriptively, keep a header comment block at the top of every file recording the author, date, purpose, and the source data file it expects, and store your .sps files under version control (even a simple dated folder structure) alongside the data extracts they were built against.</p>
+<div class="code-caption">A recommended file header template</div>
+<pre class="code"><code>* ==========================================================.
+* File:      01_data_prep.sps.
+* Author:    Kajola Gbenga Adewale, Prodigy Training Hub.
+* Date:      16-Jul-2026.
+* Purpose:   Import and label the Prodigy Bank Nigeria survey data.
+* Input:     prodigy_bank_survey.csv.
+* Output:    Labelled, recoded ProdigyBank dataset ready for analysis.
+* ==========================================================.
+SET SEED=234.</code></pre>
+</article>
+<article class="chapter" id="ch-37">
+<h2><span class="chnum">Chapter 37</span>Common Errors and How to Read Them</h2>
+<p>Most beginner syntax errors fall into a handful of repeating patterns: a missing period at the end of a command (SPSS reports an error on the line after the one actually at fault); referencing a variable name that does not exist yet, usually from a typo or because an earlier COMPUTE/RECODE was never actually run; a string value compared without quotes (Branch = Lagos instead of Branch = 'Lagos'); and forgetting EXECUTE after a transformation, so nothing appears to have happened even though the command 'ran' without error.</p>
+<p>When SPSS reports an error, read the error number and the quoted fragment of syntax carefully — it almost always points at the exact token that confused the parser, and the fix is usually smaller than the error message makes it look.</p>
+<div class="code-caption">Common mistake: unquoted string comparison</div>
+<pre class="code"><code>* Wrong - SPSS will treat Lagos as an undefined variable name:
+* SELECT IF (Branch = Lagos).
+
+* Correct - string values must always be in quotes:
+SELECT IF (Branch = 'Lagos').
+EXECUTE.</code></pre>
+<div class="tip"><strong>TIP:</strong> If a command silently 'does nothing', check for a missing EXECUTE first — SPSS queues transformation commands and only actually processes the data when it hits EXECUTE or the next procedure command (FREQUENCIES, DESCRIPTIVES, etc.).</div>
+</article>
+<article class="chapter" id="ch-38">
+<h2><span class="chnum">Chapter 38</span>Appendix A: Full Worked Syntax Script</h2>
+<p>The script below chains together one representative command from most chapters in this book into a single runnable file against the practice dataset, from raw import through to a final exported results document. Use it as a template to copy and adapt for your own projects, and as a quick self-test: if every line below runs without an error message on your machine, your SPSS installation and syntax fundamentals are both in good shape.</p>
+<div class="code-caption">End-to-end pipeline</div>
+<pre class="code"><code>SET SEED=234.
+
+GET DATA  /TYPE=TXT
+  /FILE='prodigy_bank_survey.csv'
+  /DELCASE=LINE /DELIMITERS=',' /QUALIFIER='"'
+  /ARRANGEMENT=DELIMITED /FIRSTCASE=2 /IMPORTCASE=ALL
+  /VARIABLES=
+  CustomerID A6 Branch A15 Gender A6 Age F3 Education A13
+  AccountType A14 YearsWithBank F5.1 MonthlyIncome F8
+  NumTransactionsMonth F3 Q1_ServiceQuality F1 Q2_StaffFriendliness F1
+  Q3_AppUsability F1 Q4_WaitTimeSatisfaction F1 Q5_OverallSatisfaction F1
+  ComplaintFiled A3 CreditScore F3 LoanDefault A3 ChurnRisk A6.
+CACHE.
+EXECUTE.
+DATASET NAME ProdigyBank WINDOW=FRONT.
+
+VARIABLE LEVEL Q1_ServiceQuality TO Q5_OverallSatisfaction (ORDINAL).
+VALUE LABELS Q1_ServiceQuality Q2_StaffFriendliness Q3_AppUsability
+  Q4_WaitTimeSatisfaction Q5_OverallSatisfaction
+  1 'Strongly Disagree' 2 'Disagree' 3 'Neutral' 4 'Agree' 5 'Strongly Agree'.
+
+COMPUTE SatisfactionIndex = MEAN(Q1_ServiceQuality, Q2_StaffFriendliness,
+  Q3_AppUsability, Q4_WaitTimeSatisfaction, Q5_OverallSatisfaction).
+RECODE Age (18 THRU 25=1)(26 THRU 40=2)(41 THRU 55=3)(56 THRU HIGHEST=4)
+  INTO AgeBand.
+EXECUTE.
+
+FREQUENCIES VARIABLES=Branch Gender ChurnRisk.
+DESCRIPTIVES VARIABLES=MonthlyIncome CreditScore SatisfactionIndex.
+CROSSTABS /TABLES=AccountType BY ComplaintFiled /STATISTICS=CHISQ.
+T-TEST GROUPS=Gender('Male' 'Female') /VARIABLES=MonthlyIncome.
+ONEWAY Q5_OverallSatisfaction BY Branch /POSTHOC=TUKEY.
+CORRELATIONS /VARIABLES=Age MonthlyIncome CreditScore.
+REGRESSION /DEPENDENT MonthlyIncome /METHOD=ENTER Age YearsWithBank.
+RELIABILITY /VARIABLES=Q1_ServiceQuality TO Q5_OverallSatisfaction
+  /MODEL=ALPHA.
+
+OUTPUT EXPORT /CONTENTS EXPORT=ALL
+  /DOCX DOCUMENTFILE='ProdigyBank_FullResults.docx' DOCUMENTTYPE=DOCUMENT.</code></pre>
+</article>
+<article class="chapter" id="ch-39">
+<h2><span class="chnum">Chapter 39</span>Appendix B: Command Quick-Reference</h2>
+<p>A one-page reminder of every command family covered in this book, grouped by purpose, for quick lookup while you write your own syntax.</p>
+<div class="code-caption">Quick reference</div>
+<pre class="code"><code>SESSION SETUP ......... SET, SHOW, CD
+IMPORT DATA ........... GET DATA, DATA LIST, BEGIN DATA/END DATA
+LABEL DATA ............ VARIABLE LABELS, VALUE LABELS, MISSING VALUES,
+                        VARIABLE LEVEL, FORMATS
+TRANSFORM ............. COMPUTE, IF, DO IF/ELSE IF/END IF, RECODE,
+                        AUTORECODE, STRING functions, Date functions
+SUBSET / REORDER ...... SELECT IF, FILTER, TEMPORARY, SORT CASES,
+                        SPLIT FILE
+COMBINE DATA .......... AGGREGATE, MATCH FILES, ADD FILES
+WEIGHTING ............. WEIGHT BY
+DESCRIBE .............. FREQUENCIES, DESCRIPTIVES, EXAMINE, MEANS
+COMPARE GROUPS ........ T-TEST, ONEWAY, UNIANOVA/GLM, NPAR TESTS
+ASSOCIATION ........... CROSSTABS, CORRELATIONS, NONPAR CORR
+PREDICT ............... REGRESSION, LOGISTIC REGRESSION
+SCALE DEVELOPMENT ..... RELIABILITY, FACTOR
+OUTPUT / AUTOMATE ..... OUTPUT EXPORT, OMS/OMSEND, GGRAPH, GRAPH,
+                        DEFINE/!ENDDEFINE, LOOP/END LOOP, DO REPEAT,
+                        BEGIN PROGRAM/END PROGRAM</code></pre>
+</article>
+</section>
+  </main>
+</div>
+</body>
+</html>

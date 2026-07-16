@@ -1,0 +1,301 @@
+CustomerID,Branch,Gender,Age,Education,AccountType,YearsWithBank,MonthlyIncome,NumTransactionsMonth,Q1_ServiceQuality,Q2_StaffFriendliness,Q3_AppUsability,Q4_WaitTimeSatisfaction,Q5_OverallSatisfaction,ComplaintFiled,CreditScore,LoanDefault,ChurnRisk
+PB0001,Lagos,Female,37,Secondary,Current,8.4,45000,5,3,2,3,4,3,No,511,Yes,Low
+PB0002,Lagos,Female,42,Bachelor,Savings,2.6,206394,13,4,5,3,2,3,No,642,Yes,Low
+PB0003,Ibadan,Male,24,Secondary,Savings,0.4,90786,7,2,4,3,2,5,No,728,No,Low
+PB0004,Ibadan,Male,34,Diploma,Savings,5.4,146808,11,3,3,2,3,3,No,623,No,Low
+PB0005,Lagos,Male,53,Bachelor,Savings,25.6,257654,13,5,5,4,4,3,No,556,Yes,Low
+PB0006,Port Harcourt,Female,34,Postgraduate,Current,13.9,490787,19,3,3,2,3,3,No,694,No,Low
+PB0007,Kano,Male,49,Postgraduate,Current,9.6,356793,12,3,5,3,3,3,No,630,No,Medium
+PB0008,Port Harcourt,Male,37,Postgraduate,Savings,11.5,366210,18,3,2,1,1,2,Yes,607,Yes,Medium
+PB0009,Abuja,Male,50,Bachelor,Current,2.0,228995,15,4,3,4,3,4,No,599,No,Low
+PB0010,Abuja,Male,27,Bachelor,Savings,7.8,223923,14,2,2,2,2,3,Yes,598,No,Low
+PB0011,Port Harcourt,Female,25,Bachelor,Savings,5.9,169206,6,2,2,2,1,2,Yes,558,Yes,Low
+PB0012,Lagos,Female,34,Secondary,Savings,5.5,131402,15,4,4,4,4,5,Yes,679,No,Low
+PB0013,Kano,Male,38,Postgraduate,Current,15.1,322368,13,4,4,4,4,4,No,585,Yes,Low
+PB0014,Abuja,Female,33,Bachelor,Savings,4.9,162418,8,4,2,3,2,4,Yes,651,No,Medium
+PB0015,Kano,Male,39,Bachelor,Savings,9.1,303353,16,3,4,2,3,3,No,607,No,Low
+PB0016,Lagos,Female,34,Diploma,Savings,5.9,114575,14,2,4,2,2,3,No,630,Yes,Medium
+PB0017,Port Harcourt,Female,28,Secondary,Current,0.5,79068,11,3,2,3,1,4,Yes,639,No,Medium
+PB0018,Lagos,Male,34,Diploma,Savings,4.1,116303,5,3,4,3,2,4,No,705,No,Low
+PB0019,Abuja,Female,31,Secondary,Savings,11.2,64368,11,3,4,2,3,4,No,688,No,Low
+PB0020,Lagos,Male,38,Bachelor,Savings,2.4,183279,8,4,3,4,3,4,Yes,784,No,Medium
+PB0021,Abuja,Male,34,Bachelor,Current,4.0,273544,11,1,1,1,2,2,No,609,No,Low
+PB0022,Kano,Male,42,Diploma,Savings,18.5,92383,16,2,2,3,4,2,No,577,No,Medium
+PB0023,Ibadan,Male,46,Diploma,Savings,6.0,191735,11,4,3,3,3,2,No,512,Yes,Low
+PB0024,Lagos,Female,59,Diploma,Savings,22.9,161126,9,3,4,3,2,3,No,698,No,Low
+PB0025,Ibadan,Male,55,Diploma,Savings,30.0,85427,7,3,3,3,3,2,No,595,No,Low
+PB0026,Ibadan,Female,21,Bachelor,Savings,2.4,208583,12,2,3,4,2,3,Yes,604,No,Medium
+PB0027,Lagos,Male,29,Postgraduate,Savings,2.6,263819,13,4,4,4,3,4,Yes,818,No,Medium
+PB0028,Abuja,Female,44,Postgraduate,Current,19.7,292696,12,3,3,4,3,4,No,674,No,Low
+PB0029,Kano,Male,33,Bachelor,Savings,3.3,257790,11,5,3,5,4,4,Yes,772,Yes,Medium
+PB0030,Abuja,Male,31,Postgraduate,Current,5.8,385474,22,4,3,4,4,4,No,610,No,Low
+PB0031,Lagos,Male,37,Secondary,Savings,14.9,68869,13,3,3,1,1,1,No,578,Yes,Low
+PB0032,Abuja,Female,18,Postgraduate,Current,0.0,187342,10,2,3,3,2,3,Yes,630,No,Low
+PB0033,Abuja,Female,43,Bachelor,Current,9.9,259374,15,2,4,3,4,2,No,640,No,Medium
+PB0034,Port Harcourt,Female,20,Bachelor,Savings,1.0,272303,16,4,4,4,4,3,No,687,No,Medium
+PB0035,Kano,Male,29,Secondary,Savings,4.2,124699,15,4,3,5,2,4,Yes,664,No,Medium
+PB0036,Abuja,Male,24,Diploma,Savings,3.8,121615,11,5,4,3,5,3,No,601,Yes,Low
+PB0037,Lagos,Female,42,Bachelor,Savings,15.1,201635,13,3,4,4,3,4,Yes,665,Yes,Medium
+PB0038,Port Harcourt,Female,26,Diploma,Current,4.0,138962,5,2,2,1,2,1,No,608,Yes,Medium
+PB0039,Port Harcourt,Female,35,Diploma,Savings,1.0,122024,8,4,3,4,3,3,No,615,No,Low
+PB0040,Kano,Female,40,Postgraduate,Fixed Deposit,6.5,437785,14,3,3,2,1,3,Yes,531,No,High
+PB0041,Port Harcourt,Male,48,Postgraduate,Current,15.4,239772,14,4,3,4,4,3,No,763,No,Low
+PB0042,Ibadan,Female,37,Bachelor,Savings,2.5,197858,9,3,4,3,4,4,Yes,733,No,Medium
+PB0043,Port Harcourt,Female,44,Bachelor,Savings,18.8,169899,6,4,3,3,3,4,No,586,Yes,Low
+PB0044,Lagos,Female,32,Bachelor,Fixed Deposit,2.2,297335,9,4,5,4,4,5,No,612,Yes,Low
+PB0045,Port Harcourt,Male,34,Postgraduate,Fixed Deposit,3.2,321410,11,3,4,3,1,3,Yes,651,No,Medium
+PB0046,Lagos,Male,37,Bachelor,Savings,16.5,232095,13,3,3,4,2,4,Yes,448,No,Medium
+PB0047,Lagos,Male,52,Postgraduate,Savings,19.0,323577,12,5,5,5,5,5,No,737,No,Low
+PB0048,Lagos,Female,29,Bachelor,Fixed Deposit,6.7,177965,13,4,4,5,4,5,No,690,No,Low
+PB0049,Ibadan,Male,28,Bachelor,Fixed Deposit,7.8,207768,10,5,3,5,4,4,Yes,764,No,High
+PB0050,Lagos,Female,54,Postgraduate,Fixed Deposit,9.7,185526,18,3,3,3,2,3,Yes,556,No,Low
+PB0051,Port Harcourt,Male,38,Diploma,Savings,8.7,157466,11,3,3,2,3,2,Yes,633,No,High
+PB0052,Abuja,Male,33,Bachelor,Savings,12.8,157363,12,5,4,4,5,5,No,565,No,Low
+PB0053,Abuja,Female,18,Diploma,Savings,0.0,178495,15,5,5,3,4,3,Yes,592,No,Medium
+PB0054,Kano,Female,38,Diploma,Current,11.7,155990,7,3,3,4,2,3,No,556,Yes,Low
+PB0055,Lagos,Female,40,Postgraduate,Savings,8.7,245437,14,4,3,2,3,3,No,583,Yes,Low
+PB0056,Kano,Male,27,Diploma,Current,5.8,104188,11,4,4,5,3,4,Yes,650,No,Medium
+PB0057,Ibadan,Female,45,Bachelor,Current,21.1,238208,12,3,3,4,1,3,Yes,694,Yes,Medium
+PB0058,Port Harcourt,Male,40,Bachelor,Current,3.8,186315,13,4,4,4,5,4,No,739,No,Low
+PB0059,Port Harcourt,Male,50,Postgraduate,Current,9.7,387520,15,4,4,3,3,4,No,743,No,Low
+PB0060,Lagos,Male,32,Postgraduate,Savings,4.0,362203,13,3,2,5,3,4,No,717,No,Medium
+PB0061,Port Harcourt,Female,35,Diploma,Fixed Deposit,13.4,177029,14,4,4,3,2,4,Yes,710,No,Medium
+PB0062,Abuja,Male,31,Secondary,Current,11.7,113516,7,3,4,3,4,4,No,658,No,Medium
+PB0063,Lagos,Male,37,Secondary,Savings,7.9,87037,10,4,3,4,3,4,No,665,Yes,High
+PB0064,Abuja,Female,41,Bachelor,Current,2.8,181184,14,3,3,3,3,3,Yes,604,No,High
+PB0065,Abuja,Male,48,Bachelor,Savings,10.6,257539,13,3,3,2,3,2,Yes,677,No,High
+PB0066,Kano,Female,26,Postgraduate,Savings,3.8,297698,14,3,4,4,2,4,No,658,No,Low
+PB0067,Ibadan,Female,28,Secondary,Savings,1.8,102961,12,4,4,3,4,4,No,755,No,Low
+PB0068,Kano,Male,21,Secondary,Savings,2.5,95307,6,3,3,3,3,3,No,563,No,Low
+PB0069,Abuja,Female,19,Bachelor,Fixed Deposit,0.5,168300,6,4,4,4,1,3,Yes,594,Yes,Low
+PB0070,Port Harcourt,Male,33,Bachelor,Savings,1.0,242117,14,4,3,3,4,4,No,802,No,Low
+PB0071,Abuja,Female,29,Diploma,Savings,6.5,55839,6,4,3,3,4,4,No,696,No,Low
+PB0072,Lagos,Female,45,Bachelor,Current,13.2,193009,15,4,3,3,1,3,No,527,No,Medium
+PB0073,Kano,Male,39,Diploma,Fixed Deposit,18.7,110661,14,3,4,4,3,3,No,677,Yes,Low
+PB0074,Abuja,Male,40,Bachelor,Current,2.5,312804,17,4,4,3,5,5,Yes,574,No,Low
+PB0075,Kano,Female,34,Postgraduate,Savings,4.5,361493,12,2,3,2,1,4,No,579,Yes,Low
+PB0076,Lagos,Male,33,Bachelor,Savings,7.8,222375,15,3,4,2,3,3,Yes,565,No,Medium
+PB0077,Abuja,Male,38,Postgraduate,Savings,15.1,417665,11,3,3,3,3,4,Yes,586,No,Medium
+PB0078,Port Harcourt,Female,18,Bachelor,Savings,0.0,277069,10,3,4,2,2,3,Yes,661,No,Low
+PB0079,Port Harcourt,Male,44,Bachelor,Savings,7.1,279909,14,4,3,3,5,5,Yes,764,Yes,Low
+PB0080,Lagos,Female,59,Bachelor,Savings,17.3,267475,15,5,4,5,5,5,No,681,No,Low
+PB0081,Kano,Male,19,Postgraduate,Savings,0.4,378183,17,3,3,5,4,4,No,653,Yes,Medium
+PB0082,Kano,Male,31,Bachelor,Current,6.2,253750,14,3,4,4,3,4,Yes,761,No,Medium
+PB0083,Port Harcourt,Male,33,Diploma,Current,9.1,150256,16,4,2,3,1,3,Yes,531,Yes,High
+PB0084,Lagos,Male,31,Bachelor,Savings,3.7,158181,11,4,4,4,2,4,Yes,545,No,Medium
+PB0085,Ibadan,Female,35,Bachelor,Current,4.7,288407,15,2,3,5,3,3,Yes,686,No,Medium
+PB0086,Ibadan,Female,33,Bachelor,Current,11.2,177186,8,5,4,3,3,2,No,704,No,Medium
+PB0087,Port Harcourt,Female,43,Bachelor,Savings,15.6,211824,11,3,3,2,2,3,No,698,No,Low
+PB0088,Port Harcourt,Male,35,Bachelor,Fixed Deposit,6.7,165694,10,3,3,4,2,3,Yes,463,No,High
+PB0089,Kano,Female,48,Secondary,Current,16.8,90833,5,3,4,3,1,4,Yes,791,No,Medium
+PB0090,Port Harcourt,Male,48,Bachelor,Savings,16.4,250867,18,3,3,2,3,4,Yes,623,Yes,Medium
+PB0091,Abuja,Female,40,Bachelor,Savings,17.3,224057,7,4,3,4,4,3,No,597,Yes,Low
+PB0092,Port Harcourt,Female,43,Bachelor,Savings,7.0,301655,15,4,3,3,3,3,Yes,611,No,Low
+PB0093,Ibadan,Female,42,Bachelor,Current,16.9,278536,13,3,2,2,3,3,Yes,600,Yes,Medium
+PB0094,Abuja,Male,46,Diploma,Savings,5.9,200888,12,2,3,2,1,2,No,625,No,High
+PB0095,Abuja,Male,35,Diploma,Current,6.9,114520,7,2,4,1,3,3,Yes,675,No,Medium
+PB0096,Lagos,Male,52,Bachelor,Current,25.8,183788,11,4,4,5,3,4,No,654,No,Medium
+PB0097,Abuja,Male,40,Bachelor,Current,3.3,182615,13,3,2,3,1,3,No,668,No,Medium
+PB0098,Kano,Female,35,Diploma,Current,6.6,92564,8,2,3,3,2,3,No,642,Yes,Low
+PB0099,Lagos,Male,47,Postgraduate,Savings,14.2,259998,9,4,4,3,4,4,No,591,No,Low
+PB0100,Port Harcourt,Female,23,Diploma,Savings,0.7,51143,10,3,3,4,2,4,Yes,556,No,Low
+PB0101,Abuja,Female,51,Secondary,Savings,4.2,101857,7,4,4,4,4,5,Yes,704,No,Medium
+PB0102,Abuja,Male,34,Bachelor,Savings,5.8,216594,8,3,5,4,2,4,No,696,No,Medium
+PB0103,Lagos,Male,27,Diploma,Savings,6.6,55481,13,3,3,3,4,4,Yes,650,No,High
+PB0104,Abuja,Female,25,Bachelor,Current,6.0,295732,15,3,2,2,4,3,No,651,Yes,Low
+PB0105,Abuja,Male,18,Bachelor,Current,0.0,128163,9,5,5,5,5,5,No,632,Yes,Low
+PB0106,Lagos,Male,50,Bachelor,Savings,23.4,314046,14,4,5,5,4,4,No,598,Yes,Low
+PB0107,Kano,Female,18,Bachelor,Savings,0.0,390967,15,5,3,3,3,4,No,600,No,Low
+PB0108,Kano,Female,44,Postgraduate,Savings,19.3,538075,14,4,4,4,5,4,No,751,No,Low
+PB0109,Ibadan,Female,37,Bachelor,Current,10.2,231144,12,3,5,4,3,3,Yes,540,No,Medium
+PB0110,Lagos,Female,33,Diploma,Savings,2.3,119616,12,2,5,3,4,3,Yes,718,Yes,Low
+PB0111,Port Harcourt,Male,42,Bachelor,Savings,2.9,189819,10,3,4,3,2,4,No,662,No,Low
+PB0112,Abuja,Female,38,Postgraduate,Savings,1.5,286699,9,2,4,4,2,3,Yes,451,Yes,Medium
+PB0113,Abuja,Male,18,Postgraduate,Savings,0.0,368796,16,4,4,4,5,5,No,689,Yes,Medium
+PB0114,Kano,Female,39,Bachelor,Savings,13.2,161454,6,1,2,2,2,1,No,585,Yes,Medium
+PB0115,Abuja,Male,25,Postgraduate,Current,1.7,391668,16,3,3,3,4,3,Yes,695,No,Medium
+PB0116,Port Harcourt,Male,21,Postgraduate,Fixed Deposit,1.3,266733,11,2,2,2,2,3,Yes,620,No,Medium
+PB0117,Kano,Female,32,Postgraduate,Current,11.3,260598,14,3,3,4,4,3,Yes,615,No,Medium
+PB0118,Lagos,Male,36,Bachelor,Fixed Deposit,8.6,247224,15,5,4,4,5,4,No,707,Yes,Low
+PB0119,Kano,Male,18,Diploma,Current,0.0,131365,20,4,3,4,3,4,Yes,722,No,High
+PB0120,Kano,Female,23,Postgraduate,Current,2.8,327389,15,3,3,2,2,2,Yes,665,No,Medium
+PB0121,Port Harcourt,Male,56,Bachelor,Fixed Deposit,19.5,330765,15,3,2,3,2,3,No,612,Yes,Medium
+PB0122,Abuja,Male,40,Bachelor,Savings,14.9,242150,12,2,2,2,1,2,Yes,580,Yes,Medium
+PB0123,Ibadan,Female,40,Secondary,Fixed Deposit,12.5,90943,11,3,4,3,4,4,Yes,752,No,Medium
+PB0124,Lagos,Female,45,Secondary,Savings,11.4,117058,10,3,4,4,2,4,Yes,668,Yes,Low
+PB0125,Kano,Male,25,Postgraduate,Savings,0.6,258536,14,3,5,3,3,4,Yes,558,Yes,Medium
+PB0126,Port Harcourt,Male,41,Bachelor,Savings,5.6,168453,9,3,4,4,3,4,Yes,661,No,Low
+PB0127,Lagos,Female,26,Bachelor,Current,4.6,250369,13,3,3,2,2,3,Yes,633,Yes,Medium
+PB0128,Port Harcourt,Female,25,Diploma,Savings,2.0,192544,18,3,2,4,4,4,No,787,No,Medium
+PB0129,Abuja,Male,50,Secondary,Current,22.0,84543,13,3,5,5,3,4,Yes,625,No,Medium
+PB0130,Abuja,Female,34,Postgraduate,Savings,11.0,440497,17,2,2,2,2,2,No,680,No,Medium
+PB0131,Ibadan,Male,40,Postgraduate,Savings,8.5,506902,12,4,4,1,3,4,No,635,No,Low
+PB0132,Ibadan,Female,24,Bachelor,Savings,3.0,332933,15,2,3,3,3,2,No,721,Yes,Low
+PB0133,Lagos,Female,42,Bachelor,Savings,10.7,170099,6,4,3,3,4,4,No,737,No,Low
+PB0134,Ibadan,Male,39,Diploma,Savings,2.6,116505,8,2,2,3,2,2,No,459,Yes,Low
+PB0135,Kano,Male,41,Secondary,Current,13.4,93528,10,3,4,3,3,4,No,663,No,Medium
+PB0136,Lagos,Female,49,Bachelor,Savings,27.1,327537,14,3,3,2,3,4,No,592,Yes,Low
+PB0137,Port Harcourt,Female,37,Bachelor,Fixed Deposit,2.9,225534,12,3,4,4,5,3,Yes,715,No,Low
+PB0138,Lagos,Female,33,Bachelor,Savings,9.6,221389,10,3,5,4,4,5,Yes,597,No,Medium
+PB0139,Lagos,Female,32,Bachelor,Savings,5.8,196990,13,3,3,3,2,3,No,586,No,Low
+PB0140,Port Harcourt,Female,48,Diploma,Current,11.0,76595,10,4,4,2,5,5,No,627,Yes,Low
+PB0141,Kano,Male,62,Postgraduate,Current,7.9,427489,17,4,5,5,3,5,Yes,641,No,Low
+PB0142,Lagos,Male,49,Diploma,Savings,14.9,168000,6,4,4,4,3,3,No,654,No,Low
+PB0143,Abuja,Female,38,Diploma,Savings,3.0,153233,15,4,2,4,3,4,Yes,677,No,Medium
+PB0144,Port Harcourt,Female,45,Bachelor,Current,16.8,173528,12,2,3,4,3,3,Yes,648,Yes,Low
+PB0145,Ibadan,Male,34,Bachelor,Savings,11.3,228225,13,3,4,4,3,3,No,691,No,Low
+PB0146,Abuja,Male,32,Postgraduate,Fixed Deposit,8.1,219984,13,5,5,5,5,5,No,675,No,Low
+PB0147,Ibadan,Male,29,Diploma,Current,3.7,126671,13,4,3,2,2,4,No,507,No,Low
+PB0148,Port Harcourt,Female,31,Postgraduate,Savings,4.4,317461,15,4,4,4,4,4,No,677,No,Medium
+PB0149,Lagos,Male,45,Postgraduate,Savings,12.5,173869,8,4,3,4,4,4,No,684,No,Low
+PB0150,Lagos,Male,39,Bachelor,Savings,15.5,238186,10,4,5,4,1,4,No,535,No,Medium
+PB0151,Ibadan,Male,38,Diploma,Savings,13.1,105120,6,3,3,4,2,3,Yes,778,No,Medium
+PB0152,Port Harcourt,Female,23,Diploma,Current,1.6,149372,12,2,3,4,2,3,No,523,Yes,Low
+PB0153,Lagos,Male,48,Diploma,Current,15.3,236265,10,4,3,3,3,3,No,642,Yes,Low
+PB0154,Port Harcourt,Male,28,Secondary,Current,4.7,89978,7,4,4,5,2,5,No,785,No,Low
+PB0155,Abuja,Female,42,Bachelor,Current,6.9,218736,14,4,4,4,4,4,Yes,611,Yes,Low
+PB0156,Ibadan,Male,47,Bachelor,Savings,21.7,214888,11,3,4,4,3,5,Yes,687,No,Low
+PB0157,Kano,Male,20,Bachelor,Savings,0.9,158422,13,4,4,5,4,4,No,601,No,Low
+PB0158,Ibadan,Male,37,Bachelor,Savings,4.2,181472,13,4,4,3,2,3,No,572,No,Medium
+PB0159,Lagos,Female,36,Postgraduate,Current,12.1,366505,15,3,2,2,3,3,Yes,722,No,Low
+PB0160,Abuja,Male,46,Secondary,Savings,10.5,116063,12,4,4,3,3,4,No,527,No,Low
+PB0161,Lagos,Male,34,Postgraduate,Savings,7.0,165862,11,3,3,2,4,3,No,703,No,Low
+PB0162,Port Harcourt,Male,34,Postgraduate,Savings,7.6,425253,17,3,2,2,1,3,Yes,616,Yes,Medium
+PB0163,Kano,Male,30,Bachelor,Fixed Deposit,2.5,262605,13,4,3,3,3,3,No,570,No,Low
+PB0164,Abuja,Female,40,Bachelor,Savings,11.7,200907,13,3,4,4,2,3,Yes,652,No,Low
+PB0165,Abuja,Female,33,Diploma,Savings,3.0,113606,12,3,4,4,5,5,No,712,No,Low
+PB0166,Kano,Male,48,Bachelor,Savings,22.5,241612,15,3,4,4,4,4,No,677,No,Low
+PB0167,Abuja,Female,18,Secondary,Current,0.0,141322,9,4,4,4,2,4,Yes,580,No,Medium
+PB0168,Lagos,Male,43,Diploma,Fixed Deposit,11.8,166789,10,5,5,5,4,5,No,677,Yes,Low
+PB0169,Lagos,Female,18,Postgraduate,Current,0.0,242981,15,3,3,5,3,3,No,659,No,High
+PB0170,Port Harcourt,Male,30,Bachelor,Savings,6.2,252242,14,3,3,3,3,4,Yes,722,No,Low
+PB0171,Kano,Female,40,Bachelor,Current,8.9,256136,17,4,4,4,2,4,No,785,No,Low
+PB0172,Lagos,Female,41,Bachelor,Current,3.0,294150,13,4,4,5,5,4,No,670,No,Medium
+PB0173,Lagos,Female,34,Bachelor,Savings,4.6,250130,8,1,2,1,2,2,Yes,678,No,Medium
+PB0174,Abuja,Female,38,Bachelor,Current,11.6,309371,13,3,4,5,2,4,No,688,No,Medium
+PB0175,Ibadan,Male,31,Diploma,Fixed Deposit,10.6,92248,6,4,5,4,3,4,Yes,655,Yes,Medium
+PB0176,Ibadan,Female,21,Bachelor,Savings,0.3,145551,11,4,5,5,3,4,Yes,725,No,Medium
+PB0177,Kano,Male,48,Diploma,Savings,23.1,158619,12,3,3,3,3,3,No,705,No,Medium
+PB0178,Ibadan,Male,44,Diploma,Savings,7.9,130238,6,3,2,3,2,3,No,612,No,Low
+PB0179,Lagos,Female,32,Bachelor,Current,3.1,153528,9,4,4,4,3,4,Yes,616,Yes,Medium
+PB0180,Lagos,Male,29,Bachelor,Current,7.8,258854,12,3,3,2,2,4,No,568,Yes,Low
+PB0181,Lagos,Male,32,Diploma,Current,2.4,122365,10,3,3,4,3,3,Yes,746,No,Medium
+PB0182,Abuja,Male,37,Bachelor,Savings,7.3,233536,8,4,5,3,3,3,No,651,No,Low
+PB0183,Ibadan,Male,31,Secondary,Savings,10.9,45000,10,4,3,4,3,3,Yes,588,No,Medium
+PB0184,Lagos,Male,18,Diploma,Current,0.0,115682,10,4,3,3,1,3,Yes,668,No,Low
+PB0185,Lagos,Female,34,Secondary,Savings,6.1,110567,10,3,3,3,1,3,No,728,No,Medium
+PB0186,Abuja,Male,31,Secondary,Savings,2.7,76270,9,4,4,4,4,4,Yes,773,Yes,Low
+PB0187,Lagos,Male,45,Secondary,Savings,16.5,88976,13,4,3,4,2,4,Yes,587,No,Medium
+PB0188,Lagos,Female,27,Postgraduate,Savings,0.5,372316,20,3,4,3,2,3,No,689,Yes,Low
+PB0189,Lagos,Male,43,Bachelor,Savings,13.9,219706,13,4,4,4,3,3,Yes,657,No,Low
+PB0190,Port Harcourt,Female,39,Bachelor,Savings,11.6,191082,20,5,5,3,3,4,No,667,No,Low
+PB0191,Lagos,Female,33,Bachelor,Savings,5.7,286262,15,4,4,5,4,4,No,727,No,Low
+PB0192,Port Harcourt,Female,25,Secondary,Savings,1.3,84336,9,3,4,3,2,3,No,506,No,High
+PB0193,Port Harcourt,Male,40,Diploma,Current,14.4,103655,7,2,2,2,3,3,No,561,No,Medium
+PB0194,Lagos,Male,19,Diploma,Savings,0.6,208450,13,4,4,5,3,4,Yes,689,No,Medium
+PB0195,Abuja,Male,38,Postgraduate,Savings,7.6,286814,15,3,5,3,4,4,Yes,833,No,Medium
+PB0196,Lagos,Male,28,Bachelor,Savings,7.0,272865,14,3,3,4,2,4,Yes,698,No,Medium
+PB0197,Port Harcourt,Female,38,Bachelor,Current,2.6,182592,15,3,4,4,3,4,No,558,No,Low
+PB0198,Abuja,Female,52,Bachelor,Savings,28.2,334220,16,4,3,5,4,3,No,580,No,Medium
+PB0199,Port Harcourt,Male,41,Postgraduate,Savings,12.6,342955,11,2,2,1,3,2,No,608,No,Low
+PB0200,Lagos,Female,41,Diploma,Savings,7.1,179451,10,3,4,5,3,4,No,770,No,Low
+PB0201,Ibadan,Male,21,Bachelor,Savings,2.3,226224,14,4,4,3,5,5,No,667,No,Low
+PB0202,Lagos,Male,48,Secondary,Current,11.3,56130,6,3,3,5,2,3,No,744,Yes,Low
+PB0203,Ibadan,Female,34,Bachelor,Current,3.7,292625,17,2,2,2,2,3,No,603,No,Low
+PB0204,Kano,Female,43,Bachelor,Savings,15.5,190208,8,4,3,2,2,4,Yes,611,No,Low
+PB0205,Ibadan,Female,43,Diploma,Current,18.1,87363,8,4,4,4,4,3,Yes,510,Yes,Low
+PB0206,Lagos,Male,47,Postgraduate,Current,21.6,181264,14,3,3,4,4,4,No,765,No,Low
+PB0207,Lagos,Female,37,Bachelor,Savings,8.7,290340,20,3,3,3,1,3,No,580,No,Medium
+PB0208,Ibadan,Female,35,Bachelor,Savings,3.5,222414,13,3,4,3,4,3,No,639,No,High
+PB0209,Port Harcourt,Female,58,Bachelor,Savings,12.2,328602,14,3,3,2,3,4,No,508,No,Low
+PB0210,Lagos,Male,46,Postgraduate,Savings,16.0,365938,16,4,4,4,3,3,Yes,568,No,Medium
+PB0211,Ibadan,Male,32,Bachelor,Savings,10.8,241315,15,4,4,3,3,4,Yes,674,Yes,Low
+PB0212,Port Harcourt,Male,36,Bachelor,Current,7.8,208000,8,4,3,4,4,3,No,675,No,Low
+PB0213,Abuja,Male,40,Diploma,Current,16.8,97739,11,3,2,3,2,4,Yes,704,No,Medium
+PB0214,Kano,Male,44,Diploma,Savings,8.5,160298,13,4,4,3,3,3,Yes,608,No,High
+PB0215,Abuja,Male,22,Bachelor,Current,2.2,322865,18,4,4,4,4,4,No,644,No,Low
+PB0216,Port Harcourt,Male,28,Bachelor,Savings,3.3,150831,10,5,4,3,3,3,Yes,734,No,Medium
+PB0217,Kano,Female,25,Bachelor,Current,6.2,188953,12,5,4,4,2,4,Yes,657,No,Medium
+PB0218,Ibadan,Male,24,Bachelor,Current,4.0,178651,14,4,4,2,4,3,No,571,No,Medium
+PB0219,Port Harcourt,Female,52,Postgraduate,Savings,21.1,305030,17,5,3,3,2,3,No,647,No,Medium
+PB0220,Lagos,Female,54,Postgraduate,Current,14.3,349296,12,3,2,3,1,3,No,724,No,High
+PB0221,Lagos,Female,18,Bachelor,Fixed Deposit,0.0,223338,7,4,4,5,4,4,No,604,Yes,Low
+PB0222,Port Harcourt,Male,37,Bachelor,Current,11.0,274046,14,2,4,3,3,3,No,653,Yes,Low
+PB0223,Lagos,Male,38,Secondary,Savings,10.8,125056,12,3,3,4,3,3,No,613,No,Medium
+PB0224,Lagos,Female,39,Bachelor,Current,18.9,198560,10,4,5,4,5,4,No,733,Yes,Low
+PB0225,Kano,Male,51,Bachelor,Savings,7.7,209799,10,3,3,3,3,4,No,637,Yes,Medium
+PB0226,Port Harcourt,Male,29,Postgraduate,Fixed Deposit,3.0,259999,12,3,2,5,3,3,Yes,655,No,Medium
+PB0227,Ibadan,Male,46,Secondary,Current,19.1,82843,7,4,3,4,4,4,No,653,Yes,Low
+PB0228,Lagos,Male,29,Secondary,Current,4.4,77286,9,4,3,3,3,4,No,613,Yes,Low
+PB0229,Lagos,Female,34,Diploma,Savings,13.2,113478,10,3,4,4,2,4,Yes,565,Yes,Medium
+PB0230,Kano,Male,36,Diploma,Fixed Deposit,4.3,177144,10,3,3,4,2,4,Yes,673,No,Medium
+PB0231,Kano,Female,36,Postgraduate,Savings,8.1,275441,12,3,4,2,2,3,No,659,Yes,Medium
+PB0232,Ibadan,Female,44,Secondary,Current,18.7,89464,7,3,4,5,4,4,Yes,622,No,Low
+PB0233,Lagos,Female,45,Bachelor,Current,21.7,315106,13,4,4,3,4,4,No,671,Yes,Medium
+PB0234,Ibadan,Female,53,Bachelor,Current,26.2,324799,12,4,2,3,1,3,No,671,No,Low
+PB0235,Port Harcourt,Male,18,Bachelor,Current,0.0,150107,16,5,4,5,3,5,No,693,Yes,Low
+PB0236,Lagos,Male,40,Postgraduate,Fixed Deposit,11.6,391693,16,4,5,4,4,4,No,676,No,Low
+PB0237,Abuja,Male,24,Bachelor,Current,4.2,269609,10,4,4,4,2,3,Yes,640,No,High
+PB0238,Kano,Female,43,Diploma,Savings,5.9,112793,6,4,3,4,5,5,Yes,738,No,Low
+PB0239,Abuja,Female,27,Diploma,Current,0.7,130850,11,4,3,4,3,4,No,577,No,Low
+PB0240,Port Harcourt,Male,28,Bachelor,Savings,6.5,239526,8,1,1,2,1,2,No,592,No,High
+PB0241,Kano,Male,41,Bachelor,Savings,5.0,108157,13,4,2,2,2,2,No,692,No,Medium
+PB0242,Ibadan,Male,30,Diploma,Current,1.2,71255,8,4,4,4,3,4,No,610,No,Medium
+PB0243,Port Harcourt,Female,34,Bachelor,Savings,1.4,244765,15,5,4,5,5,4,No,635,No,Low
+PB0244,Abuja,Female,47,Secondary,Current,6.3,87284,9,5,4,4,2,3,No,690,No,Low
+PB0245,Ibadan,Male,40,Diploma,Savings,12.1,225715,14,3,3,4,4,3,No,647,No,Low
+PB0246,Port Harcourt,Male,36,Postgraduate,Current,3.9,286103,13,5,3,4,5,4,Yes,586,No,Medium
+PB0247,Ibadan,Female,49,Bachelor,Fixed Deposit,20.9,280957,14,3,2,2,2,3,No,692,No,Low
+PB0248,Ibadan,Male,50,Secondary,Current,19.5,107475,13,4,4,3,3,3,No,682,No,Low
+PB0249,Lagos,Male,29,Bachelor,Savings,3.2,165984,4,2,2,3,3,2,No,698,No,Low
+PB0250,Abuja,Male,38,Secondary,Savings,15.7,96834,8,3,4,3,4,4,No,579,No,Low
+PB0251,Port Harcourt,Male,30,Postgraduate,Savings,10.7,243905,15,2,3,3,2,3,Yes,676,No,Low
+PB0252,Lagos,Male,34,Bachelor,Savings,4.9,253460,16,3,4,1,3,4,No,823,No,Low
+PB0253,Abuja,Male,25,Postgraduate,Current,3.2,405033,18,3,3,3,4,3,No,522,Yes,Low
+PB0254,Lagos,Female,37,Bachelor,Savings,11.0,271428,14,4,3,2,3,3,No,589,Yes,Low
+PB0255,Lagos,Female,31,Bachelor,Savings,8.3,267941,15,4,3,5,3,4,No,615,No,Medium
+PB0256,Port Harcourt,Male,52,Secondary,Savings,7.6,120686,7,2,3,2,2,3,No,748,No,Low
+PB0257,Port Harcourt,Female,49,Bachelor,Current,11.7,188012,16,3,4,3,3,3,No,714,Yes,Low
+PB0258,Abuja,Male,43,Bachelor,Fixed Deposit,20.7,123539,13,5,5,4,5,4,No,550,No,Low
+PB0259,Kano,Female,32,Diploma,Savings,8.8,140316,13,1,2,2,2,3,Yes,681,No,Medium
+PB0260,Abuja,Male,33,Diploma,Current,0.8,203868,14,5,5,4,3,4,No,716,No,Medium
+PB0261,Abuja,Female,33,Secondary,Savings,11.1,99069,11,2,3,4,3,4,No,496,Yes,Low
+PB0262,Abuja,Male,39,Bachelor,Savings,9.4,255891,14,4,3,4,4,3,Yes,542,Yes,Medium
+PB0263,Kano,Male,19,Diploma,Savings,0.8,113751,19,2,3,5,2,2,No,717,No,Low
+PB0264,Kano,Male,32,Postgraduate,Current,2.2,177075,10,3,3,2,1,2,No,608,No,High
+PB0265,Lagos,Male,36,Bachelor,Current,16.0,244934,16,2,2,3,2,2,No,541,No,Medium
+PB0266,Lagos,Female,39,Bachelor,Savings,2.6,215900,13,4,4,4,3,4,Yes,574,Yes,Low
+PB0267,Lagos,Male,38,Postgraduate,Savings,6.6,152227,13,4,3,5,4,4,No,689,Yes,Medium
+PB0268,Abuja,Female,27,Secondary,Savings,6.4,71384,8,5,4,2,4,3,Yes,726,Yes,High
+PB0269,Port Harcourt,Male,35,Diploma,Savings,1.3,75701,16,3,3,3,1,3,Yes,634,No,Medium
+PB0270,Lagos,Male,22,Bachelor,Savings,2.5,287332,16,3,5,5,3,4,Yes,613,No,Low
+PB0271,Kano,Female,41,Bachelor,Current,10.3,226961,15,3,4,4,4,4,No,659,No,Low
+PB0272,Lagos,Female,25,Secondary,Current,0.8,97766,14,3,5,5,5,4,No,747,No,Low
+PB0273,Lagos,Female,38,Secondary,Savings,3.4,94542,16,2,3,1,2,2,No,723,No,Low
+PB0274,Kano,Male,40,Bachelor,Fixed Deposit,8.0,201260,15,4,4,2,5,3,No,599,No,Low
+PB0275,Lagos,Male,36,Secondary,Savings,15.7,57767,8,3,3,4,1,3,No,696,No,Low
+PB0276,Abuja,Male,35,Diploma,Current,6.0,156157,9,5,5,5,5,5,No,644,Yes,Low
+PB0277,Port Harcourt,Female,42,Bachelor,Savings,16.2,232150,13,4,4,2,3,5,No,567,No,Low
+PB0278,Port Harcourt,Female,18,Diploma,Current,0.0,153626,11,2,2,3,3,2,Yes,488,Yes,Medium
+PB0279,Port Harcourt,Male,31,Diploma,Savings,0.7,124202,12,4,5,4,4,3,Yes,683,No,High
+PB0280,Lagos,Female,31,Bachelor,Fixed Deposit,11.3,138391,13,4,4,4,3,3,No,577,No,Medium
+PB0281,Lagos,Male,31,Diploma,Current,4.1,180170,12,3,3,3,4,3,Yes,681,No,Medium
+PB0282,Port Harcourt,Female,50,Postgraduate,Current,6.5,377509,19,3,4,4,3,4,Yes,561,No,Medium
+PB0283,Ibadan,Female,22,Bachelor,Savings,2.5,52517,4,3,3,2,2,2,No,699,No,Medium
+PB0284,Lagos,Female,50,Postgraduate,Savings,15.0,364037,12,4,3,3,2,4,No,637,No,Low
+PB0285,Kano,Male,41,Postgraduate,Fixed Deposit,17.3,254408,10,3,3,5,4,3,Yes,734,No,High
+PB0286,Port Harcourt,Male,21,Bachelor,Savings,1.4,283513,10,4,4,4,3,4,No,571,Yes,Medium
+PB0287,Abuja,Female,42,Diploma,Savings,19.2,135878,4,1,1,1,1,1,Yes,544,No,High
+PB0288,Lagos,Female,38,Postgraduate,Current,2.2,300233,14,5,4,5,4,4,No,610,No,Medium
+PB0289,Port Harcourt,Male,18,Bachelor,Savings,0.0,215151,9,4,4,4,4,4,No,715,Yes,Low
+PB0290,Abuja,Male,45,Bachelor,Savings,11.2,213931,15,4,3,3,3,3,No,528,Yes,Low
+PB0291,Lagos,Male,34,Bachelor,Current,3.1,233841,9,4,3,4,4,4,No,808,No,Low
+PB0292,Ibadan,Male,46,Postgraduate,Current,17.4,373496,12,4,4,4,4,4,No,721,No,Low
+PB0293,Kano,Male,35,Bachelor,Savings,7.0,100652,7,1,2,3,3,3,No,681,Yes,Medium
+PB0294,Lagos,Male,24,Diploma,Current,1.3,99900,13,3,3,2,2,3,Yes,705,No,Medium
+PB0295,Lagos,Female,26,Diploma,Savings,3.4,125972,12,3,3,2,3,3,No,602,No,Low
+PB0296,Abuja,Male,31,Bachelor,Savings,11.3,216875,14,4,3,3,2,3,No,604,Yes,Medium
+PB0297,Lagos,Male,54,Bachelor,Savings,17.1,257886,12,4,3,3,3,3,No,544,No,Low
+PB0298,Kano,Male,49,Bachelor,Savings,25.9,157727,10,4,3,4,2,3,No,614,No,Medium
+PB0299,Port Harcourt,Female,32,Secondary,Fixed Deposit,7.3,108128,11,3,3,4,4,4,No,746,Yes,Low
+PB0300,Kano,Male,42,Secondary,Savings,10.1,102056,8,2,3,1,2,3,Yes,656,No,Medium

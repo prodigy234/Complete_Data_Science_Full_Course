@@ -1,0 +1,251 @@
+RespondentID,Region,Gender,Age,Education,Product,MonthlyIncome_NGN000,PurchaseFrequency,LoyaltyYears,Taste,Price,Packaging,Availability,OverallSatisfaction,MonthlySpend_NGN,WouldRecommend
+1,Ibadan,Female,56.0,OND/HND,Grand Malt,72.0,8,10,3,2,4,4,3,1228.0,No
+2,Abuja,Female,53.0,Bachelor's Degree,Supreme Ice Cream,140.0,9,12,3,3,4,5,3,1311.0,Yes
+3,Kano,Male,44.0,Secondary,Supreme Ice Cream,84.0,3,5,3,3,4,3,4,786.0,Yes
+4,Port Harcourt,Male,60.0,Bachelor's Degree,Swan Water,145.0,9,8,3,4,4,1,3,1536.0,Yes
+5,Lagos,Male,24.0,Bachelor's Degree,Swan Water,120.0,8,0,3,2,4,4,3,1429.0,Yes
+6,Kano,Female,62.0,Postgraduate,Supreme Ice Cream,237.0,1,11,4,2,4,4,3,200.0,Yes
+7,Ibadan,Female,58.0,Bachelor's Degree,Swan Water,187.0,5,7,4,1,4,3,3,451.0,Yes
+8,Ibadan,Male,42.0,Secondary,Grand Malt,75.0,11,7,4,3,4,3,4,1486.0,No
+9,Lagos,Male,53.0,OND/HND,Supreme Ice Cream,119.0,8,8,4,2,3,3,3,1023.0,No
+10,Abuja,Female,42.0,Secondary,Gala,97.0,20,3,5,3,2,5,3,3244.0,No
+11,Abuja,Male,30.0,Secondary,Supreme Ice Cream,94.0,10,9,3,4,5,4,4,1800.0,No
+12,Kano,Female,56.0,Bachelor's Degree,Supreme Ice Cream,158.0,20,11,4,3,4,4,4,2966.0,Yes
+13,Port Harcourt,Male,29.0,Bachelor's Degree,Gala,158.0,14,5,5,3,2,4,4,2542.0,Yes
+14,Ibadan,Male,,Bachelor's Degree,Gala,156.0,1,2,5,3,3,3,4,573.0,No
+15,Abuja,Female,42.0,Postgraduate,Swan Water,,5,6,2,4,4,4,3,836.0,Yes
+16,Lagos,Male,58.0,Bachelor's Degree,Supreme Ice Cream,,15,3,4,4,3,3,4,2016.0,Yes
+17,Port Harcourt,Male,36.0,Bachelor's Degree,Grand Malt,99.0,11,5,5,3,3,1,3,2131.0,Yes
+18,Lagos,Male,41.0,Secondary,Gala,36.0,7,10,4,3,5,4,4,1035.0,No
+19,Ibadan,Male,19.0,OND/HND,Gala,129.0,11,1,4,4,3,4,4,1698.0,Yes
+20,Port Harcourt,Male,23.0,Bachelor's Degree,Mr Chips,165.0,19,11,3,4,3,4,4,2761.0,Yes
+21,Ibadan,Male,20.0,Postgraduate,Grand Malt,245.0,8,3,3,2,4,5,3,953.0,Yes
+22,Abuja,Male,21.0,Secondary,Gala,52.0,1,14,4,3,4,5,3,200.0,Yes
+23,Kano,Male,59.0,Bachelor's Degree,Gala,105.0,7,11,3,2,4,2,3,1248.0,Yes
+24,Kano,Female,58.0,Bachelor's Degree,Gala,133.0,19,4,4,4,4,3,4,2626.0,Yes
+25,Ibadan,Female,57.0,Secondary,Swan Water,63.0,16,9,4,4,4,4,4,3323.0,No
+26,Lagos,Male,20.0,OND/HND,Supreme Ice Cream,92.0,17,1,3,3,4,5,3,2232.0,Yes
+27,Abuja,Male,21.0,Postgraduate,Gala,234.0,19,1,4,3,3,5,4,2492.0,Yes
+28,Lagos,Female,31.0,Bachelor's Degree,Gala,129.0,3,15,5,3,4,5,4,613.0,Yes
+29,Lagos,Female,45.0,OND/HND,Supreme Ice Cream,101.0,6,12,2,4,4,3,4,1367.0,Yes
+30,Port Harcourt,Female,34.0,Postgraduate,Grand Malt,170.0,2,2,4,3,4,3,3,333.0,Yes
+31,Ibadan,Male,41.0,OND/HND,Swan Water,104.0,1,4,3,3,4,4,4,330.0,Yes
+32,Kano,Male,26.0,Postgraduate,Supreme Ice Cream,200.0,17,3,4,4,4,2,3,2013.0,Yes
+33,Lagos,Male,53.0,OND/HND,Gala,68.0,19,6,4,2,4,3,3,2652.0,Yes
+34,Abuja,Male,33.0,Bachelor's Degree,Gala,133.0,4,4,4,3,3,3,4,289.0,Yes
+35,Abuja,Female,21.0,OND/HND,Gala,84.0,15,5,5,2,4,5,4,1688.0,Yes
+36,Lagos,Male,53.0,OND/HND,Mr Chips,82.0,11,8,4,2,3,3,3,1692.0,Yes
+37,Lagos,Male,61.0,Postgraduate,Grand Malt,253.0,2,3,4,2,4,2,3,200.0,No
+38,Abuja,Male,18.0,OND/HND,Grand Malt,87.0,19,14,1,4,5,4,4,2460.0,Yes
+39,Lagos,Female,38.0,Secondary,Grand Malt,53.0,18,11,5,4,3,3,4,2543.0,No
+40,Port Harcourt,Male,57.0,OND/HND,Grand Malt,30.0,12,12,4,4,4,3,3,1553.0,No
+41,Abuja,Female,51.0,Bachelor's Degree,Grand Malt,113.0,15,2,4,2,4,3,3,2378.0,Yes
+42,Ibadan,Male,59.0,Bachelor's Degree,Gala,132.0,8,11,3,4,4,3,3,1302.0,No
+43,Ibadan,Female,37.0,Postgraduate,Gala,179.0,16,13,3,4,5,4,4,2682.0,Yes
+44,Lagos,Male,35.0,OND/HND,Supreme Ice Cream,131.0,9,2,4,3,3,2,3,1586.0,Yes
+45,Ibadan,Female,52.0,OND/HND,Swan Water,85.0,20,12,3,3,4,3,3,3349.0,Yes
+46,Ibadan,Female,25.0,Secondary,Gala,99.0,2,5,4,1,3,4,4,307.0,Yes
+47,Abuja,Female,29.0,Bachelor's Degree,Mr Chips,142.0,4,12,5,3,3,3,4,702.0,Yes
+48,Lagos,Female,46.0,Postgraduate,Swan Water,201.0,20,7,2,2,4,2,2,3170.0,Yes
+49,Port Harcourt,Female,50.0,Bachelor's Degree,Swan Water,137.0,6,12,4,3,4,4,4,953.0,Yes
+50,Lagos,Female,23.0,Bachelor's Degree,Gala,140.0,7,2,4,2,4,5,4,942.0,Yes
+51,Lagos,Female,42.0,OND/HND,Gala,142.0,16,6,4,4,5,4,4,2312.0,Yes
+52,Lagos,Male,35.0,Postgraduate,Gala,130.0,4,4,2,4,3,2,3,365.0,Yes
+53,Ibadan,Female,42.0,Bachelor's Degree,Mr Chips,80.0,11,3,4,2,3,4,3,1783.0,No
+54,Port Harcourt,Female,64.0,Secondary,Swan Water,44.0,6,4,1,2,5,2,2,875.0,Yes
+55,Ibadan,Female,21.0,OND/HND,Mr Chips,90.0,4,6,4,1,4,4,3,408.0,Yes
+56,Ibadan,Male,65.0,Secondary,Gala,81.0,20,2,2,3,3,3,3,2808.0,Yes
+57,Abuja,Male,39.0,OND/HND,Supreme Ice Cream,104.0,4,11,4,3,3,2,3,245.0,Yes
+58,Port Harcourt,Female,55.0,Secondary,Supreme Ice Cream,48.0,2,8,4,1,3,3,3,597.0,Yes
+59,Lagos,Male,,Bachelor's Degree,Mr Chips,171.0,14,13,5,4,4,4,4,2137.0,Yes
+60,Lagos,Male,32.0,Bachelor's Degree,Mr Chips,171.0,18,11,3,3,3,3,3,2455.0,No
+61,Port Harcourt,Male,54.0,OND/HND,Gala,96.0,3,2,3,2,4,4,4,700.0,Yes
+62,Abuja,Male,51.0,OND/HND,Grand Malt,119.0,15,1,3,3,3,3,3,2091.0,Yes
+63,Port Harcourt,Male,24.0,Postgraduate,Gala,208.0,11,6,5,4,4,4,4,1245.0,Yes
+64,Ibadan,Male,51.0,Bachelor's Degree,Grand Malt,123.0,17,7,4,4,3,4,4,2866.0,Yes
+65,Port Harcourt,Male,54.0,Bachelor's Degree,Gala,161.0,3,3,3,3,3,3,3,302.0,Yes
+66,Port Harcourt,Male,36.0,OND/HND,Gala,93.0,20,12,3,4,4,3,3,2885.0,Yes
+67,Port Harcourt,Male,62.0,Postgraduate,Mr Chips,200.0,13,9,2,2,4,2,2,1978.0,Yes
+68,Lagos,Female,48.0,OND/HND,Gala,134.0,17,11,4,3,4,4,4,2903.0,Yes
+69,Lagos,Male,34.0,OND/HND,Supreme Ice Cream,30.0,8,1,2,3,3,3,2,1208.0,Yes
+70,Abuja,Female,18.0,Postgraduate,Supreme Ice Cream,157.0,19,13,5,3,4,1,3,2503.0,Yes
+71,Lagos,Female,50.0,Bachelor's Degree,Gala,,13,3,4,4,3,3,4,2121.0,Yes
+72,Abuja,Female,28.0,Bachelor's Degree,Swan Water,129.0,3,7,5,2,3,3,3,315.0,Yes
+73,Kano,Male,54.0,Bachelor's Degree,Mr Chips,132.0,19,7,3,4,3,4,3,3427.0,Yes
+74,Lagos,Female,43.0,Bachelor's Degree,Grand Malt,95.0,16,13,3,4,5,2,3,2407.0,No
+75,Lagos,Female,,OND/HND,Supreme Ice Cream,60.0,7,4,5,1,4,2,2,384.0,Yes
+76,Lagos,Female,25.0,OND/HND,Swan Water,64.0,11,3,5,4,4,5,4,1762.0,Yes
+77,Lagos,Female,52.0,OND/HND,Gala,164.0,8,5,3,1,5,5,3,1796.0,Yes
+78,Port Harcourt,Female,25.0,OND/HND,Gala,144.0,11,5,4,3,5,3,4,2134.0,No
+79,Port Harcourt,Female,38.0,Postgraduate,Gala,188.0,20,2,4,4,2,3,3,3564.0,Yes
+80,Ibadan,Male,58.0,OND/HND,Grand Malt,79.0,18,2,4,3,3,4,4,2400.0,No
+81,Port Harcourt,Female,62.0,Bachelor's Degree,Grand Malt,106.0,5,3,3,2,3,1,2,1032.0,Yes
+82,Abuja,Male,65.0,Bachelor's Degree,Mr Chips,83.0,20,7,4,2,3,2,3,2790.0,Yes
+83,Ibadan,Female,63.0,Bachelor's Degree,Supreme Ice Cream,136.0,9,5,2,4,3,3,4,1428.0,Yes
+84,Lagos,Female,44.0,OND/HND,Supreme Ice Cream,60.0,15,6,4,1,3,5,3,1873.0,Yes
+85,Lagos,Male,27.0,Bachelor's Degree,Swan Water,137.0,16,11,4,4,2,3,4,2218.0,Yes
+86,Lagos,Female,58.0,Postgraduate,Swan Water,152.0,10,3,3,3,4,4,3,1309.0,No
+87,Ibadan,Male,56.0,Bachelor's Degree,Supreme Ice Cream,117.0,10,14,2,2,4,4,3,1779.0,Yes
+88,Abuja,Female,65.0,Bachelor's Degree,Gala,144.0,10,12,5,3,4,5,5,1752.0,No
+89,Lagos,Male,49.0,Postgraduate,Gala,211.0,18,2,4,2,4,3,3,2800.0,Yes
+90,Abuja,Female,24.0,Bachelor's Degree,Grand Malt,153.0,8,5,3,4,4,3,3,807.0,Yes
+91,Lagos,Male,42.0,OND/HND,Supreme Ice Cream,50.0,6,2,4,3,3,5,4,811.0,Yes
+92,Port Harcourt,Female,39.0,Bachelor's Degree,Grand Malt,166.0,8,4,2,2,5,2,3,989.0,Yes
+93,Abuja,Female,58.0,Secondary,Gala,36.0,4,5,3,2,4,4,3,864.0,No
+94,Abuja,Female,36.0,Bachelor's Degree,Swan Water,159.0,8,2,3,2,2,3,3,1566.0,Yes
+95,Lagos,Female,33.0,Postgraduate,Gala,200.0,3,0,5,4,3,4,4,783.0,Yes
+96,Port Harcourt,Female,21.0,Bachelor's Degree,Gala,99.0,2,7,3,2,2,3,2,200.0,No
+97,Abuja,Female,58.0,OND/HND,Gala,81.0,15,11,4,5,4,3,4,1435.0,Yes
+98,Lagos,Male,54.0,Secondary,Gala,71.0,2,4,3,3,3,3,2,200.0,Yes
+99,Lagos,Female,19.0,Postgraduate,Grand Malt,218.0,12,13,4,2,3,4,3,2244.0,No
+100,Kano,Male,38.0,Secondary,Supreme Ice Cream,56.0,16,5,4,2,5,4,4,2284.0,Yes
+101,Kano,Female,41.0,Secondary,Swan Water,106.0,15,14,4,2,4,3,2,2033.0,Yes
+102,Port Harcourt,Male,40.0,OND/HND,Supreme Ice Cream,120.0,9,3,3,2,4,3,2,1852.0,Yes
+103,Lagos,Female,62.0,Secondary,Supreme Ice Cream,52.0,4,8,2,3,3,4,3,984.0,Yes
+104,Kano,Female,25.0,Bachelor's Degree,Swan Water,163.0,19,12,2,2,3,2,2,2870.0,Yes
+105,Ibadan,Male,32.0,Bachelor's Degree,Gala,198.0,17,0,3,1,4,4,3,2478.0,No
+106,Ibadan,Female,26.0,OND/HND,Grand Malt,149.0,13,14,2,3,4,4,4,1922.0,No
+107,Abuja,Female,29.0,Secondary,Mr Chips,30.0,2,5,4,1,2,5,3,371.0,Yes
+108,Lagos,Female,61.0,Secondary,Mr Chips,32.0,1,7,3,2,3,3,3,633.0,No
+109,Lagos,Female,63.0,OND/HND,Supreme Ice Cream,135.0,7,10,5,2,4,3,4,1188.0,Yes
+110,Kano,Female,20.0,Secondary,Gala,30.0,4,10,2,2,3,4,3,820.0,Yes
+111,Abuja,Female,48.0,Bachelor's Degree,Grand Malt,100.0,18,0,4,5,3,4,4,3059.0,Yes
+112,Lagos,Male,29.0,OND/HND,Supreme Ice Cream,75.0,5,13,3,3,3,3,3,405.0,No
+113,Lagos,Male,27.0,OND/HND,Gala,103.0,6,9,3,3,3,3,3,1135.0,No
+114,Port Harcourt,Male,32.0,OND/HND,Supreme Ice Cream,87.0,20,15,4,2,4,4,4,2919.0,Yes
+115,Lagos,Female,27.0,OND/HND,Mr Chips,70.0,17,7,2,2,4,3,3,1801.0,Yes
+116,Kano,Male,41.0,Secondary,Swan Water,40.0,5,9,4,3,4,3,4,200.0,Yes
+117,Ibadan,Female,,Secondary,Mr Chips,39.0,8,7,5,2,3,3,3,898.0,Yes
+118,Ibadan,Female,46.0,Postgraduate,Mr Chips,174.0,11,14,3,4,3,4,4,1823.0,Yes
+119,Abuja,Male,52.0,Secondary,Gala,128.0,14,13,4,2,4,3,2,2144.0,Yes
+120,Port Harcourt,Female,41.0,Bachelor's Degree,Grand Malt,149.0,19,14,4,3,4,2,3,2917.0,Yes
+121,Port Harcourt,Female,18.0,Bachelor's Degree,Supreme Ice Cream,167.0,18,8,4,3,3,2,3,3299.0,Yes
+122,Port Harcourt,Male,22.0,OND/HND,Swan Water,75.0,20,12,3,3,4,2,3,2625.0,Yes
+123,Lagos,Male,30.0,OND/HND,Gala,84.0,1,5,2,3,4,3,3,200.0,Yes
+124,Abuja,Male,29.0,Bachelor's Degree,Grand Malt,119.0,5,7,4,3,5,3,4,851.0,Yes
+125,Lagos,Male,58.0,Bachelor's Degree,Gala,60.0,12,12,4,3,5,3,3,1584.0,Yes
+126,Abuja,Male,58.0,OND/HND,Gala,49.0,1,1,3,2,3,3,3,200.0,Yes
+127,Lagos,Female,58.0,OND/HND,Supreme Ice Cream,36.0,8,11,4,3,4,3,4,723.0,Yes
+128,Lagos,Male,48.0,OND/HND,Gala,30.0,4,0,3,3,4,3,3,1025.0,Yes
+129,Lagos,Male,44.0,Bachelor's Degree,Gala,104.0,19,9,3,3,3,5,4,2654.0,Yes
+130,Port Harcourt,Female,49.0,Bachelor's Degree,Swan Water,180.0,2,7,4,3,3,4,4,924.0,Yes
+131,Lagos,Female,37.0,OND/HND,Supreme Ice Cream,89.0,3,7,3,4,2,4,3,447.0,Yes
+132,Kano,Female,,OND/HND,Grand Malt,129.0,4,7,4,3,4,3,4,919.0,Yes
+133,Port Harcourt,Female,56.0,Postgraduate,Supreme Ice Cream,212.0,3,7,3,3,3,3,4,451.0,No
+134,Lagos,Male,54.0,Secondary,Mr Chips,83.0,12,6,3,3,4,4,3,1797.0,No
+135,Port Harcourt,Male,47.0,Bachelor's Degree,Supreme Ice Cream,113.0,8,7,5,5,3,4,4,1034.0,Yes
+136,Lagos,Female,20.0,Bachelor's Degree,Swan Water,156.0,19,9,5,2,3,3,3,2898.0,Yes
+137,Kano,Female,52.0,OND/HND,Swan Water,112.0,6,12,4,4,4,3,4,1004.0,Yes
+138,Abuja,Female,35.0,Secondary,Supreme Ice Cream,43.0,11,8,3,1,4,2,2,1418.0,No
+139,Ibadan,Male,53.0,Secondary,Grand Malt,77.0,14,10,3,3,4,4,3,2069.0,Yes
+140,Lagos,Female,43.0,Postgraduate,Supreme Ice Cream,217.0,13,13,4,5,5,4,5,1784.0,Yes
+141,Abuja,Female,60.0,Secondary,Gala,44.0,16,15,4,3,4,3,3,3093.0,No
+142,Abuja,Male,34.0,OND/HND,Swan Water,56.0,5,1,3,3,4,5,3,728.0,No
+143,Kano,Female,62.0,Secondary,Mr Chips,30.0,11,11,4,2,3,2,2,2116.0,Yes
+144,Port Harcourt,Female,58.0,Secondary,Gala,63.0,17,3,4,3,2,3,4,2496.0,Yes
+145,Abuja,Male,33.0,Bachelor's Degree,Supreme Ice Cream,150.0,18,3,3,3,5,3,3,2790.0,Yes
+146,Lagos,Male,41.0,OND/HND,Grand Malt,66.0,13,12,3,2,3,4,3,1559.0,Yes
+147,Lagos,Female,43.0,Bachelor's Degree,Mr Chips,141.0,14,1,4,3,3,4,3,1977.0,Yes
+148,Abuja,Male,54.0,Bachelor's Degree,Grand Malt,157.0,18,13,2,3,3,4,3,2776.0,No
+149,Abuja,Male,51.0,Bachelor's Degree,Swan Water,159.0,13,12,3,3,3,4,3,2439.0,No
+150,Lagos,Male,58.0,Secondary,Swan Water,107.0,19,15,3,2,3,5,4,2925.0,Yes
+151,Ibadan,Male,35.0,Postgraduate,Supreme Ice Cream,238.0,3,10,4,2,3,3,4,884.0,Yes
+152,Kano,Female,42.0,Bachelor's Degree,Grand Malt,110.0,7,13,3,4,5,4,4,1251.0,Yes
+153,Lagos,Female,38.0,OND/HND,Supreme Ice Cream,141.0,3,1,5,4,3,3,4,950.0,Yes
+154,Port Harcourt,Male,,Bachelor's Degree,Mr Chips,124.0,2,14,4,3,2,4,3,292.0,No
+155,Lagos,Female,32.0,Postgraduate,Supreme Ice Cream,231.0,10,2,3,4,4,3,3,2236.0,Yes
+156,Port Harcourt,Female,46.0,OND/HND,Swan Water,92.0,5,5,4,3,4,4,4,612.0,Yes
+157,Lagos,Male,23.0,Postgraduate,Swan Water,188.0,9,2,3,4,3,5,4,1135.0,Yes
+158,Port Harcourt,Female,58.0,Bachelor's Degree,Supreme Ice Cream,86.0,9,6,3,3,2,3,3,994.0,Yes
+159,Ibadan,Male,36.0,Bachelor's Degree,Grand Malt,135.0,13,11,4,3,3,1,3,2660.0,Yes
+160,Ibadan,Female,34.0,Postgraduate,Supreme Ice Cream,153.0,19,4,3,3,3,3,3,3108.0,No
+161,Lagos,Female,45.0,OND/HND,Swan Water,119.0,17,13,4,5,5,5,5,2459.0,Yes
+162,Kano,Female,41.0,Bachelor's Degree,Supreme Ice Cream,186.0,8,9,3,3,3,3,3,1590.0,Yes
+163,Lagos,Male,58.0,OND/HND,Supreme Ice Cream,66.0,7,10,3,2,3,4,3,1262.0,No
+164,Lagos,Female,43.0,Bachelor's Degree,Supreme Ice Cream,149.0,16,15,3,4,4,5,3,3002.0,Yes
+165,Port Harcourt,Male,42.0,Bachelor's Degree,Gala,118.0,3,6,3,3,1,4,3,200.0,No
+166,Abuja,Male,23.0,OND/HND,Gala,71.0,11,5,5,2,4,5,4,1576.0,Yes
+167,Ibadan,Male,19.0,OND/HND,Swan Water,113.0,9,15,4,4,2,4,3,1220.0,Yes
+168,Ibadan,Female,37.0,OND/HND,Swan Water,89.0,4,8,5,3,4,5,5,200.0,Yes
+169,Lagos,Male,65.0,Secondary,Swan Water,112.0,13,9,5,2,4,4,4,2277.0,Yes
+170,Kano,Female,62.0,Secondary,Gala,46.0,7,4,3,4,4,4,4,973.0,Yes
+171,Lagos,Female,48.0,OND/HND,Supreme Ice Cream,120.0,4,3,4,4,4,3,4,831.0,Yes
+172,Abuja,Male,48.0,Secondary,Gala,63.0,14,2,3,2,1,3,2,2813.0,Yes
+173,Lagos,Male,36.0,OND/HND,Mr Chips,114.0,4,3,3,5,3,5,3,503.0,Yes
+174,Kano,Male,26.0,Bachelor's Degree,Mr Chips,127.0,14,3,3,4,4,3,3,1984.0,Yes
+175,Lagos,Female,18.0,Bachelor's Degree,Gala,139.0,4,11,3,3,3,4,4,647.0,No
+176,Lagos,Female,34.0,Bachelor's Degree,Swan Water,137.0,9,0,3,5,4,4,4,1657.0,Yes
+177,Abuja,Male,33.0,OND/HND,Gala,65.0,17,10,4,3,4,3,3,2385.0,Yes
+178,Kano,Female,27.0,Postgraduate,Gala,220.0,5,15,3,3,4,3,2,578.0,Yes
+179,Kano,Male,30.0,Bachelor's Degree,Gala,160.0,16,12,4,3,3,4,4,2730.0,Yes
+180,Ibadan,Female,19.0,Secondary,Gala,78.0,15,6,3,3,2,4,3,2370.0,Yes
+181,Kano,Female,47.0,Secondary,Swan Water,106.0,19,0,5,4,3,1,4,2245.0,Yes
+182,Kano,Female,62.0,Bachelor's Degree,Grand Malt,183.0,4,13,3,3,4,3,4,247.0,Yes
+183,Abuja,Female,51.0,OND/HND,Gala,79.0,15,0,4,2,3,5,4,2707.0,Yes
+184,Lagos,Female,39.0,Bachelor's Degree,Swan Water,151.0,19,10,2,3,4,4,3,2983.0,No
+185,Ibadan,Male,38.0,Postgraduate,Swan Water,181.0,16,10,5,3,4,2,3,2186.0,Yes
+186,Port Harcourt,Male,32.0,Secondary,Grand Malt,61.0,4,3,4,2,4,5,4,554.0,Yes
+187,Abuja,Male,24.0,Secondary,Swan Water,42.0,17,11,4,1,1,4,4,2557.0,Yes
+188,Lagos,Female,46.0,Postgraduate,Gala,249.0,3,2,2,4,2,4,3,691.0,Yes
+189,Ibadan,Female,45.0,Bachelor's Degree,Swan Water,151.0,12,3,4,1,5,3,3,1405.0,Yes
+190,Lagos,Female,18.0,Secondary,Supreme Ice Cream,53.0,10,12,3,3,3,5,4,1252.0,Yes
+191,Kano,Female,37.0,Postgraduate,Grand Malt,236.0,11,15,5,3,2,3,3,1751.0,Yes
+192,Lagos,Male,31.0,Postgraduate,Supreme Ice Cream,135.0,11,4,5,4,5,5,5,1631.0,Yes
+193,Lagos,Female,26.0,Bachelor's Degree,Swan Water,80.0,1,14,4,3,4,4,3,328.0,Yes
+194,Ibadan,Male,51.0,Bachelor's Degree,Gala,164.0,11,14,2,4,4,4,4,1294.0,Yes
+195,Lagos,Male,43.0,OND/HND,Supreme Ice Cream,92.0,19,12,3,3,4,4,4,2964.0,Yes
+196,Lagos,Female,48.0,Secondary,Grand Malt,68.0,9,2,4,3,4,4,4,1683.0,Yes
+197,Port Harcourt,Female,52.0,Bachelor's Degree,Swan Water,100.0,6,4,5,4,4,4,4,1054.0,Yes
+198,Kano,Female,65.0,OND/HND,Supreme Ice Cream,89.0,20,10,5,3,4,2,4,3049.0,Yes
+199,Lagos,Male,56.0,Bachelor's Degree,Grand Malt,200.0,2,15,2,4,5,2,3,287.0,Yes
+200,Lagos,Female,47.0,Bachelor's Degree,Mr Chips,165.0,10,13,4,2,4,4,3,1263.0,Yes
+201,Ibadan,Male,60.0,Secondary,Supreme Ice Cream,65.0,11,6,5,3,2,4,3,1634.0,Yes
+202,Kano,Female,40.0,Bachelor's Degree,Swan Water,127.0,10,3,2,4,4,3,4,1888.0,Yes
+203,Abuja,Female,65.0,OND/HND,Supreme Ice Cream,78.0,19,15,4,3,5,4,4,2821.0,Yes
+204,Lagos,Male,54.0,Postgraduate,Swan Water,136.0,9,4,4,5,5,3,4,1094.0,Yes
+205,Lagos,Male,49.0,OND/HND,Supreme Ice Cream,98.0,20,5,4,3,3,4,3,2860.0,Yes
+206,Lagos,Male,61.0,Bachelor's Degree,Gala,165.0,2,15,2,2,5,4,4,373.0,Yes
+207,Lagos,Female,42.0,Bachelor's Degree,Grand Malt,93.0,15,8,3,2,4,3,3,2145.0,Yes
+208,Port Harcourt,Male,52.0,OND/HND,Grand Malt,70.0,12,4,3,3,5,3,4,1951.0,No
+209,Lagos,Female,31.0,Bachelor's Degree,Mr Chips,105.0,5,0,3,4,3,5,4,915.0,Yes
+210,Abuja,Female,64.0,Bachelor's Degree,Grand Malt,111.0,5,6,3,3,3,2,3,1026.0,No
+211,Port Harcourt,Female,47.0,Bachelor's Degree,Mr Chips,,15,15,3,2,3,4,3,2688.0,Yes
+212,Port Harcourt,Male,55.0,Bachelor's Degree,Mr Chips,77.0,13,6,4,3,3,2,3,2255.0,Yes
+213,Lagos,Female,40.0,Postgraduate,Mr Chips,218.0,13,11,4,2,3,4,4,1687.0,Yes
+214,Ibadan,Male,59.0,OND/HND,Supreme Ice Cream,113.0,2,4,4,4,1,3,3,200.0,Yes
+215,Ibadan,Female,21.0,Bachelor's Degree,Supreme Ice Cream,132.0,12,12,4,5,3,2,3,1788.0,No
+216,Ibadan,Female,23.0,Secondary,Gala,,20,12,4,3,4,4,3,2867.0,Yes
+217,Lagos,Female,42.0,Bachelor's Degree,Swan Water,110.0,1,9,2,4,3,3,3,200.0,No
+218,Lagos,Female,53.0,Bachelor's Degree,Gala,177.0,10,12,4,3,5,2,4,1382.0,Yes
+219,Kano,Male,56.0,OND/HND,Gala,30.0,10,9,4,1,4,4,2,1360.0,No
+220,Abuja,Female,39.0,Secondary,Swan Water,50.0,18,6,4,2,5,5,4,2502.0,No
+221,Lagos,Male,49.0,Postgraduate,Supreme Ice Cream,165.0,6,11,5,2,4,5,3,818.0,Yes
+222,Abuja,Male,44.0,OND/HND,Gala,114.0,10,13,2,2,4,4,3,1863.0,Yes
+223,Port Harcourt,Male,64.0,Bachelor's Degree,Mr Chips,120.0,15,13,2,5,4,3,3,2319.0,No
+224,Kano,Male,49.0,Secondary,Mr Chips,72.0,2,3,4,3,5,4,4,1047.0,Yes
+225,Lagos,Male,38.0,Postgraduate,Gala,217.0,17,10,4,4,4,5,4,2619.0,No
+226,Kano,Male,64.0,OND/HND,Gala,145.0,17,0,4,3,4,4,4,2475.0,Yes
+227,Lagos,Male,23.0,OND/HND,Supreme Ice Cream,84.0,15,9,3,3,4,3,3,2258.0,Yes
+228,Port Harcourt,Female,65.0,Postgraduate,Mr Chips,211.0,13,9,4,4,3,3,3,2044.0,Yes
+229,Port Harcourt,Female,25.0,Postgraduate,Mr Chips,155.0,15,5,4,3,4,4,4,2393.0,Yes
+230,Lagos,Male,31.0,OND/HND,Gala,126.0,16,15,4,4,5,2,4,3033.0,No
+231,Lagos,Male,57.0,Bachelor's Degree,Mr Chips,117.0,19,14,3,3,3,4,4,2606.0,Yes
+232,Abuja,Male,53.0,Bachelor's Degree,Gala,123.0,9,0,2,3,4,5,3,1618.0,No
+233,Kano,Female,64.0,Postgraduate,Supreme Ice Cream,199.0,10,3,5,2,5,4,4,1578.0,No
+234,Port Harcourt,Male,53.0,OND/HND,Grand Malt,43.0,13,3,4,1,5,5,4,1482.0,Yes
+235,Kano,Male,48.0,Bachelor's Degree,Gala,147.0,4,14,4,3,4,3,3,843.0,Yes
+236,Ibadan,Male,34.0,Bachelor's Degree,Gala,169.0,18,8,3,3,1,3,3,3094.0,No
+237,Abuja,Male,18.0,Bachelor's Degree,Supreme Ice Cream,149.0,16,11,5,2,4,4,4,2155.0,Yes
+238,Ibadan,Male,23.0,Bachelor's Degree,Swan Water,92.0,13,12,4,3,2,3,4,1955.0,Yes
+239,Lagos,Female,32.0,Bachelor's Degree,Grand Malt,136.0,7,12,5,3,5,3,5,543.0,Yes
+240,Lagos,Female,19.0,Secondary,Grand Malt,82.0,7,1,3,1,4,5,3,679.0,Yes
+241,Ibadan,Female,42.0,Postgraduate,Gala,144.0,9,2,3,2,4,5,4,1676.0,No
+242,Ibadan,Female,55.0,Postgraduate,Gala,168.0,14,6,4,4,3,3,3,1974.0,No
+243,Lagos,Female,64.0,Bachelor's Degree,Mr Chips,166.0,16,5,4,4,2,5,4,2081.0,Yes
+244,Abuja,Male,41.0,Secondary,Gala,68.0,14,11,3,2,4,3,3,2174.0,Yes
+245,Port Harcourt,Female,60.0,OND/HND,Grand Malt,102.0,19,2,4,3,3,4,3,2701.0,Yes
+246,Kano,Female,65.0,Bachelor's Degree,Swan Water,196.0,20,5,4,4,3,3,4,2874.0,Yes
+247,Port Harcourt,Male,59.0,Secondary,Gala,74.0,15,3,4,3,4,4,4,2478.0,Yes
+248,Abuja,Female,40.0,Postgraduate,Mr Chips,220.0,8,3,4,3,5,4,4,869.0,Yes
+249,Abuja,Male,33.0,OND/HND,Gala,171.0,12,2,3,3,4,5,4,1542.0,Yes
+250,Abuja,Female,64.0,Bachelor's Degree,Supreme Ice Cream,134.0,9,3,5,3,4,4,5,1407.0,Yes

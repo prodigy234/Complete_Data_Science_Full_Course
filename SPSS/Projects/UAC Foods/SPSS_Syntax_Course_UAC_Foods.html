@@ -1,0 +1,1121 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang xml:lang>
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>SPSS Syntax Course ��� UAC Foods</title>
+  <style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+
+ul.task-list[class]{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+font-size: inherit;
+width: 0.8em;
+margin: 0 0.8em 0.2em -1.6em;
+vertical-align: middle;
+}
+.display.math{display: block; text-align: center; margin: 0.5rem auto;}
+</style>
+  <style type="text/css">:root {
+--accent: #8B1E1E;
+--accent-dark: #5c1414;
+--bg-code: #f4f4f4;
+--border: #e0e0e0;
+--text: #222;
+--muted: #666;
+}
+* { box-sizing: border-box; }
+body {
+font-family: "Segoe UI", Calibri, Arial, sans-serif;
+color: var(--text);
+line-height: 1.65;
+max-width: 900px;
+margin: 0 auto;
+padding: 2.5rem 1.5rem 6rem;
+background: #fff;
+}
+h1 {
+color: var(--accent-dark);
+font-size: 2.1rem;
+border-bottom: 4px solid var(--accent);
+padding-bottom: 0.5rem;
+margin-top: 0;
+}
+h2 {
+color: var(--accent-dark);
+font-size: 1.5rem;
+margin-top: 2.6rem;
+padding-top: 1rem;
+border-top: 1px solid var(--border);
+}
+h3 {
+color: #444;
+font-size: 1.15rem;
+margin-top: 1.8rem;
+}
+p { margin: 0.8rem 0; }
+a { color: var(--accent); }
+code {
+font-family: "Consolas", "SFMono-Regular", Menlo, monospace;
+background: var(--bg-code);
+padding: 0.1em 0.35em;
+border-radius: 3px;
+font-size: 0.92em;
+}
+pre {
+background: var(--bg-code);
+border-left: 4px solid var(--accent);
+border-radius: 4px;
+padding: 0.9rem 1.1rem;
+overflow-x: auto;
+font-size: 0.88rem;
+line-height: 1.5;
+}
+pre code {
+background: none;
+padding: 0;
+font-size: 1em;
+}
+table {
+border-collapse: collapse;
+width: 100%;
+margin: 1.2rem 0;
+font-size: 0.95rem;
+}
+th, td {
+border: 1px solid var(--border);
+padding: 0.5rem 0.7rem;
+text-align: left;
+vertical-align: top;
+}
+th {
+background: var(--accent);
+color: #fff;
+}
+tr:nth-child(even) td { background: #faf5f5; }
+ul, ol { padding-left: 1.4rem; }
+li { margin: 0.3rem 0; }
+hr {
+border: none;
+border-top: 2px dashed var(--border);
+margin: 3rem 0;
+}
+blockquote {
+border-left: 4px solid var(--accent);
+margin: 1rem 0;
+padding: 0.3rem 1rem;
+color: var(--muted);
+background: #fdf6f6;
+}
+#TOC {
+background: #faf5f5;
+border: 1px solid var(--border);
+border-radius: 6px;
+padding: 1.2rem 1.8rem;
+margin: 2rem 0 3rem;
+}
+#TOC ul { list-style: none; padding-left: 1rem; }
+#TOC > ul { padding-left: 0; }
+#TOC a { text-decoration: none; }
+#TOC a:hover { text-decoration: underline; }
+.top-banner {
+background: linear-gradient(135deg, var(--accent) 0%, var(--accent-dark) 100%);
+color: #fff;
+margin: -2.5rem -1.5rem 2rem;
+padding: 2.5rem 1.5rem 2rem;
+text-align: center;
+}
+.top-banner h1 { color: #fff; border: none; margin-bottom: 0.3rem; }
+.top-banner p { color: #f0dede; font-size: 1.05rem; margin: 0; }
+@media print {
+body { max-width: none; }
+}
+</style>
+</head>
+<body>
+<div class="top-banner">
+<h1>SPSS Syntax Course</h1>
+<p>Learn SPSS syntax from scratch using the UAC Foods Nigeria Customer Survey dataset</p>
+</div>
+
+<header id="title-block-header">
+<h1 class="title">SPSS Syntax Course ��� UAC Foods</h1>
+</header>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#learning-spss-syntax-from-scratch" id="toc-learning-spss-syntax-from-scratch">Learning SPSS Syntax From
+Scratch</a>
+<ul>
+<li><a href="#a-complete-hands-on-course-using-the-uac-foods-nigeria-customer-survey" id="toc-a-complete-hands-on-course-using-the-uac-foods-nigeria-customer-survey">A
+Complete, Hands-On Course Using the UAC Foods Nigeria Customer
+Survey</a></li>
+<li><a href="#about-the-dataset" id="toc-about-the-dataset">About the
+Dataset</a></li>
+<li><a href="#chapter-1-getting-started-with-spss-syntax" id="toc-chapter-1-getting-started-with-spss-syntax">Chapter 1: Getting
+Started with SPSS Syntax</a></li>
+<li><a href="#chapter-2-importing-the-uac-foods-data" id="toc-chapter-2-importing-the-uac-foods-data">Chapter 2: Importing the
+UAC Foods Data</a></li>
+<li><a href="#chapter-3-defining-your-variables-properly" id="toc-chapter-3-defining-your-variables-properly">Chapter 3: Defining
+Your Variables Properly</a></li>
+<li><a href="#chapter-4-data-management-i-creating-and-transforming-variables" id="toc-chapter-4-data-management-i-creating-and-transforming-variables">Chapter
+4: Data Management I — Creating and Transforming Variables</a></li>
+<li><a href="#chapter-5-data-management-ii-selecting-sorting-and-aggregating-cases" id="toc-chapter-5-data-management-ii-selecting-sorting-and-aggregating-cases">Chapter
+5: Data Management II — Selecting, Sorting, and Aggregating
+Cases</a></li>
+<li><a href="#chapter-6-descriptive-statistics" id="toc-chapter-6-descriptive-statistics">Chapter 6: Descriptive
+Statistics</a></li>
+<li><a href="#chapter-7-cross-tabulation-and-the-chi-square-test" id="toc-chapter-7-cross-tabulation-and-the-chi-square-test">Chapter 7:
+Cross-Tabulation and the Chi-Square Test</a></li>
+<li><a href="#chapter-8-comparing-means-t-tests-and-anova" id="toc-chapter-8-comparing-means-t-tests-and-anova">Chapter 8:
+Comparing Means — T-Tests and ANOVA</a></li>
+<li><a href="#chapter-9-correlation" id="toc-chapter-9-correlation">Chapter 9: Correlation</a></li>
+<li><a href="#chapter-10-reliability-analysis-cronbachs-alpha" id="toc-chapter-10-reliability-analysis-cronbachs-alpha">Chapter 10:
+Reliability Analysis (Cronbach’s Alpha)</a></li>
+<li><a href="#chapter-11-regression-analysis" id="toc-chapter-11-regression-analysis">Chapter 11: Regression
+Analysis</a></li>
+<li><a href="#chapter-12-non-parametric-tests-when-assumptions-dont-hold" id="toc-chapter-12-non-parametric-tests-when-assumptions-dont-hold">Chapter
+12: Non-Parametric Tests (When Assumptions Don’t Hold)</a></li>
+<li><a href="#chapter-13-basic-charts-from-syntax" id="toc-chapter-13-basic-charts-from-syntax">Chapter 13: Basic Charts
+from Syntax</a></li>
+<li><a href="#chapter-14-output-and-file-management" id="toc-chapter-14-output-and-file-management">Chapter 14: Output and
+File Management</a></li>
+<li><a href="#chapter-15-putting-it-all-together-a-capstone-analysis-script" id="toc-chapter-15-putting-it-all-together-a-capstone-analysis-script">Chapter
+15: Putting It All Together — A Capstone Analysis Script</a></li>
+<li><a href="#chapter-16-practice-exercises" id="toc-chapter-16-practice-exercises">Chapter 16: Practice
+Exercises</a></li>
+<li><a href="#chapter-17-common-errors-and-how-to-read-them" id="toc-chapter-17-common-errors-and-how-to-read-them">Chapter 17:
+Common Errors and How to Read Them</a></li>
+<li><a href="#where-to-go-from-here" id="toc-where-to-go-from-here">Where to Go From Here</a></li>
+</ul></li>
+</ul>
+</nav>
+<h1 id="learning-spss-syntax-from-scratch">Learning SPSS Syntax From
+Scratch</h1>
+<h2 id="a-complete-hands-on-course-using-the-uac-foods-nigeria-customer-survey">A
+Complete, Hands-On Course Using the UAC Foods Nigeria Customer
+Survey</h2>
+<p>This course teaches SPSS <strong>syntax</strong> — the command
+language behind the point-and-click menus — from an absolute beginning
+through to regression and reliability analysis. Every command is
+demonstrated on one running dataset, so you build a real analysis
+project as you learn, instead of jumping between disconnected
+examples.</p>
+<h2 id="about-the-dataset">About the Dataset</h2>
+<p>The dataset, <code>UAC_Foods_Survey.csv</code> /
+<code>UAC_Foods_Survey.xlsx</code>, is a simulated customer-satisfaction
+survey of 250 Nigerian consumers of UAC Foods brands (Gala, Supreme Ice
+Cream, Swan Water, Mr Chips, and Grand Malt). It was built for teaching
+purposes, with realistic patterns deliberately included: income relates
+to education, satisfaction sub-ratings drive overall satisfaction, and
+satisfaction drives willingness to recommend. This means the statistical
+tests in this course return genuinely interesting, discussable results
+rather than pure noise.</p>
+<h3 id="data-dictionary">Data Dictionary</h3>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Variable</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>RespondentID</td>
+<td>Numeric</td>
+<td>Unique respondent identifier (1–250)</td>
+</tr>
+<tr class="even">
+<td>Region</td>
+<td>String</td>
+<td>Lagos, Abuja, Port Harcourt, Ibadan, Kano</td>
+</tr>
+<tr class="odd">
+<td>Gender</td>
+<td>String</td>
+<td>Male, Female</td>
+</tr>
+<tr class="even">
+<td>Age</td>
+<td>Numeric</td>
+<td>Age in years (6 missing values, coded blank)</td>
+</tr>
+<tr class="odd">
+<td>Education</td>
+<td>String</td>
+<td>Secondary, OND/HND, Bachelor’s Degree, Postgraduate</td>
+</tr>
+<tr class="even">
+<td>Product</td>
+<td>String</td>
+<td>Main UAC Foods product purchased</td>
+</tr>
+<tr class="odd">
+<td>MonthlyIncome_NGN000</td>
+<td>Numeric</td>
+<td>Monthly income in thousands of Naira (5 missing values)</td>
+</tr>
+<tr class="even">
+<td>PurchaseFrequency</td>
+<td>Numeric</td>
+<td>Purchases per month (1–20)</td>
+</tr>
+<tr class="odd">
+<td>LoyaltyYears</td>
+<td>Numeric</td>
+<td>Years as a customer of the brand (0–15)</td>
+</tr>
+<tr class="even">
+<td>Taste</td>
+<td>Numeric</td>
+<td>Satisfaction with taste, 1 (very dissatisfied) – 5 (very
+satisfied)</td>
+</tr>
+<tr class="odd">
+<td>Price</td>
+<td>Numeric</td>
+<td>Satisfaction with price, 1–5</td>
+</tr>
+<tr class="even">
+<td>Packaging</td>
+<td>Numeric</td>
+<td>Satisfaction with packaging, 1–5</td>
+</tr>
+<tr class="odd">
+<td>Availability</td>
+<td>Numeric</td>
+<td>Satisfaction with availability in stores, 1–5</td>
+</tr>
+<tr class="even">
+<td>OverallSatisfaction</td>
+<td>Numeric</td>
+<td>Overall satisfaction, 1–5</td>
+</tr>
+<tr class="odd">
+<td>MonthlySpend_NGN</td>
+<td>Numeric</td>
+<td>Estimated monthly spend on the product, in Naira</td>
+</tr>
+<tr class="even">
+<td>WouldRecommend</td>
+<td>String</td>
+<td>Yes / No</td>
+</tr>
+</tbody>
+</table>
+<p>Keep this table close by — every syntax example below refers back to
+these exact variable names.</p>
+<hr />
+<h2 id="chapter-1-getting-started-with-spss-syntax">Chapter 1: Getting
+Started with SPSS Syntax</h2>
+<h3 id="why-learn-syntax-instead-of-just-using-the-menus">1.1 Why learn
+syntax instead of just using the menus?</h3>
+<p>The point-and-click menus in SPSS are really just a friendly front
+end that <em>writes syntax for you</em> and then runs it. Learning
+syntax directly gives you three things the menus can’t:</p>
+<ul>
+<li><strong>Reproducibility</strong> — re-run an entire analysis,
+exactly, in seconds, whenever the data changes.</li>
+<li><strong>Documentation</strong> — a syntax file is a readable record
+of every decision you made.</li>
+<li><strong>Power</strong> — some options are only available in syntax,
+not in the dialog boxes.</li>
+</ul>
+<h3 id="the-syntax-window">1.2 The Syntax Window</h3>
+<p>Open it with <strong>File &gt; New &gt; Syntax</strong>. You’ll write
+commands there and run them with:</p>
+<ul>
+<li><strong>Ctrl+R</strong>, or</li>
+<li>highlight the command(s) and click the “Run” (play) icon, or</li>
+<li><strong>Run &gt; All</strong></li>
+</ul>
+<h3 id="anatomy-of-a-command">1.3 Anatomy of a command</h3>
+<p>Every SPSS syntax command follows the same shape:</p>
+<pre class="spss"><code>COMMAND KEYWORD subcommand=value /subcommand2=value2.</code></pre>
+<p>Rules that trip up beginners:</p>
+<ol type="1">
+<li><strong>Every command ends with a period (<code>.</code>)</strong>
+This is the single most common source of errors — a missing period
+causes SPSS to keep reading the next line as part of the same
+command.</li>
+<li>Commands can span multiple lines freely; SPSS doesn’t care about
+line breaks, only the final period.</li>
+<li>Subcommands are introduced with a forward slash <code>/</code>.</li>
+<li>SPSS syntax is <strong>not case sensitive</strong> for command names
+(<code>FREQUENCIES</code> = <code>frequencies</code>), but string
+<em>data values</em> inside quotes ARE case sensitive
+(<code>&quot;Lagos&quot;</code> ≠ <code>&quot;lagos&quot;</code>).</li>
+<li>Comments start with an asterisk <code>*</code> and end with a
+period, or use <code>/* ... */</code> inline.</li>
+</ol>
+<pre class="spss"><code>* This is a comment describing what the next command does.
+FREQUENCIES VARIABLES=Region.
+
+/* This is an inline comment */ FREQUENCIES VARIABLES=Gender.</code></pre>
+<h3 id="a-first-command-checking-spss-is-alive">1.4 A first command:
+checking SPSS is alive</h3>
+<pre class="spss"><code>GET FILE = &#39;C:\UAC_Foods\UAC_Foods_Survey.sav&#39;.
+DISPLAY DICTIONARY.</code></pre>
+<p><code>DISPLAY DICTIONARY</code> prints every variable’s name, type,
+and labels currently loaded — a useful sanity check after any
+import.</p>
+<hr />
+<h2 id="chapter-2-importing-the-uac-foods-data">Chapter 2: Importing the
+UAC Foods Data</h2>
+<p>You will almost never start from an existing <code>.sav</code> file
+in the real world — you’ll import from Excel, CSV, or a text file. This
+chapter shows all three, using the two files provided with this
+course.</p>
+<h3 id="importing-the-csv-file">2.1 Importing the CSV file</h3>
+<pre class="spss"><code>GET DATA
+  /TYPE=TXT
+  /FILE=&#39;C:\UAC_Foods\UAC_Foods_Survey.csv&#39;
+  /DELIMITERS=&quot;,&quot;
+  /QUALIFIER=&#39;&quot;&#39;
+  /ARRANGEMENT=DELIMITED
+  /FIRSTCASE=2
+  /VARIABLES=
+    RespondentID F8.0
+    Region A20
+    Gender A10
+    Age F8.0
+    Education A20
+    Product A20
+    MonthlyIncome_NGN000 F8.0
+    PurchaseFrequency F8.0
+    LoyaltyYears F8.0
+    Taste F8.0
+    Price F8.0
+    Packaging F8.0
+    Availability F8.0
+    OverallSatisfaction F8.0
+    MonthlySpend_NGN F8.0
+    WouldRecommend A10.
+CACHE.
+EXECUTE.</code></pre>
+<p>Key points:</p>
+<ul>
+<li><code>/FIRSTCASE=2</code> tells SPSS the real data starts on row 2,
+because row 1 holds the column headers.</li>
+<li><code>A20</code> means an alphanumeric (string) field up to 20
+characters; <code>F8.0</code> means a numeric field, 8 digits wide, 0
+decimals.</li>
+<li><code>CACHE.</code> and <code>EXECUTE.</code> force SPSS to actually
+read the file into memory immediately rather than waiting — good
+practice right after any <code>GET DATA</code>.</li>
+</ul>
+<h3 id="importing-the-excel-file">2.2 Importing the Excel file</h3>
+<p>Excel import is simpler because SPSS reads the column types
+automatically:</p>
+<pre class="spss"><code>GET DATA
+  /TYPE=XLSX
+  /FILE=&#39;C:\UAC_Foods\UAC_Foods_Survey.xlsx&#39;
+  /SHEET=NAME &#39;UAC_Foods_Survey&#39;
+  /CELLRANGE=FULL
+  /READNAMES=ON
+  /DATATYPEMIN PERCENTAGE=95.0.
+EXECUTE.</code></pre>
+<ul>
+<li><code>/READNAMES=ON</code> uses row 1 as variable names.</li>
+<li><code>/CELLRANGE=FULL</code> reads every populated cell; you could
+instead specify e.g. <code>/CELLRANGE=RANGE &#39;A1:P251&#39;</code>.</li>
+</ul>
+<h3 id="saving-as-a-native-.sav-file">2.3 Saving as a native
+<code>.sav</code> file</h3>
+<p>Once imported, save a native SPSS file so future sessions start
+instantly, without re-importing:</p>
+<pre class="spss"><code>SAVE OUTFILE=&#39;C:\UAC_Foods\UAC_Foods_Survey.sav&#39;.</code></pre>
+<h3 id="quick-structural-check-after-any-import">2.4 Quick structural
+check after any import</h3>
+<pre class="spss"><code>DISPLAY DICTIONARY.
+DESCRIPTIVES VARIABLES=Age MonthlyIncome_NGN000 PurchaseFrequency.
+FREQUENCIES VARIABLES=Region Gender Product.</code></pre>
+<p>Always run this trio after import. It confirms variable types are
+correct, no column is shifted, and missing values look plausible.</p>
+<hr />
+<h2 id="chapter-3-defining-your-variables-properly">Chapter 3: Defining
+Your Variables Properly</h2>
+<p>Raw imported data works, but it’s not yet <em>documented</em> data.
+This chapter turns bare column names into a self-explaining dataset —
+essential before you hand syntax to a colleague, a supervisor, or your
+future self.</p>
+<h3 id="variable-labels-full-text-descriptions">3.1 VARIABLE LABELS —
+full-text descriptions</h3>
+<pre class="spss"><code>VARIABLE LABELS
+  RespondentID &#39;Unique Respondent Identifier&#39;
+  Region &#39;Nigerian Region of Residence&#39;
+  Gender &#39;Respondent Gender&#39;
+  Age &#39;Respondent Age in Years&#39;
+  Education &#39;Highest Level of Education Completed&#39;
+  Product &#39;Main UAC Foods Product Purchased&#39;
+  MonthlyIncome_NGN000 &#39;Monthly Income (Thousands of Naira)&#39;
+  PurchaseFrequency &#39;Number of Purchases per Month&#39;
+  LoyaltyYears &#39;Years as a Customer of the Brand&#39;
+  Taste &#39;Satisfaction with Taste&#39;
+  Price &#39;Satisfaction with Price&#39;
+  Packaging &#39;Satisfaction with Packaging&#39;
+  Availability &#39;Satisfaction with In-Store Availability&#39;
+  OverallSatisfaction &#39;Overall Satisfaction with the Product&#39;
+  MonthlySpend_NGN &#39;Estimated Monthly Spend (Naira)&#39;
+  WouldRecommend &#39;Would Recommend This Product to Others&#39;.</code></pre>
+<p>Now every table and chart shows these descriptive labels instead of
+the raw variable names.</p>
+<h3 id="value-labels-labeling-coded-categories">3.2 VALUE LABELS —
+labeling coded categories</h3>
+<p>Our satisfaction items are stored as numbers 1–5. VALUE LABELS
+attaches meaning to each number:</p>
+<pre class="spss"><code>VALUE LABELS Taste Price Packaging Availability OverallSatisfaction
+  1 &#39;Very Dissatisfied&#39;
+  2 &#39;Dissatisfied&#39;
+  3 &#39;Neutral&#39;
+  4 &#39;Satisfied&#39;
+  5 &#39;Very Satisfied&#39;.
+
+VALUE LABELS WouldRecommend
+  &#39;Yes&#39; &#39;Would Recommend&#39;
+  &#39;No&#39;  &#39;Would Not Recommend&#39;.</code></pre>
+<p>Note the difference: numeric variables (Taste, Price…) take
+<em>unquoted</em> numbers as values; string variables (WouldRecommend)
+take <em>quoted</em> strings as values.</p>
+<h3 id="variable-level-declaring-measurement-level">3.3 VARIABLE LEVEL —
+declaring measurement level</h3>
+<p>SPSS statistics and charts behave differently depending on whether a
+variable is Nominal, Ordinal, or Scale. Declare this explicitly rather
+than trusting the auto-detected default:</p>
+<pre class="spss"><code>VARIABLE LEVEL
+  RespondentID (NOMINAL)
+  Region Gender Education Product WouldRecommend (NOMINAL)
+  Taste Price Packaging Availability OverallSatisfaction (ORDINAL)
+  Age MonthlyIncome_NGN000 PurchaseFrequency LoyaltyYears MonthlySpend_NGN (SCALE).</code></pre>
+<h3 id="missing-values-flagging-codes-that-dont-represent-real-data">3.4
+MISSING VALUES — flagging codes that don’t represent real data</h3>
+<p>Our Age and MonthlyIncome_NGN000 columns already have blank
+system-missing cells from the import. But suppose, in a future wave of
+this survey, a “999” code is used for “declined to answer”. You’d
+declare it like this:</p>
+<pre class="spss"><code>MISSING VALUES Age (999) MonthlyIncome_NGN000 (999).</code></pre>
+<p>For our current file, blanks already imported as
+<strong>system-missing</strong> (shown as a period <code>.</code> in
+Data View), so no MISSING VALUES command is required — but it’s
+important to know the command exists for the day a numeric “missing
+code” shows up instead of a blank.</p>
+<h3 id="variable-width-and-formats-cosmetic-but-professional">3.5
+VARIABLE WIDTH and FORMATS (cosmetic, but professional)</h3>
+<pre class="spss"><code>FORMATS MonthlyIncome_NGN000 MonthlySpend_NGN (F8.0).
+VARIABLE WIDTH Region Product (10).</code></pre>
+<hr />
+<h2 id="chapter-4-data-management-i-creating-and-transforming-variables">Chapter
+4: Data Management I — Creating and Transforming Variables</h2>
+<h3 id="compute-creating-a-new-variable-from-a-formula">4.1 COMPUTE —
+creating a new variable from a formula</h3>
+<p>Let’s create a total satisfaction <em>index</em> by averaging the
+four satisfaction sub-items:</p>
+<pre class="spss"><code>COMPUTE SatisfactionIndex = MEAN(Taste, Price, Packaging, Availability).
+VARIABLE LABELS SatisfactionIndex &#39;Average Satisfaction Index (Taste/Price/Packaging/Availability)&#39;.
+FORMATS SatisfactionIndex (F5.2).
+EXECUTE.</code></pre>
+<p>Also useful: create an <strong>annual spend</strong> figure from the
+monthly one.</p>
+<pre class="spss"><code>COMPUTE AnnualSpend_NGN = MonthlySpend_NGN * 12.
+VARIABLE LABELS AnnualSpend_NGN &#39;Estimated Annual Spend (Naira)&#39;.
+EXECUTE.</code></pre>
+<p><code>EXECUTE.</code> forces SPSS to actually pass through the data
+and apply the transformation immediately (transformations otherwise wait
+until the next command that reads the data).</p>
+<h3 id="recode-collapsing-categories">4.2 RECODE — collapsing
+categories</h3>
+<p><strong>RECODE INTO a new variable</strong> (always preferred over
+recoding in place, so you keep the original):</p>
+<pre class="spss"><code>RECODE Age (18 THRU 29 = 1) (30 THRU 44 = 2) (45 THRU 59 = 3) (60 THRU HIGHEST = 4) (MISSING=SYSMIS)
+  INTO AgeGroup.
+VARIABLE LABELS AgeGroup &#39;Age Group (Banded)&#39;.
+VALUE LABELS AgeGroup 1 &#39;Under 30&#39; 2 &#39;30-44&#39; 3 &#39;45-59&#39; 4 &#39;60 and above&#39;.
+EXECUTE.</code></pre>
+<p>Banding income the same way:</p>
+<pre class="spss"><code>RECODE MonthlyIncome_NGN000 (LOWEST THRU 79.99 = 1) (80 THRU 149.99 = 2) (150 THRU HIGHEST = 3) (MISSING=SYSMIS)
+  INTO IncomeBand.
+VARIABLE LABELS IncomeBand &#39;Monthly Income Band&#39;.
+VALUE LABELS IncomeBand 1 &#39;Low (&lt; N80,000)&#39; 2 &#39;Middle (N80,000-149,999)&#39; 3 &#39;High (N150,000+)&#39;.
+EXECUTE.</code></pre>
+<p><code>THRU</code> defines an inclusive range; <code>LOWEST</code> and
+<code>HIGHEST</code> avoid hard-coding the true minimum/maximum;
+<code>MISSING=SYSMIS</code> carries missing values through instead of
+accidentally recoding them into a real category — a very common beginner
+mistake is to let system-missing values silently fall into the first
+range.</p>
+<h3 id="if-conditional-assignment">4.3 IF — conditional assignment</h3>
+<p><code>IF</code> assigns a value to an <em>existing</em> variable only
+when a condition is true:</p>
+<pre class="spss"><code>COMPUTE HighValueCustomer = 0.
+IF (MonthlySpend_NGN &gt; 2000 &amp; LoyaltyYears &gt;= 5) HighValueCustomer = 1.
+VARIABLE LABELS HighValueCustomer &#39;High-Value Loyal Customer Flag&#39;.
+VALUE LABELS HighValueCustomer 0 &#39;No&#39; 1 &#39;Yes&#39;.
+EXECUTE.</code></pre>
+<p>Note the pattern: initialize the variable first with
+<code>COMPUTE</code>, then narrow it with one or more <code>IF</code>
+statements.</p>
+<h3 id="do-if-else-if-end-if-multi-branch-logic">4.4 DO IF / ELSE IF /
+END IF — multi-branch logic</h3>
+<p>For more than two branches, <code>DO IF</code> is clearer than
+stacking <code>IF</code> statements:</p>
+<pre class="spss"><code>DO IF (OverallSatisfaction &gt;= 4).
+  COMPUTE SatisfactionTier = 3.
+ELSE IF (OverallSatisfaction = 3).
+  COMPUTE SatisfactionTier = 2.
+ELSE.
+  COMPUTE SatisfactionTier = 1.
+END IF.
+VARIABLE LABELS SatisfactionTier &#39;Satisfaction Tier&#39;.
+VALUE LABELS SatisfactionTier 1 &#39;Low&#39; 2 &#39;Medium&#39; 3 &#39;High&#39;.
+EXECUTE.</code></pre>
+<h3 id="count-counting-occurrences-across-variables">4.5 COUNT —
+counting occurrences across variables</h3>
+<p>Suppose we want to know, for each respondent, how many of the four
+satisfaction items scored the maximum (5):</p>
+<pre class="spss"><code>COUNT MaxScoreCount = Taste Price Packaging Availability (5).
+VARIABLE LABELS MaxScoreCount &#39;Number of Satisfaction Items Rated 5 (Very Satisfied)&#39;.
+EXECUTE.</code></pre>
+<h3 id="string-and-numeric-to-string-conversions">4.6 STRING and
+numeric-to-string conversions</h3>
+<pre class="spss"><code>STRING RegionCode (A2).
+IF (Region = &#39;Lagos&#39;) RegionCode = &#39;LA&#39;.
+IF (Region = &#39;Abuja&#39;) RegionCode = &#39;AB&#39;.
+IF (Region = &#39;Port Harcourt&#39;) RegionCode = &#39;PH&#39;.
+IF (Region = &#39;Ibadan&#39;) RegionCode = &#39;IB&#39;.
+IF (Region = &#39;Kano&#39;) RegionCode = &#39;KN&#39;.
+EXECUTE.</code></pre>
+<hr />
+<h2 id="chapter-5-data-management-ii-selecting-sorting-and-aggregating-cases">Chapter
+5: Data Management II — Selecting, Sorting, and Aggregating Cases</h2>
+<h3 id="sort-cases">5.1 SORT CASES</h3>
+<pre class="spss"><code>SORT CASES BY Region (A) OverallSatisfaction (D).</code></pre>
+<p><code>(A)</code> = ascending, <code>(D)</code> = descending. Sorting
+is often a prerequisite for other commands (like <code>AGGREGATE</code>
+with the <code>BREAK</code> subcommand relying on presorted groups in
+older syntax styles, though modern <code>AGGREGATE</code> sorts
+internally too).</p>
+<h3 id="select-if-permanently-keeping-only-certain-cases">5.2 SELECT IF
+— permanently keeping only certain cases</h3>
+<pre class="spss"><code>* Keep only Lagos respondents for a Lagos-specific report.
+SELECT IF (Region = &#39;Lagos&#39;).
+EXECUTE.</code></pre>
+<p>Use this with care — it permanently deletes non-matching cases from
+the working data file for the remainder of the session (or until you
+re-open the file). For a temporary subset, use <code>TEMPORARY</code>
+(Section 5.3) or <code>FILTER</code> instead.</p>
+<h3 id="temporary-a-one-command-only-restriction">5.3 TEMPORARY — a
+one-command-only restriction</h3>
+<pre class="spss"><code>TEMPORARY.
+SELECT IF (Product = &#39;Gala&#39;).
+FREQUENCIES VARIABLES=OverallSatisfaction.</code></pre>
+<p>Because of <code>TEMPORARY</code>, the <code>SELECT IF</code> above
+applies <strong>only</strong> to the very next command (the
+<code>FREQUENCIES</code>) and the full dataset is restored immediately
+afterward.</p>
+<h3 id="filter-a-reversible-onoff-subset">5.4 FILTER — a reversible,
+on/off subset</h3>
+<pre class="spss"><code>COMPUTE FilterHighIncome = (IncomeBand = 3).
+FILTER BY FilterHighIncome.
+* Any analysis run now only includes high-income respondents...
+FREQUENCIES VARIABLES=Product.
+* ...turn the filter back off when done:
+FILTER OFF.
+USE ALL.
+EXECUTE.</code></pre>
+<h3 id="aggregate-building-a-summary-table-as-a-new-dataset">5.5
+AGGREGATE — building a summary table as a new dataset</h3>
+<pre class="spss"><code>AGGREGATE
+  /OUTFILE=&#39;C:\UAC_Foods\Region_Summary.sav&#39;
+  /BREAK=Region
+  /MeanSatisfaction = MEAN(OverallSatisfaction)
+  /MeanSpend = MEAN(MonthlySpend_NGN)
+  /N_Respondents = N.</code></pre>
+<p>This creates a brand-new file with one row per Region, containing the
+average satisfaction, average spend, and respondent count — perfect
+input for a regional comparison chart.</p>
+<h3 id="weight-applying-survey-weights">5.6 WEIGHT — applying survey
+weights</h3>
+<p>If Kano and Port Harcourt were under-sampled relative to their real
+population share, you might weight cases to correct this:</p>
+<pre class="spss"><code>COMPUTE SurveyWeight = 1.
+IF (Region = &#39;Kano&#39;) SurveyWeight = 1.3.
+IF (Region = &#39;Port Harcourt&#39;) SurveyWeight = 1.2.
+WEIGHT BY SurveyWeight.
+EXECUTE.
+* Turn weighting off again with:
+WEIGHT OFF.</code></pre>
+<hr />
+<h2 id="chapter-6-descriptive-statistics">Chapter 6: Descriptive
+Statistics</h2>
+<h3 id="frequencies-categorical-and-ordinal-summaries">6.1 FREQUENCIES —
+categorical and ordinal summaries</h3>
+<pre class="spss"><code>FREQUENCIES VARIABLES=Region Gender Education Product WouldRecommend
+  /ORDER=ANALYSIS.</code></pre>
+<p>Add a bar chart directly from the command:</p>
+<pre class="spss"><code>FREQUENCIES VARIABLES=Product
+  /BARCHART PERCENT
+  /ORDER=ANALYSIS.</code></pre>
+<h3 id="descriptives-scale-variable-summaries-mean-sd-min-max">6.2
+DESCRIPTIVES — scale-variable summaries (mean, SD, min, max)</h3>
+<pre class="spss"><code>DESCRIPTIVES VARIABLES=Age MonthlyIncome_NGN000 PurchaseFrequency LoyaltyYears MonthlySpend_NGN
+  /STATISTICS=MEAN STDDEV MIN MAX RANGE SEMEAN
+  /SORT=MEAN (A).</code></pre>
+<p><code>/SORT</code> orders the output table by a chosen statistic —
+handy in a report with many variables.</p>
+<p>To also standardize a variable (create a z-score version), add
+<code>/SAVE</code>:</p>
+<pre class="spss"><code>DESCRIPTIVES VARIABLES=MonthlySpend_NGN /SAVE.</code></pre>
+<p>This creates a new variable <code>ZMonthlySpend_NGN</code>
+automatically.</p>
+<h3 id="examine-deeper-distributional-diagnostics">6.3 EXAMINE — deeper
+distributional diagnostics</h3>
+<p><code>EXAMINE</code> gives you skewness, kurtosis, a Shapiro-Wilk
+normality test, and boxplots — essential before choosing parametric
+vs. non-parametric tests later.</p>
+<pre class="spss"><code>EXAMINE VARIABLES=MonthlySpend_NGN BY Gender
+  /PLOT BOXPLOT HISTOGRAM
+  /STATISTICS DESCRIPTIVES
+  /CINTERVAL 95
+  /MISSING LISTWISE.</code></pre>
+<h3 id="frequencies-with-percentiles-for-ordinal-items">6.4 Frequencies
+with percentiles for ordinal items</h3>
+<pre class="spss"><code>FREQUENCIES VARIABLES=OverallSatisfaction
+  /FORMAT=NOTABLE
+  /PERCENTILES=25 50 75
+  /STATISTICS=MEDIAN MODE.</code></pre>
+<hr />
+<h2 id="chapter-7-cross-tabulation-and-the-chi-square-test">Chapter 7:
+Cross-Tabulation and the Chi-Square Test</h2>
+<p>Cross-tabulation is the workhorse of survey analysis: does one
+categorical variable relate to another?</p>
+<h3 id="a-basic-two-way-table">7.1 A basic two-way table</h3>
+<pre class="spss"><code>CROSSTABS
+  /TABLES=Gender BY WouldRecommend
+  /FORMAT=AVALUE TABLES
+  /CELLS=COUNT ROW COLUMN TOTAL
+  /COUNT ROUND CELL.</code></pre>
+<p><code>/CELLS=COUNT ROW COLUMN TOTAL</code> prints raw counts plus
+row%, column%, and total% — the combination you’ll want in almost every
+real report.</p>
+<h3 id="adding-the-chi-square-test-of-independence">7.2 Adding the
+Chi-Square test of independence</h3>
+<pre class="spss"><code>CROSSTABS
+  /TABLES=Region BY WouldRecommend
+  /FORMAT=AVALUE TABLES
+  /STATISTICS=CHISQ PHI
+  /CELLS=COUNT ROW
+  /COUNT ROUND CELL.</code></pre>
+<ul>
+<li><code>CHISQ</code> requests the Pearson Chi-Square statistic and its
+p-value (Asymp. Sig.).</li>
+<li><code>PHI</code> requests the Phi and Cramér’s V effect-size
+measures, useful when Chi-Square is significant and you want to know
+<em>how strongly</em>, not just <em>whether</em>, the variables are
+associated.</li>
+</ul>
+<p><strong>Reading the output:</strong> if “Asymp. Sig. (2-sided)” is
+below .05, conclude Region and WouldRecommend are not independent —
+recommendation rates genuinely differ by region in this sample.</p>
+<h3 id="three-way-layered-tables">7.3 Three-way (layered) tables</h3>
+<pre class="spss"><code>CROSSTABS
+  /TABLES=Product BY WouldRecommend BY Gender
+  /STATISTICS=CHISQ
+  /CELLS=COUNT ROW.</code></pre>
+<p>This produces a separate Product × WouldRecommend table for each
+Gender, letting you check whether an association holds for both men and
+women separately.</p>
+<hr />
+<h2 id="chapter-8-comparing-means-t-tests-and-anova">Chapter 8:
+Comparing Means — T-Tests and ANOVA</h2>
+<h3 id="independent-samples-t-test">8.1 Independent-Samples T-Test</h3>
+<p>Does average monthly spend differ between men and women?</p>
+<pre class="spss"><code>T-TEST GROUPS=Gender(&#39;Male&#39; &#39;Female&#39;)
+  /VARIABLES=MonthlySpend_NGN
+  /CRITERIA=CI(.95)
+  /MISSING=ANALYSIS.</code></pre>
+<p><strong>Reading the output:</strong> first check <strong>Levene’s
+Test for Equality of Variances</strong>. If its Sig. is above .05, read
+the “Equal variances assumed” row for the t, df, and Sig. (2-tailed); if
+below .05, read the “Equal variances not assumed” row instead.</p>
+<h3 id="paired-samples-t-test">8.2 Paired-Samples T-Test</h3>
+<p>Suppose we wanted to compare Taste satisfaction against Packaging
+satisfaction <em>within the same respondents</em> (a meaningful paired
+comparison since both are 1–5 scales from the same people):</p>
+<pre class="spss"><code>T-TEST PAIRS=Taste WITH Packaging (PAIRED)
+  /CRITERIA=CI(.95)
+  /MISSING=ANALYSIS.</code></pre>
+<h3 id="one-sample-t-test">8.3 One-Sample T-Test</h3>
+<p>Testing whether average OverallSatisfaction differs from the survey’s
+target benchmark of 3.5:</p>
+<pre class="spss"><code>T-TEST /TESTVAL=3.5
+  /VARIABLES=OverallSatisfaction
+  /CRITERIA=CI(.95)
+  /MISSING=ANALYSIS.</code></pre>
+<h3 id="one-way-anova-comparing-more-than-two-groups">8.4 One-Way ANOVA
+— comparing more than two groups</h3>
+<p>Does average MonthlySpend_NGN differ across the five Regions?</p>
+<pre class="spss"><code>ONEWAY MonthlySpend_NGN BY Region
+  /STATISTICS DESCRIPTIVES HOMOGENEITY
+  /MISSING ANALYSIS
+  /POSTHOC=TUKEY BONFERRONI ALPHA(0.05).</code></pre>
+<ul>
+<li><code>HOMOGENEITY</code> requests Levene’s test — check this before
+trusting the standard ANOVA F-test.</li>
+<li><code>/POSTHOC=TUKEY BONFERRONI</code> tells you <em>which specific
+pairs</em> of regions differ, once the overall F-test is significant —
+the overall ANOVA only tells you “somewhere a difference exists”, not
+where.</li>
+</ul>
+<h3 id="two-way-anova-with-unianova-bonus-for-when-one-factor-isnt-enough">8.5
+Two-way ANOVA with UNIANOVA (bonus, for when one factor isn’t
+enough)</h3>
+<pre class="spss"><code>UNIANOVA MonthlySpend_NGN BY Region Gender
+  /METHOD=SSTYPE(3)
+  /INTERCEPT=INCLUDE
+  /PRINT=DESCRIPTIVE ETASQ
+  /CRITERIA=ALPHA(0.05)
+  /DESIGN=Region Gender Region*Gender.</code></pre>
+<p>The <code>Region*Gender</code> term tests whether the effect of
+Region on spend depends on Gender (an interaction effect).</p>
+<hr />
+<h2 id="chapter-9-correlation">Chapter 9: Correlation</h2>
+<h3 id="pearson-correlation-matrix">9.1 Pearson correlation matrix</h3>
+<pre class="spss"><code>CORRELATIONS
+  /VARIABLES=Taste Price Packaging Availability OverallSatisfaction MonthlySpend_NGN
+  /PRINT=TWOTAIL NOSIG
+  /MISSING=PAIRWISE.</code></pre>
+<p><code>/PRINT=TWOTAIL NOSIG</code> requests a two-tailed test and
+flags non-significant correlations, so significant ones stand out.</p>
+<h3 id="spearman-correlation-for-ordinal-non-normal-data">9.2 Spearman
+correlation (for ordinal / non-normal data)</h3>
+<p>Since our satisfaction items are ordinal Likert scales, a Spearman
+rank correlation is often more defensible than Pearson:</p>
+<pre class="spss"><code>NONPAR CORR
+  /VARIABLES=Taste Price Packaging Availability OverallSatisfaction
+  /PRINT=SPEARMAN TWOTAIL
+  /MISSING=PAIRWISE.</code></pre>
+<hr />
+<h2 id="chapter-10-reliability-analysis-cronbachs-alpha">Chapter 10:
+Reliability Analysis (Cronbach’s Alpha)</h2>
+<p>Before treating Taste, Price, Packaging, and Availability as one
+combined “satisfaction index” (as we did in Chapter 4), we should check
+that they reliably measure a single underlying construct:</p>
+<pre class="spss"><code>RELIABILITY
+  /VARIABLES=Taste Price Packaging Availability
+  /SCALE(&#39;Satisfaction Scale&#39;) ALL
+  /MODEL=ALPHA
+  /STATISTICS=DESCRIPTIVE SCALE CORR
+  /SUMMARY=TOTAL.</code></pre>
+<p><strong>Rule of thumb for Cronbach’s Alpha:</strong> ≥ .70 is
+generally considered acceptable internal consistency for a scale used in
+applied research; ≥ .80 is good. The <code>/SUMMARY=TOTAL</code>
+subcommand also prints “Alpha if Item Deleted” for each item — useful
+for spotting a weak item that’s dragging reliability down.</p>
+<hr />
+<h2 id="chapter-11-regression-analysis">Chapter 11: Regression
+Analysis</h2>
+<h3 id="simple-linear-regression">11.1 Simple linear regression</h3>
+<p>Does purchase frequency predict monthly spend?</p>
+<pre class="spss"><code>REGRESSION
+  /MISSING LISTWISE
+  /STATISTICS COEFF OUTS R ANOVA
+  /DEPENDENT MonthlySpend_NGN
+  /METHOD=ENTER PurchaseFrequency.</code></pre>
+<h3 id="multiple-linear-regression">11.2 Multiple linear regression</h3>
+<p>Now with several predictors together:</p>
+<pre class="spss"><code>REGRESSION
+  /MISSING LISTWISE
+  /STATISTICS COEFF OUTS R ANOVA COLLIN TOL
+  /DEPENDENT MonthlySpend_NGN
+  /METHOD=ENTER MonthlyIncome_NGN000 PurchaseFrequency LoyaltyYears OverallSatisfaction
+  /SCATTERPLOT=(*ZRESID,*ZPRED)
+  /SAVE PRED RESID.</code></pre>
+<ul>
+<li><code>COLLIN TOL</code> requests collinearity diagnostics (VIF,
+Tolerance) — check that no predictor has Tolerance below ~0.10 (a sign
+of problematic multicollinearity).</li>
+<li><code>/SCATTERPLOT=(*ZRESID,*ZPRED)</code> produces the standard
+residuals-vs-predicted plot for checking homoscedasticity.</li>
+<li><code>/SAVE PRED RESID</code> writes the model’s predicted values
+and residuals back into the dataset as new columns.</li>
+</ul>
+<p><strong>Reading the output:</strong> the Model Summary table’s R²
+tells you the proportion of variance in MonthlySpend_NGN explained
+jointly by all predictors; the Coefficients table’s Sig. column tells
+you which individual predictors are statistically significant while
+holding the others constant.</p>
+<h3 id="stepwise-hierarchical-entry-bonus">11.3 Stepwise / hierarchical
+entry (bonus)</h3>
+<pre class="spss"><code>REGRESSION
+  /MISSING LISTWISE
+  /STATISTICS COEFF OUTS R ANOVA CHANGE
+  /DEPENDENT MonthlySpend_NGN
+  /METHOD=ENTER MonthlyIncome_NGN000
+  /METHOD=ENTER PurchaseFrequency LoyaltyYears OverallSatisfaction.</code></pre>
+<p>Two <code>/METHOD=ENTER</code> blocks create a
+<strong>hierarchical</strong> regression: Block 1 enters income alone;
+Block 2 adds the remaining predictors. <code>CHANGE</code> in the
+STATISTICS list reports the R² Change between blocks — did the added
+predictors explain significantly more variance?</p>
+<hr />
+<h2 id="chapter-12-non-parametric-tests-when-assumptions-dont-hold">Chapter
+12: Non-Parametric Tests (When Assumptions Don’t Hold)</h2>
+<h3 id="mann-whitney-u-non-parametric-alternative-to-independent-t-test">12.1
+Mann-Whitney U (non-parametric alternative to independent t-test)</h3>
+<pre class="spss"><code>NPAR TESTS
+  /M-W= OverallSatisfaction BY Gender(1 2)
+  /MISSING ANALYSIS.</code></pre>
+<p>Note: Mann-Whitney in this syntax form expects numeric group codes.
+Since Gender is a string here, use the dialog-generated form instead,
+which SPSS auto-writes as:</p>
+<pre class="spss"><code>NPTESTS
+  /INDEPENDENT TEST (OverallSatisfaction) GROUP (Gender)
+  /MISSING SCOPE=ANALYSIS USERMISSING=EXCLUDE
+  /CRITERIA ALPHA=0.05 CILEVEL=95.</code></pre>
+<h3 id="kruskal-wallis-non-parametric-alternative-to-one-way-anova">12.2
+Kruskal-Wallis (non-parametric alternative to one-way ANOVA)</h3>
+<pre class="spss"><code>NPTESTS
+  /INDEPENDENT TEST (MonthlySpend_NGN) GROUP (Region)
+  /MISSING SCOPE=ANALYSIS USERMISSING=EXCLUDE
+  /CRITERIA ALPHA=0.05 CILEVEL=95.</code></pre>
+<h3 id="chi-square-goodness-of-fit-test">12.3 Chi-Square goodness-of-fit
+test</h3>
+<p>Testing whether the five products were purchased in <em>equal</em>
+proportions (rather than testing association <em>between</em> two
+variables, as CROSSTABS does):</p>
+<pre class="spss"><code>NPAR TESTS
+  /CHISQUARE=Product
+  /EXPECTED=EQUAL
+  /MISSING ANALYSIS.</code></pre>
+<hr />
+<h2 id="chapter-13-basic-charts-from-syntax">Chapter 13: Basic Charts
+from Syntax</h2>
+<h3 id="bar-chart-of-a-categorical-variable">13.1 Bar chart of a
+categorical variable</h3>
+<pre class="spss"><code>GRAPH
+  /BAR(SIMPLE)=COUNT BY Product
+  /MISSING=REPORT.</code></pre>
+<h3 id="clustered-bar-chart-two-variables-at-once">13.2 Clustered bar
+chart (two variables at once)</h3>
+<pre class="spss"><code>GRAPH
+  /BAR(GROUPED)=COUNT BY Region BY WouldRecommend
+  /MISSING=REPORT.</code></pre>
+<h3 id="scatterplot-with-a-fit-line">13.3 Scatterplot with a fit
+line</h3>
+<pre class="spss"><code>GRAPH
+  /SCATTERPLOT(BIVAR)=MonthlyIncome_NGN000 WITH MonthlySpend_NGN
+  /MISSING=LISTWISE.</code></pre>
+<h3 id="histogram-with-a-normal-curve-overlay">13.4 Histogram with a
+normal curve overlay</h3>
+<pre class="spss"><code>FREQUENCIES VARIABLES=MonthlySpend_NGN
+  /FORMAT=NOTABLE
+  /HISTOGRAM NORMAL.</code></pre>
+<hr />
+<h2 id="chapter-14-output-and-file-management">Chapter 14: Output and
+File Management</h2>
+<h3 id="routing-output-to-a-word-readable-file">14.1 Routing output to a
+Word-readable file</h3>
+<pre class="spss"><code>OUTPUT SAVE OUTFILE=&#39;C:\UAC_Foods\UAC_Foods_Results.spv&#39;.</code></pre>
+<h3 id="exporting-output-directly-to-word-or-pdf">14.2 Exporting output
+directly to Word or PDF</h3>
+<pre class="spss"><code>OUTPUT EXPORT
+  /CONTENTS  EXPORT=ALL
+  /DOCUMENTFILE  DOCUMENTFILE=&#39;C:\UAC_Foods\UAC_Foods_Results.docx&#39;
+  /DOCUMENTTYPE  DOCUMENTTYPE=WORD.</code></pre>
+<h3 id="exporting-the-working-data-back-out-to-csv-or-excel">14.3
+Exporting the working data back out to CSV or Excel</h3>
+<pre class="spss"><code>SAVE TRANSLATE OUTFILE=&#39;C:\UAC_Foods\UAC_Foods_Clean.csv&#39;
+  /TYPE=CSV
+  /FIELDNAMES
+  /REPLACE.
+
+SAVE TRANSLATE OUTFILE=&#39;C:\UAC_Foods\UAC_Foods_Clean.xlsx&#39;
+  /TYPE=XLSX
+  /VERSION=12
+  /FIELDNAMES
+  /REPLACE.</code></pre>
+<h3 id="a-tip-for-learning-faster-let-spss-write-syntax-for-you">14.4 A
+tip for learning faster: let SPSS write syntax for you</h3>
+<p>Even as you master syntax, you can accelerate learning by running any
+dialog box once through the menus, then clicking <strong>Paste</strong>
+instead of <strong>OK</strong>. SPSS writes the exact syntax for what
+you just configured into a new Syntax window — a fast way to discover
+subcommands you haven’t memorized yet.</p>
+<hr />
+<h2 id="chapter-15-putting-it-all-together-a-capstone-analysis-script">Chapter
+15: Putting It All Together — A Capstone Analysis Script</h2>
+<p>This single script chains everything above into one coherent,
+ready-to-run project analyzing what drives satisfaction and
+recommendation of UAC Foods products.</p>
+<pre class="spss"><code>* ============================================================
+* CAPSTONE SCRIPT: UAC Foods Customer Satisfaction Analysis
+* ============================================================.
+
+* 1. Import.
+GET DATA
+  /TYPE=XLSX
+  /FILE=&#39;C:\UAC_Foods\UAC_Foods_Survey.xlsx&#39;
+  /SHEET=NAME &#39;UAC_Foods_Survey&#39;
+  /CELLRANGE=FULL
+  /READNAMES=ON.
+EXECUTE.
+
+* 2. Label variables and values.
+VARIABLE LABELS
+  OverallSatisfaction &#39;Overall Satisfaction with the Product&#39;
+  MonthlySpend_NGN &#39;Estimated Monthly Spend (Naira)&#39;.
+VALUE LABELS Taste Price Packaging Availability OverallSatisfaction
+  1 &#39;Very Dissatisfied&#39; 2 &#39;Dissatisfied&#39; 3 &#39;Neutral&#39; 4 &#39;Satisfied&#39; 5 &#39;Very Satisfied&#39;.
+
+* 3. Build derived variables.
+COMPUTE SatisfactionIndex = MEAN(Taste, Price, Packaging, Availability).
+RECODE Age (18 THRU 29=1)(30 THRU 44=2)(45 THRU 59=3)(60 THRU HIGHEST=4)(MISSING=SYSMIS) INTO AgeGroup.
+VALUE LABELS AgeGroup 1 &#39;Under 30&#39; 2 &#39;30-44&#39; 3 &#39;45-59&#39; 4 &#39;60+&#39;.
+EXECUTE.
+
+* 4. Describe the sample.
+FREQUENCIES VARIABLES=Region Gender Product WouldRecommend.
+DESCRIPTIVES VARIABLES=Age MonthlyIncome_NGN000 MonthlySpend_NGN /STATISTICS=MEAN STDDEV MIN MAX.
+
+* 5. Check scale reliability before using SatisfactionIndex further.
+RELIABILITY /VARIABLES=Taste Price Packaging Availability /MODEL=ALPHA.
+
+* 6. Test group differences.
+T-TEST GROUPS=Gender(&#39;Male&#39; &#39;Female&#39;) /VARIABLES=MonthlySpend_NGN.
+ONEWAY MonthlySpend_NGN BY Region /STATISTICS DESCRIPTIVES HOMOGENEITY /POSTHOC=TUKEY.
+
+* 7. Test association between categorical variables.
+CROSSTABS /TABLES=Region BY WouldRecommend /STATISTICS=CHISQ PHI /CELLS=COUNT ROW.
+
+* 8. Model what predicts spend.
+REGRESSION
+  /DEPENDENT MonthlySpend_NGN
+  /METHOD=ENTER MonthlyIncome_NGN000 PurchaseFrequency LoyaltyYears SatisfactionIndex.
+
+* 9. Save the enriched, labeled file for future sessions.
+SAVE OUTFILE=&#39;C:\UAC_Foods\UAC_Foods_Survey_Final.sav&#39;.</code></pre>
+<hr />
+<h2 id="chapter-16-practice-exercises">Chapter 16: Practice
+Exercises</h2>
+<p>Try writing the syntax yourself before checking the answer key.</p>
+<ol type="1">
+<li>Produce a frequency table of <code>Education</code>, sorted so the
+most common category appears first.</li>
+<li>Create a new variable <code>SpendPerPurchase</code> equal to
+<code>MonthlySpend_NGN</code> divided by
+<code>PurchaseFrequency</code>.</li>
+<li>Recode <code>LoyaltyYears</code> into a new variable
+<code>LoyaltyBand</code> with three categories: 0–2 years, 3–7 years, 8+
+years.</li>
+<li>Run a Chi-Square test of whether <code>Education</code> is
+associated with <code>WouldRecommend</code>.</li>
+<li>Run an independent-samples t-test comparing
+<code>SatisfactionIndex</code> between respondents who would and
+wouldn’t recommend the product.</li>
+<li>Run a multiple regression predicting
+<code>OverallSatisfaction</code> from <code>Taste</code>,
+<code>Price</code>, <code>Packaging</code>, and
+<code>Availability</code>, and identify which predictor has the largest
+standardized coefficient (Beta).</li>
+</ol>
+<h3 id="answer-key">Answer Key</h3>
+<pre class="spss"><code>* 1.
+FREQUENCIES VARIABLES=Education /ORDER=ANALYSIS /FORMAT=DFREQ.
+
+* 2.
+COMPUTE SpendPerPurchase = MonthlySpend_NGN / PurchaseFrequency.
+VARIABLE LABELS SpendPerPurchase &#39;Average Spend per Purchase (Naira)&#39;.
+EXECUTE.
+
+* 3.
+RECODE LoyaltyYears (0 THRU 2=1)(3 THRU 7=2)(8 THRU HIGHEST=3) INTO LoyaltyBand.
+VALUE LABELS LoyaltyBand 1 &#39;0-2 years&#39; 2 &#39;3-7 years&#39; 3 &#39;8+ years&#39;.
+EXECUTE.
+
+* 4.
+CROSSTABS /TABLES=Education BY WouldRecommend /STATISTICS=CHISQ /CELLS=COUNT ROW.
+
+* 5.
+COMPUTE SatisfactionIndex = MEAN(Taste, Price, Packaging, Availability).
+EXECUTE.
+T-TEST GROUPS=WouldRecommend(&#39;Yes&#39; &#39;No&#39;) /VARIABLES=SatisfactionIndex.
+
+* 6.
+REGRESSION
+  /STATISTICS COEFF OUTS R ANOVA
+  /DEPENDENT OverallSatisfaction
+  /METHOD=ENTER Taste Price Packaging Availability.
+* Compare the &quot;Beta&quot; (standardized coefficient) column in the Coefficients table across
+* the four predictors; the largest absolute Beta is the strongest unique predictor.</code></pre>
+<hr />
+<h2 id="chapter-17-common-errors-and-how-to-read-them">Chapter 17:
+Common Errors and How to Read Them</h2>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Error message</th>
+<th>What it usually means</th>
+<th>Fix</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>“An unknown command was specified”</td>
+<td>Usually a missing period on the <em>previous</em> command, so SPSS
+reads its next line as a new command</td>
+<td>Add the missing <code>.</code></td>
+</tr>
+<tr class="even">
+<td>“Variable … not defined”</td>
+<td>Misspelled variable name, or the file wasn’t fully imported yet</td>
+<td>Check <code>DISPLAY DICTIONARY.</code> output for exact
+spelling</td>
+</tr>
+<tr class="odd">
+<td>“There is no dataset open”</td>
+<td>Ran a command before <code>GET DATA</code>/<code>GET FILE</code>
+finished</td>
+<td>Re-run the import first</td>
+</tr>
+<tr class="even">
+<td>Table looks empty / all missing</td>
+<td><code>MISSING</code> handling (LISTWISE vs. PAIRWISE) excluded all
+cases</td>
+<td>Check which variables have missing data with
+<code>FREQUENCIES</code></td>
+</tr>
+<tr class="odd">
+<td>Numbers look like text (left-aligned)</td>
+<td>Column was imported as a string when it should be numeric</td>
+<td>Re-import with the correct <code>F8.0</code> format, or use
+<code>ALTER TYPE varname (F8.0).</code></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="where-to-go-from-here">Where to Go From Here</h2>
+<p>Once comfortable with everything above, natural next steps include:
+<code>FACTOR</code> (factor analysis / PCA), <code>CLUSTER</code> and
+<code>QUICK CLUSTER</code> (segmentation),
+<code>LOGISTIC REGRESSION</code> (predicting a Yes/No outcome like
+WouldRecommend directly instead of using Chi-Square), and the
+<code>MIXED</code> / <code>GENLIN</code> commands for more advanced
+modeling. All follow the same syntax grammar you’ve learned here:
+<code>COMMAND /subcommand=value ... .</code></p>
+</body>
+</html>
