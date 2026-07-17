@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prodigy Excel Pivot Tables and Charts - Training Guide</title>
+<style>
+  :root {
+    --navy: #1F4E78;
+    --light-blue: #DCE6F1;
+    --accent: #2E7D32;
+    --grey: #666666;
+    --bg: #F7F9FC;
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin: 0;
+    background: var(--bg);
+    color: #222;
+    line-height: 1.55;
+  }
+  header {
+    background: linear-gradient(135deg, var(--navy), #2E6DA4);
+    color: white;
+    padding: 48px 24px 40px;
+    text-align: center;
+  }
+  header h1 { margin: 0 0 8px; font-size: 2.2em; }
+  header p { margin: 4px 0; opacity: 0.9; }
+  .layout {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: flex-start;
+  }
+  nav {
+    width: 300px;
+    flex-shrink: 0;
+    position: sticky;
+    top: 0;
+    max-height: 100vh;
+    overflow-y: auto;
+    padding: 24px 16px;
+    background: white;
+    border-right: 1px solid #E0E6ED;
+  }
+  nav h4 { color: var(--navy); margin-top: 0; }
+  nav ul { list-style: none; padding-left: 0; margin: 0; }
+  nav li { margin-bottom: 6px; }
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 0.92em;
+    display: block;
+    padding: 6px 10px;
+    border-radius: 6px;
+  }
+  nav a:hover { background: var(--light-blue); color: var(--navy); }
+  main { flex: 1; padding: 24px 40px 80px; }
+  .intro-card {
+    background: white;
+    border-radius: 10px;
+    padding: 28px 32px;
+    margin-bottom: 32px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+  }
+  .intro-card h2 { color: var(--navy); margin-top: 0; }
+  .pivot-section {
+    background: white;
+    border-radius: 10px;
+    padding: 28px 32px;
+    margin-bottom: 28px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+    scroll-margin-top: 20px;
+  }
+  .section-badge {
+    display: inline-block;
+    background: var(--light-blue);
+    color: var(--navy);
+    font-weight: 600;
+    font-size: 0.78em;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    padding: 4px 12px;
+    border-radius: 999px;
+    margin-bottom: 10px;
+  }
+  h2 { color: var(--navy); margin-top: 4px; }
+  h3 {
+    color: var(--navy);
+    border-bottom: 2px solid var(--light-blue);
+    padding-bottom: 4px;
+    margin-top: 28px;
+  }
+  .purpose { color: #444; font-size: 1.02em; }
+  .fields-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12px 0 20px;
+  }
+  .fields-table th, .fields-table td {
+    border: 1px solid #E0E6ED;
+    padding: 10px 14px;
+    text-align: left;
+  }
+  .fields-table th {
+    background: var(--light-blue);
+    color: var(--navy);
+    width: 140px;
+  }
+  ol { padding-left: 22px; }
+  ol li { margin-bottom: 8px; }
+  .qa {
+    background: var(--bg);
+    border-left: 4px solid var(--navy);
+    border-radius: 6px;
+    padding: 14px 18px;
+    margin-bottom: 14px;
+  }
+  .qa .q { margin: 0 0 8px; font-weight: 600; }
+  .qa .a { margin: 0; color: #2E7D32; }
+  .tag {
+    display: inline-block;
+    font-size: 0.72em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    background: var(--navy);
+    color: white;
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+  .answer-tag { background: var(--accent); }
+  footer {
+    text-align: center;
+    padding: 24px;
+    color: var(--grey);
+    font-size: 0.85em;
+  }
+  @media (max-width: 900px) {
+    .layout { flex-direction: column; }
+    nav { width: 100%; position: static; max-height: none; border-right: none; border-bottom: 1px solid #E0E6ED; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Excel Pivot Tables and Charts</h1>
+  <p>Prodigy Training Hub - Training Guide and Quick Reference</p>
+  <p>Dataset: Prodigy Retail &amp; Electronics Ltd - Nigeria Sales Records (2023-2025)</p>
+</header>
+
+<div class="layout">
+  <nav>
+    <h4>Contents</h4>
+    <ul>
+      <li><a href="#intro">Introduction and Dataset Overview</a></li>
+      <li><a href="#pt1">Pivot Table 1: Total Net Sales by Region</a></li><li><a href="#pt2">Pivot Table 2: Net Sales by Product Category and Region (Matrix Pivot Table)</a></li><li><a href="#pt3">Pivot Table 3: Sales Rep Performance (Orders, Average Order Value, Total Sales)</a></li><li><a href="#pt4">Pivot Table 4: Quarterly Sales Trend (2023 to 2025)</a></li><li><a href="#pt5">Pivot Table 5: Profit Margin Analysis by Product Category</a></li><li><a href="#pt6">Pivot Table 6: Payment Method Distribution</a></li><li><a href="#pt7">Pivot Table 7: Order Status Breakdown (Returned and Cancelled Impact)</a></li><li><a href="#pt8">Pivot Table 8: Top 10 Products by Net Sales</a></li><li><a href="#pt9">Pivot Table 9: Customer Segment Analysis</a></li><li><a href="#pt10">Pivot Table 10: Region by Payment Method Cross-Tab</a></li>
+      <li><a href="#further">Further Practice</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="intro-card" id="intro">
+      <h2>Introduction and Dataset Overview</h2>
+      <p>This guide teaches Excel Pivot Tables and Pivot Charts using a single, realistic dataset built for
+      Prodigy Retail &amp; Electronics Ltd, a fictional Nigerian retail company selling Electronics, Home
+      Appliances, Phones and Tablets, Computing equipment, Furniture, and Fashion and Accessories.</p>
+      <p>The dataset covers 1,100 sales transactions recorded between January 2023 and December 2025, across
+      six regions of Nigeria (South West, South East, South South, North Central, North West, and North East),
+      16 sales representatives, and 27 distinct products.</p>
+      <p><strong>Companion files:</strong> Prodigy_Pivot_Tables_Practice_Workbook.xlsx (raw dataset and blank
+      working sheets), Prodigy_Pivot_Tables_Companion_Notebook.ipynb (pandas answer key), and
+      Prodigy_Excel_Pivot_Tables_Training_Guide.docx (this same content as a printable Word document).</p>
+      <p><strong>Pivot Table basics:</strong></p>
+      <ol>
+        <li>A Pivot Table summarizes a large table of data by letting you drag fields into four areas: Rows, Columns, Values, and Filters.</li>
+        <li>Fields placed in Values are automatically summarized (Sum for numbers, Count for text) but the summary type can be changed through Value Field Settings.</li>
+        <li>A Pivot Chart is a chart built directly from a Pivot Table, and updates automatically when the Pivot Table changes.</li>
+        <li>Whenever the source data changes, right-click any Pivot Table and choose Refresh, or click Refresh All on the Data tab.</li>
+      </ol>
+    </div>
+
+    
+  <section class="pivot-section" id="pt1">
+    <div class="section-badge">Pivot Table 1</div>
+    <h2>Total Net Sales by Region</h2>
+    <p class="purpose">Shows how total revenue is distributed across the six regions Prodigy Retail &amp; Electronics Ltd sells in, so management can see which regions are driving the business.</p>
+
+    <h3>Field Layout</h3>
+    
+  <table class="fields-table">
+    <tr><th>Rows</th><td>Region</td></tr>
+    <tr><th>Columns</th><td>(none)</td></tr>
+    <tr><th>Filter</th><td>(none)</td></tr>
+    <tr><th>Values</th><td>Sum of Net Sales (NGN)</td></tr>
+  </table>
+
+    <h3>Step-by-Step Instructions</h3>
+    <ol><li>Click any cell inside the Sales Data table (RetailSalesTable) on the Sales Data sheet.</li><li>Go to the Insert tab and click PivotTable. Confirm the table range is correct and choose New Worksheet, then click OK.</li><li>In the PivotTable Fields pane, drag Region into the Rows area.</li><li>Drag Net Sales (NGN) into the Values area. It will appear as Sum of Net Sales (NGN).</li><li>Right-click any value in the Sum of Net Sales (NGN) column and choose Sort, then Sort Largest to Smallest.</li><li>Right-click any value again, choose Value Field Settings, click Number Format, and apply a currency-style Number format with a thousands separator and no decimal places.</li></ol>
+
+    <h3>Pivot Chart: Clustered Bar Chart (Pivot Chart)</h3>
+    <ol><li>Click any cell inside the Pivot Table you just built.</li><li>Go to PivotTable Analyze (or PivotChart Analyze) and click PivotChart.</li><li>Choose Bar, then Clustered Bar, and click OK.</li><li>Right-click the chart, choose Move Chart, and place it on the Pivot Charts sheet if you want it separated from the Pivot Table.</li><li>Add a chart title: Total Net Sales by Region.</li></ol>
+
+    <h3>Practice Questions and Model Answers</h3>
+    
+    <div class="qa">
+      <p class="q"><span class="tag">Question 1</span>Which region generated the highest Net Sales, and what was the amount?</p>
+      <p class="a"><span class="tag answer-tag">Answer</span>South West generated the highest Net Sales, at N191,418,345.</p>
+    </div>
+    <div class="qa">
+      <p class="q"><span class="tag">Question 2</span>Which region generated the lowest Net Sales, and what was the amount?</p>
+      <p class="a"><span class="tag answer-tag">Answer</span>North East generated the lowest Net Sales, at N42,360,805.</p>
+    </div>
+    <div class="qa">
+      <p class="q"><span class="tag">Question 3</span>Approximately how many times larger is South West's Net Sales than North East's? What might explain this gap?</p>
+      <p class="a"><span class="tag answer-tag">Answer</span>South West's Net Sales are about 4.5 times North East's. This is expected because South West contains Lagos, the commercial hub with the highest branch count and order volume in the dataset (309 orders versus 86 in North East).</p>
+    </div>
+  </section>
+
+  <section class="pivot-section" id="pt2">
+    <div class="section-badge">Pivot Table 2</div>
+    <h2>Net Sales by Product Category and Region (Matrix Pivot Table)</h2>
+    <p class="purpose">Breaks Net Sales down by both Product Category and Region at the same time, letting learners practice a two-dimensional Pivot Table and spot which product lines perform best in which parts of the country.</p>
+
+    <h3>Field Layout</h3>
+    
+  <table class="fields-table">
+    <tr><th>Rows</th><td>Product Category</td></tr>
+    <tr><th>Columns</th><td>Region</td></tr>
+    <tr><th>Filter</th><td>(none)</td></tr>
+    <tr><th>Values</th><td>Sum of Net Sales (NGN)</td></tr>
+  </table>
+
+    <h3>Step-by-Step Instructions</h3>
+    <ol><li>Click any cell inside the Sales Data table and insert a new Pivot Table on a new worksheet.</li><li>Drag Product Category into the Rows area.</li><li>Drag Region into the Columns area.</li><li>Drag Net Sales (NGN) into the Values area (Sum of Net Sales (NGN)).</li><li>Right-click inside the Pivot Table, choose PivotTable Options, and on the Layout &amp; Format tab, set 'For empty cells show' to 0 so blank combinations display as zero rather than blank.</li><li>Apply a currency number format to the Values area as in Pivot Table 1.</li></ol>
+
+    <h3>Pivot Chart: Stacked Column Chart (Pivot Chart)</h3>
+    <ol><li>With the Pivot Table selected, go to PivotTable Analyze and click PivotChart.</li><li>Choose Column, then Stacked Column, and click OK.</li><li>This shows, for each Product Category, how much of its sales came from each region stacked on top of each other.</li><li>Add a chart title: Net Sales by Product Category, Split by Region.</li></ol>
+
+    <h3>Practice Questions and Model Answers</h3>
+    
+    <div class="qa">
+      <p class="q"><span class="tag">Question 1</span>Which Product Category generated the highest total Net Sales across all regions combined?</p>
+      <p class="a"><span class="tag answer-tag">Answer</span>Computing generated the highest total Net Sales across all regions, at N205,496,335.</p>
+    </div>
+    <div class="qa">
+      <p class="q"><span class="tag">Question 2</span>Which single Category-Region combination (one cell in the matrix) produced the highest Net Sales, and what was the value?</p>
+      <p class="a"><span class="tag answer-tag">Answer</span>Computing sold in South West produced the highest single combination, at N62,700,690.</p>
+    </div>
+    <div class="qa">
+      <p class="q"><span class="tag">Question 3</span>Compare Computing sales in North East versus South West. What is the approximate gap in Naira?</p>
+      <p class="a"><span class="tag answer-tag">Answer</span>Computing in North East totalled N2,776,015 while Computing in South West totalled N62,700,690, a gap of roughly N59,924,675.</p>
+    </div>
+  </section>
+
+  <section class="pivot-section" id="pt3">
+    <div class="section-badge">Pivot Table 3</div>
+    <h2>Sales Rep Performance (Orders, Average Order Value, Total Sales)</h2>
+    <p class="purpose">Introduces multiple Value fields in a single Pivot Table (Count, Average, Sum of the same or different fields), plus Top N filtering, to evaluate individual sales rep performance.</p>
+
+    <h3>Field Layout</h3>
+    
+  <table class="fields-table">
+    <tr><th>Rows</th><td>Sales Rep</td></tr>
+    <tr><th>Columns</th><td>(none)</td></tr>
+    <tr><th>Filter</th><td>(none)</td></tr>
+    <tr><th>Values</th><td>Count of Order ID, Average of Net Sales (NGN), Sum of Net Sales (NGN)</td></tr>
+  </table>
+
+    <h3>Step-by-Step Instructions</h3>
+    <ol><li>Build a new Pivot Table with Sales Rep in the Rows area.</li><li>Drag Order ID into the Values area. Since Order ID is text, Excel automatically summarizes it as Count of Order ID.</li><li>Drag Net Sales (NGN) into the Values area a second time. Click it, choose Value Field Settings, change the summary type to Average, and rename it to Avg Order Value.</li><li>Drag Net Sales (NGN) into the Values area a third time. Leave it as Sum of Net Sales (NGN), and rename it to Total Net Sales.</li><li>Right-click any value in the Total Net Sales column, choose Sort, then Sort Largest to Smallest.</li><li>Right-click a Sales Rep name in the Rows area, choose Filter, then Top 10, and change the setting to Top 5 Items By Total Net Sales.</li></ol>
+
+    <h3>Pivot Chart: Combo Chart (Clustered Column for Orders + Line for Avg Order Value)</h3>
+    <ol><li>With the Top 5 Pivot Table selected, insert a PivotChart and choose the Combo chart type.</li><li>Set Count of Order ID and Total Net Sales as Clustered Columns, and Avg Order Value as a Line plotted on a Secondary Axis.</li><li>Add a chart title: Top 5 Sales Reps: Orders, Total Sales, and Average Order Value.</li></ol>
+
+    <h3>Practice Questions and Model Answers</h3>
+    
+    <div class="qa">
+      <p class="q"><span class="tag">Question 1</span>Who is the top sales rep by total Net Sales, and how many orders did that rep close?</p>
+      <p class="a"><span class="tag answer-tag">Answer</span>Ahmed Bello is the top sales rep, with total Net Sales of N62,705,725 from 73 orders.</p>
+    </div>
+    <div class="qa">
+      <p class="q"><span class="tag">Question 2</span>What was Ahmed Bello's average order value?</p>
+      <p class="a"><span class="tag answer-tag">Answer</span>Ahmed Bello's average order value was N858,983.</p>
+    </div>
+    <div class="qa">
+      <p class="q"><span class="tag">Question 3</span>Zainab Aliyu closed more orders than Ahmed Bello (95 versus 73) but generated less total revenue (N59,561,050 versus N62,705,725). What does this tell you about order count versus average order value?</p>
+      <p class="a"><span class="tag answer-tag">Answer</span>A higher order count does not automatically mean higher revenue. Ahmed Bello's average order value (N858,983) is significantly higher than Zainab Aliyu's (N626,958), so fewer, higher-value orders produced more total revenue. This shows why Average Order Value is an important metric alongside order count.</p>
+    </div>
+  </section>
+
+  <section class="pivot-section" id="pt4">
+    <div class="section-badge">Pivot Table 4</div>
+    <h2>Quarterly Sales Trend (2023 to 2025)</h2>
+    <p class="purpose">Teaches date grouping in Pivot Tables (Year and Quarter) and builds a Line Pivot Chart to visualize trends over time, a core skill for spotting seasonality and growth.</p>
+
+    <h3>Field Layout</h3>
+    
+  <table class="fields-table">
+    <tr><th>Rows</th><td>Year, then Quarter</td></tr>
+    <tr><th>Columns</th><td>(none)</td></tr>
+    <tr><th>Filter</th><td>(none)</td></tr>
+    <tr><th>Values</th><td>Sum of Net Sales (NGN)</td></tr>
+  </table>
+
+    <h3>Step-by-Step Instructions</h3>
+    <ol><li>Build a new Pivot Table and drag Year into the Rows area, then drag Quarter into the Rows area directly beneath it (so Quarter is nested inside Year).</li><li>Drag Net Sales (NGN) into the Values area.</li><li>If you prefer to group directly from Order Date instead of using the pre-built Year and Quarter columns, drag Order Date into Rows, right-click any date, choose Group, and select both Quarters and Years.</li><li>Apply a currency number format to the Values area.</li></ol>
+
+    <h3>Pivot Chart: Line Chart (Pivot Chart)</h3>
+    <ol><li>With the Pivot Table selected, insert a PivotChart and choose Line, then Line with Markers.</li><li>Add a chart title: Quarterly Net Sales Trend (2023 to 2025).</li><li>Optional: right-click the Year field button on the chart and use the + or minus buttons to collapse or expand years for a cleaner view.</li></ol>
+
+    <h3>Practice Questions and Model Answers</h3>
+    
+    <div class="qa">
+      <p class="q"><span class="tag">Question 1</span>Which quarter recorded the highest Net Sales across the whole three-year period?</p>
+      <p class="a"><span class="tag answer-tag">Answer</span>2024 Q1 recorded the highest Net Sales, at N75,574,800.</p>
+    </div>
+    <div class="qa">
+      <p class="q"><span class="tag">Question 2</span>What was the year-over-year growth in total Net Sales from 2023 (N216,951,855) to 2024 (N227,132,235)?</p>
+      <p class="a"><span class="tag answer-tag">Answer</span>Net Sales grew by approximately 4.7% from 2023 to 2024.</p>
+    </div>
+    <div class="qa">
+      <p class="q"><span class="tag">Question 3</span>What happened to Net Sales from 2024 (N227,132,235) to 2025 (N218,154,080)? Express this as a percentage.</p>
+      <p class="a"><span class="tag answer-tag">Answer</span>Net Sales declined by approximately 4.0% from 2024 to 2025.</p>
+    </div>
+  </section>
+
+  <section class="pivot-section" id="pt5">
+    <div class="section-badge">Pivot Table 5</div>
+    <h2>Profit Margin Analysis by Product Category</h2>
+    <p class="purpose">Introduces Calculated Fields so learners can compute a ratio (Profit Margin %) directly inside the Pivot Table rather than in a helper column, and highlights that the highest-revenue category is not always the most profitable.</p>
+
+    <h3>Field Layout</h3>
+    
+  <table class="fields-table">
+    <tr><th>Rows</th><td>Product Category</td></tr>
+    <tr><th>Columns</th><td>(none)</td></tr>
+    <tr><th>Filter</th><td>(none)</td></tr>
+    <tr><th>Values</th><td>Sum of Net Sales (NGN), Sum of Profit (NGN), Profit Margin % (calculated field)</td></tr>
+  </table>
+
+    <h3>Step-by-Step Instructions</h3>
+    <ol><li>Build a new Pivot Table with Product Category in Rows, and add Net Sales (NGN) and Profit (NGN) to the Values area (both as Sum).</li><li>Click any cell inside the Pivot Table, go to PivotTable Analyze, click Fields, Items &amp; Sets, then Calculated Field.</li><li>Name the new field Profit Margin %, and in the Formula box enter: = 'Profit (NGN)' / 'Net Sales (NGN)'</li><li>Click Add, then OK. The new Profit Margin % field appears as a fourth Value.</li><li>Right-click any value in the Profit Margin % column, choose Value Field Settings, click Number Format, and apply Percentage with two decimal places.</li><li>Sort the table by Profit Margin % largest to smallest to rank categories by profitability rather than by revenue.</li></ol>
+
+    <h3>Pivot Chart: Clustered Column Chart with Profit Margin % as a Line on a Secondary Axis (Combo Chart)</h3>
+    <ol><li>Insert a PivotChart, choose Combo.</li><li>Plot Sum of Net Sales (NGN) as a Clustered Column, and Profit Margin % as a Line on a Secondary Axis so the percentage is readable next to the much larger Naira values.</li><li>Add a chart title: Net Sales versus Profit Margin % by Product Category.</li></ol>
+
+    <h3>Practice Questions and Model Answers</h3>
+    
+    <div class="qa">
+      <p class="q"><span class="tag">Question 1</span>Which Product Category has the highest Profit Margin %, and what is the value?</p>
+      <p class="a"><span class="tag answer-tag">Answer</span>Fashion &amp; Accessories has the highest Profit Margin %, at 33.19%.</p>
+    </div>
+    <div class="qa">
+      <p class="q"><span class="tag">Question 2</span>Computing generates the highest total Net Sales (N205,496,335) of any category, yet has the lowest Profit Margin %. What is Computing's margin, and what does this suggest to management?</p>
+      <p class="a"><span class="tag answer-tag">Answer</span>Computing's Profit Margin % is 13.83%, the lowest of all six categories. This suggests that although Computing drives the most revenue, it is the least profitable per Naira of sales, likely due to lower markups on laptops and accessories. Management may want to review pricing or supplier costs for this category.</p>
+    </div>
+    <div class="qa">
+      <p class="q"><span class="tag">Question 3</span>Electronics recorded Net Sales of N117,780,120 and Profit of N21,557,120. Calculate the Profit Margin % and confirm it matches the Pivot Table.</p>
+      <p class="a"><span class="tag answer-tag">Answer</span>N21,557,120 divided by N117,780,120 equals approximately 18.30%, which matches the Pivot Table's Profit Margin % for Electronics.</p>
+    </div>
+  </section>
+
+  <section class="pivot-section" id="pt6">
+    <div class="section-badge">Pivot Table 6</div>
+    <h2>Payment Method Distribution</h2>
+    <p class="purpose">Shows how to display Pivot Table values as a percentage of a total rather than raw counts, using Show Values As, and pairs it with a Pie Pivot Chart.</p>
+
+    <h3>Field Layout</h3>
+    
+  <table class="fields-table">
+    <tr><th>Rows</th><td>Payment Method</td></tr>
+    <tr><th>Columns</th><td>(none)</td></tr>
+    <tr><th>Filter</th><td>(none)</td></tr>
+    <tr><th>Values</th><td>Count of Order ID (shown twice: as Count and as % of Column Total)</td></tr>
+  </table>
+
+    <h3>Step-by-Step Instructions</h3>
+    <ol><li>Build a new Pivot Table with Payment Method in Rows.</li><li>Drag Order ID into the Values area twice. Excel will label them Count of Order ID and Count of Order ID2.</li><li>Click the second one, open Value Field Settings, go to the Show Values As tab, and choose % of Column Total. Rename it to % of Orders.</li><li>Sort the table by Count of Order ID largest to smallest.</li></ol>
+
+    <h3>Pivot Chart: Pie Chart (Pivot Chart)</h3>
+    <ol><li>Select the Pivot Table, insert a PivotChart, and choose Pie.</li><li>Use only the Count of Order ID field for the pie slices (a pie chart cannot meaningfully show two value fields at once).</li><li>Add Data Labels showing Percentage, and add a chart title: Orders by Payment Method.</li></ol>
+
+    <h3>Practice Questions and Model Answers</h3>
+    
+    <div class="qa">
+      <p class="q"><span class="tag">Question 1</span>Which payment method(s) were used most often, and what percentage of total orders do they represent?</p>
+      <p class="a"><span class="tag answer-tag">Answer</span>POS and Bank Transfer are tied for the most-used payment methods, each accounting for 323 orders, or 29.4% of total orders.</p>
+    </div>
+    <div class="qa">
+      <p class="q"><span class="tag">Question 2</span>Which payment method was used least often, and what percentage of orders does it represent?</p>
+      <p class="a"><span class="tag answer-tag">Answer</span>USSD was used least often, accounting for 76 orders, or 6.9% of total orders.</p>
+    </div>
+    <div class="qa">
+      <p class="q"><span class="tag">Question 3</span>What percentage of all orders were paid for using either POS or Bank Transfer combined?</p>
+      <p class="a"><span class="tag answer-tag">Answer</span>POS and Bank Transfer together account for 58.8% of all orders (29.4% plus 29.4%).</p>
+    </div>
+  </section>
+
+  <section class="pivot-section" id="pt7">
+    <div class="section-badge">Pivot Table 7</div>
+    <h2>Order Status Breakdown (Returned and Cancelled Impact)</h2>
+    <p class="purpose">Uses a simple Pivot Table to quantify how much revenue is affected by Returned and Cancelled orders, a common business question for retail operations.</p>
+
+    <h3>Field Layout</h3>
+    
+  <table class="fields-table">
+    <tr><th>Rows</th><td>Order Status</td></tr>
+    <tr><th>Columns</th><td>(none)</td></tr>
+    <tr><th>Filter</th><td>(none)</td></tr>
+    <tr><th>Values</th><td>Count of Order ID, Sum of Net Sales (NGN)</td></tr>
+  </table>
+
+    <h3>Step-by-Step Instructions</h3>
+    <ol><li>Build a new Pivot Table with Order Status in Rows.</li><li>Drag Order ID into Values (Count of Order ID) and Net Sales (NGN) into Values (Sum of Net Sales (NGN)).</li><li>Apply a currency number format to the Sum of Net Sales (NGN) column.</li></ol>
+
+    <h3>Pivot Chart: Clustered Column Chart (Pivot Chart)</h3>
+    <ol><li>Insert a PivotChart from the Pivot Table and choose Clustered Column.</li><li>Because Order Count and Net Sales are on very different scales, consider plotting Sum of Net Sales (NGN) only, or use a Combo chart with Order Count on a secondary axis.</li><li>Add a chart title: Orders and Net Sales by Order Status.</li></ol>
+
+    <h3>Practice Questions and Model Answers</h3>
+    
+    <div class="qa">
+      <p class="q"><span class="tag">Question 1</span>How many orders were Completed, and what total Net Sales value do they represent?</p>
+      <p class="a"><span class="tag answer-tag">Answer</span>731 orders were Completed, representing total Net Sales of N426,161,225.</p>
+    </div>
+    <div class="qa">
+      <p class="q"><span class="tag">Question 2</span>What percentage of all orders were either Returned or Cancelled, and what total Net Sales value do these orders represent?</p>
+      <p class="a"><span class="tag answer-tag">Answer</span>33.5% of all orders were Returned or Cancelled, representing a combined Net Sales value of N236,076,945.</p>
+    </div>
+    <div class="qa">
+      <p class="q"><span class="tag">Question 3</span>Which status has more orders: Returned or Cancelled? By how many?</p>
+      <p class="a"><span class="tag answer-tag">Answer</span>Cancelled has more orders than Returned: 196 Cancelled orders versus 173 Returned orders, a difference of 23 orders.</p>
+    </div>
+  </section>
+
+  <section class="pivot-section" id="pt8">
+    <div class="section-badge">Pivot Table 8</div>
+    <h2>Top 10 Products by Net Sales</h2>
+    <p class="purpose">Teaches Value Filters (Top 10) so learners can quickly isolate the best-performing products out of dozens in the dataset, a very common real-world request.</p>
+
+    <h3>Field Layout</h3>
+    
+  <table class="fields-table">
+    <tr><th>Rows</th><td>Product Name</td></tr>
+    <tr><th>Columns</th><td>(none)</td></tr>
+    <tr><th>Filter</th><td>(none)</td></tr>
+    <tr><th>Values</th><td>Sum of Net Sales (NGN)</td></tr>
+  </table>
+
+    <h3>Step-by-Step Instructions</h3>
+    <ol><li>Build a new Pivot Table with Product Name in Rows and Net Sales (NGN) in Values.</li><li>Right-click any Product Name in the Rows area, choose Filter, then Top 10.</li><li>In the dialog, keep it set to Top, change the number to 10, and confirm it is By Sum of Net Sales (NGN). Click OK.</li><li>Sort the remaining 10 rows largest to smallest for a clean ranked list.</li></ol>
+
+    <h3>Pivot Chart: Bar Chart (Pivot Chart)</h3>
+    <ol><li>Insert a PivotChart from the filtered Pivot Table and choose Bar, then Clustered Bar (bar charts read left to right, which works well for long product names).</li><li>Add a chart title: Top 10 Products by Net Sales.</li></ol>
+
+    <h3>Practice Questions and Model Answers</h3>
+    
+    <div class="qa">
+      <p class="q"><span class="tag">Question 1</span>Which single product generated the highest Net Sales, and what was the amount?</p>
+      <p class="a"><span class="tag answer-tag">Answer</span>The MacBook Air M2 generated the highest Net Sales of any product, at N81,546,480.</p>
+    </div>
+    <div class="qa">
+      <p class="q"><span class="tag">Question 2</span>Which product ranks third in the Top 10, and what is its Net Sales value?</p>
+      <p class="a"><span class="tag answer-tag">Answer</span>The Lenovo ThinkPad E14 ranks third, with Net Sales of N47,978,375.</p>
+    </div>
+    <div class="qa">
+      <p class="q"><span class="tag">Question 3</span>What is the combined Net Sales of the top 3 products (MacBook Air M2, LG 55-inch OLED TV, and Lenovo ThinkPad E14)?</p>
+      <p class="a"><span class="tag answer-tag">Answer</span>The combined Net Sales of the top 3 products is N81,546,480 + N57,959,865 + N47,978,375 = N187,484,720.</p>
+    </div>
+  </section>
+
+  <section class="pivot-section" id="pt9">
+    <div class="section-badge">Pivot Table 9</div>
+    <h2>Customer Segment Analysis</h2>
+    <p class="purpose">Compares Retail, Corporate, Government, and Online customers on order volume, revenue, and satisfaction, giving learners practice combining a Count, a Sum, and an Average in one table.</p>
+
+    <h3>Field Layout</h3>
+    
+  <table class="fields-table">
+    <tr><th>Rows</th><td>Customer Segment</td></tr>
+    <tr><th>Columns</th><td>(none)</td></tr>
+    <tr><th>Filter</th><td>(none)</td></tr>
+    <tr><th>Values</th><td>Count of Order ID, Sum of Net Sales (NGN), Average of Customer Rating (1-5)</td></tr>
+  </table>
+
+    <h3>Step-by-Step Instructions</h3>
+    <ol><li>Build a new Pivot Table with Customer Segment in Rows.</li><li>Add Order ID to Values (Count of Order ID).</li><li>Add Net Sales (NGN) to Values (Sum of Net Sales (NGN)).</li><li>Add Customer Rating (1-5) to Values, click it, open Value Field Settings, and change the summary type to Average. Round the display to two decimal places using Number Format.</li><li>Sort by Sum of Net Sales (NGN) largest to smallest.</li></ol>
+
+    <h3>Pivot Chart: Combo Chart (Clustered Column for Net Sales + Line for Average Rating)</h3>
+    <ol><li>Insert a PivotChart and choose Combo.</li><li>Plot Sum of Net Sales (NGN) as a Clustered Column and Average of Customer Rating as a Line on a Secondary Axis.</li><li>Add a chart title: Net Sales and Average Rating by Customer Segment.</li></ol>
+
+    <h3>Practice Questions and Model Answers</h3>
+    
+    <div class="qa">
+      <p class="q"><span class="tag">Question 1</span>Which customer segment generates the most Net Sales, and how many orders does it represent?</p>
+      <p class="a"><span class="tag answer-tag">Answer</span>Retail generates the most Net Sales, at N272,403,150 from 506 orders.</p>
+    </div>
+    <div class="qa">
+      <p class="q"><span class="tag">Question 2</span>Which customer segment has the highest average Customer Rating, even though it is not the highest-revenue segment?</p>
+      <p class="a"><span class="tag answer-tag">Answer</span>Online customers give the highest average rating, at 3.95 out of 5, despite Online being the smallest segment by revenue (N70,381,735).</p>
+    </div>
+    <div class="qa">
+      <p class="q"><span class="tag">Question 3</span>Compare Corporate (N222,906,570 from 333 orders) and Government (N96,546,715 from 151 orders). Which segment has the higher average order value, and by roughly how much?</p>
+      <p class="a"><span class="tag answer-tag">Answer</span>Corporate has the higher average order value at approximately N669,538 per order, compared to Government's approximately N639,382 per order, a difference of roughly N30,000 per order.</p>
+    </div>
+  </section>
+
+  <section class="pivot-section" id="pt10">
+    <div class="section-badge">Pivot Table 10</div>
+    <h2>Region by Payment Method Cross-Tab</h2>
+    <p class="purpose">A second two-dimensional Pivot Table exercise, this time using counts instead of sums, and paired with a 100% Stacked Column Pivot Chart to compare proportions rather than raw totals across regions.</p>
+
+    <h3>Field Layout</h3>
+    
+  <table class="fields-table">
+    <tr><th>Rows</th><td>Region</td></tr>
+    <tr><th>Columns</th><td>Payment Method</td></tr>
+    <tr><th>Filter</th><td>(none)</td></tr>
+    <tr><th>Values</th><td>Count of Order ID</td></tr>
+  </table>
+
+    <h3>Step-by-Step Instructions</h3>
+    <ol><li>Build a new Pivot Table with Region in Rows and Payment Method in Columns.</li><li>Drag Order ID into the Values area (Count of Order ID).</li><li>Right-click inside the table, choose PivotTable Options, and set 'For empty cells show' to 0.</li></ol>
+
+    <h3>Pivot Chart: 100% Stacked Column Chart (Pivot Chart)</h3>
+    <ol><li>Insert a PivotChart from this Pivot Table and choose Column, then 100% Stacked Column.</li><li>This normalizes every region's bar to the same height so you can compare the mix of payment methods fairly, even though regions have different total order counts.</li><li>Add a chart title: Payment Method Mix by Region.</li></ol>
+
+    <h3>Practice Questions and Model Answers</h3>
+    
+    <div class="qa">
+      <p class="q"><span class="tag">Question 1</span>Which region has the highest count of POS orders, and how many?</p>
+      <p class="a"><span class="tag answer-tag">Answer</span>South West has the highest count of POS orders, with 94.</p>
+    </div>
+    <div class="qa">
+      <p class="q"><span class="tag">Question 2</span>Which region relies most heavily on USSD as a proportion of its own orders? (Hint: divide each region's USSD count by that region's total orders.)</p>
+      <p class="a"><span class="tag answer-tag">Answer</span>North East relies most heavily on USSD proportionally: 11 of its 86 total orders (about 12.8%) are USSD, a higher share than any other region, even though its raw USSD count is not the largest.</p>
+    </div>
+    <div class="qa">
+      <p class="q"><span class="tag">Question 3</span>Add up all the payment method counts for South West in this Pivot Table (POS 94, Bank Transfer 90, Card 53, Cash 49, USSD 23). Does the total match South West's order count of 309 from Pivot Table 1?</p>
+      <p class="a"><span class="tag answer-tag">Answer</span>Yes: 94 + 90 + 53 + 49 + 23 = 309, which matches South West's total order count from Pivot Table 1. This is a useful way to double-check that a cross-tab Pivot Table accounts for every record.</p>
+    </div>
+  </section>
+
+    <div class="intro-card" id="further">
+      <h2>Summary and Further Practice</h2>
+      <p>You have now covered 10 different Pivot Tables and Pivot Charts spanning one-dimensional summaries,
+      two-dimensional matrices, multiple Value fields, Calculated Fields, Show Values As percentages, Top N
+      filters, and date grouping.</p>
+      <p><strong>Further practice ideas using the same dataset:</strong></p>
+      <ol>
+        <li>Build a Pivot Table showing average Delivery Days by Region to identify which regions have slower fulfillment.</li>
+        <li>Build a Pivot Table showing Net Sales by Sales Rep and Customer Segment together.</li>
+        <li>Use a Slicer (Insert tab, then Slicer) connected to any Pivot Table for interactive filtering by Year or Product Category.</li>
+        <li>Filter Order Status to Returned only, then break it down by Product Category to see which products are returned most.</li>
+      </ol>
+    </div>
+  </main>
+</div>
+
+<footer>
+  Prodigy Training Hub | Trainer: Kajola Gbenga Adewale
+</footer>
+
+</body>
+</html>
