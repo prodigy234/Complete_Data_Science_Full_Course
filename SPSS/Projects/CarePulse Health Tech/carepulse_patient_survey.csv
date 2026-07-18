@@ -1,0 +1,301 @@
+PatientID,Region,Gender,Age,InsuranceType,ConsultationChannel,YearsOnPlatform,MonthlyConsultationSpend,NumConsultationsMonth,Q1_DoctorResponsiveness,Q2_AppEaseOfUse,Q3_ConsultationQuality,Q4_WaitTimeSatisfaction,Q5_OverallSatisfaction,ComplaintFiled,EngagementIndex,MissedFollowUp,ChurnRisk
+CP0001,Lagos,Female,36,HMO,Audio Call,5.3,4866,3,3,3,3,3,3,No,688,No,Medium
+CP0002,Lagos,Female,40,Out-of-Pocket,Video Call,1.5,20542,1,4,4,4,3,4,No,555,No,Low
+CP0003,Ibadan,Male,20,HMO,Video Call,0.1,12112,1,3,4,4,3,4,No,710,No,Low
+CP0004,Ibadan,Male,32,HMO,Video Call,3.1,12625,5,4,4,5,4,4,No,461,No,Medium
+CP0005,Lagos,Male,53,NHIS,Video Call,12.0,7100,3,4,2,3,3,3,Yes,616,No,High
+CP0006,Port Harcourt,Female,32,Corporate,Audio Call,8.1,13277,2,3,4,3,3,3,No,578,Yes,Medium
+CP0007,Kano,Female,48,Corporate,Audio Call,6.1,9476,1,3,3,4,2,3,No,633,Yes,Medium
+CP0008,Port Harcourt,Male,35,Corporate,Video Call,6.8,9743,2,4,5,4,5,4,No,788,No,Low
+CP0009,Abuja,Male,50,Out-of-Pocket,Audio Call,1.3,22964,8,1,2,2,2,3,Yes,529,Yes,Medium
+CP0010,Abuja,Male,24,Out-of-Pocket,Video Call,3.5,22420,3,3,3,4,1,4,Yes,714,No,Medium
+CP0011,Port Harcourt,Female,21,Out-of-Pocket,Video Call,1.7,16558,4,3,3,2,2,3,Yes,780,No,High
+CP0012,Lagos,Female,32,HMO,Video Call,3.2,17915,4,3,3,4,3,4,No,605,No,Low
+CP0013,Kano,Female,36,Corporate,Audio Call,9.1,8500,5,5,5,4,4,4,No,850,No,Low
+CP0014,Abuja,Female,31,Out-of-Pocket,Video Call,2.8,15831,4,3,2,2,1,3,Yes,709,No,Medium
+CP0015,Kano,Male,37,Out-of-Pocket,Video Call,5.5,30931,4,4,4,4,4,4,Yes,618,No,Low
+CP0016,Lagos,Female,32,HMO,Video Call,3.4,9665,4,4,4,5,4,4,No,590,No,Low
+CP0017,Port Harcourt,Female,25,HMO,Audio Call,0.2,10438,1,1,4,3,2,3,No,634,No,Low
+CP0018,Lagos,Male,32,HMO,Video Call,2.4,9824,4,4,4,4,4,5,No,583,No,Low
+CP0019,Abuja,Female,29,HMO,Video Call,6.3,8338,2,3,4,4,3,3,No,453,Yes,Medium
+CP0020,Lagos,Male,36,Out-of-Pocket,Audio Call,1.4,18066,8,4,3,4,4,4,No,705,No,Medium
+CP0021,Abuja,Male,31,Out-of-Pocket,Chat,2.2,27737,8,3,2,1,4,3,No,595,Yes,Medium
+CP0022,Kano,Male,40,HMO,Video Call,11.3,7627,3,2,3,3,3,4,No,692,No,Low
+CP0023,Ibadan,Male,45,HMO,Video Call,3.8,16751,7,5,4,5,4,5,No,751,No,Low
+CP0024,Lagos,Female,59,HMO,Audio Call,12.0,13940,3,4,4,4,3,3,Yes,535,No,Medium
+CP0025,Ibadan,Male,55,HMO,Video Call,12.0,6988,1,5,3,4,4,3,Yes,638,No,Medium
+CP0026,Ibadan,Female,18,NHIS,Video Call,0.0,5666,2,2,4,2,3,3,Yes,583,Yes,Low
+CP0027,Lagos,Male,26,Corporate,Video Call,1.2,6839,5,2,3,3,3,3,Yes,614,No,High
+CP0028,Abuja,Female,43,Corporate,Chat,12.0,7658,4,2,4,3,3,3,No,730,No,Low
+CP0029,Kano,Male,31,Out-of-Pocket,Video Call,1.9,26049,5,5,4,5,5,5,No,708,No,Low
+CP0030,Abuja,Male,29,Corporate,Audio Call,3.3,10290,4,2,2,3,3,2,Yes,642,Yes,High
+CP0031,Lagos,Female,35,HMO,Video Call,8.9,8981,0,3,2,3,4,3,Yes,757,No,High
+CP0032,Abuja,Female,18,Corporate,Audio Call,0.0,4670,4,3,4,3,1,2,Yes,628,Yes,High
+CP0033,Abuja,Female,42,NHIS,Audio Call,6.3,7151,1,3,1,3,4,3,No,594,No,Medium
+CP0034,Port Harcourt,Female,18,NHIS,Video Call,0.0,7528,4,5,4,4,3,5,No,816,No,Low
+CP0035,Kano,Male,26,HMO,Video Call,2.0,16957,4,4,3,3,3,4,Yes,657,No,Medium
+CP0036,Abuja,Male,21,HMO,Video Call,1.3,10312,4,3,2,3,2,4,No,600,No,Low
+CP0037,Lagos,Female,40,NHIS,Audio Call,9.2,5463,7,2,4,3,2,4,No,731,No,Low
+CP0038,Port Harcourt,Female,23,HMO,Audio Call,1.7,11905,3,3,3,3,4,2,Yes,426,No,Medium
+CP0039,Port Harcourt,Female,33,HMO,Video Call,0.6,10349,3,2,4,1,1,2,No,623,No,Medium
+CP0040,Kano,Female,38,Corporate,Chat,3.9,11773,4,3,3,3,3,3,Yes,753,No,High
+CP0041,Port Harcourt,Male,47,Corporate,Chat,9.9,6157,2,3,2,3,3,3,No,637,No,Medium
+CP0042,Ibadan,Female,35,NHIS,Video Call,1.5,5353,3,3,4,4,3,4,No,690,Yes,Low
+CP0043,Port Harcourt,Female,43,Out-of-Pocket,Video Call,12.0,16632,5,3,3,4,4,3,No,566,No,Low
+CP0044,Lagos,Female,29,NHIS,Chat,1.1,8260,2,5,4,4,5,4,No,613,No,Low
+CP0045,Port Harcourt,Male,32,Out-of-Pocket,Chat,1.8,20711,5,5,4,5,5,5,No,596,Yes,Low
+CP0046,Lagos,Male,35,Out-of-Pocket,Video Call,9.8,23296,2,4,3,4,3,4,No,574,No,Medium
+CP0047,Lagos,Male,51,Corporate,Video Call,12.0,8534,3,4,4,4,3,4,No,630,No,Low
+CP0048,Lagos,Female,26,NHIS,Chat,3.3,4772,2,3,3,3,3,3,Yes,671,No,Medium
+CP0049,Ibadan,Male,26,Out-of-Pocket,Chat,4.2,20689,3,3,3,2,1,1,Yes,519,No,High
+CP0050,Lagos,Female,54,Corporate,Chat,6.4,4619,4,4,4,3,3,4,No,645,No,Low
+CP0051,Port Harcourt,Male,36,HMO,Video Call,5.2,13604,8,4,3,5,4,5,No,793,No,Medium
+CP0052,Abuja,Male,30,Out-of-Pocket,Video Call,6.8,15289,3,3,4,4,3,4,No,761,No,Low
+CP0053,Abuja,Female,18,HMO,Video Call,0.0,15535,3,4,4,4,3,3,No,619,No,Medium
+CP0054,Kano,Female,37,HMO,Audio Call,7.4,13468,4,5,4,5,5,4,Yes,699,Yes,Medium
+CP0055,Lagos,Female,38,Corporate,Video Call,5.3,6318,1,5,5,5,4,3,No,699,No,Low
+CP0056,Kano,Male,24,HMO,Audio Call,2.6,8711,1,4,4,3,4,5,Yes,583,No,Low
+CP0057,Ibadan,Female,44,NHIS,Audio Call,12.0,6532,5,3,4,4,3,3,Yes,522,No,Medium
+CP0058,Port Harcourt,Male,39,Out-of-Pocket,Audio Call,2.3,18391,2,3,3,3,3,3,Yes,612,No,Low
+CP0059,Port Harcourt,Male,49,Corporate,Audio Call,6.2,10348,3,3,3,5,2,4,Yes,508,No,Low
+CP0060,Lagos,Male,30,Corporate,Video Call,2.2,9630,1,3,3,3,3,3,No,697,Yes,Medium
+CP0061,Port Harcourt,Female,33,HMO,Chat,7.9,15401,5,3,3,4,5,4,No,662,Yes,Low
+CP0062,Abuja,Male,28,HMO,Audio Call,6.0,15359,5,4,4,4,4,5,Yes,623,No,Low
+CP0063,Lagos,Male,35,HMO,Video Call,4.7,11577,3,3,5,4,3,3,Yes,722,No,Low
+CP0064,Abuja,Female,39,Out-of-Pocket,Chat,1.6,17841,4,3,4,4,3,3,No,767,No,Low
+CP0065,Abuja,Male,47,NHIS,Video Call,6.8,7097,1,4,3,2,1,2,No,597,Yes,Medium
+CP0066,Kano,Female,23,Out-of-Pocket,Video Call,1.6,19067,4,4,3,5,3,4,No,620,No,Low
+CP0067,Ibadan,Female,25,HMO,Video Call,0.8,13852,3,3,4,4,3,3,Yes,647,Yes,Low
+CP0068,Kano,Male,18,HMO,Video Call,0.0,12758,2,3,5,3,3,4,No,611,Yes,Low
+CP0069,Abuja,Female,18,Out-of-Pocket,Chat,0.0,16461,2,4,4,3,4,4,Yes,670,No,Medium
+CP0070,Port Harcourt,Male,31,Out-of-Pocket,Video Call,0.5,24370,2,1,2,1,2,2,No,482,Yes,High
+CP0071,Abuja,Female,26,HMO,Video Call,3.1,4271,7,2,3,2,1,3,Yes,648,Yes,High
+CP0072,Lagos,Female,44,Out-of-Pocket,Audio Call,8.4,19108,7,3,3,3,2,3,No,624,Yes,Low
+CP0073,Kano,Male,37,HMO,Chat,11.3,9306,6,5,5,4,4,5,No,684,No,Low
+CP0074,Abuja,Male,38,Out-of-Pocket,Audio Call,1.4,31943,5,4,2,4,5,4,No,605,Yes,Low
+CP0075,Kano,Female,32,Corporate,Video Call,2.6,9610,2,3,4,3,2,3,No,689,No,Low
+CP0076,Lagos,Male,31,Out-of-Pocket,Video Call,4.5,22254,2,3,2,2,3,2,No,542,Yes,Medium
+CP0077,Abuja,Male,36,Corporate,Video Call,9.1,11203,0,4,3,5,4,4,Yes,697,Yes,Medium
+CP0078,Port Harcourt,Female,18,NHIS,Video Call,0.0,7668,5,3,3,3,3,3,Yes,571,Yes,Low
+CP0079,Port Harcourt,Male,43,Out-of-Pocket,Video Call,4.5,28419,4,4,4,3,4,4,No,635,No,Low
+CP0080,Lagos,Female,59,Out-of-Pocket,Video Call,11.5,27087,4,3,4,3,2,3,No,601,No,Medium
+CP0081,Kano,Male,18,Corporate,Video Call,0.0,10083,4,3,3,4,2,3,No,729,Yes,Medium
+CP0082,Kano,Male,28,Out-of-Pocket,Audio Call,3.1,25616,3,4,4,4,4,3,No,791,No,Low
+CP0083,Port Harcourt,Male,30,HMO,Audio Call,4.8,12942,5,2,3,3,1,3,Yes,676,Yes,Low
+CP0084,Lagos,Male,29,Out-of-Pocket,Video Call,2.1,15377,7,4,2,4,3,4,Yes,559,No,Low
+CP0085,Ibadan,Female,33,Out-of-Pocket,Audio Call,2.7,29329,4,4,4,3,4,4,Yes,649,No,High
+CP0086,Ibadan,Female,31,Out-of-Pocket,Audio Call,6.4,17413,4,3,4,2,2,3,No,626,No,Low
+CP0087,Port Harcourt,Female,42,Out-of-Pocket,Video Call,10.0,21124,3,4,3,1,2,4,No,685,No,Low
+CP0088,Port Harcourt,Male,33,NHIS,Chat,3.9,4413,3,4,4,4,4,3,Yes,532,No,High
+CP0089,Kano,Female,47,HMO,Audio Call,10.8,12119,2,3,3,2,3,3,No,560,No,Low
+CP0090,Port Harcourt,Male,47,Out-of-Pocket,Video Call,10.5,25307,4,2,4,2,3,3,Yes,725,No,Medium
+CP0091,Abuja,Female,38,NHIS,Video Call,10.5,6119,2,3,2,3,3,3,No,632,Yes,Low
+CP0092,Port Harcourt,Female,42,Out-of-Pocket,Video Call,4.4,30749,6,3,5,3,5,4,Yes,615,No,Low
+CP0093,Ibadan,Female,40,Out-of-Pocket,Audio Call,10.3,28272,1,2,4,3,2,3,Yes,653,Yes,Medium
+CP0094,Abuja,Male,45,HMO,Video Call,3.7,17592,3,2,3,3,2,3,No,573,No,Low
+CP0095,Abuja,Male,33,HMO,Audio Call,4.0,9660,2,3,5,5,3,5,Yes,585,No,Medium
+CP0096,Lagos,Male,51,Out-of-Pocket,Audio Call,12.0,18120,4,4,4,3,3,4,No,535,Yes,Low
+CP0097,Abuja,Male,39,Out-of-Pocket,Chat,2.0,17994,4,4,5,5,4,4,No,645,No,Low
+CP0098,Kano,Female,33,HMO,Audio Call,3.9,7644,3,3,4,3,3,3,No,643,Yes,Low
+CP0099,Lagos,Male,46,Corporate,Video Call,9.1,6731,3,4,3,4,4,4,No,826,No,High
+CP0100,Port Harcourt,Female,20,HMO,Video Call,0.2,3840,2,2,2,3,3,3,No,615,No,Low
+CP0101,Abuja,Female,50,HMO,Video Call,2.6,13694,4,3,1,2,3,3,Yes,659,No,Medium
+CP0102,Abuja,Male,31,NHIS,Video Call,3.1,5900,3,4,2,2,3,3,No,544,No,Low
+CP0103,Lagos,Male,24,HMO,Video Call,2.9,4238,1,2,3,2,2,2,No,727,No,Medium
+CP0104,Abuja,Female,22,NHIS,Audio Call,2.3,8213,2,3,3,2,2,3,No,653,No,Medium
+CP0105,Abuja,Male,18,NHIS,Audio Call,0.0,3316,2,2,1,2,1,2,Yes,339,Yes,Medium
+CP0106,Lagos,Male,49,Out-of-Pocket,Video Call,12.0,32076,4,3,3,3,3,4,Yes,545,No,Low
+CP0107,Kano,Female,18,NHIS,Video Call,0.0,10996,0,4,5,5,5,5,No,662,No,Low
+CP0108,Kano,Female,42,Corporate,Video Call,11.8,14618,2,4,4,5,5,5,No,703,No,Low
+CP0109,Ibadan,Female,35,NHIS,Audio Call,6.1,6326,2,3,4,5,3,5,No,730,Yes,Low
+CP0110,Lagos,Female,31,HMO,Video Call,1.3,10128,1,3,3,3,3,2,Yes,500,Yes,High
+CP0111,Port Harcourt,Female,41,Out-of-Pocket,Audio Call,1.8,18766,5,4,4,4,4,3,No,731,Yes,Low
+CP0112,Abuja,Female,37,Corporate,Video Call,0.9,7488,4,4,4,4,1,4,No,514,No,Low
+CP0113,Abuja,Male,18,Corporate,Video Call,0.0,9817,2,3,3,3,2,3,No,710,No,Low
+CP0114,Kano,Female,37,Out-of-Pocket,Video Call,7.9,15727,3,3,2,3,2,2,No,590,No,Low
+CP0115,Abuja,Male,22,Corporate,Audio Call,0.6,10465,3,4,3,3,4,4,No,710,Yes,Low
+CP0116,Port Harcourt,Male,18,Corporate,Chat,0.0,6922,6,3,3,2,4,4,Yes,724,No,Medium
+CP0117,Kano,Female,30,Corporate,Audio Call,6.5,6748,3,4,4,2,4,5,No,631,No,Low
+CP0118,Lagos,Male,34,NHIS,Chat,5.0,6796,0,4,3,3,2,4,No,771,No,Low
+CP0119,Kano,Male,18,HMO,Audio Call,0.0,11207,3,5,4,4,4,4,No,535,Yes,Medium
+CP0120,Kano,Female,20,Corporate,Audio Call,0.8,8642,1,3,4,3,4,2,No,824,No,Low
+CP0121,Port Harcourt,Male,56,Out-of-Pocket,Chat,12.0,33868,5,3,4,4,3,3,No,699,No,Low
+CP0122,Abuja,Male,38,Out-of-Pocket,Video Call,9.0,24373,2,4,4,5,4,4,No,706,No,Low
+CP0123,Ibadan,Female,38,HMO,Chat,7.5,12135,6,4,3,2,3,3,No,611,Yes,Medium
+CP0124,Lagos,Female,44,HMO,Video Call,7.3,15865,10,5,5,5,3,5,No,804,No,Medium
+CP0125,Kano,Female,22,Corporate,Video Call,0.2,6690,1,4,5,5,5,5,Yes,698,No,Medium
+CP0126,Port Harcourt,Male,40,NHIS,Video Call,3.5,4494,2,3,3,4,5,3,No,685,No,High
+CP0127,Lagos,Female,22,Out-of-Pocket,Audio Call,1.5,25254,4,3,4,4,3,3,No,595,Yes,Low
+CP0128,Port Harcourt,Female,22,HMO,Video Call,0.7,16826,3,3,5,3,1,3,No,644,Yes,Medium
+CP0129,Abuja,Male,50,HMO,Audio Call,12.0,11220,5,5,5,4,4,5,No,767,No,Medium
+CP0130,Abuja,Female,32,Corporate,Video Call,6.4,11850,8,3,3,5,2,3,Yes,636,No,Medium
+CP0131,Ibadan,Male,38,Corporate,Video Call,5.1,13734,2,4,4,2,4,3,No,608,No,Low
+CP0132,Ibadan,Female,21,Out-of-Pocket,Video Call,1.0,34100,6,3,3,4,1,3,No,771,No,Low
+CP0133,Lagos,Female,41,NHIS,Video Call,6.8,4542,2,3,3,3,3,2,Yes,647,Yes,Medium
+CP0134,Ibadan,Male,37,HMO,Video Call,1.5,9842,3,3,3,3,1,3,Yes,531,No,Low
+CP0135,Kano,Male,40,HMO,Audio Call,8.5,12504,2,4,4,3,3,4,No,686,No,Medium
+CP0136,Lagos,Female,48,NHIS,Video Call,12.0,9142,2,3,3,3,3,3,No,675,Yes,Low
+CP0137,Port Harcourt,Female,35,NHIS,Chat,1.7,6162,4,3,3,2,1,3,Yes,726,No,Medium
+CP0138,Lagos,Female,31,Out-of-Pocket,Video Call,5.5,22149,3,4,4,3,4,4,No,557,No,Medium
+CP0139,Lagos,Female,29,Out-of-Pocket,Video Call,3.0,19535,2,3,3,4,4,4,No,746,No,Low
+CP0140,Port Harcourt,Female,47,NHIS,Audio Call,7.1,3089,3,3,2,2,2,2,Yes,591,No,High
+CP0141,Kano,Male,62,Corporate,Audio Call,5.1,11481,2,3,4,3,3,3,Yes,603,No,Medium
+CP0142,Lagos,Male,48,HMO,Video Call,9.6,14571,4,4,5,5,4,4,No,688,No,Low
+CP0143,Abuja,Female,36,HMO,Video Call,1.8,13215,5,5,5,5,4,5,No,638,No,Low
+CP0144,Port Harcourt,Female,44,NHIS,Audio Call,10.8,4642,1,4,3,3,3,4,No,587,No,Low
+CP0145,Ibadan,Male,32,Out-of-Pocket,Video Call,6.6,22881,4,2,4,3,2,4,No,753,No,Medium
+CP0146,Abuja,Male,30,Corporate,Chat,4.6,5596,5,4,4,3,4,5,No,658,No,Low
+CP0147,Ibadan,Male,26,HMO,Chat,1.8,10776,3,3,4,3,3,2,No,716,No,Low
+CP0148,Port Harcourt,Female,29,Out-of-Pocket,Video Call,2.4,20437,5,4,5,4,3,4,No,698,Yes,Low
+CP0149,Lagos,Male,43,Corporate,Video Call,7.7,4288,5,1,2,1,2,2,Yes,618,Yes,High
+CP0150,Lagos,Male,37,NHIS,Video Call,9.3,6531,3,3,3,3,1,3,Yes,691,No,Medium
+CP0151,Ibadan,Male,36,HMO,Video Call,7.9,8797,3,4,4,4,3,4,Yes,619,No,High
+CP0152,Port Harcourt,Female,19,HMO,Audio Call,0.2,12861,4,3,4,5,3,3,Yes,628,No,Medium
+CP0153,Lagos,Male,47,HMO,Chat,9.8,20841,1,4,5,4,2,4,Yes,750,Yes,Low
+CP0154,Port Harcourt,Male,25,HMO,Audio Call,2.2,11997,1,3,5,4,5,4,Yes,689,No,Low
+CP0155,Abuja,Female,41,Out-of-Pocket,Chat,4.3,21865,4,4,4,5,4,4,Yes,693,No,Medium
+CP0156,Ibadan,Male,46,Out-of-Pocket,Video Call,12.0,21452,4,5,4,4,5,4,No,634,No,Low
+CP0157,Kano,Male,18,NHIS,Video Call,0.0,4201,3,4,3,3,4,3,No,506,No,Medium
+CP0158,Ibadan,Male,35,Out-of-Pocket,Video Call,2.4,17872,6,4,3,5,1,3,No,676,No,Medium
+CP0159,Lagos,Female,34,Corporate,Audio Call,7.2,9752,2,2,3,2,3,2,No,592,No,Medium
+CP0160,Abuja,Male,45,HMO,Audio Call,6.7,15723,6,3,4,4,5,5,No,617,No,Low
+CP0161,Lagos,Male,31,Corporate,Video Call,3.8,4061,2,5,5,5,4,5,No,662,No,Low
+CP0162,Port Harcourt,Male,32,Corporate,Video Call,4.4,11418,5,4,5,3,5,5,No,774,No,Medium
+CP0163,Kano,Male,27,Out-of-Pocket,Chat,1.2,26565,5,4,4,4,4,4,No,660,No,Low
+CP0164,Abuja,Female,39,NHIS,Video Call,7.4,5442,2,4,5,5,5,5,No,743,No,Low
+CP0165,Abuja,Female,31,HMO,Video Call,1.7,9576,4,4,4,4,3,3,No,635,No,Low
+CP0166,Kano,Female,47,Out-of-Pocket,Video Call,12.0,24316,4,5,4,4,3,4,No,675,No,Low
+CP0167,Abuja,Female,18,HMO,Audio Call,0.0,19332,4,3,3,3,3,3,No,533,No,Low
+CP0168,Lagos,Male,42,HMO,Chat,7.5,14460,0,4,5,5,4,4,No,609,No,Medium
+CP0169,Lagos,Female,18,Corporate,Audio Call,0.0,6248,1,3,4,4,2,3,No,661,Yes,Low
+CP0170,Port Harcourt,Male,28,NHIS,Video Call,3.4,6942,2,3,3,2,3,3,No,610,No,Medium
+CP0171,Kano,Female,39,NHIS,Audio Call,5.6,7056,5,4,4,4,3,4,No,813,No,Low
+CP0172,Lagos,Female,39,NHIS,Audio Call,1.8,8167,4,3,4,3,3,3,Yes,700,No,Medium
+CP0173,Lagos,Female,32,Out-of-Pocket,Video Call,2.6,25228,2,4,3,4,3,4,No,606,Yes,Low
+CP0174,Abuja,Female,36,Out-of-Pocket,Audio Call,6.9,31575,5,3,4,3,3,3,Yes,722,No,Low
+CP0175,Ibadan,Male,29,HMO,Chat,6.0,7615,0,3,3,3,3,4,Yes,677,No,Medium
+CP0176,Ibadan,Female,18,NHIS,Video Call,0.0,3825,3,3,4,5,3,4,No,598,No,Medium
+CP0177,Kano,Male,47,HMO,Video Call,12.0,13710,6,4,3,2,2,3,No,612,No,Low
+CP0178,Ibadan,Male,43,HMO,Video Call,5.0,11104,4,3,4,3,2,3,No,660,Yes,Medium
+CP0179,Lagos,Female,30,NHIS,Audio Call,1.8,4058,4,2,3,3,2,3,No,715,No,Medium
+CP0180,Lagos,Male,26,NHIS,Audio Call,3.8,7135,5,5,5,5,5,4,No,630,No,Low
+CP0181,Lagos,Male,29,HMO,Audio Call,1.2,10380,1,5,4,5,5,5,No,821,No,Low
+CP0182,Abuja,Male,35,NHIS,Video Call,4.3,6396,1,3,3,2,1,2,No,694,No,Low
+CP0183,Ibadan,Male,28,HMO,Video Call,5.6,5513,6,5,5,4,5,4,No,651,No,Low
+CP0184,Lagos,Male,18,HMO,Audio Call,0.0,9767,5,4,2,3,2,3,No,567,No,Low
+CP0185,Lagos,Female,32,HMO,Audio Call,3.5,14938,2,3,4,4,3,5,No,638,No,Medium
+CP0186,Abuja,Male,29,HMO,Video Call,1.5,10039,4,3,5,5,5,3,No,755,No,Low
+CP0187,Lagos,Male,44,HMO,Video Call,10.5,11854,3,4,4,4,2,3,No,756,No,Medium
+CP0188,Lagos,Female,24,Corporate,Video Call,0.2,9917,5,4,4,3,3,3,Yes,682,No,Medium
+CP0189,Lagos,Male,41,NHIS,Video Call,8.5,5991,2,2,2,3,3,2,No,806,No,Medium
+CP0190,Port Harcourt,Female,37,NHIS,Video Call,7.0,5155,1,5,3,4,5,4,No,648,No,Low
+CP0191,Lagos,Female,30,Out-of-Pocket,Video Call,3.0,29100,2,4,4,4,3,5,No,610,Yes,Low
+CP0192,Port Harcourt,Female,22,HMO,Video Call,0.5,11191,3,3,3,4,3,3,No,623,Yes,Low
+CP0193,Port Harcourt,Male,39,HMO,Audio Call,9.1,8662,5,4,4,5,4,5,No,655,No,Low
+CP0194,Lagos,Male,18,HMO,Video Call,0.0,18286,4,4,4,5,5,4,Yes,697,No,Medium
+CP0195,Abuja,Male,36,Out-of-Pocket,Video Call,4.5,18313,3,5,4,4,4,4,No,756,No,Low
+CP0196,Lagos,Male,25,Out-of-Pocket,Audio Call,3.3,27664,4,2,3,3,2,3,Yes,605,No,Low
+CP0197,Port Harcourt,Female,36,Out-of-Pocket,Audio Call,1.5,17992,7,3,4,4,4,3,No,677,No,Low
+CP0198,Abuja,Female,51,NHIS,Video Call,12.0,9338,3,3,4,4,4,4,No,681,No,Low
+CP0199,Port Harcourt,Female,40,Corporate,Video Call,8.0,9084,5,4,4,4,3,4,No,647,No,Low
+CP0200,Lagos,Female,39,HMO,Video Call,4.3,15623,4,4,4,3,3,5,No,631,No,Low
+CP0201,Ibadan,Female,18,Out-of-Pocket,Video Call,0.0,22667,5,3,4,4,5,5,No,734,No,Low
+CP0202,Lagos,Male,47,HMO,Audio Call,7.2,7161,3,4,4,5,3,3,No,731,No,Medium
+CP0203,Ibadan,Female,31,Out-of-Pocket,Audio Call,2.0,29781,8,3,4,3,2,2,Yes,675,Yes,High
+CP0204,Kano,Female,42,Out-of-Pocket,Video Call,9.9,18808,5,5,4,5,3,4,No,614,No,Medium
+CP0205,Ibadan,Female,42,HMO,Audio Call,11.5,7166,1,4,4,3,5,4,No,702,No,Low
+CP0206,Lagos,Male,47,Corporate,Audio Call,12.0,4498,3,2,2,3,2,4,Yes,674,No,Low
+CP0207,Lagos,Female,35,NHIS,Video Call,5.2,8055,3,5,5,5,4,5,No,630,Yes,Low
+CP0208,Ibadan,Female,33,Out-of-Pocket,Video Call,2.0,22259,2,2,3,2,2,2,Yes,583,Yes,High
+CP0209,Port Harcourt,Female,58,Out-of-Pocket,Video Call,8.0,33636,5,4,4,3,4,4,No,634,No,Low
+CP0210,Lagos,Male,45,Out-of-Pocket,Video Call,10.2,23798,6,4,4,5,3,4,No,658,Yes,Low
+CP0211,Ibadan,Male,30,Out-of-Pocket,Video Call,6.2,24284,2,3,3,4,3,3,No,659,No,Low
+CP0212,Port Harcourt,Male,34,NHIS,Audio Call,4.6,5649,2,5,4,5,4,5,No,667,No,Low
+CP0213,Abuja,Female,39,HMO,Audio Call,10.7,8119,3,4,2,4,2,4,No,732,No,Medium
+CP0214,Kano,Male,43,HMO,Video Call,5.4,13864,3,5,5,4,3,4,No,682,No,Low
+CP0215,Abuja,Male,19,NHIS,Audio Call,0.4,9006,3,4,2,3,2,3,No,593,No,Medium
+CP0216,Port Harcourt,Male,25,NHIS,Video Call,1.5,3979,3,4,4,3,3,3,Yes,581,Yes,High
+CP0217,Kano,Female,22,NHIS,Audio Call,2.4,5093,4,3,2,4,2,3,No,819,No,Low
+CP0218,Ibadan,Male,21,NHIS,Audio Call,1.3,4792,0,3,3,3,1,3,No,626,Yes,Low
+CP0219,Port Harcourt,Female,52,Corporate,Video Call,12.0,8008,1,3,3,4,3,3,No,670,No,Low
+CP0220,Lagos,Female,54,Corporate,Chat,9.5,9264,1,2,4,2,2,3,No,595,Yes,Medium
+CP0221,Lagos,Female,18,NHIS,Chat,0.0,6098,0,4,4,4,4,4,No,709,No,Low
+CP0222,Port Harcourt,Male,35,Out-of-Pocket,Audio Call,6.6,27791,7,5,3,5,3,3,No,587,No,Low
+CP0223,Lagos,Male,36,HMO,Video Call,6.4,17008,5,3,3,3,2,3,No,613,No,Low
+CP0224,Lagos,Female,37,NHIS,Audio Call,11.4,5374,3,3,3,3,2,3,No,669,No,Low
+CP0225,Kano,Male,51,NHIS,Video Call,5.0,5702,2,5,4,5,3,5,No,750,No,Low
+CP0226,Port Harcourt,Male,26,Corporate,Chat,1.4,6731,3,2,3,3,1,2,Yes,547,No,High
+CP0227,Ibadan,Male,46,HMO,Chat,12.0,10978,2,4,4,4,2,3,Yes,557,Yes,High
+CP0228,Lagos,Male,26,HMO,Chat,2.1,10184,4,3,4,3,5,3,Yes,588,No,Medium
+CP0229,Lagos,Female,32,HMO,Video Call,7.7,9564,1,3,2,3,3,4,No,489,No,Low
+CP0230,Kano,Male,34,HMO,Chat,2.5,15411,5,3,3,4,3,3,Yes,640,No,Low
+CP0231,Kano,Female,33,Corporate,Video Call,4.4,7169,2,4,3,3,4,4,No,681,No,Low
+CP0232,Ibadan,Female,43,HMO,Audio Call,12.0,11923,7,4,2,1,2,2,No,633,No,Medium
+CP0233,Lagos,Female,43,NHIS,Audio Call,12.0,8779,1,4,4,4,3,4,Yes,703,No,Low
+CP0234,Ibadan,Female,53,Out-of-Pocket,Audio Call,12.0,33228,5,2,2,3,1,3,No,625,Yes,High
+CP0235,Port Harcourt,Male,18,Out-of-Pocket,Audio Call,0.0,14511,0,5,5,5,5,5,No,762,No,Low
+CP0236,Lagos,Male,39,Corporate,Chat,7.4,10466,2,4,4,4,4,4,No,665,No,Medium
+CP0237,Abuja,Male,20,NHIS,Chat,0.9,7450,5,3,2,2,2,2,No,596,No,Medium
+CP0238,Kano,Female,41,HMO,Audio Call,3.5,9501,2,5,3,4,4,5,No,528,No,Low
+CP0239,Abuja,Female,24,HMO,Audio Call,0.3,11160,1,3,3,3,2,2,No,580,No,Medium
+CP0240,Port Harcourt,Male,25,Out-of-Pocket,Video Call,3.0,24092,5,4,5,4,5,4,No,719,No,Medium
+CP0241,Kano,Male,39,NHIS,Video Call,3.0,2732,3,4,4,4,3,4,No,714,No,Low
+CP0242,Ibadan,Male,27,HMO,Audio Call,0.5,5687,4,3,4,3,2,3,No,553,No,Medium
+CP0243,Port Harcourt,Female,32,Out-of-Pocket,Video Call,0.8,24653,2,5,4,4,3,4,No,639,No,Low
+CP0244,Abuja,Female,46,HMO,Chat,4.0,11612,1,3,3,4,4,3,No,536,Yes,Medium
+CP0245,Ibadan,Female,38,HMO,Video Call,7.3,19872,1,3,4,3,2,4,No,666,No,Low
+CP0246,Port Harcourt,Male,34,Out-of-Pocket,Audio Call,2.3,18263,3,4,3,3,2,3,No,583,Yes,Medium
+CP0247,Ibadan,Female,48,NHIS,Chat,12.0,7781,5,3,4,4,5,3,No,678,No,Medium
+CP0248,Ibadan,Male,50,HMO,Audio Call,12.0,14496,2,3,3,3,2,4,Yes,690,Yes,High
+CP0249,Lagos,Male,26,Out-of-Pocket,Video Call,1.5,16213,3,3,5,4,3,5,No,706,No,Low
+CP0250,Abuja,Male,36,HMO,Video Call,9.4,12976,3,3,3,1,3,3,No,642,No,Low
+CP0251,Port Harcourt,Male,28,Corporate,Video Call,5.9,6275,1,4,3,4,2,3,Yes,683,No,Medium
+CP0252,Lagos,Male,31,Out-of-Pocket,Video Call,2.6,25585,1,2,2,2,2,2,Yes,611,Yes,High
+CP0253,Abuja,Male,22,Corporate,Audio Call,1.2,10844,1,3,3,4,4,4,No,606,Yes,Low
+CP0254,Lagos,Female,35,Out-of-Pocket,Video Call,6.5,27510,3,4,3,2,3,2,No,666,No,Medium
+CP0255,Lagos,Female,29,NHIS,Video Call,4.7,7401,7,4,4,3,3,3,No,649,No,Low
+CP0256,Port Harcourt,Male,52,HMO,Video Call,5.0,16384,4,3,3,3,1,4,Yes,513,Yes,Low
+CP0257,Port Harcourt,Female,48,Out-of-Pocket,Audio Call,7.5,18573,2,3,4,4,3,3,No,722,No,Medium
+CP0258,Abuja,Male,42,NHIS,Chat,12.0,3181,3,3,4,4,4,4,No,599,No,Low
+CP0259,Kano,Female,30,HMO,Video Call,5.0,12029,6,3,3,3,5,4,No,832,No,Medium
+CP0260,Abuja,Male,31,HMO,Audio Call,0.4,17865,4,3,5,3,2,2,No,673,No,Medium
+CP0261,Abuja,Female,30,HMO,Video Call,5.9,13296,4,3,4,3,3,3,No,664,Yes,Medium
+CP0262,Abuja,Male,38,NHIS,Video Call,6.0,7049,6,3,4,4,3,4,Yes,648,No,Medium
+CP0263,Kano,Male,18,HMO,Video Call,0.0,9589,2,3,4,3,3,3,No,678,No,Medium
+CP0264,Kano,Male,30,Corporate,Audio Call,1.2,4379,5,3,3,4,1,3,No,681,Yes,Medium
+CP0265,Lagos,Male,34,Out-of-Pocket,Audio Call,9.5,24671,4,4,3,3,2,3,No,668,Yes,Low
+CP0266,Lagos,Female,37,Out-of-Pocket,Video Call,1.5,21561,3,3,3,3,3,3,No,659,No,Medium
+CP0267,Lagos,Male,36,Corporate,Video Call,3.9,3675,2,4,3,3,3,5,No,592,No,Low
+CP0268,Abuja,Female,24,HMO,Video Call,2.9,9341,3,4,3,3,4,4,Yes,640,No,Medium
+CP0269,Port Harcourt,Male,33,HMO,Video Call,0.7,6095,1,3,3,4,3,3,Yes,702,No,Low
+CP0270,Lagos,Male,19,Out-of-Pocket,Video Call,0.4,29214,5,2,2,2,2,2,No,502,Yes,Low
+CP0271,Kano,Female,39,Out-of-Pocket,Audio Call,6.2,22746,5,4,3,4,4,4,No,750,Yes,Medium
+CP0272,Lagos,Female,22,HMO,Audio Call,0.3,13109,6,5,5,5,4,5,Yes,797,No,Medium
+CP0273,Lagos,Female,37,HMO,Video Call,2.1,12649,0,4,4,4,2,4,No,741,No,Low
+CP0274,Kano,Male,38,NHIS,Chat,4.8,5452,4,3,3,3,4,3,Yes,612,Yes,Medium
+CP0275,Lagos,Male,34,HMO,Video Call,9.3,7395,1,3,3,2,1,3,No,785,No,Low
+CP0276,Abuja,Male,33,HMO,Audio Call,3.5,13484,3,1,3,4,3,2,No,613,No,Medium
+CP0277,Port Harcourt,Female,40,NHIS,Video Call,9.9,6355,1,3,4,4,3,3,No,635,No,Low
+CP0278,Port Harcourt,Female,18,HMO,Audio Call,0.0,13251,5,5,5,4,4,5,No,606,No,Low
+CP0279,Port Harcourt,Male,29,HMO,Video Call,0.3,10549,4,3,3,4,4,4,Yes,658,No,Medium
+CP0280,Lagos,Female,29,Out-of-Pocket,Chat,6.4,13256,3,4,4,4,4,4,No,653,No,Low
+CP0281,Lagos,Male,29,HMO,Audio Call,2.3,15689,1,3,3,3,3,3,No,676,No,Low
+CP0282,Port Harcourt,Female,50,Corporate,Audio Call,4.2,10064,4,3,4,4,2,2,No,636,No,Low
+CP0283,Ibadan,Female,19,NHIS,Video Call,0.4,2500,2,3,2,3,2,3,No,696,No,Low
+CP0284,Lagos,Female,49,Corporate,Video Call,9.7,9682,4,3,4,4,3,4,Yes,722,No,Low
+CP0285,Kano,Male,40,Corporate,Chat,11.0,6572,1,3,2,3,3,4,Yes,677,No,Medium
+CP0286,Port Harcourt,Male,18,NHIS,Video Call,0.0,7856,3,3,4,4,2,3,Yes,646,Yes,Medium
+CP0287,Abuja,Female,41,HMO,Video Call,12.0,11621,3,4,4,5,5,4,No,599,No,Medium
+CP0288,Lagos,Female,36,Out-of-Pocket,Audio Call,1.3,19243,4,3,3,4,3,3,No,616,No,Medium
+CP0289,Port Harcourt,Male,18,Out-of-Pocket,Video Call,0.0,21480,3,3,4,5,3,3,No,601,No,Low
+CP0290,Abuja,Male,44,NHIS,Video Call,7.1,5823,7,3,3,3,3,4,Yes,631,Yes,High
+CP0291,Lagos,Male,31,Out-of-Pocket,Audio Call,1.7,23483,3,3,3,3,4,4,Yes,570,No,Medium
+CP0292,Ibadan,Male,45,Corporate,Audio Call,11.2,9950,4,4,2,3,3,4,No,652,Yes,Low
+CP0293,Kano,Male,33,NHIS,Audio Call,4.1,2513,4,3,4,3,1,3,No,541,Yes,Medium
+CP0294,Lagos,Male,21,HMO,Audio Call,0.4,8317,4,4,5,4,3,4,No,617,Yes,Low
+CP0295,Lagos,Female,22,HMO,Video Call,1.1,10712,7,3,3,5,3,4,No,689,Yes,Low
+CP0296,Abuja,Male,29,Out-of-Pocket,Video Call,6.4,21665,3,5,5,5,4,4,No,722,Yes,Medium
+CP0297,Lagos,Male,54,NHIS,Video Call,11.3,7107,4,3,2,3,3,1,No,613,Yes,Medium
+CP0298,Kano,Male,49,Out-of-Pocket,Video Call,12.0,15328,4,3,3,4,3,3,Yes,762,No,Medium
+CP0299,Port Harcourt,Female,29,HMO,Chat,3.8,14590,1,3,5,4,2,4,Yes,586,No,Low
+CP0300,Kano,Female,41,HMO,Video Call,6.4,13722,5,3,4,4,2,3,No,627,No,Low

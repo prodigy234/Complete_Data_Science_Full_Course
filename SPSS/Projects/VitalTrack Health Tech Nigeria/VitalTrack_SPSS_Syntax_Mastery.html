@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>SPSS Syntax Mastery - Health Tech Edition</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  :root {
+    --accent: #7A2E8A;
+    --accent2: #6B2178;
+    --bg: #fbfbfa;
+    --code-bg: #f4f6f8;
+    --tip-bg: #fff4ce;
+    --tip-border: #bf8f00;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; font-family: 'Segoe UI', Calibri, Arial, sans-serif;
+    background: var(--bg); color: #222; line-height: 1.6;
+  }
+  .layout { display: flex; min-height: 100vh; }
+  nav {
+    width: 280px; flex-shrink: 0; background: #3d0b3a; color: #dce7f2;
+    padding: 24px 16px; position: sticky; top: 0; height: 100vh; overflow-y: auto;
+  }
+  nav .brand { font-size: 1.1em; font-weight: 700; color: #fff; margin-bottom: 4px; }
+  nav .brand-sub { font-size: 0.78em; color: #e4bce0; margin-bottom: 20px; }
+  nav .nav-part {
+    margin-top: 18px; text-transform: uppercase; font-size: 0.72em; letter-spacing: 0.06em;
+    color: #c07fc0; font-weight: 700; border-top: 1px solid #4a1747; padding-top: 12px;
+  }
+  nav .nav-part:first-of-type { border-top: none; margin-top: 0; }
+  nav a.nav-chapter {
+    display: block; color: #f0dcee; text-decoration: none; font-size: 0.86em;
+    padding: 5px 4px 5px 8px; border-radius: 4px; margin-top: 2px;
+  }
+  nav a.nav-chapter:hover { background: #521a50; color: #fff; }
+  main { flex: 1; padding: 40px 56px; max-width: 1000px; }
+  .cover { padding: 60px 0 40px; border-bottom: 3px solid var(--accent); margin-bottom: 30px; }
+  .cover h1 { font-size: 2.3em; color: var(--accent); margin: 0 0 6px; }
+  .cover .subtitle { font-size: 1.15em; color: #555; font-style: italic; margin-bottom: 10px; }
+  .cover .edition { display: inline-block; background: var(--accent2); color: #fff; font-weight: 700;
+    padding: 4px 12px; border-radius: 20px; font-size: 0.85em; margin-bottom: 18px; }
+  .cover .author { font-weight: 700; font-size: 1.05em; }
+  .cover .org { color: #555; }
+  .dataset-note {
+    background: #eef4fa; border-left: 4px solid var(--accent); padding: 14px 18px;
+    border-radius: 4px; margin: 24px 0;
+  }
+  section.part > h1 {
+    color: #fff; background: var(--accent); padding: 14px 20px; border-radius: 6px;
+    font-size: 1.5em; margin: 50px 0 20px;
+  }
+  article.chapter {
+    background: #fff; border: 1px solid #e3e6ea; border-radius: 8px;
+    padding: 26px 30px; margin-bottom: 22px; box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+  }
+  h2 { color: var(--accent2); font-size: 1.3em; margin-top: 0; }
+  h2 .chnum {
+    display: block; text-transform: uppercase; font-size: 0.6em; letter-spacing: 0.08em;
+    color: #8a99a8; font-weight: 700; margin-bottom: 3px;
+  }
+  p { text-align: justify; color: #333; }
+  .code-caption { font-weight: 600; font-style: italic; color: #555; margin: 16px 0 4px; font-size: 0.92em; }
+  pre.code {
+    background: var(--code-bg); border: 1px solid #dbe0e5; border-radius: 6px;
+    padding: 14px 18px; overflow-x: auto; margin: 0 0 8px;
+  }
+  pre.code code {
+    font-family: 'Consolas', 'SF Mono', Menlo, monospace; font-size: 0.87em;
+    color: #1b3a57; white-space: pre;
+  }
+  .annot-label {
+    font-weight: 700; color: var(--accent2); font-size: 0.82em; text-transform: uppercase;
+    letter-spacing: 0.04em; margin: 10px 0 6px;
+  }
+  table.annot-table {
+    width: 100%; border-collapse: collapse; margin-bottom: 18px; font-size: 0.88em;
+  }
+  table.annot-table th {
+    background: var(--accent); color: #fff; text-align: left; padding: 8px 10px;
+  }
+  table.annot-table th.ln, table.annot-table td.ln { width: 44px; text-align: center; }
+  table.annot-table td {
+    padding: 8px 10px; border-bottom: 1px solid #e6e9ec; vertical-align: top;
+  }
+  table.annot-table tr:nth-child(even) td { background: #f7f9fb; }
+  table.annot-table td.code-cell code {
+    font-family: 'Consolas', 'SF Mono', Menlo, monospace; font-size: 0.92em; color: #1b3a57;
+    white-space: pre-wrap; word-break: break-word;
+  }
+  table.annot-table td.note-cell { color: #333; }
+  .tip {
+    background: var(--tip-bg); border-left: 4px solid var(--tip-border);
+    padding: 10px 16px; border-radius: 4px; margin: 12px 0; color: #7f6000; font-size: 0.94em;
+  }
+  @media (max-width: 900px) {
+    .layout { flex-direction: column; }
+    nav { width: 100%; height: auto; position: relative; }
+    main { padding: 24px; }
+  }
+</style>
+</head>
+<body>
+<div class="layout">
+  <nav>
+    <div class="brand">SPSS Syntax Mastery</div>
+    <div class="brand-sub">Prodigy Training Hub, Lagos, Nigeria</div>
+    <div class="nav-part">Part 1: Foundations of SPSS Syntax</div><a class="nav-chapter" href="#ch-1">Ch. 1: Why Learn SPSS Syntax</a><a class="nav-chapter" href="#ch-2">Ch. 2: The Syntax Editor and How Commands Are Structured</a><a class="nav-chapter" href="#ch-3">Ch. 3: Session Setup: SET, SHOW, and Working Directories</a><div class="nav-part">Part 2: Data Definition and Import</div><a class="nav-chapter" href="#ch-4">Ch. 4: GET DATA: Importing CSV and Excel Files</a><a class="nav-chapter" href="#ch-5">Ch. 5: DATA LIST: Defining Data Inline or From Fixed-Width Files</a><a class="nav-chapter" href="#ch-6">Ch. 6: Labelling the Data: VARIABLE LABELS, VALUE LABELS, MISSING VALUES</a><a class="nav-chapter" href="#ch-7">Ch. 7: VARIABLE LEVEL, FORMATS, and Display Properties</a><div class="nav-part">Part 3: Data Management and Transformation</div><a class="nav-chapter" href="#ch-8">Ch. 8: COMPUTE: Creating New Variables</a><a class="nav-chapter" href="#ch-9">Ch. 9: IF and DO IF / ELSE IF / END IF: Conditional Logic</a><a class="nav-chapter" href="#ch-10">Ch. 10: RECODE and AUTORECODE</a><a class="nav-chapter" href="#ch-11">Ch. 11: SELECT IF, FILTER, and TEMPORARY</a><a class="nav-chapter" href="#ch-12">Ch. 12: SORT CASES and SPLIT FILE</a><a class="nav-chapter" href="#ch-13">Ch. 13: AGGREGATE: Building Summary Tables</a><a class="nav-chapter" href="#ch-14">Ch. 14: MATCH FILES and ADD FILES: Combining Datasets</a><a class="nav-chapter" href="#ch-15">Ch. 15: String Functions and Date/Time Functions</a><a class="nav-chapter" href="#ch-16">Ch. 16: WEIGHT BY: Weighted Analysis</a><div class="nav-part">Part 4: Descriptive Statistics in Syntax</div><a class="nav-chapter" href="#ch-17">Ch. 17: FREQUENCIES</a><a class="nav-chapter" href="#ch-18">Ch. 18: DESCRIPTIVES</a><a class="nav-chapter" href="#ch-19">Ch. 19: EXAMINE: Deeper Distributional Diagnostics</a><a class="nav-chapter" href="#ch-20">Ch. 20: MEANS: Group Comparisons of Averages</a><div class="nav-part">Part 5: Inferential Statistics in Syntax</div><a class="nav-chapter" href="#ch-21">Ch. 21: CROSSTABS and the Chi-Square Test</a><a class="nav-chapter" href="#ch-22">Ch. 22: T-TEST: One-Sample, Independent-Samples, and Paired-Samples</a><a class="nav-chapter" href="#ch-23">Ch. 23: ONEWAY ANOVA and Post-Hoc Tests</a><a class="nav-chapter" href="#ch-24">Ch. 24: UNIANOVA and GLM: Factorial and Covariate-Adjusted ANOVA</a><a class="nav-chapter" href="#ch-25">Ch. 25: CORRELATIONS and NONPAR CORR</a><a class="nav-chapter" href="#ch-26">Ch. 26: REGRESSION: Linear Regression</a><a class="nav-chapter" href="#ch-27">Ch. 27: LOGISTIC REGRESSION</a><a class="nav-chapter" href="#ch-28">Ch. 28: RELIABILITY: Cronbach's Alpha</a><a class="nav-chapter" href="#ch-29">Ch. 29: FACTOR: Exploratory Factor Analysis / PCA</a><a class="nav-chapter" href="#ch-30">Ch. 30: NPAR TESTS: Non-Parametric Alternatives</a><div class="nav-part">Part 6: Output Management and Automation</div><a class="nav-chapter" href="#ch-31">Ch. 31: Exporting Output: OUTPUT SAVE, OMS, and Direct Export</a><a class="nav-chapter" href="#ch-32">Ch. 32: Charts via Syntax: GGRAPH and GRAPH</a><a class="nav-chapter" href="#ch-33">Ch. 33: Macros: DEFINE ... !ENDDEFINE</a><a class="nav-chapter" href="#ch-34">Ch. 34: Looping: LOOP / END LOOP and DO REPEAT</a><a class="nav-chapter" href="#ch-35">Ch. 35: Extending SPSS with Python: BEGIN PROGRAM / END PROGRAM</a><div class="nav-part">Part 7: Best Practices and Reference</div><a class="nav-chapter" href="#ch-36">Ch. 36: Writing Clean, Maintainable Syntax</a><a class="nav-chapter" href="#ch-37">Ch. 37: Common Errors and How to Read Them</a><a class="nav-chapter" href="#ch-38">Ch. 38: Appendix A: Full Worked Syntax Script</a><a class="nav-chapter" href="#ch-39">Ch. 39: Appendix B: Command Quick-Reference</a>
+  </nav>
+  <main>
+    <div class="cover">
+      <h1>SPSS Syntax Mastery</h1>
+      <div class="subtitle">A Comprehensive Guide to Writing SPSS Syntax, Taught Through a Health Tech Remote Patient Monitoring Dataset</div>
+      <div class="edition">Health Tech Edition - Every Line of Code Explained</div><br>
+      <div class="author">Kajola Gbenga Adewale</div>
+      <div class="org">Prodigy Training Hub, Lagos, Nigeria</div>
+    </div>
+    <div class="dataset-note"><strong>About this edition:</strong> Built for a health tech company using a simulated patient survey from VitalTrack Health Tech Nigeria, a fictional remote patient monitoring (RPM) platform supplying connected blood pressure monitors, glucose meters, and wearable bands. Every syntax example in this book runs against that one dataset, and every line of every code block is followed by its own numbered explanation table.</div>
+    <div class="dataset-note"><strong>About the practice dataset:</strong> All examples in this book use the practice dataset vitaltrack_patient_survey.csv / vitaltrack_patient_survey.xlsx, a simulated patient survey of 300 VitalTrack Health Tech Nigeria patients across five regions (Lagos, Abuja, Port Harcourt, Kano, Ibadan). Load it once at the start of a session and every syntax example in this book will run against it without modification.</div>
+    <section class="part" id="part-1"><h1>Part 1: Foundations of SPSS Syntax</h1>
+<article class="chapter" id="ch-1">
+<h2><span class="chnum">Chapter 1</span>Why Learn SPSS Syntax</h2>
+<p>SPSS is usually taught through its point-and-click menus, and that is a reasonable place to start. But every menu click that SPSS performs is, underneath, a line of syntax. Once you can write that syntax directly, you gain four things the menus cannot give you: reproducibility (anyone can re-run your exact analysis), speed (one paragraph of syntax can replace forty clicks), auditability (a syntax file is a written record of every decision you made about the data), and automation (syntax can be looped, macro-ised, and scheduled).</p>
+<p>In a professional or research setting, a saved .sps syntax file is your proof of work. If a supervisor, examiner, or auditor asks 'how did you get this number', the honest answer with syntax is 'run this file and you will get it again'. That is not true of a project built entirely by clicking through menus.</p>
+<p>This book teaches SPSS the way a programmer would teach a language: starting from the syntax window itself, through data definition, data management, every major statistical procedure, and finally macros and automation. Every example runs against one practice dataset so that the syntax you write in Chapter 4 still works when you reach Chapter 34.</p>
+<div class="tip"><strong>TIP:</strong> You can always recover the syntax behind any menu action: run the analysis once through the menus, then click 'Paste' instead of 'OK'. SPSS writes the exact syntax for what you just configured into a new Syntax Editor window.</div>
+</article>
+<article class="chapter" id="ch-2">
+<h2><span class="chnum">Chapter 2</span>The Syntax Editor and How Commands Are Structured</h2>
+<p>The Syntax Editor is a plain text window (File &gt; New &gt; Syntax) where you type SPSS commands. Every SPSS command follows the same skeleton: a COMMAND KEYWORD, one or more optional /SUBCOMMANDS, and a closing period. The period is not decorative - it is how SPSS knows a command has ended, exactly like a semicolon in SQL or a full stop in a sentence.</p>
+<p>Command keywords are conventionally written in upper case and variable names in the case you defined them, though SPSS itself is not case sensitive for either. Indentation and line breaks are free-form: a command can span many lines, and SPSS only cares where the period is.</p>
+<p>Comments start with an asterisk (*) or the word COMMENT, and always end with a period. You can also use C-style block comments with /* text */ inside a command. Get in the habit of commenting your syntax files as if someone else will read them in a year, because that someone is usually you.</p>
+<div class="code-caption">Anatomy of a command</div>
+<pre class="code"><code>* This is a full-line comment describing what the command below does.
+FREQUENCIES VARIABLES=Gender Region
+ /ORDER=ANALYSIS.
+
+* Everything before the period, across as many lines as needed, is ONE command.
+* A period with nothing after it ends the command; the next line starts a new one.</code></pre>
+<div class="annot-label">Line-by-line explanation</div>
+<table class="annot-table"><thead><tr><th class="ln">Line</th><th>Code</th><th>What this line does</th></tr></thead><tbody><tr><td class="ln">1</td><td class="code-cell"><code>* This is a full-line comment describing what the command below does.</code></td><td class="note-cell">A full-line comment. It starts with an asterisk and ends with a period; SPSS ignores everything between them.</td></tr><tr><td class="ln">2</td><td class="code-cell"><code>FREQUENCIES VARIABLES=Gender Region</code></td><td class="note-cell">The command keyword FREQUENCIES begins, naming Gender and Region as the variables to analyse. The command is not finished yet because there is no period.</td></tr><tr><td class="ln">3</td><td class="code-cell"><code> /ORDER=ANALYSIS.</code></td><td class="note-cell">A subcommand starting with a forward slash, still part of the same FREQUENCIES command; it tells SPSS to order the output categories by the order it discovers them in the data. The period here ends the whole command.</td></tr><tr><td class="ln">4</td><td class="code-cell"><code><em>(blank line)</em></code></td><td class="note-cell">A blank line. SPSS ignores blank lines completely; they exist only to make the file easier for a human to read.</td></tr><tr><td class="ln">5</td><td class="code-cell"><code>* Everything before the period, across as many lines as needed, is ONE command.</code></td><td class="note-cell">Another full-line comment explaining that a command can span several physical lines and still counts as one command, up to its closing period.</td></tr><tr><td class="ln">6</td><td class="code-cell"><code>* A period with nothing after it ends the command; the next line starts a new one.</code></td><td class="note-cell">A final comment clarifying that the period is the true end-of-command marker, not the line break.</td></tr></tbody></table>
+<div class="code-caption">Running syntax</div>
+<pre class="code"><code>* Highlight one or more complete commands and press Ctrl+R (or the Run &gt; Selection
+* menu / green play-triangle icon) to execute just the highlighted syntax.
+* Run &gt; All Syntax executes the entire file from top to bottom.</code></pre>
+<div class="annot-label">Line-by-line explanation</div>
+<table class="annot-table"><thead><tr><th class="ln">Line</th><th>Code</th><th>What this line does</th></tr></thead><tbody><tr><td class="ln">1</td><td class="code-cell"><code>* Highlight one or more complete commands and press Ctrl+R (or the Run &gt; Selection</code></td><td class="note-cell">Comment explaining that highlighting one or more complete commands and pressing Ctrl+R runs only what is selected.</td></tr><tr><td class="ln">2</td><td class="code-cell"><code>* menu / green play-triangle icon) to execute just the highlighted syntax.</code></td><td class="note-cell">Continuation of the same comment, naming the alternative ways to trigger the same action (the Run menu or the green play-triangle toolbar icon).</td></tr><tr><td class="ln">3</td><td class="code-cell"><code>* Run &gt; All Syntax executes the entire file from top to bottom.</code></td><td class="note-cell">Comment explaining the Run &gt; All Syntax menu option, which executes every command in the file from the first line to the last.</td></tr></tbody></table>
+<div class="tip"><strong>TIP:</strong> A very common beginner error is a missing period at the end of a command - SPSS will then try to interpret the next line as part of the same command and throw a confusing error. If a command 'does not run', check the period first.</div>
+</article>
+<article class="chapter" id="ch-3">
+<h2><span class="chnum">Chapter 3</span>Session Setup: SET, SHOW, and Working Directories</h2>
+<p>Before touching data it helps to configure the session. SET controls global options such as the width of printed output, the decimal symbol, and the random number seed (important for reproducible simulations or bootstrapping). SHOW displays the current value of any of those settings. CD changes SPSS's current working directory, which is useful so that later GET DATA and SAVE commands can use short relative file names instead of full paths.</p>
+<div class="code-caption">Typical session header</div>
+<pre class="code"><code>SET SEED=234.
+SET DECIMAL=DOT.
+CD 'C:\VitalTrack\SPSS_Course'.
+SHOW SEED.
+SHOW DIRECTORY.</code></pre>
+<div class="annot-label">Line-by-line explanation</div>
+<table class="annot-table"><thead><tr><th class="ln">Line</th><th>Code</th><th>What this line does</th></tr></thead><tbody><tr><td class="ln">1</td><td class="code-cell"><code>SET SEED=234.</code></td><td class="note-cell">SET SEED fixes the starting point of SPSS's random number generator to the value 234, so any random process (sampling, bootstrapping) gives identical results every time this file is run.</td></tr><tr><td class="ln">2</td><td class="code-cell"><code>SET DECIMAL=DOT.</code></td><td class="note-cell">SET DECIMAL tells SPSS to expect and display a full stop as the decimal separator (DOT), rather than a comma, regardless of the Windows regional settings on the machine.</td></tr><tr><td class="ln">3</td><td class="code-cell"><code>CD 'C:\VitalTrack\SPSS_Course'.</code></td><td class="note-cell">CD changes SPSS's current working directory to the folder path given in quotes, so later file references can use short file names instead of the full path.</td></tr><tr><td class="ln">4</td><td class="code-cell"><code>SHOW SEED.</code></td><td class="note-cell">SHOW SEED prints the current random seed value to the Output Viewer, confirming the SET SEED command above took effect.</td></tr><tr><td class="ln">5</td><td class="code-cell"><code>SHOW DIRECTORY.</code></td><td class="note-cell">SHOW DIRECTORY prints the current working directory to the Output Viewer, confirming the CD command above took effect.</td></tr></tbody></table>
+<div class="tip"><strong>TIP:</strong> Put a SET SEED command at the very top of any syntax file that involves random sampling (SAMPLE, bootstrapping, multiple imputation) so your results are identical every time the file is re-run.</div>
+</article>
+</section><section class="part" id="part-2"><h1>Part 2: Data Definition and Import</h1>
+<article class="chapter" id="ch-4">
+<h2><span class="chnum">Chapter 4</span>GET DATA: Importing CSV and Excel Files</h2>
+<p>GET DATA is the modern, general-purpose command for importing external files. It always follows the same pattern: /TYPE names the file format, /FILE gives the path, and format-specific subcommands control how rows and columns are read. This chapter imports the practice dataset directly from CSV and, separately, from Excel - you only need to run one of the two, but both are shown because you will meet each format in real work.</p>
+<div class="code-caption">Import the CSV file</div>
+<pre class="code"><code>GET DATA /TYPE=TXT
+ /FILE='vitaltrack_patient_survey.csv'
+ /DELCASE=LINE
+ /DELIMITERS=','
+ /QUALIFIER='"'
+ /ARRANGEMENT=DELIMITED
+ /FIRSTCASE=2
+ /IMPORTCASE=ALL
+ /VARIABLES=
+ PatientID A6
+ Region A15
+ Gender A6
+ Age F3
+ ConditionType A13
+ DeviceType A14
+ MonthsEnrolled F5.1
+ MonthlySubscriptionFee F8
+ NumReadingsSubmittedMonth F3
+ Q1_DeviceEaseOfUse F1
+ Q2_NurseResponsiveness F1
+ Q3_ReadingAccuracy F1
+ Q4_SupportResponseTime F1
+ Q5_OverallSatisfaction F1
+ ComplaintFiled A3
+ AdherenceScore F3
+ Hospitalized A3
+ DropoutRisk A6.
+CACHE.
+EXECUTE.
+DATASET NAME VitalTrack WINDOW=FRONT.</code></pre>
+<div class="annot-label">Line-by-line explanation</div>
+<table class="annot-table"><thead><tr><th class="ln">Line</th><th>Code</th><th>What this line does</th></tr></thead><tbody><tr><td class="ln">1</td><td class="code-cell"><code>GET DATA /TYPE=TXT</code></td><td class="note-cell">Begins the GET DATA command and tells SPSS the source is a plain text file (/TYPE=TXT), which covers CSV files.</td></tr><tr><td class="ln">2</td><td class="code-cell"><code> /FILE='vitaltrack_patient_survey.csv'</code></td><td class="note-cell">Names the exact file to read, in single quotes, relative to the working directory set by CD in Chapter 3.</td></tr><tr><td class="ln">3</td><td class="code-cell"><code> /DELCASE=LINE</code></td><td class="note-cell">DELCASE=LINE tells SPSS that every new line in the file is a new case (row) of data.</td></tr><tr><td class="ln">4</td><td class="code-cell"><code> /DELIMITERS=','</code></td><td class="note-cell">DELIMITERS names the character that separates one column's value from the next; a comma, matching a standard CSV file.</td></tr><tr><td class="ln">5</td><td class="code-cell"><code> /QUALIFIER='"'</code></td><td class="note-cell">QUALIFIER names the character used to wrap text that itself might contain the delimiter, here a double quote mark, exactly as CSV files typically use.</td></tr><tr><td class="ln">6</td><td class="code-cell"><code> /ARRANGEMENT=DELIMITED</code></td><td class="note-cell">ARRANGEMENT=DELIMITED confirms the file is column-delimited (as opposed to fixed-width columns).</td></tr><tr><td class="ln">7</td><td class="code-cell"><code> /FIRSTCASE=2</code></td><td class="note-cell">FIRSTCASE=2 tells SPSS that row 1 is a header row of column names, so actual data starts on row 2.</td></tr><tr><td class="ln">8</td><td class="code-cell"><code> /IMPORTCASE=ALL</code></td><td class="note-cell">IMPORTCASE=ALL tells SPSS to read every case in the file rather than stopping after a sample or a fixed count.</td></tr><tr><td class="ln">9</td><td class="code-cell"><code> /VARIABLES=</code></td><td class="note-cell">Opens the /VARIABLES subcommand, which is where every column's name and data type will be listed.</td></tr><tr><td class="ln">10</td><td class="code-cell"><code> PatientID A6</code></td><td class="note-cell">Defines PatientID as a string (A) variable up to 6 characters wide.</td></tr><tr><td class="ln">11</td><td class="code-cell"><code> Region A15</code></td><td class="note-cell">Defines Region as a string variable up to 15 characters wide.</td></tr><tr><td class="ln">12</td><td class="code-cell"><code> Gender A6</code></td><td class="note-cell">Defines Gender as a string variable up to 6 characters wide.</td></tr><tr><td class="ln">13</td><td class="code-cell"><code> Age F3</code></td><td class="note-cell">Defines Age as a numeric (F, meaning standard numeric) variable up to 3 digits wide.</td></tr><tr><td class="ln">14</td><td class="code-cell"><code> ConditionType A13</code></td><td class="note-cell">Defines ConditionType as a string variable up to 13 characters wide.</td></tr><tr><td class="ln">15</td><td class="code-cell"><code> DeviceType A14</code></td><td class="note-cell">Defines DeviceType as a string variable up to 14 characters wide.</td></tr><tr><td class="ln">16</td><td class="code-cell"><code> MonthsEnrolled F5.1</code></td><td class="note-cell">Defines MonthsEnrolled as numeric with 5 total digits and 1 decimal place (F5.1).</td></tr><tr><td class="ln">17</td><td class="code-cell"><code> MonthlySubscriptionFee F8</code></td><td class="note-cell">Defines MonthlySubscriptionFee as numeric with up to 8 digits and no decimal places.</td></tr><tr><td class="ln">18</td><td class="code-cell"><code> NumReadingsSubmittedMonth F3</code></td><td class="note-cell">Defines NumReadingsSubmittedMonth as numeric with up to 3 digits.</td></tr><tr><td class="ln">19</td><td class="code-cell"><code> Q1_DeviceEaseOfUse F1</code></td><td class="note-cell">Defines Q1_DeviceEaseOfUse as a single-digit numeric variable (the 1-5 Likert code).</td></tr><tr><td class="ln">20</td><td class="code-cell"><code> Q2_NurseResponsiveness F1</code></td><td class="note-cell">Defines Q2_NurseResponsiveness the same way, as a single-digit numeric variable.</td></tr><tr><td class="ln">21</td><td class="code-cell"><code> Q3_ReadingAccuracy F1</code></td><td class="note-cell">Defines Q3_ReadingAccuracy the same way, as a single-digit numeric variable.</td></tr><tr><td class="ln">22</td><td class="code-cell"><code> Q4_SupportResponseTime F1</code></td><td class="note-cell">Defines Q4_SupportResponseTime the same way, as a single-digit numeric variable.</td></tr><tr><td class="ln">23</td><td class="code-cell"><code> Q5_OverallSatisfaction F1</code></td><td class="note-cell">Defines Q5_OverallSatisfaction the same way, as a single-digit numeric variable. This is the last Likert item in the list.</td></tr><tr><td class="ln">24</td><td class="code-cell"><code> ComplaintFiled A3</code></td><td class="note-cell">Defines ComplaintFiled as a string variable up to 3 characters wide (holds 'Yes' or 'No').</td></tr><tr><td class="ln">25</td><td class="code-cell"><code> AdherenceScore F3</code></td><td class="note-cell">Defines AdherenceScore as numeric with up to 3 digits.</td></tr><tr><td class="ln">26</td><td class="code-cell"><code> Hospitalized A3</code></td><td class="note-cell">Defines Hospitalized as a string variable up to 3 characters wide (holds 'Yes' or 'No').</td></tr><tr><td class="ln">27</td><td class="code-cell"><code> DropoutRisk A6.</code></td><td class="note-cell">Defines DropoutRisk as a string variable up to 6 characters wide, and the period here closes the entire GET DATA command.</td></tr><tr><td class="ln">28</td><td class="code-cell"><code>CACHE.</code></td><td class="note-cell">CACHE tells SPSS to read the whole file into memory immediately rather than only when it is next needed.</td></tr><tr><td class="ln">29</td><td class="code-cell"><code>EXECUTE.</code></td><td class="note-cell">EXECUTE forces SPSS to actually carry out the pending GET DATA and CACHE instructions right now.</td></tr><tr><td class="ln">30</td><td class="code-cell"><code>DATASET NAME VitalTrack WINDOW=FRONT.</code></td><td class="note-cell">DATASET NAME gives the newly opened data the short handle VitalTrack, and WINDOW=FRONT brings its Data Editor window to the front of the screen.</td></tr></tbody></table>
+<div class="code-caption">Import the Excel file instead</div>
+<pre class="code"><code>GET DATA /TYPE=XLSX
+ /FILE='vitaltrack_patient_survey.xlsx'
+ /SHEET=name 'VitalTrack_Survey'
+ /CELLRANGE=full
+ /READNAMES=on
+ /DATATYPEMIN PERCENTAGE=95.0.
+EXECUTE.
+DATASET NAME VitalTrack WINDOW=FRONT.</code></pre>
+<div class="annot-label">Line-by-line explanation</div>
+<table class="annot-table"><thead><tr><th class="ln">Line</th><th>Code</th><th>What this line does</th></tr></thead><tbody><tr><td class="ln">1</td><td class="code-cell"><code>GET DATA /TYPE=XLSX</code></td><td class="note-cell">Begins the GET DATA command, this time naming the source type as XLSX (a modern Excel workbook).</td></tr><tr><td class="ln">2</td><td class="code-cell"><code> /FILE='vitaltrack_patient_survey.xlsx'</code></td><td class="note-cell">Names the exact Excel file to open, in single quotes.</td></tr><tr><td class="ln">3</td><td class="code-cell"><code> /SHEET=name 'VitalTrack_Survey'</code></td><td class="note-cell">SHEET=name tells SPSS which worksheet inside the workbook to read, here the one named VitalTrack_Survey.</td></tr><tr><td class="ln">4</td><td class="code-cell"><code> /CELLRANGE=full</code></td><td class="note-cell">CELLRANGE=full tells SPSS to read every populated cell in that worksheet rather than a manually specified range.</td></tr><tr><td class="ln">5</td><td class="code-cell"><code> /READNAMES=on</code></td><td class="note-cell">READNAMES=on tells SPSS that the first row of the sheet contains column headers to use as variable names.</td></tr><tr><td class="ln">6</td><td class="code-cell"><code> /DATATYPEMIN PERCENTAGE=95.0.</code></td><td class="note-cell">DATATYPEMIN PERCENTAGE=95.0 tells SPSS how confident it must be (95%) about a column's data type before assigning it automatically; the period ends the command.</td></tr><tr><td class="ln">7</td><td class="code-cell"><code>EXECUTE.</code></td><td class="note-cell">EXECUTE forces SPSS to actually read the Excel file now.</td></tr><tr><td class="ln">8</td><td class="code-cell"><code>DATASET NAME VitalTrack WINDOW=FRONT.</code></td><td class="note-cell">DATASET NAME gives the data the handle VitalTrack and brings its window to the front, exactly as in the CSV version above.</td></tr></tbody></table>
+<div class="tip"><strong>TIP:</strong> CACHE. followed by EXECUTE. forces SPSS to read the whole file into memory immediately rather than lazily, which avoids surprises later if the source file is moved or deleted.</div>
+<div class="tip"><strong>TIP:</strong> DATASET NAME gives the open data a short handle so you can refer to it later when working with more than one dataset open at once (see MATCH FILES in Chapter 14).</div>
+</article>
+<article class="chapter" id="ch-5">
+<h2><span class="chnum">Chapter 5</span>DATA LIST: Defining Data Inline or From Fixed-Width Files</h2>
+<p>Before GET DATA existed, DATA LIST was (and still is) the workhorse command for defining a dataset's structure by hand, either reading an external fixed-width or delimited file, or reading data typed directly inside the syntax file using BEGIN DATA / END DATA. This is invaluable for small teaching datasets, quick simulations, or when you need full manual control of column positions.</p>
+<div class="code-caption">Inline data with BEGIN DATA / END DATA</div>
+<pre class="code"><code>DATA LIST FREE / ClinicCode (A4) StaffCount (F3) AvgWaitMinutes (F4.1).
+BEGIN DATA
+LAG1 42 6.2
+ABJ1 27 4.8
+PHC1 19 7.1
+KAN1 15 5.5
+IBD1 22 6.0
+END DATA.
+EXECUTE.</code></pre>
+<div class="annot-label">Line-by-line explanation</div>
+<table class="annot-table"><thead><tr><th class="ln">Line</th><th>Code</th><th>What this line does</th></tr></thead><tbody><tr><td class="ln">1</td><td class="code-cell"><code>DATA LIST FREE / ClinicCode (A4) StaffCount (F3) AvgWaitMinutes (F4.1).</code></td><td class="note-cell">DATA LIST FREE declares three new variables read in free (whitespace-separated) format: ClinicCode as up to 4 characters of text, StaffCount as a 3-digit number, and AvgWaitMinutes as a number with 4 total digits and 1 decimal place.</td></tr><tr><td class="ln">2</td><td class="code-cell"><code>BEGIN DATA</code></td><td class="note-cell">BEGIN DATA marks the start of the actual data rows typed directly into the syntax file.</td></tr><tr><td class="ln">3</td><td class="code-cell"><code>LAG1 42 6.2</code></td><td class="note-cell">The first data row: ClinicCode='LAG1', StaffCount=42, AvgWaitMinutes=6.2.</td></tr><tr><td class="ln">4</td><td class="code-cell"><code>ABJ1 27 4.8</code></td><td class="note-cell">The second data row: ClinicCode='ABJ1', StaffCount=27, AvgWaitMinutes=4.8.</td></tr><tr><td class="ln">5</td><td class="code-cell"><code>PHC1 19 7.1</code></td><td class="note-cell">The third data row: ClinicCode='PHC1', StaffCount=19, AvgWaitMinutes=7.1.</td></tr><tr><td class="ln">6</td><td class="code-cell"><code>KAN1 15 5.5</code></td><td class="note-cell">The fourth data row: ClinicCode='KAN1', StaffCount=15, AvgWaitMinutes=5.5.</td></tr><tr><td class="ln">7</td><td class="code-cell"><code>IBD1 22 6.0</code></td><td class="note-cell">The fifth data row: ClinicCode='IBD1', StaffCount=22, AvgWaitMinutes=6.0.</td></tr><tr><td class="ln">8</td><td class="code-cell"><code>END DATA.</code></td><td class="note-cell">END DATA marks the end of the inline data rows, matching the BEGIN DATA above.</td></tr><tr><td class="ln">9</td><td class="code-cell"><code>EXECUTE.</code></td><td class="note-cell">EXECUTE forces SPSS to actually build this small dataset in memory now.</td></tr></tbody></table>
+<div class="code-caption">Fixed-column format from an external file</div>
+<pre class="code"><code>DATA LIST FILE='hub_master.txt' FIXED RECORDS=1
+ / ClinicCode 1-4 (A) StaffCount 6-8 AvgWaitMinutes 10-13 (1).
+EXECUTE.</code></pre>
+<div class="annot-label">Line-by-line explanation</div>
+<table class="annot-table"><thead><tr><th class="ln">Line</th><th>Code</th><th>What this line does</th></tr></thead><tbody><tr><td class="ln">1</td><td class="code-cell"><code>DATA LIST FILE='hub_master.txt' FIXED RECORDS=1</code></td><td class="note-cell">DATA LIST FILE names an external fixed-width text file to read, and FIXED RECORDS=1 states that each case occupies exactly one physical line of that file.</td></tr><tr><td class="ln">2</td><td class="code-cell"><code> / ClinicCode 1-4 (A) StaffCount 6-8 AvgWaitMinutes 10-13 (1).</code></td><td class="note-cell">Defines the column positions within each line: ClinicCode occupies characters 1 to 4 and is text (A); StaffCount occupies characters 6 to 8; AvgWaitMinutes occupies characters 10 to 13 with 1 implied decimal place.</td></tr><tr><td class="ln">3</td><td class="code-cell"><code>EXECUTE.</code></td><td class="note-cell">EXECUTE forces SPSS to actually read the fixed-width file now.</td></tr></tbody></table>
+<div class="tip"><strong>TIP:</strong> FREE format reads values separated by any whitespace and is quickest for small inline tables; FIXED format reads exact column positions and is used for legacy government or mainframe extract files.</div>
+</article>
+<article class="chapter" id="ch-6">
+<h2><span class="chnum">Chapter 6</span>Labelling the Data: VARIABLE LABELS, VALUE LABELS, MISSING VALUES</h2>
+<p>Raw column names and numeric codes are rarely self-explanatory to a reader of your output. VARIABLE LABELS attaches a descriptive sentence to a variable name; VALUE LABELS attaches a text meaning to specific numeric or string codes (essential for Likert items and Yes/No flags); MISSING VALUES declares which codes should be treated as missing rather than as real data (e.g., 99 for 'refused to answer').</p>
+<div class="code-caption">Variable labels</div>
+<pre class="code"><code>VARIABLE LABELS
+ Q1_DeviceEaseOfUse 'The RPM device is easy to use'
+ Q2_NurseResponsiveness 'The care team responds promptly to my alerts'
+ Q3_ReadingAccuracy 'I trust the accuracy of my device readings'
+ Q4_SupportResponseTime 'I am satisfied with how quickly support responds to my questions'
+ Q5_OverallSatisfaction 'Overall, I am satisfied with VitalTrack Health Tech'
+ MonthlySubscriptionFee 'Monthly subscription fee in Naira (NGN)'.
+EXECUTE.</code></pre>
+<div class="annot-label">Line-by-line explanation</div>
+<table class="annot-table"><thead><tr><th class="ln">Line</th><th>Code</th><th>What this line does</th></tr></thead><tbody><tr><td class="ln">1</td><td class="code-cell"><code>VARIABLE LABELS</code></td><td class="note-cell">Begins the VARIABLE LABELS command, which will attach a descriptive label to one or more variables.</td></tr><tr><td class="ln">2</td><td class="code-cell"><code> Q1_DeviceEaseOfUse 'The RPM device is easy to use'</code></td><td class="note-cell">Attaches the label 'The RPM device is easy to use' to the variable Q1_DeviceEaseOfUse.</td></tr><tr><td class="ln">3</td><td class="code-cell"><code> Q2_NurseResponsiveness 'The care team responds promptly to my alerts'</code></td><td class="note-cell">Attaches the label 'The care team responds promptly to my alerts' to Q2_NurseResponsiveness.</td></tr><tr><td class="ln">4</td><td class="code-cell"><code> Q3_ReadingAccuracy 'I trust the accuracy of my device readings'</code></td><td class="note-cell">Attaches the label 'I trust the accuracy of my device readings' to Q3_ReadingAccuracy.</td></tr><tr><td class="ln">5</td><td class="code-cell"><code> Q4_SupportResponseTime 'I am satisfied with how quickly support responds to my questions'</code></td><td class="note-cell">Attaches the label 'I am satisfied with how quickly support responds to my questions' to Q4_SupportResponseTime.</td></tr><tr><td class="ln">6</td><td class="code-cell"><code> Q5_OverallSatisfaction 'Overall, I am satisfied with VitalTrack Health Tech'</code></td><td class="note-cell">Attaches the label 'Overall, I am satisfied with VitalTrack Health Tech' to Q5_OverallSatisfaction.</td></tr><tr><td class="ln">7</td><td class="code-cell"><code> MonthlySubscriptionFee 'Monthly subscription fee in Naira (NGN)'.</code></td><td class="note-cell">Attaches the label 'Monthly subscription fee in Naira (NGN)' to MonthlySubscriptionFee; the period ends the whole command.</td></tr><tr><td class="ln">8</td><td class="code-cell"><code>EXECUTE.</code></td><td class="note-cell">EXECUTE forces SPSS to apply all six labels now.</td></tr></tbody></table>
+<div class="code-caption">Value labels for the Likert items and flags</div>
+<pre class="code"><code>VALUE LABELS Q1_DeviceEaseOfUse Q2_NurseResponsiveness Q3_ReadingAccuracy
+ Q4_SupportResponseTime Q5_OverallSatisfaction
+ 1 'Strongly Disagree' 2 'Disagree' 3 'Neutral' 4 'Agree' 5 'Strongly Agree'.
+
+VALUE LABELS ComplaintFiled Hospitalized 'No' 'No' 'Yes' 'Yes'.
+EXECUTE.</code></pre>
+<div class="annot-label">Line-by-line explanation</div>
+<table class="annot-table"><thead><tr><th class="ln">Line</th><th>Code</th><th>What this line does</th></tr></thead><tbody><tr><td class="ln">1</td><td class="code-cell"><code>VALUE LABELS Q1_DeviceEaseOfUse Q2_NurseResponsiveness Q3_ReadingAccuracy</code></td><td class="note-cell">Begins a VALUE LABELS command that will apply the same set of numeric-to-text mappings to all five Likert variables listed here.</td></tr><tr><td class="ln">2</td><td class="code-cell"><code> Q4_SupportResponseTime Q5_OverallSatisfaction</code></td><td class="note-cell">Continues the list of variables that will share the labels defined below (still part of the same command as line 0).</td></tr><tr><td class="ln">3</td><td class="code-cell"><code> 1 'Strongly Disagree' 2 'Disagree' 3 'Neutral' 4 'Agree' 5 'Strongly Agree'.</code></td><td class="note-cell">Defines the five shared value labels: 1 means 'Strongly Disagree', 2 means 'Disagree', 3 means 'Neutral', 4 means 'Agree', 5 means 'Strongly Agree'; the period ends this command.</td></tr><tr><td class="ln">4</td><td class="code-cell"><code><em>(blank line)</em></code></td><td class="note-cell">A blank line separating the two independent VALUE LABELS commands for readability.</td></tr><tr><td class="ln">5</td><td class="code-cell"><code>VALUE LABELS ComplaintFiled Hospitalized 'No' 'No' 'Yes' 'Yes'.</code></td><td class="note-cell">A second, separate VALUE LABELS command: for both ComplaintFiled and Hospitalized, the string 'No' is labelled 'No' and 'Yes' is labelled 'Yes' (this mainly documents intent since the codes and labels are identical strings).</td></tr><tr><td class="ln">6</td><td class="code-cell"><code>EXECUTE.</code></td><td class="note-cell">EXECUTE applies both VALUE LABELS commands now.</td></tr></tbody></table>
+<div class="code-caption">Declaring missing codes</div>
+<pre class="code"><code>MISSING VALUES MonthlySubscriptionFee (999999) AdherenceScore (0).
+EXECUTE.</code></pre>
+<div class="annot-label">Line-by-line explanation</div>
+<table class="annot-table"><thead><tr><th class="ln">Line</th><th>Code</th><th>What this line does</th></tr></thead><tbody><tr><td class="ln">1</td><td class="code-cell"><code>MISSING VALUES MonthlySubscriptionFee (999999) AdherenceScore (0).</code></td><td class="note-cell">MISSING VALUES declares that, for MonthlySubscriptionFee, the code 999999 should be treated as missing, and for AdherenceScore, the code 0 should be treated as missing, rather than as genuine data values.</td></tr><tr><td class="ln">2</td><td class="code-cell"><code>EXECUTE.</code></td><td class="note-cell">EXECUTE applies this missing-value declaration now.</td></tr></tbody></table>
+<div class="tip"><strong>TIP:</strong> Labelling every categorical and Likert variable at the start of a project takes ten minutes and saves hours later, because every FREQUENCIES, CROSSTABS, and chart you run afterwards will automatically print the readable labels instead of raw codes.</div>
+</article>
+<article class="chapter" id="ch-7">
+<h2><span class="chnum">Chapter 7</span>VARIABLE LEVEL, FORMATS, and Display Properties</h2>
+<p>SPSS distinguishes three measurement levels - Nominal, Ordinal, Scale - which control which chart types and statistics some menus offer you (syntax itself does not enforce this, but many procedures assume you set it correctly). VARIABLE LEVEL sets this explicitly. FORMATS controls how numbers print (decimal places, width), and VARIABLE WIDTH / VARIABLE ALIGNMENT control column display in Data View.</p>
+<div class="code-caption">Setting measurement level and display format</div>
+<pre class="code"><code>VARIABLE LEVEL Region Gender ConditionType DeviceType ComplaintFiled
+ Hospitalized DropoutRisk (NOMINAL).
+VARIABLE LEVEL Q1_DeviceEaseOfUse TO Q5_OverallSatisfaction (ORDINAL).
+VARIABLE LEVEL Age MonthsEnrolled MonthlySubscriptionFee NumReadingsSubmittedMonth
+ AdherenceScore (SCALE).
+
+FORMATS MonthlySubscriptionFee AdherenceScore (F8.0) MonthsEnrolled (F5.1).
+EXECUTE.</code></pre>
+<div class="annot-label">Line-by-line explanation</div>
+<table class="annot-table"><thead><tr><th class="ln">Line</th><th>Code</th><th>What this line does</th></tr></thead><tbody><tr><td class="ln">1</td><td class="code-cell"><code>VARIABLE LEVEL Region Gender ConditionType DeviceType ComplaintFiled</code></td><td class="note-cell">Begins a VARIABLE LEVEL command listing several categorical variables.</td></tr><tr><td class="ln">2</td><td class="code-cell"><code> Hospitalized DropoutRisk (NOMINAL).</code></td><td class="note-cell">Continues the variable list from the line above and sets all of them, as a group, to the NOMINAL measurement level (categories with no inherent order).</td></tr><tr><td class="ln">3</td><td class="code-cell"><code>VARIABLE LEVEL Q1_DeviceEaseOfUse TO Q5_OverallSatisfaction (ORDINAL).</code></td><td class="note-cell">A second VARIABLE LEVEL command sets every variable from Q1_DeviceEaseOfUse through Q5_OverallSatisfaction (using the TO keyword) to ORDINAL, since Likert categories have a meaningful order.</td></tr><tr><td class="ln">4</td><td class="code-cell"><code>VARIABLE LEVEL Age MonthsEnrolled MonthlySubscriptionFee NumReadingsSubmittedMonth</code></td><td class="note-cell">Begins a third VARIABLE LEVEL command listing four scale (continuous numeric) variables.</td></tr><tr><td class="ln">5</td><td class="code-cell"><code> AdherenceScore (SCALE).</code></td><td class="note-cell">Continues that list and sets all five named variables (including AdherenceScore) to SCALE, the measurement level for continuous numeric data.</td></tr><tr><td class="ln">6</td><td class="code-cell"><code><em>(blank line)</em></code></td><td class="note-cell">A blank line separating the VARIABLE LEVEL commands from the FORMATS command below.</td></tr><tr><td class="ln">7</td><td class="code-cell"><code>FORMATS MonthlySubscriptionFee AdherenceScore (F8.0) MonthsEnrolled (F5.1).</code></td><td class="note-cell">FORMATS sets the printed display format: MonthlySubscriptionFee and AdherenceScore each show up to 8 digits with 0 decimal places, while MonthsEnrolled shows 5 total digits with 1 decimal place.</td></tr><tr><td class="ln">8</td><td class="code-cell"><code>EXECUTE.</code></td><td class="note-cell">EXECUTE applies all of the level and format changes now.</td></tr></tbody></table>
+<div class="tip"><strong>TIP:</strong> The TO keyword (Q1_DeviceEaseOfUse TO Q5_OverallSatisfaction) refers to every variable between two names in file order - a fast way to address a block of consecutively positioned variables without typing each name.</div>
+</article>
+</section><section class="part" id="part-3"><h1>Part 3: Data Management and Transformation</h1>
+<article class="chapter" id="ch-8">
+<h2><span class="chnum">Chapter 8</span>COMPUTE: Creating New Variables</h2>
+<p>COMPUTE creates or overwrites a variable using an arithmetic expression. SPSS supports the usual operators (+ - * / **), a large function library (SUM, MEAN, SQRT, LN, LG10, RND, TRUNC, ABS, and many more), and can reference any existing numeric variable. Every COMPUTE should be followed by EXECUTE (or will run automatically at the next procedure) so you can see the result immediately.</p>
+<div class="code-caption">Building a composite satisfaction score</div>
+<pre class="code"><code>COMPUTE SatisfactionIndex = MEAN(Q1_DeviceEaseOfUse, Q2_NurseResponsiveness,
+ Q3_ReadingAccuracy, Q4_SupportResponseTime, Q5_OverallSatisfaction).
+VARIABLE LABELS SatisfactionIndex 'Mean of 5 satisfaction items'.
+EXECUTE.
+
+COMPUTE AnnualSubscriptionFee = MonthlySubscriptionFee * 12.
+COMPUTE FeePerReading = MonthlySubscriptionFee / NumReadingsSubmittedMonth.
+EXECUTE.</code></pre>
+<div class="annot-label">Line-by-line explanation</div>
+<table class="annot-table"><thead><tr><th class="ln">Line</th><th>Code</th><th>What this line does</th></tr></thead><tbody><tr><td class="ln">1</td><td class="code-cell"><code>COMPUTE SatisfactionIndex = MEAN(Q1_DeviceEaseOfUse, Q2_NurseResponsiveness,</code></td><td class="note-cell">Begins a COMPUTE command creating SatisfactionIndex as the MEAN() of several listed variables; the function call continues onto the next line.</td></tr><tr><td class="ln">2</td><td class="code-cell"><code> Q3_ReadingAccuracy, Q4_SupportResponseTime, Q5_OverallSatisfaction).</code></td><td class="note-cell">Completes the list of variables being averaged and closes the MEAN() function and the COMPUTE command with a period.</td></tr><tr><td class="ln">3</td><td class="code-cell"><code>VARIABLE LABELS SatisfactionIndex 'Mean of 5 satisfaction items'.</code></td><td class="note-cell">Attaches a descriptive label, 'Mean of 5 satisfaction items', to the newly created SatisfactionIndex variable.</td></tr><tr><td class="ln">4</td><td class="code-cell"><code>EXECUTE.</code></td><td class="note-cell">EXECUTE actually calculates SatisfactionIndex for every case now.</td></tr><tr><td class="ln">5</td><td class="code-cell"><code><em>(blank line)</em></code></td><td class="note-cell">A blank line separating this pair of computations from the next.</td></tr><tr><td class="ln">6</td><td class="code-cell"><code>COMPUTE AnnualSubscriptionFee = MonthlySubscriptionFee * 12.</code></td><td class="note-cell">A second COMPUTE creates AnnualSubscriptionFee by multiplying MonthlySubscriptionFee by 12.</td></tr><tr><td class="ln">7</td><td class="code-cell"><code>COMPUTE FeePerReading = MonthlySubscriptionFee / NumReadingsSubmittedMonth.</code></td><td class="note-cell">A third COMPUTE creates FeePerReading by dividing MonthlySubscriptionFee by NumReadingsSubmittedMonth.</td></tr><tr><td class="ln">8</td><td class="code-cell"><code>EXECUTE.</code></td><td class="note-cell">EXECUTE actually calculates both AnnualSubscriptionFee and FeePerReading now.</td></tr></tbody></table>
+<div class="tip"><strong>TIP:</strong> MEAN(), SUM(), and SD() ignore missing values by default unless you request a minimum number of valid values, e.g. MEAN.3(Q1,Q2,Q3,Q4,Q5) requires at least 3 of the 5 to be non-missing before it computes a result.</div>
+</article>
+<article class="chapter" id="ch-9">
+<h2><span class="chnum">Chapter 9</span>IF and DO IF / ELSE IF / END IF: Conditional Logic</h2>
+<p>The standalone IF command computes a value only for cases meeting a condition, leaving other cases untouched. DO IF ... ELSE IF ... END IF is the block form, letting you route each case through one of several regions - closer to a traditional if/elif/else block in a programming language, and the right tool when you need to assign several variables per region.</p>
+<div class="code-caption">Standalone IF</div>
+<pre class="code"><code>IF (MonthlySubscriptionFee &gt;= 10000) HighFeeFlag = 1.
+IF (MonthlySubscriptionFee &lt; 10000) HighFeeFlag = 0.
+VARIABLE LABELS HighFeeFlag 'Monthly subscription fee at or above N10,000'.
+VALUE LABELS HighFeeFlag 0 'No' 1 'Yes'.
+EXECUTE.</code></pre>
+<div class="annot-label">Line-by-line explanation</div>
+<table class="annot-table"><thead><tr><th class="ln">Line</th><th>Code</th><th>What this line does</th></tr></thead><tbody><tr><td class="ln">1</td><td class="code-cell"><code>IF (MonthlySubscriptionFee &gt;= 10000) HighFeeFlag = 1.</code></td><td class="note-cell">A standalone IF: for any case where MonthlySubscriptionFee is 10000 or more, it sets HighFeeFlag to 1; cases that fail the condition are left untouched by this line.</td></tr><tr><td class="ln">2</td><td class="code-cell"><code>IF (MonthlySubscriptionFee &lt; 10000) HighFeeFlag = 0.</code></td><td class="note-cell">A second standalone IF: for any case where MonthlySubscriptionFee is below 10000, it sets HighFeeFlag to 0, covering the cases the first IF did not touch.</td></tr><tr><td class="ln">3</td><td class="code-cell"><code>VARIABLE LABELS HighFeeFlag 'Monthly subscription fee at or above N10,000'.</code></td><td class="note-cell">Attaches the descriptive label 'Monthly subscription fee at or above N10,000' to HighFeeFlag.</td></tr><tr><td class="ln">4</td><td class="code-cell"><code>VALUE LABELS HighFeeFlag 0 'No' 1 'Yes'.</code></td><td class="note-cell">Attaches value labels to HighFeeFlag so that 0 displays as 'No' and 1 displays as 'Yes'.</td></tr><tr><td class="ln">5</td><td class="code-cell"><code>EXECUTE.</code></td><td class="note-cell">EXECUTE actually evaluates both IF conditions and applies the labels now.</td></tr></tbody></table>
+<div class="code-caption">DO IF / ELSE IF block for a multi-category recode</div>
+<pre class="code"><code>DO IF (Age &lt; 25).
+ COMPUTE AgeBand = 1.
+ELSE IF (Age &gt;= 25 AND Age &lt;= 40).
+ COMPUTE AgeBand = 2.
+ELSE IF (Age &gt;= 41 AND Age &lt;= 55).
+ COMPUTE AgeBand = 3.
+ELSE.
+ COMPUTE AgeBand = 4.
+END IF.
+VALUE LABELS AgeBand 1 'Under 25' 2 '25-40' 3 '41-55' 4 '56 and above'.
+VARIABLE LABELS AgeBand 'Age band'.
+EXECUTE.</code></pre>
+<div class="annot-label">Line-by-line explanation</div>
+<table class="annot-table"><thead><tr><th class="ln">Line</th><th>Code</th><th>What this line does</th></tr></thead><tbody><tr><td class="ln">1</td><td class="code-cell"><code>DO IF (Age &lt; 25).</code></td><td class="note-cell">Opens a DO IF block: cases where Age is under 25 will run the next line only.</td></tr><tr><td class="ln">2</td><td class="code-cell"><code> COMPUTE AgeBand = 1.</code></td><td class="note-cell">For cases entering the region above, sets AgeBand to 1.</td></tr><tr><td class="ln">3</td><td class="code-cell"><code>ELSE IF (Age &gt;= 25 AND Age &lt;= 40).</code></td><td class="note-cell">ELSE IF adds a second condition, tested only for cases that failed the first: Age between 25 and 40 inclusive.</td></tr><tr><td class="ln">4</td><td class="code-cell"><code> COMPUTE AgeBand = 2.</code></td><td class="note-cell">For cases entering this second region, sets AgeBand to 2.</td></tr><tr><td class="ln">5</td><td class="code-cell"><code>ELSE IF (Age &gt;= 41 AND Age &lt;= 55).</code></td><td class="note-cell">ELSE IF adds a third condition, tested only for cases that failed the first two: Age between 41 and 55 inclusive.</td></tr><tr><td class="ln">6</td><td class="code-cell"><code> COMPUTE AgeBand = 3.</code></td><td class="note-cell">For cases entering this third region, sets AgeBand to 3.</td></tr><tr><td class="ln">7</td><td class="code-cell"><code>ELSE.</code></td><td class="note-cell">ELSE catches every remaining case that failed all three conditions above (Age 56 and over).</td></tr><tr><td class="ln">8</td><td class="code-cell"><code> COMPUTE AgeBand = 4.</code></td><td class="note-cell">For cases entering this final catch-all region, sets AgeBand to 4.</td></tr><tr><td class="ln">9</td><td class="code-cell"><code>END IF.</code></td><td class="note-cell">END IF closes the DO IF block that began on the first line.</td></tr><tr><td class="ln">10</td><td class="code-cell"><code>VALUE LABELS AgeBand 1 'Under 25' 2 '25-40' 3 '41-55' 4 '56 and above'.</code></td><td class="note-cell">Attaches value labels to AgeBand: 1='Under 25', 2='25-40', 3='41-55', 4='56 and above'.</td></tr><tr><td class="ln">11</td><td class="code-cell"><code>VARIABLE LABELS AgeBand 'Age band'.</code></td><td class="note-cell">Attaches the descriptive label 'Age band' to AgeBand.</td></tr><tr><td class="ln">12</td><td class="code-cell"><code>EXECUTE.</code></td><td class="note-cell">EXECUTE actually runs the whole DO IF block and applies the labels now.</td></tr></tbody></table>
+<div class="tip"><strong>TIP:</strong> A DO IF block with no matching ELSE region leaves the target variable as system-missing for any case that fails every condition - always add a final ELSE. to catch the remainder unless that is genuinely what you want.</div>
+</article>
+<article class="chapter" id="ch-10">
+<h2><span class="chnum">Chapter 10</span>RECODE and AUTORECODE</h2>
+<p>RECODE changes existing values into new ones, either overwriting the same variable or, with INTO, writing to a new one (the safer habit, since it preserves the original). AUTORECODE takes any string or scattered-numeric variable and assigns clean sequential integer codes 1, 2, 3... in alphabetical/ascending order - extremely useful before running procedures that require pure numeric grouping variables.</p>
+<div class="code-caption">RECODE into a new variable</div>
+<pre class="code"><code>RECODE Age (18 THRU 25=1) (26 THRU 40=2) (41 THRU 55=3) (56 THRU HIGHEST=4)
+ INTO AgeBandRecode.
+VARIABLE LABELS AgeBandRecode 'Age band (via RECODE)'.
+VALUE LABELS AgeBandRecode 1 'Under 25' 2 '25-40' 3 '41-55' 4 '56 and above'.
+EXECUTE.</code></pre>
+<div class="annot-label">Line-by-line explanation</div>
+<table class="annot-table"><thead><tr><th class="ln">Line</th><th>Code</th><th>What this line does</th></tr></thead><tbody><tr><td class="ln">1</td><td class="code-cell"><code>RECODE Age (18 THRU 25=1) (26 THRU 40=2) (41 THRU 55=3) (56 THRU HIGHEST=4)</code></td><td class="note-cell">Begins a RECODE command on Age: values 18 through 25 become 1, 26 through 40 become 2, 41 through 55 become 3, and 56 through the highest value present become 4; the command continues on the next line.</td></tr><tr><td class="ln">2</td><td class="code-cell"><code> INTO AgeBandRecode.</code></td><td class="note-cell">INTO AgeBandRecode tells SPSS to write these new codes into a brand-new variable of that name, leaving the original Age variable completely unchanged.</td></tr><tr><td class="ln">3</td><td class="code-cell"><code>VARIABLE LABELS AgeBandRecode 'Age band (via RECODE)'.</code></td><td class="note-cell">Attaches the descriptive label 'Age band (via RECODE)' to AgeBandRecode.</td></tr><tr><td class="ln">4</td><td class="code-cell"><code>VALUE LABELS AgeBandRecode 1 'Under 25' 2 '25-40' 3 '41-55' 4 '56 and above'.</code></td><td class="note-cell">Attaches value labels to AgeBandRecode matching the four bands defined above.</td></tr><tr><td class="ln">5</td><td class="code-cell"><code>EXECUTE.</code></td><td class="note-cell">EXECUTE actually performs the recode and applies the labels now.</td></tr></tbody></table>
+<div class="code-caption">AUTORECODE for a clean numeric grouping variable</div>
+<pre class="code"><code>AUTORECODE VARIABLES=Region /INTO RegionNumeric /PRINT.
+EXECUTE.</code></pre>
+<div class="annot-label">Line-by-line explanation</div>
+<table class="annot-table"><thead><tr><th class="ln">Line</th><th>Code</th><th>What this line does</th></tr></thead><tbody><tr><td class="ln">1</td><td class="code-cell"><code>AUTORECODE VARIABLES=Region /INTO RegionNumeric /PRINT.</code></td><td class="note-cell">AUTORECODE takes the string variable Region, assigns each distinct value a sequential integer code in alphabetical order, stores those codes in a new variable called RegionNumeric, and PRINT requests a table showing which original value maps to which new code.</td></tr><tr><td class="ln">2</td><td class="code-cell"><code>EXECUTE.</code></td><td class="note-cell">EXECUTE actually performs the autorecode and prints the mapping table now.</td></tr></tbody></table>
+<div class="tip"><strong>TIP:</strong> THRU and the keywords LOWEST / HIGHEST let you write open-ended ranges without hard-coding the minimum or maximum value in the data, so the RECODE still works correctly if new, more extreme cases are added later.</div>
+</article>
+<article class="chapter" id="ch-11">
+<h2><span class="chnum">Chapter 11</span>SELECT IF, FILTER, and TEMPORARY</h2>
+<p>SELECT IF permanently discards cases that fail a condition for the rest of the session (or until you reload the data) - use it when you genuinely want to work only with a subset from this point on. FILTER BY is non-destructive: it hides cases from later procedures without deleting them, and can be switched off with FILTER OFF. TEMPORARY makes the very next transformation apply only to the next procedure, after which the full dataset returns.</p>
+<div class="code-caption">Permanently keep only Lagos patients</div>
+<pre class="code"><code>SELECT IF (Region = 'Lagos').
+EXECUTE.</code></pre>
+<div class="annot-label">Line-by-line explanation</div>
+<table class="annot-table"><thead><tr><th class="ln">Line</th><th>Code</th><th>What this line does</th></tr></thead><tbody><tr><td class="ln">1</td><td class="code-cell"><code>SELECT IF (Region = 'Lagos').</code></td><td class="note-cell">SELECT IF permanently discards, for the rest of the session, every case where Region is not equal to 'Lagos'.</td></tr><tr><td class="ln">2</td><td class="code-cell"><code>EXECUTE.</code></td><td class="note-cell">EXECUTE actually removes the non-Lagos cases from memory now.</td></tr></tbody></table>
+<div class="code-caption">Non-destructive filter (preferred for exploratory work)</div>
+<pre class="code"><code>COMPUTE FilterHighFee = (MonthlySubscriptionFee &gt;= 10000).
+FILTER BY FilterHighFee.
+EXECUTE.
+
+* ... run any procedure here and it only sees high-income patients ...
+
+FILTER OFF.
+EXECUTE.</code></pre>
+<div class="annot-label">Line-by-line explanation</div>
+<table class="annot-table"><thead><tr><th class="ln">Line</th><th>Code</th><th>What this line does</th></tr></thead><tbody><tr><td class="ln">1</td><td class="code-cell"><code>COMPUTE FilterHighFee = (MonthlySubscriptionFee &gt;= 10000).</code></td><td class="note-cell">COMPUTE creates a new 0/1 flag variable, FilterHighFee, that equals 1 (true) wherever MonthlySubscriptionFee is 10000 or higher and 0 (false) otherwise.</td></tr><tr><td class="ln">2</td><td class="code-cell"><code>FILTER BY FilterHighFee.</code></td><td class="note-cell">FILTER BY tells every subsequent procedure to only look at cases where FilterHighFee is 1 (non-zero), without deleting the other cases.</td></tr><tr><td class="ln">3</td><td class="code-cell"><code>EXECUTE.</code></td><td class="note-cell">EXECUTE actually computes the flag and switches the filter on now.</td></tr><tr><td class="ln">4</td><td class="code-cell"><code><em>(blank line)</em></code></td><td class="note-cell">A blank line for readability, separating the filter setup from the analysis that would run while it is active.</td></tr><tr><td class="ln">5</td><td class="code-cell"><code>* ... run any procedure here and it only sees high-income patients ...</code></td><td class="note-cell">A comment reminding the reader that any procedure placed here would only see the high-income patients.</td></tr><tr><td class="ln">6</td><td class="code-cell"><code><em>(blank line)</em></code></td><td class="note-cell">A blank line for readability before turning the filter back off.</td></tr><tr><td class="ln">7</td><td class="code-cell"><code>FILTER OFF.</code></td><td class="note-cell">FILTER OFF cancels the filter, so every subsequent procedure sees the full dataset again.</td></tr><tr><td class="ln">8</td><td class="code-cell"><code>EXECUTE.</code></td><td class="note-cell">EXECUTE actually applies the FILTER OFF instruction now.</td></tr></tbody></table>
+<div class="code-caption">TEMPORARY for a one-off selection</div>
+<pre class="code"><code>TEMPORARY.
+SELECT IF (Gender = 'Female').
+FREQUENCIES VARIABLES=DropoutRisk.
+* The next procedure after this one sees the FULL dataset again.</code></pre>
+<div class="annot-label">Line-by-line explanation</div>
+<table class="annot-table"><thead><tr><th class="ln">Line</th><th>Code</th><th>What this line does</th></tr></thead><tbody><tr><td class="ln">1</td><td class="code-cell"><code>TEMPORARY.</code></td><td class="note-cell">TEMPORARY marks that the very next transformation command should only apply to the next procedure, after which the full, unfiltered dataset returns automatically.</td></tr><tr><td class="ln">2</td><td class="code-cell"><code>SELECT IF (Gender = 'Female').</code></td><td class="note-cell">SELECT IF, made temporary by the line above, keeps only female patients for the single procedure that follows.</td></tr><tr><td class="ln">3</td><td class="code-cell"><code>FREQUENCIES VARIABLES=DropoutRisk.</code></td><td class="note-cell">FREQUENCIES runs against only the temporarily filtered (female) subset defined above.</td></tr><tr><td class="ln">4</td><td class="code-cell"><code>* The next procedure after this one sees the FULL dataset again.</code></td><td class="note-cell">A comment noting that any procedure after this FREQUENCIES command would see the complete dataset again, because the TEMPORARY effect has already expired.</td></tr></tbody></table>
+<div class="tip"><strong>TIP:</strong> Prefer FILTER BY over SELECT IF while you are still exploring data, since a mistaken SELECT IF can silently and permanently remove cases you needed later in the same session.</div>
+</article>
+<article class="chapter" id="ch-12">
+<h2><span class="chnum">Chapter 12</span>SORT CASES and SPLIT FILE</h2>
+<p>SORT CASES reorders the rows in memory by one or more variables, ascending or descending - required before some sequential commands (like some LAG functions or AGGREGATE with BREAK) which assume sorted input. SPLIT FILE repeats every subsequent procedure separately for each level of a grouping variable, printing a separate results block per group, which is the fastest way to produce region-by-region or gender-by-gender tables without writing a loop.</p>
+<div class="code-caption">Sort by region, then by subscription fee descending</div>
+<pre class="code"><code>SORT CASES BY Region (A) MonthlySubscriptionFee (D).
+EXECUTE.</code></pre>
+<div class="annot-label">Line-by-line explanation</div>
+<table class="annot-table"><thead><tr><th class="ln">Line</th><th>Code</th><th>What this line does</th></tr></thead><tbody><tr><td class="ln">1</td><td class="code-cell"><code>SORT CASES BY Region (A) MonthlySubscriptionFee (D).</code></td><td class="note-cell">SORT CASES reorders every row in memory: first by Region in ascending (A) order, then within each region by MonthlySubscriptionFee in descending (D) order.</td></tr><tr><td class="ln">2</td><td class="code-cell"><code>EXECUTE.</code></td><td class="note-cell">EXECUTE actually performs the sort now.</td></tr></tbody></table>
+<div class="code-caption">Split the output by region</div>
+<pre class="code"><code>SORT CASES BY Region.
+SPLIT FILE SEPARATE BY Region.
+DESCRIPTIVES VARIABLES=MonthlySubscriptionFee AdherenceScore.
+
+* Always turn splitting back off once you are done:
+SPLIT FILE OFF.
+EXECUTE.</code></pre>
+<div class="annot-label">Line-by-line explanation</div>
+<table class="annot-table"><thead><tr><th class="ln">Line</th><th>Code</th><th>What this line does</th></tr></thead><tbody><tr><td class="ln">1</td><td class="code-cell"><code>SORT CASES BY Region.</code></td><td class="note-cell">SORT CASES BY Region puts the data in region order, which SPLIT FILE below requires.</td></tr><tr><td class="ln">2</td><td class="code-cell"><code>SPLIT FILE SEPARATE BY Region.</code></td><td class="note-cell">SPLIT FILE SEPARATE BY Region tells every following procedure to run once per region, printing a separate results block for each one.</td></tr><tr><td class="ln">3</td><td class="code-cell"><code>DESCRIPTIVES VARIABLES=MonthlySubscriptionFee AdherenceScore.</code></td><td class="note-cell">DESCRIPTIVES now runs separately for each region because the split is active, producing five small tables instead of one combined table.</td></tr><tr><td class="ln">4</td><td class="code-cell"><code><em>(blank line)</em></code></td><td class="note-cell">A blank line for readability before switching the split back off.</td></tr><tr><td class="ln">5</td><td class="code-cell"><code>* Always turn splitting back off once you are done:</code></td><td class="note-cell">A comment reminding the reader to always turn SPLIT FILE off once the region-by-region output is no longer needed.</td></tr><tr><td class="ln">6</td><td class="code-cell"><code>SPLIT FILE OFF.</code></td><td class="note-cell">SPLIT FILE OFF cancels the split, so later procedures again treat the dataset as one combined group.</td></tr><tr><td class="ln">7</td><td class="code-cell"><code>EXECUTE.</code></td><td class="note-cell">EXECUTE actually applies the SPLIT FILE OFF instruction now.</td></tr></tbody></table>
+<div class="tip"><strong>TIP:</strong> SPLIT FILE requires the data to already be sorted by the same grouping variable, which is why SORT CASES almost always appears on the line immediately above it.</div>
+</article>
+<article class="chapter" id="ch-13">
+<h2><span class="chnum">Chapter 13</span>AGGREGATE: Building Summary Tables</h2>
+<p>AGGREGATE collapses many rows into one row per group, computing statistics such as means, sums, and counts along the way. Written with /OUTFILE=* it replaces the current dataset; written with a real file name it creates a brand-new region-level (or any other group-level) dataset while leaving the original case-level data untouched.</p>
+<div class="code-caption">Region-level summary as a new dataset</div>
+<pre class="code"><code>DATASET DECLARE RegionSummary.
+AGGREGATE
+ /OUTFILE='RegionSummary'
+ /BREAK=Region
+ /MeanIncome_Region = MEAN(MonthlySubscriptionFee)
+ /MeanSatisfaction_Region = MEAN(Q5_OverallSatisfaction)
+ /PatientCount = N.
+
+DATASET ACTIVATE RegionSummary.
+LIST.
+DATASET ACTIVATE VitalTrack.</code></pre>
+<div class="annot-label">Line-by-line explanation</div>
+<table class="annot-table"><thead><tr><th class="ln">Line</th><th>Code</th><th>What this line does</th></tr></thead><tbody><tr><td class="ln">1</td><td class="code-cell"><code>DATASET DECLARE RegionSummary.</code></td><td class="note-cell">DATASET DECLARE reserves the name RegionSummary for a new, currently-empty dataset that AGGREGATE below will fill.</td></tr><tr><td class="ln">2</td><td class="code-cell"><code>AGGREGATE</code></td><td class="note-cell">Begins the AGGREGATE command.</td></tr><tr><td class="ln">3</td><td class="code-cell"><code> /OUTFILE='RegionSummary'</code></td><td class="note-cell">OUTFILE names RegionSummary as the destination for the new, summarised dataset, leaving the original case-level VitalTrack data untouched.</td></tr><tr><td class="ln">4</td><td class="code-cell"><code> /BREAK=Region</code></td><td class="note-cell">BREAK=Region tells SPSS to produce one output row per distinct value of Region.</td></tr><tr><td class="ln">5</td><td class="code-cell"><code> /MeanIncome_Region = MEAN(MonthlySubscriptionFee)</code></td><td class="note-cell">Defines a new summary variable, MeanIncome_Region, equal to the average MonthlySubscriptionFee within each region.</td></tr><tr><td class="ln">6</td><td class="code-cell"><code> /MeanSatisfaction_Region = MEAN(Q5_OverallSatisfaction)</code></td><td class="note-cell">Defines a second summary variable, MeanSatisfaction_Region, equal to the average Q5_OverallSatisfaction within each region.</td></tr><tr><td class="ln">7</td><td class="code-cell"><code> /PatientCount = N.</code></td><td class="note-cell">Defines a third summary variable, PatientCount, equal to the number of cases (N) in each region; the period ends the AGGREGATE command.</td></tr><tr><td class="ln">8</td><td class="code-cell"><code><em>(blank line)</em></code></td><td class="note-cell">A blank line for readability before switching to the new summarised dataset.</td></tr><tr><td class="ln">9</td><td class="code-cell"><code>DATASET ACTIVATE RegionSummary.</code></td><td class="note-cell">DATASET ACTIVATE makes RegionSummary the active dataset so later commands operate on it instead of the case-level data.</td></tr><tr><td class="ln">10</td><td class="code-cell"><code>LIST.</code></td><td class="note-cell">LIST prints every row of the now-active RegionSummary dataset to the Output Viewer.</td></tr><tr><td class="ln">11</td><td class="code-cell"><code>DATASET ACTIVATE VitalTrack.</code></td><td class="note-cell">DATASET ACTIVATE switches back to the original VitalTrack case-level dataset, ready for further work.</td></tr></tbody></table>
+<div class="tip"><strong>TIP:</strong> Always give /OUTFILE a real dataset name (as above) rather than '*' the first time you use AGGREGATE - '*' overwrites your case-level data in memory with the summary table, which is rarely what a beginner intends.</div>
+</article>
+<article class="chapter" id="ch-14">
+<h2><span class="chnum">Chapter 14</span>MATCH FILES and ADD FILES: Combining Datasets</h2>
+<p>MATCH FILES joins two datasets side-by-side on a common key (like a SQL JOIN), adding new columns to matching cases. ADD FILES stacks two datasets with the same variables on top of each other (like a SQL UNION), adding new rows. Both require the input datasets to be sorted by the BY key first, and both operate on datasets you have already opened and named with DATASET NAME.</p>
+<div class="code-caption">MATCH FILES: bring region-level metrics onto every patient row</div>
+<pre class="code"><code>DATASET ACTIVATE VitalTrack.
+SORT CASES BY Region.
+DATASET ACTIVATE RegionSummary.
+SORT CASES BY Region.
+
+MATCH FILES /FILE=VitalTrack /TABLE=RegionSummary /BY Region.
+EXECUTE.</code></pre>
+<div class="annot-label">Line-by-line explanation</div>
+<table class="annot-table"><thead><tr><th class="ln">Line</th><th>Code</th><th>What this line does</th></tr></thead><tbody><tr><td class="ln">1</td><td class="code-cell"><code>DATASET ACTIVATE VitalTrack.</code></td><td class="note-cell">DATASET ACTIVATE makes VitalTrack the active dataset before sorting it.</td></tr><tr><td class="ln">2</td><td class="code-cell"><code>SORT CASES BY Region.</code></td><td class="note-cell">SORT CASES BY Region puts the case-level data in region order, which MATCH FILES requires.</td></tr><tr><td class="ln">3</td><td class="code-cell"><code>DATASET ACTIVATE RegionSummary.</code></td><td class="note-cell">DATASET ACTIVATE switches to the RegionSummary dataset built in Chapter 13 so it can be sorted too.</td></tr><tr><td class="ln">4</td><td class="code-cell"><code>SORT CASES BY Region.</code></td><td class="note-cell">SORT CASES BY Region puts the region-level summary data in the same region order.</td></tr><tr><td class="ln">5</td><td class="code-cell"><code><em>(blank line)</em></code></td><td class="note-cell">A blank line for readability before the actual join.</td></tr><tr><td class="ln">6</td><td class="code-cell"><code>MATCH FILES /FILE=VitalTrack /TABLE=RegionSummary /BY Region.</code></td><td class="note-cell">MATCH FILES joins the two datasets: FILE=VitalTrack is the main, case-level file that keeps one row per patient; TABLE=RegionSummary is the smaller lookup file; BY Region is the shared key the two are matched on.</td></tr><tr><td class="ln">7</td><td class="code-cell"><code>EXECUTE.</code></td><td class="note-cell">EXECUTE actually performs the join now, adding the region-level columns onto every patient row.</td></tr></tbody></table>
+<div class="code-caption">ADD FILES: stack two survey waves</div>
+<pre class="code"><code>ADD FILES /FILE=Wave1Survey /FILE=Wave2Survey /IN=SurveyWave.
+VALUE LABELS SurveyWave 0 'Wave 1' 1 'Wave 2'.
+EXECUTE.</code></pre>
+<div class="annot-label">Line-by-line explanation</div>
+<table class="annot-table"><thead><tr><th class="ln">Line</th><th>Code</th><th>What this line does</th></tr></thead><tbody><tr><td class="ln">1</td><td class="code-cell"><code>ADD FILES /FILE=Wave1Survey /FILE=Wave2Survey /IN=SurveyWave.</code></td><td class="note-cell">ADD FILES stacks two already-open datasets, Wave1Survey and Wave2Survey, on top of each other, and IN=SurveyWave creates a new flag variable recording which of the two source files each resulting row came from (0 for the first, 1 for the second).</td></tr><tr><td class="ln">2</td><td class="code-cell"><code>VALUE LABELS SurveyWave 0 'Wave 1' 1 'Wave 2'.</code></td><td class="note-cell">Attaches value labels to SurveyWave so that 0 displays as 'Wave 1' and 1 displays as 'Wave 2'.</td></tr><tr><td class="ln">3</td><td class="code-cell"><code>EXECUTE.</code></td><td class="note-cell">EXECUTE actually performs the stacking now.</td></tr></tbody></table>
+<div class="tip"><strong>TIP:</strong> /TABLE= in MATCH FILES marks the smaller 'lookup' dataset (here, one row per region); the main /FILE= dataset keeps one row per original case, exactly like the left table in a LEFT JOIN.</div>
+</article>
+<article class="chapter" id="ch-15">
+<h2><span class="chnum">Chapter 15</span>String Functions and Date/Time Functions</h2>
+<p>SPSS syntax includes a full string-handling library - CONCAT, SUBSTR, LENGTH, UPCASE/LOWER, LTRIM/RTRIM, INDEX/RINDEX, REPLACE - for cleaning text fields, and a matching date library - DATE.DMY, XDATE.YEAR/MONTH/MDAY, CTIME.DAYS, DATEDIFF - for anything involving calendar dates, such as calculating a patient's tenure or age directly from a date-of-birth field.</p>
+<div class="code-caption">String cleaning example</div>
+<pre class="code"><code>STRING RegionUpper (A15).
+COMPUTE RegionUpper = UPCASE(Region).
+COMPUTE RegionInitial = SUBSTR(Region,1,3).
+EXECUTE.</code></pre>
+<div class="annot-label">Line-by-line explanation</div>
+<table class="annot-table"><thead><tr><th class="ln">Line</th><th>Code</th><th>What this line does</th></tr></thead><tbody><tr><td class="ln">1</td><td class="code-cell"><code>STRING RegionUpper (A15).</code></td><td class="note-cell">STRING declares a brand-new text variable, RegionUpper, up to 15 characters wide, before it can be filled with COMPUTE.</td></tr><tr><td class="ln">2</td><td class="code-cell"><code>COMPUTE RegionUpper = UPCASE(Region).</code></td><td class="note-cell">COMPUTE fills RegionUpper with the upper-case version of Region, using the UPCASE() function.</td></tr><tr><td class="ln">3</td><td class="code-cell"><code>COMPUTE RegionInitial = SUBSTR(Region,1,3).</code></td><td class="note-cell">COMPUTE creates RegionInitial as the first 3 characters of Region, using the SUBSTR() function (starting at character 1, taking a length of 3).</td></tr><tr><td class="ln">4</td><td class="code-cell"><code>EXECUTE.</code></td><td class="note-cell">EXECUTE actually performs both computations now.</td></tr></tbody></table>
+<div class="code-caption">Working with dates</div>
+<pre class="code"><code>* Suppose JoinDate is a real SPSS date variable (already formatted as DATE11).
+COMPUTE TodayDate = $SYSDATE.
+COMPUTE TenureDays = DATEDIFF(TodayDate, JoinDate, 'days').
+COMPUTE TenureYears = TenureDays / 365.25.
+FORMATS TenureYears (F5.1).
+EXECUTE.</code></pre>
+<div class="annot-label">Line-by-line explanation</div>
+<table class="annot-table"><thead><tr><th class="ln">Line</th><th>Code</th><th>What this line does</th></tr></thead><tbody><tr><td class="ln">1</td><td class="code-cell"><code>* Suppose JoinDate is a real SPSS date variable (already formatted as DATE11).</code></td><td class="note-cell">A comment noting the assumption that JoinDate already exists in the data as a genuine SPSS date variable.</td></tr><tr><td class="ln">2</td><td class="code-cell"><code>COMPUTE TodayDate = $SYSDATE.</code></td><td class="note-cell">COMPUTE creates TodayDate equal to $SYSDATE, the built-in system variable holding the current date at the moment the syntax runs.</td></tr><tr><td class="ln">3</td><td class="code-cell"><code>COMPUTE TenureDays = DATEDIFF(TodayDate, JoinDate, 'days').</code></td><td class="note-cell">COMPUTE creates TenureDays as the difference, in days, between TodayDate and JoinDate, using the DATEDIFF() function.</td></tr><tr><td class="ln">4</td><td class="code-cell"><code>COMPUTE TenureYears = TenureDays / 365.25.</code></td><td class="note-cell">COMPUTE creates TenureYears by dividing TenureDays by 365.25 (an average year length that accounts for leap years).</td></tr><tr><td class="ln">5</td><td class="code-cell"><code>FORMATS TenureYears (F5.1).</code></td><td class="note-cell">FORMATS sets TenureYears to display with 5 total digits and 1 decimal place.</td></tr><tr><td class="ln">6</td><td class="code-cell"><code>EXECUTE.</code></td><td class="note-cell">EXECUTE actually performs all three computations and applies the display format now.</td></tr></tbody></table>
+<div class="tip"><strong>TIP:</strong> $SYSDATE is a built-in system variable holding today's date at the moment the syntax runs - useful for age or tenure calculations that should always be current.</div>
+</article>
+<article class="chapter" id="ch-16">
+<h2><span class="chnum">Chapter 16</span>WEIGHT BY: Weighted Analysis</h2>
+<p>WEIGHT BY tells every subsequent procedure to treat each case as if it appeared as many times as the value of the weight variable - used to correct for unequal sampling probabilities, or to make a convenience sample match known population proportions (e.g., region size). Weighting stays active until you run WEIGHT OFF.</p>
+<div class="code-caption">Weighting to correct region representation</div>
+<pre class="code"><code>COMPUTE RegionWeight = 1.
+IF (Region = 'Lagos') RegionWeight = 0.9.
+IF (Region = 'Kano') RegionWeight = 1.3.
+EXECUTE.
+
+WEIGHT BY RegionWeight.
+FREQUENCIES VARIABLES=Region.
+WEIGHT OFF.</code></pre>
+<div class="annot-label">Line-by-line explanation</div>
+<table class="annot-table"><thead><tr><th class="ln">Line</th><th>Code</th><th>What this line does</th></tr></thead><tbody><tr><td class="ln">1</td><td class="code-cell"><code>COMPUTE RegionWeight = 1.</code></td><td class="note-cell">COMPUTE creates RegionWeight and sets every case's value to 1 as a default starting point.</td></tr><tr><td class="ln">2</td><td class="code-cell"><code>IF (Region = 'Lagos') RegionWeight = 0.9.</code></td><td class="note-cell">IF overrides that default: cases from the Lagos region get a weight of 0.9 (slightly down-weighted).</td></tr><tr><td class="ln">3</td><td class="code-cell"><code>IF (Region = 'Kano') RegionWeight = 1.3.</code></td><td class="note-cell">IF overrides the default again for a different subset: cases from the Kano region get a weight of 1.3 (up-weighted).</td></tr><tr><td class="ln">4</td><td class="code-cell"><code>EXECUTE.</code></td><td class="note-cell">EXECUTE actually computes the weight variable for every case now.</td></tr><tr><td class="ln">5</td><td class="code-cell"><code><em>(blank line)</em></code></td><td class="note-cell">A blank line for readability before turning weighting on.</td></tr><tr><td class="ln">6</td><td class="code-cell"><code>WEIGHT BY RegionWeight.</code></td><td class="note-cell">WEIGHT BY switches on case weighting using RegionWeight, so every procedure that follows treats each case as if it appeared that many times.</td></tr><tr><td class="ln">7</td><td class="code-cell"><code>FREQUENCIES VARIABLES=Region.</code></td><td class="note-cell">FREQUENCIES now runs on the weighted data, so region counts reflect the adjusted weights rather than the raw case counts.</td></tr><tr><td class="ln">8</td><td class="code-cell"><code>WEIGHT OFF.</code></td><td class="note-cell">WEIGHT OFF switches weighting back off so later procedures return to treating every case equally.</td></tr></tbody></table>
+<div class="tip"><strong>TIP:</strong> Always run WEIGHT OFF as soon as the weighted analysis is finished - a weight left silently active is one of the most common causes of 'my sample size looks wrong' errors later in a session.</div>
+</article>
+</section><section class="part" id="part-4"><h1>Part 4: Descriptive Statistics in Syntax</h1>
+<article class="chapter" id="ch-17">
+<h2><span class="chnum">Chapter 17</span>FREQUENCIES</h2>
+<p>FREQUENCIES is the default first step for any categorical or ordinal variable: it prints a count and percentage for every distinct value, plus optional summary statistics and charts. It is also the fastest way to eyeball a scale variable for outliers or data-entry errors before deciding on the right procedure.</p>
+<div class="code-caption">Categorical frequencies with a bar chart</div>
+<pre class="code"><code>FREQUENCIES VARIABLES=Region Gender ConditionType DeviceType DropoutRisk
+ /ORDER=ANALYSIS
+ /BARCHART PERCENT.
+EXECUTE.</code></pre>
+<div class="annot-label">Line-by-line explanation</div>
+<table class="annot-table"><thead><tr><th class="ln">Line</th><th>Code</th><th>What this line does</th></tr></thead><tbody><tr><td class="ln">1</td><td class="code-cell"><code>FREQUENCIES VARIABLES=Region Gender ConditionType DeviceType DropoutRisk</code></td><td class="note-cell">Begins FREQUENCIES on five categorical variables.</td></tr><tr><td class="ln">2</td><td class="code-cell"><code> /ORDER=ANALYSIS</code></td><td class="note-cell">ORDER=ANALYSIS lists each variable's categories in the order they are first encountered in the data, rather than sorted alphabetically.</td></tr><tr><td class="ln">3</td><td class="code-cell"><code> /BARCHART PERCENT.</code></td><td class="note-cell">BARCHART PERCENT requests a bar chart for each variable, with bar heights shown as percentages; the period ends the command.</td></tr><tr><td class="ln">4</td><td class="code-cell"><code>EXECUTE.</code></td><td class="note-cell">EXECUTE actually runs the frequency tables and charts now.</td></tr></tbody></table>
+<div class="code-caption">Scale variable frequencies with summary statistics</div>
+<pre class="code"><code>FREQUENCIES VARIABLES=Age MonthlySubscriptionFee AdherenceScore
+ /FORMAT=NOTABLE
+ /STATISTICS=MEAN MEDIAN STDDEV MINIMUM MAXIMUM SKEWNESS
+ /HISTOGRAM NORMAL.
+EXECUTE.</code></pre>
+<div class="annot-label">Line-by-line explanation</div>
+<table class="annot-table"><thead><tr><th class="ln">Line</th><th>Code</th><th>What this line does</th></tr></thead><tbody><tr><td class="ln">1</td><td class="code-cell"><code>FREQUENCIES VARIABLES=Age MonthlySubscriptionFee AdherenceScore</code></td><td class="note-cell">Begins FREQUENCIES on three scale (continuous) variables.</td></tr><tr><td class="ln">2</td><td class="code-cell"><code> /FORMAT=NOTABLE</code></td><td class="note-cell">FORMAT=NOTABLE suppresses the long value-by-value frequency table, since these variables have too many distinct values for such a table to be useful.</td></tr><tr><td class="ln">3</td><td class="code-cell"><code> /STATISTICS=MEAN MEDIAN STDDEV MINIMUM MAXIMUM SKEWNESS</code></td><td class="note-cell">STATISTICS requests the mean, median, standard deviation, minimum, maximum, and skewness for each variable.</td></tr><tr><td class="ln">4</td><td class="code-cell"><code> /HISTOGRAM NORMAL.</code></td><td class="note-cell">HISTOGRAM NORMAL requests a histogram for each variable with a normal distribution curve overlaid for visual comparison; the period ends the command.</td></tr><tr><td class="ln">5</td><td class="code-cell"><code>EXECUTE.</code></td><td class="note-cell">EXECUTE actually runs the statistics and histograms now.</td></tr></tbody></table>
+<div class="tip"><strong>TIP:</strong> /FORMAT=NOTABLE suppresses the long value-by-value table for a continuous variable while still printing the requested summary statistics and histogram - use it whenever a scale variable has too many distinct values for a frequency table to be useful.</div>
+</article>
+<article class="chapter" id="ch-18">
+<h2><span class="chnum">Chapter 18</span>DESCRIPTIVES</h2>
+<p>DESCRIPTIVES is the leaner counterpart to FREQUENCIES, purpose-built for scale variables: one compact table with N, mean, standard deviation, minimum, and maximum for as many variables as you list. Its /SAVE subcommand can also save standardised (z-score) versions of each variable directly into new columns.</p>
+<div class="code-caption">Standard descriptive summary</div>
+<pre class="code"><code>DESCRIPTIVES VARIABLES=Age MonthsEnrolled MonthlySubscriptionFee
+ NumReadingsSubmittedMonth AdherenceScore
+ /STATISTICS=MEAN STDDEV MIN MAX SKEWNESS KURTOSIS.
+EXECUTE.</code></pre>
+<div class="annot-label">Line-by-line explanation</div>
+<table class="annot-table"><thead><tr><th class="ln">Line</th><th>Code</th><th>What this line does</th></tr></thead><tbody><tr><td class="ln">1</td><td class="code-cell"><code>DESCRIPTIVES VARIABLES=Age MonthsEnrolled MonthlySubscriptionFee</code></td><td class="note-cell">Begins DESCRIPTIVES on the first three scale variables.</td></tr><tr><td class="ln">2</td><td class="code-cell"><code> NumReadingsSubmittedMonth AdherenceScore</code></td><td class="note-cell">Continues the variable list with two more scale variables.</td></tr><tr><td class="ln">3</td><td class="code-cell"><code> /STATISTICS=MEAN STDDEV MIN MAX SKEWNESS KURTOSIS.</code></td><td class="note-cell">STATISTICS requests mean, standard deviation, minimum, maximum, skewness, and kurtosis for every listed variable; the period ends the command.</td></tr><tr><td class="ln">4</td><td class="code-cell"><code>EXECUTE.</code></td><td class="note-cell">EXECUTE actually calculates all the requested statistics now.</td></tr></tbody></table>
+<div class="code-caption">Saving z-scores for later use</div>
+<pre class="code"><code>DESCRIPTIVES VARIABLES=MonthlySubscriptionFee AdherenceScore /SAVE.
+EXECUTE.
+* This creates two new variables, ZMonthlySubscriptionFee and ZAdherenceScore.</code></pre>
+<div class="annot-label">Line-by-line explanation</div>
+<table class="annot-table"><thead><tr><th class="ln">Line</th><th>Code</th><th>What this line does</th></tr></thead><tbody><tr><td class="ln">1</td><td class="code-cell"><code>DESCRIPTIVES VARIABLES=MonthlySubscriptionFee AdherenceScore /SAVE.</code></td><td class="note-cell">DESCRIPTIVES runs on MonthlySubscriptionFee and AdherenceScore, and /SAVE additionally tells SPSS to save a standardised (z-score) version of each as a new variable.</td></tr><tr><td class="ln">2</td><td class="code-cell"><code>EXECUTE.</code></td><td class="note-cell">EXECUTE actually runs the command and creates the new z-score variables now.</td></tr><tr><td class="ln">3</td><td class="code-cell"><code>* This creates two new variables, ZMonthlySubscriptionFee and ZAdherenceScore.</code></td><td class="note-cell">A comment clarifying that this command creates two new variables named ZMonthlySubscriptionFee and ZAdherenceScore automatically.</td></tr></tbody></table>
+</article>
+<article class="chapter" id="ch-19">
+<h2><span class="chnum">Chapter 19</span>EXAMINE: Deeper Distributional Diagnostics</h2>
+<p>EXAMINE goes further than DESCRIPTIVES or FREQUENCIES: it produces normality tests (Shapiro-Wilk, Kolmogorov-Smirnov), confidence intervals for the mean, stem-and-leaf plots, boxplots, and can split all of that by a grouping variable in one command - the standard first check before choosing a parametric or non-parametric test.</p>
+<div class="code-caption">Full distributional check split by gender</div>
+<pre class="code"><code>EXAMINE VARIABLES=MonthlySubscriptionFee AdherenceScore BY Gender
+ /PLOT BOXPLOT STEMLEAF
+ /STATISTICS DESCRIPTIVES EXTREME
+ /CINTERVAL 95
+ /MISSING LISTWISE.
+EXECUTE.</code></pre>
+<div class="annot-label">Line-by-line explanation</div>
+<table class="annot-table"><thead><tr><th class="ln">Line</th><th>Code</th><th>What this line does</th></tr></thead><tbody><tr><td class="ln">1</td><td class="code-cell"><code>EXAMINE VARIABLES=MonthlySubscriptionFee AdherenceScore BY Gender</code></td><td class="note-cell">Begins EXAMINE on MonthlySubscriptionFee and AdherenceScore, split separately for each level of Gender.</td></tr><tr><td class="ln">2</td><td class="code-cell"><code> /PLOT BOXPLOT STEMLEAF</code></td><td class="note-cell">PLOT requests a boxplot and a stem-and-leaf plot for each variable, within each Gender group.</td></tr><tr><td class="ln">3</td><td class="code-cell"><code> /STATISTICS DESCRIPTIVES EXTREME</code></td><td class="note-cell">STATISTICS requests descriptive statistics and a table of the most extreme (highest and lowest) individual values.</td></tr><tr><td class="ln">4</td><td class="code-cell"><code> /CINTERVAL 95</code></td><td class="note-cell">CINTERVAL 95 requests a 95 percent confidence interval around each mean.</td></tr><tr><td class="ln">5</td><td class="code-cell"><code> /MISSING LISTWISE.</code></td><td class="note-cell">MISSING LISTWISE excludes any case with a missing value on either variable from the entire analysis; the period ends the command.</td></tr><tr><td class="ln">6</td><td class="code-cell"><code>EXECUTE.</code></td><td class="note-cell">EXECUTE actually runs the full distributional check now.</td></tr></tbody></table>
+<div class="tip"><strong>TIP:</strong> Shapiro-Wilk (printed automatically for groups under 50 cases) and Kolmogorov-Smirnov (for larger groups) are the two normality tests EXAMINE reports - a significant result (p &lt; .05) suggests the variable deviates from a normal distribution, which is one of the signals used in Chapter 31 to decide between a parametric and a non-parametric test.</div>
+</article>
+<article class="chapter" id="ch-20">
+<h2><span class="chnum">Chapter 20</span>MEANS: Group Comparisons of Averages</h2>
+<p>MEANS prints the mean, count, and standard deviation of one or more dependent variables broken down by one or more categorical variables, and can layer several grouping variables to build a crossed table of averages - a lightweight alternative to full ANOVA when you only need the descriptive picture, not a significance test.</p>
+<div class="code-caption">Average satisfaction by region and device type</div>
+<pre class="code"><code>MEANS TABLES=Q5_OverallSatisfaction MonthlySubscriptionFee BY Region BY DeviceType
+ /CELLS=MEAN COUNT STDDEV
+ /STATISTICS ANOVA.
+EXECUTE.</code></pre>
+<div class="annot-label">Line-by-line explanation</div>
+<table class="annot-table"><thead><tr><th class="ln">Line</th><th>Code</th><th>What this line does</th></tr></thead><tbody><tr><td class="ln">1</td><td class="code-cell"><code>MEANS TABLES=Q5_OverallSatisfaction MonthlySubscriptionFee BY Region BY DeviceType</code></td><td class="note-cell">Begins MEANS, requesting average Q5_OverallSatisfaction and MonthlySubscriptionFee, broken down first by Region and then, within each region, by DeviceType.</td></tr><tr><td class="ln">2</td><td class="code-cell"><code> /CELLS=MEAN COUNT STDDEV</code></td><td class="note-cell">CELLS requests that each cell of the resulting table show the mean, the case count, and the standard deviation.</td></tr><tr><td class="ln">3</td><td class="code-cell"><code> /STATISTICS ANOVA.</code></td><td class="note-cell">STATISTICS ANOVA additionally layers a one-way ANOVA significance test onto the table for each grouping variable; the period ends the command.</td></tr><tr><td class="ln">4</td><td class="code-cell"><code>EXECUTE.</code></td><td class="note-cell">EXECUTE actually runs the grouped averages and ANOVA tests now.</td></tr></tbody></table>
+<div class="tip"><strong>TIP:</strong> Adding /STATISTICS ANOVA to a MEANS command layers a one-way ANOVA significance test onto the descriptive table for each grouping variable - a convenient shortcut before running the full ONEWAY procedure in Chapter 24.</div>
+</article>
+</section><section class="part" id="part-5"><h1>Part 5: Inferential Statistics in Syntax</h1>
+<article class="chapter" id="ch-21">
+<h2><span class="chnum">Chapter 21</span>CROSSTABS and the Chi-Square Test</h2>
+<p>CROSSTABS builds a contingency table between two (or more) categorical variables and, with /STATISTICS=CHISQ, tests whether the variables are independent. /CELLS controls which percentages print inside each cell - row, column, and total percentages are the three you will use most often.</p>
+<div class="code-caption">Is complaint filing associated with device type?</div>
+<pre class="code"><code>CROSSTABS
+ /TABLES=DeviceType BY ComplaintFiled
+ /CELLS=COUNT ROW COLUMN
+ /STATISTICS=CHISQ PHI.
+EXECUTE.</code></pre>
+<div class="annot-label">Line-by-line explanation</div>
+<table class="annot-table"><thead><tr><th class="ln">Line</th><th>Code</th><th>What this line does</th></tr></thead><tbody><tr><td class="ln">1</td><td class="code-cell"><code>CROSSTABS</code></td><td class="note-cell">Begins the CROSSTABS command.</td></tr><tr><td class="ln">2</td><td class="code-cell"><code> /TABLES=DeviceType BY ComplaintFiled</code></td><td class="note-cell">TABLES defines the contingency table: DeviceType as rows, ComplaintFiled as columns.</td></tr><tr><td class="ln">3</td><td class="code-cell"><code> /CELLS=COUNT ROW COLUMN</code></td><td class="note-cell">CELLS requests the raw count plus row and column percentages inside every cell of the table.</td></tr><tr><td class="ln">4</td><td class="code-cell"><code> /STATISTICS=CHISQ PHI.</code></td><td class="note-cell">STATISTICS requests the chi-square test of independence and the Phi association measure; the period ends the command.</td></tr><tr><td class="ln">5</td><td class="code-cell"><code>EXECUTE.</code></td><td class="note-cell">EXECUTE actually builds the table and runs the tests now.</td></tr></tbody></table>
+<div class="tip"><strong>TIP:</strong> Chi-square requires every expected cell count to be reasonably large (a common rule of thumb is at least 5); CROSSTABS prints a footnote telling you exactly how many cells fell below that threshold, and PHI/Cramer's V (add CC to /STATISTICS for a table larger than 2x2) gives you the effect size alongside the p-value.</div>
+</article>
+<article class="chapter" id="ch-22">
+<h2><span class="chnum">Chapter 22</span>T-TEST: One-Sample, Independent-Samples, and Paired-Samples</h2>
+<p>The T-TEST command has three distinct forms sharing one keyword. A one-sample t-test checks whether a variable's mean differs from a fixed value. An independent-samples t-test compares the means of two separate groups (e.g., male vs. female income). A paired-samples t-test compares two related measurements taken on the same cases (e.g., a before/after satisfaction score).</p>
+<div class="code-caption">One-sample: is average adherence score different from 650?</div>
+<pre class="code"><code>T-TEST /TESTVAL=650
+ /VARIABLES=AdherenceScore
+ /CRITERIA=CI(.95).</code></pre>
+<div class="annot-label">Line-by-line explanation</div>
+<table class="annot-table"><thead><tr><th class="ln">Line</th><th>Code</th><th>What this line does</th></tr></thead><tbody><tr><td class="ln">1</td><td class="code-cell"><code>T-TEST /TESTVAL=650</code></td><td class="note-cell">Begins a one-sample T-TEST, comparing the data against a fixed test value of 650.</td></tr><tr><td class="ln">2</td><td class="code-cell"><code> /VARIABLES=AdherenceScore</code></td><td class="note-cell">VARIABLES names AdherenceScore as the variable being tested against that fixed value.</td></tr><tr><td class="ln">3</td><td class="code-cell"><code> /CRITERIA=CI(.95).</code></td><td class="note-cell">CRITERIA=CI(.95) requests a 95 percent confidence interval for the difference; the period ends the command.</td></tr></tbody></table>
+<div class="code-caption">Independent-samples: subscription fee by gender</div>
+<pre class="code"><code>T-TEST GROUPS=Gender('Male' 'Female')
+ /VARIABLES=MonthlySubscriptionFee
+ /CRITERIA=CI(.95).</code></pre>
+<div class="annot-label">Line-by-line explanation</div>
+<table class="annot-table"><thead><tr><th class="ln">Line</th><th>Code</th><th>What this line does</th></tr></thead><tbody><tr><td class="ln">1</td><td class="code-cell"><code>T-TEST GROUPS=Gender('Male' 'Female')</code></td><td class="note-cell">Begins an independent-samples T-TEST, comparing the two named categories of Gender ('Male' and 'Female') against each other.</td></tr><tr><td class="ln">2</td><td class="code-cell"><code> /VARIABLES=MonthlySubscriptionFee</code></td><td class="note-cell">VARIABLES names MonthlySubscriptionFee as the outcome being compared between the two groups.</td></tr><tr><td class="ln">3</td><td class="code-cell"><code> /CRITERIA=CI(.95).</code></td><td class="note-cell">CRITERIA=CI(.95) requests a 95 percent confidence interval for the difference between the two group means; the period ends the command.</td></tr></tbody></table>
+<div class="code-caption">Paired-samples: two related satisfaction items</div>
+<pre class="code"><code>T-TEST PAIRS=Q1_DeviceEaseOfUse WITH Q4_SupportResponseTime (PAIRED)
+ /CRITERIA=CI(.95).</code></pre>
+<div class="annot-label">Line-by-line explanation</div>
+<table class="annot-table"><thead><tr><th class="ln">Line</th><th>Code</th><th>What this line does</th></tr></thead><tbody><tr><td class="ln">1</td><td class="code-cell"><code>T-TEST PAIRS=Q1_DeviceEaseOfUse WITH Q4_SupportResponseTime (PAIRED)</code></td><td class="note-cell">Begins a paired-samples T-TEST, comparing Q1_DeviceEaseOfUse WITH Q4_SupportResponseTime as one matched pair measured on the same cases (PAIRED).</td></tr><tr><td class="ln">2</td><td class="code-cell"><code> /CRITERIA=CI(.95).</code></td><td class="note-cell">CRITERIA=CI(.95) requests a 95 percent confidence interval for the mean difference between the paired scores; the period ends the command.</td></tr></tbody></table>
+<div class="tip"><strong>TIP:</strong> For the independent-samples form, always read the Levene's Test for Equality of Variances row first: if it is significant (p &lt; .05), report the 'Equal variances not assumed' row of the t-test instead of the default row.</div>
+</article>
+<article class="chapter" id="ch-23">
+<h2><span class="chnum">Chapter 23</span>ONEWAY ANOVA and Post-Hoc Tests</h2>
+<p>ONEWAY compares the means of a scale variable across three or more groups of a single categorical factor. On its own it only tells you 'at least one group differs' - the /POSTHOC subcommand runs pairwise comparisons (Tukey, Bonferroni, Scheffe are the most common) so you can see exactly which groups differ from which.</p>
+<div class="code-caption">Satisfaction across five regions, with post-hoc tests</div>
+<pre class="code"><code>ONEWAY Q5_OverallSatisfaction BY Region
+ /STATISTICS DESCRIPTIVES HOMOGENEITY
+ /POSTHOC=TUKEY BONFERRONI ALPHA(0.05)
+ /PLOT MEANS.</code></pre>
+<div class="annot-label">Line-by-line explanation</div>
+<table class="annot-table"><thead><tr><th class="ln">Line</th><th>Code</th><th>What this line does</th></tr></thead><tbody><tr><td class="ln">1</td><td class="code-cell"><code>ONEWAY Q5_OverallSatisfaction BY Region</code></td><td class="note-cell">Begins ONEWAY, testing whether the mean of Q5_OverallSatisfaction differs across the categories of Region.</td></tr><tr><td class="ln">2</td><td class="code-cell"><code> /STATISTICS DESCRIPTIVES HOMOGENEITY</code></td><td class="note-cell">STATISTICS requests group descriptive statistics plus Levene's test for homogeneity (equality) of variances across regions.</td></tr><tr><td class="ln">3</td><td class="code-cell"><code> /POSTHOC=TUKEY BONFERRONI ALPHA(0.05)</code></td><td class="note-cell">POSTHOC requests two different pairwise comparison methods, Tukey and Bonferroni, both using a significance threshold (ALPHA) of 0.05, to show exactly which region pairs differ.</td></tr><tr><td class="ln">4</td><td class="code-cell"><code> /PLOT MEANS.</code></td><td class="note-cell">PLOT MEANS requests a simple line/point chart of the region means for a quick visual comparison; the period ends the command.</td></tr></tbody></table>
+<div class="tip"><strong>TIP:</strong> HOMOGENEITY requests Levene's test of equal variances across groups, the ANOVA equivalent of the t-test's Levene check - if it is significant, consider the Welch or Brown-Forsythe robust F available under /STATISTICS WELCH.</div>
+</article>
+<article class="chapter" id="ch-24">
+<h2><span class="chnum">Chapter 24</span>UNIANOVA and GLM: Factorial and Covariate-Adjusted ANOVA</h2>
+<p>ONEWAY only handles a single factor. UNIANOVA (and the more general GLM command) handles multiple categorical factors at once, their interactions, and continuous covariates - the syntax route to a two-way ANOVA or ANCOVA. Interaction terms are written with an asterisk between factor names.</p>
+<div class="code-caption">Two-way ANOVA: Region x Gender on satisfaction, with an interaction</div>
+<pre class="code"><code>UNIANOVA Q5_OverallSatisfaction BY Region Gender
+ /METHOD=SSTYPE(3)
+ /INTERCEPT=INCLUDE
+ /PLOT=PROFILE(Region*Gender)
+ /EMMEANS=TABLES(Region*Gender)
+ /PRINT=DESCRIPTIVE ETASQ HOMOGENEITY
+ /DESIGN=Region Gender Region*Gender.</code></pre>
+<div class="annot-label">Line-by-line explanation</div>
+<table class="annot-table"><thead><tr><th class="ln">Line</th><th>Code</th><th>What this line does</th></tr></thead><tbody><tr><td class="ln">1</td><td class="code-cell"><code>UNIANOVA Q5_OverallSatisfaction BY Region Gender</code></td><td class="note-cell">Begins UNIANOVA, modelling Q5_OverallSatisfaction as a function of the two categorical factors Region and Gender.</td></tr><tr><td class="ln">2</td><td class="code-cell"><code> /METHOD=SSTYPE(3)</code></td><td class="note-cell">METHOD=SSTYPE(3) selects Type III sums of squares, the standard default for a balanced or unbalanced factorial ANOVA.</td></tr><tr><td class="ln">3</td><td class="code-cell"><code> /INTERCEPT=INCLUDE</code></td><td class="note-cell">INTERCEPT=INCLUDE keeps the model's intercept term (the overall baseline level) in the analysis.</td></tr><tr><td class="ln">4</td><td class="code-cell"><code> /PLOT=PROFILE(Region*Gender)</code></td><td class="note-cell">PLOT requests an interaction (profile) plot showing how the Region by Gender combination affects the mean outcome.</td></tr><tr><td class="ln">5</td><td class="code-cell"><code> /EMMEANS=TABLES(Region*Gender)</code></td><td class="note-cell">EMMEANS requests estimated marginal means for every combination of Region and Gender.</td></tr><tr><td class="ln">6</td><td class="code-cell"><code> /PRINT=DESCRIPTIVE ETASQ HOMOGENEITY</code></td><td class="note-cell">PRINT requests descriptive statistics, partial eta-squared effect sizes, and the homogeneity-of-variance test.</td></tr><tr><td class="ln">7</td><td class="code-cell"><code> /DESIGN=Region Gender Region*Gender.</code></td><td class="note-cell">DESIGN explicitly lists the model terms to fit: the main effect of Region, the main effect of Gender, and their interaction (Region*Gender); the period ends the command.</td></tr></tbody></table>
+<div class="code-caption">ANCOVA: adjusting for a continuous covariate (Age)</div>
+<pre class="code"><code>UNIANOVA MonthlySubscriptionFee BY Region WITH Age
+ /PRINT=DESCRIPTIVE PARAMETER
+ /DESIGN=Age Region.</code></pre>
+<div class="annot-label">Line-by-line explanation</div>
+<table class="annot-table"><thead><tr><th class="ln">Line</th><th>Code</th><th>What this line does</th></tr></thead><tbody><tr><td class="ln">1</td><td class="code-cell"><code>UNIANOVA MonthlySubscriptionFee BY Region WITH Age</code></td><td class="note-cell">Begins UNIANOVA, modelling MonthlySubscriptionFee as a function of the categorical factor Region while statistically adjusting for the continuous covariate Age (introduced with WITH).</td></tr><tr><td class="ln">2</td><td class="code-cell"><code> /PRINT=DESCRIPTIVE PARAMETER</code></td><td class="note-cell">PRINT requests descriptive statistics and the model's parameter (coefficient) estimates.</td></tr><tr><td class="ln">3</td><td class="code-cell"><code> /DESIGN=Age Region.</code></td><td class="note-cell">DESIGN fits Age first, then Region, so the Region effect is reported after adjusting for Age; the period ends the command.</td></tr></tbody></table>
+<div class="tip"><strong>TIP:</strong> ETASQ in /PRINT adds partial eta-squared effect sizes next to the F-tests - always report an effect size alongside significance for a factorial design.</div>
+</article>
+<article class="chapter" id="ch-25">
+<h2><span class="chnum">Chapter 25</span>CORRELATIONS and NONPAR CORR</h2>
+<p>CORRELATIONS computes Pearson's r between every pair of listed scale variables (a full correlation matrix if you list more than two). NONPAR CORR computes the non-parametric equivalents - Spearman's rho and Kendall's tau-b - for ordinal data or when the normality assumption behind Pearson's r is doubtful.</p>
+<div class="code-caption">Pearson correlation matrix</div>
+<pre class="code"><code>CORRELATIONS
+ /VARIABLES=Age MonthsEnrolled MonthlySubscriptionFee NumReadingsSubmittedMonth AdherenceScore
+ /PRINT=TWOTAIL NOSIG
+ /MISSING=PAIRWISE.</code></pre>
+<div class="annot-label">Line-by-line explanation</div>
+<table class="annot-table"><thead><tr><th class="ln">Line</th><th>Code</th><th>What this line does</th></tr></thead><tbody><tr><td class="ln">1</td><td class="code-cell"><code>CORRELATIONS</code></td><td class="note-cell">Begins the CORRELATIONS command.</td></tr><tr><td class="ln">2</td><td class="code-cell"><code> /VARIABLES=Age MonthsEnrolled MonthlySubscriptionFee NumReadingsSubmittedMonth AdherenceScore</code></td><td class="note-cell">VARIABLES lists the five scale variables that will be correlated with each other, producing a full correlation matrix.</td></tr><tr><td class="ln">3</td><td class="code-cell"><code> /PRINT=TWOTAIL NOSIG</code></td><td class="note-cell">PRINT requests two-tailed significance tests and turns off (NOSIG) the asterisk-flagging of non-significant correlations, for a cleaner-looking matrix.</td></tr><tr><td class="ln">4</td><td class="code-cell"><code> /MISSING=PAIRWISE.</code></td><td class="note-cell">MISSING=PAIRWISE tells SPSS to use all available data for each pair of variables individually, rather than dropping a case entirely if it is missing on any one variable; the period ends the command.</td></tr></tbody></table>
+<div class="code-caption">Spearman correlation for the Likert items</div>
+<pre class="code"><code>NONPAR CORR
+ /VARIABLES=Q1_DeviceEaseOfUse Q2_NurseResponsiveness Q3_ReadingAccuracy
+ Q4_SupportResponseTime Q5_OverallSatisfaction
+ /PRINT=SPEARMAN TWOTAIL NOSIG
+ /MISSING=PAIRWISE.</code></pre>
+<div class="annot-label">Line-by-line explanation</div>
+<table class="annot-table"><thead><tr><th class="ln">Line</th><th>Code</th><th>What this line does</th></tr></thead><tbody><tr><td class="ln">1</td><td class="code-cell"><code>NONPAR CORR</code></td><td class="note-cell">Begins the NONPAR CORR command, the non-parametric counterpart to CORRELATIONS.</td></tr><tr><td class="ln">2</td><td class="code-cell"><code> /VARIABLES=Q1_DeviceEaseOfUse Q2_NurseResponsiveness Q3_ReadingAccuracy</code></td><td class="note-cell">VARIABLES begins listing the five Likert satisfaction items to be correlated.</td></tr><tr><td class="ln">3</td><td class="code-cell"><code> Q4_SupportResponseTime Q5_OverallSatisfaction</code></td><td class="note-cell">Continues the variable list from the line above.</td></tr><tr><td class="ln">4</td><td class="code-cell"><code> /PRINT=SPEARMAN TWOTAIL NOSIG</code></td><td class="note-cell">PRINT requests the Spearman rank correlation coefficient, two-tailed significance, and suppresses non-significant flagging.</td></tr><tr><td class="ln">5</td><td class="code-cell"><code> /MISSING=PAIRWISE.</code></td><td class="note-cell">MISSING=PAIRWISE uses all available data for each pair individually, exactly as in the Pearson version above; the period ends the command.</td></tr></tbody></table>
+<div class="tip"><strong>TIP:</strong> NOSIG suppresses the asterisk-flagging of non-significant correlations so the matrix reads cleanly; remove it if you want every cell's significance flagged automatically.</div>
+</article>
+<article class="chapter" id="ch-26">
+<h2><span class="chnum">Chapter 26</span>REGRESSION: Linear Regression</h2>
+<p>REGRESSION fits an ordinary least squares model predicting one scale dependent variable from one or more independent variables. /DEPENDENT names the outcome, /METHOD=ENTER forces every listed predictor into the model in one step (other methods like STEPWISE add them conditionally), and /STATISTICS controls which diagnostic tables print alongside the coefficients.</p>
+<div class="code-caption">Predicting monthly subscription fee</div>
+<pre class="code"><code>REGRESSION
+ /MISSING LISTWISE
+ /STATISTICS COEFF OUTS R ANOVA COLLIN TOL
+ /CRITERIA=PIN(.05) POUT(.10)
+ /NOORIGIN
+ /DEPENDENT MonthlySubscriptionFee
+ /METHOD=ENTER Age MonthsEnrolled NumReadingsSubmittedMonth
+ /SCATTERPLOT (*ZRESID ,*ZPRED)
+ /RESIDUALS HISTOGRAM(ZRESID).</code></pre>
+<div class="annot-label">Line-by-line explanation</div>
+<table class="annot-table"><thead><tr><th class="ln">Line</th><th>Code</th><th>What this line does</th></tr></thead><tbody><tr><td class="ln">1</td><td class="code-cell"><code>REGRESSION</code></td><td class="note-cell">Begins the REGRESSION command.</td></tr><tr><td class="ln">2</td><td class="code-cell"><code> /MISSING LISTWISE</code></td><td class="note-cell">MISSING LISTWISE drops any case with a missing value on any variable used anywhere in the model.</td></tr><tr><td class="ln">3</td><td class="code-cell"><code> /STATISTICS COEFF OUTS R ANOVA COLLIN TOL</code></td><td class="note-cell">STATISTICS requests coefficients, excluded-variable statistics, the multiple R, an ANOVA table for the overall model, and collinearity diagnostics (COLLIN) and tolerance values (TOL).</td></tr><tr><td class="ln">4</td><td class="code-cell"><code> /CRITERIA=PIN(.05) POUT(.10)</code></td><td class="note-cell">CRITERIA sets the probability thresholds SPSS uses to decide whether to enter (PIN) or remove (POUT) a predictor, relevant mainly for stepwise-style methods.</td></tr><tr><td class="ln">5</td><td class="code-cell"><code> /NOORIGIN</code></td><td class="note-cell">NOORIGIN tells SPSS to include the normal intercept term rather than forcing the regression line through the origin.</td></tr><tr><td class="ln">6</td><td class="code-cell"><code> /DEPENDENT MonthlySubscriptionFee</code></td><td class="note-cell">DEPENDENT names MonthlySubscriptionFee as the outcome variable being predicted.</td></tr><tr><td class="ln">7</td><td class="code-cell"><code> /METHOD=ENTER Age MonthsEnrolled NumReadingsSubmittedMonth</code></td><td class="note-cell">METHOD=ENTER forces all three named predictors, Age, MonthsEnrolled, and NumReadingsSubmittedMonth, into the model in a single step.</td></tr><tr><td class="ln">8</td><td class="code-cell"><code> /SCATTERPLOT (*ZRESID ,*ZPRED)</code></td><td class="note-cell">SCATTERPLOT requests a plot of the standardised residuals (*ZRESID) against the standardised predicted values (*ZPRED), used to check for patterns that would indicate a poor model fit.</td></tr><tr><td class="ln">9</td><td class="code-cell"><code> /RESIDUALS HISTOGRAM(ZRESID).</code></td><td class="note-cell">RESIDUALS HISTOGRAM(ZRESID) requests a histogram of the standardised residuals, used to check they are roughly normally distributed; the period ends the command.</td></tr></tbody></table>
+<div class="tip"><strong>TIP:</strong> COLLIN TOL requests collinearity diagnostics (tolerance and VIF) - always check these when a model has more than one predictor, since severely correlated predictors make individual coefficients unreliable even when the overall model fits well.</div>
+</article>
+<article class="chapter" id="ch-27">
+<h2><span class="chnum">Chapter 27</span>LOGISTIC REGRESSION</h2>
+<p>When the outcome is binary (Yes/No, 0/1) rather than continuous, ordinary regression is the wrong tool - LOGISTIC REGRESSION models the log-odds of the outcome instead, and prints odds ratios (Exp(B)) that are directly interpretable as 'this predictor multiplies the odds of the outcome by X'.</p>
+<div class="code-caption">Predicting hospitalization from adherence score and subscription fee</div>
+<pre class="code"><code>LOGISTIC REGRESSION VARIABLES Hospitalized
+ /METHOD=ENTER AdherenceScore MonthlySubscriptionFee Age
+ /CONTRAST (Gender)=Indicator
+ /PRINT=GOODFIT CI(95)
+ /CRITERIA=PIN(0.05) POUT(0.10) ITERATE(20) CUT(0.5).</code></pre>
+<div class="annot-label">Line-by-line explanation</div>
+<table class="annot-table"><thead><tr><th class="ln">Line</th><th>Code</th><th>What this line does</th></tr></thead><tbody><tr><td class="ln">1</td><td class="code-cell"><code>LOGISTIC REGRESSION VARIABLES Hospitalized</code></td><td class="note-cell">Begins LOGISTIC REGRESSION VARIABLES, naming Hospitalized as the binary (0/1) outcome being predicted.</td></tr><tr><td class="ln">2</td><td class="code-cell"><code> /METHOD=ENTER AdherenceScore MonthlySubscriptionFee Age</code></td><td class="note-cell">METHOD=ENTER forces the three named predictors, AdherenceScore, MonthlySubscriptionFee, and Age, into the model in a single step.</td></tr><tr><td class="ln">3</td><td class="code-cell"><code> /CONTRAST (Gender)=Indicator</code></td><td class="note-cell">CONTRAST tells SPSS to treat Gender as a categorical predictor using indicator (dummy) coding, in case it were added to the model.</td></tr><tr><td class="ln">4</td><td class="code-cell"><code> /PRINT=GOODFIT CI(95)</code></td><td class="note-cell">PRINT requests a goodness-of-fit test (GOODFIT) and 95 percent confidence intervals (CI(95)) for the odds ratios.</td></tr><tr><td class="ln">5</td><td class="code-cell"><code> /CRITERIA=PIN(0.05) POUT(0.10) ITERATE(20) CUT(0.5).</code></td><td class="note-cell">CRITERIA sets the entry/removal probability thresholds, the maximum number of iterations (20) the model may take to converge, and the probability cutoff (0.5) used to classify a predicted case as an event or non-event; the period ends the command.</td></tr></tbody></table>
+<div class="tip"><strong>TIP:</strong> The dependent variable in LOGISTIC REGRESSION must be coded numerically as 0/1 (the higher code is treated as the 'event'). Recode a Yes/No string variable with RECODE ... INTO before running this command if it is not already numeric.</div>
+</article>
+<article class="chapter" id="ch-28">
+<h2><span class="chnum">Chapter 28</span>RELIABILITY: Cronbach's Alpha</h2>
+<p>RELIABILITY measures the internal consistency of a set of items meant to measure the same underlying construct - the standard check before you combine several Likert items into a single composite score, as was done informally with SatisfactionIndex back in Chapter 8. Cronbach's alpha above roughly 0.7 is conventionally considered acceptable for a scale.</p>
+<div class="code-caption">Reliability of the five satisfaction items</div>
+<pre class="code"><code>RELIABILITY
+ /VARIABLES=Q1_DeviceEaseOfUse Q2_NurseResponsiveness Q3_ReadingAccuracy
+ Q4_SupportResponseTime Q5_OverallSatisfaction
+ /SCALE('Satisfaction Scale') ALL
+ /MODEL=ALPHA
+ /STATISTICS=DESCRIPTIVE CORR
+ /SUMMARY=TOTAL.</code></pre>
+<div class="annot-label">Line-by-line explanation</div>
+<table class="annot-table"><thead><tr><th class="ln">Line</th><th>Code</th><th>What this line does</th></tr></thead><tbody><tr><td class="ln">1</td><td class="code-cell"><code>RELIABILITY</code></td><td class="note-cell">Begins the RELIABILITY command.</td></tr><tr><td class="ln">2</td><td class="code-cell"><code> /VARIABLES=Q1_DeviceEaseOfUse Q2_NurseResponsiveness Q3_ReadingAccuracy</code></td><td class="note-cell">VARIABLES begins listing the items whose internal consistency will be measured, continuing onto the next line.</td></tr><tr><td class="ln">3</td><td class="code-cell"><code> Q4_SupportResponseTime Q5_OverallSatisfaction</code></td><td class="note-cell">Continues the variable list, completing all five satisfaction items.</td></tr><tr><td class="ln">4</td><td class="code-cell"><code> /SCALE('Satisfaction Scale') ALL</code></td><td class="note-cell">SCALE names this set of items 'Satisfaction Scale' for the output, and ALL confirms every listed variable belongs to it.</td></tr><tr><td class="ln">5</td><td class="code-cell"><code> /MODEL=ALPHA</code></td><td class="note-cell">MODEL=ALPHA selects Cronbach's alpha as the reliability statistic to calculate.</td></tr><tr><td class="ln">6</td><td class="code-cell"><code> /STATISTICS=DESCRIPTIVE CORR</code></td><td class="note-cell">STATISTICS requests descriptive statistics for each item plus the inter-item correlation matrix.</td></tr><tr><td class="ln">7</td><td class="code-cell"><code> /SUMMARY=TOTAL.</code></td><td class="note-cell">SUMMARY=TOTAL requests item-total statistics, including the alpha-if-item-deleted values; the period ends the command.</td></tr></tbody></table>
+<div class="tip"><strong>TIP:</strong> The 'Cronbach's Alpha if Item Deleted' column tells you which single item, if removed, would raise the overall alpha - useful for trimming a weak item from a scale during questionnaire development.</div>
+</article>
+<article class="chapter" id="ch-29">
+<h2><span class="chnum">Chapter 29</span>FACTOR: Exploratory Factor Analysis / PCA</h2>
+<p>FACTOR reduces a set of correlated variables down to a smaller number of underlying dimensions (factors or components). It is commonly used on a health tech platform of Likert items to check whether they really measure one construct or several, and to produce factor scores for later use as predictors.</p>
+<div class="code-caption">Exploratory factor analysis on the satisfaction items</div>
+<pre class="code"><code>FACTOR
+ /VARIABLES=Q1_DeviceEaseOfUse Q2_NurseResponsiveness Q3_ReadingAccuracy
+ Q4_SupportResponseTime Q5_OverallSatisfaction
+ /MISSING LISTWISE
+ /ANALYSIS=Q1_DeviceEaseOfUse Q2_NurseResponsiveness Q3_ReadingAccuracy
+ Q4_SupportResponseTime Q5_OverallSatisfaction
+ /PRINT=INITIAL KMO EXTRACTION ROTATION
+ /PLOT=EIGEN
+ /CRITERIA=MINEIGEN(1) ITERATE(25)
+ /EXTRACTION=PC
+ /ROTATION=VARIMAX
+ /SAVE=REG(ALL).</code></pre>
+<div class="annot-label">Line-by-line explanation</div>
+<table class="annot-table"><thead><tr><th class="ln">Line</th><th>Code</th><th>What this line does</th></tr></thead><tbody><tr><td class="ln">1</td><td class="code-cell"><code>FACTOR</code></td><td class="note-cell">Begins the FACTOR command.</td></tr><tr><td class="ln">2</td><td class="code-cell"><code> /VARIABLES=Q1_DeviceEaseOfUse Q2_NurseResponsiveness Q3_ReadingAccuracy</code></td><td class="note-cell">VARIABLES begins listing the items to be included in the factor analysis, continuing onto the next line.</td></tr><tr><td class="ln">3</td><td class="code-cell"><code> Q4_SupportResponseTime Q5_OverallSatisfaction</code></td><td class="note-cell">Continues the variable list, completing all five satisfaction items.</td></tr><tr><td class="ln">4</td><td class="code-cell"><code> /MISSING LISTWISE</code></td><td class="note-cell">MISSING LISTWISE drops any case with a missing value on any of the listed items.</td></tr><tr><td class="ln">5</td><td class="code-cell"><code> /ANALYSIS=Q1_DeviceEaseOfUse Q2_NurseResponsiveness Q3_ReadingAccuracy</code></td><td class="note-cell">ANALYSIS repeats the same variable list, confirming which variables are actually analysed (this can differ from VARIABLES in more advanced setups), continuing onto the next line.</td></tr><tr><td class="ln">6</td><td class="code-cell"><code> Q4_SupportResponseTime Q5_OverallSatisfaction</code></td><td class="note-cell">Continues the ANALYSIS variable list, completing all five items.</td></tr><tr><td class="ln">7</td><td class="code-cell"><code> /PRINT=INITIAL KMO EXTRACTION ROTATION</code></td><td class="note-cell">PRINT requests the initial communalities/eigenvalues, the KMO sampling-adequacy measure, the extraction results, and the rotated factor loadings.</td></tr><tr><td class="ln">8</td><td class="code-cell"><code> /PLOT=EIGEN</code></td><td class="note-cell">PLOT=EIGEN requests a scree plot of the eigenvalues, used to visually judge how many factors to retain.</td></tr><tr><td class="ln">9</td><td class="code-cell"><code> /CRITERIA=MINEIGEN(1) ITERATE(25)</code></td><td class="note-cell">CRITERIA sets the extraction rule to keep any factor with an eigenvalue above 1 (MINEIGEN(1)) and caps the process at 25 iterations.</td></tr><tr><td class="ln">10</td><td class="code-cell"><code> /EXTRACTION=PC</code></td><td class="note-cell">EXTRACTION=PC selects Principal Components as the extraction method.</td></tr><tr><td class="ln">11</td><td class="code-cell"><code> /ROTATION=VARIMAX</code></td><td class="note-cell">ROTATION=VARIMAX applies an orthogonal Varimax rotation to make the factor loadings easier to interpret.</td></tr><tr><td class="ln">12</td><td class="code-cell"><code> /SAVE=REG(ALL).</code></td><td class="note-cell">SAVE=REG(ALL) saves regression-method factor scores as new variables in the dataset, one per retained factor; the period ends the command.</td></tr></tbody></table>
+<div class="tip"><strong>TIP:</strong> Check the KMO (Kaiser-Meyer-Olkin) measure before trusting the factor solution: KMO above 0.6 is generally considered the minimum acceptable threshold for the data to be suitable for factor analysis.</div>
+</article>
+<article class="chapter" id="ch-30">
+<h2><span class="chnum">Chapter 30</span>NPAR TESTS: Non-Parametric Alternatives</h2>
+<p>When a scale variable is badly non-normal, or when data are only ordinal, NPAR TESTS provides distribution-free alternatives to the t-test and ANOVA: Mann-Whitney U (two independent groups), Wilcoxon Signed-Rank (two paired measurements), and Kruskal-Wallis H (three or more independent groups).</p>
+<div class="code-caption">Mann-Whitney U: satisfaction by gender</div>
+<pre class="code"><code>NPAR TESTS
+ /M-W= Q5_OverallSatisfaction BY Gender('Male' 'Female')
+ /MISSING ANALYSIS.</code></pre>
+<div class="annot-label">Line-by-line explanation</div>
+<table class="annot-table"><thead><tr><th class="ln">Line</th><th>Code</th><th>What this line does</th></tr></thead><tbody><tr><td class="ln">1</td><td class="code-cell"><code>NPAR TESTS</code></td><td class="note-cell">Begins the NPAR TESTS command.</td></tr><tr><td class="ln">2</td><td class="code-cell"><code> /M-W= Q5_OverallSatisfaction BY Gender('Male' 'Female')</code></td><td class="note-cell">M-W requests a Mann-Whitney U test comparing Q5_OverallSatisfaction between the two named Gender groups.</td></tr><tr><td class="ln">3</td><td class="code-cell"><code> /MISSING ANALYSIS.</code></td><td class="note-cell">MISSING ANALYSIS excludes cases with missing values only from the specific test they would affect, rather than from the whole command; the period ends the command.</td></tr></tbody></table>
+<div class="code-caption">Kruskal-Wallis H: satisfaction across regions</div>
+<pre class="code"><code>NPAR TESTS
+ /K-W=Q5_OverallSatisfaction BY Region(1,5)
+ /MISSING ANALYSIS.</code></pre>
+<div class="annot-label">Line-by-line explanation</div>
+<table class="annot-table"><thead><tr><th class="ln">Line</th><th>Code</th><th>What this line does</th></tr></thead><tbody><tr><td class="ln">1</td><td class="code-cell"><code>NPAR TESTS</code></td><td class="note-cell">Begins the NPAR TESTS command.</td></tr><tr><td class="ln">2</td><td class="code-cell"><code> /K-W=Q5_OverallSatisfaction BY Region(1,5)</code></td><td class="note-cell">K-W requests a Kruskal-Wallis H test comparing Q5_OverallSatisfaction across the numeric groups of Region, here declared to range from code 1 to code 5.</td></tr><tr><td class="ln">3</td><td class="code-cell"><code> /MISSING ANALYSIS.</code></td><td class="note-cell">MISSING ANALYSIS excludes cases with missing values only from the affected test; the period ends the command.</td></tr></tbody></table>
+<div class="code-caption">Wilcoxon Signed-Rank: two paired Likert items</div>
+<pre class="code"><code>NPAR TESTS
+ /WILCOXON=Q1_DeviceEaseOfUse WITH Q4_SupportResponseTime (PAIRED)
+ /MISSING ANALYSIS.</code></pre>
+<div class="annot-label">Line-by-line explanation</div>
+<table class="annot-table"><thead><tr><th class="ln">Line</th><th>Code</th><th>What this line does</th></tr></thead><tbody><tr><td class="ln">1</td><td class="code-cell"><code>NPAR TESTS</code></td><td class="note-cell">Begins the NPAR TESTS command.</td></tr><tr><td class="ln">2</td><td class="code-cell"><code> /WILCOXON=Q1_DeviceEaseOfUse WITH Q4_SupportResponseTime (PAIRED)</code></td><td class="note-cell">WILCOXON requests a Wilcoxon Signed-Rank test comparing the two paired (PAIRED) variables Q1_DeviceEaseOfUse and Q4_SupportResponseTime, measured on the same cases.</td></tr><tr><td class="ln">3</td><td class="code-cell"><code> /MISSING ANALYSIS.</code></td><td class="note-cell">MISSING ANALYSIS excludes cases with missing values only from the affected test; the period ends the command.</td></tr></tbody></table>
+<div class="tip"><strong>TIP:</strong> K-W requires numeric group codes with an explicit low/high range in parentheses - if Region is still a string variable, run AUTORECODE first (Chapter 10) to get the numeric RegionNumeric variable K-W needs.</div>
+</article>
+</section><section class="part" id="part-6"><h1>Part 6: Output Management and Automation</h1>
+<article class="chapter" id="ch-31">
+<h2><span class="chnum">Chapter 31</span>Exporting Output: OUTPUT SAVE, OMS, and Direct Export</h2>
+<p>Once your analysis works, you often need the tables and charts outside SPSS entirely. OUTPUT EXPORT writes the whole Viewer to a Word, PDF, HTML, or Excel file in one command. The Output Management System (OMS) is more surgical: it intercepts specific tables as they are produced and routes them straight into a chosen file format, which is what you want inside an automated or looped job.</p>
+<div class="code-caption">Export the entire Viewer contents to Word</div>
+<pre class="code"><code>OUTPUT EXPORT
+ /CONTENTS EXPORT=ALL
+ /DOCX DOCUMENTFILE='VitalTrack_Results.docx'
+ DOCUMENTTYPE=DOCUMENT.</code></pre>
+<div class="annot-label">Line-by-line explanation</div>
+<table class="annot-table"><thead><tr><th class="ln">Line</th><th>Code</th><th>What this line does</th></tr></thead><tbody><tr><td class="ln">1</td><td class="code-cell"><code>OUTPUT EXPORT</code></td><td class="note-cell">Begins the OUTPUT EXPORT command.</td></tr><tr><td class="ln">2</td><td class="code-cell"><code> /CONTENTS EXPORT=ALL</code></td><td class="note-cell">CONTENTS EXPORT=ALL tells SPSS to export every table and chart currently in the Output Viewer, not a selected subset.</td></tr><tr><td class="ln">3</td><td class="code-cell"><code> /DOCX DOCUMENTFILE='VitalTrack_Results.docx'</code></td><td class="note-cell">DOCX DOCUMENTFILE names the destination Word file to create.</td></tr><tr><td class="ln">4</td><td class="code-cell"><code> DOCUMENTTYPE=DOCUMENT.</code></td><td class="note-cell">DOCUMENTTYPE=DOCUMENT confirms a standard Word document (rather than, for example, a template) should be produced; the period ends the command.</td></tr></tbody></table>
+<div class="code-caption">OMS: capture only the Descriptives table to Excel</div>
+<pre class="code"><code>OMS
+ /SELECT TABLES
+ /IF COMMANDS=['Descriptives'] SUBTYPES=['Descriptive Statistics']
+ /DESTINATION FORMAT=XLSX OUTFILE='Descriptives_Only.xlsx'
+ /TAG='DescCapture'.
+
+DESCRIPTIVES VARIABLES=MonthlySubscriptionFee AdherenceScore.
+
+OMSEND TAG='DescCapture'.</code></pre>
+<div class="annot-label">Line-by-line explanation</div>
+<table class="annot-table"><thead><tr><th class="ln">Line</th><th>Code</th><th>What this line does</th></tr></thead><tbody><tr><td class="ln">1</td><td class="code-cell"><code>OMS</code></td><td class="note-cell">Begins the OMS (Output Management System) command, which will intercept specific output tables as they are produced.</td></tr><tr><td class="ln">2</td><td class="code-cell"><code> /SELECT TABLES</code></td><td class="note-cell">SELECT TABLES tells OMS to only capture statistical tables (not charts, logs, or other output types).</td></tr><tr><td class="ln">3</td><td class="code-cell"><code> /IF COMMANDS=['Descriptives'] SUBTYPES=['Descriptive Statistics']</code></td><td class="note-cell">IF filters which tables to capture: only ones produced by the Descriptives command, and specifically the 'Descriptive Statistics' subtype of table.</td></tr><tr><td class="ln">4</td><td class="code-cell"><code> /DESTINATION FORMAT=XLSX OUTFILE='Descriptives_Only.xlsx'</code></td><td class="note-cell">DESTINATION sends every captured table straight into a new Excel file named Descriptives_Only.xlsx.</td></tr><tr><td class="ln">5</td><td class="code-cell"><code> /TAG='DescCapture'.</code></td><td class="note-cell">TAG gives this OMS interception a name, DescCapture, so it can be matched to a specific OMSEND later; the period ends the command.</td></tr><tr><td class="ln">6</td><td class="code-cell"><code><em>(blank line)</em></code></td><td class="note-cell">A blank line for readability before the procedure whose output will be captured.</td></tr><tr><td class="ln">7</td><td class="code-cell"><code>DESCRIPTIVES VARIABLES=MonthlySubscriptionFee AdherenceScore.</code></td><td class="note-cell">DESCRIPTIVES runs normally, but because the OMS block above is active, its Descriptive Statistics table is silently also written to the Excel file.</td></tr><tr><td class="ln">8</td><td class="code-cell"><code><em>(blank line)</em></code></td><td class="note-cell">A blank line for readability before switching the interception off.</td></tr><tr><td class="ln">9</td><td class="code-cell"><code>OMSEND TAG='DescCapture'.</code></td><td class="note-cell">OMSEND, matched by TAG to the OMS command above, stops the interception so no further tables are captured after this point.</td></tr></tbody></table>
+<div class="tip"><strong>TIP:</strong> Always pair an OMS command with a matching OMSEND - an OMS block left open keeps intercepting every future table of that type for the rest of the session, which silently pollutes files you did not mean to write to.</div>
+</article>
+<article class="chapter" id="ch-32">
+<h2><span class="chnum">Chapter 32</span>Charts via Syntax: GGRAPH and GRAPH</h2>
+<p>GGRAPH generates modern, highly customisable charts using the Graphics Production Language (GPL) that SPSS builds internally whenever you use the Chart Builder. The legacy GRAPH command is shorter to type for simple bar and line charts. Pasting a chart you built visually in Chart Builder is the fastest way to learn GPL syntax for a specific chart type.</p>
+<div class="code-caption">Simple legacy bar chart</div>
+<pre class="code"><code>GRAPH
+ /BAR(SIMPLE)=MEAN(MonthlySubscriptionFee) BY Region
+ /TITLE='Average Monthly Income by Region'.</code></pre>
+<div class="annot-label">Line-by-line explanation</div>
+<table class="annot-table"><thead><tr><th class="ln">Line</th><th>Code</th><th>What this line does</th></tr></thead><tbody><tr><td class="ln">1</td><td class="code-cell"><code>GRAPH</code></td><td class="note-cell">Begins the legacy GRAPH command.</td></tr><tr><td class="ln">2</td><td class="code-cell"><code> /BAR(SIMPLE)=MEAN(MonthlySubscriptionFee) BY Region</code></td><td class="note-cell">BAR(SIMPLE) requests a simple bar chart showing the mean of MonthlySubscriptionFee, one bar per category of Region.</td></tr><tr><td class="ln">3</td><td class="code-cell"><code> /TITLE='Average Monthly Income by Region'.</code></td><td class="note-cell">TITLE sets the chart's on-screen title text; the period ends the command.</td></tr></tbody></table>
+<div class="code-caption">GGRAPH: clustered bar of satisfaction by region and gender</div>
+<pre class="code"><code>GGRAPH
+ /GRAPHDATASET NAME='graphdataset' VARIABLES=Region Gender
+ MEAN(Q5_OverallSatisfaction)[name='MeanSat']
+ MISSING=LISTWISE REPORTMISSING=NO
+ /GRAPHSPEC SOURCE=INLINE.
+BEGIN GPL
+ SOURCE: s=userSource(id('graphdataset'))
+ DATA: Region=col(source(s), name('Region'), unit.category())
+ DATA: Gender=col(source(s), name('Gender'), unit.category())
+ DATA: MeanSat=col(source(s), name('MeanSat'))
+ GUIDE: axis(dim(1), label('Region'))
+ GUIDE: axis(dim(2), label('Mean Overall Satisfaction'))
+ GUIDE: legend(aesthetic(aesthetic.color.interior), label('Gender'))
+ ELEMENT: interval(position(Region*MeanSat), color.interior(Gender),
+ shape.interior(shape.square))
+END GPL.</code></pre>
+<div class="annot-label">Line-by-line explanation</div>
+<table class="annot-table"><thead><tr><th class="ln">Line</th><th>Code</th><th>What this line does</th></tr></thead><tbody><tr><td class="ln">1</td><td class="code-cell"><code>GGRAPH</code></td><td class="note-cell">Begins the GGRAPH command, which builds a chart using the modern Graphics Production Language (GPL).</td></tr><tr><td class="ln">2</td><td class="code-cell"><code> /GRAPHDATASET NAME='graphdataset' VARIABLES=Region Gender</code></td><td class="note-cell">GRAPHDATASET names an internal dataset called 'graphdataset' and specifies that it should contain Region, Gender, and the mean of Q5_OverallSatisfaction (aliased as MeanSat) for each combination.</td></tr><tr><td class="ln">3</td><td class="code-cell"><code> MEAN(Q5_OverallSatisfaction)[name='MeanSat']</code></td><td class="note-cell">Continues defining the summary measure MeanSat, naming it so GPL can refer to it by that alias later.</td></tr><tr><td class="ln">4</td><td class="code-cell"><code> MISSING=LISTWISE REPORTMISSING=NO</code></td><td class="note-cell">MISSING=LISTWISE REPORTMISSING=NO drops cases with missing values from the chart data and suppresses any 'missing data' note on the chart.</td></tr><tr><td class="ln">5</td><td class="code-cell"><code> /GRAPHSPEC SOURCE=INLINE.</code></td><td class="note-cell">GRAPHSPEC SOURCE=INLINE tells SPSS that the actual chart specification, in GPL, is written directly in the lines that follow.</td></tr><tr><td class="ln">6</td><td class="code-cell"><code>BEGIN GPL</code></td><td class="note-cell">BEGIN GPL marks the start of the embedded Graphics Production Language block.</td></tr><tr><td class="ln">7</td><td class="code-cell"><code> SOURCE: s=userSource(id('graphdataset'))</code></td><td class="note-cell">SOURCE names s as a reference to the graphdataset defined above, so the GPL statements below can pull data from it.</td></tr><tr><td class="ln">8</td><td class="code-cell"><code> DATA: Region=col(source(s), name('Region'), unit.category())</code></td><td class="note-cell">DATA declares that the Region column from the source will be treated as a categorical (unit.category) dimension called Region.</td></tr><tr><td class="ln">9</td><td class="code-cell"><code> DATA: Gender=col(source(s), name('Gender'), unit.category())</code></td><td class="note-cell">DATA declares that the Gender column will likewise be treated as a categorical dimension called Gender.</td></tr><tr><td class="ln">10</td><td class="code-cell"><code> DATA: MeanSat=col(source(s), name('MeanSat'))</code></td><td class="note-cell">DATA declares that the MeanSat column (the pre-computed mean satisfaction) will be used as a plain numeric measure.</td></tr><tr><td class="ln">11</td><td class="code-cell"><code> GUIDE: axis(dim(1), label('Region'))</code></td><td class="note-cell">GUIDE sets the first chart axis's label to 'Region'.</td></tr><tr><td class="ln">12</td><td class="code-cell"><code> GUIDE: axis(dim(2), label('Mean Overall Satisfaction'))</code></td><td class="note-cell">GUIDE sets the second chart axis's label to 'Mean Overall Satisfaction'.</td></tr><tr><td class="ln">13</td><td class="code-cell"><code> GUIDE: legend(aesthetic(aesthetic.color.interior), label('Gender'))</code></td><td class="note-cell">GUIDE adds a colour legend labelled 'Gender', mapped to the interior colour aesthetic used below.</td></tr><tr><td class="ln">14</td><td class="code-cell"><code> ELEMENT: interval(position(Region*MeanSat), color.interior(Gender),</code></td><td class="note-cell">ELEMENT draws the actual bars: position them by Region and MeanSat, colour them by Gender, and use square-shaped bar interiors; the element definition continues on the next line.</td></tr><tr><td class="ln">15</td><td class="code-cell"><code> shape.interior(shape.square))</code></td><td class="note-cell">Completes the ELEMENT statement's shape specification from the line above.</td></tr><tr><td class="ln">16</td><td class="code-cell"><code>END GPL.</code></td><td class="note-cell">END GPL closes the embedded GPL block, and the following period ends the whole GGRAPH command.</td></tr></tbody></table>
+<div class="tip"><strong>TIP:</strong> You rarely write GPL from a blank page: build the chart once in Graphs &gt; Chart Builder, click Paste, and edit the generated GGRAPH block - this is far faster than memorising GPL syntax.</div>
+</article>
+<article class="chapter" id="ch-33">
+<h2><span class="chnum">Chapter 33</span>Macros: DEFINE ... !ENDDEFINE</h2>
+<p>A macro is a reusable block of syntax with parameters, similar to a function in a programming language. Once defined with DEFINE ... !ENDDEFINE, you call it anywhere later in the session simply by writing its name and arguments, and SPSS expands it into the full syntax before running it. Macros remove repetition when you need the same analysis run many times with only one detail changing.</p>
+<div class="code-caption">A macro that runs the same descriptive block for any variable</div>
+<pre class="code"><code>DEFINE !QuickDescribe (!POS !TOKENS(1)).
+ DESCRIPTIVES VARIABLES=!1
+ /STATISTICS=MEAN STDDEV MIN MAX.
+ FREQUENCIES VARIABLES=!1 /HISTOGRAM NORMAL /FORMAT=NOTABLE.
+!ENDDEFINE.
+
+!QuickDescribe MonthlySubscriptionFee.
+!QuickDescribe AdherenceScore.
+!QuickDescribe Age.</code></pre>
+<div class="annot-label">Line-by-line explanation</div>
+<table class="annot-table"><thead><tr><th class="ln">Line</th><th>Code</th><th>What this line does</th></tr></thead><tbody><tr><td class="ln">1</td><td class="code-cell"><code>DEFINE !QuickDescribe (!POS !TOKENS(1)).</code></td><td class="note-cell">DEFINE begins a new macro named !QuickDescribe, which accepts one positional token argument (!POS !TOKENS(1)), meaning it takes exactly one plain value when called.</td></tr><tr><td class="ln">2</td><td class="code-cell"><code> DESCRIPTIVES VARIABLES=!1</code></td><td class="note-cell">Inside the macro body, DESCRIPTIVES runs on whichever variable name is substituted for !1 (the macro's first argument) when it is called.</td></tr><tr><td class="ln">3</td><td class="code-cell"><code> /STATISTICS=MEAN STDDEV MIN MAX.</code></td><td class="note-cell">STATISTICS requests mean, standard deviation, minimum, and maximum for that same variable.</td></tr><tr><td class="ln">4</td><td class="code-cell"><code> FREQUENCIES VARIABLES=!1 /HISTOGRAM NORMAL /FORMAT=NOTABLE.</code></td><td class="note-cell">FREQUENCIES also runs on !1, requesting a normal-curve histogram while suppressing the full frequency table with NOTABLE.</td></tr><tr><td class="ln">5</td><td class="code-cell"><code>!ENDDEFINE.</code></td><td class="note-cell">!ENDDEFINE closes the macro definition that began with DEFINE above.</td></tr><tr><td class="ln">6</td><td class="code-cell"><code><em>(blank line)</em></code></td><td class="note-cell">A blank line for readability before the macro is actually used.</td></tr><tr><td class="ln">7</td><td class="code-cell"><code>!QuickDescribe MonthlySubscriptionFee.</code></td><td class="note-cell">Calls the macro with MonthlySubscriptionFee as the argument, so !1 is replaced by MonthlySubscriptionFee and both statements inside the macro run against it.</td></tr><tr><td class="ln">8</td><td class="code-cell"><code>!QuickDescribe AdherenceScore.</code></td><td class="note-cell">Calls the same macro again with AdherenceScore as the argument.</td></tr><tr><td class="ln">9</td><td class="code-cell"><code>!QuickDescribe Age.</code></td><td class="note-cell">Calls the same macro a third time with Age as the argument.</td></tr></tbody></table>
+<div class="tip"><strong>TIP:</strong> Macro names conventionally start with an exclamation mark (!) so they are visually distinct from ordinary command keywords and variable names in the syntax file.</div>
+</article>
+<article class="chapter" id="ch-34">
+<h2><span class="chnum">Chapter 34</span>Looping: LOOP / END LOOP and DO REPEAT</h2>
+<p>LOOP ... END LOOP repeats a block of transformation commands a set number of times or while a condition holds, case by case - useful for iterative calculations like running totals. DO REPEAT ... END REPEAT is different: it applies the same transformation to a whole list of variables in parallel, one substitution at a time, which is the everyday tool for recoding, renaming, or recalculating many similarly-structured variables at once.</p>
+<div class="code-caption">DO REPEAT: rescale every Likert item to a 0-100 scale at once</div>
+<pre class="code"><code>DO REPEAT src=Q1_DeviceEaseOfUse Q2_NurseResponsiveness Q3_ReadingAccuracy
+ Q4_SupportResponseTime Q5_OverallSatisfaction
+ /dst=Q1_100 Q2_100 Q3_100 Q4_100 Q5_100.
+ COMPUTE dst = ((src - 1) / 4) * 100.
+END REPEAT.
+EXECUTE.</code></pre>
+<div class="annot-label">Line-by-line explanation</div>
+<table class="annot-table"><thead><tr><th class="ln">Line</th><th>Code</th><th>What this line does</th></tr></thead><tbody><tr><td class="ln">1</td><td class="code-cell"><code>DO REPEAT src=Q1_DeviceEaseOfUse Q2_NurseResponsiveness Q3_ReadingAccuracy</code></td><td class="note-cell">DO REPEAT begins a parallel substitution block: src will stand in turn for each of the five source Likert variables listed here, continuing onto the next line.</td></tr><tr><td class="ln">2</td><td class="code-cell"><code> Q4_SupportResponseTime Q5_OverallSatisfaction</code></td><td class="note-cell">Completes the list of source variables that src will represent, one at a time.</td></tr><tr><td class="ln">3</td><td class="code-cell"><code> /dst=Q1_100 Q2_100 Q3_100 Q4_100 Q5_100.</code></td><td class="note-cell">/dst lists five destination variable names, one to be created for each source variable, in the same left-to-right order.</td></tr><tr><td class="ln">4</td><td class="code-cell"><code> COMPUTE dst = ((src - 1) / 4) * 100.</code></td><td class="note-cell">COMPUTE rescales whichever src is currently active from its original 1-5 range onto a 0-100 range, storing the result in the matching dst variable.</td></tr><tr><td class="ln">5</td><td class="code-cell"><code>END REPEAT.</code></td><td class="note-cell">END REPEAT closes the DO REPEAT block, having by now run the COMPUTE line once for each of the five src/dst pairs.</td></tr><tr><td class="ln">6</td><td class="code-cell"><code>EXECUTE.</code></td><td class="note-cell">EXECUTE actually performs all five rescaling computations now.</td></tr></tbody></table>
+<div class="code-caption">LOOP: a simple case-by-case running index</div>
+<pre class="code"><code>COMPUTE RunningFlagCount = 0.
+LOOP #i = 1 TO 5.
+ DO IF (#i = 1 AND Q1_DeviceEaseOfUse &gt;= 4).
+ COMPUTE RunningFlagCount = RunningFlagCount + 1.
+ END IF.
+END LOOP.
+EXECUTE.</code></pre>
+<div class="annot-label">Line-by-line explanation</div>
+<table class="annot-table"><thead><tr><th class="ln">Line</th><th>Code</th><th>What this line does</th></tr></thead><tbody><tr><td class="ln">1</td><td class="code-cell"><code>COMPUTE RunningFlagCount = 0.</code></td><td class="note-cell">COMPUTE initialises RunningFlagCount to 0 for every case, before the loop below adjusts it.</td></tr><tr><td class="ln">2</td><td class="code-cell"><code>LOOP #i = 1 TO 5.</code></td><td class="note-cell">LOOP begins a repeat block that runs its contents for #i equal to 1, then 2, then 3, up through 5, for every case.</td></tr><tr><td class="ln">3</td><td class="code-cell"><code> DO IF (#i = 1 AND Q1_DeviceEaseOfUse &gt;= 4).</code></td><td class="note-cell">DO IF restricts the action inside this iteration to the very first pass (#i=1) where Q1_DeviceEaseOfUse is also 4 or higher.</td></tr><tr><td class="ln">4</td><td class="code-cell"><code> COMPUTE RunningFlagCount = RunningFlagCount + 1.</code></td><td class="note-cell">For cases meeting that condition, adds 1 to RunningFlagCount.</td></tr><tr><td class="ln">5</td><td class="code-cell"><code> END IF.</code></td><td class="note-cell">END IF closes the DO IF block opened two lines above.</td></tr><tr><td class="ln">6</td><td class="code-cell"><code>END LOOP.</code></td><td class="note-cell">END LOOP closes the LOOP block opened above, having run through all 5 iterations of #i for every case.</td></tr><tr><td class="ln">7</td><td class="code-cell"><code>EXECUTE.</code></td><td class="note-cell">EXECUTE actually runs the whole loop now.</td></tr></tbody></table>
+<div class="tip"><strong>TIP:</strong> DO REPEAT is worth learning before LOOP: in real teaching and analysis work it is used far more often, because most repetitive tasks are 'do the same thing to many variables', not 'do the same thing many times to one case'.</div>
+</article>
+<article class="chapter" id="ch-35">
+<h2><span class="chnum">Chapter 35</span>Extending SPSS with Python: BEGIN PROGRAM / END PROGRAM</h2>
+<p>If the SPSS Python Integration Plug-in is installed, a syntax file can embed real Python code inside a BEGIN PROGRAM / END PROGRAM block, with full access to the SPSS Python libraries (spss, spssaux) for tasks syntax alone cannot easily do, such as reading external metadata, dynamic file names, or advanced string processing. This is an advanced, optional bridge rather than a requirement for everyday syntax work.</p>
+<div class="code-caption">A minimal embedded Python block</div>
+<pre class="code"><code>BEGIN PROGRAM.
+import spss
+varCount = spss.GetVariableCount()
+print("This dataset has " + str(varCount) + " variables.")
+END PROGRAM.</code></pre>
+<div class="annot-label">Line-by-line explanation</div>
+<table class="annot-table"><thead><tr><th class="ln">Line</th><th>Code</th><th>What this line does</th></tr></thead><tbody><tr><td class="ln">1</td><td class="code-cell"><code>BEGIN PROGRAM.</code></td><td class="note-cell">BEGIN PROGRAM marks the start of an embedded block of real Python code, available only if the SPSS Python Integration Plug-in is installed.</td></tr><tr><td class="ln">2</td><td class="code-cell"><code>import spss</code></td><td class="note-cell">Imports the spss Python module, which exposes functions for interacting with the currently open SPSS dataset.</td></tr><tr><td class="ln">3</td><td class="code-cell"><code>varCount = spss.GetVariableCount()</code></td><td class="note-cell">Calls spss.GetVariableCount() to retrieve the number of variables in the active dataset and stores it in the Python variable varCount.</td></tr><tr><td class="ln">4</td><td class="code-cell"><code>print("This dataset has " + str(varCount) + " variables.")</code></td><td class="note-cell">Prints a message to the SPSS Output Viewer reporting how many variables the dataset has, built by joining text and the numeric count converted to a string.</td></tr><tr><td class="ln">5</td><td class="code-cell"><code>END PROGRAM.</code></td><td class="note-cell">END PROGRAM marks the end of the embedded Python block, returning control to ordinary SPSS syntax.</td></tr></tbody></table>
+<div class="tip"><strong>TIP:</strong> Everything taught in Chapters 1-34 works in any standard SPSS Statistics installation; the Python Integration Plug-in in this chapter is an optional add-on, so treat this chapter as a preview of what becomes possible once you also know Python, not as a prerequisite for the rest of the book.</div>
+</article>
+</section><section class="part" id="part-7"><h1>Part 7: Best Practices and Reference</h1>
+<article class="chapter" id="ch-36">
+<h2><span class="chnum">Chapter 36</span>Writing Clean, Maintainable Syntax</h2>
+<p>A syntax file is code, and the same habits that make code maintainable apply here. Keep one command per logical block with a comment above it stating its purpose. Prefer INTO when recoding, so the original variable is never destroyed. Always run FILTER OFF, SPLIT FILE OFF, and WEIGHT OFF as soon as you finish a temporary state change, rather than trusting yourself to remember later. Save a master syntax file per project and re-run it from the top whenever the source data changes, instead of hand-repeating menu clicks.</p>
+<p>Name your syntax files and datasets descriptively, keep a header comment block at the top of every file recording the author, date, purpose, and the source data file it expects, and store your .sps files under version control (even a simple dated folder structure) alongside the data extracts they were built against.</p>
+<div class="code-caption">A recommended file header template</div>
+<pre class="code"><code>* ==========================================================.
+* File: 01_data_prep.sps.
+* Author: Kajola Gbenga Adewale, Prodigy Training Hub.
+* Date: 16-Jul-2026.
+* Purpose: Import and label the VitalTrack Health Tech Nigeria survey data.
+* Input: vitaltrack_patient_survey.csv.
+* Output: Labelled, recoded VitalTrack dataset ready for analysis.
+* ==========================================================.
+SET SEED=234.</code></pre>
+<div class="annot-label">Line-by-line explanation</div>
+<table class="annot-table"><thead><tr><th class="ln">Line</th><th>Code</th><th>What this line does</th></tr></thead><tbody><tr><td class="ln">1</td><td class="code-cell"><code>* ==========================================================.</code></td><td class="note-cell">A decorative comment line made of equals signs, used purely to visually separate the header block from the syntax that follows.</td></tr><tr><td class="ln">2</td><td class="code-cell"><code>* File: 01_data_prep.sps.</code></td><td class="note-cell">A comment recording the file's own name, for anyone who prints or copies the syntax out of context.</td></tr><tr><td class="ln">3</td><td class="code-cell"><code>* Author: Kajola Gbenga Adewale, Prodigy Training Hub.</code></td><td class="note-cell">A comment recording who wrote the file.</td></tr><tr><td class="ln">4</td><td class="code-cell"><code>* Date: 16-Jul-2026.</code></td><td class="note-cell">A comment recording the date the file was written or last revised.</td></tr><tr><td class="ln">5</td><td class="code-cell"><code>* Purpose: Import and label the VitalTrack Health Tech Nigeria survey data.</code></td><td class="note-cell">A comment stating in one line what the file is for.</td></tr><tr><td class="ln">6</td><td class="code-cell"><code>* Input: vitaltrack_patient_survey.csv.</code></td><td class="note-cell">A comment recording which source data file this syntax expects to find.</td></tr><tr><td class="ln">7</td><td class="code-cell"><code>* Output: Labelled, recoded VitalTrack dataset ready for analysis.</code></td><td class="note-cell">A comment recording what the file produces once it finishes running.</td></tr><tr><td class="ln">8</td><td class="code-cell"><code>* ==========================================================.</code></td><td class="note-cell">A second decorative comment line closing the header block visually.</td></tr><tr><td class="ln">9</td><td class="code-cell"><code>SET SEED=234.</code></td><td class="note-cell">The first real, executable command in the file: SET SEED, exactly as introduced in Chapter 3.</td></tr></tbody></table>
+</article>
+<article class="chapter" id="ch-37">
+<h2><span class="chnum">Chapter 37</span>Common Errors and How to Read Them</h2>
+<p>Most beginner syntax errors fall into a handful of repeating patterns: a missing period at the end of a command (SPSS reports an error on the line after the one actually at fault); referencing a variable name that does not exist yet, usually from a typo or because an earlier COMPUTE/RECODE was never actually run; a string value compared without quotes (Region = Lagos instead of Region = 'Lagos'); and forgetting EXECUTE after a transformation, so nothing appears to have happened even though the command 'ran' without error.</p>
+<p>When SPSS reports an error, read the error number and the quoted fragment of syntax carefully - it almost always points at the exact token that confused the parser, and the fix is usually smaller than the error message makes it look.</p>
+<div class="code-caption">Common mistake: unquoted string comparison</div>
+<pre class="code"><code>* Wrong - SPSS will treat Lagos as an undefined variable name:
+* SELECT IF (Region = Lagos).
+
+* Correct - string values must always be in quotes:
+SELECT IF (Region = 'Lagos').
+EXECUTE.</code></pre>
+<div class="annot-label">Line-by-line explanation</div>
+<table class="annot-table"><thead><tr><th class="ln">Line</th><th>Code</th><th>What this line does</th></tr></thead><tbody><tr><td class="ln">1</td><td class="code-cell"><code>* Wrong - SPSS will treat Lagos as an undefined variable name:</code></td><td class="note-cell">A comment labelling the line below as an example of what NOT to do.</td></tr><tr><td class="ln">2</td><td class="code-cell"><code>* SELECT IF (Region = Lagos).</code></td><td class="note-cell">A commented-out line showing the mistake: comparing Region to Lagos without quotes, which SPSS would try to read as an undefined variable name rather than the text 'Lagos'.</td></tr><tr><td class="ln">3</td><td class="code-cell"><code><em>(blank line)</em></code></td><td class="note-cell">A blank line separating the wrong example from the corrected one.</td></tr><tr><td class="ln">4</td><td class="code-cell"><code>* Correct - string values must always be in quotes:</code></td><td class="note-cell">A comment labelling the line below as the corrected version.</td></tr><tr><td class="ln">5</td><td class="code-cell"><code>SELECT IF (Region = 'Lagos').</code></td><td class="note-cell">The corrected SELECT IF: 'Lagos' is wrapped in single quotes, so SPSS correctly compares Region against the literal text value.</td></tr><tr><td class="ln">6</td><td class="code-cell"><code>EXECUTE.</code></td><td class="note-cell">EXECUTE actually applies the corrected selection now.</td></tr></tbody></table>
+<div class="tip"><strong>TIP:</strong> If a command silently 'does nothing', check for a missing EXECUTE first - SPSS queues transformation commands and only actually processes the data when it hits EXECUTE or the next procedure command (FREQUENCIES, DESCRIPTIVES, etc.).</div>
+</article>
+<article class="chapter" id="ch-38">
+<h2><span class="chnum">Chapter 38</span>Appendix A: Full Worked Syntax Script</h2>
+<p>The script below chains together one representative command from most chapters in this book into a single runnable file against the practice dataset, from raw import through to a final exported results document. Use it as a template to copy and adapt for your own projects, and as a quick self-test: if every line below runs without an error message on your machine, your SPSS installation and syntax fundamentals are both in good shape.</p>
+<div class="code-caption">End-to-end pipeline</div>
+<pre class="code"><code>SET SEED=234.
+
+GET DATA /TYPE=TXT
+ /FILE='vitaltrack_patient_survey.csv'
+ /DELCASE=LINE /DELIMITERS=',' /QUALIFIER='"'
+ /ARRANGEMENT=DELIMITED /FIRSTCASE=2 /IMPORTCASE=ALL
+ /VARIABLES=
+ PatientID A6 Region A15 Gender A6 Age F3 ConditionType A13
+ DeviceType A14 MonthsEnrolled F5.1 MonthlySubscriptionFee F8
+ NumReadingsSubmittedMonth F3 Q1_DeviceEaseOfUse F1 Q2_NurseResponsiveness F1
+ Q3_ReadingAccuracy F1 Q4_SupportResponseTime F1 Q5_OverallSatisfaction F1
+ ComplaintFiled A3 AdherenceScore F3 Hospitalized A3 DropoutRisk A6.
+CACHE.
+EXECUTE.
+DATASET NAME VitalTrack WINDOW=FRONT.
+
+VARIABLE LEVEL Q1_DeviceEaseOfUse TO Q5_OverallSatisfaction (ORDINAL).
+VALUE LABELS Q1_DeviceEaseOfUse Q2_NurseResponsiveness Q3_ReadingAccuracy
+ Q4_SupportResponseTime Q5_OverallSatisfaction
+ 1 'Strongly Disagree' 2 'Disagree' 3 'Neutral' 4 'Agree' 5 'Strongly Agree'.
+
+COMPUTE SatisfactionIndex = MEAN(Q1_DeviceEaseOfUse, Q2_NurseResponsiveness,
+ Q3_ReadingAccuracy, Q4_SupportResponseTime, Q5_OverallSatisfaction).
+RECODE Age (18 THRU 25=1)(26 THRU 40=2)(41 THRU 55=3)(56 THRU HIGHEST=4)
+ INTO AgeBand.
+EXECUTE.
+
+FREQUENCIES VARIABLES=Region Gender DropoutRisk.
+DESCRIPTIVES VARIABLES=MonthlySubscriptionFee AdherenceScore SatisfactionIndex.
+CROSSTABS /TABLES=DeviceType BY ComplaintFiled /STATISTICS=CHISQ.
+T-TEST GROUPS=Gender('Male' 'Female') /VARIABLES=MonthlySubscriptionFee.
+ONEWAY Q5_OverallSatisfaction BY Region /POSTHOC=TUKEY.
+CORRELATIONS /VARIABLES=Age MonthlySubscriptionFee AdherenceScore.
+REGRESSION /DEPENDENT MonthlySubscriptionFee /METHOD=ENTER Age MonthsEnrolled.
+RELIABILITY /VARIABLES=Q1_DeviceEaseOfUse TO Q5_OverallSatisfaction
+ /MODEL=ALPHA.
+
+OUTPUT EXPORT /CONTENTS EXPORT=ALL
+ /DOCX DOCUMENTFILE='VitalTrack_FullResults.docx' DOCUMENTTYPE=DOCUMENT.</code></pre>
+<div class="annot-label">Line-by-line explanation</div>
+<table class="annot-table"><thead><tr><th class="ln">Line</th><th>Code</th><th>What this line does</th></tr></thead><tbody><tr><td class="ln">1</td><td class="code-cell"><code>SET SEED=234.</code></td><td class="note-cell">SET SEED fixes the random seed for reproducibility, exactly as in Chapter 3.</td></tr><tr><td class="ln">2</td><td class="code-cell"><code><em>(blank line)</em></code></td><td class="note-cell">A blank line for readability before the data import section begins.</td></tr><tr><td class="ln">3</td><td class="code-cell"><code>GET DATA /TYPE=TXT</code></td><td class="note-cell">Begins GET DATA, reading the source as plain text (covers CSV).</td></tr><tr><td class="ln">4</td><td class="code-cell"><code> /FILE='vitaltrack_patient_survey.csv'</code></td><td class="note-cell">Names the CSV file to import.</td></tr><tr><td class="ln">5</td><td class="code-cell"><code> /DELCASE=LINE /DELIMITERS=',' /QUALIFIER='"'</code></td><td class="note-cell">Sets the line-based case delimiter, the comma column delimiter, and the double-quote text qualifier, all on one line.</td></tr><tr><td class="ln">6</td><td class="code-cell"><code> /ARRANGEMENT=DELIMITED /FIRSTCASE=2 /IMPORTCASE=ALL</code></td><td class="note-cell">Sets delimited arrangement, confirms row 2 is where data starts, and confirms every case should be imported.</td></tr><tr><td class="ln">7</td><td class="code-cell"><code> /VARIABLES=</code></td><td class="note-cell">Opens the /VARIABLES subcommand where every column is about to be defined.</td></tr><tr><td class="ln">8</td><td class="code-cell"><code> PatientID A6 Region A15 Gender A6 Age F3 ConditionType A13</code></td><td class="note-cell">Defines PatientID, Region, Gender, Age, and ConditionType with their types and widths.</td></tr><tr><td class="ln">9</td><td class="code-cell"><code> DeviceType A14 MonthsEnrolled F5.1 MonthlySubscriptionFee F8</code></td><td class="note-cell">Defines DeviceType, MonthsEnrolled, and MonthlySubscriptionFee with their types and widths.</td></tr><tr><td class="ln">10</td><td class="code-cell"><code> NumReadingsSubmittedMonth F3 Q1_DeviceEaseOfUse F1 Q2_NurseResponsiveness F1</code></td><td class="note-cell">Defines NumReadingsSubmittedMonth and the first two Likert items with their types.</td></tr><tr><td class="ln">11</td><td class="code-cell"><code> Q3_ReadingAccuracy F1 Q4_SupportResponseTime F1 Q5_OverallSatisfaction F1</code></td><td class="note-cell">Defines the remaining three Likert items with their types.</td></tr><tr><td class="ln">12</td><td class="code-cell"><code> ComplaintFiled A3 AdherenceScore F3 Hospitalized A3 DropoutRisk A6.</code></td><td class="note-cell">Defines ComplaintFiled, AdherenceScore, Hospitalized, and DropoutRisk, and the period ends the whole GET DATA command.</td></tr><tr><td class="ln">13</td><td class="code-cell"><code>CACHE.</code></td><td class="note-cell">CACHE reads the file into memory immediately.</td></tr><tr><td class="ln">14</td><td class="code-cell"><code>EXECUTE.</code></td><td class="note-cell">EXECUTE actually performs the import now.</td></tr><tr><td class="ln">15</td><td class="code-cell"><code>DATASET NAME VitalTrack WINDOW=FRONT.</code></td><td class="note-cell">DATASET NAME gives the data the handle VitalTrack and brings its window to the front.</td></tr><tr><td class="ln">16</td><td class="code-cell"><code><em>(blank line)</em></code></td><td class="note-cell">A blank line separating data import from variable preparation.</td></tr><tr><td class="ln">17</td><td class="code-cell"><code>VARIABLE LEVEL Q1_DeviceEaseOfUse TO Q5_OverallSatisfaction (ORDINAL).</code></td><td class="note-cell">VARIABLE LEVEL sets the five Likert items to ORDINAL measurement level.</td></tr><tr><td class="ln">18</td><td class="code-cell"><code>VALUE LABELS Q1_DeviceEaseOfUse Q2_NurseResponsiveness Q3_ReadingAccuracy</code></td><td class="note-cell">Begins VALUE LABELS for the five Likert items, continuing the variable list on the next line.</td></tr><tr><td class="ln">19</td><td class="code-cell"><code> Q4_SupportResponseTime Q5_OverallSatisfaction</code></td><td class="note-cell">Continues the variable list from the line above.</td></tr><tr><td class="ln">20</td><td class="code-cell"><code> 1 'Strongly Disagree' 2 'Disagree' 3 'Neutral' 4 'Agree' 5 'Strongly Agree'.</code></td><td class="note-cell">Defines the shared 1 to 5 value labels for all five items; the period ends the command.</td></tr><tr><td class="ln">21</td><td class="code-cell"><code><em>(blank line)</em></code></td><td class="note-cell">A blank line separating labelling from the derived-variable section.</td></tr><tr><td class="ln">22</td><td class="code-cell"><code>COMPUTE SatisfactionIndex = MEAN(Q1_DeviceEaseOfUse, Q2_NurseResponsiveness,</code></td><td class="note-cell">Begins COMPUTE, creating SatisfactionIndex as the mean of the first two listed items, continuing the function call onto the next line.</td></tr><tr><td class="ln">23</td><td class="code-cell"><code> Q3_ReadingAccuracy, Q4_SupportResponseTime, Q5_OverallSatisfaction).</code></td><td class="note-cell">Completes the MEAN() function call with the remaining three items and closes the COMPUTE command.</td></tr><tr><td class="ln">24</td><td class="code-cell"><code>RECODE Age (18 THRU 25=1)(26 THRU 40=2)(41 THRU 55=3)(56 THRU HIGHEST=4)</code></td><td class="note-cell">Begins RECODE, converting Age into four ordered bands, continuing onto the next line.</td></tr><tr><td class="ln">25</td><td class="code-cell"><code> INTO AgeBand.</code></td><td class="note-cell">INTO AgeBand writes the result into a brand-new variable, leaving Age itself unchanged; the period ends the command.</td></tr><tr><td class="ln">26</td><td class="code-cell"><code>EXECUTE.</code></td><td class="note-cell">EXECUTE actually performs the SatisfactionIndex computation and the Age recode now.</td></tr><tr><td class="ln">27</td><td class="code-cell"><code><em>(blank line)</em></code></td><td class="note-cell">A blank line separating data preparation from the analysis section.</td></tr><tr><td class="ln">28</td><td class="code-cell"><code>FREQUENCIES VARIABLES=Region Gender DropoutRisk.</code></td><td class="note-cell">FREQUENCIES produces category counts for Region, Gender, and DropoutRisk.</td></tr><tr><td class="ln">29</td><td class="code-cell"><code>DESCRIPTIVES VARIABLES=MonthlySubscriptionFee AdherenceScore SatisfactionIndex.</code></td><td class="note-cell">DESCRIPTIVES produces summary statistics for MonthlySubscriptionFee, AdherenceScore, and the new SatisfactionIndex.</td></tr><tr><td class="ln">30</td><td class="code-cell"><code>CROSSTABS /TABLES=DeviceType BY ComplaintFiled /STATISTICS=CHISQ.</code></td><td class="note-cell">CROSSTABS tests whether DeviceType and ComplaintFiled are statistically associated, using a chi-square test.</td></tr><tr><td class="ln">31</td><td class="code-cell"><code>T-TEST GROUPS=Gender('Male' 'Female') /VARIABLES=MonthlySubscriptionFee.</code></td><td class="note-cell">T-TEST compares average MonthlySubscriptionFee between male and female patients.</td></tr><tr><td class="ln">32</td><td class="code-cell"><code>ONEWAY Q5_OverallSatisfaction BY Region /POSTHOC=TUKEY.</code></td><td class="note-cell">ONEWAY tests whether average Q5_OverallSatisfaction differs across regions, with Tukey post-hoc comparisons.</td></tr><tr><td class="ln">33</td><td class="code-cell"><code>CORRELATIONS /VARIABLES=Age MonthlySubscriptionFee AdherenceScore.</code></td><td class="note-cell">CORRELATIONS produces a Pearson correlation matrix among Age, MonthlySubscriptionFee, and AdherenceScore.</td></tr><tr><td class="ln">34</td><td class="code-cell"><code>REGRESSION /DEPENDENT MonthlySubscriptionFee /METHOD=ENTER Age MonthsEnrolled.</code></td><td class="note-cell">REGRESSION predicts MonthlySubscriptionFee from Age and MonthsEnrolled in a single-step model.</td></tr><tr><td class="ln">35</td><td class="code-cell"><code>RELIABILITY /VARIABLES=Q1_DeviceEaseOfUse TO Q5_OverallSatisfaction</code></td><td class="note-cell">Begins RELIABILITY, testing the internal consistency of every item from Q1_DeviceEaseOfUse through Q5_OverallSatisfaction, continuing onto the next line.</td></tr><tr><td class="ln">36</td><td class="code-cell"><code> /MODEL=ALPHA.</code></td><td class="note-cell">MODEL=ALPHA requests Cronbach's alpha as the reliability statistic; the period ends the command.</td></tr><tr><td class="ln">37</td><td class="code-cell"><code><em>(blank line)</em></code></td><td class="note-cell">A blank line separating the analysis section from the final export step.</td></tr><tr><td class="ln">38</td><td class="code-cell"><code>OUTPUT EXPORT /CONTENTS EXPORT=ALL</code></td><td class="note-cell">Begins OUTPUT EXPORT, exporting every table and chart currently in the Viewer, continuing onto the next line.</td></tr><tr><td class="ln">39</td><td class="code-cell"><code> /DOCX DOCUMENTFILE='VitalTrack_FullResults.docx' DOCUMENTTYPE=DOCUMENT.</code></td><td class="note-cell">Names the destination Word file and confirms it should be a standard document; the period ends the command and the entire pipeline.</td></tr></tbody></table>
+</article>
+<article class="chapter" id="ch-39">
+<h2><span class="chnum">Chapter 39</span>Appendix B: Command Quick-Reference</h2>
+<p>A one-page reminder of every command family covered in this book, grouped by purpose, for quick lookup while you write your own syntax.</p>
+<div class="code-caption">Quick reference</div>
+<pre class="code"><code>SESSION SETUP ......... SET, SHOW, CD
+IMPORT DATA ........... GET DATA, DATA LIST, BEGIN DATA/END DATA
+LABEL DATA ............ VARIABLE LABELS, VALUE LABELS, MISSING VALUES,
+ VARIABLE LEVEL, FORMATS
+TRANSFORM ............. COMPUTE, IF, DO IF/ELSE IF/END IF, RECODE,
+ AUTORECODE, STRING functions, Date functions
+SUBSET / REORDER ...... SELECT IF, FILTER, TEMPORARY, SORT CASES,
+ SPLIT FILE
+COMBINE DATA .......... AGGREGATE, MATCH FILES, ADD FILES
+WEIGHTING ............. WEIGHT BY
+DESCRIBE .............. FREQUENCIES, DESCRIPTIVES, EXAMINE, MEANS
+COMPARE GROUPS ........ T-TEST, ONEWAY, UNIANOVA/GLM, NPAR TESTS
+ASSOCIATION ........... CROSSTABS, CORRELATIONS, NONPAR CORR
+PREDICT ............... REGRESSION, LOGISTIC REGRESSION
+SCALE DEVELOPMENT ..... RELIABILITY, FACTOR
+OUTPUT / AUTOMATE ..... OUTPUT EXPORT, OMS/OMSEND, GGRAPH, GRAPH,
+ DEFINE/!ENDDEFINE, LOOP/END LOOP, DO REPEAT,
+ BEGIN PROGRAM/END PROGRAM</code></pre>
+<div class="annot-label">Line-by-line explanation</div>
+<table class="annot-table"><thead><tr><th class="ln">Line</th><th>Code</th><th>What this line does</th></tr></thead><tbody><tr><td class="ln">1</td><td class="code-cell"><code>SESSION SETUP ......... SET, SHOW, CD</code></td><td class="note-cell">Lists the session setup commands covered in Chapter 3: SET, SHOW, and CD.</td></tr><tr><td class="ln">2</td><td class="code-cell"><code>IMPORT DATA ........... GET DATA, DATA LIST, BEGIN DATA/END DATA</code></td><td class="note-cell">Lists the import commands covered in Chapters 4 and 5: GET DATA, DATA LIST, and BEGIN DATA/END DATA.</td></tr><tr><td class="ln">3</td><td class="code-cell"><code>LABEL DATA ............ VARIABLE LABELS, VALUE LABELS, MISSING VALUES,</code></td><td class="note-cell">Begins listing the labelling commands covered in Chapters 6 and 7: VARIABLE LABELS, VALUE LABELS, and MISSING VALUES, continuing onto the next line.</td></tr><tr><td class="ln">4</td><td class="code-cell"><code> VARIABLE LEVEL, FORMATS</code></td><td class="note-cell">Completes the labelling list with VARIABLE LEVEL and FORMATS.</td></tr><tr><td class="ln">5</td><td class="code-cell"><code>TRANSFORM ............. COMPUTE, IF, DO IF/ELSE IF/END IF, RECODE,</code></td><td class="note-cell">Begins listing the transformation commands covered in Chapters 8 to 10: COMPUTE, IF, DO IF/ELSE IF/END IF, and RECODE, continuing onto the next line.</td></tr><tr><td class="ln">6</td><td class="code-cell"><code> AUTORECODE, STRING functions, Date functions</code></td><td class="note-cell">Completes the transformation list with AUTORECODE and the string and date function families from Chapter 15.</td></tr><tr><td class="ln">7</td><td class="code-cell"><code>SUBSET / REORDER ...... SELECT IF, FILTER, TEMPORARY, SORT CASES,</code></td><td class="note-cell">Begins listing the subsetting and reordering commands covered in Chapters 11 and 12: SELECT IF, FILTER, TEMPORARY, and SORT CASES, continuing onto the next line.</td></tr><tr><td class="ln">8</td><td class="code-cell"><code> SPLIT FILE</code></td><td class="note-cell">Completes that list with SPLIT FILE.</td></tr><tr><td class="ln">9</td><td class="code-cell"><code>COMBINE DATA .......... AGGREGATE, MATCH FILES, ADD FILES</code></td><td class="note-cell">Lists the data-combining commands covered in Chapters 13 and 14: AGGREGATE, MATCH FILES, and ADD FILES.</td></tr><tr><td class="ln">10</td><td class="code-cell"><code>WEIGHTING ............. WEIGHT BY</code></td><td class="note-cell">Lists the weighting command covered in Chapter 16: WEIGHT BY.</td></tr><tr><td class="ln">11</td><td class="code-cell"><code>DESCRIBE .............. FREQUENCIES, DESCRIPTIVES, EXAMINE, MEANS</code></td><td class="note-cell">Lists the descriptive commands covered in Chapters 17 to 20: FREQUENCIES, DESCRIPTIVES, EXAMINE, and MEANS.</td></tr><tr><td class="ln">12</td><td class="code-cell"><code>COMPARE GROUPS ........ T-TEST, ONEWAY, UNIANOVA/GLM, NPAR TESTS</code></td><td class="note-cell">Lists the group-comparison commands covered in Chapters 22 to 24 and 30: T-TEST, ONEWAY, UNIANOVA/GLM, and NPAR TESTS.</td></tr><tr><td class="ln">13</td><td class="code-cell"><code>ASSOCIATION ........... CROSSTABS, CORRELATIONS, NONPAR CORR</code></td><td class="note-cell">Lists the association commands covered in Chapters 21 and 25: CROSSTABS, CORRELATIONS, and NONPAR CORR.</td></tr><tr><td class="ln">14</td><td class="code-cell"><code>PREDICT ............... REGRESSION, LOGISTIC REGRESSION</code></td><td class="note-cell">Lists the prediction commands covered in Chapters 26 and 27: REGRESSION and LOGISTIC REGRESSION.</td></tr><tr><td class="ln">15</td><td class="code-cell"><code>SCALE DEVELOPMENT ..... RELIABILITY, FACTOR</code></td><td class="note-cell">Lists the scale-development commands covered in Chapters 28 and 29: RELIABILITY and FACTOR.</td></tr><tr><td class="ln">16</td><td class="code-cell"><code>OUTPUT / AUTOMATE ..... OUTPUT EXPORT, OMS/OMSEND, GGRAPH, GRAPH,</code></td><td class="note-cell">Begins listing the output and automation commands covered in Chapters 31 to 33: OUTPUT EXPORT, OMS/OMSEND, and GGRAPH/GRAPH, continuing onto the next line.</td></tr><tr><td class="ln">17</td><td class="code-cell"><code> DEFINE/!ENDDEFINE, LOOP/END LOOP, DO REPEAT,</code></td><td class="note-cell">Continues that list with DEFINE/!ENDDEFINE and LOOP/END LOOP and DO REPEAT.</td></tr><tr><td class="ln">18</td><td class="code-cell"><code> BEGIN PROGRAM/END PROGRAM</code></td><td class="note-cell">Completes the list with BEGIN PROGRAM/END PROGRAM from Chapter 35.</td></tr></tbody></table>
+</article>
+</section>
+  </main>
+</div>
+</body>
+</html>

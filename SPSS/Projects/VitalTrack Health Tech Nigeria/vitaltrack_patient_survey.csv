@@ -1,0 +1,301 @@
+PatientID,Region,Gender,Age,ConditionType,DeviceType,MonthsEnrolled,MonthlySubscriptionFee,NumReadingsSubmittedMonth,Q1_DeviceEaseOfUse,Q2_NurseResponsiveness,Q3_ReadingAccuracy,Q4_SupportResponseTime,Q5_OverallSatisfaction,ComplaintFiled,AdherenceScore,Hospitalized,DropoutRisk
+VT0001,Lagos,Female,63,Hypertension,Wearable Band,14.6,17526,17,2,2,2,2,2,Yes,672,No,High
+VT0002,Kano,Female,49,Both,Wearable Band,12.1,13230,14,4,5,3,5,4,No,712,No,Low
+VT0003,Lagos,Female,43,Hypertension,Glucose Meter,28.4,9860,29,1,1,1,1,1,Yes,588,No,Medium
+VT0004,Port Harcourt,Male,37,Diabetes,Wearable Band,13.7,10406,27,4,4,4,3,5,No,673,No,Low
+VT0005,Port Harcourt,Male,36,Hypertension,Glucose Meter,21.9,8408,23,5,4,5,4,5,No,672,No,Low
+VT0006,Port Harcourt,Male,62,Diabetes,Blood Pressure Monitor,10.1,6208,28,5,4,5,5,4,No,785,No,Low
+VT0007,Lagos,Male,63,Hypertension,Glucose Meter,12.3,9062,20,4,3,4,4,4,No,580,Yes,Low
+VT0008,Lagos,Male,44,Hypertension,Glucose Meter,7.4,9824,18,2,3,4,2,2,Yes,608,No,Medium
+VT0009,Ibadan,Male,54,Hypertension,Blood Pressure Monitor,29.2,6815,24,4,4,3,4,4,No,793,No,Low
+VT0010,Port Harcourt,Male,51,Both,Blood Pressure Monitor,22.3,7612,28,2,4,4,4,3,No,592,Yes,Medium
+VT0011,Ibadan,Female,35,Diabetes,Blood Pressure Monitor,28.0,7210,18,5,5,3,3,4,No,710,No,Low
+VT0012,Abuja,Male,46,Diabetes,Blood Pressure Monitor,17.2,6189,18,3,3,3,3,3,No,619,No,Medium
+VT0013,Port Harcourt,Male,24,Both,Wearable Band,11.6,10319,11,4,4,5,4,4,No,652,Yes,Low
+VT0014,Lagos,Male,27,Diabetes,Blood Pressure Monitor,30.3,6979,20,4,5,4,4,4,No,479,Yes,Medium
+VT0015,Abuja,Male,58,Hypertension,Wearable Band,4.7,14179,14,2,3,4,3,3,No,850,No,Low
+VT0016,Abuja,Male,41,Hypertension,Blood Pressure Monitor,23.2,7634,19,3,4,3,4,4,No,675,No,Low
+VT0017,Ibadan,Female,48,Diabetes,Blood Pressure Monitor,1.0,9691,17,3,2,3,4,4,Yes,702,No,Low
+VT0018,Lagos,Male,53,Diabetes,Blood Pressure Monitor,5.9,6302,19,4,4,3,5,4,No,656,Yes,Low
+VT0019,Kano,Male,44,Diabetes,Wearable Band,2.3,13383,17,4,3,3,3,4,No,724,No,Low
+VT0020,Port Harcourt,Female,55,Hypertension,Blood Pressure Monitor,20.2,7822,21,4,4,4,3,4,No,545,No,Medium
+VT0021,Lagos,Female,49,Diabetes,Blood Pressure Monitor,9.6,6303,24,4,4,4,2,3,No,585,No,Low
+VT0022,Kano,Male,54,Diabetes,Wearable Band,9.3,15530,23,2,3,5,4,3,No,812,No,Medium
+VT0023,Lagos,Female,38,Diabetes,Glucose Meter,25.3,11433,23,3,4,2,4,4,Yes,754,No,Medium
+VT0024,Lagos,Male,43,Both,Wearable Band,30.0,11848,27,3,5,3,2,3,No,685,No,Medium
+VT0025,Abuja,Female,62,Diabetes,Blood Pressure Monitor,11.3,6936,18,3,2,3,1,2,No,728,No,Medium
+VT0026,Abuja,Male,33,Both,Wearable Band,35.7,16939,25,4,4,5,5,5,No,594,No,Low
+VT0027,Abuja,Male,62,Hypertension,Blood Pressure Monitor,11.0,8225,20,4,4,4,4,4,No,584,Yes,Low
+VT0028,Abuja,Female,81,Other,Glucose Meter,7.1,9156,22,3,3,2,3,4,Yes,528,No,Medium
+VT0029,Port Harcourt,Male,47,Both,Wearable Band,20.2,12868,20,4,3,3,4,4,Yes,672,No,Low
+VT0030,Abuja,Male,54,Diabetes,Blood Pressure Monitor,4.0,7798,20,3,4,3,2,2,Yes,710,Yes,Medium
+VT0031,Lagos,Female,59,Both,Glucose Meter,9.5,10299,21,3,2,3,3,4,No,685,No,Medium
+VT0032,Kano,Female,31,Both,Glucose Meter,35.5,6437,30,2,2,3,2,4,Yes,593,No,Medium
+VT0033,Abuja,Female,69,Hypertension,Wearable Band,20.2,6820,24,4,4,5,3,4,No,669,No,Low
+VT0034,Lagos,Female,40,Diabetes,Blood Pressure Monitor,23.9,9814,25,5,4,4,3,3,Yes,688,No,Medium
+VT0035,Lagos,Female,42,Other,Blood Pressure Monitor,8.3,8236,7,4,4,3,2,4,No,722,No,Low
+VT0036,Lagos,Female,59,Hypertension,Blood Pressure Monitor,21.9,5651,22,3,4,4,3,3,No,524,No,Low
+VT0037,Abuja,Female,46,Both,Wearable Band,7.6,11921,25,5,4,4,3,4,No,528,No,Low
+VT0038,Lagos,Female,43,Hypertension,Glucose Meter,4.4,8297,16,3,2,3,2,3,No,512,No,Low
+VT0039,Abuja,Female,50,Hypertension,Wearable Band,26.8,15956,16,3,3,3,4,5,No,648,No,Low
+VT0040,Port Harcourt,Female,46,Diabetes,Glucose Meter,19.7,8281,24,4,1,3,1,3,No,531,No,Low
+VT0041,Lagos,Female,43,Diabetes,Blood Pressure Monitor,1.0,5159,18,3,1,2,2,3,Yes,618,Yes,Medium
+VT0042,Kano,Male,46,Other,Glucose Meter,10.5,10199,15,1,3,2,1,2,Yes,585,No,High
+VT0043,Kano,Female,44,Diabetes,Glucose Meter,28.9,12019,27,3,2,5,4,3,No,746,No,Low
+VT0044,Lagos,Female,76,Both,Wearable Band,19.2,17720,22,5,4,5,4,4,Yes,663,No,Low
+VT0045,Lagos,Female,42,Diabetes,Blood Pressure Monitor,18.7,7907,19,4,4,4,4,4,Yes,651,No,Medium
+VT0046,Ibadan,Female,43,Hypertension,Blood Pressure Monitor,30.8,7098,27,3,2,2,3,3,No,640,No,Low
+VT0047,Port Harcourt,Female,34,Diabetes,Blood Pressure Monitor,7.3,7063,19,2,3,1,3,4,No,659,No,Low
+VT0048,Lagos,Male,55,Diabetes,Blood Pressure Monitor,4.1,7893,18,3,3,3,2,3,Yes,732,No,Medium
+VT0049,Port Harcourt,Male,21,Hypertension,Blood Pressure Monitor,21.4,7183,19,3,4,4,4,4,Yes,557,No,Low
+VT0050,Lagos,Male,53,Both,Glucose Meter,3.0,9384,10,4,4,4,3,3,No,712,Yes,Low
+VT0051,Lagos,Female,45,Diabetes,Glucose Meter,3.9,10300,25,4,2,4,5,4,No,510,No,Low
+VT0052,Kano,Male,50,Other,Glucose Meter,10.0,9094,12,4,3,4,2,4,No,642,No,Low
+VT0053,Kano,Female,38,Diabetes,Glucose Meter,12.0,14204,22,5,4,4,5,4,No,672,No,Low
+VT0054,Abuja,Female,65,Diabetes,Wearable Band,15.8,12536,24,4,4,4,3,4,No,663,Yes,Low
+VT0055,Lagos,Male,40,Hypertension,Glucose Meter,30.1,10159,27,3,4,4,3,3,No,597,Yes,Low
+VT0056,Lagos,Male,58,Hypertension,Wearable Band,14.0,10292,21,3,4,3,3,4,No,596,No,Low
+VT0057,Lagos,Female,57,Both,Glucose Meter,18.4,5239,17,3,3,2,3,3,No,622,No,Low
+VT0058,Lagos,Female,54,Diabetes,Blood Pressure Monitor,19.8,3719,21,3,4,4,1,3,No,646,No,Low
+VT0059,Port Harcourt,Female,21,Diabetes,Glucose Meter,35.5,11709,24,2,5,5,4,3,Yes,746,No,High
+VT0060,Port Harcourt,Male,51,Other,Wearable Band,26.8,15044,31,5,5,4,4,4,No,809,No,Low
+VT0061,Abuja,Female,42,Hypertension,Blood Pressure Monitor,30.6,3742,18,4,3,4,5,3,No,599,No,Low
+VT0062,Ibadan,Female,42,Diabetes,Blood Pressure Monitor,31.7,6109,28,5,4,4,3,4,No,681,No,Low
+VT0063,Ibadan,Male,49,Both,Wearable Band,29.6,12656,16,2,4,4,3,3,Yes,597,No,Medium
+VT0064,Ibadan,Male,43,Both,Blood Pressure Monitor,16.7,7856,13,3,4,4,3,4,No,611,No,Medium
+VT0065,Abuja,Female,54,Diabetes,Wearable Band,21.6,14905,22,3,4,3,2,3,Yes,685,Yes,Medium
+VT0066,Lagos,Male,40,Hypertension,Blood Pressure Monitor,13.6,5474,21,4,4,3,3,5,Yes,719,No,Low
+VT0067,Lagos,Female,48,Diabetes,Blood Pressure Monitor,31.4,6940,23,5,3,4,5,4,No,639,No,Low
+VT0068,Kano,Male,62,Both,Glucose Meter,27.9,8756,21,4,3,3,3,4,Yes,764,No,Low
+VT0069,Lagos,Male,37,Hypertension,Glucose Meter,15.5,8531,15,3,4,4,3,3,No,640,No,Medium
+VT0070,Ibadan,Female,69,Diabetes,Glucose Meter,17.4,10324,16,3,3,3,2,3,No,719,No,Low
+VT0071,Kano,Male,47,Hypertension,Wearable Band,15.3,12964,14,3,5,3,4,4,Yes,741,No,Low
+VT0072,Abuja,Male,39,Hypertension,Glucose Meter,5.0,7626,17,3,3,3,3,3,No,497,Yes,Low
+VT0073,Lagos,Male,32,Both,Blood Pressure Monitor,12.2,7768,19,5,5,5,5,4,No,630,No,Low
+VT0074,Abuja,Female,42,Other,Blood Pressure Monitor,33.7,6622,19,3,3,3,1,2,Yes,619,No,Medium
+VT0075,Lagos,Male,25,Hypertension,Glucose Meter,18.5,8867,16,3,4,4,3,2,No,617,No,Medium
+VT0076,Abuja,Male,39,Diabetes,Blood Pressure Monitor,10.1,7548,14,4,3,5,5,4,No,711,No,Low
+VT0077,Lagos,Female,58,Other,Blood Pressure Monitor,35.0,9125,27,5,5,5,3,5,No,653,No,Medium
+VT0078,Kano,Male,57,Diabetes,Blood Pressure Monitor,35.2,5223,17,4,4,3,3,4,No,563,No,Low
+VT0079,Ibadan,Female,40,Both,Blood Pressure Monitor,8.6,7438,14,4,2,2,2,3,No,619,No,Medium
+VT0080,Lagos,Male,27,Hypertension,Blood Pressure Monitor,29.8,6947,10,4,4,4,2,4,Yes,687,No,Low
+VT0081,Kano,Female,41,Diabetes,Glucose Meter,13.3,8407,29,3,3,3,3,5,No,650,No,Low
+VT0082,Lagos,Male,53,Hypertension,Wearable Band,34.4,16178,18,3,4,4,4,3,No,623,No,Medium
+VT0083,Ibadan,Female,69,Hypertension,Blood Pressure Monitor,25.6,5665,19,3,2,3,2,3,Yes,573,No,Medium
+VT0084,Ibadan,Male,28,Hypertension,Blood Pressure Monitor,3.4,7152,22,2,3,5,2,4,No,601,No,Low
+VT0085,Lagos,Male,46,Diabetes,Glucose Meter,18.0,13711,20,3,3,4,3,3,Yes,543,Yes,High
+VT0086,Abuja,Male,41,Hypertension,Glucose Meter,6.2,8963,24,5,5,4,5,5,No,597,Yes,Medium
+VT0087,Abuja,Female,51,Diabetes,Blood Pressure Monitor,22.0,8180,16,3,4,3,3,4,Yes,674,No,Medium
+VT0088,Port Harcourt,Female,30,Both,Glucose Meter,12.1,9779,19,3,3,3,1,2,No,671,No,Low
+VT0089,Lagos,Male,47,Diabetes,Glucose Meter,30.3,8066,20,2,3,3,1,2,Yes,722,No,Medium
+VT0090,Port Harcourt,Female,54,Hypertension,Glucose Meter,9.6,8057,17,4,4,4,3,4,No,700,No,Medium
+VT0091,Lagos,Female,50,Diabetes,Wearable Band,22.8,13687,20,3,2,3,2,2,No,641,No,Medium
+VT0092,Ibadan,Female,46,Diabetes,Blood Pressure Monitor,9.1,5678,27,4,1,5,4,3,No,693,No,Low
+VT0093,Ibadan,Female,73,Diabetes,Glucose Meter,31.2,9856,19,4,3,5,5,3,No,581,Yes,Medium
+VT0094,Kano,Female,59,Other,Wearable Band,20.5,16994,26,3,3,3,3,4,No,686,No,Low
+VT0095,Port Harcourt,Female,27,Diabetes,Blood Pressure Monitor,14.2,5090,18,4,5,3,4,4,No,746,No,Low
+VT0096,Abuja,Male,40,Diabetes,Blood Pressure Monitor,23.1,6654,18,2,3,3,3,3,Yes,663,No,Medium
+VT0097,Abuja,Female,52,Diabetes,Blood Pressure Monitor,5.9,6667,11,4,5,3,4,4,No,783,No,Low
+VT0098,Ibadan,Female,48,Both,Wearable Band,4.1,11905,21,3,3,3,2,3,No,647,Yes,Low
+VT0099,Lagos,Female,46,Other,Blood Pressure Monitor,2.4,3994,27,2,4,2,3,3,Yes,633,No,Medium
+VT0100,Port Harcourt,Female,45,Hypertension,Blood Pressure Monitor,21.3,6406,16,3,2,3,2,3,Yes,617,No,Low
+VT0101,Port Harcourt,Female,71,Diabetes,Blood Pressure Monitor,14.2,7207,28,3,4,3,2,3,Yes,612,No,Medium
+VT0102,Kano,Female,58,Hypertension,Blood Pressure Monitor,22.8,6954,22,4,3,3,4,3,No,756,No,Low
+VT0103,Port Harcourt,Male,40,Both,Blood Pressure Monitor,28.0,7128,23,4,4,4,3,3,No,591,No,Low
+VT0104,Lagos,Female,56,Both,Wearable Band,10.0,10486,18,3,2,2,3,2,No,483,No,Medium
+VT0105,Lagos,Female,52,Other,Wearable Band,22.5,4946,16,5,4,4,5,3,Yes,632,No,High
+VT0106,Kano,Female,36,Hypertension,Blood Pressure Monitor,27.7,4946,25,2,3,4,2,3,No,555,Yes,Medium
+VT0107,Lagos,Female,36,Diabetes,Glucose Meter,17.8,11501,22,1,1,1,1,1,Yes,702,No,High
+VT0108,Abuja,Male,28,Hypertension,Blood Pressure Monitor,29.7,8860,17,1,1,2,2,2,No,631,No,Low
+VT0109,Abuja,Female,57,Hypertension,Blood Pressure Monitor,15.2,6332,17,3,3,3,1,3,No,653,Yes,Low
+VT0110,Abuja,Female,40,Hypertension,Wearable Band,27.7,17820,27,4,4,4,4,5,No,543,No,Low
+VT0111,Abuja,Male,46,Both,Glucose Meter,33.5,10155,22,2,4,4,4,4,No,637,No,Low
+VT0112,Port Harcourt,Female,55,Diabetes,Glucose Meter,22.2,10431,13,4,5,4,3,4,Yes,676,No,Medium
+VT0113,Ibadan,Male,49,Both,Blood Pressure Monitor,25.0,6428,28,3,4,3,3,3,No,788,No,Low
+VT0114,Abuja,Female,46,Both,Wearable Band,18.7,8140,13,4,3,3,5,3,No,622,No,Medium
+VT0115,Lagos,Male,37,Hypertension,Glucose Meter,8.3,10318,12,5,3,4,4,4,No,750,No,Low
+VT0116,Lagos,Female,42,Both,Wearable Band,3.6,11778,22,4,3,4,3,3,Yes,658,No,Medium
+VT0117,Port Harcourt,Female,44,Both,Wearable Band,10.8,14791,13,4,4,4,4,5,No,638,Yes,Low
+VT0118,Abuja,Female,63,Diabetes,Blood Pressure Monitor,8.3,8144,21,3,2,3,4,3,No,570,No,Medium
+VT0119,Lagos,Male,61,Hypertension,Glucose Meter,26.3,5150,25,4,4,4,3,4,No,719,No,Low
+VT0120,Port Harcourt,Female,49,Hypertension,Blood Pressure Monitor,2.9,6388,15,3,3,3,2,4,No,678,Yes,Low
+VT0121,Kano,Female,38,Diabetes,Blood Pressure Monitor,29.2,8866,21,3,4,5,3,5,No,726,No,Low
+VT0122,Kano,Male,32,Both,Blood Pressure Monitor,27.9,7455,18,3,4,2,4,3,No,618,No,Low
+VT0123,Lagos,Male,60,Hypertension,Wearable Band,8.4,10228,19,3,3,3,4,3,No,592,No,Low
+VT0124,Port Harcourt,Male,38,Hypertension,Glucose Meter,25.4,6853,22,4,2,3,2,3,Yes,697,No,High
+VT0125,Abuja,Male,45,Both,Glucose Meter,23.1,12307,16,4,4,3,4,4,No,606,No,Low
+VT0126,Lagos,Male,64,Other,Glucose Meter,17.4,11156,16,3,3,3,2,3,No,703,No,Low
+VT0127,Abuja,Female,22,Diabetes,Glucose Meter,9.4,12104,24,4,4,3,3,4,No,661,No,Low
+VT0128,Lagos,Male,38,Diabetes,Wearable Band,18.3,20529,16,4,3,4,3,2,Yes,657,No,Medium
+VT0129,Abuja,Female,45,Diabetes,Wearable Band,16.2,12991,23,4,3,3,3,3,No,752,Yes,Low
+VT0130,Abuja,Male,37,Diabetes,Wearable Band,13.9,11009,18,3,2,4,2,3,No,551,No,Low
+VT0131,Lagos,Male,32,Both,Wearable Band,10.2,16408,21,5,4,5,2,4,No,671,No,Low
+VT0132,Abuja,Male,55,Diabetes,Wearable Band,12.9,11059,21,3,2,2,2,2,Yes,612,No,Medium
+VT0133,Abuja,Male,59,Diabetes,Glucose Meter,13.7,7861,22,4,4,5,3,4,No,741,No,Low
+VT0134,Abuja,Female,69,Hypertension,Wearable Band,16.4,14381,16,4,4,5,3,4,No,689,No,Medium
+VT0135,Lagos,Male,71,Hypertension,Glucose Meter,5.1,4485,20,3,2,2,3,2,No,693,No,Medium
+VT0136,Lagos,Female,63,Other,Wearable Band,2.5,12411,13,5,5,5,4,4,No,744,No,Medium
+VT0137,Port Harcourt,Female,56,Hypertension,Blood Pressure Monitor,15.9,5078,15,3,3,4,4,4,No,604,Yes,Low
+VT0138,Abuja,Female,30,Both,Blood Pressure Monitor,31.0,4788,21,5,5,4,3,3,No,568,No,Low
+VT0139,Kano,Male,51,Diabetes,Glucose Meter,19.7,7599,24,2,5,4,4,3,No,752,No,Medium
+VT0140,Abuja,Female,46,Other,Blood Pressure Monitor,6.8,6973,15,3,4,3,2,3,Yes,733,No,High
+VT0141,Abuja,Male,53,Diabetes,Wearable Band,15.9,13178,19,3,3,2,3,3,No,545,No,Medium
+VT0142,Lagos,Male,67,Both,Blood Pressure Monitor,35.8,3840,22,4,5,5,4,4,Yes,757,No,Medium
+VT0143,Lagos,Female,33,Hypertension,Glucose Meter,3.6,6611,22,4,3,4,2,4,No,639,Yes,Low
+VT0144,Ibadan,Female,63,Diabetes,Wearable Band,23.6,19180,14,3,3,4,3,3,No,704,No,Low
+VT0145,Lagos,Male,39,Diabetes,Wearable Band,30.6,8379,24,3,4,4,2,4,Yes,624,No,Low
+VT0146,Abuja,Male,35,Hypertension,Blood Pressure Monitor,1.8,8941,19,3,3,3,3,4,Yes,687,No,High
+VT0147,Ibadan,Female,49,Both,Glucose Meter,31.0,8117,25,3,3,4,3,3,Yes,725,No,Low
+VT0148,Lagos,Female,31,Both,Blood Pressure Monitor,32.4,9122,21,4,2,2,1,3,No,598,No,Low
+VT0149,Lagos,Female,49,Both,Blood Pressure Monitor,10.2,8989,19,2,2,3,3,3,No,576,No,Medium
+VT0150,Lagos,Female,56,Other,Glucose Meter,26.9,13604,31,2,3,2,2,2,No,617,No,Medium
+VT0151,Lagos,Female,35,Other,Wearable Band,18.1,13596,15,2,3,3,1,4,No,637,Yes,Medium
+VT0152,Lagos,Male,57,Diabetes,Glucose Meter,1.8,7619,21,3,4,3,3,4,Yes,729,No,Medium
+VT0153,Lagos,Female,24,Diabetes,Wearable Band,5.0,4967,17,3,2,2,3,3,No,551,No,Medium
+VT0154,Port Harcourt,Male,66,Both,Glucose Meter,15.7,9487,19,5,4,4,4,5,No,710,No,Low
+VT0155,Lagos,Female,62,Hypertension,Wearable Band,16.0,9740,13,2,3,1,2,3,Yes,616,No,Medium
+VT0156,Lagos,Female,31,Other,Wearable Band,6.7,11140,14,4,3,3,4,4,No,731,No,Low
+VT0157,Abuja,Male,44,Hypertension,Blood Pressure Monitor,34.9,5817,22,2,2,3,2,3,Yes,537,Yes,Medium
+VT0158,Lagos,Female,51,Diabetes,Wearable Band,25.2,12216,28,5,4,3,2,3,No,625,No,Medium
+VT0159,Port Harcourt,Female,65,Both,Blood Pressure Monitor,22.6,7623,17,5,5,4,5,5,No,610,No,Low
+VT0160,Port Harcourt,Male,44,Hypertension,Glucose Meter,32.1,11741,28,4,3,3,3,4,Yes,696,Yes,Low
+VT0161,Lagos,Male,24,Other,Wearable Band,13.8,7063,21,3,4,3,3,3,No,608,No,Low
+VT0162,Kano,Female,43,Other,Blood Pressure Monitor,13.6,4366,15,4,5,5,1,2,No,742,No,Low
+VT0163,Lagos,Female,35,Diabetes,Blood Pressure Monitor,15.5,9351,24,4,2,2,2,2,Yes,595,No,High
+VT0164,Lagos,Female,34,Hypertension,Glucose Meter,13.6,6492,19,3,3,3,4,3,No,512,No,Medium
+VT0165,Kano,Female,33,Hypertension,Glucose Meter,21.2,11458,16,3,2,4,2,4,No,626,No,Medium
+VT0166,Ibadan,Female,36,Other,Wearable Band,26.4,11242,30,4,3,4,3,3,No,573,No,Low
+VT0167,Lagos,Male,49,Diabetes,Blood Pressure Monitor,23.1,2647,21,4,4,4,3,5,No,691,No,Low
+VT0168,Kano,Male,41,Hypertension,Wearable Band,30.0,6733,21,3,2,2,1,2,Yes,628,Yes,Medium
+VT0169,Ibadan,Female,36,Hypertension,Glucose Meter,22.1,5764,19,4,4,3,3,2,No,673,No,Low
+VT0170,Lagos,Female,69,Both,Blood Pressure Monitor,25.2,5396,25,4,4,3,3,3,No,693,No,High
+VT0171,Port Harcourt,Female,41,Both,Glucose Meter,9.8,5887,19,4,3,4,2,5,No,600,No,Low
+VT0172,Abuja,Female,63,Hypertension,Blood Pressure Monitor,28.9,6562,17,5,3,3,3,4,No,706,No,Medium
+VT0173,Lagos,Female,37,Hypertension,Wearable Band,31.5,7398,28,3,4,4,4,5,No,699,Yes,Low
+VT0174,Kano,Female,39,Diabetes,Blood Pressure Monitor,30.8,8096,28,4,2,3,3,3,No,436,No,Low
+VT0175,Lagos,Female,43,Hypertension,Glucose Meter,20.7,8191,29,4,4,4,4,3,No,625,No,Medium
+VT0176,Abuja,Female,44,Both,Wearable Band,30.7,11598,21,4,4,3,3,3,Yes,575,No,Medium
+VT0177,Kano,Female,49,Other,Wearable Band,11.8,12244,18,3,5,4,5,3,Yes,619,No,Low
+VT0178,Lagos,Female,64,Hypertension,Glucose Meter,17.1,6444,22,3,4,3,2,3,No,535,No,Low
+VT0179,Port Harcourt,Female,44,Hypertension,Blood Pressure Monitor,23.7,7758,18,3,4,3,4,3,Yes,777,No,High
+VT0180,Lagos,Female,32,Both,Glucose Meter,21.5,9701,24,4,2,2,2,2,No,668,No,Medium
+VT0181,Lagos,Female,42,Diabetes,Wearable Band,23.1,7328,20,5,5,5,4,5,No,693,No,Low
+VT0182,Lagos,Female,69,Hypertension,Blood Pressure Monitor,3.9,7628,19,5,5,5,5,5,No,662,No,Low
+VT0183,Lagos,Male,46,Other,Blood Pressure Monitor,5.9,7882,19,2,4,4,3,3,No,631,No,Low
+VT0184,Kano,Female,38,Hypertension,Blood Pressure Monitor,26.6,8413,29,2,3,3,1,3,No,719,No,Low
+VT0185,Lagos,Female,81,Both,Glucose Meter,13.3,9139,21,3,4,3,2,2,No,615,Yes,Medium
+VT0186,Lagos,Male,36,Diabetes,Blood Pressure Monitor,25.4,8344,21,3,3,3,4,3,No,679,No,Low
+VT0187,Kano,Male,52,Diabetes,Wearable Band,29.5,20531,25,2,3,4,3,3,Yes,760,No,Low
+VT0188,Lagos,Male,58,Hypertension,Blood Pressure Monitor,16.6,4899,23,5,4,4,4,4,No,646,No,Low
+VT0189,Lagos,Female,39,Diabetes,Blood Pressure Monitor,7.3,6717,22,3,3,3,4,3,No,701,No,Medium
+VT0190,Lagos,Male,49,Hypertension,Wearable Band,29.2,9650,13,2,2,3,1,3,No,668,No,Low
+VT0191,Lagos,Male,64,Diabetes,Blood Pressure Monitor,9.0,7217,15,3,3,3,3,3,No,576,Yes,Low
+VT0192,Lagos,Female,59,Hypertension,Wearable Band,11.2,14184,34,4,4,4,3,4,Yes,634,No,Medium
+VT0193,Lagos,Male,39,Both,Blood Pressure Monitor,31.4,3354,23,4,5,3,3,4,No,554,No,Low
+VT0194,Port Harcourt,Female,51,Hypertension,Glucose Meter,12.2,11494,32,2,3,2,2,3,No,604,No,Low
+VT0195,Lagos,Female,47,Diabetes,Glucose Meter,6.1,7106,12,3,3,3,3,3,No,638,Yes,Low
+VT0196,Abuja,Female,61,Hypertension,Glucose Meter,14.8,7697,27,3,4,3,2,3,Yes,604,No,Medium
+VT0197,Abuja,Female,67,Hypertension,Blood Pressure Monitor,4.8,7316,19,2,4,4,3,4,No,724,No,Low
+VT0198,Abuja,Male,47,Both,Blood Pressure Monitor,3.8,3139,15,4,2,3,2,3,Yes,727,No,Medium
+VT0199,Abuja,Female,46,Diabetes,Wearable Band,24.5,8382,25,4,4,4,4,4,No,676,No,Low
+VT0200,Lagos,Male,61,Both,Blood Pressure Monitor,29.1,7250,27,3,4,5,4,4,No,661,Yes,Low
+VT0201,Lagos,Female,54,Diabetes,Blood Pressure Monitor,15.0,6460,17,4,4,3,3,3,No,630,No,Medium
+VT0202,Lagos,Female,27,Both,Glucose Meter,1.6,8536,16,4,4,4,2,3,No,708,No,Medium
+VT0203,Lagos,Male,58,Diabetes,Blood Pressure Monitor,31.1,9284,22,2,4,3,3,3,No,709,No,Low
+VT0204,Abuja,Female,38,Diabetes,Wearable Band,10.3,14874,13,4,4,3,4,4,No,658,No,Low
+VT0205,Kano,Male,55,Diabetes,Glucose Meter,19.2,7692,24,4,5,4,4,5,No,602,No,Low
+VT0206,Abuja,Female,62,Hypertension,Glucose Meter,20.1,4876,17,5,4,4,3,4,No,649,Yes,Low
+VT0207,Port Harcourt,Male,64,Diabetes,Glucose Meter,8.2,12836,18,4,4,3,4,2,No,664,No,Low
+VT0208,Lagos,Female,53,Both,Blood Pressure Monitor,1.1,6915,18,2,3,3,2,4,No,577,No,Medium
+VT0209,Port Harcourt,Female,52,Other,Blood Pressure Monitor,29.1,6190,21,3,2,2,2,2,No,507,No,Medium
+VT0210,Lagos,Male,52,Both,Blood Pressure Monitor,1.2,6327,21,3,3,3,4,4,No,637,No,Low
+VT0211,Port Harcourt,Female,61,Hypertension,Glucose Meter,3.1,7866,17,4,4,4,4,4,No,679,No,Low
+VT0212,Port Harcourt,Male,51,Both,Blood Pressure Monitor,27.5,7410,22,4,4,5,5,4,No,799,No,Low
+VT0213,Abuja,Male,56,Diabetes,Blood Pressure Monitor,19.8,8831,25,5,4,4,4,5,No,591,No,Low
+VT0214,Lagos,Female,48,Both,Blood Pressure Monitor,26.4,5383,21,4,4,3,4,4,No,745,No,Low
+VT0215,Ibadan,Male,48,Both,Wearable Band,27.0,14597,19,2,1,2,1,1,Yes,556,No,High
+VT0216,Ibadan,Female,58,Hypertension,Glucose Meter,2.5,14691,12,3,4,3,4,4,No,677,Yes,Medium
+VT0217,Port Harcourt,Female,51,Both,Blood Pressure Monitor,8.3,9743,26,4,3,4,5,4,No,754,No,Low
+VT0218,Abuja,Male,62,Hypertension,Wearable Band,23.9,13219,21,3,4,4,4,4,No,728,No,Medium
+VT0219,Ibadan,Female,45,Both,Blood Pressure Monitor,29.0,9510,29,3,4,4,4,4,Yes,850,No,Medium
+VT0220,Port Harcourt,Female,43,Diabetes,Blood Pressure Monitor,21.2,7612,17,3,3,3,2,2,Yes,686,No,Medium
+VT0221,Lagos,Female,45,Both,Blood Pressure Monitor,12.4,5804,15,3,4,3,4,3,No,639,No,Low
+VT0222,Kano,Male,48,Diabetes,Glucose Meter,29.7,10583,25,4,3,4,3,3,No,679,No,Low
+VT0223,Port Harcourt,Female,43,Hypertension,Blood Pressure Monitor,19.8,6850,21,4,3,3,1,3,Yes,736,No,Medium
+VT0224,Port Harcourt,Male,56,Other,Glucose Meter,33.2,10681,32,2,3,1,2,1,No,607,No,Medium
+VT0225,Abuja,Female,72,Other,Wearable Band,34.9,13990,19,3,2,3,2,3,Yes,616,No,Medium
+VT0226,Lagos,Male,72,Diabetes,Blood Pressure Monitor,20.6,8174,19,4,4,4,4,4,No,657,Yes,Low
+VT0227,Kano,Male,54,Both,Blood Pressure Monitor,4.5,3408,14,3,4,3,2,2,No,627,No,Low
+VT0228,Ibadan,Female,55,Hypertension,Glucose Meter,23.4,5125,24,5,5,5,5,5,No,694,No,Low
+VT0229,Lagos,Male,38,Diabetes,Blood Pressure Monitor,16.8,8304,21,3,3,4,4,2,No,759,No,Low
+VT0230,Kano,Male,37,Diabetes,Wearable Band,29.5,5696,22,2,2,3,1,2,No,681,No,Low
+VT0231,Lagos,Male,53,Diabetes,Blood Pressure Monitor,22.2,6603,25,4,5,4,3,5,No,604,No,Low
+VT0232,Lagos,Male,36,Hypertension,Glucose Meter,7.3,10420,24,3,4,4,4,4,No,719,No,Low
+VT0233,Ibadan,Female,54,Both,Glucose Meter,28.3,11450,25,3,3,3,3,4,Yes,585,No,High
+VT0234,Lagos,Male,44,Other,Blood Pressure Monitor,26.6,9287,24,5,5,5,3,4,No,709,No,Medium
+VT0235,Lagos,Male,58,Both,Glucose Meter,27.2,12634,26,4,3,3,2,4,Yes,614,No,Medium
+VT0236,Port Harcourt,Male,66,Diabetes,Glucose Meter,19.5,10218,21,3,4,5,3,4,No,531,Yes,Low
+VT0237,Lagos,Female,45,Diabetes,Wearable Band,9.0,12160,22,4,3,4,3,4,No,600,No,Low
+VT0238,Lagos,Male,38,Hypertension,Blood Pressure Monitor,7.1,8790,21,2,4,3,2,3,No,657,No,Low
+VT0239,Port Harcourt,Male,29,Other,Glucose Meter,1.1,8685,18,5,3,5,4,4,No,523,No,Medium
+VT0240,Lagos,Male,48,Diabetes,Wearable Band,14.3,11431,19,4,5,5,4,4,No,639,Yes,Low
+VT0241,Lagos,Female,54,Other,Glucose Meter,26.8,10286,23,4,4,4,4,5,No,481,No,Low
+VT0242,Kano,Male,63,Diabetes,Blood Pressure Monitor,35.7,8842,20,4,4,4,4,4,No,599,No,Low
+VT0243,Port Harcourt,Male,82,Diabetes,Glucose Meter,10.9,5448,18,5,4,4,4,4,No,591,Yes,Low
+VT0244,Ibadan,Female,42,Hypertension,Glucose Meter,31.4,11928,12,3,4,3,3,2,No,593,No,High
+VT0245,Ibadan,Male,38,Both,Glucose Meter,27.1,10647,20,3,4,4,2,3,Yes,523,No,High
+VT0246,Lagos,Female,77,Both,Glucose Meter,7.6,12087,14,4,4,3,2,4,No,649,No,Low
+VT0247,Lagos,Female,40,Hypertension,Glucose Meter,13.5,7988,22,4,4,5,4,4,No,452,Yes,Low
+VT0248,Port Harcourt,Female,52,Both,Wearable Band,4.9,12724,23,1,2,3,1,2,Yes,582,No,Low
+VT0249,Abuja,Male,39,Diabetes,Glucose Meter,16.4,11436,24,2,2,2,2,2,No,557,No,Low
+VT0250,Kano,Female,45,Diabetes,Wearable Band,34.2,10997,28,3,2,3,2,3,Yes,624,No,Medium
+VT0251,Lagos,Male,52,Diabetes,Wearable Band,18.2,19019,24,2,2,2,2,1,Yes,650,No,High
+VT0252,Lagos,Female,44,Hypertension,Glucose Meter,2.2,9333,20,4,2,4,4,3,No,460,No,Low
+VT0253,Lagos,Male,37,Diabetes,Glucose Meter,17.5,10591,18,3,5,4,3,4,Yes,603,Yes,Medium
+VT0254,Ibadan,Male,74,Both,Glucose Meter,21.4,10302,26,4,5,3,5,4,No,760,No,Medium
+VT0255,Lagos,Female,21,Hypertension,Blood Pressure Monitor,5.6,6718,17,2,3,3,2,3,No,674,No,Low
+VT0256,Lagos,Female,68,Other,Glucose Meter,16.3,6176,22,3,2,4,1,3,No,623,Yes,Low
+VT0257,Port Harcourt,Female,53,Both,Glucose Meter,7.5,9035,16,4,5,4,4,4,No,659,No,Low
+VT0258,Lagos,Female,58,Both,Wearable Band,11.6,13468,12,3,4,3,3,5,No,646,No,Low
+VT0259,Kano,Female,50,Diabetes,Blood Pressure Monitor,13.9,6669,20,3,5,4,1,3,Yes,714,No,Medium
+VT0260,Lagos,Male,48,Both,Glucose Meter,13.2,11155,25,4,4,5,4,4,Yes,608,No,Low
+VT0261,Lagos,Female,64,Hypertension,Glucose Meter,16.2,7386,26,5,5,3,4,5,No,634,No,Low
+VT0262,Lagos,Male,56,Diabetes,Glucose Meter,15.5,10665,17,4,4,3,5,2,Yes,629,No,High
+VT0263,Lagos,Male,24,Diabetes,Blood Pressure Monitor,6.4,5628,18,5,5,5,5,4,No,713,No,Low
+VT0264,Abuja,Female,39,Other,Glucose Meter,3.5,12854,18,4,4,4,2,4,No,742,No,Medium
+VT0265,Abuja,Female,53,Hypertension,Glucose Meter,19.8,10160,27,3,2,3,2,2,Yes,571,No,Medium
+VT0266,Ibadan,Female,46,Hypertension,Glucose Meter,24.7,11196,16,3,2,2,2,3,No,685,No,Low
+VT0267,Kano,Male,51,Other,Glucose Meter,26.0,8220,20,5,3,4,3,4,No,547,No,Low
+VT0268,Ibadan,Female,72,Diabetes,Wearable Band,35.4,14452,25,3,3,3,3,3,Yes,610,No,Medium
+VT0269,Abuja,Female,56,Diabetes,Glucose Meter,8.8,7093,13,4,5,4,4,4,No,636,No,Low
+VT0270,Ibadan,Female,60,Both,Glucose Meter,20.3,6765,19,3,3,3,2,3,Yes,698,No,Medium
+VT0271,Lagos,Male,33,Hypertension,Glucose Meter,18.2,9604,20,2,1,2,1,2,Yes,617,No,High
+VT0272,Lagos,Female,65,Both,Blood Pressure Monitor,29.1,7974,23,4,4,4,4,4,Yes,485,Yes,Medium
+VT0273,Lagos,Male,54,Other,Glucose Meter,22.7,7523,21,3,4,4,3,2,No,761,No,Low
+VT0274,Abuja,Male,56,Hypertension,Wearable Band,10.0,7274,20,3,4,3,4,3,No,693,No,Low
+VT0275,Abuja,Female,35,Diabetes,Glucose Meter,33.8,9035,21,4,5,4,2,3,No,700,No,Low
+VT0276,Port Harcourt,Male,54,Other,Wearable Band,34.1,8109,25,4,4,4,1,3,No,667,No,Medium
+VT0277,Abuja,Female,52,Both,Glucose Meter,8.5,10534,18,3,3,2,2,3,No,769,No,Low
+VT0278,Port Harcourt,Female,56,Both,Glucose Meter,11.3,10479,16,3,2,3,1,3,No,569,No,Medium
+VT0279,Lagos,Male,34,Diabetes,Blood Pressure Monitor,21.3,7400,16,4,3,4,3,3,No,597,No,Low
+VT0280,Lagos,Male,47,Other,Wearable Band,28.0,12644,16,3,3,3,3,4,Yes,584,No,Medium
+VT0281,Port Harcourt,Female,40,Hypertension,Wearable Band,32.8,13294,20,5,4,5,4,5,Yes,634,No,Low
+VT0282,Ibadan,Male,40,Both,Glucose Meter,28.7,7308,19,3,2,3,3,3,No,493,No,Low
+VT0283,Kano,Male,49,Both,Glucose Meter,13.2,11212,15,4,3,5,3,4,No,774,No,Low
+VT0284,Ibadan,Female,47,Hypertension,Wearable Band,7.0,16672,19,5,5,5,4,5,Yes,648,No,Low
+VT0285,Ibadan,Male,54,Hypertension,Blood Pressure Monitor,13.3,5787,22,3,3,3,4,3,No,620,No,Medium
+VT0286,Lagos,Female,55,Hypertension,Wearable Band,2.8,13434,22,3,2,3,2,2,No,591,No,Low
+VT0287,Abuja,Male,51,Both,Glucose Meter,23.6,11701,26,2,4,4,4,4,Yes,676,No,Low
+VT0288,Lagos,Female,25,Both,Glucose Meter,34.9,9725,19,3,3,3,3,3,Yes,609,No,Medium
+VT0289,Lagos,Male,47,Both,Wearable Band,12.1,13292,19,3,3,2,2,2,No,645,No,Medium
+VT0290,Lagos,Male,54,Other,Blood Pressure Monitor,21.1,8776,17,3,3,2,1,3,Yes,656,Yes,Medium
+VT0291,Port Harcourt,Male,50,Diabetes,Blood Pressure Monitor,33.2,5637,24,3,5,3,2,4,No,697,No,Low
+VT0292,Lagos,Female,48,Other,Glucose Meter,11.6,11444,22,4,3,3,2,4,No,496,Yes,Low
+VT0293,Abuja,Female,57,Hypertension,Glucose Meter,7.7,14596,20,4,4,4,4,4,Yes,617,Yes,Medium
+VT0294,Ibadan,Male,29,Other,Blood Pressure Monitor,9.1,6618,17,4,4,4,4,4,No,707,No,Low
+VT0295,Port Harcourt,Male,39,Both,Blood Pressure Monitor,32.0,6595,20,5,5,5,3,4,No,590,No,Medium
+VT0296,Lagos,Female,36,Hypertension,Blood Pressure Monitor,32.5,9162,24,3,4,3,1,2,No,517,Yes,Medium
+VT0297,Ibadan,Male,45,Hypertension,Wearable Band,23.2,17158,25,3,4,4,3,3,No,476,Yes,Medium
+VT0298,Lagos,Male,79,Diabetes,Wearable Band,11.7,13012,18,4,3,4,5,4,No,726,No,Low
+VT0299,Ibadan,Male,32,Hypertension,Blood Pressure Monitor,12.1,7671,27,4,5,5,4,4,Yes,785,No,Medium
+VT0300,Lagos,Female,37,Both,Blood Pressure Monitor,26.8,6190,26,3,5,2,3,4,No,492,No,Low
