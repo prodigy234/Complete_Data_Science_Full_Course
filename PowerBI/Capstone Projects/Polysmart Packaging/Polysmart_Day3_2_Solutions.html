@@ -1,0 +1,1069 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><title>Polysmart Packaging Limited - Day Three Solutions</title>
+<style>
+:root{
+  --navy:#12203A; --teal:#0E7C7B; --indigo:#5B4FCF; --coral:#E8593F; --amber:#F2A541;
+  --light:#F5F7FB; --line:#E3E9EE; --dark:#1F2937; --muted:#5B6B7C;
+}
+*{box-sizing:border-box;}
+body{font-family:'Calibri','Segoe UI',Arial,sans-serif;margin:0;background:var(--light);color:var(--dark);line-height:1.5;}
+.hero{background:var(--navy);color:#fff;padding:56px 40px 40px;}
+.hero .tag{display:inline-block;background:var(--amber);color:var(--navy);font-weight:700;font-size:12px;letter-spacing:1.5px;padding:6px 14px;border-radius:20px;text-transform:uppercase;margin-bottom:16px;}
+.hero h1{font-family:Cambria,Georgia,serif;font-size:38px;margin:0 0 10px;}
+.hero p{font-size:16px;color:#CADCFC;max-width:900px;margin:0;}
+.stats{display:flex;gap:32px;margin-top:28px;flex-wrap:wrap;}
+.stats div{text-align:left;}
+.stats .n{font-family:Cambria,Georgia,serif;font-size:30px;font-weight:700;color:var(--amber);}
+.stats .l{font-size:12px;color:#CADCFC;}
+nav{background:#fff;border-bottom:1px solid var(--line);padding:18px 40px;position:sticky;top:0;z-index:10;box-shadow:0 2px 8px rgba(0,0,0,0.04);}
+nav a{display:inline-block;margin:4px 10px 4px 0;padding:7px 14px;border-radius:20px;background:var(--light);color:var(--navy);text-decoration:none;font-size:13px;font-weight:600;border:1px solid var(--line);}
+nav a:hover{background:var(--teal);color:#fff;}
+main{max-width:1100px;margin:0 auto;padding:40px;}
+section.dept{background:#fff;border:1px solid var(--line);border-radius:12px;margin-bottom:36px;overflow:hidden;scroll-margin-top:90px;}
+.dept-head{background:var(--navy);color:#fff;padding:22px 30px;border-left:8px solid var(--accent,var(--teal));}
+.dept-head h2{font-family:Cambria,Georgia,serif;font-size:26px;margin:0 0 6px;}
+.dept-head p{margin:0;color:#CADCFC;font-size:14px;}
+.dept-body{padding:26px 30px;}
+h3.section-title{font-size:15px;text-transform:uppercase;letter-spacing:1px;color:var(--teal);border-bottom:2px solid var(--line);padding-bottom:8px;margin:28px 0 14px;}
+table{width:100%;border-collapse:collapse;margin-bottom:8px;font-size:13.5px;}
+th{background:var(--navy);color:#fff;text-align:left;padding:10px 12px;font-size:12px;text-transform:uppercase;letter-spacing:0.5px;}
+td{padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top;}
+tr:nth-child(even) td{background:var(--light);}
+td.colname{font-weight:700;color:var(--navy);white-space:nowrap;}
+.badge{display:inline-block;font-size:10.5px;font-weight:700;padding:2px 8px;border-radius:10px;background:var(--light);color:var(--muted);border:1px solid var(--line);}
+.rel-card,.dax-card,.dash-card{background:var(--light);border:1px solid var(--line);border-radius:8px;padding:14px 16px;margin-bottom:10px;}
+.dax-card code{display:block;background:#fff;border:1px solid var(--line);border-radius:6px;padding:10px 12px;margin-top:8px;font-family:Consolas,'Courier New',monospace;font-size:12.5px;color:var(--indigo);white-space:pre-wrap;}
+.dax-card .purpose{margin-top:8px;font-size:13px;color:var(--muted);}
+.dashboard-title{font-family:Cambria,Georgia,serif;font-size:19px;color:var(--navy);margin:0 0 4px;}
+.viz-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:12px;}
+.viz-card{background:#fff;border:1px solid var(--line);border-radius:8px;padding:12px 14px;}
+.viz-card .vtype{display:inline-block;font-size:10.5px;font-weight:700;color:#fff;background:var(--indigo);padding:2px 8px;border-radius:10px;margin-bottom:6px;}
+.viz-card h4{margin:0 0 4px;font-size:14px;color:var(--navy);}
+.viz-card p{margin:2px 0;font-size:12.5px;color:var(--muted);}
+.solution{background:#EEF7F0;border:1px solid #C9E7D2;border-radius:8px;padding:12px 14px;margin-top:6px;font-size:13px;color:#0E5B3A;}
+.solution b{color:#0E7C4E;}
+.footer{text-align:center;padding:30px;color:var(--muted);font-size:12px;}
+.toc-title{font-weight:700;margin-right:14px;color:var(--navy);}
+.file-note{background:#FFF6E8;border:1px solid #F2D89A;border-radius:8px;padding:16px 20px;margin:0 40px 20px;font-size:13.5px;color:#8A5A00;}
+</style></head>
+<body>
+<div class="hero">
+  <span class="tag">File 2 of 2 · Complete Solutions</span>
+  <h1>Data Cleaning and Dashboard Build Solutions</h1>
+  <p>Polysmart Packaging Limited, Day Three Training. Every problem from File 1, fully solved: the exact Power Query steps, the exact DAX formulas, the exact relationship setup, and the exact dashboard build steps for all ten departments.</p>
+</div>
+<nav><span class="toc-title">Jump to a department:</span><a href="#HR">Human Resources</a><a href="#ADMIN">Admin</a><a href="#OPS">Operations</a><a href="#SUPPLY">Supply Chain</a><a href="#CS">Customer Service</a><a href="#IT">Information Technology</a><a href="#FIN">Accounts and Finance</a><a href="#LEGAL">Legal</a><a href="#IC">Internal Control</a><a href="#RISK">Risk Management and Compliance</a></nav>
+<div class="file-note">Use this file to check your own work, or when a group is genuinely stuck. Working through File 1 first is where the actual learning happens.</div>
+<main>
+
+    <section class="dept" id="HR" style="--accent:#0E7C7B">
+      <div class="dept-head" style="border-left-color:#0E7C7B">
+        <h2>Human Resources</h2>
+        <p>The employee master. Every other department sheet references this table through Employee ID, so the quality of this sheet's cleaning directly determines whether every relationship in the data model works correctly.</p>
+      </div>
+      <div class="dept-body">
+        <h3 class="section-title">1. Column By Column Cleaning Solutions (Power Query)</h3>
+        <table>
+          <tr><th>Column</th><th>Problem</th><th>Detailed Solution</th></tr>
+          
+      <tr>
+        <td class="colname">Employee ID</td>
+        <td>A small number of employees appear twice, entered on two different dates with a slightly different name spelling each time.</td>
+        <td><div class="solution"><b>Solution:</b> In Power Query, select the "Employee ID" column. Go to Home, then Remove Rows, then Remove Duplicates. Before removing anything, sort the table so the more complete or more recent row for each duplicate sits first, since Remove Duplicates always keeps the first occurrence and discards the rest. If you need to choose which duplicate to keep based on a rule rather than row order, use Home, Group By instead, grouping on "Employee ID" and aggregating to select the preferred row.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Full Name</td>
+        <td>Inconsistent casing throughout: some names in lowercase, some in full capitals, some with leading or trailing spaces.</td>
+        <td><div class="solution"><b>Solution:</b> Select the "Full Name" column. Apply Transform, Format, Trim to remove leading and trailing spaces, then Transform, Format, Capitalize Each Word (or Lowercase / Uppercase, whichever the business has agreed as the standard) to make every value consistent.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Department Code</td>
+        <td>A handful of rows carry a department code that does not exist on the Company Structure sheet, either mistyped or left over from a department that was renamed.</td>
+        <td><div class="solution"><b>Solution:</b> In Power Query, select the "Human Resources" query, then Home, Merge Queries. Merge it with the Company Structure query, matching "Department Code" to Department Code, and set the Join Kind to Left Anti. This isolates every row whose department code does not exist on Company Structure. Correct each one against the real Company Structure list, or flag it for the department to confirm.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Job Title</td>
+        <td>Minor inconsistency in abbreviation, for example "Mgr" versus "Manager".</td>
+        <td><div class="solution"><b>Solution:</b> Select the "Job Title" column and use Transform, Replace Values to expand each abbreviation to its full form, one Replace Values step per abbreviation. Chain the steps so every known abbreviation is covered, then spot check the column quality bar for anything still inconsistent.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Date of Hire</td>
+        <td>Three different date formats appear in the same column: DD/MM/YYYY, YYYY-MM-DD, and a written format like "12 May 2021".</td>
+        <td><div class="solution"><b>Solution:</b> Select the "Date of Hire" column. Go to Transform, Data Type, and choose Date. Power Query will convert every value it can parse automatically and mark the rest as errors. For the rows that error, usually the written format like "12 May 2021", use Add Column, Custom Column with Date.FromText([Date of Hire]) to force a parse, or first split out the written values with a filter, standardize them, and merge them back in before setting the final Date type on the whole column.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Employment Status</td>
+        <td>Inconsistent casing and stray spaces: "active", "ACTIVE", "Active ".</td>
+        <td><div class="solution"><b>Solution:</b> Select the "Employment Status" column. Apply Transform, Format, Trim to remove leading and trailing spaces, then Transform, Format, Capitalize Each Word (or Lowercase / Uppercase, whichever the business has agreed as the standard) to make every value consistent.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Gender</td>
+        <td>Recorded inconsistently as "M"/"F" in some rows and "Male"/"Female" in others.</td>
+        <td><div class="solution"><b>Solution:</b> Select the "Gender" column and review the Power Query column quality and column distribution bars (View tab) to see exactly which rows are inconsistent, then apply the appropriate Transform step, Replace Values, Data Type change, or Trim and Clean, until the column reads 100% valid.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Monthly Salary (NGN)</td>
+        <td>Stored as a mix of plain numbers, numbers with commas, and text values with a currency symbol, for example 150000, "150,000", and "N150,000".</td>
+        <td><div class="solution"><b>Solution:</b> Select the "Monthly Salary (NGN)" column. Use Transform, Replace Values twice, once to remove the currency symbol and once to remove thousands-separator commas. Then go to Transform, Data Type, and choose Decimal Number. Confirm the column quality bar reads 100% valid afterward, any remaining errors mean a value still has stray text in it that needs a further Replace Values pass.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Leave Days Remaining</td>
+        <td>A number of rows are blank, and one row shows a negative value, which is not logically possible for a remaining balance.</td>
+        <td><div class="solution"><b>Solution:</b> Select the "Leave Days Remaining" column. Right click the column header, choose Replace Values, and apply your agreed rule: replace blank with a specific default value if one is defensible, or leave the row identifiable for a filter based exception report if the true value cannot be assumed. Do not silently delete rows with blanks in this column without checking whether the blank itself is meaningful.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Phone Number</td>
+        <td>Recorded in at least three different formats: "08012345678", "+2348012345678", and "0801-234-5678".</td>
+        <td><div class="solution"><b>Solution:</b> Select the "Phone Number" column and review the Power Query column quality and column distribution bars (View tab) to see exactly which rows are inconsistent, then apply the appropriate Transform step, Replace Values, Data Type change, or Trim and Clean, until the column reads 100% valid.</div></td>
+      </tr>
+        </table>
+
+        <h3 class="section-title">2. Relationship Solutions (Power BI Model View)</h3>
+        
+      <div class="rel-card"><b>Department Code &rarr; Company Structure</b> (many-to-one)
+        <div class="solution"><b>Solution:</b> Open Power BI Desktop, go to Model view. Drag "Department Code" from "Human Resources" onto the matching key column on "Company Structure". Confirm the relationship shows the correct cardinality (many-to-one) and the cross filter direction is set to Single, unless a specific visual genuinely requires Both. Many employees belong to one department.</div>
+      </div>
+      <div class="rel-card"><b>Employee ID &rarr; every other department sheet</b> (one-to-many)
+        <div class="solution"><b>Solution:</b> Open Power BI Desktop, go to Model view. Drag "Employee ID" from "Human Resources" onto the matching key column on "every other department sheet". Confirm the relationship shows the correct cardinality (one-to-many) and the cross filter direction is set to Single, unless a specific visual genuinely requires Both. This is the central relationship of the entire data model. Every fact table below has at least one Employee ID column pointing back to this table.</div>
+      </div>
+
+        <h3 class="section-title">3. DAX Measure Solutions</h3>
+        
+      <div class="dax-card"><b>Total Active Employees</b>
+      <code>Total Active Employees = CALCULATE(DISTINCTCOUNT('Human Resources'[Employee ID]), 'Human Resources'[Employment Status] = "Active")</code>
+      <div class="purpose">Purpose: Headcount used on almost every HR visual. Build this in Power BI Desktop: Modeling tab, New Measure, paste the formula above, then press Enter.</div></div>
+      <div class="dax-card"><b>Average Tenure (Years)</b>
+      <code>Average Tenure (Years) = AVERAGEX('Human Resources', DATEDIFF('Human Resources'[Date of Hire], TODAY(), YEAR))</code>
+      <div class="purpose">Purpose: Shows how experienced the current workforce is, department by department. Build this in Power BI Desktop: Modeling tab, New Measure, paste the formula above, then press Enter.</div></div>
+      <div class="dax-card"><b>Total Monthly Payroll</b>
+      <code>Total Monthly Payroll = SUM('Human Resources'[Monthly Salary (NGN)])</code>
+      <div class="purpose">Purpose: The headline payroll cost figure, sliceable by department once the relationship is active. Build this in Power BI Desktop: Modeling tab, New Measure, paste the formula above, then press Enter.</div></div>
+      <div class="dax-card"><b>Average Leave Days Remaining</b>
+      <code>Average Leave Days Remaining = AVERAGE('Human Resources'[Leave Days Remaining])</code>
+      <div class="purpose">Purpose: Flags departments where staff are not taking their entitled leave. Build this in Power BI Desktop: Modeling tab, New Measure, paste the formula above, then press Enter.</div></div>
+
+        <h3 class="section-title">4. Dashboard Build Solutions: "Workforce Overview Dashboard"</h3>
+        <div class="viz-grid">
+      <div class="viz-card"><span class="vtype">Clustered bar chart</span><h4>Headcount by Department</h4>
+      <p><b>Fields:</b> Axis: Department Name (from Company Structure via relationship). Values: Total Active Employees.</p>
+      <div class="solution"><b>Build steps:</b> On the Report view canvas, select the Clustered bar chart icon from the Visualizations pane. Drag the fields listed above into the Axis, Legend, and Values wells as appropriate for this chart type. Format the visual: Format pane, turn on Data labels, set the title to "Headcount by Department", and apply the Workforce Overview Dashboard page's consistent color theme. Purpose: Immediately shows where the workforce is concentrated.</div></div>
+      <div class="viz-card"><span class="vtype">Line chart</span><h4>Headcount Trend</h4>
+      <p><b>Fields:</b> Axis: Date of Hire (by month/year). Values: running count of Employee ID.</p>
+      <div class="solution"><b>Build steps:</b> On the Report view canvas, select the Line chart icon from the Visualizations pane. Drag the fields listed above into the Axis, Legend, and Values wells as appropriate for this chart type. Format the visual: Format pane, turn on Data labels, set the title to "Headcount Trend", and apply the Workforce Overview Dashboard page's consistent color theme. Purpose: Shows hiring pace and growth over time.</div></div>
+      <div class="viz-card"><span class="vtype">Stacked column chart</span><h4>Payroll by Department</h4>
+      <p><b>Fields:</b> Axis: Department Name. Values: Total Monthly Payroll.</p>
+      <div class="solution"><b>Build steps:</b> On the Report view canvas, select the Stacked column chart icon from the Visualizations pane. Drag the fields listed above into the Axis, Legend, and Values wells as appropriate for this chart type. Format the visual: Format pane, turn on Data labels, set the title to "Payroll by Department", and apply the Workforce Overview Dashboard page's consistent color theme. Purpose: Connects headcount directly to cost, the number management asks for most.</div></div>
+      <div class="viz-card"><span class="vtype">Table with data bars</span><h4>Leave Balance Distribution</h4>
+      <p><b>Fields:</b> Rows: Employee, Department. Values: Average Leave Days Remaining, conditional formatted.</p>
+      <div class="solution"><b>Build steps:</b> On the Report view canvas, select the Table with data bars icon from the Visualizations pane. Drag the fields listed above into the Axis, Legend, and Values wells as appropriate for this chart type. Format the visual: Format pane, turn on Data labels, set the title to "Leave Balance Distribution", and apply the Workforce Overview Dashboard page's consistent color theme. Purpose: Surfaces employees at risk of losing unused leave, and departments not enforcing leave policy.</div></div>
+      <div class="viz-card"><span class="vtype">Donut chart plus KPI cards</span><h4>Gender Split Card Set</h4>
+      <p><b>Fields:</b> Legend: Gender. Values: Total Active Employees.</p>
+      <div class="solution"><b>Build steps:</b> On the Report view canvas, select the Donut chart plus KPI cards icon from the Visualizations pane. Drag the fields listed above into the Axis, Legend, and Values wells as appropriate for this chart type. Format the visual: Format pane, turn on Data labels, set the title to "Gender Split Card Set", and apply the Workforce Overview Dashboard page's consistent color theme. Purpose: A quick diversity snapshot for the workforce overview page.</div></div></div>
+      </div>
+    </section>
+
+    <section class="dept" id="ADMIN" style="--accent:#5B4FCF">
+      <div class="dept-head" style="border-left-color:#5B4FCF">
+        <h2>Admin</h2>
+        <p>Tracks facility, asset, travel, and stationery requests raised across the business. Every request is tied back to the employee who raised it.</p>
+      </div>
+      <div class="dept-body">
+        <h3 class="section-title">1. Column By Column Cleaning Solutions (Power Query)</h3>
+        <table>
+          <tr><th>Column</th><th>Problem</th><th>Detailed Solution</th></tr>
+          
+      <tr>
+        <td class="colname">Request ID</td>
+        <td>Clean, no duplicates found in this column.</td>
+        <td><div class="solution"><b>Solution:</b> No cleaning action needed. Confirm this by selecting the column and checking Power Query's column quality bar (View tab, Column Quality) reads 100% valid before moving on.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Employee ID</td>
+        <td>A few rows carry an Employee ID with no match on the Human Resources sheet, an orphan foreign key.</td>
+        <td><div class="solution"><b>Solution:</b> In Power Query, select the "Admin" query, then Home, Merge Queries. Merge it with the Human Resources query, matching "Employee ID" to Employee ID, and set the Join Kind to Left Anti. This returns only the rows whose Employee ID has no match in Human Resources, the orphan records. Expand nothing, this list itself is your exception report; investigate and correct each one, then delete this temporary query once the source rows are fixed.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Department Code</td>
+        <td>A small number of blank cells.</td>
+        <td><div class="solution"><b>Solution:</b> Select the "Department Code" column. Right click the column header, choose Replace Values, and apply your agreed rule: replace blank with a specific default value if one is defensible, or leave the row identifiable for a filter based exception report if the true value cannot be assumed. Do not silently delete rows with blanks in this column without checking whether the blank itself is meaningful.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Request Type</td>
+        <td>Inconsistent capitalization across rows.</td>
+        <td><div class="solution"><b>Solution:</b> Select the "Request Type" column. Apply Transform, Format, Trim to remove leading and trailing spaces, then Transform, Format, Capitalize Each Word (or Lowercase / Uppercase, whichever the business has agreed as the standard) to make every value consistent.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Vendor Name</td>
+        <td>The same vendor appears written multiple different ways, for example "ABC Ventures", "abc ventures ltd", and "ABC Ventures Limited".</td>
+        <td><div class="solution"><b>Solution:</b> Select the "Vendor Name" column. First apply Transform, Format, Trim, then Transform, Format, Capitalize Each Word to remove whitespace and casing inconsistency. Then use Home, Group By on "Vendor Name" to see every remaining distinct value as a list. Any true duplicates that are still spelled differently, for example a shortened version of the same real name, are fixed with Transform, Replace Values, mapping each variant to one single, agreed standard spelling.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Request Date</td>
+        <td>Mixed date formats, some as real dates and some stored as text.</td>
+        <td><div class="solution"><b>Solution:</b> Select the "Request Date" column. Go to Transform, Data Type, and choose Date. Power Query will convert every value it can parse automatically and mark the rest as errors. For the rows that error, usually the written format like "12 May 2021", use Add Column, Custom Column with Date.FromText([Request Date]) to force a parse, or first split out the written values with a filter, standardize them, and merge them back in before setting the final Date type on the whole column.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Completion Date</td>
+        <td>A few rows show a completion date earlier than the request date, a logical impossibility.</td>
+        <td><div class="solution"><b>Solution:</b> Add a Custom Column (Add Column, Custom Column) that tests whether the relevant end date is earlier than the relevant start date, for example [End Date] &lt; [Start Date]. Filter the new column to TRUE to isolate every logically impossible row. These cannot be auto corrected safely, each one needs to go back to whoever entered it for confirmation of the real date.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Cost (NGN)</td>
+        <td>Mixed currency formatting, some with the Naira symbol, some plain numbers, one or two with stray spaces.</td>
+        <td><div class="solution"><b>Solution:</b> Select the "Cost (NGN)" column. Use Transform, Replace Values twice, once to remove the currency symbol and once to remove thousands-separator commas. Then go to Transform, Data Type, and choose Decimal Number. Confirm the column quality bar reads 100% valid afterward, any remaining errors mean a value still has stray text in it that needs a further Replace Values pass.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Status</td>
+        <td>Inconsistent casing and a couple of trailing spaces.</td>
+        <td><div class="solution"><b>Solution:</b> Select the "Status" column. Apply Transform, Format, Trim to remove leading and trailing spaces, then Transform, Format, Capitalize Each Word (or Lowercase / Uppercase, whichever the business has agreed as the standard) to make every value consistent.</div></td>
+      </tr>
+        </table>
+
+        <h3 class="section-title">2. Relationship Solutions (Power BI Model View)</h3>
+        
+      <div class="rel-card"><b>Employee ID &rarr; Human Resources</b> (many-to-one)
+        <div class="solution"><b>Solution:</b> Open Power BI Desktop, go to Model view. Drag "Employee ID" from "Admin" onto the matching key column on "Human Resources". Confirm the relationship shows the correct cardinality (many-to-one) and the cross filter direction is set to Single, unless a specific visual genuinely requires Both.</div>
+      </div>
+      <div class="rel-card"><b>Department Code &rarr; Company Structure</b> (many-to-one)
+        <div class="solution"><b>Solution:</b> Open Power BI Desktop, go to Model view. Drag "Department Code" from "Admin" onto the matching key column on "Company Structure". Confirm the relationship shows the correct cardinality (many-to-one) and the cross filter direction is set to Single, unless a specific visual genuinely requires Both.</div>
+      </div>
+
+        <h3 class="section-title">3. DAX Measure Solutions</h3>
+        
+      <div class="dax-card"><b>Total Requests</b>
+      <code>Total Requests = COUNTROWS('Admin')</code>
+      <div class="purpose">Purpose: Baseline volume metric for the whole dashboard. Build this in Power BI Desktop: Modeling tab, New Measure, paste the formula above, then press Enter.</div></div>
+      <div class="dax-card"><b>Open Requests</b>
+      <code>Open Requests = CALCULATE(COUNTROWS('Admin'), 'Admin'[Status] = "Pending")</code>
+      <div class="purpose">Purpose: Shows current backlog at a glance. Build this in Power BI Desktop: Modeling tab, New Measure, paste the formula above, then press Enter.</div></div>
+      <div class="dax-card"><b>Average Cost per Request</b>
+      <code>Average Cost per Request = AVERAGE('Admin'[Cost (NGN)])</code>
+      <div class="purpose">Purpose: Tracks whether request costs are drifting upward over time. Build this in Power BI Desktop: Modeling tab, New Measure, paste the formula above, then press Enter.</div></div>
+      <div class="dax-card"><b>Average Turnaround Days</b>
+      <code>Average Turnaround Days = AVERAGEX(FILTER('Admin', NOT(ISBLANK('Admin'[Completion Date]))), DATEDIFF('Admin'[Request Date], 'Admin'[Completion Date], DAY))</code>
+      <div class="purpose">Purpose: The single most useful admin service level metric. Build this in Power BI Desktop: Modeling tab, New Measure, paste the formula above, then press Enter.</div></div>
+
+        <h3 class="section-title">4. Dashboard Build Solutions: "Admin Requests Dashboard"</h3>
+        <div class="viz-grid">
+      <div class="viz-card"><span class="vtype">Pie chart</span><h4>Requests by Type</h4>
+      <p><b>Fields:</b> Legend: Request Type. Values: Total Requests.</p>
+      <div class="solution"><b>Build steps:</b> On the Report view canvas, select the Pie chart icon from the Visualizations pane. Drag the fields listed above into the Axis, Legend, and Values wells as appropriate for this chart type. Format the visual: Format pane, turn on Data labels, set the title to "Requests by Type", and apply the Admin Requests Dashboard page's consistent color theme. Purpose: Shows what admin actually spends most of its time on.</div></div>
+      <div class="viz-card"><span class="vtype">Bar chart</span><h4>Requests by Department</h4>
+      <p><b>Fields:</b> Axis: Department Name. Values: Total Requests.</p>
+      <div class="solution"><b>Build steps:</b> On the Report view canvas, select the Bar chart icon from the Visualizations pane. Drag the fields listed above into the Axis, Legend, and Values wells as appropriate for this chart type. Format the visual: Format pane, turn on Data labels, set the title to "Requests by Department", and apply the Admin Requests Dashboard page's consistent color theme. Purpose: Shows which departments generate the most admin workload.</div></div>
+      <div class="viz-card"><span class="vtype">Line chart</span><h4>Turnaround Time Trend</h4>
+      <p><b>Fields:</b> Axis: Request Date (by month). Values: Average Turnaround Days.</p>
+      <div class="solution"><b>Build steps:</b> On the Report view canvas, select the Line chart icon from the Visualizations pane. Drag the fields listed above into the Axis, Legend, and Values wells as appropriate for this chart type. Format the visual: Format pane, turn on Data labels, set the title to "Turnaround Time Trend", and apply the Admin Requests Dashboard page's consistent color theme. Purpose: Tracks whether service levels are improving or slipping.</div></div>
+      <div class="viz-card"><span class="vtype">Clustered column chart</span><h4>Cost by Vendor</h4>
+      <p><b>Fields:</b> Axis: Vendor Name. Values: Cost (NGN) summed.</p>
+      <div class="solution"><b>Build steps:</b> On the Report view canvas, select the Clustered column chart icon from the Visualizations pane. Drag the fields listed above into the Axis, Legend, and Values wells as appropriate for this chart type. Format the visual: Format pane, turn on Data labels, set the title to "Cost by Vendor", and apply the Admin Requests Dashboard page's consistent color theme. Purpose: Only meaningful once vendor names are fully standardized, a direct payoff of the cleaning step.</div></div>
+      <div class="viz-card"><span class="vtype">Table</span><h4>Open Requests Table</h4>
+      <p><b>Fields:</b> Rows: Request ID, Employee, Department, Request Type, Request Date. Filter: Status = Pending.</p>
+      <div class="solution"><b>Build steps:</b> On the Report view canvas, select the Table icon from the Visualizations pane. Drag the fields listed above into the Axis, Legend, and Values wells as appropriate for this chart type. Format the visual: Format pane, turn on Data labels, set the title to "Open Requests Table", and apply the Admin Requests Dashboard page's consistent color theme. Purpose: An actionable worklist, not just a summary chart.</div></div></div>
+      </div>
+    </section>
+
+    <section class="dept" id="OPS" style="--accent:#E8593F">
+      <div class="dept-head" style="border-left-color:#E8593F">
+        <h2>Operations</h2>
+        <p>The production floor's batch level log: what was produced, on which line, by which shift, and how many units were defective.</p>
+      </div>
+      <div class="dept-body">
+        <h3 class="section-title">1. Column By Column Cleaning Solutions (Power Query)</h3>
+        <table>
+          <tr><th>Column</th><th>Problem</th><th>Detailed Solution</th></tr>
+          
+      <tr>
+        <td class="colname">Batch ID</td>
+        <td>A small number of duplicate Batch IDs, the same batch logged twice by two different shift supervisors.</td>
+        <td><div class="solution"><b>Solution:</b> In Power Query, select the "Batch ID" column. Go to Home, then Remove Rows, then Remove Duplicates. Before removing anything, sort the table so the more complete or more recent row for each duplicate sits first, since Remove Duplicates always keeps the first occurrence and discards the rest. If you need to choose which duplicate to keep based on a rule rather than row order, use Home, Group By instead, grouping on "Batch ID" and aggregating to select the preferred row.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Employee ID</td>
+        <td>Consistent, no orphan values found.</td>
+        <td><div class="solution"><b>Solution:</b> In Power Query, select the "Operations" query, then Home, Merge Queries. Merge it with the Human Resources query, matching "Employee ID" to Employee ID, and set the Join Kind to Left Anti. This returns only the rows whose Employee ID has no match in Human Resources, the orphan records. Expand nothing, this list itself is your exception report; investigate and correct each one, then delete this temporary query once the source rows are fixed.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Department Code</td>
+        <td>Clean.</td>
+        <td><div class="solution"><b>Solution:</b> No cleaning action needed. Confirm this by selecting the column and checking Power Query's column quality bar (View tab, Column Quality) reads 100% valid before moving on.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Production Line</td>
+        <td>Inconsistent formatting, for example "line 1", "Line1", "LINE 1".</td>
+        <td><div class="solution"><b>Solution:</b> Select the "Production Line" column and review the Power Query column quality and column distribution bars (View tab) to see exactly which rows are inconsistent, then apply the appropriate Transform step, Replace Values, Data Type change, or Trim and Clean, until the column reads 100% valid.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Shift</td>
+        <td>Inconsistent capitalization throughout.</td>
+        <td><div class="solution"><b>Solution:</b> Select the "Shift" column. Apply Transform, Format, Trim to remove leading and trailing spaces, then Transform, Format, Capitalize Each Word (or Lowercase / Uppercase, whichever the business has agreed as the standard) to make every value consistent.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Production Date</td>
+        <td>A mix of real date values and dates stored as text.</td>
+        <td><div class="solution"><b>Solution:</b> Select the "Production Date" column. Go to Transform, Data Type, and choose Date. Power Query will convert every value it can parse automatically and mark the rest as errors. For the rows that error, usually the written format like "12 May 2021", use Add Column, Custom Column with Date.FromText([Production Date]) to force a parse, or first split out the written values with a filter, standardize them, and merge them back in before setting the final Date type on the whole column.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Units Produced</td>
+        <td>Some values stored as text with thousands separators, for example "1,200" instead of 1200.</td>
+        <td><div class="solution"><b>Solution:</b> Select the "Units Produced" column. Use Transform, Replace Values twice, once to remove the currency symbol and once to remove thousands-separator commas. Then go to Transform, Data Type, and choose Decimal Number. Confirm the column quality bar reads 100% valid afterward, any remaining errors mean a value still has stray text in it that needs a further Replace Values pass.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Defective Units</td>
+        <td>A few rows show Defective Units greater than Units Produced, which is logically impossible.</td>
+        <td><div class="solution"><b>Solution:</b> Add a Custom Column (Add Column, Custom Column) that tests whether the relevant end date is earlier than the relevant start date, for example [End Date] &lt; [Start Date]. Filter the new column to TRUE to isolate every logically impossible row. These cannot be auto corrected safely, each one needs to go back to whoever entered it for confirmation of the real date.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Downtime Minutes</td>
+        <td>A number of blank cells where no downtime was recorded.</td>
+        <td><div class="solution"><b>Solution:</b> Select the "Downtime Minutes" column. Right click the column header, choose Replace Values, and apply your agreed rule: replace blank with a specific default value if one is defensible, or leave the row identifiable for a filter based exception report if the true value cannot be assumed. Do not silently delete rows with blanks in this column without checking whether the blank itself is meaningful.</div></td>
+      </tr>
+        </table>
+
+        <h3 class="section-title">2. Relationship Solutions (Power BI Model View)</h3>
+        
+      <div class="rel-card"><b>Employee ID &rarr; Human Resources</b> (many-to-one)
+        <div class="solution"><b>Solution:</b> Open Power BI Desktop, go to Model view. Drag "Employee ID" from "Operations" onto the matching key column on "Human Resources". Confirm the relationship shows the correct cardinality (many-to-one) and the cross filter direction is set to Single, unless a specific visual genuinely requires Both.</div>
+      </div>
+      <div class="rel-card"><b>Department Code &rarr; Company Structure</b> (many-to-one)
+        <div class="solution"><b>Solution:</b> Open Power BI Desktop, go to Model view. Drag "Department Code" from "Operations" onto the matching key column on "Company Structure". Confirm the relationship shows the correct cardinality (many-to-one) and the cross filter direction is set to Single, unless a specific visual genuinely requires Both.</div>
+      </div>
+
+        <h3 class="section-title">3. DAX Measure Solutions</h3>
+        
+      <div class="dax-card"><b>Total Units Produced</b>
+      <code>Total Units Produced = SUM('Operations'[Units Produced])</code>
+      <div class="purpose">Purpose: The headline production volume metric. Build this in Power BI Desktop: Modeling tab, New Measure, paste the formula above, then press Enter.</div></div>
+      <div class="dax-card"><b>Defect Rate</b>
+      <code>Defect Rate = DIVIDE(SUM('Operations'[Defective Units]), SUM('Operations'[Units Produced]), 0)</code>
+      <div class="purpose">Purpose: The single most important quality metric on the production floor. Build this in Power BI Desktop: Modeling tab, New Measure, paste the formula above, then press Enter.</div></div>
+      <div class="dax-card"><b>Total Downtime Hours</b>
+      <code>Total Downtime Hours = SUM('Operations'[Downtime Minutes]) / 60</code>
+      <div class="purpose">Purpose: Converts raw downtime minutes into a management-friendly unit. Build this in Power BI Desktop: Modeling tab, New Measure, paste the formula above, then press Enter.</div></div>
+      <div class="dax-card"><b>Units per Downtime Hour</b>
+      <code>Units per Downtime Hour = DIVIDE([Total Units Produced], [Total Downtime Hours], 0)</code>
+      <div class="purpose">Purpose: A simple efficiency indicator combining volume and downtime. Build this in Power BI Desktop: Modeling tab, New Measure, paste the formula above, then press Enter.</div></div>
+
+        <h3 class="section-title">4. Dashboard Build Solutions: "Production Performance Dashboard"</h3>
+        <div class="viz-grid">
+      <div class="viz-card"><span class="vtype">Clustered bar chart</span><h4>Defect Rate by Line</h4>
+      <p><b>Fields:</b> Axis: Production Line. Values: Defect Rate.</p>
+      <div class="solution"><b>Build steps:</b> On the Report view canvas, select the Clustered bar chart icon from the Visualizations pane. Drag the fields listed above into the Axis, Legend, and Values wells as appropriate for this chart type. Format the visual: Format pane, turn on Data labels, set the title to "Defect Rate by Line", and apply the Production Performance Dashboard page's consistent color theme. Purpose: Immediately shows which line needs quality attention.</div></div>
+      <div class="viz-card"><span class="vtype">Line chart</span><h4>Production Volume Trend</h4>
+      <p><b>Fields:</b> Axis: Production Date (by week). Values: Total Units Produced.</p>
+      <div class="solution"><b>Build steps:</b> On the Report view canvas, select the Line chart icon from the Visualizations pane. Drag the fields listed above into the Axis, Legend, and Values wells as appropriate for this chart type. Format the visual: Format pane, turn on Data labels, set the title to "Production Volume Trend", and apply the Production Performance Dashboard page's consistent color theme. Purpose: Tracks output trend over time.</div></div>
+      <div class="viz-card"><span class="vtype">Column chart</span><h4>Downtime by Shift</h4>
+      <p><b>Fields:</b> Axis: Shift. Values: Total Downtime Hours.</p>
+      <div class="solution"><b>Build steps:</b> On the Report view canvas, select the Column chart icon from the Visualizations pane. Drag the fields listed above into the Axis, Legend, and Values wells as appropriate for this chart type. Format the visual: Format pane, turn on Data labels, set the title to "Downtime by Shift", and apply the Production Performance Dashboard page's consistent color theme. Purpose: Shows whether one shift is consistently losing more production time.</div></div>
+      <div class="viz-card"><span class="vtype">Matrix with conditional formatting</span><h4>Defect Rate Heat Table</h4>
+      <p><b>Fields:</b> Rows: Production Line. Columns: Shift. Values: Defect Rate.</p>
+      <div class="solution"><b>Build steps:</b> On the Report view canvas, select the Matrix with conditional formatting icon from the Visualizations pane. Drag the fields listed above into the Axis, Legend, and Values wells as appropriate for this chart type. Format the visual: Format pane, turn on Data labels, set the title to "Defect Rate Heat Table", and apply the Production Performance Dashboard page's consistent color theme. Purpose: Pinpoints the exact line and shift combination driving most defects.</div></div>
+      <div class="viz-card"><span class="vtype">Table</span><h4>Supervisor Performance Table</h4>
+      <p><b>Fields:</b> Rows: Employee (supervisor, via relationship). Values: Total Units Produced, Defect Rate.</p>
+      <div class="solution"><b>Build steps:</b> On the Report view canvas, select the Table icon from the Visualizations pane. Drag the fields listed above into the Axis, Legend, and Values wells as appropriate for this chart type. Format the visual: Format pane, turn on Data labels, set the title to "Supervisor Performance Table", and apply the Production Performance Dashboard page's consistent color theme. Purpose: Only possible once the Employee ID relationship to Human Resources is active.</div></div></div>
+      </div>
+    </section>
+
+    <section class="dept" id="SUPPLY" style="--accent:#F2A541">
+      <div class="dept-head" style="border-left-color:#F2A541">
+        <h2>Supply Chain</h2>
+        <p>Purchase orders raised against suppliers: what was ordered, expected and actual delivery dates, and current status.</p>
+      </div>
+      <div class="dept-body">
+        <h3 class="section-title">1. Column By Column Cleaning Solutions (Power Query)</h3>
+        <table>
+          <tr><th>Column</th><th>Problem</th><th>Detailed Solution</th></tr>
+          
+      <tr>
+        <td class="colname">PO ID</td>
+        <td>Clean.</td>
+        <td><div class="solution"><b>Solution:</b> No cleaning action needed. Confirm this by selecting the column and checking Power Query's column quality bar (View tab, Column Quality) reads 100% valid before moving on.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Supplier ID</td>
+        <td>A few Supplier IDs do not consistently match the same Supplier Name across rows.</td>
+        <td><div class="solution"><b>Solution:</b> Select the "Supplier ID" column and review the Power Query column quality and column distribution bars (View tab) to see exactly which rows are inconsistent, then apply the appropriate Transform step, Replace Values, Data Type change, or Trim and Clean, until the column reads 100% valid.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Supplier Name</td>
+        <td>The same supplier appears under several different spellings and formats, for example "Dangote Packaging Ltd", "DANGOTE PACKAGING LTD", and "Dangote Pkg".</td>
+        <td><div class="solution"><b>Solution:</b> Select the "Supplier Name" column. First apply Transform, Format, Trim, then Transform, Format, Capitalize Each Word to remove whitespace and casing inconsistency. Then use Home, Group By on "Supplier Name" to see every remaining distinct value as a list. Any true duplicates that are still spelled differently, for example a shortened version of the same real name, are fixed with Transform, Replace Values, mapping each variant to one single, agreed standard spelling.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Employee ID</td>
+        <td>Clean.</td>
+        <td><div class="solution"><b>Solution:</b> No cleaning action needed. Confirm this by selecting the column and checking Power Query's column quality bar (View tab, Column Quality) reads 100% valid before moving on.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Item Description</td>
+        <td>Free text with inconsistent abbreviation.</td>
+        <td><div class="solution"><b>Solution:</b> Select the "Item Description" column and use Transform, Replace Values to expand each abbreviation to its full form, one Replace Values step per abbreviation. Chain the steps so every known abbreviation is covered, then spot check the column quality bar for anything still inconsistent.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Quantity Ordered</td>
+        <td>A few values stored as text with commas.</td>
+        <td><div class="solution"><b>Solution:</b> Select the "Quantity Ordered" column. Use Transform, Replace Values twice, once to remove the currency symbol and once to remove thousands-separator commas. Then go to Transform, Data Type, and choose Decimal Number. Confirm the column quality bar reads 100% valid afterward, any remaining errors mean a value still has stray text in it that needs a further Replace Values pass.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Unit Price (NGN)</td>
+        <td>Mixed currency formatting throughout the column.</td>
+        <td><div class="solution"><b>Solution:</b> Select the "Unit Price (NGN)" column. Use Transform, Replace Values twice, once to remove the currency symbol and once to remove thousands-separator commas. Then go to Transform, Data Type, and choose Decimal Number. Confirm the column quality bar reads 100% valid afterward, any remaining errors mean a value still has stray text in it that needs a further Replace Values pass.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Order Date</td>
+        <td>Mixed date formats.</td>
+        <td><div class="solution"><b>Solution:</b> Select the "Order Date" column. Go to Transform, Data Type, and choose Date. Power Query will convert every value it can parse automatically and mark the rest as errors. For the rows that error, usually the written format like "12 May 2021", use Add Column, Custom Column with Date.FromText([Order Date]) to force a parse, or first split out the written values with a filter, standardize them, and merge them back in before setting the final Date type on the whole column.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Actual Delivery Date</td>
+        <td>A few rows show an actual delivery date earlier than the order date, a logical impossibility.</td>
+        <td><div class="solution"><b>Solution:</b> Add a Custom Column (Add Column, Custom Column) that tests whether the relevant end date is earlier than the relevant start date, for example [End Date] &lt; [Start Date]. Filter the new column to TRUE to isolate every logically impossible row. These cannot be auto corrected safely, each one needs to go back to whoever entered it for confirmation of the real date.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Status</td>
+        <td>Inconsistent casing.</td>
+        <td><div class="solution"><b>Solution:</b> Select the "Status" column. Apply Transform, Format, Trim to remove leading and trailing spaces, then Transform, Format, Capitalize Each Word (or Lowercase / Uppercase, whichever the business has agreed as the standard) to make every value consistent.</div></td>
+      </tr>
+        </table>
+
+        <h3 class="section-title">2. Relationship Solutions (Power BI Model View)</h3>
+        
+      <div class="rel-card"><b>Employee ID &rarr; Human Resources</b> (many-to-one)
+        <div class="solution"><b>Solution:</b> Open Power BI Desktop, go to Model view. Drag "Employee ID" from "Supply Chain" onto the matching key column on "Human Resources". Confirm the relationship shows the correct cardinality (many-to-one) and the cross filter direction is set to Single, unless a specific visual genuinely requires Both.</div>
+      </div>
+
+        <h3 class="section-title">3. DAX Measure Solutions</h3>
+        
+      <div class="dax-card"><b>Total Spend</b>
+      <code>Total Spend = SUMX('Supply Chain', 'Supply Chain'[Quantity Ordered] * 'Supply Chain'[Unit Price (NGN)])</code>
+      <div class="purpose">Purpose: The headline procurement spend figure. Build this in Power BI Desktop: Modeling tab, New Measure, paste the formula above, then press Enter.</div></div>
+      <div class="dax-card"><b>On-Time Delivery Rate</b>
+      <code>On-Time Delivery Rate = DIVIDE(CALCULATE(COUNTROWS('Supply Chain'), 'Supply Chain'[Status] = "Closed"), COUNTROWS('Supply Chain'), 0)</code>
+      <div class="purpose">Purpose: Tracks supplier reliability, the number procurement is judged on most. Build this in Power BI Desktop: Modeling tab, New Measure, paste the formula above, then press Enter.</div></div>
+      <div class="dax-card"><b>Average Lead Time Days</b>
+      <code>Average Lead Time Days = AVERAGEX(FILTER('Supply Chain', NOT(ISBLANK('Supply Chain'[Actual Delivery Date]))), DATEDIFF('Supply Chain'[Order Date], 'Supply Chain'[Actual Delivery Date], DAY))</code>
+      <div class="purpose">Purpose: Shows how long, on average, orders actually take to arrive. Build this in Power BI Desktop: Modeling tab, New Measure, paste the formula above, then press Enter.</div></div>
+      <div class="dax-card"><b>Open Purchase Orders</b>
+      <code>Open Purchase Orders = CALCULATE(COUNTROWS('Supply Chain'), 'Supply Chain'[Status] = "Open")</code>
+      <div class="purpose">Purpose: A live count of orders still awaiting fulfillment. Build this in Power BI Desktop: Modeling tab, New Measure, paste the formula above, then press Enter.</div></div>
+
+        <h3 class="section-title">4. Dashboard Build Solutions: "Supplier Performance Dashboard"</h3>
+        <div class="viz-grid">
+      <div class="viz-card"><span class="vtype">Bar chart</span><h4>Spend by Supplier</h4>
+      <p><b>Fields:</b> Axis: Supplier Name. Values: Total Spend.</p>
+      <div class="solution"><b>Build steps:</b> On the Report view canvas, select the Bar chart icon from the Visualizations pane. Drag the fields listed above into the Axis, Legend, and Values wells as appropriate for this chart type. Format the visual: Format pane, turn on Data labels, set the title to "Spend by Supplier", and apply the Supplier Performance Dashboard page's consistent color theme. Purpose: Only meaningful once every supplier name variant is standardized to one real supplier per bar.</div></div>
+      <div class="viz-card"><span class="vtype">Clustered column chart</span><h4>On-Time Delivery Rate by Supplier</h4>
+      <p><b>Fields:</b> Axis: Supplier Name. Values: On-Time Delivery Rate.</p>
+      <div class="solution"><b>Build steps:</b> On the Report view canvas, select the Clustered column chart icon from the Visualizations pane. Drag the fields listed above into the Axis, Legend, and Values wells as appropriate for this chart type. Format the visual: Format pane, turn on Data labels, set the title to "On-Time Delivery Rate by Supplier", and apply the Supplier Performance Dashboard page's consistent color theme. Purpose: The core supplier scorecard visual.</div></div>
+      <div class="viz-card"><span class="vtype">Donut chart</span><h4>Purchase Order Status Breakdown</h4>
+      <p><b>Fields:</b> Legend: Status. Values: count of PO ID.</p>
+      <div class="solution"><b>Build steps:</b> On the Report view canvas, select the Donut chart icon from the Visualizations pane. Drag the fields listed above into the Axis, Legend, and Values wells as appropriate for this chart type. Format the visual: Format pane, turn on Data labels, set the title to "Purchase Order Status Breakdown", and apply the Supplier Performance Dashboard page's consistent color theme. Purpose: Shows the current health of the order pipeline at a glance.</div></div>
+      <div class="viz-card"><span class="vtype">Line chart</span><h4>Lead Time Trend</h4>
+      <p><b>Fields:</b> Axis: Order Date (by month). Values: Average Lead Time Days.</p>
+      <div class="solution"><b>Build steps:</b> On the Report view canvas, select the Line chart icon from the Visualizations pane. Drag the fields listed above into the Axis, Legend, and Values wells as appropriate for this chart type. Format the visual: Format pane, turn on Data labels, set the title to "Lead Time Trend", and apply the Supplier Performance Dashboard page's consistent color theme. Purpose: Tracks whether supplier reliability is improving or worsening over time.</div></div>
+      <div class="viz-card"><span class="vtype">Table</span><h4>Open Orders Table</h4>
+      <p><b>Fields:</b> Rows: PO ID, Supplier Name, Item Description, Order Date. Filter: Status = Open.</p>
+      <div class="solution"><b>Build steps:</b> On the Report view canvas, select the Table icon from the Visualizations pane. Drag the fields listed above into the Axis, Legend, and Values wells as appropriate for this chart type. Format the visual: Format pane, turn on Data labels, set the title to "Open Orders Table", and apply the Supplier Performance Dashboard page's consistent color theme. Purpose: An actionable follow-up list for the procurement team.</div></div></div>
+      </div>
+    </section>
+
+    <section class="dept" id="CS" style="--accent:#0E7C7B">
+      <div class="dept-head" style="border-left-color:#0E7C7B">
+        <h2>Customer Service</h2>
+        <p>Every customer support ticket logged across phone, email, WhatsApp, and walk-in channels, and the agent who handled it.</p>
+      </div>
+      <div class="dept-body">
+        <h3 class="section-title">1. Column By Column Cleaning Solutions (Power Query)</h3>
+        <table>
+          <tr><th>Column</th><th>Problem</th><th>Detailed Solution</th></tr>
+          
+      <tr>
+        <td class="colname">Ticket ID</td>
+        <td>Clean.</td>
+        <td><div class="solution"><b>Solution:</b> No cleaning action needed. Confirm this by selecting the column and checking Power Query's column quality bar (View tab, Column Quality) reads 100% valid before moving on.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Customer ID</td>
+        <td>A small number of blank Customer ID cells.</td>
+        <td><div class="solution"><b>Solution:</b> Select the "Customer ID" column. Right click the column header, choose Replace Values, and apply your agreed rule: replace blank with a specific default value if one is defensible, or leave the row identifiable for a filter based exception report if the true value cannot be assumed. Do not silently delete rows with blanks in this column without checking whether the blank itself is meaningful.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Employee ID</td>
+        <td>Clean.</td>
+        <td><div class="solution"><b>Solution:</b> No cleaning action needed. Confirm this by selecting the column and checking Power Query's column quality bar (View tab, Column Quality) reads 100% valid before moving on.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Channel</td>
+        <td>Inconsistent capitalization and one channel written two different ways, "Whatsapp" and "WhatsApp".</td>
+        <td><div class="solution"><b>Solution:</b> Select the "Channel" column. First apply Transform, Format, Trim, then Transform, Format, Capitalize Each Word to remove whitespace and casing inconsistency. Then use Home, Group By on "Channel" to see every remaining distinct value as a list. Any true duplicates that are still spelled differently, for example a shortened version of the same real name, are fixed with Transform, Replace Values, mapping each variant to one single, agreed standard spelling.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Issue Type</td>
+        <td>Free text with overlapping categories that should be consolidated.</td>
+        <td><div class="solution"><b>Solution:</b> Select the "Issue Type" column and review the Power Query column quality and column distribution bars (View tab) to see exactly which rows are inconsistent, then apply the appropriate Transform step, Replace Values, Data Type change, or Trim and Clean, until the column reads 100% valid.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Date Opened</td>
+        <td>Mixed date formats.</td>
+        <td><div class="solution"><b>Solution:</b> Select the "Date Opened" column. Go to Transform, Data Type, and choose Date. Power Query will convert every value it can parse automatically and mark the rest as errors. For the rows that error, usually the written format like "12 May 2021", use Add Column, Custom Column with Date.FromText([Date Opened]) to force a parse, or first split out the written values with a filter, standardize them, and merge them back in before setting the final Date type on the whole column.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Date Closed</td>
+        <td>A few rows show a closed date earlier than the opened date.</td>
+        <td><div class="solution"><b>Solution:</b> Add a Custom Column (Add Column, Custom Column) that tests whether the relevant end date is earlier than the relevant start date, for example [End Date] &lt; [Start Date]. Filter the new column to TRUE to isolate every logically impossible row. These cannot be auto corrected safely, each one needs to go back to whoever entered it for confirmation of the real date.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Satisfaction Score</td>
+        <td>A few values fall outside the valid 1 to 5 range, including a 0 and a 6.</td>
+        <td><div class="solution"><b>Solution:</b> Add a Custom Column that tests the logical rule directly, for example [Defective Units] &gt; [Units Produced], or for a rating column, [Score] &lt; 1 or [Score] &gt; 5. Filter to TRUE to isolate every row that breaks the rule. Flag these for manual review rather than guessing a correction, since the true value is unknown from the data alone.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Region</td>
+        <td>Minor inconsistency in naming, for example "Lagos " with a trailing space.</td>
+        <td><div class="solution"><b>Solution:</b> Select the "Region" column. Apply Transform, Format, Trim to remove leading and trailing spaces, then Transform, Format, Capitalize Each Word (or Lowercase / Uppercase, whichever the business has agreed as the standard) to make every value consistent.</div></td>
+      </tr>
+        </table>
+
+        <h3 class="section-title">2. Relationship Solutions (Power BI Model View)</h3>
+        
+      <div class="rel-card"><b>Employee ID &rarr; Human Resources</b> (many-to-one)
+        <div class="solution"><b>Solution:</b> Open Power BI Desktop, go to Model view. Drag "Employee ID" from "Customer Service" onto the matching key column on "Human Resources". Confirm the relationship shows the correct cardinality (many-to-one) and the cross filter direction is set to Single, unless a specific visual genuinely requires Both.</div>
+      </div>
+
+        <h3 class="section-title">3. DAX Measure Solutions</h3>
+        
+      <div class="dax-card"><b>Total Tickets</b>
+      <code>Total Tickets = COUNTROWS('Customer Service')</code>
+      <div class="purpose">Purpose: Baseline volume metric. Build this in Power BI Desktop: Modeling tab, New Measure, paste the formula above, then press Enter.</div></div>
+      <div class="dax-card"><b>Average Resolution Time (Hours)</b>
+      <code>Average Resolution Time (Hours) = AVERAGEX(FILTER('Customer Service', NOT(ISBLANK('Customer Service'[Date Closed]))), DATEDIFF('Customer Service'[Date Opened], 'Customer Service'[Date Closed], HOUR))</code>
+      <div class="purpose">Purpose: The core service level metric for the department. Build this in Power BI Desktop: Modeling tab, New Measure, paste the formula above, then press Enter.</div></div>
+      <div class="dax-card"><b>Average Satisfaction Score</b>
+      <code>Average Satisfaction Score = CALCULATE(AVERAGE('Customer Service'[Satisfaction Score]), 'Customer Service'[Satisfaction Score] &gt;= 1, 'Customer Service'[Satisfaction Score] &lt;= 5)</code>
+      <div class="purpose">Purpose: Excludes the invalid out-of-range scores from the reported average. Build this in Power BI Desktop: Modeling tab, New Measure, paste the formula above, then press Enter.</div></div>
+      <div class="dax-card"><b>Open Tickets</b>
+      <code>Open Tickets = CALCULATE(COUNTROWS('Customer Service'), ISBLANK('Customer Service'[Date Closed]))</code>
+      <div class="purpose">Purpose: Shows current unresolved workload. Build this in Power BI Desktop: Modeling tab, New Measure, paste the formula above, then press Enter.</div></div>
+
+        <h3 class="section-title">4. Dashboard Build Solutions: "Customer Service Performance Dashboard"</h3>
+        <div class="viz-grid">
+      <div class="viz-card"><span class="vtype">Pie chart</span><h4>Tickets by Channel</h4>
+      <p><b>Fields:</b> Legend: Channel. Values: Total Tickets.</p>
+      <div class="solution"><b>Build steps:</b> On the Report view canvas, select the Pie chart icon from the Visualizations pane. Drag the fields listed above into the Axis, Legend, and Values wells as appropriate for this chart type. Format the visual: Format pane, turn on Data labels, set the title to "Tickets by Channel", and apply the Customer Service Performance Dashboard page's consistent color theme. Purpose: Shows where customers actually prefer to reach the business.</div></div>
+      <div class="viz-card"><span class="vtype">Bar chart</span><h4>Tickets by Issue Type</h4>
+      <p><b>Fields:</b> Axis: Issue Type. Values: Total Tickets.</p>
+      <div class="solution"><b>Build steps:</b> On the Report view canvas, select the Bar chart icon from the Visualizations pane. Drag the fields listed above into the Axis, Legend, and Values wells as appropriate for this chart type. Format the visual: Format pane, turn on Data labels, set the title to "Tickets by Issue Type", and apply the Customer Service Performance Dashboard page's consistent color theme. Purpose: Highlights the most common, and most fixable, recurring problems.</div></div>
+      <div class="viz-card"><span class="vtype">Line chart</span><h4>Resolution Time Trend</h4>
+      <p><b>Fields:</b> Axis: Date Opened (by week). Values: Average Resolution Time (Hours).</p>
+      <div class="solution"><b>Build steps:</b> On the Report view canvas, select the Line chart icon from the Visualizations pane. Drag the fields listed above into the Axis, Legend, and Values wells as appropriate for this chart type. Format the visual: Format pane, turn on Data labels, set the title to "Resolution Time Trend", and apply the Customer Service Performance Dashboard page's consistent color theme. Purpose: Tracks whether service speed is improving.</div></div>
+      <div class="viz-card"><span class="vtype">Table</span><h4>Agent Performance Table</h4>
+      <p><b>Fields:</b> Rows: Employee (agent, via relationship). Values: Total Tickets, Average Resolution Time, Average Satisfaction Score.</p>
+      <div class="solution"><b>Build steps:</b> On the Report view canvas, select the Table icon from the Visualizations pane. Drag the fields listed above into the Axis, Legend, and Values wells as appropriate for this chart type. Format the visual: Format pane, turn on Data labels, set the title to "Agent Performance Table", and apply the Customer Service Performance Dashboard page's consistent color theme. Purpose: A direct, per-agent performance view once the relationship to Human Resources is active.</div></div>
+      <div class="viz-card"><span class="vtype">Map or clustered column chart</span><h4>Satisfaction by Region</h4>
+      <p><b>Fields:</b> Axis/Location: Region. Values: Average Satisfaction Score.</p>
+      <div class="solution"><b>Build steps:</b> On the Report view canvas, select the Map or clustered column chart icon from the Visualizations pane. Drag the fields listed above into the Axis, Legend, and Values wells as appropriate for this chart type. Format the visual: Format pane, turn on Data labels, set the title to "Satisfaction by Region", and apply the Customer Service Performance Dashboard page's consistent color theme. Purpose: Surfaces any regional pattern in customer experience.</div></div></div>
+      </div>
+    </section>
+
+    <section class="dept" id="IT" style="--accent:#5B4FCF">
+      <div class="dept-head" style="border-left-color:#5B4FCF">
+        <h2>Information Technology</h2>
+        <p>System and support incidents logged by staff across the business, and the IT team member who resolved each one.</p>
+      </div>
+      <div class="dept-body">
+        <h3 class="section-title">1. Column By Column Cleaning Solutions (Power Query)</h3>
+        <table>
+          <tr><th>Column</th><th>Problem</th><th>Detailed Solution</th></tr>
+          
+      <tr>
+        <td class="colname">Ticket ID</td>
+        <td>Clean.</td>
+        <td><div class="solution"><b>Solution:</b> No cleaning action needed. Confirm this by selecting the column and checking Power Query's column quality bar (View tab, Column Quality) reads 100% valid before moving on.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Employee ID</td>
+        <td>A few rows carry an Employee ID with no match on Human Resources.</td>
+        <td><div class="solution"><b>Solution:</b> In Power Query, select the "IT" query, then Home, Merge Queries. Merge it with the Human Resources query, matching "Employee ID" to Employee ID, and set the Join Kind to Left Anti. This returns only the rows whose Employee ID has no match in Human Resources, the orphan records. Expand nothing, this list itself is your exception report; investigate and correct each one, then delete this temporary query once the source rows are fixed.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">IT Staff ID</td>
+        <td>Clean.</td>
+        <td><div class="solution"><b>Solution:</b> No cleaning action needed. Confirm this by selecting the column and checking Power Query's column quality bar (View tab, Column Quality) reads 100% valid before moving on.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">System or Asset Affected</td>
+        <td>Inconsistent naming for the same systems, for example "ERP" and "erp system".</td>
+        <td><div class="solution"><b>Solution:</b> Select the "System or Asset Affected" column and review the Power Query column quality and column distribution bars (View tab) to see exactly which rows are inconsistent, then apply the appropriate Transform step, Replace Values, Data Type change, or Trim and Clean, until the column reads 100% valid.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Issue Type</td>
+        <td>Inconsistent capitalization.</td>
+        <td><div class="solution"><b>Solution:</b> Select the "Issue Type" column. Apply Transform, Format, Trim to remove leading and trailing spaces, then Transform, Format, Capitalize Each Word (or Lowercase / Uppercase, whichever the business has agreed as the standard) to make every value consistent.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Priority</td>
+        <td>Inconsistent capitalization and one row written as "Urgent" instead of an agreed priority level.</td>
+        <td><div class="solution"><b>Solution:</b> Select the "Priority" column. Apply Transform, Format, Trim to remove leading and trailing spaces, then Transform, Format, Capitalize Each Word (or Lowercase / Uppercase, whichever the business has agreed as the standard) to make every value consistent.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Date Reported</td>
+        <td>Mixed date formats.</td>
+        <td><div class="solution"><b>Solution:</b> Select the "Date Reported" column. Go to Transform, Data Type, and choose Date. Power Query will convert every value it can parse automatically and mark the rest as errors. For the rows that error, usually the written format like "12 May 2021", use Add Column, Custom Column with Date.FromText([Date Reported]) to force a parse, or first split out the written values with a filter, standardize them, and merge them back in before setting the final Date type on the whole column.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Date Resolved</td>
+        <td>A few rows show a resolved date earlier than the reported date.</td>
+        <td><div class="solution"><b>Solution:</b> Add a Custom Column (Add Column, Custom Column) that tests whether the relevant end date is earlier than the relevant start date, for example [End Date] &lt; [Start Date]. Filter the new column to TRUE to isolate every logically impossible row. These cannot be auto corrected safely, each one needs to go back to whoever entered it for confirmation of the real date.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Downtime Hours</td>
+        <td>A number of blank cells.</td>
+        <td><div class="solution"><b>Solution:</b> Select the "Downtime Hours" column. Right click the column header, choose Replace Values, and apply your agreed rule: replace blank with a specific default value if one is defensible, or leave the row identifiable for a filter based exception report if the true value cannot be assumed. Do not silently delete rows with blanks in this column without checking whether the blank itself is meaningful.</div></td>
+      </tr>
+        </table>
+
+        <h3 class="section-title">2. Relationship Solutions (Power BI Model View)</h3>
+        
+      <div class="rel-card"><b>Employee ID &rarr; Human Resources</b> (many-to-one)
+        <div class="solution"><b>Solution:</b> Open Power BI Desktop, go to Model view. Drag "Employee ID" from "IT" onto the matching key column on "Human Resources". Confirm the relationship shows the correct cardinality (many-to-one) and the cross filter direction is set to Single, unless a specific visual genuinely requires Both. The staff member who reported the issue. Because this is a second relationship to the same table, Power BI marks it inactive by default; activate it inside a specific DAX measure using USERELATIONSHIP() rather than making it the default active relationship.</div>
+      </div>
+      <div class="rel-card"><b>IT Staff ID &rarr; Human Resources</b> (many-to-one)
+        <div class="solution"><b>Solution:</b> Open Power BI Desktop, go to Model view. Drag "IT Staff ID" from "IT" onto the matching key column on "Human Resources". Confirm the relationship shows the correct cardinality (many-to-one) and the cross filter direction is set to Single, unless a specific visual genuinely requires Both. A second relationship to the same table, for the resolving technician. This is the workbook's clearest example of needing more than one relationship to the same dimension table. Because this is a second relationship to the same table, Power BI marks it inactive by default; activate it inside a specific DAX measure using USERELATIONSHIP() rather than making it the default active relationship.</div>
+      </div>
+
+        <h3 class="section-title">3. DAX Measure Solutions</h3>
+        
+      <div class="dax-card"><b>Total Tickets</b>
+      <code>Total Tickets = COUNTROWS('IT')</code>
+      <div class="purpose">Purpose: Baseline volume metric. Build this in Power BI Desktop: Modeling tab, New Measure, paste the formula above, then press Enter.</div></div>
+      <div class="dax-card"><b>Average Resolution Time (Hours)</b>
+      <code>Average Resolution Time (Hours) = AVERAGEX(FILTER('IT', NOT(ISBLANK('IT'[Date Resolved]))), DATEDIFF('IT'[Date Reported], 'IT'[Date Resolved], HOUR))</code>
+      <div class="purpose">Purpose: The core IT service level metric. Build this in Power BI Desktop: Modeling tab, New Measure, paste the formula above, then press Enter.</div></div>
+      <div class="dax-card"><b>Total Downtime Hours</b>
+      <code>Total Downtime Hours = SUM('IT'[Downtime Hours])</code>
+      <div class="purpose">Purpose: Shows total business impact of IT issues over a period. Build this in Power BI Desktop: Modeling tab, New Measure, paste the formula above, then press Enter.</div></div>
+      <div class="dax-card"><b>High Priority Open Tickets</b>
+      <code>High Priority Open Tickets = CALCULATE(COUNTROWS('IT'), 'IT'[Priority] = "High", ISBLANK('IT'[Date Resolved]))</code>
+      <div class="purpose">Purpose: The number management most wants to see kept at zero. Build this in Power BI Desktop: Modeling tab, New Measure, paste the formula above, then press Enter.</div></div>
+
+        <h3 class="section-title">4. Dashboard Build Solutions: "IT Support Performance Dashboard"</h3>
+        <div class="viz-grid">
+      <div class="viz-card"><span class="vtype">Bar chart</span><h4>Tickets by Issue Type</h4>
+      <p><b>Fields:</b> Axis: Issue Type. Values: Total Tickets.</p>
+      <div class="solution"><b>Build steps:</b> On the Report view canvas, select the Bar chart icon from the Visualizations pane. Drag the fields listed above into the Axis, Legend, and Values wells as appropriate for this chart type. Format the visual: Format pane, turn on Data labels, set the title to "Tickets by Issue Type", and apply the IT Support Performance Dashboard page's consistent color theme. Purpose: Shows where IT effort is really going.</div></div>
+      <div class="viz-card"><span class="vtype">Donut chart</span><h4>Tickets by Priority</h4>
+      <p><b>Fields:</b> Legend: Priority. Values: Total Tickets.</p>
+      <div class="solution"><b>Build steps:</b> On the Report view canvas, select the Donut chart icon from the Visualizations pane. Drag the fields listed above into the Axis, Legend, and Values wells as appropriate for this chart type. Format the visual: Format pane, turn on Data labels, set the title to "Tickets by Priority", and apply the IT Support Performance Dashboard page's consistent color theme. Purpose: A quick view of ticket severity mix.</div></div>
+      <div class="viz-card"><span class="vtype">Line chart</span><h4>Resolution Time Trend</h4>
+      <p><b>Fields:</b> Axis: Date Reported (by week). Values: Average Resolution Time (Hours).</p>
+      <div class="solution"><b>Build steps:</b> On the Report view canvas, select the Line chart icon from the Visualizations pane. Drag the fields listed above into the Axis, Legend, and Values wells as appropriate for this chart type. Format the visual: Format pane, turn on Data labels, set the title to "Resolution Time Trend", and apply the IT Support Performance Dashboard page's consistent color theme. Purpose: Tracks whether IT is getting faster or slower at resolving issues.</div></div>
+      <div class="viz-card"><span class="vtype">Column chart</span><h4>Downtime by System</h4>
+      <p><b>Fields:</b> Axis: System or Asset Affected. Values: Total Downtime Hours.</p>
+      <div class="solution"><b>Build steps:</b> On the Report view canvas, select the Column chart icon from the Visualizations pane. Drag the fields listed above into the Axis, Legend, and Values wells as appropriate for this chart type. Format the visual: Format pane, turn on Data labels, set the title to "Downtime by System", and apply the IT Support Performance Dashboard page's consistent color theme. Purpose: Points directly at the systems causing the most business disruption.</div></div>
+      <div class="viz-card"><span class="vtype">Table</span><h4>Technician Workload Table</h4>
+      <p><b>Fields:</b> Rows: Employee (IT Staff, via the second relationship). Values: Total Tickets, Average Resolution Time.</p>
+      <div class="solution"><b>Build steps:</b> On the Report view canvas, select the Table icon from the Visualizations pane. Drag the fields listed above into the Axis, Legend, and Values wells as appropriate for this chart type. Format the visual: Format pane, turn on Data labels, set the title to "Technician Workload Table", and apply the IT Support Performance Dashboard page's consistent color theme. Purpose: Demonstrates using the inactive second relationship with the USERELATIONSHIP function in DAX.</div></div></div>
+      </div>
+    </section>
+
+    <section class="dept" id="FIN" style="--accent:#E8593F">
+      <div class="dept-head" style="border-left-color:#E8593F">
+        <h2>Accounts and Finance</h2>
+        <p>Every financial transaction processed across the business, expenses, revenue, and refunds, each tied to the employee who processed it and the department it was booked against.</p>
+      </div>
+      <div class="dept-body">
+        <h3 class="section-title">1. Column By Column Cleaning Solutions (Power Query)</h3>
+        <table>
+          <tr><th>Column</th><th>Problem</th><th>Detailed Solution</th></tr>
+          
+      <tr>
+        <td class="colname">Transaction ID</td>
+        <td>Clean.</td>
+        <td><div class="solution"><b>Solution:</b> No cleaning action needed. Confirm this by selecting the column and checking Power Query's column quality bar (View tab, Column Quality) reads 100% valid before moving on.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Employee ID</td>
+        <td>Clean.</td>
+        <td><div class="solution"><b>Solution:</b> No cleaning action needed. Confirm this by selecting the column and checking Power Query's column quality bar (View tab, Column Quality) reads 100% valid before moving on.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Department Code</td>
+        <td>A small number of blank cells.</td>
+        <td><div class="solution"><b>Solution:</b> Select the "Department Code" column. Right click the column header, choose Replace Values, and apply your agreed rule: replace blank with a specific default value if one is defensible, or leave the row identifiable for a filter based exception report if the true value cannot be assumed. Do not silently delete rows with blanks in this column without checking whether the blank itself is meaningful.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Transaction Type</td>
+        <td>Inconsistent capitalization.</td>
+        <td><div class="solution"><b>Solution:</b> Select the "Transaction Type" column. Apply Transform, Format, Trim to remove leading and trailing spaces, then Transform, Format, Capitalize Each Word (or Lowercase / Uppercase, whichever the business has agreed as the standard) to make every value consistent.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Amount (NGN)</td>
+        <td>Mixed currency formatting, and refunds are inconsistently recorded, some as negative numbers and some as positive numbers with the type column doing the work instead.</td>
+        <td><div class="solution"><b>Solution:</b> Select the "Amount (NGN)" column. Use Transform, Replace Values twice, once to remove the currency symbol and once to remove thousands-separator commas. Then go to Transform, Data Type, and choose Decimal Number. Confirm the column quality bar reads 100% valid afterward, any remaining errors mean a value still has stray text in it that needs a further Replace Values pass.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Transaction Date</td>
+        <td>Mixed date formats.</td>
+        <td><div class="solution"><b>Solution:</b> Select the "Transaction Date" column. Go to Transform, Data Type, and choose Date. Power Query will convert every value it can parse automatically and mark the rest as errors. For the rows that error, usually the written format like "12 May 2021", use Add Column, Custom Column with Date.FromText([Transaction Date]) to force a parse, or first split out the written values with a filter, standardize them, and merge them back in before setting the final Date type on the whole column.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Payment Status</td>
+        <td>Inconsistent capitalization.</td>
+        <td><div class="solution"><b>Solution:</b> Select the "Payment Status" column. Apply Transform, Format, Trim to remove leading and trailing spaces, then Transform, Format, Capitalize Each Word (or Lowercase / Uppercase, whichever the business has agreed as the standard) to make every value consistent.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Invoice Number</td>
+        <td>A number of blank cells where no invoice was raised.</td>
+        <td><div class="solution"><b>Solution:</b> Select the "Invoice Number" column. Right click the column header, choose Replace Values, and apply your agreed rule: replace blank with a specific default value if one is defensible, or leave the row identifiable for a filter based exception report if the true value cannot be assumed. Do not silently delete rows with blanks in this column without checking whether the blank itself is meaningful.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Approved By (Employee ID)</td>
+        <td>A few rows are blank.</td>
+        <td><div class="solution"><b>Solution:</b> Select the "Approved By (Employee ID)" column. Right click the column header, choose Replace Values, and apply your agreed rule: replace blank with a specific default value if one is defensible, or leave the row identifiable for a filter based exception report if the true value cannot be assumed. Do not silently delete rows with blanks in this column without checking whether the blank itself is meaningful.</div></td>
+      </tr>
+        </table>
+
+        <h3 class="section-title">2. Relationship Solutions (Power BI Model View)</h3>
+        
+      <div class="rel-card"><b>Employee ID &rarr; Human Resources</b> (many-to-one)
+        <div class="solution"><b>Solution:</b> Open Power BI Desktop, go to Model view. Drag "Employee ID" from "Accounts and Finance" onto the matching key column on "Human Resources". Confirm the relationship shows the correct cardinality (many-to-one) and the cross filter direction is set to Single, unless a specific visual genuinely requires Both. Who processed the transaction. Because this is a second relationship to the same table, Power BI marks it inactive by default; activate it inside a specific DAX measure using USERELATIONSHIP() rather than making it the default active relationship.</div>
+      </div>
+      <div class="rel-card"><b>Approved By (Employee ID) &rarr; Human Resources</b> (many-to-one)
+        <div class="solution"><b>Solution:</b> Open Power BI Desktop, go to Model view. Drag "Approved By (Employee ID)" from "Accounts and Finance" onto the matching key column on "Human Resources". Confirm the relationship shows the correct cardinality (many-to-one) and the cross filter direction is set to Single, unless a specific visual genuinely requires Both. A second relationship to the same table, for the approver, mirroring the IT sheet's pattern. Because this is a second relationship to the same table, Power BI marks it inactive by default; activate it inside a specific DAX measure using USERELATIONSHIP() rather than making it the default active relationship.</div>
+      </div>
+      <div class="rel-card"><b>Department Code &rarr; Company Structure</b> (many-to-one)
+        <div class="solution"><b>Solution:</b> Open Power BI Desktop, go to Model view. Drag "Department Code" from "Accounts and Finance" onto the matching key column on "Company Structure". Confirm the relationship shows the correct cardinality (many-to-one) and the cross filter direction is set to Single, unless a specific visual genuinely requires Both.</div>
+      </div>
+
+        <h3 class="section-title">3. DAX Measure Solutions</h3>
+        
+      <div class="dax-card"><b>Total Revenue</b>
+      <code>Total Revenue = CALCULATE(SUM('Accounts and Finance'[Amount (NGN)]), 'Accounts and Finance'[Transaction Type] = "Revenue")</code>
+      <div class="purpose">Purpose: The headline top-line figure. Build this in Power BI Desktop: Modeling tab, New Measure, paste the formula above, then press Enter.</div></div>
+      <div class="dax-card"><b>Total Expenses</b>
+      <code>Total Expenses = CALCULATE(SUM('Accounts and Finance'[Amount (NGN)]), 'Accounts and Finance'[Transaction Type] = "Expense")</code>
+      <div class="purpose">Purpose: The headline cost figure. Build this in Power BI Desktop: Modeling tab, New Measure, paste the formula above, then press Enter.</div></div>
+      <div class="dax-card"><b>Net Position</b>
+      <code>Net Position = [Total Revenue] - [Total Expenses]</code>
+      <div class="purpose">Purpose: The simplest possible management summary number. Build this in Power BI Desktop: Modeling tab, New Measure, paste the formula above, then press Enter.</div></div>
+      <div class="dax-card"><b>Overdue Payments Value</b>
+      <code>Overdue Payments Value = CALCULATE(SUM('Accounts and Finance'[Amount (NGN)]), 'Accounts and Finance'[Payment Status] = "Overdue")</code>
+      <div class="purpose">Purpose: The figure Finance is chased for every month end. Build this in Power BI Desktop: Modeling tab, New Measure, paste the formula above, then press Enter.</div></div>
+
+        <h3 class="section-title">4. Dashboard Build Solutions: "Finance Overview Dashboard"</h3>
+        <div class="viz-grid">
+      <div class="viz-card"><span class="vtype">Line chart</span><h4>Revenue vs Expense Trend</h4>
+      <p><b>Fields:</b> Axis: Transaction Date (by month). Values: Total Revenue, Total Expenses.</p>
+      <div class="solution"><b>Build steps:</b> On the Report view canvas, select the Line chart icon from the Visualizations pane. Drag the fields listed above into the Axis, Legend, and Values wells as appropriate for this chart type. Format the visual: Format pane, turn on Data labels, set the title to "Revenue vs Expense Trend", and apply the Finance Overview Dashboard page's consistent color theme. Purpose: The primary financial trend visual for management.</div></div>
+      <div class="viz-card"><span class="vtype">Bar chart</span><h4>Spend by Department</h4>
+      <p><b>Fields:</b> Axis: Department Name (via relationship). Values: Total Expenses.</p>
+      <div class="solution"><b>Build steps:</b> On the Report view canvas, select the Bar chart icon from the Visualizations pane. Drag the fields listed above into the Axis, Legend, and Values wells as appropriate for this chart type. Format the visual: Format pane, turn on Data labels, set the title to "Spend by Department", and apply the Finance Overview Dashboard page's consistent color theme. Purpose: Shows exactly where money is going, department by department.</div></div>
+      <div class="viz-card"><span class="vtype">Donut chart</span><h4>Payment Status Breakdown</h4>
+      <p><b>Fields:</b> Legend: Payment Status. Values: count of Transaction ID.</p>
+      <div class="solution"><b>Build steps:</b> On the Report view canvas, select the Donut chart icon from the Visualizations pane. Drag the fields listed above into the Axis, Legend, and Values wells as appropriate for this chart type. Format the visual: Format pane, turn on Data labels, set the title to "Payment Status Breakdown", and apply the Finance Overview Dashboard page's consistent color theme. Purpose: A quick view of collections health.</div></div>
+      <div class="viz-card"><span class="vtype">Table</span><h4>Overdue Transactions Table</h4>
+      <p><b>Fields:</b> Rows: Transaction ID, Department, Amount, Transaction Date. Filter: Payment Status = Overdue.</p>
+      <div class="solution"><b>Build steps:</b> On the Report view canvas, select the Table icon from the Visualizations pane. Drag the fields listed above into the Axis, Legend, and Values wells as appropriate for this chart type. Format the visual: Format pane, turn on Data labels, set the title to "Overdue Transactions Table", and apply the Finance Overview Dashboard page's consistent color theme. Purpose: An actionable worklist, not just a summary chart.</div></div>
+      <div class="viz-card"><span class="vtype">KPI card</span><h4>Approver Coverage Card</h4>
+      <p><b>Fields:</b> Values: count of transactions with a blank Approved By field.</p>
+      <div class="solution"><b>Build steps:</b> On the Report view canvas, select the KPI card icon from the Visualizations pane. Drag the fields listed above into the Axis, Legend, and Values wells as appropriate for this chart type. Format the visual: Format pane, turn on Data labels, set the title to "Approver Coverage Card", and apply the Finance Overview Dashboard page's consistent color theme. Purpose: Turns a data quality issue into a visible internal control metric.</div></div></div>
+      </div>
+    </section>
+
+    <section class="dept" id="LEGAL" style="--accent:#F2A541">
+      <div class="dept-head" style="border-left-color:#F2A541">
+        <h2>Legal</h2>
+        <p>Every contract, dispute, and compliance case the legal function is handling, each assigned to a case handler.</p>
+      </div>
+      <div class="dept-body">
+        <h3 class="section-title">1. Column By Column Cleaning Solutions (Power Query)</h3>
+        <table>
+          <tr><th>Column</th><th>Problem</th><th>Detailed Solution</th></tr>
+          
+      <tr>
+        <td class="colname">Case ID</td>
+        <td>Clean.</td>
+        <td><div class="solution"><b>Solution:</b> No cleaning action needed. Confirm this by selecting the column and checking Power Query's column quality bar (View tab, Column Quality) reads 100% valid before moving on.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Employee ID</td>
+        <td>Clean.</td>
+        <td><div class="solution"><b>Solution:</b> No cleaning action needed. Confirm this by selecting the column and checking Power Query's column quality bar (View tab, Column Quality) reads 100% valid before moving on.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Counterparty Name</td>
+        <td>Inconsistent capitalization and spacing.</td>
+        <td><div class="solution"><b>Solution:</b> Select the "Counterparty Name" column. Apply Transform, Format, Trim to remove leading and trailing spaces, then Transform, Format, Capitalize Each Word (or Lowercase / Uppercase, whichever the business has agreed as the standard) to make every value consistent.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Case Type</td>
+        <td>A couple of rows use abbreviations, for example "IP" instead of the full category name.</td>
+        <td><div class="solution"><b>Solution:</b> Select the "Case Type" column and use Transform, Replace Values to expand each abbreviation to its full form, one Replace Values step per abbreviation. Chain the steps so every known abbreviation is covered, then spot check the column quality bar for anything still inconsistent.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Date Opened</td>
+        <td>Mixed date formats.</td>
+        <td><div class="solution"><b>Solution:</b> Select the "Date Opened" column. Go to Transform, Data Type, and choose Date. Power Query will convert every value it can parse automatically and mark the rest as errors. For the rows that error, usually the written format like "12 May 2021", use Add Column, Custom Column with Date.FromText([Date Opened]) to force a parse, or first split out the written values with a filter, standardize them, and merge them back in before setting the final Date type on the whole column.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Status</td>
+        <td>Inconsistent capitalization.</td>
+        <td><div class="solution"><b>Solution:</b> Select the "Status" column. Apply Transform, Format, Trim to remove leading and trailing spaces, then Transform, Format, Capitalize Each Word (or Lowercase / Uppercase, whichever the business has agreed as the standard) to make every value consistent.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Risk Level</td>
+        <td>Inconsistent capitalization.</td>
+        <td><div class="solution"><b>Solution:</b> Select the "Risk Level" column. Apply Transform, Format, Trim to remove leading and trailing spaces, then Transform, Format, Capitalize Each Word (or Lowercase / Uppercase, whichever the business has agreed as the standard) to make every value consistent.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Estimated Value (NGN)</td>
+        <td>Mixed currency formatting, and a few blank cells for cases with no quantifiable value.</td>
+        <td><div class="solution"><b>Solution:</b> Select the "Estimated Value (NGN)" column. Right click the column header, choose Replace Values, and apply your agreed rule: replace blank with a specific default value if one is defensible, or leave the row identifiable for a filter based exception report if the true value cannot be assumed. Do not silently delete rows with blanks in this column without checking whether the blank itself is meaningful.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Resolution Date</td>
+        <td>A few rows show a resolution date earlier than the date opened.</td>
+        <td><div class="solution"><b>Solution:</b> Add a Custom Column (Add Column, Custom Column) that tests whether the relevant end date is earlier than the relevant start date, for example [End Date] &lt; [Start Date]. Filter the new column to TRUE to isolate every logically impossible row. These cannot be auto corrected safely, each one needs to go back to whoever entered it for confirmation of the real date.</div></td>
+      </tr>
+        </table>
+
+        <h3 class="section-title">2. Relationship Solutions (Power BI Model View)</h3>
+        
+      <div class="rel-card"><b>Employee ID &rarr; Human Resources</b> (many-to-one)
+        <div class="solution"><b>Solution:</b> Open Power BI Desktop, go to Model view. Drag "Employee ID" from "Legal" onto the matching key column on "Human Resources". Confirm the relationship shows the correct cardinality (many-to-one) and the cross filter direction is set to Single, unless a specific visual genuinely requires Both.</div>
+      </div>
+
+        <h3 class="section-title">3. DAX Measure Solutions</h3>
+        
+      <div class="dax-card"><b>Open Cases</b>
+      <code>Open Cases = CALCULATE(COUNTROWS('Legal'), 'Legal'[Status] = "Open")</code>
+      <div class="purpose">Purpose: Current legal workload at a glance. Build this in Power BI Desktop: Modeling tab, New Measure, paste the formula above, then press Enter.</div></div>
+      <div class="dax-card"><b>Total Estimated Exposure</b>
+      <code>Total Estimated Exposure = CALCULATE(SUM('Legal'[Estimated Value (NGN)]), 'Legal'[Status] &lt;&gt; "Closed")</code>
+      <div class="purpose">Purpose: The single figure most useful to the board on open legal risk. Build this in Power BI Desktop: Modeling tab, New Measure, paste the formula above, then press Enter.</div></div>
+      <div class="dax-card"><b>High Risk Open Cases</b>
+      <code>High Risk Open Cases = CALCULATE(COUNTROWS('Legal'), 'Legal'[Status] &lt;&gt; "Closed", 'Legal'[Risk Level] = "High")</code>
+      <div class="purpose">Purpose: Filters straight to what needs urgent attention. Build this in Power BI Desktop: Modeling tab, New Measure, paste the formula above, then press Enter.</div></div>
+      <div class="dax-card"><b>Average Days to Resolution</b>
+      <code>Average Days to Resolution = AVERAGEX(FILTER('Legal', NOT(ISBLANK('Legal'[Resolution Date]))), DATEDIFF('Legal'[Date Opened], 'Legal'[Resolution Date], DAY))</code>
+      <div class="purpose">Purpose: Shows how long cases realistically take to close. Build this in Power BI Desktop: Modeling tab, New Measure, paste the formula above, then press Enter.</div></div>
+
+        <h3 class="section-title">4. Dashboard Build Solutions: "Legal Case Management Dashboard"</h3>
+        <div class="viz-grid">
+      <div class="viz-card"><span class="vtype">Bar chart</span><h4>Cases by Type</h4>
+      <p><b>Fields:</b> Axis: Case Type. Values: count of Case ID.</p>
+      <div class="solution"><b>Build steps:</b> On the Report view canvas, select the Bar chart icon from the Visualizations pane. Drag the fields listed above into the Axis, Legend, and Values wells as appropriate for this chart type. Format the visual: Format pane, turn on Data labels, set the title to "Cases by Type", and apply the Legal Case Management Dashboard page's consistent color theme. Purpose: Shows what kind of legal work dominates the caseload.</div></div>
+      <div class="viz-card"><span class="vtype">Donut chart</span><h4>Cases by Risk Level</h4>
+      <p><b>Fields:</b> Legend: Risk Level. Values: count of Case ID, filtered to open cases.</p>
+      <div class="solution"><b>Build steps:</b> On the Report view canvas, select the Donut chart icon from the Visualizations pane. Drag the fields listed above into the Axis, Legend, and Values wells as appropriate for this chart type. Format the visual: Format pane, turn on Data labels, set the title to "Cases by Risk Level", and apply the Legal Case Management Dashboard page's consistent color theme. Purpose: A direct view of current risk concentration.</div></div>
+      <div class="viz-card"><span class="vtype">Column chart</span><h4>Exposure by Case Type</h4>
+      <p><b>Fields:</b> Axis: Case Type. Values: Total Estimated Exposure.</p>
+      <div class="solution"><b>Build steps:</b> On the Report view canvas, select the Column chart icon from the Visualizations pane. Drag the fields listed above into the Axis, Legend, and Values wells as appropriate for this chart type. Format the visual: Format pane, turn on Data labels, set the title to "Exposure by Case Type", and apply the Legal Case Management Dashboard page's consistent color theme. Purpose: Connects case volume to actual financial stakes.</div></div>
+      <div class="viz-card"><span class="vtype">Table</span><h4>Case Handler Workload</h4>
+      <p><b>Fields:</b> Rows: Employee (via relationship). Values: Open Cases, Average Days to Resolution.</p>
+      <div class="solution"><b>Build steps:</b> On the Report view canvas, select the Table icon from the Visualizations pane. Drag the fields listed above into the Axis, Legend, and Values wells as appropriate for this chart type. Format the visual: Format pane, turn on Data labels, set the title to "Case Handler Workload", and apply the Legal Case Management Dashboard page's consistent color theme. Purpose: Shows workload distribution across the legal team.</div></div>
+      <div class="viz-card"><span class="vtype">Table</span><h4>High Risk Cases Table</h4>
+      <p><b>Fields:</b> Rows: Case ID, Counterparty Name, Date Opened. Filter: Risk Level = High and Status &lt;&gt; Closed.</p>
+      <div class="solution"><b>Build steps:</b> On the Report view canvas, select the Table icon from the Visualizations pane. Drag the fields listed above into the Axis, Legend, and Values wells as appropriate for this chart type. Format the visual: Format pane, turn on Data labels, set the title to "High Risk Cases Table", and apply the Legal Case Management Dashboard page's consistent color theme. Purpose: A direct worklist for leadership attention.</div></div></div>
+      </div>
+    </section>
+
+    <section class="dept" id="IC" style="--accent:#0E7C7B">
+      <div class="dept-head" style="border-left-color:#0E7C7B">
+        <h2>Internal Control</h2>
+        <p>Audit findings raised against departments, each assigned to an auditor and tracked through to closure.</p>
+      </div>
+      <div class="dept-body">
+        <h3 class="section-title">1. Column By Column Cleaning Solutions (Power Query)</h3>
+        <table>
+          <tr><th>Column</th><th>Problem</th><th>Detailed Solution</th></tr>
+          
+      <tr>
+        <td class="colname">Finding ID</td>
+        <td>Clean.</td>
+        <td><div class="solution"><b>Solution:</b> No cleaning action needed. Confirm this by selecting the column and checking Power Query's column quality bar (View tab, Column Quality) reads 100% valid before moving on.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Employee ID</td>
+        <td>Clean.</td>
+        <td><div class="solution"><b>Solution:</b> No cleaning action needed. Confirm this by selecting the column and checking Power Query's column quality bar (View tab, Column Quality) reads 100% valid before moving on.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Department Code</td>
+        <td>One or two rows carry a code with no match on Company Structure.</td>
+        <td><div class="solution"><b>Solution:</b> In Power Query, select the "Internal Control" query, then Home, Merge Queries. Merge it with the Company Structure query, matching "Department Code" to Department Code, and set the Join Kind to Left Anti. This isolates every row whose department code does not exist on Company Structure. Correct each one against the real Company Structure list, or flag it for the department to confirm.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Audit Date</td>
+        <td>Mixed date formats.</td>
+        <td><div class="solution"><b>Solution:</b> Select the "Audit Date" column. Go to Transform, Data Type, and choose Date. Power Query will convert every value it can parse automatically and mark the rest as errors. For the rows that error, usually the written format like "12 May 2021", use Add Column, Custom Column with Date.FromText([Audit Date]) to force a parse, or first split out the written values with a filter, standardize them, and merge them back in before setting the final Date type on the whole column.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Severity</td>
+        <td>Inconsistent capitalization and one row using "Major" instead of an agreed severity level.</td>
+        <td><div class="solution"><b>Solution:</b> Select the "Severity" column. Apply Transform, Format, Trim to remove leading and trailing spaces, then Transform, Format, Capitalize Each Word (or Lowercase / Uppercase, whichever the business has agreed as the standard) to make every value consistent.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Status</td>
+        <td>Inconsistent capitalization.</td>
+        <td><div class="solution"><b>Solution:</b> Select the "Status" column. Apply Transform, Format, Trim to remove leading and trailing spaces, then Transform, Format, Capitalize Each Word (or Lowercase / Uppercase, whichever the business has agreed as the standard) to make every value consistent.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Target Closure Date</td>
+        <td>Mixed date formats.</td>
+        <td><div class="solution"><b>Solution:</b> Select the "Target Closure Date" column. Go to Transform, Data Type, and choose Date. Power Query will convert every value it can parse automatically and mark the rest as errors. For the rows that error, usually the written format like "12 May 2021", use Add Column, Custom Column with Date.FromText([Target Closure Date]) to force a parse, or first split out the written values with a filter, standardize them, and merge them back in before setting the final Date type on the whole column.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Actual Closure Date</td>
+        <td>A few rows show an actual closure date earlier than the audit date, a logical impossibility.</td>
+        <td><div class="solution"><b>Solution:</b> Add a Custom Column (Add Column, Custom Column) that tests whether the relevant end date is earlier than the relevant start date, for example [End Date] &lt; [Start Date]. Filter the new column to TRUE to isolate every logically impossible row. These cannot be auto corrected safely, each one needs to go back to whoever entered it for confirmation of the real date.</div></td>
+      </tr>
+        </table>
+
+        <h3 class="section-title">2. Relationship Solutions (Power BI Model View)</h3>
+        
+      <div class="rel-card"><b>Employee ID &rarr; Human Resources</b> (many-to-one)
+        <div class="solution"><b>Solution:</b> Open Power BI Desktop, go to Model view. Drag "Employee ID" from "Internal Control" onto the matching key column on "Human Resources". Confirm the relationship shows the correct cardinality (many-to-one) and the cross filter direction is set to Single, unless a specific visual genuinely requires Both.</div>
+      </div>
+      <div class="rel-card"><b>Department Code &rarr; Company Structure</b> (many-to-one)
+        <div class="solution"><b>Solution:</b> Open Power BI Desktop, go to Model view. Drag "Department Code" from "Internal Control" onto the matching key column on "Company Structure". Confirm the relationship shows the correct cardinality (many-to-one) and the cross filter direction is set to Single, unless a specific visual genuinely requires Both.</div>
+      </div>
+
+        <h3 class="section-title">3. DAX Measure Solutions</h3>
+        
+      <div class="dax-card"><b>Open Findings</b>
+      <code>Open Findings = CALCULATE(COUNTROWS('Internal Control'), 'Internal Control'[Status] = "Open")</code>
+      <div class="purpose">Purpose: Current audit backlog. Build this in Power BI Desktop: Modeling tab, New Measure, paste the formula above, then press Enter.</div></div>
+      <div class="dax-card"><b>Overdue Findings</b>
+      <code>Overdue Findings = CALCULATE(COUNTROWS('Internal Control'), 'Internal Control'[Status] = "Overdue")</code>
+      <div class="purpose">Purpose: The number that should drive the most urgent management attention. Build this in Power BI Desktop: Modeling tab, New Measure, paste the formula above, then press Enter.</div></div>
+      <div class="dax-card"><b>Critical or High Open Findings</b>
+      <code>Critical or High Open Findings = CALCULATE(COUNTROWS('Internal Control'), 'Internal Control'[Status] &lt;&gt; "Remediated", 'Internal Control'[Severity] IN {"Critical", "High"})</code>
+      <div class="purpose">Purpose: Filters straight to the highest-priority open risk. Build this in Power BI Desktop: Modeling tab, New Measure, paste the formula above, then press Enter.</div></div>
+      <div class="dax-card"><b>Average Days to Remediate</b>
+      <code>Average Days to Remediate = AVERAGEX(FILTER('Internal Control', NOT(ISBLANK('Internal Control'[Actual Closure Date]))), DATEDIFF('Internal Control'[Audit Date], 'Internal Control'[Actual Closure Date], DAY))</code>
+      <div class="purpose">Purpose: Shows how quickly departments actually close out findings. Build this in Power BI Desktop: Modeling tab, New Measure, paste the formula above, then press Enter.</div></div>
+
+        <h3 class="section-title">4. Dashboard Build Solutions: "Internal Control Findings Dashboard"</h3>
+        <div class="viz-grid">
+      <div class="viz-card"><span class="vtype">Donut chart</span><h4>Findings by Severity</h4>
+      <p><b>Fields:</b> Legend: Severity. Values: count of Finding ID.</p>
+      <div class="solution"><b>Build steps:</b> On the Report view canvas, select the Donut chart icon from the Visualizations pane. Drag the fields listed above into the Axis, Legend, and Values wells as appropriate for this chart type. Format the visual: Format pane, turn on Data labels, set the title to "Findings by Severity", and apply the Internal Control Findings Dashboard page's consistent color theme. Purpose: A quick view of the overall risk profile of open findings.</div></div>
+      <div class="viz-card"><span class="vtype">Bar chart</span><h4>Findings by Department</h4>
+      <p><b>Fields:</b> Axis: Department Name (via relationship). Values: count of Finding ID.</p>
+      <div class="solution"><b>Build steps:</b> On the Report view canvas, select the Bar chart icon from the Visualizations pane. Drag the fields listed above into the Axis, Legend, and Values wells as appropriate for this chart type. Format the visual: Format pane, turn on Data labels, set the title to "Findings by Department", and apply the Internal Control Findings Dashboard page's consistent color theme. Purpose: Shows which departments generate the most audit findings.</div></div>
+      <div class="viz-card"><span class="vtype">Line chart</span><h4>Remediation Trend</h4>
+      <p><b>Fields:</b> Axis: Audit Date (by month). Values: Average Days to Remediate.</p>
+      <div class="solution"><b>Build steps:</b> On the Report view canvas, select the Line chart icon from the Visualizations pane. Drag the fields listed above into the Axis, Legend, and Values wells as appropriate for this chart type. Format the visual: Format pane, turn on Data labels, set the title to "Remediation Trend", and apply the Internal Control Findings Dashboard page's consistent color theme. Purpose: Tracks whether remediation is getting faster or slower over time.</div></div>
+      <div class="viz-card"><span class="vtype">Table</span><h4>Overdue Findings Table</h4>
+      <p><b>Fields:</b> Rows: Finding ID, Department, Severity, Target Closure Date. Filter: Status = Overdue.</p>
+      <div class="solution"><b>Build steps:</b> On the Report view canvas, select the Table icon from the Visualizations pane. Drag the fields listed above into the Axis, Legend, and Values wells as appropriate for this chart type. Format the visual: Format pane, turn on Data labels, set the title to "Overdue Findings Table", and apply the Internal Control Findings Dashboard page's consistent color theme. Purpose: A direct, actionable worklist for management follow-up.</div></div>
+      <div class="viz-card"><span class="vtype">Matrix with conditional formatting</span><h4>Severity by Department Matrix</h4>
+      <p><b>Fields:</b> Rows: Department Name. Columns: Severity. Values: count of Finding ID.</p>
+      <div class="solution"><b>Build steps:</b> On the Report view canvas, select the Matrix with conditional formatting icon from the Visualizations pane. Drag the fields listed above into the Axis, Legend, and Values wells as appropriate for this chart type. Format the visual: Format pane, turn on Data labels, set the title to "Severity by Department Matrix", and apply the Internal Control Findings Dashboard page's consistent color theme. Purpose: Pinpoints exactly where the most serious risk concentration sits.</div></div></div>
+      </div>
+    </section>
+
+    <section class="dept" id="RISK" style="--accent:#5B4FCF">
+      <div class="dept-head" style="border-left-color:#5B4FCF">
+        <h2>Risk Management and Compliance</h2>
+        <p>The company risk register: every identified risk, its owner, likelihood, impact, and current mitigation status.</p>
+      </div>
+      <div class="dept-body">
+        <h3 class="section-title">1. Column By Column Cleaning Solutions (Power Query)</h3>
+        <table>
+          <tr><th>Column</th><th>Problem</th><th>Detailed Solution</th></tr>
+          
+      <tr>
+        <td class="colname">Risk ID</td>
+        <td>Clean.</td>
+        <td><div class="solution"><b>Solution:</b> No cleaning action needed. Confirm this by selecting the column and checking Power Query's column quality bar (View tab, Column Quality) reads 100% valid before moving on.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Employee ID</td>
+        <td>Clean.</td>
+        <td><div class="solution"><b>Solution:</b> No cleaning action needed. Confirm this by selecting the column and checking Power Query's column quality bar (View tab, Column Quality) reads 100% valid before moving on.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Department Code</td>
+        <td>A small number of blank cells.</td>
+        <td><div class="solution"><b>Solution:</b> Select the "Department Code" column. Right click the column header, choose Replace Values, and apply your agreed rule: replace blank with a specific default value if one is defensible, or leave the row identifiable for a filter based exception report if the true value cannot be assumed. Do not silently delete rows with blanks in this column without checking whether the blank itself is meaningful.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Risk Category</td>
+        <td>Inconsistent capitalization.</td>
+        <td><div class="solution"><b>Solution:</b> Select the "Risk Category" column. Apply Transform, Format, Trim to remove leading and trailing spaces, then Transform, Format, Capitalize Each Word (or Lowercase / Uppercase, whichever the business has agreed as the standard) to make every value consistent.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Likelihood</td>
+        <td>Recorded inconsistently, some rows use a 1 to 5 numeric scale, others use text values like "High", "Medium", and "Low", for the same underlying scale.</td>
+        <td><div class="solution"><b>Solution:</b> Add a Conditional Column (Add Column, Conditional Column) that maps every text value to its numeric equivalent on an agreed scale, for example "Low" maps to 1 or 2, "Medium" maps to 3, "High" maps to 4 or 5. Where the column is already numeric, leave the value as is. Replace the original column with this new, fully numeric column so every row uses one consistent scale.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Impact</td>
+        <td>The same numeric-versus-text inconsistency as the Likelihood column.</td>
+        <td><div class="solution"><b>Solution:</b> Select the "Impact" column and review the Power Query column quality and column distribution bars (View tab) to see exactly which rows are inconsistent, then apply the appropriate Transform step, Replace Values, Data Type change, or Trim and Clean, until the column reads 100% valid.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Risk Score</td>
+        <td>A number of rows are blank, where the score was never calculated after Likelihood and Impact were recorded.</td>
+        <td><div class="solution"><b>Solution:</b> Select the "Risk Score" column. Right click the column header, choose Replace Values, and apply your agreed rule: replace blank with a specific default value if one is defensible, or leave the row identifiable for a filter based exception report if the true value cannot be assumed. Do not silently delete rows with blanks in this column without checking whether the blank itself is meaningful.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Status</td>
+        <td>Inconsistent capitalization.</td>
+        <td><div class="solution"><b>Solution:</b> Select the "Status" column. Apply Transform, Format, Trim to remove leading and trailing spaces, then Transform, Format, Capitalize Each Word (or Lowercase / Uppercase, whichever the business has agreed as the standard) to make every value consistent.</div></td>
+      </tr>
+      <tr>
+        <td class="colname">Review Date</td>
+        <td>Mixed date formats.</td>
+        <td><div class="solution"><b>Solution:</b> Select the "Review Date" column. Go to Transform, Data Type, and choose Date. Power Query will convert every value it can parse automatically and mark the rest as errors. For the rows that error, usually the written format like "12 May 2021", use Add Column, Custom Column with Date.FromText([Review Date]) to force a parse, or first split out the written values with a filter, standardize them, and merge them back in before setting the final Date type on the whole column.</div></td>
+      </tr>
+        </table>
+
+        <h3 class="section-title">2. Relationship Solutions (Power BI Model View)</h3>
+        
+      <div class="rel-card"><b>Employee ID &rarr; Human Resources</b> (many-to-one)
+        <div class="solution"><b>Solution:</b> Open Power BI Desktop, go to Model view. Drag "Employee ID" from "Risk Management and Compliance" onto the matching key column on "Human Resources". Confirm the relationship shows the correct cardinality (many-to-one) and the cross filter direction is set to Single, unless a specific visual genuinely requires Both.</div>
+      </div>
+      <div class="rel-card"><b>Department Code &rarr; Company Structure</b> (many-to-one)
+        <div class="solution"><b>Solution:</b> Open Power BI Desktop, go to Model view. Drag "Department Code" from "Risk Management and Compliance" onto the matching key column on "Company Structure". Confirm the relationship shows the correct cardinality (many-to-one) and the cross filter direction is set to Single, unless a specific visual genuinely requires Both.</div>
+      </div>
+
+        <h3 class="section-title">3. DAX Measure Solutions</h3>
+        
+      <div class="dax-card"><b>Active Risks</b>
+      <code>Active Risks = CALCULATE(COUNTROWS('Risk Management and Compliance'), 'Risk Management and Compliance'[Status] = "Active")</code>
+      <div class="purpose">Purpose: The current live risk count. Build this in Power BI Desktop: Modeling tab, New Measure, paste the formula above, then press Enter.</div></div>
+      <div class="dax-card"><b>Average Risk Score</b>
+      <code>Average Risk Score = AVERAGE('Risk Management and Compliance'[Risk Score])</code>
+      <div class="purpose">Purpose: A single summary figure for the overall risk environment. Build this in Power BI Desktop: Modeling tab, New Measure, paste the formula above, then press Enter.</div></div>
+      <div class="dax-card"><b>High Severity Active Risks</b>
+      <code>High Severity Active Risks = CALCULATE(COUNTROWS('Risk Management and Compliance'), 'Risk Management and Compliance'[Status] = "Active", 'Risk Management and Compliance'[Risk Score] &gt;= 15)</code>
+      <div class="purpose">Purpose: Filters to the risks that most need board attention, assuming a 5 by 5 scoring scale. Build this in Power BI Desktop: Modeling tab, New Measure, paste the formula above, then press Enter.</div></div>
+      <div class="dax-card"><b>Risks Overdue for Review</b>
+      <code>Risks Overdue for Review = CALCULATE(COUNTROWS('Risk Management and Compliance'), 'Risk Management and Compliance'[Review Date] &lt; TODAY(), 'Risk Management and Compliance'[Status] = "Active")</code>
+      <div class="purpose">Purpose: A governance metric showing risks that have gone past their scheduled review. Build this in Power BI Desktop: Modeling tab, New Measure, paste the formula above, then press Enter.</div></div>
+
+        <h3 class="section-title">4. Dashboard Build Solutions: "Risk Register Dashboard"</h3>
+        <div class="viz-grid">
+      <div class="viz-card"><span class="vtype">Matrix or scatter chart</span><h4>Risk Heat Map</h4>
+      <p><b>Fields:</b> Rows/Axis: Likelihood. Columns/Axis: Impact. Values: count of Risk ID.</p>
+      <div class="solution"><b>Build steps:</b> On the Report view canvas, select the Matrix or scatter chart icon from the Visualizations pane. Drag the fields listed above into the Axis, Legend, and Values wells as appropriate for this chart type. Format the visual: Format pane, turn on Data labels, set the title to "Risk Heat Map", and apply the Risk Register Dashboard page's consistent color theme. Purpose: The classic risk heat map, only possible once Likelihood and Impact are standardized to one numeric scale.</div></div>
+      <div class="viz-card"><span class="vtype">Bar chart</span><h4>Risks by Category</h4>
+      <p><b>Fields:</b> Axis: Risk Category. Values: Active Risks.</p>
+      <div class="solution"><b>Build steps:</b> On the Report view canvas, select the Bar chart icon from the Visualizations pane. Drag the fields listed above into the Axis, Legend, and Values wells as appropriate for this chart type. Format the visual: Format pane, turn on Data labels, set the title to "Risks by Category", and apply the Risk Register Dashboard page's consistent color theme. Purpose: Shows where risk is concentrated across the business.</div></div>
+      <div class="viz-card"><span class="vtype">Column chart</span><h4>Risks by Department</h4>
+      <p><b>Fields:</b> Axis: Department Name (via relationship). Values: Average Risk Score.</p>
+      <div class="solution"><b>Build steps:</b> On the Report view canvas, select the Column chart icon from the Visualizations pane. Drag the fields listed above into the Axis, Legend, and Values wells as appropriate for this chart type. Format the visual: Format pane, turn on Data labels, set the title to "Risks by Department", and apply the Risk Register Dashboard page's consistent color theme. Purpose: Shows which departments carry the highest average risk severity.</div></div>
+      <div class="viz-card"><span class="vtype">Table</span><h4>Overdue Reviews Table</h4>
+      <p><b>Fields:</b> Rows: Risk ID, Department, Risk Category, Review Date. Filter: Risks Overdue for Review.</p>
+      <div class="solution"><b>Build steps:</b> On the Report view canvas, select the Table icon from the Visualizations pane. Drag the fields listed above into the Axis, Legend, and Values wells as appropriate for this chart type. Format the visual: Format pane, turn on Data labels, set the title to "Overdue Reviews Table", and apply the Risk Register Dashboard page's consistent color theme. Purpose: A direct governance worklist for the compliance function.</div></div>
+      <div class="viz-card"><span class="vtype">Line chart</span><h4>Risk Trend Over Time</h4>
+      <p><b>Fields:</b> Axis: Review Date (by quarter). Values: Average Risk Score.</p>
+      <div class="solution"><b>Build steps:</b> On the Report view canvas, select the Line chart icon from the Visualizations pane. Drag the fields listed above into the Axis, Legend, and Values wells as appropriate for this chart type. Format the visual: Format pane, turn on Data labels, set the title to "Risk Trend Over Time", and apply the Risk Register Dashboard page's consistent color theme. Purpose: Tracks whether the overall risk profile is improving or worsening.</div></div></div>
+      </div>
+    </section>
+</main>
+<div class="footer">Polysmart Packaging Limited &middot; Day Three Training &middot; File 2 of 2, Complete Solutions</div>
+</body></html>

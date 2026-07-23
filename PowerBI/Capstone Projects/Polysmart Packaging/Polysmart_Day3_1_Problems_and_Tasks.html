@@ -1,0 +1,1144 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><title>Polysmart Packaging Limited - Day Three Problems and Tasks</title>
+<style>
+:root{
+  --navy:#12203A; --teal:#0E7C7B; --indigo:#5B4FCF; --coral:#E8593F; --amber:#F2A541;
+  --light:#F5F7FB; --line:#E3E9EE; --dark:#1F2937; --muted:#5B6B7C;
+}
+*{box-sizing:border-box;}
+body{font-family:'Calibri','Segoe UI',Arial,sans-serif;margin:0;background:var(--light);color:var(--dark);line-height:1.5;}
+.hero{background:var(--navy);color:#fff;padding:56px 40px 40px;}
+.hero .tag{display:inline-block;background:var(--amber);color:var(--navy);font-weight:700;font-size:12px;letter-spacing:1.5px;padding:6px 14px;border-radius:20px;text-transform:uppercase;margin-bottom:16px;}
+.hero h1{font-family:Cambria,Georgia,serif;font-size:38px;margin:0 0 10px;}
+.hero p{font-size:16px;color:#CADCFC;max-width:900px;margin:0;}
+.stats{display:flex;gap:32px;margin-top:28px;flex-wrap:wrap;}
+.stats div{text-align:left;}
+.stats .n{font-family:Cambria,Georgia,serif;font-size:30px;font-weight:700;color:var(--amber);}
+.stats .l{font-size:12px;color:#CADCFC;}
+nav{background:#fff;border-bottom:1px solid var(--line);padding:18px 40px;position:sticky;top:0;z-index:10;box-shadow:0 2px 8px rgba(0,0,0,0.04);}
+nav a{display:inline-block;margin:4px 10px 4px 0;padding:7px 14px;border-radius:20px;background:var(--light);color:var(--navy);text-decoration:none;font-size:13px;font-weight:600;border:1px solid var(--line);}
+nav a:hover{background:var(--teal);color:#fff;}
+main{max-width:1100px;margin:0 auto;padding:40px;}
+section.dept{background:#fff;border:1px solid var(--line);border-radius:12px;margin-bottom:36px;overflow:hidden;scroll-margin-top:90px;}
+.dept-head{background:var(--navy);color:#fff;padding:22px 30px;border-left:8px solid var(--accent,var(--teal));}
+.dept-head h2{font-family:Cambria,Georgia,serif;font-size:26px;margin:0 0 6px;}
+.dept-head p{margin:0;color:#CADCFC;font-size:14px;}
+.dept-body{padding:26px 30px;}
+h3.section-title{font-size:15px;text-transform:uppercase;letter-spacing:1px;color:var(--teal);border-bottom:2px solid var(--line);padding-bottom:8px;margin:28px 0 14px;}
+table{width:100%;border-collapse:collapse;margin-bottom:8px;font-size:13.5px;}
+th{background:var(--navy);color:#fff;text-align:left;padding:10px 12px;font-size:12px;text-transform:uppercase;letter-spacing:0.5px;}
+td{padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top;}
+tr:nth-child(even) td{background:var(--light);}
+td.colname{font-weight:700;color:var(--navy);white-space:nowrap;}
+.badge{display:inline-block;font-size:10.5px;font-weight:700;padding:2px 8px;border-radius:10px;background:var(--light);color:var(--muted);border:1px solid var(--line);}
+.rel-card,.dax-card,.dash-card{background:var(--light);border:1px solid var(--line);border-radius:8px;padding:14px 16px;margin-bottom:10px;}
+.dax-card code{display:block;background:#fff;border:1px solid var(--line);border-radius:6px;padding:10px 12px;margin-top:8px;font-family:Consolas,'Courier New',monospace;font-size:12.5px;color:var(--indigo);white-space:pre-wrap;}
+.dax-card .purpose{margin-top:8px;font-size:13px;color:var(--muted);}
+.dashboard-title{font-family:Cambria,Georgia,serif;font-size:19px;color:var(--navy);margin:0 0 4px;}
+.viz-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:12px;}
+.viz-card{background:#fff;border:1px solid var(--line);border-radius:8px;padding:12px 14px;}
+.viz-card .vtype{display:inline-block;font-size:10.5px;font-weight:700;color:#fff;background:var(--indigo);padding:2px 8px;border-radius:10px;margin-bottom:6px;}
+.viz-card h4{margin:0 0 4px;font-size:14px;color:var(--navy);}
+.viz-card p{margin:2px 0;font-size:12.5px;color:var(--muted);}
+.solution{background:#EEF7F0;border:1px solid #C9E7D2;border-radius:8px;padding:12px 14px;margin-top:6px;font-size:13px;color:#0E5B3A;}
+.solution b{color:#0E7C4E;}
+.footer{text-align:center;padding:30px;color:var(--muted);font-size:12px;}
+.toc-title{font-weight:700;margin-right:14px;color:var(--navy);}
+.file-note{background:#FFF6E8;border:1px solid #F2D89A;border-radius:8px;padding:16px 20px;margin:0 40px 20px;font-size:13.5px;color:#8A5A00;}
+</style></head>
+<body>
+<div class="hero">
+  <span class="tag">File 1 of 2 · Problems and Tasks</span>
+  <h1>Data Cleaning and Dashboard Build Brief</h1>
+  <p>Polysmart Packaging Limited, Day Three Training. Ten departments, each with a real dataset, real data problems, and a real dashboard to build. This file states the problem and the task. It does not give you the answer, use the accompanying Solutions file only after you have attempted each task yourself.</p>
+  <div class="stats"><div><div class="n">10</div><div class="l">Departments</div></div><div><div class="n">91</div><div class="l">Columns Documented</div></div><div><div class="n">40</div><div class="l">DAX Measures To Build</div></div><div><div class="n">50</div><div class="l">Dashboard Visuals To Build</div></div></div>
+</div>
+<nav><span class="toc-title">Jump to a department:</span><a href="#HR">Human Resources</a><a href="#ADMIN">Admin</a><a href="#OPS">Operations</a><a href="#SUPPLY">Supply Chain</a><a href="#CS">Customer Service</a><a href="#IT">Information Technology</a><a href="#FIN">Accounts and Finance</a><a href="#LEGAL">Legal</a><a href="#IC">Internal Control</a><a href="#RISK">Risk Management and Compliance</a></nav>
+<div class="file-note">Reminder: the Company Structure sheet and the Human Resources sheet together form the hub every other department connects through. Human Resources should always be the first sheet you clean.</div>
+<main>
+
+    <section class="dept" id="HR" style="--accent:#0E7C7B">
+      <div class="dept-head" style="border-left-color:#0E7C7B">
+        <h2>Human Resources</h2>
+        <p>The employee master. Every other department sheet references this table through Employee ID, so the quality of this sheet's cleaning directly determines whether every relationship in the data model works correctly.</p>
+      </div>
+      <div class="dept-body">
+        <h3 class="section-title">1. Columns, Problems, and Cleaning Tasks (Power Query)</h3>
+        <table>
+          <tr><th>Column</th><th>Type</th><th>What It Means</th><th>Problem In The Data</th><th>Your Task</th></tr>
+          
+      <tr>
+        <td class="colname">Employee ID</td>
+        <td><span class="badge">id</span></td>
+        <td>The unique identifier for every staff member, format EMP-0001. This is the single most important column in the entire workbook, every other sheet joins back to it.</td>
+        <td>A small number of employees appear twice, entered on two different dates with a slightly different name spelling each time.</td>
+        <td>Identify and remove the duplicate employee rows, keeping the more complete and more recent entry.</td>
+      </tr>
+      <tr>
+        <td class="colname">Full Name</td>
+        <td><span class="badge">text</span></td>
+        <td>The employee's full name.</td>
+        <td>Inconsistent casing throughout: some names in lowercase, some in full capitals, some with leading or trailing spaces.</td>
+        <td>Standardize every name to proper case and trim all leading and trailing whitespace.</td>
+      </tr>
+      <tr>
+        <td class="colname">Department Code</td>
+        <td><span class="badge">id</span></td>
+        <td>Links this employee to their department on the Company Structure sheet.</td>
+        <td>A handful of rows carry a department code that does not exist on the Company Structure sheet, either mistyped or left over from a department that was renamed.</td>
+        <td>Identify every Department Code that has no match on Company Structure and correct or flag it.</td>
+      </tr>
+      <tr>
+        <td class="colname">Job Title</td>
+        <td><span class="badge">text</span></td>
+        <td>The employee's current job title.</td>
+        <td>Minor inconsistency in abbreviation, for example "Mgr" versus "Manager".</td>
+        <td>Standardize job title abbreviations to full words.</td>
+      </tr>
+      <tr>
+        <td class="colname">Date of Hire</td>
+        <td><span class="badge">date</span></td>
+        <td>The date the employee joined the company.</td>
+        <td>Three different date formats appear in the same column: DD/MM/YYYY, YYYY-MM-DD, and a written format like "12 May 2021".</td>
+        <td>Convert every value in this column to a single, consistent date type.</td>
+      </tr>
+      <tr>
+        <td class="colname">Employment Status</td>
+        <td><span class="badge">text</span></td>
+        <td>Whether the employee is Active, Resigned, or Terminated.</td>
+        <td>Inconsistent casing and stray spaces: "active", "ACTIVE", "Active ".</td>
+        <td>Standardize to a single consistent capitalization with no trailing spaces.</td>
+      </tr>
+      <tr>
+        <td class="colname">Gender</td>
+        <td><span class="badge">text</span></td>
+        <td>The employee's gender.</td>
+        <td>Recorded inconsistently as "M"/"F" in some rows and "Male"/"Female" in others.</td>
+        <td>Standardize to one consistent format across the whole column.</td>
+      </tr>
+      <tr>
+        <td class="colname">Monthly Salary (NGN)</td>
+        <td><span class="badge">currency</span></td>
+        <td>The employee's gross monthly salary in Naira.</td>
+        <td>Stored as a mix of plain numbers, numbers with commas, and text values with a currency symbol, for example 150000, "150,000", and "N150,000".</td>
+        <td>Remove all text and currency symbols and convert the entire column to a clean numeric type.</td>
+      </tr>
+      <tr>
+        <td class="colname">Leave Days Remaining</td>
+        <td><span class="badge">number</span></td>
+        <td>The employee's remaining annual leave balance in days.</td>
+        <td>A number of rows are blank, and one row shows a negative value, which is not logically possible for a remaining balance.</td>
+        <td>Decide a rule for blank values, and flag or investigate the negative value rather than silently deleting it.</td>
+      </tr>
+      <tr>
+        <td class="colname">Phone Number</td>
+        <td><span class="badge">text</span></td>
+        <td>The employee's contact phone number.</td>
+        <td>Recorded in at least three different formats: "08012345678", "+2348012345678", and "0801-234-5678".</td>
+        <td>Standardize every phone number to one consistent format.</td>
+      </tr>
+        </table>
+
+        <h3 class="section-title">2. Relationships To Build (Power BI Model View)</h3>
+        
+      <div class="rel-card"><b>Department Code</b> connects to <b>Company Structure</b> (many-to-one). Many employees belong to one department.
+      <div style="margin-top:6px;font-size:12.5px;color:var(--muted);">Task: build this relationship in Power BI's Model view before creating any visual that spans both tables.</div></div>
+      <div class="rel-card"><b>Employee ID</b> connects to <b>every other department sheet</b> (one-to-many). This is the central relationship of the entire data model. Every fact table below has at least one Employee ID column pointing back to this table.
+      <div style="margin-top:6px;font-size:12.5px;color:var(--muted);">Task: build this relationship in Power BI's Model view before creating any visual that spans both tables.</div></div>
+
+        <h3 class="section-title">3. DAX Measures To Design</h3>
+        
+      <div class="dax-card"><b>Total Active Employees</b>
+      <div class="purpose">Task: design a DAX measure that achieves this. Purpose: Headcount used on almost every HR visual.</div></div>
+      <div class="dax-card"><b>Average Tenure (Years)</b>
+      <div class="purpose">Task: design a DAX measure that achieves this. Purpose: Shows how experienced the current workforce is, department by department.</div></div>
+      <div class="dax-card"><b>Total Monthly Payroll</b>
+      <div class="purpose">Task: design a DAX measure that achieves this. Purpose: The headline payroll cost figure, sliceable by department once the relationship is active.</div></div>
+      <div class="dax-card"><b>Average Leave Days Remaining</b>
+      <div class="purpose">Task: design a DAX measure that achieves this. Purpose: Flags departments where staff are not taking their entitled leave.</div></div>
+
+        <h3 class="section-title">4. Dashboard To Build: "Workforce Overview Dashboard"</h3>
+        <div class="viz-grid">
+      <div class="viz-card"><span class="vtype">Clustered bar chart</span><h4>Headcount by Department</h4>
+      <p><b>Fields needed:</b> Axis: Department Name (from Company Structure via relationship). Values: Total Active Employees.</p><p><b>Purpose:</b> Immediately shows where the workforce is concentrated.</p></div>
+      <div class="viz-card"><span class="vtype">Line chart</span><h4>Headcount Trend</h4>
+      <p><b>Fields needed:</b> Axis: Date of Hire (by month/year). Values: running count of Employee ID.</p><p><b>Purpose:</b> Shows hiring pace and growth over time.</p></div>
+      <div class="viz-card"><span class="vtype">Stacked column chart</span><h4>Payroll by Department</h4>
+      <p><b>Fields needed:</b> Axis: Department Name. Values: Total Monthly Payroll.</p><p><b>Purpose:</b> Connects headcount directly to cost, the number management asks for most.</p></div>
+      <div class="viz-card"><span class="vtype">Table with data bars</span><h4>Leave Balance Distribution</h4>
+      <p><b>Fields needed:</b> Rows: Employee, Department. Values: Average Leave Days Remaining, conditional formatted.</p><p><b>Purpose:</b> Surfaces employees at risk of losing unused leave, and departments not enforcing leave policy.</p></div>
+      <div class="viz-card"><span class="vtype">Donut chart plus KPI cards</span><h4>Gender Split Card Set</h4>
+      <p><b>Fields needed:</b> Legend: Gender. Values: Total Active Employees.</p><p><b>Purpose:</b> A quick diversity snapshot for the workforce overview page.</p></div></div>
+      </div>
+    </section>
+
+    <section class="dept" id="ADMIN" style="--accent:#5B4FCF">
+      <div class="dept-head" style="border-left-color:#5B4FCF">
+        <h2>Admin</h2>
+        <p>Tracks facility, asset, travel, and stationery requests raised across the business. Every request is tied back to the employee who raised it.</p>
+      </div>
+      <div class="dept-body">
+        <h3 class="section-title">1. Columns, Problems, and Cleaning Tasks (Power Query)</h3>
+        <table>
+          <tr><th>Column</th><th>Type</th><th>What It Means</th><th>Problem In The Data</th><th>Your Task</th></tr>
+          
+      <tr>
+        <td class="colname">Request ID</td>
+        <td><span class="badge">id</span></td>
+        <td>The unique identifier for every admin request, format ADM-0001.</td>
+        <td>Clean, no duplicates found in this column.</td>
+        <td>Confirm the ID column has no duplicates before building any visual on it.</td>
+      </tr>
+      <tr>
+        <td class="colname">Employee ID</td>
+        <td><span class="badge">id</span></td>
+        <td>The employee who raised the request, links back to Human Resources.</td>
+        <td>A few rows carry an Employee ID with no match on the Human Resources sheet, an orphan foreign key.</td>
+        <td>Identify every Employee ID with no match on Human Resources and flag those rows.</td>
+      </tr>
+      <tr>
+        <td class="colname">Department Code</td>
+        <td><span class="badge">id</span></td>
+        <td>The department the request was raised for, links to Company Structure.</td>
+        <td>A small number of blank cells.</td>
+        <td>Decide and apply a rule for filling or flagging blank department codes.</td>
+      </tr>
+      <tr>
+        <td class="colname">Request Type</td>
+        <td><span class="badge">text</span></td>
+        <td>The category of the request: Maintenance, Stationery, Travel, or Asset.</td>
+        <td>Inconsistent capitalization across rows.</td>
+        <td>Standardize the category text to consistent capitalization.</td>
+      </tr>
+      <tr>
+        <td class="colname">Vendor Name</td>
+        <td><span class="badge">text</span></td>
+        <td>The external vendor fulfilling the request, where applicable.</td>
+        <td>The same vendor appears written multiple different ways, for example "ABC Ventures", "abc ventures ltd", and "ABC Ventures Limited".</td>
+        <td>Standardize vendor names so the same real vendor is written identically every time.</td>
+      </tr>
+      <tr>
+        <td class="colname">Request Date</td>
+        <td><span class="badge">date</span></td>
+        <td>The date the request was raised.</td>
+        <td>Mixed date formats, some as real dates and some stored as text.</td>
+        <td>Convert the entire column to one consistent date type.</td>
+      </tr>
+      <tr>
+        <td class="colname">Completion Date</td>
+        <td><span class="badge">date</span></td>
+        <td>The date the request was completed, blank if still pending.</td>
+        <td>A few rows show a completion date earlier than the request date, a logical impossibility.</td>
+        <td>Identify and flag every row where completion date is before request date.</td>
+      </tr>
+      <tr>
+        <td class="colname">Cost (NGN)</td>
+        <td><span class="badge">currency</span></td>
+        <td>The cost associated with fulfilling the request.</td>
+        <td>Mixed currency formatting, some with the Naira symbol, some plain numbers, one or two with stray spaces.</td>
+        <td>Clean the column to a single consistent numeric currency format.</td>
+      </tr>
+      <tr>
+        <td class="colname">Status</td>
+        <td><span class="badge">text</span></td>
+        <td>Pending, Approved, Rejected, or Completed.</td>
+        <td>Inconsistent casing and a couple of trailing spaces.</td>
+        <td>Standardize status values to one consistent set.</td>
+      </tr>
+        </table>
+
+        <h3 class="section-title">2. Relationships To Build (Power BI Model View)</h3>
+        
+      <div class="rel-card"><b>Employee ID</b> connects to <b>Human Resources</b> (many-to-one).
+      <div style="margin-top:6px;font-size:12.5px;color:var(--muted);">Task: build this relationship in Power BI's Model view before creating any visual that spans both tables.</div></div>
+      <div class="rel-card"><b>Department Code</b> connects to <b>Company Structure</b> (many-to-one).
+      <div style="margin-top:6px;font-size:12.5px;color:var(--muted);">Task: build this relationship in Power BI's Model view before creating any visual that spans both tables.</div></div>
+
+        <h3 class="section-title">3. DAX Measures To Design</h3>
+        
+      <div class="dax-card"><b>Total Requests</b>
+      <div class="purpose">Task: design a DAX measure that achieves this. Purpose: Baseline volume metric for the whole dashboard.</div></div>
+      <div class="dax-card"><b>Open Requests</b>
+      <div class="purpose">Task: design a DAX measure that achieves this. Purpose: Shows current backlog at a glance.</div></div>
+      <div class="dax-card"><b>Average Cost per Request</b>
+      <div class="purpose">Task: design a DAX measure that achieves this. Purpose: Tracks whether request costs are drifting upward over time.</div></div>
+      <div class="dax-card"><b>Average Turnaround Days</b>
+      <div class="purpose">Task: design a DAX measure that achieves this. Purpose: The single most useful admin service level metric.</div></div>
+
+        <h3 class="section-title">4. Dashboard To Build: "Admin Requests Dashboard"</h3>
+        <div class="viz-grid">
+      <div class="viz-card"><span class="vtype">Pie chart</span><h4>Requests by Type</h4>
+      <p><b>Fields needed:</b> Legend: Request Type. Values: Total Requests.</p><p><b>Purpose:</b> Shows what admin actually spends most of its time on.</p></div>
+      <div class="viz-card"><span class="vtype">Bar chart</span><h4>Requests by Department</h4>
+      <p><b>Fields needed:</b> Axis: Department Name. Values: Total Requests.</p><p><b>Purpose:</b> Shows which departments generate the most admin workload.</p></div>
+      <div class="viz-card"><span class="vtype">Line chart</span><h4>Turnaround Time Trend</h4>
+      <p><b>Fields needed:</b> Axis: Request Date (by month). Values: Average Turnaround Days.</p><p><b>Purpose:</b> Tracks whether service levels are improving or slipping.</p></div>
+      <div class="viz-card"><span class="vtype">Clustered column chart</span><h4>Cost by Vendor</h4>
+      <p><b>Fields needed:</b> Axis: Vendor Name. Values: Cost (NGN) summed.</p><p><b>Purpose:</b> Only meaningful once vendor names are fully standardized, a direct payoff of the cleaning step.</p></div>
+      <div class="viz-card"><span class="vtype">Table</span><h4>Open Requests Table</h4>
+      <p><b>Fields needed:</b> Rows: Request ID, Employee, Department, Request Type, Request Date. Filter: Status = Pending.</p><p><b>Purpose:</b> An actionable worklist, not just a summary chart.</p></div></div>
+      </div>
+    </section>
+
+    <section class="dept" id="OPS" style="--accent:#E8593F">
+      <div class="dept-head" style="border-left-color:#E8593F">
+        <h2>Operations</h2>
+        <p>The production floor's batch level log: what was produced, on which line, by which shift, and how many units were defective.</p>
+      </div>
+      <div class="dept-body">
+        <h3 class="section-title">1. Columns, Problems, and Cleaning Tasks (Power Query)</h3>
+        <table>
+          <tr><th>Column</th><th>Type</th><th>What It Means</th><th>Problem In The Data</th><th>Your Task</th></tr>
+          
+      <tr>
+        <td class="colname">Batch ID</td>
+        <td><span class="badge">id</span></td>
+        <td>The unique production batch identifier, format BATCH-0001.</td>
+        <td>A small number of duplicate Batch IDs, the same batch logged twice by two different shift supervisors.</td>
+        <td>Identify duplicate Batch IDs and remove the redundant entry.</td>
+      </tr>
+      <tr>
+        <td class="colname">Employee ID</td>
+        <td><span class="badge">id</span></td>
+        <td>The shift supervisor responsible for the batch, links to Human Resources.</td>
+        <td>Consistent, no orphan values found.</td>
+        <td>Confirm every Employee ID here matches a row on Human Resources before relying on it.</td>
+      </tr>
+      <tr>
+        <td class="colname">Department Code</td>
+        <td><span class="badge">id</span></td>
+        <td>Always Operations, links to Company Structure.</td>
+        <td>Clean.</td>
+        <td>None.</td>
+      </tr>
+      <tr>
+        <td class="colname">Production Line</td>
+        <td><span class="badge">text</span></td>
+        <td>Which production line the batch ran on: Line 1, Line 2, or Line 3.</td>
+        <td>Inconsistent formatting, for example "line 1", "Line1", "LINE 1".</td>
+        <td>Standardize production line naming to one consistent format.</td>
+      </tr>
+      <tr>
+        <td class="colname">Shift</td>
+        <td><span class="badge">text</span></td>
+        <td>Morning, Afternoon, or Night shift.</td>
+        <td>Inconsistent capitalization throughout.</td>
+        <td>Standardize shift naming to one consistent format.</td>
+      </tr>
+      <tr>
+        <td class="colname">Production Date</td>
+        <td><span class="badge">date</span></td>
+        <td>The date the batch was produced.</td>
+        <td>A mix of real date values and dates stored as text.</td>
+        <td>Convert the entire column to a single consistent date type.</td>
+      </tr>
+      <tr>
+        <td class="colname">Units Produced</td>
+        <td><span class="badge">number</span></td>
+        <td>The total number of units produced in the batch.</td>
+        <td>Some values stored as text with thousands separators, for example "1,200" instead of 1200.</td>
+        <td>Remove thousands separators and convert the column to a clean numeric type.</td>
+      </tr>
+      <tr>
+        <td class="colname">Defective Units</td>
+        <td><span class="badge">number</span></td>
+        <td>The number of units in the batch that failed quality inspection.</td>
+        <td>A few rows show Defective Units greater than Units Produced, which is logically impossible.</td>
+        <td>Identify and flag every row where Defective Units exceeds Units Produced.</td>
+      </tr>
+      <tr>
+        <td class="colname">Downtime Minutes</td>
+        <td><span class="badge">number</span></td>
+        <td>Minutes of unplanned downtime recorded during the batch.</td>
+        <td>A number of blank cells where no downtime was recorded.</td>
+        <td>Decide and apply a rule for blank downtime values, blank likely means zero, but confirm before assuming.</td>
+      </tr>
+        </table>
+
+        <h3 class="section-title">2. Relationships To Build (Power BI Model View)</h3>
+        
+      <div class="rel-card"><b>Employee ID</b> connects to <b>Human Resources</b> (many-to-one).
+      <div style="margin-top:6px;font-size:12.5px;color:var(--muted);">Task: build this relationship in Power BI's Model view before creating any visual that spans both tables.</div></div>
+      <div class="rel-card"><b>Department Code</b> connects to <b>Company Structure</b> (many-to-one).
+      <div style="margin-top:6px;font-size:12.5px;color:var(--muted);">Task: build this relationship in Power BI's Model view before creating any visual that spans both tables.</div></div>
+
+        <h3 class="section-title">3. DAX Measures To Design</h3>
+        
+      <div class="dax-card"><b>Total Units Produced</b>
+      <div class="purpose">Task: design a DAX measure that achieves this. Purpose: The headline production volume metric.</div></div>
+      <div class="dax-card"><b>Defect Rate</b>
+      <div class="purpose">Task: design a DAX measure that achieves this. Purpose: The single most important quality metric on the production floor.</div></div>
+      <div class="dax-card"><b>Total Downtime Hours</b>
+      <div class="purpose">Task: design a DAX measure that achieves this. Purpose: Converts raw downtime minutes into a management-friendly unit.</div></div>
+      <div class="dax-card"><b>Units per Downtime Hour</b>
+      <div class="purpose">Task: design a DAX measure that achieves this. Purpose: A simple efficiency indicator combining volume and downtime.</div></div>
+
+        <h3 class="section-title">4. Dashboard To Build: "Production Performance Dashboard"</h3>
+        <div class="viz-grid">
+      <div class="viz-card"><span class="vtype">Clustered bar chart</span><h4>Defect Rate by Line</h4>
+      <p><b>Fields needed:</b> Axis: Production Line. Values: Defect Rate.</p><p><b>Purpose:</b> Immediately shows which line needs quality attention.</p></div>
+      <div class="viz-card"><span class="vtype">Line chart</span><h4>Production Volume Trend</h4>
+      <p><b>Fields needed:</b> Axis: Production Date (by week). Values: Total Units Produced.</p><p><b>Purpose:</b> Tracks output trend over time.</p></div>
+      <div class="viz-card"><span class="vtype">Column chart</span><h4>Downtime by Shift</h4>
+      <p><b>Fields needed:</b> Axis: Shift. Values: Total Downtime Hours.</p><p><b>Purpose:</b> Shows whether one shift is consistently losing more production time.</p></div>
+      <div class="viz-card"><span class="vtype">Matrix with conditional formatting</span><h4>Defect Rate Heat Table</h4>
+      <p><b>Fields needed:</b> Rows: Production Line. Columns: Shift. Values: Defect Rate.</p><p><b>Purpose:</b> Pinpoints the exact line and shift combination driving most defects.</p></div>
+      <div class="viz-card"><span class="vtype">Table</span><h4>Supervisor Performance Table</h4>
+      <p><b>Fields needed:</b> Rows: Employee (supervisor, via relationship). Values: Total Units Produced, Defect Rate.</p><p><b>Purpose:</b> Only possible once the Employee ID relationship to Human Resources is active.</p></div></div>
+      </div>
+    </section>
+
+    <section class="dept" id="SUPPLY" style="--accent:#F2A541">
+      <div class="dept-head" style="border-left-color:#F2A541">
+        <h2>Supply Chain</h2>
+        <p>Purchase orders raised against suppliers: what was ordered, expected and actual delivery dates, and current status.</p>
+      </div>
+      <div class="dept-body">
+        <h3 class="section-title">1. Columns, Problems, and Cleaning Tasks (Power Query)</h3>
+        <table>
+          <tr><th>Column</th><th>Type</th><th>What It Means</th><th>Problem In The Data</th><th>Your Task</th></tr>
+          
+      <tr>
+        <td class="colname">PO ID</td>
+        <td><span class="badge">id</span></td>
+        <td>The unique purchase order identifier, format PO-0001.</td>
+        <td>Clean.</td>
+        <td>Confirm no duplicates before use.</td>
+      </tr>
+      <tr>
+        <td class="colname">Supplier ID</td>
+        <td><span class="badge">id</span></td>
+        <td>The unique supplier code.</td>
+        <td>A few Supplier IDs do not consistently match the same Supplier Name across rows.</td>
+        <td>Cross check Supplier ID against Supplier Name for consistency.</td>
+      </tr>
+      <tr>
+        <td class="colname">Supplier Name</td>
+        <td><span class="badge">text</span></td>
+        <td>The supplier's business name.</td>
+        <td>The same supplier appears under several different spellings and formats, for example "Dangote Packaging Ltd", "DANGOTE PACKAGING LTD", and "Dangote Pkg".</td>
+        <td>Standardize supplier names so every row referring to the same real supplier reads identically.</td>
+      </tr>
+      <tr>
+        <td class="colname">Employee ID</td>
+        <td><span class="badge">id</span></td>
+        <td>The procurement officer who raised the order, links to Human Resources.</td>
+        <td>Clean.</td>
+        <td>Confirm relationship integrity against Human Resources.</td>
+      </tr>
+      <tr>
+        <td class="colname">Item Description</td>
+        <td><span class="badge">text</span></td>
+        <td>What was ordered.</td>
+        <td>Free text with inconsistent abbreviation.</td>
+        <td>Standardize common item descriptions where the same item is described multiple ways.</td>
+      </tr>
+      <tr>
+        <td class="colname">Quantity Ordered</td>
+        <td><span class="badge">number</span></td>
+        <td>The number of units ordered.</td>
+        <td>A few values stored as text with commas.</td>
+        <td>Convert the entire column to a clean numeric type.</td>
+      </tr>
+      <tr>
+        <td class="colname">Unit Price (NGN)</td>
+        <td><span class="badge">currency</span></td>
+        <td>The agreed price per unit.</td>
+        <td>Mixed currency formatting throughout the column.</td>
+        <td>Clean to a single consistent numeric currency format.</td>
+      </tr>
+      <tr>
+        <td class="colname">Order Date</td>
+        <td><span class="badge">date</span></td>
+        <td>The date the purchase order was raised.</td>
+        <td>Mixed date formats.</td>
+        <td>Convert the entire column to a single consistent date type.</td>
+      </tr>
+      <tr>
+        <td class="colname">Actual Delivery Date</td>
+        <td><span class="badge">date</span></td>
+        <td>The date the order was actually delivered, blank if not yet delivered.</td>
+        <td>A few rows show an actual delivery date earlier than the order date, a logical impossibility.</td>
+        <td>Identify and flag every row where delivery date is before order date.</td>
+      </tr>
+      <tr>
+        <td class="colname">Status</td>
+        <td><span class="badge">text</span></td>
+        <td>Open, Closed, or Delayed.</td>
+        <td>Inconsistent casing.</td>
+        <td>Standardize status values to one consistent set.</td>
+      </tr>
+        </table>
+
+        <h3 class="section-title">2. Relationships To Build (Power BI Model View)</h3>
+        
+      <div class="rel-card"><b>Employee ID</b> connects to <b>Human Resources</b> (many-to-one).
+      <div style="margin-top:6px;font-size:12.5px;color:var(--muted);">Task: build this relationship in Power BI's Model view before creating any visual that spans both tables.</div></div>
+
+        <h3 class="section-title">3. DAX Measures To Design</h3>
+        
+      <div class="dax-card"><b>Total Spend</b>
+      <div class="purpose">Task: design a DAX measure that achieves this. Purpose: The headline procurement spend figure.</div></div>
+      <div class="dax-card"><b>On-Time Delivery Rate</b>
+      <div class="purpose">Task: design a DAX measure that achieves this. Purpose: Tracks supplier reliability, the number procurement is judged on most.</div></div>
+      <div class="dax-card"><b>Average Lead Time Days</b>
+      <div class="purpose">Task: design a DAX measure that achieves this. Purpose: Shows how long, on average, orders actually take to arrive.</div></div>
+      <div class="dax-card"><b>Open Purchase Orders</b>
+      <div class="purpose">Task: design a DAX measure that achieves this. Purpose: A live count of orders still awaiting fulfillment.</div></div>
+
+        <h3 class="section-title">4. Dashboard To Build: "Supplier Performance Dashboard"</h3>
+        <div class="viz-grid">
+      <div class="viz-card"><span class="vtype">Bar chart</span><h4>Spend by Supplier</h4>
+      <p><b>Fields needed:</b> Axis: Supplier Name. Values: Total Spend.</p><p><b>Purpose:</b> Only meaningful once every supplier name variant is standardized to one real supplier per bar.</p></div>
+      <div class="viz-card"><span class="vtype">Clustered column chart</span><h4>On-Time Delivery Rate by Supplier</h4>
+      <p><b>Fields needed:</b> Axis: Supplier Name. Values: On-Time Delivery Rate.</p><p><b>Purpose:</b> The core supplier scorecard visual.</p></div>
+      <div class="viz-card"><span class="vtype">Donut chart</span><h4>Purchase Order Status Breakdown</h4>
+      <p><b>Fields needed:</b> Legend: Status. Values: count of PO ID.</p><p><b>Purpose:</b> Shows the current health of the order pipeline at a glance.</p></div>
+      <div class="viz-card"><span class="vtype">Line chart</span><h4>Lead Time Trend</h4>
+      <p><b>Fields needed:</b> Axis: Order Date (by month). Values: Average Lead Time Days.</p><p><b>Purpose:</b> Tracks whether supplier reliability is improving or worsening over time.</p></div>
+      <div class="viz-card"><span class="vtype">Table</span><h4>Open Orders Table</h4>
+      <p><b>Fields needed:</b> Rows: PO ID, Supplier Name, Item Description, Order Date. Filter: Status = Open.</p><p><b>Purpose:</b> An actionable follow-up list for the procurement team.</p></div></div>
+      </div>
+    </section>
+
+    <section class="dept" id="CS" style="--accent:#0E7C7B">
+      <div class="dept-head" style="border-left-color:#0E7C7B">
+        <h2>Customer Service</h2>
+        <p>Every customer support ticket logged across phone, email, WhatsApp, and walk-in channels, and the agent who handled it.</p>
+      </div>
+      <div class="dept-body">
+        <h3 class="section-title">1. Columns, Problems, and Cleaning Tasks (Power Query)</h3>
+        <table>
+          <tr><th>Column</th><th>Type</th><th>What It Means</th><th>Problem In The Data</th><th>Your Task</th></tr>
+          
+      <tr>
+        <td class="colname">Ticket ID</td>
+        <td><span class="badge">id</span></td>
+        <td>The unique ticket identifier, format TCK-0001.</td>
+        <td>Clean.</td>
+        <td>Confirm no duplicates before use.</td>
+      </tr>
+      <tr>
+        <td class="colname">Customer ID</td>
+        <td><span class="badge">id</span></td>
+        <td>The unique customer identifier.</td>
+        <td>A small number of blank Customer ID cells.</td>
+        <td>Decide a rule for handling tickets with a missing customer reference.</td>
+      </tr>
+      <tr>
+        <td class="colname">Employee ID</td>
+        <td><span class="badge">id</span></td>
+        <td>The support agent who handled the ticket, links to Human Resources.</td>
+        <td>Clean.</td>
+        <td>Confirm relationship integrity against Human Resources.</td>
+      </tr>
+      <tr>
+        <td class="colname">Channel</td>
+        <td><span class="badge">text</span></td>
+        <td>Phone, Email, WhatsApp, or Walk-in.</td>
+        <td>Inconsistent capitalization and one channel written two different ways, "Whatsapp" and "WhatsApp".</td>
+        <td>Standardize channel names to one consistent format.</td>
+      </tr>
+      <tr>
+        <td class="colname">Issue Type</td>
+        <td><span class="badge">text</span></td>
+        <td>The category of the customer's issue.</td>
+        <td>Free text with overlapping categories that should be consolidated.</td>
+        <td>Group similar issue type entries into a smaller, consistent set of categories.</td>
+      </tr>
+      <tr>
+        <td class="colname">Date Opened</td>
+        <td><span class="badge">date</span></td>
+        <td>The date the ticket was logged.</td>
+        <td>Mixed date formats.</td>
+        <td>Convert the entire column to a single consistent date type.</td>
+      </tr>
+      <tr>
+        <td class="colname">Date Closed</td>
+        <td><span class="badge">date</span></td>
+        <td>The date the ticket was resolved, blank if still open.</td>
+        <td>A few rows show a closed date earlier than the opened date.</td>
+        <td>Identify and flag every row where the closed date is before the opened date.</td>
+      </tr>
+      <tr>
+        <td class="colname">Satisfaction Score</td>
+        <td><span class="badge">number</span></td>
+        <td>A 1 to 5 customer satisfaction rating collected after resolution.</td>
+        <td>A few values fall outside the valid 1 to 5 range, including a 0 and a 6.</td>
+        <td>Identify and flag every score outside the valid 1 to 5 range.</td>
+      </tr>
+      <tr>
+        <td class="colname">Region</td>
+        <td><span class="badge">text</span></td>
+        <td>The customer's region: Lagos, Ogun, Oyo, or Other.</td>
+        <td>Minor inconsistency in naming, for example "Lagos " with a trailing space.</td>
+        <td>Trim whitespace and standardize region names.</td>
+      </tr>
+        </table>
+
+        <h3 class="section-title">2. Relationships To Build (Power BI Model View)</h3>
+        
+      <div class="rel-card"><b>Employee ID</b> connects to <b>Human Resources</b> (many-to-one).
+      <div style="margin-top:6px;font-size:12.5px;color:var(--muted);">Task: build this relationship in Power BI's Model view before creating any visual that spans both tables.</div></div>
+
+        <h3 class="section-title">3. DAX Measures To Design</h3>
+        
+      <div class="dax-card"><b>Total Tickets</b>
+      <div class="purpose">Task: design a DAX measure that achieves this. Purpose: Baseline volume metric.</div></div>
+      <div class="dax-card"><b>Average Resolution Time (Hours)</b>
+      <div class="purpose">Task: design a DAX measure that achieves this. Purpose: The core service level metric for the department.</div></div>
+      <div class="dax-card"><b>Average Satisfaction Score</b>
+      <div class="purpose">Task: design a DAX measure that achieves this. Purpose: Excludes the invalid out-of-range scores from the reported average.</div></div>
+      <div class="dax-card"><b>Open Tickets</b>
+      <div class="purpose">Task: design a DAX measure that achieves this. Purpose: Shows current unresolved workload.</div></div>
+
+        <h3 class="section-title">4. Dashboard To Build: "Customer Service Performance Dashboard"</h3>
+        <div class="viz-grid">
+      <div class="viz-card"><span class="vtype">Pie chart</span><h4>Tickets by Channel</h4>
+      <p><b>Fields needed:</b> Legend: Channel. Values: Total Tickets.</p><p><b>Purpose:</b> Shows where customers actually prefer to reach the business.</p></div>
+      <div class="viz-card"><span class="vtype">Bar chart</span><h4>Tickets by Issue Type</h4>
+      <p><b>Fields needed:</b> Axis: Issue Type. Values: Total Tickets.</p><p><b>Purpose:</b> Highlights the most common, and most fixable, recurring problems.</p></div>
+      <div class="viz-card"><span class="vtype">Line chart</span><h4>Resolution Time Trend</h4>
+      <p><b>Fields needed:</b> Axis: Date Opened (by week). Values: Average Resolution Time (Hours).</p><p><b>Purpose:</b> Tracks whether service speed is improving.</p></div>
+      <div class="viz-card"><span class="vtype">Table</span><h4>Agent Performance Table</h4>
+      <p><b>Fields needed:</b> Rows: Employee (agent, via relationship). Values: Total Tickets, Average Resolution Time, Average Satisfaction Score.</p><p><b>Purpose:</b> A direct, per-agent performance view once the relationship to Human Resources is active.</p></div>
+      <div class="viz-card"><span class="vtype">Map or clustered column chart</span><h4>Satisfaction by Region</h4>
+      <p><b>Fields needed:</b> Axis/Location: Region. Values: Average Satisfaction Score.</p><p><b>Purpose:</b> Surfaces any regional pattern in customer experience.</p></div></div>
+      </div>
+    </section>
+
+    <section class="dept" id="IT" style="--accent:#5B4FCF">
+      <div class="dept-head" style="border-left-color:#5B4FCF">
+        <h2>Information Technology</h2>
+        <p>System and support incidents logged by staff across the business, and the IT team member who resolved each one.</p>
+      </div>
+      <div class="dept-body">
+        <h3 class="section-title">1. Columns, Problems, and Cleaning Tasks (Power Query)</h3>
+        <table>
+          <tr><th>Column</th><th>Type</th><th>What It Means</th><th>Problem In The Data</th><th>Your Task</th></tr>
+          
+      <tr>
+        <td class="colname">Ticket ID</td>
+        <td><span class="badge">id</span></td>
+        <td>The unique IT ticket identifier, format ITT-0001.</td>
+        <td>Clean.</td>
+        <td>Confirm no duplicates before use.</td>
+      </tr>
+      <tr>
+        <td class="colname">Employee ID</td>
+        <td><span class="badge">id</span></td>
+        <td>The staff member who reported the issue, links to Human Resources.</td>
+        <td>A few rows carry an Employee ID with no match on Human Resources.</td>
+        <td>Identify and flag orphan Employee ID values.</td>
+      </tr>
+      <tr>
+        <td class="colname">IT Staff ID</td>
+        <td><span class="badge">id</span></td>
+        <td>The IT team member who resolved the ticket, also links to Human Resources.</td>
+        <td>Clean.</td>
+        <td>Confirm relationship integrity against Human Resources.</td>
+      </tr>
+      <tr>
+        <td class="colname">System or Asset Affected</td>
+        <td><span class="badge">text</span></td>
+        <td>The system, application, or device the issue relates to.</td>
+        <td>Inconsistent naming for the same systems, for example "ERP" and "erp system".</td>
+        <td>Standardize system names to a consistent set.</td>
+      </tr>
+      <tr>
+        <td class="colname">Issue Type</td>
+        <td><span class="badge">text</span></td>
+        <td>Hardware, Software, Network, or Access.</td>
+        <td>Inconsistent capitalization.</td>
+        <td>Standardize issue type values.</td>
+      </tr>
+      <tr>
+        <td class="colname">Priority</td>
+        <td><span class="badge">text</span></td>
+        <td>High, Medium, or Low.</td>
+        <td>Inconsistent capitalization and one row written as "Urgent" instead of an agreed priority level.</td>
+        <td>Standardize priority values to the three agreed levels.</td>
+      </tr>
+      <tr>
+        <td class="colname">Date Reported</td>
+        <td><span class="badge">date</span></td>
+        <td>The date the issue was reported.</td>
+        <td>Mixed date formats.</td>
+        <td>Convert the entire column to a single consistent date type.</td>
+      </tr>
+      <tr>
+        <td class="colname">Date Resolved</td>
+        <td><span class="badge">date</span></td>
+        <td>The date the issue was resolved, blank if still open.</td>
+        <td>A few rows show a resolved date earlier than the reported date.</td>
+        <td>Identify and flag every row where resolved date is before reported date.</td>
+      </tr>
+      <tr>
+        <td class="colname">Downtime Hours</td>
+        <td><span class="badge">number</span></td>
+        <td>Hours of system downtime caused by the issue.</td>
+        <td>A number of blank cells.</td>
+        <td>Decide and apply a rule for blank downtime values.</td>
+      </tr>
+        </table>
+
+        <h3 class="section-title">2. Relationships To Build (Power BI Model View)</h3>
+        
+      <div class="rel-card"><b>Employee ID</b> connects to <b>Human Resources</b> (many-to-one). The staff member who reported the issue.
+      <div style="margin-top:6px;font-size:12.5px;color:var(--muted);">Task: build this relationship in Power BI's Model view before creating any visual that spans both tables.</div></div>
+      <div class="rel-card"><b>IT Staff ID</b> connects to <b>Human Resources</b> (many-to-one). A second relationship to the same table, for the resolving technician. This is the workbook's clearest example of needing more than one relationship to the same dimension table.
+      <div style="margin-top:6px;font-size:12.5px;color:var(--muted);">Task: build this relationship in Power BI's Model view before creating any visual that spans both tables.</div></div>
+
+        <h3 class="section-title">3. DAX Measures To Design</h3>
+        
+      <div class="dax-card"><b>Total Tickets</b>
+      <div class="purpose">Task: design a DAX measure that achieves this. Purpose: Baseline volume metric.</div></div>
+      <div class="dax-card"><b>Average Resolution Time (Hours)</b>
+      <div class="purpose">Task: design a DAX measure that achieves this. Purpose: The core IT service level metric.</div></div>
+      <div class="dax-card"><b>Total Downtime Hours</b>
+      <div class="purpose">Task: design a DAX measure that achieves this. Purpose: Shows total business impact of IT issues over a period.</div></div>
+      <div class="dax-card"><b>High Priority Open Tickets</b>
+      <div class="purpose">Task: design a DAX measure that achieves this. Purpose: The number management most wants to see kept at zero.</div></div>
+
+        <h3 class="section-title">4. Dashboard To Build: "IT Support Performance Dashboard"</h3>
+        <div class="viz-grid">
+      <div class="viz-card"><span class="vtype">Bar chart</span><h4>Tickets by Issue Type</h4>
+      <p><b>Fields needed:</b> Axis: Issue Type. Values: Total Tickets.</p><p><b>Purpose:</b> Shows where IT effort is really going.</p></div>
+      <div class="viz-card"><span class="vtype">Donut chart</span><h4>Tickets by Priority</h4>
+      <p><b>Fields needed:</b> Legend: Priority. Values: Total Tickets.</p><p><b>Purpose:</b> A quick view of ticket severity mix.</p></div>
+      <div class="viz-card"><span class="vtype">Line chart</span><h4>Resolution Time Trend</h4>
+      <p><b>Fields needed:</b> Axis: Date Reported (by week). Values: Average Resolution Time (Hours).</p><p><b>Purpose:</b> Tracks whether IT is getting faster or slower at resolving issues.</p></div>
+      <div class="viz-card"><span class="vtype">Column chart</span><h4>Downtime by System</h4>
+      <p><b>Fields needed:</b> Axis: System or Asset Affected. Values: Total Downtime Hours.</p><p><b>Purpose:</b> Points directly at the systems causing the most business disruption.</p></div>
+      <div class="viz-card"><span class="vtype">Table</span><h4>Technician Workload Table</h4>
+      <p><b>Fields needed:</b> Rows: Employee (IT Staff, via the second relationship). Values: Total Tickets, Average Resolution Time.</p><p><b>Purpose:</b> Demonstrates using the inactive second relationship with the USERELATIONSHIP function in DAX.</p></div></div>
+      </div>
+    </section>
+
+    <section class="dept" id="FIN" style="--accent:#E8593F">
+      <div class="dept-head" style="border-left-color:#E8593F">
+        <h2>Accounts and Finance</h2>
+        <p>Every financial transaction processed across the business, expenses, revenue, and refunds, each tied to the employee who processed it and the department it was booked against.</p>
+      </div>
+      <div class="dept-body">
+        <h3 class="section-title">1. Columns, Problems, and Cleaning Tasks (Power Query)</h3>
+        <table>
+          <tr><th>Column</th><th>Type</th><th>What It Means</th><th>Problem In The Data</th><th>Your Task</th></tr>
+          
+      <tr>
+        <td class="colname">Transaction ID</td>
+        <td><span class="badge">id</span></td>
+        <td>The unique transaction identifier, format TXN-0001.</td>
+        <td>Clean.</td>
+        <td>Confirm no duplicates before use.</td>
+      </tr>
+      <tr>
+        <td class="colname">Employee ID</td>
+        <td><span class="badge">id</span></td>
+        <td>The staff member who processed the transaction, links to Human Resources.</td>
+        <td>Clean.</td>
+        <td>Confirm relationship integrity against Human Resources.</td>
+      </tr>
+      <tr>
+        <td class="colname">Department Code</td>
+        <td><span class="badge">id</span></td>
+        <td>The department the transaction is booked against, links to Company Structure.</td>
+        <td>A small number of blank cells.</td>
+        <td>Decide a rule for transactions with no department code.</td>
+      </tr>
+      <tr>
+        <td class="colname">Transaction Type</td>
+        <td><span class="badge">text</span></td>
+        <td>Expense, Revenue, or Refund.</td>
+        <td>Inconsistent capitalization.</td>
+        <td>Standardize transaction type values.</td>
+      </tr>
+      <tr>
+        <td class="colname">Amount (NGN)</td>
+        <td><span class="badge">currency</span></td>
+        <td>The transaction amount.</td>
+        <td>Mixed currency formatting, and refunds are inconsistently recorded, some as negative numbers and some as positive numbers with the type column doing the work instead.</td>
+        <td>Clean formatting and agree a single consistent rule for whether refunds are negative or positive.</td>
+      </tr>
+      <tr>
+        <td class="colname">Transaction Date</td>
+        <td><span class="badge">date</span></td>
+        <td>The date of the transaction.</td>
+        <td>Mixed date formats.</td>
+        <td>Convert the entire column to a single consistent date type.</td>
+      </tr>
+      <tr>
+        <td class="colname">Payment Status</td>
+        <td><span class="badge">text</span></td>
+        <td>Paid, Pending, or Overdue.</td>
+        <td>Inconsistent capitalization.</td>
+        <td>Standardize payment status values.</td>
+      </tr>
+      <tr>
+        <td class="colname">Invoice Number</td>
+        <td><span class="badge">id</span></td>
+        <td>The related invoice reference, where applicable.</td>
+        <td>A number of blank cells where no invoice was raised.</td>
+        <td>Confirm blanks are expected, not a data entry gap, before using this column in any total.</td>
+      </tr>
+      <tr>
+        <td class="colname">Approved By (Employee ID)</td>
+        <td><span class="badge">id</span></td>
+        <td>The employee who approved the transaction, also links to Human Resources.</td>
+        <td>A few rows are blank.</td>
+        <td>Decide a rule for transactions with no recorded approver, this is a control gap worth flagging, not just a data cleaning task.</td>
+      </tr>
+        </table>
+
+        <h3 class="section-title">2. Relationships To Build (Power BI Model View)</h3>
+        
+      <div class="rel-card"><b>Employee ID</b> connects to <b>Human Resources</b> (many-to-one). Who processed the transaction.
+      <div style="margin-top:6px;font-size:12.5px;color:var(--muted);">Task: build this relationship in Power BI's Model view before creating any visual that spans both tables.</div></div>
+      <div class="rel-card"><b>Approved By (Employee ID)</b> connects to <b>Human Resources</b> (many-to-one). A second relationship to the same table, for the approver, mirroring the IT sheet's pattern.
+      <div style="margin-top:6px;font-size:12.5px;color:var(--muted);">Task: build this relationship in Power BI's Model view before creating any visual that spans both tables.</div></div>
+      <div class="rel-card"><b>Department Code</b> connects to <b>Company Structure</b> (many-to-one).
+      <div style="margin-top:6px;font-size:12.5px;color:var(--muted);">Task: build this relationship in Power BI's Model view before creating any visual that spans both tables.</div></div>
+
+        <h3 class="section-title">3. DAX Measures To Design</h3>
+        
+      <div class="dax-card"><b>Total Revenue</b>
+      <div class="purpose">Task: design a DAX measure that achieves this. Purpose: The headline top-line figure.</div></div>
+      <div class="dax-card"><b>Total Expenses</b>
+      <div class="purpose">Task: design a DAX measure that achieves this. Purpose: The headline cost figure.</div></div>
+      <div class="dax-card"><b>Net Position</b>
+      <div class="purpose">Task: design a DAX measure that achieves this. Purpose: The simplest possible management summary number.</div></div>
+      <div class="dax-card"><b>Overdue Payments Value</b>
+      <div class="purpose">Task: design a DAX measure that achieves this. Purpose: The figure Finance is chased for every month end.</div></div>
+
+        <h3 class="section-title">4. Dashboard To Build: "Finance Overview Dashboard"</h3>
+        <div class="viz-grid">
+      <div class="viz-card"><span class="vtype">Line chart</span><h4>Revenue vs Expense Trend</h4>
+      <p><b>Fields needed:</b> Axis: Transaction Date (by month). Values: Total Revenue, Total Expenses.</p><p><b>Purpose:</b> The primary financial trend visual for management.</p></div>
+      <div class="viz-card"><span class="vtype">Bar chart</span><h4>Spend by Department</h4>
+      <p><b>Fields needed:</b> Axis: Department Name (via relationship). Values: Total Expenses.</p><p><b>Purpose:</b> Shows exactly where money is going, department by department.</p></div>
+      <div class="viz-card"><span class="vtype">Donut chart</span><h4>Payment Status Breakdown</h4>
+      <p><b>Fields needed:</b> Legend: Payment Status. Values: count of Transaction ID.</p><p><b>Purpose:</b> A quick view of collections health.</p></div>
+      <div class="viz-card"><span class="vtype">Table</span><h4>Overdue Transactions Table</h4>
+      <p><b>Fields needed:</b> Rows: Transaction ID, Department, Amount, Transaction Date. Filter: Payment Status = Overdue.</p><p><b>Purpose:</b> An actionable worklist, not just a summary chart.</p></div>
+      <div class="viz-card"><span class="vtype">KPI card</span><h4>Approver Coverage Card</h4>
+      <p><b>Fields needed:</b> Values: count of transactions with a blank Approved By field.</p><p><b>Purpose:</b> Turns a data quality issue into a visible internal control metric.</p></div></div>
+      </div>
+    </section>
+
+    <section class="dept" id="LEGAL" style="--accent:#F2A541">
+      <div class="dept-head" style="border-left-color:#F2A541">
+        <h2>Legal</h2>
+        <p>Every contract, dispute, and compliance case the legal function is handling, each assigned to a case handler.</p>
+      </div>
+      <div class="dept-body">
+        <h3 class="section-title">1. Columns, Problems, and Cleaning Tasks (Power Query)</h3>
+        <table>
+          <tr><th>Column</th><th>Type</th><th>What It Means</th><th>Problem In The Data</th><th>Your Task</th></tr>
+          
+      <tr>
+        <td class="colname">Case ID</td>
+        <td><span class="badge">id</span></td>
+        <td>The unique legal case identifier, format LEG-0001.</td>
+        <td>Clean.</td>
+        <td>Confirm no duplicates before use.</td>
+      </tr>
+      <tr>
+        <td class="colname">Employee ID</td>
+        <td><span class="badge">id</span></td>
+        <td>The legal team member handling the case, links to Human Resources.</td>
+        <td>Clean.</td>
+        <td>Confirm relationship integrity against Human Resources.</td>
+      </tr>
+      <tr>
+        <td class="colname">Counterparty Name</td>
+        <td><span class="badge">text</span></td>
+        <td>The other party involved in the case.</td>
+        <td>Inconsistent capitalization and spacing.</td>
+        <td>Standardize counterparty names, being careful not to merge two genuinely different counterparties by mistake.</td>
+      </tr>
+      <tr>
+        <td class="colname">Case Type</td>
+        <td><span class="badge">text</span></td>
+        <td>Contract Dispute, Compliance, Intellectual Property, or Employment.</td>
+        <td>A couple of rows use abbreviations, for example "IP" instead of the full category name.</td>
+        <td>Standardize case type values to the four full category names.</td>
+      </tr>
+      <tr>
+        <td class="colname">Date Opened</td>
+        <td><span class="badge">date</span></td>
+        <td>The date the case was opened.</td>
+        <td>Mixed date formats.</td>
+        <td>Convert the entire column to a single consistent date type.</td>
+      </tr>
+      <tr>
+        <td class="colname">Status</td>
+        <td><span class="badge">text</span></td>
+        <td>Open, Closed, or Under Review.</td>
+        <td>Inconsistent capitalization.</td>
+        <td>Standardize status values.</td>
+      </tr>
+      <tr>
+        <td class="colname">Risk Level</td>
+        <td><span class="badge">text</span></td>
+        <td>High, Medium, or Low.</td>
+        <td>Inconsistent capitalization.</td>
+        <td>Standardize risk level values.</td>
+      </tr>
+      <tr>
+        <td class="colname">Estimated Value (NGN)</td>
+        <td><span class="badge">currency</span></td>
+        <td>The estimated financial exposure of the case.</td>
+        <td>Mixed currency formatting, and a few blank cells for cases with no quantifiable value.</td>
+        <td>Clean formatting, and agree whether blank should mean zero or genuinely unknown before using this column in a total.</td>
+      </tr>
+      <tr>
+        <td class="colname">Resolution Date</td>
+        <td><span class="badge">date</span></td>
+        <td>The date the case was resolved, blank if still open.</td>
+        <td>A few rows show a resolution date earlier than the date opened.</td>
+        <td>Identify and flag every row where resolution date is before date opened.</td>
+      </tr>
+        </table>
+
+        <h3 class="section-title">2. Relationships To Build (Power BI Model View)</h3>
+        
+      <div class="rel-card"><b>Employee ID</b> connects to <b>Human Resources</b> (many-to-one).
+      <div style="margin-top:6px;font-size:12.5px;color:var(--muted);">Task: build this relationship in Power BI's Model view before creating any visual that spans both tables.</div></div>
+
+        <h3 class="section-title">3. DAX Measures To Design</h3>
+        
+      <div class="dax-card"><b>Open Cases</b>
+      <div class="purpose">Task: design a DAX measure that achieves this. Purpose: Current legal workload at a glance.</div></div>
+      <div class="dax-card"><b>Total Estimated Exposure</b>
+      <div class="purpose">Task: design a DAX measure that achieves this. Purpose: The single figure most useful to the board on open legal risk.</div></div>
+      <div class="dax-card"><b>High Risk Open Cases</b>
+      <div class="purpose">Task: design a DAX measure that achieves this. Purpose: Filters straight to what needs urgent attention.</div></div>
+      <div class="dax-card"><b>Average Days to Resolution</b>
+      <div class="purpose">Task: design a DAX measure that achieves this. Purpose: Shows how long cases realistically take to close.</div></div>
+
+        <h3 class="section-title">4. Dashboard To Build: "Legal Case Management Dashboard"</h3>
+        <div class="viz-grid">
+      <div class="viz-card"><span class="vtype">Bar chart</span><h4>Cases by Type</h4>
+      <p><b>Fields needed:</b> Axis: Case Type. Values: count of Case ID.</p><p><b>Purpose:</b> Shows what kind of legal work dominates the caseload.</p></div>
+      <div class="viz-card"><span class="vtype">Donut chart</span><h4>Cases by Risk Level</h4>
+      <p><b>Fields needed:</b> Legend: Risk Level. Values: count of Case ID, filtered to open cases.</p><p><b>Purpose:</b> A direct view of current risk concentration.</p></div>
+      <div class="viz-card"><span class="vtype">Column chart</span><h4>Exposure by Case Type</h4>
+      <p><b>Fields needed:</b> Axis: Case Type. Values: Total Estimated Exposure.</p><p><b>Purpose:</b> Connects case volume to actual financial stakes.</p></div>
+      <div class="viz-card"><span class="vtype">Table</span><h4>Case Handler Workload</h4>
+      <p><b>Fields needed:</b> Rows: Employee (via relationship). Values: Open Cases, Average Days to Resolution.</p><p><b>Purpose:</b> Shows workload distribution across the legal team.</p></div>
+      <div class="viz-card"><span class="vtype">Table</span><h4>High Risk Cases Table</h4>
+      <p><b>Fields needed:</b> Rows: Case ID, Counterparty Name, Date Opened. Filter: Risk Level = High and Status &lt;&gt; Closed.</p><p><b>Purpose:</b> A direct worklist for leadership attention.</p></div></div>
+      </div>
+    </section>
+
+    <section class="dept" id="IC" style="--accent:#0E7C7B">
+      <div class="dept-head" style="border-left-color:#0E7C7B">
+        <h2>Internal Control</h2>
+        <p>Audit findings raised against departments, each assigned to an auditor and tracked through to closure.</p>
+      </div>
+      <div class="dept-body">
+        <h3 class="section-title">1. Columns, Problems, and Cleaning Tasks (Power Query)</h3>
+        <table>
+          <tr><th>Column</th><th>Type</th><th>What It Means</th><th>Problem In The Data</th><th>Your Task</th></tr>
+          
+      <tr>
+        <td class="colname">Finding ID</td>
+        <td><span class="badge">id</span></td>
+        <td>The unique audit finding identifier, format IC-0001.</td>
+        <td>Clean.</td>
+        <td>Confirm no duplicates before use.</td>
+      </tr>
+      <tr>
+        <td class="colname">Employee ID</td>
+        <td><span class="badge">id</span></td>
+        <td>The auditor who raised the finding, links to Human Resources.</td>
+        <td>Clean.</td>
+        <td>Confirm relationship integrity against Human Resources.</td>
+      </tr>
+      <tr>
+        <td class="colname">Department Code</td>
+        <td><span class="badge">id</span></td>
+        <td>The department the finding was raised against, links to Company Structure.</td>
+        <td>One or two rows carry a code with no match on Company Structure.</td>
+        <td>Identify and correct or flag every unmatched Department Code.</td>
+      </tr>
+      <tr>
+        <td class="colname">Audit Date</td>
+        <td><span class="badge">date</span></td>
+        <td>The date the audit testing was performed.</td>
+        <td>Mixed date formats.</td>
+        <td>Convert the entire column to a single consistent date type.</td>
+      </tr>
+      <tr>
+        <td class="colname">Severity</td>
+        <td><span class="badge">text</span></td>
+        <td>Critical, High, Medium, or Low.</td>
+        <td>Inconsistent capitalization and one row using "Major" instead of an agreed severity level.</td>
+        <td>Standardize severity values to the four agreed levels.</td>
+      </tr>
+      <tr>
+        <td class="colname">Status</td>
+        <td><span class="badge">text</span></td>
+        <td>Open, Remediated, or Overdue.</td>
+        <td>Inconsistent capitalization.</td>
+        <td>Standardize status values.</td>
+      </tr>
+      <tr>
+        <td class="colname">Target Closure Date</td>
+        <td><span class="badge">date</span></td>
+        <td>The date the finding is due to be closed by.</td>
+        <td>Mixed date formats.</td>
+        <td>Convert the entire column to a single consistent date type.</td>
+      </tr>
+      <tr>
+        <td class="colname">Actual Closure Date</td>
+        <td><span class="badge">date</span></td>
+        <td>The date the finding was actually closed, blank if still open.</td>
+        <td>A few rows show an actual closure date earlier than the audit date, a logical impossibility.</td>
+        <td>Identify and flag every row where actual closure date is before audit date.</td>
+      </tr>
+        </table>
+
+        <h3 class="section-title">2. Relationships To Build (Power BI Model View)</h3>
+        
+      <div class="rel-card"><b>Employee ID</b> connects to <b>Human Resources</b> (many-to-one).
+      <div style="margin-top:6px;font-size:12.5px;color:var(--muted);">Task: build this relationship in Power BI's Model view before creating any visual that spans both tables.</div></div>
+      <div class="rel-card"><b>Department Code</b> connects to <b>Company Structure</b> (many-to-one).
+      <div style="margin-top:6px;font-size:12.5px;color:var(--muted);">Task: build this relationship in Power BI's Model view before creating any visual that spans both tables.</div></div>
+
+        <h3 class="section-title">3. DAX Measures To Design</h3>
+        
+      <div class="dax-card"><b>Open Findings</b>
+      <div class="purpose">Task: design a DAX measure that achieves this. Purpose: Current audit backlog.</div></div>
+      <div class="dax-card"><b>Overdue Findings</b>
+      <div class="purpose">Task: design a DAX measure that achieves this. Purpose: The number that should drive the most urgent management attention.</div></div>
+      <div class="dax-card"><b>Critical or High Open Findings</b>
+      <div class="purpose">Task: design a DAX measure that achieves this. Purpose: Filters straight to the highest-priority open risk.</div></div>
+      <div class="dax-card"><b>Average Days to Remediate</b>
+      <div class="purpose">Task: design a DAX measure that achieves this. Purpose: Shows how quickly departments actually close out findings.</div></div>
+
+        <h3 class="section-title">4. Dashboard To Build: "Internal Control Findings Dashboard"</h3>
+        <div class="viz-grid">
+      <div class="viz-card"><span class="vtype">Donut chart</span><h4>Findings by Severity</h4>
+      <p><b>Fields needed:</b> Legend: Severity. Values: count of Finding ID.</p><p><b>Purpose:</b> A quick view of the overall risk profile of open findings.</p></div>
+      <div class="viz-card"><span class="vtype">Bar chart</span><h4>Findings by Department</h4>
+      <p><b>Fields needed:</b> Axis: Department Name (via relationship). Values: count of Finding ID.</p><p><b>Purpose:</b> Shows which departments generate the most audit findings.</p></div>
+      <div class="viz-card"><span class="vtype">Line chart</span><h4>Remediation Trend</h4>
+      <p><b>Fields needed:</b> Axis: Audit Date (by month). Values: Average Days to Remediate.</p><p><b>Purpose:</b> Tracks whether remediation is getting faster or slower over time.</p></div>
+      <div class="viz-card"><span class="vtype">Table</span><h4>Overdue Findings Table</h4>
+      <p><b>Fields needed:</b> Rows: Finding ID, Department, Severity, Target Closure Date. Filter: Status = Overdue.</p><p><b>Purpose:</b> A direct, actionable worklist for management follow-up.</p></div>
+      <div class="viz-card"><span class="vtype">Matrix with conditional formatting</span><h4>Severity by Department Matrix</h4>
+      <p><b>Fields needed:</b> Rows: Department Name. Columns: Severity. Values: count of Finding ID.</p><p><b>Purpose:</b> Pinpoints exactly where the most serious risk concentration sits.</p></div></div>
+      </div>
+    </section>
+
+    <section class="dept" id="RISK" style="--accent:#5B4FCF">
+      <div class="dept-head" style="border-left-color:#5B4FCF">
+        <h2>Risk Management and Compliance</h2>
+        <p>The company risk register: every identified risk, its owner, likelihood, impact, and current mitigation status.</p>
+      </div>
+      <div class="dept-body">
+        <h3 class="section-title">1. Columns, Problems, and Cleaning Tasks (Power Query)</h3>
+        <table>
+          <tr><th>Column</th><th>Type</th><th>What It Means</th><th>Problem In The Data</th><th>Your Task</th></tr>
+          
+      <tr>
+        <td class="colname">Risk ID</td>
+        <td><span class="badge">id</span></td>
+        <td>The unique risk identifier, format RM-0001.</td>
+        <td>Clean.</td>
+        <td>Confirm no duplicates before use.</td>
+      </tr>
+      <tr>
+        <td class="colname">Employee ID</td>
+        <td><span class="badge">id</span></td>
+        <td>The risk owner responsible for mitigation, links to Human Resources.</td>
+        <td>Clean.</td>
+        <td>Confirm relationship integrity against Human Resources.</td>
+      </tr>
+      <tr>
+        <td class="colname">Department Code</td>
+        <td><span class="badge">id</span></td>
+        <td>The department the risk relates to, links to Company Structure.</td>
+        <td>A small number of blank cells.</td>
+        <td>Decide a rule for risks with no assigned department code.</td>
+      </tr>
+      <tr>
+        <td class="colname">Risk Category</td>
+        <td><span class="badge">text</span></td>
+        <td>Operational, Financial, Compliance, Strategic, or Reputational.</td>
+        <td>Inconsistent capitalization.</td>
+        <td>Standardize risk category values.</td>
+      </tr>
+      <tr>
+        <td class="colname">Likelihood</td>
+        <td><span class="badge">mixed</span></td>
+        <td>How likely the risk is to occur.</td>
+        <td>Recorded inconsistently, some rows use a 1 to 5 numeric scale, others use text values like "High", "Medium", and "Low", for the same underlying scale.</td>
+        <td>Agree one consistent scale, numeric or text, and convert every value to it.</td>
+      </tr>
+      <tr>
+        <td class="colname">Impact</td>
+        <td><span class="badge">mixed</span></td>
+        <td>How severe the risk would be if it occurred.</td>
+        <td>The same numeric-versus-text inconsistency as the Likelihood column.</td>
+        <td>Agree one consistent scale and convert every value to it, ideally matching whatever scale is chosen for Likelihood.</td>
+      </tr>
+      <tr>
+        <td class="colname">Risk Score</td>
+        <td><span class="badge">number</span></td>
+        <td>Likelihood multiplied by Impact, intended to summarize overall risk severity.</td>
+        <td>A number of rows are blank, where the score was never calculated after Likelihood and Impact were recorded.</td>
+        <td>Recalculate the missing scores once Likelihood and Impact have been standardized to a numeric scale.</td>
+      </tr>
+      <tr>
+        <td class="colname">Status</td>
+        <td><span class="badge">text</span></td>
+        <td>Active, Mitigated, or Closed.</td>
+        <td>Inconsistent capitalization.</td>
+        <td>Standardize status values.</td>
+      </tr>
+      <tr>
+        <td class="colname">Review Date</td>
+        <td><span class="badge">date</span></td>
+        <td>The date the risk is next due for review.</td>
+        <td>Mixed date formats.</td>
+        <td>Convert the entire column to a single consistent date type.</td>
+      </tr>
+        </table>
+
+        <h3 class="section-title">2. Relationships To Build (Power BI Model View)</h3>
+        
+      <div class="rel-card"><b>Employee ID</b> connects to <b>Human Resources</b> (many-to-one).
+      <div style="margin-top:6px;font-size:12.5px;color:var(--muted);">Task: build this relationship in Power BI's Model view before creating any visual that spans both tables.</div></div>
+      <div class="rel-card"><b>Department Code</b> connects to <b>Company Structure</b> (many-to-one).
+      <div style="margin-top:6px;font-size:12.5px;color:var(--muted);">Task: build this relationship in Power BI's Model view before creating any visual that spans both tables.</div></div>
+
+        <h3 class="section-title">3. DAX Measures To Design</h3>
+        
+      <div class="dax-card"><b>Active Risks</b>
+      <div class="purpose">Task: design a DAX measure that achieves this. Purpose: The current live risk count.</div></div>
+      <div class="dax-card"><b>Average Risk Score</b>
+      <div class="purpose">Task: design a DAX measure that achieves this. Purpose: A single summary figure for the overall risk environment.</div></div>
+      <div class="dax-card"><b>High Severity Active Risks</b>
+      <div class="purpose">Task: design a DAX measure that achieves this. Purpose: Filters to the risks that most need board attention, assuming a 5 by 5 scoring scale.</div></div>
+      <div class="dax-card"><b>Risks Overdue for Review</b>
+      <div class="purpose">Task: design a DAX measure that achieves this. Purpose: A governance metric showing risks that have gone past their scheduled review.</div></div>
+
+        <h3 class="section-title">4. Dashboard To Build: "Risk Register Dashboard"</h3>
+        <div class="viz-grid">
+      <div class="viz-card"><span class="vtype">Matrix or scatter chart</span><h4>Risk Heat Map</h4>
+      <p><b>Fields needed:</b> Rows/Axis: Likelihood. Columns/Axis: Impact. Values: count of Risk ID.</p><p><b>Purpose:</b> The classic risk heat map, only possible once Likelihood and Impact are standardized to one numeric scale.</p></div>
+      <div class="viz-card"><span class="vtype">Bar chart</span><h4>Risks by Category</h4>
+      <p><b>Fields needed:</b> Axis: Risk Category. Values: Active Risks.</p><p><b>Purpose:</b> Shows where risk is concentrated across the business.</p></div>
+      <div class="viz-card"><span class="vtype">Column chart</span><h4>Risks by Department</h4>
+      <p><b>Fields needed:</b> Axis: Department Name (via relationship). Values: Average Risk Score.</p><p><b>Purpose:</b> Shows which departments carry the highest average risk severity.</p></div>
+      <div class="viz-card"><span class="vtype">Table</span><h4>Overdue Reviews Table</h4>
+      <p><b>Fields needed:</b> Rows: Risk ID, Department, Risk Category, Review Date. Filter: Risks Overdue for Review.</p><p><b>Purpose:</b> A direct governance worklist for the compliance function.</p></div>
+      <div class="viz-card"><span class="vtype">Line chart</span><h4>Risk Trend Over Time</h4>
+      <p><b>Fields needed:</b> Axis: Review Date (by quarter). Values: Average Risk Score.</p><p><b>Purpose:</b> Tracks whether the overall risk profile is improving or worsening.</p></div></div>
+      </div>
+    </section>
+</main>
+<div class="footer">Polysmart Packaging Limited &middot; Day Three Training &middot; File 1 of 2, Problems and Tasks</div>
+</body></html>
