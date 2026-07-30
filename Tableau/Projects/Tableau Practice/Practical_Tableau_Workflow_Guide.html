@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Practical Tableau Workflow Guide</title>
+<style>
+  :root{
+    --navy:#1F3864;
+    --accent:#4E79A7;
+    --accent-light:#EAF0F8;
+    --ink:#26313f;
+    --muted:#5b6a7a;
+    --bg:#f7f9fb;
+    --card:#ffffff;
+    --border:#e2e8f0;
+    --mono:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0; font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
+    background:var(--bg); color:var(--ink); line-height:1.55;
+  }
+  a{color:var(--accent); text-decoration:none;}
+  a:hover{text-decoration:underline;}
+
+  .layout{display:grid; grid-template-columns:290px 1fr; min-height:100vh;}
+  nav.sidebar{
+    background:var(--navy); color:#dce6f5; padding:28px 22px; position:sticky; top:0; height:100vh; overflow-y:auto;
+  }
+  nav.sidebar .brand{font-size:1.05rem; font-weight:700; color:#fff; margin-bottom:2px;}
+  nav.sidebar .brand-sub{font-size:.78rem; color:#9db3d3; margin-bottom:22px;}
+  nav.sidebar h4{font-size:.72rem; text-transform:uppercase; letter-spacing:.08em; color:#8fa8ca; margin:20px 0 8px;}
+  nav.sidebar a{display:block; color:#cfdcf0; font-size:.86rem; padding:5px 0; border-radius:4px;}
+  nav.sidebar a:hover{color:#fff; text-decoration:none;}
+  nav.sidebar .chart-links a{font-size:.8rem; padding:3px 0 3px 10px; color:#b7c9e6; border-left:2px solid transparent;}
+  nav.sidebar .chart-links a:hover{border-left-color:#7fa8dd; color:#fff;}
+
+  main{padding:48px 56px 100px; max-width:920px;}
+  header.hero{margin-bottom:40px; border-bottom:3px solid var(--navy); padding-bottom:24px;}
+  header.hero h1{font-size:2.1rem; color:var(--navy); margin:0 0 8px;}
+  header.hero .sub{color:var(--accent); font-size:1.15rem; font-weight:600; margin-bottom:10px;}
+  header.hero .meta{color:var(--muted); font-size:.92rem;}
+
+  section{margin-bottom:56px;}
+  section > h2{
+    font-size:1.5rem; color:var(--navy); border-left:5px solid var(--accent); padding-left:14px; margin-bottom:18px;
+  }
+  section > p.intro{color:var(--muted); margin-bottom:22px; max-width:75ch;}
+
+  .card{
+    background:var(--card); border:1px solid var(--border); border-radius:10px; padding:22px 24px; margin-bottom:18px;
+  }
+  .card h3{margin:0 0 6px; color:var(--navy); font-size:1.15rem;}
+  .card .muted{color:var(--muted); margin:0 0 12px;}
+  .field-list{list-style:none; margin:0; padding:0;}
+  .field-list li{display:flex; gap:14px; padding:6px 0; border-top:1px solid var(--border); font-size:.92rem;}
+  .field-list li:first-child{border-top:none;}
+  .field-list .field{font-family:var(--mono); color:var(--navy); font-weight:600; min-width:230px; flex-shrink:0;}
+  .field-list .desc{color:var(--muted);}
+
+  ol, ul{padding-left:1.3em; margin:10px 0;}
+  ol li, ul li{margin:5px 0;}
+
+  .chart-card{
+    background:var(--card); border:1px solid var(--border); border-radius:10px; padding:22px 24px; margin-bottom:20px;
+  }
+  .chart-head{display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap; margin-bottom:6px;}
+  .chart-head h3{margin:0; color:var(--navy); font-size:1.15rem;}
+  .sheet-badge{
+    background:var(--accent-light); color:var(--accent); font-family:var(--mono); font-size:.78rem;
+    padding:4px 10px; border-radius:20px; font-weight:600; white-space:nowrap;
+  }
+  .sheet-badge.small{font-size:.75rem;}
+  .rule{
+    margin-top:12px; padding:10px 14px; background:#fff8ec; border-left:4px solid #e0a527; border-radius:4px;
+    font-size:.9rem; color:#6b4e0a;
+  }
+
+  table.ref{width:100%; border-collapse:collapse; background:var(--card); border:1px solid var(--border); border-radius:8px; overflow:hidden;}
+  table.ref th{background:var(--navy); color:#fff; text-align:left; padding:10px 14px; font-size:.85rem;}
+  table.ref td{padding:9px 14px; border-top:1px solid var(--border); font-size:.9rem;}
+  table.ref tr:nth-child(even) td{background:#fafbfc;}
+
+  .steps-block{background:var(--card); border:1px solid var(--border); border-radius:10px; padding:22px 26px;}
+
+  footer{color:var(--muted); font-size:.85rem; text-align:center; padding:30px; border-top:1px solid var(--border);}
+
+  @media (max-width:900px){
+    .layout{grid-template-columns:1fr;}
+    nav.sidebar{position:relative; height:auto;}
+    main{padding:32px 20px;}
+    .field-list .field{min-width:160px;}
+  }
+</style>
+</head>
+<body>
+<div class="layout">
+  <nav class="sidebar">
+    <div class="brand">Practical Tableau Workflow Guide</div>
+    <div class="brand-sub">Kajola Gbenga &middot; Data Scientist &amp; AI Engineer</div>
+
+    <h4>Sections</h4>
+    <a href="#data">1. About the Data</a>
+    <a href="#connect">2. Connecting the Data</a>
+    <a href="#charts">3. Chart Workflow</a>
+    <a href="#dashboard">4. Dashboard Assembly</a>
+    <a href="#publish">5. Publishing</a>
+    <a href="#reference">6. Quick Reference</a>
+
+    <h4>All Charts</h4>
+    <div class="chart-links">
+      <a href="#chart-1">Vertical Bar Chart - Sales by Region</a>
+<a href="#chart-2">Horizontal Bar Chart - Top Products by Sales</a>
+<a href="#chart-3">Stacked Bar Chart - Sales by Region and Category</a>
+<a href="#chart-4">Side-by-Side Bar Chart - Segment Performance by Region</a>
+<a href="#chart-5">Line Chart - Sales Trend Over Time</a>
+<a href="#chart-6">Area Chart - Cumulative Sales Composition Over Time</a>
+<a href="#chart-7">Pie Chart - Share of Sales by Category</a>
+<a href="#chart-8">Donut Chart - Share of Sales with a Center KPI</a>
+<a href="#chart-9">Scatter Plot - Sales vs Profit by Order</a>
+<a href="#chart-10">Bubble Chart - Sales, Profit, and Quantity Together</a>
+<a href="#chart-11">Treemap - Sales by Sub-Category</a>
+<a href="#chart-12">Heat Map - Order Volume by Region and Month</a>
+<a href="#chart-13">Highlight Table - Sales by Region and Category</a>
+<a href="#chart-14">Text Table / Crosstab - Full Detail Report</a>
+<a href="#chart-15">Box-and-Whisker Plot - Profit Distribution by Category</a>
+<a href="#chart-16">Bullet Graph - Actual vs Target Sales by Region</a>
+<a href="#chart-17">Gantt Chart - Dashboard Build Project Timeline</a>
+<a href="#chart-18">Histogram - Distribution of Order Quantity</a>
+<a href="#chart-19">Dual-Axis / Combo Chart - Sales and Profit by Month</a>
+<a href="#chart-20">Packed Bubble Chart - Sales by Customer</a>
+<a href="#chart-21">Waterfall Chart - Q4 to Q1 Sales Bridge</a>
+<a href="#chart-22">Funnel Chart - Lead Conversion by Stage</a>
+<a href="#chart-23">Symbol Map - Sales by City</a>
+<a href="#chart-24">Filled Map - Profit by State</a>
+<a href="#chart-25">Sparklines - Compact Trend per Region</a>
+    </div>
+  </nav>
+
+  <main>
+    <header class="hero">
+      <h1>Practical Tableau Workflow Guide</h1>
+      <div class="sub">Building Every Chart With the Practice Dataset</div>
+      <div class="meta">Companion to Tableau_Chart_Practice_Dataset.xlsx and Charts and Graphs in Tableau &mdash; A Comprehensive Reference Guide</div>
+    </header>
+
+    <section id="data">
+      <h2>1. About the Practice Dataset</h2>
+      <p class="intro">Tableau_Chart_Practice_Dataset.xlsx contains five working data sheets, each purpose-built to support a specific set of charts, plus a Read Me sheet with a quick field guide. None of the five data sheets need to be joined together &mdash; each is used independently on its own worksheet in Tableau.</p>
+      
+  <div class="card">
+    <h3>Orders</h3>
+    <p class="muted">The core transactional table - 2,200 retail orders from 2023 to 2025 across Nigeria. This single sheet drives the large majority of charts in this guide.</p>
+    <ul class="field-list">
+      <li><span class="field">Order ID</span><span class="desc">Unique identifier for each order line</span></li><li><span class="field">Order Date</span><span class="desc">Date the order was placed (2023-2025)</span></li><li><span class="field">Ship Date</span><span class="desc">Date the order was shipped</span></li><li><span class="field">Ship Mode</span><span class="desc">Standard Class, Second Class, First Class, or Same Day</span></li><li><span class="field">Customer ID / Customer Name</span><span class="desc">Unique customer identifier and name</span></li><li><span class="field">Segment</span><span class="desc">Consumer, Corporate, or Home Office</span></li><li><span class="field">Country / State / City</span><span class="desc">Geographic location of the order (real Nigerian states and cities)</span></li><li><span class="field">Region</span><span class="desc">Business zone: North, South, East, West, or Central</span></li><li><span class="field">Latitude / Longitude</span><span class="desc">Geocoordinates of the City, used for Symbol Maps</span></li><li><span class="field">Category / Sub-Category</span><span class="desc">Product hierarchy: Furniture, Office Supplies, Technology and their sub-categories</span></li><li><span class="field">Product Name</span><span class="desc">Specific product ordered</span></li><li><span class="field">Quantity</span><span class="desc">Units ordered</span></li><li><span class="field">Unit Price</span><span class="desc">Price per unit before discount</span></li><li><span class="field">Discount</span><span class="desc">Discount rate applied (0% to 30%)</span></li><li><span class="field">Sales</span><span class="desc">Net sales value for the line (after discount)</span></li><li><span class="field">Profit</span><span class="desc">Profit for the line (can be negative on heavily discounted orders)</span></li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>Sales_Targets</h3>
+    <p class="muted">Monthly Target Sales vs Actual Sales by Region for 2025 - purpose-built for the Bullet Graph.</p>
+    <ul class="field-list">
+      <li><span class="field">Region</span><span class="desc">North, South, East, West, or Central</span></li><li><span class="field">Month Date / Month Label</span><span class="desc">Calendar month for the target/actual pair</span></li><li><span class="field">Target Sales</span><span class="desc">The sales goal set for that region and month</span></li><li><span class="field">Actual Sales</span><span class="desc">What was actually achieved</span></li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>Project_Tasks</h3>
+    <p class="muted">16 tasks describing a sample Tableau dashboard-build project, from Data Connection through Training &amp; Handover - purpose-built for the Gantt Chart.</p>
+    <ul class="field-list">
+      <li><span class="field">Task ID / Task Name</span><span class="desc">Identifier and name of each project task</span></li><li><span class="field">Phase</span><span class="desc">Discovery, Design, Build, Assembly, Testing, or Launch</span></li><li><span class="field">Start Date / End Date</span><span class="desc">Planned start and end date of the task</span></li><li><span class="field">Duration (Days)</span><span class="desc">Calculated span of the task in days</span></li><li><span class="field">Owner</span><span class="desc">Person or team responsible</span></li><li><span class="field">Percent Complete</span><span class="desc">Progress indicator (0-100)</span></li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>Sales_Funnel</h3>
+    <p class="muted">Monthly pipeline stage counts (Leads through Closed Won) by Region for 2025 - purpose-built for the Funnel Chart.</p>
+    <ul class="field-list">
+      <li><span class="field">Region</span><span class="desc">North, South, East, West, or Central</span></li><li><span class="field">Month Label</span><span class="desc">Calendar month of the pipeline snapshot</span></li><li><span class="field">Stage / Stage Order</span><span class="desc">Leads, Qualified, Proposal, Negotiation, Closed Won, and their sequence number 1-5</span></li><li><span class="field">Lead Count</span><span class="desc">Number of leads/deals at that stage</span></li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>Quarterly_Bridge</h3>
+    <p class="muted">A starting sales value, a sequence of named increases and decreases, and an ending value - purpose-built for the Waterfall Chart.</p>
+    <ul class="field-list">
+      <li><span class="field">Label</span><span class="desc">Name of the step, e.g. '2025 Q4 Starting Sales', 'New Customer Wins'</span></li><li><span class="field">Change Type</span><span class="desc">Start, Increase, Decrease, or Total</span></li><li><span class="field">Step Order</span><span class="desc">Sequence number controlling left-to-right order</span></li><li><span class="field">Value</span><span class="desc">The amount of the change (negative for decreases)</span></li>
+    </ul>
+  </div>
+    </section>
+
+    <section id="connect">
+      <h2>2. Connecting the Data in Tableau</h2>
+      <p class="intro">Follow these steps once, at the start of your workbook, to get every sheet ready to use.</p>
+      <div class="steps-block"><ol><li>Open Tableau Desktop or Tableau Public.</li><li>Under Connect on the start screen, choose Microsoft Excel, then browse to and select Tableau_Chart_Practice_Dataset.xlsx.</li><li>You will land on the Data Source screen with all six sheets (Read Me, Orders, Sales_Targets, Project_Tasks, Sales_Funnel, Quarterly_Bridge) listed on the left under Sheets.</li><li>Drag Orders onto the canvas first - this is the table you will use for the majority of charts, and it does not need to be joined to anything else.</li><li>Do not join Sales_Targets, Project_Tasks, Sales_Funnel, or Quarterly_Bridge to Orders or to each other. Each is designed to be used on its own worksheet for its specific chart type (Bullet Graph, Gantt, Funnel, Waterfall respectively) - joining them would create incorrect row multiplication.</li><li>Check the data preview at the bottom of the Data Source screen: confirm Order Date and Ship Date show a calendar icon (Date type), and Sales, Profit, Quantity, Discount, Unit Price show a number icon (Number type).</li><li>Right-click the State field in the Data pane (once on a worksheet) and confirm Geographic Role is set to State/Province. Do the same for City, confirming it is set to City. Tableau should auto-detect both correctly since these are real Nigerian place names.</li><li>Leave the connection as Live for practice purposes (no need to create an Extract) - Live queries the Excel file directly every time you change the view, which is simplest while learning.</li><li>Click the Sheet 1 tab at the bottom to leave the Data Source screen and start building worksheets. When you need a different table (e.g. Sales_Targets for the Bullet Graph), open a New Worksheet and drag that table's fields in - Tableau will let you use whichever table you last dragged onto the canvas, so add each new table to the canvas the first time you need it.</li></ol></div>
+    </section>
+
+    <section id="charts">
+      <h2>3. Step-by-Step Workflow for Every Chart</h2>
+      <p class="intro">Each chart states exactly which sheet to use, the precise fields and shelves to drag them onto, and the one rule that matters most. Build each on its own worksheet, and rename the tab to match the chart title as you go.</p>
+      
+  <article class="chart-card" id="chart-1">
+    <div class="chart-head">
+      <h3>1. Vertical Bar Chart - Sales by Region</h3>
+      <span class="sheet-badge">Orders</span>
+    </div>
+    <ol><li>Drag Region to the Columns shelf.</li><li>Drag Sales to the Rows shelf. Tableau builds a vertical bar chart, SUM(Sales) per region.</li><li>Click the Sort toolbar icon to rank bars descending.</li><li>Drag Sales onto Label on the Marks card to show exact values.</li></ol>
+    <div class="rule"><strong>Key rule:</strong> Keep the axis starting at zero; do not truncate it.</div>
+  </article>
+
+  <article class="chart-card" id="chart-2">
+    <div class="chart-head">
+      <h3>2. Horizontal Bar Chart - Top Products by Sales</h3>
+      <span class="sheet-badge">Orders</span>
+    </div>
+    <ol><li>Drag Product Name to the Rows shelf.</li><li>Drag Sales to the Columns shelf.</li><li>Sort descending, then right-click Product Name &gt; Filter, and use a Top filter (By field, Top 10, by Sales) to keep the list readable.</li><li>Drag Sales onto Label.</li></ol>
+    <div class="rule"><strong>Key rule:</strong> Always sort a ranked list, largest at top.</div>
+  </article>
+
+  <article class="chart-card" id="chart-3">
+    <div class="chart-head">
+      <h3>3. Stacked Bar Chart - Sales by Region and Category</h3>
+      <span class="sheet-badge">Orders</span>
+    </div>
+    <ol><li>Drag Region to Columns and Sales to Rows.</li><li>Drag Category onto Color on the Marks card - Tableau stacks each region's bar into Furniture / Office Supplies / Technology segments.</li><li>Drag Category onto Label as well to label each segment.</li></ol>
+    <div class="rule"><strong>Key rule:</strong> Limit the stacking field to a small number of members (Category has only 3, which is ideal).</div>
+  </article>
+
+  <article class="chart-card" id="chart-4">
+    <div class="chart-head">
+      <h3>4. Side-by-Side Bar Chart - Segment Performance by Region</h3>
+      <span class="sheet-badge">Orders</span>
+    </div>
+    <ol><li>Drag Region to Columns.</li><li>Drag Segment to Columns as well, placed to the right of Region.</li><li>Drag Sales to Rows.</li><li>Drag Segment onto Color.</li></ol>
+    <div class="rule"><strong>Key rule:</strong> Keep the secondary field (Segment, 3 members) small so bars stay readable.</div>
+  </article>
+
+  <article class="chart-card" id="chart-5">
+    <div class="chart-head">
+      <h3>5. Line Chart - Sales Trend Over Time</h3>
+      <span class="sheet-badge">Orders</span>
+    </div>
+    <ol><li>Drag Order Date to Columns, then change its pill to the continuous (green) Month.</li><li>Drag Sales to Rows.</li><li>Drag Region onto Color to compare five trend lines at once.</li><li>Optional: Analytics pane &gt; Trend Line for a fitted trend per region.</li></ol>
+    <div class="rule"><strong>Key rule:</strong> Always use the continuous (green) date field, never the discrete (blue) one, for a true timeline.</div>
+  </article>
+
+  <article class="chart-card" id="chart-6">
+    <div class="chart-head">
+      <h3>6. Area Chart - Cumulative Sales Composition Over Time</h3>
+      <span class="sheet-badge">Orders</span>
+    </div>
+    <ol><li>Build the line chart above, then change the Marks card type to Area.</li><li>Drag Category onto Color to stack Furniture / Office Supplies / Technology as bands over time.</li></ol>
+    <div class="rule"><strong>Key rule:</strong> Only stack when the combined total is itself meaningful.</div>
+  </article>
+
+  <article class="chart-card" id="chart-7">
+    <div class="chart-head">
+      <h3>7. Pie Chart - Share of Sales by Category</h3>
+      <span class="sheet-badge">Orders</span>
+    </div>
+    <ol><li>Drag Category to Color on the Marks card.</li><li>Drag Sales to Angle.</li><li>Set the Marks card type to Pie.</li><li>Drag Sales to Label, then right-click the label pill &gt; Quick Table Calculation &gt; Percent of Total.</li></ol>
+    <div class="rule"><strong>Key rule:</strong> Category has only 3 members - ideal for a pie chart; never do this with Sub-Category (12 members).</div>
+  </article>
+
+  <article class="chart-card" id="chart-8">
+    <div class="chart-head">
+      <h3>8. Donut Chart - Share of Sales with a Center KPI</h3>
+      <span class="sheet-badge">Orders</span>
+    </div>
+    <ol><li>Build the pie chart above on one axis.</li><li>Create a calculated field Dummy = MIN(0), place it on a second, dual-axis Rows position with Marks type Pie and no Color, sized smaller than the outer pie.</li><li>Right-click the second axis &gt; Dual Axis, then Synchronize Axis.</li><li>Add a text label in the centre showing SUM(Sales) formatted large, e.g. as a title or annotation.</li></ol>
+    <div class="rule"><strong>Key rule:</strong> Use the hollow centre purposefully - display the grand total there.</div>
+  </article>
+
+  <article class="chart-card" id="chart-9">
+    <div class="chart-head">
+      <h3>9. Scatter Plot - Sales vs Profit by Order</h3>
+      <span class="sheet-badge">Orders</span>
+    </div>
+    <ol><li>Drag Sales to Columns and Profit to Rows.</li><li>Turn off Analysis &gt; Aggregate Measures so each order plots individually.</li><li>Drag Order ID to Detail on the Marks card.</li><li>Set Marks card type to Circle.</li><li>Analytics pane &gt; Average Line on both axes to divide the view into quadrants.</li></ol>
+    <div class="rule"><strong>Key rule:</strong> Disaggregate the measures - the point is to see individual orders, not a single summary dot.</div>
+  </article>
+
+  <article class="chart-card" id="chart-10">
+    <div class="chart-head">
+      <h3>10. Bubble Chart - Sales, Profit, and Quantity Together</h3>
+      <span class="sheet-badge">Orders</span>
+    </div>
+    <ol><li>Build the scatter plot above.</li><li>Drag Quantity onto Size on the Marks card.</li><li>Drag Category onto Color.</li><li>Lower mark opacity to about 75% (Color menu) so overlapping bubbles stay visible.</li></ol>
+    <div class="rule"><strong>Key rule:</strong> Never encode more than 4 variables (x, y, size, colour) at once.</div>
+  </article>
+
+  <article class="chart-card" id="chart-11">
+    <div class="chart-head">
+      <h3>11. Treemap - Sales by Sub-Category</h3>
+      <span class="sheet-badge">Orders</span>
+    </div>
+    <ol><li>Drag Sub-Category to Color on the Marks card.</li><li>Drag Sales to Size.</li><li>Set Marks card type to Square, or select Sub-Category + Sales together and choose Show Me &gt; Treemap.</li><li>Drag Sub-Category to Label.</li><li>Optional: create Profit Ratio = SUM([Profit])/SUM([Sales]) and drag it onto Color instead of Sub-Category, for a second-metric encoding.</li></ol>
+    <div class="rule"><strong>Key rule:</strong> Use Size for magnitude and Color for a different metric, not the same one twice.</div>
+  </article>
+
+  <article class="chart-card" id="chart-12">
+    <div class="chart-head">
+      <h3>12. Heat Map - Order Volume by Region and Month</h3>
+      <span class="sheet-badge">Orders</span>
+    </div>
+    <ol><li>Drag Order Date (continuous Month) to Columns.</li><li>Drag Region to Rows.</li><li>Drag Order ID onto Color and set its aggregation to Count Distinct (CNTD).</li><li>Set Marks card type to Square.</li></ol>
+    <div class="rule"><strong>Key rule:</strong> Use a sequential palette since order count is always positive (one direction).</div>
+  </article>
+
+  <article class="chart-card" id="chart-13">
+    <div class="chart-head">
+      <h3>13. Highlight Table - Sales by Region and Category</h3>
+      <span class="sheet-badge">Orders</span>
+    </div>
+    <ol><li>Drag Category to Columns and Region to Rows.</li><li>Drag Sales to Text on the Marks card.</li><li>Drag Sales to Color as well.</li><li>Or select Region, Category, and Sales together and choose Show Me &gt; Highlight Table directly.</li></ol>
+    <div class="rule"><strong>Key rule:</strong> The same measure (Sales) drives both the number shown and the shading - keep them consistent.</div>
+  </article>
+
+  <article class="chart-card" id="chart-14">
+    <div class="chart-head">
+      <h3>14. Text Table / Crosstab - Full Detail Report</h3>
+      <span class="sheet-badge">Orders</span>
+    </div>
+    <ol><li>Drag Region and then Category to Rows.</li><li>Drag Sales, Profit, and Quantity together onto Text (this creates Measure Names/Measure Values automatically).</li><li>Analysis menu &gt; Totals &gt; Show Row Grand Totals for a summary row.</li><li>Format &gt; Numbers to set consistent currency and decimal formatting.</li></ol>
+    <div class="rule"><strong>Key rule:</strong> Right-align numbers, left-align text, and keep decimal places consistent throughout.</div>
+  </article>
+
+  <article class="chart-card" id="chart-15">
+    <div class="chart-head">
+      <h3>15. Box-and-Whisker Plot - Profit Distribution by Category</h3>
+      <span class="sheet-badge">Orders</span>
+    </div>
+    <ol><li>Drag Category to Columns.</li><li>Drag Profit to Rows and turn off Aggregate Measures.</li><li>Drag Order ID to Detail.</li><li>Select Show Me &gt; Box-and-Whisker Plot, or drag Box Plot from the Analytics pane onto the view.</li></ol>
+    <div class="rule"><strong>Key rule:</strong> Never pre-aggregate Profit before building this chart - the distribution of individual orders is the whole point.</div>
+  </article>
+
+  <article class="chart-card" id="chart-16">
+    <div class="chart-head">
+      <h3>16. Bullet Graph - Actual vs Target Sales by Region</h3>
+      <span class="sheet-badge">Sales_Targets</span>
+    </div>
+    <ol><li>Drag Region to Rows.</li><li>Drag Actual Sales to Columns, Marks type Bar.</li><li>Select Actual Sales and Target Sales together in the Data pane, then choose Show Me &gt; Bullet Graph, which places Target Sales as the reference tick automatically.</li><li>Drag Month Label to Filters if you want to focus on a single month, or leave all 12 months for a Region x Month grid.</li></ol>
+    <div class="rule"><strong>Key rule:</strong> Use this sheet, not Orders - it already contains the Target vs Actual pairing needed.</div>
+  </article>
+
+  <article class="chart-card" id="chart-17">
+    <div class="chart-head">
+      <h3>17. Gantt Chart - Dashboard Build Project Timeline</h3>
+      <span class="sheet-badge">Project_Tasks</span>
+    </div>
+    <ol><li>Drag Start Date to Columns (keep it continuous).</li><li>Drag Task Name to Rows - sort rows by Start Date for a natural top-to-bottom timeline.</li><li>Set Marks card type to Gantt Bar.</li><li>Drag Duration (Days) onto Size to set each bar's length.</li><li>Drag Phase onto Color to distinguish Discovery / Design / Build / Assembly / Testing / Launch.</li><li>Drag Owner and Percent Complete to Tooltip for on-hover detail.</li></ol>
+    <div class="rule"><strong>Key rule:</strong> Sort rows by Start Date (or task sequence), not alphabetically, so the timeline reads naturally.</div>
+  </article>
+
+  <article class="chart-card" id="chart-18">
+    <div class="chart-head">
+      <h3>18. Histogram - Distribution of Order Quantity</h3>
+      <span class="sheet-badge">Orders</span>
+    </div>
+    <ol><li>Select the Quantity field in the Data pane.</li><li>Choose Show Me &gt; Histogram - Tableau automatically creates a Quantity (bin) field and builds the chart.</li><li>Right-click the new bin field &gt; Edit, and try a couple of different bin sizes to see how the shape changes.</li></ol>
+    <div class="rule"><strong>Key rule:</strong> Pick a bin size that shows the shape clearly - not so wide it flattens it, not so narrow it becomes noisy.</div>
+  </article>
+
+  <article class="chart-card" id="chart-19">
+    <div class="chart-head">
+      <h3>19. Dual-Axis / Combo Chart - Sales and Profit by Month</h3>
+      <span class="sheet-badge">Orders</span>
+    </div>
+    <ol><li>Build a bar chart: continuous Month of Order Date on Columns, Sales on Rows.</li><li>Drag Profit to the far right of the view to create a second axis.</li><li>Right-click the new axis &gt; Dual Axis.</li><li>Change the second Marks card (Profit) to Line, and colour it differently from the Sales bars.</li><li>Right-click either axis and title it clearly, e.g. 'Sales (bars, left) and Profit (line, right)'.</li></ol>
+    <div class="rule"><strong>Key rule:</strong> Always label which axis belongs to which measure - never leave two unlabelled scales side by side.</div>
+  </article>
+
+  <article class="chart-card" id="chart-20">
+    <div class="chart-head">
+      <h3>20. Packed Bubble Chart - Sales by Customer</h3>
+      <span class="sheet-badge">Orders</span>
+    </div>
+    <ol><li>Drag Customer Name to Detail on the Marks card.</li><li>Drag Sales to Size.</li><li>Set Marks card type to Circle, or select Customer Name + Sales and choose Show Me &gt; Packed Bubbles.</li><li>Drag Segment onto Color, and Customer Name onto Label.</li><li>Add a Top N filter (Top 40 by Sales) so the view stays legible with 160 customers in the data.</li></ol>
+    <div class="rule"><strong>Key rule:</strong> Filter to a manageable number of bubbles (under ~40-50) before presenting.</div>
+  </article>
+
+  <article class="chart-card" id="chart-21">
+    <div class="chart-head">
+      <h3>21. Waterfall Chart - Q4 to Q1 Sales Bridge</h3>
+      <span class="sheet-badge">Quarterly_Bridge</span>
+    </div>
+    <ol><li>Drag Label to Columns, sorted by Step Order (right-click Label &gt; Sort &gt; by Step Order field, ascending).</li><li>Drag Value to Rows.</li><li>Set Marks card type to Gantt Bar.</li><li>Right-click the Value pill on Rows &gt; Add Table Calculation &gt; Running Total, computed along Label, to position each bar.</li><li>Create a calculated field for bar size (the absolute step Value) and drop it on Size.</li><li>Drag Change Type onto Color to distinguish Start / Increase / Decrease / Total.</li></ol>
+    <div class="rule"><strong>Key rule:</strong> Order steps by Step Order, never alphabetically - a waterfall's story depends entirely on sequence.</div>
+  </article>
+
+  <article class="chart-card" id="chart-22">
+    <div class="chart-head">
+      <h3>22. Funnel Chart - Lead Conversion by Stage</h3>
+      <span class="sheet-badge">Sales_Funnel</span>
+    </div>
+    <ol><li>Drag Stage to Rows, sorted by Stage Order (right-click Stage &gt; Sort &gt; by Stage Order field, ascending).</li><li>Drag Lead Count to Columns, aggregated as SUM.</li><li>Create a calculated field to centre the bars, e.g. Centered = -SUM([Lead Count])/2, and place it on a dual axis alongside Lead Count, or simply build the horizontal bar and centre it via Format &gt; Alignment for a simpler version.</li><li>Drag Region or Month Label to Filters to focus on one slice of the funnel at a time.</li><li>Add SUM(Lead Count) to Label to show the raw count at each stage.</li></ol>
+    <div class="rule"><strong>Key rule:</strong> Always keep stages in true process order (Leads to Closed Won), driven by Stage Order, not alphabetically.</div>
+  </article>
+
+  <article class="chart-card" id="chart-23">
+    <div class="chart-head">
+      <h3>23. Symbol Map - Sales by City</h3>
+      <span class="sheet-badge">Orders</span>
+    </div>
+    <ol><li>Double-click City in the Data pane. Tableau automatically generates Latitude and Longitude and plots a map.</li><li>Drag Sales onto Size on the Marks card.</li><li>Drag Region onto Color.</li><li>Drag City and Sales to Tooltip for on-hover detail.</li></ol>
+    <div class="rule"><strong>Key rule:</strong> Confirm City's Geographic Role is set correctly before relying on the auto-generated coordinates.</div>
+  </article>
+
+  <article class="chart-card" id="chart-24">
+    <div class="chart-head">
+      <h3>24. Filled Map - Profit by State</h3>
+      <span class="sheet-badge">Orders</span>
+    </div>
+    <ol><li>Double-click State in the Data pane.</li><li>Change the Marks card type to Map (Filled Map / Polygon).</li><li>Drag Profit onto Color - choose a diverging palette since profit can be negative.</li><li>Drag State and Profit to Tooltip.</li></ol>
+    <div class="rule"><strong>Key rule:</strong> Use a diverging colour palette for Profit since it can be negative or positive.</div>
+  </article>
+
+  <article class="chart-card" id="chart-25">
+    <div class="chart-head">
+      <h3>25. Sparklines - Compact Trend per Region</h3>
+      <span class="sheet-badge">Orders</span>
+    </div>
+    <ol><li>Drag Region to Rows.</li><li>Drag Order Date (continuous Month) to Columns.</li><li>Drag Sales to Rows (as a second field, or keep it on the Marks card so a line draws per region).</li><li>Set Marks card type to Line.</li><li>Right-click each axis and uncheck Show Header; Format &gt; Lines and remove gridlines for a clean, compact sparkline look.</li></ol>
+    <div class="rule"><strong>Key rule:</strong> Pair each sparkline with at least one number label - shape alone does not communicate magnitude.</div>
+  </article>
+    </section>
+
+    <section id="dashboard">
+      <h2>4. Assembling a Dashboard</h2>
+      <p class="intro">Once you have built several worksheets, combine them into an interactive dashboard.</p>
+      <div class="steps-block"><ol><li>Right-click the sheet tabs at the bottom and choose New Dashboard.</li><li>Set the dashboard Size (e.g. Automatic, or a fixed 1200x800 for consistent presentation).</li><li>Drag two or three finished worksheets from the Sheets list on the left onto the dashboard canvas (e.g. the Bar Chart, the Line Chart, and the Filled Map).</li><li>Use Layout Containers (drag a Horizontal or Vertical container from the Objects list) to arrange worksheets neatly in rows or columns.</li><li>Add a Filter Action: Dashboard menu &gt; Actions &gt; Add Action &gt; Filter, so clicking a bar in one chart filters the others.</li><li>Add a Text object as a title, and a Legend/Filter object if you want viewers to control Region or Category interactively.</li><li>Use Dashboard &gt; Format to adjust fonts, borders, and background shading consistently with the rest of the guide's formatting rules.</li></ol></div>
+    </section>
+
+    <section id="publish">
+      <h2>5. Saving and Publishing Your Work</h2>
+      <div class="steps-block"><ol><li>File &gt; Save As to save your workbook (.twb or .twbx). Choose Save as Packaged Workbook (.twbx) if you want the Excel data embedded inside the file for easy sharing.</li><li>If using Tableau Public, click the Save button in the top-left (the icon showing a save/upload arrow) to publish your workbook to your Tableau Public profile - this requires a free Tableau Public account and an internet connection.</li><li>If using Tableau Desktop with Tableau Server/Online access, use Server &gt; Publish Workbook instead.</li><li>Before publishing, double check every worksheet has a clear title, and that filters/legends you want visible to viewers are shown (right-click the field &gt; Show Filter / Show Legend).</li></ol></div>
+    </section>
+
+    <section id="reference">
+      <h2>6. Quick Reference: Chart to Sheet Map</h2>
+      <table class="ref">
+        <tr><th>Chart</th><th>Sheet Used</th></tr>
+        <tr><td>Vertical Bar Chart - Sales by Region</td><td><span class="sheet-badge small">Orders</span></td></tr>
+<tr><td>Horizontal Bar Chart - Top Products by Sales</td><td><span class="sheet-badge small">Orders</span></td></tr>
+<tr><td>Stacked Bar Chart - Sales by Region and Category</td><td><span class="sheet-badge small">Orders</span></td></tr>
+<tr><td>Side-by-Side Bar Chart - Segment Performance by Region</td><td><span class="sheet-badge small">Orders</span></td></tr>
+<tr><td>Line Chart - Sales Trend Over Time</td><td><span class="sheet-badge small">Orders</span></td></tr>
+<tr><td>Area Chart - Cumulative Sales Composition Over Time</td><td><span class="sheet-badge small">Orders</span></td></tr>
+<tr><td>Pie Chart - Share of Sales by Category</td><td><span class="sheet-badge small">Orders</span></td></tr>
+<tr><td>Donut Chart - Share of Sales with a Center KPI</td><td><span class="sheet-badge small">Orders</span></td></tr>
+<tr><td>Scatter Plot - Sales vs Profit by Order</td><td><span class="sheet-badge small">Orders</span></td></tr>
+<tr><td>Bubble Chart - Sales, Profit, and Quantity Together</td><td><span class="sheet-badge small">Orders</span></td></tr>
+<tr><td>Treemap - Sales by Sub-Category</td><td><span class="sheet-badge small">Orders</span></td></tr>
+<tr><td>Heat Map - Order Volume by Region and Month</td><td><span class="sheet-badge small">Orders</span></td></tr>
+<tr><td>Highlight Table - Sales by Region and Category</td><td><span class="sheet-badge small">Orders</span></td></tr>
+<tr><td>Text Table / Crosstab - Full Detail Report</td><td><span class="sheet-badge small">Orders</span></td></tr>
+<tr><td>Box-and-Whisker Plot - Profit Distribution by Category</td><td><span class="sheet-badge small">Orders</span></td></tr>
+<tr><td>Bullet Graph - Actual vs Target Sales by Region</td><td><span class="sheet-badge small">Sales_Targets</span></td></tr>
+<tr><td>Gantt Chart - Dashboard Build Project Timeline</td><td><span class="sheet-badge small">Project_Tasks</span></td></tr>
+<tr><td>Histogram - Distribution of Order Quantity</td><td><span class="sheet-badge small">Orders</span></td></tr>
+<tr><td>Dual-Axis / Combo Chart - Sales and Profit by Month</td><td><span class="sheet-badge small">Orders</span></td></tr>
+<tr><td>Packed Bubble Chart - Sales by Customer</td><td><span class="sheet-badge small">Orders</span></td></tr>
+<tr><td>Waterfall Chart - Q4 to Q1 Sales Bridge</td><td><span class="sheet-badge small">Quarterly_Bridge</span></td></tr>
+<tr><td>Funnel Chart - Lead Conversion by Stage</td><td><span class="sheet-badge small">Sales_Funnel</span></td></tr>
+<tr><td>Symbol Map - Sales by City</td><td><span class="sheet-badge small">Orders</span></td></tr>
+<tr><td>Filled Map - Profit by State</td><td><span class="sheet-badge small">Orders</span></td></tr>
+<tr><td>Sparklines - Compact Trend per Region</td><td><span class="sheet-badge small">Orders</span></td></tr>
+      </table>
+    </section>
+
+    <footer>Prepared by Kajola Gbenga &middot; Data Scientist &amp; AI Engineer</footer>
+  </main>
+</div>
+</body>
+</html>

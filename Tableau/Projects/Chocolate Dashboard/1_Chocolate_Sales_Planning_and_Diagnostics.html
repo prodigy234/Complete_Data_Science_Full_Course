@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Chocolate Sales Tableau Project - Planning and Diagnostics</title>
+<style>
+  :root{
+    --brown:#4a2c1a;
+    --gold:#c58f2a;
+    --cream:#faf3e7;
+    --dark:#2a1810;
+    --red:#8c2f2f;
+    --green:#2f6b3f;
+    --grey:#6b6b6b;
+  }
+  *{box-sizing:border-box;}
+  body{
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin:0;
+    padding:0;
+    background:var(--cream);
+    color:var(--dark);
+    line-height:1.6;
+  }
+  header.hero{
+    background: linear-gradient(135deg, var(--brown), var(--dark));
+    color:#fff;
+    padding:50px 40px;
+    text-align:center;
+  }
+  header.hero h1{
+    font-size:2.3em;
+    margin:0 0 10px 0;
+  }
+  header.hero p{
+    font-size:1.1em;
+    color:#e9d8c3;
+    margin:4px 0;
+  }
+  nav.toc{
+    background:#fff;
+    margin:30px auto;
+    max-width:1000px;
+    border:1px solid #ddd;
+    border-radius:8px;
+    padding:25px 35px;
+  }
+  nav.toc h2{
+    margin-top:0;
+    color:var(--brown);
+    border-bottom:3px solid var(--gold);
+    padding-bottom:8px;
+  }
+  nav.toc ol{
+    columns:2;
+    -webkit-columns:2;
+    column-gap:40px;
+  }
+  nav.toc li{
+    margin-bottom:8px;
+  }
+  nav.toc a{
+    color:var(--brown);
+    text-decoration:none;
+  }
+  nav.toc a:hover{
+    text-decoration:underline;
+  }
+  main{
+    max-width:1000px;
+    margin:0 auto;
+    padding:10px 40px 80px 40px;
+  }
+  section{
+    background:#fff;
+    border-radius:8px;
+    padding:30px 35px;
+    margin-bottom:30px;
+    box-shadow:0 1px 4px rgba(0,0,0,0.08);
+  }
+  h2.section-title{
+    color:#fff;
+    background:var(--brown);
+    padding:14px 20px;
+    border-radius:6px;
+    margin:-30px -35px 25px -35px;
+    font-size:1.4em;
+  }
+  h3{
+    color:var(--brown);
+    border-left:5px solid var(--gold);
+    padding-left:12px;
+    margin-top:35px;
+  }
+  h4{
+    color:var(--red);
+    margin-bottom:6px;
+  }
+  table{
+    width:100%;
+    border-collapse:collapse;
+    margin:15px 0 25px 0;
+    font-size:0.95em;
+  }
+  th{
+    background:var(--brown);
+    color:#fff;
+    text-align:left;
+    padding:10px 12px;
+  }
+  td{
+    padding:9px 12px;
+    border-bottom:1px solid #e2d6c3;
+    vertical-align:top;
+  }
+  tr:nth-child(even) td{
+    background:#fbf6ec;
+  }
+  .column-card{
+    border:1px solid #e2d6c3;
+    border-radius:8px;
+    padding:20px 25px;
+    margin-bottom:22px;
+    background:#fffdf9;
+  }
+  .column-card h4{
+    font-size:1.15em;
+    margin-top:0;
+  }
+  .tag{
+    display:inline-block;
+    padding:3px 10px;
+    border-radius:14px;
+    font-size:0.78em;
+    font-weight:bold;
+    color:#fff;
+    margin-right:6px;
+  }
+  .tag.problem{background:var(--red);}
+  .tag.type{background:var(--grey);}
+  .tag.task{background:var(--green);}
+  .tag.dim{background:#3a6ea5;}
+  .tag.measure{background:#a35c2a;}
+  ul{
+    margin:8px 0 8px 0;
+  }
+  li{
+    margin-bottom:6px;
+  }
+  .callout{
+    background:#fdf1e3;
+    border-left:5px solid var(--gold);
+    padding:14px 18px;
+    border-radius:4px;
+    margin:18px 0;
+  }
+  .callout.warn{
+    background:#fbeaea;
+    border-left-color:var(--red);
+  }
+  .dashboard-card{
+    border:2px solid var(--gold);
+    border-radius:8px;
+    padding:20px 24px;
+    margin-bottom:25px;
+    background:#fffaf0;
+  }
+  .dashboard-card h4{
+    color:var(--brown);
+    font-size:1.25em;
+  }
+  code{
+    background:#eee3d2;
+    padding:2px 6px;
+    border-radius:4px;
+    font-family:Consolas, monospace;
+    font-size:0.9em;
+  }
+  footer{
+    text-align:center;
+    padding:30px;
+    color:var(--grey);
+    font-size:0.9em;
+  }
+  .badge-num{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    width:28px;
+    height:28px;
+    border-radius:50%;
+    background:var(--gold);
+    color:#fff;
+    font-weight:bold;
+    margin-right:10px;
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <h1>Chocolate Sales Tableau Project</h1>
+  <p>File 1 of 2: Planning and Diagnostics Document</p>
+  <p>Prepared for Prodigy Training Hub - Data Preparation Blueprint Before Dashboard Construction</p>
+</header>
+
+<nav class="toc">
+  <h2>Table of Contents</h2>
+  <ol>
+    <li><a href="#overview">1. Dataset Overview</a></li>
+    <li><a href="#columns">2. Column by Column Analysis</a></li>
+    <li><a href="#problems">3. Full Data Problem Register</a></li>
+    <li><a href="#tasks">4. Cleaning and Preparation Tasks Required</a></li>
+    <li><a href="#relationships">5. Relationships and Data Model Considerations</a></li>
+    <li><a href="#measures">6. Measures and Fields Needed for Dashboards</a></li>
+    <li><a href="#dashboards">7. Dashboards to be Built</a></li>
+    <li><a href="#next">8. What Comes Next</a></li>
+  </ol>
+</nav>
+
+<main>
+
+<section id="overview">
+  <h2 class="section-title">1. Dataset Overview</h2>
+  <p>The dataset supplied is a chocolate sales transaction log named <code>staff_dataset.csv</code>. It contains <strong>3,791 rows</strong> of individual sales transactions and <strong>9 columns</strong>, spanning a recorded date range of <strong>1 January 2021 to 31 January 2022</strong>. Each row represents one sale event carried out by a sales representative, in a specific country, for a specific chocolate product, on a specific date.</p>
+  <p>Before any dashboard is designed in Tableau, the dataset needs to be understood in full detail: what each column truly represents, what is wrong or misleading in the raw data, what needs to be fixed, and what new fields need to be engineered. This document is the diagnostic and planning stage. It intentionally does not walk through the fixes step by step. The second HTML file, <code>2_Chocolate_Sales_Solutions_and_Dashboard_Build.html</code>, contains the full solutions and the complete Tableau build guide. The Word document combines both stages into one continuous reference.</p>
+  <table>
+    <tr><th>Property</th><th>Value</th></tr>
+    <tr><td>File name</td><td>staff_dataset.csv</td></tr>
+    <tr><td>Row count</td><td>3,791 transactions</td></tr>
+    <tr><td>Column count</td><td>9 columns</td></tr>
+    <tr><td>Date range</td><td>01/01/2021 to 31/01/2022 (13 calendar months)</td></tr>
+    <tr><td>Countries represented</td><td>6 (Australia, Canada, India, New Zealand, UK, USA)</td></tr>
+    <tr><td>Distinct products</td><td>22 chocolate product lines</td></tr>
+    <tr><td>Distinct sales representatives</td><td>25 named individuals</td></tr>
+    <tr><td>Missing values</td><td>0 nulls found in any column</td></tr>
+    <tr><td>Exact duplicate rows</td><td>0 found</td></tr>
+  </table>
+  <div class="callout">
+    A dataset with zero nulls and zero duplicate rows can still be full of problems. Completeness is not the same thing as correctness. Almost every issue in this dataset is a labelling, structure, or logic problem rather than a missing data problem, and those are the hardest kind to catch because a quick glance at the file looks clean.
+  </div>
+</section>
+
+<section id="columns">
+  <h2 class="section-title">2. Column by Column Analysis</h2>
+  <p>Each of the 9 columns is broken down below: what it appears to represent, what it actually contains once tested, and what needs attention. No fixes are given here on purpose. This section is about diagnosis only.</p>
+
+  <div class="column-card">
+    <h4>Column 1: Staff_id <span class="tag type">Integer</span> <span class="tag problem">Misleading name</span></h4>
+    <p><strong>What it looks like:</strong> An identifier for a staff member, since the name implies one row equals one employee record.</p>
+    <p><strong>What it actually is:</strong> A running transaction number from 1 to 3,791, unique on every single row. There are only 25 real sales representatives in the data (see Full_Name below), so this field cannot be a staff identifier. It is a row-level transaction ID that has been mislabelled.</p>
+    <p><strong>Why this matters:</strong> If a dashboard builder assumes <code>Staff_id</code> identifies a person and uses it to count staff, count distinct sales reps, or group sales by rep, the result will be wrong. Every distinct count will return 3,791 instead of 25.</p>
+    <p><strong>Task to investigate:</strong> Confirm whether this field should be renamed and repurposed as a transaction or order identifier, and confirm that <code>Full_Name</code> is the true dimension for staff level analysis.</p>
+  </div>
+
+  <div class="column-card">
+    <h4>Column 2: Amount <span class="tag measure">Measure (Integer)</span> <span class="tag problem">Zero values present</span></h4>
+    <p><strong>What it represents:</strong> The monetary sales value of the transaction, presumably in a local or standard currency unit. No currency symbol or code is present in the file.</p>
+    <p><strong>Statistics:</strong> Minimum 0, maximum 23,268, mean approximately 5,724.5, standard deviation approximately 4,296.5.</p>
+    <p><strong>Problems found:</strong></p>
+    <ul>
+      <li>Exactly 2 rows have an <code>Amount</code> of 0 (row for Dotty Strutley and row for Kelci Walkden). Both of these rows also have 0 in the <code>Boxes</code> column at the same time, which suggests these are either genuine zero value orders (cancelled, returned, or sample orders) or data entry errors rather than random noise.</li>
+      <li>There is no currency field anywhere in the dataset, so the unit of <code>Amount</code> is not documented. Since the countries include the USA, UK, Canada, Australia, New Zealand, and India, it is unclear whether the amount has already been converted to one common currency or is reported in each country's local currency.</li>
+    </ul>
+    <p><strong>Task to investigate:</strong> Decide how the two zero value transactions should be treated in analysis and confirm the currency assumption before revenue figures are shown to a client.</p>
+  </div>
+
+  <div class="column-card">
+    <h4>Column 3: Full_Name <span class="tag dim">Dimension (String)</span> <span class="tag problem">Formatting issue</span></h4>
+    <p><strong>What it represents:</strong> The name of the sales representative who processed the transaction.</p>
+    <p><strong>Problems found:</strong></p>
+    <ul>
+      <li><strong>Every single one of the 3,791 rows</strong> contains a double space between the first name and the surname, for example <code>"Barr  Faughny"</code> instead of <code>"Barr Faughny"</code>. This is a 100 percent occurrence rate, meaning it is systemic rather than occasional.</li>
+      <li>Two of the 25 names contain apostrophes: <code>Marney  O'Breen</code> and <code>Wilone  O'Kielt</code>. Apostrophes inside names can occasionally cause problems in exports, calculated field syntax, or joins with other systems if not handled carefully.</li>
+    </ul>
+    <p><strong>Why this matters:</strong> A double space is invisible to the eye in most viewers but Tableau treats <code>"Barr  Faughny"</code> and any accidentally single spaced version of the same name as two separate distinct values. If this were left as is and mixed with a second data source that used single spacing, sales reps would appear twice under slightly different name strings.</p>
+    <p><strong>Task to investigate:</strong> A cleaned version of this field needs to be produced before it is used as the primary staff dimension in any chart, filter, or calculation.</p>
+  </div>
+
+  <div class="column-card">
+    <h4>Column 4: Country <span class="tag dim">Dimension (String)</span></h4>
+    <p><strong>What it represents:</strong> The country associated with the sale. It is not labelled whether this is the customer's country, the shipping destination, or the sales region assigned to the rep.</p>
+    <p><strong>Values found:</strong> Australia, Canada, India, New Zealand, UK, USA. Six values, spelled consistently, no case issues, no leading or trailing spaces detected.</p>
+    <p><strong>Problems found:</strong> This column is clean at the text level, but its business meaning is ambiguous. "UK" is an abbreviation while every other country is spelled out in full, which is a minor inconsistency in labelling style and worth a decision on whether to standardise to "United Kingdom" for presentation purposes.</p>
+    <p><strong>Task to investigate:</strong> Clarify with context (or document an assumption) about whether Country represents the customer's location or the sales territory, since this affects how the field should be titled on any dashboard.</p>
+  </div>
+
+  <div class="column-card">
+    <h4>Column 5: Product <span class="tag dim">Dimension (String)</span></h4>
+    <p><strong>What it represents:</strong> The specific chocolate product sold in the transaction, for example "Raspberry Choco", "99% Dark and Pure", "White Choc", "Manuka Honey Choco".</p>
+    <p><strong>Values found:</strong> 22 distinct product names, all spelled consistently with no obvious duplicates or case variants.</p>
+    <p><strong>Problems found:</strong> There is no product category or product family field. All 22 products sit at the same flat level, so a dashboard cannot currently group products into categories such as "Dark Chocolate", "Milk Chocolate", "Bars", "Bites", "Drinks" without manually building that grouping.</p>
+    <p><strong>Task to investigate:</strong> Decide whether a manual product category grouping should be engineered to make dashboards easier to read, given that 22 individual products is a lot to show on one chart at once.</p>
+  </div>
+
+  <div class="column-card">
+    <h4>Column 6: Date <span class="tag type">String, not a true date</span> <span class="tag problem">Wrong type, format risk</span></h4>
+    <p><strong>What it represents:</strong> The date the transaction occurred.</p>
+    <p><strong>Problems found:</strong></p>
+    <ul>
+      <li>The column is stored as plain text in <code>DD/MM/YYYY</code> format, for example <code>01/01/2021</code>, rather than as a true date data type. This means Tableau will not automatically treat it as a date field on connection unless the format is explicitly recognised.</li>
+      <li>Because the format is day first rather than month first, there is a genuine risk of misreading dates such as <code>03/04/2021</code> as the 4th of March instead of the 3rd of April if the wrong locale or format assumption is applied during import.</li>
+      <li>The data only covers a partial second year. There are 12 full months of 2021 and then a partial month for January 2022, which contains 491 rows compared to a typical monthly count of roughly 230 to 320 rows in 2021. A month by month trend chart that does not account for this will visually suggest a big spike at the very end of the timeline that is really just the fact that the last "month" in the data is not a normal month, it needs checking to confirm whether the full month of January 2022 is complete or whether more months exist beyond what was extracted.</li>
+    </ul>
+    <p><strong>Task to investigate:</strong> The date field needs to be converted to a genuine date type using the correct day first format, and the unusual spike in the final month needs to be understood and communicated on any dashboard that shows a full timeline.</p>
+  </div>
+
+  <div class="column-card">
+    <h4>Column 7: Customers <span class="tag measure">Measure (Integer)</span></h4>
+    <p><strong>What it represents:</strong> Presumably the number of customers associated with that transaction or that batch of sales activity.</p>
+    <p><strong>Statistics:</strong> Minimum 1, maximum 717, mean approximately 163.</p>
+    <p><strong>Problems found:</strong> No zero or negative values, no missing values. The only open question is definitional: it is not clear whether this number counts unique customers served in that single transaction row, or a running count of customers for that rep at that point in time. Given that a single transaction row would not normally involve up to 717 different customers at once, this field most likely represents a customer count tied to a batch, campaign, or reporting period, rather than literally "how many people bought this exact chocolate order."</p>
+    <p><strong>Task to investigate:</strong> The precise definition of this field should be confirmed before it is used to build a "sales per customer" metric, since the answer changes how that metric should be interpreted and titled.</p>
+  </div>
+
+  <div class="column-card">
+    <h4>Column 8: Boxes <span class="tag measure">Measure (Integer)</span> <span class="tag problem">Zero values present</span></h4>
+    <p><strong>What it represents:</strong> The number of boxes of chocolate sold in the transaction.</p>
+    <p><strong>Statistics:</strong> Minimum 0, maximum 3,075, mean approximately 354.7.</p>
+    <p><strong>Problems found:</strong> The same 2 rows that have <code>Amount</code> equal to 0 also have <code>Boxes</code> equal to 0 (Dotty Strutley and Kelci Walkden). This consistency between the two zero occurrences is actually a good sign, it suggests these two rows are genuinely zero value transactions rather than two unrelated data entry mistakes, but they still need a decision on how to treat them.</p>
+    <p><strong>Task to investigate:</strong> Same as <code>Amount</code>, a decision is needed on whether to keep, flag, or exclude these two rows from headline totals and averages.</p>
+  </div>
+
+  <div class="column-card">
+    <h4>Column 9: Average_Amount <span class="tag measure">Measure (Decimal)</span> <span class="tag problem">Broken field, constant value</span></h4>
+    <p><strong>What it represents on paper:</strong> The average transaction amount, implying it should vary by representative, by product, by country, or by some other grouping.</p>
+    <p><strong>What it actually contains:</strong> The exact same value, <strong>5,724.54</strong>, repeated on all 3,791 rows without a single exception. This number is simply the overall average of the entire <code>Amount</code> column calculated once and then copied down every row.</p>
+    <p><strong>Why this is a serious problem:</strong> As it stands, this field carries zero analytical value and is actively misleading. If a chart is built showing "Average Amount by Country" or "Average Amount by Product" using this column directly, every single bar on the chart will be exactly the same height, which looks like a broken chart to anyone viewing the dashboard, including a client. This is the single most important data problem in the entire dataset to catch before dashboard design begins.</p>
+    <p><strong>Task to investigate:</strong> This field cannot be used as supplied for any grouped average. A decision is needed on whether to drop it entirely from the workbook or replace it with a properly calculated field built fresh inside Tableau.</p>
+  </div>
+</section>
+
+<section id="problems">
+  <h2 class="section-title">3. Full Data Problem Register</h2>
+  <p>This table consolidates every problem identified above into a single register, ranked roughly by how much damage each issue would do to a dashboard if left unresolved.</p>
+  <table>
+    <tr><th>#</th><th>Column(s)</th><th>Problem</th><th>Severity</th><th>Impact if unresolved</th></tr>
+    <tr><td>1</td><td>Average_Amount</td><td>Constant value (5,724.54) copied to every row, not a real average</td><td>Critical</td><td>Any chart grouping this field by category shows identical bars, misleading and unusable</td></tr>
+    <tr><td>2</td><td>Staff_id</td><td>Mislabelled as a staff identifier when it is actually a unique transaction row number</td><td>High</td><td>Distinct counts of "staff" would wrongly return 3,791 instead of 25</td></tr>
+    <tr><td>3</td><td>Full_Name</td><td>Double space between first and last name on 100 percent of rows</td><td>Medium</td><td>Risk of duplicate looking dimension members if merged with any external, differently formatted source</td></tr>
+    <tr><td>4</td><td>Date</td><td>Stored as text in day/month/year format rather than a true date field</td><td>Medium to High</td><td>Risk of dates being misread if the wrong locale or format is applied on connection; blocks native date hierarchy features until fixed</td></tr>
+    <tr><td>5</td><td>Date</td><td>Final month in the data (January 2022) has roughly double the row count of a typical month</td><td>Medium</td><td>Time trend charts show a false looking spike at the end unless explained or the partial period is filtered or annotated</td></tr>
+    <tr><td>6</td><td>Amount, Boxes</td><td>2 rows have a value of exactly 0 in both fields simultaneously</td><td>Low to Medium</td><td>Slight understatement or overstatement of totals and averages depending on how they are treated</td></tr>
+    <tr><td>7</td><td>Country</td><td>Business meaning of the field (customer location versus sales territory) is not documented</td><td>Low</td><td>Dashboard title and tooltip text could describe the field incorrectly</td></tr>
+    <tr><td>8</td><td>Product</td><td>No category or family grouping exists above the 22 individual products</td><td>Low</td><td>Charts become cluttered with 22 categories where a grouped view would be easier to read</td></tr>
+    <tr><td>9</td><td>Customers</td><td>Precise definition of what is being counted is not documented</td><td>Low</td><td>A "revenue per customer" metric could be mislabelled or misinterpreted</td></tr>
+    <tr><td>10</td><td>Country</td><td>"UK" is abbreviated while every other country name is spelled out in full</td><td>Cosmetic</td><td>Minor inconsistency in labelling style on final visuals</td></tr>
+  </table>
+</section>
+
+<section id="tasks">
+  <h2 class="section-title">4. Cleaning and Preparation Tasks Required</h2>
+  <p>Below is the task list that follows directly from the problem register, organised by column, without yet describing the exact Tableau mechanics of how each task will be carried out. The full step by step solution to each of these tasks is provided in the second HTML file and in the Word document.</p>
+
+  <h3>Tasks for Staff_id</h3>
+  <ul>
+    <li>Rename or re-alias the field so its true purpose as a transaction level identifier is clear, rather than leaving it implying it is a staff identifier.</li>
+    <li>Confirm that <code>Full_Name</code> is used as the true dimension whenever "how many sales reps" or "which sales rep" questions are answered.</li>
+  </ul>
+
+  <h3>Tasks for Amount and Boxes</h3>
+  <ul>
+    <li>Decide on a treatment rule for the two zero value rows: keep them as legitimate zero transactions, flag them visually, or exclude them from certain calculations while keeping them visible in a raw data view.</li>
+    <li>Document the currency assumption for <code>Amount</code> before any revenue figure is presented publicly.</li>
+  </ul>
+
+  <h3>Tasks for Full_Name</h3>
+  <ul>
+    <li>Build a cleaned name field that removes the double spacing on all 3,791 rows.</li>
+    <li>Verify that names containing apostrophes still calculate and filter correctly after cleaning.</li>
+  </ul>
+
+  <h3>Tasks for Date</h3>
+  <ul>
+    <li>Convert the text based date into a true date field using the correct day first format, not the default month first assumption.</li>
+    <li>Build out a proper date hierarchy (Year, Quarter, Month) once the field is a genuine date type.</li>
+    <li>Investigate and document the reason for the higher row count in January 2022 so the time trend dashboard can either explain it in a caption or exclude the partial month depending on the audience.</li>
+  </ul>
+
+  <h3>Tasks for Country</h3>
+  <ul>
+    <li>Decide whether to standardise "UK" to "United Kingdom" for a more consistent look across all dashboard labels.</li>
+    <li>Document, at least internally, what "Country" is understood to represent for this project.</li>
+  </ul>
+
+  <h3>Tasks for Product</h3>
+  <ul>
+    <li>Decide whether a manual product category grouping is worth building to simplify product level charts, given 22 distinct product names.</li>
+  </ul>
+
+  <h3>Tasks for Customers</h3>
+  <ul>
+    <li>Document the working definition used for this project so that any "per customer" metric built later has a clear, defensible meaning attached to it.</li>
+  </ul>
+
+  <h3>Tasks for Average_Amount</h3>
+  <ul>
+    <li>Do not use this field directly in any chart or calculation that groups by category.</li>
+    <li>Plan to either hide this field in Tableau or replace it entirely with fresh calculated fields that compute genuine averages per representative, per product, per country, and per month.</li>
+  </ul>
+</section>
+
+<section id="relationships">
+  <h2 class="section-title">5. Relationships and Data Model Considerations</h2>
+  <p>This dataset arrives as a single flat table, so there are no joins or relationships to configure between multiple tables in this specific project. Every column already sits on the same row for the same transaction. However, a few structural points still need to be planned before connecting to Tableau:</p>
+  <ul>
+    <li><strong>Single logical table:</strong> The data source pane in Tableau will only need one connection to <code>staff_dataset.csv</code>. There is no second table, lookup file, or dimension table to relate it to in this version of the project.</li>
+    <li><strong>Grain of the table:</strong> The grain (the meaning of one row) is one sales transaction, tied to one representative, one product, one country, and one date. Every calculated field and every chart must respect this grain, particularly the two broken assumptions already flagged, where <code>Staff_id</code> looked like it should identify a person rather than a row, and <code>Average_Amount</code> looked like it should vary by group rather than sit fixed for the whole table.</li>
+    <li><strong>Future extension point:</strong> If this project is later extended with a separate staff directory table (containing hire date, region manager, or target quota per representative) or a currency exchange rate table (to convert <code>Amount</code> into a single reporting currency across all six countries), those would become genuine relationships built on <code>Full_Name</code> and <code>Country</code> respectively. That work is out of scope for the current single file dataset but is worth planning for if the project grows.</li>
+    <li><strong>Data Interpreter and field types:</strong> When the file is first connected, Tableau's automatic field type guesses need to be checked line by line against the true type of each column, since the raw <code>Date</code> field is text, not date, until it is explicitly told otherwise.</li>
+  </ul>
+</section>
+
+<section id="measures">
+  <h2 class="section-title">6. Measures and Fields Needed for Dashboards</h2>
+  <p>Based on everything found above, the following list of new fields will need to be engineered inside Tableau before the dashboards can be built properly. Exact formulas are provided in the second HTML file and the Word document; this is simply the planning list of what is needed and why.</p>
+  <table>
+    <tr><th>New field needed</th><th>Type</th><th>Purpose</th></tr>
+    <tr><td>Clean Full Name</td><td>Dimension</td><td>Removes the double space problem so the sales representative name can be trusted as a clean dimension</td></tr>
+    <tr><td>Transaction ID (Staff_id renamed)</td><td>Dimension</td><td>Correctly labels the row level identifier so it is never mistaken for a staff count</td></tr>
+    <tr><td>Order Date (converted)</td><td>Date dimension</td><td>A true date field, parsed with the correct day first format, enabling year, quarter, and month analysis</td></tr>
+    <tr><td>Data Quality Flag</td><td>Dimension</td><td>Marks the two zero value transactions so they can be included or excluded from views on demand rather than silently affecting totals</td></tr>
+    <tr><td>Total Sales Amount</td><td>Measure</td><td>The core revenue measure, summed correctly across any grouping</td></tr>
+    <tr><td>Total Boxes Sold</td><td>Measure</td><td>The core volume measure</td></tr>
+    <tr><td>Average Price per Box</td><td>Measure</td><td>A genuine, correctly calculated replacement for the broken Average_Amount field</td></tr>
+    <tr><td>Average Sale per Transaction</td><td>Measure</td><td>A true row level average, calculated live rather than hardcoded</td></tr>
+    <tr><td>Revenue per Customer</td><td>Measure</td><td>Ties revenue to the Customers field for an efficiency style metric</td></tr>
+    <tr><td>Sales Rep Rank</td><td>Table calculation</td><td>Used to build a leaderboard of the 25 representatives</td></tr>
+    <tr><td>Country Display Name</td><td>Dimension (optional)</td><td>Standardises "UK" to "United Kingdom" if a fully spelled out look is preferred on final visuals</td></tr>
+  </table>
+</section>
+
+<section id="dashboards">
+  <h2 class="section-title">7. Dashboards to be Built</h2>
+  <p>Four core interactive dashboards are planned for this project, plus supporting worksheets that feed into each one. Titles, purpose, and the sheets each dashboard will contain are listed below. Full build instructions, shelf by shelf, are provided in the second HTML file and in the Word document.</p>
+
+  <div class="dashboard-card">
+    <h4><span class="badge-num">1</span>Executive Sales Overview</h4>
+    <p><strong>Purpose:</strong> A single landing dashboard for senior stakeholders to see overall business health at a glance.</p>
+    <p><strong>Planned sheets:</strong></p>
+    <ul>
+      <li>KPI summary tiles: Total Sales Amount, Total Boxes Sold, Total Transactions, Average Price per Box</li>
+      <li>Sales Trend Over Time (line chart by month)</li>
+      <li>Sales by Country (bar chart, ranked)</li>
+      <li>Top 10 Products by Sales Amount (bar chart)</li>
+    </ul>
+  </div>
+
+  <div class="dashboard-card">
+    <h4><span class="badge-num">2</span>Sales Representative Performance</h4>
+    <p><strong>Purpose:</strong> Allows sales management to compare and rank the 25 representatives against each other.</p>
+    <p><strong>Planned sheets:</strong></p>
+    <ul>
+      <li>Sales by Representative (ranked horizontal bar chart)</li>
+      <li>Representative Leaderboard (detailed ranked table)</li>
+      <li>Boxes Sold versus Sales Amount (scatter plot, sized by Customers)</li>
+      <li>Representative Trend Over Time (line chart, one line per rep, with highlight interaction)</li>
+    </ul>
+  </div>
+
+  <div class="dashboard-card">
+    <h4><span class="badge-num">3</span>Product Performance Analysis</h4>
+    <p><strong>Purpose:</strong> Helps the client understand which chocolate products drive the most revenue and volume, and which are the most and least efficient per box.</p>
+    <p><strong>Planned sheets:</strong></p>
+    <ul>
+      <li>Sales by Product (ranked bar chart, all 22 products)</li>
+      <li>Average Price per Box by Product (bar chart)</li>
+      <li>Product Sales Trend Over Time (line chart, top products highlighted)</li>
+      <li>Product Mix by Country (heat map style highlight table)</li>
+    </ul>
+  </div>
+
+  <div class="dashboard-card">
+    <h4><span class="badge-num">4</span>Geography and Seasonality</h4>
+    <p><strong>Purpose:</strong> Shows where sales are strongest and how sales activity moves across the calendar.</p>
+    <p><strong>Planned sheets:</strong></p>
+    <ul>
+      <li>World map filled by Country, coloured and sized by Total Sales Amount</li>
+      <li>Monthly Trend Line, all countries combined, with a trend line layer</li>
+      <li>Seasonality Heat Map (Month by Year, coloured by Total Sales Amount)</li>
+      <li>Quarter Comparison bar chart (Quarter on columns, coloured by Year)</li>
+    </ul>
+  </div>
+
+  <div class="callout">
+    A fifth, optional navigation landing page can be added once all four dashboards exist, giving one click access into each of the four using simple navigation buttons. This is a finishing touch rather than a core requirement.
+  </div>
+</section>
+
+<section id="next">
+  <h2 class="section-title">8. What Comes Next</h2>
+  <p>This document has intentionally stopped at the planning stage. Every problem has been identified, every task has been listed, and every dashboard has been scoped out with its titles and sheets defined. The next step is to open the second HTML file, <code>2_Chocolate_Sales_Solutions_and_Dashboard_Build.html</code>, which walks through the complete solution for every single item listed above, followed by the full, chart by chart, shelf by shelf Tableau build guide for all four dashboards. The Word document mirrors both files together into one continuous, exportable reference.</p>
+</section>
+
+</main>
+
+<footer>
+  Chocolate Sales Tableau Project - Planning and Diagnostics - Prepared for Prodigy Training Hub
+</footer>
+
+</body>
+</html>

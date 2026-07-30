@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tableau Training - Tasks</title>
+<style>
+:root{
+  --navy:#1F4E78; --teal:#2E86AB; --ink:#22303c; --muted:#5b6b76;
+  --bg:#f7f9fb; --card:#ffffff; --border:#e2e8ee; --good:#1e7b34; --warn:#b00000;
+}
+*{box-sizing:border-box;}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--ink);line-height:1.55;}
+header.hero{background:linear-gradient(135deg,var(--navy),var(--teal));color:#fff;padding:48px 6vw 36px;}
+header.hero h1{margin:0 0 8px;font-size:2.1rem;}
+header.hero p{margin:4px 0;opacity:.92;font-size:1.05rem;}
+nav.toc{background:var(--card);border-bottom:1px solid var(--border);padding:14px 6vw;position:sticky;top:0;z-index:10;box-shadow:0 2px 6px rgba(0,0,0,.05);}
+nav.toc a{color:var(--navy);text-decoration:none;margin-right:18px;font-size:.92rem;font-weight:bold;}
+nav.toc a:hover{text-decoration:underline;}
+main{max-width:1180px;margin:0 auto;padding:36px 6vw 80px;}
+section{margin-bottom:46px;}
+h2.section-title{color:var(--navy);border-bottom:3px solid var(--teal);padding-bottom:8px;font-size:1.55rem;margin-top:0;}
+h3.sub{color:var(--teal);font-size:1.2rem;margin-top:30px;}
+h4.sheet-title{background:var(--navy);color:#fff;padding:10px 14px;border-radius:6px 6px 0 0;margin:26px 0 0;font-size:1.05rem;}
+p.desc{background:#eef4f8;padding:10px 14px;margin:0 0 14px;border-left:4px solid var(--teal);font-size:.95rem;color:var(--muted);}
+table{width:100%;border-collapse:collapse;margin-bottom:8px;background:var(--card);}
+table.dict{box-shadow:0 1px 4px rgba(0,0,0,.06);}
+th,td{border:1px solid var(--border);padding:9px 10px;text-align:left;font-size:.88rem;vertical-align:top;}
+th{background:#dbe7f0;color:var(--navy);}
+tr:nth-child(even) td{background:#fafcfe;}
+.card{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:18px 20px;margin-bottom:18px;box-shadow:0 1px 4px rgba(0,0,0,.05);}
+.tag{display:inline-block;background:var(--teal);color:#fff;font-size:.72rem;font-weight:bold;padding:3px 9px;border-radius:12px;margin-right:6px;letter-spacing:.03em;}
+.problem{color:var(--warn);font-weight:bold;}
+.task{color:var(--navy);font-weight:bold;}
+.solution{color:var(--good);font-weight:bold;}
+.kpi-list li, .chart-list li{margin-bottom:4px;}
+.dashboard-card{border-left:5px solid var(--teal);}
+.dashboard-card h4{margin:0 0 4px;color:var(--navy);font-size:1.15rem;}
+.meta{color:var(--muted);font-size:.85rem;margin-bottom:8px;}
+footer{background:var(--navy);color:#cfe0ea;padding:22px 6vw;font-size:.85rem;text-align:center;}
+.badge-stage{display:inline-block;background:var(--navy);color:#fff;padding:6px 14px;border-radius:6px;font-weight:bold;margin-bottom:6px;}
+.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:18px;}
+@media (max-width:760px){.grid-2{grid-template-columns:1fr;} nav.toc a{margin-right:10px;font-size:.8rem;}}
+</style>
+</head>
+<body>
+<header class="hero">
+  <h1>Tableau Dashboard Building - Task Workbook</h1>
+  <p>Every column, every task, every KPI and every dashboard page you need to build. Work through this file, then mark your own work against TotalEnergies_Tableau_Training_Solutions.html.</p>
+  <p>TotalEnergies SE - Tableau Dashboard Building Training</p>
+</header>
+<nav class="toc">
+  <a href="#columns">1. Columns &amp; Tasks</a>
+  <a href="#stages">2. Build Process</a>
+  <a href="#dashboards">3. Dashboards &amp; KPIs</a>
+</nav>
+<main>
+<section id="columns">
+  <p class="desc" style="border-left-color:#b00000;background:#fdeeee;color:#7a1f1f;"><b>Note:</b> all names, employees, contracts, vendors, transactions, tickets, audit findings and risk entries used throughout this training material are entirely fictional and randomly generated for training purposes. They do not represent real TotalEnergies employees, agreements, financial results or incidents.</p>
+  <h2 class="section-title">1. Column by Column Breakdown - Every Sheet, Every Field</h2>
+  <p>Each sheet below lists every column with its meaning, its Tableau role, and the task to complete on that column before it is used in any dashboard.</p><h4 class="sheet-title">Departments</h4>
+  <p class="desc">Master list of the 10 departments used as the hub for department level roll ups across every other sheet.</p>
+  <table class="dict">
+  <tr><th style="width:16%">Column</th><th style="width:30%">Description</th><th style="width:16%">Tableau Role</th><th style="width:38%">Task to Perform</th></tr>
+  <tr><td><b>DepartmentID</b></td><td>Unique code for each department, for example D01 to D10.</td><td>Dimension (String)</td><td>Primary key. Use to join every sheet that carries a DepartmentID field.</td></tr>
+  <tr><td><b>DepartmentName</b></td><td>Full name of the department, for example Operations, Legal, Supply Chain.</td><td>Dimension (String)</td><td>Use on rows/columns of department level views and as the label field.</td></tr>
+  <tr><td><b>DepartmentHeadEmployeeID</b></td><td>EmployeeID of the person who heads the department.</td><td>Dimension (String)</td><td>Relate to Employees.EmployeeID to pull in the head's name and grade.</td></tr>
+  <tr><td><b>Function</b></td><td>One line description of what the department does.</td><td>Dimension (String)</td><td>Use in tooltips on executive dashboard.</td></tr>
+  <tr><td><b>Location</b></td><td>Primary office location of the department.</td><td>Dimension (String)</td><td>Use for filtering or geographic grouping.</td></tr>
+  <tr><td><b>AnnualBudget_EUR</b></td><td>Approved annual budget in Euros.</td><td>Measure (Number)</td><td>Use to compare Budget vs Actual Spend (from AccountsFinance) as a KPI.</td></tr>
+  </table><h4 class="sheet-title">Employees</h4>
+  <p class="desc">The HR master table and the hub of the entire model. Every other sheet's EmployeeID fields relate back to this table.</p>
+  <table class="dict">
+  <tr><th style="width:16%">Column</th><th style="width:30%">Description</th><th style="width:16%">Tableau Role</th><th style="width:38%">Task to Perform</th></tr>
+  <tr><td><b>EmployeeID</b></td><td>Unique staff identifier, for example E0001.</td><td>Dimension (String)</td><td>Primary key. Relate to every EmployeeID/OfficerID/OwnerID/CustodianID field in the other sheets.</td></tr>
+  <tr><td><b>FullName</b></td><td>Employee's full name.</td><td>Dimension (String)</td><td>Use as the display label wherever an EmployeeID is resolved.</td></tr>
+  <tr><td><b>Department</b></td><td>Department the employee currently belongs to.</td><td>Dimension (String)</td><td>Use to filter and to validate against Departments.DepartmentName.</td></tr>
+  <tr><td><b>JobGrade</b></td><td>Career level, from Graduate Trainee to General Manager.</td><td>Dimension (String, Ordinal)</td><td>Build a manual sort order; use in hierarchy with Department.</td></tr>
+  <tr><td><b>Gender</b></td><td>Male or Female.</td><td>Dimension (String)</td><td>Use for diversity KPIs (gender ratio by department/grade).</td></tr>
+  <tr><td><b>DateOfBirth</b></td><td>Date of birth.</td><td>Dimension (Date)</td><td>Use with DATEDIFF to calculate Age as a calculated field.</td></tr>
+  <tr><td><b>HireDate</b></td><td>Date the employee joined the company.</td><td>Dimension (Date)</td><td>Use with TODAY() to calculate Tenure (years of service).</td></tr>
+  <tr><td><b>EmploymentType</b></td><td>Permanent or Contract.</td><td>Dimension (String)</td><td>Use as a filter/segment on HR dashboard.</td></tr>
+  <tr><td><b>AnnualSalary_EUR</b></td><td>Gross annual salary in Euros.</td><td>Measure (Number)</td><td>Aggregate as SUM for payroll cost, AVG for average pay by grade.</td></tr>
+  <tr><td><b>PerformanceRating</b></td><td>Latest appraisal score, 1 (lowest) to 5 (highest).</td><td>Measure (Number, decimal)</td><td>Aggregate as AVG; band into Low/Medium/High performer groups.</td></tr>
+  <tr><td><b>Location</b></td><td>Office location of the employee.</td><td>Dimension (String)</td><td>Use for headcount by location.</td></tr>
+  <tr><td><b>Status</b></td><td>Active or Exited.</td><td>Dimension (String)</td><td>Use to calculate Attrition Rate = COUNTD Exited / COUNTD Total.</td></tr>
+  </table><h4 class="sheet-title">Operations</h4>
+  <p class="desc">Field level production records: what was produced, where, and how much downtime occurred.</p>
+  <table class="dict">
+  <tr><th style="width:16%">Column</th><th style="width:30%">Description</th><th style="width:16%">Tableau Role</th><th style="width:38%">Task to Perform</th></tr>
+  <tr><td><b>OperationID</b></td><td>Unique production record identifier, for example OP0001.</td><td>Dimension (String)</td><td>Primary key. Referenced by Legal and Supply Chain as RelatedOperationID.</td></tr>
+  <tr><td><b>AssetField</b></td><td>The oil/gas field or asset the record belongs to, for example Nigeria - Egina.</td><td>Dimension (String)</td><td>Use on rows of production dashboards; can be parsed into Licence and Field with a split calculation.</td></tr>
+  <tr><td><b>WellName</b></td><td>Specific well the volume was produced from.</td><td>Dimension (String)</td><td>Use for well level drill downs beneath the asset field.</td></tr>
+  <tr><td><b>ProductionDate</b></td><td>Date of the production reading.</td><td>Dimension (Date)</td><td>Use as the primary date field for trend lines; set default date level to Month.</td></tr>
+  <tr><td><b>ProductType</b></td><td>Crude Oil, Natural Gas or NGL.</td><td>Dimension (String)</td><td>Use as a colour/legend field; units differ by product (see UnitOfMeasure).</td></tr>
+  <tr><td><b>UnitOfMeasure</b></td><td>bbls for crude/NGL, mmscf for gas.</td><td>Dimension (String)</td><td>Display in axis titles and tooltips so mixed units are never summed together.</td></tr>
+  <tr><td><b>PlannedVolume</b></td><td>Budgeted/forecast volume for the period.</td><td>Measure (Number)</td><td>SUM aggregation; used as the denominator for Production Efficiency %.</td></tr>
+  <tr><td><b>ActualVolume</b></td><td>Volume actually produced.</td><td>Measure (Number)</td><td>SUM aggregation; numerator for Production Efficiency %.</td></tr>
+  <tr><td><b>DowntimeHours</b></td><td>Hours of production downtime, 0 if none.</td><td>Measure (Number)</td><td>SUM for total downtime; AVG for average downtime per incident.</td></tr>
+  <tr><td><b>DowntimeReason</b></td><td>Cause of downtime, blank when there was none.</td><td>Dimension (String)</td><td>Use to build a Pareto chart of downtime causes.</td></tr>
+  <tr><td><b>SupervisorEmployeeID</b></td><td>EmployeeID of the operations supervisor responsible for the record.</td><td>Dimension (String)</td><td>Relate to Employees to show supervisor name/grade.</td></tr>
+  <tr><td><b>DepartmentID</b></td><td>Owning department, always D01 Operations.</td><td>Dimension (String)</td><td>Relate to Departments.</td></tr>
+  </table><h4 class="sheet-title">Legal</h4>
+  <p class="desc">Contract and agreement register covering joint ventures, vendor contracts, community MOUs and licences.</p>
+  <table class="dict">
+  <tr><th style="width:16%">Column</th><th style="width:30%">Description</th><th style="width:16%">Tableau Role</th><th style="width:38%">Task to Perform</th></tr>
+  <tr><td><b>ContractID</b></td><td>Unique contract identifier, for example CT0001.</td><td>Dimension (String)</td><td>Primary key. Referenced by AccountsFinance and RiskComplianceRegister as RelatedContractID.</td></tr>
+  <tr><td><b>ContractTitle</b></td><td>Descriptive title combining type and counterparty.</td><td>Dimension (String)</td><td>Use as the mark label in contract level detail views.</td></tr>
+  <tr><td><b>ContractType</b></td><td>Category such as Joint Venture Agreement, Vendor Contract, Community MOU.</td><td>Dimension (String)</td><td>Use for the legend of a contract mix chart.</td></tr>
+  <tr><td><b>CounterpartyName</b></td><td>The organisation on the other side of the contract.</td><td>Dimension (String)</td><td>Use to identify concentration risk (top counterparties by value).</td></tr>
+  <tr><td><b>CounterpartyType</b></td><td>Government Agency, Vendor, JV Partner, Host Community or Financial Institution.</td><td>Dimension (String)</td><td>Use to group counterparties into categories.</td></tr>
+  <tr><td><b>StartDate</b></td><td>Contract start date.</td><td>Dimension (Date)</td><td>Use with EndDate to compute contract duration.</td></tr>
+  <tr><td><b>EndDate</b></td><td>Contract expiry date.</td><td>Dimension (Date)</td><td>Use with DATEDIFF(TODAY()) to flag contracts expiring within 90 days.</td></tr>
+  <tr><td><b>ContractValue_EUR</b></td><td>Total value of the contract in Euros.</td><td>Measure (Number)</td><td>SUM for total exposure; use in a Top N contracts by value view.</td></tr>
+  <tr><td><b>Status</b></td><td>Active, Expired, Under Review or Terminated.</td><td>Dimension (String)</td><td>Use as a filter and as a KPI (% Active).</td></tr>
+  <tr><td><b>RelatedOperationID</b></td><td>OperationID the contract supports, blank if not tied to a specific field.</td><td>Dimension (String)</td><td>Relate to Operations to connect legal exposure to physical assets.</td></tr>
+  <tr><td><b>LegalOfficerEmployeeID</b></td><td>EmployeeID of the legal officer managing the contract.</td><td>Dimension (String)</td><td>Relate to Employees.</td></tr>
+  <tr><td><b>ComplianceRiskFlag</b></td><td>Y or N flag raised by legal for follow up.</td><td>Dimension (String)</td><td>Use as a filter to isolate flagged contracts; count for a compliance KPI.</td></tr>
+  <tr><td><b>DepartmentID</b></td><td>Owning department, always D02 Legal.</td><td>Dimension (String)</td><td>Relate to Departments.</td></tr>
+  </table><h4 class="sheet-title">SupplyChain</h4>
+  <p class="desc">Purchase order register capturing procurement spend and delivery performance across vendors.</p>
+  <table class="dict">
+  <tr><th style="width:16%">Column</th><th style="width:30%">Description</th><th style="width:16%">Tableau Role</th><th style="width:38%">Task to Perform</th></tr>
+  <tr><td><b>PO_ID</b></td><td>Unique purchase order identifier, for example PO0001.</td><td>Dimension (String)</td><td>Primary key. Referenced by AccountsFinance as RelatedPO_ID.</td></tr>
+  <tr><td><b>VendorID</b></td><td>Unique vendor code.</td><td>Dimension (String)</td><td>Use to relate to a future Vendor master if one is added.</td></tr>
+  <tr><td><b>VendorName</b></td><td>Name of the supplying vendor.</td><td>Dimension (String)</td><td>Use on rows of spend-by-vendor views.</td></tr>
+  <tr><td><b>ItemDescription</b></td><td>What was ordered.</td><td>Dimension (String)</td><td>Use in tooltip detail; too granular for chart axes.</td></tr>
+  <tr><td><b>Category</b></td><td>Procurement category, for example Drilling Equipment, PPE, Logistics.</td><td>Dimension (String)</td><td>Use as the primary breakdown of spend.</td></tr>
+  <tr><td><b>OrderDate</b></td><td>Date the purchase order was raised.</td><td>Dimension (Date)</td><td>Use as the trend date for spend over time.</td></tr>
+  <tr><td><b>ExpectedDeliveryDate</b></td><td>Date delivery was promised.</td><td>Dimension (Date)</td><td>Use with ActualDeliveryDate to compute delay days.</td></tr>
+  <tr><td><b>ActualDeliveryDate</b></td><td>Date delivery actually occurred.</td><td>Dimension (Date)</td><td>Subtract ExpectedDeliveryDate for a Delay Days calculated field.</td></tr>
+  <tr><td><b>Quantity</b></td><td>Units ordered.</td><td>Measure (Number)</td><td>SUM; multiplied by UnitCost to validate TotalCost.</td></tr>
+  <tr><td><b>UnitCost_EUR</b></td><td>Cost per unit in Euros.</td><td>Measure (Number)</td><td>AVG for average unit price by category.</td></tr>
+  <tr><td><b>TotalCost_EUR</b></td><td>Quantity times UnitCost, pre-calculated in the workbook.</td><td>Measure (Number)</td><td>SUM as the headline Total Spend KPI.</td></tr>
+  <tr><td><b>Currency</b></td><td>Transaction currency, EUR throughout.</td><td>Dimension (String)</td><td>Retained for completeness/future multi currency use.</td></tr>
+  <tr><td><b>Status</b></td><td>Ordered, Delivered, Delayed or Cancelled.</td><td>Dimension (String)</td><td>Use to compute On Time Delivery Rate = Delivered on time / Total.</td></tr>
+  <tr><td><b>RelatedOperationID</b></td><td>OperationID the order supports, blank if general/overhead.</td><td>Dimension (String)</td><td>Relate to Operations.</td></tr>
+  <tr><td><b>ProcurementOfficerEmployeeID</b></td><td>EmployeeID of the buyer who placed the order.</td><td>Dimension (String)</td><td>Relate to Employees.</td></tr>
+  </table><h4 class="sheet-title">Admin</h4>
+  <p class="desc">Fixed asset and facilities register maintained by the Admin department.</p>
+  <table class="dict">
+  <tr><th style="width:16%">Column</th><th style="width:30%">Description</th><th style="width:16%">Tableau Role</th><th style="width:38%">Task to Perform</th></tr>
+  <tr><td><b>AssetID</b></td><td>Unique fixed asset identifier, for example AS0001.</td><td>Dimension (String)</td><td>Primary key for this sheet.</td></tr>
+  <tr><td><b>AssetType</b></td><td>Vehicle, Generator, Office Furniture, Building/Facility, Laptop or Site Equipment.</td><td>Dimension (String)</td><td>Use as the category breakdown of the asset register.</td></tr>
+  <tr><td><b>Description</b></td><td>Short description of the specific asset.</td><td>Dimension (String)</td><td>Use in tooltip detail.</td></tr>
+  <tr><td><b>Location</b></td><td>Where the asset is based.</td><td>Dimension (String)</td><td>Use for a location based asset value view, optionally on a map.</td></tr>
+  <tr><td><b>PurchaseDate</b></td><td>Date the asset was purchased.</td><td>Dimension (Date)</td><td>Use with TODAY() for asset age.</td></tr>
+  <tr><td><b>PurchaseValue_EUR</b></td><td>Original purchase price.</td><td>Measure (Number)</td><td>SUM for total capital invested in assets.</td></tr>
+  <tr><td><b>CurrentValue_EUR</b></td><td>Estimated current book value after depreciation.</td><td>Measure (Number)</td><td>SUM; compare to PurchaseValue for a Depreciation % KPI.</td></tr>
+  <tr><td><b>CustodianEmployeeID</b></td><td>EmployeeID responsible for the asset.</td><td>Dimension (String)</td><td>Relate to Employees.</td></tr>
+  <tr><td><b>DepartmentID</b></td><td>Owning department, always D04 Admin.</td><td>Dimension (String)</td><td>Relate to Departments.</td></tr>
+  <tr><td><b>Status</b></td><td>In Use, Under Maintenance or Disposed.</td><td>Dimension (String)</td><td>Use as a filter and for a Maintenance Backlog KPI.</td></tr>
+  </table><h4 class="sheet-title">CustomerService</h4>
+  <p class="desc">Community and customer service ticket log, covering grievances, enquiries and complaints.</p>
+  <table class="dict">
+  <tr><th style="width:16%">Column</th><th style="width:30%">Description</th><th style="width:16%">Tableau Role</th><th style="width:38%">Task to Perform</th></tr>
+  <tr><td><b>TicketID</b></td><td>Unique ticket identifier, for example CS0001.</td><td>Dimension (String)</td><td>Primary key for this sheet.</td></tr>
+  <tr><td><b>CustomerName</b></td><td>Name of the community, individual or organisation raising the ticket.</td><td>Dimension (String)</td><td>Use in tooltip detail; avoid on axes due to cardinality.</td></tr>
+  <tr><td><b>CustomerType</b></td><td>Host Community, Retail/Business, Government or Individual.</td><td>Dimension (String)</td><td>Use as a segment filter.</td></tr>
+  <tr><td><b>Channel</b></td><td>Phone, Email, Walk-in, Portal or Town Hall.</td><td>Dimension (String)</td><td>Use as the breakdown for a Ticket Volume by Channel chart.</td></tr>
+  <tr><td><b>IssueCategory</b></td><td>Type of issue raised.</td><td>Dimension (String)</td><td>Use as the primary breakdown of ticket types, ranked descending.</td></tr>
+  <tr><td><b>DateOpened</b></td><td>Date the ticket was logged.</td><td>Dimension (Date)</td><td>Use as the trend date for ticket volume over time.</td></tr>
+  <tr><td><b>DateClosed</b></td><td>Date the ticket was resolved, blank if still open.</td><td>Dimension (Date)</td><td>Use with DateOpened to compute resolution time.</td></tr>
+  <tr><td><b>ResolutionTimeDays</b></td><td>Pre-calculated days between opening and closing.</td><td>Measure (Number)</td><td>AVG as the Average Resolution Time KPI.</td></tr>
+  <tr><td><b>SatisfactionScore_1to5</b></td><td>Customer satisfaction rating, 1 (poor) to 5 (excellent), blank if unresolved.</td><td>Measure (Number)</td><td>AVG as the CSAT KPI.</td></tr>
+  <tr><td><b>AgentEmployeeID</b></td><td>EmployeeID of the agent who handled the ticket.</td><td>Dimension (String)</td><td>Relate to Employees.</td></tr>
+  <tr><td><b>Status</b></td><td>Open or Closed.</td><td>Dimension (String)</td><td>Use to compute the current open case backlog.</td></tr>
+  </table><h4 class="sheet-title">IT</h4>
+  <p class="desc">IT service desk ticket log covering hardware, software, access and network issues.</p>
+  <table class="dict">
+  <tr><th style="width:16%">Column</th><th style="width:30%">Description</th><th style="width:16%">Tableau Role</th><th style="width:38%">Task to Perform</th></tr>
+  <tr><td><b>ITTicketID</b></td><td>Unique IT ticket identifier, for example IT0001.</td><td>Dimension (String)</td><td>Primary key for this sheet.</td></tr>
+  <tr><td><b>RequesterEmployeeID</b></td><td>EmployeeID of the staff member who raised the ticket.</td><td>Dimension (String)</td><td>Relate to Employees to see requests by department.</td></tr>
+  <tr><td><b>System</b></td><td>Affected system, for example SAP ERP, Tableau Server, Corporate Network.</td><td>Dimension (String)</td><td>Use as the breakdown for a Tickets by System chart.</td></tr>
+  <tr><td><b>IssueType</b></td><td>Hardware, Software, Access/Permissions, Network or Data/Reporting.</td><td>Dimension (String)</td><td>Use as a secondary breakdown alongside System.</td></tr>
+  <tr><td><b>Priority</b></td><td>Low, Medium, High or Critical.</td><td>Dimension (String, Ordinal)</td><td>Build a manual sort order; use as colour on the ticket backlog view.</td></tr>
+  <tr><td><b>DateLogged</b></td><td>Date and time the ticket was raised.</td><td>Dimension (Date/DateTime)</td><td>Use as the trend date for ticket inflow.</td></tr>
+  <tr><td><b>DateResolved</b></td><td>Date and time the ticket was closed, blank if still open.</td><td>Dimension (Date/DateTime)</td><td>Use with DateLogged to compute resolution time.</td></tr>
+  <tr><td><b>ResolutionTimeHours</b></td><td>Pre-calculated hours between logging and resolution.</td><td>Measure (Number)</td><td>AVG as the Average Resolution Time (hours) KPI; compare against an SLA target line.</td></tr>
+  <tr><td><b>SupportOfficerEmployeeID</b></td><td>EmployeeID of the IT staff member who resolved the ticket.</td><td>Dimension (String)</td><td>Relate to Employees for workload-by-officer views.</td></tr>
+  <tr><td><b>Status</b></td><td>Resolved or Open.</td><td>Dimension (String)</td><td>Use to compute open backlog and SLA compliance.</td></tr>
+  </table><h4 class="sheet-title">AccountsFinance</h4>
+  <p class="desc">General ledger style transaction log covering revenue, expenditure, payroll and tax.</p>
+  <table class="dict">
+  <tr><th style="width:16%">Column</th><th style="width:30%">Description</th><th style="width:16%">Tableau Role</th><th style="width:38%">Task to Perform</th></tr>
+  <tr><td><b>TransactionID</b></td><td>Unique transaction identifier, for example FN0001.</td><td>Dimension (String)</td><td>Primary key for this sheet.</td></tr>
+  <tr><td><b>TransactionDate</b></td><td>Date the transaction was recorded.</td><td>Dimension (Date)</td><td>Use as the primary trend date for financial performance.</td></tr>
+  <tr><td><b>TransactionType</b></td><td>Revenue, Operating Expense, Capital Expenditure, Payroll, Tax Remittance or Vendor Payment.</td><td>Dimension (String)</td><td>Use as the main breakdown of a Revenue vs Expense view.</td></tr>
+  <tr><td><b>RelatedPO_ID</b></td><td>PO_ID this transaction settles, blank if not tied to a purchase order.</td><td>Dimension (String)</td><td>Relate to SupplyChain to trace spend to source.</td></tr>
+  <tr><td><b>RelatedContractID</b></td><td>ContractID this transaction relates to, blank if none.</td><td>Dimension (String)</td><td>Relate to Legal to trace revenue/payment to contract.</td></tr>
+  <tr><td><b>Department</b></td><td>Department the transaction is charged to.</td><td>Dimension (String)</td><td>Relate/validate against Departments.DepartmentName for Budget vs Actual.</td></tr>
+  <tr><td><b>Amount_EUR</b></td><td>Transaction amount in Euros.</td><td>Measure (Number)</td><td>SUM as the core financial measure; sign convention: all figures positive, direction implied by TransactionType.</td></tr>
+  <tr><td><b>Currency</b></td><td>Transaction currency, EUR throughout.</td><td>Dimension (String)</td><td>Retained for completeness.</td></tr>
+  <tr><td><b>ApprovedByEmployeeID</b></td><td>EmployeeID of the approver.</td><td>Dimension (String)</td><td>Relate to Employees.</td></tr>
+  <tr><td><b>Status</b></td><td>Posted, Pending or Reversed.</td><td>Dimension (String)</td><td>Filter to Posted for official reporting; use Pending count as a KPI.</td></tr>
+  </table><h4 class="sheet-title">InternalControl</h4>
+  <p class="desc">Internal audit findings log across financial, operational, compliance and IT audits.</p>
+  <table class="dict">
+  <tr><th style="width:16%">Column</th><th style="width:30%">Description</th><th style="width:16%">Tableau Role</th><th style="width:38%">Task to Perform</th></tr>
+  <tr><td><b>AuditID</b></td><td>Unique audit finding identifier, for example AU0001.</td><td>Dimension (String)</td><td>Primary key. Referenced by RiskComplianceRegister as RelatedAuditID.</td></tr>
+  <tr><td><b>DepartmentID</b></td><td>Department the finding relates to.</td><td>Dimension (String)</td><td>Relate to Departments.</td></tr>
+  <tr><td><b>Department</b></td><td>Department name, denormalised for convenience.</td><td>Dimension (String)</td><td>Use directly on rows/columns without needing a join.</td></tr>
+  <tr><td><b>AuditDate</b></td><td>Date the audit was performed.</td><td>Dimension (Date)</td><td>Use as the trend date for audit activity.</td></tr>
+  <tr><td><b>AuditType</b></td><td>Financial, Operational, Compliance, IT or HSE Audit.</td><td>Dimension (String)</td><td>Use as a breakdown of audit coverage.</td></tr>
+  <tr><td><b>FindingDescription</b></td><td>Short description of the finding.</td><td>Dimension (String)</td><td>Use in tooltip detail.</td></tr>
+  <tr><td><b>Severity</b></td><td>Low, Medium, High or Critical.</td><td>Dimension (String, Ordinal)</td><td>Colour code red-amber-green style on the audit dashboard.</td></tr>
+  <tr><td><b>Status</b></td><td>Open, In Progress or Closed.</td><td>Dimension (String)</td><td>Use to compute Finding Closure Rate %.</td></tr>
+  <tr><td><b>ResponsibleEmployeeID</b></td><td>EmployeeID accountable for remediation.</td><td>Dimension (String)</td><td>Relate to Employees.</td></tr>
+  </table><h4 class="sheet-title">RiskComplianceRegister</h4>
+  <p class="desc">Enterprise risk register with a computed risk score, spanning operational, financial, HSE, regulatory, reputational and cyber risk.</p>
+  <table class="dict">
+  <tr><th style="width:16%">Column</th><th style="width:30%">Description</th><th style="width:16%">Tableau Role</th><th style="width:38%">Task to Perform</th></tr>
+  <tr><td><b>RiskID</b></td><td>Unique risk identifier, for example RK0001.</td><td>Dimension (String)</td><td>Primary key for this sheet.</td></tr>
+  <tr><td><b>DepartmentID</b></td><td>Department that owns the risk.</td><td>Dimension (String)</td><td>Relate to Departments.</td></tr>
+  <tr><td><b>Department</b></td><td>Department name, denormalised for convenience.</td><td>Dimension (String)</td><td>Use directly on rows/columns without needing a join.</td></tr>
+  <tr><td><b>RiskCategory</b></td><td>Operational, Financial, HSE, Regulatory, Reputational, Cyber Security or Community/Social.</td><td>Dimension (String)</td><td>Use as the primary breakdown of the risk register.</td></tr>
+  <tr><td><b>RiskDescription</b></td><td>Short description of the risk.</td><td>Dimension (String)</td><td>Use in tooltip detail.</td></tr>
+  <tr><td><b>Likelihood_1to5</b></td><td>Probability score, 1 (rare) to 5 (almost certain).</td><td>Measure (Number)</td><td>Used as one axis of the risk heat map.</td></tr>
+  <tr><td><b>Impact_1to5</b></td><td>Severity score, 1 (minor) to 5 (severe).</td><td>Measure (Number)</td><td>Used as the other axis of the risk heat map.</td></tr>
+  <tr><td><b>RiskScore</b></td><td>Pre-calculated Likelihood times Impact, ranging 1 to 25.</td><td>Measure (Number)</td><td>AVG or SUM to rank the highest priority risks; band into Low/Medium/High/Critical.</td></tr>
+  <tr><td><b>MitigationStatus</b></td><td>Open, Mitigated or Monitoring.</td><td>Dimension (String)</td><td>Use as a KPI: % Mitigated.</td></tr>
+  <tr><td><b>RelatedAuditID</b></td><td>AuditID this risk was identified from, blank if not audit sourced.</td><td>Dimension (String)</td><td>Relate to InternalControl.</td></tr>
+  <tr><td><b>RelatedContractID</b></td><td>ContractID this risk relates to, blank if not contract related.</td><td>Dimension (String)</td><td>Relate to Legal.</td></tr>
+  <tr><td><b>RiskOwnerEmployeeID</b></td><td>EmployeeID accountable for the risk.</td><td>Dimension (String)</td><td>Relate to Employees.</td></tr>
+  </table></section><section id="stages">
+  <h2 class="section-title">2. Building the Dashboards: Data Connection to Interactivity</h2>
+  <p>The build process runs through five stages. Each numbered item below is a real problem a trainee will meet, followed by the task to complete. Work through the task yourself before checking TotalEnergies_Tableau_Training_Solutions.html.</p><h3 class="sub"><span class="badge-stage">1. Data Connection</span></h3><p class="desc">Connect Tableau Desktop to the TotalEnergies_Training_Dataset.xlsx workbook and build the relationship model that links all 11 sheets together through the Employees and Departments hub tables.</p><div class="card">
+    <p><span class="tag">PROBLEM 1</span></p>
+    <p class="problem">The workbook has 11 separate sheets and no single flat table. A trainee who simply drags every sheet onto the canvas and joins them all on EmployeeID will get row multiplication (a fan-out/many-to-many blow up), because one employee appears in many Operations, Legal, SupplyChain, CustomerService and IT rows at the same time.</p>
+    <p><span class="task">Task:</span> Connect to TotalEnergies_Training_Dataset.xlsx. Bring in all 11 data sheets. Build a data model using Tableau's Relationships (not physical Joins) so that each department sheet relates to Employees and Departments without inflating row counts. Decide, for each relationship, which fields are the matching keys.</p>
+    
+  </div><div class="card">
+    <p><span class="tag">PROBLEM 2</span></p>
+    <p class="problem">Trainees need to prove the model is correct before building any charts, but there is no obvious way to check for row duplication.</p>
+    <p><span class="task">Task:</span> Validate the data model. Build a quick test worksheet that proves SUM(TotalCost_EUR) from SupplyChain does not change whether or not Employees is in the model.</p>
+    
+  </div><div class="card">
+    <p><span class="tag">PROBLEM 3</span></p>
+    <p class="problem">Secondary cross links exist between fact tables themselves (SupplyChain to AccountsFinance via PO_ID, Legal to AccountsFinance via ContractID, InternalControl to RiskComplianceRegister via AuditID), and trainees are unsure whether these need relationships too.</p>
+    <p><span class="task">Task:</span> Decide which of the secondary links (PO_ID, ContractID, AuditID) should be modelled as Tableau relationships and which are better handled as a blend or a LOD calculation instead.</p>
+    
+  </div><h3 class="sub"><span class="badge-stage">2. Data Preparation</span></h3><p class="desc">Clean, type, and enrich the fields so that every worksheet built later is fast, accurate and easy to maintain.</p><div class="card">
+    <p><span class="tag">PROBLEM 1</span></p>
+    <p class="problem">Dates arrive as plain Date fields; trainees need Month, Quarter and Year granularity on several dashboards without cluttering the data pane with duplicate date fields.</p>
+    <p><span class="task">Task:</span> Set the correct default date level on ProductionDate, OrderDate, DateOpened, DateLogged, TransactionDate and AuditDate, and create a reusable Fiscal Month/Year hierarchy where needed.</p>
+    
+  </div><div class="card">
+    <p><span class="tag">PROBLEM 2</span></p>
+    <p class="problem">AssetField in Operations mixes the licence code and the field name in one string (for example 'Nigeria - Egina'), making it impossible to group all production by licence alone.</p>
+    <p><span class="task">Task:</span> Split AssetField into two separate dimensions, Licence and FieldName, without altering the source Excel file.</p>
+    
+  </div><div class="card">
+    <p><span class="tag">PROBLEM 3</span></p>
+    <p class="problem">JobGrade, Priority and Severity are ordinal text values (for example 'Low, Medium, High, Critical') but Tableau sorts them alphabetically by default, putting 'Critical' before 'Low'.</p>
+    <p><span class="task">Task:</span> Force the correct business order onto JobGrade (Employees), Priority (IT) and Severity (InternalControl and RiskComplianceRegister).</p>
+    
+  </div><div class="card">
+    <p><span class="tag">PROBLEM 4</span></p>
+    <p class="problem">Several KPIs require calculations that do not exist as raw columns: Production Efficiency %, Attrition Rate %, On Time Delivery Rate %, Risk Score bands, and Contract expiry flags.</p>
+    <p><span class="task">Task:</span> Build the calculated fields needed to power every KPI listed in the measures and KPIs section, using correct LOD or table calculation syntax where a simple aggregation is not enough.</p>
+    
+  </div><div class="card">
+    <p><span class="tag">PROBLEM 5</span></p>
+    <p class="problem">Blank values in RelatedOperationID, RelatedPO_ID, RelatedContractID, DateClosed and DateResolved show up as literal 'Null' marks on charts and break AVG calculations for resolution time.</p>
+    <p><span class="task">Task:</span> Handle nulls correctly so that open tickets do not corrupt the Average Resolution Time KPI and blank relationship keys do not appear as a spurious category.</p>
+    
+  </div><h3 class="sub"><span class="badge-stage">3. Worksheet Development</span></h3><p class="desc">Build the individual charts and KPI worksheets that will later be assembled into each department dashboard.</p><div class="card">
+    <p><span class="tag">PROBLEM 1</span></p>
+    <p class="problem">Trainees do not know which chart type fits which question, and often default to a table for everything, which is not comprehensive enough for a KPI focused review.</p>
+    <p><span class="task">Task:</span> For each department, build the specific worksheets listed under 'Charts to build' in the Dashboards and KPIs section (see the full list per department), choosing the chart type that best answers the underlying business question.</p>
+    
+  </div><div class="card">
+    <p><span class="tag">PROBLEM 2</span></p>
+    <p class="problem">KPI number cards (BANs) need to look clean and be instantly readable, but a raw SUM() dropped on a worksheet just shows a plain number with no context.</p>
+    <p><span class="task">Task:</span> Build a proper KPI card worksheet for each headline metric (Total Actual Volume, Total Spend, Headcount, Open Critical Risks, Average CSAT and so on) that shows the number, a short label and, where relevant, a comparison to target or prior period.</p>
+    
+  </div><div class="card">
+    <p><span class="tag">PROBLEM 3</span></p>
+    <p class="problem">The Downtime Pareto chart for Operations needs both bars and a cumulative percentage line together, which trainees find is not a single default chart type in Tableau.</p>
+    <p><span class="task">Task:</span> Build the Downtime Hours Pareto chart combining a descending bar chart of DowntimeHours by DowntimeReason with a cumulative percentage line on a dual axis.</p>
+    
+  </div><div class="card">
+    <p><span class="tag">PROBLEM 4</span></p>
+    <p class="problem">The Risk heat map needs to show both how many risks fall in each Likelihood/Impact cell and how severe they are, which is more than a single measure can convey on a plain grid.</p>
+    <p><span class="task">Task:</span> Build the Risk Likelihood x Impact heat map worksheet with both count and severity visible at a glance.</p>
+    
+  </div><h3 class="sub"><span class="badge-stage">4. Dashboard Design</span></h3><p class="desc">Assemble the worksheets into the 11 department dashboards plus the Executive Overview, with consistent layout, titles and branding.</p><div class="card">
+    <p><span class="tag">PROBLEM 1</span></p>
+    <p class="problem">Trainees tend to drop worksheets onto a dashboard in a random order, producing a cluttered page with no visual hierarchy and inconsistent sizing.</p>
+    <p><span class="task">Task:</span> Design each dashboard (see the full list of dashboard titles and their charts in the Dashboards and KPIs section) using a consistent layout: title band at the top, KPI cards in a row beneath it, then supporting charts arranged in a grid below.</p>
+    
+  </div><div class="card">
+    <p><span class="tag">PROBLEM 2</span></p>
+    <p class="problem">Every dashboard needs a clear, business friendly title, and trainees are unsure what to name each page so that end users immediately know what they are looking at.</p>
+    <p><span class="task">Task:</span> Apply the exact dashboard titles from the KPI/Dashboard list (Executive Overview Dashboard, Operations Performance Dashboard, Legal and Contracts Dashboard, Supply Chain Dashboard, Admin and Assets Dashboard, Customer Service Dashboard, IT Service Desk Dashboard, Finance Dashboard, HR Dashboard, Internal Control Dashboard, Risk Management and Compliance Dashboard) to each dashboard tab and title text object.</p>
+    
+  </div><div class="card">
+    <p><span class="tag">PROBLEM 3</span></p>
+    <p class="problem">The Executive Overview Dashboard needs to combine measures from several different sheets (Operations, SupplyChain, Employees, RiskComplianceRegister, CustomerService) on one page, and trainees are unsure whether this requires a single worksheet with every field or several small worksheets.</p>
+    <p><span class="task">Task:</span> Assemble the Executive Overview Dashboard from the individual KPI and chart worksheets already built for each department, rather than building new mega-worksheets that mix every table together.</p>
+    
+  </div><div class="card">
+    <p><span class="tag">PROBLEM 4</span></p>
+    <p class="problem">Dashboards look inconsistent across departments because trainees pick different fonts, colours and container spacing on each page.</p>
+    <p><span class="task">Task:</span> Apply a consistent visual style (colour palette, font, spacing) across all 11 dashboards so the finished workbook reads as one coherent training deliverable.</p>
+    
+  </div><h3 class="sub"><span class="badge-stage">5. Interactivity</span></h3><p class="desc">Add filters, parameters and dashboard actions so the finished dashboards let a user explore, drill down and answer follow up questions without leaving the page.</p><div class="card">
+    <p><span class="tag">PROBLEM 1</span></p>
+    <p class="problem">Every dashboard needs the same basic slicing (by Department, by Date range) but trainees keep rebuilding the same filter on every single dashboard, which is slow and inconsistent.</p>
+    <p><span class="task">Task:</span> Build one set of global filters (Department, Year, Quarter) that can be applied consistently across all dashboards.</p>
+    
+  </div><div class="card">
+    <p><span class="tag">PROBLEM 2</span></p>
+    <p class="problem">Clicking a bar in the 'Spend by Category' chart should let a user immediately see the underlying purchase orders, but by default nothing happens when a mark is clicked.</p>
+    <p><span class="task">Task:</span> Add a Filter Action so that clicking a category bar on the Supply Chain Dashboard filters a detail table of purchase orders on the same page.</p>
+    
+  </div><div class="card">
+    <p><span class="tag">PROBLEM 3</span></p>
+    <p class="problem">Executives want to switch the Executive Overview KPI cards between 'This Month', 'This Quarter' and 'This Year' without navigating away from the page.</p>
+    <p><span class="task">Task:</span> Add a parameter driven date range control to the Executive Overview Dashboard.</p>
+    
+  </div><div class="card">
+    <p><span class="tag">PROBLEM 4</span></p>
+    <p class="problem">Drilling from the Executive Overview straight into a department's own dashboard currently requires manually clicking through dashboard tabs, which is not intuitive for first time users.</p>
+    <p><span class="task">Task:</span> Add navigation buttons or a Go To Sheet action so a user can click a KPI on the Executive Overview and land directly on the matching department dashboard.</p>
+    
+  </div><div class="card">
+    <p><span class="tag">PROBLEM 5</span></p>
+    <p class="problem">Tooltips currently show Tableau's default 'field name: value' list, which is not friendly for non technical business users viewing the dashboards.</p>
+    <p><span class="task">Task:</span> Redesign the tooltips on every chart to be a short, readable sentence rather than a raw field list.</p>
+    
+  </div></section><section id="dashboards">
+  <h2 class="section-title">3. Dashboard Pages, Charts, Measures and KPIs to Build</h2>
+  <p>Build every dashboard page listed below, using exactly the title given. For each page, build the charts listed as individual worksheets first, then assemble them, and create the calculated fields needed to power each KPI.</p>
+  <div class="grid-2"><div class="card dashboard-card">
+    <h4>Executive Overview Dashboard</h4>
+    <p class="meta">Source: All sheets (blended)</p>
+    <p>One page snapshot of company wide health across production, spend, people, risk and service, for the CEO and Exco.</p>
+    <p><b>Charts / worksheets:</b></p>
+    <ul class="chart-list"><li>KPI cards (BANs): Total Actual Volume (bbls/mmscf/kt), Total Spend (EUR), Headcount, Open Critical Risks, Average CSAT</li><li>Line chart: Actual vs Planned Volume by Month (Operations)</li><li>Bar chart: Spend by Department (SupplyChain + AccountsFinance blended)</li><li>Heat map: Risk Likelihood x Impact (RiskComplianceRegister)</li><li>Donut chart: Headcount by Department (Employees)</li></ul>
+    <p><b>KPIs:</b></p>
+    <ul class="kpi-list"><li>Production Efficiency %</li><li>Total Spend (EUR)</li><li>Attrition Rate %</li><li>Average Risk Score</li><li>CSAT Average</li></ul>
+  </div><div class="card dashboard-card">
+    <h4>Operations Performance Dashboard</h4>
+    <p class="meta">Source: Operations</p>
+    <p>Track production output against plan and understand the drivers of downtime.</p>
+    <p><b>Charts / worksheets:</b></p>
+    <ul class="chart-list"><li>Bar chart: Actual Volume by AssetField, sorted descending</li><li>Line chart: Actual vs Planned Volume trend by Month, split by ProductType</li><li>Pareto chart (bar + cumulative line): Downtime Hours by DowntimeReason</li><li>Highlight table: Volume by Well and Month</li><li>KPI cards: Production Efficiency %, Total Downtime Hours, Number of Downtime Incidents</li></ul>
+    <p><b>KPIs:</b></p>
+    <ul class="kpi-list"><li>Production Efficiency % = SUM(ActualVolume) / SUM(PlannedVolume)</li><li>Total Downtime Hours</li><li>Average Downtime per Incident</li></ul>
+  </div><div class="card dashboard-card">
+    <h4>Legal and Contracts Dashboard</h4>
+    <p class="meta">Source: Legal</p>
+    <p>Monitor contract exposure, expiry risk and compliance flags across all counterparties.</p>
+    <p><b>Charts / worksheets:</b></p>
+    <ul class="chart-list"><li>Bar chart: Contract Value by ContractType</li><li>Bar chart: Top 10 Counterparties by Contract Value</li><li>Table: Contracts Expiring in next 90 days (calculated field filter)</li><li>Donut chart: Contracts by Status</li><li>KPI cards: Total Active Contract Value, % Contracts Flagged, Contracts Expiring Soon</li></ul>
+    <p><b>KPIs:</b></p>
+    <ul class="kpi-list"><li>% Active Contracts = COUNTD Active / COUNTD Total</li><li>Total Contract Value (EUR)</li><li>Contracts Expiring in 90 Days</li></ul>
+  </div><div class="card dashboard-card">
+    <h4>Supply Chain Dashboard</h4>
+    <p class="meta">Source: SupplyChain</p>
+    <p>Understand procurement spend, vendor performance and delivery reliability.</p>
+    <p><b>Charts / worksheets:</b></p>
+    <ul class="chart-list"><li>Bar chart: Total Spend by Category</li><li>Bar chart: Total Spend by Vendor (Top 10)</li><li>Line chart: Spend trend by Month</li><li>Bar-in-bar or bullet chart: On Time vs Delayed deliveries by Vendor</li><li>KPI cards: Total Spend, On Time Delivery Rate %, Average Delay Days</li></ul>
+    <p><b>KPIs:</b></p>
+    <ul class="kpi-list"><li>Total Spend (EUR) = SUM(TotalCost_EUR)</li><li>On Time Delivery Rate % = Delivered on time / Total Orders</li><li>Average Delay Days = AVG(ActualDeliveryDate - ExpectedDeliveryDate)</li></ul>
+  </div><div class="card dashboard-card">
+    <h4>Admin and Assets Dashboard</h4>
+    <p class="meta">Source: Admin</p>
+    <p>Track the value, condition and location of company fixed assets.</p>
+    <p><b>Charts / worksheets:</b></p>
+    <ul class="chart-list"><li>Treemap: Current Value by AssetType</li><li>Map or bar chart: Asset Value by Location</li><li>Donut chart: Assets by Status (In Use / Under Maintenance / Disposed)</li><li>Table: Asset register with Purchase Value vs Current Value</li><li>KPI cards: Total Current Asset Value, Depreciation %, Assets Under Maintenance</li></ul>
+    <p><b>KPIs:</b></p>
+    <ul class="kpi-list"><li>Depreciation % = 1 - SUM(CurrentValue_EUR)/SUM(PurchaseValue_EUR)</li><li>Assets Under Maintenance (count)</li><li>Total Current Asset Value (EUR)</li></ul>
+  </div><div class="card dashboard-card">
+    <h4>Customer Service Dashboard</h4>
+    <p class="meta">Source: CustomerService</p>
+    <p>Monitor community and customer ticket volumes, resolution speed and satisfaction.</p>
+    <p><b>Charts / worksheets:</b></p>
+    <ul class="chart-list"><li>Line chart: Ticket Volume trend by Month</li><li>Bar chart: Tickets by IssueCategory, sorted descending</li><li>Bar chart: Tickets by Channel</li><li>Bullet or gauge style KPI: Average Resolution Time (days) vs target</li><li>KPI cards: Open Tickets, Average CSAT, % Closed within SLA</li></ul>
+    <p><b>KPIs:</b></p>
+    <ul class="kpi-list"><li>Average Resolution Time (days) = AVG(ResolutionTimeDays)</li><li>CSAT Average = AVG(SatisfactionScore_1to5)</li><li>% Closed within 7 Days</li></ul>
+  </div><div class="card dashboard-card">
+    <h4>IT Service Desk Dashboard</h4>
+    <p class="meta">Source: IT</p>
+    <p>Track IT ticket load, priority mix and resolution performance against SLA.</p>
+    <p><b>Charts / worksheets:</b></p>
+    <ul class="chart-list"><li>Stacked bar chart: Tickets by System, coloured by Priority</li><li>Line chart: Ticket inflow trend by Month</li><li>Bar chart: Average Resolution Time (hours) by Priority</li><li>KPI cards: Open Tickets, SLA Compliance %, Average Resolution Time (hours)</li></ul>
+    <p><b>KPIs:</b></p>
+    <ul class="kpi-list"><li>Average Resolution Time (hours) = AVG(ResolutionTimeHours)</li><li>SLA Compliance % (resolved within target hours by priority)</li><li>Open Ticket Backlog (count)</li></ul>
+  </div><div class="card dashboard-card">
+    <h4>Finance Dashboard</h4>
+    <p class="meta">Source: AccountsFinance</p>
+    <p>Give Accounts and Finance a live view of revenue, expenditure and transaction status.</p>
+    <p><b>Charts / worksheets:</b></p>
+    <ul class="chart-list"><li>Line chart: Revenue vs Operating Expense vs Capex trend by Month</li><li>Bar chart: Amount by Department</li><li>Donut chart: Transactions by Status (Posted/Pending/Reversed)</li><li>Table: Transactions linked to Supply Chain PO_ID and Legal ContractID</li><li>KPI cards: Total Revenue, Total Opex, Net Position, Pending Transaction Value</li></ul>
+    <p><b>KPIs:</b></p>
+    <ul class="kpi-list"><li>Total Revenue (EUR)</li><li>Total Operating Expense (EUR)</li><li>Net Position = Revenue - Opex - Capex - Payroll - Tax</li></ul>
+  </div><div class="card dashboard-card">
+    <h4>HR Dashboard</h4>
+    <p class="meta">Source: Employees</p>
+    <p>Track headcount, attrition, tenure, performance and diversity across the company.</p>
+    <p><b>Charts / worksheets:</b></p>
+    <ul class="chart-list"><li>Bar chart: Headcount by Department</li><li>Donut chart: Gender split overall and by department</li><li>Line chart: Hires vs Exits trend by Year</li><li>Box plot or bar chart: Average Salary by JobGrade</li><li>KPI cards: Total Headcount, Attrition Rate %, Average Performance Rating</li></ul>
+    <p><b>KPIs:</b></p>
+    <ul class="kpi-list"><li>Attrition Rate % = COUNTD(Exited employees) / COUNTD(Total employees)</li><li>Average Tenure (years) = AVG(DATEDIFF('year', HireDate, TODAY()))</li><li>Average Performance Rating</li></ul>
+  </div><div class="card dashboard-card">
+    <h4>Internal Control Dashboard</h4>
+    <p class="meta">Source: InternalControl</p>
+    <p>Track audit coverage, finding severity and remediation progress across departments.</p>
+    <p><b>Charts / worksheets:</b></p>
+    <ul class="chart-list"><li>Bar chart: Findings by Department</li><li>Stacked bar chart: Findings by Severity, coloured red/amber/yellow/green</li><li>Donut chart: Findings by Status (Open/In Progress/Closed)</li><li>KPI cards: Open Critical Findings, Finding Closure Rate %, Total Findings This Year</li></ul>
+    <p><b>KPIs:</b></p>
+    <ul class="kpi-list"><li>Finding Closure Rate % = COUNTD(Closed) / COUNTD(Total findings)</li><li>Open Critical Findings (count)</li></ul>
+  </div><div class="card dashboard-card">
+    <h4>Risk Management and Compliance Dashboard</h4>
+    <p class="meta">Source: RiskComplianceRegister</p>
+    <p>Visualise the enterprise risk profile and track mitigation progress.</p>
+    <p><b>Charts / worksheets:</b></p>
+    <ul class="chart-list"><li>Heat map: Likelihood (rows) x Impact (columns), size/colour by count of risks</li><li>Bar chart: Average Risk Score by RiskCategory</li><li>Bar chart: Risks by Department</li><li>Donut chart: Risks by MitigationStatus</li><li>KPI cards: Average Risk Score, High/Critical Risk Count, % Mitigated</li></ul>
+    <p><b>KPIs:</b></p>
+    <ul class="kpi-list"><li>Average Risk Score = AVG(RiskScore)</li><li>% Mitigated = COUNTD(Mitigated) / COUNTD(Total risks)</li><li>High/Critical Risk Count (RiskScore &gt;= 15)</li></ul>
+  </div></div></section>
+</main>
+<footer>Companion files: TotalEnergies_Training_Dataset.xlsx &middot; TotalEnergies_Tableau_Training_Guide.docx &middot; TotalEnergies_Tableau_Training_Solutions.html</footer>
+</body>
+</html>

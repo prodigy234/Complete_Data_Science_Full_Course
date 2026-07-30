@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Chocolate Sales Tableau Project - Solutions and Dashboard Build Guide</title>
+<style>
+  :root{
+    --brown:#4a2c1a;
+    --gold:#c58f2a;
+    --cream:#faf3e7;
+    --dark:#2a1810;
+    --red:#8c2f2f;
+    --green:#2f6b3f;
+    --blue:#2d5f8a;
+    --grey:#6b6b6b;
+  }
+  *{box-sizing:border-box;}
+  body{
+    font-family:"Segoe UI", Arial, sans-serif;
+    margin:0;
+    padding:0;
+    background:var(--cream);
+    color:var(--dark);
+    line-height:1.6;
+  }
+  header.hero{
+    background: linear-gradient(135deg, var(--green), var(--dark));
+    color:#fff;
+    padding:50px 40px;
+    text-align:center;
+  }
+  header.hero h1{ font-size:2.3em; margin:0 0 10px 0; }
+  header.hero p{ font-size:1.1em; color:#dcefe0; margin:4px 0; }
+  nav.toc{
+    background:#fff; margin:30px auto; max-width:1000px;
+    border:1px solid #ddd; border-radius:8px; padding:25px 35px;
+  }
+  nav.toc h2{ margin-top:0; color:var(--green); border-bottom:3px solid var(--gold); padding-bottom:8px; }
+  nav.toc ol{ columns:2; -webkit-columns:2; column-gap:40px; }
+  nav.toc li{ margin-bottom:8px; }
+  nav.toc a{ color:var(--brown); text-decoration:none; }
+  nav.toc a:hover{ text-decoration:underline; }
+  main{ max-width:1050px; margin:0 auto; padding:10px 40px 80px 40px; }
+  section{
+    background:#fff; border-radius:8px; padding:30px 35px;
+    margin-bottom:30px; box-shadow:0 1px 4px rgba(0,0,0,0.08);
+  }
+  h2.section-title{
+    color:#fff; background:var(--green); padding:14px 20px;
+    border-radius:6px; margin:-30px -35px 25px -35px; font-size:1.4em;
+  }
+  h3{ color:var(--brown); border-left:5px solid var(--gold); padding-left:12px; margin-top:35px; }
+  h4{ color:var(--red); margin-bottom:6px; }
+  h5{ color:var(--blue); margin:18px 0 4px 0; }
+  table{ width:100%; border-collapse:collapse; margin:15px 0 25px 0; font-size:0.94em; }
+  th{ background:var(--green); color:#fff; text-align:left; padding:10px 12px; }
+  td{ padding:9px 12px; border-bottom:1px solid #dcefe0; vertical-align:top; }
+  tr:nth-child(even) td{ background:#f3faf4; }
+  .solution-card{
+    border:1px solid #cde8d0; border-radius:8px; padding:20px 25px;
+    margin-bottom:20px; background:#fbfffc;
+  }
+  .solution-card h4{ font-size:1.1em; margin-top:0; }
+  .tag{ display:inline-block; padding:3px 10px; border-radius:14px; font-size:0.78em; font-weight:bold; color:#fff; margin-right:6px; }
+  .tag.fix{ background:var(--green); }
+  .tag.formula{ background:var(--blue); }
+  .callout{ background:#eef7ee; border-left:5px solid var(--green); padding:14px 18px; border-radius:4px; margin:18px 0; }
+  .callout.warn{ background:#fbeaea; border-left-color:var(--red); }
+  .callout.tip{ background:#fdf6e3; border-left-color:var(--gold); }
+  code, .formula-box{
+    background:#20301f; color:#d8f3d8; padding:12px 16px; border-radius:6px;
+    display:block; font-family:Consolas, monospace; font-size:0.92em;
+    white-space:pre-wrap; margin:8px 0;
+  }
+  code.inline{ display:inline; background:#e5ede0; color:#20301f; padding:2px 6px; border-radius:4px; }
+  .step{
+    border-left:4px solid var(--blue); padding:6px 0 6px 18px; margin:14px 0;
+  }
+  .step .step-num{
+    display:inline-flex; align-items:center; justify-content:center;
+    width:26px; height:26px; border-radius:50%; background:var(--blue);
+    color:#fff; font-weight:bold; font-size:0.85em; margin-right:8px;
+  }
+  .dashboard-block{
+    border:2px solid var(--green); border-radius:8px; padding:25px 28px;
+    margin-bottom:35px; background:#fbfffc;
+  }
+  .dashboard-block > h3{ margin-top:0; border-left:none; padding-left:0; color:var(--green); font-size:1.4em; }
+  .chart-block{
+    border:1px dashed #a9d3ac; border-radius:6px; padding:18px 22px;
+    margin:18px 0; background:#ffffff;
+  }
+  .chart-block h4{ color:var(--brown); margin-top:0; }
+  footer{ text-align:center; padding:30px; color:var(--grey); font-size:0.9em; }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <h1>Chocolate Sales Tableau Project</h1>
+  <p>File 2 of 2: Solutions and Full Dashboard Build Guide</p>
+  <p>Prepared for Prodigy Training Hub - Every Problem Solved, Every Chart Built Step by Step</p>
+</header>
+
+<nav class="toc">
+  <h2>Table of Contents</h2>
+  <ol>
+    <li><a href="#connecting">1. Connecting Tableau to the Data</a></li>
+    <li><a href="#solutions">2. Solutions to Every Data Problem</a></li>
+    <li><a href="#calcfields">3. Building All Required Calculated Fields</a></li>
+    <li><a href="#dash1">4. Dashboard 1: Executive Sales Overview</a></li>
+    <li><a href="#dash2">5. Dashboard 2: Sales Representative Performance</a></li>
+    <li><a href="#dash3">6. Dashboard 3: Product Performance Analysis</a></li>
+    <li><a href="#dash4">7. Dashboard 4: Geography and Seasonality</a></li>
+    <li><a href="#interactivity">8. Filters, Actions, and Parameters</a></li>
+    <li><a href="#formatting">9. Formatting, Theming, and Publishing</a></li>
+    <li><a href="#qa">10. Final Quality Assurance Checklist</a></li>
+  </ol>
+</nav>
+
+<main>
+
+<section id="connecting">
+  <h2 class="section-title">1. Connecting Tableau to the Data</h2>
+  <p>This is the very first practical step inside Tableau Desktop or Tableau Public, before any chart can be built.</p>
+
+  <div class="step"><span class="step-num">1</span>Open Tableau Desktop and, on the start screen, click <code class="inline">Text File</code> under the Connect panel on the left side.</div>
+  <div class="step"><span class="step-num">2</span>Browse to and select <code class="inline">staff_dataset.csv</code>. Tableau will load the file into the Data Source tab and show a preview grid of the data.</div>
+  <div class="step"><span class="step-num">3</span>Look at the top left corner of the Data Source tab. If Tableau shows a banner saying "Data Interpreter has detected possible extra data," you can leave it switched off for this file, since the dataset is already a clean single grid with one header row and no extra title rows or subtotal rows above the data.</div>
+  <div class="step"><span class="step-num">4</span>Check every column header at the top of the preview grid. Tableau assigns a data type icon (Abc for text, a hash symbol for number, a calendar for date) to each field automatically. Click each header's data type icon and confirm the following corrected types:
+    <ul>
+      <li><code class="inline">Staff_id</code> should be a Number (Integer). Even though it is being repurposed as a transaction identifier rather than a staff identifier, it should stay numeric so that it can still be counted, but it will never be summed.</li>
+      <li><code class="inline">Amount</code>, <code class="inline">Customers</code>, and <code class="inline">Boxes</code> should be Number (Integer).</li>
+      <li><code class="inline">Full_Name</code>, <code class="inline">Country</code>, and <code class="inline">Product</code> should be String.</li>
+      <li><code class="inline">Date</code> will most likely be auto detected as a String because it does not match Tableau's default date parsing pattern. This will be corrected using a calculated field rather than forcing the raw field, see Section 2 below for the exact reason why.</li>
+      <li><code class="inline">Average_Amount</code> should be Number (Decimal), but as explained in Section 2, this field will not be used directly anywhere in the dashboards.</li>
+    </ul>
+  </div>
+  <div class="step"><span class="step-num">5</span>Rename the connection at the top of the Data Source tab from the default file name to something descriptive, for example <code class="inline">Chocolate Sales Data</code>, so that anyone opening the workbook later immediately understands what the source contains.</div>
+  <div class="step"><span class="step-num">6</span>Decide between a Live connection and an Extract. For a CSV file of this size (3,791 rows), select <code class="inline">Extract</code> in the top right of the Data Source tab, then click <code class="inline">Add</code>, keep the default full extract, and click <code class="inline">Save</code>. An extract will make every chart in this project noticeably faster to render and filter, since Tableau converts the file into its own optimised .hyper storage format rather than re-reading the raw CSV on every single interaction.</div>
+  <div class="step"><span class="step-num">7</span>Click the sheet tab (labelled <code class="inline">Sheet 1</code>) at the bottom left to move from the Data Source tab into an actual worksheet, where the calculated fields from Section 3 will be built next.</div>
+
+  <div class="callout tip">
+    Since this project uses a single flat table, there is no join, blend, or relationship step required at this stage. If a second table (such as a staff directory or a currency exchange rate table) is added later, it would be attached here on the Data Source tab using Tableau's relationship canvas, matched on <code class="inline">Full_Name</code> or <code class="inline">Country</code> respectively.
+  </div>
+</section>
+
+<section id="solutions">
+  <h2 class="section-title">2. Solutions to Every Data Problem</h2>
+  <p>Each problem identified in the planning document is resolved below, in the same order it was raised, with the exact fix and the reasoning behind it.</p>
+
+  <div class="solution-card">
+    <h4><span class="tag fix">Solved</span>Problem 1: Staff_id is mislabelled as a staff identifier</h4>
+    <p><strong>Solution:</strong> Right click <code class="inline">Staff_id</code> in the Data pane and choose <code class="inline">Rename</code>. Rename it to <code class="inline">Transaction ID</code>. This does not change any values, it only relabels the field so nobody on the team mistakes it for a count of staff. From this point forward, any question about "how many sales representatives" or "which representative sold the most" must use <code class="inline">Full_Name</code> (or its cleaned version below), never <code class="inline">Transaction ID</code>.</p>
+  </div>
+
+  <div class="solution-card">
+    <h4><span class="tag fix">Solved</span>Problem 2: Full_Name has a double space on every row</h4>
+    <p><strong>Solution:</strong> Create a new calculated field named <code class="inline">Clean Full Name</code> that collapses any run of multiple spaces down to a single space and trims the ends. Right click in the Data pane, choose <code class="inline">Create Calculated Field</code>, name it <code class="inline">Clean Full Name</code>, and enter:</p>
+    <code>TRIM(REGEXP_REPLACE([Full_Name], "\s+", " "))</code>
+    <p>This single formula fixes all 3,791 rows in one pass, including the two names that contain apostrophes (Marney O'Breen and Wilone O'Kielt), since the regular expression only targets whitespace characters and leaves every other character untouched. From this point forward, <code class="inline">Clean Full Name</code> replaces <code class="inline">Full_Name</code> in every single chart, filter, and calculation in this project.</p>
+  </div>
+
+  <div class="solution-card">
+    <h4><span class="tag fix">Solved</span>Problem 3: Date is stored as text in day/month/year format</h4>
+    <p><strong>Solution:</strong> Create a new calculated field named <code class="inline">Order Date</code> that explicitly parses the text using the correct day first pattern rather than relying on Tableau's default guess:</p>
+    <code>DATE(DATEPARSE("dd/MM/yyyy", [Date]))</code>
+    <p>Once this field is created, right click it in the Data pane and confirm its data type icon shows a calendar (Date), then drag it into the view at least once and confirm the very first value renders as 1 January 2021 and not 1 January 2021 misread as month 1, day 1 (which happens to look the same for the first day of the month, so also spot check a value like row 300 or later where day and month clearly differ, for example a raw value of <code class="inline">15/03/2021</code> should render as 15 March 2021, not the 3rd of some other month). Once confirmed correct, right click <code class="inline">Order Date</code> and choose <code class="inline">Default Properties</code> then <code class="inline">Date Format</code> to standardise how it displays across every chart.</p>
+  </div>
+
+  <div class="solution-card">
+    <h4><span class="tag fix">Solved</span>Problem 4: The final month (January 2022) has an unusually high row count</h4>
+    <p><strong>Solution:</strong> This is not a formula fix, it is a presentation and communication fix. Two options are available and both are implemented in this project:</p>
+    <ul>
+      <li>On every monthly trend chart, a caption text box is added directly on the dashboard stating: "Note: January 2022 reflects a partial or differently sized reporting period compared to prior months and should be read with that context in mind."</li>
+      <li>A quick filter action lets the viewer optionally exclude the final month from the trend line entirely, so like for like monthly comparisons are still possible using the full 2021 calendar year on its own.</li>
+    </ul>
+  </div>
+
+  <div class="solution-card">
+    <h4><span class="tag fix">Solved</span>Problem 5: Two transactions have zero Amount and zero Boxes</h4>
+    <p><strong>Solution:</strong> Rather than silently deleting these two rows, a calculated field named <code class="inline">Data Quality Flag</code> is created so they remain visible and traceable but excludable on demand:</p>
+    <code>IF [Amount] = 0 AND [Boxes] = 0 THEN "Zero Value Transaction" ELSE "Valid Transaction" END</code>
+    <p>This field is added to a filter shelf across every worksheet (or set as a context filter at the data source level once confirmed with the client) so that headline totals can be shown either including or excluding these two rows, with the choice made deliberately rather than by accident.</p>
+  </div>
+
+  <div class="solution-card">
+    <h4><span class="tag fix">Solved</span>Problem 6: Country field mixes a full country name style with one abbreviation ("UK")</h4>
+    <p><strong>Solution:</strong> A calculated field named <code class="inline">Country Display Name</code> standardises the label for presentation without altering the original field, which is kept intact for any future join back to other systems that may already use "UK" as their standard code:</p>
+    <code>IF [Country] = "UK" THEN "United Kingdom" ELSE [Country] END</code>
+    <p><code class="inline">Country Display Name</code> is used on every chart title, axis, and tooltip, while the original <code class="inline">Country</code> field remains available in the Data pane for technical use.</p>
+  </div>
+
+  <div class="solution-card">
+    <h4><span class="tag fix">Solved</span>Problem 7: No product category grouping exists above the 22 individual products</h4>
+    <p><strong>Solution:</strong> A Tableau <code class="inline">Group</code> is created directly on the <code class="inline">Product</code> field. In the Data pane, right click <code class="inline">Product</code>, choose <code class="inline">Create</code> then <code class="inline">Group</code>, and manually combine the 22 products into broader families, for example grouping "85% Dark Bars", "70% Dark Bites", "50% Dark Bites", and "99% Dark and Pure" under a single "Dark Chocolate" family, grouping "White Choc" and "Milk Bars" under "Milk and White Chocolate", and so on for the remaining products. The resulting field is named <code class="inline">Product Category</code> and is used wherever a simplified, less cluttered product view is needed, while the original 22 product names remain available for detailed drill down.</p>
+  </div>
+
+  <div class="solution-card">
+    <h4><span class="tag fix">Solved</span>Problem 8: Average_Amount is a broken, constant field (5,724.54 on every row)</h4>
+    <p><strong>Solution:</strong> This field is hidden from the workbook entirely (right click it in the Data pane and choose <code class="inline">Hide</code>) so nobody accidentally drags it into a chart. In its place, three genuine calculated measures are built fresh, guaranteed to change correctly whenever the level of detail in a chart changes:</p>
+    <code>Average Price per Box:
+SUM([Amount]) / SUM([Boxes])
+
+Average Sale per Transaction:
+AVG([Amount])
+
+Revenue per Customer:
+SUM([Amount]) / SUM([Customers])</code>
+    <p>Because these are written as aggregations rather than hardcoded numbers, each one automatically recalculates correctly whether the chart is sliced by representative, by product, by country, or by month, which is exactly the behaviour the original broken field could never deliver.</p>
+  </div>
+
+  <div class="solution-card">
+    <h4><span class="tag fix">Solved</span>Problem 9: Customers field definition was not documented</h4>
+    <p><strong>Solution:</strong> For this project, <code class="inline">Customers</code> is documented and labelled on every relevant chart tooltip as "Customers reached in this transaction record," and the <code class="inline">Revenue per Customer</code> measure built above is explicitly subtitled "based on the Customers field as recorded in the source data" wherever it appears, so viewers are never given a false sense of precision about what is being measured.</p>
+  </div>
+</section>
+
+<section id="calcfields">
+  <h2 class="section-title">3. Building All Required Calculated Fields</h2>
+  <p>This is a consolidated reference table of every calculated field used across all four dashboards in this project, gathered in one place for quick building. Create each one exactly as shown, using <code class="inline">Analysis</code> then <code class="inline">Create Calculated Field</code>, or by right clicking empty space in the Data pane.</p>
+  <table>
+    <tr><th>Field name</th><th>Formula</th><th>Used for</th></tr>
+    <tr><td>Clean Full Name</td><td><span class="tag formula">Calc</span>TRIM(REGEXP_REPLACE([Full_Name], "\s+", " "))</td><td>Every chart involving a sales representative</td></tr>
+    <tr><td>Order Date</td><td><span class="tag formula">Calc</span>DATE(DATEPARSE("dd/MM/yyyy", [Date]))</td><td>All time based trend charts, date hierarchy filters</td></tr>
+    <tr><td>Data Quality Flag</td><td><span class="tag formula">Calc</span>IF [Amount] = 0 AND [Boxes] = 0 THEN "Zero Value Transaction" ELSE "Valid Transaction" END</td><td>Global filter to include or exclude the two zero value rows</td></tr>
+    <tr><td>Country Display Name</td><td><span class="tag formula">Calc</span>IF [Country] = "UK" THEN "United Kingdom" ELSE [Country] END</td><td>All titles, axes, tooltips referencing country</td></tr>
+    <tr><td>Product Category</td><td><span class="tag formula">Group</span>Manually grouped field built from Product</td><td>Simplified product level charts</td></tr>
+    <tr><td>Total Sales Amount</td><td><span class="tag formula">Calc</span>SUM([Amount])</td><td>KPI tiles, every revenue based chart</td></tr>
+    <tr><td>Total Boxes Sold</td><td><span class="tag formula">Calc</span>SUM([Boxes])</td><td>KPI tiles, every volume based chart</td></tr>
+    <tr><td>Average Price per Box</td><td><span class="tag formula">Calc</span>SUM([Amount]) / SUM([Boxes])</td><td>Product profitability chart, replaces Average_Amount</td></tr>
+    <tr><td>Average Sale per Transaction</td><td><span class="tag formula">Calc</span>AVG([Amount])</td><td>KPI tiles</td></tr>
+    <tr><td>Revenue per Customer</td><td><span class="tag formula">Calc</span>SUM([Amount]) / SUM([Customers])</td><td>Efficiency style KPI on Dashboard 1</td></tr>
+    <tr><td>Sales Rep Rank</td><td><span class="tag formula">Table calc</span>RANK(SUM([Amount]))</td><td>Representative leaderboard on Dashboard 2</td></tr>
+    <tr><td>Transaction ID</td><td><span class="tag formula">Rename</span>Staff_id renamed, no formula change</td><td>Internal row counting only, never grouped by</td></tr>
+  </table>
+  <div class="callout tip">
+    Build every field in this table before starting Dashboard 1. Doing this up front means every worksheet built afterward can simply drag ready made, correct fields onto the shelves rather than pausing mid dashboard to fix a broken measure.
+  </div>
+</section>
+
+<section id="dash1">
+  <h2 class="section-title">4. Dashboard 1: Executive Sales Overview</h2>
+  <div class="dashboard-block">
+    <h3>Purpose</h3>
+    <p>A single landing view giving senior stakeholders total business performance at a glance, before drilling into representative, product, or geography detail on the other three dashboards.</p>
+
+    <div class="chart-block">
+      <h4>Chart 1: KPI Summary Tiles</h4>
+      <div class="step"><span class="step-num">1</span>Create four new worksheets named <code class="inline">KPI - Total Sales</code>, <code class="inline">KPI - Total Boxes</code>, <code class="inline">KPI - Avg Price per Box</code>, and <code class="inline">KPI - Revenue per Customer</code>.</div>
+      <div class="step"><span class="step-num">2</span>On each sheet, drag the relevant measure (<code class="inline">Total Sales Amount</code>, <code class="inline">Total Boxes Sold</code>, <code class="inline">Average Price per Box</code>, <code class="inline">Revenue per Customer</code>) onto the <code class="inline">Text</code> shelf on the Marks card.</div>
+      <div class="step"><span class="step-num">3</span>Change the Mark type to <code class="inline">Text</code> if it is not already.</div>
+      <div class="step"><span class="step-num">4</span>Select the number on the view, increase the font size to around 36pt using the toolbar, and add a bold label above it (double click the sheet title and type the KPI name, for example "Total Sales Amount").</div>
+      <div class="step"><span class="step-num">5</span>Remove all gridlines, axis lines, and row and column dividers under <code class="inline">Format</code> then <code class="inline">Borders</code> and <code class="inline">Lines</code> so each tile shows only the clean number and its label.</div>
+    </div>
+
+    <div class="chart-block">
+      <h4>Chart 2: Sales Trend Over Time</h4>
+      <div class="step"><span class="step-num">1</span>Create a new worksheet named <code class="inline">Sales Trend Over Time</code>.</div>
+      <div class="step"><span class="step-num">2</span>Drag <code class="inline">Order Date</code> onto the Columns shelf. Right click the resulting field and set it to the continuous <code class="inline">Month</code> level (shown in green, not the default discrete blue pill), so the line renders as one continuous timeline from January 2021 through January 2022.</div>
+      <div class="step"><span class="step-num">3</span>Drag <code class="inline">Total Sales Amount</code> onto the Rows shelf.</div>
+      <div class="step"><span class="step-num">4</span>Change the Mark type to <code class="inline">Line</code>.</div>
+      <div class="step"><span class="step-num">5</span>Right click the <code class="inline">Order Date</code> axis and choose <code class="inline">Add Reference Line</code> if an average line is wanted for context, or skip this if a clean single trend line is preferred.</div>
+      <div class="step"><span class="step-num">6</span>Add a caption text object beneath the chart on the dashboard noting the partial final month, as agreed in the Section 2 solution for that issue.</div>
+    </div>
+
+    <div class="chart-block">
+      <h4>Chart 3: Sales by Country</h4>
+      <div class="step"><span class="step-num">1</span>Create a new worksheet named <code class="inline">Sales by Country</code>.</div>
+      <div class="step"><span class="step-num">2</span>Drag <code class="inline">Country Display Name</code> onto the Rows shelf.</div>
+      <div class="step"><span class="step-num">3</span>Drag <code class="inline">Total Sales Amount</code> onto the Columns shelf.</div>
+      <div class="step"><span class="step-num">4</span>Change Mark type to <code class="inline">Bar</code>.</div>
+      <div class="step"><span class="step-num">5</span>Click the Sort descending icon in the toolbar so the highest selling country appears at the top.</div>
+      <div class="step"><span class="step-num">6</span>Drag <code class="inline">Total Sales Amount</code> onto the <code class="inline">Label</code> shelf on the Marks card so each bar shows its exact value.</div>
+      <div class="step"><span class="step-num">7</span>Drag <code class="inline">Country Display Name</code> onto the <code class="inline">Color</code> shelf for a distinct colour per country bar.</div>
+    </div>
+
+    <div class="chart-block">
+      <h4>Chart 4: Top 10 Products by Sales Amount</h4>
+      <div class="step"><span class="step-num">1</span>Create a new worksheet named <code class="inline">Top 10 Products</code>.</div>
+      <div class="step"><span class="step-num">2</span>Drag <code class="inline">Product</code> onto Rows and <code class="inline">Total Sales Amount</code> onto Columns, Mark type <code class="inline">Bar</code>, sorted descending exactly as in Chart 3.</div>
+      <div class="step"><span class="step-num">3</span>Right click <code class="inline">Product</code> on the Rows shelf, choose <code class="inline">Filter</code>, switch to the <code class="inline">Top</code> tab, select <code class="inline">By field</code>, set it to Top 10 By <code class="inline">Total Sales Amount</code>, then click <code class="inline">OK</code>.</div>
+    </div>
+
+    <h3>Assembling Dashboard 1</h3>
+    <div class="step"><span class="step-num">1</span>Create a new Dashboard, name it <code class="inline">Executive Sales Overview</code>, and set the size to <code class="inline">Automatic</code> or a fixed desktop size such as 1300 by 900 pixels.</div>
+    <div class="step"><span class="step-num">2</span>Drag the four KPI tile sheets into a horizontal row across the top of the dashboard canvas, resizing each to an equal width.</div>
+    <div class="step"><span class="step-num">3</span>Drag <code class="inline">Sales Trend Over Time</code> beneath the KPI row, spanning the full width.</div>
+    <div class="step"><span class="step-num">4</span>Below the trend chart, place <code class="inline">Sales by Country</code> on the left half and <code class="inline">Top 10 Products</code> on the right half, side by side.</div>
+    <div class="step"><span class="step-num">5</span>Add a dashboard title text object at the very top reading "Executive Sales Overview - Chocolate Sales Performance."</div>
+  </div>
+</section>
+
+<section id="dash2">
+  <h2 class="section-title">5. Dashboard 2: Sales Representative Performance</h2>
+  <div class="dashboard-block">
+    <h3>Purpose</h3>
+    <p>Compares and ranks the 25 sales representatives so sales management can identify top and bottom performers and coach accordingly.</p>
+
+    <div class="chart-block">
+      <h4>Chart 1: Sales by Representative</h4>
+      <div class="step"><span class="step-num">1</span>New worksheet <code class="inline">Sales by Representative</code>. Drag <code class="inline">Clean Full Name</code> onto Rows, <code class="inline">Total Sales Amount</code> onto Columns, Mark type <code class="inline">Bar</code>, sort descending.</div>
+      <div class="step"><span class="step-num">2</span>Drag <code class="inline">Total Sales Amount</code> onto Color and apply a sequential gold to brown colour gradient to visually reinforce ranking.</div>
+    </div>
+
+    <div class="chart-block">
+      <h4>Chart 2: Representative Leaderboard</h4>
+      <div class="step"><span class="step-num">1</span>New worksheet <code class="inline">Representative Leaderboard</code>. Drag <code class="inline">Sales Rep Rank</code> onto Rows first, then <code class="inline">Clean Full Name</code> onto Rows beside it.</div>
+      <div class="step"><span class="step-num">2</span>Drag <code class="inline">Total Sales Amount</code>, <code class="inline">Total Boxes Sold</code>, and <code class="inline">Average Sale per Transaction</code> onto the Text shelf in that order to build a multi column crosstab.</div>
+      <div class="step"><span class="step-num">3</span>Change the Mark type to <code class="inline">Automatic</code> or <code class="inline">Text</code> so the result displays as a clean ranked table.</div>
+      <div class="step"><span class="step-num">4</span>Right click <code class="inline">Sales Rep Rank</code> on Rows and confirm its table calculation is computed using <code class="inline">Clean Full Name</code> as the addressing field, so the rank recalculates correctly if filters are later applied.</div>
+    </div>
+
+    <div class="chart-block">
+      <h4>Chart 3: Boxes Sold versus Sales Amount</h4>
+      <div class="step"><span class="step-num">1</span>New worksheet <code class="inline">Boxes vs Amount by Rep</code>. Drag <code class="inline">Total Boxes Sold</code> onto Columns and <code class="inline">Total Sales Amount</code> onto Rows.</div>
+      <div class="step"><span class="step-num">2</span>Drag <code class="inline">Clean Full Name</code> onto Detail on the Marks card, and change Mark type to <code class="inline">Circle</code>.</div>
+      <div class="step"><span class="step-num">3</span>Drag a measure such as the count of <code class="inline">Customers</code> summed onto the <code class="inline">Size</code> shelf so each bubble reflects the volume of customers reached by that representative.</div>
+      <div class="step"><span class="step-num">4</span>Drag <code class="inline">Clean Full Name</code> onto Color for a distinct colour per representative, and onto Label if names should show directly on the chart.</div>
+    </div>
+
+    <div class="chart-block">
+      <h4>Chart 4: Representative Trend Over Time</h4>
+      <div class="step"><span class="step-num">1</span>New worksheet <code class="inline">Rep Trend Over Time</code>. Drag continuous <code class="inline">Order Date</code> (Month level) onto Columns, <code class="inline">Total Sales Amount</code> onto Rows, Mark type <code class="inline">Line</code>.</div>
+      <div class="step"><span class="step-num">2</span>Drag <code class="inline">Clean Full Name</code> onto Color so one line is drawn per representative.</div>
+      <div class="step"><span class="step-num">3</span>Because 25 lines on one chart is visually busy, add <code class="inline">Clean Full Name</code> to the Filters shelf and set up a Top N filter (Top 5 by Total Sales Amount) so the trend chart focuses on the leading representatives by default, while the full list stays available if the filter is cleared through a dashboard control.</div>
+    </div>
+
+    <h3>Assembling Dashboard 2</h3>
+    <div class="step"><span class="step-num">1</span>New Dashboard named <code class="inline">Sales Representative Performance</code>.</div>
+    <div class="step"><span class="step-num">2</span>Place <code class="inline">Sales by Representative</code> on the left side, full height.</div>
+    <div class="step"><span class="step-num">3</span>Stack <code class="inline">Representative Leaderboard</code> above <code class="inline">Boxes vs Amount by Rep</code> on the right side, and place <code class="inline">Rep Trend Over Time</code> beneath both, spanning the full width.</div>
+    <div class="step"><span class="step-num">4</span>Add a dashboard action (see Section 8) so clicking a bar in <code class="inline">Sales by Representative</code> filters all other sheets on this dashboard to that one representative.</div>
+  </div>
+</section>
+
+<section id="dash3">
+  <h2 class="section-title">6. Dashboard 3: Product Performance Analysis</h2>
+  <div class="dashboard-block">
+    <h3>Purpose</h3>
+    <p>Identifies which chocolate products drive the most revenue and volume, and which are most and least efficient per box sold.</p>
+
+    <div class="chart-block">
+      <h4>Chart 1: Sales by Product</h4>
+      <div class="step"><span class="step-num">1</span>New worksheet <code class="inline">Sales by Product</code>. Drag <code class="inline">Product</code> onto Rows, <code class="inline">Total Sales Amount</code> onto Columns, Mark type <code class="inline">Bar</code>, sort descending, all 22 products shown.</div>
+    </div>
+
+    <div class="chart-block">
+      <h4>Chart 2: Average Price per Box by Product</h4>
+      <div class="step"><span class="step-num">1</span>New worksheet <code class="inline">Avg Price per Box by Product</code>. Drag <code class="inline">Product</code> onto Rows, <code class="inline">Average Price per Box</code> onto Columns, Mark type <code class="inline">Bar</code>, sort descending.</div>
+      <div class="step"><span class="step-num">2</span>This chart directly replaces the broken <code class="inline">Average_Amount</code> field described in Section 2, and every bar here will genuinely differ in height because it is calculated per product rather than fixed at one repeated number.</div>
+    </div>
+
+    <div class="chart-block">
+      <h4>Chart 3: Product Sales Trend Over Time</h4>
+      <div class="step"><span class="step-num">1</span>New worksheet <code class="inline">Product Trend Over Time</code>. Drag continuous <code class="inline">Order Date</code> (Month) onto Columns, <code class="inline">Total Sales Amount</code> onto Rows, Mark type <code class="inline">Line</code>, <code class="inline">Product</code> onto Color.</div>
+      <div class="step"><span class="step-num">2</span>Apply a Top N filter on <code class="inline">Product</code> (Top 5 by Total Sales Amount) so the trend lines stay legible rather than showing all 22 products at once.</div>
+    </div>
+
+    <div class="chart-block">
+      <h4>Chart 4: Product Mix by Country</h4>
+      <div class="step"><span class="step-num">1</span>New worksheet <code class="inline">Product Mix by Country</code>. Drag <code class="inline">Country Display Name</code> onto Rows and <code class="inline">Product Category</code> onto Columns.</div>
+      <div class="step"><span class="step-num">2</span>Drag <code class="inline">Total Sales Amount</code> onto the Color shelf on the Marks card, and change Mark type to <code class="inline">Square</code> to build a highlight table (heat map) style view.</div>
+      <div class="step"><span class="step-num">3</span>Drag <code class="inline">Total Sales Amount</code> onto Label as well, so each cell shows both a colour intensity and the exact figure.</div>
+    </div>
+
+    <h3>Assembling Dashboard 3</h3>
+    <div class="step"><span class="step-num">1</span>New Dashboard named <code class="inline">Product Performance Analysis</code>.</div>
+    <div class="step"><span class="step-num">2</span>Place <code class="inline">Sales by Product</code> and <code class="inline">Avg Price per Box by Product</code> side by side across the top half.</div>
+    <div class="step"><span class="step-num">3</span>Place <code class="inline">Product Trend Over Time</code> and <code class="inline">Product Mix by Country</code> side by side across the bottom half.</div>
+  </div>
+</section>
+
+<section id="dash4">
+  <h2 class="section-title">7. Dashboard 4: Geography and Seasonality</h2>
+  <div class="dashboard-block">
+    <h3>Purpose</h3>
+    <p>Shows where in the world sales are strongest and how sales activity rises and falls across the calendar.</p>
+
+    <div class="chart-block">
+      <h4>Chart 1: World Map by Country</h4>
+      <div class="step"><span class="step-num">1</span>New worksheet <code class="inline">Sales Map</code>. Double click <code class="inline">Country Display Name</code> in the Data pane. Tableau will automatically generate a filled map, since all six country names are recognised geographic values.</div>
+      <div class="step"><span class="step-num">2</span>Drag <code class="inline">Total Sales Amount</code> onto the Color shelf, and also onto the Size shelf if a bubble map style is preferred over a filled polygon map (change Mark type to Circle for the bubble style, or leave it as Map/Filled Map for the polygon style).</div>
+      <div class="step"><span class="step-num">3</span>Drag <code class="inline">Total Sales Amount</code> and <code class="inline">Total Boxes Sold</code> onto Tooltip so hovering over each country shows both figures.</div>
+    </div>
+
+    <div class="chart-block">
+      <h4>Chart 2: Monthly Trend Line with Trend Analysis</h4>
+      <div class="step"><span class="step-num">1</span>New worksheet <code class="inline">Monthly Trend with Trend Line</code>. Build the same way as Dashboard 1's Sales Trend Over Time chart (continuous Month on Columns, Total Sales Amount on Rows, Mark type Line).</div>
+      <div class="step"><span class="step-num">2</span>From the Analytics pane on the left, drag a <code class="inline">Trend Line</code> object onto the chart and drop it on the <code class="inline">Linear</code> option to overlay a statistical trend line on top of the actual monthly data.</div>
+    </div>
+
+    <div class="chart-block">
+      <h4>Chart 3: Seasonality Heat Map</h4>
+      <div class="step"><span class="step-num">1</span>New worksheet <code class="inline">Seasonality Heat Map</code>. Drag <code class="inline">Order Date</code> onto Columns and set it to discrete <code class="inline">Year</code>. Drag <code class="inline">Order Date</code> again onto Rows and set that second copy to discrete <code class="inline">Month</code> (the month name only, not year plus month).</div>
+      <div class="step"><span class="step-num">2</span>Drag <code class="inline">Total Sales Amount</code> onto the Color shelf, change Mark type to <code class="inline">Square</code>, and apply a sequential colour palette so darker or more intense cells represent higher sales months.</div>
+    </div>
+
+    <div class="chart-block">
+      <h4>Chart 4: Quarter Comparison</h4>
+      <div class="step"><span class="step-num">1</span>New worksheet <code class="inline">Quarter Comparison</code>. Drag discrete <code class="inline">Order Date</code> set to <code class="inline">Quarter</code> onto Columns, <code class="inline">Total Sales Amount</code> onto Rows, Mark type <code class="inline">Bar</code>.</div>
+      <div class="step"><span class="step-num">2</span>Drag discrete <code class="inline">Order Date</code> set to <code class="inline">Year</code> onto the Color shelf so 2021 and 2022 quarters are visually distinguished, keeping in mind 2022 will only ever show a Q1 bar built from partial data, which should carry the same caption note used in Dashboard 1.</div>
+    </div>
+
+    <h3>Assembling Dashboard 4</h3>
+    <div class="step"><span class="step-num">1</span>New Dashboard named <code class="inline">Geography and Seasonality</code>.</div>
+    <div class="step"><span class="step-num">2</span>Place <code class="inline">Sales Map</code> across the top, spanning the full width for maximum visual impact.</div>
+    <div class="step"><span class="step-num">3</span>Place <code class="inline">Monthly Trend with Trend Line</code> and <code class="inline">Seasonality Heat Map</code> side by side beneath the map.</div>
+    <div class="step"><span class="step-num">4</span>Place <code class="inline">Quarter Comparison</code> along the bottom, spanning the full width.</div>
+  </div>
+</section>
+
+<section id="interactivity">
+  <h2 class="section-title">8. Filters, Actions, and Parameters</h2>
+  <h3>Global filters</h3>
+  <ul>
+    <li>Drag <code class="inline">Country Display Name</code>, <code class="inline">Product</code>, and <code class="inline">Order Date</code> onto every dashboard as quick filters, then right click each filter and choose <code class="inline">Apply to Worksheets</code> then <code class="inline">All Using This Data Source</code>, so one filter selection updates every dashboard in the workbook consistently.</li>
+    <li>Add <code class="inline">Data Quality Flag</code> as a filter defaulted to "Valid Transaction" on every dashboard, with the option for a viewer to switch it to show all records including the two zero value rows.</li>
+  </ul>
+  <h3>Dashboard actions</h3>
+  <ul>
+    <li>On Dashboard 2, add a <code class="inline">Filter</code> action (Dashboard menu then Actions then Add Action then Filter) that runs on <code class="inline">Select</code>, sourced from <code class="inline">Sales by Representative</code>, targeting the other three sheets on that same dashboard, so clicking one representative's bar filters the leaderboard, scatter plot, and trend line to that individual.</li>
+    <li>On Dashboard 4, add a <code class="inline">Highlight</code> action sourced from the <code class="inline">Sales Map</code> so hovering over a country highlights that country's marks across the other sheets on the same dashboard without fully filtering them out.</li>
+    <li>If a fifth navigation landing page is built, add <code class="inline">Navigate</code> actions (Go to Sheet) on four large button style objects so a single click moves the viewer to each of the four dashboards.</li>
+  </ul>
+  <h3>Parameters</h3>
+  <ul>
+    <li>Create a parameter named <code class="inline">Top N Selector</code> with an integer range (for example 3 to 10) and use it inside the Top N filters on the Product and Representative trend charts, so a viewer can adjust how many lines are shown live on the dashboard rather than that number being fixed at build time.</li>
+  </ul>
+</section>
+
+<section id="formatting">
+  <h2 class="section-title">9. Formatting, Theming, and Publishing</h2>
+  <h3>Colour and font theme</h3>
+  <ul>
+    <li>Use a chocolate inspired palette consistently: dark brown for headers and titles, warm gold for accents and highlights, cream or off white for backgrounds, so the visual identity matches the subject matter of the dataset.</li>
+    <li>Set one consistent font family (for example Tableau's built in "Tableau Book" or a clean sans serif such as Segoe UI) across every worksheet through <code class="inline">Format</code> then <code class="inline">Workbook</code> so headings, labels, and tooltips all match.</li>
+  </ul>
+  <h3>Tooltips</h3>
+  <ul>
+    <li>Edit every worksheet's tooltip (the small pencil icon on the Tooltip shelf) to remove default technical field names and replace them with clear, client friendly sentences, for example "This representative generated (Total Sales Amount) across (Total Boxes Sold) boxes."</li>
+  </ul>
+  <h3>Publishing</h3>
+  <div class="step"><span class="step-num">1</span>Once all four dashboards are complete and tested, go to <code class="inline">Server</code> then <code class="inline">Publish Workbook</code> if using Tableau Server or Tableau Cloud, or <code class="inline">File</code> then <code class="inline">Save to Tableau Public</code> if the project is being shared publicly.</div>
+  <div class="step"><span class="step-num">2</span>Before publishing, choose which sheets are shown to viewers (uncheck any hidden helper worksheets that only exist to feed a dashboard) and set the default starting dashboard, typically <code class="inline">Executive Sales Overview</code>.</div>
+  <div class="step"><span class="step-num">3</span>Confirm the extract refresh schedule if published to a server, or note that a manual re-publish will be required if the source CSV changes, since Tableau Public does not support automatic scheduled refreshes.</div>
+</section>
+
+<section id="qa">
+  <h2 class="section-title">10. Final Quality Assurance Checklist</h2>
+  <table>
+    <tr><th>Check</th><th>Confirmed by</th></tr>
+    <tr><td>All 3,791 rows load with no import errors</td><td>Row count shown on Data Source tab matches the source file</td></tr>
+    <tr><td><code class="inline">Order Date</code> renders real calendar dates, not misread day/month values</td><td>Spot check at least 5 rows across different months against the raw CSV</td></tr>
+    <tr><td><code class="inline">Clean Full Name</code> shows exactly 25 distinct representatives with no duplicate looking names</td><td>Drag the field onto a worksheet and check the distinct count</td></tr>
+    <tr><td>No chart uses the raw <code class="inline">Average_Amount</code> field</td><td>Field is hidden in the Data pane and does not appear on any shelf</td></tr>
+    <tr><td>Every KPI tile and chart updates correctly when the global filters are changed</td><td>Manually test each filter on each dashboard</td></tr>
+    <tr><td>The two zero value transactions can be toggled in and out using the Data Quality Flag filter</td><td>Toggle the filter and confirm the KPI totals shift by the expected small amount</td></tr>
+    <tr><td>All dashboard actions (filter, highlight, navigate) work as intended</td><td>Click and hover test on each interactive dashboard</td></tr>
+    <tr><td>Dashboards render cleanly at the intended screen size with no cut off elements</td><td>Preview each dashboard at its published size before final publish</td></tr>
+  </table>
+  <div class="callout">
+    Once every row in this checklist is confirmed, the Chocolate Sales Tableau project is complete, fully cleaned, fully documented, and ready to be presented or published.
+  </div>
+</section>
+
+</main>
+
+<footer>
+  Chocolate Sales Tableau Project - Solutions and Dashboard Build Guide - Prepared for Prodigy Training Hub
+</footer>
+
+</body>
+</html>
