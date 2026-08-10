@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tableau Dashboard Build Guide - Kajola Gbenga</title>
+<style>
+  :root {
+    --navy: #1F3864;
+    --teal: #0F6B72;
+    --light-teal: #E8F3F3;
+    --light-grey: #F2F2F2;
+    --gold: #B8860B;
+    --text: #222222;
+    --muted: #555555;
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: "Segoe UI", Calibri, Arial, sans-serif;
+    color: var(--text);
+    line-height: 1.6;
+    margin: 0;
+    background: #fafafa;
+  }
+  .page {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 50px 60px 80px 60px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.06);
+  }
+  .cover {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: 3px solid var(--teal);
+    margin-bottom: 30px;
+  }
+  .cover .name { font-size: 30px; font-weight: 700; color: var(--navy); margin: 0; }
+  .cover .title { font-size: 18px; font-style: italic; color: var(--teal); margin: 4px 0 30px 0; }
+  .cover h1 { font-size: 34px; color: var(--navy); text-align: center; margin: 20px 0 6px 0; }
+  .cover .subtitle { text-align: center; font-size: 19px; color: var(--teal); margin: 0 0 6px 0; }
+  .cover .tagline { text-align: center; font-size: 15px; font-style: italic; color: var(--muted); margin: 0 0 30px 0; }
+  .cover .meta { text-align: center; font-size: 13px; color: var(--muted); margin: 3px 0; }
+
+  nav.toc { background: var(--light-teal); border-radius: 8px; padding: 20px 30px; margin: 30px 0 40px 0; }
+  nav.toc h2 { margin-top: 0; color: var(--navy); }
+  nav.toc ol { columns: 1; padding-left: 20px; }
+  nav.toc li { margin-bottom: 6px; }
+  nav.toc a { color: var(--teal); text-decoration: none; }
+  nav.toc a:hover { text-decoration: underline; }
+
+  h1 {
+    color: var(--navy);
+    font-size: 26px;
+    border-bottom: 2px solid var(--teal);
+    padding-bottom: 8px;
+    margin-top: 50px;
+  }
+  h2 { color: var(--teal); font-size: 20px; margin-top: 34px; }
+  h3 { color: var(--navy); font-size: 17px; margin-top: 24px; margin-bottom: 6px; }
+  p { margin: 10px 0; font-size: 15.5px; }
+  .note {
+    background: #FFF8E6;
+    border-left: 4px solid var(--gold);
+    padding: 12px 18px;
+    margin: 16px 0;
+    font-size: 15px;
+  }
+  .note strong { color: var(--gold); }
+
+  table.info-table, table.spec-table, table.calc-table, table.appendix-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 14px 0 24px 0;
+    font-size: 14.5px;
+  }
+  table.info-table th, table.spec-table th {
+    background: var(--navy);
+    color: #fff;
+    text-align: left;
+    padding: 10px 14px;
+  }
+  table.spec-table th { background: var(--light-teal); color: var(--navy); width: 22%; }
+  table.info-table td, table.spec-table td, table.appendix-table td {
+    padding: 10px 14px;
+    border: 1px solid #ddd;
+    vertical-align: top;
+  }
+  table.info-table tr:nth-child(even) td { background: var(--light-grey); }
+  table.appendix-table th {
+    background: var(--navy); color: #fff; padding: 10px 14px; text-align: left;
+  }
+  table.appendix-table .appendix-name { width: 26%; font-weight: 600; background: var(--light-grey); }
+
+  pre.code {
+    background: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 12px 16px;
+    font-family: Consolas, "Courier New", monospace;
+    font-size: 13.5px;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    margin: 8px 0 14px 0;
+  }
+  ol.steps { padding-left: 22px; }
+  ol.steps li { margin-bottom: 8px; font-size: 15px; }
+  .insight { color: var(--teal); font-size: 15px; margin-top: 10px; }
+  .calc-field { border-top: 1px solid #eee; padding-top: 6px; margin-top: 22px; }
+  .calc-type, .calc-format { font-size: 14.5px; color: var(--muted); }
+  .chart-block { border-top: 2px solid var(--light-teal); padding-top: 10px; margin-top: 36px; }
+  .steps-label { font-weight: 600; color: var(--navy); margin-bottom: 4px; }
+  .diagram {
+    background: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 16px 20px;
+    font-family: Consolas, monospace;
+    font-size: 13.5px;
+    white-space: pre;
+    overflow-x: auto;
+    margin: 16px 0;
+  }
+  footer {
+    margin-top: 60px;
+    padding-top: 16px;
+    border-top: 1px solid #ddd;
+    font-size: 13px;
+    color: var(--muted);
+    font-style: italic;
+    text-align: center;
+  }
+  @media (max-width: 700px) {
+    .page { padding: 30px 20px; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="cover">
+    <p class="name">KAJOLA GBENGA</p>
+    <p class="title">Data Scientist &amp; AI Engineer</p>
+    <h1>TABLEAU DASHBOARD BUILD GUIDE</h1>
+    <p class="subtitle">Nigerian Retail Sales Dataset - Step by Step Workbook</p>
+    <p class="tagline">Connecting the data - building the model - calculated fields - charts - dashboards</p>
+    <p class="meta">Source file: clean_powerbi_dataset.xlsx</p>
+    <p class="meta">Sheets: Customers (100 rows) | Products (20 rows) | Sales (500 rows)</p>
+    <p class="meta">Prepared by Kajola Gbenga - Data Scientist &amp; AI Engineer</p>
+  </div>
+
+  <nav class="toc">
+    <h2>Table of Contents</h2>
+    <ol>
+      <li><a href="#s1">1. Dataset Overview</a></li>
+      <li><a href="#s2">2. Step by Step: Connecting and Loading the Data into Tableau</a></li>
+      <li><a href="#s3">3. Building the Data Model</a></li>
+      <li><a href="#s4">4. Data Preparation Checklist</a></li>
+      <li><a href="#s5">5. Calculated Fields Library</a></li>
+      <li><a href="#s6">6. Chart by Chart Build Guide</a></li>
+      <li><a href="#s7">7. Assembling the Dashboards</a></li>
+      <li><a href="#s8">8. Publishing and Sharing</a></li>
+      <li><a href="#appendix">Appendix - Quick Reference: All Calculated Field Formulas</a></li>
+    </ol>
+  </nav>
+
+  <h1 id="s1">1. Dataset Overview</h1>
+  <p>The workbook <strong>clean_powerbi_dataset.xlsx</strong> contains three related sheets that together form a simple star-style data model: one fact table (Sales) and two dimension tables (Customers and Products). This structure is exactly what Tableau's Relationships feature is designed for.</p>
+
+  <h2>1.1 Customers (100 rows)</h2>
+  <table class="info-table">
+    <tr><th>Field</th><th>Data Type</th><th>Description</th></tr>
+    <tr><td>CustomerID</td><td>Integer</td><td>Unique key for each customer, 1 to 100. Links to Sales.CustomerID.</td></tr>
+    <tr><td>Customer Name</td><td>String</td><td>Full name of the customer.</td></tr>
+    <tr><td>Region</td><td>String</td><td>One of Lagos, Abuja, Port Harcourt, Kano.</td></tr>
+    <tr><td>Age</td><td>Integer</td><td>Customer age, ranging from 18 to 60.</td></tr>
+    <tr><td>Segment</td><td>String</td><td>One of Retail, SME, Corporate.</td></tr>
+  </table>
+
+  <h2>1.2 Products (20 rows)</h2>
+  <table class="info-table">
+    <tr><th>Field</th><th>Data Type</th><th>Description</th></tr>
+    <tr><td>ProductID</td><td>Integer</td><td>Unique key for each product, 1 to 20. Links to Sales.ProductID.</td></tr>
+    <tr><td>Product Name</td><td>String</td><td>Name of the product, e.g. Laptop 1, Phone 3.</td></tr>
+    <tr><td>Category</td><td>String</td><td>Electronics or Accessories.</td></tr>
+    <tr><td>Price</td><td>Integer</td><td>Unit list price in Naira, from 150,000 to 500,000.</td></tr>
+  </table>
+
+  <h2>1.3 Sales (500 rows)</h2>
+  <table class="info-table">
+    <tr><th>Field</th><th>Data Type</th><th>Description</th></tr>
+    <tr><td>OrderID</td><td>Integer</td><td>Unique key for each transaction line, 1001 to 1500.</td></tr>
+    <tr><td>Date</td><td>Text (needs conversion)</td><td>Order date, stored as a text string in the format YYYY-MM-DD. Spans 1 January 2024 to 31 December 2024.</td></tr>
+    <tr><td>CustomerID</td><td>Integer</td><td>Foreign key linking to Customers.CustomerID.</td></tr>
+    <tr><td>ProductID</td><td>Integer</td><td>Foreign key linking to Products.ProductID.</td></tr>
+    <tr><td>Quantity</td><td>Integer</td><td>Units sold on that order line, 1 to 5.</td></tr>
+    <tr><td>Sales Amount</td><td>Integer</td><td>Revenue for the order line in Naira, 150,000 to 2,500,000.</td></tr>
+    <tr><td>Profit</td><td>Integer</td><td>Profit for the order line in Naira, 30,000 to 500,000.</td></tr>
+  </table>
+
+  <div class="note">
+    <strong>Important data-quality note:</strong> the Date column in the Sales sheet is stored as plain text (for example "2024-09-11"), not as a true Excel date value. Excel and Tableau will both read it as a string unless it is explicitly converted. This is addressed directly in Data Preparation, Step 3, and it matters because several of the calculated fields below (Running Total, Month-over-Month Growth, Recency) rely on true date functions such as DATEDIFF and continuous MONTH().
+  </div>
+
+  <h1 id="s2">2. Step by Step: Connecting and Loading the Data into Tableau</h1>
+  <ol class="steps">
+    <li>Open Tableau Desktop (or Tableau Public). On the start screen, under Connect &gt; To a File, click Microsoft Excel.</li>
+    <li>Browse to and select clean_powerbi_dataset.xlsx, then click Open.</li>
+    <li>Tableau opens the Data Source page and lists all three sheets (Customers, Products, Sales) in the left-hand pane as separate tables.</li>
+    <li>Drag the Sales table onto the canvas first, since it is the fact table that the two dimension tables will connect to.</li>
+    <li>Drag the Customers table onto the canvas next. Tableau will automatically draw a relationship line (a "noodle") if it detects a matching field name; if it does not detect CustomerID automatically, click the relationship line and manually set the clause to [Sales].[CustomerID] = [Customers].[CustomerID].</li>
+    <li>Drag the Products table onto the canvas the same way, and confirm or set the relationship clause to [Sales].[ProductID] = [Products].[ProductID].</li>
+    <li>In the bottom-left corner, choose either Live (queries the Excel file every time) or Extract (imports a fast, saved snapshot). For a static 500-row workbook like this one, choose Extract, then click the Extract radio button and Update Now once you reach the sheet.</li>
+    <li>Click the Sheet 1 tab at the bottom to move from the Data Source page into the actual worksheet canvas and begin building charts.</li>
+  </ol>
+  <p><strong>Why Relationships and not Joins:</strong> Tableau's newer Relationships model (the noodle lines on the Data Source canvas) is preferred over a traditional inner/left Join for this kind of star schema, because it preserves the native level of detail of each table and avoids the classic problem where joining Sales to Customers would duplicate every Sales row once per matching Customer attribute change. Relationships let Tableau decide the correct join type automatically at query time based on what is actually placed on the worksheet.</p>
+
+  <h1 id="s3">3. Building the Data Model</h1>
+  <p>Once all three tables are on the canvas with two relationship lines drawn (Sales to Customers, Sales to Products), the model is a simple star schema:</p>
+  <div class="diagram">                Customers
+                (CustomerID)
+                     |
+                     | relationship on CustomerID
+                     |
+Products ----------- Sales ----------- (fact table)
+(ProductID)   relationship on ProductID</div>
+  <p>Sales sits in the middle as the fact table containing every transaction. Customers and Products sit on either side as dimension (lookup) tables. This means any measure from Sales (Sales Amount, Profit, Quantity) can be broken down by any attribute from Customers (Region, Segment, Age) or Products (Category, Product Name, Price) without duplicating rows or inflating totals.</p>
+
+  <h1 id="s4">4. Data Preparation Checklist</h1>
+  <p>Complete these checks on the Data Source page, or in the Data pane on the left of the worksheet, before building any charts.</p>
+
+  <h3>Step 1 - Verify field roles</h3>
+  <p>In the Data pane, dimensions are listed above the horizontal line in blue text, and measures are listed below it in green text. Customer Name, Region, Segment, Product Name, Category, and Date should all be Dimensions. Sales Amount, Profit, and Quantity should be Measures.</p>
+
+  <h3>Step 2 - Convert ID fields to Dimensions</h3>
+  <p>By default, Tableau treats any numeric field as a Measure. CustomerID, ProductID, and OrderID are identifiers, not quantities to be summed, so right-click each one in the Data pane and choose Convert to Dimension. Left un-converted, they would otherwise show up in the Measures list and invite someone to accidentally SUM a customer ID number, which is meaningless.</p>
+
+  <h3>Step 3 - Convert Date from text to a true Date field</h3>
+  <p>Because the Date column is stored as text (see Section 1.3), right-click the Date field in the Data pane, choose Change Data Type, and select Date. Tableau will parse the existing YYYY-MM-DD text correctly since it is already in an unambiguous ISO format. Confirm the field icon changes to a small calendar icon.</p>
+
+  <h3>Step 4 - Set the default aggregation for Price</h3>
+  <p>Products.Price is a unit list price, not something that should ever be summed across many order lines. Right-click Price in the Data pane, go to Default Properties &gt; Aggregation, and set it to Average (or leave it as a Dimension if it will only ever be used for reference, not charting).</p>
+
+  <h3>Step 5 - Set default number formats</h3>
+  <p>Right-click Sales Amount, Profit, and Price and set Default Properties &gt; Number Format to Currency (Custom), with NGN or the Naira symbol as the prefix and 0 decimal places, so every worksheet you build afterward inherits the correct formatting automatically.</p>
+
+  <h3>Step 6 - Rename fields for readability (optional)</h3>
+  <p>Sales Amount and Product Name are already clear. If you want shorter axis labels later, you can rename Sales Amount to Revenue by double-clicking the field name in the Data pane; this is optional and does not change the underlying data.</p>
+
+  <h1 id="s5">5. Calculated Fields Library</h1>
+  <p>Every formula below has been checked for correct Tableau syntax and correct aggregation logic (no mixing of aggregate and row-level terms where that is not allowed, correct use of FIXED versus table calculations, and correct Compute Using guidance where needed). To create each one: go to Analysis &gt; Create Calculated Field, or right-click any empty area of the Data pane and choose Create Calculated Field, then paste in the formula and name the field exactly as shown below.</p>
+  
+  <div class="calc-field">
+    <h3>1. Profit Margin %</h3>
+    <p class="calc-type"><strong>Calculation type:</strong> Aggregate Calculation</p>
+    <pre class="code">SUM([Profit]) / SUM([Sales Amount])</pre>
+    <p class="calc-format"><strong>Formatting:</strong> Format as Percentage, 1 decimal place.</p>
+    <p>Divides total profit by total sales for whatever is on the view (a region, a category, a single product, or the whole dataset). Both terms are wrapped in SUM() so the ratio recalculates correctly at every level of the view. Do not average a row-level profit-margin ratio across rows; that produces a mathematically wrong figure because it treats a NGN150,000 order the same as a NGN2,500,000 order.</p>
+  </div>
+  <div class="calc-field">
+    <h3>2. Average Order Value (AOV)</h3>
+    <p class="calc-type"><strong>Calculation type:</strong> Aggregate Calculation</p>
+    <pre class="code">SUM([Sales Amount]) / COUNTD([OrderID])</pre>
+    <p class="calc-format"><strong>Formatting:</strong> Format as Number (Currency), 0 decimals, Naira symbol.</p>
+    <p>Total revenue divided by the number of distinct orders in view. COUNTD (count distinct) is used rather than COUNT or simply counting rows, because if an OrderID ever appears on more than one row, a plain row count would overstate the number of orders and understate the true average order value.</p>
+  </div>
+  <div class="calc-field">
+    <h3>3. Customer Lifetime Value (CLV)</h3>
+    <p class="calc-type"><strong>Calculation type:</strong> Level of Detail (FIXED)</p>
+    <pre class="code">{FIXED [CustomerID] : SUM([Sales Amount])}</pre>
+    <p class="calc-format"><strong>Formatting:</strong> Format as Number (Currency).</p>
+    <p>Calculates each customer's total spend across every one of their orders, locked to the CustomerID level regardless of what else is on the sheet or which filters are applied (unless those filters are added to Context). This is what makes it possible to rank or bucket customers by lifetime spend even in a view that is otherwise sliced by Region or Category.</p>
+  </div>
+  <div class="calc-field">
+    <h3>4. Age Group</h3>
+    <p class="calc-type"><strong>Calculation type:</strong> Row-Level Calculation (String)</p>
+    <pre class="code">IF [Age] &lt;= 25 THEN &quot;18-25&quot;
+ELSEIF [Age] &lt;= 35 THEN &quot;26-35&quot;
+ELSEIF [Age] &lt;= 45 THEN &quot;36-45&quot;
+ELSEIF [Age] &lt;= 55 THEN &quot;46-55&quot;
+ELSE &quot;56-60&quot;
+END</pre>
+    <p class="calc-format"><strong>Formatting:</strong> Discrete (blue pill) string field.</p>
+    <p>Buckets the continuous Age field from the Customers table into five bands so it can be used as a discrete dimension on rows, columns, and filter cards. Without this, Age would need to be manually binned or would create dozens of single-value marks, one per age, which is not readable.</p>
+  </div>
+  <div class="calc-field">
+    <h3>5. Profit per Unit</h3>
+    <p class="calc-type"><strong>Calculation type:</strong> Aggregate Calculation</p>
+    <pre class="code">SUM([Profit]) / SUM([Quantity])</pre>
+    <p class="calc-format"><strong>Formatting:</strong> Format as Number (Currency).</p>
+    <p>Total profit divided by total units sold. This shows profitability per item rather than per Naira of revenue, which is the fairer comparison between a high-ticket item like a Laptop and a low-ticket item like an Accessory.</p>
+  </div>
+  <div class="calc-field">
+    <h3>6. Order Value Tier</h3>
+    <p class="calc-type"><strong>Calculation type:</strong> Row-Level Calculation (String)</p>
+    <pre class="code">IF [Sales Amount] &gt;= 1500000 THEN &quot;High Value (NGN 1.5M+)&quot;
+ELSEIF [Sales Amount] &gt;= 500000 THEN &quot;Mid Value (NGN 500K-1.49M)&quot;
+ELSE &quot;Standard (Below NGN 500K)&quot;
+END</pre>
+    <p class="calc-format"><strong>Formatting:</strong> Discrete (blue pill) string field.</p>
+    <p>Classifies each individual order line into a spending tier based on the Sales Amount on that specific row. Useful for counting how many orders fall into each tier and for filtering the dashboard to just high-value transactions.</p>
+  </div>
+  <div class="calc-field">
+    <h3>7. % of Total Sales</h3>
+    <p class="calc-type"><strong>Calculation type:</strong> Table Calculation</p>
+    <pre class="code">SUM([Sales Amount]) / TOTAL(SUM([Sales Amount]))</pre>
+    <p class="calc-format"><strong>Formatting:</strong> Format as Percentage. Set Compute Using to the dimension being broken down (e.g. Region).</p>
+    <p>TOTAL() re-runs the SUM across every partition currently in the view, so this returns each mark's share of the total shown in that specific view. If Compute Using is left on the default, every mark can incorrectly show 100%; it must be explicitly set to the dimension on Rows or Columns (Region, Category, or Product Name).</p>
+  </div>
+  <div class="calc-field">
+    <h3>8. Running Total of Sales</h3>
+    <p class="calc-type"><strong>Calculation type:</strong> Table Calculation</p>
+    <pre class="code">RUNNING_SUM(SUM([Sales Amount]))</pre>
+    <p class="calc-format"><strong>Formatting:</strong> Format as Number (Currency). Set Compute Using to Date (Month).</p>
+    <p>Adds each period's sales to the cumulative sum of all periods before it. Compute Using must be set to the Month(Date) pill on the Columns shelf so the running total accumulates left to right along the timeline in chronological order rather than in an arbitrary dimension order.</p>
+  </div>
+  <div class="calc-field">
+    <h3>9. Month-over-Month Sales Growth %</h3>
+    <p class="calc-type"><strong>Calculation type:</strong> Table Calculation</p>
+    <pre class="code">(SUM([Sales Amount]) - LOOKUP(SUM([Sales Amount]), -1))
+/ ABS(LOOKUP(SUM([Sales Amount]), -1))</pre>
+    <p class="calc-format"><strong>Formatting:</strong> Format as Percentage. Set Compute Using to Date (Month).</p>
+    <p>LOOKUP(..., -1) retrieves the prior month's sales value inside the same table-calculation partition. Subtracting and dividing by the absolute prior value produces percentage growth month to month. ABS() protects the formula from a sign flip if a prior period were ever a net negative figure. This must also have Compute Using set to Month(Date), otherwise the first value cannot resolve and returns Null.</p>
+  </div>
+  <div class="calc-field">
+    <h3>10. Profit Margin Category</h3>
+    <p class="calc-type"><strong>Calculation type:</strong> Aggregate Calculation (nested)</p>
+    <pre class="code">IF SUM([Profit]) / SUM([Sales Amount]) &gt;= 0.22 THEN &quot;High Margin&quot;
+ELSEIF SUM([Profit]) / SUM([Sales Amount]) &gt;= 0.18 THEN &quot;Medium Margin&quot;
+ELSE &quot;Low Margin&quot;
+END</pre>
+    <p class="calc-format"><strong>Formatting:</strong> Discrete string, typically used on Color.</p>
+    <p>Because this formula contains SUM(), it is an aggregate-level calculation and must be used on a view that already has a dimension (Region, Category, Product) producing one mark per group. Tableau will reject it, or return an error, on a fully row-level view with no dimension present.</p>
+  </div>
+  <div class="calc-field">
+    <h3>11. Recency (Days Since Last Order)</h3>
+    <p class="calc-type"><strong>Calculation type:</strong> Level of Detail + Row-Level</p>
+    <pre class="code">DATEDIFF('day', [Date], {FIXED : MAX([Date])})</pre>
+    <p class="calc-format"><strong>Formatting:</strong> Format as Number, 0 decimals.</p>
+    <p>{FIXED : MAX([Date])} is a Level of Detail expression with no dimensions listed, so it always evaluates to the single latest order date in the entire dataset (31 December 2024), regardless of any filters. DATEDIFF then measures how many days before that anchor date each order occurred. TODAY() is deliberately not used here, because TODAY() returns the real-world current date; against a historical 2024 dataset that would produce meaningless, very large numbers.</p>
+  </div>
+  <div class="calc-field">
+    <h3>12. Sales Contribution % by Segment</h3>
+    <p class="calc-type"><strong>Calculation type:</strong> Level of Detail (FIXED)</p>
+    <pre class="code">SUM([Sales Amount]) / {FIXED : SUM([Sales Amount])}</pre>
+    <p class="calc-format"><strong>Formatting:</strong> Format as Percentage.</p>
+    <p>The denominator is an LOD expression with no dimensions, so it always equals the grand total of Sales Amount across the whole dataset. Dividing by SUM(Sales Amount) at whatever level is on the view gives that mark's true share of overall revenue. Unlike calculation 7, this is unaffected by view filters by default (only by Context Filters), which makes it useful when you want a percentage that stays anchored to the full dataset even while the user filters the dashboard.</p>
+  </div>
+
+  <h1 id="s6">6. Chart by Chart Build Guide</h1>
+  <p>For each chart below: create a new worksheet, rename its tab to match the chart name, then follow the Rows / Columns / Marks specification exactly, followed by the numbered build steps.</p>
+  
+  <div class="chart-block">
+    <h2>Chart 1 - KPI Summary Tiles</h2>
+    <table class="spec-table"><tr><th>Chart / Mark type</th><td>Text table (Big Number / BAN tiles) - build as 5 separate small worksheets</td></tr><tr><th>Columns shelf</th><td>(none)</td></tr><tr><th>Rows shelf</th><td>(none)</td></tr><tr><th>Color</th><td>-</td></tr><tr><th>Size</th><td>Text size 24-36pt, bold</td></tr><tr><th>Label</th><td>SUM([Sales Amount]); SUM([Profit]); COUNTD([OrderID]); [Average Order Value]; [Profit Margin %]</td></tr><tr><th>Filter</th><td>None (whole-dataset totals) or tied to dashboard filters</td></tr><tr><th>Sort</th><td>-</td></tr></table>
+    <p class="steps-label">Build steps:</p>
+    <ol class="steps"><li>Create a new worksheet named KPI - Total Sales.</li><li>Drag Sales Amount onto the Text (Label) mark card. It defaults to SUM.</li><li>Change the Marks type to Text.</li><li>Format the number: right-click the SUM(Sales Amount) pill &gt; Format &gt; Numbers &gt; Currency (Custom), 0 decimals, prefix NGN.</li><li>Increase font size (right-click text on the mark card &gt; Font) to around 28-32pt bold, and add a caption line above it such as Total Sales using a text object once placed on the dashboard.</li><li>Repeat this pattern for Total Profit (SUM(Profit)), Total Orders (COUNTD(OrderID)), Average Order Value ([Average Order Value] calculated field), and Profit Margin % ([Profit Margin %] calculated field).</li></ol>
+    <p class="insight"><strong>Insight:</strong> <em>Gives an at-a-glance executive summary of the whole business before the user drills into any chart.</em></p>
+  </div>
+  <div class="chart-block">
+    <h2>Chart 2 - Monthly Sales Trend</h2>
+    <table class="spec-table"><tr><th>Chart / Mark type</th><td>Line chart</td></tr><tr><th>Columns shelf</th><td>MONTH(Date) - continuous (green pill)</td></tr><tr><th>Rows shelf</th><td>SUM(Sales Amount)</td></tr><tr><th>Color</th><td>None, or Category if comparing product lines over time</td></tr><tr><th>Size</th><td>Default</td></tr><tr><th>Label</th><td>Optional: SUM(Sales Amount) on end points only</td></tr><tr><th>Filter</th><td>Date range (relative or fixed 2024)</td></tr><tr><th>Sort</th><td>Chronological (automatic once Date is continuous)</td></tr></table>
+    <p class="steps-label">Build steps:</p>
+    <ol class="steps"><li>Convert the Date field to a true Date data type first (see Data Preparation, Step 3), otherwise it will not appear under a green continuous date pill.</li><li>Drag Date to Columns, then click the pill and change it from the default discrete Year to continuous Month (look for the green pill reading MONTH(Date)).</li><li>Drag Sales Amount to Rows.</li><li>Right-click the y-axis and choose Add Reference Line to show the average monthly sales as a dotted benchmark line.</li><li>Optionally drag Category to Color to see the trend split by Electronics versus Accessories.</li></ol>
+    <p class="insight"><strong>Insight:</strong> <em>Shows seasonality and growth or decline in revenue across the 2024 calendar year.</em></p>
+  </div>
+  <div class="chart-block">
+    <h2>Chart 3 - Sales by Region</h2>
+    <table class="spec-table"><tr><th>Chart / Mark type</th><td>Horizontal bar chart</td></tr><tr><th>Columns shelf</th><td>SUM(Sales Amount)</td></tr><tr><th>Rows shelf</th><td>Region</td></tr><tr><th>Color</th><td>Region (or a single brand color if a cleaner look is wanted)</td></tr><tr><th>Size</th><td>Default</td></tr><tr><th>Label</th><td>SUM(Sales Amount)</td></tr><tr><th>Filter</th><td>None (or Segment/Category as needed)</td></tr><tr><th>Sort</th><td>Descending by SUM(Sales Amount) (click the sort icon on the axis)</td></tr></table>
+    <p class="steps-label">Build steps:</p>
+    <ol class="steps"><li>Drag Region from the Customers table to Rows.</li><li>Drag Sales Amount from the Sales table to Columns.</li><li>Click the descending sort icon on the toolbar so the highest-selling region appears at the top.</li><li>Drag SUM(Sales Amount) onto Label to display the value on each bar.</li><li>Drag Region onto Color for a distinct color per bar, or keep a single color for a cleaner executive look.</li></ol>
+    <p class="insight"><strong>Insight:</strong> <em>Identifies which of the four regions (Lagos, Abuja, Port Harcourt, Kano) drives the most revenue.</em></p>
+  </div>
+  <div class="chart-block">
+    <h2>Chart 4 - Sales by Product Category</h2>
+    <table class="spec-table"><tr><th>Chart / Mark type</th><td>Bar chart (or donut)</td></tr><tr><th>Columns shelf</th><td>Category</td></tr><tr><th>Rows shelf</th><td>SUM(Sales Amount)</td></tr><tr><th>Color</th><td>Category</td></tr><tr><th>Size</th><td>Default</td></tr><tr><th>Label</th><td>SUM(Sales Amount) and Percent of Total</td></tr><tr><th>Filter</th><td>None</td></tr><tr><th>Sort</th><td>Descending</td></tr></table>
+    <p class="steps-label">Build steps:</p>
+    <ol class="steps"><li>Drag Category from the Products table to Columns.</li><li>Drag Sales Amount to Rows.</li><li>Drag Category to Color to differentiate Electronics from Accessories.</li><li>Right-click SUM(Sales Amount) on Label &gt; Add Table Calculation &gt; Percent of Total, to show each category's share alongside the raw figure.</li></ol>
+    <p class="insight"><strong>Insight:</strong> <em>Shows the revenue split between the two product categories.</em></p>
+  </div>
+  <div class="chart-block">
+    <h2>Chart 5 - Top 10 Products by Sales</h2>
+    <table class="spec-table"><tr><th>Chart / Mark type</th><td>Horizontal bar chart</td></tr><tr><th>Columns shelf</th><td>SUM(Sales Amount)</td></tr><tr><th>Rows shelf</th><td>Product Name</td></tr><tr><th>Color</th><td>Category</td></tr><tr><th>Size</th><td>Default</td></tr><tr><th>Label</th><td>SUM(Sales Amount)</td></tr><tr><th>Filter</th><td>Top 10 by Field: SUM(Sales Amount), applied to the Product Name dimension</td></tr><tr><th>Sort</th><td>Descending by SUM(Sales Amount)</td></tr></table>
+    <p class="steps-label">Build steps:</p>
+    <ol class="steps"><li>Drag Product Name to Rows and Sales Amount to Columns.</li><li>Sort descending using the toolbar sort icon.</li><li>Right-click Product Name on the Filters shelf is not the route; instead, click the drop-down on the Product Name field, choose Filter, go to the Top tab, and select By field: Top 10 by SUM(Sales Amount).</li><li>Drag Category to Color so the bars show which category each top product belongs to.</li></ol>
+    <p class="insight"><strong>Insight:</strong> <em>Highlights the specific products driving the majority of revenue, useful for stock and marketing prioritization.</em></p>
+  </div>
+  <div class="chart-block">
+    <h2>Chart 6 - Customer Segment Breakdown</h2>
+    <table class="spec-table"><tr><th>Chart / Mark type</th><td>Donut / pie chart</td></tr><tr><th>Columns shelf</th><td>-</td></tr><tr><th>Rows shelf</th><td>-</td></tr><tr><th>Color</th><td>Segment</td></tr><tr><th>Size</th><td>Angle = SUM(Sales Amount)</td></tr><tr><th>Label</th><td>Segment and Percent of Total</td></tr><tr><th>Filter</th><td>None</td></tr><tr><th>Sort</th><td>-</td></tr></table>
+    <p class="steps-label">Build steps:</p>
+    <ol class="steps"><li>Change the Marks card dropdown from Automatic to Pie.</li><li>Drag Segment from the Customers table onto Color.</li><li>Drag Sales Amount onto the Angle field on the Marks card.</li><li>Drag Segment onto Label, and right-click Sales Amount on Label &gt; Add Table Calculation &gt; Percent of Total so each slice shows its share.</li><li>For a donut effect, duplicate the pie mark layer on a dual-axis with a smaller white circle in the center (optional polish step).</li></ol>
+    <p class="insight"><strong>Insight:</strong> <em>Shows how revenue splits across Retail, SME, and Corporate customer segments.</em></p>
+  </div>
+  <div class="chart-block">
+    <h2>Chart 7 - Profit Margin % by Region</h2>
+    <table class="spec-table"><tr><th>Chart / Mark type</th><td>Bar chart with color gradient</td></tr><tr><th>Columns shelf</th><td>Region</td></tr><tr><th>Rows shelf</th><td>[Profit Margin %]</td></tr><tr><th>Color</th><td>[Profit Margin %] (gradient, e.g. red-to-green diverging palette)</td></tr><tr><th>Size</th><td>Default</td></tr><tr><th>Label</th><td>[Profit Margin %]</td></tr><tr><th>Filter</th><td>None</td></tr><tr><th>Sort</th><td>Descending by Profit Margin %</td></tr></table>
+    <p class="steps-label">Build steps:</p>
+    <ol class="steps"><li>Drag Region to Columns.</li><li>Drag the Profit Margin % calculated field to Rows.</li><li>Drag Profit Margin % again onto Color and choose a diverging color palette (red to green) under Edit Colors.</li><li>Format the axis and the label as Percentage with 1 decimal place.</li></ol>
+    <p class="insight"><strong>Insight:</strong> <em>Reveals whether high-revenue regions are also the most profitable ones, since revenue and margin do not always move together.</em></p>
+  </div>
+  <div class="chart-block">
+    <h2>Chart 8 - Customer Age Group Distribution</h2>
+    <table class="spec-table"><tr><th>Chart / Mark type</th><td>Bar chart</td></tr><tr><th>Columns shelf</th><td>[Age Group]</td></tr><tr><th>Rows shelf</th><td>COUNTD(CustomerID)</td></tr><tr><th>Color</th><td>Segment (optional stacked view)</td></tr><tr><th>Size</th><td>Default</td></tr><tr><th>Label</th><td>COUNTD(CustomerID)</td></tr><tr><th>Filter</th><td>None</td></tr><tr><th>Sort</th><td>Natural order (18-25 through 56-60), not descending by value</td></tr></table>
+    <p class="steps-label">Build steps:</p>
+    <ol class="steps"><li>Drag the Age Group calculated field to Columns.</li><li>Drag CustomerID to Rows and set its aggregation to Count Distinct (right-click the pill &gt; Measure &gt; Count (Distinct)).</li><li>Optionally drag Segment onto Color to stack Retail, SME, and Corporate customers within each age band.</li><li>Right-click the Age Group axis and choose Sort by Data Source Order (not descending), so the bands read left to right chronologically.</li></ol>
+    <p class="insight"><strong>Insight:</strong> <em>Shows which age bands make up the largest share of the customer base.</em></p>
+  </div>
+  <div class="chart-block">
+    <h2>Chart 9 - Sales vs Profit Scatter Plot</h2>
+    <table class="spec-table"><tr><th>Chart / Mark type</th><td>Scatter plot</td></tr><tr><th>Columns shelf</th><td>SUM(Sales Amount)</td></tr><tr><th>Rows shelf</th><td>SUM(Profit)</td></tr><tr><th>Color</th><td>Category</td></tr><tr><th>Size</th><td>SUM(Quantity)</td></tr><tr><th>Label</th><td>Product Name (on hover, via Detail)</td></tr><tr><th>Filter</th><td>None</td></tr><tr><th>Sort</th><td>-</td></tr></table>
+    <p class="steps-label">Build steps:</p>
+    <ol class="steps"><li>Drag Sales Amount to Columns and Profit to Rows.</li><li>Drag Product Name to Detail so every product becomes its own point rather than one aggregated dot.</li><li>Drag Category to Color and Quantity to Size.</li><li>Right-click either axis and Add Trend Line to visualize the overall relationship between sales and profit.</li></ol>
+    <p class="insight"><strong>Insight:</strong> <em>Identifies products that sell a lot but generate disproportionately low profit, or vice versa, which is not visible from bar charts alone.</em></p>
+  </div>
+  <div class="chart-block">
+    <h2>Chart 10 - Top 10 Customers by Sales</h2>
+    <table class="spec-table"><tr><th>Chart / Mark type</th><td>Horizontal bar chart</td></tr><tr><th>Columns shelf</th><td>SUM(Sales Amount)</td></tr><tr><th>Rows shelf</th><td>Customer Name</td></tr><tr><th>Color</th><td>Segment</td></tr><tr><th>Size</th><td>Default</td></tr><tr><th>Label</th><td>SUM(Sales Amount) and [Customer Lifetime Value]</td></tr><tr><th>Filter</th><td>Top 10 by Field: SUM(Sales Amount), applied to Customer Name</td></tr><tr><th>Sort</th><td>Descending by SUM(Sales Amount)</td></tr></table>
+    <p class="steps-label">Build steps:</p>
+    <ol class="steps"><li>Drag Customer Name to Rows and Sales Amount to Columns.</li><li>Filter Customer Name to Top 10 by SUM(Sales Amount), the same way as Chart 5.</li><li>Drag Segment to Color to see which segment the biggest spenders belong to.</li><li>Add the Customer Lifetime Value calculated field to Tooltip for extra context on hover.</li></ol>
+    <p class="insight"><strong>Insight:</strong> <em>Surfaces the individual customers worth prioritizing for retention or account management.</em></p>
+  </div>
+  <div class="chart-block">
+    <h2>Chart 11 - Order Value Tier Breakdown</h2>
+    <table class="spec-table"><tr><th>Chart / Mark type</th><td>Bar chart</td></tr><tr><th>Columns shelf</th><td>[Order Value Tier]</td></tr><tr><th>Rows shelf</th><td>COUNTD(OrderID)</td></tr><tr><th>Color</th><td>[Order Value Tier]</td></tr><tr><th>Size</th><td>Default</td></tr><tr><th>Label</th><td>COUNTD(OrderID)</td></tr><tr><th>Filter</th><td>None</td></tr><tr><th>Sort</th><td>Custom order: Standard, Mid Value, High Value (use Sort &gt; Manual)</td></tr></table>
+    <p class="steps-label">Build steps:</p>
+    <ol class="steps"><li>Drag the Order Value Tier calculated field to Columns.</li><li>Drag OrderID to Rows and set aggregation to Count Distinct.</li><li>Drag Order Value Tier to Color.</li><li>Use the manual sort option on the axis to force the logical low-to-high order rather than the default alphabetical order.</li></ol>
+    <p class="insight"><strong>Insight:</strong> <em>Shows how many orders fall into each spending tier, useful for understanding basket-size patterns.</em></p>
+  </div>
+  <div class="chart-block">
+    <h2>Chart 12 - Running Total of Sales</h2>
+    <table class="spec-table"><tr><th>Chart / Mark type</th><td>Area chart</td></tr><tr><th>Columns shelf</th><td>MONTH(Date) - continuous</td></tr><tr><th>Rows shelf</th><td>[Running Total of Sales]</td></tr><tr><th>Color</th><td>Default single color, filled area</td></tr><tr><th>Size</th><td>Default</td></tr><tr><th>Label</th><td>None (or end-point label only)</td></tr><tr><th>Filter</th><td>None</td></tr><tr><th>Sort</th><td>Chronological (automatic)</td></tr></table>
+    <p class="steps-label">Build steps:</p>
+    <ol class="steps"><li>Drag Date to Columns as a continuous Month pill, as in Chart 2.</li><li>Drag the Running Total of Sales calculated field to Rows.</li><li>Right-click the Running Total of Sales pill &gt; Compute Using &gt; Date (or the specific Month(Date) field), to make sure the running sum accumulates along the timeline.</li><li>Change the Marks type to Area for a filled cumulative-growth visual.</li></ol>
+    <p class="insight"><strong>Insight:</strong> <em>Shows cumulative revenue growth across the year and how close the business is tracking to an annual target.</em></p>
+  </div>
+
+  <h1 id="s7">7. Assembling the Dashboards</h1>
+
+  <h2>7.1 Dashboard 1 - Executive Sales Overview</h2>
+  <p>Create a new dashboard (Dashboard &gt; New Dashboard), set the size to Automatic or a fixed 1366 x 768, and lay out the sheets as follows:</p>
+  <ol class="steps">
+    <li>Top row: the five KPI tiles from Chart 1, placed side by side in horizontal container spanning the full width.</li>
+    <li>Second row, left two-thirds: Chart 2 (Monthly Sales Trend).</li>
+    <li>Second row, right one-third: Chart 3 (Sales by Region).</li>
+    <li>Third row, left half: Chart 5 (Top 10 Products by Sales).</li>
+    <li>Third row, right half: Chart 4 (Sales by Product Category) and Chart 6 (Customer Segment Breakdown) stacked or side by side.</li>
+    <li>Bottom strip: add Region, Category, and Segment as filter cards (drag any worksheet's Region/Category/Segment pill onto the dashboard, or use the filter drop-down on each existing chart and choose Apply to Worksheets &gt; All Using This Data Source), plus a Date Range filter on the Date field.</li>
+  </ol>
+  <p>To make the filters control every chart at once rather than only the sheet they came from, click the small drop-down arrow on each filter card once it is on the dashboard, and select Apply to Worksheets &gt; All Using Related Data Source.</p>
+
+  <h2>7.2 Dashboard 2 - Customer and Profitability Insights</h2>
+  <ol class="steps">
+    <li>Top row: Chart 7 (Profit Margin % by Region) and Chart 9 (Sales vs Profit Scatter Plot) side by side.</li>
+    <li>Middle row: Chart 8 (Age Group Distribution) and Chart 11 (Order Value Tier Breakdown) side by side.</li>
+    <li>Bottom row: Chart 10 (Top 10 Customers by Sales) spanning the full width, with the Customer Lifetime Value calculated field shown in its tooltip.</li>
+    <li>Add a floating text box at the top titled Customer and Profitability Insights, and include the same Region, Segment, and Date filters as Dashboard 1 for consistency.</li>
+  </ol>
+
+  <h2>7.3 Optional Dashboard 3 - Trend and Momentum</h2>
+  <p>If a third, more analytical dashboard is wanted, combine Chart 12 (Running Total of Sales) with a table showing Month, SUM(Sales Amount), the Month-over-Month Sales Growth % calculated field, and the % of Total Sales calculated field, to give a finance-style monthly performance summary.</p>
+
+  <h2>7.4 Dashboard Actions</h2>
+  <p>Add interactivity between the two main dashboards using Dashboard &gt; Actions &gt; Add Action &gt; Filter. For example, set a Filter action so that clicking a region bar on Chart 3 filters every other chart on the same dashboard down to that region, and clicking again clears the filter (set the action's target on the source sheet to Exclude All Values on this behavior for a clean toggle).</p>
+
+  <h1 id="s8">8. Publishing and Sharing</h1>
+  <ol class="steps">
+    <li>Before publishing, click Extract on the Data Source tab and choose Extract &gt; Compute Now, then save the workbook so the extract is embedded and the dashboard opens instantly for viewers.</li>
+    <li>Use Server &gt; Publish Workbook (Tableau Server or Tableau Cloud) or File &gt; Save to Tableau Public if this is a portfolio piece, and choose which sheets/dashboards are visible to viewers.</li>
+    <li>Set the default view that opens to Dashboard 1 - Executive Sales Overview so viewers land on the summary first.</li>
+    <li>Add a workbook description and tag it (for example: Nigeria, Retail, Sales Analytics) so it is easy to find later in a project library.</li>
+  </ol>
+
+  <h1 id="appendix">Appendix - Quick Reference: All Calculated Field Formulas</h1>
+  <table class="appendix-table">
+    <tr><th>Field Name</th><th>Formula</th></tr>
+    <tr><td class="appendix-name">Profit Margin %</td><td><pre class="code">SUM([Profit]) / SUM([Sales Amount])</pre></td></tr><tr><td class="appendix-name">Average Order Value (AOV)</td><td><pre class="code">SUM([Sales Amount]) / COUNTD([OrderID])</pre></td></tr><tr><td class="appendix-name">Customer Lifetime Value (CLV)</td><td><pre class="code">{FIXED [CustomerID] : SUM([Sales Amount])}</pre></td></tr><tr><td class="appendix-name">Age Group</td><td><pre class="code">IF [Age] &lt;= 25 THEN &quot;18-25&quot;
+ELSEIF [Age] &lt;= 35 THEN &quot;26-35&quot;
+ELSEIF [Age] &lt;= 45 THEN &quot;36-45&quot;
+ELSEIF [Age] &lt;= 55 THEN &quot;46-55&quot;
+ELSE &quot;56-60&quot;
+END</pre></td></tr><tr><td class="appendix-name">Profit per Unit</td><td><pre class="code">SUM([Profit]) / SUM([Quantity])</pre></td></tr><tr><td class="appendix-name">Order Value Tier</td><td><pre class="code">IF [Sales Amount] &gt;= 1500000 THEN &quot;High Value (NGN 1.5M+)&quot;
+ELSEIF [Sales Amount] &gt;= 500000 THEN &quot;Mid Value (NGN 500K-1.49M)&quot;
+ELSE &quot;Standard (Below NGN 500K)&quot;
+END</pre></td></tr><tr><td class="appendix-name">% of Total Sales</td><td><pre class="code">SUM([Sales Amount]) / TOTAL(SUM([Sales Amount]))</pre></td></tr><tr><td class="appendix-name">Running Total of Sales</td><td><pre class="code">RUNNING_SUM(SUM([Sales Amount]))</pre></td></tr><tr><td class="appendix-name">Month-over-Month Sales Growth %</td><td><pre class="code">(SUM([Sales Amount]) - LOOKUP(SUM([Sales Amount]), -1))
+/ ABS(LOOKUP(SUM([Sales Amount]), -1))</pre></td></tr><tr><td class="appendix-name">Profit Margin Category</td><td><pre class="code">IF SUM([Profit]) / SUM([Sales Amount]) &gt;= 0.22 THEN &quot;High Margin&quot;
+ELSEIF SUM([Profit]) / SUM([Sales Amount]) &gt;= 0.18 THEN &quot;Medium Margin&quot;
+ELSE &quot;Low Margin&quot;
+END</pre></td></tr><tr><td class="appendix-name">Recency (Days Since Last Order)</td><td><pre class="code">DATEDIFF('day', [Date], {FIXED : MAX([Date])})</pre></td></tr><tr><td class="appendix-name">Sales Contribution % by Segment</td><td><pre class="code">SUM([Sales Amount]) / {FIXED : SUM([Sales Amount])}</pre></td></tr>
+  </table>
+
+  <footer>Document prepared by Kajola Gbenga - Data Scientist &amp; AI Engineer.</footer>
+
+</div>
+</body>
+</html>
