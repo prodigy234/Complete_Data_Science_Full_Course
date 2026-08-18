@@ -1,0 +1,190 @@
+---
+title: "R Functions"
+author: "Kajola Gbenga, Data Scientist & AI Engineer"
+output: html_document
+---
+
+# R Functions
+
+A function is a block of code which only runs when it is called.
+
+You can pass data, known as arguments, into a function.
+
+A function can return data as a result using the `return()` statement.
+
+## Creating a Function
+
+In R, a function is defined using the `function` keyword, assigned to a name with `<-`.
+
+## Defining a Function
+
+Syntax:
+
+```r
+function_name <- function(parameters) {
+  # block of code
+}
+```
+
+This is a well detailed explanation of the different components in the syntax above when creating a function:
+
+* `function_name` - the name of your function (follow standard naming conventions).
+* `parameters` - inputs (optional) the function needs to work with.
+* comments (`#`) - used instead of a docstring, to briefly describe what the function does.
+* `{ }` block - the code that the function executes, enclosed in curly braces.
+
+```{r}
+# e.g
+
+my_function <- function() {
+  print("Hello from a function")
+}
+
+my_function()
+```
+
+## Calling a Function
+
+After defining it, you call a function by writing its name followed by parentheses `()`.
+
+In other words, to successfully call a function, use the function name followed by parentheses:
+
+```{r}
+# e.g
+
+my_function <- function() {
+  # I created this function to say HI from the function.
+  print("Hello from a function")
+}
+
+my_function()
+```
+
+```{r}
+# another example
+
+greet <- function() {
+  print("Hello, welcome to R!")
+}
+
+greet()  # Function call
+```
+
+```{r}
+greet_user <- function(name) {
+  print(paste0("Hello, ", name, "! Welcome to R...."))
+}
+
+greet_user("Jennifer")
+```
+
+## Parameters and Arguments
+
+Parameter: A variable listed inside the parentheses in the function definition.
+
+Argument: A value sent to the function when it is called.
+
+## Arguments
+
+Information can be passed into functions as arguments.
+
+Arguments are specified after the function name, inside the parentheses. You can add as many arguments as you want, just separate them with a comma.
+
+The example below has a function with one argument (`first_name`). When the function is called, we pass along a first name, which is used inside the function to print the full name:
+
+```{r}
+my_function <- function(first_name) {
+  print(paste(" Hi", first_name))
+}
+
+my_function("Comfort")
+my_function("Tata")
+my_function("Ajanlekoko")
+```
+
+```{r}
+my_function("Gbenga")
+```
+
+```{r}
+greet_user <- function(name) {  # 'name' is the parameter
+  print(paste0("Thank you ", name, " for investing with us!"))
+}
+
+greet_user("Comfort")  # 'Comfort' is the argument
+```
+
+You can have multiple parameters, separated by commas.
+
+```{r}
+multiply_numbers <- function(a, b) { # Creating a function called multiply_numbers which allows two parameters
+  return(a * b)                       # The output should be the multiplication of the two parameters
+}
+
+# Now to use the function
+result <- multiply_numbers(15, 30) # Enters the two required arguments to be passed into the function
+print(result)
+```
+
+## Number of Arguments
+
+By default, a function must be called with the correct number of arguments. Meaning that if your function expects 2 arguments, you have to call the function with 2 arguments, not more, and not less.
+
+```{r}
+# In the example below, this function expects 2 arguments, and gets 2 arguments:
+
+my_function <- function(fname, lname) {
+  print(paste(fname, lname))
+}
+
+my_function("Comfort", "Ajanlekoko")
+```
+
+NOTE => if you try to call the function created above with 1 or 3 arguments, you will get an error as shown in the example below.
+This is because while creating the function, two arguments were defined with it.
+So for an error not to be raised while calling the function, the number of parameters defined must match the number of arguments used when it is called, unless a default value is set.
+
+```{r, eval=FALSE}
+# This function expects 2 arguments, but gets only 1:
+
+my_function <- function(fname, lname) {
+  print(paste(fname, lname))
+}
+
+my_function("Emil")
+```
+
+# BAR CHARTS WITHOUT USING FUNCTIONS
+
+```{r}
+# BAR CHARTS WITHOUT USING FUNCTIONS
+
+# My data
+students <- c("Ade", "Bola", "Chidi", "Zainab")
+scores <- c(78, 85, 69, 90)
+
+# My plot
+barplot(scores,
+        names.arg = students,
+        main = "Student Scores",
+        xlab = "Students",
+        ylab = "Scores")
+```
+
+## Bar Chart Using a Function
+
+```{r}
+# My data
+students <- c("Ade", "Bola", "Chidi", "Zainab")
+scores <- c(78, 85, 69, 90)
+
+Gbefun <- function(students, scores, title, xlabel, ylabel) {
+  barplot(scores,
+          names.arg = students,
+          main = title,
+          xlab = xlabel,
+          ylab = ylabel)
+}
+
+Gbefun(students, scores, "Student Scores", "Students", "Scores")
+```
