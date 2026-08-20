@@ -1,0 +1,332 @@
+<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<title>Hospital Health Analytics - Power BI Training Project - Tasks and Problem Brief</title>
+<style>
+:root{
+  --navy:#1F4E78; --navy-dark:#123049; --accent:#2E86AB; --gold:#C9962C;
+  --bg:#F5F7FA; --card:#FFFFFF; --text:#242B33; --muted:#5B6774; --border:#DCE3EA;
+  --good:#2E7D32; --warn:#B26A00; --bad:#B3261E;
+}
+*{box-sizing:border-box;}
+body{margin:0;font-family:'Segoe UI',Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;}
+.wrap{max-width:1100px;margin:0 auto;padding:0 24px 80px;}
+header.hero{background:linear-gradient(135deg,var(--navy) 0%,var(--navy-dark) 100%);color:#fff;padding:56px 24px 40px;}
+header.hero .wrap{padding:0 24px;}
+.kicker{text-transform:uppercase;letter-spacing:2px;font-size:12px;color:var(--gold);font-weight:700;}
+h1.title{font-size:32px;margin:10px 0 6px;}
+.subtitle{font-size:16px;color:#CFE0EE;max-width:800px;}
+.author-block{margin-top:22px;padding-top:18px;border-top:1px solid rgba(255,255,255,0.25);}
+.author-name{font-size:18px;font-weight:700;}
+.author-title{color:var(--gold);font-size:14px;}
+nav.toc{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:18px 22px;margin:-28px 0 34px;box-shadow:0 4px 14px rgba(20,40,70,0.08);}
+nav.toc h2{font-size:14px;text-transform:uppercase;letter-spacing:1px;color:var(--navy);margin:0 0 10px;}
+nav.toc ol{margin:0;padding-left:20px;columns:2;gap:24px;}
+nav.toc a{color:var(--accent);text-decoration:none;font-size:14px;}
+nav.toc a:hover{text-decoration:underline;}
+section{margin:44px 0;}
+h2.section-title{font-size:24px;color:var(--navy);border-bottom:3px solid var(--gold);padding-bottom:8px;margin-bottom:18px;}
+h3.sub-title{font-size:19px;color:var(--navy-dark);margin:26px 0 10px;}
+p{margin:10px 0;}
+.card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:20px 24px;margin:16px 0;box-shadow:0 2px 8px rgba(20,40,70,0.05);}
+table{width:100%;border-collapse:collapse;margin:14px 0;font-size:14.5px;}
+th{background:var(--navy);color:#fff;text-align:left;padding:9px 12px;font-weight:600;}
+td{padding:9px 12px;border-bottom:1px solid var(--border);vertical-align:top;}
+tr:nth-child(even) td{background:#F7FAFD;}
+.badge{display:inline-block;padding:2px 10px;border-radius:20px;font-size:12px;font-weight:700;letter-spacing:.3px;}
+.badge.dim{background:#E4EEF7;color:var(--navy);}
+.badge.fact{background:#FCEFD9;color:#8A5A00;}
+.badge.active{background:#E3F2E1;color:var(--good);}
+.badge.inactive{background:#FBE7E5;color:var(--bad);}
+code, .dax{font-family:'Cascadia Code','Consolas',monospace;background:#0F2439;color:#DCEBFB;padding:14px 16px;display:block;border-radius:8px;white-space:pre-wrap;font-size:13.5px;line-height:1.55;margin:10px 0;overflow-x:auto;}
+.inline-code{font-family:Consolas,monospace;background:#EEF3F9;color:#1F4E78;padding:1px 6px;border-radius:4px;font-size:13.5px;}
+ul, ol{margin:8px 0;padding-left:22px;}
+li{margin:5px 0;}
+.chip-row{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0;}
+.chip{background:#EEF3F9;border:1px solid var(--border);border-radius:20px;padding:4px 14px;font-size:13px;color:var(--navy);}
+.callout{border-left:4px solid var(--gold);background:#FFF8EA;padding:12px 18px;border-radius:0 8px 8px 0;margin:14px 0;font-size:14.5px;}
+.callout.why{border-left-color:var(--accent);background:#EAF4FB;}
+.callout.impact{border-left-color:var(--good);background:#EAF7EA;}
+.step-num{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;background:var(--navy);color:#fff;border-radius:50%;font-size:13px;font-weight:700;margin-right:8px;}
+.task-item{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:10px 16px;margin:8px 0;display:flex;gap:10px;align-items:flex-start;}
+.task-item input{margin-top:4px;}
+.grain{color:var(--muted);font-size:13.5px;font-style:italic;}
+footer{background:var(--navy-dark);color:#B9C7D3;padding:26px 24px;text-align:center;font-size:13px;margin-top:60px;}
+.pill-page{background:var(--navy);color:#fff;padding:4px 12px;border-radius:6px;font-size:13px;display:inline-block;margin-bottom:8px;}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:18px;}
+@media(max-width:760px){.two-col{grid-template-columns:1fr;} nav.toc ol{columns:1;}}
+</style></head><body>
+<header class="hero">
+  <div class="wrap">
+    <div class="kicker">Prodigy Training Hub - Power BI Training Project</div>
+    <h1 class="title">Hospital Health Analytics - Power BI Training Project</h1>
+    <div class="subtitle">What you are given, what each column means, and every task you must complete - from column understanding through relationships, DAX measures and the five dashboard pages.</div>
+    <div class="author-block">
+      <div class="author-name">Kajola Gbenga</div>
+      <div class="author-title">Data Scientist &amp; AI Engineer</div>
+    </div>
+    <div class="pill-page">File 1 of 2: Tasks, Column Guide &amp; Problem Brief</div>
+  </div>
+</header>
+<div class='wrap'>
+<nav class="toc"><h2>Contents</h2><ol><li><a href="#intro">1. How to Use This File</a></li>
+<li><a href="#dataset-overview">2. Dataset Overview</a></li>
+<li><a href="#cols-Dim_Patients">   Column Guide - Dim_Patients</a></li>
+<li><a href="#cols-Dim_Doctors">   Column Guide - Dim_Doctors</a></li>
+<li><a href="#cols-Dim_Departments">   Column Guide - Dim_Departments</a></li>
+<li><a href="#cols-Dim_Diagnosis">   Column Guide - Dim_Diagnosis</a></li>
+<li><a href="#cols-Dim_Date">   Column Guide - Dim_Date</a></li>
+<li><a href="#cols-Fact_Admissions">   Column Guide - Fact_Admissions</a></li>
+<li><a href="#cols-Fact_Billing">   Column Guide - Fact_Billing</a></li>
+<li><a href="#cols-Fact_Treatments">   Column Guide - Fact_Treatments</a></li>
+<li><a href="#relationships">3. Relationships To Be Built</a></li>
+<li><a href="#dax-tasks">4. DAX Measures To Be Built</a></li>
+<li><a href="#dashboards">5. Dashboards To Be Built</a></li>
+<li><a href="#tasks">6. Full Task Checklist</a></li></ol></nav>
+<section id='intro'><h2 class='section-title'>1. How to Use This File</h2>
+<div class='card'><p>This is the <strong>problem brief</strong> for the Hospital Health Analytics Power BI training project. It does not contain the answers - it tells you what the dataset contains, what every column means, which relationships you must build in the Model view, which DAX measures you must write, and exactly what each of the five dashboard pages must contain. Work through it in order: understand the columns first, then build the model, then the DAX measures, then the dashboard pages. A separate file, the Solutions Walkthrough, shows the fully worked solution end to end once you have attempted each task yourself.</p></div>
+</section>
+<section id='dataset-overview'><h2 class='section-title'>2. Dataset Overview</h2>
+<div class='card'><p>The workbook <span class='inline-code'>Hospital_Health_Analytics_Dataset.xlsx</span> contains 8 related tables built as a star/snowflake schema: 5 dimension tables and 3 fact tables. Study the table below before opening Power BI.</p>
+<table><tr><th>Table</th><th>Type</th><th>Grain</th><th>Rows</th></tr>
+<tr><td><strong>Dim_Patients</strong></td><td><span class='badge dim'>DIMENSION</span></td><td>One row per patient registered at the hospital</td><td>450</td></tr>
+<tr><td><strong>Dim_Doctors</strong></td><td><span class='badge dim'>DIMENSION</span></td><td>One row per doctor / consultant</td><td>36</td></tr>
+<tr><td><strong>Dim_Departments</strong></td><td><span class='badge dim'>DIMENSION</span></td><td>One row per hospital department</td><td>10</td></tr>
+<tr><td><strong>Dim_Diagnosis</strong></td><td><span class='badge dim'>DIMENSION</span></td><td>One row per diagnosis code</td><td>46</td></tr>
+<tr><td><strong>Dim_Date</strong></td><td><span class='badge dim'>DIMENSION</span></td><td>One row per calendar day from 1 January 2023 to 31 December 2024</td><td>731</td></tr>
+<tr><td><strong>Fact_Admissions</strong></td><td><span class='badge fact'>FACT</span></td><td>One row per hospital admission / patient encounter</td><td>900</td></tr>
+<tr><td><strong>Fact_Billing</strong></td><td><span class='badge fact'>FACT</span></td><td>One row per billed service line, linked to one admission</td><td>1025</td></tr>
+<tr><td><strong>Fact_Treatments</strong></td><td><span class='badge fact'>FACT</span></td><td>One row per treatment or procedure administered during an admission</td><td>2362</td></tr>
+</table></div>
+<h3 class='sub-title' id='cols-Dim_Patients'>Column Guide - Dim_Patients</h3>
+<div class='card'><p class='grain'>Holds every descriptive attribute of a patient. In the star schema this table sits on the &#x27;one&#x27; side of a one-to-many relationship with Fact_Admissions, so a single patient record can be linked to many admission records over time.</p>
+<table><tr><th style='width:18%'>Column</th><th style='width:16%'>Data Type</th><th>What it means / your task</th></tr>
+<tr><td><strong>PatientID</strong></td><td>Text (Key)</td><td>Unique identifier for each patient, formatted as PAT0001, PAT0002 and so on. This is the primary key of Dim_Patients and the field used to build the relationship to Fact_Admissions[PatientID]. It must never repeat within this table.</td></tr>
+<tr><td><strong>FirstName</strong></td><td>Text</td><td>The patient&#x27;s given name. Used mainly for display in tables, tooltips and drillthrough pages rather than for analysis, since first names are not statistically meaningful groupings.</td></tr>
+<tr><td><strong>LastName</strong></td><td>Text</td><td>The patient&#x27;s family name. Often concatenated with FirstName using a calculated column such as Full Name = Dim_Patients[FirstName] &amp; &quot; &quot; &amp; Dim_Patients[LastName] so a single clean field can be used on visuals.</td></tr>
+<tr><td><strong>Gender</strong></td><td>Text (Male/Female)</td><td>Biological sex of the patient. This is a core segmentation field used to slice admissions, diagnoses and revenue by gender on the demographics dashboard page.</td></tr>
+<tr><td><strong>DateOfBirth</strong></td><td>Date</td><td>The patient&#x27;s date of birth. This column is the source for the calculated Age field and can be used to build custom age bands with a calculated column or a DAX measure using SWITCH and TRUE().</td></tr>
+<tr><td><strong>Age</strong></td><td>Whole Number</td><td>Pre-computed age in years as at 2026. Used to build age-band groupings (0-17, 18-35, 36-55, 56-75, 76+) that feed the demographics and disease burden visuals.</td></tr>
+<tr><td><strong>StateOfOrigin</strong></td><td>Text</td><td>Nigerian state the patient is associated with. This is the field used to build the geographic &#x27;Admissions by State&#x27; bar chart and can also power a Filled Map or Azure Map visual if the student enables it.</td></tr>
+<tr><td><strong>City</strong></td><td>Text</td><td>City within the state of origin. Provides a second, more granular geographic level beneath StateOfOrigin, useful for a drill-down hierarchy (State to City).</td></tr>
+<tr><td><strong>BloodGroup</strong></td><td>Text</td><td>One of the eight standard blood groups (O+, O-, A+, A-, B+, B-, AB+, AB-). Included as a categorical attribute students can use for slicers and for practising DISTINCTCOUNT and COUNTROWS measures.</td></tr>
+<tr><td><strong>Genotype</strong></td><td>Text</td><td>Haemoglobin genotype (AA, AS, SS, AC). Relevant in the Nigerian clinical context, particularly for cross-analysis with Sickle Cell Crisis admissions in Dim_Diagnosis.</td></tr>
+<tr><td><strong>InsuranceType</strong></td><td>Text</td><td>How the patient&#x27;s care is funded: NHIS, one of several HMOs, Private Pay or Uninsured. This field is central to the financial dashboard page because it drives how much of a bill is covered versus patient-payable.</td></tr>
+<tr><td><strong>MaritalStatus</strong></td><td>Text</td><td>Single, Married, Divorced or Widowed. A demographic attribute used mainly for slicers and cross-tab tables rather than as a primary KPI driver.</td></tr>
+<tr><td><strong>Occupation</strong></td><td>Text</td><td>The patient&#x27;s stated occupation. Included so students can practise grouping free-text-like categorical data and building a Top N occupations visual.</td></tr>
+<tr><td><strong>PhoneNumber</strong></td><td>Text</td><td>Nigerian-format phone number. Included for realism only; it should never be used on a visual and is a good example of a column students should hide in the Model view to keep the field list clean for report users.</td></tr>
+<tr><td><strong>RegistrationDate</strong></td><td>Date</td><td>The date the patient first registered with the hospital. Can be used to build a &#x27;New Patients Registered&#x27; trend measure that is independent of the admissions trend.</td></tr>
+</table></div>
+<h3 class='sub-title' id='cols-Dim_Doctors'>Column Guide - Dim_Doctors</h3>
+<div class='card'><p class='grain'>Describes every doctor who can be attached to an admission or a treatment. It also links onward to Dim_Departments, which makes the model a snowflake rather than a pure star for this branch, giving students a real example of a snowflaked dimension.</p>
+<table><tr><th style='width:18%'>Column</th><th style='width:16%'>Data Type</th><th>What it means / your task</th></tr>
+<tr><td><strong>DoctorID</strong></td><td>Text (Key)</td><td>Unique identifier such as DOC001. Primary key of Dim_Doctors and the field used on the relationship to Fact_Admissions[DoctorID] and Fact_Treatments[AdministeredByDoctorID].</td></tr>
+<tr><td><strong>FirstName</strong></td><td>Text</td><td>Doctor&#x27;s given name, used for labelling visuals such as &#x27;Top 10 Doctors by Admissions Handled&#x27;.</td></tr>
+<tr><td><strong>LastName</strong></td><td>Text</td><td>Doctor&#x27;s family name. Combine with FirstName and a &#x27;Dr.&#x27; prefix in a calculated column for a clean display name.</td></tr>
+<tr><td><strong>Gender</strong></td><td>Text</td><td>Doctor&#x27;s gender, usable for workforce composition analysis by department.</td></tr>
+<tr><td><strong>Specialty</strong></td><td>Text</td><td>Clinical specialty such as Cardiology or Paediatrics. Should align conceptually with the department the doctor sits in, and is a useful field for a matrix visual of Department by Specialty.</td></tr>
+<tr><td><strong>DepartmentID</strong></td><td>Text (Foreign Key)</td><td>Links each doctor to the department they belong to via Dim_Departments[DepartmentID]. This is the foreign key that creates the snowflake relationship Dim_Departments (one) to Dim_Doctors (many).</td></tr>
+<tr><td><strong>YearsOfExperience</strong></td><td>Whole Number</td><td>Number of years the doctor has practised. Used on the scatter chart that compares experience against admissions handled on the doctor performance page.</td></tr>
+<tr><td><strong>Qualification</strong></td><td>Text</td><td>Academic and fellowship qualifications, for example MBBS, FWACS. A descriptive attribute, not typically used as a slicer, but good for drillthrough detail pages.</td></tr>
+<tr><td><strong>HospitalBranch</strong></td><td>Text</td><td>Physical branch the doctor is primarily based at (Ikeja Main Campus, Ota Annex, Lekki Diagnostic Centre). Useful for a branch-level filter across all dashboard pages.</td></tr>
+<tr><td><strong>DateJoined</strong></td><td>Date</td><td>The date the doctor joined the hospital. Can support a simple tenure or headcount-growth analysis, separate from the main admissions Date table relationship.</td></tr>
+</table></div>
+<h3 class='sub-title' id='cols-Dim_Departments'>Column Guide - Dim_Departments</h3>
+<div class='card'><p class='grain'>The smallest dimension table in the model but an important one: it is referenced directly by Fact_Admissions and indirectly (through Dim_Doctors) a second time, which is exactly the kind of structure that teaches students to read a real Model view diagram.</p>
+<table><tr><th style='width:18%'>Column</th><th style='width:16%'>Data Type</th><th>What it means / your task</th></tr>
+<tr><td><strong>DepartmentID</strong></td><td>Text (Key)</td><td>Unique identifier such as DPT01. Primary key of Dim_Departments, referenced by Fact_Admissions[DepartmentID] and Dim_Doctors[DepartmentID].</td></tr>
+<tr><td><strong>DepartmentName</strong></td><td>Text</td><td>Full department name, for example Accident &amp; Emergency or Oncology. This is the field used as the axis on the &#x27;Admissions by Department&#x27; column chart.</td></tr>
+<tr><td><strong>Building</strong></td><td>Text</td><td>The physical building the department occupies. A simple attribute for grouping departments spatially.</td></tr>
+<tr><td><strong>FloorNumber</strong></td><td>Whole Number</td><td>Floor of the building. Included mainly as an example of a numeric attribute that should not be aggregated (it should be set to Don&#x27;t Summarize in the field&#x27;s default summarization property).</td></tr>
+<tr><td><strong>HeadOfDepartment</strong></td><td>Text</td><td>Name of the consultant heading the department. Useful for tooltip or drillthrough detail rather than aggregate visuals.</td></tr>
+<tr><td><strong>AnnualBudgetNGN</strong></td><td>Currency (Whole Number)</td><td>Department&#x27;s approved annual budget in Naira. Can be compared against actual revenue or treatment cost generated by that department to build a simple budget-versus-actual visual.</td></tr>
+</table></div>
+<h3 class='sub-title' id='cols-Dim_Diagnosis'>Column Guide - Dim_Diagnosis</h3>
+<div class='card'><p class='grain'>Provides the clinical classification for every admission. This table is what makes the &#x27;Disease Burden&#x27; analysis on the demographics page possible, since every admission points to exactly one diagnosis.</p>
+<table><tr><th style='width:18%'>Column</th><th style='width:16%'>Data Type</th><th>What it means / your task</th></tr>
+<tr><td><strong>DiagnosisID</strong></td><td>Text (Key)</td><td>Unique identifier such as DX001. Primary key of Dim_Diagnosis and the field used to relate to Fact_Admissions[DiagnosisID].</td></tr>
+<tr><td><strong>DiagnosisCode</strong></td><td>Text</td><td>A short fictional clinical code in the format NGD-001, included so students can practise combining a code and a name into a single label using a calculated column.</td></tr>
+<tr><td><strong>DiagnosisName</strong></td><td>Text</td><td>The human-readable diagnosis, for example Malaria, Hypertension or Type 2 Diabetes Mellitus. This is the field placed on the &#x27;Top Diagnoses&#x27; bar chart and treemap.</td></tr>
+<tr><td><strong>DiagnosisCategory</strong></td><td>Text</td><td>Broader clinical grouping such as Infectious Disease, Cardiovascular or Trauma. Used to roll many individual diagnoses up into a manageable number of categories for the stacked bar chart.</td></tr>
+<tr><td><strong>SeverityLevel</strong></td><td>Text</td><td>One of Low, Moderate, High or Critical. A key field for cross-analysis with AdmissionOutcome, since severity is expected to correlate with mortality and length of stay.</td></tr>
+</table></div>
+<h3 class='sub-title' id='cols-Dim_Date'>Column Guide - Dim_Date</h3>
+<div class='card'><p class='grain'>A dedicated, contiguous calendar table is mandatory best practice in Power BI. It is what allows time intelligence DAX functions (TOTALYTD, SAMEPERIODLASTYEAR, DATEADD and similar) to work correctly, and in this model it plays multiple roles because three different fact tables each have their own date column that needs to relate back to it.</p>
+<table><tr><th style='width:18%'>Column</th><th style='width:16%'>Data Type</th><th>What it means / your task</th></tr>
+<tr><td><strong>Date</strong></td><td>Date (Key)</td><td>The calendar date itself, one row per day with no gaps. This is the primary key of Dim_Date and must be marked as a Date Table in Power BI (Table Tools &gt; Mark as Date Table) using this column.</td></tr>
+<tr><td><strong>Day</strong></td><td>Whole Number</td><td>Day of the month (1-31). Rarely used alone but occasionally useful for day-of-month seasonality checks.</td></tr>
+<tr><td><strong>DayName</strong></td><td>Text</td><td>Full weekday name (Monday, Tuesday and so on). Used together with WeekdayWeekend to study whether emergency admissions spike on particular days.</td></tr>
+<tr><td><strong>MonthNumber</strong></td><td>Whole Number</td><td>Numeric month (1-12). Used to sort MonthName correctly on the X-axis, since Power BI sorts text columns alphabetically unless a Sort By Column is set.</td></tr>
+<tr><td><strong>MonthName</strong></td><td>Text</td><td>Full month name (January, February and so on). This is the field placed on the axis of every monthly trend chart in the project; it must have Sort By Column set to MonthNumber.</td></tr>
+<tr><td><strong>Quarter</strong></td><td>Whole Number</td><td>Calendar quarter (1-4). Used to build quarterly cards and slicers for executives who prefer a higher-level time view.</td></tr>
+<tr><td><strong>Year</strong></td><td>Whole Number</td><td>Calendar year (2023 or 2024 in this dataset). The field most commonly placed in a slicer at the top of every dashboard page.</td></tr>
+<tr><td><strong>WeekdayWeekend</strong></td><td>Text</td><td>Flags each date as Weekday or Weekend. Supports a simple DAX measure comparing average admissions on weekdays versus weekends.</td></tr>
+<tr><td><strong>FiscalYear</strong></td><td>Text</td><td>Fiscal year label such as FY2023. Included so students can see how a fiscal calendar would be added even though it mirrors the calendar year in this dataset.</td></tr>
+</table></div>
+<h3 class='sub-title' id='cols-Fact_Admissions'>Column Guide - Fact_Admissions</h3>
+<div class='card'><p class='grain'>The central fact table of the model. Almost every DAX measure in this project starts by aggregating a column from Fact_Admissions or by counting rows in it, and every other fact table (Billing, Treatments) hangs off it through AdmissionID.</p>
+<table><tr><th style='width:18%'>Column</th><th style='width:16%'>Data Type</th><th>What it means / your task</th></tr>
+<tr><td><strong>AdmissionID</strong></td><td>Text (Key)</td><td>Unique identifier for the encounter, formatted ADM00001. Primary key of Fact_Admissions and the &#x27;one&#x27; side of the relationship to Fact_Billing[AdmissionID] and Fact_Treatments[AdmissionID].</td></tr>
+<tr><td><strong>PatientID</strong></td><td>Text (Foreign Key)</td><td>Links the admission to Dim_Patients[PatientID]. Many admissions can point to the same patient, which is exactly what makes this a one-to-many relationship from the patient&#x27;s perspective.</td></tr>
+<tr><td><strong>DoctorID</strong></td><td>Text (Foreign Key)</td><td>Links the admission to the attending doctor in Dim_Doctors[DoctorID]. Used for the &#x27;Admissions Handled per Doctor&#x27; visual on the performance page.</td></tr>
+<tr><td><strong>DepartmentID</strong></td><td>Text (Foreign Key)</td><td>Links the admission to Dim_Departments[DepartmentID]. This is the single most-used slicing field across the whole project after Date.</td></tr>
+<tr><td><strong>DiagnosisID</strong></td><td>Text (Foreign Key)</td><td>Links the admission to Dim_Diagnosis[DiagnosisID]. Every disease-burden visual ultimately depends on this column.</td></tr>
+<tr><td><strong>AdmissionDate</strong></td><td>Date</td><td>The date the patient was admitted. This is the column that should carry the ACTIVE relationship to Dim_Date[Date], because most reporting in this project (monthly admission trends, YTD admissions) is naturally admission-date-based.</td></tr>
+<tr><td><strong>DischargeDate</strong></td><td>Date</td><td>The date the patient was discharged. This column should carry an INACTIVE relationship to Dim_Date[Date], activated only inside specific measures with USERELATIONSHIP when a discharge-date view is genuinely needed.</td></tr>
+<tr><td><strong>LengthOfStayDays</strong></td><td>Whole Number</td><td>Number of days between AdmissionDate and DischargeDate (0 for same-day outpatient encounters). This is the core numeric field behind every Average Length of Stay measure.</td></tr>
+<tr><td><strong>AdmissionType</strong></td><td>Text</td><td>Emergency, Elective, Outpatient or Referral. A key operational field used to build the donut chart on the executive overview page and the Emergency Admission % measure.</td></tr>
+<tr><td><strong>RoomType</strong></td><td>Text</td><td>General Ward, Private Room, Semi-Private Room, ICU, Maternity Ward, Paediatric Ward, or &#x27;N/A - Outpatient&#x27;. Used in the department-by-room-type matrix on the operations page.</td></tr>
+<tr><td><strong>BedNumber</strong></td><td>Text</td><td>A short bed reference code. Included for realism and drillthrough detail; not intended to be aggregated or charted directly.</td></tr>
+<tr><td><strong>AdmissionOutcome</strong></td><td>Text</td><td>Recovered - Discharged, Referred to Another Facility, Discharged Against Medical Advice, Deceased, or Under Treatment. This is the field the Mortality Rate % measure filters on, and it is one of the most sensitive and important fields in the whole dataset for a hospital&#x27;s quality-of-care story.</td></tr>
+</table></div>
+<h3 class='sub-title' id='cols-Fact_Billing'>Column Guide - Fact_Billing</h3>
+<div class='card'><p class='grain'>Drives the entire financial dashboard page. A small proportion of admissions (about 12%) have two billing lines instead of one, which is deliberate: it demonstrates a genuine one-to-many relationship between Fact_Admissions and Fact_Billing rather than a disguised one-to-one relationship.</p>
+<table><tr><th style='width:18%'>Column</th><th style='width:16%'>Data Type</th><th>What it means / your task</th></tr>
+<tr><td><strong>BillID</strong></td><td>Text (Key)</td><td>Unique identifier for the billing line, formatted BIL00001. Primary key of Fact_Billing.</td></tr>
+<tr><td><strong>AdmissionID</strong></td><td>Text (Foreign Key)</td><td>Links the bill back to Fact_Admissions[AdmissionID]. This relationship is Fact-to-Fact, which is a valid and common pattern once one of the two tables (Fact_Admissions here) is treated as the conceptual &#x27;one&#x27; side.</td></tr>
+<tr><td><strong>ServiceType</strong></td><td>Text</td><td>The category of service billed: Consultation, Laboratory Tests, Imaging, Surgery, Ward Admission Fee, Medication, Physiotherapy, Delivery Fee, ICU Fee or Dialysis. This is the axis field for the Revenue by Service Type column chart.</td></tr>
+<tr><td><strong>ServiceCostNGN</strong></td><td>Currency (Whole Number)</td><td>The full cost of the service line in Naira before any insurance coverage is applied. This is the column summed by the Total Revenue measure.</td></tr>
+<tr><td><strong>InsuranceCoveredNGN</strong></td><td>Currency (Whole Number)</td><td>The portion of ServiceCostNGN paid by NHIS, an HMO, or other insurance. Summed by the Total Insurance Covered measure and used to compute the coverage ratio.</td></tr>
+<tr><td><strong>PatientPayableNGN</strong></td><td>Currency (Whole Number)</td><td>ServiceCostNGN minus InsuranceCoveredNGN; the amount the patient is personally responsible for. Central to the out-of-pocket burden analysis.</td></tr>
+<tr><td><strong>PaymentStatus</strong></td><td>Text</td><td>Paid, Partially Paid, Pending or Insurance Processing. Drives the payment-status donut chart and the Collection Rate % measure.</td></tr>
+<tr><td><strong>PaymentDate</strong></td><td>Date</td><td>The date the payment was actually received or settled. This column should carry its own relationship to Dim_Date[Date], separate from the admission-date relationship on Fact_Admissions, because financial reporting is naturally payment-date based rather than admission-date based.</td></tr>
+<tr><td><strong>PaymentMethod</strong></td><td>Text</td><td>Cash, Bank Transfer, POS/Card, HMO Settlement or NHIS Settlement. A useful slicer for a finance-department view of collections.</td></tr>
+</table></div>
+<h3 class='sub-title' id='cols-Fact_Treatments'>Column Guide - Fact_Treatments</h3>
+<div class='card'><p class='grain'>The most granular fact table in the model, at roughly 2.6 treatment rows for every admission on average. It supports clinical operations analysis such as which treatments are most common and how much they cost, independent of the billing table.</p>
+<table><tr><th style='width:18%'>Column</th><th style='width:16%'>Data Type</th><th>What it means / your task</th></tr>
+<tr><td><strong>TreatmentID</strong></td><td>Text (Key)</td><td>Unique identifier for the treatment row, formatted TRT00001. Primary key of Fact_Treatments.</td></tr>
+<tr><td><strong>AdmissionID</strong></td><td>Text (Foreign Key)</td><td>Links the treatment back to Fact_Admissions[AdmissionID]. One admission typically has between one and five treatment rows.</td></tr>
+<tr><td><strong>TreatmentName</strong></td><td>Text</td><td>The specific treatment or procedure performed, for example IV Fluid Administration or Blood Transfusion. Used on the &#x27;Most Common Treatments&#x27; visual.</td></tr>
+<tr><td><strong>TreatmentDate</strong></td><td>Date</td><td>The date the treatment was administered, falling between the admission and discharge dates. This column carries its own relationship to Dim_Date[Date] for clinical operations trend analysis.</td></tr>
+<tr><td><strong>TreatmentCostNGN</strong></td><td>Currency (Whole Number)</td><td>Cost of the individual treatment in Naira. Summed to build the Average Treatment Cost by Department visual on the doctor and department performance page.</td></tr>
+<tr><td><strong>TreatmentOutcome</strong></td><td>Text</td><td>Improved, Stable, No Change, Deteriorated or Resolved. A clinical-quality field that can be cross-analysed against SeverityLevel from Dim_Diagnosis.</td></tr>
+<tr><td><strong>AdministeredByDoctorID</strong></td><td>Text (Foreign Key)</td><td>Links the treatment to the doctor who administered it, via Dim_Doctors[DoctorID]. Note this is a second, independent relationship from Dim_Doctors into the model, alongside Fact_Admissions[DoctorID].</td></tr>
+</table></div>
+</section>
+<section id='relationships'><h2 class='section-title'>3. Relationships To Be Built</h2>
+<div class='card'><p>Build every relationship below in Model view. For each one, decide the cardinality and cross filter direction yourself first, then check your answer against the table. Pay close attention to the two relationships marked <span class='badge inactive'>INACTIVE</span> - work out <em>why</em> Power BI will not let both relationships to the same table be active at once before you look at the DAX section.</p>
+<table><tr><th>From (one side)</th><th>To (many side)</th><th>Cardinality</th><th>Cross Filter</th><th>Status</th></tr>
+<tr><td>Dim_Patients[PatientID]</td><td>Fact_Admissions[PatientID]</td><td>One-to-Many (1:*)</td><td>Single (Dim_Patients filters Fact_Admissions)</td><td><span class='badge active'>ACTIVE</span></td></tr>
+<tr><td>Dim_Doctors[DoctorID]</td><td>Fact_Admissions[DoctorID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td></tr>
+<tr><td>Dim_Departments[DepartmentID]</td><td>Fact_Admissions[DepartmentID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td></tr>
+<tr><td>Dim_Diagnosis[DiagnosisID]</td><td>Fact_Admissions[DiagnosisID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td></tr>
+<tr><td>Dim_Departments[DepartmentID]</td><td>Dim_Doctors[DepartmentID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td></tr>
+<tr><td>Dim_Date[Date]</td><td>Fact_Admissions[AdmissionDate]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td></tr>
+<tr><td>Dim_Date[Date]</td><td>Fact_Admissions[DischargeDate]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge inactive'>INACTIVE</span></td></tr>
+<tr><td>Fact_Admissions[AdmissionID]</td><td>Fact_Billing[AdmissionID]</td><td>One-to-Many (1:*)</td><td>Single (Fact_Admissions filters Fact_Billing)</td><td><span class='badge active'>ACTIVE</span></td></tr>
+<tr><td>Fact_Admissions[AdmissionID]</td><td>Fact_Treatments[AdmissionID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td></tr>
+<tr><td>Dim_Date[Date]</td><td>Fact_Billing[PaymentDate]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td></tr>
+<tr><td>Dim_Date[Date]</td><td>Fact_Treatments[TreatmentDate]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td></tr>
+<tr><td>Dim_Doctors[DoctorID]</td><td>Fact_Treatments[AdministeredByDoctorID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge inactive'>INACTIVE</span></td></tr>
+</table></div>
+<div class='callout'>Task: for both inactive relationships, write one sentence explaining which DAX function you would need to temporarily activate them inside a measure. Check your answer in the Solutions file.</div>
+</section>
+<section id='dax-tasks'><h2 class='section-title'>4. DAX Measures To Be Built</h2>
+<div class='card'><p>Build the following measures, in this order, inside a dedicated Measures table. For each one, the goal (why it exists) is given - your task is to write the DAX yourself before checking the Solutions file.</p></div>
+<table><tr><th style='width:26%'>Measure Name</th><th style='width:20%'>Used On</th><th>Your Task (goal of the measure)</th></tr>
+<tr><td><strong>Total Admissions</strong></td><td>Used on every page</td><td>This is the foundation KPI of the entire report. Almost every other measure either builds on it (as a denominator) or is filtered the same way it is.</td></tr>
+<tr><td><strong>Total Patients</strong></td><td>Executive Overview, Demographics</td><td>Distinguishes &#x27;how many people were treated&#x27; from &#x27;how many admissions happened&#x27;, since one patient can be admitted more than once.</td></tr>
+<tr><td><strong>Total Revenue</strong></td><td>Financial &amp; Billing Performance</td><td>Represents gross hospital revenue billed, which is the starting point before splitting into insurance-covered and patient-payable portions.</td></tr>
+<tr><td><strong>Total Insurance Covered</strong></td><td>Financial &amp; Billing Performance</td><td>Needed as its own measure so the coverage ratio and the patient out-of-pocket burden can both be calculated from it.</td></tr>
+<tr><td><strong>Total Patient Payable</strong></td><td>Financial &amp; Billing Performance</td><td>Surfaces the out-of-pocket burden on patients, an important story for a Nigerian hospital where InsuranceType varies widely by patient.</td></tr>
+<tr><td><strong>Insurance Coverage %</strong></td><td>Financial &amp; Billing Performance</td><td>Turns two raw currency numbers into a single percentage that is meaningful and easy to read on a KPI card or gauge.</td></tr>
+<tr><td><strong>Out-of-Pocket %</strong></td><td>Financial &amp; Billing Performance</td><td>Highlights financial exposure carried directly by patients, an important equity and access-to-care metric.</td></tr>
+<tr><td><strong>Collected Revenue</strong></td><td>Financial &amp; Billing Performance</td><td>Isolates revenue that has actually been received in cash or settled by an insurer, as opposed to revenue that has merely been billed.</td></tr>
+<tr><td><strong>Collection Rate %</strong></td><td>Financial &amp; Billing Performance</td><td>A classic revenue-cycle KPI for any billing dashboard; low values indicate a growing accounts-receivable problem.</td></tr>
+<tr><td><strong>Average Length of Stay</strong></td><td>Admissions &amp; Operations</td><td>A core hospital operations KPI: longer average stays generally indicate more complex cases, bed-capacity pressure, or process inefficiency.</td></tr>
+<tr><td><strong>Average LOS (Inpatient Only)</strong></td><td>Admissions &amp; Operations</td><td>Demonstrates how the same base measure can be reused and refined with CALCULATE rather than being rewritten from scratch, which is a core DAX design pattern.</td></tr>
+<tr><td><strong>Mortality Rate %</strong></td><td>Executive Overview, Admissions &amp; Operations</td><td>One of the most sensitive and important quality-of-care KPIs a hospital tracks; students must be taught to present this measure carefully and never on a visual that could expose an individual patient.</td></tr>
+<tr><td><strong>Emergency Admission %</strong></td><td>Executive Overview</td><td>Tells management what proportion of hospital activity is unplanned and reactive versus planned (Elective, Outpatient, Referral), which has staffing and resourcing implications.</td></tr>
+<tr><td><strong>Total Treatment Cost</strong></td><td>Doctor &amp; Department Performance</td><td>A separate cost signal from Total Revenue (which comes from Fact_Billing), useful for comparing clinical cost intensity by department.</td></tr>
+<tr><td><strong>Average Treatment Cost per Admission</strong></td><td>Doctor &amp; Department Performance</td><td>Raw treatment cost totals are misleading when comparing a large department like Internal Medicine against a small one like Psychiatry; a per-admission figure levels the comparison.</td></tr>
+<tr><td><strong>Doctor Caseload</strong></td><td>Doctor &amp; Department Performance</td><td>A small but important lesson in measure naming: the same DAX logic can be exposed under different, context-appropriate names for readability on different visuals.</td></tr>
+<tr><td><strong>Revenue by Payment Date (USERELATIONSHIP demo)</strong></td><td>Financial &amp; Billing Performance</td><td>This measure exists purely as a teaching example of USERELATIONSHIP - the single most important DAX function for handling a model with more than one date column pointing at the same fact table.</td></tr>
+<tr><td><strong>Admissions Growth % (MoM)</strong></td><td>Executive Overview</td><td>Teaches the VAR/RETURN pattern for readable, efficient DAX, and introduces time intelligence functions that depend on a properly configured date table.</td></tr>
+<tr><td><strong>Weekend Admissions %</strong></td><td>Admissions &amp; Operations</td><td>A simple, practical example of filtering through a related dimension table rather than filtering the fact table directly, reinforcing how relationships propagate filters in DAX.</td></tr>
+</table>
+</section>
+<section id='dashboards'><h2 class='section-title'>5. Dashboards To Be Built</h2>
+<div class='card'><p>Build five report pages with the exact titles below. For each chart, the required chart type and the fields to place on it are given - your task is to build it, format it, and confirm it renders with no blank or error states.</p></div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Page 1 - Executive Overview</h3><p>A single-screen summary for hospital leadership: overall activity, growth, and the two most sensitive quality signals (mortality and emergency load).</p>
+<table><tr><th style='width:22%'>Visual</th><th style='width:18%'>Chart Type</th><th>Fields</th></tr>
+<tr><td><strong>KPI Card Row</strong></td><td>Card visuals (x5)</td><td>Total Admissions, Total Patients, Total Revenue, Average Length of Stay, Mortality Rate %</td></tr>
+<tr><td><strong>Admissions Trend by Month</strong></td><td>Line chart (with Admissions Growth % MoM as a secondary line on a combo chart)</td><td>Axis: Dim_Date[MonthName] (sorted by MonthNumber); Values: Total Admissions, Admissions Growth % MoM</td></tr>
+<tr><td><strong>Admission Type Split</strong></td><td>Donut chart</td><td>Legend: Fact_Admissions[AdmissionType]; Values: Total Admissions</td></tr>
+<tr><td><strong>Admissions by State</strong></td><td>Clustered bar chart (or Filled Map if enabled)</td><td>Axis: Dim_Patients[StateOfOrigin]; Values: Total Admissions</td></tr>
+<tr><td><strong>Top 5 Diagnoses</strong></td><td>Bar chart</td><td>Axis: Dim_Diagnosis[DiagnosisName]; Values: Total Admissions</td></tr>
+</table></div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Page 2 - Patient Demographics &amp; Disease Burden</h3><p>Answers &#x27;who are our patients and what are they being treated for&#x27;, supporting population-health and resource-planning conversations.</p>
+<table><tr><th style='width:22%'>Visual</th><th style='width:18%'>Chart Type</th><th>Fields</th></tr>
+<tr><td><strong>Admissions by Age Band</strong></td><td>Column chart</td><td>Axis: Age Band (calculated column on Dim_Patients using 0-17, 18-35, 36-55, 56-75, 76+); Values: Total Admissions</td></tr>
+<tr><td><strong>Gender Split</strong></td><td>Donut chart</td><td>Legend: Dim_Patients[Gender]; Values: Total Admissions</td></tr>
+<tr><td><strong>Diagnosis Category by Severity</strong></td><td>Stacked bar chart</td><td>Axis: Dim_Diagnosis[DiagnosisCategory]; Legend: Dim_Diagnosis[SeverityLevel]; Values: Total Admissions</td></tr>
+<tr><td><strong>Diagnosis Distribution Treemap</strong></td><td>Treemap</td><td>Group: Dim_Diagnosis[DiagnosisName]; Values: Total Admissions</td></tr>
+<tr><td><strong>Top 10 Diagnoses Detail Table</strong></td><td>Table visual</td><td>Columns: DiagnosisName, Total Admissions, Average Length of Stay, Mortality Rate %</td></tr>
+</table></div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Page 3 - Admissions &amp; Length of Stay Operations</h3><p>Operational view for department heads and bed managers: where the load is, how long patients stay, and how outcomes vary by setting.</p>
+<table><tr><th style='width:22%'>Visual</th><th style='width:18%'>Chart Type</th><th>Fields</th></tr>
+<tr><td><strong>Admissions by Department</strong></td><td>Column chart</td><td>Axis: Dim_Departments[DepartmentName]; Values: Total Admissions</td></tr>
+<tr><td><strong>Average LOS Trend by Month</strong></td><td>Line chart</td><td>Axis: Dim_Date[MonthName] (sorted by MonthNumber); Values: Average LOS (Inpatient Only)</td></tr>
+<tr><td><strong>Admission Outcome by Department</strong></td><td>Clustered bar chart</td><td>Axis: Dim_Departments[DepartmentName]; Legend: Fact_Admissions[AdmissionOutcome]; Values: Total Admissions</td></tr>
+<tr><td><strong>Department by Room Type Matrix</strong></td><td>Matrix visual</td><td>Rows: Dim_Departments[DepartmentName]; Columns: Fact_Admissions[RoomType]; Values: Total Admissions</td></tr>
+<tr><td><strong>Weekend vs Weekday Load</strong></td><td>Gauge or card pair</td><td>Values: Weekend Admissions %</td></tr>
+</table></div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Page 4 - Financial &amp; Billing Performance</h3><p>The finance-department view: what is billed, what is covered by insurance, what is collected, and where revenue comes from.</p>
+<table><tr><th style='width:22%'>Visual</th><th style='width:18%'>Chart Type</th><th>Fields</th></tr>
+<tr><td><strong>Financial KPI Row</strong></td><td>Card visuals (x4)</td><td>Total Revenue, Total Insurance Covered, Total Patient Payable, Collection Rate %</td></tr>
+<tr><td><strong>Revenue by Service Type</strong></td><td>Column chart</td><td>Axis: Fact_Billing[ServiceType]; Values: Total Revenue</td></tr>
+<tr><td><strong>Payment Status Split</strong></td><td>Donut chart</td><td>Legend: Fact_Billing[PaymentStatus]; Values: Total Revenue</td></tr>
+<tr><td><strong>Coverage vs Out-of-Pocket by Insurance Type</strong></td><td>100% Stacked bar chart</td><td>Axis: Dim_Patients[InsuranceType]; Values: Insurance Coverage %, Out-of-Pocket %</td></tr>
+<tr><td><strong>Top 10 Highest Bills</strong></td><td>Table visual</td><td>Columns: BillID, ServiceType, ServiceCostNGN, PaymentStatus</td></tr>
+</table></div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Page 5 - Doctor &amp; Department Performance</h3><p>HR and clinical-leadership view: workload distribution across doctors, cost intensity across departments, and any relationship between experience and caseload.</p>
+<table><tr><th style='width:22%'>Visual</th><th style='width:18%'>Chart Type</th><th>Fields</th></tr>
+<tr><td><strong>Top 10 Doctors by Admissions Handled</strong></td><td>Bar chart</td><td>Axis: Dim_Doctors Full Name (calculated column); Values: Doctor Caseload</td></tr>
+<tr><td><strong>Average Treatment Cost by Department</strong></td><td>Column chart</td><td>Axis: Dim_Departments[DepartmentName]; Values: Average Treatment Cost per Admission</td></tr>
+<tr><td><strong>Doctor x Specialty Caseload Matrix</strong></td><td>Matrix visual</td><td>Rows: Dim_Doctors[Specialty]; Columns: Dim_Departments[DepartmentName]; Values: Doctor Caseload</td></tr>
+<tr><td><strong>Experience vs Caseload</strong></td><td>Scatter chart</td><td>X-axis: Dim_Doctors[YearsOfExperience]; Y-axis: Doctor Caseload; Details: DoctorID</td></tr>
+<tr><td><strong>Top Revenue-Generating Department</strong></td><td>Card with Top N filter, or a single-value KPI visual</td><td>Values: Total Revenue, filtered/sorted by department</td></tr>
+</table></div>
+</section>
+<section id='tasks'><h2 class='section-title'>6. Full Task Checklist</h2>
+<h3 class='sub-title'>Section A - Data Preparation Tasks</h3>
+<div class='task-item'><input type='checkbox'><div>Open Hospital_Health_Analytics_Dataset.xlsx and review the Read Me sheet to understand the table inventory before touching Power BI.</div></div>
+<div class='task-item'><input type='checkbox'><div>In Power BI Desktop, use Get Data &gt; Excel Workbook to import all 8 tables (Dim_Patients, Dim_Doctors, Dim_Departments, Dim_Diagnosis, Dim_Date, Fact_Admissions, Fact_Billing, Fact_Treatments). Do not import the Read Me sheet.</div></div>
+<div class='task-item'><input type='checkbox'><div>In Power Query Editor, confirm each column has the correct data type: text keys should be Text, all date columns should be Date, and every NGN currency column should be Whole Number or Fixed Decimal Number, not Text.</div></div>
+<div class='task-item'><input type='checkbox'><div>Rename the query for each table to match the sheet name exactly so relationships and DAX formulas in this project line up with what is documented here.</div></div>
+<div class='task-item'><input type='checkbox'><div>Disable Load for any staging queries you create during transformation, keeping only the 8 final tables loaded to the model.</div></div>
+<div class='task-item'><input type='checkbox'><div>Close and Apply the Power Query changes and confirm the model loads with the row counts stated in the Read Me sheet (450 patients, 900 admissions, 1,025 billing lines, 2,362 treatments).</div></div>
+<h3 class='sub-title'>Section B - Data Modelling Tasks (Relationships &amp; Cardinality)</h3>
+<div class='task-item'><input type='checkbox'><div>Switch to Model view and arrange the 8 tables so the 5 dimension tables sit above the 3 fact tables, roughly mirroring a star schema layout.</div></div>
+<div class='task-item'><input type='checkbox'><div>Build all relationships listed in the Relationships section of this document, setting the correct cardinality (One-to-Many in every case) and cross filter direction (Single, unless a task states otherwise).</div></div>
+<div class='task-item'><input type='checkbox'><div>Deliberately leave the Dim_Date to Fact_Admissions[DischargeDate] relationship INACTIVE, and the Dim_Doctors to Fact_Treatments[AdministeredByDoctorID] relationship INACTIVE, since each table can only have one active path to a given fact table.</div></div>
+<div class='task-item'><input type='checkbox'><div>Mark Dim_Date as an official Date Table in Power BI (right click the table &gt; Mark as Date Table), pointing to the Date column, so time intelligence DAX functions work correctly.</div></div>
+<div class='task-item'><input type='checkbox'><div>Set Sort By Column on Dim_Date[MonthName] to Dim_Date[MonthNumber] so month names display in calendar order rather than alphabetical order on every chart axis.</div></div>
+<div class='task-item'><input type='checkbox'><div>Hide technical or non-analytical columns from report view (PhoneNumber, BedNumber, all *ID key columns not needed on visuals) to keep the field list clean for report users.</div></div>
+<div class='task-item'><input type='checkbox'><div>Create a Full Name calculated column on Dim_Patients and on Dim_Doctors, concatenating FirstName and LastName (with a &#x27;Dr.&#x27; prefix for doctors).</div></div>
+<div class='task-item'><input type='checkbox'><div>Create an Age Band calculated column on Dim_Patients using SWITCH(TRUE()) logic with the bands 0-17, 18-35, 36-55, 56-75, 76+.</div></div>
+<h3 class='sub-title'>Section C - DAX Measure Building Tasks</h3>
+<div class='task-item'><input type='checkbox'><div>Create a dedicated Measures table (a blank table with no columns, used purely to organise measures) and move every measure below into it.</div></div>
+<div class='task-item'><input type='checkbox'><div>Build Total Admissions, Total Patients, Total Revenue, Total Insurance Covered, and Total Patient Payable as base aggregation measures first.</div></div>
+<div class='task-item'><input type='checkbox'><div>Build Insurance Coverage %, Out-of-Pocket %, Collected Revenue and Collection Rate % as ratio measures on top of the base measures, using DIVIDE rather than the / operator throughout.</div></div>
+<div class='task-item'><input type='checkbox'><div>Build Average Length of Stay and Average LOS (Inpatient Only), and explain in your own words why the two numbers differ.</div></div>
+<div class='task-item'><input type='checkbox'><div>Build Mortality Rate % and Emergency Admission % using the CALCULATE-then-DIVIDE pattern, and write a one-paragraph note on why Mortality Rate % should never be broken down to an individually identifiable level.</div></div>
+<div class='task-item'><input type='checkbox'><div>Build Total Treatment Cost, Average Treatment Cost per Admission and Doctor Caseload for the performance page.</div></div>
+<div class='task-item'><input type='checkbox'><div>Build the Revenue by Payment Date measure using USERELATIONSHIP to activate the inactive DischargeDate relationship, and confirm its output differs from Total Revenue when sliced by month.</div></div>
+<div class='task-item'><input type='checkbox'><div>Build Admissions Growth % MoM using the VAR/RETURN pattern with DATEADD, and confirm it returns blank (not an error) for January 2023, the first month with no prior month available.</div></div>
+<div class='task-item'><input type='checkbox'><div>Build Weekend Admissions % and confirm it correctly filters through Dim_Date[WeekdayWeekend] into Fact_Admissions.</div></div>
+<div class='task-item'><input type='checkbox'><div>Apply conditional formatting (font colour or data bars) to Mortality Rate % and Collection Rate % on their respective card visuals.</div></div>
+<h3 class='sub-title'>Section D - Dashboard Build Tasks (5 Pages)</h3>
+<div class='task-item'><input type='checkbox'><div>Build Page 1 - Executive Overview exactly as specified in the Dashboard Pages section: 5 KPI cards, an admissions trend combo chart, an admission type donut, an admissions-by-state bar chart, and a top 5 diagnoses bar chart.</div></div>
+<div class='task-item'><input type='checkbox'><div>Build Page 2 - Patient Demographics &amp; Disease Burden: age band column chart, gender donut, diagnosis category by severity stacked bar, diagnosis treemap, and a top 10 diagnoses detail table.</div></div>
+<div class='task-item'><input type='checkbox'><div>Build Page 3 - Admissions &amp; Length of Stay Operations: admissions by department column chart, average LOS trend line, admission outcome by department clustered bar, department by room type matrix, and a weekend versus weekday indicator.</div></div>
+<div class='task-item'><input type='checkbox'><div>Build Page 4 - Financial &amp; Billing Performance: 4 financial KPI cards, revenue by service type column chart, payment status donut, coverage versus out-of-pocket 100% stacked bar, and a top 10 highest bills table.</div></div>
+<div class='task-item'><input type='checkbox'><div>Build Page 5 - Doctor &amp; Department Performance: top 10 doctors bar chart, average treatment cost by department column chart, doctor by specialty caseload matrix, an experience versus caseload scatter chart, and a top revenue department summary card.</div></div>
+<div class='task-item'><input type='checkbox'><div>Add a Year slicer and a Department slicer to every page, synced across all 5 pages using the Sync Slicers pane.</div></div>
+<div class='task-item'><input type='checkbox'><div>Add page navigation buttons (or a navigation bar) so a report user can move between all 5 pages without using the page tabs.</div></div>
+<div class='task-item'><input type='checkbox'><div>Test every visual by clicking through each slicer combination and confirm no chart shows a blank or error state, and no card visual reads (Blank).</div></div>
+<div class='task-item'><input type='checkbox'><div>Publish the finished report and write a one-page summary of the three biggest operational or financial insights the dashboard reveals.</div></div>
+</section>
+</div>
+<footer>&copy; Prodigy Training Hub - Prepared by Kajola Gbenga, Data Scientist &amp; AI Engineer. For classroom training use.</footer>
+</body></html>

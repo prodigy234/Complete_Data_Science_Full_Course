@@ -1,0 +1,379 @@
+<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<title>Hospital Health Analytics - Power BI Training Project - Full Solutions Walkthrough</title>
+<style>
+:root{
+  --navy:#1F4E78; --navy-dark:#123049; --accent:#2E86AB; --gold:#C9962C;
+  --bg:#F5F7FA; --card:#FFFFFF; --text:#242B33; --muted:#5B6774; --border:#DCE3EA;
+  --good:#2E7D32; --warn:#B26A00; --bad:#B3261E;
+}
+*{box-sizing:border-box;}
+body{margin:0;font-family:'Segoe UI',Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;}
+.wrap{max-width:1100px;margin:0 auto;padding:0 24px 80px;}
+header.hero{background:linear-gradient(135deg,var(--navy) 0%,var(--navy-dark) 100%);color:#fff;padding:56px 24px 40px;}
+header.hero .wrap{padding:0 24px;}
+.kicker{text-transform:uppercase;letter-spacing:2px;font-size:12px;color:var(--gold);font-weight:700;}
+h1.title{font-size:32px;margin:10px 0 6px;}
+.subtitle{font-size:16px;color:#CFE0EE;max-width:800px;}
+.author-block{margin-top:22px;padding-top:18px;border-top:1px solid rgba(255,255,255,0.25);}
+.author-name{font-size:18px;font-weight:700;}
+.author-title{color:var(--gold);font-size:14px;}
+nav.toc{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:18px 22px;margin:-28px 0 34px;box-shadow:0 4px 14px rgba(20,40,70,0.08);}
+nav.toc h2{font-size:14px;text-transform:uppercase;letter-spacing:1px;color:var(--navy);margin:0 0 10px;}
+nav.toc ol{margin:0;padding-left:20px;columns:2;gap:24px;}
+nav.toc a{color:var(--accent);text-decoration:none;font-size:14px;}
+nav.toc a:hover{text-decoration:underline;}
+section{margin:44px 0;}
+h2.section-title{font-size:24px;color:var(--navy);border-bottom:3px solid var(--gold);padding-bottom:8px;margin-bottom:18px;}
+h3.sub-title{font-size:19px;color:var(--navy-dark);margin:26px 0 10px;}
+p{margin:10px 0;}
+.card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:20px 24px;margin:16px 0;box-shadow:0 2px 8px rgba(20,40,70,0.05);}
+table{width:100%;border-collapse:collapse;margin:14px 0;font-size:14.5px;}
+th{background:var(--navy);color:#fff;text-align:left;padding:9px 12px;font-weight:600;}
+td{padding:9px 12px;border-bottom:1px solid var(--border);vertical-align:top;}
+tr:nth-child(even) td{background:#F7FAFD;}
+.badge{display:inline-block;padding:2px 10px;border-radius:20px;font-size:12px;font-weight:700;letter-spacing:.3px;}
+.badge.dim{background:#E4EEF7;color:var(--navy);}
+.badge.fact{background:#FCEFD9;color:#8A5A00;}
+.badge.active{background:#E3F2E1;color:var(--good);}
+.badge.inactive{background:#FBE7E5;color:var(--bad);}
+code, .dax{font-family:'Cascadia Code','Consolas',monospace;background:#0F2439;color:#DCEBFB;padding:14px 16px;display:block;border-radius:8px;white-space:pre-wrap;font-size:13.5px;line-height:1.55;margin:10px 0;overflow-x:auto;}
+.inline-code{font-family:Consolas,monospace;background:#EEF3F9;color:#1F4E78;padding:1px 6px;border-radius:4px;font-size:13.5px;}
+ul, ol{margin:8px 0;padding-left:22px;}
+li{margin:5px 0;}
+.chip-row{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0;}
+.chip{background:#EEF3F9;border:1px solid var(--border);border-radius:20px;padding:4px 14px;font-size:13px;color:var(--navy);}
+.callout{border-left:4px solid var(--gold);background:#FFF8EA;padding:12px 18px;border-radius:0 8px 8px 0;margin:14px 0;font-size:14.5px;}
+.callout.why{border-left-color:var(--accent);background:#EAF4FB;}
+.callout.impact{border-left-color:var(--good);background:#EAF7EA;}
+.step-num{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;background:var(--navy);color:#fff;border-radius:50%;font-size:13px;font-weight:700;margin-right:8px;}
+.task-item{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:10px 16px;margin:8px 0;display:flex;gap:10px;align-items:flex-start;}
+.task-item input{margin-top:4px;}
+.grain{color:var(--muted);font-size:13.5px;font-style:italic;}
+footer{background:var(--navy-dark);color:#B9C7D3;padding:26px 24px;text-align:center;font-size:13px;margin-top:60px;}
+.pill-page{background:var(--navy);color:#fff;padding:4px 12px;border-radius:6px;font-size:13px;display:inline-block;margin-bottom:8px;}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:18px;}
+@media(max-width:760px){.two-col{grid-template-columns:1fr;} nav.toc ol{columns:1;}}
+</style></head><body>
+<header class="hero">
+  <div class="wrap">
+    <div class="kicker">Prodigy Training Hub - Power BI Training Project</div>
+    <h1 class="title">Hospital Health Analytics - Power BI Training Project</h1>
+    <div class="subtitle">The complete worked solution - from loading the clean data in Power Query, through building every relationship, every DAX measure explained line by line, to the five finished dashboard pages.</div>
+    <div class="author-block">
+      <div class="author-name">Kajola Gbenga</div>
+      <div class="author-title">Data Scientist &amp; AI Engineer</div>
+    </div>
+    <div class="pill-page">File 2 of 2: Full Solutions Walkthrough</div>
+  </div>
+</header>
+<div class='wrap'>
+<nav class="toc"><h2>Contents</h2><ol><li><a href="#s-intro">1. Solution Overview</a></li>
+<li><a href="#s-load">2. Step 1 - Loading &amp; Preparing the Data</a></li>
+<li><a href="#s-model">3. Step 2 - Building the Data Model</a></li>
+<li><a href="#s-dax">4. Step 3 - Building the DAX Measures</a></li>
+<li><a href="#s-dash">5. Step 4 - Building the Five Dashboard Pages</a></li>
+<li><a href="#s-qa">6. Step 5 - Quality Check &amp; Publish</a></li></ol></nav>
+<section id='s-intro'><h2 class='section-title'>1. Solution Overview</h2>
+<div class='card'><p>This file is the fully worked solution to every task listed in the Tasks and Problem Brief file. It follows the standard Power BI project sequence: <strong>Load &amp; Shape</strong> &gt; <strong>Model &amp; Relate</strong> &gt; <strong>Measure with DAX</strong> &gt; <strong>Visualise &amp; Publish</strong>. Read it alongside the Tasks file rather than instead of it - the real learning happens in attempting each task before checking it here.</p></div>
+</section>
+<section id='s-load'><h2 class='section-title'>2. Step 1 - Loading & Preparing the Data</h2>
+<div class='card'><span class='step-num'>1</span><strong>Get Data</strong><p>Open Power BI Desktop, choose Get Data &gt; Excel Workbook, and select Hospital_Health_Analytics_Dataset.xlsx. In the Navigator window, tick all 8 data tables (skip the Read Me sheet) and click Transform Data to open Power Query Editor before loading, so every type can be checked first.</p></div>
+<div class='card'><span class='step-num'>2</span><strong>Confirm data types</strong><p>Click through each query and confirm: every *ID key column is Text; DateOfBirth, RegistrationDate, DateJoined, AdmissionDate, DischargeDate, PaymentDate, TreatmentDate and Date are all Date; every *NGN column is Whole Number. Power Query usually infers these correctly from a clean Excel source, but this dataset was built specifically so a student practises verifying, not assuming.</p></div>
+<div class='card'><span class='step-num'>3</span><strong>Rename queries</strong><p>Confirm the query names in the Queries pane exactly match the sheet names (Dim_Patients, Dim_Doctors, Dim_Departments, Dim_Diagnosis, Dim_Date, Fact_Admissions, Fact_Billing, Fact_Treatments), since every relationship and DAX formula in this walkthrough references these exact names.</p></div>
+<div class='card'><span class='step-num'>4</span><strong>Close &amp; Apply</strong><p>Click Close &amp; Apply. Power BI loads all 8 tables into the semantic model. Open Model view and confirm you see 8 tables with no relationships yet - Power BI&#x27;s autodetect sometimes proposes relationships on load; delete any that were auto-created so you build every one deliberately in the next step.</p></div>
+</section>
+<section id='s-model'><h2 class='section-title'>3. Step 2 - Building the Data Model</h2>
+<div class='card'><p>In Model view, drag from the key column on the dimension (one) side to the foreign key column on the fact (many) side for each relationship below, in this order. Power BI infers cardinality automatically from the data, but always open the relationship's properties and confirm it reads One-to-Many before moving to the next one.</p></div>
+<table><tr><th>#</th><th>Relationship</th><th>Cardinality</th><th>Cross Filter</th><th>Status</th><th>Why</th></tr>
+<tr><td>1</td><td>Dim_Patients[PatientID] &rarr; Fact_Admissions[PatientID]</td><td>One-to-Many (1:*)</td><td>Single (Dim_Patients filters Fact_Admissions)</td><td><span class='badge active'>ACTIVE</span></td><td>The foundation relationship of the whole model. One patient can have many admissions over the two-year period, which is why PatientID must be unique in Dim_Patients but repeats freely in Fact_Admissions.</td></tr>
+<tr><td>2</td><td>Dim_Doctors[DoctorID] &rarr; Fact_Admissions[DoctorID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td><td>Lets every visual filter admissions by doctor. Because DoctorID is unique in Dim_Doctors, Power BI can autodetect the &#x27;one&#x27; side correctly as long as Dim_Doctors is not duplicated anywhere else.</td></tr>
+<tr><td>3</td><td>Dim_Departments[DepartmentID] &rarr; Fact_Admissions[DepartmentID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td><td>The primary relationship used for department-level filtering across every dashboard page.</td></tr>
+<tr><td>4</td><td>Dim_Diagnosis[DiagnosisID] &rarr; Fact_Admissions[DiagnosisID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td><td>Connects every admission to exactly one clinical diagnosis, enabling the disease-burden analysis.</td></tr>
+<tr><td>5</td><td>Dim_Departments[DepartmentID] &rarr; Dim_Doctors[DepartmentID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td><td>This is the snowflake link. It means a slicer on DepartmentName will filter Dim_Doctors, which will then filter Fact_Admissions through the DoctorID relationship - a two-hop filter path students should trace visually in Model view.</td></tr>
+<tr><td>6</td><td>Dim_Date[Date] &rarr; Fact_Admissions[AdmissionDate]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td><td>The primary, active time relationship for the whole project. Every default monthly trend visual uses this path unless a measure explicitly overrides it.</td></tr>
+<tr><td>7</td><td>Dim_Date[Date] &rarr; Fact_Admissions[DischargeDate]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge inactive'>INACTIVE</span></td><td>Power BI only allows one ACTIVE relationship between any two tables at a time, so this second link to Dim_Date must be created as INACTIVE. It is switched on inside specific measures using CALCULATE with USERELATIONSHIP(&#x27;Dim_Date&#x27;[Date], Fact_Admissions[DischargeDate]).</td></tr>
+<tr><td>8</td><td>Fact_Admissions[AdmissionID] &rarr; Fact_Billing[AdmissionID]</td><td>One-to-Many (1:*)</td><td>Single (Fact_Admissions filters Fact_Billing)</td><td><span class='badge active'>ACTIVE</span></td><td>A fact-to-fact relationship. About 12% of admissions have two billing lines, which is why this must be modelled as one-to-many rather than one-to-one.</td></tr>
+<tr><td>9</td><td>Fact_Admissions[AdmissionID] &rarr; Fact_Treatments[AdmissionID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td><td>Another fact-to-fact relationship; each admission generates one to five treatment rows.</td></tr>
+<tr><td>10</td><td>Dim_Date[Date] &rarr; Fact_Billing[PaymentDate]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td><td>Because Fact_Billing is not directly reachable from Dim_Date through Fact_Admissions in a single active hop for payment purposes, a direct relationship on PaymentDate is added and kept active so financial trend visuals default to payment-date behaviour.</td></tr>
+<tr><td>11</td><td>Dim_Date[Date] &rarr; Fact_Treatments[TreatmentDate]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td><td>Gives clinical operations visuals (most common treatments over time) their own direct time relationship, independent of the admission date.</td></tr>
+<tr><td>12</td><td>Dim_Doctors[DoctorID] &rarr; Fact_Treatments[AdministeredByDoctorID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge inactive'>INACTIVE</span></td><td>Dim_Doctors already has an active relationship to Fact_Admissions[DoctorID]. A second relationship to Fact_Treatments must therefore be created INACTIVE and activated with USERELATIONSHIP inside the specific measures that analyse treatments by the administering doctor, to avoid an ambiguous model.</td></tr>
+</table>
+<div class='callout'>When you build relationship 7 (Dim_Date to DischargeDate) and relationship 12 (Dim_Doctors to AdministeredByDoctorID), Power BI will automatically create them as inactive (shown as a dashed line in Model view) because an active path to each of those tables already exists. This is expected and correct - do not try to force them active.</div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Mark Dim_Date as a Date Table</h3><p>Right-click Dim_Date in the Fields pane &gt; Mark as Date Table &gt; Mark as Date Table, then choose the Date column when prompted. Confirm the dialog reports no errors. This step is mandatory before any DATEADD, SAMEPERIODLASTYEAR or TOTALYTD measure will calculate correctly, because Power BI needs to verify the column is unique, contiguous and contains no gaps or blanks across the full calendar range.</p></div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Calculated Columns</h3><div class='dax'>Full Name = Dim_Patients[FirstName] &amp; " " &amp; Dim_Patients[LastName]
+
+Full Name (Doctor) = "Dr. " &amp; Dim_Doctors[FirstName] &amp; " " &amp; Dim_Doctors[LastName]
+
+Age Band =
+SWITCH(
+    TRUE(),
+    Dim_Patients[Age] &lt; 18, "0-17",
+    Dim_Patients[Age] &lt;= 35, "18-35",
+    Dim_Patients[Age] &lt;= 55, "36-55",
+    Dim_Patients[Age] &lt;= 75, "56-75",
+    "76+"
+)</div><p>SWITCH(TRUE(), ...) works by evaluating each condition in order and returning the result next to the first one that is TRUE, which is a cleaner alternative to nested IF statements once there are more than two or three bands.</p></div>
+</section>
+<section id='s-dax'><h2 class='section-title'>4. Step 3 - Building the DAX Measures</h2>
+<div class='card'><p>Create a blank Measures table first (Model view &gt; Enter Data &gt; leave it empty &gt; name it Measures) and build every measure below inside it, in this order, since several later measures reference earlier ones.</p></div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Total Admissions</h3>
+<div class='chip-row'><span class='chip'>Used on: Used on every page</span></div>
+<div class='dax'>Total Admissions = DISTINCTCOUNT(Fact_Admissions[AdmissionID])</div>
+<p><strong>Line by line:</strong></p><ul>
+<li>DISTINCTCOUNT(Fact_Admissions[AdmissionID]) counts the number of unique AdmissionID values remaining in the current filter context.</li>
+<li>DISTINCTCOUNT is used instead of COUNTROWS because AdmissionID is already the grain of the table, so both would give the same answer here - but DISTINCTCOUNT is the safer habit since it protects the measure if a duplicate ever slips into the table.</li>
+</ul>
+<div class='callout why'><strong>Why this measure exists:</strong> This is the foundation KPI of the entire report. Almost every other measure either builds on it (as a denominator) or is filtered the same way it is.</div>
+<div class='callout impact'><strong>Impact on the dashboard:</strong> Appears as the first KPI card on the Executive Overview page and is the value plotted on the Y-axis of the monthly admissions trend line chart.</div>
+</div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Total Patients</h3>
+<div class='chip-row'><span class='chip'>Used on: Executive Overview, Demographics</span></div>
+<div class='dax'>Total Patients = DISTINCTCOUNT(Fact_Admissions[PatientID])</div>
+<p><strong>Line by line:</strong></p><ul>
+<li>DISTINCTCOUNT(Fact_Admissions[PatientID]) counts unique patients who have at least one admission in the current filter context, not the number of rows in Dim_Patients.</li>
+<li>Counting from the fact table (not the dimension table) ensures the number automatically respects whatever date, department or diagnosis filters are active on the page.</li>
+</ul>
+<div class='callout why'><strong>Why this measure exists:</strong> Distinguishes &#x27;how many people were treated&#x27; from &#x27;how many admissions happened&#x27;, since one patient can be admitted more than once.</div>
+<div class='callout impact'><strong>Impact on the dashboard:</strong> Placed next to Total Admissions on the Executive Overview KPI row; the gap between the two numbers visually communicates the readmission/repeat-visit pattern.</div>
+</div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Total Revenue</h3>
+<div class='chip-row'><span class='chip'>Used on: Financial &amp; Billing Performance</span></div>
+<div class='dax'>Total Revenue = SUM(Fact_Billing[ServiceCostNGN])</div>
+<p><strong>Line by line:</strong></p><ul>
+<li>SUM(Fact_Billing[ServiceCostNGN]) adds up the full billed cost of every service line currently in context, before any insurance coverage is subtracted.</li>
+</ul>
+<div class='callout why'><strong>Why this measure exists:</strong> Represents gross hospital revenue billed, which is the starting point before splitting into insurance-covered and patient-payable portions.</div>
+<div class='callout impact'><strong>Impact on the dashboard:</strong> The largest KPI card on the Financial page and the value summed on the Revenue by Service Type column chart.</div>
+</div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Total Insurance Covered</h3>
+<div class='chip-row'><span class='chip'>Used on: Financial &amp; Billing Performance</span></div>
+<div class='dax'>Total Insurance Covered = SUM(Fact_Billing[InsuranceCoveredNGN])</div>
+<p><strong>Line by line:</strong></p><ul>
+<li>SUM(Fact_Billing[InsuranceCoveredNGN]) adds up the portion of every bill that NHIS, an HMO, or another insurer paid on the patient&#x27;s behalf.</li>
+</ul>
+<div class='callout why'><strong>Why this measure exists:</strong> Needed as its own measure so the coverage ratio and the patient out-of-pocket burden can both be calculated from it.</div>
+<div class='callout impact'><strong>Impact on the dashboard:</strong> Feeds directly into Insurance Coverage % and is plotted alongside Total Revenue on a clustered column chart of Revenue by Insurance Type.</div>
+</div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Total Patient Payable</h3>
+<div class='chip-row'><span class='chip'>Used on: Financial &amp; Billing Performance</span></div>
+<div class='dax'>Total Patient Payable = SUM(Fact_Billing[PatientPayableNGN])</div>
+<p><strong>Line by line:</strong></p><ul>
+<li>SUM(Fact_Billing[PatientPayableNGN]) adds up the amount patients are personally responsible for across the currently filtered bills.</li>
+</ul>
+<div class='callout why'><strong>Why this measure exists:</strong> Surfaces the out-of-pocket burden on patients, an important story for a Nigerian hospital where InsuranceType varies widely by patient.</div>
+<div class='callout impact'><strong>Impact on the dashboard:</strong> Displayed as a KPI card and used as the base of the Out-of-Pocket % measure below.</div>
+</div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Insurance Coverage %</h3>
+<div class='chip-row'><span class='chip'>Used on: Financial &amp; Billing Performance</span></div>
+<div class='dax'>Insurance Coverage % = DIVIDE([Total Insurance Covered], [Total Revenue], 0)</div>
+<p><strong>Line by line:</strong></p><ul>
+<li>[Total Insurance Covered] and [Total Revenue] are both measure references, so this measure automatically recalculates correctly no matter what filters are applied - it is not tied to a fixed set of rows.</li>
+<li>DIVIDE(numerator, denominator, 0) is used instead of the plain / operator because DIVIDE safely returns the third argument (0 in this case) instead of throwing a divide-by-zero error whenever Total Revenue is blank, for example on a page filtered to a period with no billing activity.</li>
+</ul>
+<div class='callout why'><strong>Why this measure exists:</strong> Turns two raw currency numbers into a single percentage that is meaningful and easy to read on a KPI card or gauge.</div>
+<div class='callout impact'><strong>Impact on the dashboard:</strong> Shown as a percentage KPI on the Financial page; also usable as the value of a gauge visual with a target such as 60%.</div>
+</div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Out-of-Pocket %</h3>
+<div class='chip-row'><span class='chip'>Used on: Financial &amp; Billing Performance</span></div>
+<div class='dax'>Out-of-Pocket % = DIVIDE([Total Patient Payable], [Total Revenue], 0)</div>
+<p><strong>Line by line:</strong></p><ul>
+<li>Structurally identical to Insurance Coverage % but numerator and denominator are swapped in meaning; together the two measures should sum to 100% for any given filter context, which is a useful validation check to teach students.</li>
+</ul>
+<div class='callout why'><strong>Why this measure exists:</strong> Highlights financial exposure carried directly by patients, an important equity and access-to-care metric.</div>
+<div class='callout impact'><strong>Impact on the dashboard:</strong> Used on a 100% stacked bar chart of Insurance Coverage % versus Out-of-Pocket % broken down by InsuranceType.</div>
+</div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Collected Revenue</h3>
+<div class='chip-row'><span class='chip'>Used on: Financial &amp; Billing Performance</span></div>
+<div class='dax'>Collected Revenue = CALCULATE([Total Revenue], Fact_Billing[PaymentStatus] = &quot;Paid&quot;)</div>
+<p><strong>Line by line:</strong></p><ul>
+<li>CALCULATE takes the existing [Total Revenue] measure and overrides the filter context by adding a new filter: Fact_Billing[PaymentStatus] = &quot;Paid&quot;.</li>
+<li>Any other filters already active on the report (department slicer, date slicer and so on) are preserved and combined with this new filter using AND logic, which is CALCULATE&#x27;s default behaviour.</li>
+</ul>
+<div class='callout why'><strong>Why this measure exists:</strong> Isolates revenue that has actually been received in cash or settled by an insurer, as opposed to revenue that has merely been billed.</div>
+<div class='callout impact'><strong>Impact on the dashboard:</strong> The numerator of the Collection Rate % measure, and also shown on its own as a KPI card labelled &#x27;Cash Collected&#x27;.</div>
+</div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Collection Rate %</h3>
+<div class='chip-row'><span class='chip'>Used on: Financial &amp; Billing Performance</span></div>
+<div class='dax'>Collection Rate % = DIVIDE([Collected Revenue], [Total Revenue], 0)</div>
+<p><strong>Line by line:</strong></p><ul>
+<li>Divides fully paid revenue by total billed revenue to express how effectively the hospital is turning bills into cash.</li>
+</ul>
+<div class='callout why'><strong>Why this measure exists:</strong> A classic revenue-cycle KPI for any billing dashboard; low values indicate a growing accounts-receivable problem.</div>
+<div class='callout impact'><strong>Impact on the dashboard:</strong> Displayed as a KPI card with conditional formatting (green above 70%, amber 50-70%, red below 50%) to teach students how to apply data-bars and colour rules to a measure.</div>
+</div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Average Length of Stay</h3>
+<div class='chip-row'><span class='chip'>Used on: Admissions &amp; Operations</span></div>
+<div class='dax'>Average Length of Stay = AVERAGE(Fact_Admissions[LengthOfStayDays])</div>
+<p><strong>Line by line:</strong></p><ul>
+<li>AVERAGE(Fact_Admissions[LengthOfStayDays]) computes the arithmetic mean of the LengthOfStayDays column across every admission row in the current filter context, including same-day Outpatient rows where the value is 0.</li>
+</ul>
+<div class='callout why'><strong>Why this measure exists:</strong> A core hospital operations KPI: longer average stays generally indicate more complex cases, bed-capacity pressure, or process inefficiency.</div>
+<div class='callout impact'><strong>Impact on the dashboard:</strong> Shown as a KPI card and plotted as a monthly trend line on the Admissions &amp; Operations page, letting students spot seasonal spikes.</div>
+</div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Average LOS (Inpatient Only)</h3>
+<div class='chip-row'><span class='chip'>Used on: Admissions &amp; Operations</span></div>
+<div class='dax'>Average LOS (Inpatient Only) = CALCULATE([Average Length of Stay], Fact_Admissions[AdmissionType] &lt;&gt; &quot;Outpatient&quot;)</div>
+<p><strong>Line by line:</strong></p><ul>
+<li>CALCULATE applies an extra filter, Fact_Admissions[AdmissionType] &lt;&gt; &quot;Outpatient&quot;, removing same-day outpatient rows (which always have a length of stay of 0) from the average.</li>
+<li>This produces a more clinically meaningful number than the unfiltered Average Length of Stay measure, since mixing in hundreds of zero-day outpatient rows would understate true inpatient stay length.</li>
+</ul>
+<div class='callout why'><strong>Why this measure exists:</strong> Demonstrates how the same base measure can be reused and refined with CALCULATE rather than being rewritten from scratch, which is a core DAX design pattern.</div>
+<div class='callout impact'><strong>Impact on the dashboard:</strong> Placed alongside Average Length of Stay on the same card visual group so students can see, and explain to stakeholders, why the two numbers differ.</div>
+</div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Mortality Rate %</h3>
+<div class='chip-row'><span class='chip'>Used on: Executive Overview, Admissions &amp; Operations</span></div>
+<div class='dax'>Mortality Rate % = DIVIDE(
+    CALCULATE([Total Admissions], Fact_Admissions[AdmissionOutcome] = &quot;Deceased&quot;),
+    [Total Admissions],
+    0
+)</div>
+<p><strong>Line by line:</strong></p><ul>
+<li>The inner CALCULATE([Total Admissions], Fact_Admissions[AdmissionOutcome] = &quot;Deceased&quot;) counts only the admissions whose outcome is Deceased, while still respecting any Date, Department or Diagnosis filters already on the page.</li>
+<li>DIVIDE then expresses that count as a percentage of all admissions in the same filter context, returning 0 instead of an error if there were no admissions at all.</li>
+</ul>
+<div class='callout why'><strong>Why this measure exists:</strong> One of the most sensitive and important quality-of-care KPIs a hospital tracks; students must be taught to present this measure carefully and never on a visual that could expose an individual patient.</div>
+<div class='callout impact'><strong>Impact on the dashboard:</strong> Shown as a single KPI card on the Executive Overview page only, deliberately not broken down to a granularity that could identify an individual case.</div>
+</div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Emergency Admission %</h3>
+<div class='chip-row'><span class='chip'>Used on: Executive Overview</span></div>
+<div class='dax'>Emergency Admission % = DIVIDE(
+    CALCULATE([Total Admissions], Fact_Admissions[AdmissionType] = &quot;Emergency&quot;),
+    [Total Admissions],
+    0
+)</div>
+<p><strong>Line by line:</strong></p><ul>
+<li>Same CALCULATE-then-DIVIDE pattern as Mortality Rate %, filtered instead to AdmissionType = &quot;Emergency&quot;.</li>
+</ul>
+<div class='callout why'><strong>Why this measure exists:</strong> Tells management what proportion of hospital activity is unplanned and reactive versus planned (Elective, Outpatient, Referral), which has staffing and resourcing implications.</div>
+<div class='callout impact'><strong>Impact on the dashboard:</strong> Displayed as a gauge visual with an informal target band, and reused as one slice of the Admission Type donut chart on the Executive Overview page.</div>
+</div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Total Treatment Cost</h3>
+<div class='chip-row'><span class='chip'>Used on: Doctor &amp; Department Performance</span></div>
+<div class='dax'>Total Treatment Cost = SUM(Fact_Treatments[TreatmentCostNGN])</div>
+<p><strong>Line by line:</strong></p><ul>
+<li>SUM(Fact_Treatments[TreatmentCostNGN]) adds up the cost of every treatment row in the current filter context.</li>
+</ul>
+<div class='callout why'><strong>Why this measure exists:</strong> A separate cost signal from Total Revenue (which comes from Fact_Billing), useful for comparing clinical cost intensity by department.</div>
+<div class='callout impact'><strong>Impact on the dashboard:</strong> The value field on the Average Treatment Cost by Department column chart, after being divided by admission count in the next measure.</div>
+</div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Average Treatment Cost per Admission</h3>
+<div class='chip-row'><span class='chip'>Used on: Doctor &amp; Department Performance</span></div>
+<div class='dax'>Average Treatment Cost per Admission = DIVIDE([Total Treatment Cost], [Total Admissions], 0)</div>
+<p><strong>Line by line:</strong></p><ul>
+<li>Divides total treatment spend by total admissions in the same filter context, producing a per-case cost figure that is comparable across departments of very different sizes.</li>
+</ul>
+<div class='callout why'><strong>Why this measure exists:</strong> Raw treatment cost totals are misleading when comparing a large department like Internal Medicine against a small one like Psychiatry; a per-admission figure levels the comparison.</div>
+<div class='callout impact'><strong>Impact on the dashboard:</strong> The primary value on the department comparison column chart on the Doctor &amp; Department Performance page.</div>
+</div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Doctor Caseload</h3>
+<div class='chip-row'><span class='chip'>Used on: Doctor &amp; Department Performance</span></div>
+<div class='dax'>Doctor Caseload = DISTINCTCOUNT(Fact_Admissions[AdmissionID])</div>
+<p><strong>Line by line:</strong></p><ul>
+<li>Identical formula to Total Admissions, but given a distinct measure name so that when it is placed in a visual with DoctorID (from Dim_Doctors) in the axis, its label reads naturally as &#x27;Doctor Caseload&#x27; rather than the generic &#x27;Total Admissions&#x27;.</li>
+</ul>
+<div class='callout why'><strong>Why this measure exists:</strong> A small but important lesson in measure naming: the same DAX logic can be exposed under different, context-appropriate names for readability on different visuals.</div>
+<div class='callout impact'><strong>Impact on the dashboard:</strong> Used as the value on the Top 10 Doctors by Admissions Handled bar chart.</div>
+</div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Revenue by Payment Date (USERELATIONSHIP demo)</h3>
+<div class='chip-row'><span class='chip'>Used on: Financial &amp; Billing Performance</span></div>
+<div class='dax'>Revenue by Payment Date = CALCULATE(
+    [Total Revenue],
+    USERELATIONSHIP(Dim_Date[Date], Fact_Admissions[DischargeDate])
+)</div>
+<p><strong>Line by line:</strong></p><ul>
+<li>USERELATIONSHIP(Dim_Date[Date], Fact_Admissions[DischargeDate]) temporarily activates the otherwise-inactive relationship between Dim_Date and the DischargeDate column, for the duration of this single CALCULATE call only.</li>
+<li>Wrapping [Total Revenue] inside that CALCULATE means the measure now filters by discharge date instead of the model&#x27;s default admission-date relationship, without permanently changing which relationship is active for every other visual in the report.</li>
+</ul>
+<div class='callout why'><strong>Why this measure exists:</strong> This measure exists purely as a teaching example of USERELATIONSHIP - the single most important DAX function for handling a model with more than one date column pointing at the same fact table.</div>
+<div class='callout impact'><strong>Impact on the dashboard:</strong> Placed on a dedicated &#x27;DAX Concepts&#x27; tooltip page so students can compare its output against the default Total Revenue by admission month and see the difference explained.</div>
+</div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Admissions Growth % (MoM)</h3>
+<div class='chip-row'><span class='chip'>Used on: Executive Overview</span></div>
+<div class='dax'>Admissions Growth % MoM = 
+VAR CurrentMonthAdmissions = [Total Admissions]
+VAR PreviousMonthAdmissions =
+    CALCULATE(
+        [Total Admissions],
+        DATEADD(&#x27;Dim_Date&#x27;[Date], -1, MONTH)
+    )
+RETURN
+    DIVIDE(CurrentMonthAdmissions - PreviousMonthAdmissions, PreviousMonthAdmissions, 0)</div>
+<p><strong>Line by line:</strong></p><ul>
+<li>VAR CurrentMonthAdmissions stores the value of [Total Admissions] for whatever month is currently in filter context, so the value only has to be evaluated once even though it is referenced later.</li>
+<li>VAR PreviousMonthAdmissions uses CALCULATE with DATEADD(&#x27;Dim_Date&#x27;[Date], -1, MONTH) to shift the entire filter context back by exactly one month and re-evaluate [Total Admissions] inside that shifted context.</li>
+<li>DATEADD requires Dim_Date to be marked as an official Date Table with a contiguous, gap-free Date column, which is exactly why the Mark as Date Table step is a mandatory task earlier in this project.</li>
+<li>RETURN DIVIDE(...) calculates the percentage change between the two variables, safely returning 0 if the previous month had no admissions.</li>
+</ul>
+<div class='callout why'><strong>Why this measure exists:</strong> Teaches the VAR/RETURN pattern for readable, efficient DAX, and introduces time intelligence functions that depend on a properly configured date table.</div>
+<div class='callout impact'><strong>Impact on the dashboard:</strong> Plotted as a secondary line, on a combo chart, against the Total Admissions column chart on the Executive Overview page.</div>
+</div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Weekend Admissions %</h3>
+<div class='chip-row'><span class='chip'>Used on: Admissions &amp; Operations</span></div>
+<div class='dax'>Weekend Admissions % = DIVIDE(
+    CALCULATE([Total Admissions], &#x27;Dim_Date&#x27;[WeekdayWeekend] = &quot;Weekend&quot;),
+    [Total Admissions],
+    0
+)</div>
+<p><strong>Line by line:</strong></p><ul>
+<li>CALCULATE filters admissions down to only those whose AdmissionDate falls on a date flagged Weekend in Dim_Date, relying on the active Dim_Date to Fact_Admissions[AdmissionDate] relationship to make that filter flow through correctly.</li>
+<li>DIVIDE then expresses that subset as a share of all admissions in the current context.</li>
+</ul>
+<div class='callout why'><strong>Why this measure exists:</strong> A simple, practical example of filtering through a related dimension table rather than filtering the fact table directly, reinforcing how relationships propagate filters in DAX.</div>
+<div class='callout impact'><strong>Impact on the dashboard:</strong> Shown as a small multiple card comparing Weekday versus Weekend average admissions per day on the Admissions &amp; Operations page.</div>
+</div>
+</section>
+<section id='s-dash'><h2 class='section-title'>5. Step 4 - Building the Five Dashboard Pages</h2>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Page 1 - Executive Overview</h3><p>A single-screen summary for hospital leadership: overall activity, growth, and the two most sensitive quality signals (mortality and emergency load).</p>
+<table><tr><th style='width:20%'>Visual</th><th style='width:16%'>Chart Type</th><th style='width:32%'>Fields</th><th>Build Notes</th></tr>
+<tr><td><strong>KPI Card Row</strong></td><td>Card visuals (x5)</td><td>Total Admissions, Total Patients, Total Revenue, Average Length of Stay, Mortality Rate %</td><td>Five cards across the top of the page, each bound to one measure. Use conditional formatting on Mortality Rate % (font colour rule) to draw the eye when it rises above a set threshold.</td></tr>
+<tr><td><strong>Admissions Trend by Month</strong></td><td>Line chart (with Admissions Growth % MoM as a secondary line on a combo chart)</td><td>Axis: Dim_Date[MonthName] (sorted by MonthNumber); Values: Total Admissions, Admissions Growth % MoM</td><td>The signature trend visual of the whole report; relies on the active Dim_Date to AdmissionDate relationship.</td></tr>
+<tr><td><strong>Admission Type Split</strong></td><td>Donut chart</td><td>Legend: Fact_Admissions[AdmissionType]; Values: Total Admissions</td><td>Immediately shows the Emergency vs Elective vs Outpatient vs Referral balance discussed in Emergency Admission %.</td></tr>
+<tr><td><strong>Admissions by State</strong></td><td>Clustered bar chart (or Filled Map if enabled)</td><td>Axis: Dim_Patients[StateOfOrigin]; Values: Total Admissions</td><td>Sorted descending, top 10 states only using a Top N filter, to keep the visual readable.</td></tr>
+<tr><td><strong>Top 5 Diagnoses</strong></td><td>Bar chart</td><td>Axis: Dim_Diagnosis[DiagnosisName]; Values: Total Admissions</td><td>Filtered to Top 5 using a Top N visual-level filter; gives leadership an instant disease-burden snapshot without navigating to page 2.</td></tr>
+</table></div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Page 2 - Patient Demographics &amp; Disease Burden</h3><p>Answers &#x27;who are our patients and what are they being treated for&#x27;, supporting population-health and resource-planning conversations.</p>
+<table><tr><th style='width:20%'>Visual</th><th style='width:16%'>Chart Type</th><th style='width:32%'>Fields</th><th>Build Notes</th></tr>
+<tr><td><strong>Admissions by Age Band</strong></td><td>Column chart</td><td>Axis: Age Band (calculated column on Dim_Patients using 0-17, 18-35, 36-55, 56-75, 76+); Values: Total Admissions</td><td>Requires a calculated column such as Age Band = SWITCH(TRUE(), Dim_Patients[Age] &lt; 18, &quot;0-17&quot;, Dim_Patients[Age] &lt;= 35, &quot;18-35&quot;, Dim_Patients[Age] &lt;= 55, &quot;36-55&quot;, Dim_Patients[Age] &lt;= 75, &quot;56-75&quot;, &quot;76+&quot;).</td></tr>
+<tr><td><strong>Gender Split</strong></td><td>Donut chart</td><td>Legend: Dim_Patients[Gender]; Values: Total Admissions</td><td>Simple but essential demographic slice.</td></tr>
+<tr><td><strong>Diagnosis Category by Severity</strong></td><td>Stacked bar chart</td><td>Axis: Dim_Diagnosis[DiagnosisCategory]; Legend: Dim_Diagnosis[SeverityLevel]; Values: Total Admissions</td><td>Shows which clinical categories skew toward Critical severity, an important resourcing signal.</td></tr>
+<tr><td><strong>Diagnosis Distribution Treemap</strong></td><td>Treemap</td><td>Group: Dim_Diagnosis[DiagnosisName]; Values: Total Admissions</td><td>Visually communicates the long tail of less common diagnoses alongside the handful of dominant ones (Malaria, Typhoid, Hypertension).</td></tr>
+<tr><td><strong>Top 10 Diagnoses Detail Table</strong></td><td>Table visual</td><td>Columns: DiagnosisName, Total Admissions, Average Length of Stay, Mortality Rate %</td><td>A precision instrument for clinicians who need exact figures rather than a chart estimate; sorted descending by Total Admissions and filtered to Top 10.</td></tr>
+</table></div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Page 3 - Admissions &amp; Length of Stay Operations</h3><p>Operational view for department heads and bed managers: where the load is, how long patients stay, and how outcomes vary by setting.</p>
+<table><tr><th style='width:20%'>Visual</th><th style='width:16%'>Chart Type</th><th style='width:32%'>Fields</th><th>Build Notes</th></tr>
+<tr><td><strong>Admissions by Department</strong></td><td>Column chart</td><td>Axis: Dim_Departments[DepartmentName]; Values: Total Admissions</td><td>Sorted descending; the primary operational load chart.</td></tr>
+<tr><td><strong>Average LOS Trend by Month</strong></td><td>Line chart</td><td>Axis: Dim_Date[MonthName] (sorted by MonthNumber); Values: Average LOS (Inpatient Only)</td><td>Uses the inpatient-only measure so outpatient zero-day visits do not flatten the trend line.</td></tr>
+<tr><td><strong>Admission Outcome by Department</strong></td><td>Clustered bar chart</td><td>Axis: Dim_Departments[DepartmentName]; Legend: Fact_Admissions[AdmissionOutcome]; Values: Total Admissions</td><td>Lets a department head see their own recovered-versus-referred-versus-deceased mix at a glance.</td></tr>
+<tr><td><strong>Department by Room Type Matrix</strong></td><td>Matrix visual</td><td>Rows: Dim_Departments[DepartmentName]; Columns: Fact_Admissions[RoomType]; Values: Total Admissions</td><td>Useful for bed-planning conversations about ward versus ICU versus private-room demand per department.</td></tr>
+<tr><td><strong>Weekend vs Weekday Load</strong></td><td>Gauge or card pair</td><td>Values: Weekend Admissions %</td><td>A compact operational indicator of staffing-pattern needs across the week.</td></tr>
+</table></div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Page 4 - Financial &amp; Billing Performance</h3><p>The finance-department view: what is billed, what is covered by insurance, what is collected, and where revenue comes from.</p>
+<table><tr><th style='width:20%'>Visual</th><th style='width:16%'>Chart Type</th><th style='width:32%'>Fields</th><th>Build Notes</th></tr>
+<tr><td><strong>Financial KPI Row</strong></td><td>Card visuals (x4)</td><td>Total Revenue, Total Insurance Covered, Total Patient Payable, Collection Rate %</td><td>Collection Rate % uses conditional formatting rules described in the DAX section.</td></tr>
+<tr><td><strong>Revenue by Service Type</strong></td><td>Column chart</td><td>Axis: Fact_Billing[ServiceType]; Values: Total Revenue</td><td>Sorted descending; typically led by Surgery and Imaging given their higher unit costs.</td></tr>
+<tr><td><strong>Payment Status Split</strong></td><td>Donut chart</td><td>Legend: Fact_Billing[PaymentStatus]; Values: Total Revenue</td><td>Immediately flags how much revenue sits in Pending or Insurance Processing, i.e. money not yet collected.</td></tr>
+<tr><td><strong>Coverage vs Out-of-Pocket by Insurance Type</strong></td><td>100% Stacked bar chart</td><td>Axis: Dim_Patients[InsuranceType]; Values: Insurance Coverage %, Out-of-Pocket %</td><td>A direct visual answer to which insurance categories leave patients most financially exposed.</td></tr>
+<tr><td><strong>Top 10 Highest Bills</strong></td><td>Table visual</td><td>Columns: BillID, ServiceType, ServiceCostNGN, PaymentStatus</td><td>Sorted descending by ServiceCostNGN and filtered to Top 10; useful for a finance team reviewing large outstanding balances.</td></tr>
+</table></div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Page 5 - Doctor &amp; Department Performance</h3><p>HR and clinical-leadership view: workload distribution across doctors, cost intensity across departments, and any relationship between experience and caseload.</p>
+<table><tr><th style='width:20%'>Visual</th><th style='width:16%'>Chart Type</th><th style='width:32%'>Fields</th><th>Build Notes</th></tr>
+<tr><td><strong>Top 10 Doctors by Admissions Handled</strong></td><td>Bar chart</td><td>Axis: Dim_Doctors Full Name (calculated column); Values: Doctor Caseload</td><td>Sorted descending, filtered to Top 10; uses the Doctor Caseload measure so the axis label reads naturally.</td></tr>
+<tr><td><strong>Average Treatment Cost by Department</strong></td><td>Column chart</td><td>Axis: Dim_Departments[DepartmentName]; Values: Average Treatment Cost per Admission</td><td>Levels the comparison across departments of very different sizes, as explained in the DAX section.</td></tr>
+<tr><td><strong>Doctor x Specialty Caseload Matrix</strong></td><td>Matrix visual</td><td>Rows: Dim_Doctors[Specialty]; Columns: Dim_Departments[DepartmentName]; Values: Doctor Caseload</td><td>Shows any cross-department deployment of a specialty and highlights any specialty-department mismatch worth investigating.</td></tr>
+<tr><td><strong>Experience vs Caseload</strong></td><td>Scatter chart</td><td>X-axis: Dim_Doctors[YearsOfExperience]; Y-axis: Doctor Caseload; Details: DoctorID</td><td>A gentle introduction to scatter charts and correlation reading, without asserting statistical causation to students.</td></tr>
+<tr><td><strong>Top Revenue-Generating Department</strong></td><td>Card with Top N filter, or a single-value KPI visual</td><td>Values: Total Revenue, filtered/sorted by department</td><td>A closing summary card tying department operational load back to the financial page.</td></tr>
+</table></div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Cross-Page Consistency</h3><p>Add a Year slicer (Dim_Date[Year]) and a Department slicer (Dim_Departments[DepartmentName]) to every page in the same top-right position. Select both, go to the View ribbon, open Sync Slicers, and tick every page so a filter choice on Page 1 automatically applies across Pages 2 to 5. Add five navigation buttons (Insert &gt; Buttons &gt; Blank, with Action type set to Page Navigation) in a consistent header band so users never need the page tabs at the bottom.</p></div>
+</section>
+<section id='s-qa'><h2 class='section-title'>6. Step 5 - Quality Check & Publish</h2>
+<div class='task-item'><span class='step-num'>1</span><div>Click through every slicer combination on every page and confirm no card visual shows (Blank) and no chart shows an empty plot area.</div></div>
+<div class='task-item'><span class='step-num'>2</span><div>Right-click each measure and use Quick Measure or the Performance Analyzer (View ribbon) to confirm no visual takes longer than roughly one second to render on this dataset size.</div></div>
+<div class='task-item'><span class='step-num'>3</span><div>Check that MonthName axes read January to December in calendar order, confirming the Sort By Column setting on Dim_Date took effect.</div></div>
+<div class='task-item'><span class='step-num'>4</span><div>Verify Mortality Rate % and Collection Rate % conditional formatting rules trigger correctly by temporarily filtering to a department or month where the values cross the threshold.</div></div>
+<div class='task-item'><span class='step-num'>5</span><div>Confirm the two inactive relationships remain dashed in Model view, and that Revenue by Payment Date genuinely returns a different number than Total Revenue when filtered to a single month, proving USERELATIONSHIP is working.</div></div>
+<div class='task-item'><span class='step-num'>6</span><div>Save the .pbix file, then use File &gt; Publish to publish the report to the Prodigy Training Hub Power BI Service workspace for the class.</div></div>
+</section>
+</div>
+<footer>&copy; Prodigy Training Hub - Prepared by Kajola Gbenga, Data Scientist &amp; AI Engineer. For classroom training use.</footer>
+</body></html>
