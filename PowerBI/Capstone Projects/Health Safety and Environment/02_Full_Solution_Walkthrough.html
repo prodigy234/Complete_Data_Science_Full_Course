@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>HSE Power BI Training - Full Solution Walkthrough</title>
+<style>
+:root {
+  --navy: #1F3864;
+  --navy-dark: #14213D;
+  --teal: #0E7C7B;
+  --amber: #E8A33D;
+  --red: #C0392B;
+  --green: #1E8449;
+  --gray-bg: #F4F6F8;
+  --gray-border: #D9DEE4;
+  --text: #24292E;
+}
+* { box-sizing: border-box; }
+body {
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: var(--text);
+  background: var(--gray-bg);
+  line-height: 1.6;
+}
+.wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  background: #ffffff;
+  box-shadow: 0 0 24px rgba(0,0,0,0.08);
+}
+header.cover {
+  background: linear-gradient(135deg, var(--navy) 0%, var(--navy-dark) 100%);
+  color: #fff;
+  padding: 70px 60px 50px 60px;
+  position: relative;
+}
+header.cover .eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 13px;
+  color: var(--amber);
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+header.cover h1 {
+  font-size: 36px;
+  margin: 0 0 10px 0;
+  font-weight: 700;
+}
+header.cover .subtitle {
+  font-size: 17px;
+  color: #CFE0E8;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+header.cover .author-block {
+  border-top: 1px solid rgba(255,255,255,0.25);
+  padding-top: 20px;
+  margin-top: 30px;
+}
+header.cover .author-name {
+  font-size: 18px;
+  font-weight: 700;
+}
+header.cover .author-title {
+  font-size: 14px;
+  color: var(--amber);
+  font-style: italic;
+}
+nav.toc {
+  padding: 40px 60px;
+  background: #fff;
+  border-bottom: 1px solid var(--gray-border);
+}
+nav.toc h2 { color: var(--navy); font-size: 20px; margin-top: 0; }
+nav.toc ol { columns: 2; column-gap: 40px; padding-left: 20px; }
+nav.toc li { margin-bottom: 8px; break-inside: avoid; }
+nav.toc a { color: var(--teal); text-decoration: none; font-size: 14.5px; }
+nav.toc a:hover { text-decoration: underline; }
+
+main { padding: 10px 60px 60px 60px; }
+section { padding-top: 30px; }
+section h2 {
+  color: var(--navy);
+  font-size: 24px;
+  border-bottom: 3px solid var(--teal);
+  padding-bottom: 10px;
+  margin-top: 50px;
+}
+section h3 {
+  color: var(--teal);
+  font-size: 18px;
+  margin-top: 32px;
+  border-left: 4px solid var(--amber);
+  padding-left: 10px;
+}
+section h4 {
+  color: var(--navy-dark);
+  font-size: 15.5px;
+  margin-top: 22px;
+}
+p { margin: 10px 0; font-size: 15px; }
+.callout {
+  background: #EEF6F6;
+  border-left: 4px solid var(--teal);
+  padding: 14px 18px;
+  margin: 18px 0;
+  border-radius: 0 6px 6px 0;
+  font-size: 14.5px;
+}
+.callout.warning { background: #FDF3E9; border-left-color: var(--amber); }
+.callout.danger { background: #FBEBE9; border-left-color: var(--red); }
+.callout strong { color: var(--navy); }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 16px 0 28px 0;
+  font-size: 13.5px;
+}
+table caption {
+  text-align: left;
+  font-weight: 700;
+  color: var(--navy);
+  margin-bottom: 6px;
+  font-size: 15px;
+}
+th {
+  background: var(--navy);
+  color: #fff;
+  text-align: left;
+  padding: 9px 10px;
+  font-size: 13px;
+}
+td {
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--gray-border);
+  vertical-align: top;
+}
+tr:nth-child(even) td { background: #FAFBFC; }
+tr:hover td { background: #F0F7F7; }
+
+.table-tag {
+  display: inline-block;
+  background: var(--teal);
+  color: #fff;
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  margin: 20px 0 6px 0;
+}
+.table-tag.fact { background: var(--navy); }
+
+code, pre code {
+  font-family: "Consolas", "Courier New", monospace;
+}
+pre {
+  background: #1E1E1E;
+  color: #DCDCDC;
+  padding: 16px 18px;
+  border-radius: 8px;
+  overflow-x: auto;
+  font-size: 13.5px;
+  margin: 12px 0 20px 0;
+  line-height: 1.5;
+}
+pre .c { color: #6A9955; }
+code.inline {
+  background: #EDEFF2;
+  padding: 2px 6px;
+  border-radius: 4px;
+  color: #B23A48;
+  font-size: 13px;
+}
+
+.checklist { list-style: none; padding-left: 0; margin: 14px 0; }
+.checklist li {
+  padding: 8px 10px 8px 34px;
+  position: relative;
+  margin-bottom: 6px;
+  background: #fff;
+  border: 1px solid var(--gray-border);
+  border-radius: 6px;
+  font-size: 14.5px;
+}
+.checklist li::before {
+  content: "";
+  position: absolute;
+  left: 10px; top: 10px;
+  width: 15px; height: 15px;
+  border: 2px solid var(--teal);
+  border-radius: 3px;
+}
+.checklist li strong { color: var(--navy); }
+
+.badge {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 10px;
+  color: #fff;
+  margin-left: 8px;
+}
+.badge.group { background: var(--amber); color: #4A3200; }
+.badge.page { background: var(--navy); }
+
+.chart-card {
+  border: 1px solid var(--gray-border);
+  border-radius: 8px;
+  padding: 16px 20px;
+  margin: 14px 0;
+  background: #fff;
+}
+.chart-card h4 { margin-top: 0; color: var(--navy); }
+.chart-card .meta { font-size: 12.5px; color: #6B7885; margin-bottom: 8px; }
+.chart-card .why-note { background: #FFF9EE; border-left: 3px solid var(--amber); padding: 8px 12px; border-radius: 0 5px 5px 0; font-size: 13.5px; }
+
+.dax-card {
+  border: 1px solid var(--gray-border);
+  border-radius: 8px;
+  margin: 20px 0;
+  overflow: hidden;
+}
+.dax-card .dax-header {
+  background: var(--navy);
+  color: #fff;
+  padding: 10px 16px;
+  font-weight: 700;
+  font-size: 14.5px;
+}
+.dax-card .dax-body { padding: 4px 20px 16px 20px; }
+.dax-card .why { background: #FFF9EE; border-left: 3px solid var(--amber); padding: 10px 14px; margin-top: 10px; font-size: 13.8px; border-radius: 0 5px 5px 0;}
+.dax-card .impact { background: #EEF6F6; border-left: 3px solid var(--teal); padding: 10px 14px; margin-top: 10px; font-size: 13.8px; border-radius: 0 5px 5px 0;}
+
+.page-section {
+  border: 2px solid var(--navy);
+  border-radius: 10px;
+  margin: 26px 0;
+  overflow: hidden;
+}
+.page-section .page-title {
+  background: var(--navy);
+  color: #fff;
+  padding: 14px 20px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.page-section .page-purpose {
+  padding: 12px 20px 0 20px;
+  font-style: italic;
+  color: #555;
+}
+.page-body { padding: 6px 20px 18px 20px; }
+
+footer.pagefoot {
+  text-align: center;
+  padding: 30px;
+  color: #93A0AB;
+  font-size: 12.5px;
+  border-top: 1px solid var(--gray-border);
+}
+.tag-row { display:flex; gap:8px; flex-wrap:wrap; margin: 8px 0 18px 0; }
+.pill { background:#fff; border:1px solid var(--gray-border); border-radius: 16px; padding: 4px 12px; font-size: 12.5px; color: var(--navy); }
+
+.two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+@media (max-width: 800px) {
+  .two-col { grid-template-columns: 1fr; }
+  nav.toc ol { columns: 1; }
+}
+
+</style>
+</head>
+<body>
+<div class="wrapper">
+
+<header class="cover">
+  <div class="eyebrow">Power BI Training Program - Document 2 of 2</div>
+  <h1>Health, Safety &amp; Environment (HSE)<br>Power BI Training - Full Solution Walkthrough</h1>
+  <div class="subtitle">The complete worked solution: data loading, Power Query cleaning, data modeling,
+  every DAX measure explained line by line, and the full 5-page dashboard build.</div>
+  <div class="author-block">
+    <div class="author-name">Kajola Gbenga</div>
+    <div class="author-title">Data Scientist &amp; AI Engineer</div>
+  </div>
+</header>
+
+<nav class="toc">
+<h2>Table of Contents</h2>
+<ol>
+<li><a href="#intro">1. How to Use This Solution File</a></li>
+<li><a href="#loading">2. Solution - Loading &amp; Cleaning the Data</a></li>
+<li><a href="#model">3. Solution - Data Model, Relationships &amp; Cardinality</a></li>
+<li><a href="#dax">4. Solution - Every DAX Measure, Explained Line by Line</a></li>
+<li><a href="#summary">5. Measures-to-Page Reference Map</a></li>
+<li><a href="#dashboards">6. Solution - Building the 5 Dashboard Pages</a></li>
+<li><a href="#standards">7. Cross-Page Design Standards</a></li>
+<li><a href="#qa">8. Final Quality Checklist</a></li>
+</ol>
+</nav>
+
+<main>
+
+<section id="intro">
+<h2>1. How to Use This Solution File</h2>
+<p>This is the companion solution to <code class="inline">01_Tasks_and_Planning.html</code>. Where that file asked you to
+attempt each step yourself, this file explains, in full, every decision: why each Power Query cleaning step matters, why
+each relationship has the cardinality it has, what every single DAX measure does line by line and why it was written
+that way, and how each of the five dashboard pages was designed, chart by chart. Read it side by side with your own
+attempt rather than as a replacement for making one.</p>
+</section>
+
+<section id="loading">
+<h2>2. Solution - Loading &amp; Cleaning the Data</h2>
+
+<h3>Step A - Connecting to the Source Workbook</h3>
+<ol>
+<li>Open Power BI Desktop &gt; Home &gt; Get Data &gt; Excel Workbook &gt; select <code class="inline">HSE_Training_Dataset.xlsx</code>.</li>
+<li>In the Navigator window, tick exactly these seven tables: dim_Date, dim_Site, dim_Employee, fact_Incidents,
+fact_Observations, fact_Environmental, fact_Training. The README, Data_Dictionary and Model_Map sheets are for humans
+reading the workbook directly, not for the data model - leave them unchecked.</li>
+<li>Click "Transform Data" (never "Load" directly) so every table opens in the Power Query Editor first.</li>
+</ol>
+<div class="callout"><strong>Why Transform Data, not Load:</strong> loading directly skips the one chance to catch type
+mismatches, stray whitespace, and null-handling problems while they are still cheap to fix. Every problem caught in
+Power Query costs one click to fix; the same problem caught later, after 30 DAX measures and 5 report pages are built
+on top of it, can cost hours.</div>
+
+<h3>Step B - Cleaning Each Table in Power Query</h3>
+
+<h4>B1. dim_Date</h4>
+<p>The <code class="inline">Date</code> column must be set to Date type (not Date/Time) - Excel occasionally exports a
+hidden 00:00:00 time component that, left in place, causes a date to fail to match visually-identical dates in a fact
+table during troubleshooting. <code class="inline">IsWeekend</code> should be a true Boolean; if it imports as the text
+"TRUE"/"FALSE" instead, change its type explicitly via Transform &gt; Data Type &gt; True/False. <code class="inline">DateKey</code>
+must be Whole Number, matching the type used for the same column in every fact table - a relationship will refuse to
+build cleanly across mismatched types.</p>
+
+<h4>B2. dim_Site</h4>
+<p>Apply Trim and Clean (Transform &gt; Format &gt; Trim / Clean) to every text column. This single step prevents the
+single most common relationship failure in this entire exercise: a SiteID like <code class="inline">"S01 "</code> (with a
+trailing space) that looks identical to <code class="inline">"S01"</code> in the preview grid but will not match it in a
+relationship.</p>
+
+<h4>B3. dim_Employee</h4>
+<p><code class="inline">DateOfBirth</code> and <code class="inline">HireDate</code> must both be Date type. Age is
+deliberately NOT built here as a Power Query calculated column - it is built later as a DAX measure
+(<code class="inline">DATEDIF</code>-style calculation against TODAY()) so that it always reflects the current date rather
+than being frozen at the moment the file was last refreshed. This is an important modeling principle: anything that
+depends on "now" belongs in DAX, not in a static ETL step.</p>
+
+<h4>B4. fact_Incidents</h4>
+<p><code class="inline">DateKey</code> and <code class="inline">SiteID</code> both need Trim applied.
+<code class="inline">EstimatedCostUSD</code> must be Decimal Number (Fixed Decimal Number is also acceptable) -
+if it imported as text because of a stray currency symbol upstream, use Replace Values to strip non-numeric characters
+before changing the type. <code class="inline">DateClosed</code> should be Date type with genuine nulls for open
+investigations - watch for the literal text "None" surviving a CSV round-trip and convert it to null first via
+Replace Values. <code class="inline">DaysLost</code> must be Whole Number.</p>
+
+<h4>B5, B6, B7. fact_Observations, fact_Environmental, fact_Training</h4>
+<p><code class="inline">Score</code> is Whole Number in both fact_Observations and fact_Training.
+<code class="inline">Value</code> and <code class="inline">ComplianceLimit</code> in fact_Environmental are Decimal Number.
+<code class="inline">ExpiryDateKey</code> in fact_Training is Whole Number, with true nulls (not 0) for any row where an
+expiry genuinely does not apply - a stray 0 would otherwise try to resolve to the epoch date and either break the
+relationship or silently create a phantom "blank date" bucket in every visual that uses it.</p>
+
+<p>Once every table above is confirmed clean, click Home &gt; Close &amp; Apply.</p>
+
+</section>
+
+<section id="model">
+<h2>3. Solution - Data Model, Relationships &amp; Cardinality</h2>
+
+<h3>Step C - Building the Data Model</h3>
+
+<h4>C1. Mark the Date Table</h4>
+<p>Select dim_Date &gt; Table Tools ribbon &gt; Mark as Date Table &gt; choose the Date column. This is a prerequisite,
+not a nicety: SAMEPERIODLASTYEAR, TOTALYTD, DATESINPERIOD and every other time-intelligence function used in Section 6
+below silently misbehave (or outright error) against a calendar table that hasn't been marked, because Power BI needs to
+know, structurally, that this table's date column is contiguous and unique.</p>
+
+<h4>C2. Build Every Relationship</h4>
+<table>
+<caption>The complete relationship map for this model</caption>
+<tr><th>From (many side)</th><th>Key</th><th>To (one side)</th><th>Key</th><th>Cardinality</th><th>Direction</th><th>Active</th></tr>
+<tr><td>fact_Incidents</td><td>DateKey</td><td>dim_Date</td><td>DateKey</td><td>Many-to-one</td><td>Single</td><td>Yes</td></tr>
+<tr><td>fact_Incidents</td><td>SiteID</td><td>dim_Site</td><td>SiteID</td><td>Many-to-one</td><td>Single</td><td>Yes</td></tr>
+<tr><td>fact_Incidents</td><td>EmployeeID</td><td>dim_Employee</td><td>EmployeeID</td><td>Many-to-one</td><td>Single</td><td>Yes</td></tr>
+<tr><td>fact_Observations</td><td>DateKey</td><td>dim_Date</td><td>DateKey</td><td>Many-to-one</td><td>Single</td><td>Yes</td></tr>
+<tr><td>fact_Observations</td><td>SiteID</td><td>dim_Site</td><td>SiteID</td><td>Many-to-one</td><td>Single</td><td>Yes</td></tr>
+<tr><td>fact_Observations</td><td>ObserverEmployeeID</td><td>dim_Employee</td><td>EmployeeID</td><td>Many-to-one</td><td>Single</td><td>Yes</td></tr>
+<tr><td>fact_Environmental</td><td>DateKey</td><td>dim_Date</td><td>DateKey</td><td>Many-to-one</td><td>Single</td><td>Yes</td></tr>
+<tr><td>fact_Environmental</td><td>SiteID</td><td>dim_Site</td><td>SiteID</td><td>Many-to-one</td><td>Single</td><td>Yes</td></tr>
+<tr><td>fact_Training</td><td>DateKey</td><td>dim_Date</td><td>DateKey</td><td>Many-to-one</td><td>Single</td><td>Yes</td></tr>
+<tr><td>fact_Training</td><td>ExpiryDateKey</td><td>dim_Date</td><td>DateKey</td><td>Many-to-one</td><td>Single</td><td><strong>No (inactive)</strong></td></tr>
+<tr><td>fact_Training</td><td>EmployeeID</td><td>dim_Employee</td><td>EmployeeID</td><td>Many-to-one</td><td>Single</td><td>Yes</td></tr>
+<tr><td>dim_Employee</td><td>SiteID</td><td>dim_Site</td><td>SiteID</td><td>Many-to-one</td><td>Single</td><td>Yes</td></tr>
+</table>
+
+<h4>C3. Why Every Relationship Is Many-to-One and Single-Direction</h4>
+<p><strong>Cardinality:</strong> each row in a fact table (one incident, one observation, one environmental reading, one
+training record) belongs to exactly one date, one site, and one employee - but any given date, site, or employee shows up
+across many fact rows. That asymmetry is the definition of a many-to-one relationship, and it is why every dimension
+table sits on the "one" side.</p>
+<p><strong>Filter direction:</strong> every relationship here is kept single-direction (dimension filters fact). If cross
+filtering were set to "Both" everywhere, filtering fact_Incidents by IncidentType would also silently ripple into
+fact_Observations and fact_Training through the shared dim_Site/dim_Date tables - producing numbers on unrelated visuals
+that change for reasons that are very difficult to explain or debug. Single-direction is the correct default for a star
+schema like this one; bidirectional filtering should only be added deliberately, for a specific, well-understood need.</p>
+
+<h4>C4. The Two Dates on fact_Training</h4>
+<p>fact_Training has two legitimate relationships to dim_Date: DateKey (when the training happened) and ExpiryDateKey
+(when the resulting certification expires). Power BI allows both relationships to exist, but only one of them can be
+Active at a time - Active means "the relationship DAX uses automatically, unless a measure explicitly says otherwise."
+DateKey is set Active because most measures need "how many trainings happened in a given month." ExpiryDateKey is left
+Inactive (shown as a dashed line in Model view) and is only invoked, on demand, inside the
+<code class="inline">Certifications Expiring Next 30 Days</code> measure (Section 6.4 below) using
+<code class="inline">USERELATIONSHIP()</code>.</p>
+
+<h4>C5. Common Relationship Failures and How to Diagnose Them</h4>
+<ul class="checklist">
+<li><strong>A relationship auto-builds as many-to-many</strong> (shown as "*...*") - almost always means a key that should
+be unique on the "one" side has duplicates. Fix: find and remove the duplicate in dim_Site/dim_Employee/dim_Date.</li>
+<li><strong>A relationship refuses to build, or shows a warning triangle</strong> - almost always a data type mismatch
+(e.g., DateKey stored as Text on one side, Whole Number on the other). Fix this in Power Query, never by forcing the
+relationship through.</li>
+<li><strong>A "(Blank)" category appears in a visual after a relationship is built</strong> - usually means a fact-table
+key value has no match in the dimension table (a typo, or a value that was trimmed on one side but not the other).</li>
+</ul>
+
+<h4>C6. Build the Measures Table</h4>
+<p>Home &gt; Enter Data (or New Table):</p>
+<pre><code>_Measures = ROW(&quot;Info&quot;, &quot;HSE Measures - see Section 6 of this guide&quot;)</code></pre>
+<p>Hide the Info column (right-click &gt; Hide in Report View), then reassign every measure created in Section 6 to live
+inside this table (select the measure, use the Home ribbon's "Table" / "Home Table" control) so all 30+ measures sit in
+one clean, browsable folder in the Fields pane rather than being scattered across seven data tables.</p>
+
+</section>
+
+<section id="dax">
+<h2>4. Solution - Every DAX Measure, Explained Line by Line</h2>
+<p>Every measure below should be created inside a dedicated measures table called <code class="inline">_Measures</code>
+(see Section 3.6). Read each card top to bottom: the DAX code first, then the line-by-line breakdown of what each part
+of the formula does, then why it was written that way, then its direct impact on the dashboard.</p>
+<h3>GROUP 1 - CORE COUNTING MEASURES</h3>
+<div class="dax-card"><div class="dax-header">1.1 Total Incidents</div><div class="dax-body">
+<pre><code>Total Incidents = COUNTROWS(fact_Incidents)</code></pre>
+<p><strong>Line by line:</strong></p>
+<ul>
+<li><code class="inline">COUNTROWS(fact_Incidents)</code> counts every row currently visible in fact_Incidents after all active filters (slicers, visual filters, cross-filters from slicing dimension tables) have been applied.</li>
+</ul>
+<div class="why">Why written this way: COUNTROWS is used instead of COUNT(fact_Incidents[IncidentID]) because it does not need to touch a specific column, so it is marginally faster and never breaks if a column is renamed.</div>
+<div class="impact">Impact on the dashboard: this is the base measure that almost every other incident measure is built from (rates, percentages, YoY change). It is the KPI card at the top-left of Page 1 and Page 2, and it is the value field behind every incident bar/line chart in this workbook.</div>
+</div></div>
+<div class="dax-card"><div class="dax-header">1.2 Total Near Misses</div><div class="dax-body">
+<pre><code>Total Near Misses = CALCULATE([Total Incidents], fact_Incidents[IncidentType] = &quot;Near Miss&quot;)</code></pre>
+<p><strong>Line by line:</strong></p>
+<ul>
+<li><code class="inline">CALCULATE( ... )</code> changes the filter context that <code class="inline">[Total Incidents]</code> is evaluated in.</li>
+<li><code class="inline">fact_Incidents[IncidentType] = &quot;Near Miss&quot;</code> is a filter argument that overrides any existing filter on IncidentType and restricts the row context to only Near Miss rows.</li>
+</ul>
+<div class="why">Why: Near misses sit at the base of the safety pyramid and are a strong leading indicator - the more near misses reported (and acted on), the more incidents are typically prevented downstream.</div>
+<div class="impact">Impact: used as its own KPI card and as the numerator in the Near-Miss-to-LTI ratio, which HSE managers use to judge whether the reporting culture is healthy.</div>
+</div></div>
+<div class="dax-card"><div class="dax-header">1.3 Total Lost Time Injuries (LTI)</div><div class="dax-body">
+<pre><code>Total LTI = CALCULATE([Total Incidents], fact_Incidents[IncidentType] = &quot;Lost Time Injury&quot;)</code></pre>
+<p>Same mechanic as 1.2, filtered to &quot;Lost Time Injury&quot;. This is a lagging indicator - the inverse of Near Misses - and is the numerator of the LTIFR measure in Group 3.</p>
+</div></div>
+<div class="dax-card"><div class="dax-header">1.4 Total Fatalities</div><div class="dax-body">
+<pre><code>Total Fatalities = CALCULATE([Total Incidents], fact_Incidents[IncidentType] = &quot;Fatality&quot;)</code></pre>
+<p>Used sparingly - typically as a single always-visible KPI card with conditional formatting (red if &gt; 0) because even one fatality is organizationally significant regardless of all other metrics. Rarely charted as a trend line because the numbers are intentionally very small in a well-run operation.</p>
+</div></div>
+<div class="dax-card"><div class="dax-header">1.5 Total Days Lost</div><div class="dax-body">
+<pre><code>Total Days Lost = SUM(fact_Incidents[DaysLost])</code></pre>
+<p><strong>Line by line:</strong></p>
+<ul>
+<li><code class="inline">SUM(fact_Incidents[DaysLost])</code> adds the DaysLost column across all currently-filtered rows.</li>
+</ul>
+<div class="impact">Impact: feeds the Severity Rate measure (Group 3) and is displayed as its own KPI to show the real productivity cost of incidents, not just the incident count.</div>
+</div></div>
+<div class="dax-card"><div class="dax-header">1.6 Total Incident Cost</div><div class="dax-body">
+<pre><code>Total Incident Cost = SUM(fact_Incidents[EstimatedCostUSD])</code></pre>
+<p>Straightforward SUM aggregation. Displayed formatted as currency ($#,##0) on the Executive Overview page and used to compute Average Cost per Incident (Group 3).</p>
+</div></div>
+<div class="dax-card"><div class="dax-header">1.7 Total Observations / Safe Observations / At-Risk Observations</div><div class="dax-body">
+<pre><code>Total Observations = COUNTROWS(fact_Observations)
+
+Safe Observations =
+CALCULATE([Total Observations], fact_Observations[ObservationType] = &quot;Safe Behavior&quot;)
+
+At-Risk Observations =
+CALCULATE([Total Observations], fact_Observations[ObservationType] = &quot;At-Risk Behavior&quot;)</code></pre>
+<div class="impact">Impact: these three feed the Safe Behavior % measure in Group 4 and populate the BBS (Behaviour-Based Safety) visuals on Page 3.</div>
+</div></div>
+<div class="dax-card"><div class="dax-header">1.8 Total Environmental Readings / Compliant Readings / Non-Compliant Readings</div><div class="dax-body">
+<pre><code>Total Env Readings = COUNTROWS(fact_Environmental)
+
+Compliant Readings =
+CALCULATE([Total Env Readings], fact_Environmental[ComplianceStatus] = &quot;Compliant&quot;)
+
+Non-Compliant Readings =
+CALCULATE([Total Env Readings], fact_Environmental[ComplianceStatus] = &quot;Non-Compliant&quot;)</code></pre>
+<div class="impact">Impact: feed Environmental Compliance % (Group 5) and the KPI cards/donut chart on Page 4.</div>
+</div></div>
+<div class="dax-card"><div class="dax-header">1.9 Total Trainings / Passed Trainings / Failed Trainings</div><div class="dax-body">
+<pre><code>Total Trainings = COUNTROWS(fact_Training)
+
+Passed Trainings =
+CALCULATE([Total Trainings], fact_Training[ResultStatus] = &quot;Pass&quot;)
+
+Failed Trainings =
+CALCULATE([Total Trainings], fact_Training[ResultStatus] = &quot;Fail&quot;)</code></pre>
+<div class="impact">Impact: feed Training Pass Rate % (Group 6) and the Page 5 KPI cards and charts.</div>
+</div></div>
+<h3>GROUP 2 - TIME INTELLIGENCE MEASURES</h3>
+<div class="dax-card"><div class="dax-header"></div><div class="dax-body">
+<p>These require dim_Date to be marked as the official Date Table in Power BI (Table tools &gt; Mark as Date Table &gt; pick the Date column) because every time-intelligence DAX function (SAMEPERIODLASTYEAR, DATEADD, TOTALYTD, etc.) depends on a contiguous, unique-date calendar table with an active relationship to the fact table it is filtering.</p>
+</div></div>
+<div class="dax-card"><div class="dax-header">2.1 Incidents PY (Prior Year, same period)</div><div class="dax-body">
+<pre><code>Incidents PY =
+CALCULATE(
+    [Total Incidents],
+    SAMEPERIODLASTYEAR(dim_Date[Date])
+)</code></pre>
+<p><strong>Line by line:</strong></p>
+<ul>
+<li><code class="inline">SAMEPERIODLASTYEAR(dim_Date[Date])</code> returns the same date range as whatever is currently filtered (e.g., January 2024) but shifted back exactly one year (January 2023).</li>
+<li><code class="inline">CALCULATE</code> re-evaluates <code class="inline">[Total Incidents]</code> inside that shifted date filter.</li>
+</ul>
+<div class="impact">Impact: this is the &quot;comparison&quot; half of every YoY chart and KPI on the Executive Overview page.</div>
+</div></div>
+<div class="dax-card"><div class="dax-header">2.2 Incidents YoY % Change</div><div class="dax-body">
+<pre><code>Incidents YoY % Change =
+VAR CurrentValue = [Total Incidents]
+VAR PriorValue = [Incidents PY]
+RETURN
+    DIVIDE(CurrentValue - PriorValue, PriorValue)</code></pre>
+<p><strong>Line by line:</strong></p>
+<ul>
+<li><code class="inline">VAR CurrentValue</code> stores this period&#x27;s incident count once, avoiding recalculating <code class="inline">[Total Incidents]</code> twice.</li>
+<li><code class="inline">VAR PriorValue</code> stores last year&#x27;s figure using measure 2.1.</li>
+<li><code class="inline">DIVIDE(CurrentValue - PriorValue, PriorValue)</code> calculates percentage change and safely returns BLANK() instead of an error if PriorValue is 0.</li>
+</ul>
+<p>Why DIVIDE and not <code class="inline">/</code>: DIVIDE has a built-in safe-divide behavior (returns BLANK or an optional third-argument default instead of throwing a divide-by-zero error), which matters a great deal once the dashboard is filtered down to a site/month combination that may have zero prior-year incidents.</p>
+<div class="impact">Impact: displayed as a KPI card with an up/down arrow and conditional color (red = incidents increased, green = incidents decreased) - this single measure is usually the first thing an HSE director looks at on the Monday morning review.</div>
+</div></div>
+<div class="dax-card"><div class="dax-header">2.3 Incidents YTD</div><div class="dax-body">
+<pre><code>Incidents YTD =
+TOTALYTD([Total Incidents], dim_Date[Date])</code></pre>
+<p><strong>Line by line:</strong></p>
+<ul>
+<li><code class="inline">TOTALYTD</code> is a time-intelligence shorthand that internally filters dim_Date[Date] from the first day of the current fiscal/calendar year up to the latest date in the current filter context, then evaluates <code class="inline">[Total Incidents]</code> inside that filter.</li>
+</ul>
+<div class="impact">Impact: used in the Page 1 line chart as a running cumulative total overlay, letting students compare &quot;how far we are into the year vs how many incidents have already happened.&quot;</div>
+</div></div>
+<div class="dax-card"><div class="dax-header">2.4 Rolling 3-Month Average Incidents</div><div class="dax-body">
+<pre><code>Incidents 3M Avg =
+AVERAGEX(
+    DATESINPERIOD(dim_Date[Date], MAX(dim_Date[Date]), -3, MONTH),
+    [Total Incidents]
+)</code></pre>
+<p><strong>Line by line:</strong></p>
+<ul>
+<li><code class="inline">DATESINPERIOD(dim_Date[Date], MAX(dim_Date[Date]), -3, MONTH)</code> builds a table of dates covering the 3 months ending on whatever the latest date in context is.</li>
+<li><code class="inline">AVERAGEX( table, expression )</code> iterates that date table row by row (in this case, effectively month by month once combined with a monthly-grain visual), evaluates <code class="inline">[Total Incidents]</code> for each, and averages the results.</li>
+</ul>
+<div class="impact">Impact: smooths the noisy monthly incident line chart on Page 1 so a trend line doesn&#x27;t overreact to a single bad month - a standard leading-indicator smoothing technique in HSE reporting.</div>
+</div></div>
+<h3>GROUP 3 - RATE AND RATIO MEASURES (industry-standard HSE KPIs)</h3>
+<div class="dax-card"><div class="dax-header"></div><div class="dax-body">
+<p>These use one important supporting measure, Total Hours Worked, which is an ESTIMATE because this teaching dataset does not include a payroll/timesheet fact table. This assumption is called out deliberately so students learn to document assumptions inside their DAX.</p>
+</div></div>
+<div class="dax-card"><div class="dax-header">3.1 Active Employees (headcount)</div><div class="dax-body">
+<pre><code>Active Employees = DISTINCTCOUNT(dim_Employee[EmployeeID])</code></pre>
+<p>Counts unique employees in the current filter context (e.g., filtered to one site or one department). Used as the denominator for per-capita measures.</p>
+</div></div>
+<div class="dax-card"><div class="dax-header">3.2 Total Hours Worked (estimated)</div><div class="dax-body">
+<pre><code>Total Hours Worked =
+VAR WorkingDaysInPeriod =
+    CALCULATE(
+        COUNTROWS(dim_Date),
+        dim_Date[IsWeekend] = FALSE()
+    )
+RETURN
+    [Active Employees] * WorkingDaysInPeriod * 8</code></pre>
+<p><strong>Line by line:</strong></p>
+<ul>
+<li><code class="inline">VAR WorkingDaysInPeriod</code> counts the weekdays (Monday-Friday) inside whatever date range is currently filtered, using the IsWeekend flag built into dim_Date.</li>
+<li>The RETURN line multiplies headcount x working days x an assumed 8-hour shift.</li>
+</ul>
+<div class="why">Documented assumption: real HSE reporting uses actual payroll/timesheet hours; this dataset approximates it so LTIFR/TRIR can still be taught. Students should replace this with a real hours-worked fact table when they apply this to an actual company dataset.</div>
+<div class="impact">Impact: denominator for LTIFR and TRIR below - without it, those two industry-standard KPIs could not be calculated at all.</div>
+</div></div>
+<div class="dax-card"><div class="dax-header">3.3 LTIFR (Lost Time Injury Frequency Rate, per 200,000 hours)</div><div class="dax-body">
+<pre><code>LTIFR =
+DIVIDE([Total LTI] * 200000, [Total Hours Worked])</code></pre>
+<p><strong>Line by line:</strong></p>
+<ul>
+<li><code class="inline">[Total LTI] * 200000</code> scales lost-time injuries to the standard OSHA-style base rate of 200,000 hours (equivalent to 100 employees working 40 hours/week for 50 weeks).</li>
+<li><code class="inline">DIVIDE( ..., [Total Hours Worked])</code> produces the rate safely.</li>
+</ul>
+<div class="impact">Impact: this is the single most-watched KPI in almost every real-world HSE dashboard; it lets sites of very different sizes be compared fairly (a big site will always have more raw incidents than a small site, but LTIFR normalizes for exposure hours).</div>
+</div></div>
+<div class="dax-card"><div class="dax-header">3.4 TRIR (Total Recordable Incident Rate, per 200,000 hours)</div><div class="dax-body">
+<pre><code>Total Recordable Incidents =
+CALCULATE(
+    [Total Incidents],
+    fact_Incidents[IncidentType] IN
+        { &quot;Medical Treatment Case&quot;, &quot;Restricted Work Case&quot;, &quot;Lost Time Injury&quot;, &quot;Fatality&quot; }
+)
+
+TRIR =
+DIVIDE([Total Recordable Incidents] * 200000, [Total Hours Worked])</code></pre>
+<p><strong>Line by line:</strong></p>
+<ul>
+<li><code class="inline">fact_Incidents[IncidentType] IN { ... }</code> is a shorthand for an OR condition across the four incident types that count as &quot;recordable&quot; under standard HSE classification (near misses and first-aid-only cases do NOT count as recordable).</li>
+<li>The TRIR calculation follows the same 200,000-hour scaling logic as LTIFR.</li>
+</ul>
+<div class="impact">Impact: TRIR is broader than LTIFR (it includes cases that didn&#x27;t cause lost time) and is the second most-watched HSE KPI; shown side-by-side with LTIFR as twin KPI cards on Page 1.</div>
+</div></div>
+<div class="dax-card"><div class="dax-header">3.5 Severity Rate</div><div class="dax-body">
+<pre><code>Severity Rate =
+DIVIDE([Total Days Lost] * 200000, [Total Hours Worked])</code></pre>
+<p>Same normalization logic as LTIFR/TRIR, but measures how severe incidents are (days lost) rather than how frequent they are. A site could have a low LTIFR but a high Severity Rate if its few incidents tend to be serious - this measure exists specifically to catch that pattern.</p>
+</div></div>
+<div class="dax-card"><div class="dax-header">3.6 Incident Rate per 100 Employees</div><div class="dax-body">
+<pre><code>Incidents per 100 Employees =
+DIVIDE([Total Incidents] * 100, [Active Employees])</code></pre>
+<p>A simpler, non-hours-based normalization that is easier for non-technical stakeholders to read than LTIFR. Used on the site comparison bar chart (Page 1) as a secondary label.</p>
+</div></div>
+<div class="dax-card"><div class="dax-header">3.7 Average Cost per Incident</div><div class="dax-body">
+<pre><code>Average Cost per Incident =
+DIVIDE([Total Incident Cost], [Total Incidents])</code></pre>
+<p>Straightforward ratio; used to show finance stakeholders the average financial exposure per event, and trended over time to show whether corrective actions are reducing incident severity in cost terms even if the count of incidents isn&#x27;t falling as fast.</p>
+</div></div>
+<div class="dax-card"><div class="dax-header">3.8 Near Miss to LTI Ratio</div><div class="dax-body">
+<pre><code>Near Miss to LTI Ratio =
+DIVIDE([Total Near Misses], [Total LTI])</code></pre>
+<p>A classic leading-vs-lagging indicator ratio. A healthy safety reporting culture typically shows a HIGH ratio (many near misses reported for every actual injury), because it means people are reporting small problems before they become big ones. A LOW ratio can mean either genuinely few near misses, or - more worryingly - under-reporting.</p>
+</div></div>
+<h3>GROUP 4 - SAFETY BEHAVIOUR (BBS) MEASURES</h3>
+<div class="dax-card"><div class="dax-header">4.1 Safe Behavior %</div><div class="dax-body">
+<pre><code>Safe Behavior % = DIVIDE([Safe Observations], [Total Observations])</code></pre>
+<p>Percentage of all logged observations that were rated as safe behavior. Displayed as a KPI card formatted as a percentage, with conditional formatting (green above 80%, amber 60-80%, red below 60%) - thresholds documented in the Word document.</p>
+</div></div>
+<div class="dax-card"><div class="dax-header">4.2 Average Safety Score</div><div class="dax-body">
+<pre><code>Average Safety Score = AVERAGE(fact_Observations[Score])</code></pre>
+<p>Straightforward average of the 1-10 Score column; used as a secondary quality-of-behavior indicator alongside the simpler Safe Behavior %.</p>
+</div></div>
+<div class="dax-card"><div class="dax-header">4.3 High Risk Observations</div><div class="dax-body">
+<pre><code>High Risk Observations =
+CALCULATE([Total Observations], fact_Observations[RiskRating] = &quot;High&quot;)</code></pre>
+<p>Isolates the most serious at-risk observations; charted separately because a High-risk observation deserves more management attention than a Low-risk one even though both count as &quot;At-Risk Behavior.&quot;</p>
+</div></div>
+<h3>GROUP 5 - ENVIRONMENTAL MEASURES</h3>
+<div class="dax-card"><div class="dax-header">5.1 Environmental Compliance %</div><div class="dax-body">
+<pre><code>Environmental Compliance % = DIVIDE([Compliant Readings], [Total Env Readings])</code></pre>
+<p>Percentage of all environmental readings that fell within their ComplianceLimit. This is the headline KPI on Page 4.</p>
+</div></div>
+<div class="dax-card"><div class="dax-header">5.2 Average Value by Parameter</div><div class="dax-body">
+<pre><code>Avg Environmental Value = AVERAGE(fact_Environmental[Value])</code></pre>
+<p>Used inside a matrix/table visual where ParameterType is a row so each parameter&#x27;s average naturally breaks out per row via the visual&#x27;s own filter context - the DAX itself stays simple because Power BI&#x27;s automatic row-context filtering does the segmentation work.</p>
+</div></div>
+<div class="dax-card"><div class="dax-header">5.3 Variance to Compliance Limit</div><div class="dax-body">
+<pre><code>Variance to Limit % =
+VAR AvgValue = [Avg Environmental Value]
+VAR AvgLimit = AVERAGE(fact_Environmental[ComplianceLimit])
+RETURN
+    DIVIDE(AvgValue - AvgLimit, AvgLimit)</code></pre>
+<p><strong>Line by line:</strong></p>
+<ul>
+<li><code class="inline">AvgValue</code> captures the average reading in the current context.</li>
+<li><code class="inline">AvgLimit</code> captures the average allowed limit in the same context.</li>
+<li>The RETURN line expresses how far over (positive) or under (negative) the limit the site or parameter is running, as a percentage.</li>
+</ul>
+<div class="impact">Impact: used as a conditional-formatted column inside the Page 4 table so reviewers can spot which parameter, at which site, is closest to breaching its limit - even before it actually goes Non-Compliant.</div>
+</div></div>
+<h3>GROUP 6 - TRAINING MEASURES</h3>
+<div class="dax-card"><div class="dax-header">6.1 Training Pass Rate %</div><div class="dax-body">
+<pre><code>Training Pass Rate % = DIVIDE([Passed Trainings], [Total Trainings])</code></pre>
+<p>Basic pass-rate percentage, headline KPI on Page 5.</p>
+</div></div>
+<div class="dax-card"><div class="dax-header">6.2 Average Training Score</div><div class="dax-body">
+<pre><code>Average Training Score = AVERAGE(fact_Training[Score])</code></pre>
+<p>Simple average, used alongside pass rate because a course can have a 100% pass rate (60+ score) while still trending down in average score - the two measures catch different problems.</p>
+</div></div>
+<div class="dax-card"><div class="dax-header">6.3 Certifications Expiring Soon</div><div class="dax-body">
+<pre><code>Certifications Expiring Soon =
+CALCULATE(
+    [Total Trainings],
+    fact_Training[CertificationStatus] = &quot;Expiring Soon&quot;
+)</code></pre>
+<p>Simple filtered count, but conceptually important because of where its date actually lives:</p>
+<p>CertificationStatus is driven by ExpiryDateKey, a SECOND relationship to dim_Date that is INACTIVE by default (see Group 7 below for how to reactivate it inside a measure).</p>
+</div></div>
+<div class="dax-card"><div class="dax-header">6.4 Certifications Expiring in Next 30 Days (using USERELATIONSHIP)</div><div class="dax-body">
+<pre><code>Certifications Expiring Next 30 Days =
+CALCULATE(
+    [Total Trainings],
+    USERELATIONSHIP(fact_Training[ExpiryDateKey], dim_Date[DateKey]),
+    DATESBETWEEN(
+        dim_Date[Date],
+        TODAY(),
+        TODAY() + 30
+    )
+)</code></pre>
+<p><strong>Line by line:</strong></p>
+<ul>
+<li><code class="inline">USERELATIONSHIP(fact_Training[ExpiryDateKey], dim_Date[DateKey])</code> temporarily activates the otherwise-inactive relationship between fact_Training&#x27;s expiry date and dim_Date, for the duration of this CALCULATE only. Without this line, the DATESBETWEEN filter below would silently apply to the ACTIVE relationship (training delivery date) instead, giving a completely wrong (and un-obvious) answer.</li>
+<li><code class="inline">DATESBETWEEN(dim_Date[Date], TODAY(), TODAY()+30)</code> builds a 30-day forward-looking date window from today.</li>
+</ul>
+<div class="why">Why this measure is included deliberately: it is the single best teaching example in this whole dataset of (a) why Power BI restricts a table pair to one active relationship at a time, and (b) how USERELATIONSHIP lets a measure reach for the inactive one on demand. Every student should be able to explain, from this one measure, why fact_Training[DateKey] and fact_Training[ExpiryDateKey] cannot both be active relationships to dim_Date simultaneously.</div>
+<div class="impact">Impact: this measure powers the &quot;certifications expiring soon&quot; alert table on Page 5, which is the single most actionable item on that page for an HSE training coordinator.</div>
+</div></div>
+<h3>GROUP 7 - KPI STATUS / CONDITIONAL FORMATTING HELPER MEASURES</h3>
+<div class="dax-card"><div class="dax-header">7.1 LTIFR Status (traffic-light helper)</div><div class="dax-body">
+<pre><code>LTIFR Status =
+SWITCH(
+    TRUE(),
+    [LTIFR] = BLANK(), &quot;No Data&quot;,
+    [LTIFR] &lt;= 0.5, &quot;On Target&quot;,
+    [LTIFR] &lt;= 1.5, &quot;Watch&quot;,
+    &quot;Off Target&quot;
+)</code></pre>
+<p><strong>Line by line:</strong></p>
+<ul>
+<li><code class="inline">SWITCH(TRUE(), condition1, result1, condition2, result2, ..., default)</code> is the standard DAX pattern for an IF/ELSE-IF chain that is easier to read than nested <code class="inline">IF()</code> statements.</li>
+<li>Each condition is checked top to bottom; the first TRUE condition wins.</li>
+<li>Thresholds (0.5, 1.5) are illustrative targets that should be replaced with the organization&#x27;s actual internal safety targets - documented explicitly so students know these are placeholders, not universal HSE standards.</li>
+</ul>
+<div class="impact">Impact: this text measure is bound to a card&#x27;s conditional formatting / to a KPI visual&#x27;s &quot;format by rules&quot; so the LTIFR card shows green/amber/red without a separate visual just for color - and it is also usable directly in a table/tooltip as a readable status label.</div>
+</div></div>
+<div class="dax-card"><div class="dax-header">7.2 Environmental Compliance Status</div><div class="dax-body">
+<pre><code>Environmental Compliance Status =
+SWITCH(
+    TRUE(),
+    [Environmental Compliance %] = BLANK(), &quot;No Data&quot;,
+    [Environmental Compliance %] &gt;= 0.95, &quot;Compliant&quot;,
+    [Environmental Compliance %] &gt;= 0.85, &quot;Marginal&quot;,
+    &quot;Non-Compliant&quot;
+)</code></pre>
+<p>Same SWITCH(TRUE()) pattern as 7.1, applied to environmental compliance thresholds.</p>
+<p>Used to color the Page 4 KPI card and the site-level compliance table.</p>
+</div></div>
+
+</section>
+
+<section id="summary">
+<h2>5. Measures-to-Page Reference Map</h2>
+<p>Use this table to quickly confirm which measures belong on which dashboard page while you build Section 6.</p>
+<table><caption>Measures used per dashboard page</caption>
+<tr><th>Page</th><th>Measures Used</th></tr>
+<tr><td>1. Executive HSE Overview</td><td>Total Incidents, Incidents PY, Incidents YoY % Change, Incidents YTD, LTIFR, TRIR, LTIFR Status, Total Days Lost, Environmental Compliance %, Training Pass Rate %, Incidents per 100 Employees</td></tr>
+<tr><td>2. Incident Deep Dive</td><td>Total Incidents, Total Near Misses, Total LTI, Total Fatalities, Average Cost per Incident, Total Incident Cost, Near Miss to LTI Ratio, Incidents 3M Avg</td></tr>
+<tr><td>3. Safety Behaviour (BBS)</td><td>Total Observations, Safe Observations, At-Risk Observations, Safe Behavior %, Average Safety Score, High Risk Observations</td></tr>
+<tr><td>4. Environmental Compliance</td><td>Total Env Readings, Compliant Readings, Non-Compliant Readings, Environmental Compliance %, Avg Environmental Value, Variance to Limit %, Environmental Compliance Status</td></tr>
+<tr><td>5. Training &amp; Competence</td><td>Total Trainings, Passed Trainings, Failed Trainings, Training Pass Rate %, Average Training Score, Certifications Expiring Soon, Certifications Expiring Next 30 Days</td></tr>
+</table>
+
+</section>
+
+<section id="dashboards">
+<h2>6. Solution - Building the 5 Dashboard Pages</h2>
+<div class="page-section"><div class="page-title">Dashboard Page 1 - "HSE Executive Overview"</div><div class="page-purpose">a single-glance summary for senior management - are we safe, are we compliant, are we trending better or worse than last year.</div><div class="page-body">
+<p><strong>Slicers:</strong> Year (dim_Date[Year]) - slicer, single-select buttons; Site (dim_Site[SiteName]) - dropdown slicer; Department (dim_Employee[Department]) - dropdown slicer</p>
+<div class="chart-card"><h4>Total Incidents</h4><p><strong>Design:</strong> Card - &quot;Total Incidents&quot; -&gt; measure [Total Incidents], subtitle shows [Incidents YoY % Change] with an up/down conditional arrow (red up = bad, green down = good).</p></div>
+<div class="chart-card"><h4>LTIFR</h4><p><strong>Design:</strong> Card - &quot;LTIFR&quot; -&gt; measure [LTIFR], background color driven by [LTIFR Status] (green/amber/red).</p></div>
+<div class="chart-card"><h4>TRIR</h4><p><strong>Design:</strong> Card - &quot;TRIR&quot; -&gt; measure [TRIR].</p></div>
+<div class="chart-card"><h4>Total Days Lost</h4><p><strong>Design:</strong> Card - &quot;Total Days Lost&quot; -&gt; measure [Total Days Lost].</p></div>
+<div class="chart-card"><h4>Environmental Compliance %</h4><p><strong>Design:</strong> Card - &quot;Environmental Compliance %&quot; -&gt; measure [Environmental Compliance %], formatted 0.0%.</p></div>
+<div class="chart-card"><h4>Training Pass Rate</h4><p><strong>Design:</strong> Card - &quot;Training Pass Rate&quot; -&gt; measure [Training Pass Rate %], formatted 0.0%.</p></div>
+<div class="chart-card"><h4>Monthly Incident Trend - Current Year vs Prior Year</h4><p><strong>Design:</strong> Line and clustered column chart - X axis: dim_Date[MonthShort] (sorted by MonthNumber), Columns: [Total Incidents] for current year, Line: [Incidents PY] for prior year overlay.</p><p class="why-note"><em>Why this chart: overlaying current vs prior year on the same month axis is the fastest way for an executive to see if the organization is improving seasonally, not just in raw totals.</em></p></div>
+<div class="chart-card"><h4>Incidents by Site (Raw Count vs Rate per 100 Employees)</h4><p><strong>Design:</strong> Clustered bar chart - Y axis: dim_Site[SiteName], Value: [Total Incidents] AND [Incidents per 100 Employees] as a second measure (dual value bars).</p><p class="why-note"><em>Why: a raw ranking of sites by incident count unfairly penalizes large sites; showing the per-capita rate alongside the raw count teaches students to never present one without the other.</em></p></div>
+<div class="chart-card"><h4>Incidents by Severity</h4><p><strong>Design:</strong> Donut chart - Legend: fact_Incidents[Severity], Value: [Total Incidents].</p></div>
+<div class="chart-card"><h4>Geographic Distribution of Incidents</h4><p><strong>Design:</strong> Map (or filled/shape map of Nigeria if available) - Location: dim_Site[Region], Bubble size: [Total Incidents]. (If a proper Azure Map / Shape Map isn&#x27;t available in the training environment, substitute a Treemap of Region -&gt; SiteName sized by [Total Incidents] - documented as an acceptable substitute in the solution file.)</p></div>
+</div></div>
+<div class="page-section"><div class="page-title">Dashboard Page 2 - "Incident Deep Dive"</div><div class="page-purpose">root-cause and corrective-action analysis for HSE managers running an incident review.</div><div class="page-body">
+<p><strong>Slicers:</strong> Year, IncidentType, Severity (all multi-select).</p>
+<div class="chart-card"><h4>Total Recordable Incidents</h4><p><strong>Design:</strong> Card - &quot;Total Recordable Incidents&quot; -&gt; measure [Total Recordable Incidents].</p></div>
+<div class="chart-card"><h4>Near Miss to LTI Ratio</h4><p><strong>Design:</strong> Card - &quot;Near Miss to LTI Ratio&quot; -&gt; measure [Near Miss to LTI Ratio], formatted &quot;0.0&quot;.</p></div>
+<div class="chart-card"><h4>Average Cost per Incident</h4><p><strong>Design:</strong> Card - &quot;Average Cost per Incident&quot; -&gt; measure [Average Cost per Incident], currency format.</p></div>
+<div class="chart-card"><h4>Incident Count by Type (Safety Pyramid View)</h4><p><strong>Design:</strong> Clustered bar chart - Y axis: fact_Incidents[IncidentType], Value: [Total Incidents], sorted descending.</p><p class="why-note"><em>Why: intentionally laid out so Near Miss (largest bar) sits at top and Fatality (smallest bar) at the bottom, visually recreating the classic HSE &quot;incident pyramid&quot; concept.</em></p></div>
+<div class="chart-card"><h4>Incident Category Mix by Department</h4><p><strong>Design:</strong> 100% stacked bar chart - X axis: dim_Employee[Department] (via relationship), Legend: fact_Incidents[IncidentCategory], Value: [Total Incidents].</p></div>
+<div class="chart-card"><h4>Root Cause by Site (Count and Cost)</h4><p><strong>Design:</strong> Matrix visual - Rows: fact_Incidents[RootCause], Columns: dim_Site[SiteName], Values: [Total Incidents] and [Total Incident Cost] (conditional-formatted data bars on cost).</p></div>
+<div class="chart-card"><h4>Severity vs Cost Scatter - Spotting Outlier Incidents</h4><p><strong>Design:</strong> Scatter chart - X axis: [Total Days Lost] (or DaysLost per incident), Y axis: [Average Cost per Incident], Details: fact_Incidents[IncidentID], Size: [Total Incidents].</p></div>
+<div class="chart-card"><h4>Open Investigations &amp; Overdue Corrective Actions - Action Required</h4><p><strong>Design:</strong> Table - Columns: IncidentID, Date, Site, IncidentType, Severity, InvestigationStatus, CorrectiveActionStatus. Filtered (visual-level filter) to CorrectiveActionStatus = &quot;Overdue&quot; OR InvestigationStatus = &quot;Open&quot;.</p><p class="why-note"><em>Why: every HSE dashboard needs at least one &quot;to-do list&quot; table, not just charts - this is the table an HSE manager actually works from after the meeting ends.</em></p></div>
+</div></div>
+<div class="page-section"><div class="page-title">Dashboard Page 3 - "Safety Behaviour &amp; Leading Indicators (BBS)"</div><div class="page-purpose">show how proactive, leading-indicator behavior (observations) correlates with the lagging incident numbers on Pages 1-2.</div><div class="page-body">
+<p><strong>Slicers:</strong> Year, Site, Category (observation category).</p>
+<div class="chart-card"><h4>Total Observations</h4><p><strong>Design:</strong> Card - &quot;Total Observations&quot; -&gt; [Total Observations].</p></div>
+<div class="chart-card"><h4>Safe Behavior %</h4><p><strong>Design:</strong> Card - &quot;Safe Behavior %&quot; -&gt; [Safe Behavior %], conditional color (green &gt;= 80%).</p></div>
+<div class="chart-card"><h4>Average Safety Score</h4><p><strong>Design:</strong> Card - &quot;Average Safety Score&quot; -&gt; [Average Safety Score].</p></div>
+<div class="chart-card"><h4>Observations by Category</h4><p><strong>Design:</strong> Clustered bar chart - Y axis: fact_Observations[Category], Value: [Total Observations] split by ObservationType (Safe vs At-Risk) as legend.</p></div>
+<div class="chart-card"><h4>Safe vs At-Risk Behavior Trend</h4><p><strong>Design:</strong> Line chart - X axis: dim_Date[YearMonth], Two lines: [Safe Observations] and [At-Risk Observations].</p><p class="why-note"><em>Why: a widening gap over time (safe line rising, at-risk line falling) is the clearest visual proof that a behaviour-based safety program is working.</em></p></div>
+<div class="chart-card"><h4>Risk Rating Split of At-Risk Observations</h4><p><strong>Design:</strong> Donut chart - Legend: fact_Observations[RiskRating], Value: [At-Risk Observations].</p></div>
+<div class="chart-card"><h4>Site Ranking - Where to Focus Coaching Effort</h4><p><strong>Design:</strong> Table (ranked) - Rows: dim_Site[SiteName], Values: [Total Observations], [Safe Behavior %], [Average Safety Score], sorted by Safe Behavior % ascending (worst first).</p></div>
+</div></div>
+<div class="page-section"><div class="page-title">Dashboard Page 4 - "Environmental Compliance"</div><div class="page-purpose">monitor environmental performance against regulatory/internal limits.</div><div class="page-body">
+<p><strong>Slicers:</strong> Year, ParameterType, Site.</p>
+<div class="chart-card"><h4>Environmental Compliance %</h4><p><strong>Design:</strong> Card - &quot;Environmental Compliance %&quot; -&gt; [Environmental Compliance %], color driven by [Environmental Compliance Status].</p></div>
+<div class="chart-card"><h4>Non-Compliant Readings</h4><p><strong>Design:</strong> Card - &quot;Non-Compliant Readings&quot; -&gt; [Non-Compliant Readings].</p></div>
+<div class="chart-card"><h4>Average CO2 Emissions</h4><p><strong>Design:</strong> Card - &quot;Average CO2 Emissions&quot; -&gt; [Avg Environmental Value] (filtered to CO2 Emissions via a visual-level filter, or shown inside a matrix where ParameterType is a row).</p></div>
+<div class="chart-card"><h4>Average Reading by Site and Parameter</h4><p><strong>Design:</strong> Clustered column chart - X axis: dim_Site[SiteName], Legend: fact_Environmental[ParameterType], Value: [Avg Environmental Value].</p></div>
+<div class="chart-card"><h4>Monthly Trend vs Compliance Limit</h4><p><strong>Design:</strong> Line chart - X axis: dim_Date[YearMonth], Value: [Avg Environmental Value], filtered to a single ParameterType via a &quot;Parameter&quot; slicer, with a constant reference line at AVERAGE(fact_Environmental[ComplianceLimit]) drawn using an Analytics-pane constant line.</p></div>
+<div class="chart-card"><h4>Compliance Status Split</h4><p><strong>Design:</strong> Donut chart - Legend: fact_Environmental[ComplianceStatus], Value: [Total Env Readings].</p></div>
+<div class="chart-card"><h4>Non-Compliant Readings - Investigation List</h4><p><strong>Design:</strong> Table - Columns: MonitoringID, Date, Site, ParameterType, Value, ComplianceLimit, [Variance to Limit %] (conditional formatted red/green), ComplianceStatus. Visual-level filter: ComplianceStatus = &quot;Non-Compliant&quot;.</p></div>
+</div></div>
+<div class="page-section"><div class="page-title">Dashboard Page 5 - "Training &amp; Competence"</div><div class="page-purpose">track training delivery, pass rates, and certification currency across the workforce.</div><div class="page-body">
+<p><strong>Slicers:</strong> Year, TrainingCourse, Department (via dim_Employee).</p>
+<div class="chart-card"><h4>Total Trainings Delivered</h4><p><strong>Design:</strong> Card - &quot;Total Trainings Delivered&quot; -&gt; [Total Trainings].</p></div>
+<div class="chart-card"><h4>Training Pass Rate</h4><p><strong>Design:</strong> Card - &quot;Training Pass Rate&quot; -&gt; [Training Pass Rate %].</p></div>
+<div class="chart-card"><h4>Certifications Expiring (Next 30 Days)</h4><p><strong>Design:</strong> Card - &quot;Certifications Expiring (Next 30 Days)&quot; -&gt; [Certifications Expiring Next 30 Days].</p></div>
+<div class="chart-card"><h4>Training Volume by Course</h4><p><strong>Design:</strong> Clustered bar chart - Y axis: fact_Training[TrainingCourse], Value: [Total Trainings], sorted descending.</p></div>
+<div class="chart-card"><h4>Monthly Pass Rate Trend</h4><p><strong>Design:</strong> Line chart - X axis: dim_Date[YearMonth], Value: [Training Pass Rate %].</p></div>
+<div class="chart-card"><h4>Certification Status Overview</h4><p><strong>Design:</strong> Donut chart - Legend: fact_Training[CertificationStatus], Value: [Total Trainings].</p></div>
+<div class="chart-card"><h4>Employees Needing Refresher Training - Action List</h4><p><strong>Design:</strong> Table - Columns: EmployeeID (via dim_Employee[FullName]), TrainingCourse, Score, ResultStatus, ExpiryDateKey (formatted as date), CertificationStatus. Visual-level filter: CertificationStatus IN {&quot;Expired&quot;,&quot;Expiring Soon&quot;}.</p></div>
+</div></div>
+
+</section>
+
+<section id="standards">
+<h2>7. Cross-Page Design Standards</h2>
+<p>These rules were applied consistently across all five pages so the finished report reads as one coherent product
+rather than five disconnected pages.</p>
+<ul class='checklist'><li>Every KPI card uses the same card visual style (rounded corners, 2px border, category label above value, YoY/target sub-label below in smaller gray text) for visual consistency.</li><li>Every page has the same slicer panel position (top strip, height 60px) so students learn to build a repeatable dashboard template, not a one-off page.</li><li>Every chart has a one-line &quot;Why this chart&quot; note placed in the Word document and HTML solution file (not on the canvas itself) so students learn the reasoning, not just the mechanics.</li><li>Tooltips: every column/bar/line visual should have a tooltip page or extended tooltip fields added (Site, Department, Date) so hovering reveals context without needing to click through.</li><li>Bookmarks (optional stretch task): create a bookmark group toggling between &quot;Count view&quot; and &quot;Rate view&quot; on Page 1, to teach students bookmark + selection pane + button interactions.</li></ul>
+</section>
+
+<section id="qa">
+<h2>8. Final Quality Checklist</h2>
+<ul class="checklist">
+<li>Every visual on every page renders with no error triangles and no "(Blank)" categories.</li>
+<li>Every KPI card's conditional formatting (LTIFR Status, Environmental Compliance Status) displays the correct color
+at realistic filter combinations (try filtering to a single small site to confirm BLANK() handling works).</li>
+<li>The Certifications Expiring Next 30 Days measure returns different, sensible numbers than a naive count using the
+active DateKey relationship - if it returns the same number, USERELATIONSHIP is not being applied correctly.</li>
+<li>Every slicer on every page cross-filters the visuals on that page correctly, and does not unexpectedly affect other
+pages (Power BI report-level vs page-level slicer scope should be deliberately chosen, not accidental).</li>
+<li>All monetary values are formatted consistently (USD, thousands separator) and all percentages are formatted to one
+decimal place throughout the report.</li>
+<li>The report has been tested with at least three different slicer combinations to confirm no visual breaks or shows
+misleading blank results.</li>
+</ul>
+</section>
+
+</main>
+
+<footer class="pagefoot">
+HSE Power BI Training Program &nbsp;&middot;&nbsp; Document 2 of 2: Full Solution Walkthrough<br>
+Prepared by Kajola Gbenga - Data Scientist &amp; AI Engineer
+</footer>
+
+</div>
+</body>
+</html>

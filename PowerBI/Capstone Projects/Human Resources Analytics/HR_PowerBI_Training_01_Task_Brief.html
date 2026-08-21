@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>HR Analytics Power BI Training - Task Brief | Kajola Gbenga</title>
+<style>
+  :root {
+    --navy: #1f3864;
+    --navy-dark: #14274a;
+    --gold: #c68b2b;
+    --light: #f5f6f8;
+    --border: #e0e3e8;
+    --text: #262b33;
+    --muted: #5b6472;
+    --code-bg: #1b1b2e;
+    --code-text: #d7e4f2;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', Calibri, Arial, sans-serif;
+    color: var(--text);
+    background: #ffffff;
+    line-height: 1.6;
+  }
+  header.hero {
+    background: linear-gradient(135deg, var(--navy) 0%, var(--navy-dark) 100%);
+    color: #fff;
+    padding: 56px 8vw 40px 8vw;
+  }
+  header.hero .kicker {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--gold);
+    font-weight: 700;
+    font-size: 0.85rem;
+    margin-bottom: 10px;
+  }
+  header.hero h1 {
+    margin: 0 0 8px 0;
+    font-size: 2.4rem;
+    font-weight: 800;
+  }
+  header.hero p.subtitle {
+    font-size: 1.15rem;
+    color: #dbe3f0;
+    margin: 0 0 26px 0;
+    max-width: 900px;
+  }
+  header.hero .byline {
+    border-top: 1px solid rgba(255,255,255,0.25);
+    padding-top: 18px;
+    display: flex;
+    gap: 10px;
+    align-items: baseline;
+    flex-wrap: wrap;
+  }
+  header.hero .byline .name {
+    font-weight: 700;
+    font-size: 1.05rem;
+  }
+  header.hero .byline .role {
+    color: #cdd7e8;
+    font-size: 0.95rem;
+  }
+  nav.toc {
+    position: sticky;
+    top: 0;
+    background: #ffffffee;
+    backdrop-filter: blur(6px);
+    border-bottom: 1px solid var(--border);
+    padding: 12px 8vw;
+    z-index: 50;
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+    font-size: 0.88rem;
+  }
+  nav.toc a {
+    color: var(--navy);
+    text-decoration: none;
+    font-weight: 600;
+    white-space: nowrap;
+    margin-right: 18px;
+    display: inline-block;
+  }
+  nav.toc a:hover { color: var(--gold); text-decoration: underline; }
+  main {
+    padding: 10px 8vw 80px 8vw;
+    max-width: 1180px;
+    margin: 0 auto;
+  }
+  section { padding-top: 46px; }
+  h2.section-title {
+    color: var(--navy);
+    font-size: 1.7rem;
+    border-bottom: 3px solid var(--gold);
+    padding-bottom: 10px;
+    margin-bottom: 18px;
+  }
+  h3.sub-title {
+    color: var(--navy);
+    font-size: 1.28rem;
+    margin-top: 34px;
+    margin-bottom: 10px;
+  }
+  h4.item-title {
+    color: var(--gold);
+    font-size: 1.05rem;
+    margin: 22px 0 6px 0;
+    border-left: 4px solid var(--gold);
+    padding-left: 10px;
+  }
+  p { color: var(--text); }
+  p.lead { color: var(--muted); font-size: 1.02rem; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 14px 0 26px 0;
+    font-size: 0.92rem;
+  }
+  th {
+    background: var(--navy);
+    color: #fff;
+    text-align: left;
+    padding: 10px 12px;
+  }
+  td {
+    padding: 9px 12px;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+  }
+  tr:nth-child(even) td { background: var(--light); }
+  ul.task-list, ul.plain-list { padding-left: 22px; }
+  ul.task-list li, ul.plain-list li { margin-bottom: 9px; }
+  ul.task-list li::marker { color: var(--gold); }
+  .card {
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 18px 20px;
+    margin-bottom: 18px;
+    background: #fbfbfc;
+  }
+  .card h4 { margin-top: 0; }
+  .badge {
+    display: inline-block;
+    background: var(--navy);
+    color: #fff;
+    border-radius: 20px;
+    padding: 2px 12px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    margin-right: 8px;
+  }
+  .badge.gold { background: var(--gold); }
+  pre.code {
+    background: var(--code-bg);
+    color: var(--code-text);
+    padding: 14px 16px;
+    border-radius: 8px;
+    overflow-x: auto;
+    font-family: Consolas, 'Courier New', monospace;
+    font-size: 0.86rem;
+    line-height: 1.5;
+    margin: 10px 0 18px 0;
+  }
+  .fields-line {
+    font-weight: 700;
+    color: #333;
+    margin: 6px 0 4px 0;
+    font-size: 0.92rem;
+  }
+  .callout {
+    background: #fff7e8;
+    border-left: 4px solid var(--gold);
+    padding: 14px 18px;
+    border-radius: 6px;
+    margin: 18px 0;
+  }
+  .callout.blue {
+    background: #eaf0fa;
+    border-left: 4px solid var(--navy);
+  }
+  .grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  @media (max-width: 800px) {
+    .grid2 { grid-template-columns: 1fr; }
+    header.hero h1 { font-size: 1.8rem; }
+  }
+  footer.doc-footer {
+    background: var(--navy-dark);
+    color: #cdd7e8;
+    padding: 26px 8vw;
+    font-size: 0.85rem;
+    text-align: center;
+    margin-top: 60px;
+  }
+  footer.doc-footer .name { color: #fff; font-weight: 700; }
+  a.back-top { font-size: 0.8rem; color: var(--muted); text-decoration: none; }
+  .page-divider {
+    height: 1px;
+    background: var(--border);
+    margin: 40px 0;
+  }
+  </style>
+</head>
+<body>
+
+  <header class="hero">
+    <div class="kicker">Power BI Training - Task Brief</div>
+    <h1>Human Resource Analytics with Power BI</h1>
+    <p class="subtitle">Task Brief: column-by-column data explanations and the full set of tasks to complete - data preparation, data modelling, DAX measures, and dashboard build.</p>
+    <div class="byline">
+      <span class="name">Kajola Gbenga</span>
+      <span class="role">Data Scientist &amp; AI Engineer</span>
+    </div>
+  </header>
+<nav class="toc">
+  <a href="#how-to-use">How To Use</a>
+  <a href="#architecture">Dataset Architecture</a>
+  <a href="#dictionary">Data Dictionary</a>
+  <a href="#task-a">A. Data Prep Tasks</a>
+  <a href="#task-b">B. Modelling Tasks</a>
+  <a href="#task-c">C. DAX Tasks</a>
+  <a href="#task-d">D. Dashboard Tasks</a>
+</nav>
+<main>
+<section id="how-to-use">
+  <h2 class="section-title">How To Use This Brief</h2>
+  <p class="lead">This file lists everything you need to know about the dataset, and everything you are asked to build, without giving away the solutions. Work through the task groups in order (A, then B, then C, then D) - each one depends on the last. When you are ready to check your work, or if you get stuck, refer to the companion "Full Solution Walkthrough" HTML file and the Word document curriculum.</p>
+  <div class="callout blue">
+    <strong>Companion files:</strong> HR_Analytics_PowerBI_Training_Dataset.xlsx (the data), this task brief, the full solution walkthrough HTML file, and the comprehensive Word document that contains both the problems and the fully explained solutions in one place.
+  </div>
+</section>
+<section id="architecture">
+  <h2 class="section-title">Dataset Architecture Overview</h2>
+  <p>The workbook contains seven tables that must all be loaded into Power BI. Study the shape of this model before you touch Power Query - it will save you time later.</p>
+  <table>
+    <tr><th>Table</th><th>Role</th><th>Grain (what one row represents)</th><th>Row Count</th></tr>
+    <tr><td>Employees</td><td>Central employee table</td><td>One employee</td><td>1,000</td></tr>
+    <tr><td>Dim_Department</td><td>Lookup / dimension</td><td>One department</td><td>10</td></tr>
+    <tr><td>Dim_JobTitle</td><td>Lookup / dimension</td><td>One job title</td><td>38</td></tr>
+    <tr><td>Dim_Location</td><td>Lookup / dimension</td><td>One office or remote location</td><td>15</td></tr>
+    <tr><td>Dim_Education</td><td>Lookup / dimension</td><td>One education level x field combination</td><td>50</td></tr>
+    <tr><td>Dim_Date</td><td>Calendar / date table</td><td>One calendar day, 2018-01-01 to 2026-12-31</td><td>3,287</td></tr>
+    <tr><td>Fact_PerformanceReviews</td><td>Fact table (historical)</td><td>One performance review for one employee in one year</td><td>3,173</td></tr>
+  </table>
+  <div class="callout">
+    <strong>Think before you relate:</strong> not every pair of matching ID columns should become a relationship in your model. Part of Task Group B is deciding which relationships genuinely belong, and which ones would only create ambiguity.
+  </div>
+</section><section id="dictionary"><h2 class="section-title">Comprehensive Data Dictionary</h2>
+<p class="lead">Every column, in every table, explained. Read this section fully before starting Task Group A.</p><h3 class="sub-title">Employees (main table, grain: 1 row per employee)</h3><table><tr><th>Column</th><th>Data Type</th><th>Explanation</th></tr><tr><td>EmployeeID</td><td>Text, primary key</td><td>Unique employee identifier (EMP0001 style). Every relationship into this table's row context is anchored on this key.</td></tr><tr><td>FirstName / LastName</td><td>Text</td><td>Employee's given and family name. Combined by the FullName formula column for display purposes.</td></tr><tr><td>Gender</td><td>Text</td><td>Female, Male or Non-Binary. Powers diversity and pay-equity visuals.</td></tr><tr><td>DateOfBirth</td><td>Date</td><td>Used to compute AgeYears (Excel formula column) and can be recomputed in DAX with DATEDIFF or the AgeYears column directly.</td></tr><tr><td>MaritalStatus</td><td>Text</td><td>Single, Married, Divorced or Widowed. A common HR analytics slicer.</td></tr><tr><td>DepartmentID / DepartmentName</td><td>Text (FK) / Text</td><td>DepartmentID is the modelling key back to Dim_Department. DepartmentName is denormalised so a student can build a quick chart before relationships even exist, then compare the result once the relationship is active.</td></tr><tr><td>JobTitleID / JobTitle / JobLevel</td><td>Text (FK) / Text / Text</td><td>JobTitleID is the modelling key back to Dim_JobTitle. JobLevel (Entry through Executive) is the seniority band used throughout the compensation and performance dashboards.</td></tr><tr><td>LocationID</td><td>Text (FK)</td><td>Modelling key back to Dim_Location, which supplies City, Country and Region.</td></tr><tr><td>EducationID</td><td>Text (FK)</td><td>Modelling key back to Dim_Education, which supplies EducationLevel and EducationField.</td></tr><tr><td>ManagerID</td><td>Text (self-referencing FK)</td><td>The EmployeeID of this person's manager. Used for the optional organisational-hierarchy exercise; blank for the CEO.</td></tr><tr><td>HireDate / TerminationDate</td><td>Date</td><td>The two dates that anchor every time-intelligence measure. HireDate is always populated; TerminationDate is populated only when EmploymentStatus = Terminated.</td></tr><tr><td>EmploymentStatus / TerminationReason / AttritionFlag</td><td>Text / Text / Text (Yes/No)</td><td>The three fields at the heart of attrition analysis. EmploymentStatus is the authoritative status; TerminationReason splits attrition into Voluntary and Involuntary buckets; AttritionFlag is a convenience Yes/No mirror used directly inside simple DAX conditions.</td></tr><tr><td>AnnualSalaryUSD / StockOptionLevel</td><td>Whole number / 0-3</td><td>Core compensation fields, the backbone of the Compensation dashboard page.</td></tr><tr><td>OvertimeEligible / OvertimeHoursLastYear</td><td>Yes/No / Whole number</td><td>Feeds overtime-cost and burnout-risk analysis.</td></tr><tr><td>WorkModel / BusinessTravelFrequency / DistanceFromHomeKM</td><td>Text / Text / Whole number</td><td>Onsite, Hybrid or Remote mix, travel intensity and commute distance - common modern workforce-planning fields.</td></tr><tr><td>NumCompaniesWorkedPrevious / RecruitmentSource</td><td>Whole number / Text</td><td>Career-history and hiring-channel fields, used to evaluate which recruitment channels bring in longer-tenured staff.</td></tr><tr><td>YearsSinceLastPromotion / YearsInCurrentRole / YearsWithCurrentManager</td><td>Decimal</td><td>Career-progression fields used on the Talent &amp; Workforce Planning page to flag promotion-readiness or stagnation risk.</td></tr><tr><td>TrainingHoursLastYear / AbsenteeismDaysLastYear</td><td>Whole number</td><td>Development-investment and wellbeing indicators.</td></tr><tr><td>WorkLifeBalanceScore / JobSatisfactionScore / EnvironmentSatisfactionScore / RelationshipSatisfactionScore</td><td>1-4 scale</td><td>The four standard IBM-style HR survey scores, giving students a familiar, realistic set of soft-metric columns.</td></tr><tr><td>PerformanceRatingLastReview / EngagementScorePercent</td><td>1-5 / 0-100</td><td>The employee's single most recent snapshot values, used for quick current-state visuals. The full history of these values through time lives in Fact_PerformanceReviews.</td></tr><tr><td>BenefitsEnrolled / HealthInsurancePlan / RemoteEquipmentProvided</td><td>Yes/No / Text / Yes/No</td><td>Benefits administration fields.</td></tr><tr><td>FullName, AgeYears, TenureYears (Excel formula columns)</td><td>Calculated</td><td>Added in Excel using formulas (not hardcoded values) so the workbook recalculates automatically. Students are asked to reproduce the same logic natively in DAX during the exercises, which is deliberate repetition to teach the Power Query/DAX equivalent of an Excel formula.</td></tr></table><h3 class="sub-title">Dim_Department</h3><table><tr><th>Column</th><th>Data Type</th><th>Explanation</th></tr><tr><td>DepartmentID</td><td>Text, primary key</td><td>10 rows, one per department.</td></tr><tr><td>DepartmentName / Division / BusinessUnit</td><td>Text</td><td>Three levels of organisational rollup, letting students practise building a drill-down hierarchy (BusinessUnit to Division to Department).</td></tr><tr><td>DepartmentHeadName</td><td>Text</td><td>The department's senior leader, used in tooltips.</td></tr><tr><td>DepartmentBudgetUSD</td><td>Whole number</td><td>Lets students compare AnnualSalaryUSD roll-ups against DepartmentBudgetUSD to compute a budget-utilisation measure.</td></tr></table><h3 class="sub-title">Dim_JobTitle</h3><table><tr><th>Column</th><th>Data Type</th><th>Explanation</th></tr><tr><td>JobTitleID</td><td>Text, primary key</td><td>38 rows spanning every department and job level.</td></tr><tr><td>JobTitle / JobLevel / JobFamily</td><td>Text</td><td>JobLevel (Entry, Mid, Senior, Lead, Manager, Director, Executive) is the field used to sort compensation bands correctly; JobFamily groups titles functionally, independent of department.</td></tr><tr><td>DepartmentID</td><td>Text</td><td>Present for reference only - deliberately not used as a relationship key (see the 'relationships not built' section).</td></tr></table><h3 class="sub-title">Dim_Location</h3><table><tr><th>Column</th><th>Data Type</th><th>Explanation</th></tr><tr><td>LocationID</td><td>Text, primary key</td><td>15 rows covering offices across Africa, EMEA, North America, the Middle East and APAC, plus two remote hubs.</td></tr><tr><td>City / StateProvince / Country / Region</td><td>Text</td><td>Four levels of geographic rollup, used for the location visuals and, if a map visual is available, for a filled map or shape map.</td></tr><tr><td>OfficeType</td><td>Text</td><td>HQ, Regional Office or Remote Hub.</td></tr></table><h3 class="sub-title">Dim_Education</h3><table><tr><th>Column</th><th>Data Type</th><th>Explanation</th></tr><tr><td>EducationID</td><td>Text, primary key</td><td>50 rows, one per EducationLevel x EducationField combination actually present in the workforce.</td></tr><tr><td>EducationLevel / EducationField</td><td>Text</td><td>Used together to analyse whether education background correlates with performance or compensation.</td></tr></table><h3 class="sub-title">Dim_Date (calendar table)</h3><table><tr><th>Column</th><th>Data Type</th><th>Explanation</th></tr><tr><td>DateKey</td><td>Whole number, YYYYMMDD</td><td>Integer surrogate key; not required once the Date column is marked as the table's date column, but included because many real-world models keep one.</td></tr><tr><td>Date</td><td>Date, primary key of the table</td><td>The column every relationship into this table points at. Must be marked 'Mark as Date Table' in Power BI for time-intelligence DAX functions to work correctly.</td></tr><tr><td>Year / FiscalYear / QuarterNumber / Quarter / MonthNumber / MonthName / MonthShort / Day / DayName / WeekOfYear / IsWeekend / YearMonth</td><td>Various</td><td>A complete set of calendar attributes spanning 2018-01-01 to 2026-12-31, enough to cover every HireDate, TerminationDate and ReviewDate in the dataset with headroom either side.</td></tr></table><h3 class="sub-title">Fact_PerformanceReviews (grain: 1 row per employee per review year)</h3><table><tr><th>Column</th><th>Data Type</th><th>Explanation</th></tr><tr><td>ReviewID</td><td>Text, primary key</td><td>Unique review record identifier.</td></tr><tr><td>EmployeeID</td><td>Text, foreign key</td><td>Links back to Employees. This table intentionally has many rows per employee, which is what makes it a fact table rather than a dimension.</td></tr><tr><td>ReviewDate / ReviewYear</td><td>Date / Whole number</td><td>ReviewDate is the modelling key into Dim_Date; ReviewYear is denormalised for quick grouping.</td></tr><tr><td>PerformanceRating / EngagementScorePercent / JobSatisfactionScore / ManagerFeedbackScore / GoalsAchievedPercent / TrainingHoursCompleted</td><td>Various</td><td>The full historical trail of every soft metric that also appears as a single current snapshot on the Employees table, letting students build genuine multi-year trend visuals rather than a flat single-point-in-time chart.</td></tr><tr><td>PromotionRecommended</td><td>Yes/No</td><td>Whether the reviewing manager recommended the employee for promotion at that specific review.</td></tr></table></section><section id="task-a"><h2 class="section-title">Task Group A - Data Preparation</h2>
+<p class="lead">Load and clean the data correctly before anything else. Getting this wrong will cause confusing errors much later, so take your time here.</p>
+<ul class="task-list"><li>Import all seven tables (Employees, Dim_Department, Dim_JobTitle, Dim_Location, Dim_Education, Dim_Date, Fact_PerformanceReviews) from the Excel workbook using Get Data &gt; Excel Workbook, leaving the ReadMe and Data_Dictionary sheets out of the model.</li><li>In Power Query, confirm every column has the correct data type - dates as Date, IDs as Text, whole-number scores as Whole Number, and TenureYears as Decimal Number - correcting any that Power BI auto-detected incorrectly.</li><li>Trim and clean text columns (TrimText / CleanText where relevant) even though this dataset is already clean, so students practise the habit on a dataset that will not punish a missed step.</li><li>In Dim_JobTitle, add a calculated JobLevelSortOrder column (1 for Entry through 7 for Executive) and set it as the 'Sort by Column' for JobLevel, so every visual using JobLevel displays in the correct seniority order.</li><li>In Employees, add a calculated TenureBucket column (0-1yr, 1-3yr, 3-5yr, 5yr+) and a PromotionGapBucket column (0-1yr, 1-2yr, 2-3yr, 3yr+), either in Power Query with a conditional column or in DAX with a calculated column.</li><li>Disable Auto date/time in Power BI Options (File &gt; Options and settings &gt; Options &gt; Data Load) before building any relationships, so Dim_Date is the only date table in the model.</li></ul></section><section id="task-b"><h2 class="section-title">Task Group B - Data Modelling (Relationships &amp; Cardinality)</h2>
+<p class="lead">Build the data model. For each relationship below, use Power BI's Model view to create it, and confirm the cardinality and cross-filter direction shown - do not just accept whatever Power BI auto-detects without checking it against this table.</p>
+<table>
+<tr><th>From (One side)</th><th>To (Many side)</th><th>Required Cardinality</th><th>Required Cross-Filter Direction</th><th>Required Status</th></tr><tr><td>Dim_Department[DepartmentID]</td><td>Employees[DepartmentID]</td><td>One-to-Many (1:*)</td><td>Single (Dim_Department filters Employees)</td><td>Active</td></tr><tr><td>Dim_JobTitle[JobTitleID]</td><td>Employees[JobTitleID]</td><td>One-to-Many (1:*)</td><td>Single (Dim_JobTitle filters Employees)</td><td>Active</td></tr><tr><td>Dim_Location[LocationID]</td><td>Employees[LocationID]</td><td>One-to-Many (1:*)</td><td>Single (Dim_Location filters Employees)</td><td>Active</td></tr><tr><td>Dim_Education[EducationID]</td><td>Employees[EducationID]</td><td>One-to-Many (1:*)</td><td>Single (Dim_Education filters Employees)</td><td>Active</td></tr><tr><td>Dim_Date[Date]</td><td>Employees[HireDate]</td><td>One-to-Many (1:*)</td><td>Single (Dim_Date filters Employees)</td><td>Active (default relationship)</td></tr><tr><td>Dim_Date[Date]</td><td>Employees[TerminationDate]</td><td>One-to-Many (1:*)</td><td>Single (Dim_Date filters Employees)</td><td>Inactive (a table can only have one active relationship to the same Dim_Date table at a time)</td></tr><tr><td>Dim_Date[Date]</td><td>Fact_PerformanceReviews[ReviewDate]</td><td>One-to-Many (1:*)</td><td>Single (Dim_Date filters Fact_PerformanceReviews)</td><td>Active</td></tr><tr><td>Employees[EmployeeID]</td><td>Fact_PerformanceReviews[EmployeeID]</td><td>One-to-Many (1:*)</td><td>Single (Employees filters Fact_PerformanceReviews)</td><td>Active</td></tr></table>
+<div class="callout">
+  <strong>Task:</strong> two plausible-looking relationships have deliberately been left out of the list above. Part of this exercise is figuring out which two candidate ID-column pairs exist in the dataset but should <em>not</em> be turned into a relationship, and writing down why, in one sentence each.
+</div>
+<ul class="task-list"><li>Build the eight relationships listed in the Data Modelling section of this document, checking that Power BI has inferred One-to-Many cardinality and Single cross-filter direction for each one, correcting any that were auto-detected as One-to-One or Many-to-Many.</li><li>Mark Dim_Date as a date table (right-click the table &gt; Mark as date table &gt; choose the Date column).</li><li>Manually set the Dim_Date-to-TerminationDate relationship to Inactive, and confirm the Dim_Date-to-HireDate relationship remains Active.</li><li>Hide foreign key columns (DepartmentID, JobTitleID, LocationID, EducationID) from Report view once the relationships are built, since report users should filter using the friendly Dim_ table columns, not the keys.</li><li>Organise measures into a dedicated, hidden-from-data 'Measures' table (a Power Query blank query with no rows) so the model stays tidy as the DAX library grows.</li></ul></section><section id="task-c"><h2 class="section-title">Task Group C - DAX Measures To Build</h2>
+<p class="lead">Build every measure listed below. You are given the measure name and what it must calculate - work out the DAX yourself before checking the solution file. Measures are grouped in the order you should build them, because later measures in each group may depend on earlier ones.</p><h3 class="sub-title">1. Core Workforce Measures</h3><div class="card"><h4>Total Employees</h4><p>This is the foundation measure almost every other workforce measure divides into or compares against. It also becomes the denominator for every percentage-based measure below.</p></div><div class="card"><h4>Active Employees</h4><p>Distinguishes current, working headcount from historical headcount that includes people who have since left.</p></div><div class="card"><h4>Terminated Employees</h4><p>The numerator for attrition rate and the base count for every 'who left and why' visual.</p></div><div class="card"><h4>Average Tenure (Years)</h4><p>Tenure is one of the single strongest predictors of attrition risk in real HR analytics, and a simple, honest average is the right first metric before building tenure buckets.</p></div><div class="card"><h4>Average Age</h4><p>Gives a quick generational profile of the workforce, useful context for succession-planning discussions.</p></div><h3 class="sub-title">2. Attrition &amp; Retention Measures</h3><div class="card"><h4>Attrition Rate %</h4><p>This is the single most requested HR KPI in almost every real-world Power BI HR project.</p></div><div class="card"><h4>Voluntary Attrition %</h4><p>Voluntary and involuntary attrition need very different management responses, so leadership almost always wants them split apart rather than blended into one number.</p></div><div class="card"><h4>Involuntary Attrition %</h4><p>Completes the voluntary/involuntary split so the two measures always sum to the overall Attrition Rate %, which is another useful in-class validation exercise.</p></div><div class="card"><h4>Attrition Rate % (by termination date, time intelligence)</h4><p>This is the measure that actually lets a line chart show attrition rate changing month by month or year by year - without it, every period would show the same flat overall Attrition Rate %, because the default relationship in this model is on HireDate, not TerminationDate.</p></div><div class="card"><h4>Active Headcount (Cumulative)</h4><p>A simple COUNTROWS filtered by month would only show people hired in that specific month, not the running total of everyone employed - this is one of the most common beginner mistakes in HR headcount reporting, so it is included deliberately as a teaching measure.</p></div><div class="card"><h4>Average Tenure at Exit</h4><p>Distinguishes 'people who barely started and left quickly' from 'people who left after a long, healthy career', which need very different retention responses.</p></div><h3 class="sub-title">3. Compensation Measures</h3><div class="card"><h4>Average Salary</h4><p>The baseline compensation benchmark for every other pay comparison in the workbook.</p></div><div class="card"><h4>Median Salary</h4><p>Salary distributions are typically right-skewed by a small number of very highly paid executives, so the median is a more honest 'typical employee' figure than the average, and comparing the two teaches students why both matter.</p></div><div class="card"><h4>Total Payroll Cost</h4><p>Finance and executive stakeholders think in total cost, not averages, so this measure translates the same underlying column into a budgeting-relevant figure.</p></div><div class="card"><h4>Budget Utilisation %</h4><p>Shows what percentage of each department's allocated budget is actually being consumed by salaries, a very common real-world Finance-and-HR crossover metric.</p></div><div class="card"><h4>Gender Pay Gap %</h4><p>Pay equity is one of the most requested analyses in modern HR analytics and a natural showcase for variables used to compare two differently-filtered versions of the same base measure.</p></div><h3 class="sub-title">4. Performance &amp; Engagement Measures</h3><div class="card"><h4>Average Performance Rating</h4><p>Gives a current-state performance benchmark without needing to touch the review history fact table.</p></div><div class="card"><h4>Average Engagement Score</h4><p>Engagement is consistently one of the top three metrics HR leadership tracks, alongside attrition and headcount.</p></div><div class="card"><h4>High Performer %</h4><p>Talent-density is a key input to succession planning and retention prioritisation - you protect your high performers first.</p></div><div class="card"><h4>Average Review Rating (History)</h4><p>Lets students directly compare a 'current snapshot' measure against a 'full history' measure built from a proper fact table, reinforcing why the fact table exists at all.</p></div><div class="card"><h4>Promotion Recommended Rate</h4><p>A leading indicator of internal mobility and career progression health, useful alongside YearsSinceLastPromotion.</p></div><div class="card"><h4>Average Training Hours</h4><p>Connects development investment to the performance and engagement metrics sitting next to it, inviting a natural correlation discussion in class.</p></div><h3 class="sub-title">5. Talent &amp; Workforce Planning Measures</h3><div class="card"><h4>New Hires (Period)</h4><p>The direct count of people who joined in a given month, quarter or year - the mirror image of the attrition trend measure.</p></div><div class="card"><h4>Net Headcount Change</h4><p>A single number that tells leadership whether the organisation grew or shrank in a given period, combining both relationships in one measure.</p></div><div class="card"><h4>Average Years Since Last Promotion</h4><p>A simple stagnation-risk indicator - long gaps since the last promotion correlate strongly with voluntary attrition in real organisations.</p></div><div class="card"><h4>Remote Work %</h4><p>Work-model mix is now a standard, expected metric on any modern workforce-planning dashboard.</p></div><div class="card"><h4>Average Span of Control</h4><p>Span of control (average team size per manager) is a classic organisational-design metric, and this measure is deliberately included as the most advanced DAX pattern in the course - it introduces table functions, virtual columns and iterators together.</p></div><ul class="task-list"><li>Build every measure listed in the DAX section of this document, in the five groups given (Core Workforce, Attrition &amp; Retention, Compensation, Performance &amp; Engagement, Talent &amp; Workforce Planning).</li><li>Format every percentage measure as a percentage with one decimal place, every currency measure with a $ symbol and thousands separator, and every count measure as a whole number.</li><li>Write a one-line description for each measure in the Measure tools &gt; Description field in Power BI Desktop, matching the 'why' explanation given for that measure in this document.</li><li>Validate the Voluntary Attrition % and Involuntary Attrition % measures sum to Attrition Rate % for at least three different department filters, as a correctness check.</li></ul></section><section id="task-d"><h2 class="section-title">Task Group D - Dashboards To Build</h2>
+<p class="lead">Build five dashboard pages, using the exact titles given below. For each page, the required charts are listed with their type and the fields they must use - the exact layout, formatting and colour choices are yours to design.</p><h3 class="sub-title">Page 1 - Executive Workforce Overview</h3>
+  <p class="lead"><strong>Purpose:</strong> A single-screen summary a CHRO or CEO can read in under a minute: how big is the workforce, where are people, and is it growing or shrinking.</p><div class="card">
+      <h4>KPI Card Row <span class="badge gold">5 Card visuals</span></h4>
+      <div class="fields-line">Required fields: Total Employees, Active Employees, Attrition Rate %, Average Tenure (Years), Average Salary</div>
+    </div><div class="card">
+      <h4>Headcount Trend <span class="badge gold">Line chart</span></h4>
+      <div class="fields-line">Required fields: Axis: Dim_Date[YearMonth] (sorted by a hidden Year/MonthNumber column); Values: Active Headcount (Cumulative)</div>
+    </div><div class="card">
+      <h4>Headcount by Department <span class="badge gold">Clustered bar chart</span></h4>
+      <div class="fields-line">Required fields: Axis: Dim_Department[DepartmentName]; Values: Active Employees</div>
+    </div><div class="card">
+      <h4>Gender Distribution <span class="badge gold">Donut chart</span></h4>
+      <div class="fields-line">Required fields: Legend: Employees[Gender]; Values: Active Employees</div>
+    </div><div class="card">
+      <h4>Headcount by Region <span class="badge gold">Clustered column chart (or a map visual if available)</span></h4>
+      <div class="fields-line">Required fields: Axis: Dim_Location[Region]; Values: Active Employees</div>
+    </div><div class="card">
+      <h4>Department Summary Table <span class="badge gold">Table visual</span></h4>
+      <div class="fields-line">Required fields: Columns: DepartmentName, Active Employees, Attrition Rate %, Average Salary, Average Engagement Score</div>
+    </div><h3 class="sub-title">Page 2 - Attrition &amp; Retention Analysis</h3>
+  <p class="lead"><strong>Purpose:</strong> Diagnose where and why the organisation is losing people, and whether the losses are voluntary or forced.</p><div class="card">
+      <h4>KPI Card Row <span class="badge gold">4 Card visuals</span></h4>
+      <div class="fields-line">Required fields: Attrition Rate %, Voluntary Attrition %, Involuntary Attrition %, Average Tenure at Exit</div>
+    </div><div class="card">
+      <h4>Attrition Rate Trend <span class="badge gold">Line chart</span></h4>
+      <div class="fields-line">Required fields: Axis: Dim_Date[YearMonth]; Values: Attrition Rate % (Trend)</div>
+    </div><div class="card">
+      <h4>Attrition by Department <span class="badge gold">Clustered bar chart</span></h4>
+      <div class="fields-line">Required fields: Axis: Dim_Department[DepartmentName]; Values: Terminated Employees, Attrition Rate %</div>
+    </div><div class="card">
+      <h4>Attrition by Job Level <span class="badge gold">Clustered column chart</span></h4>
+      <div class="fields-line">Required fields: Axis: Dim_JobTitle[JobLevel] (custom sorted Entry to Executive); Values: Attrition Rate %</div>
+    </div><div class="card">
+      <h4>Termination Reason Breakdown <span class="badge gold">Donut chart</span></h4>
+      <div class="fields-line">Required fields: Legend: Employees[TerminationReason]; Values: Terminated Employees</div>
+    </div><div class="card">
+      <h4>Attrition by Tenure Bucket <span class="badge gold">Clustered bar chart</span></h4>
+      <div class="fields-line">Required fields: Axis: a calculated TenureBucket column (0-1yr, 1-3yr, 3-5yr, 5yr+); Values: Terminated Employees</div>
+    </div><h3 class="sub-title">Page 3 - Compensation &amp; Diversity</h3>
+  <p class="lead"><strong>Purpose:</strong> Answer whether pay is competitive, consistent across job levels, and equitable across gender and department.</p><div class="card">
+      <h4>KPI Card Row <span class="badge gold">4 Card visuals</span></h4>
+      <div class="fields-line">Required fields: Average Salary, Median Salary, Total Payroll Cost, Gender Pay Gap %</div>
+    </div><div class="card">
+      <h4>Average Salary by Job Level <span class="badge gold">Clustered column chart</span></h4>
+      <div class="fields-line">Required fields: Axis: Dim_JobTitle[JobLevel] (custom sorted); Values: Average Salary</div>
+    </div><div class="card">
+      <h4>Average Salary by Department <span class="badge gold">Clustered bar chart</span></h4>
+      <div class="fields-line">Required fields: Axis: Dim_Department[DepartmentName]; Values: Average Salary</div>
+    </div><div class="card">
+      <h4>Salary Distribution by Gender <span class="badge gold">Box-and-whisker chart if available, otherwise a clustered column of Average Salary by JobLevel split by Gender</span></h4>
+      <div class="fields-line">Required fields: Axis: JobLevel; Legend: Gender; Values: Average Salary</div>
+    </div><div class="card">
+      <h4>Headcount by Gender and Department <span class="badge gold">Stacked bar chart</span></h4>
+      <div class="fields-line">Required fields: Axis: DepartmentName; Legend: Gender; Values: Active Employees</div>
+    </div><div class="card">
+      <h4>Top Paid Job Titles Table <span class="badge gold">Table visual, Top N filtered</span></h4>
+      <div class="fields-line">Required fields: Columns: JobTitle, Average Salary, Active Employees; filtered to the top 10 by Average Salary</div>
+    </div><h3 class="sub-title">Page 4 - Performance &amp; Engagement</h3>
+  <p class="lead"><strong>Purpose:</strong> Connect people-development activity (training, reviews) to outcomes (performance, engagement, promotion).</p><div class="card">
+      <h4>KPI Card Row <span class="badge gold">4 Card visuals</span></h4>
+      <div class="fields-line">Required fields: Average Performance Rating, Average Engagement Score, High Performer %, Average Training Hours</div>
+    </div><div class="card">
+      <h4>Performance Rating by Department <span class="badge gold">Clustered column chart</span></h4>
+      <div class="fields-line">Required fields: Axis: DepartmentName; Values: Average Performance Rating</div>
+    </div><div class="card">
+      <h4>Engagement &amp; Performance Trend <span class="badge gold">Line chart with two lines</span></h4>
+      <div class="fields-line">Required fields: Axis: Fact_PerformanceReviews[ReviewYear] (via Dim_Date); Values: Average Review Rating (History), Average Engagement Score (History, same pattern as Average Review Rating but averaging EngagementScorePercent)</div>
+    </div><div class="card">
+      <h4>Training Hours vs Performance <span class="badge gold">Scatter chart</span></h4>
+      <div class="fields-line">Required fields: X axis: Average Training Hours; Y axis: Average Performance Rating; Details/legend: DepartmentName; Size: Active Employees</div>
+    </div><div class="card">
+      <h4>Promotion Recommended Rate by Department <span class="badge gold">Clustered bar chart</span></h4>
+      <div class="fields-line">Required fields: Axis: DepartmentName; Values: Promotion Recommended Rate</div>
+    </div><div class="card">
+      <h4>Top and Bottom Performers Table <span class="badge gold">Table visual with two Top N filters</span></h4>
+      <div class="fields-line">Required fields: Columns: FullName, DepartmentName, JobTitle, PerformanceRatingLastReview, EngagementScorePercent</div>
+    </div><h3 class="sub-title">Page 5 - Talent &amp; Workforce Planning</h3>
+  <p class="lead"><strong>Purpose:</strong> Forward-looking page: how the organisation is hiring, where flexibility exists, and where promotion stagnation risk is building up.</p><div class="card">
+      <h4>KPI Card Row <span class="badge gold">4 Card visuals</span></h4>
+      <div class="fields-line">Required fields: New Hires (Period), Net Headcount Change, Remote Work %, Average Span of Control</div>
+    </div><div class="card">
+      <h4>New Hires by Month <span class="badge gold">Column chart</span></h4>
+      <div class="fields-line">Required fields: Axis: Dim_Date[YearMonth]; Values: New Hires (Period)</div>
+    </div><div class="card">
+      <h4>Work Model Mix <span class="badge gold">Donut chart</span></h4>
+      <div class="fields-line">Required fields: Legend: Employees[WorkModel]; Values: Active Employees</div>
+    </div><div class="card">
+      <h4>Headcount by Recruitment Source <span class="badge gold">Bar chart</span></h4>
+      <div class="fields-line">Required fields: Axis: RecruitmentSource; Values: Active Employees, Average Tenure (Years)</div>
+    </div><div class="card">
+      <h4>Years Since Promotion Buckets <span class="badge gold">Column chart</span></h4>
+      <div class="fields-line">Required fields: Axis: a calculated PromotionGapBucket column (0-1yr, 1-2yr, 2-3yr, 3yr+); Values: Active Employees</div>
+    </div><div class="card">
+      <h4>Manager Span of Control Table <span class="badge gold">Table visual</span></h4>
+      <div class="fields-line">Required fields: Columns: ManagerID resolved to manager FullName (via a Power Query merge or a DAX LOOKUPVALUE calculated column), count of direct reports, Average Performance Rating of the team</div>
+    </div><ul class="task-list"><li>Build all five dashboard pages described in the Dashboard Build section of this document, matching the page titles exactly.</li><li>Apply a single consistent report theme (View &gt; Themes) across all five pages before formatting individual visuals.</li><li>Add a department slicer and a date-range slicer that apply across all five pages using Edit interactions and sync slicers, so the whole report can be filtered together.</li><li>Add tooltips to every KPI card explaining, in one sentence, what the number means and how it is calculated.</li><li>Publish the finished report to a Power BI workspace and share the final QA checklist (final section of this document) as a completed checklist alongside the submission.</li></ul></section></main>
+  <footer class="doc-footer">
+    <div><span class="name">Kajola Gbenga</span> - Data Scientist &amp; AI Engineer</div>
+    <div>Human Resource Analytics with Power BI - Comprehensive Training Materials</div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Project Management Analytics - Power BI Dashboard Training - Part 1: Tasks &amp; Problems</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+:root{
+  --navy:#1F3864; --blue:#2E5395; --light:#EAF0FB; --accent:#C0392B; --gray:#555;
+  --border:#D7DFEE; --good:#1E8449;
+}
+*{box-sizing:border-box;}
+body{font-family:'Segoe UI',Arial,sans-serif;margin:0;background:#F4F7FC;color:#222;line-height:1.55;}
+header.hero{background:linear-gradient(135deg,var(--navy),var(--blue));color:#fff;padding:48px 6vw 34px;}
+header.hero h1{margin:0 0 6px;font-size:2.1rem;}
+header.hero p.sub{margin:0 0 22px;font-size:1.05rem;opacity:.92;}
+.author-box{display:inline-block;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.35);
+  border-radius:8px;padding:10px 18px;font-size:.95rem;}
+.author-box .name{font-weight:700;font-size:1.05rem;}
+.badge{display:inline-block;background:#fff;color:var(--navy);font-weight:700;font-size:.78rem;
+  padding:4px 10px;border-radius:20px;margin-right:8px;margin-bottom:10px;}
+nav.toc{background:#fff;border-bottom:1px solid var(--border);padding:14px 6vw;position:sticky;top:0;z-index:50;
+  box-shadow:0 2px 6px rgba(0,0,0,.05);}
+nav.toc a{color:var(--navy);text-decoration:none;font-weight:600;font-size:.86rem;margin-right:18px;}
+nav.toc a:hover{text-decoration:underline;}
+main{padding:10px 6vw 70px;max-width:1300px;margin:0 auto;}
+section{margin-top:52px;}
+h2.section-title{color:var(--navy);font-size:1.55rem;border-bottom:3px solid var(--navy);padding-bottom:10px;margin-bottom:6px;}
+p.section-intro{color:var(--gray);max-width:900px;margin-bottom:22px;}
+h3.table-title{color:var(--blue);font-size:1.2rem;margin:34px 0 4px;}
+p.table-meta{color:var(--gray);font-size:.9rem;margin:0 0 12px;}
+table{width:100%;border-collapse:collapse;background:#fff;box-shadow:0 1px 4px rgba(0,0,0,.06);margin-bottom:8px;}
+th,td{border:1px solid var(--border);padding:9px 12px;text-align:left;font-size:.88rem;vertical-align:top;}
+th{background:var(--navy);color:#fff;font-weight:600;}
+tr:nth-child(even) td{background:var(--light);}
+.pill{display:inline-block;background:var(--navy);color:#fff;border-radius:5px;padding:2px 8px;font-size:.72rem;font-weight:700;}
+.task-card{background:#fff;border-left:5px solid var(--accent);border-radius:6px;padding:14px 18px;margin-bottom:14px;
+  box-shadow:0 1px 4px rgba(0,0,0,.06);}
+.task-card .tnum{color:var(--accent);font-weight:700;font-size:.78rem;text-transform:uppercase;letter-spacing:.04em;}
+.task-card p{margin:6px 0 0;}
+.measure-card{background:#fff;border:1px solid var(--border);border-radius:8px;padding:16px 20px;margin-bottom:16px;box-shadow:0 1px 4px rgba(0,0,0,.05);}
+.measure-card h4{margin:0 0 8px;color:var(--navy);font-size:1.05rem;}
+.measure-card .todo{background:#FFF7E6;border:1px dashed #E0A800;border-radius:6px;padding:10px 14px;font-size:.88rem;color:#6b4f00;}
+.group-title{color:var(--navy);font-size:1.25rem;margin:36px 0 14px;padding:8px 14px;background:var(--light);border-left:5px solid var(--blue);border-radius:4px;}
+.page-card{background:#fff;border:1px solid var(--border);border-radius:8px;padding:18px 22px;margin-bottom:20px;box-shadow:0 1px 4px rgba(0,0,0,.05);}
+.page-card h4{color:var(--navy);margin:0 0 4px;font-size:1.2rem;}
+.page-card .purpose{color:var(--gray);font-style:italic;margin-bottom:12px;}
+.chart-row{border-top:1px solid var(--border);padding:10px 0;}
+.chart-row .ctitle{font-weight:700;color:var(--blue);}
+.chart-row .ctype{display:inline-block;background:var(--navy);color:#fff;font-size:.7rem;padding:2px 8px;border-radius:4px;margin-right:8px;}
+.rel-card{background:#fff;border:1px solid var(--border);border-radius:6px;padding:10px 16px;margin-bottom:10px;font-size:.88rem;}
+.rel-card code{background:var(--light);padding:2px 5px;border-radius:3px;}
+.checklist{background:#fff;border:1px solid var(--border);border-radius:8px;padding:18px 22px;margin-top:14px;}
+.checklist li{margin-bottom:8px;}
+footer{background:var(--navy);color:#cdd8ee;text-align:center;padding:26px;font-size:.85rem;}
+.callout{background:#FFF3E0;border-left:5px solid #E67E22;padding:12px 18px;border-radius:6px;margin:18px 0;font-size:.9rem;}
+</style>
+</head>
+<body>
+<header class="hero">
+  <span class="badge">PART 1 OF 2 - TASKS &amp; PROBLEMS</span><br>
+  <h1>Project Management Analytics - Power BI Dashboard Training</h1>
+  <p class="sub">Column reference, and every task to complete - from loading the clean data through to five finished dashboard pages.</p>
+  <div class="author-box"><span class="name">Kajola Gbenga</span><br>Data Scientist &amp; AI Engineer</div>
+</header>
+<nav class="toc">
+  <a href="#columns">1. Column dictionary</a>
+  <a href="#pq-tasks">2. Data loading tasks</a>
+  <a href="#rel-tasks">3. Relationship tasks</a>
+  <a href="#dax-tasks">4. DAX measures</a>
+  <a href="#dashboard-tasks">5. Dashboards to build</a>
+</nav>
+<main>
+<section id="columns"><h2 class="section-title">1. Dataset column dictionary</h2>
+<p class="section-intro">Before touching Power BI, work through every table below and understand each column - what it means, its correct data type, and how it will be used. This is the foundation everything else in this training is built on.</p>
+<h3 class="table-title">Dim_Date <span class="pill">Dimension</span></h3>
+<p class="table-meta"><strong>Rows:</strong> 1,461 (2023-01-01 to 2026-12-31, one row per day) &nbsp;|&nbsp; <strong>Model role:</strong> Standalone calendar table. Mark as a Date Table in Power BI. Every fact table connects to it on Date.</p>
+<table><tr><th style="width:18%">Column</th><th style="width:14%">Data type</th><th>Description</th></tr>
+<tr><td><code>Date</code></td><td>Date</td><td>One calendar day. The primary key of the table and the field every relationship to a fact table is built on.</td></tr>
+<tr><td><code>Year</code></td><td>Whole Number</td><td>Calendar year of the date (2023-2026). Used to slice every dashboard by year and to build year-over-year DAX measures.</td></tr>
+<tr><td><code>QuarterNumber</code></td><td>Whole Number</td><td>Quarter as a number (1-4). Used for correct chronological sorting of the Quarter text column.</td></tr>
+<tr><td><code>Quarter</code></td><td>Text</td><td>Quarter label such as Q1, Q2. Sorted by QuarterNumber so it does not sort alphabetically.</td></tr>
+<tr><td><code>MonthNumber</code></td><td>Whole Number</td><td>Month as a number (1-12). Sort-by column for MonthName/MonthShort so months read Jan to Dec, not alphabetically.</td></tr>
+<tr><td><code>MonthName</code></td><td>Text</td><td>Full month name (January, February...). Used on axis labels where space allows.</td></tr>
+<tr><td><code>MonthShort</code></td><td>Text</td><td>Abbreviated month name (Jan, Feb...). Used on compact chart axes.</td></tr>
+<tr><td><code>MonthYear</code></td><td>Text</td><td>Month and year combined (Jan-2023). Used as the axis field on trend charts that span multiple years.</td></tr>
+<tr><td><code>WeekNumber</code></td><td>Whole Number</td><td>ISO week number (1-53). Supports weekly trend analysis of timesheets.</td></tr>
+<tr><td><code>Day</code></td><td>Whole Number</td><td>Day of month (1-31).</td></tr>
+<tr><td><code>DayName</code></td><td>Text</td><td>Full weekday name (Monday...). Used to analyse which weekdays log the most hours.</td></tr>
+<tr><td><code>DayOfWeekNumber</code></td><td>Whole Number</td><td>Weekday as a number, Monday=1...Sunday=7. Sort-by column for DayName.</td></tr>
+<tr><td><code>IsWeekend</code></td><td>True/False</td><td>TRUE for Saturday/Sunday. Used to filter or flag weekend work in timesheet measures.</td></tr>
+<tr><td><code>IsWorkingDay</code></td><td>True/False</td><td>Opposite of IsWeekend. Used when computing available working capacity for utilization measures.</td></tr>
+</table>
+<h3 class="table-title">Dim_Employees <span class="pill">Dimension</span></h3>
+<p class="table-meta"><strong>Rows:</strong> 48 employees across 8 departments &nbsp;|&nbsp; <strong>Model role:</strong> The staffing dimension. It plays FOUR different roles in the model (assignee, project manager, account manager, risk owner) which is exactly why the training covers active vs inactive relationships and USERELATIONSHIP.</p>
+<table><tr><th style="width:18%">Column</th><th style="width:14%">Data type</th><th>Description</th></tr>
+<tr><td><code>EmployeeID</code></td><td>Text</td><td>Unique key, format EMP001. The relationship key from this table to Dim_Tasks, Dim_Projects, Dim_Clients and Fact_Risks/Fact_Timesheets.</td></tr>
+<tr><td><code>FullName</code></td><td>Text</td><td>Employee display name, used on every employee-level visual and slicer.</td></tr>
+<tr><td><code>Department</code></td><td>Text</td><td>One of 8 departments (Software Development, QA, Design, Business Analysis, PMO, DevOps, Data &amp; Analytics, Marketing). Used to slice cost and utilization by department.</td></tr>
+<tr><td><code>Role</code></td><td>Text</td><td>Job title, e.g. Software Engineer, Project Manager. Finer grain than Department.</td></tr>
+<tr><td><code>SeniorityLevel</code></td><td>Text</td><td>Junior, Mid, Senior, Lead or Principal. Drives HourlyRate_USD and is used to analyse cost by seniority.</td></tr>
+<tr><td><code>HourlyRate_USD</code></td><td>Decimal Number</td><td>Billing/cost rate per hour. Multiplied by hours logged to derive labour cost where actual cost is not already captured in Fact_Budget.</td></tr>
+<tr><td><code>Location</code></td><td>Text</td><td>City/country the employee is based in. Used for a geographic view of resourcing.</td></tr>
+<tr><td><code>Email</code></td><td>Text</td><td>Work email. Not used in visuals - included for realism, and to teach students to hide unused columns from the report view.</td></tr>
+<tr><td><code>HireDate</code></td><td>Date</td><td>Date the employee joined. Used to compute tenure and to filter to employees hired before a project started.</td></tr>
+<tr><td><code>EmploymentStatus</code></td><td>Text</td><td>Active or Inactive. Used to exclude former staff from current utilization measures.</td></tr>
+</table>
+<h3 class="table-title">Dim_Clients <span class="pill">Dimension</span></h3>
+<p class="table-meta"><strong>Rows:</strong> 18 clients &nbsp;|&nbsp; <strong>Model role:</strong> One row per client account. Connects to Dim_Projects; also links to Dim_Employees through AccountManagerID.</p>
+<table><tr><th style="width:18%">Column</th><th style="width:14%">Data type</th><th>Description</th></tr>
+<tr><td><code>ClientID</code></td><td>Text</td><td>Unique key, format CL001. Relationship key to Dim_Projects.</td></tr>
+<tr><td><code>ClientName</code></td><td>Text</td><td>Client display name.</td></tr>
+<tr><td><code>Industry</code></td><td>Text</td><td>Client&#x27;s industry sector (Banking, Healthcare, Retail...). Used to analyse revenue/project mix by industry.</td></tr>
+<tr><td><code>Country</code></td><td>Text</td><td>Client&#x27;s country.</td></tr>
+<tr><td><code>Region</code></td><td>Text</td><td>Broader geographic region grouping Country. Used for a regional map/bar visual.</td></tr>
+<tr><td><code>AccountManagerID</code></td><td>Text</td><td>EmployeeID of the account manager responsible for the client. A second relationship into Dim_Employees (inactive by default - see Relationships).</td></tr>
+<tr><td><code>ClientSince</code></td><td>Date</td><td>Date the client relationship began. Used to compute client tenure.</td></tr>
+<tr><td><code>ContractValue_USD</code></td><td>Decimal Number</td><td>Overall contract value with the client. Used for a client-value ranking visual, independent of individual project budgets.</td></tr>
+</table>
+<h3 class="table-title">Dim_Projects <span class="pill">Dimension (and the model&#x27;s centre table)</span></h3>
+<p class="table-meta"><strong>Rows:</strong> 32 projects &nbsp;|&nbsp; <strong>Model role:</strong> The central table of the star schema. Everything - tasks, timesheets, budget, milestones, risks - ultimately rolls up to a project.</p>
+<table><tr><th style="width:18%">Column</th><th style="width:14%">Data type</th><th>Description</th></tr>
+<tr><td><code>ProjectID</code></td><td>Text</td><td>Unique key, format PRJ001. Relationship key to Dim_Tasks, Fact_Timesheets, Fact_Budget, Fact_Milestones and Fact_Risks.</td></tr>
+<tr><td><code>ProjectName</code></td><td>Text</td><td>Project display name, used as the row label on most project-level visuals.</td></tr>
+<tr><td><code>ClientID</code></td><td>Text</td><td>Foreign key to Dim_Clients. Blank for internal projects, which is a deliberate teaching point about handling blanks in a relationship.</td></tr>
+<tr><td><code>Department</code></td><td>Text</td><td>Department that owns delivery of the project.</td></tr>
+<tr><td><code>ProjectManagerID</code></td><td>Text</td><td>EmployeeID of the project manager. A third relationship into Dim_Employees (inactive by default).</td></tr>
+<tr><td><code>ProjectType</code></td><td>Text</td><td>Fixed Price, Time &amp; Material, or Internal. Used to compare delivery models.</td></tr>
+<tr><td><code>Priority</code></td><td>Text</td><td>Low, Medium, High or Critical.</td></tr>
+<tr><td><code>Status</code></td><td>Text</td><td>Not Started, In Progress, On Hold, Completed or Cancelled. The main slicer for portfolio health.</td></tr>
+<tr><td><code>StartDate</code></td><td>Date</td><td>Planned/actual project start date.</td></tr>
+<tr><td><code>PlannedEndDate</code></td><td>Date</td><td>Baseline end date agreed at project start. Used with ActualEndDate to compute schedule variance.</td></tr>
+<tr><td><code>ActualEndDate</code></td><td>Date</td><td>Real completion date, blank until the project finishes. Used to compute on-time delivery.</td></tr>
+<tr><td><code>PlannedBudget_USD</code></td><td>Decimal Number</td><td>Total approved budget for the project, compared against SUM of Fact_Budget[ActualCost_USD].</td></tr>
+</table>
+<h3 class="table-title">Dim_Tasks <span class="pill">Dimension (bridges Projects and Timesheets)</span></h3>
+<p class="table-meta"><strong>Rows:</strong> 350 tasks &nbsp;|&nbsp; <strong>Model role:</strong> One row per task inside a project. Parent of Fact_Timesheets and a child of Dim_Projects; also links to Dim_Employees via AssignedToID.</p>
+<table><tr><th style="width:18%">Column</th><th style="width:14%">Data type</th><th>Description</th></tr>
+<tr><td><code>TaskID</code></td><td>Text</td><td>Unique key, format TSK0001. Relationship key to Fact_Timesheets.</td></tr>
+<tr><td><code>ProjectID</code></td><td>Text</td><td>Foreign key to Dim_Projects.</td></tr>
+<tr><td><code>TaskName</code></td><td>Text</td><td>Short description of the work item, e.g. Feature Development, User Acceptance Testing.</td></tr>
+<tr><td><code>Phase</code></td><td>Text</td><td>Project phase the task belongs to: Initiation, Planning, Execution, Testing or Closure. Used as the stage axis on the schedule dashboard.</td></tr>
+<tr><td><code>TaskType</code></td><td>Text</td><td>Category of work: Development, Design, Testing, Documentation, Meeting or Review. Used for a work-mix visual.</td></tr>
+<tr><td><code>AssignedToID</code></td><td>Text</td><td>EmployeeID the task is assigned to. The main (active) relationship into Dim_Employees.</td></tr>
+<tr><td><code>StartDate</code></td><td>Date</td><td>Date work on the task began or is scheduled to begin.</td></tr>
+<tr><td><code>DueDate</code></td><td>Date</td><td>Date the task is due. Compared to today&#x27;s date to flag overdue tasks.</td></tr>
+<tr><td><code>CompletionDate</code></td><td>Date</td><td>Date the task was actually finished, blank if not yet completed.</td></tr>
+<tr><td><code>Status</code></td><td>Text</td><td>Not Started, In Progress, Completed or Blocked.</td></tr>
+<tr><td><code>Priority</code></td><td>Text</td><td>Low, Medium, High or Critical.</td></tr>
+<tr><td><code>EstimatedHours</code></td><td>Whole Number</td><td>Planned effort for the task, compared against actual hours logged in Fact_Timesheets.</td></tr>
+</table>
+<h3 class="table-title">Fact_Timesheets <span class="pill">Fact (transaction grain: one time entry)</span></h3>
+<p class="table-meta"><strong>Rows:</strong> 2,575 rows &nbsp;|&nbsp; <strong>Model role:</strong> The most granular table in the model. Every hour billed or worked is one row here.</p>
+<table><tr><th style="width:18%">Column</th><th style="width:14%">Data type</th><th>Description</th></tr>
+<tr><td><code>TimesheetID</code></td><td>Text</td><td>Unique key for the time entry.</td></tr>
+<tr><td><code>EmployeeID</code></td><td>Text</td><td>Foreign key to Dim_Employees - who logged the hours.</td></tr>
+<tr><td><code>ProjectID</code></td><td>Text</td><td>Foreign key to Dim_Projects - which project the hours belong to.</td></tr>
+<tr><td><code>TaskID</code></td><td>Text</td><td>Foreign key to Dim_Tasks - which task the hours were logged against.</td></tr>
+<tr><td><code>Date</code></td><td>Date</td><td>Foreign key to Dim_Date - the day the work happened.</td></tr>
+<tr><td><code>HoursLogged</code></td><td>Decimal Number</td><td>Number of hours logged in this entry. The core additive measure of the fact table.</td></tr>
+<tr><td><code>BillableFlag</code></td><td>Text (Yes/No)</td><td>Whether the hours are billable to the client. Drives billable vs non-billable utilization measures.</td></tr>
+<tr><td><code>OvertimeFlag</code></td><td>Text (Yes/No)</td><td>Whether the entry represents overtime work. Used for an overtime-cost/risk analysis.</td></tr>
+</table>
+<h3 class="table-title">Fact_Budget <span class="pill">Fact (grain: one project/category/month)</span></h3>
+<p class="table-meta"><strong>Rows:</strong> 1,820 rows &nbsp;|&nbsp; <strong>Model role:</strong> Planned vs actual cost by project, cost category and month.</p>
+<table><tr><th style="width:18%">Column</th><th style="width:14%">Data type</th><th>Description</th></tr>
+<tr><td><code>BudgetLineID</code></td><td>Text</td><td>Unique key for the budget line.</td></tr>
+<tr><td><code>ProjectID</code></td><td>Text</td><td>Foreign key to Dim_Projects.</td></tr>
+<tr><td><code>Category</code></td><td>Text</td><td>Cost category: Labor, Software &amp; Tools, Hardware, Travel, Training, Contingency or Marketing.</td></tr>
+<tr><td><code>Month</code></td><td>Date</td><td>First day of the month the budget line applies to. Foreign key to Dim_Date.</td></tr>
+<tr><td><code>PlannedCost_USD</code></td><td>Decimal Number</td><td>Budgeted cost for that project/category/month.</td></tr>
+<tr><td><code>ActualCost_USD</code></td><td>Decimal Number</td><td>Actual cost incurred. Compared against PlannedCost_USD to compute variance.</td></tr>
+</table>
+<h3 class="table-title">Fact_Milestones <span class="pill">Fact (grain: one milestone)</span></h3>
+<p class="table-meta"><strong>Rows:</strong> 160 rows &nbsp;|&nbsp; <strong>Model role:</strong> Planned vs actual milestone delivery, 5 milestones per project.</p>
+<table><tr><th style="width:18%">Column</th><th style="width:14%">Data type</th><th>Description</th></tr>
+<tr><td><code>MilestoneID</code></td><td>Text</td><td>Unique key for the milestone.</td></tr>
+<tr><td><code>ProjectID</code></td><td>Text</td><td>Foreign key to Dim_Projects.</td></tr>
+<tr><td><code>MilestoneName</code></td><td>Text</td><td>Milestone label, e.g. Design Sign-off, Go-Live.</td></tr>
+<tr><td><code>PlannedDate</code></td><td>Date</td><td>Baseline planned date for the milestone.</td></tr>
+<tr><td><code>ActualDate</code></td><td>Date</td><td>Actual date achieved, blank if not yet reached.</td></tr>
+<tr><td><code>Status</code></td><td>Text</td><td>Completed, On Track, Delayed or At Risk.</td></tr>
+</table>
+<h3 class="table-title">Fact_Risks <span class="pill">Fact (grain: one identified risk)</span></h3>
+<p class="table-meta"><strong>Rows:</strong> 127 rows &nbsp;|&nbsp; <strong>Model role:</strong> Risk register - one row per identified risk, with probability, impact and an owner.</p>
+<table><tr><th style="width:18%">Column</th><th style="width:14%">Data type</th><th>Description</th></tr>
+<tr><td><code>RiskID</code></td><td>Text</td><td>Unique key for the risk.</td></tr>
+<tr><td><code>ProjectID</code></td><td>Text</td><td>Foreign key to Dim_Projects.</td></tr>
+<tr><td><code>RiskDescription</code></td><td>Text</td><td>Short description of the risk.</td></tr>
+<tr><td><code>Category</code></td><td>Text</td><td>Technical, Financial, Schedule, Resource, Scope, External or Compliance.</td></tr>
+<tr><td><code>Probability</code></td><td>Text</td><td>Low, Medium or High likelihood of the risk occurring.</td></tr>
+<tr><td><code>Impact</code></td><td>Text</td><td>Low, Medium or High impact if it occurs.</td></tr>
+<tr><td><code>RiskScore</code></td><td>Whole Number</td><td>Probability level multiplied by Impact level (1-9). Drives the risk-matrix heatmap.</td></tr>
+<tr><td><code>Status</code></td><td>Text</td><td>Open, Mitigated, Closed or Occurred.</td></tr>
+<tr><td><code>DateIdentified</code></td><td>Date</td><td>Date the risk was logged.</td></tr>
+<tr><td><code>DateResolved</code></td><td>Date</td><td>Date the risk was closed/mitigated, blank if still open.</td></tr>
+<tr><td><code>OwnerID</code></td><td>Text</td><td>EmployeeID responsible for managing the risk. A fourth relationship into Dim_Employees (inactive by default).</td></tr>
+</table>
+</section>
+<section id="pq-tasks"><h2 class="section-title">2. Data loading tasks (Power Query)</h2>
+<p class="section-intro">The Excel workbook is already clean - your job is to load all nine sheets correctly, set the right data types, and prepare the model. Attempt each task below yourself before checking the Solutions HTML file.</p>
+<div class="task-card"><div class="tnum">Task 1 - Dim_Date</div><p>Load the sheet, confirm Date is typed as Date (not Date/Time), and mark this table as a Date Table on the Date column.</p></div>
+<div class="task-card"><div class="tnum">Task 2 - Dim_Employees</div><p>Load the sheet, confirm HourlyRate_USD is Decimal Number and HireDate is Date, then hide the Email column from the report view.</p></div>
+<div class="task-card"><div class="tnum">Task 3 - Dim_Clients</div><p>Load the sheet and confirm ContractValue_USD is Decimal Number and ClientSince is Date.</p></div>
+<div class="task-card"><div class="tnum">Task 4 - Dim_Projects</div><p>Load the sheet, set the three date columns and PlannedBudget_USD correctly, and confirm ClientID is allowed to be blank (internal projects).</p></div>
+<div class="task-card"><div class="tnum">Task 5 - Dim_Tasks</div><p>Load the sheet and set EstimatedHours to Whole Number and the three date columns to Date.</p></div>
+<div class="task-card"><div class="tnum">Task 6 - Fact_Timesheets</div><p>Load the sheet, set HoursLogged to Decimal Number, and disable Load if a staging query is used, keeping only the final table loaded to the model.</p></div>
+<div class="task-card"><div class="tnum">Task 7 - Fact_Budget</div><p>Load the sheet and set PlannedCost_USD and ActualCost_USD to Decimal Number, and Month to Date.</p></div>
+<div class="task-card"><div class="tnum">Task 8 - Fact_Milestones</div><p>Load the sheet and set PlannedDate and ActualDate to Date, keeping in mind ActualDate is legitimately blank for unfinished milestones.</p></div>
+<div class="task-card"><div class="tnum">Task 9 - Fact_Risks</div><p>Load the sheet, set RiskScore to Whole Number, and the two date columns to Date.</p></div>
+</section>
+<section id="rel-tasks"><h2 class="section-title">3. Relationship-building tasks</h2>
+<p class="section-intro">Below is the full list of relationships this model needs, with their intended cardinality and whether they should be active or inactive. Build the model in Power BI's Model view before checking your work against the Solutions file.</p>
+<table><tr><th>From</th><th>To</th><th>Cardinality</th><th>Cross-filter</th><th>Active by default?</th></tr>
+<tr><td><code>Dim_Date[Date]</code></td><td><code>Fact_Timesheets[Date]</code></td><td>1:*</td><td>Single</td><td>Yes</td></tr>
+<tr><td><code>Dim_Date[Date]</code></td><td><code>Fact_Budget[Month]</code></td><td>1:*</td><td>Single</td><td>Yes</td></tr>
+<tr><td><code>Dim_Date[Date]</code></td><td><code>Fact_Milestones[PlannedDate]</code></td><td>1:*</td><td>Single</td><td>Yes</td></tr>
+<tr><td><code>Dim_Date[Date]</code></td><td><code>Fact_Milestones[ActualDate]</code></td><td>1:*</td><td>Single</td><td>No (use USERELATIONSHIP)</td></tr>
+<tr><td><code>Dim_Date[Date]</code></td><td><code>Fact_Risks[DateIdentified]</code></td><td>1:*</td><td>Single</td><td>Yes</td></tr>
+<tr><td><code>Dim_Projects[ProjectID]</code></td><td><code>Dim_Tasks[ProjectID]</code></td><td>1:*</td><td>Single</td><td>Yes</td></tr>
+<tr><td><code>Dim_Projects[ProjectID]</code></td><td><code>Fact_Timesheets[ProjectID]</code></td><td>1:*</td><td>Single</td><td>Yes</td></tr>
+<tr><td><code>Dim_Projects[ProjectID]</code></td><td><code>Fact_Budget[ProjectID]</code></td><td>1:*</td><td>Single</td><td>Yes</td></tr>
+<tr><td><code>Dim_Projects[ProjectID]</code></td><td><code>Fact_Milestones[ProjectID]</code></td><td>1:*</td><td>Single</td><td>Yes</td></tr>
+<tr><td><code>Dim_Projects[ProjectID]</code></td><td><code>Fact_Risks[ProjectID]</code></td><td>1:*</td><td>Single</td><td>Yes</td></tr>
+<tr><td><code>Dim_Projects[ClientID]</code></td><td><code>Dim_Clients[ClientID]</code></td><td>*:1</td><td>Single</td><td>Yes</td></tr>
+<tr><td><code>Dim_Tasks[TaskID]</code></td><td><code>Fact_Timesheets[TaskID]</code></td><td>1:*</td><td>Single</td><td>Yes</td></tr>
+<tr><td><code>Dim_Employees[EmployeeID]</code></td><td><code>Dim_Tasks[AssignedToID]</code></td><td>1:*</td><td>Single</td><td>Yes</td></tr>
+<tr><td><code>Dim_Employees[EmployeeID]</code></td><td><code>Fact_Timesheets[EmployeeID]</code></td><td>1:*</td><td>Single</td><td>Yes</td></tr>
+<tr><td><code>Dim_Employees[EmployeeID]</code></td><td><code>Dim_Projects[ProjectManagerID]</code></td><td>1:*</td><td>Single</td><td>No (use USERELATIONSHIP)</td></tr>
+<tr><td><code>Dim_Employees[EmployeeID]</code></td><td><code>Dim_Clients[AccountManagerID]</code></td><td>1:*</td><td>Single</td><td>No (use USERELATIONSHIP)</td></tr>
+<tr><td><code>Dim_Employees[EmployeeID]</code></td><td><code>Fact_Risks[OwnerID]</code></td><td>1:*</td><td>Single</td><td>No (use USERELATIONSHIP)</td></tr>
+</table>
+<div class="callout"><strong>Think about it:</strong> Dim_Employees connects into four different places (assignee, project manager, account manager, risk owner). Why can Power BI only make one of these active at a time, and what DAX function lets a measure use one of the inactive ones anyway? Work out your answer, then confirm it in the Solutions file and the Word manual.</div>
+<ol class="checklist">
+<li>Build the 9 core one-to-many relationships listed in the Relationships table (Dim_Projects to Dim_Tasks, Dim_Projects to each fact table, Dim_Tasks to Fact_Timesheets, Dim_Clients to Dim_Projects).</li>
+<li>Connect Dim_Date to Fact_Timesheets[Date], Fact_Budget[Month], Fact_Milestones[PlannedDate] and Fact_Risks[DateIdentified] as the four active date relationships.</li>
+<li>Connect Dim_Employees[EmployeeID] to Dim_Tasks[AssignedToID] and Fact_Timesheets[EmployeeID] as the two active employee relationships.</li>
+<li>Add the four additional employee relationships (to Dim_Projects[ProjectManagerID], Dim_Clients[AccountManagerID], Fact_Risks[OwnerID], and Dim_Date to Fact_Milestones[ActualDate]) and leave them inactive - Power BI will grey these out automatically because an active path already exists.</li>
+<li>Confirm every relationship&#x27;s cardinality reads One-to-Many with the 1 on the dimension side, and cross filter direction is Single, in the relationship properties panel.</li>
+</ol></section>
+<section id="dax-tasks"><h2 class="section-title">4. DAX measures to build</h2>
+<p class="section-intro">For every measure below, write the DAX yourself first. Only the measure name and what it should return/drive are given here - the full formula, line-by-line explanation and dashboard impact are in the Solutions HTML file and the Word manual.</p>
+<ol class="checklist">
+<li>Create a dedicated Measures table (a blank table with no columns from any source) to hold every DAX measure, keeping the model organised.</li>
+<li>Build the 6 foundational measures (Total Projects, Active Projects, Completed On-Time %, Total Planned Budget, Total Actual Cost, Budget Variance, Budget Variance %).</li>
+<li>Build the 6 task &amp; schedule measures, including the running-total pattern using ALLSELECTED.</li>
+<li>Build the 4 budget &amp; cost measures, including the DATEADD time-intelligence measure - this step requires Dim_Date to already be marked as a Date Table.</li>
+<li>Build the 6 resource &amp; utilization measures, including the two USERELATIONSHIP measures.</li>
+<li>Build the 5 risk measures, including the second USERELATIONSHIP measure and the IN operator pattern.</li>
+</ol>
+<div class="group-title">Foundational measures (used across every page)</div>
+<div class="measure-card">
+<h4>Total Projects</h4>
+<div class="todo"><strong>Your task:</strong> Write a DAX measure called <code>Total Projects</code>. Impact once built: Feeds every KPI card that shows a project count, and is the denominator for On-Time Completion %.</div>
+</div>
+<div class="measure-card">
+<h4>Active Projects</h4>
+<div class="todo"><strong>Your task:</strong> Write a DAX measure called <code>Active Projects</code>. Impact once built: Executive Portfolio Overview KPI card and the Status donut chart&#x27;s callout.</div>
+</div>
+<div class="measure-card">
+<h4>Completed On-Time %</h4>
+<div class="todo"><strong>Your task:</strong> Write a DAX measure called <code>Completed On-Time %</code>. Impact once built: Headline KPI card on the Executive Overview page - the single most-watched number in the whole report.</div>
+</div>
+<div class="measure-card">
+<h4>Total Planned Budget</h4>
+<div class="todo"><strong>Your task:</strong> Write a DAX measure called <code>Total Planned Budget</code>. Impact once built: Budget KPI cards and the Planned vs Actual chart on the Budget &amp; Cost Analysis page.</div>
+</div>
+<div class="measure-card">
+<h4>Total Actual Cost</h4>
+<div class="todo"><strong>Your task:</strong> Write a DAX measure called <code>Total Actual Cost</code>. Impact once built: Compared directly against Total Planned Budget on the Budget &amp; Cost Analysis page and portfolio KPI cards.</div>
+</div>
+<div class="measure-card">
+<h4>Budget Variance</h4>
+<div class="todo"><strong>Your task:</strong> Write a DAX measure called <code>Budget Variance</code>. Impact once built: Conditional-formatted KPI card and the &#x27;Top Overbudget Projects&#x27; bar chart (sorted ascending on this measure).</div>
+</div>
+<div class="measure-card">
+<h4>Budget Variance %</h4>
+<div class="todo"><strong>Your task:</strong> Write a DAX measure called <code>Budget Variance %</code>. Impact once built: Used as the color/data-label field on the Budget &amp; Cost Analysis matrix visual.</div>
+</div>
+<div class="group-title">Task &amp; schedule measures</div>
+<div class="measure-card">
+<h4>Total Tasks</h4>
+<div class="todo"><strong>Your task:</strong> Write a DAX measure called <code>Total Tasks</code>. Impact once built: Denominator for Task Completion Rate % and the base of every task-count KPI.</div>
+</div>
+<div class="measure-card">
+<h4>Completed Tasks</h4>
+<div class="todo"><strong>Your task:</strong> Write a DAX measure called <code>Completed Tasks</code>. Impact once built: Task Status donut chart and Task Completion Rate %.</div>
+</div>
+<div class="measure-card">
+<h4>Task Completion Rate %</h4>
+<div class="todo"><strong>Your task:</strong> Write a DAX measure called <code>Task Completion Rate %</code>. Impact once built: KPI card and conditional formatting on the Task &amp; Schedule Management page.</div>
+</div>
+<div class="measure-card">
+<h4>Overdue Tasks</h4>
+<div class="todo"><strong>Your task:</strong> Write a DAX measure called <code>Overdue Tasks</code>. Impact once built: The single most important alert metric on the Task &amp; Schedule page - drives a red KPI card and an &#x27;Overdue Tasks by Assignee&#x27; bar chart.</div>
+</div>
+<div class="measure-card">
+<h4>Average Task Duration (Days)</h4>
+<div class="todo"><strong>Your task:</strong> Write a DAX measure called <code>Average Task Duration (Days)</code>. Impact once built: Line/KPI showing how delivery speed is trending on the Task &amp; Schedule page.</div>
+</div>
+<div class="measure-card">
+<h4>Tasks Completed (Running Total)</h4>
+<div class="todo"><strong>Your task:</strong> Write a DAX measure called <code>Tasks Completed (Running Total)</code>. Impact once built: The cumulative completion trend line on the Task &amp; Schedule Management page.</div>
+</div>
+<div class="group-title">Budget &amp; cost measures</div>
+<div class="measure-card">
+<h4>Cost Per Hour</h4>
+<div class="todo"><strong>Your task:</strong> Write a DAX measure called <code>Cost Per Hour</code>. Impact once built: Efficiency KPI on the Budget &amp; Cost Analysis page, and a scatter-chart axis (Cost per Hour vs Hours Logged) by project.</div>
+</div>
+<div class="measure-card">
+<h4>Labor Cost Share %</h4>
+<div class="todo"><strong>Your task:</strong> Write a DAX measure called <code>Labor Cost Share %</code>. Impact once built: Callout on the Budget &amp; Cost Analysis page highlighting how labour-heavy the portfolio is.</div>
+</div>
+<div class="measure-card">
+<h4>Budget Utilization %</h4>
+<div class="todo"><strong>Your task:</strong> Write a DAX measure called <code>Budget Utilization %</code>. Impact once built: Gauge visual on the Budget &amp; Cost Analysis page, coloured red above 100%.</div>
+</div>
+<div class="measure-card">
+<h4>MoM Actual Cost Change</h4>
+<div class="todo"><strong>Your task:</strong> Write a DAX measure called <code>MoM Actual Cost Change</code>. Impact once built: Month-over-month trend arrow on the Budget &amp; Cost Analysis KPI strip.</div>
+</div>
+<div class="group-title">Resource &amp; utilization measures</div>
+<div class="measure-card">
+<h4>Total Hours Logged</h4>
+<div class="todo"><strong>Your task:</strong> Write a DAX measure called <code>Total Hours Logged</code>. Impact once built: Feeds KPI cards, the utilization gauge, and every hours-based chart on the Resource &amp; Team Utilization page.</div>
+</div>
+<div class="measure-card">
+<h4>Billable Hours</h4>
+<div class="todo"><strong>Your task:</strong> Write a DAX measure called <code>Billable Hours</code>. Impact once built: Billable vs Non-Billable stacked bar chart, and the numerator of Billable Utilization %.</div>
+</div>
+<div class="measure-card">
+<h4>Billable Utilization %</h4>
+<div class="todo"><strong>Your task:</strong> Write a DAX measure called <code>Billable Utilization %</code>. Impact once built: Headline KPI and conditional formatting in the employee utilization table.</div>
+</div>
+<div class="measure-card">
+<h4>Overtime Hours</h4>
+<div class="todo"><strong>Your task:</strong> Write a DAX measure called <code>Overtime Hours</code>. Impact once built: Overtime-cost callout and the &#x27;employees most at risk of burnout&#x27; table, sorted by this measure.</div>
+</div>
+<div class="measure-card">
+<h4>Estimated vs Actual Hours Variance</h4>
+<div class="todo"><strong>Your task:</strong> Write a DAX measure called <code>Estimated vs Actual Hours Variance</code>. Impact once built: Estimation-accuracy KPI on the Resource &amp; Team Utilization page - highlights chronic under- or over-estimation.</div>
+</div>
+<div class="measure-card">
+<h4>Active Employees</h4>
+<div class="todo"><strong>Your task:</strong> Write a DAX measure called <code>Active Employees</code>. Impact once built: Headcount KPI card on the Resource &amp; Team Utilization page.</div>
+</div>
+<div class="measure-card">
+<h4>Projects Managed (by PM)</h4>
+<div class="todo"><strong>Your task:</strong> Write a DAX measure called <code>Projects Managed (by PM)</code>. Impact once built: Employee-level table on the Resource &amp; Team Utilization page showing how many projects each PM leads, next to their hours logged as an assignee.</div>
+</div>
+<div class="group-title">Risk measures</div>
+<div class="measure-card">
+<h4>Open Risks</h4>
+<div class="todo"><strong>Your task:</strong> Write a DAX measure called <code>Open Risks</code>. Impact once built: Headline red KPI on the Risk Management page.</div>
+</div>
+<div class="measure-card">
+<h4>High Severity Risks</h4>
+<div class="todo"><strong>Your task:</strong> Write a DAX measure called <code>High Severity Risks</code>. Impact once built: Drives the colour thresholds on the Risk Matrix heatmap and a &#x27;Top High-Severity Risks&#x27; table.</div>
+</div>
+<div class="measure-card">
+<h4>Average Risk Score</h4>
+<div class="todo"><strong>Your task:</strong> Write a DAX measure called <code>Average Risk Score</code>. Impact once built: Gauge visual and the axis reference line on the risk trend chart.</div>
+</div>
+<div class="measure-card">
+<h4>Risk Resolution Rate %</h4>
+<div class="todo"><strong>Your task:</strong> Write a DAX measure called <code>Risk Resolution Rate %</code>. Impact once built: KPI card and conditional formatting on the Risk Management page&#x27;s project-level risk table.</div>
+</div>
+<div class="measure-card">
+<h4>Risks Owned (by Employee)</h4>
+<div class="todo"><strong>Your task:</strong> Write a DAX measure called <code>Risks Owned (by Employee)</code>. Impact once built: Employee-level risk ownership table on the Risk Management page.</div>
+</div>
+</section>
+<section id="dashboard-tasks"><h2 class="section-title">5. Dashboards to build (titles and chart briefs)</h2>
+<p class="section-intro">Build five report pages using the exact titles below. For each page, build every listed visual using the fields shown - the chart type is given, but experiment with the layout before comparing it against the Solutions file screen-by-screen description.</p>
+<div class="page-card">
+<h4>Page 1 - Executive Portfolio Overview</h4>
+<p class="purpose">A one-screen health check of the whole project portfolio for sponsors and senior stakeholders.</p>
+<div class="chart-row">
+<span class="ctype">KPI cards</span><span class="ctitle">Total Projects / Active Projects / Completed On-Time % / Budget Variance</span>
+<p style="margin:6px 0 0;font-size:.87rem;"><strong>Fields:</strong> [Total Projects], [Active Projects], [Completed On-Time %], [Budget Variance]</p>
+</div>
+<div class="chart-row">
+<span class="ctype">Donut chart</span><span class="ctitle">Projects by Status</span>
+<p style="margin:6px 0 0;font-size:.87rem;"><strong>Fields:</strong> Legend: Dim_Projects[Status]. Values: [Total Projects]</p>
+</div>
+<div class="chart-row">
+<span class="ctype">Clustered bar chart</span><span class="ctitle">Projects by Department</span>
+<p style="margin:6px 0 0;font-size:.87rem;"><strong>Fields:</strong> Axis: Dim_Projects[Department]. Values: [Total Projects], sorted descending</p>
+</div>
+<div class="chart-row">
+<span class="ctype">Bar chart (diverging)</span><span class="ctitle">Budget Variance by Project (Top 10)</span>
+<p style="margin:6px 0 0;font-size:.87rem;"><strong>Fields:</strong> Axis: Dim_Projects[ProjectName]. Values: [Budget Variance]. Filtered to Top 10 by |Budget Variance|</p>
+</div>
+<div class="chart-row">
+<span class="ctype">Line chart</span><span class="ctitle">Cumulative Actual Cost vs Planned Budget Trend</span>
+<p style="margin:6px 0 0;font-size:.87rem;"><strong>Fields:</strong> Axis: Dim_Date[MonthYear]. Values: [Total Actual Cost] (running total via time intelligence), reference line [Total Planned Budget]</p>
+</div>
+<div class="chart-row">
+<span class="ctype">Map (or filled map)</span><span class="ctitle">Projects by Client Region</span>
+<p style="margin:6px 0 0;font-size:.87rem;"><strong>Fields:</strong> Location: Dim_Clients[Region]. Values: [Total Projects]</p>
+</div>
+</div>
+<div class="page-card">
+<h4>Page 2 - Task &amp; Schedule Management</h4>
+<p class="purpose">Operational view for project managers to track task progress and catch schedule risk early.</p>
+<div class="chart-row">
+<span class="ctype">KPI cards</span><span class="ctitle">Total Tasks / Task Completion Rate % / Overdue Tasks / Avg Task Duration</span>
+<p style="margin:6px 0 0;font-size:.87rem;"><strong>Fields:</strong> [Total Tasks], [Task Completion Rate %], [Overdue Tasks], [Average Task Duration (Days)]</p>
+</div>
+<div class="chart-row">
+<span class="ctype">Stacked bar chart</span><span class="ctitle">Task Status by Phase</span>
+<p style="margin:6px 0 0;font-size:.87rem;"><strong>Fields:</strong> Axis: Dim_Tasks[Phase]. Legend: Dim_Tasks[Status]. Values: [Total Tasks]</p>
+</div>
+<div class="chart-row">
+<span class="ctype">Table/matrix</span><span class="ctitle">Overdue Tasks by Assignee</span>
+<p style="margin:6px 0 0;font-size:.87rem;"><strong>Fields:</strong> Rows: Dim_Employees[FullName]. Values: [Overdue Tasks], sorted descending, filtered to &gt; 0</p>
+</div>
+<div class="chart-row">
+<span class="ctype">Line chart</span><span class="ctitle">Tasks Completed - Running Total</span>
+<p style="margin:6px 0 0;font-size:.87rem;"><strong>Fields:</strong> Axis: Dim_Date[MonthYear]. Values: [Tasks Completed (Running Total)]</p>
+</div>
+<div class="chart-row">
+<span class="ctype">Clustered column chart</span><span class="ctitle">Task Mix by Type</span>
+<p style="margin:6px 0 0;font-size:.87rem;"><strong>Fields:</strong> Axis: Dim_Tasks[TaskType]. Values: [Total Tasks]</p>
+</div>
+</div>
+<div class="page-card">
+<h4>Page 3 - Budget &amp; Cost Analysis</h4>
+<p class="purpose">Financial deep-dive for finance/PMO stakeholders comparing planned vs actual spend.</p>
+<div class="chart-row">
+<span class="ctype">KPI cards</span><span class="ctitle">Total Planned Budget / Total Actual Cost / Budget Variance % / Cost Per Hour</span>
+<p style="margin:6px 0 0;font-size:.87rem;"><strong>Fields:</strong> [Total Planned Budget], [Total Actual Cost], [Budget Variance %], [Cost Per Hour]</p>
+</div>
+<div class="chart-row">
+<span class="ctype">Gauge</span><span class="ctitle">Budget Utilization %</span>
+<p style="margin:6px 0 0;font-size:.87rem;"><strong>Fields:</strong> Value: [Budget Utilization %], Target: 100%</p>
+</div>
+<div class="chart-row">
+<span class="ctype">Clustered column chart</span><span class="ctitle">Planned vs Actual Cost by Category</span>
+<p style="margin:6px 0 0;font-size:.87rem;"><strong>Fields:</strong> Axis: Fact_Budget[Category]. Values: [Total Planned Budget], [Total Actual Cost]</p>
+</div>
+<div class="chart-row">
+<span class="ctype">Line chart</span><span class="ctitle">Monthly Actual Cost Trend with MoM Change</span>
+<p style="margin:6px 0 0;font-size:.87rem;"><strong>Fields:</strong> Axis: Dim_Date[MonthYear]. Values: [Total Actual Cost]. Tooltip: [MoM Actual Cost Change]</p>
+</div>
+<div class="chart-row">
+<span class="ctype">Matrix</span><span class="ctitle">Budget Variance % by Project and Department</span>
+<p style="margin:6px 0 0;font-size:.87rem;"><strong>Fields:</strong> Rows: Dim_Projects[Department] &gt; Dim_Projects[ProjectName]. Values: [Budget Variance %], conditional formatted</p>
+</div>
+</div>
+<div class="page-card">
+<h4>Page 4 - Resource &amp; Team Utilization</h4>
+<p class="purpose">HR/resourcing view of how the team&#x27;s time is being spent and whether capacity is healthy.</p>
+<div class="chart-row">
+<span class="ctype">KPI cards</span><span class="ctitle">Total Hours Logged / Billable Utilization % / Overtime Hours / Active Employees</span>
+<p style="margin:6px 0 0;font-size:.87rem;"><strong>Fields:</strong> [Total Hours Logged], [Billable Utilization %], [Overtime Hours], [Active Employees]</p>
+</div>
+<div class="chart-row">
+<span class="ctype">Stacked bar chart</span><span class="ctitle">Billable vs Non-Billable Hours by Department</span>
+<p style="margin:6px 0 0;font-size:.87rem;"><strong>Fields:</strong> Axis: Dim_Employees[Department]. Legend: Fact_Timesheets[BillableFlag]. Values: [Total Hours Logged]</p>
+</div>
+<div class="chart-row">
+<span class="ctype">Table</span><span class="ctitle">Employee Utilization Detail</span>
+<p style="margin:6px 0 0;font-size:.87rem;"><strong>Fields:</strong> Rows: Dim_Employees[FullName], Dim_Employees[Department]. Values: [Total Hours Logged], [Billable Utilization %], [Overtime Hours], [Projects Managed (by PM)]</p>
+</div>
+<div class="chart-row">
+<span class="ctype">Scatter chart</span><span class="ctitle">Estimated vs Logged Hours by Task Type</span>
+<p style="margin:6px 0 0;font-size:.87rem;"><strong>Fields:</strong> X: SUM(Dim_Tasks[EstimatedHours]). Y: [Total Hours Logged]. Legend: Dim_Tasks[TaskType]</p>
+</div>
+<div class="chart-row">
+<span class="ctype">Line chart</span><span class="ctitle">Weekly Hours Logged Trend</span>
+<p style="margin:6px 0 0;font-size:.87rem;"><strong>Fields:</strong> Axis: Dim_Date[WeekNumber]. Values: [Total Hours Logged]</p>
+</div>
+</div>
+<div class="page-card">
+<h4>Page 5 - Risk Management</h4>
+<p class="purpose">Risk register view for PMO/risk owners to prioritise mitigation effort.</p>
+<div class="chart-row">
+<span class="ctype">KPI cards</span><span class="ctitle">Open Risks / High Severity Risks / Average Risk Score / Risk Resolution Rate %</span>
+<p style="margin:6px 0 0;font-size:.87rem;"><strong>Fields:</strong> [Open Risks], [High Severity Risks], [Average Risk Score], [Risk Resolution Rate %]</p>
+</div>
+<div class="chart-row">
+<span class="ctype">Matrix heatmap</span><span class="ctitle">Risk Matrix (Probability x Impact)</span>
+<p style="margin:6px 0 0;font-size:.87rem;"><strong>Fields:</strong> Rows: Fact_Risks[Probability]. Columns: Fact_Risks[Impact]. Values: COUNTROWS(Fact_Risks), conditional formatted by [Average Risk Score]</p>
+</div>
+<div class="chart-row">
+<span class="ctype">Bar chart</span><span class="ctitle">Risks by Category</span>
+<p style="margin:6px 0 0;font-size:.87rem;"><strong>Fields:</strong> Axis: Fact_Risks[Category]. Values: COUNTROWS(Fact_Risks), split by [Open Risks] via legend on Status</p>
+</div>
+<div class="chart-row">
+<span class="ctype">Line chart</span><span class="ctitle">Open Risk Count Trend</span>
+<p style="margin:6px 0 0;font-size:.87rem;"><strong>Fields:</strong> Axis: Dim_Date[MonthYear]. Values: Open risk count as of each month (time-intelligence running measure)</p>
+</div>
+<div class="chart-row">
+<span class="ctype">Table</span><span class="ctitle">Top High-Severity Open Risks</span>
+<p style="margin:6px 0 0;font-size:.87rem;"><strong>Fields:</strong> Rows: Fact_Risks[RiskDescription], Dim_Projects[ProjectName], Dim_Employees[FullName] (owner). Values: [Average Risk Score]. Filter: Status = Open, sorted by RiskScore desc</p>
+</div>
+</div>
+<ol class="checklist">
+<li>Build Page 1 - Executive Portfolio Overview with its 4 KPI cards, donut, bar, diverging bar and trend line, plus the region map.</li>
+<li>Build Page 2 - Task &amp; Schedule Management with its 4 KPI cards, stacked bar, action table, running-total line and task-mix column chart.</li>
+<li>Build Page 3 - Budget &amp; Cost Analysis with its 4 KPI cards, gauge, category column chart, monthly trend line and drillable matrix.</li>
+<li>Build Page 4 - Resource &amp; Team Utilization with its 4 KPI cards, stacked bar, detail table, scatter chart and weekly trend line.</li>
+<li>Build Page 5 - Risk Management with its 4 KPI cards, risk-matrix heatmap, category bar, open-risk trend line and prioritised risk table.</li>
+<li>Apply a consistent theme (colour palette, fonts, page background) and page navigation buttons across all five pages, then test every visual&#x27;s cross-filtering by clicking through slicers on each page.</li>
+</ol></section>
+</main>
+<footer>Project Management Analytics - Power BI Dashboard Training &middot; Prepared by Kajola Gbenga, Data Scientist &amp; AI Engineer &middot; Part 1 of 2 - Tasks &amp; Problems</footer>
+</body>
+</html>

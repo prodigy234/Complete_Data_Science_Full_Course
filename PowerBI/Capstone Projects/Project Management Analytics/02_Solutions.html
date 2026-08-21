@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Project Management Analytics - Power BI Dashboard Training - Part 2: Solutions</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+:root{
+  --navy:#1F3864; --blue:#2E5395; --light:#EAF0FB; --accent:#1E8449; --gray:#555;
+  --border:#D7DFEE; --code-bg:#0F1E33; --code-fg:#DCE8FF;
+}
+*{box-sizing:border-box;}
+body{font-family:'Segoe UI',Arial,sans-serif;margin:0;background:#F4F7FC;color:#222;line-height:1.55;}
+header.hero{background:linear-gradient(135deg,var(--navy),#1E7145);color:#fff;padding:48px 6vw 34px;}
+header.hero h1{margin:0 0 6px;font-size:2.1rem;}
+header.hero p.sub{margin:0 0 22px;font-size:1.05rem;opacity:.92;}
+.author-box{display:inline-block;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.35);
+  border-radius:8px;padding:10px 18px;font-size:.95rem;}
+.author-box .name{font-weight:700;font-size:1.05rem;}
+.badge{display:inline-block;background:#fff;color:var(--accent);font-weight:700;font-size:.78rem;
+  padding:4px 10px;border-radius:20px;margin-right:8px;margin-bottom:10px;}
+nav.toc{background:#fff;border-bottom:1px solid var(--border);padding:14px 6vw;position:sticky;top:0;z-index:50;
+  box-shadow:0 2px 6px rgba(0,0,0,.05);}
+nav.toc a{color:var(--navy);text-decoration:none;font-weight:600;font-size:.86rem;margin-right:18px;}
+nav.toc a:hover{text-decoration:underline;}
+main{padding:10px 6vw 70px;max-width:1300px;margin:0 auto;}
+section{margin-top:52px;}
+h2.section-title{color:var(--navy);font-size:1.55rem;border-bottom:3px solid var(--accent);padding-bottom:10px;margin-bottom:6px;}
+p.section-intro{color:var(--gray);max-width:900px;margin-bottom:22px;}
+h3.table-title{color:var(--blue);font-size:1.15rem;margin:28px 0 4px;}
+.solution-card{background:#fff;border-left:5px solid var(--accent);border-radius:6px;padding:14px 18px;margin-bottom:14px;box-shadow:0 1px 4px rgba(0,0,0,.06);}
+.solution-card .snum{color:var(--accent);font-weight:700;font-size:.78rem;text-transform:uppercase;letter-spacing:.04em;}
+.solution-card p{margin:6px 0 0;}
+table{width:100%;border-collapse:collapse;background:#fff;box-shadow:0 1px 4px rgba(0,0,0,.06);margin-bottom:8px;}
+th,td{border:1px solid var(--border);padding:9px 12px;text-align:left;font-size:.87rem;vertical-align:top;}
+th{background:var(--navy);color:#fff;font-weight:600;}
+tr:nth-child(even) td{background:var(--light);}
+.group-title{color:var(--navy);font-size:1.3rem;margin:38px 0 16px;padding:9px 14px;background:var(--light);border-left:5px solid var(--accent);border-radius:4px;}
+.measure-card{background:#fff;border:1px solid var(--border);border-radius:8px;padding:18px 22px;margin-bottom:22px;box-shadow:0 1px 5px rgba(0,0,0,.06);}
+.measure-card h4{margin:0 0 10px;color:var(--navy);font-size:1.1rem;}
+pre.dax{background:var(--code-bg);color:var(--code-fg);padding:14px 18px;border-radius:6px;overflow-x:auto;font-size:.85rem;line-height:1.6;font-family:Consolas,'Courier New',monospace;margin:0 0 12px;}
+.explain{background:var(--light);border-radius:6px;padding:10px 16px;margin-bottom:10px;}
+.explain h5{margin:0 0 6px;color:var(--blue);font-size:.85rem;text-transform:uppercase;letter-spacing:.03em;}
+.explain ol{margin:0;padding-left:20px;font-size:.88rem;}
+.explain ol li{margin-bottom:4px;}
+.why-impact{display:flex;gap:16px;flex-wrap:wrap;}
+.why-impact div{flex:1;min-width:260px;font-size:.87rem;background:#FBFCFE;border:1px solid var(--border);border-radius:6px;padding:10px 14px;}
+.why-impact strong{color:var(--navy);}
+.page-card{background:#fff;border:1px solid var(--border);border-radius:8px;padding:20px 24px;margin-bottom:24px;box-shadow:0 1px 5px rgba(0,0,0,.06);}
+.page-card h4{color:var(--navy);margin:0 0 4px;font-size:1.25rem;}
+.page-card .purpose{color:var(--gray);font-style:italic;margin-bottom:14px;}
+.chart-row{border-top:1px solid var(--border);padding:12px 0;}
+.chart-row .ctitle{font-weight:700;color:var(--blue);}
+.chart-row .ctype{display:inline-block;background:var(--accent);color:#fff;font-size:.7rem;padding:2px 8px;border-radius:4px;margin-right:8px;}
+.chart-row .fields{font-size:.86rem;margin:6px 0 4px;}
+.chart-row .why{font-size:.86rem;color:#444;background:var(--light);padding:8px 12px;border-radius:5px;margin-top:6px;}
+.rel-card{background:#fff;border:1px solid var(--border);border-radius:6px;padding:12px 16px;margin-bottom:10px;font-size:.88rem;}
+.rel-card code{background:var(--light);padding:2px 5px;border-radius:3px;}
+footer{background:var(--navy);color:#cdd8ee;text-align:center;padding:26px;font-size:.85rem;}
+.callout{background:#EAFBF1;border-left:5px solid var(--accent);padding:12px 18px;border-radius:6px;margin:18px 0;font-size:.9rem;}
+</style>
+</head>
+<body>
+<header class="hero">
+  <span class="badge">PART 2 OF 2 - SOLUTIONS</span><br>
+  <h1>Project Management Analytics - Power BI Dashboard Training</h1>
+  <p class="sub">Complete, worked solutions - from loading the clean data through to five finished, fully-functioning dashboard pages.</p>
+  <div class="author-box"><span class="name">Kajola Gbenga</span><br>Data Scientist &amp; AI Engineer</div>
+</header>
+<nav class="toc">
+  <a href="#pq-solutions">1. Loading the data</a>
+  <a href="#rel-solutions">2. Relationships</a>
+  <a href="#dax-solutions">3. DAX measures</a>
+  <a href="#dashboard-solutions">4. Dashboard build</a>
+</nav>
+<main>
+<section id="pq-solutions"><h2 class="section-title">1. Loading the clean data - Power Query solutions</h2>
+<p class="section-intro">Step-by-step solution for loading every one of the nine sheets from <code>PM_PowerBI_Training_Dataset.xlsx</code> and preparing them correctly in the model.</p>
+<div class="callout"><strong>General first step:</strong> Home &gt; Get Data &gt; Excel Workbook &gt; select PM_PowerBI_Training_Dataset.xlsx &gt; in the Navigator, tick all nine data sheets (Dim_Date, Dim_Employees, Dim_Clients, Dim_Projects, Dim_Tasks, Fact_Timesheets, Fact_Budget, Fact_Milestones, Fact_Risks - skip the Read Me sheet) &gt; Transform Data to open Power Query.</div>
+<div class="solution-card"><div class="snum">Solution 1 - Dim_Date</div><p>Home &gt; Data source settings not needed since it&#x27;s a local workbook. In Power Query, select Dim_Date, right-click the Date column header &gt; Change Type &gt; Date. Close &amp; Apply, then in Model view select the table, go to the Table Tools ribbon &gt; Mark as Date Table &gt; choose Date as the date column, and confirm the OK prompt.</p></div>
+<div class="solution-card"><div class="snum">Solution 2 - Dim_Employees</div><p>In Power Query, click the data type icon on HourlyRate_USD &gt; Decimal Number, and on HireDate &gt; Date. Close &amp; Apply. In Model view, right-click the Email field in the field list &gt; Hide in Report View.</p></div>
+<div class="solution-card"><div class="snum">Solution 3 - Dim_Clients</div><p>In Power Query, set ContractValue_USD&#x27;s type to Decimal Number and ClientSince&#x27;s type to Date via the column header type icons. Close &amp; Apply.</p></div>
+<div class="solution-card"><div class="snum">Solution 4 - Dim_Projects</div><p>Set StartDate, PlannedEndDate and ActualEndDate to Date type, and PlannedBudget_USD to Decimal Number. Leave ClientID as Text - do not filter out or error-check blank values, since blank ClientID on internal projects is expected and valid.</p></div>
+<div class="solution-card"><div class="snum">Solution 5 - Dim_Tasks</div><p>Set EstimatedHours type to Whole Number; set StartDate, DueDate and CompletionDate to Date. Close &amp; Apply.</p></div>
+<div class="solution-card"><div class="snum">Solution 6 - Fact_Timesheets</div><p>Set HoursLogged to Decimal Number type. Since this is already a clean flat table there is no staging step needed - load it directly. Confirm row count after load matches the source (2,575 rows) using the status bar in Power Query.</p></div>
+<div class="solution-card"><div class="snum">Solution 7 - Fact_Budget</div><p>Set the two cost columns to Decimal Number and Month to Date via the column type icons. Close &amp; Apply.</p></div>
+<div class="solution-card"><div class="snum">Solution 8 - Fact_Milestones</div><p>Set both date columns to Date type. Do not replace blank ActualDate values - they represent milestones not yet reached and must stay blank for the Delayed/At Risk/On Track logic to work correctly downstream.</p></div>
+<div class="solution-card"><div class="snum">Solution 9 - Fact_Risks</div><p>Set RiskScore to Whole Number type, DateIdentified and DateResolved to Date type. Close &amp; Apply, then load all nine queries to the model.</p></div>
+<div class="callout"><strong>Final step:</strong> Click Close &amp; Apply. Confirm in Model view that all nine tables appear with the correct icons (a calendar icon on Dim_Date once marked as a date table) and that row counts match: Dim_Date 1,461 &middot; Dim_Employees 48 &middot; Dim_Clients 18 &middot; Dim_Projects 32 &middot; Dim_Tasks 350 &middot; Fact_Timesheets 2,575 &middot; Fact_Budget 1,820 &middot; Fact_Milestones 160 &middot; Fact_Risks 127.</div>
+</section>
+<section id="rel-solutions"><h2 class="section-title">2. Building the data model - relationship solutions</h2>
+<p class="section-intro">Go to Model view and create each relationship below by dragging from the "from" field to the "to" field, or via Manage Relationships &gt; New. Power BI will auto-detect cardinality - always double check it matches the table below before saving.</p>
+<table><tr><th>From (one side)</th><th>To (many side)</th><th>Cardinality</th><th>Cross-filter</th><th>Active</th><th>Why</th></tr>
+<tr><td><code>Dim_Date[Date]</code></td><td><code>Fact_Timesheets[Date]</code></td><td>1:*</td><td>Single</td><td>Active</td><td>Standard active relationship. Lets every date-based slicer/visual filter timesheet hours.</td></tr>
+<tr><td><code>Dim_Date[Date]</code></td><td><code>Fact_Budget[Month]</code></td><td>1:*</td><td>Single</td><td>Active</td><td>Fact_Budget[Month] holds the first day of each month, so it lines up exactly with Dim_Date[Date] for those rows.</td></tr>
+<tr><td><code>Dim_Date[Date]</code></td><td><code>Fact_Milestones[PlannedDate]</code></td><td>1:*</td><td>Single</td><td>Active</td><td>Active relationship on PlannedDate so milestone timelines respond to the date slicer by default.</td></tr>
+<tr><td><code>Dim_Date[Date]</code></td><td><code>Fact_Milestones[ActualDate]</code></td><td>1:*</td><td>Single</td><td>Inactive</td><td>Inactive - a date table can only have one active relationship per fact table on the same grain of question (&#x27;which date&#x27;). Activated with USERELATIONSHIP when a measure needs actual, not planned, timing.</td></tr>
+<tr><td><code>Dim_Date[Date]</code></td><td><code>Fact_Risks[DateIdentified]</code></td><td>1:*</td><td>Single</td><td>Active</td><td>Active relationship so the date slicer filters risks by when they were raised.</td></tr>
+<tr><td><code>Dim_Projects[ProjectID]</code></td><td><code>Dim_Tasks[ProjectID]</code></td><td>1:*</td><td>Single</td><td>Active</td><td>Core relationship - every task belongs to exactly one project.</td></tr>
+<tr><td><code>Dim_Projects[ProjectID]</code></td><td><code>Fact_Timesheets[ProjectID]</code></td><td>1:*</td><td>Single</td><td>Active</td><td>Lets a project slicer filter timesheet hours directly, without forcing every visual through Dim_Tasks.</td></tr>
+<tr><td><code>Dim_Projects[ProjectID]</code></td><td><code>Fact_Budget[ProjectID]</code></td><td>1:*</td><td>Single</td><td>Active</td><td>Core relationship for all budget vs actual analysis.</td></tr>
+<tr><td><code>Dim_Projects[ProjectID]</code></td><td><code>Fact_Milestones[ProjectID]</code></td><td>1:*</td><td>Single</td><td>Active</td><td>Core relationship for milestone tracking.</td></tr>
+<tr><td><code>Dim_Projects[ProjectID]</code></td><td><code>Fact_Risks[ProjectID]</code></td><td>1:*</td><td>Single</td><td>Active</td><td>Core relationship for the risk register.</td></tr>
+<tr><td><code>Dim_Projects[ClientID]</code></td><td><code>Dim_Clients[ClientID]</code></td><td>*:1</td><td>Single</td><td>Active</td><td>Many projects to one client. Internal projects have a blank ClientID, so they simply will not match a client - a useful example of how blanks behave in a relationship instead of erroring.</td></tr>
+<tr><td><code>Dim_Tasks[TaskID]</code></td><td><code>Fact_Timesheets[TaskID]</code></td><td>1:*</td><td>Single</td><td>Active</td><td>Core relationship - every timesheet row belongs to exactly one task.</td></tr>
+<tr><td><code>Dim_Employees[EmployeeID]</code></td><td><code>Dim_Tasks[AssignedToID]</code></td><td>1:*</td><td>Single</td><td>Active</td><td>The ACTIVE relationship into Dim_Employees. Chosen as active because &#x27;who is doing the work&#x27; is the most common way students will slice the model.</td></tr>
+<tr><td><code>Dim_Employees[EmployeeID]</code></td><td><code>Fact_Timesheets[EmployeeID]</code></td><td>1:*</td><td>Single</td><td>Active</td><td>Second active relationship from Employees, used directly for utilization measures without needing to pass through Dim_Tasks.</td></tr>
+<tr><td><code>Dim_Employees[EmployeeID]</code></td><td><code>Dim_Projects[ProjectManagerID]</code></td><td>1:*</td><td>Single</td><td>Inactive</td><td>Inactive - Power BI allows only one active path between two tables at a time, and Employees-to-Tasks-to-Employees would already create ambiguity. Activated with USERELATIONSHIP inside &#x27;Projects Managed&#x27; style measures.</td></tr>
+<tr><td><code>Dim_Employees[EmployeeID]</code></td><td><code>Dim_Clients[AccountManagerID]</code></td><td>1:*</td><td>Single</td><td>Inactive</td><td>Inactive for the same reason. Activated with USERELATIONSHIP for account-manager-level client measures.</td></tr>
+<tr><td><code>Dim_Employees[EmployeeID]</code></td><td><code>Fact_Risks[OwnerID]</code></td><td>1:*</td><td>Single</td><td>Inactive</td><td>Inactive. Activated with USERELATIONSHIP for &#x27;risks owned by&#x27; measures.</td></tr>
+</table>
+<div class="callout"><strong>Why four Employee relationships cannot all be active:</strong> Power BI only allows one active (usable-by-default) relationship path between any two tables, because allowing more than one would make a plain filter on Dim_Employees ambiguous - the engine would not know which path to propagate through. The relationship on <code>AssignedToID</code> is left active since "who is doing the work" is the most common slicing need; the other three (ProjectManagerID, AccountManagerID, OwnerID) are created as inactive (Power BI greys them out and draws them as dashed lines) and are switched on only inside specific DAX measures using <code>USERELATIONSHIP()</code>, which activates a named relationship for the duration of a single CALCULATE. This is the standard pattern for a "role-playing dimension".</div>
+</section>
+<section id="dax-solutions"><h2 class="section-title">3. DAX measures - full solutions</h2>
+<p class="section-intro">Every measure below is given in full, with a line-by-line explanation of what each part of the formula does, why that particular DAX pattern was chosen over the alternatives, and exactly what it drives on the finished dashboard.</p>
+<div class="group-title">Foundational measures (used across every page)</div>
+<div class="measure-card">
+<h4>Total Projects</h4>
+<pre class="dax">Total Projects = DISTINCTCOUNT(Dim_Projects[ProjectID])</pre>
+<div class="explain"><h5>Line-by-line explanation</h5><ol>
+<li>DISTINCTCOUNT counts unique ProjectID values in the currently filtered context, so the result always matches whatever slicers/filters are applied.</li>
+</ol></div>
+<div class="why-impact">
+<div><strong>Why this pattern was used</strong><br>DISTINCTCOUNT rather than COUNTROWS is used because ProjectID is the grain of Dim_Projects; using COUNTROWS would give the same answer here, but DISTINCTCOUNT is the safer habit once a measure is later reused against a fact table where a project can repeat many times.</div>
+<div><strong>Impact on the dashboard</strong><br>Feeds every KPI card that shows a project count, and is the denominator for On-Time Completion %.</div>
+</div>
+</div>
+<div class="measure-card">
+<h4>Active Projects</h4>
+<pre class="dax">Active Projects =
+CALCULATE(
+    [Total Projects],
+    Dim_Projects[Status] = &quot;In Progress&quot;
+)</pre>
+<div class="explain"><h5>Line-by-line explanation</h5><ol>
+<li>CALCULATE takes the existing [Total Projects] measure and overrides its filter context.</li>
+<li>The Status filter narrows the count down to only rows where Status equals &quot;In Progress&quot;, regardless of what the report page&#x27;s own filters/slicers are doing to Status.</li>
+</ol></div>
+<div class="why-impact">
+<div><strong>Why this pattern was used</strong><br>Wrapping the base measure keeps a single definition of &#x27;how to count a project&#x27; in one place, so a future change to Total Projects automatically flows into Active Projects.</div>
+<div><strong>Impact on the dashboard</strong><br>Executive Portfolio Overview KPI card and the Status donut chart&#x27;s callout.</div>
+</div>
+</div>
+<div class="measure-card">
+<h4>Completed On-Time %</h4>
+<pre class="dax">Completed On-Time % =
+VAR CompletedProjects =
+    CALCULATE([Total Projects], Dim_Projects[Status] = &quot;Completed&quot;)
+VAR OnTimeProjects =
+    CALCULATE(
+        [Total Projects],
+        Dim_Projects[Status] = &quot;Completed&quot;,
+        Dim_Projects[ActualEndDate] &lt;= Dim_Projects[PlannedEndDate]
+    )
+RETURN
+    DIVIDE(OnTimeProjects, CompletedProjects)</pre>
+<div class="explain"><h5>Line-by-line explanation</h5><ol>
+<li>VAR CompletedProjects stores the count of all completed projects, computed once so it is not re-evaluated twice.</li>
+<li>VAR OnTimeProjects adds a second condition: the actual end date must be on or before the planned end date.</li>
+<li>DIVIDE(OnTimeProjects, CompletedProjects) safely divides the two, returning BLANK instead of an error when CompletedProjects is 0.</li>
+</ol></div>
+<div class="why-impact">
+<div><strong>Why this pattern was used</strong><br>Using VAR makes the two-step logic readable and avoids repeating the CALCULATE filter twice; DIVIDE is used in place of the / operator specifically to avoid a divide-by-zero error when no projects are completed yet in the current filter context.</div>
+<div><strong>Impact on the dashboard</strong><br>Headline KPI card on the Executive Overview page - the single most-watched number in the whole report.</div>
+</div>
+</div>
+<div class="measure-card">
+<h4>Total Planned Budget</h4>
+<pre class="dax">Total Planned Budget = SUM(Dim_Projects[PlannedBudget_USD])</pre>
+<div class="explain"><h5>Line-by-line explanation</h5><ol>
+<li>SUM adds PlannedBudget_USD across every row of Dim_Projects visible in the current filter context.</li>
+</ol></div>
+<div class="why-impact">
+<div><strong>Why this pattern was used</strong><br>PlannedBudget_USD lives once per project on Dim_Projects (not per month like actual cost), so summing the dimension table directly is correct and avoids overcounting.</div>
+<div><strong>Impact on the dashboard</strong><br>Budget KPI cards and the Planned vs Actual chart on the Budget &amp; Cost Analysis page.</div>
+</div>
+</div>
+<div class="measure-card">
+<h4>Total Actual Cost</h4>
+<pre class="dax">Total Actual Cost = SUM(Fact_Budget[ActualCost_USD])</pre>
+<div class="explain"><h5>Line-by-line explanation</h5><ol>
+<li>SUM adds every ActualCost_USD row in Fact_Budget that is visible in the current filter context (after project, category and date filters are applied).</li>
+</ol></div>
+<div class="why-impact">
+<div><strong>Why this pattern was used</strong><br>Actual cost is captured monthly and by category in the fact table, so it must be summed from the fact table rather than the project dimension.</div>
+<div><strong>Impact on the dashboard</strong><br>Compared directly against Total Planned Budget on the Budget &amp; Cost Analysis page and portfolio KPI cards.</div>
+</div>
+</div>
+<div class="measure-card">
+<h4>Budget Variance</h4>
+<pre class="dax">Budget Variance = [Total Planned Budget] - [Total Actual Cost]</pre>
+<div class="explain"><h5>Line-by-line explanation</h5><ol>
+<li>A simple subtraction between two existing measures; positive means under budget, negative means over budget.</li>
+</ol></div>
+<div class="why-impact">
+<div><strong>Why this pattern was used</strong><br>Built as a measure (not a calculated column) so it recalculates correctly at every level - project, department or portfolio - as the report is filtered.</div>
+<div><strong>Impact on the dashboard</strong><br>Conditional-formatted KPI card and the &#x27;Top Overbudget Projects&#x27; bar chart (sorted ascending on this measure).</div>
+</div>
+</div>
+<div class="measure-card">
+<h4>Budget Variance %</h4>
+<pre class="dax">Budget Variance % = DIVIDE([Budget Variance], [Total Planned Budget])</pre>
+<div class="explain"><h5>Line-by-line explanation</h5><ol>
+<li>DIVIDE expresses the variance as a proportion of planned budget, returning BLANK rather than an error if planned budget is 0.</li>
+</ol></div>
+<div class="why-impact">
+<div><strong>Why this pattern was used</strong><br>A percentage is easier to compare fairly across projects of very different sizes than the absolute dollar variance is.</div>
+<div><strong>Impact on the dashboard</strong><br>Used as the color/data-label field on the Budget &amp; Cost Analysis matrix visual.</div>
+</div>
+</div>
+<div class="group-title">Task &amp; schedule measures</div>
+<div class="measure-card">
+<h4>Total Tasks</h4>
+<pre class="dax">Total Tasks = COUNTROWS(Dim_Tasks)</pre>
+<div class="explain"><h5>Line-by-line explanation</h5><ol>
+<li>COUNTROWS simply counts the rows of Dim_Tasks visible in the current filter context.</li>
+</ol></div>
+<div class="why-impact">
+<div><strong>Why this pattern was used</strong><br>COUNTROWS is used instead of DISTINCTCOUNT because Dim_Tasks is already at one-row-per-task grain, so there is nothing to de-duplicate.</div>
+<div><strong>Impact on the dashboard</strong><br>Denominator for Task Completion Rate % and the base of every task-count KPI.</div>
+</div>
+</div>
+<div class="measure-card">
+<h4>Completed Tasks</h4>
+<pre class="dax">Completed Tasks =
+CALCULATE([Total Tasks], Dim_Tasks[Status] = &quot;Completed&quot;)</pre>
+<div class="explain"><h5>Line-by-line explanation</h5><ol>
+<li>CALCULATE overrides the Status filter to isolate completed tasks only.</li>
+</ol></div>
+<div class="why-impact">
+<div><strong>Why this pattern was used</strong><br>Reuses [Total Tasks] rather than writing COUNTROWS again, keeping the counting logic in one place.</div>
+<div><strong>Impact on the dashboard</strong><br>Task Status donut chart and Task Completion Rate %.</div>
+</div>
+</div>
+<div class="measure-card">
+<h4>Task Completion Rate %</h4>
+<pre class="dax">Task Completion Rate % = DIVIDE([Completed Tasks], [Total Tasks])</pre>
+<div class="explain"><h5>Line-by-line explanation</h5><ol>
+<li>DIVIDE guards against a blank denominator when a filter context returns zero tasks (e.g. a brand-new project).</li>
+</ol></div>
+<div class="why-impact">
+<div><strong>Why this pattern was used</strong><br>A rate is more meaningful than a raw count when comparing progress across projects of different sizes.</div>
+<div><strong>Impact on the dashboard</strong><br>KPI card and conditional formatting on the Task &amp; Schedule Management page.</div>
+</div>
+</div>
+<div class="measure-card">
+<h4>Overdue Tasks</h4>
+<pre class="dax">Overdue Tasks =
+CALCULATE(
+    [Total Tasks],
+    Dim_Tasks[Status] &lt;&gt; &quot;Completed&quot;,
+    Dim_Tasks[DueDate] &lt; TODAY()
+)</pre>
+<div class="explain"><h5>Line-by-line explanation</h5><ol>
+<li>The first condition excludes tasks already marked Completed.</li>
+<li>The second condition compares DueDate against TODAY(), Power BI&#x27;s function for the current system date, so the measure is always evaluated against &#x27;right now&#x27;.</li>
+</ol></div>
+<div class="why-impact">
+<div><strong>Why this pattern was used</strong><br>TODAY() is used instead of a hardcoded date so the measure stays correct every time the report is opened or refreshed, without any manual edits.</div>
+<div><strong>Impact on the dashboard</strong><br>The single most important alert metric on the Task &amp; Schedule page - drives a red KPI card and an &#x27;Overdue Tasks by Assignee&#x27; bar chart.</div>
+</div>
+</div>
+<div class="measure-card">
+<h4>Average Task Duration (Days)</h4>
+<pre class="dax">Average Task Duration (Days) =
+AVERAGEX(
+    FILTER(Dim_Tasks, Dim_Tasks[Status] = &quot;Completed&quot;),
+    DATEDIFF(Dim_Tasks[StartDate], Dim_Tasks[CompletionDate], DAY)
+)</pre>
+<div class="explain"><h5>Line-by-line explanation</h5><ol>
+<li>FILTER builds a virtual table containing only completed tasks.</li>
+<li>AVERAGEX iterates row-by-row over that virtual table.</li>
+<li>DATEDIFF calculates the number of days between StartDate and CompletionDate for each row, and AVERAGEX then averages those per-row results.</li>
+</ol></div>
+<div class="why-impact">
+<div><strong>Why this pattern was used</strong><br>AVERAGEX (an iterator) is required rather than a plain AVERAGE because the duration is not a stored column - it has to be computed per row before it can be averaged.</div>
+<div><strong>Impact on the dashboard</strong><br>Line/KPI showing how delivery speed is trending on the Task &amp; Schedule page.</div>
+</div>
+</div>
+<div class="measure-card">
+<h4>Tasks Completed (Running Total)</h4>
+<pre class="dax">Tasks Completed (Running Total) =
+CALCULATE(
+    [Completed Tasks],
+    FILTER(
+        ALLSELECTED(Dim_Date[Date]),
+        Dim_Date[Date] &lt;= MAX(Dim_Date[Date])
+    )
+)</pre>
+<div class="explain"><h5>Line-by-line explanation</h5><ol>
+<li>ALLSELECTED(Dim_Date[Date]) removes the row-level date filter from the visual&#x27;s own axis while still respecting any slicers on the page, giving a clean base of dates to accumulate over.</li>
+<li>FILTER keeps only the dates less than or equal to the current date on the axis.</li>
+<li>CALCULATE then evaluates [Completed Tasks] across that accumulated set of dates, producing a running total as the axis moves forward in time.</li>
+</ol></div>
+<div class="why-impact">
+<div><strong>Why this pattern was used</strong><br>ALLSELECTED is preferred over ALL because it keeps external slicer selections (e.g. a Department slicer) working, only removing the internal chart-axis filter that would otherwise stop the accumulation.</div>
+<div><strong>Impact on the dashboard</strong><br>The cumulative completion trend line on the Task &amp; Schedule Management page.</div>
+</div>
+</div>
+<div class="group-title">Budget &amp; cost measures</div>
+<div class="measure-card">
+<h4>Cost Per Hour</h4>
+<pre class="dax">Cost Per Hour = DIVIDE([Total Actual Cost], [Total Hours Logged])</pre>
+<div class="explain"><h5>Line-by-line explanation</h5><ol>
+<li>Divides total actual cost by total hours logged, with DIVIDE protecting against a zero-hour filter context.</li>
+</ol></div>
+<div class="why-impact">
+<div><strong>Why this pattern was used</strong><br>Blends two fact tables (Fact_Budget and Fact_Timesheets) purely through measures, which is the safe way to compare two different grains without needing a physical relationship between them.</div>
+<div><strong>Impact on the dashboard</strong><br>Efficiency KPI on the Budget &amp; Cost Analysis page, and a scatter-chart axis (Cost per Hour vs Hours Logged) by project.</div>
+</div>
+</div>
+<div class="measure-card">
+<h4>Labor Cost Share %</h4>
+<pre class="dax">Labor Cost Share % =
+VAR LaborCost =
+    CALCULATE([Total Actual Cost], Fact_Budget[Category] = &quot;Labor&quot;)
+RETURN
+    DIVIDE(LaborCost, [Total Actual Cost])</pre>
+<div class="explain"><h5>Line-by-line explanation</h5><ol>
+<li>VAR LaborCost isolates actual cost for just the Labor category.</li>
+<li>DIVIDE then expresses that as a share of total actual cost across all categories.</li>
+</ol></div>
+<div class="why-impact">
+<div><strong>Why this pattern was used</strong><br>Written with CALCULATE + a single hardcoded category rather than a SWITCH/multi-category pattern because the dashboard only needs this one specific share as a callout, not a general-purpose category measure.</div>
+<div><strong>Impact on the dashboard</strong><br>Callout on the Budget &amp; Cost Analysis page highlighting how labour-heavy the portfolio is.</div>
+</div>
+</div>
+<div class="measure-card">
+<h4>Budget Utilization %</h4>
+<pre class="dax">Budget Utilization % = DIVIDE([Total Actual Cost], [Total Planned Budget])</pre>
+<div class="explain"><h5>Line-by-line explanation</h5><ol>
+<li>A straightforward ratio of spend to plan, expressed as a percentage by the visual&#x27;s number formatting.</li>
+</ol></div>
+<div class="why-impact">
+<div><strong>Why this pattern was used</strong><br>Kept separate from Budget Variance % (which is signed and centred on zero) because gauge/KPI visuals read a 0-100%+ utilization ratio more intuitively than a positive/negative variance.</div>
+<div><strong>Impact on the dashboard</strong><br>Gauge visual on the Budget &amp; Cost Analysis page, coloured red above 100%.</div>
+</div>
+</div>
+<div class="measure-card">
+<h4>MoM Actual Cost Change</h4>
+<pre class="dax">MoM Actual Cost Change =
+VAR CurrentCost = [Total Actual Cost]
+VAR PreviousCost =
+    CALCULATE(
+        [Total Actual Cost],
+        DATEADD(Dim_Date[Date], -1, MONTH)
+    )
+RETURN
+    DIVIDE(CurrentCost - PreviousCost, PreviousCost)</pre>
+<div class="explain"><h5>Line-by-line explanation</h5><ol>
+<li>VAR CurrentCost captures the actual cost for whatever month is currently in context.</li>
+<li>DATEADD(Dim_Date[Date], -1, MONTH) shifts the date filter back by exactly one month, so VAR PreviousCost recalculates [Total Actual Cost] for the prior month.</li>
+<li>DIVIDE returns the percentage change, guarding against a zero prior-month cost.</li>
+</ol></div>
+<div class="why-impact">
+<div><strong>Why this pattern was used</strong><br>DATEADD is a time-intelligence function that only works correctly because Dim_Date is marked as a proper Date Table with no gaps - this measure is used in the training specifically to demonstrate why that step matters.</div>
+<div><strong>Impact on the dashboard</strong><br>Month-over-month trend arrow on the Budget &amp; Cost Analysis KPI strip.</div>
+</div>
+</div>
+<div class="group-title">Resource &amp; utilization measures</div>
+<div class="measure-card">
+<h4>Total Hours Logged</h4>
+<pre class="dax">Total Hours Logged = SUM(Fact_Timesheets[HoursLogged])</pre>
+<div class="explain"><h5>Line-by-line explanation</h5><ol>
+<li>Adds every HoursLogged value in Fact_Timesheets visible in the current filter context.</li>
+</ol></div>
+<div class="why-impact">
+<div><strong>Why this pattern was used</strong><br>The base additive measure of the timesheet fact table - almost every other resourcing measure builds on top of it.</div>
+<div><strong>Impact on the dashboard</strong><br>Feeds KPI cards, the utilization gauge, and every hours-based chart on the Resource &amp; Team Utilization page.</div>
+</div>
+</div>
+<div class="measure-card">
+<h4>Billable Hours</h4>
+<pre class="dax">Billable Hours =
+CALCULATE([Total Hours Logged], Fact_Timesheets[BillableFlag] = &quot;Yes&quot;)</pre>
+<div class="explain"><h5>Line-by-line explanation</h5><ol>
+<li>CALCULATE narrows Total Hours Logged down to only rows flagged as billable.</li>
+</ol></div>
+<div class="why-impact">
+<div><strong>Why this pattern was used</strong><br>Reuses the base measure so the definition of &#x27;an hour&#x27; only lives in one place.</div>
+<div><strong>Impact on the dashboard</strong><br>Billable vs Non-Billable stacked bar chart, and the numerator of Billable Utilization %.</div>
+</div>
+</div>
+<div class="measure-card">
+<h4>Billable Utilization %</h4>
+<pre class="dax">Billable Utilization % = DIVIDE([Billable Hours], [Total Hours Logged])</pre>
+<div class="explain"><h5>Line-by-line explanation</h5><ol>
+<li>Expresses billable hours as a share of all hours logged.</li>
+</ol></div>
+<div class="why-impact">
+<div><strong>Why this pattern was used</strong><br>DIVIDE avoids an error for any employee/period with zero logged hours.</div>
+<div><strong>Impact on the dashboard</strong><br>Headline KPI and conditional formatting in the employee utilization table.</div>
+</div>
+</div>
+<div class="measure-card">
+<h4>Overtime Hours</h4>
+<pre class="dax">Overtime Hours =
+CALCULATE([Total Hours Logged], Fact_Timesheets[OvertimeFlag] = &quot;Yes&quot;)</pre>
+<div class="explain"><h5>Line-by-line explanation</h5><ol>
+<li>CALCULATE narrows Total Hours Logged to rows flagged as overtime.</li>
+</ol></div>
+<div class="why-impact">
+<div><strong>Why this pattern was used</strong><br>Kept as its own measure (rather than a column filter on a visual) so it can be combined with other measures, e.g. in a ratio.</div>
+<div><strong>Impact on the dashboard</strong><br>Overtime-cost callout and the &#x27;employees most at risk of burnout&#x27; table, sorted by this measure.</div>
+</div>
+</div>
+<div class="measure-card">
+<h4>Estimated vs Actual Hours Variance</h4>
+<pre class="dax">Estimated vs Actual Hours Variance =
+SUMX(
+    Dim_Tasks,
+    Dim_Tasks[EstimatedHours]
+) - [Total Hours Logged]</pre>
+<div class="explain"><h5>Line-by-line explanation</h5><ol>
+<li>SUMX iterates over Dim_Tasks and totals the EstimatedHours column for the tasks in the current filter context.</li>
+<li>That total is then compared against [Total Hours Logged], the actual hours pulled from the timesheet fact table.</li>
+</ol></div>
+<div class="why-impact">
+<div><strong>Why this pattern was used</strong><br>SUMX is required (rather than a plain SUM) purely as a matter of style consistency in this training so students see both SUM and SUMX used correctly - here a plain SUM(Dim_Tasks[EstimatedHours]) would in fact work identically, and the guide calls that out explicitly.</div>
+<div><strong>Impact on the dashboard</strong><br>Estimation-accuracy KPI on the Resource &amp; Team Utilization page - highlights chronic under- or over-estimation.</div>
+</div>
+</div>
+<div class="measure-card">
+<h4>Active Employees</h4>
+<pre class="dax">Active Employees =
+CALCULATE(DISTINCTCOUNT(Dim_Employees[EmployeeID]), Dim_Employees[EmploymentStatus] = &quot;Active&quot;)</pre>
+<div class="explain"><h5>Line-by-line explanation</h5><ol>
+<li>DISTINCTCOUNT counts unique employees; CALCULATE narrows that to only those currently marked Active.</li>
+</ol></div>
+<div class="why-impact">
+<div><strong>Why this pattern was used</strong><br>Used as the denominator base for any future average-hours-per-employee style measure, and to exclude former staff from headcount cards.</div>
+<div><strong>Impact on the dashboard</strong><br>Headcount KPI card on the Resource &amp; Team Utilization page.</div>
+</div>
+</div>
+<div class="measure-card">
+<h4>Projects Managed (by PM)</h4>
+<pre class="dax">Projects Managed (by PM) =
+CALCULATE(
+    [Total Projects],
+    USERELATIONSHIP(Dim_Employees[EmployeeID], Dim_Projects[ProjectManagerID])
+)</pre>
+<div class="explain"><h5>Line-by-line explanation</h5><ol>
+<li>USERELATIONSHIP tells this one CALCULATE to temporarily activate the otherwise-inactive Employees-to-Projects relationship on ProjectManagerID, without changing the model&#x27;s default active path.</li>
+<li>With that relationship active for the duration of the calculation, [Total Projects] is then evaluated filtered by whichever employee is in context.</li>
+</ol></div>
+<div class="why-impact">
+<div><strong>Why this pattern was used</strong><br>This is the direct, textbook use of USERELATIONSHIP: the model only allows one active relationship between two tables, so this measure activates the second (PM) relationship on demand instead of the default (assignee) one.</div>
+<div><strong>Impact on the dashboard</strong><br>Employee-level table on the Resource &amp; Team Utilization page showing how many projects each PM leads, next to their hours logged as an assignee.</div>
+</div>
+</div>
+<div class="group-title">Risk measures</div>
+<div class="measure-card">
+<h4>Open Risks</h4>
+<pre class="dax">Open Risks =
+CALCULATE(COUNTROWS(Fact_Risks), Fact_Risks[Status] = &quot;Open&quot;)</pre>
+<div class="explain"><h5>Line-by-line explanation</h5><ol>
+<li>COUNTROWS counts risk rows; CALCULATE narrows that to Status = Open.</li>
+</ol></div>
+<div class="why-impact">
+<div><strong>Why this pattern was used</strong><br>COUNTROWS is correct here (not DISTINCTCOUNT) because Fact_Risks is already at one-row-per-risk grain.</div>
+<div><strong>Impact on the dashboard</strong><br>Headline red KPI on the Risk Management page.</div>
+</div>
+</div>
+<div class="measure-card">
+<h4>High Severity Risks</h4>
+<pre class="dax">High Severity Risks =
+CALCULATE(
+    COUNTROWS(Fact_Risks),
+    Fact_Risks[RiskScore] &gt;= 6,
+    Fact_Risks[Status] IN {&quot;Open&quot;, &quot;Occurred&quot;}
+)</pre>
+<div class="explain"><h5>Line-by-line explanation</h5><ol>
+<li>RiskScore &gt;= 6 keeps only the higher end of the 1-9 probability x impact scale.</li>
+<li>The IN operator checks Status against a small set of values in one line, equivalent to Status = &quot;Open&quot; || Status = &quot;Occurred&quot; but easier to read and extend.</li>
+</ol></div>
+<div class="why-impact">
+<div><strong>Why this pattern was used</strong><br>IN was chosen over nested OR() calls purely for readability - this is the pattern the training recommends whenever a measure needs to match against more than one text value.</div>
+<div><strong>Impact on the dashboard</strong><br>Drives the colour thresholds on the Risk Matrix heatmap and a &#x27;Top High-Severity Risks&#x27; table.</div>
+</div>
+</div>
+<div class="measure-card">
+<h4>Average Risk Score</h4>
+<pre class="dax">Average Risk Score = AVERAGE(Fact_Risks[RiskScore])</pre>
+<div class="explain"><h5>Line-by-line explanation</h5><ol>
+<li>AVERAGE computes the mean RiskScore across the risks visible in the current filter context.</li>
+</ol></div>
+<div class="why-impact">
+<div><strong>Why this pattern was used</strong><br>A plain AVERAGE is sufficient because RiskScore is already a stored column, not something that needs to be computed per row first.</div>
+<div><strong>Impact on the dashboard</strong><br>Gauge visual and the axis reference line on the risk trend chart.</div>
+</div>
+</div>
+<div class="measure-card">
+<h4>Risk Resolution Rate %</h4>
+<pre class="dax">Risk Resolution Rate % =
+VAR ResolvedRisks =
+    CALCULATE(COUNTROWS(Fact_Risks), Fact_Risks[Status] IN {&quot;Mitigated&quot;, &quot;Closed&quot;})
+VAR TotalRisks = COUNTROWS(Fact_Risks)
+RETURN
+    DIVIDE(ResolvedRisks, TotalRisks)</pre>
+<div class="explain"><h5>Line-by-line explanation</h5><ol>
+<li>VAR ResolvedRisks counts risks whose status shows they have been dealt with.</li>
+<li>VAR TotalRisks counts every risk in the current context.</li>
+<li>DIVIDE returns the percentage resolved, safe against a zero-risk filter context.</li>
+</ol></div>
+<div class="why-impact">
+<div><strong>Why this pattern was used</strong><br>VARs are used to make the two counts explicit and reusable within the measure, avoiding evaluating COUNTROWS(Fact_Risks) redundantly.</div>
+<div><strong>Impact on the dashboard</strong><br>KPI card and conditional formatting on the Risk Management page&#x27;s project-level risk table.</div>
+</div>
+</div>
+<div class="measure-card">
+<h4>Risks Owned (by Employee)</h4>
+<pre class="dax">Risks Owned (by Employee) =
+CALCULATE(
+    COUNTROWS(Fact_Risks),
+    USERELATIONSHIP(Dim_Employees[EmployeeID], Fact_Risks[OwnerID])
+)</pre>
+<div class="explain"><h5>Line-by-line explanation</h5><ol>
+<li>USERELATIONSHIP activates the inactive Employees-to-Fact_Risks relationship on OwnerID for this calculation only.</li>
+<li>COUNTROWS then counts risk rows filtered by whichever employee is in the current row/filter context, via that temporarily active relationship.</li>
+</ol></div>
+<div class="why-impact">
+<div><strong>Why this pattern was used</strong><br>Same pattern as Projects Managed (by PM) - demonstrates that USERELATIONSHIP is reused any time a role-playing dimension needs a non-default path activated.</div>
+<div><strong>Impact on the dashboard</strong><br>Employee-level risk ownership table on the Risk Management page.</div>
+</div>
+</div>
+</section>
+<section id="dashboard-solutions"><h2 class="section-title">4. Building the five dashboard pages - full solutions</h2>
+<p class="section-intro">Exact build instructions for every page: which visual to insert from the Visualizations pane, which fields go in which well, and why that chart is the right choice for that question. Apply a consistent theme (View &gt; Themes) and add page-navigation buttons before final delivery.</p>
+<div class="page-card">
+<h4>Page 1 - Executive Portfolio Overview</h4>
+<p class="purpose">A one-screen health check of the whole project portfolio for sponsors and senior stakeholders.</p>
+<div class="chart-row">
+<span class="ctype">KPI cards</span><span class="ctitle">Total Projects / Active Projects / Completed On-Time % / Budget Variance</span>
+<div class="fields"><strong>Field wells:</strong> [Total Projects], [Active Projects], [Completed On-Time %], [Budget Variance]</div>
+<div class="why">Four headline numbers that answer &#x27;how is the portfolio doing&#x27; in under five seconds.</div>
+</div>
+<div class="chart-row">
+<span class="ctype">Donut chart</span><span class="ctitle">Projects by Status</span>
+<div class="fields"><strong>Field wells:</strong> Legend: Dim_Projects[Status]. Values: [Total Projects]</div>
+<div class="why">Shows the split between Not Started, In Progress, On Hold, Completed and Cancelled at a glance.</div>
+</div>
+<div class="chart-row">
+<span class="ctype">Clustered bar chart</span><span class="ctitle">Projects by Department</span>
+<div class="fields"><strong>Field wells:</strong> Axis: Dim_Projects[Department]. Values: [Total Projects], sorted descending</div>
+<div class="why">Highlights which departments own the most delivery work.</div>
+</div>
+<div class="chart-row">
+<span class="ctype">Bar chart (diverging)</span><span class="ctitle">Budget Variance by Project (Top 10)</span>
+<div class="fields"><strong>Field wells:</strong> Axis: Dim_Projects[ProjectName]. Values: [Budget Variance]. Filtered to Top 10 by |Budget Variance|</div>
+<div class="why">Surfaces the projects furthest from plan in either direction, colour-coded red/green.</div>
+</div>
+<div class="chart-row">
+<span class="ctype">Line chart</span><span class="ctitle">Cumulative Actual Cost vs Planned Budget Trend</span>
+<div class="fields"><strong>Field wells:</strong> Axis: Dim_Date[MonthYear]. Values: [Total Actual Cost] (running total via time intelligence), reference line [Total Planned Budget]</div>
+<div class="why">Tracks portfolio spend burn-down against the approved budget line over time.</div>
+</div>
+<div class="chart-row">
+<span class="ctype">Map (or filled map)</span><span class="ctitle">Projects by Client Region</span>
+<div class="fields"><strong>Field wells:</strong> Location: Dim_Clients[Region]. Values: [Total Projects]</div>
+<div class="why">Shows the geographic spread of client work.</div>
+</div>
+</div>
+<div class="page-card">
+<h4>Page 2 - Task &amp; Schedule Management</h4>
+<p class="purpose">Operational view for project managers to track task progress and catch schedule risk early.</p>
+<div class="chart-row">
+<span class="ctype">KPI cards</span><span class="ctitle">Total Tasks / Task Completion Rate % / Overdue Tasks / Avg Task Duration</span>
+<div class="fields"><strong>Field wells:</strong> [Total Tasks], [Task Completion Rate %], [Overdue Tasks], [Average Task Duration (Days)]</div>
+<div class="why">Snapshot of schedule health across all in-flight tasks.</div>
+</div>
+<div class="chart-row">
+<span class="ctype">Stacked bar chart</span><span class="ctitle">Task Status by Phase</span>
+<div class="fields"><strong>Field wells:</strong> Axis: Dim_Tasks[Phase]. Legend: Dim_Tasks[Status]. Values: [Total Tasks]</div>
+<div class="why">Shows where in the delivery lifecycle work is piling up or stalling.</div>
+</div>
+<div class="chart-row">
+<span class="ctype">Table/matrix</span><span class="ctitle">Overdue Tasks by Assignee</span>
+<div class="fields"><strong>Field wells:</strong> Rows: Dim_Employees[FullName]. Values: [Overdue Tasks], sorted descending, filtered to &gt; 0</div>
+<div class="why">A direct action list for resource managers to follow up on.</div>
+</div>
+<div class="chart-row">
+<span class="ctype">Line chart</span><span class="ctitle">Tasks Completed - Running Total</span>
+<div class="fields"><strong>Field wells:</strong> Axis: Dim_Date[MonthYear]. Values: [Tasks Completed (Running Total)]</div>
+<div class="why">Visualises delivery velocity/momentum across the training&#x27;s date range.</div>
+</div>
+<div class="chart-row">
+<span class="ctype">Clustered column chart</span><span class="ctitle">Task Mix by Type</span>
+<div class="fields"><strong>Field wells:</strong> Axis: Dim_Tasks[TaskType]. Values: [Total Tasks]</div>
+<div class="why">Shows what kind of work (development, testing, documentation...) dominates the portfolio.</div>
+</div>
+</div>
+<div class="page-card">
+<h4>Page 3 - Budget &amp; Cost Analysis</h4>
+<p class="purpose">Financial deep-dive for finance/PMO stakeholders comparing planned vs actual spend.</p>
+<div class="chart-row">
+<span class="ctype">KPI cards</span><span class="ctitle">Total Planned Budget / Total Actual Cost / Budget Variance % / Cost Per Hour</span>
+<div class="fields"><strong>Field wells:</strong> [Total Planned Budget], [Total Actual Cost], [Budget Variance %], [Cost Per Hour]</div>
+<div class="why">Financial headline numbers for the portfolio.</div>
+</div>
+<div class="chart-row">
+<span class="ctype">Gauge</span><span class="ctitle">Budget Utilization %</span>
+<div class="fields"><strong>Field wells:</strong> Value: [Budget Utilization %], Target: 100%</div>
+<div class="why">Instantly flags whether the portfolio is trending over or under budget.</div>
+</div>
+<div class="chart-row">
+<span class="ctype">Clustered column chart</span><span class="ctitle">Planned vs Actual Cost by Category</span>
+<div class="fields"><strong>Field wells:</strong> Axis: Fact_Budget[Category]. Values: [Total Planned Budget], [Total Actual Cost]</div>
+<div class="why">Breaks the variance down by cost type (Labor, Software &amp; Tools, Hardware...).</div>
+</div>
+<div class="chart-row">
+<span class="ctype">Line chart</span><span class="ctitle">Monthly Actual Cost Trend with MoM Change</span>
+<div class="fields"><strong>Field wells:</strong> Axis: Dim_Date[MonthYear]. Values: [Total Actual Cost]. Tooltip: [MoM Actual Cost Change]</div>
+<div class="why">Tracks spend trajectory and flags sudden month-over-month spikes.</div>
+</div>
+<div class="chart-row">
+<span class="ctype">Matrix</span><span class="ctitle">Budget Variance % by Project and Department</span>
+<div class="fields"><strong>Field wells:</strong> Rows: Dim_Projects[Department] &gt; Dim_Projects[ProjectName]. Values: [Budget Variance %], conditional formatted</div>
+<div class="why">Drillable view for finance to pinpoint exactly which projects are driving overall variance.</div>
+</div>
+</div>
+<div class="page-card">
+<h4>Page 4 - Resource &amp; Team Utilization</h4>
+<p class="purpose">HR/resourcing view of how the team&#x27;s time is being spent and whether capacity is healthy.</p>
+<div class="chart-row">
+<span class="ctype">KPI cards</span><span class="ctitle">Total Hours Logged / Billable Utilization % / Overtime Hours / Active Employees</span>
+<div class="fields"><strong>Field wells:</strong> [Total Hours Logged], [Billable Utilization %], [Overtime Hours], [Active Employees]</div>
+<div class="why">Headline resourcing numbers.</div>
+</div>
+<div class="chart-row">
+<span class="ctype">Stacked bar chart</span><span class="ctitle">Billable vs Non-Billable Hours by Department</span>
+<div class="fields"><strong>Field wells:</strong> Axis: Dim_Employees[Department]. Legend: Fact_Timesheets[BillableFlag]. Values: [Total Hours Logged]</div>
+<div class="why">Shows which departments carry the most billable/client-facing work.</div>
+</div>
+<div class="chart-row">
+<span class="ctype">Table</span><span class="ctitle">Employee Utilization Detail</span>
+<div class="fields"><strong>Field wells:</strong> Rows: Dim_Employees[FullName], Dim_Employees[Department]. Values: [Total Hours Logged], [Billable Utilization %], [Overtime Hours], [Projects Managed (by PM)]</div>
+<div class="why">A single detailed table combining direct assignee hours with the USERELATIONSHIP-driven PM count, to teach the difference side by side.</div>
+</div>
+<div class="chart-row">
+<span class="ctype">Scatter chart</span><span class="ctitle">Estimated vs Logged Hours by Task Type</span>
+<div class="fields"><strong>Field wells:</strong> X: SUM(Dim_Tasks[EstimatedHours]). Y: [Total Hours Logged]. Legend: Dim_Tasks[TaskType]</div>
+<div class="why">Highlights systematic under- or over-estimation by category of work.</div>
+</div>
+<div class="chart-row">
+<span class="ctype">Line chart</span><span class="ctitle">Weekly Hours Logged Trend</span>
+<div class="fields"><strong>Field wells:</strong> Axis: Dim_Date[WeekNumber]. Values: [Total Hours Logged]</div>
+<div class="why">Shows workload seasonality and pinch points across the year.</div>
+</div>
+</div>
+<div class="page-card">
+<h4>Page 5 - Risk Management</h4>
+<p class="purpose">Risk register view for PMO/risk owners to prioritise mitigation effort.</p>
+<div class="chart-row">
+<span class="ctype">KPI cards</span><span class="ctitle">Open Risks / High Severity Risks / Average Risk Score / Risk Resolution Rate %</span>
+<div class="fields"><strong>Field wells:</strong> [Open Risks], [High Severity Risks], [Average Risk Score], [Risk Resolution Rate %]</div>
+<div class="why">Headline risk-register numbers.</div>
+</div>
+<div class="chart-row">
+<span class="ctype">Matrix heatmap</span><span class="ctitle">Risk Matrix (Probability x Impact)</span>
+<div class="fields"><strong>Field wells:</strong> Rows: Fact_Risks[Probability]. Columns: Fact_Risks[Impact]. Values: COUNTROWS(Fact_Risks), conditional formatted by [Average Risk Score]</div>
+<div class="why">The classic 3x3 risk heatmap used in every PMO risk review.</div>
+</div>
+<div class="chart-row">
+<span class="ctype">Bar chart</span><span class="ctitle">Risks by Category</span>
+<div class="fields"><strong>Field wells:</strong> Axis: Fact_Risks[Category]. Values: COUNTROWS(Fact_Risks), split by [Open Risks] via legend on Status</div>
+<div class="why">Shows which type of risk (technical, financial, schedule...) is most common.</div>
+</div>
+<div class="chart-row">
+<span class="ctype">Line chart</span><span class="ctitle">Open Risk Count Trend</span>
+<div class="fields"><strong>Field wells:</strong> Axis: Dim_Date[MonthYear]. Values: Open risk count as of each month (time-intelligence running measure)</div>
+<div class="why">Tracks whether the risk backlog is growing or shrinking over time.</div>
+</div>
+<div class="chart-row">
+<span class="ctype">Table</span><span class="ctitle">Top High-Severity Open Risks</span>
+<div class="fields"><strong>Field wells:</strong> Rows: Fact_Risks[RiskDescription], Dim_Projects[ProjectName], Dim_Employees[FullName] (owner). Values: [Average Risk Score]. Filter: Status = Open, sorted by RiskScore desc</div>
+<div class="why">A prioritised action list for the risk review meeting.</div>
+</div>
+</div>
+<div class="callout"><strong>Final QA checklist:</strong> On every page, click each slicer/legend value and confirm every visual on that page responds. Confirm KPI cards never show a hard error (blank is fine, thanks to DIVIDE) even when a filter returns zero rows. Confirm the risk matrix heatmap and the two USERELATIONSHIP-based tables (Projects Managed, Risks Owned) return sensible, non-zero numbers for at least a few employees. Confirm the Dim_Date date table has no gaps by checking Total Hours Logged on the very first and very last day in the data (2023-01-01 and the latest logged date).</div>
+</section>
+</main>
+<footer>Project Management Analytics - Power BI Dashboard Training &middot; Prepared by Kajola Gbenga, Data Scientist &amp; AI Engineer &middot; Part 2 of 2 - Solutions</footer>
+</body>
+</html>
