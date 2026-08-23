@@ -1,0 +1,386 @@
+<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<title>Pharmacy &amp; Medication Supply Chain - Power BI Training Project - Full Solutions Walkthrough</title>
+<style>
+:root{
+  --navy:#1F4E78; --navy-dark:#123049; --accent:#2E86AB; --gold:#C9962C;
+  --bg:#F5F7FA; --card:#FFFFFF; --text:#242B33; --muted:#5B6774; --border:#DCE3EA;
+  --good:#2E7D32; --warn:#B26A00; --bad:#B3261E;
+}
+*{box-sizing:border-box;}
+body{margin:0;font-family:'Segoe UI',Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;}
+.wrap{max-width:1100px;margin:0 auto;padding:0 24px 80px;}
+header.hero{background:linear-gradient(135deg,var(--navy) 0%,var(--navy-dark) 100%);color:#fff;padding:56px 24px 40px;}
+header.hero .wrap{padding:0 24px;}
+.kicker{text-transform:uppercase;letter-spacing:2px;font-size:12px;color:var(--gold);font-weight:700;}
+h1.title{font-size:32px;margin:10px 0 6px;}
+.subtitle{font-size:16px;color:#CFE0EE;max-width:800px;}
+.author-block{margin-top:22px;padding-top:18px;border-top:1px solid rgba(255,255,255,0.25);}
+.author-name{font-size:18px;font-weight:700;}
+.author-title{color:var(--gold);font-size:14px;}
+nav.toc{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:18px 22px;margin:-28px 0 34px;box-shadow:0 4px 14px rgba(20,40,70,0.08);}
+nav.toc h2{font-size:14px;text-transform:uppercase;letter-spacing:1px;color:var(--navy);margin:0 0 10px;}
+nav.toc ol{margin:0;padding-left:20px;columns:2;gap:24px;}
+nav.toc a{color:var(--accent);text-decoration:none;font-size:14px;}
+nav.toc a:hover{text-decoration:underline;}
+section{margin:44px 0;}
+h2.section-title{font-size:24px;color:var(--navy);border-bottom:3px solid var(--gold);padding-bottom:8px;margin-bottom:18px;}
+h3.sub-title{font-size:19px;color:var(--navy-dark);margin:26px 0 10px;}
+p{margin:10px 0;}
+.card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:20px 24px;margin:16px 0;box-shadow:0 2px 8px rgba(20,40,70,0.05);}
+table{width:100%;border-collapse:collapse;margin:14px 0;font-size:14.5px;}
+th{background:var(--navy);color:#fff;text-align:left;padding:9px 12px;font-weight:600;}
+td{padding:9px 12px;border-bottom:1px solid var(--border);vertical-align:top;}
+tr:nth-child(even) td{background:#F7FAFD;}
+.badge{display:inline-block;padding:2px 10px;border-radius:20px;font-size:12px;font-weight:700;letter-spacing:.3px;}
+.badge.dim{background:#E4EEF7;color:var(--navy);}
+.badge.fact{background:#FCEFD9;color:#8A5A00;}
+.badge.active{background:#E3F2E1;color:var(--good);}
+.badge.inactive{background:#FBE7E5;color:var(--bad);}
+code, .dax{font-family:'Cascadia Code','Consolas',monospace;background:#0F2439;color:#DCEBFB;padding:14px 16px;display:block;border-radius:8px;white-space:pre-wrap;font-size:13.5px;line-height:1.55;margin:10px 0;overflow-x:auto;}
+.inline-code{font-family:Consolas,monospace;background:#EEF3F9;color:#1F4E78;padding:1px 6px;border-radius:4px;font-size:13.5px;}
+ul, ol{margin:8px 0;padding-left:22px;}
+li{margin:5px 0;}
+.chip-row{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0;}
+.chip{background:#EEF3F9;border:1px solid var(--border);border-radius:20px;padding:4px 14px;font-size:13px;color:var(--navy);}
+.callout{border-left:4px solid var(--gold);background:#FFF8EA;padding:12px 18px;border-radius:0 8px 8px 0;margin:14px 0;font-size:14.5px;}
+.callout.why{border-left-color:var(--accent);background:#EAF4FB;}
+.callout.impact{border-left-color:var(--good);background:#EAF7EA;}
+.step-num{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;background:var(--navy);color:#fff;border-radius:50%;font-size:13px;font-weight:700;margin-right:8px;}
+.task-item{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:10px 16px;margin:8px 0;display:flex;gap:10px;align-items:flex-start;}
+.task-item input{margin-top:4px;}
+.grain{color:var(--muted);font-size:13.5px;font-style:italic;}
+footer{background:var(--navy-dark);color:#B9C7D3;padding:26px 24px;text-align:center;font-size:13px;margin-top:60px;}
+.pill-page{background:var(--navy);color:#fff;padding:4px 12px;border-radius:6px;font-size:13px;display:inline-block;margin-bottom:8px;}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:18px;}
+@media(max-width:760px){.two-col{grid-template-columns:1fr;} nav.toc ol{columns:1;}}
+</style></head><body>
+<header class="hero">
+  <div class="wrap">
+    <div class="kicker">Prodigy Training Hub - Power BI Training Project</div>
+    <h1 class="title">Pharmacy &amp; Medication Supply Chain - Power BI Training Project</h1>
+    <div class="subtitle">The complete worked solution - from loading the clean data in Power Query, through building every relationship, every DAX measure explained line by line, to the five finished dashboard pages.</div>
+    <div class="author-block">
+      <div class="author-name">Kajola Gbenga</div>
+      <div class="author-title">Data Scientist &amp; AI Engineer</div>
+    </div>
+    <div class="pill-page">File 2 of 2: Full Solutions Walkthrough</div>
+  </div>
+</header>
+<div class='wrap'>
+<nav class="toc"><h2>Contents</h2><ol><li><a href="#s-intro">1. Solution Overview</a></li>
+<li><a href="#s-load">2. Step 1 - Loading &amp; Preparing the Data</a></li>
+<li><a href="#s-model">3. Step 2 - Building the Data Model</a></li>
+<li><a href="#s-dax">4. Step 3 - Building the DAX Measures</a></li>
+<li><a href="#s-dash">5. Step 4 - Building the Five Dashboard Pages</a></li>
+<li><a href="#s-qa">6. Step 5 - Quality Check &amp; Publish</a></li></ol></nav>
+<section id='s-intro'><h2 class='section-title'>1. Solution Overview</h2>
+<div class='card'><p>This file is the fully worked solution to every task listed in the Tasks and Problem Brief file. It follows the standard Power BI project sequence: <strong>Load &amp; Shape</strong> &gt; <strong>Model &amp; Relate</strong> &gt; <strong>Measure with DAX</strong> &gt; <strong>Visualise &amp; Publish</strong>. Read it alongside the Tasks file rather than instead of it - the real learning happens in attempting each task before checking it here.</p></div>
+</section>
+<section id='s-load'><h2 class='section-title'>2. Step 1 - Loading & Preparing the Data</h2>
+<div class='card'><span class='step-num'>1</span><strong>Get Data</strong><p>Open Power BI Desktop, choose Get Data &gt; Excel Workbook, and select Pharmacy_Supply_Chain_Dataset.xlsx. In the Navigator window, tick all 11 data tables (skip the Read Me sheet) and click Transform Data to open Power Query Editor before loading, so every type can be checked first.</p></div>
+<div class='card'><span class='step-num'>2</span><strong>Confirm data types</strong><p>Click through each query and confirm: every *ID key column is Text; OrderDate, ExpectedDeliveryDate, ReceiptDate, ExpiryDate, SaleDate, TransferDate, ReturnDate, OpeningDate, DateHired and Date are all Date; every *NGN column is Whole Number. Power Query usually infers these correctly from a clean Excel source, but this dataset was built specifically so a student practises verifying, not assuming.</p></div>
+<div class='card'><span class='step-num'>3</span><strong>Rename queries</strong><p>Confirm the query names in the Queries pane exactly match the sheet names (Dim_Medications, Dim_Suppliers, Dim_Branches, Dim_Prescribers, Dim_Employees, Dim_Date, Fact_PurchaseOrders, Fact_StockReceipts, Fact_Sales, Fact_StockTransfers, Fact_Returns), since every relationship and DAX formula in this walkthrough references these exact names.</p></div>
+<div class='card'><span class='step-num'>4</span><strong>Close &amp; Apply</strong><p>Click Close &amp; Apply. Power BI loads all 11 tables into the semantic model. Open Model view and confirm you see 11 tables with no relationships yet - Power BI&#x27;s autodetect sometimes proposes relationships on load; delete any that were auto-created so you build every one deliberately in the next step.</p></div>
+</section>
+<section id='s-model'><h2 class='section-title'>3. Step 2 - Building the Data Model</h2>
+<div class='card'><p>In Model view, drag from the key column on the dimension (one) side to the foreign key column on the fact (many) side for each relationship below, in this order. Power BI infers cardinality automatically from the data, but always open the relationship's properties and confirm it reads One-to-Many before moving to the next one.</p></div>
+<table><tr><th>#</th><th>Relationship</th><th>Cardinality</th><th>Cross Filter</th><th>Status</th><th>Why</th></tr>
+<tr><td>1</td><td>Dim_Medications[MedicationID] &rarr; Fact_PurchaseOrders[MedicationID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td><td>Lets every procurement visual filter by medication or medication category.</td></tr>
+<tr><td>2</td><td>Dim_Suppliers[SupplierID] &rarr; Fact_PurchaseOrders[SupplierID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td><td>The primary relationship behind the entire Procurement &amp; Supplier Performance dashboard page.</td></tr>
+<tr><td>3</td><td>Dim_Branches[BranchID] &rarr; Fact_PurchaseOrders[BranchID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td><td>Identifies which branch (usually a warehouse) is receiving each order.</td></tr>
+<tr><td>4</td><td>Dim_Employees[EmployeeID] &rarr; Fact_PurchaseOrders[ProcurementOfficerID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td><td>The first of three separate relationships from Dim_Employees into the model; this one is safe to leave active since no other table creates an indirect path between Dim_Employees and Fact_PurchaseOrders.</td></tr>
+<tr><td>5</td><td>Dim_Date[Date] &rarr; Fact_PurchaseOrders[OrderDate]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td><td>The primary, active time relationship for procurement reporting.</td></tr>
+<tr><td>6</td><td>Dim_Date[Date] &rarr; Fact_PurchaseOrders[ExpectedDeliveryDate]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge inactive'>INACTIVE</span></td><td>Power BI only allows one ACTIVE relationship between any two tables at a time, so this second link to Dim_Date must be created INACTIVE and switched on inside measures using CALCULATE with USERELATIONSHIP(Dim_Date[Date], Fact_PurchaseOrders[ExpectedDeliveryDate]).</td></tr>
+<tr><td>7</td><td>Fact_PurchaseOrders[POID] &rarr; Fact_StockReceipts[POID]</td><td>One-to-Many (1:*)</td><td>Single (Fact_PurchaseOrders filters Fact_StockReceipts)</td><td><span class='badge active'>ACTIVE</span></td><td>A fact-to-fact relationship. Around 15% of eligible orders have more than one receipt row, which is why this must be modelled as one-to-many rather than one-to-one.</td></tr>
+<tr><td>8</td><td>Dim_Medications[MedicationID] &rarr; Fact_StockReceipts[MedicationID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td><td>A direct relationship kept alongside the fact-to-fact link to Fact_PurchaseOrders, so Fact_StockReceipts remains independently filterable by medication without always traversing through the parent order.</td></tr>
+<tr><td>9</td><td>Dim_Medications[MedicationID] &rarr; Fact_Sales[MedicationID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td><td>The primary relationship behind every revenue and Top Selling Medication visual.</td></tr>
+<tr><td>10</td><td>Dim_Branches[BranchID] &rarr; Fact_Sales[BranchID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td><td>Lets every sales visual be filtered or broken down by branch.</td></tr>
+<tr><td>11</td><td>Dim_Prescribers[PrescriberID] &rarr; Fact_Sales[PrescriberID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td><td>Optional relationship: roughly 45% of Fact_Sales rows have a blank PrescriberID (over-the-counter sales) and will simply not appear if a report is filtered strictly to a specific prescriber, which is expected and correct behaviour.</td></tr>
+<tr><td>12</td><td>Dim_Employees[EmployeeID] &rarr; Fact_Sales[DispensingEmployeeID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td><td>The second of three relationships from Dim_Employees into the model; safe to leave active since Fact_Sales is not fact-to-fact linked to Fact_PurchaseOrders or Fact_StockTransfers.</td></tr>
+<tr><td>13</td><td>Dim_Date[Date] &rarr; Fact_Sales[SaleDate]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td><td>The primary, active time relationship for the entire Sales &amp; Revenue dashboard page.</td></tr>
+<tr><td>14</td><td>Dim_Branches[BranchID] &rarr; Fact_StockTransfers[FromBranchID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td><td>The sending-branch relationship, kept active since most transfer visuals default to &#x27;which branch sent this stock out&#x27;.</td></tr>
+<tr><td>15</td><td>Dim_Branches[BranchID] &rarr; Fact_StockTransfers[ToBranchID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge inactive'>INACTIVE</span></td><td>The single most important relationship in this project for teaching role-playing dimensions. Dim_Branches already has an active relationship to FromBranchID, so this second relationship to the same table on the same fact table must be created INACTIVE, and activated with USERELATIONSHIP(Dim_Branches[BranchID], Fact_StockTransfers[ToBranchID]) inside any measure that needs to analyse stock received rather than stock sent.</td></tr>
+<tr><td>16</td><td>Dim_Medications[MedicationID] &rarr; Fact_StockTransfers[MedicationID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td><td>Lets transfer volume be broken down by medication or category.</td></tr>
+<tr><td>17</td><td>Dim_Employees[EmployeeID] &rarr; Fact_StockTransfers[ApprovedByEmployeeID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td><td>The third of three relationships from Dim_Employees into the model; safe to leave active for the same reason as the other two.</td></tr>
+<tr><td>18</td><td>Dim_Date[Date] &rarr; Fact_StockTransfers[TransferDate]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td><td>The active time relationship for the transfer volume trend visuals.</td></tr>
+<tr><td>19</td><td>Dim_Branches[BranchID] &rarr; Fact_Returns[BranchID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td><td>Lets returns and write-offs be broken down by the branch where the loss occurred.</td></tr>
+<tr><td>20</td><td>Dim_Medications[MedicationID] &rarr; Fact_Returns[MedicationID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td><td>Lets returns be broken down by medication or category, important for spotting a specific SKU with a recurring expiry or damage problem.</td></tr>
+<tr><td>21</td><td>Dim_Date[Date] &rarr; Fact_Returns[ReturnDate]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td><td>The active time relationship for the returns and write-off trend visuals.</td></tr>
+</table>
+<div class='callout'>When you build relationship 6 (Dim_Date to ExpectedDeliveryDate) and relationship 15 (Dim_Branches to ToBranchID), Power BI will automatically create them as inactive (shown as a dashed line in Model view) because an active path to each of those tables already exists. This is expected and correct - do not try to force them active.</div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Mark Dim_Date as a Date Table</h3><p>Right-click Dim_Date in the Fields pane &gt; Mark as Date Table &gt; Mark as Date Table, then choose the Date column when prompted. Confirm the dialog reports no errors. This step is mandatory before any DATEADD, SAMEPERIODLASTYEAR or TOTALYTD measure will calculate correctly, because Power BI needs to verify the column is unique, contiguous and contains no gaps or blanks across the full calendar range.</p></div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Calculated Columns</h3><div class='dax'>Full Name = Dim_Employees[FirstName] &amp; " " &amp; Dim_Employees[LastName]
+
+Medication Label = Dim_Medications[MedicationName] &amp; " (" &amp; Dim_Medications[ATCCode] &amp; ")"</div><p>Full Name concatenates FirstName and LastName so a single clean field can be placed on the Top 10 Dispensing Staff visual instead of two separate name columns. Medication Label combines a medication's display name and its ATC-style code into one string, giving students practice building a compound label field similar to the diagnosis-code pattern used in other Power BI training projects.</p></div>
+</section>
+<section id='s-dax'><h2 class='section-title'>4. Step 3 - Building the DAX Measures</h2>
+<div class='card'><p>Create a blank Measures table first (Model view &gt; Enter Data &gt; leave it empty &gt; name it Measures) and build every measure below inside it, in this order, since several later measures reference earlier ones.</p></div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Total Purchase Orders</h3>
+<div class='chip-row'><span class='chip'>Used on: Procurement &amp; Supplier Performance</span></div>
+<div class='dax'>Total Purchase Orders = DISTINCTCOUNT(Fact_PurchaseOrders[POID])</div>
+<p><strong>Line by line:</strong></p><ul>
+<li>DISTINCTCOUNT(Fact_PurchaseOrders[POID]) counts the number of unique purchase order lines remaining in the current filter context.</li>
+</ul>
+<div class='callout why'><strong>Why this measure exists:</strong> The foundation activity KPI for the whole procurement side of the business.</div>
+<div class='callout impact'><strong>Impact on the dashboard:</strong> The first KPI card on the Procurement &amp; Supplier Performance page.</div>
+</div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Total Purchase Order Value</h3>
+<div class='chip-row'><span class='chip'>Used on: Procurement &amp; Supplier Performance, Executive Overview</span></div>
+<div class='dax'>Total Purchase Order Value = SUM(Fact_PurchaseOrders[TotalOrderValueNGN])</div>
+<p><strong>Line by line:</strong></p><ul>
+<li>SUM(Fact_PurchaseOrders[TotalOrderValueNGN]) adds up the billed value of every purchase order line currently in context.</li>
+</ul>
+<div class='callout why'><strong>Why this measure exists:</strong> Represents total procurement spend committed to suppliers, the starting point of the supply chain cost story.</div>
+<div class='callout impact'><strong>Impact on the dashboard:</strong> A KPI card on both the Executive Overview and Procurement pages, and the value plotted on the monthly procurement spend trend line.</div>
+</div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Total Quantity Ordered</h3>
+<div class='chip-row'><span class='chip'>Used on: Procurement &amp; Supplier Performance</span></div>
+<div class='dax'>Total Quantity Ordered = SUM(Fact_PurchaseOrders[QuantityOrdered])</div>
+<p><strong>Line by line:</strong></p><ul>
+<li>SUM(Fact_PurchaseOrders[QuantityOrdered]) adds up the units ordered across every purchase order line in the current filter context.</li>
+</ul>
+<div class='callout why'><strong>Why this measure exists:</strong> The denominator needed to calculate Fill Rate %, and a useful volume KPI in its own right.</div>
+<div class='callout impact'><strong>Impact on the dashboard:</strong> Used internally by Fill Rate % and shown on its own on a procurement volume card.</div>
+</div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Total Quantity Received</h3>
+<div class='chip-row'><span class='chip'>Used on: Procurement &amp; Supplier Performance</span></div>
+<div class='dax'>Total Quantity Received = SUM(Fact_StockReceipts[QuantityReceived])</div>
+<p><strong>Line by line:</strong></p><ul>
+<li>SUM(Fact_StockReceipts[QuantityReceived]) adds up units actually received across every receipt row in the current filter context, which may span multiple receipts per order.</li>
+</ul>
+<div class='callout why'><strong>Why this measure exists:</strong> Represents what physically arrived, as distinct from what was ordered - the two numbers should diverge for Partially Delivered and Delayed orders.</div>
+<div class='callout impact'><strong>Impact on the dashboard:</strong> The numerator of the Fill Rate % measure.</div>
+</div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Fill Rate %</h3>
+<div class='chip-row'><span class='chip'>Used on: Procurement &amp; Supplier Performance</span></div>
+<div class='dax'>Fill Rate % = DIVIDE([Total Quantity Received], [Total Quantity Ordered], 0)</div>
+<p><strong>Line by line:</strong></p><ul>
+<li>[Total Quantity Received] and [Total Quantity Ordered] are both measure references, so this ratio automatically recalculates correctly under any combination of Supplier, Medication or Date filters.</li>
+<li>DIVIDE is used instead of the plain / operator so the measure safely returns 0, instead of an error, whenever there are no orders in the current filter context.</li>
+</ul>
+<div class='callout why'><strong>Why this measure exists:</strong> A core procurement-quality KPI: a Fill Rate consistently below 100% for a given supplier signals a reliability problem worth escalating.</div>
+<div class='callout impact'><strong>Impact on the dashboard:</strong> Shown as a percentage KPI card and as a column in the supplier scorecard table.</div>
+</div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Average Supplier Lead Time (Days)</h3>
+<div class='chip-row'><span class='chip'>Used on: Procurement &amp; Supplier Performance</span></div>
+<div class='dax'>Average Supplier Lead Time (Days) = AVERAGE(Dim_Suppliers[LeadTimeDays])</div>
+<p><strong>Line by line:</strong></p><ul>
+<li>AVERAGE(Dim_Suppliers[LeadTimeDays]) averages the supplier&#x27;s own stated standard lead time across whichever suppliers remain in the current filter context, most commonly filtered down to a single supplier on the scorecard table.</li>
+</ul>
+<div class='callout why'><strong>Why this measure exists:</strong> Gives a quick reference point for how long a supplier says it needs, to compare against the measures below that calculate how long it actually took.</div>
+<div class='callout impact'><strong>Impact on the dashboard:</strong> Shown as a column on the supplier scorecard table, next to On-Time Delivery %.</div>
+</div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>On-Time Delivery %</h3>
+<div class='chip-row'><span class='chip'>Used on: Procurement &amp; Supplier Performance</span></div>
+<div class='dax'>On-Time Delivery % = 
+VAR OnTimeOrders =
+    CALCULATE(
+        [Total Purchase Orders],
+        Fact_PurchaseOrders[OrderStatus] = &quot;Delivered&quot;,
+        USERELATIONSHIP(Dim_Date[Date], Fact_PurchaseOrders[ExpectedDeliveryDate])
+    )
+RETURN
+    DIVIDE(OnTimeOrders, [Total Purchase Orders], 0)</div>
+<p><strong>Line by line:</strong></p><ul>
+<li>VAR OnTimeOrders stores a CALCULATE call that filters down to orders with OrderStatus = &quot;Delivered&quot; while simultaneously activating the otherwise-inactive relationship between Dim_Date and ExpectedDeliveryDate using USERELATIONSHIP, for the duration of this measure only.</li>
+<li>In practice this measure is best read alongside a Date slicer set to ExpectedDeliveryDate&#x27;s month, letting a procurement manager ask &#x27;of everything that was due this month, how much actually arrived&#x27; rather than &#x27;of everything ordered this month, how much has arrived so far&#x27; - two subtly different but easily confused questions.</li>
+<li>RETURN DIVIDE(...) expresses the on-time count as a percentage of all orders in the same context, safely returning 0 if there were no orders at all.</li>
+</ul>
+<div class='callout why'><strong>Why this measure exists:</strong> The single most important supplier-reliability KPI in the project, and the clearest possible demonstration of why USERELATIONSHIP exists: without it, this measure would silently use the wrong date column.</div>
+<div class='callout impact'><strong>Impact on the dashboard:</strong> Displayed as a gauge visual on the Procurement &amp; Supplier Performance page and as a column on the supplier scorecard table.</div>
+</div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Total Sales Revenue</h3>
+<div class='chip-row'><span class='chip'>Used on: Executive Overview, Sales &amp; Revenue Performance</span></div>
+<div class='dax'>Total Sales Revenue = SUM(Fact_Sales[TotalSaleNGN])</div>
+<p><strong>Line by line:</strong></p><ul>
+<li>SUM(Fact_Sales[TotalSaleNGN]) adds up the net sale value (after discount) of every transaction in the current filter context.</li>
+</ul>
+<div class='callout why'><strong>Why this measure exists:</strong> The single most important revenue KPI in the whole project.</div>
+<div class='callout impact'><strong>Impact on the dashboard:</strong> The largest KPI card on the Sales &amp; Revenue page and the value plotted on the monthly revenue trend line on both that page and the Executive Overview.</div>
+</div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Total Quantity Sold</h3>
+<div class='chip-row'><span class='chip'>Used on: Sales &amp; Revenue Performance</span></div>
+<div class='dax'>Total Quantity Sold = SUM(Fact_Sales[QuantitySold])</div>
+<p><strong>Line by line:</strong></p><ul>
+<li>SUM(Fact_Sales[QuantitySold]) adds up units sold across every transaction in the current filter context.</li>
+</ul>
+<div class='callout why'><strong>Why this measure exists:</strong> A volume KPI distinct from revenue, useful because a high-volume, low-cost medication and a low-volume, high-cost medication can generate similar revenue but represent very different operational realities.</div>
+<div class='callout impact'><strong>Impact on the dashboard:</strong> A KPI card and the value used on the Top Selling Medications by Volume visual, shown alongside the revenue-based version.</div>
+</div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Gross Margin NGN</h3>
+<div class='chip-row'><span class='chip'>Used on: Sales &amp; Revenue Performance</span></div>
+<div class='dax'>Gross Margin NGN = 
+SUMX(
+    Fact_Sales,
+    Fact_Sales[TotalSaleNGN] - (Fact_Sales[QuantitySold] * RELATED(Dim_Medications[UnitCostNGN]))
+)</div>
+<p><strong>Line by line:</strong></p><ul>
+<li>SUMX iterates row by row over Fact_Sales rather than aggregating a single column, which is necessary here because gross margin must be calculated per transaction before it can be summed.</li>
+<li>For each row, RELATED(Dim_Medications[UnitCostNGN]) pulls the medication&#x27;s unit cost across the active many-to-one relationship from Fact_Sales to Dim_Medications, giving the cost basis for that specific sale.</li>
+<li>Fact_Sales[QuantitySold] * RELATED(...) calculates the total cost of goods sold for that row, which is then subtracted from Fact_Sales[TotalSaleNGN] to give the row&#x27;s profit, before SUMX adds every row&#x27;s profit together.</li>
+</ul>
+<div class='callout why'><strong>Why this measure exists:</strong> Revenue alone does not tell a pharmacy business whether it is actually profitable on a given medication or branch; this measure introduces true row-by-row profitability.</div>
+<div class='callout impact'><strong>Impact on the dashboard:</strong> Shown as a KPI card and as the value behind the Gross Margin % measure below.</div>
+</div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Gross Margin %</h3>
+<div class='chip-row'><span class='chip'>Used on: Sales &amp; Revenue Performance</span></div>
+<div class='dax'>Gross Margin % = DIVIDE([Gross Margin NGN], [Total Sales Revenue], 0)</div>
+<p><strong>Line by line:</strong></p><ul>
+<li>Divides absolute profit by revenue to express margin as a percentage that is comparable across branches and medication categories of very different sizes.</li>
+</ul>
+<div class='callout why'><strong>Why this measure exists:</strong> The standard way to communicate profitability so it is comparable across a small branch and a large one.</div>
+<div class='callout impact'><strong>Impact on the dashboard:</strong> Displayed as a KPI card with conditional formatting, and used on a Margin % by Category visual to identify the most and least profitable therapeutic categories.</div>
+</div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Prescription Sales %</h3>
+<div class='chip-row'><span class='chip'>Used on: Sales &amp; Revenue Performance</span></div>
+<div class='dax'>Prescription Sales % = DIVIDE(
+    CALCULATE([Total Sales Revenue], Fact_Sales[IsPrescriptionSale] = &quot;Yes&quot;),
+    [Total Sales Revenue],
+    0
+)</div>
+<p><strong>Line by line:</strong></p><ul>
+<li>CALCULATE filters revenue down to only transactions flagged IsPrescriptionSale = &quot;Yes&quot;.</li>
+<li>DIVIDE then expresses that subset as a percentage of all revenue in the same filter context.</li>
+</ul>
+<div class='callout why'><strong>Why this measure exists:</strong> A useful regulatory and business-mix indicator: a pharmacy business heavily skewed toward prescription sales has a different risk and staffing profile than one skewed toward OTC retail.</div>
+<div class='callout impact'><strong>Impact on the dashboard:</strong> Displayed as a KPI card on the Sales &amp; Revenue page.</div>
+</div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Total Stock Transferred</h3>
+<div class='chip-row'><span class='chip'>Used on: Inventory &amp; Loss Management</span></div>
+<div class='dax'>Total Stock Transferred = SUM(Fact_StockTransfers[QuantityTransferred])</div>
+<p><strong>Line by line:</strong></p><ul>
+<li>SUM(Fact_StockTransfers[QuantityTransferred]) adds up units moved across every transfer row in the current filter context.</li>
+</ul>
+<div class='callout why'><strong>Why this measure exists:</strong> The base activity KPI for the inter-branch redistribution side of the supply chain.</div>
+<div class='callout impact'><strong>Impact on the dashboard:</strong> A KPI card and the value behind the Stock Sent by Branch visual.</div>
+</div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Stock Received via Transfer</h3>
+<div class='chip-row'><span class='chip'>Used on: Inventory &amp; Loss Management</span></div>
+<div class='dax'>Stock Received via Transfer = 
+CALCULATE(
+    [Total Stock Transferred],
+    USERELATIONSHIP(Dim_Branches[BranchID], Fact_StockTransfers[ToBranchID])
+)</div>
+<p><strong>Line by line:</strong></p><ul>
+<li>USERELATIONSHIP(Dim_Branches[BranchID], Fact_StockTransfers[ToBranchID]) temporarily activates the otherwise-inactive relationship on the receiving-branch column, for the duration of this CALCULATE call only.</li>
+<li>Wrapping [Total Stock Transferred] inside that CALCULATE means the measure now attributes transferred quantity to the branch that RECEIVED the stock rather than the branch that sent it, without permanently changing which relationship is active for every other visual in the report.</li>
+</ul>
+<div class='callout why'><strong>Why this measure exists:</strong> This measure is the clearest possible demonstration of why role-playing dimensions and USERELATIONSHIP matter: placed in a table with BranchName on rows, Total Stock Transferred shows what a branch sent out, while this measure shows what the same branch received in.</div>
+<div class='callout impact'><strong>Impact on the dashboard:</strong> Placed side by side with Total Stock Transferred in a matrix visual with BranchName on rows, so students can see the two numbers differ for every branch and understand why.</div>
+</div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Total Loss Value</h3>
+<div class='chip-row'><span class='chip'>Used on: Inventory &amp; Loss Management</span></div>
+<div class='dax'>Total Loss Value = SUM(Fact_Returns[ValueNGN])</div>
+<p><strong>Line by line:</strong></p><ul>
+<li>SUM(Fact_Returns[ValueNGN]) adds up the cost value of every returned or written-off unit in the current filter context, calculated at the medication&#x27;s unit cost rather than its selling price.</li>
+</ul>
+<div class='callout why'><strong>Why this measure exists:</strong> A core shrinkage/wastage KPI. Using cost rather than selling price is deliberate, since a written-off unit was never sold and therefore never generated the margin embedded in the selling price.</div>
+<div class='callout impact'><strong>Impact on the dashboard:</strong> The main KPI card on the Inventory &amp; Loss Management page.</div>
+</div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Expired Stock Loss %</h3>
+<div class='chip-row'><span class='chip'>Used on: Inventory &amp; Loss Management</span></div>
+<div class='dax'>Expired Stock Loss % = DIVIDE(
+    CALCULATE([Total Loss Value], Fact_Returns[ReturnReason] = &quot;Expired&quot;),
+    [Total Loss Value],
+    0
+)</div>
+<p><strong>Line by line:</strong></p><ul>
+<li>CALCULATE isolates loss value specifically attributed to the Expired reason.</li>
+<li>DIVIDE expresses that as a percentage of total loss value from all reasons combined, which is useful because it separates a preventable inventory-management problem (expiry) from largely unavoidable ones (transit damage, recalls).</li>
+</ul>
+<div class='callout why'><strong>Why this measure exists:</strong> Expiry is usually the single most controllable source of pharmacy shrinkage, since it is a direct function of ordering too much stock relative to sell-through speed; this measure isolates that specific driver.</div>
+<div class='callout impact'><strong>Impact on the dashboard:</strong> Shown as a KPI card next to Total Loss Value, and used on the Returns by Reason bar chart to highlight the Expired segment specifically.</div>
+</div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Purchase Order Growth % (MoM)</h3>
+<div class='chip-row'><span class='chip'>Used on: Executive Overview</span></div>
+<div class='dax'>Purchase Order Growth % MoM = 
+VAR CurrentMonthValue = [Total Purchase Order Value]
+VAR PreviousMonthValue =
+    CALCULATE(
+        [Total Purchase Order Value],
+        DATEADD(&#x27;Dim_Date&#x27;[Date], -1, MONTH)
+    )
+RETURN
+    DIVIDE(CurrentMonthValue - PreviousMonthValue, PreviousMonthValue, 0)</div>
+<p><strong>Line by line:</strong></p><ul>
+<li>VAR CurrentMonthValue stores [Total Purchase Order Value] for whichever month is currently in filter context.</li>
+<li>VAR PreviousMonthValue uses CALCULATE with DATEADD(&#x27;Dim_Date&#x27;[Date], -1, MONTH) to shift the entire filter context back exactly one month and re-evaluate the same measure inside that shifted context. This requires Dim_Date to be marked as an official Date Table with a contiguous, gap-free Date column.</li>
+<li>RETURN DIVIDE(...) calculates the percentage change between the two variables, safely returning blank rather than an error for January 2021, the first month with no prior month available in this dataset.</li>
+</ul>
+<div class='callout why'><strong>Why this measure exists:</strong> Teaches the VAR/RETURN pattern for readable DAX and introduces time intelligence functions dependent on a properly configured date table, mirroring the equivalent admissions-growth measure from the hospital analytics project but applied to procurement spend.</div>
+<div class='callout impact'><strong>Impact on the dashboard:</strong> Plotted as a secondary line on a combo chart against the Total Purchase Order Value column chart on the Executive Overview page.</div>
+</div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Below Reorder Level Flag</h3>
+<div class='chip-row'><span class='chip'>Used on: Procurement &amp; Supplier Performance</span></div>
+<div class='dax'>Below Reorder Level Flag = 
+VAR TotalOrdered = [Total Quantity Ordered]
+VAR ReorderLevel = SELECTEDVALUE(Dim_Medications[ReorderLevelUnits])
+RETURN
+    IF(
+        NOT ISBLANK(ReorderLevel) &amp;&amp; TotalOrdered &lt; ReorderLevel,
+        &quot;Below Reorder Level&quot;,
+        &quot;Adequate&quot;
+    )</div>
+<p><strong>Line by line:</strong></p><ul>
+<li>SELECTEDVALUE(Dim_Medications[ReorderLevelUnits]) returns the reorder threshold only when exactly one medication is in context (for example, one row of a table visual); it returns blank if multiple medications are being summarised together, which is exactly the safety behaviour needed here.</li>
+<li>The IF then compares total ordered quantity against that threshold and returns a simple text flag, which is easier to apply conditional formatting to on a table visual than a raw numeric comparison.</li>
+</ul>
+<div class='callout why'><strong>Why this measure exists:</strong> A simplified illustrative reorder-alert measure. Note this dataset does not model live stock-on-hand, so this measure compares period ordering volume against the reorder threshold as a teaching proxy, not as a substitute for a true point-in-time inventory balance, which is explicitly called out as a discussion point in the Solutions file.</div>
+<div class='callout impact'><strong>Impact on the dashboard:</strong> Used as a conditional-formatting-driven column on a medication-level table, colouring rows red when flagged Below Reorder Level.</div>
+</div>
+</section>
+<section id='s-dash'><h2 class='section-title'>5. Step 4 - Building the Five Dashboard Pages</h2>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Page 1 - Executive Overview</h3><p>A single-screen summary for leadership: overall procurement and sales activity, growth, and profitability at a glance.</p>
+<table><tr><th style='width:20%'>Visual</th><th style='width:16%'>Chart Type</th><th style='width:32%'>Fields</th><th>Build Notes</th></tr>
+<tr><td><strong>KPI Card Row</strong></td><td>Card visuals (x5)</td><td>Total Purchase Order Value, Total Sales Revenue, Gross Margin %, Fill Rate %, Total Loss Value</td><td>Five cards across the top of the page, each bound to one measure, giving a balanced view across procurement, sales, profitability and shrinkage.</td></tr>
+<tr><td><strong>Procurement vs Sales Trend</strong></td><td>Line chart (combo, with Purchase Order Growth % MoM as a secondary line)</td><td>Axis: Dim_Date[MonthName] (sorted by MonthNumber); Values: Total Purchase Order Value, Total Sales Revenue</td><td>The signature trend visual of the whole report; shows spend and revenue moving together (or diverging) over the five-year history.</td></tr>
+<tr><td><strong>Order Status Split</strong></td><td>Donut chart</td><td>Legend: Fact_PurchaseOrders[OrderStatus]; Values: Total Purchase Orders</td><td>Immediately shows what proportion of orders are Delivered versus Delayed, Pending or Cancelled.</td></tr>
+<tr><td><strong>Revenue by Region</strong></td><td>Clustered bar chart</td><td>Axis: Dim_Branches[Region]; Values: Total Sales Revenue</td><td>Sorted descending; gives leadership an instant geographic view without navigating to a later page.</td></tr>
+<tr><td><strong>Top 5 Medications by Revenue</strong></td><td>Bar chart</td><td>Axis: Dim_Medications[MedicationName]; Values: Total Sales Revenue</td><td>Filtered to Top 5 using a Top N visual-level filter.</td></tr>
+</table></div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Page 2 - Procurement &amp; Supplier Performance</h3><p>The procurement team&#x27;s working view: which suppliers are reliable, where spend is concentrated, and how well orders are being fulfilled.</p>
+<table><tr><th style='width:20%'>Visual</th><th style='width:16%'>Chart Type</th><th style='width:32%'>Fields</th><th>Build Notes</th></tr>
+<tr><td><strong>Total Spend by Supplier</strong></td><td>Bar chart</td><td>Axis: Dim_Suppliers[SupplierName]; Values: Total Purchase Order Value</td><td>Sorted descending, filtered to Top 15 to keep the visual readable.</td></tr>
+<tr><td><strong>Supplier Scorecard</strong></td><td>Table visual</td><td>Columns: SupplierName, Rating, Average Supplier Lead Time (Days), Fill Rate %, On-Time Delivery %, Total Purchase Order Value</td><td>The most information-dense visual in the project; sorted descending by Total Purchase Order Value.</td></tr>
+<tr><td><strong>Monthly Procurement Spend</strong></td><td>Column chart</td><td>Axis: Dim_Date[MonthName] (sorted by MonthNumber); Values: Total Purchase Order Value</td><td>A simpler, single-line view of the same spend trend shown in combo form on the Executive Overview.</td></tr>
+<tr><td><strong>Payment Status Split</strong></td><td>Donut chart</td><td>Legend: Fact_PurchaseOrders[PaymentStatus]; Values: Total Purchase Order Value</td><td>Flags how much payable value sits in Pending or Overdue status.</td></tr>
+<tr><td><strong>On-Time Delivery Gauge</strong></td><td>Gauge visual</td><td>Value: On-Time Delivery %</td><td>Set an informal target band (for example 85%) so procurement staff can see at a glance whether supplier reliability is on track.</td></tr>
+</table></div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Page 3 - Inventory &amp; Loss Management</h3><p>The operations view: how stock moves between branches, and where and why stock is being lost to expiry, damage or recalls.</p>
+<table><tr><th style='width:20%'>Visual</th><th style='width:16%'>Chart Type</th><th style='width:32%'>Fields</th><th>Build Notes</th></tr>
+<tr><td><strong>Stock Sent vs Received by Branch</strong></td><td>Matrix visual</td><td>Rows: Dim_Branches[BranchName]; Values: Total Stock Transferred, Stock Received via Transfer</td><td>The central role-playing-dimension teaching visual of the project; placing both measures side by side makes the FromBranch/ToBranch distinction immediately visible.</td></tr>
+<tr><td><strong>Returns by Reason</strong></td><td>Bar chart</td><td>Axis: Fact_Returns[ReturnReason]; Values: Total Loss Value</td><td>Sorted descending; typically led by Expired and Damaged in Storage.</td></tr>
+<tr><td><strong>Loss KPI Cards</strong></td><td>Card visuals (x2)</td><td>Total Loss Value, Expired Stock Loss %</td><td>Conditional formatting applied to Expired Stock Loss % to flag when it rises above a set threshold.</td></tr>
+<tr><td><strong>Transfer Reason Breakdown</strong></td><td>Donut chart</td><td>Legend: Fact_StockTransfers[TransferReason]; Values: Total Stock Transferred</td><td>Shows whether transfers are mostly routine rebalancing or reactive emergency restocking.</td></tr>
+<tr><td><strong>Returns Trend by Month</strong></td><td>Line chart</td><td>Axis: Dim_Date[MonthName] (sorted by MonthNumber); Values: Total Loss Value</td><td>Lets an operations manager spot seasonal spikes in wastage, for example around slower-moving stock periods.</td></tr>
+</table></div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Page 4 - Sales &amp; Revenue Performance</h3><p>The commercial view: what is selling, how profitable it is, and how customers are paying.</p>
+<table><tr><th style='width:20%'>Visual</th><th style='width:16%'>Chart Type</th><th style='width:32%'>Fields</th><th>Build Notes</th></tr>
+<tr><td><strong>Sales KPI Row</strong></td><td>Card visuals (x4)</td><td>Total Sales Revenue, Total Quantity Sold, Gross Margin %, Prescription Sales %</td><td>Four cards giving a balanced revenue, volume, profitability and regulatory-mix view.</td></tr>
+<tr><td><strong>Revenue by Category</strong></td><td>Column chart</td><td>Axis: Dim_Medications[Category]; Values: Total Sales Revenue</td><td>Sorted descending; typically led by Antibiotics and Antimalarials given high dispensing volumes.</td></tr>
+<tr><td><strong>Margin % by Category</strong></td><td>Bar chart</td><td>Axis: Dim_Medications[Category]; Values: Gross Margin %</td><td>Deliberately placed next to the revenue-by-category chart so students can see that the highest-revenue category is not always the most profitable one.</td></tr>
+<tr><td><strong>Payment Method Split</strong></td><td>Donut chart</td><td>Legend: Fact_Sales[PaymentMethod]; Values: Total Sales Revenue</td><td>A simple payment-mix visual useful for a cash-handling and reconciliation discussion.</td></tr>
+<tr><td><strong>Top 10 Branches by Revenue</strong></td><td>Bar chart</td><td>Axis: Dim_Branches[BranchName]; Values: Total Sales Revenue</td><td>Sorted descending, filtered to Top 10; excludes warehouses since they do not sell directly to customers in this model.</td></tr>
+</table></div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Page 5 - Branch &amp; Employee Performance</h3><p>The HR and branch-management view: workload and revenue distribution across branches and dispensing staff.</p>
+<table><tr><th style='width:20%'>Visual</th><th style='width:16%'>Chart Type</th><th style='width:32%'>Fields</th><th>Build Notes</th></tr>
+<tr><td><strong>Revenue by Branch Type</strong></td><td>Column chart</td><td>Axis: Dim_Branches[BranchType]; Values: Total Sales Revenue</td><td>Compares Retail Pharmacy against Hospital Pharmacy revenue patterns.</td></tr>
+<tr><td><strong>Top 10 Dispensing Staff</strong></td><td>Bar chart</td><td>Axis: Dim_Employees Full Name (calculated column); Values: Total Sales Revenue</td><td>Sorted descending, filtered to Top 10, using a Full Name calculated column concatenating FirstName and LastName.</td></tr>
+<tr><td><strong>Branch x Role Headcount Matrix</strong></td><td>Matrix visual</td><td>Rows: Dim_Branches[BranchName]; Columns: Dim_Employees[Role]; Values: Count of EmployeeID</td><td>Shows staffing composition per branch, useful for a workforce-planning conversation.</td></tr>
+<tr><td><strong>Experience vs Revenue Handled</strong></td><td>Scatter chart</td><td>X-axis: Dim_Employees[YearsOfExperience]; Y-axis: Total Sales Revenue; Details: EmployeeID</td><td>A gentle introduction to scatter charts and correlation reading, without asserting statistical causation to students.</td></tr>
+<tr><td><strong>Top Revenue-Generating Branch</strong></td><td>Card with Top N filter, or a single-value KPI visual</td><td>Values: Total Sales Revenue, filtered/sorted by branch</td><td>A closing summary card tying branch operational activity back to the commercial page.</td></tr>
+</table></div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Cross-Page Consistency</h3><p>Add a Year slicer (Dim_Date[Year]) and a Branch slicer (Dim_Branches[BranchName]) to every page in the same top-right position. Select both, go to the View ribbon, open Sync Slicers, and tick every page so a filter choice on Page 1 automatically applies across Pages 2 to 5. Add five navigation buttons (Insert &gt; Buttons &gt; Blank, with Action type set to Page Navigation) in a consistent header band so users never need the page tabs at the bottom.</p></div>
+</section>
+<section id='s-qa'><h2 class='section-title'>6. Step 5 - Quality Check & Publish</h2>
+<div class='task-item'><span class='step-num'>1</span><div>Click through every slicer combination on every page and confirm no card visual shows (Blank) and no chart shows an empty plot area.</div></div>
+<div class='task-item'><span class='step-num'>2</span><div>Right-click each measure and use Quick Measure or the Performance Analyzer (View ribbon) to confirm no visual takes longer than roughly one second to render on this dataset size.</div></div>
+<div class='task-item'><span class='step-num'>3</span><div>Check that MonthName axes read January to December in calendar order, confirming the Sort By Column setting on Dim_Date took effect.</div></div>
+<div class='task-item'><span class='step-num'>4</span><div>Verify Fill Rate %, On-Time Delivery % and Expired Stock Loss % conditional formatting rules trigger correctly by temporarily filtering to a supplier or month where the values cross the threshold.</div></div>
+<div class='task-item'><span class='step-num'>5</span><div>Confirm the two inactive relationships remain dashed in Model view, and that Stock Received via Transfer genuinely returns a different number than Total Stock Transferred for the same branch, proving USERELATIONSHIP is working.</div></div>
+<div class='task-item'><span class='step-num'>6</span><div>Save the .pbix file, then use File &gt; Publish to publish the report to the Prodigy Training Hub Power BI Service workspace for the class.</div></div>
+</section>
+</div>
+<footer>&copy; Prodigy Training Hub - Prepared by Kajola Gbenga, Data Scientist &amp; AI Engineer. For classroom training use.</footer>
+</body></html>

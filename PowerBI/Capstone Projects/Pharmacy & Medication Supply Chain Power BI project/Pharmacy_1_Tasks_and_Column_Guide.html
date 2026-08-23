@@ -1,0 +1,399 @@
+<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<title>Pharmacy &amp; Medication Supply Chain - Power BI Training Project - Tasks and Problem Brief</title>
+<style>
+:root{
+  --navy:#1F4E78; --navy-dark:#123049; --accent:#2E86AB; --gold:#C9962C;
+  --bg:#F5F7FA; --card:#FFFFFF; --text:#242B33; --muted:#5B6774; --border:#DCE3EA;
+  --good:#2E7D32; --warn:#B26A00; --bad:#B3261E;
+}
+*{box-sizing:border-box;}
+body{margin:0;font-family:'Segoe UI',Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;}
+.wrap{max-width:1100px;margin:0 auto;padding:0 24px 80px;}
+header.hero{background:linear-gradient(135deg,var(--navy) 0%,var(--navy-dark) 100%);color:#fff;padding:56px 24px 40px;}
+header.hero .wrap{padding:0 24px;}
+.kicker{text-transform:uppercase;letter-spacing:2px;font-size:12px;color:var(--gold);font-weight:700;}
+h1.title{font-size:32px;margin:10px 0 6px;}
+.subtitle{font-size:16px;color:#CFE0EE;max-width:800px;}
+.author-block{margin-top:22px;padding-top:18px;border-top:1px solid rgba(255,255,255,0.25);}
+.author-name{font-size:18px;font-weight:700;}
+.author-title{color:var(--gold);font-size:14px;}
+nav.toc{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:18px 22px;margin:-28px 0 34px;box-shadow:0 4px 14px rgba(20,40,70,0.08);}
+nav.toc h2{font-size:14px;text-transform:uppercase;letter-spacing:1px;color:var(--navy);margin:0 0 10px;}
+nav.toc ol{margin:0;padding-left:20px;columns:2;gap:24px;}
+nav.toc a{color:var(--accent);text-decoration:none;font-size:14px;}
+nav.toc a:hover{text-decoration:underline;}
+section{margin:44px 0;}
+h2.section-title{font-size:24px;color:var(--navy);border-bottom:3px solid var(--gold);padding-bottom:8px;margin-bottom:18px;}
+h3.sub-title{font-size:19px;color:var(--navy-dark);margin:26px 0 10px;}
+p{margin:10px 0;}
+.card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:20px 24px;margin:16px 0;box-shadow:0 2px 8px rgba(20,40,70,0.05);}
+table{width:100%;border-collapse:collapse;margin:14px 0;font-size:14.5px;}
+th{background:var(--navy);color:#fff;text-align:left;padding:9px 12px;font-weight:600;}
+td{padding:9px 12px;border-bottom:1px solid var(--border);vertical-align:top;}
+tr:nth-child(even) td{background:#F7FAFD;}
+.badge{display:inline-block;padding:2px 10px;border-radius:20px;font-size:12px;font-weight:700;letter-spacing:.3px;}
+.badge.dim{background:#E4EEF7;color:var(--navy);}
+.badge.fact{background:#FCEFD9;color:#8A5A00;}
+.badge.active{background:#E3F2E1;color:var(--good);}
+.badge.inactive{background:#FBE7E5;color:var(--bad);}
+code, .dax{font-family:'Cascadia Code','Consolas',monospace;background:#0F2439;color:#DCEBFB;padding:14px 16px;display:block;border-radius:8px;white-space:pre-wrap;font-size:13.5px;line-height:1.55;margin:10px 0;overflow-x:auto;}
+.inline-code{font-family:Consolas,monospace;background:#EEF3F9;color:#1F4E78;padding:1px 6px;border-radius:4px;font-size:13.5px;}
+ul, ol{margin:8px 0;padding-left:22px;}
+li{margin:5px 0;}
+.chip-row{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0;}
+.chip{background:#EEF3F9;border:1px solid var(--border);border-radius:20px;padding:4px 14px;font-size:13px;color:var(--navy);}
+.callout{border-left:4px solid var(--gold);background:#FFF8EA;padding:12px 18px;border-radius:0 8px 8px 0;margin:14px 0;font-size:14.5px;}
+.callout.why{border-left-color:var(--accent);background:#EAF4FB;}
+.callout.impact{border-left-color:var(--good);background:#EAF7EA;}
+.step-num{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;background:var(--navy);color:#fff;border-radius:50%;font-size:13px;font-weight:700;margin-right:8px;}
+.task-item{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:10px 16px;margin:8px 0;display:flex;gap:10px;align-items:flex-start;}
+.task-item input{margin-top:4px;}
+.grain{color:var(--muted);font-size:13.5px;font-style:italic;}
+footer{background:var(--navy-dark);color:#B9C7D3;padding:26px 24px;text-align:center;font-size:13px;margin-top:60px;}
+.pill-page{background:var(--navy);color:#fff;padding:4px 12px;border-radius:6px;font-size:13px;display:inline-block;margin-bottom:8px;}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:18px;}
+@media(max-width:760px){.two-col{grid-template-columns:1fr;} nav.toc ol{columns:1;}}
+</style></head><body>
+<header class="hero">
+  <div class="wrap">
+    <div class="kicker">Prodigy Training Hub - Power BI Training Project</div>
+    <h1 class="title">Pharmacy &amp; Medication Supply Chain - Power BI Training Project</h1>
+    <div class="subtitle">What you are given, what each column means, and every task you must complete - from column understanding through relationships, DAX measures and the five dashboard pages.</div>
+    <div class="author-block">
+      <div class="author-name">Kajola Gbenga</div>
+      <div class="author-title">Data Scientist &amp; AI Engineer</div>
+    </div>
+    <div class="pill-page">File 1 of 2: Tasks, Column Guide &amp; Problem Brief</div>
+  </div>
+</header>
+<div class='wrap'>
+<nav class="toc"><h2>Contents</h2><ol><li><a href="#intro">1. How to Use This File</a></li>
+<li><a href="#dataset-overview">2. Dataset Overview</a></li>
+<li><a href="#cols-Dim_Medications">   Column Guide - Dim_Medications</a></li>
+<li><a href="#cols-Dim_Suppliers">   Column Guide - Dim_Suppliers</a></li>
+<li><a href="#cols-Dim_Branches">   Column Guide - Dim_Branches</a></li>
+<li><a href="#cols-Dim_Prescribers">   Column Guide - Dim_Prescribers</a></li>
+<li><a href="#cols-Dim_Employees">   Column Guide - Dim_Employees</a></li>
+<li><a href="#cols-Dim_Date">   Column Guide - Dim_Date</a></li>
+<li><a href="#cols-Fact_PurchaseOrders">   Column Guide - Fact_PurchaseOrders</a></li>
+<li><a href="#cols-Fact_StockReceipts">   Column Guide - Fact_StockReceipts</a></li>
+<li><a href="#cols-Fact_Sales">   Column Guide - Fact_Sales</a></li>
+<li><a href="#cols-Fact_StockTransfers">   Column Guide - Fact_StockTransfers</a></li>
+<li><a href="#cols-Fact_Returns">   Column Guide - Fact_Returns</a></li>
+<li><a href="#relationships">3. Relationships To Be Built</a></li>
+<li><a href="#dax-tasks">4. DAX Measures To Be Built</a></li>
+<li><a href="#dashboards">5. Dashboards To Be Built</a></li>
+<li><a href="#tasks">6. Full Task Checklist</a></li></ol></nav>
+<section id='intro'><h2 class='section-title'>1. How to Use This File</h2>
+<div class='card'><p>This is the <strong>problem brief</strong> for the Pharmacy & Medication Supply Chain Power BI training project. It does not contain the answers - it tells you what the dataset contains, what every column means, which relationships you must build in the Model view, which DAX measures you must write, and exactly what each of the five dashboard pages must contain. Work through it in order: understand the columns first, then build the model, then the DAX measures, then the dashboard pages. A separate file, the Solutions Walkthrough, shows the fully worked solution end to end once you have attempted each task yourself.</p></div>
+</section>
+<section id='dataset-overview'><h2 class='section-title'>2. Dataset Overview</h2>
+<div class='card'><p>The workbook <span class='inline-code'>Pharmacy_Supply_Chain_Dataset.xlsx</span> contains 11 related tables built as a star/snowflake schema: 6 dimension tables and 5 fact tables, spanning five years of data (2021-2025). Study the table below before opening Power BI.</p>
+<table><tr><th>Table</th><th>Type</th><th>Grain</th><th>Rows</th></tr>
+<tr><td><strong>Dim_Medications</strong></td><td><span class='badge dim'>DIMENSION</span></td><td>One row per medication SKU in the formulary</td><td>66</td></tr>
+<tr><td><strong>Dim_Suppliers</strong></td><td><span class='badge dim'>DIMENSION</span></td><td>One row per approved supplier</td><td>25</td></tr>
+<tr><td><strong>Dim_Branches</strong></td><td><span class='badge dim'>DIMENSION</span></td><td>One row per retail pharmacy, hospital pharmacy or distribution warehouse</td><td>18</td></tr>
+<tr><td><strong>Dim_Prescribers</strong></td><td><span class='badge dim'>DIMENSION</span></td><td>One row per external prescribing doctor</td><td>60</td></tr>
+<tr><td><strong>Dim_Employees</strong></td><td><span class='badge dim'>DIMENSION</span></td><td>One row per pharmacy staff member</td><td>140</td></tr>
+<tr><td><strong>Dim_Date</strong></td><td><span class='badge dim'>DIMENSION</span></td><td>One row per calendar day from 1 January 2021 to 31 December 2025</td><td>1826</td></tr>
+<tr><td><strong>Fact_PurchaseOrders</strong></td><td><span class='badge fact'>FACT</span></td><td>One row per purchase order line placed with a supplier</td><td>3200</td></tr>
+<tr><td><strong>Fact_StockReceipts</strong></td><td><span class='badge fact'>FACT</span></td><td>One row per goods-received batch against a purchase order</td><td>2828</td></tr>
+<tr><td><strong>Fact_Sales</strong></td><td><span class='badge fact'>FACT</span></td><td>One row per point-of-sale dispensing transaction</td><td>26000</td></tr>
+<tr><td><strong>Fact_StockTransfers</strong></td><td><span class='badge fact'>FACT</span></td><td>One row per inter-branch stock transfer</td><td>2200</td></tr>
+<tr><td><strong>Fact_Returns</strong></td><td><span class='badge fact'>FACT</span></td><td>One row per expired, damaged, recalled or customer-returned stock write-off</td><td>1900</td></tr>
+</table></div>
+<h3 class='sub-title' id='cols-Dim_Medications'>Column Guide - Dim_Medications</h3>
+<div class='card'><p class='grain'>Describes every medication the pharmacy business stocks, sells and reorders. It is the single most heavily used dimension in the model, referenced directly by all five fact tables (Purchase Orders, Stock Receipts, Sales, Transfers and Returns).</p>
+<table><tr><th style='width:18%'>Column</th><th style='width:16%'>Data Type</th><th>What it means / your task</th></tr>
+<tr><td><strong>MedicationID</strong></td><td>Text (Key)</td><td>Unique identifier such as MED001. Primary key of Dim_Medications and the field used to relate to every fact table&#x27;s MedicationID column.</td></tr>
+<tr><td><strong>MedicationName</strong></td><td>Text</td><td>The commercial/dosage-specific name, for example &#x27;Paracetamol 500mg&#x27;. This is the field placed on most medication-level charts such as Top Selling Medications.</td></tr>
+<tr><td><strong>GenericName</strong></td><td>Text</td><td>The underlying generic drug name, for example Paracetamol without the strength. Useful for grouping different strengths or forms of the same active ingredient together.</td></tr>
+<tr><td><strong>Category</strong></td><td>Text</td><td>Therapeutic category such as Analgesic, Antibiotic, Antimalarial, Antihypertensive or Vaccine. Used to roll dozens of individual medications up into a manageable number of groups for category-level charts.</td></tr>
+<tr><td><strong>DosageForm</strong></td><td>Text</td><td>Tablet, Capsule, Syrup, Injection, Cream, Lotion, Inhaler, IV Bag or Sachet. Useful for a dispensing-format analysis and for filtering out non-oral forms in certain views.</td></tr>
+<tr><td><strong>StrengthPerUnit</strong></td><td>Decimal Number</td><td>The numeric strength value, for example 500 for a 500mg tablet. Combine with StrengthUnit for a full label; not typically aggregated on its own.</td></tr>
+<tr><td><strong>StrengthUnit</strong></td><td>Text</td><td>The unit that StrengthPerUnit is measured in, for example mg, IU or %. A descriptive attribute rather than an analytical one.</td></tr>
+<tr><td><strong>PackSize</strong></td><td>Whole Number</td><td>Number of units in a standard pack (10, 20, 30 and so on). Used to convert unit-level quantities into pack-level reorder recommendations.</td></tr>
+<tr><td><strong>UnitCostNGN</strong></td><td>Currency (Whole Number)</td><td>The pharmacy&#x27;s cost to acquire one unit of the medication from a supplier, in Naira. Central to gross margin calculations and to the value of every stock movement.</td></tr>
+<tr><td><strong>UnitSellingPriceNGN</strong></td><td>Currency (Whole Number)</td><td>The retail price charged per unit at the point of sale. Set at a markup over UnitCostNGN and used throughout the Sales &amp; Revenue dashboard page.</td></tr>
+<tr><td><strong>RequiresPrescription</strong></td><td>Text (Yes/No)</td><td>Flags whether the medication is a prescription-only medicine (POM) or an over-the-counter (OTC) product. Drives the Prescription Sales % measure and a compliance-style visual.</td></tr>
+<tr><td><strong>IsControlledSubstance</strong></td><td>Text (Yes/No)</td><td>Flags medications subject to stricter dispensing control (for example Tramadol, Diazepam). A small but important field for a pharmacy compliance discussion.</td></tr>
+<tr><td><strong>ShelfLifeMonths</strong></td><td>Whole Number</td><td>Typical shelf life of the medication once manufactured. Used alongside Fact_StockReceipts[ExpiryDate] to reason about expiry risk.</td></tr>
+<tr><td><strong>ATCCode</strong></td><td>Text</td><td>A short fictional Anatomical Therapeutic Chemical-style classification code, included so students can practise combining a code and a name into a single label using a calculated column.</td></tr>
+<tr><td><strong>ReorderLevelUnits</strong></td><td>Whole Number</td><td>The stock quantity threshold below which the medication should be reordered. Used as a reference line on inventory visuals and in a simple &#x27;Below Reorder Level&#x27; flag measure.</td></tr>
+</table></div>
+<h3 class='sub-title' id='cols-Dim_Suppliers'>Column Guide - Dim_Suppliers</h3>
+<div class='card'><p class='grain'>Describes every supplier the pharmacy business procures medication from. It sits behind the entire Procurement &amp; Supplier Performance dashboard page.</p>
+<table><tr><th style='width:18%'>Column</th><th style='width:16%'>Data Type</th><th>What it means / your task</th></tr>
+<tr><td><strong>SupplierID</strong></td><td>Text (Key)</td><td>Unique identifier such as SUP001. Primary key of Dim_Suppliers and the field used to relate to Fact_PurchaseOrders[SupplierID].</td></tr>
+<tr><td><strong>SupplierName</strong></td><td>Text</td><td>The supplier&#x27;s registered business name, used as the axis on the Total Spend by Supplier chart and the supplier scorecard table.</td></tr>
+<tr><td><strong>SupplierType</strong></td><td>Text</td><td>Local Distributor, Manufacturer or Importer. Useful for comparing cost and lead-time patterns across different supplier categories.</td></tr>
+<tr><td><strong>Country</strong></td><td>Text</td><td>Country the supplier is based in. Mostly Nigeria, with a minority of importers based abroad, giving students a small international-sourcing story to explore.</td></tr>
+<tr><td><strong>City</strong></td><td>Text</td><td>City the supplier operates from. A descriptive attribute rather than a primary analytical field.</td></tr>
+<tr><td><strong>ContactPerson</strong></td><td>Text</td><td>The supplier&#x27;s named contact. Included for realism and drillthrough detail only.</td></tr>
+<tr><td><strong>Phone</strong></td><td>Text</td><td>Supplier contact phone number. Should be hidden from report view; included purely for operational realism.</td></tr>
+<tr><td><strong>Email</strong></td><td>Text</td><td>Supplier contact email. Same treatment as Phone - realistic but not analytical.</td></tr>
+<tr><td><strong>PaymentTerms</strong></td><td>Text</td><td>The supplier&#x27;s standard payment terms (Net 30, Net 45, Net 60, Net 90 or Cash on Delivery). Useful context alongside Fact_PurchaseOrders[PaymentStatus] for a cash-flow discussion.</td></tr>
+<tr><td><strong>LeadTimeDays</strong></td><td>Whole Number</td><td>The supplier&#x27;s stated standard delivery lead time in days. Compared against the actual gap between OrderDate and ExpectedDeliveryDate, and later against actual receipt dates, to assess reliability.</td></tr>
+<tr><td><strong>Rating</strong></td><td>Decimal Number (1-5)</td><td>An overall supplier quality rating maintained by the procurement team. Used on the supplier scorecard table alongside the calculated On-Time Delivery % measure.</td></tr>
+<tr><td><strong>IsActive</strong></td><td>Text (Yes/No)</td><td>Flags whether the supplier is currently approved for new orders. A small governance field useful for filtering out discontinued suppliers from forward-looking analysis.</td></tr>
+</table></div>
+<h3 class='sub-title' id='cols-Dim_Branches'>Column Guide - Dim_Branches</h3>
+<div class='card'><p class='grain'>Describes every physical location in the network. Uniquely in this model, Dim_Branches plays a role-playing, double role on Fact_StockTransfers (as both the sending and receiving branch), which is one of the central DAX teaching moments of this project.</p>
+<table><tr><th style='width:18%'>Column</th><th style='width:16%'>Data Type</th><th>What it means / your task</th></tr>
+<tr><td><strong>BranchID</strong></td><td>Text (Key)</td><td>Unique identifier such as BR01. Primary key of Dim_Branches, referenced by Fact_PurchaseOrders, Fact_Sales, Fact_Returns, and twice by Fact_StockTransfers (FromBranchID and ToBranchID).</td></tr>
+<tr><td><strong>BranchName</strong></td><td>Text</td><td>The branch&#x27;s display name, used as the axis on most branch-level visuals.</td></tr>
+<tr><td><strong>BranchType</strong></td><td>Text</td><td>Retail Pharmacy, Hospital Pharmacy or Distribution Warehouse. The three warehouse locations are where most purchase orders are received before stock is transferred out to retail and hospital branches.</td></tr>
+<tr><td><strong>City</strong></td><td>Text</td><td>City the branch is located in.</td></tr>
+<tr><td><strong>State</strong></td><td>Text</td><td>Nigerian state the branch is located in. Used for a geographic Sales by State visual.</td></tr>
+<tr><td><strong>Region</strong></td><td>Text</td><td>A broader geopolitical zone grouping (South West, South South, South East, North West, North Central) rolled up from State, giving a higher-level geographic view.</td></tr>
+<tr><td><strong>ManagerName</strong></td><td>Text</td><td>Name of the branch manager. Useful for drillthrough detail rather than aggregate visuals.</td></tr>
+<tr><td><strong>OpeningDate</strong></td><td>Date</td><td>The date the branch opened. Can support a simple network-growth analysis over the five-year history.</td></tr>
+<tr><td><strong>StorageCapacityUnits</strong></td><td>Whole Number</td><td>Approximate storage capacity in stock units. Warehouses have much larger capacity than retail branches, useful context for a utilisation-style discussion even though this dataset does not simulate live stock-on-hand.</td></tr>
+<tr><td><strong>ContactPhone</strong></td><td>Text</td><td>Branch contact phone number. Included for realism only, not for analysis.</td></tr>
+</table></div>
+<h3 class='sub-title' id='cols-Dim_Prescribers'>Column Guide - Dim_Prescribers</h3>
+<div class='card'><p class='grain'>Describes the external doctors whose prescriptions drive prescription-only sales. Roughly half of Fact_Sales rows carry a PrescriberID; the rest are over-the-counter sales with a blank prescriber, which is deliberate and gives students practice handling blank/optional relationships correctly.</p>
+<table><tr><th style='width:18%'>Column</th><th style='width:16%'>Data Type</th><th>What it means / your task</th></tr>
+<tr><td><strong>PrescriberID</strong></td><td>Text (Key)</td><td>Unique identifier such as PRE001. Primary key of Dim_Prescribers and the field used to relate to Fact_Sales[PrescriberID].</td></tr>
+<tr><td><strong>PrescriberName</strong></td><td>Text</td><td>The doctor&#x27;s display name, prefixed with Dr. Used on a Top Prescribers by Sales Volume visual.</td></tr>
+<tr><td><strong>Affiliation</strong></td><td>Text</td><td>The hospital or clinic the prescriber is affiliated with, or Independent Practice. Useful for a referral-source style analysis.</td></tr>
+<tr><td><strong>Specialty</strong></td><td>Text</td><td>The prescriber&#x27;s clinical specialty, for example General Practice, Cardiology or Paediatrics.</td></tr>
+<tr><td><strong>LicenseNumber</strong></td><td>Text</td><td>A fictional MDCN-format license number, included for realism and drillthrough detail only.</td></tr>
+<tr><td><strong>City</strong></td><td>Text</td><td>City the prescriber practises in.</td></tr>
+</table></div>
+<h3 class='sub-title' id='cols-Dim_Employees'>Column Guide - Dim_Employees</h3>
+<div class='card'><p class='grain'>Describes every staff member who can be attached to a purchase order, a sale, or a stock transfer approval. Like Dim_Branches, it is referenced from more than one fact table, giving students another example of a widely shared, conformed dimension.</p>
+<table><tr><th style='width:18%'>Column</th><th style='width:16%'>Data Type</th><th>What it means / your task</th></tr>
+<tr><td><strong>EmployeeID</strong></td><td>Text (Key)</td><td>Unique identifier such as EMP0001. Primary key of Dim_Employees, referenced by Fact_PurchaseOrders[ProcurementOfficerID], Fact_Sales[DispensingEmployeeID] and Fact_StockTransfers[ApprovedByEmployeeID].</td></tr>
+<tr><td><strong>FirstName</strong></td><td>Text</td><td>Employee&#x27;s given name.</td></tr>
+<tr><td><strong>LastName</strong></td><td>Text</td><td>Employee&#x27;s family name. Combine with FirstName in a calculated column for a clean display name.</td></tr>
+<tr><td><strong>Gender</strong></td><td>Text</td><td>Employee&#x27;s gender, usable for a simple workforce composition visual.</td></tr>
+<tr><td><strong>Role</strong></td><td>Text</td><td>Pharmacist, Pharmacy Technician, Store Manager, Procurement Officer or Inventory Officer. Determines which fact tables an employee is realistically likely to appear on (for example, only Procurement Officers place purchase orders in this dataset).</td></tr>
+<tr><td><strong>BranchID</strong></td><td>Text (Foreign Key)</td><td>Links each employee to their home branch via Dim_Branches[BranchID]. This is the foreign key that creates a snowflake relationship Dim_Branches (one) to Dim_Employees (many).</td></tr>
+<tr><td><strong>YearsOfExperience</strong></td><td>Whole Number</td><td>Number of years the employee has worked in pharmacy practice. Used on a scatter chart comparing experience against sales volume handled.</td></tr>
+<tr><td><strong>DateHired</strong></td><td>Date</td><td>The date the employee joined the company. Can support a simple headcount-growth analysis.</td></tr>
+<tr><td><strong>LicenseNumber</strong></td><td>Text</td><td>A fictional PCN-format license number for Pharmacists and Pharmacy Technicians, blank for other roles. Included for realism and drillthrough detail.</td></tr>
+<tr><td><strong>EmploymentType</strong></td><td>Text</td><td>Full-Time, Part-Time or Locum. Useful for a workforce-composition visual on the branch and employee performance page.</td></tr>
+</table></div>
+<h3 class='sub-title' id='cols-Dim_Date'>Column Guide - Dim_Date</h3>
+<div class='card'><p class='grain'>A dedicated, contiguous calendar table is mandatory best practice in Power BI, and is what allows time intelligence DAX functions (TOTALYTD, SAMEPERIODLASTYEAR, DATEADD and similar) to work correctly. In this model it relates to four different fact tables, each through its own natural date column.</p>
+<table><tr><th style='width:18%'>Column</th><th style='width:16%'>Data Type</th><th>What it means / your task</th></tr>
+<tr><td><strong>Date</strong></td><td>Date (Key)</td><td>The calendar date itself, one row per day with no gaps. Primary key of Dim_Date; must be marked as a Date Table in Power BI (Table Tools &gt; Mark as Date Table) using this column.</td></tr>
+<tr><td><strong>Day</strong></td><td>Whole Number</td><td>Day of the month (1-31). Rarely used alone but occasionally useful for day-of-month seasonality checks.</td></tr>
+<tr><td><strong>DayName</strong></td><td>Text</td><td>Full weekday name (Monday, Tuesday and so on). Used together with WeekdayWeekend to study whether sales volume differs on weekends.</td></tr>
+<tr><td><strong>MonthNumber</strong></td><td>Whole Number</td><td>Numeric month (1-12). Used to sort MonthName correctly on the X-axis, since Power BI sorts text columns alphabetically unless a Sort By Column is set.</td></tr>
+<tr><td><strong>MonthName</strong></td><td>Text</td><td>Full month name (January, February and so on). This is the field placed on the axis of every monthly trend chart in the project; it must have Sort By Column set to MonthNumber.</td></tr>
+<tr><td><strong>Quarter</strong></td><td>Whole Number</td><td>Calendar quarter (1-4). Used to build quarterly cards and slicers for executives who prefer a higher-level time view.</td></tr>
+<tr><td><strong>HalfYear</strong></td><td>Text</td><td>H1 or H2, flagging whether the date falls in the first or second half of the calendar year.</td></tr>
+<tr><td><strong>Year</strong></td><td>Whole Number</td><td>Calendar year (2021 through 2025 in this dataset). The field most commonly placed in a slicer at the top of every dashboard page, and what makes true year-over-year DAX comparisons possible.</td></tr>
+<tr><td><strong>WeekdayWeekend</strong></td><td>Text</td><td>Flags each date as Weekday or Weekend. Supports a simple DAX measure comparing average sales on weekdays versus weekends.</td></tr>
+<tr><td><strong>FiscalYear</strong></td><td>Text</td><td>Fiscal year label such as FY2023. Included so students can see how a fiscal calendar would be added even though it mirrors the calendar year in this dataset.</td></tr>
+<tr><td><strong>IsPublicHoliday</strong></td><td>Text (Yes/No)</td><td>Flags a small set of fixed-date Nigerian public holidays. Gives students a real field to test whether sales patterns differ on public holidays.</td></tr>
+</table></div>
+<h3 class='sub-title' id='cols-Fact_PurchaseOrders'>Column Guide - Fact_PurchaseOrders</h3>
+<div class='card'><p class='grain'>The starting point of the supply chain: every unit of stock that eventually reaches a branch begins as a purchase order line here. It is the central fact table behind the Procurement &amp; Supplier Performance dashboard page.</p>
+<table><tr><th style='width:18%'>Column</th><th style='width:16%'>Data Type</th><th>What it means / your task</th></tr>
+<tr><td><strong>POID</strong></td><td>Text (Key)</td><td>Unique identifier for the order line, formatted PO000001. Primary key of Fact_PurchaseOrders and the &#x27;one&#x27; side of the fact-to-fact relationship to Fact_StockReceipts[POID].</td></tr>
+<tr><td><strong>SupplierID</strong></td><td>Text (Foreign Key)</td><td>Links the order to Dim_Suppliers[SupplierID]. Every supplier-performance visual depends on this column.</td></tr>
+<tr><td><strong>BranchID</strong></td><td>Text (Foreign Key)</td><td>Links the order to the receiving location in Dim_Branches[BranchID]. Roughly 70% of orders are placed against one of the three distribution warehouses, reflecting a realistic centralised-procurement pattern.</td></tr>
+<tr><td><strong>MedicationID</strong></td><td>Text (Foreign Key)</td><td>Links the order to Dim_Medications[MedicationID]. Each purchase order line is for a single medication SKU.</td></tr>
+<tr><td><strong>ProcurementOfficerID</strong></td><td>Text (Foreign Key)</td><td>Links the order to the employee in Dim_Employees who placed it, filtered in this dataset to staff with the Procurement Officer role.</td></tr>
+<tr><td><strong>OrderDate</strong></td><td>Date</td><td>The date the order was placed. This is the column that should carry the ACTIVE relationship to Dim_Date[Date], since most procurement reporting is naturally order-date based.</td></tr>
+<tr><td><strong>ExpectedDeliveryDate</strong></td><td>Date</td><td>OrderDate plus the supplier&#x27;s standard lead time. This column should carry an INACTIVE relationship to Dim_Date[Date], activated only inside specific measures with USERELATIONSHIP when an expected-delivery-date view is genuinely needed.</td></tr>
+<tr><td><strong>QuantityOrdered</strong></td><td>Whole Number</td><td>Units ordered on this line. Compared against Fact_StockReceipts[QuantityReceived] to calculate a Fill Rate % measure.</td></tr>
+<tr><td><strong>UnitCostNGN</strong></td><td>Currency (Whole Number)</td><td>Agreed unit cost for this order line in Naira, taken from the medication&#x27;s current cost at order time.</td></tr>
+<tr><td><strong>TotalOrderValueNGN</strong></td><td>Currency (Whole Number)</td><td>QuantityOrdered multiplied by UnitCostNGN. Summed by the Total Purchase Order Value measure, the primary procurement spend KPI.</td></tr>
+<tr><td><strong>OrderStatus</strong></td><td>Text</td><td>Delivered, Partially Delivered, Pending, Delayed or Cancelled. Drives the order-status donut chart and several fill-rate and on-time measures.</td></tr>
+<tr><td><strong>PaymentStatus</strong></td><td>Text</td><td>Paid, Partially Paid, Pending or Overdue. Useful for a payables-management visual, mirroring the Collection Rate concept from the sales side of the business.</td></tr>
+<tr><td><strong>PaymentTermsUsed</strong></td><td>Text</td><td>The payment terms actually applied to this order, which may differ from the supplier&#x27;s default PaymentTerms if a one-off arrangement was agreed.</td></tr>
+</table></div>
+<h3 class='sub-title' id='cols-Fact_StockReceipts'>Column Guide - Fact_StockReceipts</h3>
+<div class='card'><p class='grain'>Records the actual physical receipt of stock, including the batch number and expiry date that are essential for pharmacy inventory management. Around 15% of Delivered/Partially Delivered orders generate more than one receipt row, modelling real-world split deliveries.</p>
+<table><tr><th style='width:18%'>Column</th><th style='width:16%'>Data Type</th><th>What it means / your task</th></tr>
+<tr><td><strong>ReceiptID</strong></td><td>Text (Key)</td><td>Unique identifier for the receipt, formatted RCT000001. Primary key of Fact_StockReceipts.</td></tr>
+<tr><td><strong>POID</strong></td><td>Text (Foreign Key)</td><td>Links the receipt back to Fact_PurchaseOrders[POID]. This fact-to-fact relationship is one-to-many because a single order can be delivered in more than one batch.</td></tr>
+<tr><td><strong>MedicationID</strong></td><td>Text (Foreign Key)</td><td>Links the receipt directly to Dim_Medications[MedicationID], duplicating the medication reference already implied by the parent purchase order, which is normal star-schema practice and keeps this fact table independently filterable.</td></tr>
+<tr><td><strong>ReceiptDate</strong></td><td>Date</td><td>The date the batch physically arrived. Deliberately NOT related to Dim_Date in this model, since it is only ever used for reference alongside the purchase order&#x27;s own OrderDate and ExpectedDeliveryDate; not every date column needs a relationship if it will not be independently trended or filtered.</td></tr>
+<tr><td><strong>QuantityReceived</strong></td><td>Whole Number</td><td>Units received in this batch. Summed and compared against QuantityOrdered on the parent order to calculate Fill Rate %.</td></tr>
+<tr><td><strong>BatchNumber</strong></td><td>Text</td><td>A fictional batch/lot number. Essential in real pharmacy operations for traceability and recalls; included here for realism and drillthrough detail.</td></tr>
+<tr><td><strong>ExpiryDate</strong></td><td>Date</td><td>The expiry date printed on this specific batch. Used alongside today&#x27;s date in a DAX measure to flag stock nearing expiry, an important pharmacy-specific analytical pattern.</td></tr>
+<tr><td><strong>QualityCheckStatus</strong></td><td>Text</td><td>Passed, Pending or Failed. A receiving-quality-control field; a Failed status would in practice trigger a return to the supplier, connecting conceptually (though not directly modelled) to Fact_Returns.</td></tr>
+</table></div>
+<h3 class='sub-title' id='cols-Fact_Sales'>Column Guide - Fact_Sales</h3>
+<div class='card'><p class='grain'>The largest and most central fact table for the revenue side of the business. It records every sale across all retail and hospital pharmacy branches (warehouses do not sell directly to customers in this model) and drives the entire Sales &amp; Revenue dashboard page.</p>
+<table><tr><th style='width:18%'>Column</th><th style='width:16%'>Data Type</th><th>What it means / your task</th></tr>
+<tr><td><strong>SaleID</strong></td><td>Text (Key)</td><td>Unique identifier for the transaction, formatted SAL000001. Primary key of Fact_Sales.</td></tr>
+<tr><td><strong>BranchID</strong></td><td>Text (Foreign Key)</td><td>Links the sale to the selling branch in Dim_Branches[BranchID]. Restricted to Retail Pharmacy and Hospital Pharmacy branch types in this dataset.</td></tr>
+<tr><td><strong>MedicationID</strong></td><td>Text (Foreign Key)</td><td>Links the sale to Dim_Medications[MedicationID]. Every revenue-by-category and top-selling-medication visual depends on this column.</td></tr>
+<tr><td><strong>PrescriberID</strong></td><td>Text (Foreign Key, optional)</td><td>Links the sale to the prescribing doctor in Dim_Prescribers, populated for roughly 85% of prescription-only medication sales and left blank for over-the-counter sales. Students must handle this optional relationship carefully, since a blank foreign key means the row simply will not appear when a report is filtered strictly by prescriber.</td></tr>
+<tr><td><strong>DispensingEmployeeID</strong></td><td>Text (Foreign Key)</td><td>Links the sale to the Pharmacist or Pharmacy Technician in Dim_Employees who dispensed it. Used on the Top Dispensing Staff visual.</td></tr>
+<tr><td><strong>SaleDate</strong></td><td>Date</td><td>The date of the transaction. Carries an active relationship to Dim_Date[Date], the primary time axis for every revenue trend visual in the project.</td></tr>
+<tr><td><strong>QuantitySold</strong></td><td>Whole Number</td><td>Units sold in this transaction. Summed to build the Total Quantity Sold measure.</td></tr>
+<tr><td><strong>UnitSellingPriceNGN</strong></td><td>Currency (Whole Number)</td><td>The price per unit at the time of sale, copied from Dim_Medications[UnitSellingPriceNGN] at transaction time.</td></tr>
+<tr><td><strong>DiscountNGN</strong></td><td>Currency (Whole Number)</td><td>Any discount applied to this transaction, present on roughly 12% of sales. Subtracted when TotalSaleNGN is calculated.</td></tr>
+<tr><td><strong>TotalSaleNGN</strong></td><td>Currency (Whole Number)</td><td>QuantitySold multiplied by UnitSellingPriceNGN, minus DiscountNGN. The column summed by the Total Sales Revenue measure, the single most important KPI on the Sales &amp; Revenue page.</td></tr>
+<tr><td><strong>PaymentMethod</strong></td><td>Text</td><td>Cash, POS/Card, Bank Transfer, Mobile Money or HMO Settlement. Useful for a payment-mix visual.</td></tr>
+<tr><td><strong>IsPrescriptionSale</strong></td><td>Text (Yes/No)</td><td>Flags whether the sale required a prescription. Drives the Prescription Sales % measure.</td></tr>
+<tr><td><strong>CustomerType</strong></td><td>Text</td><td>Walk-in, Corporate, Hospital Referral or Insurance/HMO. Useful for a customer-mix visual on the Sales &amp; Revenue page.</td></tr>
+</table></div>
+<h3 class='sub-title' id='cols-Fact_StockTransfers'>Column Guide - Fact_StockTransfers</h3>
+<div class='card'><p class='grain'>Records stock moving between two branches, most commonly from a distribution warehouse out to retail or hospital branches, but also occasionally between two retail branches for emergency rebalancing. This is the table behind the single most important DAX teaching moment in the whole project: Dim_Branches is related to it TWICE.</p>
+<table><tr><th style='width:18%'>Column</th><th style='width:16%'>Data Type</th><th>What it means / your task</th></tr>
+<tr><td><strong>TransferID</strong></td><td>Text (Key)</td><td>Unique identifier for the transfer, formatted TRF000001. Primary key of Fact_StockTransfers.</td></tr>
+<tr><td><strong>FromBranchID</strong></td><td>Text (Foreign Key)</td><td>Links to Dim_Branches[BranchID], identifying the sending branch. This relationship should be created ACTIVE, since most transfer reporting naturally asks &#x27;which branch sent this stock&#x27;.</td></tr>
+<tr><td><strong>ToBranchID</strong></td><td>Text (Foreign Key)</td><td>Also links to Dim_Branches[BranchID], identifying the receiving branch. Because Dim_Branches already has an active relationship to FromBranchID, this second relationship to the same table must be created INACTIVE, and activated inside specific measures using USERELATIONSHIP whenever a &#x27;stock received via transfer&#x27; view is needed.</td></tr>
+<tr><td><strong>MedicationID</strong></td><td>Text (Foreign Key)</td><td>Links the transfer to Dim_Medications[MedicationID]. Each transfer line is for a single medication SKU.</td></tr>
+<tr><td><strong>TransferDate</strong></td><td>Date</td><td>The date the transfer was executed. Carries an active relationship to Dim_Date[Date].</td></tr>
+<tr><td><strong>QuantityTransferred</strong></td><td>Whole Number</td><td>Units moved in this transfer. Summed to build the Total Stock Transferred measure.</td></tr>
+<tr><td><strong>TransferReason</strong></td><td>Text</td><td>Stock Rebalancing, Emergency Restock, New Branch Seeding, Expiry Risk Mitigation or Warehouse Redistribution. Useful for understanding why stock is moving around the network.</td></tr>
+<tr><td><strong>ApprovedByEmployeeID</strong></td><td>Text (Foreign Key)</td><td>Links to the Store Manager or Inventory Officer in Dim_Employees who approved the transfer.</td></tr>
+<tr><td><strong>TransferStatus</strong></td><td>Text</td><td>Completed, In Transit or Cancelled. Useful for an operational visual showing transfers currently in progress.</td></tr>
+</table></div>
+<h3 class='sub-title' id='cols-Fact_Returns'>Column Guide - Fact_Returns</h3>
+<div class='card'><p class='grain'>Captures stock leaving the network for reasons other than a sale: expiry, damage, manufacturer recall, customer return or a negotiated overstock return to the supplier. This is the primary table behind the Inventory &amp; Loss Management dashboard page.</p>
+<table><tr><th style='width:18%'>Column</th><th style='width:16%'>Data Type</th><th>What it means / your task</th></tr>
+<tr><td><strong>ReturnID</strong></td><td>Text (Key)</td><td>Unique identifier for the return, formatted RET000001. Primary key of Fact_Returns.</td></tr>
+<tr><td><strong>BranchID</strong></td><td>Text (Foreign Key)</td><td>Links the return to the branch it occurred at, via Dim_Branches[BranchID].</td></tr>
+<tr><td><strong>MedicationID</strong></td><td>Text (Foreign Key)</td><td>Links the return to Dim_Medications[MedicationID].</td></tr>
+<tr><td><strong>ReturnDate</strong></td><td>Date</td><td>The date the return or write-off was recorded. Carries an active relationship to Dim_Date[Date].</td></tr>
+<tr><td><strong>Quantity</strong></td><td>Whole Number</td><td>Units returned or written off. Summed to build a Total Units Lost measure.</td></tr>
+<tr><td><strong>ReturnReason</strong></td><td>Text</td><td>Expired, Damaged in Storage, Damaged in Transit, Recalled by Manufacturer, Customer Return or Overstock Return to Supplier. The field behind the Returns by Reason bar chart.</td></tr>
+<tr><td><strong>ValueNGN</strong></td><td>Currency (Whole Number)</td><td>Quantity multiplied by the medication&#x27;s unit cost. Summed by the Total Loss Value measure, an important shrinkage/wastage KPI.</td></tr>
+<tr><td><strong>DisposalMethod</strong></td><td>Text</td><td>Incineration, Return to Supplier, Landfill (Approved), Pending Disposal, or &#x27;N/A - Returned to Stock&#x27; for customer returns that were resaleable. Useful for a compliance-style disposal-tracking visual.</td></tr>
+</table></div>
+</section>
+<section id='relationships'><h2 class='section-title'>3. Relationships To Be Built</h2>
+<div class='card'><p>Build every relationship below in Model view. For each one, decide the cardinality and cross filter direction yourself first, then check your answer against the table. Pay close attention to the two relationships marked <span class='badge inactive'>INACTIVE</span> - work out <em>why</em> Power BI will not let both relationships to the same table be active at once before you look at the DAX section.</p>
+<table><tr><th>From (one side)</th><th>To (many side)</th><th>Cardinality</th><th>Cross Filter</th><th>Status</th></tr>
+<tr><td>Dim_Medications[MedicationID]</td><td>Fact_PurchaseOrders[MedicationID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td></tr>
+<tr><td>Dim_Suppliers[SupplierID]</td><td>Fact_PurchaseOrders[SupplierID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td></tr>
+<tr><td>Dim_Branches[BranchID]</td><td>Fact_PurchaseOrders[BranchID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td></tr>
+<tr><td>Dim_Employees[EmployeeID]</td><td>Fact_PurchaseOrders[ProcurementOfficerID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td></tr>
+<tr><td>Dim_Date[Date]</td><td>Fact_PurchaseOrders[OrderDate]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td></tr>
+<tr><td>Dim_Date[Date]</td><td>Fact_PurchaseOrders[ExpectedDeliveryDate]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge inactive'>INACTIVE</span></td></tr>
+<tr><td>Fact_PurchaseOrders[POID]</td><td>Fact_StockReceipts[POID]</td><td>One-to-Many (1:*)</td><td>Single (Fact_PurchaseOrders filters Fact_StockReceipts)</td><td><span class='badge active'>ACTIVE</span></td></tr>
+<tr><td>Dim_Medications[MedicationID]</td><td>Fact_StockReceipts[MedicationID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td></tr>
+<tr><td>Dim_Medications[MedicationID]</td><td>Fact_Sales[MedicationID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td></tr>
+<tr><td>Dim_Branches[BranchID]</td><td>Fact_Sales[BranchID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td></tr>
+<tr><td>Dim_Prescribers[PrescriberID]</td><td>Fact_Sales[PrescriberID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td></tr>
+<tr><td>Dim_Employees[EmployeeID]</td><td>Fact_Sales[DispensingEmployeeID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td></tr>
+<tr><td>Dim_Date[Date]</td><td>Fact_Sales[SaleDate]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td></tr>
+<tr><td>Dim_Branches[BranchID]</td><td>Fact_StockTransfers[FromBranchID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td></tr>
+<tr><td>Dim_Branches[BranchID]</td><td>Fact_StockTransfers[ToBranchID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge inactive'>INACTIVE</span></td></tr>
+<tr><td>Dim_Medications[MedicationID]</td><td>Fact_StockTransfers[MedicationID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td></tr>
+<tr><td>Dim_Employees[EmployeeID]</td><td>Fact_StockTransfers[ApprovedByEmployeeID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td></tr>
+<tr><td>Dim_Date[Date]</td><td>Fact_StockTransfers[TransferDate]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td></tr>
+<tr><td>Dim_Branches[BranchID]</td><td>Fact_Returns[BranchID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td></tr>
+<tr><td>Dim_Medications[MedicationID]</td><td>Fact_Returns[MedicationID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td></tr>
+<tr><td>Dim_Date[Date]</td><td>Fact_Returns[ReturnDate]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td></tr>
+</table></div>
+<div class='callout'>Task: for both inactive relationships, write one sentence explaining which DAX function you would need to temporarily activate them inside a measure. Check your answer in the Solutions file.</div>
+</section>
+<section id='dax-tasks'><h2 class='section-title'>4. DAX Measures To Be Built</h2>
+<div class='card'><p>Build the following measures, in this order, inside a dedicated Measures table. For each one, the goal (why it exists) is given - your task is to write the DAX yourself before checking the Solutions file.</p></div>
+<table><tr><th style='width:26%'>Measure Name</th><th style='width:20%'>Used On</th><th>Your Task (goal of the measure)</th></tr>
+<tr><td><strong>Total Purchase Orders</strong></td><td>Procurement &amp; Supplier Performance</td><td>The foundation activity KPI for the whole procurement side of the business.</td></tr>
+<tr><td><strong>Total Purchase Order Value</strong></td><td>Procurement &amp; Supplier Performance, Executive Overview</td><td>Represents total procurement spend committed to suppliers, the starting point of the supply chain cost story.</td></tr>
+<tr><td><strong>Total Quantity Ordered</strong></td><td>Procurement &amp; Supplier Performance</td><td>The denominator needed to calculate Fill Rate %, and a useful volume KPI in its own right.</td></tr>
+<tr><td><strong>Total Quantity Received</strong></td><td>Procurement &amp; Supplier Performance</td><td>Represents what physically arrived, as distinct from what was ordered - the two numbers should diverge for Partially Delivered and Delayed orders.</td></tr>
+<tr><td><strong>Fill Rate %</strong></td><td>Procurement &amp; Supplier Performance</td><td>A core procurement-quality KPI: a Fill Rate consistently below 100% for a given supplier signals a reliability problem worth escalating.</td></tr>
+<tr><td><strong>Average Supplier Lead Time (Days)</strong></td><td>Procurement &amp; Supplier Performance</td><td>Gives a quick reference point for how long a supplier says it needs, to compare against the measures below that calculate how long it actually took.</td></tr>
+<tr><td><strong>On-Time Delivery %</strong></td><td>Procurement &amp; Supplier Performance</td><td>The single most important supplier-reliability KPI in the project, and the clearest possible demonstration of why USERELATIONSHIP exists: without it, this measure would silently use the wrong date column.</td></tr>
+<tr><td><strong>Total Sales Revenue</strong></td><td>Executive Overview, Sales &amp; Revenue Performance</td><td>The single most important revenue KPI in the whole project.</td></tr>
+<tr><td><strong>Total Quantity Sold</strong></td><td>Sales &amp; Revenue Performance</td><td>A volume KPI distinct from revenue, useful because a high-volume, low-cost medication and a low-volume, high-cost medication can generate similar revenue but represent very different operational realities.</td></tr>
+<tr><td><strong>Gross Margin NGN</strong></td><td>Sales &amp; Revenue Performance</td><td>Revenue alone does not tell a pharmacy business whether it is actually profitable on a given medication or branch; this measure introduces true row-by-row profitability.</td></tr>
+<tr><td><strong>Gross Margin %</strong></td><td>Sales &amp; Revenue Performance</td><td>The standard way to communicate profitability so it is comparable across a small branch and a large one.</td></tr>
+<tr><td><strong>Prescription Sales %</strong></td><td>Sales &amp; Revenue Performance</td><td>A useful regulatory and business-mix indicator: a pharmacy business heavily skewed toward prescription sales has a different risk and staffing profile than one skewed toward OTC retail.</td></tr>
+<tr><td><strong>Total Stock Transferred</strong></td><td>Inventory &amp; Loss Management</td><td>The base activity KPI for the inter-branch redistribution side of the supply chain.</td></tr>
+<tr><td><strong>Stock Received via Transfer</strong></td><td>Inventory &amp; Loss Management</td><td>This measure is the clearest possible demonstration of why role-playing dimensions and USERELATIONSHIP matter: placed in a table with BranchName on rows, Total Stock Transferred shows what a branch sent out, while this measure shows what the same branch received in.</td></tr>
+<tr><td><strong>Total Loss Value</strong></td><td>Inventory &amp; Loss Management</td><td>A core shrinkage/wastage KPI. Using cost rather than selling price is deliberate, since a written-off unit was never sold and therefore never generated the margin embedded in the selling price.</td></tr>
+<tr><td><strong>Expired Stock Loss %</strong></td><td>Inventory &amp; Loss Management</td><td>Expiry is usually the single most controllable source of pharmacy shrinkage, since it is a direct function of ordering too much stock relative to sell-through speed; this measure isolates that specific driver.</td></tr>
+<tr><td><strong>Purchase Order Growth % (MoM)</strong></td><td>Executive Overview</td><td>Teaches the VAR/RETURN pattern for readable DAX and introduces time intelligence functions dependent on a properly configured date table, mirroring the equivalent admissions-growth measure from the hospital analytics project but applied to procurement spend.</td></tr>
+<tr><td><strong>Below Reorder Level Flag</strong></td><td>Procurement &amp; Supplier Performance</td><td>A simplified illustrative reorder-alert measure. Note this dataset does not model live stock-on-hand, so this measure compares period ordering volume against the reorder threshold as a teaching proxy, not as a substitute for a true point-in-time inventory balance, which is explicitly called out as a discussion point in the Solutions file.</td></tr>
+</table>
+</section>
+<section id='dashboards'><h2 class='section-title'>5. Dashboards To Be Built</h2>
+<div class='card'><p>Build five report pages with the exact titles below. For each chart, the required chart type and the fields to place on it are given - your task is to build it, format it, and confirm it renders with no blank or error states.</p></div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Page 1 - Executive Overview</h3><p>A single-screen summary for leadership: overall procurement and sales activity, growth, and profitability at a glance.</p>
+<table><tr><th style='width:22%'>Visual</th><th style='width:18%'>Chart Type</th><th>Fields</th></tr>
+<tr><td><strong>KPI Card Row</strong></td><td>Card visuals (x5)</td><td>Total Purchase Order Value, Total Sales Revenue, Gross Margin %, Fill Rate %, Total Loss Value</td></tr>
+<tr><td><strong>Procurement vs Sales Trend</strong></td><td>Line chart (combo, with Purchase Order Growth % MoM as a secondary line)</td><td>Axis: Dim_Date[MonthName] (sorted by MonthNumber); Values: Total Purchase Order Value, Total Sales Revenue</td></tr>
+<tr><td><strong>Order Status Split</strong></td><td>Donut chart</td><td>Legend: Fact_PurchaseOrders[OrderStatus]; Values: Total Purchase Orders</td></tr>
+<tr><td><strong>Revenue by Region</strong></td><td>Clustered bar chart</td><td>Axis: Dim_Branches[Region]; Values: Total Sales Revenue</td></tr>
+<tr><td><strong>Top 5 Medications by Revenue</strong></td><td>Bar chart</td><td>Axis: Dim_Medications[MedicationName]; Values: Total Sales Revenue</td></tr>
+</table></div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Page 2 - Procurement &amp; Supplier Performance</h3><p>The procurement team&#x27;s working view: which suppliers are reliable, where spend is concentrated, and how well orders are being fulfilled.</p>
+<table><tr><th style='width:22%'>Visual</th><th style='width:18%'>Chart Type</th><th>Fields</th></tr>
+<tr><td><strong>Total Spend by Supplier</strong></td><td>Bar chart</td><td>Axis: Dim_Suppliers[SupplierName]; Values: Total Purchase Order Value</td></tr>
+<tr><td><strong>Supplier Scorecard</strong></td><td>Table visual</td><td>Columns: SupplierName, Rating, Average Supplier Lead Time (Days), Fill Rate %, On-Time Delivery %, Total Purchase Order Value</td></tr>
+<tr><td><strong>Monthly Procurement Spend</strong></td><td>Column chart</td><td>Axis: Dim_Date[MonthName] (sorted by MonthNumber); Values: Total Purchase Order Value</td></tr>
+<tr><td><strong>Payment Status Split</strong></td><td>Donut chart</td><td>Legend: Fact_PurchaseOrders[PaymentStatus]; Values: Total Purchase Order Value</td></tr>
+<tr><td><strong>On-Time Delivery Gauge</strong></td><td>Gauge visual</td><td>Value: On-Time Delivery %</td></tr>
+</table></div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Page 3 - Inventory &amp; Loss Management</h3><p>The operations view: how stock moves between branches, and where and why stock is being lost to expiry, damage or recalls.</p>
+<table><tr><th style='width:22%'>Visual</th><th style='width:18%'>Chart Type</th><th>Fields</th></tr>
+<tr><td><strong>Stock Sent vs Received by Branch</strong></td><td>Matrix visual</td><td>Rows: Dim_Branches[BranchName]; Values: Total Stock Transferred, Stock Received via Transfer</td></tr>
+<tr><td><strong>Returns by Reason</strong></td><td>Bar chart</td><td>Axis: Fact_Returns[ReturnReason]; Values: Total Loss Value</td></tr>
+<tr><td><strong>Loss KPI Cards</strong></td><td>Card visuals (x2)</td><td>Total Loss Value, Expired Stock Loss %</td></tr>
+<tr><td><strong>Transfer Reason Breakdown</strong></td><td>Donut chart</td><td>Legend: Fact_StockTransfers[TransferReason]; Values: Total Stock Transferred</td></tr>
+<tr><td><strong>Returns Trend by Month</strong></td><td>Line chart</td><td>Axis: Dim_Date[MonthName] (sorted by MonthNumber); Values: Total Loss Value</td></tr>
+</table></div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Page 4 - Sales &amp; Revenue Performance</h3><p>The commercial view: what is selling, how profitable it is, and how customers are paying.</p>
+<table><tr><th style='width:22%'>Visual</th><th style='width:18%'>Chart Type</th><th>Fields</th></tr>
+<tr><td><strong>Sales KPI Row</strong></td><td>Card visuals (x4)</td><td>Total Sales Revenue, Total Quantity Sold, Gross Margin %, Prescription Sales %</td></tr>
+<tr><td><strong>Revenue by Category</strong></td><td>Column chart</td><td>Axis: Dim_Medications[Category]; Values: Total Sales Revenue</td></tr>
+<tr><td><strong>Margin % by Category</strong></td><td>Bar chart</td><td>Axis: Dim_Medications[Category]; Values: Gross Margin %</td></tr>
+<tr><td><strong>Payment Method Split</strong></td><td>Donut chart</td><td>Legend: Fact_Sales[PaymentMethod]; Values: Total Sales Revenue</td></tr>
+<tr><td><strong>Top 10 Branches by Revenue</strong></td><td>Bar chart</td><td>Axis: Dim_Branches[BranchName]; Values: Total Sales Revenue</td></tr>
+</table></div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Page 5 - Branch &amp; Employee Performance</h3><p>The HR and branch-management view: workload and revenue distribution across branches and dispensing staff.</p>
+<table><tr><th style='width:22%'>Visual</th><th style='width:18%'>Chart Type</th><th>Fields</th></tr>
+<tr><td><strong>Revenue by Branch Type</strong></td><td>Column chart</td><td>Axis: Dim_Branches[BranchType]; Values: Total Sales Revenue</td></tr>
+<tr><td><strong>Top 10 Dispensing Staff</strong></td><td>Bar chart</td><td>Axis: Dim_Employees Full Name (calculated column); Values: Total Sales Revenue</td></tr>
+<tr><td><strong>Branch x Role Headcount Matrix</strong></td><td>Matrix visual</td><td>Rows: Dim_Branches[BranchName]; Columns: Dim_Employees[Role]; Values: Count of EmployeeID</td></tr>
+<tr><td><strong>Experience vs Revenue Handled</strong></td><td>Scatter chart</td><td>X-axis: Dim_Employees[YearsOfExperience]; Y-axis: Total Sales Revenue; Details: EmployeeID</td></tr>
+<tr><td><strong>Top Revenue-Generating Branch</strong></td><td>Card with Top N filter, or a single-value KPI visual</td><td>Values: Total Sales Revenue, filtered/sorted by branch</td></tr>
+</table></div>
+</section>
+<section id='tasks'><h2 class='section-title'>6. Full Task Checklist</h2>
+<h3 class='sub-title'>Section A - Data Preparation Tasks</h3>
+<div class='task-item'><input type='checkbox'><div>Open Pharmacy_Supply_Chain_Dataset.xlsx and review the Read Me sheet to understand the full 11-table inventory before touching Power BI.</div></div>
+<div class='task-item'><input type='checkbox'><div>In Power BI Desktop, use Get Data &gt; Excel Workbook to import all 11 data tables (Dim_Medications, Dim_Suppliers, Dim_Branches, Dim_Prescribers, Dim_Employees, Dim_Date, Fact_PurchaseOrders, Fact_StockReceipts, Fact_Sales, Fact_StockTransfers, Fact_Returns). Do not import the Read Me sheet.</div></div>
+<div class='task-item'><input type='checkbox'><div>In Power Query Editor, confirm each column has the correct data type: text keys should be Text, every date column (OrderDate, ExpectedDeliveryDate, ReceiptDate, ExpiryDate, SaleDate, TransferDate, ReturnDate, OpeningDate, DateHired, and Date) should be Date, and every NGN currency column should be Whole Number.</div></div>
+<div class='task-item'><input type='checkbox'><div>Rename the query for each table to match the sheet name exactly so relationships and DAX formulas in this project line up with what is documented here.</div></div>
+<div class='task-item'><input type='checkbox'><div>Close and Apply the Power Query changes and confirm the model loads with the row counts stated in the Read Me sheet.</div></div>
+<h3 class='sub-title'>Section B - Data Modelling Tasks (Relationships &amp; Cardinality)</h3>
+<div class='task-item'><input type='checkbox'><div>Switch to Model view and arrange the 11 tables so the 6 dimension tables sit above the 5 fact tables, roughly mirroring a star schema layout.</div></div>
+<div class='task-item'><input type='checkbox'><div>Build all relationships listed in the Relationships section of this document, setting the correct cardinality (One-to-Many in every case) and cross filter direction (Single, unless a task states otherwise).</div></div>
+<div class='task-item'><input type='checkbox'><div>Deliberately leave the Dim_Date to Fact_PurchaseOrders[ExpectedDeliveryDate] relationship INACTIVE, and the Dim_Branches to Fact_StockTransfers[ToBranchID] relationship INACTIVE, since each table can only have one active path to a given fact table.</div></div>
+<div class='task-item'><input type='checkbox'><div>Mark Dim_Date as an official Date Table in Power BI (right click the table &gt; Mark as Date Table), pointing to the Date column, so time intelligence DAX functions work correctly.</div></div>
+<div class='task-item'><input type='checkbox'><div>Set Sort By Column on Dim_Date[MonthName] to Dim_Date[MonthNumber] so month names display in calendar order rather than alphabetical order on every chart axis.</div></div>
+<div class='task-item'><input type='checkbox'><div>Hide technical or non-analytical columns from report view (Phone, Email, ContactPhone, LicenseNumber, all *ID key columns not needed on visuals) to keep the field list clean for report users.</div></div>
+<div class='task-item'><input type='checkbox'><div>Create a Full Name calculated column on Dim_Employees, concatenating FirstName and LastName.</div></div>
+<div class='task-item'><input type='checkbox'><div>Confirm that Fact_StockReceipts[ReceiptDate] is deliberately left without a relationship to Dim_Date, and write one sentence explaining why that is an acceptable modelling decision in this specific case.</div></div>
+<h3 class='sub-title'>Section C - DAX Measure Building Tasks</h3>
+<div class='task-item'><input type='checkbox'><div>Create a dedicated Measures table (a blank table with no columns, used purely to organise measures) and move every measure below into it.</div></div>
+<div class='task-item'><input type='checkbox'><div>Build Total Purchase Orders, Total Purchase Order Value, Total Quantity Ordered, Total Quantity Received and Total Sales Revenue as base aggregation measures first.</div></div>
+<div class='task-item'><input type='checkbox'><div>Build Fill Rate % and Gross Margin % as ratio measures on top of the base measures, using DIVIDE rather than the / operator throughout.</div></div>
+<div class='task-item'><input type='checkbox'><div>Build Gross Margin NGN using SUMX and RELATED, and explain in your own words why a simple SUM cannot calculate row-level profitability the way SUMX can.</div></div>
+<div class='task-item'><input type='checkbox'><div>Build On-Time Delivery % using CALCULATE with USERELATIONSHIP to activate the inactive ExpectedDeliveryDate relationship, and confirm its output differs meaningfully from a naive Fill Rate %-based approximation.</div></div>
+<div class='task-item'><input type='checkbox'><div>Build Total Stock Transferred and Stock Received via Transfer, and confirm the two measures return different numbers for the same branch when placed together in a matrix visual.</div></div>
+<div class='task-item'><input type='checkbox'><div>Build Total Loss Value and Expired Stock Loss %, and identify which single medication category contributes the most expired-stock loss.</div></div>
+<div class='task-item'><input type='checkbox'><div>Build Purchase Order Growth % MoM using the VAR/RETURN pattern with DATEADD, and confirm it returns blank (not an error) for January 2021, the first month with no prior month available.</div></div>
+<div class='task-item'><input type='checkbox'><div>Build Below Reorder Level Flag and apply conditional formatting to it on a medication-level table visual.</div></div>
+<div class='task-item'><input type='checkbox'><div>Apply conditional formatting (font colour or data bars) to Fill Rate %, On-Time Delivery % and Expired Stock Loss % on their respective visuals.</div></div>
+<h3 class='sub-title'>Section D - Dashboard Build Tasks (5 Pages)</h3>
+<div class='task-item'><input type='checkbox'><div>Build Page 1 - Executive Overview exactly as specified in the Dashboard Pages section: 5 KPI cards, a procurement-versus-sales combo chart, an order status donut, a revenue-by-region bar chart, and a top 5 medications bar chart.</div></div>
+<div class='task-item'><input type='checkbox'><div>Build Page 2 - Procurement &amp; Supplier Performance: total spend by supplier, a supplier scorecard table, a monthly procurement spend column chart, a payment status donut, and an on-time delivery gauge.</div></div>
+<div class='task-item'><input type='checkbox'><div>Build Page 3 - Inventory &amp; Loss Management: the stock sent versus received matrix, returns by reason bar chart, loss KPI cards, a transfer reason donut, and a returns trend line chart.</div></div>
+<div class='task-item'><input type='checkbox'><div>Build Page 4 - Sales &amp; Revenue Performance: 4 sales KPI cards, revenue by category column chart, margin % by category bar chart, a payment method donut, and a top 10 branches bar chart.</div></div>
+<div class='task-item'><input type='checkbox'><div>Build Page 5 - Branch &amp; Employee Performance: revenue by branch type column chart, top 10 dispensing staff bar chart, a branch by role headcount matrix, an experience versus revenue scatter chart, and a top revenue branch summary card.</div></div>
+<div class='task-item'><input type='checkbox'><div>Add a Year slicer and a Branch slicer to every page, synced across all 5 pages using the Sync Slicers pane.</div></div>
+<div class='task-item'><input type='checkbox'><div>Add page navigation buttons (or a navigation bar) so a report user can move between all 5 pages without using the page tabs.</div></div>
+<div class='task-item'><input type='checkbox'><div>Test every visual by clicking through each slicer combination and confirm no chart shows a blank or error state, and no card visual reads (Blank).</div></div>
+<div class='task-item'><input type='checkbox'><div>Publish the finished report and write a one-page summary of the three biggest procurement, inventory or sales insights the dashboard reveals.</div></div>
+</section>
+</div>
+<footer>&copy; Prodigy Training Hub - Prepared by Kajola Gbenga, Data Scientist &amp; AI Engineer. For classroom training use.</footer>
+</body></html>

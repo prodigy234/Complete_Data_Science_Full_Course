@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>HSE Power BI Training - Tasks & Planning Guide</title>
+<style>
+:root {
+  --navy: #1F3864;
+  --navy-dark: #14213D;
+  --teal: #0E7C7B;
+  --amber: #E8A33D;
+  --red: #C0392B;
+  --green: #1E8449;
+  --gray-bg: #F4F6F8;
+  --gray-border: #D9DEE4;
+  --text: #24292E;
+}
+* { box-sizing: border-box; }
+body {
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: var(--text);
+  background: var(--gray-bg);
+  line-height: 1.6;
+}
+.wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  background: #ffffff;
+  box-shadow: 0 0 24px rgba(0,0,0,0.08);
+}
+header.cover {
+  background: linear-gradient(135deg, var(--navy) 0%, var(--navy-dark) 100%);
+  color: #fff;
+  padding: 70px 60px 50px 60px;
+  position: relative;
+}
+header.cover .eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 13px;
+  color: var(--amber);
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+header.cover h1 {
+  font-size: 36px;
+  margin: 0 0 10px 0;
+  font-weight: 700;
+}
+header.cover .subtitle {
+  font-size: 17px;
+  color: #CFE0E8;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+header.cover .author-block {
+  border-top: 1px solid rgba(255,255,255,0.25);
+  padding-top: 20px;
+  margin-top: 30px;
+}
+header.cover .author-name {
+  font-size: 18px;
+  font-weight: 700;
+}
+header.cover .author-title {
+  font-size: 14px;
+  color: var(--amber);
+  font-style: italic;
+}
+nav.toc {
+  padding: 40px 60px;
+  background: #fff;
+  border-bottom: 1px solid var(--gray-border);
+}
+nav.toc h2 { color: var(--navy); font-size: 20px; margin-top: 0; }
+nav.toc ol { columns: 2; column-gap: 40px; padding-left: 20px; }
+nav.toc li { margin-bottom: 8px; break-inside: avoid; }
+nav.toc a { color: var(--teal); text-decoration: none; font-size: 14.5px; }
+nav.toc a:hover { text-decoration: underline; }
+
+main { padding: 10px 60px 60px 60px; }
+section { padding-top: 30px; }
+section h2 {
+  color: var(--navy);
+  font-size: 24px;
+  border-bottom: 3px solid var(--teal);
+  padding-bottom: 10px;
+  margin-top: 50px;
+}
+section h3 {
+  color: var(--teal);
+  font-size: 18px;
+  margin-top: 32px;
+  border-left: 4px solid var(--amber);
+  padding-left: 10px;
+}
+section h4 {
+  color: var(--navy-dark);
+  font-size: 15.5px;
+  margin-top: 22px;
+}
+p { margin: 10px 0; font-size: 15px; }
+.callout {
+  background: #EEF6F6;
+  border-left: 4px solid var(--teal);
+  padding: 14px 18px;
+  margin: 18px 0;
+  border-radius: 0 6px 6px 0;
+  font-size: 14.5px;
+}
+.callout.warning { background: #FDF3E9; border-left-color: var(--amber); }
+.callout.danger { background: #FBEBE9; border-left-color: var(--red); }
+.callout strong { color: var(--navy); }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 16px 0 28px 0;
+  font-size: 13.5px;
+}
+table caption {
+  text-align: left;
+  font-weight: 700;
+  color: var(--navy);
+  margin-bottom: 6px;
+  font-size: 15px;
+}
+th {
+  background: var(--navy);
+  color: #fff;
+  text-align: left;
+  padding: 9px 10px;
+  font-size: 13px;
+}
+td {
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--gray-border);
+  vertical-align: top;
+}
+tr:nth-child(even) td { background: #FAFBFC; }
+tr:hover td { background: #F0F7F7; }
+
+.table-tag {
+  display: inline-block;
+  background: var(--teal);
+  color: #fff;
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  margin: 20px 0 6px 0;
+}
+.table-tag.fact { background: var(--navy); }
+
+code, pre code {
+  font-family: "Consolas", "Courier New", monospace;
+}
+pre {
+  background: #1E1E1E;
+  color: #DCDCDC;
+  padding: 16px 18px;
+  border-radius: 8px;
+  overflow-x: auto;
+  font-size: 13.5px;
+  margin: 12px 0 20px 0;
+  line-height: 1.5;
+}
+pre .c { color: #6A9955; }
+code.inline {
+  background: #EDEFF2;
+  padding: 2px 6px;
+  border-radius: 4px;
+  color: #B23A48;
+  font-size: 13px;
+}
+
+.checklist { list-style: none; padding-left: 0; margin: 14px 0; }
+.checklist li {
+  padding: 8px 10px 8px 34px;
+  position: relative;
+  margin-bottom: 6px;
+  background: #fff;
+  border: 1px solid var(--gray-border);
+  border-radius: 6px;
+  font-size: 14.5px;
+}
+.checklist li::before {
+  content: "";
+  position: absolute;
+  left: 10px; top: 10px;
+  width: 15px; height: 15px;
+  border: 2px solid var(--teal);
+  border-radius: 3px;
+}
+.checklist li strong { color: var(--navy); }
+
+.badge {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 10px;
+  color: #fff;
+  margin-left: 8px;
+}
+.badge.group { background: var(--amber); color: #4A3200; }
+.badge.page { background: var(--navy); }
+
+.chart-card {
+  border: 1px solid var(--gray-border);
+  border-radius: 8px;
+  padding: 16px 20px;
+  margin: 14px 0;
+  background: #fff;
+}
+.chart-card h4 { margin-top: 0; color: var(--navy); }
+.chart-card .meta { font-size: 12.5px; color: #6B7885; margin-bottom: 8px; }
+.chart-card .why-note { background: #FFF9EE; border-left: 3px solid var(--amber); padding: 8px 12px; border-radius: 0 5px 5px 0; font-size: 13.5px; }
+
+.dax-card {
+  border: 1px solid var(--gray-border);
+  border-radius: 8px;
+  margin: 20px 0;
+  overflow: hidden;
+}
+.dax-card .dax-header {
+  background: var(--navy);
+  color: #fff;
+  padding: 10px 16px;
+  font-weight: 700;
+  font-size: 14.5px;
+}
+.dax-card .dax-body { padding: 4px 20px 16px 20px; }
+.dax-card .why { background: #FFF9EE; border-left: 3px solid var(--amber); padding: 10px 14px; margin-top: 10px; font-size: 13.8px; border-radius: 0 5px 5px 0;}
+.dax-card .impact { background: #EEF6F6; border-left: 3px solid var(--teal); padding: 10px 14px; margin-top: 10px; font-size: 13.8px; border-radius: 0 5px 5px 0;}
+
+.page-section {
+  border: 2px solid var(--navy);
+  border-radius: 10px;
+  margin: 26px 0;
+  overflow: hidden;
+}
+.page-section .page-title {
+  background: var(--navy);
+  color: #fff;
+  padding: 14px 20px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.page-section .page-purpose {
+  padding: 12px 20px 0 20px;
+  font-style: italic;
+  color: #555;
+}
+.page-body { padding: 6px 20px 18px 20px; }
+
+footer.pagefoot {
+  text-align: center;
+  padding: 30px;
+  color: #93A0AB;
+  font-size: 12.5px;
+  border-top: 1px solid var(--gray-border);
+}
+.tag-row { display:flex; gap:8px; flex-wrap:wrap; margin: 8px 0 18px 0; }
+.pill { background:#fff; border:1px solid var(--gray-border); border-radius: 16px; padding: 4px 12px; font-size: 12.5px; color: var(--navy); }
+
+.two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+@media (max-width: 800px) {
+  .two-col { grid-template-columns: 1fr; }
+  nav.toc ol { columns: 1; }
+}
+
+</style>
+</head>
+<body>
+<div class="wrapper">
+
+<header class="cover">
+  <div class="eyebrow">Niger Delta Petroleum Producing Company (NDPPC) &middot; Power BI Training Program &middot; Document 1 of 2</div>
+  <h1>Health, Safety &amp; Environment (HSE)<br>Power BI Training - Tasks &amp; Planning Guide</h1>
+  <div class="subtitle">Comprehensive column reference, data-cleaning tasks, relationship tasks, DAX measure
+  tasks, and dashboard build tasks for a 5-page HSE Power BI report.</div>
+  <div class="author-block">
+    <div class="author-name">Kajola Gbenga</div>
+    <div class="author-title">Data Scientist &amp; AI Engineer</div>
+  </div>
+</header>
+
+<div class="callout warning" style="margin:20px 60px;"><strong>Fictional company notice:</strong> Niger Delta
+Petroleum Producing Company (NDPPC) is a fictional company invented solely for this training exercise. Every site,
+employee, incident, observation, environmental reading, and training record in this package is synthetic and
+randomly generated for teaching purposes - none of it describes any real company, person, or event.</div>
+
+<nav class="toc">
+<h2>Table of Contents</h2>
+<ol>
+<li><a href="#overview">1. Program Overview &amp; Learning Objectives</a></li>
+<li><a href="#dataset">2. Dataset Structure at a Glance</a></li>
+<li><a href="#dictionary">3. Full Data Dictionary (every column, every table)</a></li>
+<li><a href="#cleaning">4. Tasks - Data Loading &amp; Power Query Cleaning</a></li>
+<li><a href="#relationships">5. Tasks - Data Model, Relationships &amp; Cardinality</a></li>
+<li><a href="#dax">6. Tasks - DAX Measures to Build</a></li>
+<li><a href="#dashboards">7. Tasks - Dashboard Pages to Build</a></li>
+<li><a href="#companion">8. How This Guide Connects to the Solution File</a></li>
+</ol>
+</nav>
+
+<main>
+
+<section id="overview">
+<h2>1. Program Overview &amp; Learning Objectives</h2>
+<p>This document is the first of two companion HTML files built around the <code class="inline">HSE_Training_Dataset.xlsx</code>
+workbook and its accompanying Word document. It is designed as a hands-on workbook: it tells you <em>what</em> needs to be
+done at every stage of a real Power BI project - understanding the data, cleaning it, modeling it, writing the DAX, and
+building the report - without giving away the finished answer. The second file,
+<code class="inline">02_Full_Solution_Walkthrough.html</code>, contains the complete worked solution with every DAX formula,
+every modeling decision explained, and every dashboard build step documented in full.</p>
+<div class="tag-row">
+<span class="pill">7 tables</span><span class="pill">78 columns</span><span class="pill">~12,900 total data rows</span>
+<span class="pill">30+ DAX measures</span><span class="pill">5 dashboard pages</span>
+</div>
+<p>By the end of this training, a student will be able to:</p>
+<ul class="checklist">
+<li>Explain the purpose and data type of every column in a realistic multi-table HSE dataset.</li>
+<li>Import and clean a multi-sheet Excel data source in Power Query.</li>
+<li>Design a star-schema data model and correctly assign cardinality and filter direction to every relationship.</li>
+<li>Explain why a table pair can only have one active relationship, and use USERELATIONSHIP to work around it.</li>
+<li>Write DAX measures spanning basic aggregation, CALCULATE-based filtering, time intelligence, and SWITCH-based
+status logic.</li>
+<li>Design and build a 5-page, KPI-driven Power BI report using industry-standard HSE metrics (LTIFR, TRIR, Severity Rate).</li>
+</ul>
+</section>
+
+<section id="dataset">
+<h2>2. Dataset Structure at a Glance</h2>
+<p>The workbook is a star schema with three dimension tables and four fact tables. Study this shape before opening
+Power BI - you should be able to redraw this diagram from memory before you start building relationships.</p>
+<table>
+<caption>Tables in HSE_Training_Dataset.xlsx</caption>
+<tr><th>Table</th><th>Type</th><th>Row Count</th><th>Purpose</th></tr>
+<tr><td>dim_Date</td><td>Dimension</td><td>731</td><td>Calendar table, 2023-01-01 to 2024-12-31</td></tr>
+<tr><td>dim_Site</td><td>Dimension</td><td>12</td><td>Company operating sites/locations</td></tr>
+<tr><td>dim_Employee</td><td>Dimension</td><td>320</td><td>Employee master data</td></tr>
+<tr><td>fact_Incidents</td><td>Fact</td><td>4,200</td><td>HSE incident log - the core fact table</td></tr>
+<tr><td>fact_Observations</td><td>Fact</td><td>2,600</td><td>Behaviour-based safety (BBS) observations</td></tr>
+<tr><td>fact_Environmental</td><td>Fact</td><td>2,000</td><td>Environmental monitoring readings</td></tr>
+<tr><td>fact_Training</td><td>Fact</td><td>1,800</td><td>Training and certification records</td></tr>
+</table>
+<div class="callout"><strong>Task 0.1</strong> - Before opening Power BI, sketch this star schema on paper: three
+dimension tables in the middle, with arrows to each fact table that uses them. Note that fact_Training will need
+<em>two</em> arrows to dim_Date. Keep this sketch next to you while you build the model in Section 5.</div>
+</section>
+
+<section id="dictionary">
+<h2>3. Full Data Dictionary - Every Column, Every Table</h2>
+<p>Read this section slowly. A genuinely comprehensive understanding of every column - not just its name, but its data
+type, its business meaning, and a realistic example value - is the single biggest predictor of whether the DAX and
+dashboard sections later in this guide will make sense.</p>
+<span class="table-tag ">Dimension Table</span>
+<h3>dim_Date <span style="font-weight:400;color:#6B7885;font-size:14px;">- 731 rows / 2023-01-01 to 2024-12-31</span></h3>
+<p>The calendar backbone of the model. Every fact table joins to it.</p>
+<table><caption>Column-by-column reference</caption><tr><th style="width:16%">Column</th><th style="width:16%">Data Type</th><th style="width:50%">Full Description</th><th style="width:18%">Example</th></tr>
+<tr><td><code class='inline'>DateKey</code></td><td>Integer (YYYYMMDD)</td><td>Surrogate key for the date table, formatted as an 8-digit integer. Used as the join key from every fact table to dim_Date.</td><td>20230115</td></tr>
+<tr><td><code class='inline'>Date</code></td><td>Date</td><td>The actual calendar date in Date format. This is the column marked as the official &#x27;Date Table&#x27; in Power BI.</td><td>2023-01-15</td></tr>
+<tr><td><code class='inline'>Year</code></td><td>Integer</td><td>Calendar year extracted from Date. Used for year-over-year comparisons and year slicers.</td><td>2023</td></tr>
+<tr><td><code class='inline'>Quarter</code></td><td>Text</td><td>Calendar quarter label (Q1-Q4), independent of year.</td><td>Q1</td></tr>
+<tr><td><code class='inline'>YearQuarter</code></td><td>Text</td><td>Concatenation of Year and Quarter for sorting/labeling on axes without ambiguity across years.</td><td>2023-Q1</td></tr>
+<tr><td><code class='inline'>MonthNumber</code></td><td>Integer</td><td>Numeric month (1-12), used to sort MonthName/MonthShort correctly in visuals.</td><td>1</td></tr>
+<tr><td><code class='inline'>MonthName</code></td><td>Text</td><td>Full month name, used as an axis/legend label.</td><td>January</td></tr>
+<tr><td><code class='inline'>MonthShort</code></td><td>Text</td><td>Abbreviated 3-letter month name for compact chart axes.</td><td>Jan</td></tr>
+<tr><td><code class='inline'>YearMonth</code></td><td>Text</td><td>Year-Month text key (YYYY-MM), useful for continuous time-series axes across years.</td><td>2023-01</td></tr>
+<tr><td><code class='inline'>WeekOfYear</code></td><td>Integer</td><td>ISO week number (1-53), used for weekly trend analysis.</td><td>3</td></tr>
+<tr><td><code class='inline'>DayOfWeekName</code></td><td>Text</td><td>Full weekday name, used to analyze incident patterns by day of week.</td><td>Sunday</td></tr>
+<tr><td><code class='inline'>DayOfWeekNumber</code></td><td>Integer</td><td>Numeric weekday (Monday = 1 ... Sunday = 7), used to sort DayOfWeekName correctly.</td><td>7</td></tr>
+<tr><td><code class='inline'>IsWeekend</code></td><td>Boolean (TRUE/FALSE)</td><td>Flags Saturday/Sunday. Useful for a DAX measure comparing weekday vs weekend incident rates.</td><td>TRUE</td></tr>
+</table>
+<span class="table-tag ">Dimension Table</span>
+<h3>dim_Site <span style="font-weight:400;color:#6B7885;font-size:14px;">- 12 rows</span></h3>
+<p>One row per operating site/location.</p>
+<table><caption>Column-by-column reference</caption><tr><th style="width:16%">Column</th><th style="width:16%">Data Type</th><th style="width:50%">Full Description</th><th style="width:18%">Example</th></tr>
+<tr><td><code class='inline'>SiteID</code></td><td>Text (Key)</td><td>Unique identifier for each of the 12 operating sites. Primary key of dim_Site; joined to every fact table.</td><td>S01</td></tr>
+<tr><td><code class='inline'>SiteName</code></td><td>Text</td><td>Full descriptive name of the site.</td><td>NDPPC Bonny Export Terminal</td></tr>
+<tr><td><code class='inline'>Region</code></td><td>Text</td><td>Nigerian state/region in which the site is located, used for geographic (map) visuals.</td><td>Lagos</td></tr>
+<tr><td><code class='inline'>Country</code></td><td>Text</td><td>Country of operation (all sites are in Nigeria in this dataset, included for completeness/scalability).</td><td>Nigeria</td></tr>
+<tr><td><code class='inline'>SiteType</code></td><td>Text</td><td>Category describing the nature of the site&#x27;s operations (Refinery, Warehouse, Office, etc.). Useful for grouping/slicing.</td><td>Refinery</td></tr>
+<tr><td><code class='inline'>SiteManager</code></td><td>Text</td><td>Name of the manager responsible for HSE performance at that site.</td><td>Adaeze Okonkwo</td></tr>
+<tr><td><code class='inline'>YearOpened</code></td><td>Integer</td><td>Year the site began operating; can be used to compute site age.</td><td>2018</td></tr>
+<tr><td><code class='inline'>EmployeeCount</code></td><td>Integer</td><td>Total number of employees assigned to that site (calculated from dim_Employee), used for per-capita safety metrics (e.g., incidents per 100 employees).</td><td>28</td></tr>
+</table>
+<span class="table-tag ">Dimension Table</span>
+<h3>dim_Employee <span style="font-weight:400;color:#6B7885;font-size:14px;">- 320 rows</span></h3>
+<p>One row per employee, linked to the site they are based at.</p>
+<table><caption>Column-by-column reference</caption><tr><th style="width:16%">Column</th><th style="width:16%">Data Type</th><th style="width:50%">Full Description</th><th style="width:18%">Example</th></tr>
+<tr><td><code class='inline'>EmployeeID</code></td><td>Text (Key)</td><td>Unique identifier for each employee. Primary key of dim_Employee; referenced from fact_Incidents, fact_Observations, and fact_Training.</td><td>E0001</td></tr>
+<tr><td><code class='inline'>FullName</code></td><td>Text</td><td>Employee&#x27;s full name.</td><td>Chinedu Okonkwo</td></tr>
+<tr><td><code class='inline'>Gender</code></td><td>Text</td><td>Male/Female, used for demographic-based safety analysis.</td><td>Male</td></tr>
+<tr><td><code class='inline'>DateOfBirth</code></td><td>Date</td><td>Date of birth, used to calculate age (Age is deliberately NOT pre-calculated - students should build it with DAX).</td><td>1988-04-12</td></tr>
+<tr><td><code class='inline'>HireDate</code></td><td>Date</td><td>Date the employee joined the company, used to calculate tenure and analyze whether newer employees have higher incident rates.</td><td>2019-03-01</td></tr>
+<tr><td><code class='inline'>Department</code></td><td>Text</td><td>Functional department the employee belongs to (Operations, Maintenance, HSE, etc.).</td><td>Operations</td></tr>
+<tr><td><code class='inline'>JobTitle</code></td><td>Text</td><td>Specific job title within the department.</td><td>Operations Technician</td></tr>
+<tr><td><code class='inline'>SiteID</code></td><td>Text (Foreign Key)</td><td>Links the employee to the site they are based at (many-to-one to dim_Site).</td><td>S01</td></tr>
+<tr><td><code class='inline'>EmploymentType</code></td><td>Text</td><td>Permanent, Contractor, or Temporary. Used to test whether contractors have different incident rates than permanent staff.</td><td>Permanent</td></tr>
+<tr><td><code class='inline'>SafetyTrainingLevel</code></td><td>Text</td><td>Employee&#x27;s current overall safety training tier (Basic/Intermediate/Advanced), independent of the detailed fact_Training log.</td><td>Intermediate</td></tr>
+<tr><td><code class='inline'>SupervisorName</code></td><td>Text</td><td>Name of the employee&#x27;s direct supervisor.</td><td>Bello A.</td></tr>
+</table>
+<span class="table-tag fact">Fact Table</span>
+<h3>fact_Incidents <span style="font-weight:400;color:#6B7885;font-size:14px;">- 4,200 rows</span></h3>
+<p>The core HSE incident log - the heart of the entire model.</p>
+<table><caption>Column-by-column reference</caption><tr><th style="width:16%">Column</th><th style="width:16%">Data Type</th><th style="width:50%">Full Description</th><th style="width:18%">Example</th></tr>
+<tr><td><code class='inline'>IncidentID</code></td><td>Text (Key)</td><td>Unique identifier for each HSE incident record. Primary key of the fact table.</td><td>INC00001</td></tr>
+<tr><td><code class='inline'>DateKey</code></td><td>Integer (Foreign Key)</td><td>Links the incident to the date it occurred, joined to dim_Date.</td><td>20230115</td></tr>
+<tr><td><code class='inline'>SiteID</code></td><td>Text (Foreign Key)</td><td>The site at which the incident occurred, joined to dim_Site.</td><td>S01</td></tr>
+<tr><td><code class='inline'>Department</code></td><td>Text</td><td>Department of the person/area involved (denormalized copy for quick filtering even when EmployeeID is blank).</td><td>Operations</td></tr>
+<tr><td><code class='inline'>EmployeeID</code></td><td>Text (Foreign Key, nullable)</td><td>The employee involved in the incident, joined to dim_Employee. Blank for incidents with no specific individual involved (e.g., some environmental spills).</td><td>E0102</td></tr>
+<tr><td><code class='inline'>ContractorInvolved</code></td><td>Text (Yes/No)</td><td>Whether a contractor (rather than a permanent staff member) was involved.</td><td>No</td></tr>
+<tr><td><code class='inline'>IncidentType</code></td><td>Text</td><td>The classification of the incident using standard HSE incident pyramid categories (Near Miss, First Aid Case, Medical Treatment Case, Restricted Work Case, Lost Time Injury, Fatality, Property Damage, Environmental Spill, Fire/Explosion).</td><td>Near Miss</td></tr>
+<tr><td><code class='inline'>IncidentCategory</code></td><td>Text</td><td>Broad causal classification (Unsafe Act, Unsafe Condition, Equipment Failure, Process Safety Deviation, Natural Cause).</td><td>Unsafe Act</td></tr>
+<tr><td><code class='inline'>Severity</code></td><td>Text</td><td>Severity rating of the incident (Low, Medium, High, Critical), independent of IncidentType, used for risk-weighted analysis.</td><td>Medium</td></tr>
+<tr><td><code class='inline'>BodyPartAffected</code></td><td>Text</td><td>Body part injured, where applicable (&#x27;Not Applicable&#x27; for property/environmental incidents).</td><td>Hand/Fingers</td></tr>
+<tr><td><code class='inline'>RootCause</code></td><td>Text</td><td>The underlying root cause identified during investigation.</td><td>Inadequate Training</td></tr>
+<tr><td><code class='inline'>ImmediateCause</code></td><td>Text</td><td>The direct mechanism of the incident (Slip/Trip/Fall, Struck By Object, etc.).</td><td>Slip/Trip/Fall</td></tr>
+<tr><td><code class='inline'>DaysLost</code></td><td>Integer</td><td>Number of workdays lost due to the incident (0 for incidents with no lost time).</td><td>5</td></tr>
+<tr><td><code class='inline'>InvestigationStatus</code></td><td>Text</td><td>Current status of the incident investigation (Open, In Progress, Closed).</td><td>Closed</td></tr>
+<tr><td><code class='inline'>CorrectiveActionStatus</code></td><td>Text</td><td>Status of the corrective/preventive action raised from the incident (Not Started, In Progress, Completed, Overdue).</td><td>Completed</td></tr>
+<tr><td><code class='inline'>EstimatedCostUSD</code></td><td>Decimal</td><td>Estimated financial cost of the incident in USD (medical, downtime, repair, etc.).</td><td>2450.75</td></tr>
+<tr><td><code class='inline'>ShiftType</code></td><td>Text</td><td>Shift during which the incident occurred (Day, Night, Rotating).</td><td>Night</td></tr>
+<tr><td><code class='inline'>WeatherCondition</code></td><td>Text</td><td>Weather condition at the time of the incident, relevant for outdoor/offshore sites.</td><td>Rain</td></tr>
+<tr><td><code class='inline'>ReportedBy</code></td><td>Text</td><td>Role of the person who reported the incident.</td><td>Shift Supervisor</td></tr>
+<tr><td><code class='inline'>DateClosed</code></td><td>Date (nullable)</td><td>Date the investigation was formally closed; blank if still open. Used to calculate investigation closure time.</td><td>2023-02-01</td></tr>
+</table>
+<span class="table-tag fact">Fact Table</span>
+<h3>fact_Observations <span style="font-weight:400;color:#6B7885;font-size:14px;">- 2,600 rows</span></h3>
+<p>Behaviour-based safety (BBS) field observations.</p>
+<table><caption>Column-by-column reference</caption><tr><th style="width:16%">Column</th><th style="width:16%">Data Type</th><th style="width:50%">Full Description</th><th style="width:18%">Example</th></tr>
+<tr><td><code class='inline'>ObservationID</code></td><td>Text (Key)</td><td>Unique identifier for each safety observation (behaviour-based safety / BBS) record.</td><td>OBS00001</td></tr>
+<tr><td><code class='inline'>DateKey</code></td><td>Integer (Foreign Key)</td><td>Date the observation was conducted, joined to dim_Date.</td><td>20230201</td></tr>
+<tr><td><code class='inline'>SiteID</code></td><td>Text (Foreign Key)</td><td>Site where the observation took place, joined to dim_Site.</td><td>S02</td></tr>
+<tr><td><code class='inline'>ObserverEmployeeID</code></td><td>Text (Foreign Key)</td><td>The employee (usually HSE staff) who conducted the observation, joined to dim_Employee.</td><td>E0045</td></tr>
+<tr><td><code class='inline'>ObservationType</code></td><td>Text</td><td>Whether the observed behaviour was Safe Behavior or At-Risk Behavior.</td><td>At-Risk Behavior</td></tr>
+<tr><td><code class='inline'>Category</code></td><td>Text</td><td>The safety topic being observed (PPE Usage, Housekeeping, Tool &amp; Equipment Use, etc.).</td><td>PPE Usage</td></tr>
+<tr><td><code class='inline'>ActionTaken</code></td><td>Text</td><td>Action taken as a result of the observation.</td><td>Immediate Correction</td></tr>
+<tr><td><code class='inline'>RiskRating</code></td><td>Text</td><td>Risk level assigned to an at-risk observation (Low, Medium, High); Low by default for safe behaviors.</td><td>Medium</td></tr>
+<tr><td><code class='inline'>Score</code></td><td>Integer (1-10)</td><td>A numeric safety score assigned to the observation, higher is better; used to compute average safety-behavior score trends.</td><td>8</td></tr>
+</table>
+<span class="table-tag fact">Fact Table</span>
+<h3>fact_Environmental <span style="font-weight:400;color:#6B7885;font-size:14px;">- 2,000 rows</span></h3>
+<p>Environmental monitoring readings against compliance limits.</p>
+<table><caption>Column-by-column reference</caption><tr><th style="width:16%">Column</th><th style="width:16%">Data Type</th><th style="width:50%">Full Description</th><th style="width:18%">Example</th></tr>
+<tr><td><code class='inline'>MonitoringID</code></td><td>Text (Key)</td><td>Unique identifier for each environmental monitoring reading.</td><td>ENV00001</td></tr>
+<tr><td><code class='inline'>DateKey</code></td><td>Integer (Foreign Key)</td><td>Date of the reading, joined to dim_Date.</td><td>20230110</td></tr>
+<tr><td><code class='inline'>SiteID</code></td><td>Text (Foreign Key)</td><td>Site where the reading was taken, joined to dim_Site.</td><td>S03</td></tr>
+<tr><td><code class='inline'>ParameterType</code></td><td>Text</td><td>The environmental parameter measured (CO2 Emissions, Water Consumption, Waste Generated, Energy Consumption, Effluent Discharge, Noise Level).</td><td>CO2 Emissions</td></tr>
+<tr><td><code class='inline'>Value</code></td><td>Decimal</td><td>The measured value of the parameter, in the stated Unit.</td><td>612.4</td></tr>
+<tr><td><code class='inline'>Unit</code></td><td>Text</td><td>Unit of measurement for Value (Metric Tons, Cubic Meters, MWh, dB(A)).</td><td>Metric Tons</td></tr>
+<tr><td><code class='inline'>ComplianceLimit</code></td><td>Decimal</td><td>The regulatory/internal limit for that parameter, used to calculate variance-to-limit.</td><td>500</td></tr>
+<tr><td><code class='inline'>ComplianceStatus</code></td><td>Text</td><td>Whether the reading was Compliant, Non-Compliant, or Under Review relative to ComplianceLimit.</td><td>Non-Compliant</td></tr>
+</table>
+<span class="table-tag fact">Fact Table</span>
+<h3>fact_Training <span style="font-weight:400;color:#6B7885;font-size:14px;">- 1,800 rows</span></h3>
+<p>Training delivery and certification records.</p>
+<table><caption>Column-by-column reference</caption><tr><th style="width:16%">Column</th><th style="width:16%">Data Type</th><th style="width:50%">Full Description</th><th style="width:18%">Example</th></tr>
+<tr><td><code class='inline'>TrainingID</code></td><td>Text (Key)</td><td>Unique identifier for each training/certification record.</td><td>TRN00001</td></tr>
+<tr><td><code class='inline'>EmployeeID</code></td><td>Text (Foreign Key)</td><td>The employee who attended the training, joined to dim_Employee.</td><td>E0010</td></tr>
+<tr><td><code class='inline'>DateKey</code></td><td>Integer (Foreign Key)</td><td>Date the training was delivered, joined to dim_Date.</td><td>20230305</td></tr>
+<tr><td><code class='inline'>TrainingCourse</code></td><td>Text</td><td>Name of the HSE training course delivered.</td><td>Working at Height</td></tr>
+<tr><td><code class='inline'>TrainerName</code></td><td>Text</td><td>Name of the facilitator who delivered the training.</td><td>Engr. A. Yusuf</td></tr>
+<tr><td><code class='inline'>Score</code></td><td>Integer (0-100)</td><td>Assessment score achieved by the employee.</td><td>82</td></tr>
+<tr><td><code class='inline'>ResultStatus</code></td><td>Text</td><td>Pass/Fail outcome, derived from Score (Pass if Score &gt;= 60).</td><td>Pass</td></tr>
+<tr><td><code class='inline'>ExpiryDateKey</code></td><td>Integer (Foreign Key, nullable)</td><td>Date key on which the certification expires (one year after training), joined to dim_Date for expiry-tracking visuals.</td><td>20240305</td></tr>
+<tr><td><code class='inline'>CertificationStatus</code></td><td>Text</td><td>Current certification status relative to today&#x27;s date context (Valid, Expiring Soon, Expired).</td><td>Valid</td></tr>
+</table>
+
+</section>
+
+<section id="cleaning">
+<h2>4. Tasks - Data Loading &amp; Power Query Cleaning</h2>
+
+<div class="callout"><strong>Goal of this section:</strong> before anything is modeled or charted, every one of the seven
+tables must be inspected and cleaned in Power Query. Work through the checklist below table by table. Do not skip a table
+just because it "looks" clean in the preview grid - always check data types explicitly.</div>
+
+<h3>Task Set 1 - Import</h3>
+<ul class="checklist">
+<li><strong>Task 1.1</strong> - Connect to <code class="inline">HSE_Training_Dataset.xlsx</code> using Get Data &gt; Excel Workbook.</li>
+<li><strong>Task 1.2</strong> - In the Navigator, select only the seven data tables (dim_Date, dim_Site, dim_Employee,
+fact_Incidents, fact_Observations, fact_Environmental, fact_Training). Leave README, Data_Dictionary and Model_Map unchecked.</li>
+<li><strong>Task 1.3</strong> - Click "Transform Data", not "Load", so you can inspect every table before it enters the model.</li>
+</ul>
+
+<h3>Task Set 2 - dim_Date</h3>
+<ul class="checklist">
+<li><strong>Task 2.1</strong> - Verify the <code class="inline">Date</code> column type is Date, with no hidden time component.</li>
+<li><strong>Task 2.2</strong> - Verify <code class="inline">IsWeekend</code> imported as True/False (Boolean), not text.</li>
+<li><strong>Task 2.3</strong> - Verify <code class="inline">DateKey</code> is Whole Number.</li>
+</ul>
+
+<h3>Task Set 3 - dim_Site</h3>
+<ul class="checklist">
+<li><strong>Task 3.1</strong> - Trim and Clean every text column to remove hidden whitespace.</li>
+<li><strong>Task 3.2</strong> - Confirm <code class="inline">EmployeeCount</code> and <code class="inline">YearOpened</code> are Whole Number.</li>
+</ul>
+
+<h3>Task Set 4 - dim_Employee</h3>
+<ul class="checklist">
+<li><strong>Task 4.1</strong> - Confirm <code class="inline">DateOfBirth</code> and <code class="inline">HireDate</code> are Date type.</li>
+<li><strong>Task 4.2</strong> - Decide (and justify in your own notes) why <em>Age</em> should be built as a DAX measure
+rather than a static Power Query column. Do not build the Age column in Power Query - this is intentional.</li>
+</ul>
+
+<h3>Task Set 5 - fact_Incidents</h3>
+<ul class="checklist">
+<li><strong>Task 5.1</strong> - Trim <code class="inline">DateKey</code> and <code class="inline">SiteID</code>.</li>
+<li><strong>Task 5.2</strong> - Confirm <code class="inline">EstimatedCostUSD</code> is Decimal Number.</li>
+<li><strong>Task 5.3</strong> - Confirm <code class="inline">DateClosed</code> is Date type and that empty values are true
+nulls, not the text "None".</li>
+<li><strong>Task 5.4</strong> - Confirm <code class="inline">DaysLost</code> is Whole Number.</li>
+</ul>
+
+<h3>Task Set 6 - fact_Observations, fact_Environmental, fact_Training</h3>
+<ul class="checklist">
+<li><strong>Task 6.1</strong> - Confirm <code class="inline">Score</code> is Whole Number in both fact_Observations and fact_Training.</li>
+<li><strong>Task 6.2</strong> - Confirm <code class="inline">Value</code> and <code class="inline">ComplianceLimit</code> in
+fact_Environmental are Decimal Number.</li>
+<li><strong>Task 6.3</strong> - Confirm <code class="inline">ExpiryDateKey</code> in fact_Training is Whole Number, and that
+blank expiries import as null rather than 0.</li>
+<li><strong>Task 6.4</strong> - Trim all ID/key columns across all three tables.</li>
+</ul>
+
+<h3>Task Set 7 - Finish</h3>
+<ul class="checklist">
+<li><strong>Task 7.1</strong> - Click Close &amp; Apply once every table passes its checklist above.</li>
+</ul>
+
+</section>
+
+<section id="relationships">
+<h2>5. Tasks - Data Model, Relationships &amp; Cardinality</h2>
+
+<div class="callout"><strong>Goal of this section:</strong> build a working star schema. For every relationship listed
+below, you must decide the cardinality, the cross-filter direction, and whether it should be Active or Inactive -
+then justify your choice in your own words before checking the solution file.</div>
+
+<h3>Task Set 8 - Mark the date table</h3>
+<ul class="checklist">
+<li><strong>Task 8.1</strong> - Mark dim_Date as the official Date Table using the Date column. Explain why this step
+is required before using any time-intelligence DAX function.</li>
+</ul>
+
+<h3>Task Set 9 - Build every relationship</h3>
+<table>
+<caption>Relationships to build (fill in the blank columns yourself before checking the solution)</caption>
+<tr><th>From (fact)</th><th>Key</th><th>To (dimension)</th><th>Key</th><th>Your Cardinality</th><th>Your Direction</th><th>Active?</th></tr>
+<tr><td>fact_Incidents</td><td>DateKey</td><td>dim_Date</td><td>DateKey</td><td>?</td><td>?</td><td>?</td></tr>
+<tr><td>fact_Incidents</td><td>SiteID</td><td>dim_Site</td><td>SiteID</td><td>?</td><td>?</td><td>?</td></tr>
+<tr><td>fact_Incidents</td><td>EmployeeID</td><td>dim_Employee</td><td>EmployeeID</td><td>?</td><td>?</td><td>?</td></tr>
+<tr><td>fact_Observations</td><td>DateKey</td><td>dim_Date</td><td>DateKey</td><td>?</td><td>?</td><td>?</td></tr>
+<tr><td>fact_Observations</td><td>SiteID</td><td>dim_Site</td><td>SiteID</td><td>?</td><td>?</td><td>?</td></tr>
+<tr><td>fact_Observations</td><td>ObserverEmployeeID</td><td>dim_Employee</td><td>EmployeeID</td><td>?</td><td>?</td><td>?</td></tr>
+<tr><td>fact_Environmental</td><td>DateKey</td><td>dim_Date</td><td>DateKey</td><td>?</td><td>?</td><td>?</td></tr>
+<tr><td>fact_Environmental</td><td>SiteID</td><td>dim_Site</td><td>SiteID</td><td>?</td><td>?</td><td>?</td></tr>
+<tr><td>fact_Training</td><td>DateKey</td><td>dim_Date</td><td>DateKey</td><td>?</td><td>?</td><td>?</td></tr>
+<tr><td>fact_Training</td><td>ExpiryDateKey</td><td>dim_Date</td><td>DateKey</td><td>?</td><td>?</td><td>?</td></tr>
+<tr><td>fact_Training</td><td>EmployeeID</td><td>dim_Employee</td><td>EmployeeID</td><td>?</td><td>?</td><td>?</td></tr>
+<tr><td>dim_Employee</td><td>SiteID</td><td>dim_Site</td><td>SiteID</td><td>?</td><td>?</td><td>?</td></tr>
+</table>
+
+<h3>Task Set 10 - The tricky one</h3>
+<ul class="checklist">
+<li><strong>Task 10.1</strong> - fact_Training has two possible relationships to dim_Date. Explain in your own words
+why Power BI will not allow both to be Active at the same time.</li>
+<li><strong>Task 10.2</strong> - Identify which DAX function you will need to use to temporarily reactivate the inactive
+relationship inside a specific measure.</li>
+</ul>
+
+<h3>Task Set 11 - Validate</h3>
+<ul class="checklist">
+<li><strong>Task 11.1</strong> - After building all relationships, open Model view and confirm there are no
+"many-to-many" (*...*) relationships anywhere - if you see one, find and fix the duplicate key.</li>
+<li><strong>Task 11.2</strong> - Build a simple test table visual (Site x Total rows of fact_Incidents) to confirm
+filtering flows correctly from dim_Site down to fact_Incidents.</li>
+</ul>
+
+</section>
+
+<section id="dax">
+<h2>6. Tasks - DAX Measures to Build</h2>
+<div class="callout warning"><strong>Instructions:</strong> for each measure below, write the DAX formula yourself in a blank measure, name it exactly as shown, and place it in a new table called <code class="inline">_Measures</code>. Do not look at the solution file until you have made a genuine attempt. Think about which DAX function family (basic aggregation, CALCULATE + filter, time intelligence, or SWITCH) each one probably needs before you start typing.</div>
+<h3>Group 1 - Core Counting Measures</h3>
+<ul class="checklist">
+<li><strong>Total Incidents</strong> - How many HSE incidents have been logged in the current filter context?</li>
+<li><strong>Total Near Misses</strong> - How many of those incidents were Near Misses specifically?</li>
+<li><strong>Total LTI</strong> - How many were Lost Time Injuries?</li>
+<li><strong>Total Fatalities</strong> - How many were Fatalities?</li>
+<li><strong>Total Days Lost</strong> - How many total workdays were lost across all incidents?</li>
+<li><strong>Total Incident Cost</strong> - What is the total estimated financial cost of all incidents?</li>
+<li><strong>Total Observations / Safe Observations / At-Risk Observations</strong> - How many safety observations were logged, and how many were safe vs at-risk?</li>
+<li><strong>Total Env Readings / Compliant Readings / Non-Compliant Readings</strong> - How many environmental readings were taken, and how many were compliant vs not?</li>
+<li><strong>Total Trainings / Passed Trainings / Failed Trainings</strong> - How many training sessions were delivered, and what were the pass/fail counts?</li>
+</ul>
+<h3>Group 2 - Time Intelligence Measures</h3>
+<ul class="checklist">
+<li><strong>Incidents PY</strong> - How many incidents happened in the same period last year?</li>
+<li><strong>Incidents YoY % Change</strong> - Are incidents trending up or down compared to last year, in percentage terms?</li>
+<li><strong>Incidents YTD</strong> - What is the running year-to-date total of incidents?</li>
+<li><strong>Incidents 3M Avg</strong> - What does the smoothed 3-month rolling average of incidents look like?</li>
+</ul>
+<h3>Group 3 - Rate and Ratio Measures</h3>
+<ul class="checklist">
+<li><strong>Active Employees</strong> - How many unique employees exist in the current filter context?</li>
+<li><strong>Total Hours Worked (estimated)</strong> - Approximately how many labor hours were worked in the current filter context?</li>
+<li><strong>LTIFR</strong> - What is the Lost Time Injury Frequency Rate, normalized per 200,000 hours worked?</li>
+<li><strong>Total Recordable Incidents / TRIR</strong> - What is the Total Recordable Incident Rate, per 200,000 hours worked?</li>
+<li><strong>Severity Rate</strong> - How severe (in days lost) are incidents once normalized for exposure hours?</li>
+<li><strong>Incidents per 100 Employees</strong> - What is a simpler, non-hours-based way to compare incident rates across sites of different sizes?</li>
+<li><strong>Average Cost per Incident</strong> - What is the average financial cost per incident?</li>
+<li><strong>Near Miss to LTI Ratio</strong> - How many near misses are reported for every one lost-time injury?</li>
+</ul>
+<h3>Group 4 - Safety Behaviour (BBS) Measures</h3>
+<ul class="checklist">
+<li><strong>Safe Behavior %</strong> - What percentage of all logged observations were safe behavior?</li>
+<li><strong>Average Safety Score</strong> - What is the average observation score (1-10)?</li>
+<li><strong>High Risk Observations</strong> - How many at-risk observations were rated High risk specifically?</li>
+</ul>
+<h3>Group 5 - Environmental Measures</h3>
+<ul class="checklist">
+<li><strong>Environmental Compliance %</strong> - What percentage of environmental readings were within their compliance limit?</li>
+<li><strong>Avg Environmental Value</strong> - What is the average reading value, broken out by parameter type?</li>
+<li><strong>Variance to Limit %</strong> - How far over or under the compliance limit is the average reading running?</li>
+</ul>
+<h3>Group 6 - Training Measures</h3>
+<ul class="checklist">
+<li><strong>Training Pass Rate %</strong> - What percentage of training assessments were passed?</li>
+<li><strong>Average Training Score</strong> - What is the average assessment score across all training records?</li>
+<li><strong>Certifications Expiring Soon</strong> - How many certifications are flagged as Expiring Soon?</li>
+<li><strong>Certifications Expiring Next 30 Days</strong> - How many certifications will expire in the next 30 calendar days from today - using the INACTIVE expiry-date relationship?</li>
+</ul>
+<h3>Group 7 - KPI Status Helper Measures</h3>
+<ul class="checklist">
+<li><strong>LTIFR Status</strong> - Translate the numeric LTIFR into a plain-language traffic-light status (On Target / Watch / Off Target).</li>
+<li><strong>Environmental Compliance Status</strong> - Translate the numeric compliance percentage into a plain-language status (Compliant / Marginal / Non-Compliant).</li>
+</ul>
+
+</section>
+
+<section id="dashboards">
+<h2>7. Tasks - Dashboard Pages to Build</h2>
+
+<div class="callout"><strong>Goal of this section:</strong> build five report pages. For each page, the title is fixed
+(use it exactly), but you must choose the visual type, fields, and layout yourself using the chart list as a brief -
+then compare your build against the fully-explained version in the solution file.</div>
+
+<div class="page-section">
+<div class="page-title">Dashboard Page 1 - "HSE Executive Overview"</div>
+<div class="page-purpose">A single-glance summary for senior management.</div>
+<div class="page-body">
+<ul class="checklist">
+<li>Slicers: Year, Site, Department</li>
+<li>KPI cards: Total Incidents (with YoY % change), LTIFR, TRIR, Total Days Lost, Environmental Compliance %, Training Pass Rate</li>
+<li>Chart: Monthly incident trend, current year vs prior year overlay</li>
+<li>Chart: Incidents by Site - raw count vs rate per 100 employees</li>
+<li>Chart: Incidents by Severity (proportion)</li>
+<li>Chart: Geographic distribution of incidents by Region</li>
+</ul>
+</div>
+</div>
+
+<div class="page-section">
+<div class="page-title">Dashboard Page 2 - "Incident Deep Dive"</div>
+<div class="page-purpose">Root-cause and corrective-action analysis for HSE managers.</div>
+<div class="page-body">
+<ul class="checklist">
+<li>Slicers: Year, IncidentType, Severity</li>
+<li>KPI cards: Total Recordable Incidents, Near Miss to LTI Ratio, Average Cost per Incident</li>
+<li>Chart: Incident count by type (pyramid-style ranking)</li>
+<li>Chart: Incident category mix by department (100% stacked)</li>
+<li>Matrix: Root cause by site, with cost</li>
+<li>Chart: Days lost vs cost scatter</li>
+<li>Table: Open investigations and overdue corrective actions</li>
+</ul>
+</div>
+</div>
+
+<div class="page-section">
+<div class="page-title">Dashboard Page 3 - "Safety Behaviour &amp; Leading Indicators (BBS)"</div>
+<div class="page-purpose">Show how proactive behaviour observations connect to lagging incident numbers.</div>
+<div class="page-body">
+<ul class="checklist">
+<li>Slicers: Year, Site, Category</li>
+<li>KPI cards: Total Observations, Safe Behavior %, Average Safety Score</li>
+<li>Chart: Observations by category, split safe vs at-risk</li>
+<li>Chart: Safe vs at-risk trend over time</li>
+<li>Chart: Risk rating split of at-risk observations</li>
+<li>Table: Site ranking by Safe Behavior %, worst first</li>
+</ul>
+</div>
+</div>
+
+<div class="page-section">
+<div class="page-title">Dashboard Page 4 - "Environmental Compliance"</div>
+<div class="page-purpose">Monitor environmental performance against regulatory/internal limits.</div>
+<div class="page-body">
+<ul class="checklist">
+<li>Slicers: Year, ParameterType, Site</li>
+<li>KPI cards: Environmental Compliance %, Non-Compliant Readings, Average CO2 Emissions</li>
+<li>Chart: Average reading by site and parameter</li>
+<li>Chart: Monthly trend vs compliance limit (with reference line)</li>
+<li>Chart: Compliance status split</li>
+<li>Table: Non-compliant readings investigation list</li>
+</ul>
+</div>
+</div>
+
+<div class="page-section">
+<div class="page-title">Dashboard Page 5 - "Training &amp; Competence"</div>
+<div class="page-purpose">Track training delivery, pass rates, and certification currency.</div>
+<div class="page-body">
+<ul class="checklist">
+<li>Slicers: Year, TrainingCourse, Department</li>
+<li>KPI cards: Total Trainings Delivered, Training Pass Rate, Certifications Expiring (Next 30 Days)</li>
+<li>Chart: Training volume by course</li>
+<li>Chart: Monthly pass rate trend</li>
+<li>Chart: Certification status overview</li>
+<li>Table: Employees needing refresher training</li>
+</ul>
+</div>
+</div>
+
+</section>
+
+<section id="companion">
+<h2>8. How This Guide Connects to the Solution File</h2>
+<p>Once you have made a genuine attempt at every task above - the column understanding, the Power Query cleaning, the
+relationships, the DAX measures, and the five dashboard pages - open
+<code class="inline">02_Full_Solution_Walkthrough.html</code>. It walks through the exact same structure, in the exact
+same order, but with every decision fully explained: every DAX formula written out and explained line by line, every
+relationship's cardinality justified, and every chart's design reasoning documented. Comparing your own attempt against
+that file, decision by decision, is where the real learning happens.</p>
+</section>
+
+</main>
+
+<footer class="pagefoot">
+HSE Power BI Training Program &nbsp;&middot;&nbsp; Document 1 of 2: Tasks &amp; Planning Guide<br>
+Prepared by Kajola Gbenga - Data Scientist &amp; AI Engineer
+</footer>
+
+</div>
+</body>
+</html>

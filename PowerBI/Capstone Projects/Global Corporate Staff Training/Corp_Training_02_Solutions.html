@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Global Corporate Staff Training Analytics - Power BI Dashboard Training - Part 2: Solutions</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+:root{
+  --navy:#1F3864; --blue:#2E5395; --light:#EAF0FB; --accent:#1E8449; --gray:#555;
+  --border:#D7DFEE; --code-bg:#0F1E33; --code-fg:#DCE8FF;
+}
+*{box-sizing:border-box;}
+body{font-family:'Segoe UI',Arial,sans-serif;margin:0;background:#F4F7FC;color:#222;line-height:1.55;}
+header.hero{background:linear-gradient(135deg,var(--navy),#1E7145);color:#fff;padding:48px 6vw 34px;}
+header.hero h1{margin:0 0 6px;font-size:2.1rem;}
+header.hero p.sub{margin:0 0 22px;font-size:1.05rem;opacity:.92;}
+.author-box{display:inline-block;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.35);
+  border-radius:8px;padding:10px 18px;font-size:.95rem;}
+.author-box .name{font-weight:700;font-size:1.05rem;}
+.badge{display:inline-block;background:#fff;color:var(--accent);font-weight:700;font-size:.78rem;
+  padding:4px 10px;border-radius:20px;margin-right:8px;margin-bottom:10px;}
+nav.toc{background:#fff;border-bottom:1px solid var(--border);padding:14px 6vw;position:sticky;top:0;z-index:50;
+  box-shadow:0 2px 6px rgba(0,0,0,.05);}
+nav.toc a{color:var(--navy);text-decoration:none;font-weight:600;font-size:.86rem;margin-right:18px;}
+nav.toc a:hover{text-decoration:underline;}
+main{padding:10px 6vw 70px;max-width:1300px;margin:0 auto;}
+section{margin-top:52px;}
+h2.section-title{color:var(--navy);font-size:1.55rem;border-bottom:3px solid var(--accent);padding-bottom:10px;margin-bottom:6px;}
+p.section-intro{color:var(--gray);max-width:900px;margin-bottom:22px;}
+h3.table-title{color:var(--blue);font-size:1.15rem;margin:28px 0 4px;}
+.solution-card{background:#fff;border-left:5px solid var(--accent);border-radius:6px;padding:14px 18px;margin-bottom:14px;box-shadow:0 1px 4px rgba(0,0,0,.06);}
+.solution-card .snum{color:var(--accent);font-weight:700;font-size:.78rem;text-transform:uppercase;letter-spacing:.04em;}
+.solution-card p{margin:6px 0 0;}
+table{width:100%;border-collapse:collapse;background:#fff;box-shadow:0 1px 4px rgba(0,0,0,.06);margin-bottom:8px;}
+th,td{border:1px solid var(--border);padding:9px 12px;text-align:left;font-size:.87rem;vertical-align:top;}
+th{background:var(--navy);color:#fff;font-weight:600;}
+tr:nth-child(even) td{background:var(--light);}
+.group-title{color:var(--navy);font-size:1.3rem;margin:38px 0 16px;padding:9px 14px;background:var(--light);border-left:5px solid var(--accent);border-radius:4px;}
+.measure-card{background:#fff;border:1px solid var(--border);border-radius:8px;padding:18px 22px;margin-bottom:22px;box-shadow:0 1px 5px rgba(0,0,0,.06);}
+.measure-card h4{margin:0 0 10px;color:var(--navy);font-size:1.1rem;}
+pre.dax{background:var(--code-bg);color:var(--code-fg);padding:14px 18px;border-radius:6px;overflow-x:auto;font-size:.85rem;line-height:1.6;font-family:Consolas,'Courier New',monospace;margin:0 0 12px;}
+.explain{background:var(--light);border-radius:6px;padding:10px 16px;margin-bottom:10px;}
+.explain h5{margin:0 0 6px;color:var(--blue);font-size:.85rem;text-transform:uppercase;letter-spacing:.03em;}
+.explain ol{margin:0;padding-left:20px;font-size:.88rem;}
+.explain ol li{margin-bottom:4px;}
+.why-impact{display:flex;gap:16px;flex-wrap:wrap;}
+.why-impact div{flex:1;min-width:260px;font-size:.87rem;background:#FBFCFE;border:1px solid var(--border);border-radius:6px;padding:10px 14px;}
+.why-impact strong{color:var(--navy);}
+.page-card{background:#fff;border:1px solid var(--border);border-radius:8px;padding:20px 24px;margin-bottom:24px;box-shadow:0 1px 5px rgba(0,0,0,.06);}
+.page-card h4{color:var(--navy);margin:0 0 4px;font-size:1.25rem;}
+.page-card .purpose{color:var(--gray);font-style:italic;margin-bottom:14px;}
+.chart-row{border-top:1px solid var(--border);padding:12px 0;}
+.chart-row .ctitle{font-weight:700;color:var(--blue);}
+.chart-row .ctype{display:inline-block;background:var(--accent);color:#fff;font-size:.7rem;padding:2px 8px;border-radius:4px;margin-right:8px;}
+.chart-row .fields{font-size:.86rem;margin:6px 0 4px;}
+.chart-row .why{font-size:.86rem;color:#444;background:var(--light);padding:8px 12px;border-radius:5px;margin-top:6px;}
+.rel-card{background:#fff;border:1px solid var(--border);border-radius:6px;padding:12px 16px;margin-bottom:10px;font-size:.88rem;}
+.rel-card code{background:var(--light);padding:2px 5px;border-radius:3px;}
+footer{background:var(--navy);color:#cdd8ee;text-align:center;padding:26px;font-size:.85rem;}
+.callout{background:#EAFBF1;border-left:5px solid var(--accent);padding:12px 18px;border-radius:6px;margin:18px 0;font-size:.9rem;}
+</style>
+</head>
+<body>
+<header class="hero">
+  <span class="badge">PART 2 OF 2 - SOLUTIONS</span><br>
+  <h1>Global Corporate Staff Training Analytics - Power BI Dashboard Training</h1>
+  <p class="sub">Complete, worked solutions - from loading the clean data through to five finished, fully-functioning dashboard pages.</p>
+  <div class="author-box"><span class="name">Kajola Gbenga</span><br>Data Scientist &amp; AI Engineer</div>
+</header>
+<nav class="toc">
+  <a href="#pq-solutions">1. Loading the data</a>
+  <a href="#rel-solutions">2. Relationships</a>
+  <a href="#dax-solutions">3. DAX measures</a>
+  <a href="#dashboard-solutions">4. Dashboard build</a>
+</nav>
+<main>
+<section id="pq-solutions"><h2 class="section-title">1. Loading the clean data - Power Query solutions</h2>
+<p class="section-intro">Step-by-step solution for loading every one of the nine sheets from <code>Corporate_Staff_Training_PowerBI_Dataset.xlsx</code> and preparing them correctly in the model.</p>
+<div class="callout"><strong>General first step:</strong> Home &gt; Get Data &gt; Excel Workbook &gt; select Corporate_Staff_Training_PowerBI_Dataset.xlsx &gt; in the Navigator, tick all nine data sheets (Dim_Date, Dim_Locations, Dim_Employees, Dim_Trainers, Dim_TrainingPrograms, Fact_Sessions, Fact_Enrollments, Fact_Feedback, Fact_Budget - skip the Read Me sheet) &gt; Transform Data to open Power Query.</div>
+<div class="solution-card"><div class="snum">Solution 1 - Dim_Date</div><p>In Power Query, select Dim_Date, right-click the Date column header &gt; Change Type &gt; Date. Close &amp; Apply, then in Model view select the table, go to the Table Tools ribbon &gt; Mark as Date Table &gt; choose Date as the date column, and confirm the OK prompt.</p></div>
+<div class="solution-card"><div class="snum">Solution 2 - Dim_Locations</div><p>In Power Query, select Dim_Locations and confirm LocationID, City, Country, Region and OfficeType are all typed as Text (the default on import). Close &amp; Apply.</p></div>
+<div class="solution-card"><div class="snum">Solution 3 - Dim_Employees</div><p>In Power Query, set HireDate&#x27;s type to Date via the column header type icon. Do not remove or replace blank ManagerID values - those blanks correctly represent the most senior Executives, who have no manager. Close &amp; Apply.</p></div>
+<div class="solution-card"><div class="snum">Solution 4 - Dim_Trainers</div><p>Confirm TrainerID, TrainerName, TrainerType, Specialization and TrainingTypeFocus are all Text type. Close &amp; Apply.</p></div>
+<div class="solution-card"><div class="snum">Solution 5 - Dim_TrainingPrograms</div><p>Set DurationHours to Decimal Number and CostPerParticipant_USD to Decimal Number via the column type icons. Close &amp; Apply.</p></div>
+<div class="solution-card"><div class="snum">Solution 6 - Fact_Sessions</div><p>Set SessionDate to Date type, Capacity and ActualAttendance to Whole Number, and SessionCostUSD to Decimal Number. Close &amp; Apply.</p></div>
+<div class="solution-card"><div class="snum">Solution 7 - Fact_Enrollments</div><p>Set EnrollmentDate, DueDate, CompletionDate and CertificationExpiryDate all to Date type. Do not error-check or remove blanks in Score (only Compliance quizzes have a score) or CertificationExpiryDate (only completed Compliance enrollments get one) - these blanks are expected and meaningful.</p></div>
+<div class="solution-card"><div class="snum">Solution 8 - Fact_Feedback</div><p>Set SubmittedDate to Date type, and SatisfactionScore, TrainerRating and ContentRelevanceScore to Whole Number type. Close &amp; Apply.</p></div>
+<div class="solution-card"><div class="snum">Solution 9 - Fact_Budget</div><p>Set Month to Date type, and PlannedBudget_USD and ActualSpend_USD to Decimal Number type. Close &amp; Apply, then load all nine queries to the model.</p></div>
+<div class="callout"><strong>Final step:</strong> Click Close &amp; Apply. Confirm in Model view that all nine tables appear with the correct icons (a calendar icon on Dim_Date once marked as a date table) and that row counts match: Dim_Date 1,461 &middot; Dim_Locations 25 &middot; Dim_Employees 180 &middot; Dim_Trainers 42 &middot; Dim_TrainingPrograms 27 &middot; Fact_Sessions 254 &middot; Fact_Enrollments 5,993 &middot; Fact_Feedback 3,755 &middot; Fact_Budget 1,056.</div>
+</section>
+<section id="rel-solutions"><h2 class="section-title">2. Building the data model - relationship solutions</h2>
+<p class="section-intro">Go to Model view and create each relationship below by dragging from the "from" field to the "to" field, or via Manage Relationships &gt; New. Power BI will auto-detect cardinality - always double check it matches the table below before saving.</p>
+<table><tr><th>From (one side)</th><th>To (many side)</th><th>Cardinality</th><th>Cross-filter</th><th>Active</th><th>Why</th></tr>
+<tr><td><code>Dim_Date[Date]</code></td><td><code>Fact_Enrollments[EnrollmentDate]</code></td><td>1:*</td><td>Single</td><td>Active</td><td>Standard active relationship - the default way the date slicer filters enrollments.</td></tr>
+<tr><td><code>Dim_Date[Date]</code></td><td><code>Fact_Enrollments[DueDate]</code></td><td>1:*</td><td>Single</td><td>Inactive</td><td>Inactive - a date table can only have one active relationship per fact table. Activated with USERELATIONSHIP for measures about compliance deadlines, e.g. Trainings Due This Period.</td></tr>
+<tr><td><code>Dim_Date[Date]</code></td><td><code>Fact_Enrollments[CompletionDate]</code></td><td>1:*</td><td>Single</td><td>Inactive</td><td>Inactive for the same reason. Activated with USERELATIONSHIP for measures about when training was actually finished, e.g. Completions This Month.</td></tr>
+<tr><td><code>Dim_Date[Date]</code></td><td><code>Fact_Sessions[SessionDate]</code></td><td>1:*</td><td>Single</td><td>Active</td><td>Active relationship so the date slicer filters delivered sessions directly.</td></tr>
+<tr><td><code>Dim_Date[Date]</code></td><td><code>Fact_Feedback[SubmittedDate]</code></td><td>1:*</td><td>Single</td><td>Active</td><td>Active relationship for feedback trend analysis over time.</td></tr>
+<tr><td><code>Dim_Date[Date]</code></td><td><code>Fact_Budget[Month]</code></td><td>1:*</td><td>Single</td><td>Active</td><td>Fact_Budget[Month] holds the first day of each month, so it lines up exactly with Dim_Date[Date] for those rows.</td></tr>
+<tr><td><code>Dim_Locations[LocationID]</code></td><td><code>Dim_Employees[LocationID]</code></td><td>1:*</td><td>Single</td><td>Active</td><td>Every employee is based at exactly one office.</td></tr>
+<tr><td><code>Dim_Locations[LocationID]</code></td><td><code>Fact_Sessions[LocationID]</code></td><td>1:*</td><td>Single</td><td>Active</td><td>Every session is delivered at exactly one office. No conflict with the Employees relationship above since they are two different tables, so both stay active.</td></tr>
+<tr><td><code>Dim_Employees[EmployeeID]</code></td><td><code>Dim_Employees[ManagerID]</code></td><td>1:*</td><td>Single</td><td>Active</td><td>The self-referencing relationship that builds the org hierarchy: one manager (the &#x27;one&#x27; side, EmployeeID) has many direct reports (the &#x27;many&#x27; side, ManagerID). Powers RELATEDTABLE-based Direct Reports measures.</td></tr>
+<tr><td><code>Dim_Employees[EmployeeID]</code></td><td><code>Fact_Enrollments[EmployeeID]</code></td><td>1:*</td><td>Single</td><td>Active</td><td>Core relationship - every enrollment belongs to exactly one employee.</td></tr>
+<tr><td><code>Dim_Employees[EmployeeID]</code></td><td><code>Fact_Feedback[EmployeeID]</code></td><td>1:*</td><td>Single</td><td>Active</td><td>Core relationship for feedback analysis by employee/department.</td></tr>
+<tr><td><code>Dim_Trainers[TrainerID]</code></td><td><code>Fact_Sessions[TrainerID]</code></td><td>1:*</td><td>Single</td><td>Active</td><td>Every session has exactly one trainer.</td></tr>
+<tr><td><code>Dim_TrainingPrograms[ProgramID]</code></td><td><code>Fact_Sessions[ProgramID]</code></td><td>1:*</td><td>Single</td><td>Active</td><td>Every session delivers exactly one program.</td></tr>
+<tr><td><code>Dim_TrainingPrograms[ProgramID]</code></td><td><code>Fact_Enrollments[ProgramID]</code></td><td>1:*</td><td>Single</td><td>Active</td><td>Lets a program slicer filter enrollments directly, without forcing every visual through Fact_Sessions.</td></tr>
+<tr><td><code>Dim_TrainingPrograms[ProgramID]</code></td><td><code>Fact_Feedback[ProgramID]</code></td><td>1:*</td><td>Single</td><td>Active</td><td>Lets feedback be analysed directly by program without needing to pass through Fact_Enrollments.</td></tr>
+<tr><td><code>Fact_Sessions[SessionID]</code></td><td><code>Fact_Enrollments[SessionID]</code></td><td>1:*</td><td>Single</td><td>Active</td><td>Every enrollment belongs to exactly one delivered session - this is the bridge between the catalogue/session layer and individual participation.</td></tr>
+<tr><td><code>Fact_Enrollments[EnrollmentID]</code></td><td><code>Fact_Feedback[EnrollmentID]</code></td><td>1:1</td><td>Single</td><td>Active</td><td>A genuine one-to-one relationship: at most one feedback response exists per enrollment. Power BI enforces uniqueness on both sides for a 1:1 relationship, unlike the 1:* relationships used everywhere else in this model.</td></tr>
+</table>
+<div class="callout"><strong>Why the two Fact_Enrollments date relationships stay inactive:</strong> Power BI only allows one active (usable-by-default) relationship path between any two tables, because allowing more than one would make a plain filter on Dim_Date ambiguous - the engine would not know which path to propagate through. The relationship on <code>EnrollmentDate</code> is left active since "when someone signed up" is the most common slicing need; <code>DueDate</code> and <code>CompletionDate</code> are created as inactive (Power BI greys them out and draws them as dashed lines) and are switched on only inside specific DAX measures using <code>USERELATIONSHIP()</code>, which activates a named relationship for the duration of a single CALCULATE.</div>
+<div class="callout"><strong>Why the self-referencing Employees relationship is different:</strong> Dim_Employees[EmployeeID] to Dim_Employees[ManagerID] connects the table to itself - the "one" side (a manager's EmployeeID) to the "many" side (that manager's direct reports, via their ManagerID). Because both ends sit in the same table there is no competing relationship to conflict with, so it can stay active by default. It is queried with <code>RELATEDTABLE(Dim_Employees)</code> from a manager's row to retrieve their direct reports.</div>
+</section>
+<section id="dax-solutions"><h2 class="section-title">3. DAX measures - full solutions</h2>
+<p class="section-intro">Every measure below is given in full, with a line-by-line explanation of what each part of the formula does, why that particular DAX pattern was chosen over the alternatives, and exactly what it drives on the finished dashboard.</p>
+<div class="group-title">Foundational measures (used across every page)</div>
+<div class="measure-card">
+<h4>Total Employees</h4>
+<pre class="dax">Total Employees =
+CALCULATE(DISTINCTCOUNT(Dim_Employees[EmployeeID]), Dim_Employees[EmploymentStatus] = &quot;Active&quot;)</pre>
+<div class="explain"><h5>Line-by-line explanation</h5><ol>
+<li>DISTINCTCOUNT counts unique EmployeeID values.</li>
+<li>CALCULATE narrows that count to only currently Active employees, so former staff never inflate headcount-based rates.</li>
+</ol></div>
+<div class="why-impact">
+<div><strong>Why this pattern was used</strong><br>Filtering to Active at the base measure means every measure built on top of it automatically excludes former staff, instead of every downstream measure having to repeat the filter.</div>
+<div><strong>Impact on the dashboard</strong><br>Headcount KPI card and the denominator for several coverage-rate measures across the whole report.</div>
+</div>
+</div>
+<div class="measure-card">
+<h4>Total Enrollments</h4>
+<pre class="dax">Total Enrollments = COUNTROWS(Fact_Enrollments)</pre>
+<div class="explain"><h5>Line-by-line explanation</h5><ol>
+<li>COUNTROWS counts every enrollment row visible in the current filter context.</li>
+</ol></div>
+<div class="why-impact">
+<div><strong>Why this pattern was used</strong><br>COUNTROWS is correct (not DISTINCTCOUNT) because Fact_Enrollments is already at one-row-per-enrollment grain.</div>
+<div><strong>Impact on the dashboard</strong><br>Base measure for completion rate and enrollment-volume visuals across the whole report.</div>
+</div>
+</div>
+<div class="measure-card">
+<h4>Employees Trained (Distinct)</h4>
+<pre class="dax">Employees Trained (Distinct) =
+CALCULATE(DISTINCTCOUNT(Fact_Enrollments[EmployeeID]), Fact_Enrollments[Status] = &quot;Completed&quot;)</pre>
+<div class="explain"><h5>Line-by-line explanation</h5><ol>
+<li>DISTINCTCOUNT counts each employee once even if they completed several courses.</li>
+<li>CALCULATE narrows the rows considered down to completed enrollments only.</li>
+</ol></div>
+<div class="why-impact">
+<div><strong>Why this pattern was used</strong><br>DISTINCTCOUNT (rather than COUNTROWS) matters here specifically because one employee can have many completed enrollments, and this measure asks &#x27;how many people&#x27;, not &#x27;how many completions&#x27;.</div>
+<div><strong>Impact on the dashboard</strong><br>Executive Overview KPI card - the headline reach metric for the whole training function.</div>
+</div>
+</div>
+<div class="measure-card">
+<h4>Overall Completion Rate %</h4>
+<pre class="dax">Overall Completion Rate % =
+DIVIDE(
+    CALCULATE([Total Enrollments], Fact_Enrollments[Status] = &quot;Completed&quot;),
+    [Total Enrollments]
+)</pre>
+<div class="explain"><h5>Line-by-line explanation</h5><ol>
+<li>The numerator re-uses [Total Enrollments] filtered down to Completed status.</li>
+<li>DIVIDE returns the ratio, safely returning BLANK instead of an error if there are zero enrollments in the current filter context.</li>
+</ol></div>
+<div class="why-impact">
+<div><strong>Why this pattern was used</strong><br>Building the numerator from the existing [Total Enrollments] measure keeps the counting logic in one place instead of duplicating COUNTROWS(Fact_Enrollments).</div>
+<div><strong>Impact on the dashboard</strong><br>Headline KPI card on the Executive Overview page.</div>
+</div>
+</div>
+<div class="measure-card">
+<h4>Total Training Hours Delivered</h4>
+<pre class="dax">Total Training Hours Delivered =
+CALCULATE(
+    SUMX(Fact_Enrollments, RELATED(Dim_TrainingPrograms[DurationHours])),
+    Fact_Enrollments[Status] = &quot;Completed&quot;
+)</pre>
+<div class="explain"><h5>Line-by-line explanation</h5><ol>
+<li>SUMX iterates row-by-row over Fact_Enrollments.</li>
+<li>RELATED reaches across the active Dim_TrainingPrograms-to-Fact_Enrollments relationship to pull that row&#x27;s DurationHours from the program catalogue.</li>
+<li>CALCULATE restricts the whole calculation to completed enrollments only, so hours are only counted once training is actually finished.</li>
+</ol></div>
+<div class="why-impact">
+<div><strong>Why this pattern was used</strong><br>RELATED is required (rather than a plain SUM) because DurationHours lives on the dimension table, not on Fact_Enrollments itself - SUMX plus RELATED is the standard pattern for pulling a dimension attribute into a per-row fact calculation.</div>
+<div><strong>Impact on the dashboard</strong><br>Training-hours KPI card and trend line on the Executive Overview page.</div>
+</div>
+</div>
+<div class="measure-card">
+<h4>Total Training Spend</h4>
+<pre class="dax">Total Training Spend = SUM(Fact_Budget[ActualSpend_USD])</pre>
+<div class="explain"><h5>Line-by-line explanation</h5><ol>
+<li>SUM adds every ActualSpend_USD row in Fact_Budget visible in the current filter context.</li>
+</ol></div>
+<div class="why-impact">
+<div><strong>Why this pattern was used</strong><br>Actual spend is captured monthly by region and training type, so it must be summed from the fact table rather than estimated from the course catalogue.</div>
+<div><strong>Impact on the dashboard</strong><br>Financial KPI cards across the Executive Overview and Budget &amp; Cost Analysis pages.</div>
+</div>
+</div>
+<div class="measure-card">
+<h4>Average Satisfaction Score</h4>
+<pre class="dax">Average Satisfaction Score = AVERAGE(Fact_Feedback[SatisfactionScore])</pre>
+<div class="explain"><h5>Line-by-line explanation</h5><ol>
+<li>AVERAGE computes the mean SatisfactionScore across feedback rows visible in the current filter context.</li>
+</ol></div>
+<div class="why-impact">
+<div><strong>Why this pattern was used</strong><br>A plain AVERAGE is sufficient because SatisfactionScore is already a stored 1-5 value, not something computed per row first.</div>
+<div><strong>Impact on the dashboard</strong><br>Headline experience KPI on the Executive Overview and Employee Development &amp; Feedback pages.</div>
+</div>
+</div>
+<div class="group-title">Compliance training measures</div>
+<div class="measure-card">
+<h4>Compliance Enrollments</h4>
+<pre class="dax">Compliance Enrollments =
+CALCULATE([Total Enrollments], Dim_TrainingPrograms[TrainingType] = &quot;Compliance&quot;)</pre>
+<div class="explain"><h5>Line-by-line explanation</h5><ol>
+<li>CALCULATE narrows Total Enrollments down to rows whose program&#x27;s TrainingType is Compliance.</li>
+</ol></div>
+<div class="why-impact">
+<div><strong>Why this pattern was used</strong><br>Filtering on the TrainingType column from Dim_TrainingPrograms rather than duplicating a list of program names keeps this measure correct even if the catalogue grows.</div>
+<div><strong>Impact on the dashboard</strong><br>Denominator for Compliance Completion Rate % and the Compliance Enrollments KPI card.</div>
+</div>
+</div>
+<div class="measure-card">
+<h4>Compliance Completion Rate %</h4>
+<pre class="dax">Compliance Completion Rate % =
+VAR CompletedCompliance =
+    CALCULATE(
+        [Total Enrollments],
+        Dim_TrainingPrograms[TrainingType] = &quot;Compliance&quot;,
+        Fact_Enrollments[Status] = &quot;Completed&quot;
+    )
+RETURN
+    DIVIDE(CompletedCompliance, [Compliance Enrollments])</pre>
+<div class="explain"><h5>Line-by-line explanation</h5><ol>
+<li>VAR CompletedCompliance layers a Status = Completed condition on top of the Compliance filter.</li>
+<li>DIVIDE expresses that as a share of all Compliance enrollments, safely handling a zero denominator.</li>
+</ol></div>
+<div class="why-impact">
+<div><strong>Why this pattern was used</strong><br>The two-condition CALCULATE is stored in a VAR purely for readability, since the measure is referenced again (indirectly through [Compliance Enrollments]) in the RETURN line.</div>
+<div><strong>Impact on the dashboard</strong><br>The single most-watched number on the Compliance Training Tracking page - regulators and auditors care about this figure directly.</div>
+</div>
+</div>
+<div class="measure-card">
+<h4>Overdue Compliance Trainings</h4>
+<pre class="dax">Overdue Compliance Trainings =
+CALCULATE(
+    COUNTROWS(Fact_Enrollments),
+    Dim_TrainingPrograms[TrainingType] = &quot;Compliance&quot;,
+    Fact_Enrollments[Status] &lt;&gt; &quot;Completed&quot;,
+    Fact_Enrollments[DueDate] &lt; TODAY()
+)</pre>
+<div class="explain"><h5>Line-by-line explanation</h5><ol>
+<li>The TrainingType filter restricts to Compliance courses.</li>
+<li>The Status filter excludes anything already completed.</li>
+<li>The DueDate filter compares against TODAY(), Power BI&#x27;s current-date function, so this measure is always accurate whenever the report is opened.</li>
+</ol></div>
+<div class="why-impact">
+<div><strong>Why this pattern was used</strong><br>TODAY() rather than a hardcoded date keeps the measure correct on every refresh without manual edits - the same pattern used for Overdue Tasks in project-tracking dashboards.</div>
+<div><strong>Impact on the dashboard</strong><br>The most important red-alert KPI on the Compliance Training Tracking page, and drives the &#x27;Overdue by Employee&#x27; action table.</div>
+</div>
+</div>
+<div class="measure-card">
+<h4>Certifications Expiring in 30 Days</h4>
+<pre class="dax">Certifications Expiring in 30 Days =
+CALCULATE(
+    COUNTROWS(Fact_Enrollments),
+    Fact_Enrollments[CertificationExpiryDate] &gt;= TODAY(),
+    Fact_Enrollments[CertificationExpiryDate] &lt;= TODAY() + 30
+)</pre>
+<div class="explain"><h5>Line-by-line explanation</h5><ol>
+<li>The first condition excludes certifications that have already expired.</li>
+<li>The second condition keeps only those expiring within the next 30 days, using simple date arithmetic (TODAY() + 30).</li>
+</ol></div>
+<div class="why-impact">
+<div><strong>Why this pattern was used</strong><br>Adding an integer to a date column in DAX returns the date that many days later, which is the simplest way to express a rolling 30-day compliance-renewal window without a separate lookup table.</div>
+<div><strong>Impact on the dashboard</strong><br>Forward-looking KPI on the Compliance Training Tracking page - drives proactive renewal reminders before a lapse occurs.</div>
+</div>
+</div>
+<div class="measure-card">
+<h4>Completions This Month (by Completion Date)</h4>
+<pre class="dax">Completions This Month (by Completion Date) =
+CALCULATE(
+    COUNTROWS(Fact_Enrollments), Fact_Enrollments[Status] = &quot;Completed&quot;,
+    USERELATIONSHIP(Dim_Date[Date], Fact_Enrollments[CompletionDate])
+)</pre>
+<div class="explain"><h5>Line-by-line explanation</h5><ol>
+<li>USERELATIONSHIP activates the otherwise-inactive Dim_Date-to-CompletionDate relationship for this calculation only, without disturbing the model&#x27;s default active EnrollmentDate relationship.</li>
+<li>COUNTROWS then counts completed enrollments filtered by whichever date period is in context, following that temporarily active relationship.</li>
+</ol></div>
+<div class="why-impact">
+<div><strong>Why this pattern was used</strong><br>Because Dim_Date already has an active relationship to Fact_Enrollments[EnrollmentDate], reaching CompletionDate for this one measure requires explicitly switching relationships with USERELATIONSHIP rather than relying on the model&#x27;s default path.</div>
+<div><strong>Impact on the dashboard</strong><br>The line chart on the Compliance Training Tracking page showing when training actually gets finished, as opposed to when it was assigned.</div>
+</div>
+</div>
+<div class="measure-card">
+<h4>Trainings Due This Period</h4>
+<pre class="dax">Trainings Due This Period =
+CALCULATE(
+    COUNTROWS(Fact_Enrollments),
+    USERELATIONSHIP(Dim_Date[Date], Fact_Enrollments[DueDate])
+)</pre>
+<div class="explain"><h5>Line-by-line explanation</h5><ol>
+<li>USERELATIONSHIP activates the inactive Dim_Date-to-DueDate relationship for this one calculation.</li>
+<li>COUNTROWS counts every enrollment whose due date falls in whatever period is currently selected.</li>
+</ol></div>
+<div class="why-impact">
+<div><strong>Why this pattern was used</strong><br>Same pattern as Completions This Month - demonstrates that a fact table can need several different &#x27;which date matters here&#x27; answers, each requiring its own USERELATIONSHIP call.</div>
+<div><strong>Impact on the dashboard</strong><br>Forward-planning line/column chart on the Compliance Training Tracking page, showing upcoming compliance workload by month.</div>
+</div>
+</div>
+<div class="group-title">Program &amp; session measures</div>
+<div class="measure-card">
+<h4>Total Sessions</h4>
+<pre class="dax">Total Sessions = COUNTROWS(Fact_Sessions)</pre>
+<div class="explain"><h5>Line-by-line explanation</h5><ol>
+<li>COUNTROWS counts session rows visible in the current filter context.</li>
+</ol></div>
+<div class="why-impact">
+<div><strong>Why this pattern was used</strong><br>Fact_Sessions is already at one-row-per-session grain, so COUNTROWS is the correct, simplest choice.</div>
+<div><strong>Impact on the dashboard</strong><br>Delivery-volume KPI card on the Program &amp; Session Analytics page.</div>
+</div>
+</div>
+<div class="measure-card">
+<h4>Average Attendance Rate %</h4>
+<pre class="dax">Average Attendance Rate % =
+DIVIDE(SUM(Fact_Sessions[ActualAttendance]), SUM(Fact_Sessions[Capacity]))</pre>
+<div class="explain"><h5>Line-by-line explanation</h5><ol>
+<li>SUM totals actual attendance and total capacity separately across all sessions in context.</li>
+<li>DIVIDE expresses attendance as a percentage of capacity, safely handling any zero-capacity edge case.</li>
+</ol></div>
+<div class="why-impact">
+<div><strong>Why this pattern was used</strong><br>Summing attendance and capacity first and dividing once (rather than averaging a per-session percentage with AVERAGEX) correctly weights larger sessions more heavily, which is the right behaviour for a capacity-utilisation metric.</div>
+<div><strong>Impact on the dashboard</strong><br>Utilisation KPI and gauge on the Program &amp; Session Analytics page.</div>
+</div>
+</div>
+<div class="measure-card">
+<h4>Cost Per Trainee</h4>
+<pre class="dax">Cost Per Trainee =
+DIVIDE(SUM(Fact_Sessions[SessionCostUSD]), SUM(Fact_Sessions[ActualAttendance]))</pre>
+<div class="explain"><h5>Line-by-line explanation</h5><ol>
+<li>SUM totals delivered session cost and total attendees separately.</li>
+<li>DIVIDE returns the blended cost per attendee, guarding against zero attendance.</li>
+</ol></div>
+<div class="why-impact">
+<div><strong>Why this pattern was used</strong><br>Calculated from actual delivered cost and actual attendance (not the catalogue&#x27;s CostPerParticipant_USD) so it reflects what training really costs per person once no-shows and under-filled sessions are accounted for.</div>
+<div><strong>Impact on the dashboard</strong><br>Efficiency KPI on the Program &amp; Session Analytics page, and the y-axis of the cost-vs-attendance scatter chart.</div>
+</div>
+</div>
+<div class="measure-card">
+<h4>Program Enrollment Rank</h4>
+<pre class="dax">Program Enrollment Rank =
+RANKX(
+    ALL(Dim_TrainingPrograms[ProgramName]),
+    CALCULATE([Total Enrollments])
+)</pre>
+<div class="explain"><h5>Line-by-line explanation</h5><ol>
+<li>ALL(Dim_TrainingPrograms[ProgramName]) builds a table of every program name, ignoring any filter currently applied to that column, so every program is compared on a level playing field.</li>
+<li>CALCULATE([Total Enrollments]) re-evaluates the enrollment count for each program name in that unfiltered list.</li>
+<li>RANKX ranks the current program&#x27;s value against all of those, 1 being the most enrollments.</li>
+</ol></div>
+<div class="why-impact">
+<div><strong>Why this pattern was used</strong><br>ALL is required inside RANKX so the ranking table is not limited to whatever the visual itself has already filtered down to - without it, every visible program would rank 1st against itself.</div>
+<div><strong>Impact on the dashboard</strong><br>Powers the &#x27;Top Programs by Enrollment&#x27; bar chart&#x27;s sort order and an optional rank column in the program table on the Program &amp; Session Analytics page.</div>
+</div>
+</div>
+<div class="measure-card">
+<h4>Self-Paced Share %</h4>
+<pre class="dax">Self-Paced Share % =
+DIVIDE(
+    CALCULATE([Total Enrollments], Dim_TrainingPrograms[DeliveryMode] = &quot;Self-Paced&quot;),
+    [Total Enrollments]
+)</pre>
+<div class="explain"><h5>Line-by-line explanation</h5><ol>
+<li>CALCULATE narrows enrollments to programs delivered Self-Paced.</li>
+<li>DIVIDE expresses that as a share of all enrollments.</li>
+</ol></div>
+<div class="why-impact">
+<div><strong>Why this pattern was used</strong><br>Written as a simple share-of-total rather than a full delivery-mode breakdown measure because the dashboard only needs this one modality highlighted as a callout; the full breakdown is shown directly by a chart&#x27;s legend instead.</div>
+<div><strong>Impact on the dashboard</strong><br>Callout on the Program &amp; Session Analytics page highlighting how much training is self-service versus facilitator-led.</div>
+</div>
+</div>
+<div class="group-title">Budget &amp; cost measures</div>
+<div class="measure-card">
+<h4>Total Planned Budget</h4>
+<pre class="dax">Total Planned Budget = SUM(Fact_Budget[PlannedBudget_USD])</pre>
+<div class="explain"><h5>Line-by-line explanation</h5><ol>
+<li>SUM adds PlannedBudget_USD across every budget line visible in the current filter context.</li>
+</ol></div>
+<div class="why-impact">
+<div><strong>Why this pattern was used</strong><br>Planned budget is captured at the same region/training-type/month grain as actual spend, so a direct SUM is correct and comparable.</div>
+<div><strong>Impact on the dashboard</strong><br>Budget KPI cards and the Planned vs Actual chart on the Budget &amp; Cost Analysis page.</div>
+</div>
+</div>
+<div class="measure-card">
+<h4>Budget Variance</h4>
+<pre class="dax">Budget Variance = [Total Planned Budget] - [Total Training Spend]</pre>
+<div class="explain"><h5>Line-by-line explanation</h5><ol>
+<li>A simple subtraction between two existing measures; positive means under budget, negative means over budget.</li>
+</ol></div>
+<div class="why-impact">
+<div><strong>Why this pattern was used</strong><br>Built as a measure rather than a calculated column so it recalculates correctly at every level of the report - region, training type or company-wide - as filters change.</div>
+<div><strong>Impact on the dashboard</strong><br>Conditional-formatted KPI card and the &#x27;variance by region&#x27; visual.</div>
+</div>
+</div>
+<div class="measure-card">
+<h4>Budget Variance %</h4>
+<pre class="dax">Budget Variance % = DIVIDE([Budget Variance], [Total Planned Budget])</pre>
+<div class="explain"><h5>Line-by-line explanation</h5><ol>
+<li>DIVIDE expresses the variance as a proportion of planned budget, returning BLANK rather than an error if planned budget is 0.</li>
+</ol></div>
+<div class="why-impact">
+<div><strong>Why this pattern was used</strong><br>A percentage allows fair comparison of variance across regions and training types of very different sizes, unlike the raw dollar variance.</div>
+<div><strong>Impact on the dashboard</strong><br>Colour/data-label field on the Budget &amp; Cost Analysis matrix visual.</div>
+</div>
+</div>
+<div class="measure-card">
+<h4>Cost Per Employee Trained</h4>
+<pre class="dax">Cost Per Employee Trained =
+DIVIDE([Total Training Spend], [Employees Trained (Distinct)])</pre>
+<div class="explain"><h5>Line-by-line explanation</h5><ol>
+<li>Divides total actual spend by the distinct count of employees who completed at least one course.</li>
+<li>DIVIDE guards against a zero-trained filter context.</li>
+</ol></div>
+<div class="why-impact">
+<div><strong>Why this pattern was used</strong><br>Blends a financial fact table (Fact_Budget) with a training fact table (Fact_Enrollments) purely through measures, avoiding the need for a direct relationship between two tables at different, incompatible grains.</div>
+<div><strong>Impact on the dashboard</strong><br>Efficiency KPI comparing regions/business units on the Budget &amp; Cost Analysis page.</div>
+</div>
+</div>
+<div class="measure-card">
+<h4>MoM Actual Spend Change</h4>
+<pre class="dax">MoM Actual Spend Change =
+VAR CurrentSpend = [Total Training Spend]
+VAR PreviousSpend =
+    CALCULATE(
+        [Total Training Spend],
+        DATEADD(Dim_Date[Date], -1, MONTH)
+    )
+RETURN
+    DIVIDE(CurrentSpend - PreviousSpend, PreviousSpend)</pre>
+<div class="explain"><h5>Line-by-line explanation</h5><ol>
+<li>VAR CurrentSpend captures actual spend for whichever month is currently in context.</li>
+<li>DATEADD(Dim_Date[Date], -1, MONTH) shifts the date filter back exactly one month so VAR PreviousSpend recalculates [Total Training Spend] for the prior month.</li>
+<li>DIVIDE returns the percentage change, safe against a zero prior-month spend.</li>
+</ol></div>
+<div class="why-impact">
+<div><strong>Why this pattern was used</strong><br>DATEADD is a time-intelligence function that only works correctly because Dim_Date is marked as a proper, contiguous Date Table - this measure is used specifically to demonstrate why that modelling step matters.</div>
+<div><strong>Impact on the dashboard</strong><br>Month-over-month trend arrow on the Budget &amp; Cost Analysis KPI strip.</div>
+</div>
+</div>
+<div class="group-title">Employee development &amp; feedback measures</div>
+<div class="measure-card">
+<h4>Average Trainer Rating</h4>
+<pre class="dax">Average Trainer Rating = AVERAGE(Fact_Feedback[TrainerRating])</pre>
+<div class="explain"><h5>Line-by-line explanation</h5><ol>
+<li>AVERAGE computes the mean TrainerRating across feedback rows in the current filter context.</li>
+</ol></div>
+<div class="why-impact">
+<div><strong>Why this pattern was used</strong><br>Kept separate from Average Satisfaction Score so trainer performance can be tracked and compared independently of overall course satisfaction.</div>
+<div><strong>Impact on the dashboard</strong><br>Trainer-performance KPI and the trainer-comparison table on the Employee Development &amp; Feedback page.</div>
+</div>
+</div>
+<div class="measure-card">
+<h4>Would Recommend %</h4>
+<pre class="dax">Would Recommend % =
+VAR Recommenders =
+    CALCULATE(COUNTROWS(Fact_Feedback), Fact_Feedback[WouldRecommend] = &quot;Yes&quot;)
+VAR TotalResponses = COUNTROWS(Fact_Feedback)
+RETURN
+    DIVIDE(Recommenders, TotalResponses)</pre>
+<div class="explain"><h5>Line-by-line explanation</h5><ol>
+<li>VAR Recommenders counts feedback rows where the employee said they would recommend the course.</li>
+<li>VAR TotalResponses counts every feedback row in context.</li>
+<li>DIVIDE returns the percentage, safe against zero responses.</li>
+</ol></div>
+<div class="why-impact">
+<div><strong>Why this pattern was used</strong><br>This is effectively a simplified Net-Promoter-style measure; VARs make the two counts explicit and easy to audit or extend later (for example, into a full NPS calculation).</div>
+<div><strong>Impact on the dashboard</strong><br>Headline experience KPI on the Employee Development &amp; Feedback page.</div>
+</div>
+</div>
+<div class="measure-card">
+<h4>Leadership Program Participation</h4>
+<pre class="dax">Leadership Program Participation =
+CALCULATE([Total Enrollments], Dim_TrainingPrograms[TrainingType] = &quot;Leadership&quot;)</pre>
+<div class="explain"><h5>Line-by-line explanation</h5><ol>
+<li>CALCULATE narrows Total Enrollments down to programs whose TrainingType is Leadership.</li>
+</ol></div>
+<div class="why-impact">
+<div><strong>Why this pattern was used</strong><br>Isolated as its own measure because leadership-pipeline participation is tracked and reported separately from general L&amp;D activity in most large organisations.</div>
+<div><strong>Impact on the dashboard</strong><br>KPI card and the &#x27;Leadership Participation by Business Unit&#x27; bar chart.</div>
+</div>
+</div>
+<div class="measure-card">
+<h4>Average Training Hours per Employee</h4>
+<pre class="dax">Average Training Hours per Employee =
+DIVIDE([Total Training Hours Delivered], [Total Employees])</pre>
+<div class="explain"><h5>Line-by-line explanation</h5><ol>
+<li>Divides total completed training hours by the active employee headcount.</li>
+<li>DIVIDE guards against a zero-headcount filter context.</li>
+</ol></div>
+<div class="why-impact">
+<div><strong>Why this pattern was used</strong><br>Expresses training investment on a per-person basis so business units of very different sizes can be compared fairly.</div>
+<div><strong>Impact on the dashboard</strong><br>Bar chart comparing training investment per employee across business units on the Employee Development &amp; Feedback page.</div>
+</div>
+</div>
+<div class="measure-card">
+<h4>Direct Reports</h4>
+<pre class="dax">Direct Reports =
+COUNTROWS(RELATEDTABLE(Dim_Employees))</pre>
+<div class="explain"><h5>Line-by-line explanation</h5><ol>
+<li>RELATEDTABLE follows the self-referencing EmployeeID-to-ManagerID relationship from the current employee (acting as a manager) down to every employee row that reports to them.</li>
+<li>COUNTROWS counts how many of those direct-report rows there are.</li>
+</ol></div>
+<div class="why-impact">
+<div><strong>Why this pattern was used</strong><br>RELATEDTABLE is the correct function to fetch the &#x27;many&#x27; side of a relationship from the &#x27;one&#x27; side inside a row context - here it is what makes the self-referencing hierarchy actually usable in a measure. Multi-level (skip-level) hierarchies would extend this pattern with the PATH() and PATHITEM() functions, which flatten the whole management chain into a navigable string.</div>
+<div><strong>Impact on the dashboard</strong><br>Manager span-of-control column in the org-hierarchy table on the Employee Development &amp; Feedback page.</div>
+</div>
+</div>
+</section>
+<section id="dashboard-solutions"><h2 class="section-title">4. Building the five dashboard pages - full solutions</h2>
+<p class="section-intro">Exact build instructions for every page: which visual to insert from the Visualizations pane, which fields go in which well, and why that chart is the right choice for that question. Apply a consistent theme (View &gt; Themes) and add page-navigation buttons before final delivery.</p>
+<div class="page-card">
+<h4>Page 1 - Executive L&amp;D Overview</h4>
+<p class="purpose">A one-screen health check of the entire global training function for senior HR and executive stakeholders.</p>
+<div class="chart-row">
+<span class="ctype">KPI cards</span><span class="ctitle">Total Employees / Employees Trained / Overall Completion Rate % / Avg Satisfaction</span>
+<div class="fields"><strong>Field wells:</strong> [Total Employees], [Employees Trained (Distinct)], [Overall Completion Rate %], [Average Satisfaction Score]</div>
+<div class="why">Four headline numbers answering &#x27;is our global workforce being trained, and are they happy with it&#x27; in seconds.</div>
+</div>
+<div class="chart-row">
+<span class="ctype">Donut chart</span><span class="ctitle">Enrollments by Training Type</span>
+<div class="fields"><strong>Field wells:</strong> Legend: Dim_TrainingPrograms[TrainingType]. Values: [Total Enrollments]</div>
+<div class="why">Shows the balance between Compliance, Onboarding, L&amp;D and Leadership activity.</div>
+</div>
+<div class="chart-row">
+<span class="ctype">Clustered bar chart</span><span class="ctitle">Employees Trained by Business Unit</span>
+<div class="fields"><strong>Field wells:</strong> Axis: Dim_Employees[BusinessUnit]. Values: [Employees Trained (Distinct)], sorted descending</div>
+<div class="why">Highlights which business units are furthest ahead (or behind) on training reach.</div>
+</div>
+<div class="chart-row">
+<span class="ctype">Filled map</span><span class="ctitle">Training Reach by Country</span>
+<div class="fields"><strong>Field wells:</strong> Location: Dim_Locations[Country]. Values: [Employees Trained (Distinct)]</div>
+<div class="why">Gives a true multinational view of where trained employees are located worldwide.</div>
+</div>
+<div class="chart-row">
+<span class="ctype">Line chart</span><span class="ctitle">Training Hours Delivered Trend</span>
+<div class="fields"><strong>Field wells:</strong> Axis: Dim_Date[MonthYear]. Values: [Total Training Hours Delivered]</div>
+<div class="why">Tracks the organisation&#x27;s overall investment in training hours over time.</div>
+</div>
+</div>
+<div class="page-card">
+<h4>Page 2 - Compliance Training Tracking</h4>
+<p class="purpose">Operational and regulatory view for Legal &amp; Compliance and HR to track mandatory training deadlines and certification renewals.</p>
+<div class="chart-row">
+<span class="ctype">KPI cards</span><span class="ctitle">Compliance Completion Rate % / Overdue Compliance / Certs Expiring in 30 Days / Compliance Enrollments</span>
+<div class="fields"><strong>Field wells:</strong> [Compliance Completion Rate %], [Overdue Compliance Trainings], [Certifications Expiring in 30 Days], [Compliance Enrollments]</div>
+<div class="why">The numbers a compliance officer or auditor checks first.</div>
+</div>
+<div class="chart-row">
+<span class="ctype">Stacked bar chart</span><span class="ctitle">Compliance Status by Business Unit</span>
+<div class="fields"><strong>Field wells:</strong> Axis: Dim_Employees[BusinessUnit]. Legend: Fact_Enrollments[Status]. Values: [Compliance Enrollments]</div>
+<div class="why">Shows exactly which business units are lagging on mandatory training.</div>
+</div>
+<div class="chart-row">
+<span class="ctype">Table</span><span class="ctitle">Overdue Compliance Trainings by Employee</span>
+<div class="fields"><strong>Field wells:</strong> Rows: Dim_Employees[FullName], Dim_Employees[BusinessUnit]. Values: [Overdue Compliance Trainings], sorted descending, filtered to &gt; 0</div>
+<div class="why">A direct follow-up list for HR business partners and line managers.</div>
+</div>
+<div class="chart-row">
+<span class="ctype">Line chart</span><span class="ctitle">Completions vs Due Trend</span>
+<div class="fields"><strong>Field wells:</strong> Axis: Dim_Date[MonthYear]. Values: [Completions This Month (by Completion Date)], [Trainings Due This Period]</div>
+<div class="why">Compares the pace of completions against the pace of new compliance obligations coming due each month.</div>
+</div>
+<div class="chart-row">
+<span class="ctype">Matrix</span><span class="ctitle">Compliance Completion Rate % by Region and Program</span>
+<div class="fields"><strong>Field wells:</strong> Rows: Dim_Locations[Region] &gt; Dim_TrainingPrograms[ProgramName]. Values: [Compliance Completion Rate %], conditional formatted</div>
+<div class="why">Drillable view pinpointing exactly which region/course combination needs the most attention.</div>
+</div>
+</div>
+<div class="page-card">
+<h4>Page 3 - Program &amp; Session Analytics</h4>
+<p class="purpose">Learning &amp; Development team&#x27;s operational view of how courses and sessions are actually performing.</p>
+<div class="chart-row">
+<span class="ctype">KPI cards</span><span class="ctitle">Total Sessions / Avg Attendance Rate % / Cost Per Trainee / Self-Paced Share %</span>
+<div class="fields"><strong>Field wells:</strong> [Total Sessions], [Average Attendance Rate %], [Cost Per Trainee], [Self-Paced Share %]</div>
+<div class="why">Headline delivery-efficiency numbers for the L&amp;D team.</div>
+</div>
+<div class="chart-row">
+<span class="ctype">Bar chart</span><span class="ctitle">Top Programs by Enrollment</span>
+<div class="fields"><strong>Field wells:</strong> Axis: Dim_TrainingPrograms[ProgramName]. Values: [Total Enrollments]. Sort: [Program Enrollment Rank] ascending, Top 10 filter</div>
+<div class="why">Surfaces the most (and, inverted, the least) subscribed courses in the catalogue.</div>
+</div>
+<div class="chart-row">
+<span class="ctype">Clustered column chart</span><span class="ctitle">Sessions by Delivery Modality</span>
+<div class="fields"><strong>Field wells:</strong> Axis: Fact_Sessions[Modality]. Values: [Total Sessions]</div>
+<div class="why">Shows the mix of in-person, virtual live and self-paced delivery across the whole catalogue.</div>
+</div>
+<div class="chart-row">
+<span class="ctype">Scatter chart</span><span class="ctitle">Session Cost vs Attendance</span>
+<div class="fields"><strong>Field wells:</strong> X: SUM(Fact_Sessions[ActualAttendance]). Y: SUM(Fact_Sessions[SessionCostUSD]). Legend: Dim_TrainingPrograms[TrainingType]</div>
+<div class="why">Flags sessions that were expensive relative to how many people actually attended.</div>
+</div>
+<div class="chart-row">
+<span class="ctype">Table</span><span class="ctitle">Trainer Performance Summary</span>
+<div class="fields"><strong>Field wells:</strong> Rows: Dim_Trainers[TrainerName], Dim_Trainers[TrainerType]. Values: [Total Sessions], [Average Trainer Rating]</div>
+<div class="why">Compares internal facilitators against external vendors on both volume and quality.</div>
+</div>
+</div>
+<div class="page-card">
+<h4>Page 4 - Budget &amp; Cost Analysis</h4>
+<p class="purpose">Finance/L&amp;D leadership deep-dive comparing planned vs actual global training spend.</p>
+<div class="chart-row">
+<span class="ctype">KPI cards</span><span class="ctitle">Total Planned Budget / Total Training Spend / Budget Variance % / Cost Per Employee Trained</span>
+<div class="fields"><strong>Field wells:</strong> [Total Planned Budget], [Total Training Spend], [Budget Variance %], [Cost Per Employee Trained]</div>
+<div class="why">Financial headline numbers for the global training budget.</div>
+</div>
+<div class="chart-row">
+<span class="ctype">Gauge</span><span class="ctitle">Budget Utilization</span>
+<div class="fields"><strong>Field wells:</strong> Value: DIVIDE([Total Training Spend],[Total Planned Budget]). Target: 100%</div>
+<div class="why">Instantly flags whether global training spend is trending over or under budget.</div>
+</div>
+<div class="chart-row">
+<span class="ctype">Clustered column chart</span><span class="ctitle">Planned vs Actual Spend by Training Type</span>
+<div class="fields"><strong>Field wells:</strong> Axis: Dim_TrainingPrograms[TrainingType]. Values: [Total Planned Budget], [Total Training Spend]</div>
+<div class="why">Breaks the variance down by Compliance, Onboarding, L&amp;D and Leadership spend.</div>
+</div>
+<div class="chart-row">
+<span class="ctype">Line chart</span><span class="ctitle">Monthly Actual Spend Trend with MoM Change</span>
+<div class="fields"><strong>Field wells:</strong> Axis: Dim_Date[MonthYear]. Values: [Total Training Spend]. Tooltip: [MoM Actual Spend Change]</div>
+<div class="why">Tracks spend trajectory and flags sudden month-over-month spikes across all regions.</div>
+</div>
+<div class="chart-row">
+<span class="ctype">Matrix</span><span class="ctitle">Budget Variance % by Region and Training Type</span>
+<div class="fields"><strong>Field wells:</strong> Rows: Dim_Locations[Region] &gt; Dim_TrainingPrograms[TrainingType]. Values: [Budget Variance %], conditional formatted</div>
+<div class="why">Drillable view for finance to pinpoint exactly which region/training-type combination is driving overall variance.</div>
+</div>
+</div>
+<div class="page-card">
+<h4>Page 5 - Employee Development &amp; Feedback</h4>
+<p class="purpose">HR and talent-development view of training quality, leadership-pipeline participation and manager span of control.</p>
+<div class="chart-row">
+<span class="ctype">KPI cards</span><span class="ctitle">Avg Satisfaction / Avg Trainer Rating / Would Recommend % / Leadership Participation</span>
+<div class="fields"><strong>Field wells:</strong> [Average Satisfaction Score], [Average Trainer Rating], [Would Recommend %], [Leadership Program Participation]</div>
+<div class="why">Headline experience and leadership-development numbers.</div>
+</div>
+<div class="chart-row">
+<span class="ctype">Bar chart</span><span class="ctitle">Average Satisfaction by Training Type</span>
+<div class="fields"><strong>Field wells:</strong> Axis: Dim_TrainingPrograms[TrainingType]. Values: [Average Satisfaction Score]</div>
+<div class="why">Shows whether some categories of training (e.g. mandatory Compliance vs elective L&amp;D) are rated differently.</div>
+</div>
+<div class="chart-row">
+<span class="ctype">Table</span><span class="ctitle">Manager Span of Control and Team Compliance</span>
+<div class="fields"><strong>Field wells:</strong> Rows: Dim_Employees[FullName] (filtered to managers). Values: [Direct Reports], [Compliance Completion Rate %]</div>
+<div class="why">Combines the self-referencing hierarchy measure with a compliance measure to flag managers whose teams are falling behind.</div>
+</div>
+<div class="chart-row">
+<span class="ctype">Line chart</span><span class="ctitle">Satisfaction Trend Over Time</span>
+<div class="fields"><strong>Field wells:</strong> Axis: Dim_Date[MonthYear]. Values: [Average Satisfaction Score]</div>
+<div class="why">Tracks whether training quality perception is improving or declining year over year.</div>
+</div>
+<div class="chart-row">
+<span class="ctype">Bar chart</span><span class="ctitle">Average Training Hours per Employee by Business Unit</span>
+<div class="fields"><strong>Field wells:</strong> Axis: Dim_Employees[BusinessUnit]. Values: [Average Training Hours per Employee]</div>
+<div class="why">Compares training investment per head across business units to spot under-invested teams.</div>
+</div>
+</div>
+<div class="callout"><strong>Final QA checklist:</strong> On every page, click each slicer/legend value and confirm every visual on that page responds. Confirm KPI cards never show a hard error (blank is fine, thanks to DIVIDE) even when a filter returns zero rows. Confirm the compliance matrix and the two USERELATIONSHIP-based measures (Completions This Month, Trainings Due This Period) return sensible, non-zero numbers for a few different months. Confirm the Direct Reports measure returns a non-zero number for a sample of managers and a blank (not an error) for individual contributors. Confirm the Dim_Date date table has no gaps by checking Total Training Spend on the very first and very last month in the data.</div>
+</section>
+</main>
+<footer>Global Corporate Staff Training Analytics - Power BI Dashboard Training &middot; Prepared by Kajola Gbenga, Data Scientist &amp; AI Engineer &middot; Part 2 of 2 - Solutions</footer>
+</body>
+</html>

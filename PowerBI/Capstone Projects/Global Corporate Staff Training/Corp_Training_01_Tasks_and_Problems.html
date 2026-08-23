@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Global Corporate Staff Training Analytics - Power BI Dashboard Training - Part 1: Tasks &amp; Problems</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+:root{
+  --navy:#1F3864; --blue:#2E5395; --light:#EAF0FB; --accent:#C0392B; --gray:#555;
+  --border:#D7DFEE; --good:#1E8449;
+}
+*{box-sizing:border-box;}
+body{font-family:'Segoe UI',Arial,sans-serif;margin:0;background:#F4F7FC;color:#222;line-height:1.55;}
+header.hero{background:linear-gradient(135deg,var(--navy),var(--blue));color:#fff;padding:48px 6vw 34px;}
+header.hero h1{margin:0 0 6px;font-size:2.1rem;}
+header.hero p.sub{margin:0 0 22px;font-size:1.05rem;opacity:.92;}
+.author-box{display:inline-block;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.35);
+  border-radius:8px;padding:10px 18px;font-size:.95rem;}
+.author-box .name{font-weight:700;font-size:1.05rem;}
+.badge{display:inline-block;background:#fff;color:var(--navy);font-weight:700;font-size:.78rem;
+  padding:4px 10px;border-radius:20px;margin-right:8px;margin-bottom:10px;}
+nav.toc{background:#fff;border-bottom:1px solid var(--border);padding:14px 6vw;position:sticky;top:0;z-index:50;
+  box-shadow:0 2px 6px rgba(0,0,0,.05);}
+nav.toc a{color:var(--navy);text-decoration:none;font-weight:600;font-size:.86rem;margin-right:18px;}
+nav.toc a:hover{text-decoration:underline;}
+main{padding:10px 6vw 70px;max-width:1300px;margin:0 auto;}
+section{margin-top:52px;}
+h2.section-title{color:var(--navy);font-size:1.55rem;border-bottom:3px solid var(--navy);padding-bottom:10px;margin-bottom:6px;}
+p.section-intro{color:var(--gray);max-width:900px;margin-bottom:22px;}
+h3.table-title{color:var(--blue);font-size:1.2rem;margin:34px 0 4px;}
+p.table-meta{color:var(--gray);font-size:.9rem;margin:0 0 12px;}
+table{width:100%;border-collapse:collapse;background:#fff;box-shadow:0 1px 4px rgba(0,0,0,.06);margin-bottom:8px;}
+th,td{border:1px solid var(--border);padding:9px 12px;text-align:left;font-size:.88rem;vertical-align:top;}
+th{background:var(--navy);color:#fff;font-weight:600;}
+tr:nth-child(even) td{background:var(--light);}
+.pill{display:inline-block;background:var(--navy);color:#fff;border-radius:5px;padding:2px 8px;font-size:.72rem;font-weight:700;}
+.task-card{background:#fff;border-left:5px solid var(--accent);border-radius:6px;padding:14px 18px;margin-bottom:14px;
+  box-shadow:0 1px 4px rgba(0,0,0,.06);}
+.task-card .tnum{color:var(--accent);font-weight:700;font-size:.78rem;text-transform:uppercase;letter-spacing:.04em;}
+.task-card p{margin:6px 0 0;}
+.measure-card{background:#fff;border:1px solid var(--border);border-radius:8px;padding:16px 20px;margin-bottom:16px;box-shadow:0 1px 4px rgba(0,0,0,.05);}
+.measure-card h4{margin:0 0 8px;color:var(--navy);font-size:1.05rem;}
+.measure-card .todo{background:#FFF7E6;border:1px dashed #E0A800;border-radius:6px;padding:10px 14px;font-size:.88rem;color:#6b4f00;}
+.group-title{color:var(--navy);font-size:1.25rem;margin:36px 0 14px;padding:8px 14px;background:var(--light);border-left:5px solid var(--blue);border-radius:4px;}
+.page-card{background:#fff;border:1px solid var(--border);border-radius:8px;padding:18px 22px;margin-bottom:20px;box-shadow:0 1px 4px rgba(0,0,0,.05);}
+.page-card h4{color:var(--navy);margin:0 0 4px;font-size:1.2rem;}
+.page-card .purpose{color:var(--gray);font-style:italic;margin-bottom:12px;}
+.chart-row{border-top:1px solid var(--border);padding:10px 0;}
+.chart-row .ctitle{font-weight:700;color:var(--blue);}
+.chart-row .ctype{display:inline-block;background:var(--navy);color:#fff;font-size:.7rem;padding:2px 8px;border-radius:4px;margin-right:8px;}
+.rel-card{background:#fff;border:1px solid var(--border);border-radius:6px;padding:10px 16px;margin-bottom:10px;font-size:.88rem;}
+.rel-card code{background:var(--light);padding:2px 5px;border-radius:3px;}
+.checklist{background:#fff;border:1px solid var(--border);border-radius:8px;padding:18px 22px;margin-top:14px;}
+.checklist li{margin-bottom:8px;}
+footer{background:var(--navy);color:#cdd8ee;text-align:center;padding:26px;font-size:.85rem;}
+.callout{background:#FFF3E0;border-left:5px solid #E67E22;padding:12px 18px;border-radius:6px;margin:18px 0;font-size:.9rem;}
+</style>
+</head>
+<body>
+<header class="hero">
+  <span class="badge">PART 1 OF 2 - TASKS &amp; PROBLEMS</span><br>
+  <h1>Global Corporate Staff Training Analytics - Power BI Dashboard Training</h1>
+  <p class="sub">Column reference, and every task to complete - from loading the clean data through to five finished dashboard pages.</p>
+  <div class="author-box"><span class="name">Kajola Gbenga</span><br>Data Scientist &amp; AI Engineer</div>
+</header>
+<nav class="toc">
+  <a href="#columns">1. Column dictionary</a>
+  <a href="#pq-tasks">2. Data loading tasks</a>
+  <a href="#rel-tasks">3. Relationship tasks</a>
+  <a href="#dax-tasks">4. DAX measures</a>
+  <a href="#dashboard-tasks">5. Dashboards to build</a>
+</nav>
+<main>
+<section id="columns"><h2 class="section-title">1. Dataset column dictionary</h2>
+<p class="section-intro">Before touching Power BI, work through every table below and understand each column - what it means, its correct data type, and how it will be used. This is the foundation everything else in this training is built on.</p>
+<h3 class="table-title">Dim_Date <span class="pill">Dimension</span></h3>
+<p class="table-meta"><strong>Rows:</strong> 1,461 (2023-01-01 to 2026-12-31, one row per day) &nbsp;|&nbsp; <strong>Model role:</strong> Standalone calendar table. Mark as a Date Table in Power BI. Every fact table connects to it.</p>
+<table><tr><th style="width:18%">Column</th><th style="width:14%">Data type</th><th>Description</th></tr>
+<tr><td><code>Date</code></td><td>Date</td><td>One calendar day. The primary key of the table and the field most relationships are built on.</td></tr>
+<tr><td><code>Year</code></td><td>Whole Number</td><td>Calendar year (2023-2026). Used to slice every dashboard by year and build year-over-year measures.</td></tr>
+<tr><td><code>QuarterNumber</code></td><td>Whole Number</td><td>Quarter as a number (1-4). Sort-by column for the Quarter text field.</td></tr>
+<tr><td><code>Quarter</code></td><td>Text</td><td>Quarter label such as Q1, Q2. Sorted by QuarterNumber so it does not sort alphabetically.</td></tr>
+<tr><td><code>MonthNumber</code></td><td>Whole Number</td><td>Month as a number (1-12). Sort-by column for MonthName/MonthShort.</td></tr>
+<tr><td><code>MonthName</code></td><td>Text</td><td>Full month name. Used on axis labels where space allows.</td></tr>
+<tr><td><code>MonthShort</code></td><td>Text</td><td>Abbreviated month name (Jan, Feb...). Used on compact chart axes.</td></tr>
+<tr><td><code>MonthYear</code></td><td>Text</td><td>Month and year combined (Jan-2023). Used as the axis field on multi-year trend charts.</td></tr>
+<tr><td><code>WeekNumber</code></td><td>Whole Number</td><td>ISO week number (1-53). Supports weekly training-activity analysis.</td></tr>
+<tr><td><code>Day</code></td><td>Whole Number</td><td>Day of month (1-31).</td></tr>
+<tr><td><code>DayName</code></td><td>Text</td><td>Full weekday name. Used to analyse which weekdays sessions are run on.</td></tr>
+<tr><td><code>DayOfWeekNumber</code></td><td>Whole Number</td><td>Weekday as a number, Monday=1...Sunday=7. Sort-by column for DayName.</td></tr>
+<tr><td><code>IsWeekend</code></td><td>True/False</td><td>TRUE for Saturday/Sunday. Used to flag weekend session delivery.</td></tr>
+<tr><td><code>IsWorkingDay</code></td><td>True/False</td><td>Opposite of IsWeekend.</td></tr>
+</table>
+<h3 class="table-title">Dim_Locations <span class="pill">Dimension</span></h3>
+<p class="table-meta"><strong>Rows:</strong> 25 global offices across 5 regions &nbsp;|&nbsp; <strong>Model role:</strong> The geography dimension. Connects to Dim_Employees (where staff are based) and to Fact_Sessions (where training is delivered).</p>
+<table><tr><th style="width:18%">Column</th><th style="width:14%">Data type</th><th>Description</th></tr>
+<tr><td><code>LocationID</code></td><td>Text</td><td>Unique key, format LOC001. Relationship key to Dim_Employees and Fact_Sessions.</td></tr>
+<tr><td><code>City</code></td><td>Text</td><td>Office city.</td></tr>
+<tr><td><code>Country</code></td><td>Text</td><td>Office country.</td></tr>
+<tr><td><code>Region</code></td><td>Text</td><td>One of 5 regions: North America, Latin America, Europe, Middle East, Africa, Asia Pacific. Used for regional roll-ups and the map visual.</td></tr>
+<tr><td><code>OfficeType</code></td><td>Text</td><td>HQ, Regional Hub or Branch. Used to compare training reach between headquarters and smaller branch offices.</td></tr>
+</table>
+<h3 class="table-title">Dim_Employees <span class="pill">Dimension (with a self-referencing hierarchy)</span></h3>
+<p class="table-meta"><strong>Rows:</strong> 180 employees across 10 business units and 25 offices &nbsp;|&nbsp; <strong>Model role:</strong> The staffing dimension. ManagerID refers back to EmployeeID in the same table, building a parent-child org hierarchy - a distinct relationship pattern from a normal dimension-to-fact link.</p>
+<table><tr><th style="width:18%">Column</th><th style="width:14%">Data type</th><th>Description</th></tr>
+<tr><td><code>EmployeeID</code></td><td>Text</td><td>Unique key, format EMP0001. Relationship key from Fact_Enrollments and Fact_Feedback, and the &#x27;one&#x27; side of the self-referencing hierarchy.</td></tr>
+<tr><td><code>FullName</code></td><td>Text</td><td>Employee display name.</td></tr>
+<tr><td><code>BusinessUnit</code></td><td>Text</td><td>One of 10 business units (Finance, HR, IT, Sales &amp; Commercial, Marketing, Operations &amp; Supply Chain, Legal &amp; Compliance, Customer Service, R&amp;D, Manufacturing).</td></tr>
+<tr><td><code>JobLevel</code></td><td>Text</td><td>Staff, Senior Staff, Manager, Senior Manager, Director or Executive. Drives eligibility for leadership programs and the org hierarchy depth.</td></tr>
+<tr><td><code>LocationID</code></td><td>Text</td><td>Foreign key to Dim_Locations - where the employee is based.</td></tr>
+<tr><td><code>HireDate</code></td><td>Date</td><td>Date the employee joined. Used to compute tenure and to check onboarding-program timing.</td></tr>
+<tr><td><code>EmploymentStatus</code></td><td>Text</td><td>Active or Inactive. Used to exclude former staff from current training-completion measures.</td></tr>
+<tr><td><code>ManagerID</code></td><td>Text</td><td>EmployeeID of this employee&#x27;s manager, blank for the most senior Executives. The self-referencing relationship key used to build &#x27;Direct Reports&#x27; measures and org-hierarchy visuals.</td></tr>
+</table>
+<h3 class="table-title">Dim_Trainers <span class="pill">Dimension</span></h3>
+<p class="table-meta"><strong>Rows:</strong> 42 trainers (internal facilitators and external vendors) &nbsp;|&nbsp; <strong>Model role:</strong> One row per trainer/facilitator. Connects to Fact_Sessions.</p>
+<table><tr><th style="width:18%">Column</th><th style="width:14%">Data type</th><th>Description</th></tr>
+<tr><td><code>TrainerID</code></td><td>Text</td><td>Unique key, format TR001. Relationship key to Fact_Sessions.</td></tr>
+<tr><td><code>TrainerName</code></td><td>Text</td><td>Trainer display name.</td></tr>
+<tr><td><code>TrainerType</code></td><td>Text</td><td>Internal or External Vendor. Used to compare cost and rating between in-house and outsourced delivery.</td></tr>
+<tr><td><code>Specialization</code></td><td>Text</td><td>The specific subject the trainer delivers, e.g. Data Privacy &amp; GDPR, Executive Coaching.</td></tr>
+<tr><td><code>TrainingTypeFocus</code></td><td>Text</td><td>Which of the four training types (Compliance, Onboarding, L&amp;D, Leadership) this trainer mainly delivers.</td></tr>
+</table>
+<h3 class="table-title">Dim_TrainingPrograms <span class="pill">Dimension</span></h3>
+<p class="table-meta"><strong>Rows:</strong> 27 training programs across 4 training types &nbsp;|&nbsp; <strong>Model role:</strong> The course catalogue. Connects to Fact_Sessions and Fact_Enrollments.</p>
+<table><tr><th style="width:18%">Column</th><th style="width:14%">Data type</th><th>Description</th></tr>
+<tr><td><code>ProgramID</code></td><td>Text</td><td>Unique key, format PRG001. Relationship key to Fact_Sessions and Fact_Enrollments.</td></tr>
+<tr><td><code>ProgramName</code></td><td>Text</td><td>Course title, e.g. Data Privacy &amp; GDPR Essentials, Strategic Leadership Program.</td></tr>
+<tr><td><code>TrainingType</code></td><td>Text</td><td>Compliance, Onboarding, L&amp;D or Leadership. The main way the whole training catalogue is sliced.</td></tr>
+<tr><td><code>DeliveryMode</code></td><td>Text</td><td>In-Person, Virtual Live, Self-Paced or Blended.</td></tr>
+<tr><td><code>ProviderType</code></td><td>Text</td><td>Internal or External Vendor - who owns/develops the course content.</td></tr>
+<tr><td><code>DurationHours</code></td><td>Decimal Number</td><td>Length of the course in hours. Used to compute total training hours delivered.</td></tr>
+<tr><td><code>Mandatory</code></td><td>Text (Yes/No)</td><td>Whether the course is compulsory. All Compliance and Onboarding courses are mandatory by design.</td></tr>
+<tr><td><code>TargetAudience</code></td><td>Text</td><td>Who the course is intended for, e.g. All Staff, New Hires, Managers &amp; Above, Directors &amp; Above.</td></tr>
+<tr><td><code>CostPerParticipant_USD</code></td><td>Decimal Number</td><td>Budgeted cost per participant, used with session attendance to estimate delivered cost.</td></tr>
+</table>
+<h3 class="table-title">Fact_Sessions <span class="pill">Fact (grain: one delivered session/cohort)</span></h3>
+<p class="table-meta"><strong>Rows:</strong> 254 rows &nbsp;|&nbsp; <strong>Model role:</strong> One row per training session actually run. Sits between the course catalogue and individual enrollments, and is itself a parent of Fact_Enrollments.</p>
+<table><tr><th style="width:18%">Column</th><th style="width:14%">Data type</th><th>Description</th></tr>
+<tr><td><code>SessionID</code></td><td>Text</td><td>Unique key for the session. Relationship key to Fact_Enrollments.</td></tr>
+<tr><td><code>ProgramID</code></td><td>Text</td><td>Foreign key to Dim_TrainingPrograms - which course this session delivers.</td></tr>
+<tr><td><code>TrainerID</code></td><td>Text</td><td>Foreign key to Dim_Trainers - who delivered the session.</td></tr>
+<tr><td><code>LocationID</code></td><td>Text</td><td>Foreign key to Dim_Locations - where the session was held.</td></tr>
+<tr><td><code>SessionDate</code></td><td>Date</td><td>Date the session ran. Foreign key to Dim_Date.</td></tr>
+<tr><td><code>Modality</code></td><td>Text</td><td>How the session was actually delivered: In-Person, Virtual Live or Self-Paced.</td></tr>
+<tr><td><code>Capacity</code></td><td>Whole Number</td><td>Maximum seats available for the session.</td></tr>
+<tr><td><code>ActualAttendance</code></td><td>Whole Number</td><td>Number of employees who actually attended. Compared against Capacity for the attendance-rate measure.</td></tr>
+<tr><td><code>SessionCostUSD</code></td><td>Decimal Number</td><td>Actual delivered cost of the session (trainer fees, materials, venue where applicable).</td></tr>
+</table>
+<h3 class="table-title">Fact_Enrollments <span class="pill">Fact (grain: one employee enrolled in one session)</span></h3>
+<p class="table-meta"><strong>Rows:</strong> 5,993 rows &nbsp;|&nbsp; <strong>Model role:</strong> The most granular and most important table in the model - every training completion, compliance deadline and certification expiry lives here.</p>
+<table><tr><th style="width:18%">Column</th><th style="width:14%">Data type</th><th>Description</th></tr>
+<tr><td><code>EnrollmentID</code></td><td>Text</td><td>Unique key for the enrollment record.</td></tr>
+<tr><td><code>EmployeeID</code></td><td>Text</td><td>Foreign key to Dim_Employees - who enrolled.</td></tr>
+<tr><td><code>ProgramID</code></td><td>Text</td><td>Foreign key to Dim_TrainingPrograms - which course.</td></tr>
+<tr><td><code>SessionID</code></td><td>Text</td><td>Foreign key to Fact_Sessions - which specific session/cohort.</td></tr>
+<tr><td><code>EnrollmentDate</code></td><td>Date</td><td>Date the employee enrolled. The default active relationship to Dim_Date.</td></tr>
+<tr><td><code>DueDate</code></td><td>Date</td><td>Compliance/onboarding completion deadline, blank for optional L&amp;D and Leadership courses. An inactive relationship to Dim_Date, activated with USERELATIONSHIP.</td></tr>
+<tr><td><code>CompletionDate</code></td><td>Date</td><td>Date the employee actually completed the course, blank if not yet completed. Also an inactive relationship to Dim_Date.</td></tr>
+<tr><td><code>Status</code></td><td>Text</td><td>Not Started, In Progress, Completed or Failed.</td></tr>
+<tr><td><code>Score</code></td><td>Decimal Number</td><td>Assessment score, populated for Compliance courses that end in a quiz, blank otherwise.</td></tr>
+<tr><td><code>CertificationExpiryDate</code></td><td>Date</td><td>For completed Compliance enrollments, the date the certification lapses and must be renewed (one year after completion), blank otherwise.</td></tr>
+<tr><td><code>CompletionMethod</code></td><td>Text</td><td>How the training was delivered/consumed for this enrollment: In-Person, Virtual Live or Self-Paced.</td></tr>
+</table>
+<h3 class="table-title">Fact_Feedback <span class="pill">Fact (grain: one post-training survey response)</span></h3>
+<p class="table-meta"><strong>Rows:</strong> 3,755 rows &nbsp;|&nbsp; <strong>Model role:</strong> Post-training evaluation scores. Links back to Fact_Enrollments on EnrollmentID (a one-to-one relationship) as well as directly to Dim_Employees and Dim_TrainingPrograms.</p>
+<table><tr><th style="width:18%">Column</th><th style="width:14%">Data type</th><th>Description</th></tr>
+<tr><td><code>FeedbackID</code></td><td>Text</td><td>Unique key for the feedback record.</td></tr>
+<tr><td><code>EnrollmentID</code></td><td>Text</td><td>Foreign key to Fact_Enrollments - the specific enrollment this feedback relates to. One enrollment has at most one feedback row (one-to-one).</td></tr>
+<tr><td><code>EmployeeID</code></td><td>Text</td><td>Foreign key to Dim_Employees - who submitted the feedback.</td></tr>
+<tr><td><code>ProgramID</code></td><td>Text</td><td>Foreign key to Dim_TrainingPrograms - which course the feedback is about.</td></tr>
+<tr><td><code>SubmittedDate</code></td><td>Date</td><td>Date the survey was submitted. Foreign key to Dim_Date.</td></tr>
+<tr><td><code>SatisfactionScore</code></td><td>Whole Number</td><td>Overall satisfaction, 1 (low) to 5 (high).</td></tr>
+<tr><td><code>TrainerRating</code></td><td>Whole Number</td><td>Rating of the trainer/facilitator, 1 to 5.</td></tr>
+<tr><td><code>ContentRelevanceScore</code></td><td>Whole Number</td><td>How relevant the content was to the employee&#x27;s role, 1 to 5.</td></tr>
+<tr><td><code>WouldRecommend</code></td><td>Text (Yes/No)</td><td>Whether the employee would recommend the course to a colleague.</td></tr>
+</table>
+<h3 class="table-title">Fact_Budget <span class="pill">Fact (grain: one region/training-type/month)</span></h3>
+<p class="table-meta"><strong>Rows:</strong> 1,056 rows &nbsp;|&nbsp; <strong>Model role:</strong> Planned vs actual training spend by region, training type and month.</p>
+<table><tr><th style="width:18%">Column</th><th style="width:14%">Data type</th><th>Description</th></tr>
+<tr><td><code>BudgetLineID</code></td><td>Text</td><td>Unique key for the budget line.</td></tr>
+<tr><td><code>Region</code></td><td>Text</td><td>One of the 5 regions from Dim_Locations. Note: joined to Dim_Locations by value, not by a location key - see Section 4 for how this is modelled.</td></tr>
+<tr><td><code>TrainingType</code></td><td>Text</td><td>Compliance, Onboarding, L&amp;D or Leadership.</td></tr>
+<tr><td><code>Month</code></td><td>Date</td><td>First day of the month the budget line applies to. Foreign key to Dim_Date.</td></tr>
+<tr><td><code>PlannedBudget_USD</code></td><td>Decimal Number</td><td>Budgeted spend for that region/training type/month.</td></tr>
+<tr><td><code>ActualSpend_USD</code></td><td>Decimal Number</td><td>Actual spend incurred, compared against PlannedBudget_USD for variance.</td></tr>
+</table>
+</section>
+<section id="pq-tasks"><h2 class="section-title">2. Data loading tasks (Power Query)</h2>
+<p class="section-intro">The Excel workbook is already clean - your job is to load all nine sheets correctly, set the right data types, and prepare the model. Attempt each task below yourself before checking the Solutions HTML file.</p>
+<div class="task-card"><div class="tnum">Task 1 - Dim_Date</div><p>Load the sheet, confirm Date is typed as Date (not Date/Time), and mark this table as a Date Table on the Date column.</p></div>
+<div class="task-card"><div class="tnum">Task 2 - Dim_Locations</div><p>Load the sheet and confirm every column is typed as Text.</p></div>
+<div class="task-card"><div class="tnum">Task 3 - Dim_Employees</div><p>Load the sheet, confirm HireDate is typed as Date, and leave ManagerID as Text even though some values are blank.</p></div>
+<div class="task-card"><div class="tnum">Task 4 - Dim_Trainers</div><p>Load the sheet and confirm every column is typed as Text.</p></div>
+<div class="task-card"><div class="tnum">Task 5 - Dim_TrainingPrograms</div><p>Load the sheet and set DurationHours and CostPerParticipant_USD to the correct numeric types.</p></div>
+<div class="task-card"><div class="tnum">Task 6 - Fact_Sessions</div><p>Load the sheet, set SessionDate to Date, and Capacity/ActualAttendance/SessionCostUSD to the correct numeric types.</p></div>
+<div class="task-card"><div class="tnum">Task 7 - Fact_Enrollments</div><p>Load the sheet, set all four date columns correctly, and confirm Score and CertificationExpiryDate are allowed to be blank.</p></div>
+<div class="task-card"><div class="tnum">Task 8 - Fact_Feedback</div><p>Load the sheet, set SubmittedDate to Date, and the three score columns to Whole Number.</p></div>
+<div class="task-card"><div class="tnum">Task 9 - Fact_Budget</div><p>Load the sheet and set Month to Date and the two cost columns to Decimal Number.</p></div>
+</section>
+<section id="rel-tasks"><h2 class="section-title">3. Relationship-building tasks</h2>
+<p class="section-intro">Below is the full list of relationships this model needs, with their intended cardinality and whether they should be active or inactive. Build the model in Power BI's Model view before checking your work against the Solutions file.</p>
+<table><tr><th>From</th><th>To</th><th>Cardinality</th><th>Cross-filter</th><th>Active by default?</th></tr>
+<tr><td><code>Dim_Date[Date]</code></td><td><code>Fact_Enrollments[EnrollmentDate]</code></td><td>1:*</td><td>Single</td><td>Yes</td></tr>
+<tr><td><code>Dim_Date[Date]</code></td><td><code>Fact_Enrollments[DueDate]</code></td><td>1:*</td><td>Single</td><td>No (use USERELATIONSHIP)</td></tr>
+<tr><td><code>Dim_Date[Date]</code></td><td><code>Fact_Enrollments[CompletionDate]</code></td><td>1:*</td><td>Single</td><td>No (use USERELATIONSHIP)</td></tr>
+<tr><td><code>Dim_Date[Date]</code></td><td><code>Fact_Sessions[SessionDate]</code></td><td>1:*</td><td>Single</td><td>Yes</td></tr>
+<tr><td><code>Dim_Date[Date]</code></td><td><code>Fact_Feedback[SubmittedDate]</code></td><td>1:*</td><td>Single</td><td>Yes</td></tr>
+<tr><td><code>Dim_Date[Date]</code></td><td><code>Fact_Budget[Month]</code></td><td>1:*</td><td>Single</td><td>Yes</td></tr>
+<tr><td><code>Dim_Locations[LocationID]</code></td><td><code>Dim_Employees[LocationID]</code></td><td>1:*</td><td>Single</td><td>Yes</td></tr>
+<tr><td><code>Dim_Locations[LocationID]</code></td><td><code>Fact_Sessions[LocationID]</code></td><td>1:*</td><td>Single</td><td>Yes</td></tr>
+<tr><td><code>Dim_Employees[EmployeeID]</code></td><td><code>Dim_Employees[ManagerID]</code></td><td>1:*</td><td>Single</td><td>Yes</td></tr>
+<tr><td><code>Dim_Employees[EmployeeID]</code></td><td><code>Fact_Enrollments[EmployeeID]</code></td><td>1:*</td><td>Single</td><td>Yes</td></tr>
+<tr><td><code>Dim_Employees[EmployeeID]</code></td><td><code>Fact_Feedback[EmployeeID]</code></td><td>1:*</td><td>Single</td><td>Yes</td></tr>
+<tr><td><code>Dim_Trainers[TrainerID]</code></td><td><code>Fact_Sessions[TrainerID]</code></td><td>1:*</td><td>Single</td><td>Yes</td></tr>
+<tr><td><code>Dim_TrainingPrograms[ProgramID]</code></td><td><code>Fact_Sessions[ProgramID]</code></td><td>1:*</td><td>Single</td><td>Yes</td></tr>
+<tr><td><code>Dim_TrainingPrograms[ProgramID]</code></td><td><code>Fact_Enrollments[ProgramID]</code></td><td>1:*</td><td>Single</td><td>Yes</td></tr>
+<tr><td><code>Dim_TrainingPrograms[ProgramID]</code></td><td><code>Fact_Feedback[ProgramID]</code></td><td>1:*</td><td>Single</td><td>Yes</td></tr>
+<tr><td><code>Fact_Sessions[SessionID]</code></td><td><code>Fact_Enrollments[SessionID]</code></td><td>1:*</td><td>Single</td><td>Yes</td></tr>
+<tr><td><code>Fact_Enrollments[EnrollmentID]</code></td><td><code>Fact_Feedback[EnrollmentID]</code></td><td>1:1</td><td>Single</td><td>Yes</td></tr>
+</table>
+<div class="callout"><strong>Think about it:</strong> Dim_Date connects to Fact_Enrollments three different ways (EnrollmentDate, DueDate, CompletionDate). Why can Power BI only make one of these active at a time, and what DAX function lets a measure use one of the inactive ones anyway? And separately - Dim_Employees has a relationship pointing back at itself (EmployeeID to ManagerID). What real-world structure does that model, and what DAX function would you use to count a manager's direct reports? Work out your answers, then confirm them in the Solutions file and the Word manual.</div>
+<ol class="checklist">
+<li>Build the core one-to-many relationships: Dim_Locations to Dim_Employees and Fact_Sessions; Dim_Trainers to Fact_Sessions; Dim_TrainingPrograms to Fact_Sessions, Fact_Enrollments and Fact_Feedback; Fact_Sessions to Fact_Enrollments.</li>
+<li>Build the self-referencing relationship inside Dim_Employees, from EmployeeID (one) to ManagerID (many), to enable the org hierarchy.</li>
+<li>Connect Dim_Date to Fact_Enrollments[EnrollmentDate], Fact_Sessions[SessionDate], Fact_Feedback[SubmittedDate] and Fact_Budget[Month] as the four active date relationships.</li>
+<li>Add the two additional Fact_Enrollments date relationships (DueDate and CompletionDate) and leave them inactive - Power BI will grey these out automatically once EnrollmentDate is active.</li>
+<li>Build the one-to-one relationship between Fact_Enrollments[EnrollmentID] and Fact_Feedback[EnrollmentID], and confirm Power BI reports its cardinality as One-to-One in the relationship properties panel.</li>
+<li>Confirm every one-to-many relationship reads One-to-Many with the 1 on the dimension side, and cross filter direction is Single, before moving on to the DAX measures.</li>
+</ol></section>
+<section id="dax-tasks"><h2 class="section-title">4. DAX measures to build</h2>
+<p class="section-intro">For every measure below, write the DAX yourself first. Only the measure name and what it should return/drive are given here - the full formula, line-by-line explanation and dashboard impact are in the Solutions HTML file and the Word manual.</p>
+<ol class="checklist">
+<li>Create a dedicated Measures table (a blank table with no columns from any source) to hold every DAX measure, keeping the model organised.</li>
+<li>Build the 7 foundational measures (Total Employees, Total Enrollments, Employees Trained, Overall Completion Rate %, Total Training Hours Delivered, Total Training Spend, Average Satisfaction Score).</li>
+<li>Build the 6 compliance measures, including the two USERELATIONSHIP measures for DueDate and CompletionDate.</li>
+<li>Build the 5 program &amp; session measures, including the RANKX-based Program Enrollment Rank.</li>
+<li>Build the 5 budget &amp; cost measures, including the DATEADD time-intelligence measure - this requires Dim_Date to already be marked as a Date Table.</li>
+<li>Build the 5 employee development &amp; feedback measures, including the RELATEDTABLE-based Direct Reports measure that uses the self-referencing hierarchy.</li>
+</ol>
+<div class="group-title">Foundational measures (used across every page)</div>
+<div class="measure-card">
+<h4>Total Employees</h4>
+<div class="todo"><strong>Your task:</strong> Write a DAX measure called <code>Total Employees</code>. Impact once built: Headcount KPI card and the denominator for several coverage-rate measures across the whole report.</div>
+</div>
+<div class="measure-card">
+<h4>Total Enrollments</h4>
+<div class="todo"><strong>Your task:</strong> Write a DAX measure called <code>Total Enrollments</code>. Impact once built: Base measure for completion rate and enrollment-volume visuals across the whole report.</div>
+</div>
+<div class="measure-card">
+<h4>Employees Trained (Distinct)</h4>
+<div class="todo"><strong>Your task:</strong> Write a DAX measure called <code>Employees Trained (Distinct)</code>. Impact once built: Executive Overview KPI card - the headline reach metric for the whole training function.</div>
+</div>
+<div class="measure-card">
+<h4>Overall Completion Rate %</h4>
+<div class="todo"><strong>Your task:</strong> Write a DAX measure called <code>Overall Completion Rate %</code>. Impact once built: Headline KPI card on the Executive Overview page.</div>
+</div>
+<div class="measure-card">
+<h4>Total Training Hours Delivered</h4>
+<div class="todo"><strong>Your task:</strong> Write a DAX measure called <code>Total Training Hours Delivered</code>. Impact once built: Training-hours KPI card and trend line on the Executive Overview page.</div>
+</div>
+<div class="measure-card">
+<h4>Total Training Spend</h4>
+<div class="todo"><strong>Your task:</strong> Write a DAX measure called <code>Total Training Spend</code>. Impact once built: Financial KPI cards across the Executive Overview and Budget &amp; Cost Analysis pages.</div>
+</div>
+<div class="measure-card">
+<h4>Average Satisfaction Score</h4>
+<div class="todo"><strong>Your task:</strong> Write a DAX measure called <code>Average Satisfaction Score</code>. Impact once built: Headline experience KPI on the Executive Overview and Employee Development &amp; Feedback pages.</div>
+</div>
+<div class="group-title">Compliance training measures</div>
+<div class="measure-card">
+<h4>Compliance Enrollments</h4>
+<div class="todo"><strong>Your task:</strong> Write a DAX measure called <code>Compliance Enrollments</code>. Impact once built: Denominator for Compliance Completion Rate % and the Compliance Enrollments KPI card.</div>
+</div>
+<div class="measure-card">
+<h4>Compliance Completion Rate %</h4>
+<div class="todo"><strong>Your task:</strong> Write a DAX measure called <code>Compliance Completion Rate %</code>. Impact once built: The single most-watched number on the Compliance Training Tracking page - regulators and auditors care about this figure directly.</div>
+</div>
+<div class="measure-card">
+<h4>Overdue Compliance Trainings</h4>
+<div class="todo"><strong>Your task:</strong> Write a DAX measure called <code>Overdue Compliance Trainings</code>. Impact once built: The most important red-alert KPI on the Compliance Training Tracking page, and drives the &#x27;Overdue by Employee&#x27; action table.</div>
+</div>
+<div class="measure-card">
+<h4>Certifications Expiring in 30 Days</h4>
+<div class="todo"><strong>Your task:</strong> Write a DAX measure called <code>Certifications Expiring in 30 Days</code>. Impact once built: Forward-looking KPI on the Compliance Training Tracking page - drives proactive renewal reminders before a lapse occurs.</div>
+</div>
+<div class="measure-card">
+<h4>Completions This Month (by Completion Date)</h4>
+<div class="todo"><strong>Your task:</strong> Write a DAX measure called <code>Completions This Month (by Completion Date)</code>. Impact once built: The line chart on the Compliance Training Tracking page showing when training actually gets finished, as opposed to when it was assigned.</div>
+</div>
+<div class="measure-card">
+<h4>Trainings Due This Period</h4>
+<div class="todo"><strong>Your task:</strong> Write a DAX measure called <code>Trainings Due This Period</code>. Impact once built: Forward-planning line/column chart on the Compliance Training Tracking page, showing upcoming compliance workload by month.</div>
+</div>
+<div class="group-title">Program &amp; session measures</div>
+<div class="measure-card">
+<h4>Total Sessions</h4>
+<div class="todo"><strong>Your task:</strong> Write a DAX measure called <code>Total Sessions</code>. Impact once built: Delivery-volume KPI card on the Program &amp; Session Analytics page.</div>
+</div>
+<div class="measure-card">
+<h4>Average Attendance Rate %</h4>
+<div class="todo"><strong>Your task:</strong> Write a DAX measure called <code>Average Attendance Rate %</code>. Impact once built: Utilisation KPI and gauge on the Program &amp; Session Analytics page.</div>
+</div>
+<div class="measure-card">
+<h4>Cost Per Trainee</h4>
+<div class="todo"><strong>Your task:</strong> Write a DAX measure called <code>Cost Per Trainee</code>. Impact once built: Efficiency KPI on the Program &amp; Session Analytics page, and the y-axis of the cost-vs-attendance scatter chart.</div>
+</div>
+<div class="measure-card">
+<h4>Program Enrollment Rank</h4>
+<div class="todo"><strong>Your task:</strong> Write a DAX measure called <code>Program Enrollment Rank</code>. Impact once built: Powers the &#x27;Top Programs by Enrollment&#x27; bar chart&#x27;s sort order and an optional rank column in the program table on the Program &amp; Session Analytics page.</div>
+</div>
+<div class="measure-card">
+<h4>Self-Paced Share %</h4>
+<div class="todo"><strong>Your task:</strong> Write a DAX measure called <code>Self-Paced Share %</code>. Impact once built: Callout on the Program &amp; Session Analytics page highlighting how much training is self-service versus facilitator-led.</div>
+</div>
+<div class="group-title">Budget &amp; cost measures</div>
+<div class="measure-card">
+<h4>Total Planned Budget</h4>
+<div class="todo"><strong>Your task:</strong> Write a DAX measure called <code>Total Planned Budget</code>. Impact once built: Budget KPI cards and the Planned vs Actual chart on the Budget &amp; Cost Analysis page.</div>
+</div>
+<div class="measure-card">
+<h4>Budget Variance</h4>
+<div class="todo"><strong>Your task:</strong> Write a DAX measure called <code>Budget Variance</code>. Impact once built: Conditional-formatted KPI card and the &#x27;variance by region&#x27; visual.</div>
+</div>
+<div class="measure-card">
+<h4>Budget Variance %</h4>
+<div class="todo"><strong>Your task:</strong> Write a DAX measure called <code>Budget Variance %</code>. Impact once built: Colour/data-label field on the Budget &amp; Cost Analysis matrix visual.</div>
+</div>
+<div class="measure-card">
+<h4>Cost Per Employee Trained</h4>
+<div class="todo"><strong>Your task:</strong> Write a DAX measure called <code>Cost Per Employee Trained</code>. Impact once built: Efficiency KPI comparing regions/business units on the Budget &amp; Cost Analysis page.</div>
+</div>
+<div class="measure-card">
+<h4>MoM Actual Spend Change</h4>
+<div class="todo"><strong>Your task:</strong> Write a DAX measure called <code>MoM Actual Spend Change</code>. Impact once built: Month-over-month trend arrow on the Budget &amp; Cost Analysis KPI strip.</div>
+</div>
+<div class="group-title">Employee development &amp; feedback measures</div>
+<div class="measure-card">
+<h4>Average Trainer Rating</h4>
+<div class="todo"><strong>Your task:</strong> Write a DAX measure called <code>Average Trainer Rating</code>. Impact once built: Trainer-performance KPI and the trainer-comparison table on the Employee Development &amp; Feedback page.</div>
+</div>
+<div class="measure-card">
+<h4>Would Recommend %</h4>
+<div class="todo"><strong>Your task:</strong> Write a DAX measure called <code>Would Recommend %</code>. Impact once built: Headline experience KPI on the Employee Development &amp; Feedback page.</div>
+</div>
+<div class="measure-card">
+<h4>Leadership Program Participation</h4>
+<div class="todo"><strong>Your task:</strong> Write a DAX measure called <code>Leadership Program Participation</code>. Impact once built: KPI card and the &#x27;Leadership Participation by Business Unit&#x27; bar chart.</div>
+</div>
+<div class="measure-card">
+<h4>Average Training Hours per Employee</h4>
+<div class="todo"><strong>Your task:</strong> Write a DAX measure called <code>Average Training Hours per Employee</code>. Impact once built: Bar chart comparing training investment per employee across business units on the Employee Development &amp; Feedback page.</div>
+</div>
+<div class="measure-card">
+<h4>Direct Reports</h4>
+<div class="todo"><strong>Your task:</strong> Write a DAX measure called <code>Direct Reports</code>. Impact once built: Manager span-of-control column in the org-hierarchy table on the Employee Development &amp; Feedback page.</div>
+</div>
+</section>
+<section id="dashboard-tasks"><h2 class="section-title">5. Dashboards to build (titles and chart briefs)</h2>
+<p class="section-intro">Build five report pages using the exact titles below. For each page, build every listed visual using the fields shown - the chart type is given, but experiment with the layout before comparing it against the Solutions file screen-by-screen description.</p>
+<div class="page-card">
+<h4>Page 1 - Executive L&amp;D Overview</h4>
+<p class="purpose">A one-screen health check of the entire global training function for senior HR and executive stakeholders.</p>
+<div class="chart-row">
+<span class="ctype">KPI cards</span><span class="ctitle">Total Employees / Employees Trained / Overall Completion Rate % / Avg Satisfaction</span>
+<p style="margin:6px 0 0;font-size:.87rem;"><strong>Fields:</strong> [Total Employees], [Employees Trained (Distinct)], [Overall Completion Rate %], [Average Satisfaction Score]</p>
+</div>
+<div class="chart-row">
+<span class="ctype">Donut chart</span><span class="ctitle">Enrollments by Training Type</span>
+<p style="margin:6px 0 0;font-size:.87rem;"><strong>Fields:</strong> Legend: Dim_TrainingPrograms[TrainingType]. Values: [Total Enrollments]</p>
+</div>
+<div class="chart-row">
+<span class="ctype">Clustered bar chart</span><span class="ctitle">Employees Trained by Business Unit</span>
+<p style="margin:6px 0 0;font-size:.87rem;"><strong>Fields:</strong> Axis: Dim_Employees[BusinessUnit]. Values: [Employees Trained (Distinct)], sorted descending</p>
+</div>
+<div class="chart-row">
+<span class="ctype">Filled map</span><span class="ctitle">Training Reach by Country</span>
+<p style="margin:6px 0 0;font-size:.87rem;"><strong>Fields:</strong> Location: Dim_Locations[Country]. Values: [Employees Trained (Distinct)]</p>
+</div>
+<div class="chart-row">
+<span class="ctype">Line chart</span><span class="ctitle">Training Hours Delivered Trend</span>
+<p style="margin:6px 0 0;font-size:.87rem;"><strong>Fields:</strong> Axis: Dim_Date[MonthYear]. Values: [Total Training Hours Delivered]</p>
+</div>
+</div>
+<div class="page-card">
+<h4>Page 2 - Compliance Training Tracking</h4>
+<p class="purpose">Operational and regulatory view for Legal &amp; Compliance and HR to track mandatory training deadlines and certification renewals.</p>
+<div class="chart-row">
+<span class="ctype">KPI cards</span><span class="ctitle">Compliance Completion Rate % / Overdue Compliance / Certs Expiring in 30 Days / Compliance Enrollments</span>
+<p style="margin:6px 0 0;font-size:.87rem;"><strong>Fields:</strong> [Compliance Completion Rate %], [Overdue Compliance Trainings], [Certifications Expiring in 30 Days], [Compliance Enrollments]</p>
+</div>
+<div class="chart-row">
+<span class="ctype">Stacked bar chart</span><span class="ctitle">Compliance Status by Business Unit</span>
+<p style="margin:6px 0 0;font-size:.87rem;"><strong>Fields:</strong> Axis: Dim_Employees[BusinessUnit]. Legend: Fact_Enrollments[Status]. Values: [Compliance Enrollments]</p>
+</div>
+<div class="chart-row">
+<span class="ctype">Table</span><span class="ctitle">Overdue Compliance Trainings by Employee</span>
+<p style="margin:6px 0 0;font-size:.87rem;"><strong>Fields:</strong> Rows: Dim_Employees[FullName], Dim_Employees[BusinessUnit]. Values: [Overdue Compliance Trainings], sorted descending, filtered to &gt; 0</p>
+</div>
+<div class="chart-row">
+<span class="ctype">Line chart</span><span class="ctitle">Completions vs Due Trend</span>
+<p style="margin:6px 0 0;font-size:.87rem;"><strong>Fields:</strong> Axis: Dim_Date[MonthYear]. Values: [Completions This Month (by Completion Date)], [Trainings Due This Period]</p>
+</div>
+<div class="chart-row">
+<span class="ctype">Matrix</span><span class="ctitle">Compliance Completion Rate % by Region and Program</span>
+<p style="margin:6px 0 0;font-size:.87rem;"><strong>Fields:</strong> Rows: Dim_Locations[Region] &gt; Dim_TrainingPrograms[ProgramName]. Values: [Compliance Completion Rate %], conditional formatted</p>
+</div>
+</div>
+<div class="page-card">
+<h4>Page 3 - Program &amp; Session Analytics</h4>
+<p class="purpose">Learning &amp; Development team&#x27;s operational view of how courses and sessions are actually performing.</p>
+<div class="chart-row">
+<span class="ctype">KPI cards</span><span class="ctitle">Total Sessions / Avg Attendance Rate % / Cost Per Trainee / Self-Paced Share %</span>
+<p style="margin:6px 0 0;font-size:.87rem;"><strong>Fields:</strong> [Total Sessions], [Average Attendance Rate %], [Cost Per Trainee], [Self-Paced Share %]</p>
+</div>
+<div class="chart-row">
+<span class="ctype">Bar chart</span><span class="ctitle">Top Programs by Enrollment</span>
+<p style="margin:6px 0 0;font-size:.87rem;"><strong>Fields:</strong> Axis: Dim_TrainingPrograms[ProgramName]. Values: [Total Enrollments]. Sort: [Program Enrollment Rank] ascending, Top 10 filter</p>
+</div>
+<div class="chart-row">
+<span class="ctype">Clustered column chart</span><span class="ctitle">Sessions by Delivery Modality</span>
+<p style="margin:6px 0 0;font-size:.87rem;"><strong>Fields:</strong> Axis: Fact_Sessions[Modality]. Values: [Total Sessions]</p>
+</div>
+<div class="chart-row">
+<span class="ctype">Scatter chart</span><span class="ctitle">Session Cost vs Attendance</span>
+<p style="margin:6px 0 0;font-size:.87rem;"><strong>Fields:</strong> X: SUM(Fact_Sessions[ActualAttendance]). Y: SUM(Fact_Sessions[SessionCostUSD]). Legend: Dim_TrainingPrograms[TrainingType]</p>
+</div>
+<div class="chart-row">
+<span class="ctype">Table</span><span class="ctitle">Trainer Performance Summary</span>
+<p style="margin:6px 0 0;font-size:.87rem;"><strong>Fields:</strong> Rows: Dim_Trainers[TrainerName], Dim_Trainers[TrainerType]. Values: [Total Sessions], [Average Trainer Rating]</p>
+</div>
+</div>
+<div class="page-card">
+<h4>Page 4 - Budget &amp; Cost Analysis</h4>
+<p class="purpose">Finance/L&amp;D leadership deep-dive comparing planned vs actual global training spend.</p>
+<div class="chart-row">
+<span class="ctype">KPI cards</span><span class="ctitle">Total Planned Budget / Total Training Spend / Budget Variance % / Cost Per Employee Trained</span>
+<p style="margin:6px 0 0;font-size:.87rem;"><strong>Fields:</strong> [Total Planned Budget], [Total Training Spend], [Budget Variance %], [Cost Per Employee Trained]</p>
+</div>
+<div class="chart-row">
+<span class="ctype">Gauge</span><span class="ctitle">Budget Utilization</span>
+<p style="margin:6px 0 0;font-size:.87rem;"><strong>Fields:</strong> Value: DIVIDE([Total Training Spend],[Total Planned Budget]). Target: 100%</p>
+</div>
+<div class="chart-row">
+<span class="ctype">Clustered column chart</span><span class="ctitle">Planned vs Actual Spend by Training Type</span>
+<p style="margin:6px 0 0;font-size:.87rem;"><strong>Fields:</strong> Axis: Dim_TrainingPrograms[TrainingType]. Values: [Total Planned Budget], [Total Training Spend]</p>
+</div>
+<div class="chart-row">
+<span class="ctype">Line chart</span><span class="ctitle">Monthly Actual Spend Trend with MoM Change</span>
+<p style="margin:6px 0 0;font-size:.87rem;"><strong>Fields:</strong> Axis: Dim_Date[MonthYear]. Values: [Total Training Spend]. Tooltip: [MoM Actual Spend Change]</p>
+</div>
+<div class="chart-row">
+<span class="ctype">Matrix</span><span class="ctitle">Budget Variance % by Region and Training Type</span>
+<p style="margin:6px 0 0;font-size:.87rem;"><strong>Fields:</strong> Rows: Dim_Locations[Region] &gt; Dim_TrainingPrograms[TrainingType]. Values: [Budget Variance %], conditional formatted</p>
+</div>
+</div>
+<div class="page-card">
+<h4>Page 5 - Employee Development &amp; Feedback</h4>
+<p class="purpose">HR and talent-development view of training quality, leadership-pipeline participation and manager span of control.</p>
+<div class="chart-row">
+<span class="ctype">KPI cards</span><span class="ctitle">Avg Satisfaction / Avg Trainer Rating / Would Recommend % / Leadership Participation</span>
+<p style="margin:6px 0 0;font-size:.87rem;"><strong>Fields:</strong> [Average Satisfaction Score], [Average Trainer Rating], [Would Recommend %], [Leadership Program Participation]</p>
+</div>
+<div class="chart-row">
+<span class="ctype">Bar chart</span><span class="ctitle">Average Satisfaction by Training Type</span>
+<p style="margin:6px 0 0;font-size:.87rem;"><strong>Fields:</strong> Axis: Dim_TrainingPrograms[TrainingType]. Values: [Average Satisfaction Score]</p>
+</div>
+<div class="chart-row">
+<span class="ctype">Table</span><span class="ctitle">Manager Span of Control and Team Compliance</span>
+<p style="margin:6px 0 0;font-size:.87rem;"><strong>Fields:</strong> Rows: Dim_Employees[FullName] (filtered to managers). Values: [Direct Reports], [Compliance Completion Rate %]</p>
+</div>
+<div class="chart-row">
+<span class="ctype">Line chart</span><span class="ctitle">Satisfaction Trend Over Time</span>
+<p style="margin:6px 0 0;font-size:.87rem;"><strong>Fields:</strong> Axis: Dim_Date[MonthYear]. Values: [Average Satisfaction Score]</p>
+</div>
+<div class="chart-row">
+<span class="ctype">Bar chart</span><span class="ctitle">Average Training Hours per Employee by Business Unit</span>
+<p style="margin:6px 0 0;font-size:.87rem;"><strong>Fields:</strong> Axis: Dim_Employees[BusinessUnit]. Values: [Average Training Hours per Employee]</p>
+</div>
+</div>
+<ol class="checklist">
+<li>Build Page 1 - Executive L&amp;D Overview with its 4 KPI cards, donut, bar, filled map and trend line.</li>
+<li>Build Page 2 - Compliance Training Tracking with its 4 KPI cards, stacked bar, action table, dual-line trend and drillable matrix.</li>
+<li>Build Page 3 - Program &amp; Session Analytics with its 4 KPI cards, ranked bar chart, modality column chart, scatter chart and trainer table.</li>
+<li>Build Page 4 - Budget &amp; Cost Analysis with its 4 KPI cards, gauge, category column chart, monthly trend line and drillable matrix.</li>
+<li>Build Page 5 - Employee Development &amp; Feedback with its 4 KPI cards, satisfaction bar chart, manager span-of-control table, trend line and per-head investment bar chart.</li>
+<li>Apply a consistent theme (colour palette, fonts, page background) and page-navigation buttons across all five pages, then test every visual&#x27;s cross-filtering by clicking through slicers on each page.</li>
+</ol></section>
+</main>
+<footer>Global Corporate Staff Training Analytics - Power BI Dashboard Training &middot; Prepared by Kajola Gbenga, Data Scientist &amp; AI Engineer &middot; Part 1 of 2 - Tasks &amp; Problems</footer>
+</body>
+</html>
