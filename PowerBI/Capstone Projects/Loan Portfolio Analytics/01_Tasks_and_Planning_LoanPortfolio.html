@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>NTMB Loan Portfolio Power BI Training - Tasks &amp; Planning Guide</title>
+<style>
+:root {
+  --navy: #1F3864;
+  --navy-dark: #14213D;
+  --teal: #0E7C7B;
+  --amber: #E8A33D;
+  --red: #C0392B;
+  --green: #1E8449;
+  --gray-bg: #F4F6F8;
+  --gray-border: #D9DEE4;
+  --text: #24292E;
+}
+* { box-sizing: border-box; }
+body {
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: var(--text);
+  background: var(--gray-bg);
+  line-height: 1.6;
+}
+.wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  background: #ffffff;
+  box-shadow: 0 0 24px rgba(0,0,0,0.08);
+}
+header.cover {
+  background: linear-gradient(135deg, var(--navy) 0%, var(--navy-dark) 100%);
+  color: #fff;
+  padding: 70px 60px 50px 60px;
+  position: relative;
+}
+header.cover .eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 13px;
+  color: var(--amber);
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+header.cover h1 {
+  font-size: 36px;
+  margin: 0 0 10px 0;
+  font-weight: 700;
+}
+header.cover .subtitle {
+  font-size: 17px;
+  color: #CFE0E8;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+header.cover .author-block {
+  border-top: 1px solid rgba(255,255,255,0.25);
+  padding-top: 20px;
+  margin-top: 30px;
+}
+header.cover .author-name {
+  font-size: 18px;
+  font-weight: 700;
+}
+header.cover .author-title {
+  font-size: 14px;
+  color: var(--amber);
+  font-style: italic;
+}
+nav.toc {
+  padding: 40px 60px;
+  background: #fff;
+  border-bottom: 1px solid var(--gray-border);
+}
+nav.toc h2 { color: var(--navy); font-size: 20px; margin-top: 0; }
+nav.toc ol { columns: 2; column-gap: 40px; padding-left: 20px; }
+nav.toc li { margin-bottom: 8px; break-inside: avoid; }
+nav.toc a { color: var(--teal); text-decoration: none; font-size: 14.5px; }
+nav.toc a:hover { text-decoration: underline; }
+
+main { padding: 10px 60px 60px 60px; }
+section { padding-top: 30px; }
+section h2 {
+  color: var(--navy);
+  font-size: 24px;
+  border-bottom: 3px solid var(--teal);
+  padding-bottom: 10px;
+  margin-top: 50px;
+}
+section h3 {
+  color: var(--teal);
+  font-size: 18px;
+  margin-top: 32px;
+  border-left: 4px solid var(--amber);
+  padding-left: 10px;
+}
+section h4 {
+  color: var(--navy-dark);
+  font-size: 15.5px;
+  margin-top: 22px;
+}
+p { margin: 10px 0; font-size: 15px; }
+.callout {
+  background: #EEF6F6;
+  border-left: 4px solid var(--teal);
+  padding: 14px 18px;
+  margin: 18px 0;
+  border-radius: 0 6px 6px 0;
+  font-size: 14.5px;
+}
+.callout.warning { background: #FDF3E9; border-left-color: var(--amber); }
+.callout.danger { background: #FBEBE9; border-left-color: var(--red); }
+.callout strong { color: var(--navy); }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 16px 0 28px 0;
+  font-size: 13.5px;
+}
+table caption {
+  text-align: left;
+  font-weight: 700;
+  color: var(--navy);
+  margin-bottom: 6px;
+  font-size: 15px;
+}
+th {
+  background: var(--navy);
+  color: #fff;
+  text-align: left;
+  padding: 9px 10px;
+  font-size: 13px;
+}
+td {
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--gray-border);
+  vertical-align: top;
+}
+tr:nth-child(even) td { background: #FAFBFC; }
+tr:hover td { background: #F0F7F7; }
+
+.table-tag {
+  display: inline-block;
+  background: var(--teal);
+  color: #fff;
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  margin: 20px 0 6px 0;
+}
+.table-tag.fact { background: var(--navy); }
+
+code, pre code {
+  font-family: "Consolas", "Courier New", monospace;
+}
+pre {
+  background: #1E1E1E;
+  color: #DCDCDC;
+  padding: 16px 18px;
+  border-radius: 8px;
+  overflow-x: auto;
+  font-size: 13.5px;
+  margin: 12px 0 20px 0;
+  line-height: 1.5;
+}
+pre .c { color: #6A9955; }
+code.inline {
+  background: #EDEFF2;
+  padding: 2px 6px;
+  border-radius: 4px;
+  color: #B23A48;
+  font-size: 13px;
+}
+
+.checklist { list-style: none; padding-left: 0; margin: 14px 0; }
+.checklist li {
+  padding: 8px 10px 8px 34px;
+  position: relative;
+  margin-bottom: 6px;
+  background: #fff;
+  border: 1px solid var(--gray-border);
+  border-radius: 6px;
+  font-size: 14.5px;
+}
+.checklist li::before {
+  content: "";
+  position: absolute;
+  left: 10px; top: 10px;
+  width: 15px; height: 15px;
+  border: 2px solid var(--teal);
+  border-radius: 3px;
+}
+.checklist li strong { color: var(--navy); }
+
+.badge {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 10px;
+  color: #fff;
+  margin-left: 8px;
+}
+.badge.group { background: var(--amber); color: #4A3200; }
+.badge.page { background: var(--navy); }
+
+.chart-card {
+  border: 1px solid var(--gray-border);
+  border-radius: 8px;
+  padding: 16px 20px;
+  margin: 14px 0;
+  background: #fff;
+}
+.chart-card h4 { margin-top: 0; color: var(--navy); }
+.chart-card .meta { font-size: 12.5px; color: #6B7885; margin-bottom: 8px; }
+.chart-card .why-note { background: #FFF9EE; border-left: 3px solid var(--amber); padding: 8px 12px; border-radius: 0 5px 5px 0; font-size: 13.5px; }
+
+.dax-card {
+  border: 1px solid var(--gray-border);
+  border-radius: 8px;
+  margin: 20px 0;
+  overflow: hidden;
+}
+.dax-card .dax-header {
+  background: var(--navy);
+  color: #fff;
+  padding: 10px 16px;
+  font-weight: 700;
+  font-size: 14.5px;
+}
+.dax-card .dax-body { padding: 4px 20px 16px 20px; }
+.dax-card .why { background: #FFF9EE; border-left: 3px solid var(--amber); padding: 10px 14px; margin-top: 10px; font-size: 13.8px; border-radius: 0 5px 5px 0;}
+.dax-card .impact { background: #EEF6F6; border-left: 3px solid var(--teal); padding: 10px 14px; margin-top: 10px; font-size: 13.8px; border-radius: 0 5px 5px 0;}
+
+.page-section {
+  border: 2px solid var(--navy);
+  border-radius: 10px;
+  margin: 26px 0;
+  overflow: hidden;
+}
+.page-section .page-title {
+  background: var(--navy);
+  color: #fff;
+  padding: 14px 20px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.page-section .page-purpose {
+  padding: 12px 20px 0 20px;
+  font-style: italic;
+  color: #555;
+}
+.page-body { padding: 6px 20px 18px 20px; }
+
+footer.pagefoot {
+  text-align: center;
+  padding: 30px;
+  color: #93A0AB;
+  font-size: 12.5px;
+  border-top: 1px solid var(--gray-border);
+}
+.tag-row { display:flex; gap:8px; flex-wrap:wrap; margin: 8px 0 18px 0; }
+.pill { background:#fff; border:1px solid var(--gray-border); border-radius: 16px; padding: 4px 12px; font-size: 12.5px; color: var(--navy); }
+
+.two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+@media (max-width: 800px) {
+  .two-col { grid-template-columns: 1fr; }
+  nav.toc ol { columns: 1; }
+}
+
+</style>
+</head>
+<body>
+<div class="wrapper">
+
+<header class="cover">
+  <div class="eyebrow">NovaTrust Microfinance Bank (NTMB) &middot; Power BI Training Program &middot; Document 1 of 2</div>
+  <h1>Loan Portfolio Analytics<br>Power BI Training - Tasks &amp; Planning Guide</h1>
+  <div class="subtitle">Comprehensive column reference, data-cleaning tasks, relationship tasks, DAX measure
+  tasks, and dashboard build tasks for a 5-page banking/fintech Power BI report.</div>
+  <div class="author-block">
+    <div class="author-name">Kajola Gbenga</div>
+    <div class="author-title">Data Scientist &amp; AI Engineer</div>
+  </div>
+</header>
+
+<div class="callout warning" style="margin:20px 60px;"><strong>Fictional company notice:</strong> NovaTrust Microfinance
+Bank (NTMB) is a fictional company invented solely for this training exercise. Every branch, customer, loan officer,
+application, loan, repayment, and collection record in this package is synthetic and randomly generated for teaching
+purposes - none of it describes any real bank, person, or financial event.</div>
+
+<nav class="toc">
+<h2>Table of Contents</h2>
+<ol>
+<li><a href="#overview">1. Program Overview &amp; Learning Objectives</a></li>
+<li><a href="#dataset">2. Dataset Structure at a Glance</a></li>
+<li><a href="#dictionary">3. Full Data Dictionary (every column, every table)</a></li>
+<li><a href="#cleaning">4. Tasks - Data Loading &amp; Power Query Cleaning</a></li>
+<li><a href="#relationships">5. Tasks - Data Model, Relationships &amp; Cardinality</a></li>
+<li><a href="#dax">6. Tasks - DAX Measures to Build</a></li>
+<li><a href="#dashboards">7. Tasks - Dashboard Pages to Build</a></li>
+<li><a href="#companion">8. How This Guide Connects to the Solution File</a></li>
+</ol>
+</nav>
+
+<main>
+
+<section id="overview">
+<h2>1. Program Overview &amp; Learning Objectives</h2>
+<p>This document is the first of two companion HTML files built around the <code class="inline">NTMB_Loan_Portfolio_Dataset.xlsx</code>
+workbook and its accompanying Word document. It is designed as a hands-on workbook: it tells you <em>what</em> needs to
+be done at every stage of a real Power BI project without giving away the finished answer. The second file,
+<code class="inline">02_Full_Solution_Walkthrough.html</code>, contains the complete worked solution.</p>
+<div class="tag-row">
+<span class="pill">9 tables</span><span class="pill">75+ columns</span><span class="pill">~39,000 total data rows</span>
+<span class="pill">25+ DAX measures</span><span class="pill">5 dashboard pages</span>
+</div>
+<p>By the end of this training, a student will be able to:</p>
+<ul class="checklist">
+<li>Explain the purpose and data type of every column in a realistic multi-table loan portfolio dataset.</li>
+<li>Import and clean a multi-sheet Excel data source in Power Query.</li>
+<li>Design a star-schema data model with a bridge fact table, and correctly assign cardinality and filter direction
+to every relationship.</li>
+<li>Explain why a table pair can only have one active relationship, and use USERELATIONSHIP to work around it - in
+two different fact tables that each have two dates.</li>
+<li>Write DAX measures spanning basic aggregation, CALCULATE-based filtering, time intelligence, SWITCH-based status
+logic, and USERELATIONSHIP.</li>
+<li>Design and build a 5-page Power BI report using industry-standard banking KPIs (NPL Ratio, PAR30/60/90,
+Collection Efficiency Ratio).</li>
+</ul>
+</section>
+
+<section id="dataset">
+<h2>2. Dataset Structure at a Glance</h2>
+<p>The workbook is a star schema with five dimension tables and four fact tables - and fact_Portfolio itself acts as
+a bridge table for fact_Repayments and fact_Collections.</p>
+<table>
+<caption>Tables in NTMB_Loan_Portfolio_Dataset.xlsx</caption>
+<tr><th>Table</th><th>Type</th><th>Row Count</th><th>Purpose</th></tr>
+<tr><td>dim_Date</td><td>Dimension</td><td>731</td><td>Calendar table, 2023-01-01 to 2024-12-31</td></tr>
+<tr><td>dim_Branch</td><td>Dimension</td><td>12</td><td>Bank branches and digital channels</td></tr>
+<tr><td>dim_Customer</td><td>Dimension</td><td>2,500</td><td>Customer/borrower master data</td></tr>
+<tr><td>dim_LoanOfficer</td><td>Dimension</td><td>60</td><td>Loan officer/credit staff master data</td></tr>
+<tr><td>dim_LoanProduct</td><td>Dimension</td><td>8</td><td>Loan products offered by the bank</td></tr>
+<tr><td>fact_Applications</td><td>Fact</td><td>6,000</td><td>Loan application/origination funnel</td></tr>
+<tr><td>fact_Portfolio</td><td>Fact</td><td>~3,147</td><td>Disbursed loans - the core fact table and bridge table</td></tr>
+<tr><td>fact_Repayments</td><td>Fact</td><td>~25,772</td><td>Individual repayment transactions</td></tr>
+<tr><td>fact_Collections</td><td>Fact</td><td>~1,908</td><td>Collections/recovery actions on delinquent loans</td></tr>
+</table>
+<div class="callout"><strong>Task 0.1</strong> - Before opening Power BI, sketch this star schema on paper. Note that
+fact_Applications and fact_Portfolio will each need <em>two</em> arrows to dim_Date.</div>
+</section>
+
+<section id="dictionary">
+<h2>3. Full Data Dictionary - Every Column, Every Table</h2>
+<p>Read this section slowly. A genuinely comprehensive understanding of every column is the single biggest predictor
+of whether the DAX and dashboard sections later in this guide will make sense.</p>
+<span class="table-tag ">Dimension Table</span>
+<h3>dim_Date <span style="font-weight:400;color:#6B7885;font-size:14px;">- 731 rows / 2023-01-01 to 2024-12-31</span></h3>
+<p>The calendar backbone of the model. Every fact table joins to it.</p>
+<table><caption>Column-by-column reference</caption><tr><th style="width:16%">Column</th><th style="width:16%">Data Type</th><th style="width:50%">Full Description</th><th style="width:18%">Example</th></tr>
+<tr><td><code class='inline'>DateKey</code></td><td>Integer (YYYYMMDD)</td><td>Surrogate key for the date table, formatted as an 8-digit integer. Used as the join key from every fact table to dim_Date.</td><td>20230115</td></tr>
+<tr><td><code class='inline'>Date</code></td><td>Date</td><td>The actual calendar date in Date format. This is the column marked as the official &#x27;Date Table&#x27; in Power BI.</td><td>2023-01-15</td></tr>
+<tr><td><code class='inline'>Year</code></td><td>Integer</td><td>Calendar year extracted from Date. Used for year-over-year comparisons and year slicers.</td><td>2023</td></tr>
+<tr><td><code class='inline'>Quarter</code></td><td>Text</td><td>Calendar quarter label (Q1-Q4), independent of year.</td><td>Q1</td></tr>
+<tr><td><code class='inline'>YearQuarter</code></td><td>Text</td><td>Concatenation of Year and Quarter for sorting/labeling on axes without ambiguity across years.</td><td>2023-Q1</td></tr>
+<tr><td><code class='inline'>MonthNumber</code></td><td>Integer</td><td>Numeric month (1-12), used to sort MonthName/MonthShort correctly in visuals.</td><td>1</td></tr>
+<tr><td><code class='inline'>MonthName</code></td><td>Text</td><td>Full month name, used as an axis/legend label.</td><td>January</td></tr>
+<tr><td><code class='inline'>MonthShort</code></td><td>Text</td><td>Abbreviated 3-letter month name for compact chart axes.</td><td>Jan</td></tr>
+<tr><td><code class='inline'>YearMonth</code></td><td>Text</td><td>Year-Month text key (YYYY-MM), useful for continuous time-series axes across years.</td><td>2023-01</td></tr>
+<tr><td><code class='inline'>WeekOfYear</code></td><td>Integer</td><td>ISO week number (1-53), used for weekly trend analysis.</td><td>3</td></tr>
+<tr><td><code class='inline'>DayOfWeekName</code></td><td>Text</td><td>Full weekday name, used to analyze application/repayment patterns by day of week.</td><td>Sunday</td></tr>
+<tr><td><code class='inline'>DayOfWeekNumber</code></td><td>Integer</td><td>Numeric weekday (Monday = 1 ... Sunday = 7), used to sort DayOfWeekName correctly.</td><td>7</td></tr>
+<tr><td><code class='inline'>IsWeekend</code></td><td>Boolean (TRUE/FALSE)</td><td>Flags Saturday/Sunday. Useful for a DAX measure comparing weekday vs weekend application volume.</td><td>TRUE</td></tr>
+</table>
+<span class="table-tag ">Dimension Table</span>
+<h3>dim_Branch <span style="font-weight:400;color:#6B7885;font-size:14px;">- 12 rows</span></h3>
+<p>One row per bank branch or digital channel.</p>
+<table><caption>Column-by-column reference</caption><tr><th style="width:16%">Column</th><th style="width:16%">Data Type</th><th style="width:50%">Full Description</th><th style="width:18%">Example</th></tr>
+<tr><td><code class='inline'>BranchID</code></td><td>Text (Key)</td><td>Unique identifier for each of the 12 branches/channels. Primary key of dim_Branch; joined to every fact table.</td><td>B01</td></tr>
+<tr><td><code class='inline'>BranchName</code></td><td>Text</td><td>Full descriptive name of the branch or digital channel.</td><td>NTMB Victoria Island Main Branch</td></tr>
+<tr><td><code class='inline'>Region</code></td><td>Text</td><td>Nigerian state in which the branch is located, used for geographic (map) visuals.</td><td>Lagos</td></tr>
+<tr><td><code class='inline'>City</code></td><td>Text</td><td>City in which the branch is located.</td><td>Lagos</td></tr>
+<tr><td><code class='inline'>BranchType</code></td><td>Text</td><td>Category describing the nature of the branch (Main Branch, Satellite Branch, Digital Hub). Useful for grouping/slicing.</td><td>Main Branch</td></tr>
+<tr><td><code class='inline'>BranchManager</code></td><td>Text</td><td>Name of the manager responsible for the branch&#x27;s lending performance.</td><td>Adaeze Okonkwo</td></tr>
+<tr><td><code class='inline'>YearOpened</code></td><td>Integer</td><td>Year the branch began operating; can be used to compute branch age.</td><td>2016</td></tr>
+<tr><td><code class='inline'>StaffCount</code></td><td>Integer</td><td>Total number of staff assigned to that branch, used for per-staff productivity metrics.</td><td>42</td></tr>
+</table>
+<span class="table-tag ">Dimension Table</span>
+<h3>dim_Customer <span style="font-weight:400;color:#6B7885;font-size:14px;">- 2,500 rows</span></h3>
+<p>One row per customer/borrower, linked to their home branch.</p>
+<table><caption>Column-by-column reference</caption><tr><th style="width:16%">Column</th><th style="width:16%">Data Type</th><th style="width:50%">Full Description</th><th style="width:18%">Example</th></tr>
+<tr><td><code class='inline'>CustomerID</code></td><td>Text (Key)</td><td>Unique identifier for each customer/borrower. Primary key of dim_Customer; referenced from fact_Applications and fact_Portfolio.</td><td>CUST00001</td></tr>
+<tr><td><code class='inline'>FullName</code></td><td>Text</td><td>Customer&#x27;s full name.</td><td>Chinedu Okonkwo</td></tr>
+<tr><td><code class='inline'>Gender</code></td><td>Text</td><td>Male/Female, used for demographic-based portfolio analysis.</td><td>Male</td></tr>
+<tr><td><code class='inline'>DateOfBirth</code></td><td>Date</td><td>Date of birth, used to calculate age (deliberately NOT pre-calculated - students should build it with DAX).</td><td>1988-04-12</td></tr>
+<tr><td><code class='inline'>CustomerSegment</code></td><td>Text</td><td>Broad customer classification (Retail, SME, Corporate, Agric), used to segment the loan book.</td><td>Retail</td></tr>
+<tr><td><code class='inline'>IncomeBand</code></td><td>Text</td><td>Self-declared income bracket in Naira, used for affordability and cross-sell analysis.</td><td>500k-1.5m</td></tr>
+<tr><td><code class='inline'>EmploymentStatus</code></td><td>Text</td><td>Employed, Self-Employed, Business Owner, or Unemployed - a key underwriting input.</td><td>Employed</td></tr>
+<tr><td><code class='inline'>KYCTier</code></td><td>Text</td><td>Central Bank of Nigeria-style KYC tier (Tier 1, 2, or 3), which determines transaction/account limits.</td><td>Tier 2</td></tr>
+<tr><td><code class='inline'>CreditScoreBand</code></td><td>Text</td><td>Overall credit quality band (Excellent, Good, Fair, Poor), independent of the numeric score captured per application.</td><td>Good</td></tr>
+<tr><td><code class='inline'>OnboardingDate</code></td><td>Date</td><td>Date the customer first opened an account with the bank, used to calculate customer tenure.</td><td>2021-06-10</td></tr>
+<tr><td><code class='inline'>BranchID</code></td><td>Text (Foreign Key)</td><td>Links the customer to their home branch (many-to-one to dim_Branch).</td><td>B01</td></tr>
+<tr><td><code class='inline'>MaritalStatus</code></td><td>Text</td><td>Single, Married, Divorced, or Widowed - a demographic attribute used in customer profiling.</td><td>Married</td></tr>
+</table>
+<span class="table-tag ">Dimension Table</span>
+<h3>dim_LoanOfficer <span style="font-weight:400;color:#6B7885;font-size:14px;">- 60 rows</span></h3>
+<p>One row per loan officer/credit staff member, linked to their branch.</p>
+<table><caption>Column-by-column reference</caption><tr><th style="width:16%">Column</th><th style="width:16%">Data Type</th><th style="width:50%">Full Description</th><th style="width:18%">Example</th></tr>
+<tr><td><code class='inline'>OfficerID</code></td><td>Text (Key)</td><td>Unique identifier for each loan officer/credit staff member. Primary key of dim_LoanOfficer.</td><td>OFF001</td></tr>
+<tr><td><code class='inline'>FullName</code></td><td>Text</td><td>Loan officer&#x27;s full name.</td><td>Tunde Bakare</td></tr>
+<tr><td><code class='inline'>Gender</code></td><td>Text</td><td>Male/Female.</td><td>Male</td></tr>
+<tr><td><code class='inline'>BranchID</code></td><td>Text (Foreign Key)</td><td>Branch the officer is based at (many-to-one to dim_Branch).</td><td>B04</td></tr>
+<tr><td><code class='inline'>HireDate</code></td><td>Date</td><td>Date the officer joined the bank, used to calculate tenure.</td><td>2019-02-01</td></tr>
+<tr><td><code class='inline'>JobTitle</code></td><td>Text</td><td>Loan Officer, Senior Loan Officer, Credit Analyst, or Branch Credit Manager.</td><td>Loan Officer</td></tr>
+<tr><td><code class='inline'>YearsExperience</code></td><td>Integer</td><td>Years of lending/credit experience, used to analyze whether experience correlates with portfolio quality.</td><td>5</td></tr>
+</table>
+<span class="table-tag ">Dimension Table</span>
+<h3>dim_LoanProduct <span style="font-weight:400;color:#6B7885;font-size:14px;">- 8 rows</span></h3>
+<p>One row per loan product offered by the bank.</p>
+<table><caption>Column-by-column reference</caption><tr><th style="width:16%">Column</th><th style="width:16%">Data Type</th><th style="width:50%">Full Description</th><th style="width:18%">Example</th></tr>
+<tr><td><code class='inline'>ProductID</code></td><td>Text (Key)</td><td>Unique identifier for each of the 8 loan products. Primary key of dim_LoanProduct.</td><td>P01</td></tr>
+<tr><td><code class='inline'>ProductName</code></td><td>Text</td><td>Name of the loan product offered to customers.</td><td>Personal Loan</td></tr>
+<tr><td><code class='inline'>ProductCategory</code></td><td>Text</td><td>Broad product grouping (Retail, SME, Corporate, Agric).</td><td>Retail</td></tr>
+<tr><td><code class='inline'>MinAmount</code></td><td>Decimal</td><td>Minimum loan amount (in Naira) allowed for this product.</td><td>50000</td></tr>
+<tr><td><code class='inline'>MaxAmount</code></td><td>Decimal</td><td>Maximum loan amount (in Naira) allowed for this product.</td><td>2000000</td></tr>
+<tr><td><code class='inline'>MinTenorMonths</code></td><td>Integer</td><td>Minimum repayment tenor in months for this product.</td><td>3</td></tr>
+<tr><td><code class='inline'>MaxTenorMonths</code></td><td>Integer</td><td>Maximum repayment tenor in months for this product.</td><td>24</td></tr>
+<tr><td><code class='inline'>InterestRateType</code></td><td>Text</td><td>Fixed or Reducing Balance - the interest calculation method for the product.</td><td>Reducing Balance</td></tr>
+<tr><td><code class='inline'>BaseInterestRatePct</code></td><td>Decimal</td><td>The bank&#x27;s base annual interest rate (percent) for this product before individual risk-based pricing adjustments.</td><td>28.0</td></tr>
+</table>
+<span class="table-tag fact">Fact Table</span>
+<h3>fact_Applications <span style="font-weight:400;color:#6B7885;font-size:14px;">- 6,000 rows</span></h3>
+<p>The loan application/origination funnel - every application submitted.</p>
+<table><caption>Column-by-column reference</caption><tr><th style="width:16%">Column</th><th style="width:16%">Data Type</th><th style="width:50%">Full Description</th><th style="width:18%">Example</th></tr>
+<tr><td><code class='inline'>ApplicationID</code></td><td>Text (Key)</td><td>Unique identifier for each loan application. Primary key of the fact table.</td><td>APP000001</td></tr>
+<tr><td><code class='inline'>DateKey</code></td><td>Integer (Foreign Key)</td><td>Links the application to the date it was submitted, joined to dim_Date.</td><td>20230115</td></tr>
+<tr><td><code class='inline'>CustomerID</code></td><td>Text (Foreign Key)</td><td>The applicant, joined to dim_Customer.</td><td>CUST00102</td></tr>
+<tr><td><code class='inline'>ProductID</code></td><td>Text (Foreign Key)</td><td>The loan product applied for, joined to dim_LoanProduct.</td><td>P01</td></tr>
+<tr><td><code class='inline'>BranchID</code></td><td>Text (Foreign Key)</td><td>The branch/channel through which the application was submitted, joined to dim_Branch.</td><td>B01</td></tr>
+<tr><td><code class='inline'>OfficerID</code></td><td>Text (Foreign Key)</td><td>The loan officer who processed the application, joined to dim_LoanOfficer.</td><td>OFF014</td></tr>
+<tr><td><code class='inline'>AmountRequested</code></td><td>Decimal</td><td>The loan amount (in Naira) requested by the applicant.</td><td>350000</td></tr>
+<tr><td><code class='inline'>ApplicationChannel</code></td><td>Text</td><td>How the application was submitted (Branch, Mobile App, Web Portal, Agent Network).</td><td>Mobile App</td></tr>
+<tr><td><code class='inline'>ApplicationStatus</code></td><td>Text</td><td>Current status of the application (Approved, Rejected, Pending, Withdrawn).</td><td>Approved</td></tr>
+<tr><td><code class='inline'>RejectionReason</code></td><td>Text (nullable)</td><td>The reason the application was declined, populated only when ApplicationStatus is Rejected.</td><td>Insufficient Income</td></tr>
+<tr><td><code class='inline'>CreditScoreAtApplication</code></td><td>Integer</td><td>The applicant&#x27;s credit score at the time of application (300-850 scale).</td><td>712</td></tr>
+<tr><td><code class='inline'>DecisionDateKey</code></td><td>Integer (Foreign Key, nullable)</td><td>Date the approval/rejection decision was made, joined to dim_Date. Blank for Pending/Withdrawn applications.</td><td>20230122</td></tr>
+<tr><td><code class='inline'>ProcessingDays</code></td><td>Integer</td><td>Number of days between application submission and decision - a key operational efficiency metric.</td><td>7</td></tr>
+</table>
+<span class="table-tag fact">Fact Table</span>
+<h3>fact_Portfolio <span style="font-weight:400;color:#6B7885;font-size:14px;">- ~3,147 rows</span></h3>
+<p>The core fact table - one row per disbursed loan.</p>
+<table><caption>Column-by-column reference</caption><tr><th style="width:16%">Column</th><th style="width:16%">Data Type</th><th style="width:50%">Full Description</th><th style="width:18%">Example</th></tr>
+<tr><td><code class='inline'>LoanID</code></td><td>Text (Key)</td><td>Unique identifier for each disbursed loan. Primary key of the core fact table.</td><td>LOAN000001</td></tr>
+<tr><td><code class='inline'>ApplicationID</code></td><td>Text (Foreign Key)</td><td>Links back to the originating application, joined to fact_Applications.</td><td>APP000001</td></tr>
+<tr><td><code class='inline'>DisbursementDateKey</code></td><td>Integer (Foreign Key)</td><td>Date the loan was disbursed to the customer, joined to dim_Date. This is the ACTIVE relationship to dim_Date.</td><td>20230122</td></tr>
+<tr><td><code class='inline'>MaturityDateKey</code></td><td>Integer (Foreign Key)</td><td>Scheduled final repayment date of the loan, joined to dim_Date. This is an INACTIVE relationship (see Model_Map).</td><td>20250122</td></tr>
+<tr><td><code class='inline'>CustomerID</code></td><td>Text (Foreign Key)</td><td>The borrower, joined to dim_Customer.</td><td>CUST00102</td></tr>
+<tr><td><code class='inline'>ProductID</code></td><td>Text (Foreign Key)</td><td>The loan product, joined to dim_LoanProduct.</td><td>P01</td></tr>
+<tr><td><code class='inline'>BranchID</code></td><td>Text (Foreign Key)</td><td>The branch the loan was booked at, joined to dim_Branch.</td><td>B01</td></tr>
+<tr><td><code class='inline'>OfficerID</code></td><td>Text (Foreign Key)</td><td>The loan officer responsible for the loan, joined to dim_LoanOfficer.</td><td>OFF014</td></tr>
+<tr><td><code class='inline'>PrincipalAmount</code></td><td>Decimal</td><td>The original disbursed loan amount (in Naira).</td><td>350000</td></tr>
+<tr><td><code class='inline'>InterestRatePct</code></td><td>Decimal</td><td>The actual annual interest rate (percent) charged on this specific loan, after risk-based pricing adjustment.</td><td>29.5</td></tr>
+<tr><td><code class='inline'>TenorMonths</code></td><td>Integer</td><td>The agreed repayment period, in months.</td><td>12</td></tr>
+<tr><td><code class='inline'>LoanStatus</code></td><td>Text</td><td>Current status of the loan (Active, Closed - Fully Paid, Written Off, Restructured).</td><td>Active</td></tr>
+<tr><td><code class='inline'>OutstandingBalance</code></td><td>Decimal</td><td>The remaining unpaid principal balance (in Naira) as of the last data refresh.</td><td>210000</td></tr>
+<tr><td><code class='inline'>DaysPastDue</code></td><td>Integer</td><td>Number of days the loan is currently past its scheduled payment due date (0 if fully current).</td><td>0</td></tr>
+<tr><td><code class='inline'>RiskClassification</code></td><td>Text</td><td>Standard prudential risk classification (Performing, Watch, Substandard, Doubtful, Loss), the basis of the NPL ratio.</td><td>Performing</td></tr>
+<tr><td><code class='inline'>CollateralType</code></td><td>Text</td><td>Type of collateral or security held against the loan (None, Vehicle, Property, Salary Domiciliation, Inventory, Fixed Deposit).</td><td>Salary Domiciliation</td></tr>
+<tr><td><code class='inline'>MonthlyInstallment</code></td><td>Decimal</td><td>The scheduled monthly repayment amount (in Naira), including interest.</td><td>31500</td></tr>
+</table>
+<span class="table-tag fact">Fact Table</span>
+<h3>fact_Repayments <span style="font-weight:400;color:#6B7885;font-size:14px;">- ~25,772 rows</span></h3>
+<p>Individual repayment transactions against disbursed loans.</p>
+<table><caption>Column-by-column reference</caption><tr><th style="width:16%">Column</th><th style="width:16%">Data Type</th><th style="width:50%">Full Description</th><th style="width:18%">Example</th></tr>
+<tr><td><code class='inline'>RepaymentID</code></td><td>Text (Key)</td><td>Unique identifier for each individual repayment transaction. Primary key of the fact table.</td><td>RPY0000001</td></tr>
+<tr><td><code class='inline'>LoanID</code></td><td>Text (Foreign Key)</td><td>The loan this repayment applies to, joined to fact_Portfolio.</td><td>LOAN000001</td></tr>
+<tr><td><code class='inline'>DateKey</code></td><td>Integer (Foreign Key)</td><td>Date the repayment was due/recorded, joined to dim_Date.</td><td>20230222</td></tr>
+<tr><td><code class='inline'>ScheduledAmount</code></td><td>Decimal</td><td>The amount that was due for this installment (in Naira).</td><td>31500</td></tr>
+<tr><td><code class='inline'>ActualAmountPaid</code></td><td>Decimal</td><td>The amount actually paid by the customer for this installment (in Naira). May be less than scheduled or zero if missed.</td><td>31500</td></tr>
+<tr><td><code class='inline'>DaysLate</code></td><td>Integer</td><td>Number of days late this specific payment was made (0 if on time).</td><td>0</td></tr>
+<tr><td><code class='inline'>PaymentMethod</code></td><td>Text</td><td>Channel used to make the repayment (Bank Transfer, Direct Debit, Cash, USSD, Mobile Money).</td><td>Direct Debit</td></tr>
+<tr><td><code class='inline'>PaymentStatus</code></td><td>Text</td><td>Outcome of this specific installment (On-time, Late, Missed, Partial).</td><td>On-time</td></tr>
+</table>
+<span class="table-tag fact">Fact Table</span>
+<h3>fact_Collections <span style="font-weight:400;color:#6B7885;font-size:14px;">- ~1,908 rows</span></h3>
+<p>Collections/recovery actions taken on delinquent loans.</p>
+<table><caption>Column-by-column reference</caption><tr><th style="width:16%">Column</th><th style="width:16%">Data Type</th><th style="width:50%">Full Description</th><th style="width:18%">Example</th></tr>
+<tr><td><code class='inline'>CollectionID</code></td><td>Text (Key)</td><td>Unique identifier for each collections/recovery action. Primary key of the fact table.</td><td>COLL000001</td></tr>
+<tr><td><code class='inline'>LoanID</code></td><td>Text (Foreign Key)</td><td>The delinquent loan this collection action was taken against, joined to fact_Portfolio.</td><td>LOAN000045</td></tr>
+<tr><td><code class='inline'>DateKey</code></td><td>Integer (Foreign Key)</td><td>Date the collection action was taken, joined to dim_Date.</td><td>20230512</td></tr>
+<tr><td><code class='inline'>OfficerID</code></td><td>Text (Foreign Key)</td><td>The officer/agent who carried out the collection action, joined to dim_LoanOfficer.</td><td>OFF014</td></tr>
+<tr><td><code class='inline'>ActionType</code></td><td>Text</td><td>The type of recovery action taken (Reminder Call, SMS Reminder, Field Visit, Legal Notice, Loan Restructuring, Write-off Recommendation).</td><td>Field Visit</td></tr>
+<tr><td><code class='inline'>OutcomeStatus</code></td><td>Text</td><td>The result of the collection action (Promise to Pay, Payment Received, No Response, Disputed, Escalated).</td><td>Promise to Pay</td></tr>
+<tr><td><code class='inline'>AmountRecovered</code></td><td>Decimal</td><td>The amount actually recovered as a direct result of this action (in Naira); zero unless OutcomeStatus is Payment Received.</td><td>15000</td></tr>
+</table>
+
+</section>
+
+<section id="cleaning">
+<h2>4. Tasks - Data Loading &amp; Power Query Cleaning</h2>
+
+<div class="callout"><strong>Goal of this section:</strong> before anything is modeled or charted, every one of the nine
+tables must be inspected and cleaned in Power Query. Work through the checklist below table by table.</div>
+
+<h3>Task Set 1 - Import</h3>
+<ul class="checklist">
+<li><strong>Task 1.1</strong> - Connect to <code class="inline">NTMB_Loan_Portfolio_Dataset.xlsx</code> using Get Data &gt; Excel Workbook.</li>
+<li><strong>Task 1.2</strong> - In the Navigator, select only the nine data tables (dim_Date, dim_Branch, dim_Customer,
+dim_LoanOfficer, dim_LoanProduct, fact_Applications, fact_Portfolio, fact_Repayments, fact_Collections). Leave README,
+Data_Dictionary and Model_Map unchecked.</li>
+<li><strong>Task 1.3</strong> - Click "Transform Data", not "Load", so you can inspect every table before it enters the model.</li>
+</ul>
+
+<h3>Task Set 2 - dim_Date</h3>
+<ul class="checklist">
+<li><strong>Task 2.1</strong> - Verify the <code class="inline">Date</code> column type is Date, with no hidden time component.</li>
+<li><strong>Task 2.2</strong> - Verify <code class="inline">IsWeekend</code> imported as True/False (Boolean), not text.</li>
+<li><strong>Task 2.3</strong> - Verify <code class="inline">DateKey</code> is Whole Number.</li>
+</ul>
+
+<h3>Task Set 3 - dim_Branch, dim_LoanOfficer, dim_LoanProduct</h3>
+<ul class="checklist">
+<li><strong>Task 3.1</strong> - Trim and Clean every text column in dim_Branch.</li>
+<li><strong>Task 3.2</strong> - Confirm <code class="inline">StaffCount</code> and <code class="inline">YearOpened</code> are Whole Number.</li>
+<li><strong>Task 3.3</strong> - Confirm <code class="inline">HireDate</code> in dim_LoanOfficer is Date type.</li>
+<li><strong>Task 3.4</strong> - Confirm <code class="inline">MinAmount</code>, <code class="inline">MaxAmount</code>, and
+<code class="inline">BaseInterestRatePct</code> in dim_LoanProduct are Decimal Number.</li>
+</ul>
+
+<h3>Task Set 4 - dim_Customer</h3>
+<ul class="checklist">
+<li><strong>Task 4.1</strong> - Confirm <code class="inline">DateOfBirth</code> and <code class="inline">OnboardingDate</code> are Date type.</li>
+<li><strong>Task 4.2</strong> - Decide (and justify in your own notes) why <em>Age</em> and <em>Customer Tenure</em> should be
+built as DAX measures rather than static Power Query columns.</li>
+</ul>
+
+<h3>Task Set 5 - fact_Applications and fact_Portfolio (the two-date tables)</h3>
+<ul class="checklist">
+<li><strong>Task 5.1</strong> - Confirm <code class="inline">DateKey</code> and <code class="inline">DecisionDateKey</code> in
+fact_Applications are both Whole Number, with true nulls for Pending/Withdrawn applications.</li>
+<li><strong>Task 5.2</strong> - Confirm <code class="inline">DisbursementDateKey</code> and <code class="inline">MaturityDateKey</code>
+in fact_Portfolio are both Whole Number.</li>
+<li><strong>Task 5.3</strong> - Confirm <code class="inline">AmountRequested</code>, <code class="inline">PrincipalAmount</code>,
+<code class="inline">InterestRatePct</code>, <code class="inline">OutstandingBalance</code>, and
+<code class="inline">MonthlyInstallment</code> are Decimal Number.</li>
+<li><strong>Task 5.4</strong> - Confirm <code class="inline">TenorMonths</code>, <code class="inline">DaysPastDue</code>,
+<code class="inline">CreditScoreAtApplication</code>, and <code class="inline">ProcessingDays</code> are Whole Number.</li>
+<li><strong>Task 5.5</strong> - Trim every ID/key column in both tables.</li>
+</ul>
+
+<h3>Task Set 6 - fact_Repayments and fact_Collections</h3>
+<ul class="checklist">
+<li><strong>Task 6.1</strong> - Confirm <code class="inline">ScheduledAmount</code>, <code class="inline">ActualAmountPaid</code>,
+and <code class="inline">AmountRecovered</code> are Decimal Number.</li>
+<li><strong>Task 6.2</strong> - Confirm <code class="inline">DaysLate</code> is Whole Number.</li>
+<li><strong>Task 6.3</strong> - Trim <code class="inline">LoanID</code> and <code class="inline">OfficerID</code> in both tables.</li>
+</ul>
+
+<h3>Task Set 7 - Finish</h3>
+<ul class="checklist">
+<li><strong>Task 7.1</strong> - Click Close &amp; Apply once every table passes its checklist above.</li>
+</ul>
+
+</section>
+
+<section id="relationships">
+<h2>5. Tasks - Data Model, Relationships &amp; Cardinality</h2>
+
+<div class="callout"><strong>Goal of this section:</strong> build a working star schema with fact_Portfolio acting as a
+bridge table to fact_Repayments and fact_Collections.</div>
+
+<h3>Task Set 8 - Mark the date table</h3>
+<ul class="checklist">
+<li><strong>Task 8.1</strong> - Mark dim_Date as the official Date Table using the Date column.</li>
+</ul>
+
+<h3>Task Set 9 - Build every relationship</h3>
+<table>
+<caption>Relationships to build (fill in the blank columns yourself before checking the solution)</caption>
+<tr><th>From</th><th>Key</th><th>To</th><th>Key</th><th>Your Cardinality</th><th>Your Direction</th><th>Active?</th></tr>
+<tr><td>fact_Applications</td><td>DateKey</td><td>dim_Date</td><td>DateKey</td><td>?</td><td>?</td><td>?</td></tr>
+<tr><td>fact_Applications</td><td>DecisionDateKey</td><td>dim_Date</td><td>DateKey</td><td>?</td><td>?</td><td>?</td></tr>
+<tr><td>fact_Applications</td><td>CustomerID</td><td>dim_Customer</td><td>CustomerID</td><td>?</td><td>?</td><td>?</td></tr>
+<tr><td>fact_Applications</td><td>ProductID</td><td>dim_LoanProduct</td><td>ProductID</td><td>?</td><td>?</td><td>?</td></tr>
+<tr><td>fact_Applications</td><td>BranchID</td><td>dim_Branch</td><td>BranchID</td><td>?</td><td>?</td><td>?</td></tr>
+<tr><td>fact_Applications</td><td>OfficerID</td><td>dim_LoanOfficer</td><td>OfficerID</td><td>?</td><td>?</td><td>?</td></tr>
+<tr><td>fact_Portfolio</td><td>DisbursementDateKey</td><td>dim_Date</td><td>DateKey</td><td>?</td><td>?</td><td>?</td></tr>
+<tr><td>fact_Portfolio</td><td>MaturityDateKey</td><td>dim_Date</td><td>DateKey</td><td>?</td><td>?</td><td>?</td></tr>
+<tr><td>fact_Portfolio</td><td>CustomerID</td><td>dim_Customer</td><td>CustomerID</td><td>?</td><td>?</td><td>?</td></tr>
+<tr><td>fact_Portfolio</td><td>ProductID</td><td>dim_LoanProduct</td><td>ProductID</td><td>?</td><td>?</td><td>?</td></tr>
+<tr><td>fact_Portfolio</td><td>BranchID</td><td>dim_Branch</td><td>BranchID</td><td>?</td><td>?</td><td>?</td></tr>
+<tr><td>fact_Portfolio</td><td>OfficerID</td><td>dim_LoanOfficer</td><td>OfficerID</td><td>?</td><td>?</td><td>?</td></tr>
+<tr><td>fact_Repayments</td><td>LoanID</td><td>fact_Portfolio</td><td>LoanID</td><td>?</td><td>?</td><td>?</td></tr>
+<tr><td>fact_Repayments</td><td>DateKey</td><td>dim_Date</td><td>DateKey</td><td>?</td><td>?</td><td>?</td></tr>
+<tr><td>fact_Collections</td><td>LoanID</td><td>fact_Portfolio</td><td>LoanID</td><td>?</td><td>?</td><td>?</td></tr>
+<tr><td>fact_Collections</td><td>DateKey</td><td>dim_Date</td><td>DateKey</td><td>?</td><td>?</td><td>?</td></tr>
+<tr><td>fact_Collections</td><td>OfficerID</td><td>dim_LoanOfficer</td><td>OfficerID</td><td>?</td><td>?</td><td>?</td></tr>
+<tr><td>dim_Customer</td><td>BranchID</td><td>dim_Branch</td><td>BranchID</td><td>?</td><td>?</td><td>?</td></tr>
+<tr><td>dim_LoanOfficer</td><td>BranchID</td><td>dim_Branch</td><td>BranchID</td><td>?</td><td>?</td><td>?</td></tr>
+</table>
+
+<h3>Task Set 10 - The tricky ones</h3>
+<ul class="checklist">
+<li><strong>Task 10.1</strong> - Both fact_Applications and fact_Portfolio have two possible relationships to dim_Date.
+Explain in your own words why Power BI will not allow both to be Active at the same time, in either table.</li>
+<li><strong>Task 10.2</strong> - Identify which DAX function you will need to use to temporarily reactivate an inactive
+relationship inside a specific measure.</li>
+<li><strong>Task 10.3</strong> - Explain why fact_Repayments and fact_Collections relate to dim_Customer, dim_Branch, and
+dim_LoanProduct only indirectly, through fact_Portfolio.</li>
+</ul>
+
+<h3>Task Set 11 - Validate</h3>
+<ul class="checklist">
+<li><strong>Task 11.1</strong> - After building all relationships, open Model view and confirm there are no
+"many-to-many" relationships anywhere.</li>
+<li><strong>Task 11.2</strong> - Build a simple test table visual (Branch x Total rows of fact_Portfolio) to confirm
+filtering flows correctly from dim_Branch down to fact_Portfolio.</li>
+</ul>
+
+</section>
+
+<section id="dax">
+<h2>6. Tasks - DAX Measures to Build</h2>
+<div class="callout warning"><strong>Instructions:</strong> for each measure below, write the DAX formula yourself in a blank measure, name it exactly as shown, and place it in a new table called <code class="inline">_Measures</code>.</div>
+<h3>Group 1 - Core Counting Measures</h3>
+<ul class="checklist">
+<li><strong>Total Applications</strong> - How many loan applications have been submitted in the current filter context?</li>
+<li><strong>Approved Applications / Rejected Applications / Pending Applications</strong> - How many applications fall into each outcome status?</li>
+<li><strong>Total Loans Disbursed / Total Principal Disbursed</strong> - How many loans have been paid out, and what is the total amount lent?</li>
+<li><strong>Total Outstanding Balance</strong> - How much do customers currently owe across the entire loan book?</li>
+<li><strong>Non-Performing Loan Count / Non-Performing Loan Balance</strong> - How many loans - and how much balance - are classified as non-performing?</li>
+<li><strong>Total Scheduled Repayments / Total Actual Repayments</strong> - How much was supposed to be repaid, and how much was actually repaid?</li>
+<li><strong>Total Amount Recovered</strong> - How much money has been recovered specifically through collections effort?</li>
+</ul>
+<h3>Group 2 - Time Intelligence Measures</h3>
+<ul class="checklist">
+<li><strong>Principal Disbursed PY</strong> - How much was disbursed in the same period last year?</li>
+<li><strong>Disbursement YoY % Change</strong> - Is the lending book growing or shrinking compared to last year?</li>
+<li><strong>Disbursements YTD</strong> - What is the running year-to-date total of disbursements?</li>
+<li><strong>NPL Ratio 3M Avg</strong> - What does the smoothed 3-month rolling average of the NPL ratio look like?</li>
+</ul>
+<h3>Group 3 - Rate and Ratio Measures</h3>
+<ul class="checklist">
+<li><strong>Approval Rate % / Rejection Rate %</strong> - What percentage of applications are approved vs rejected?</li>
+<li><strong>Average Processing Days</strong> - On average, how many days does it take to reach a lending decision?</li>
+<li><strong>NPL Ratio %</strong> - What percentage of the outstanding book is classified as non-performing?</li>
+<li><strong>PAR 30 / PAR 60 / PAR 90</strong> - What percentage of the outstanding book is 30, 60, and 90+ days past due?</li>
+<li><strong>Collection Efficiency Ratio</strong> - What percentage of scheduled repayments were actually collected?</li>
+<li><strong>Average Interest Rate</strong> - What is the average interest rate across the portfolio?</li>
+<li><strong>Write-Off Rate %</strong> - What percentage of everything ever disbursed has been permanently written off?</li>
+</ul>
+<h3>Group 4 - Application Funnel &amp; Channel Measures</h3>
+<ul class="checklist">
+<li><strong>Application Channel Share %</strong> - What proportion of applications come through each channel?</li>
+<li><strong>Average Credit Score</strong> - What is the average credit score of applicants, and how does it trend?</li>
+</ul>
+<h3>Group 5 - Collections &amp; Recovery Measures</h3>
+<ul class="checklist">
+<li><strong>Total Collection Actions / Successful Collection Actions</strong> - How many collection actions were taken, and how many resulted in payment?</li>
+<li><strong>Collection Success Rate %</strong> - What percentage of collection actions succeed?</li>
+<li><strong>Recovery Rate %</strong> - What fraction of the non-performing balance has been recovered?</li>
+</ul>
+<h3>Group 6 - KPI Status Helper Measures</h3>
+<ul class="checklist">
+<li><strong>NPL Ratio Status</strong> - Translate the numeric NPL ratio into a traffic-light status (Healthy / Watch / Elevated Risk).</li>
+<li><strong>Approval Rate Status</strong> - Translate the numeric approval rate into a status (Strong / Moderate / Weak).</li>
+</ul>
+<h3>Group 7 - The Inactive-Relationship Measures (USERELATIONSHIP)</h3>
+<ul class="checklist">
+<li><strong>Loans Maturing Next 30 Days</strong> - How many active loans mature in the next 30 days - using the INACTIVE MaturityDateKey relationship?</li>
+<li><strong>Applications Beyond Decision SLA</strong> - How many pending applications have taken more than 14 days - using the INACTIVE DecisionDateKey relationship?</li>
+</ul>
+
+</section>
+
+<section id="dashboards">
+<h2>7. Tasks - Dashboard Pages to Build</h2>
+
+<div class="callout"><strong>Goal of this section:</strong> build five report pages using the chart list as a brief.</div>
+
+<div class="page-section">
+<div class="page-title">Dashboard Page 1 - "Executive Portfolio Overview"</div>
+<div class="page-purpose">A single-glance summary for senior management and the board.</div>
+<div class="page-body">
+<ul class="checklist">
+<li>Slicers: Year, Region, ProductCategory</li>
+<li>KPI cards: Total Principal Disbursed (with YoY % change), Total Outstanding Balance, NPL Ratio %, Approval Rate %,
+Collection Efficiency Ratio, Disbursements YTD</li>
+<li>Chart: Monthly disbursement trend, current year vs prior year overlay</li>
+<li>Chart: Disbursement volume vs NPL ratio by branch</li>
+<li>Chart: Portfolio balance by risk classification</li>
+<li>Chart: Geographic distribution of the loan book by region</li>
+</ul>
+</div>
+</div>
+
+<div class="page-section">
+<div class="page-title">Dashboard Page 2 - "Loan Origination & Application Funnel"</div>
+<div class="page-purpose">Analyze the application-to-disbursement funnel for the credit/origination team.</div>
+<div class="page-body">
+<ul class="checklist">
+<li>Slicers: Year, ApplicationChannel, ProductCategory</li>
+<li>KPI cards: Total Applications, Approval Rate %, Average Processing Days</li>
+<li>Chart: Application-to-disbursement funnel</li>
+<li>Chart: Top rejection reasons</li>
+<li>Chart: Application outcome mix by channel</li>
+<li>Chart: Processing time trend</li>
+<li>Table: Applications beyond SLA - action required</li>
+</ul>
+</div>
+</div>
+
+<div class="page-section">
+<div class="page-title">Dashboard Page 3 - "Portfolio Risk & NPL Analysis"</div>
+<div class="page-purpose">Deep-dive into loan book quality for the risk management team and credit committee.</div>
+<div class="page-body">
+<ul class="checklist">
+<li>Slicers: Year, RiskClassification, ProductCategory</li>
+<li>KPI cards: NPL Ratio %, Write-Off Rate %, Average Interest Rate</li>
+<li>Chart: Portfolio at risk trend (PAR30 / PAR60 / PAR90)</li>
+<li>Chart: NPL ratio by product</li>
+<li>Matrix: NPL balance by credit score band and region</li>
+<li>Chart: Non-performing balance by collateral type</li>
+<li>Table: Loans maturing in the next 30 days - relationship manager watch list</li>
+</ul>
+</div>
+</div>
+
+<div class="page-section">
+<div class="page-title">Dashboard Page 4 - "Collections & Recovery Performance"</div>
+<div class="page-purpose">Track the effectiveness of the collections/recovery team on delinquent accounts.</div>
+<div class="page-body">
+<ul class="checklist">
+<li>Slicers: Year, ActionType, Officer</li>
+<li>KPI cards: Total Collection Actions, Collection Success Rate %, Total Amount Recovered</li>
+<li>Chart: Collection actions by type and outcome</li>
+<li>Chart: Monthly recovery trend</li>
+<li>Chart: Collection action outcome split</li>
+<li>Table: Officer performance ranking - recovery effectiveness</li>
+</ul>
+</div>
+</div>
+
+<div class="page-section">
+<div class="page-title">Dashboard Page 5 - "Customer & Product Analytics"</div>
+<div class="page-purpose">Understand the customer base and product mix for strategy and cross-sell planning.</div>
+<div class="page-body">
+<ul class="checklist">
+<li>Slicers: Year, CustomerSegment, CreditScoreBand</li>
+<li>KPI cards: Total Loans Disbursed, Total Principal Disbursed, Average Interest Rate</li>
+<li>Chart: Product mix - volume vs value</li>
+<li>Chart: Disbursement share by customer segment</li>
+<li>Chart: Approval rate vs NPL ratio by credit score band</li>
+<li>Table: Portfolio profile by income band</li>
+</ul>
+</div>
+</div>
+
+</section>
+
+<section id="companion">
+<h2>8. How This Guide Connects to the Solution File</h2>
+<p>Once you have made a genuine attempt at every task above, open <code class="inline">02_Full_Solution_Walkthrough.html</code>.
+It walks through the exact same structure with every decision fully explained: every DAX formula written out and
+explained line by line, every relationship's cardinality justified, and every chart's design reasoning documented.</p>
+</section>
+
+</main>
+
+<footer class="pagefoot">
+NTMB Loan Portfolio Power BI Training Program &nbsp;&middot;&nbsp; Document 1 of 2: Tasks &amp; Planning Guide<br>
+Prepared by Kajola Gbenga - Data Scientist &amp; AI Engineer
+</footer>
+
+</div>
+</body>
+</html>

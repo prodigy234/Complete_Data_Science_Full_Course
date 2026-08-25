@@ -1,0 +1,429 @@
+<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<title>Public Health &amp; Disease Surveillance - Power BI Training Project - Tasks and Problem Brief</title>
+<style>
+:root{
+  --navy:#1F4E78; --navy-dark:#123049; --accent:#2E86AB; --gold:#C9962C;
+  --bg:#F5F7FA; --card:#FFFFFF; --text:#242B33; --muted:#5B6774; --border:#DCE3EA;
+  --good:#2E7D32; --warn:#B26A00; --bad:#B3261E;
+}
+*{box-sizing:border-box;}
+body{margin:0;font-family:'Segoe UI',Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;}
+.wrap{max-width:1100px;margin:0 auto;padding:0 24px 80px;}
+header.hero{background:linear-gradient(135deg,var(--navy) 0%,var(--navy-dark) 100%);color:#fff;padding:56px 24px 40px;}
+header.hero .wrap{padding:0 24px;}
+.kicker{text-transform:uppercase;letter-spacing:2px;font-size:12px;color:var(--gold);font-weight:700;}
+h1.title{font-size:32px;margin:10px 0 6px;}
+.subtitle{font-size:16px;color:#CFE0EE;max-width:800px;}
+.author-block{margin-top:22px;padding-top:18px;border-top:1px solid rgba(255,255,255,0.25);}
+.author-name{font-size:18px;font-weight:700;}
+.author-title{color:var(--gold);font-size:14px;}
+nav.toc{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:18px 22px;margin:-28px 0 34px;box-shadow:0 4px 14px rgba(20,40,70,0.08);}
+nav.toc h2{font-size:14px;text-transform:uppercase;letter-spacing:1px;color:var(--navy);margin:0 0 10px;}
+nav.toc ol{margin:0;padding-left:20px;columns:2;gap:24px;}
+nav.toc a{color:var(--accent);text-decoration:none;font-size:14px;}
+nav.toc a:hover{text-decoration:underline;}
+section{margin:44px 0;}
+h2.section-title{font-size:24px;color:var(--navy);border-bottom:3px solid var(--gold);padding-bottom:8px;margin-bottom:18px;}
+h3.sub-title{font-size:19px;color:var(--navy-dark);margin:26px 0 10px;}
+p{margin:10px 0;}
+.card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:20px 24px;margin:16px 0;box-shadow:0 2px 8px rgba(20,40,70,0.05);}
+table{width:100%;border-collapse:collapse;margin:14px 0;font-size:14.5px;}
+th{background:var(--navy);color:#fff;text-align:left;padding:9px 12px;font-weight:600;}
+td{padding:9px 12px;border-bottom:1px solid var(--border);vertical-align:top;}
+tr:nth-child(even) td{background:#F7FAFD;}
+.badge{display:inline-block;padding:2px 10px;border-radius:20px;font-size:12px;font-weight:700;letter-spacing:.3px;}
+.badge.dim{background:#E4EEF7;color:var(--navy);}
+.badge.fact{background:#FCEFD9;color:#8A5A00;}
+.badge.active{background:#E3F2E1;color:var(--good);}
+.badge.inactive{background:#FBE7E5;color:var(--bad);}
+code, .dax{font-family:'Cascadia Code','Consolas',monospace;background:#0F2439;color:#DCEBFB;padding:14px 16px;display:block;border-radius:8px;white-space:pre-wrap;font-size:13.5px;line-height:1.55;margin:10px 0;overflow-x:auto;}
+.inline-code{font-family:Consolas,monospace;background:#EEF3F9;color:#1F4E78;padding:1px 6px;border-radius:4px;font-size:13.5px;}
+ul, ol{margin:8px 0;padding-left:22px;}
+li{margin:5px 0;}
+.chip-row{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0;}
+.chip{background:#EEF3F9;border:1px solid var(--border);border-radius:20px;padding:4px 14px;font-size:13px;color:var(--navy);}
+.callout{border-left:4px solid var(--gold);background:#FFF8EA;padding:12px 18px;border-radius:0 8px 8px 0;margin:14px 0;font-size:14.5px;}
+.callout.why{border-left-color:var(--accent);background:#EAF4FB;}
+.callout.impact{border-left-color:var(--good);background:#EAF7EA;}
+.step-num{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;background:var(--navy);color:#fff;border-radius:50%;font-size:13px;font-weight:700;margin-right:8px;}
+.task-item{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:10px 16px;margin:8px 0;display:flex;gap:10px;align-items:flex-start;}
+.task-item input{margin-top:4px;}
+.grain{color:var(--muted);font-size:13.5px;font-style:italic;}
+footer{background:var(--navy-dark);color:#B9C7D3;padding:26px 24px;text-align:center;font-size:13px;margin-top:60px;}
+.pill-page{background:var(--navy);color:#fff;padding:4px 12px;border-radius:6px;font-size:13px;display:inline-block;margin-bottom:8px;}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:18px;}
+@media(max-width:760px){.two-col{grid-template-columns:1fr;} nav.toc ol{columns:1;}}
+</style></head><body>
+<header class="hero">
+  <div class="wrap">
+    <div class="kicker">Prodigy Training Hub - Power BI Training Project</div>
+    <h1 class="title">Public Health &amp; Disease Surveillance - Power BI Training Project</h1>
+    <div class="subtitle">What you are given, what each column means, and every task you must complete - from column understanding through relationships, DAX measures and the five dashboard pages.</div>
+    <div class="author-block">
+      <div class="author-name">Kajola Gbenga</div>
+      <div class="author-title">Data Scientist &amp; AI Engineer</div>
+    </div>
+    <div class="pill-page">File 1 of 2: Tasks, Column Guide &amp; Problem Brief</div>
+  </div>
+</header>
+<div class='wrap'>
+<nav class="toc"><h2>Contents</h2><ol><li><a href="#intro">1. How to Use This File</a></li>
+<li><a href="#dataset-overview">2. Dataset Overview</a></li>
+<li><a href="#cols-Dim_Geography">   Column Guide - Dim_Geography</a></li>
+<li><a href="#cols-Dim_Diseases">   Column Guide - Dim_Diseases</a></li>
+<li><a href="#cols-Dim_HealthFacilities">   Column Guide - Dim_HealthFacilities</a></li>
+<li><a href="#cols-Dim_SurveillanceOfficers">   Column Guide - Dim_SurveillanceOfficers</a></li>
+<li><a href="#cols-Dim_Vaccines">   Column Guide - Dim_Vaccines</a></li>
+<li><a href="#cols-Dim_Patients">   Column Guide - Dim_Patients</a></li>
+<li><a href="#cols-Dim_Date">   Column Guide - Dim_Date</a></li>
+<li><a href="#cols-Fact_Outbreaks">   Column Guide - Fact_Outbreaks</a></li>
+<li><a href="#cols-Fact_CaseReports">   Column Guide - Fact_CaseReports</a></li>
+<li><a href="#cols-Fact_LabResults">   Column Guide - Fact_LabResults</a></li>
+<li><a href="#cols-Fact_Immunizations">   Column Guide - Fact_Immunizations</a></li>
+<li><a href="#cols-Fact_ContactTracing">   Column Guide - Fact_ContactTracing</a></li>
+<li><a href="#cols-Fact_EnvironmentalSurveillance">   Column Guide - Fact_EnvironmentalSurveillance</a></li>
+<li><a href="#relationships">3. Relationships To Be Built</a></li>
+<li><a href="#dax-tasks">4. DAX Measures To Be Built</a></li>
+<li><a href="#dashboards">5. Dashboards To Be Built</a></li>
+<li><a href="#tasks">6. Full Task Checklist</a></li></ol></nav>
+<section id='intro'><h2 class='section-title'>1. How to Use This File</h2>
+<div class='card'><p>This is the <strong>problem brief</strong> for the Public Health & Disease Surveillance Power BI training project. It does not contain the answers - it tells you what the dataset contains, what every column means, which relationships you must build in the Model view, which DAX measures you must write, and exactly what each of the five dashboard pages must contain. Work through it in order: understand the columns first, then build the model, then the DAX measures, then the dashboard pages. A separate file, the Solutions Walkthrough, shows the fully worked solution end to end once you have attempted each task yourself.</p></div>
+</section>
+<section id='dataset-overview'><h2 class='section-title'>2. Dataset Overview</h2>
+<div class='card'><p>The workbook <span class='inline-code'>Disease_Surveillance_Dataset.xlsx</span> contains 13 related tables built as a star schema with several conformed and inactive/role-playing relationships: 7 dimension tables and 6 fact tables, spanning seven years of data (2019-2025). Study the table below before opening Power BI.</p>
+<table><tr><th>Table</th><th>Type</th><th>Grain</th><th>Rows</th></tr>
+<tr><td><strong>Dim_Geography</strong></td><td><span class='badge dim'>DIMENSION</span></td><td>One row per State/LGA combination</td><td>61</td></tr>
+<tr><td><strong>Dim_Diseases</strong></td><td><span class='badge dim'>DIMENSION</span></td><td>One row per notifiable disease</td><td>30</td></tr>
+<tr><td><strong>Dim_HealthFacilities</strong></td><td><span class='badge dim'>DIMENSION</span></td><td>One row per health facility, laboratory or isolation centre</td><td>90</td></tr>
+<tr><td><strong>Dim_SurveillanceOfficers</strong></td><td><span class='badge dim'>DIMENSION</span></td><td>One row per disease surveillance and response staff member</td><td>130</td></tr>
+<tr><td><strong>Dim_Vaccines</strong></td><td><span class='badge dim'>DIMENSION</span></td><td>One row per vaccine in the national immunization schedule</td><td>16</td></tr>
+<tr><td><strong>Dim_Patients</strong></td><td><span class='badge dim'>DIMENSION</span></td><td>One row per de-identified case-subject</td><td>12500</td></tr>
+<tr><td><strong>Dim_Date</strong></td><td><span class='badge dim'>DIMENSION</span></td><td>One row per calendar day from 1 January 2019 to 31 December 2025</td><td>2557</td></tr>
+<tr><td><strong>Fact_Outbreaks</strong></td><td><span class='badge fact'>FACT</span></td><td>One row per declared outbreak event</td><td>340</td></tr>
+<tr><td><strong>Fact_CaseReports</strong></td><td><span class='badge fact'>FACT</span></td><td>One row per notifiable disease case report</td><td>19500</td></tr>
+<tr><td><strong>Fact_LabResults</strong></td><td><span class='badge fact'>FACT</span></td><td>One row per laboratory test conducted against a case</td><td>16067</td></tr>
+<tr><td><strong>Fact_Immunizations</strong></td><td><span class='badge fact'>FACT</span></td><td>One row per immunization session/batch</td><td>13500</td></tr>
+<tr><td><strong>Fact_ContactTracing</strong></td><td><span class='badge fact'>FACT</span></td><td>One row per traced contact of an index case</td><td>24541</td></tr>
+<tr><td><strong>Fact_EnvironmentalSurveillance</strong></td><td><span class='badge fact'>FACT</span></td><td>One row per vector, water quality, sanitation or rodent surveillance activity</td><td>6200</td></tr>
+</table></div>
+<h3 class='sub-title' id='cols-Dim_Geography'>Column Guide - Dim_Geography</h3>
+<div class='card'><p class='grain'>The geographic backbone of the whole model, and the single feature that separates this project from a purely operational dataset: because it carries a Population figure, it is what allows a true epidemiological Incidence Rate per 100,000 measure rather than a raw case count. It is referenced from four different fact tables.</p>
+<table><tr><th style='width:18%'>Column</th><th style='width:16%'>Data Type</th><th>What it means / your task</th></tr>
+<tr><td><strong>GeographyID</strong></td><td>Text (Key)</td><td>Unique identifier such as GEO001. Primary key of Dim_Geography, referenced by Fact_CaseReports[ResidenceGeographyID], Fact_Outbreaks[EpicenterGeographyID], Fact_ContactTracing[ResidenceGeographyID] and Fact_EnvironmentalSurveillance[GeographyID].</td></tr>
+<tr><td><strong>State</strong></td><td>Text</td><td>Nigerian state. Used to roll many LGAs up into a higher-level geographic view on state-level maps and bar charts.</td></tr>
+<tr><td><strong>LGA</strong></td><td>Text</td><td>Local Government Area, the primary reporting unit for Nigerian disease surveillance in real practice. This is the field placed on the most granular geographic visuals.</td></tr>
+<tr><td><strong>Region</strong></td><td>Text</td><td>Geopolitical zone (South West, South South, South East, North West, North Central, North East) rolled up from State, giving a national-level regional view.</td></tr>
+<tr><td><strong>Population</strong></td><td>Whole Number</td><td>Approximate LGA population. The denominator in every Incidence Rate per 100,000 measure; summed (not averaged) whenever more than one geography is in the current filter context.</td></tr>
+<tr><td><strong>AreaKm2</strong></td><td>Whole Number</td><td>Approximate land area in square kilometres. Used together with Population to derive PopulationDensityPerKm2.</td></tr>
+<tr><td><strong>PopulationDensityPerKm2</strong></td><td>Decimal Number</td><td>Population divided by AreaKm2, pre-calculated. Useful for exploring whether densely populated LGAs show different disease patterns than sparsely populated ones.</td></tr>
+<tr><td><strong>UrbanRuralClassification</strong></td><td>Text</td><td>Urban, Semi-Urban or Rural, derived from population density. A key field for an urban-versus-rural disease burden comparison.</td></tr>
+<tr><td><strong>HealthZone</strong></td><td>Text</td><td>A local health-system zoning label used for administrative grouping of LGAs within a state. Descriptive detail rather than a primary analytical field.</td></tr>
+</table></div>
+<h3 class='sub-title' id='cols-Dim_Diseases'>Column Guide - Dim_Diseases</h3>
+<div class='card'><p class='grain'>Describes every disease under surveillance. Every case report, outbreak and (indirectly, through TargetDisease) vaccine in the model traces back to a disease defined here.</p>
+<table><tr><th style='width:18%'>Column</th><th style='width:16%'>Data Type</th><th>What it means / your task</th></tr>
+<tr><td><strong>DiseaseID</strong></td><td>Text (Key)</td><td>Unique identifier such as DIS001. Primary key of Dim_Diseases, referenced by Fact_CaseReports[DiseaseID] and Fact_Outbreaks[DiseaseID].</td></tr>
+<tr><td><strong>DiseaseName</strong></td><td>Text</td><td>The disease&#x27;s common name, for example Malaria, Cholera or Lassa Fever. The field placed on most disease-level charts such as Top Diseases by Case Count.</td></tr>
+<tr><td><strong>DiseaseCategory</strong></td><td>Text</td><td>Vector-borne, Waterborne, Airborne/Respiratory, Vaccine-Preventable, Zoonotic, Viral Haemorrhagic Fever or Other Notifiable. Used to roll individual diseases up into a manageable number of groups for category-level charts.</td></tr>
+<tr><td><strong>ICD10Code</strong></td><td>Text</td><td>The disease&#x27;s real-world ICD-10 classification code, included so students can practise combining a code and a name into a single label using a calculated column.</td></tr>
+<tr><td><strong>TransmissionMode</strong></td><td>Text</td><td>How the disease spreads, for example &#x27;Mosquito bite (Anopheles)&#x27; or &#x27;Respiratory droplets&#x27;. Descriptive detail useful for tooltip content rather than aggregate charting.</td></tr>
+<tr><td><strong>IncubationPeriodDaysMin</strong></td><td>Whole Number</td><td>The shortest typical incubation period in days. Reference information for outbreak investigation, not aggregated directly.</td></tr>
+<tr><td><strong>IncubationPeriodDaysMax</strong></td><td>Whole Number</td><td>The longest typical incubation period in days. Used together with the minimum to define the exposure window investigated during contact tracing.</td></tr>
+<tr><td><strong>ReferenceCaseFatalityRatePercent</strong></td><td>Decimal Number</td><td>A published reference case fatality rate for the disease, included so students can compare this textbook figure against the Case Fatality Rate % measure actually calculated from this dataset&#x27;s case outcomes.</td></tr>
+<tr><td><strong>IsNotifiable</strong></td><td>Text (Yes/No)</td><td>Flags whether the disease is legally notifiable. All 30 diseases in this dataset are notifiable, since the case reporting system only captures notifiable conditions, but the column is retained for completeness and for filtering logic that mirrors real surveillance systems.</td></tr>
+<tr><td><strong>IsOutbreakProne</strong></td><td>Text (Yes/No)</td><td>Flags diseases capable of generating a declared outbreak. Only outbreak-prone diseases can appear in Fact_Outbreaks, which is enforced at data-generation time and worth confirming as a data-quality check.</td></tr>
+<tr><td><strong>IsVaccinePreventable</strong></td><td>Text (Yes/No)</td><td>Flags diseases with a corresponding vaccine in Dim_Vaccines[TargetDisease]. Useful for a vaccine-preventable-disease-burden visual on the immunization dashboard page.</td></tr>
+</table></div>
+<h3 class='sub-title' id='cols-Dim_HealthFacilities'>Column Guide - Dim_HealthFacilities</h3>
+<div class='card'><p class='grain'>Describes every facility that can report a case, run a lab test, or administer a vaccine. It is referenced from three different fact tables, and one of those relationships (to Fact_LabResults) must be modelled as inactive, making this table central to the project&#x27;s most advanced DAX teaching moment.</p>
+<table><tr><th style='width:18%'>Column</th><th style='width:16%'>Data Type</th><th>What it means / your task</th></tr>
+<tr><td><strong>FacilityID</strong></td><td>Text (Key)</td><td>Unique identifier such as FAC001. Primary key of Dim_HealthFacilities, referenced by Fact_CaseReports[ReportingFacilityID], Fact_Immunizations[FacilityID] and Fact_LabResults[TestingFacilityID].</td></tr>
+<tr><td><strong>FacilityName</strong></td><td>Text</td><td>The facility&#x27;s display name, used as the axis on facility-level visuals.</td></tr>
+<tr><td><strong>FacilityType</strong></td><td>Text</td><td>Primary Health Centre, General Hospital, Teaching Hospital, Private Clinic, Isolation Centre or Diagnostic Laboratory.</td></tr>
+<tr><td><strong>FacilityLevel</strong></td><td>Text</td><td>Primary, Secondary or Tertiary, derived from FacilityType. Useful for comparing surveillance performance across different tiers of the health system.</td></tr>
+<tr><td><strong>OwnershipType</strong></td><td>Text</td><td>Public, Private, Faith-Based or NGO-Supported. Useful context for a sector-comparison discussion.</td></tr>
+<tr><td><strong>GeographyID</strong></td><td>Text (Foreign Key)</td><td>Links the facility to its LGA via Dim_Geography[GeographyID]. This is the foreign key that creates a snowflake relationship Dim_Geography (one) to Dim_HealthFacilities (many).</td></tr>
+<tr><td><strong>ReportingStatus</strong></td><td>Text (Active/Inactive)</td><td>Flags whether the facility is currently submitting surveillance reports. A small governance field useful for a reporting-completeness discussion.</td></tr>
+<tr><td><strong>HasLabCapacity</strong></td><td>Text (Yes/No)</td><td>Flags whether the facility can process laboratory specimens on-site. Only facilities flagged Yes appear as a TestingFacilityID in Fact_LabResults.</td></tr>
+<tr><td><strong>DateEstablished</strong></td><td>Date</td><td>The date the facility opened. Can support a simple health-system-growth analysis over time.</td></tr>
+<tr><td><strong>ContactPhone</strong></td><td>Text</td><td>Facility contact phone number. Included for realism only, not for analysis; a good candidate to hide in report view.</td></tr>
+</table></div>
+<h3 class='sub-title' id='cols-Dim_SurveillanceOfficers'>Column Guide - Dim_SurveillanceOfficers</h3>
+<div class='card'><p class='grain'>Describes every member of staff who can report a case, lead an outbreak response, or conduct environmental surveillance. Like Dim_HealthFacilities, it is a widely shared, conformed dimension referenced from three different fact tables.</p>
+<table><tr><th style='width:18%'>Column</th><th style='width:16%'>Data Type</th><th>What it means / your task</th></tr>
+<tr><td><strong>OfficerID</strong></td><td>Text (Key)</td><td>Unique identifier such as OFF0001. Primary key of Dim_SurveillanceOfficers, referenced by Fact_CaseReports[ReportedByOfficerID], Fact_Outbreaks[ResponseTeamLeadOfficerID] and Fact_EnvironmentalSurveillance[ConductedByOfficerID].</td></tr>
+<tr><td><strong>FirstName</strong></td><td>Text</td><td>Officer&#x27;s given name.</td></tr>
+<tr><td><strong>LastName</strong></td><td>Text</td><td>Officer&#x27;s family name. Combine with FirstName in a calculated column for a clean display name.</td></tr>
+<tr><td><strong>Gender</strong></td><td>Text</td><td>Officer&#x27;s gender, usable for a simple workforce composition visual.</td></tr>
+<tr><td><strong>Role</strong></td><td>Text</td><td>Disease Surveillance and Notification Officer, Epidemiologist, Laboratory Scientist, Community Health Extension Worker, or Response Team Lead. Determines which fact tables an officer is realistically likely to appear on.</td></tr>
+<tr><td><strong>HomeFacilityID</strong></td><td>Text (Foreign Key)</td><td>Links each officer to their home facility via Dim_HealthFacilities[FacilityID].</td></tr>
+<tr><td><strong>YearsOfExperience</strong></td><td>Whole Number</td><td>Number of years the officer has worked in surveillance or public health practice. Used on a scatter chart comparing experience against caseload handled.</td></tr>
+<tr><td><strong>DateHired</strong></td><td>Date</td><td>The date the officer joined the surveillance workforce. Can support a simple headcount-growth analysis.</td></tr>
+<tr><td><strong>ContactPhone</strong></td><td>Text</td><td>Officer contact phone number. Included for realism only, not for analysis.</td></tr>
+</table></div>
+<h3 class='sub-title' id='cols-Dim_Vaccines'>Column Guide - Dim_Vaccines</h3>
+<div class='card'><p class='grain'>Describes every vaccine administered through routine and campaign immunization services. It is the dimension behind Fact_Immunizations and the entire Immunization &amp; Vaccine-Preventable Disease dashboard page.</p>
+<table><tr><th style='width:18%'>Column</th><th style='width:16%'>Data Type</th><th>What it means / your task</th></tr>
+<tr><td><strong>VaccineID</strong></td><td>Text (Key)</td><td>Unique identifier such as VAC001. Primary key of Dim_Vaccines and the field used to relate to Fact_Immunizations[VaccineID].</td></tr>
+<tr><td><strong>VaccineName</strong></td><td>Text</td><td>The vaccine&#x27;s name, for example BCG, Measles-Rubella Vaccine or COVID-19 Vaccine (mRNA). Used on the Doses Administered by Vaccine chart.</td></tr>
+<tr><td><strong>TargetDisease</strong></td><td>Text</td><td>The disease the vaccine protects against, matching a DiseaseName in Dim_Diseases. Kept as a text field rather than a formal relationship in this dataset to keep the model&#x27;s relationship count focused on the core surveillance workflow, but useful for a manual cross-reference exercise.</td></tr>
+<tr><td><strong>DosesInSeries</strong></td><td>Whole Number</td><td>Number of doses required for a complete vaccination series, for example 4 for OPV or 1 for Yellow Fever Vaccine.</td></tr>
+<tr><td><strong>VaccineType</strong></td><td>Text</td><td>Live Attenuated, Inactivated, Toxoid, Conjugate, Recombinant Subunit, Viral Vector or mRNA. A useful categorical field for a vaccine-technology-mix discussion.</td></tr>
+<tr><td><strong>Manufacturer</strong></td><td>Text</td><td>The vaccine manufacturer. Included for realism and for a simple supply-source visual.</td></tr>
+<tr><td><strong>RecommendedAgeGroup</strong></td><td>Text</td><td>The age group the vaccine is recommended for, for example &#x27;9-15 Months&#x27; or &#x27;18 Years+&#x27;. Useful context alongside Fact_Immunizations[AgeGroupTargeted].</td></tr>
+</table></div>
+<h3 class='sub-title' id='cols-Dim_Patients'>Column Guide - Dim_Patients</h3>
+<div class='card'><p class='grain'>Describes every individual who has ever been the subject of a case report, without carrying any personally identifying information. Deliberately smaller than the number of case reports, since some individuals (particularly for recurring illnesses like malaria) are reported more than once across the seven-year history.</p>
+<table><tr><th style='width:18%'>Column</th><th style='width:16%'>Data Type</th><th>What it means / your task</th></tr>
+<tr><td><strong>PatientRefID</strong></td><td>Text (Key)</td><td>Unique de-identified reference such as CS000001. Primary key of Dim_Patients and the field used to relate to Fact_CaseReports[PatientRefID].</td></tr>
+<tr><td><strong>Gender</strong></td><td>Text</td><td>Male or Female. A core demographic segmentation field.</td></tr>
+<tr><td><strong>DateOfBirth</strong></td><td>Date</td><td>Date of birth, the source for the calculated AgeAtReport field.</td></tr>
+<tr><td><strong>AgeAtReport</strong></td><td>Whole Number</td><td>Pre-computed age in years as at 2026. Used to build age-band groupings that feed demographic disease-burden visuals.</td></tr>
+<tr><td><strong>RiskGroupCategory</strong></td><td>Text</td><td>General Population, Under-5 Child, Pregnant Woman, Health Worker, Elderly (60+) or Immunocompromised. A key epidemiological field: several notifiable diseases are tracked specifically by risk group, for example maternal and neonatal conditions or health-worker occupational exposure.</td></tr>
+<tr><td><strong>OccupationCategory</strong></td><td>Text</td><td>The case-subject&#x27;s occupation category. Useful for an occupational-exposure analysis, for example among Health Workers.</td></tr>
+<tr><td><strong>PregnancyStatus</strong></td><td>Text</td><td>Pregnant, Not Pregnant or N/A. Populated only for females of reproductive age; N/A for males and for females outside that age range.</td></tr>
+<tr><td><strong>ResidenceGeographyID</strong></td><td>Text (Foreign Key)</td><td>Links the case-subject to their LGA of residence via Dim_Geography[GeographyID]. Note that Fact_CaseReports also carries its own ResidenceGeographyID directly, copied from this table at report time, so that a case&#x27;s residence remains fixed even if this dimension is later updated.</td></tr>
+</table></div>
+<h3 class='sub-title' id='cols-Dim_Date'>Column Guide - Dim_Date</h3>
+<div class='card'><p class='grain'>A dedicated, contiguous calendar table is mandatory best practice in Power BI, and is what allows time intelligence DAX functions (TOTALYTD, SAMEPERIODLASTYEAR, DATEADD and similar) to work correctly. This is the longest date table of any project in this training series, seven full years, giving genuinely meaningful multi-year epidemic-cycle analysis, and it carries a real epidemiological week number alongside the standard calendar fields.</p>
+<table><tr><th style='width:18%'>Column</th><th style='width:16%'>Data Type</th><th>What it means / your task</th></tr>
+<tr><td><strong>Date</strong></td><td>Date (Key)</td><td>The calendar date itself, one row per day with no gaps. Primary key of Dim_Date; must be marked as a Date Table in Power BI (Table Tools &gt; Mark as Date Table) using this column.</td></tr>
+<tr><td><strong>Day</strong></td><td>Whole Number</td><td>Day of the month (1-31).</td></tr>
+<tr><td><strong>DayName</strong></td><td>Text</td><td>Full weekday name (Monday, Tuesday and so on).</td></tr>
+<tr><td><strong>MonthNumber</strong></td><td>Whole Number</td><td>Numeric month (1-12). Used to sort MonthName correctly on the X-axis, since Power BI sorts text columns alphabetically unless a Sort By Column is set.</td></tr>
+<tr><td><strong>MonthName</strong></td><td>Text</td><td>Full month name. Placed on the axis of every monthly trend chart in the project; must have Sort By Column set to MonthNumber.</td></tr>
+<tr><td><strong>Quarter</strong></td><td>Whole Number</td><td>Calendar quarter (1-4).</td></tr>
+<tr><td><strong>HalfYear</strong></td><td>Text</td><td>H1 or H2, flagging the half of the calendar year.</td></tr>
+<tr><td><strong>Year</strong></td><td>Whole Number</td><td>Calendar year (2019 through 2025 in this dataset). The field most commonly placed in a slicer at the top of every dashboard page, and what makes true year-over-year DAX comparisons possible.</td></tr>
+<tr><td><strong>WeekdayWeekend</strong></td><td>Text</td><td>Flags each date as Weekday or Weekend.</td></tr>
+<tr><td><strong>FiscalYear</strong></td><td>Text</td><td>Fiscal year label such as FY2023, mirroring the calendar year in this dataset.</td></tr>
+<tr><td><strong>IsPublicHoliday</strong></td><td>Text (Yes/No)</td><td>Flags a small set of fixed-date Nigerian public holidays.</td></tr>
+<tr><td><strong>ISOWeekNumber</strong></td><td>Whole Number</td><td>The ISO 8601 week number (1-53) for the date, the numeric basis of the epidemiological week.</td></tr>
+<tr><td><strong>EpiWeekLabel</strong></td><td>Text</td><td>A combined &#x27;YYYY-Www&#x27; label such as &#x27;2024-W17&#x27;, the standard way epidemiologists group and compare case counts week over week. This is the field an epi curve should ideally be built on for genuinely authentic surveillance reporting, though this project&#x27;s core trend visuals use MonthName for simplicity and introduces EpiWeekLabel as an extension exercise.</td></tr>
+</table></div>
+<h3 class='sub-title' id='cols-Fact_Outbreaks'>Column Guide - Fact_Outbreaks</h3>
+<div class='card'><p class='grain'>Records every formally declared outbreak. It sits upstream of Fact_CaseReports in the sense that a case report can optionally be linked back to the outbreak it was part of, making this the smallest fact table in the model but an important &#x27;one&#x27; side of a fact-to-fact relationship.</p>
+<table><tr><th style='width:18%'>Column</th><th style='width:16%'>Data Type</th><th>What it means / your task</th></tr>
+<tr><td><strong>OutbreakID</strong></td><td>Text (Key)</td><td>Unique identifier such as OUT0001. Primary key of Fact_Outbreaks and the &#x27;one&#x27; side of the fact-to-fact relationship to Fact_CaseReports[OutbreakID].</td></tr>
+<tr><td><strong>DiseaseID</strong></td><td>Text (Foreign Key)</td><td>Links the outbreak to Dim_Diseases[DiseaseID], restricted in this dataset to diseases flagged IsOutbreakProne = Yes.</td></tr>
+<tr><td><strong>EpicenterGeographyID</strong></td><td>Text (Foreign Key)</td><td>Links the outbreak to the LGA where it was first detected, via Dim_Geography[GeographyID].</td></tr>
+<tr><td><strong>DateDeclared</strong></td><td>Date</td><td>The date the outbreak was formally declared.</td></tr>
+<tr><td><strong>DateClosed</strong></td><td>Date (nullable)</td><td>The date the outbreak was formally closed, blank for outbreaks still flagged Active. Any measure averaging outbreak duration must explicitly exclude blank values, a useful blank-handling lesson.</td></tr>
+<tr><td><strong>OutbreakStatus</strong></td><td>Text</td><td>Active, Contained or Closed. Drives the Total Active Outbreaks measure and the outbreak status donut chart.</td></tr>
+<tr><td><strong>Severity</strong></td><td>Text</td><td>Low, Moderate, High or Critical, assigned at declaration based on early case counts and disease characteristics.</td></tr>
+<tr><td><strong>ResponseTeamLeadOfficerID</strong></td><td>Text (Foreign Key)</td><td>Links to the Response Team Lead in Dim_SurveillanceOfficers who coordinated the outbreak response.</td></tr>
+<tr><td><strong>TotalCasesAtClosure</strong></td><td>Whole Number</td><td>The officially reported total case count for the outbreak, which may differ slightly from a live COUNTROWS of linked Fact_CaseReports rows, since not every case generated during an outbreak is always formally linked back to it in real surveillance systems, a deliberate and realistic data-quality nuance.</td></tr>
+<tr><td><strong>TotalDeathsAtClosure</strong></td><td>Whole Number</td><td>The officially reported total death count for the outbreak. Used to compute an outbreak-level case fatality rate distinct from the case-report-level Case Fatality Rate % measure.</td></tr>
+</table></div>
+<h3 class='sub-title' id='cols-Fact_CaseReports'>Column Guide - Fact_CaseReports</h3>
+<div class='card'><p class='grain'>The central fact table of the entire model. Almost every DAX measure in this project either aggregates a column from Fact_CaseReports directly or counts rows in it, and three other fact tables (Lab Results, Contact Tracing, and optionally Outbreaks) hang off it.</p>
+<table><tr><th style='width:18%'>Column</th><th style='width:16%'>Data Type</th><th>What it means / your task</th></tr>
+<tr><td><strong>CaseID</strong></td><td>Text (Key)</td><td>Unique identifier for the case report, formatted CASE000001. Primary key of Fact_CaseReports and the &#x27;one&#x27; side of the fact-to-fact relationships to Fact_LabResults[CaseID] and Fact_ContactTracing[IndexCaseID].</td></tr>
+<tr><td><strong>DiseaseID</strong></td><td>Text (Foreign Key)</td><td>Links the case to Dim_Diseases[DiseaseID]. Every disease-burden visual in the project depends on this column.</td></tr>
+<tr><td><strong>PatientRefID</strong></td><td>Text (Foreign Key)</td><td>Links the case to the case-subject in Dim_Patients[PatientRefID]. Many case reports can point to the same patient over the seven-year history, which is what makes this a genuine one-to-many relationship.</td></tr>
+<tr><td><strong>ReportingFacilityID</strong></td><td>Text (Foreign Key)</td><td>Links the case to the facility that reported it, via Dim_HealthFacilities[FacilityID].</td></tr>
+<tr><td><strong>ReportedByOfficerID</strong></td><td>Text (Foreign Key)</td><td>Links the case to the surveillance officer who reported it, via Dim_SurveillanceOfficers[OfficerID].</td></tr>
+<tr><td><strong>OutbreakID</strong></td><td>Text (Foreign Key, optional)</td><td>Links the case to a declared outbreak in Fact_Outbreaks, populated for roughly 30% of cases involving an outbreak-prone disease and left blank for all other cases. This optional relationship is central to the Outbreak-Linked Cases % measure and to a blank-handling lesson using ISBLANK.</td></tr>
+<tr><td><strong>ResidenceGeographyID</strong></td><td>Text (Foreign Key)</td><td>Links the case to the case-subject&#x27;s LGA of residence, via Dim_Geography[GeographyID]. This is the field behind every Incidence Rate per 100,000 measure.</td></tr>
+<tr><td><strong>OnsetDate</strong></td><td>Date</td><td>The date symptoms began. This is the column that should carry the ACTIVE relationship to Dim_Date[Date], since a true epidemic curve is built on onset date, not the date the case happened to be reported.</td></tr>
+<tr><td><strong>ReportDate</strong></td><td>Date</td><td>The date the case was formally reported into the surveillance system. This column should carry an INACTIVE relationship to Dim_Date[Date], activated only inside specific measures with USERELATIONSHIP when a reporting-timeliness view is genuinely needed.</td></tr>
+<tr><td><strong>ReportingDelayDays</strong></td><td>Whole Number</td><td>ReportDate minus OnsetDate, pre-calculated in days. The core numeric field behind the Average Reporting Delay and Timely Reporting % measures, both important surveillance-system-performance indicators.</td></tr>
+<tr><td><strong>CaseClassification</strong></td><td>Text</td><td>Confirmed, Probable, Suspected or Discarded, following standard case-definition terminology. Drives the Confirmed Cases measure and the case classification donut chart.</td></tr>
+<tr><td><strong>CaseOutcome</strong></td><td>Text</td><td>Recovered, Under Treatment, Referred, Lost to Follow-up, or Died. The field the Case Fatality Rate % measure filters on, and one of the most sensitive and important fields in the whole dataset.</td></tr>
+<tr><td><strong>HospitalizationStatus</strong></td><td>Text (Yes/No)</td><td>Flags whether the case required hospitalization. Drives the Hospitalization Rate % measure.</td></tr>
+<tr><td><strong>IsOutbreakRelated</strong></td><td>Text (Yes/No)</td><td>A convenience flag mirroring whether OutbreakID is populated, included so students can compare a text-flag approach against an ISBLANK-on-the-key approach for the same underlying question.</td></tr>
+<tr><td><strong>SourceOfReport</strong></td><td>Text</td><td>Health Facility, Community-Based Surveillance, Laboratory, Death Registration, or Event-Based Surveillance. Useful for a surveillance-channel-mix visual.</td></tr>
+</table></div>
+<h3 class='sub-title' id='cols-Fact_LabResults'>Column Guide - Fact_LabResults</h3>
+<div class='card'><p class='grain'>Records laboratory confirmation testing. Around 72% of case reports generate at least one lab result, and a minority generate two, modelling real-world repeat or confirmatory testing. This is the fact table behind the entire Laboratory &amp; Diagnostics dashboard page, and the table where the project&#x27;s most advanced USERELATIONSHIP example lives.</p>
+<table><tr><th style='width:18%'>Column</th><th style='width:16%'>Data Type</th><th>What it means / your task</th></tr>
+<tr><td><strong>LabResultID</strong></td><td>Text (Key)</td><td>Unique identifier for the test, formatted LAB000001. Primary key of Fact_LabResults.</td></tr>
+<tr><td><strong>CaseID</strong></td><td>Text (Foreign Key)</td><td>Links the test back to Fact_CaseReports[CaseID]. This fact-to-fact relationship is one-to-many because a single case can generate more than one lab test.</td></tr>
+<tr><td><strong>SpecimenType</strong></td><td>Text</td><td>Blood, Stool, Throat Swab, Nasopharyngeal Swab, Cerebrospinal Fluid, Urine or Skin Lesion Swab. Descriptive detail useful for a specimen-type-mix visual.</td></tr>
+<tr><td><strong>TestType</strong></td><td>Text</td><td>RDT (Rapid Diagnostic Test), PCR, ELISA, Culture and Sensitivity, Microscopy, or Serology. Useful for comparing test-method mix across diseases.</td></tr>
+<tr><td><strong>SpecimenCollectionDate</strong></td><td>Date</td><td>The date the specimen was collected from the patient.</td></tr>
+<tr><td><strong>ResultDate</strong></td><td>Date</td><td>The date the result was released. SpecimenCollectionDate and ResultDate together define TurnaroundTimeDays.</td></tr>
+<tr><td><strong>TestResult</strong></td><td>Text</td><td>Positive, Negative, Indeterminate, or Pending. Drives the Lab Positivity Rate % measure and the test result donut chart.</td></tr>
+<tr><td><strong>TestingFacilityID</strong></td><td>Text (Foreign Key)</td><td>Links the test to the laboratory that actually processed it, via Dim_HealthFacilities[FacilityID], restricted to facilities flagged HasLabCapacity = Yes. Because Dim_HealthFacilities already has an active relationship to Fact_CaseReports[ReportingFacilityID], and Fact_CaseReports already relates to Fact_LabResults, this direct relationship must be created INACTIVE to avoid a closed loop of active relationships, and activated with USERELATIONSHIP only inside measures that specifically need the testing facility&#x27;s own perspective rather than the reporting facility&#x27;s.</td></tr>
+<tr><td><strong>TurnaroundTimeDays</strong></td><td>Whole Number</td><td>ResultDate minus SpecimenCollectionDate, pre-calculated in days. The core numeric field behind the Average Lab Turnaround Time measure, an important laboratory-system-performance indicator.</td></tr>
+</table></div>
+<h3 class='sub-title' id='cols-Fact_Immunizations'>Column Guide - Fact_Immunizations</h3>
+<div class='card'><p class='grain'>Records vaccination activity at the session level (a batch of doses given at a facility on a given day for a given vaccine and age group) rather than the individual-dose level, which mirrors how most real-world routine immunization data is actually aggregated and reported. It drives the entire Immunization &amp; Vaccine-Preventable Disease dashboard page.</p>
+<table><tr><th style='width:18%'>Column</th><th style='width:16%'>Data Type</th><th>What it means / your task</th></tr>
+<tr><td><strong>ImmunizationID</strong></td><td>Text (Key)</td><td>Unique identifier for the session, formatted IMM000001. Primary key of Fact_Immunizations.</td></tr>
+<tr><td><strong>VaccineID</strong></td><td>Text (Foreign Key)</td><td>Links the session to Dim_Vaccines[VaccineID].</td></tr>
+<tr><td><strong>FacilityID</strong></td><td>Text (Foreign Key)</td><td>Links the session to the facility it was conducted at, via Dim_HealthFacilities[FacilityID].</td></tr>
+<tr><td><strong>VaccinationDate</strong></td><td>Date</td><td>The date of the immunization session. Carries an active relationship to Dim_Date[Date].</td></tr>
+<tr><td><strong>DoseNumber</strong></td><td>Whole Number</td><td>Which dose in the series this session represents (1 through 4, depending on the vaccine&#x27;s DosesInSeries).</td></tr>
+<tr><td><strong>AgeGroupTargeted</strong></td><td>Text</td><td>The age group vaccinated in this session, for example &#x27;0-11 Months&#x27; or &#x27;18 Years+&#x27;.</td></tr>
+<tr><td><strong>Gender</strong></td><td>Text</td><td>The predominant gender of the session&#x27;s recipients, included for a simple gender-mix visual.</td></tr>
+<tr><td><strong>CampaignType</strong></td><td>Text</td><td>Routine Immunization, Supplementary Immunization Activity, or Outbreak Response Vaccination. Useful for separating everyday immunization service delivery from reactive, outbreak-driven vaccination drives.</td></tr>
+<tr><td><strong>DosesAdministered</strong></td><td>Whole Number</td><td>Number of doses given in this session. Summed to build the Total Doses Administered measure, the primary immunization-coverage-proxy KPI.</td></tr>
+<tr><td><strong>DosesWasted</strong></td><td>Whole Number</td><td>Number of doses opened but not administered (spoiled, expired in the open vial, or damaged) in this session. The numerator of the Vaccine Wastage Rate % measure, an important vaccine-supply-chain KPI.</td></tr>
+</table></div>
+<h3 class='sub-title' id='cols-Fact_ContactTracing'>Column Guide - Fact_ContactTracing</h3>
+<div class='card'><p class='grain'>Records every contact identified and monitored following a case report, for roughly 28% of all cases (contact tracing is typically only initiated for a subset of higher-priority diseases and cases in real practice). This is the largest fact table in the model and, along with the two relationships it forces to be inactive, one of the richest single tables for teaching filter propagation through a fact-to-fact chain.</p>
+<table><tr><th style='width:18%'>Column</th><th style='width:16%'>Data Type</th><th>What it means / your task</th></tr>
+<tr><td><strong>ContactTracingID</strong></td><td>Text (Key)</td><td>Unique identifier for the traced contact, formatted CT000001. Primary key of Fact_ContactTracing.</td></tr>
+<tr><td><strong>IndexCaseID</strong></td><td>Text (Foreign Key)</td><td>Links the contact back to the case they were exposed to, via Fact_CaseReports[CaseID]. This fact-to-fact relationship is one-to-many because a single index case commonly generates several contacts (household members, co-workers, healthcare workers and so on).</td></tr>
+<tr><td><strong>RelationshipToCase</strong></td><td>Text</td><td>Household Member, Healthcare Worker, Community Contact, Travel Companion, or Co-worker. Useful for understanding transmission pathways.</td></tr>
+<tr><td><strong>ResidenceGeographyID</strong></td><td>Text (Foreign Key)</td><td>Links the contact to their LGA of residence, via Dim_Geography[GeographyID]. Because Dim_Geography already reaches Fact_ContactTracing indirectly through Fact_CaseReports[ResidenceGeographyID] followed by the CaseID relationship, this direct relationship must be created INACTIVE to avoid a closed loop, and activated with USERELATIONSHIP only when a contact&#x27;s own residence (rather than the index case&#x27;s residence) is specifically needed.</td></tr>
+<tr><td><strong>MonitoringStartDate</strong></td><td>Date</td><td>The date daily monitoring of the contact began. Because Dim_Date already reaches Fact_ContactTracing indirectly through Fact_CaseReports[OnsetDate] followed by the CaseID relationship, this direct relationship must ALSO be created INACTIVE, for exactly the same closed-loop reason as ResidenceGeographyID above; this table is the clearest single example in the project of a fact table needing more than one inactive relationship at once.</td></tr>
+<tr><td><strong>MonitoringEndDate</strong></td><td>Date</td><td>The date monitoring concluded, either because the observation period ended or the contact&#x27;s status changed. Used with MonitoringStartDate to calculate DaysMonitored.</td></tr>
+<tr><td><strong>ContactStatus</strong></td><td>Text</td><td>Completed - No Symptoms, Under Monitoring, Became a Case, or Lost to Follow-up. Drives the Contacts Converted to Cases % measure, an important secondary-attack-rate-style indicator.</td></tr>
+<tr><td><strong>DevelopedSymptoms</strong></td><td>Text (Yes/No)</td><td>Flags whether the contact developed symptoms during monitoring, closely related to but not perfectly identical to ContactStatus, giving students a small data-consistency check to reason through.</td></tr>
+<tr><td><strong>DaysMonitored</strong></td><td>Whole Number</td><td>MonitoringEndDate minus MonitoringStartDate, pre-calculated in days.</td></tr>
+</table></div>
+<h3 class='sub-title' id='cols-Fact_EnvironmentalSurveillance'>Column Guide - Fact_EnvironmentalSurveillance</h3>
+<div class='card'><p class='grain'>Captures the non-human, environmental side of disease surveillance: mosquito vector indices, water quality testing, sanitation inspections and rodent surveillance. This table is not fact-to-fact linked to any other fact table, making all three of its dimension relationships safely active, a useful contrast to the more constrained relationships on Fact_LabResults and Fact_ContactTracing.</p>
+<table><tr><th style='width:18%'>Column</th><th style='width:16%'>Data Type</th><th>What it means / your task</th></tr>
+<tr><td><strong>EnvSurveillanceID</strong></td><td>Text (Key)</td><td>Unique identifier for the activity, formatted ENV000001. Primary key of Fact_EnvironmentalSurveillance.</td></tr>
+<tr><td><strong>GeographyID</strong></td><td>Text (Foreign Key)</td><td>Links the activity to the LGA it was conducted in, via Dim_Geography[GeographyID].</td></tr>
+<tr><td><strong>SurveillanceType</strong></td><td>Text</td><td>Vector Surveillance - Mosquito, Water Quality Testing, Sanitation Inspection, or Rodent Surveillance. Drives the surveillance-type breakdown visual.</td></tr>
+<tr><td><strong>SurveillanceDate</strong></td><td>Date</td><td>The date the activity was conducted. Carries an active relationship to Dim_Date[Date].</td></tr>
+<tr><td><strong>FindingResult</strong></td><td>Text</td><td>Positive/Negative for vector and rodent surveillance, or Satisfactory/Unsatisfactory for water quality and sanitation. Drives the Vector Surveillance Positivity % measure.</td></tr>
+<tr><td><strong>IndexValue</strong></td><td>Decimal Number</td><td>A numeric index specific to the surveillance type, for example a larval or vector index for mosquito surveillance, or a water quality score. Not directly comparable across different SurveillanceType values, an important caveat worth teaching students before they average this column blindly.</td></tr>
+<tr><td><strong>ConductedByOfficerID</strong></td><td>Text (Foreign Key)</td><td>Links the activity to the surveillance officer who conducted it, via Dim_SurveillanceOfficers[OfficerID].</td></tr>
+</table></div>
+</section>
+<section id='relationships'><h2 class='section-title'>3. Relationships To Be Built</h2>
+<div class='card'><p>Build every relationship below in Model view. For each one, decide the cardinality and cross filter direction yourself first, then check your answer against the table. Pay close attention to the two relationships marked <span class='badge inactive'>INACTIVE</span> - work out <em>why</em> Power BI will not let both relationships to the same table be active at once before you look at the DAX section.</p>
+<table><tr><th>From (one side)</th><th>To (many side)</th><th>Cardinality</th><th>Cross Filter</th><th>Status</th></tr>
+<tr><td>Dim_Diseases[DiseaseID]</td><td>Fact_CaseReports[DiseaseID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td></tr>
+<tr><td>Dim_Patients[PatientRefID]</td><td>Fact_CaseReports[PatientRefID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td></tr>
+<tr><td>Dim_HealthFacilities[FacilityID]</td><td>Fact_CaseReports[ReportingFacilityID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td></tr>
+<tr><td>Dim_SurveillanceOfficers[OfficerID]</td><td>Fact_CaseReports[ReportedByOfficerID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td></tr>
+<tr><td>Dim_Geography[GeographyID]</td><td>Fact_CaseReports[ResidenceGeographyID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td></tr>
+<tr><td>Dim_Date[Date]</td><td>Fact_CaseReports[OnsetDate]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td></tr>
+<tr><td>Dim_Date[Date]</td><td>Fact_CaseReports[ReportDate]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge inactive'>INACTIVE</span></td></tr>
+<tr><td>Fact_Outbreaks[OutbreakID]</td><td>Fact_CaseReports[OutbreakID]</td><td>One-to-Many (1:*)</td><td>Single (Fact_Outbreaks filters Fact_CaseReports)</td><td><span class='badge active'>ACTIVE</span></td></tr>
+<tr><td>Fact_CaseReports[CaseID]</td><td>Fact_LabResults[CaseID]</td><td>One-to-Many (1:*)</td><td>Single (Fact_CaseReports filters Fact_LabResults)</td><td><span class='badge active'>ACTIVE</span></td></tr>
+<tr><td>Dim_HealthFacilities[FacilityID]</td><td>Fact_LabResults[TestingFacilityID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge inactive'>INACTIVE</span></td></tr>
+<tr><td>Fact_Outbreaks[DiseaseID]</td><td>Dim_Diseases[DiseaseID]</td><td>Many-to-One (*:1)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td></tr>
+<tr><td>Dim_Geography[GeographyID]</td><td>Fact_Outbreaks[EpicenterGeographyID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td></tr>
+<tr><td>Dim_SurveillanceOfficers[OfficerID]</td><td>Fact_Outbreaks[ResponseTeamLeadOfficerID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td></tr>
+<tr><td>Dim_Vaccines[VaccineID]</td><td>Fact_Immunizations[VaccineID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td></tr>
+<tr><td>Dim_HealthFacilities[FacilityID]</td><td>Fact_Immunizations[FacilityID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td></tr>
+<tr><td>Dim_Date[Date]</td><td>Fact_Immunizations[VaccinationDate]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td></tr>
+<tr><td>Fact_CaseReports[CaseID]</td><td>Fact_ContactTracing[IndexCaseID]</td><td>One-to-Many (1:*)</td><td>Single (Fact_CaseReports filters Fact_ContactTracing)</td><td><span class='badge active'>ACTIVE</span></td></tr>
+<tr><td>Dim_Geography[GeographyID]</td><td>Fact_ContactTracing[ResidenceGeographyID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge inactive'>INACTIVE</span></td></tr>
+<tr><td>Dim_Date[Date]</td><td>Fact_ContactTracing[MonitoringStartDate]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge inactive'>INACTIVE</span></td></tr>
+<tr><td>Dim_Geography[GeographyID]</td><td>Fact_EnvironmentalSurveillance[GeographyID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td></tr>
+<tr><td>Dim_SurveillanceOfficers[OfficerID]</td><td>Fact_EnvironmentalSurveillance[ConductedByOfficerID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td></tr>
+<tr><td>Dim_Date[Date]</td><td>Fact_EnvironmentalSurveillance[SurveillanceDate]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td></tr>
+</table></div>
+<div class='callout'>Task: for both inactive relationships, write one sentence explaining which DAX function you would need to temporarily activate them inside a measure. Check your answer in the Solutions file.</div>
+</section>
+<section id='dax-tasks'><h2 class='section-title'>4. DAX Measures To Be Built</h2>
+<div class='card'><p>Build the following measures, in this order, inside a dedicated Measures table. For each one, the goal (why it exists) is given - your task is to write the DAX yourself before checking the Solutions file.</p></div>
+<table><tr><th style='width:26%'>Measure Name</th><th style='width:20%'>Used On</th><th>Your Task (goal of the measure)</th></tr>
+<tr><td><strong>Total Cases Reported</strong></td><td>Used on every page</td><td>The foundation KPI of the entire report; almost every other measure either builds on it or is filtered the same way it is.</td></tr>
+<tr><td><strong>Confirmed Cases</strong></td><td>Executive Overview</td><td>Distinguishes laboratory- or clinically-confirmed disease burden from the broader Suspected and Probable case pool, an important distinction in every surveillance bulletin.</td></tr>
+<tr><td><strong>Case Fatality Rate %</strong></td><td>Executive Overview, Disease &amp; Outbreak Surveillance</td><td>One of the most closely watched indicators in any disease surveillance bulletin, and one that must be presented carefully given its sensitivity.</td></tr>
+<tr><td><strong>Incidence Rate per 100,000</strong></td><td>Executive Overview, Disease &amp; Outbreak Surveillance</td><td>The single most authentic epidemiological measure in this project: a raw case count is close to meaningless without knowing the size of the population it came from, since a populous LGA will always report more cases than a sparsely populated one even if the underlying risk is identical.</td></tr>
+<tr><td><strong>Average Reporting Delay (Days)</strong></td><td>Disease &amp; Outbreak Surveillance</td><td>A core surveillance-system-performance indicator: the faster cases are reported, the faster an outbreak can be detected and contained.</td></tr>
+<tr><td><strong>Timely Reporting %</strong></td><td>Disease &amp; Outbreak Surveillance</td><td>Turns the raw delay figure into a target-based percentage that is easier to track against a performance goal (for example, a target of 80% of cases reported within 3 days).</td></tr>
+<tr><td><strong>Hospitalization Rate %</strong></td><td>Executive Overview</td><td>Indicates disease severity and health-system burden; a rising hospitalization rate for a given disease often signals either worsening severity or delayed presentation.</td></tr>
+<tr><td><strong>Outbreak-Linked Cases %</strong></td><td>Disease &amp; Outbreak Surveillance</td><td>Demonstrates the correct, robust way to test an optional foreign key for blank versus populated in DAX, rather than comparing it to an empty string, which behaves differently and less reliably.</td></tr>
+<tr><td><strong>Cases by Report Date (USERELATIONSHIP demo)</strong></td><td>Disease &amp; Outbreak Surveillance</td><td>The clearest possible demonstration in this project of why a dedicated date table sometimes needs more than one relationship to the same fact table, and why USERELATIONSHIP exists to resolve the resulting ambiguity safely.</td></tr>
+<tr><td><strong>Total Lab Tests Conducted</strong></td><td>Laboratory &amp; Diagnostics</td><td>The foundation activity KPI for the entire Laboratory &amp; Diagnostics dashboard page.</td></tr>
+<tr><td><strong>Lab Positivity Rate %</strong></td><td>Laboratory &amp; Diagnostics</td><td>A core diagnostic-yield indicator; a rising positivity rate for a given disease, even without a rise in absolute case counts, can be an early warning sign that testing is not keeping pace with true transmission.</td></tr>
+<tr><td><strong>Average Lab Turnaround Time (Days)</strong></td><td>Laboratory &amp; Diagnostics</td><td>A core laboratory-system-performance indicator, since a confirmed diagnosis that arrives too late to change clinical management or trigger a timely outbreak response has limited practical value.</td></tr>
+<tr><td><strong>Lab Positivity by Testing Facility (USERELATIONSHIP demo)</strong></td><td>Laboratory &amp; Diagnostics</td><td>The single most advanced DAX pattern in this project: it shows that USERELATIONSHIP is not only needed for role-playing date columns, but for any pair of tables where a fact-to-fact chain has already created an indirect, differently-meaning path.</td></tr>
+<tr><td><strong>Total Doses Administered</strong></td><td>Immunization &amp; Vaccine-Preventable Disease</td><td>The primary immunization-activity KPI, a proxy for vaccination coverage since this dataset does not model a formal target-population denominator for coverage percentage.</td></tr>
+<tr><td><strong>Vaccine Wastage Rate %</strong></td><td>Immunization &amp; Vaccine-Preventable Disease</td><td>An important vaccine-supply-chain efficiency indicator; consistently high wastage at a specific facility or for a specific vaccine type signals a cold-chain or session-planning problem worth investigating.</td></tr>
+<tr><td><strong>Total Active Outbreaks</strong></td><td>Disease &amp; Outbreak Surveillance</td><td>A live operational KPI for outbreak response coordination teams; unlike most other measures in this project, this one is most meaningful at the current point in time rather than as a historical trend.</td></tr>
+<tr><td><strong>Average Outbreak Duration (Days)</strong></td><td>Disease &amp; Outbreak Surveillance</td><td>A core outbreak-response KPI; shorter average outbreak durations generally indicate a more effective and timely response system.</td></tr>
+<tr><td><strong>Total Contacts Identified</strong></td><td>Contact Tracing &amp; Field Operations</td><td>The foundation activity KPI for the entire contact tracing operation.</td></tr>
+<tr><td><strong>Contacts Converted to Cases %</strong></td><td>Contact Tracing &amp; Field Operations</td><td>Functions as a rough secondary-attack-rate indicator: a high conversion rate among traced contacts suggests either a highly transmissible disease or a delay between exposure and contact tracing initiation.</td></tr>
+<tr><td><strong>Average Contacts per Index Case</strong></td><td>Contact Tracing &amp; Field Operations</td><td>A field-operations workload indicator: diseases or settings that generate unusually high average contacts per case (for example, a case in a crowded household or workplace) place a proportionally higher burden on the contact tracing team.</td></tr>
+<tr><td><strong>Vector Surveillance Positivity %</strong></td><td>Contact Tracing &amp; Field Operations</td><td>An early-warning environmental indicator for vector-borne disease risk (Malaria, Yellow Fever, Dengue), often rising before a corresponding increase in human case counts.</td></tr>
+<tr><td><strong>Case Growth % (WoW)</strong></td><td>Executive Overview</td><td>Week-over-week comparison is the standard cadence in real epidemic intelligence, since month-over-month comparisons react too slowly to catch an emerging outbreak in its earliest, most controllable phase.</td></tr>
+<tr><td><strong>Outbreak-Level Case Fatality Rate %</strong></td><td>Disease &amp; Outbreak Surveillance</td><td>Deliberately kept as a separate measure from the case-level Case Fatality Rate %, since the two are calculated from different source data (officially reported outbreak totals versus individual case outcomes) and will not always agree exactly, a realistic data-reconciliation discussion point worth raising with students.</td></tr>
+</table>
+</section>
+<section id='dashboards'><h2 class='section-title'>5. Dashboards To Be Built</h2>
+<div class='card'><p>Build five report pages with the exact titles below. For each chart, the required chart type and the fields to place on it are given - your task is to build it, format it, and confirm it renders with no blank or error states.</p></div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Page 1 - Executive Overview</h3><p>A single-screen situational awareness summary for public health leadership: overall case activity, growth, severity, and outbreak status at a glance.</p>
+<table><tr><th style='width:22%'>Visual</th><th style='width:18%'>Chart Type</th><th>Fields</th></tr>
+<tr><td><strong>KPI Card Row</strong></td><td>Card visuals (x5)</td><td>Total Cases Reported, Confirmed Cases, Case Fatality Rate %, Incidence Rate per 100,000, Total Active Outbreaks</td></tr>
+<tr><td><strong>Epi Curve</strong></td><td>Line chart (combo, with Case Growth % WoW as a secondary line)</td><td>Axis: Dim_Date[MonthName] (sorted by MonthNumber); Values: Total Cases Reported, Case Growth % WoW</td></tr>
+<tr><td><strong>Case Classification Split</strong></td><td>Donut chart</td><td>Legend: Fact_CaseReports[CaseClassification]; Values: Total Cases Reported</td></tr>
+<tr><td><strong>Top 10 Diseases by Case Count</strong></td><td>Bar chart</td><td>Axis: Dim_Diseases[DiseaseName]; Values: Total Cases Reported</td></tr>
+<tr><td><strong>Hospitalization Rate Card</strong></td><td>Card visual</td><td>Value: Hospitalization Rate %</td></tr>
+</table></div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Page 2 - Disease &amp; Outbreak Surveillance</h3><p>The epidemiologist&#x27;s working view: disease-level patterns, geographic incidence, reporting-system timeliness, and the outbreak log.</p>
+<table><tr><th style='width:22%'>Visual</th><th style='width:18%'>Chart Type</th><th>Fields</th></tr>
+<tr><td><strong>Incidence Rate by State</strong></td><td>Clustered bar chart (or Filled Map if enabled)</td><td>Axis: Dim_Geography[State]; Values: Incidence Rate per 100,000</td></tr>
+<tr><td><strong>Outbreak Log</strong></td><td>Table visual</td><td>Columns: OutbreakID, DiseaseName, EpicenterGeographyID (State/LGA), DateDeclared, OutbreakStatus, Severity, TotalCasesAtClosure</td></tr>
+<tr><td><strong>Reporting Timeliness KPI Cards</strong></td><td>Card visuals (x2)</td><td>Average Reporting Delay (Days), Timely Reporting %</td></tr>
+<tr><td><strong>Outbreak Severity Split</strong></td><td>Donut chart</td><td>Legend: Fact_Outbreaks[Severity]; Values: Total Active Outbreaks (or COUNTROWS of Fact_Outbreaks)</td></tr>
+<tr><td><strong>Outbreak-Linked vs Sporadic Cases</strong></td><td>Gauge or card pair</td><td>Values: Outbreak-Linked Cases %</td></tr>
+</table></div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Page 3 - Laboratory &amp; Diagnostics</h3><p>The laboratory network&#x27;s working view: testing volume, diagnostic yield, and turnaround performance, including the testing-facility-specific perspective enabled by USERELATIONSHIP.</p>
+<table><tr><th style='width:22%'>Visual</th><th style='width:18%'>Chart Type</th><th>Fields</th></tr>
+<tr><td><strong>Lab KPI Row</strong></td><td>Card visuals (x3)</td><td>Total Lab Tests Conducted, Lab Positivity Rate %, Average Lab Turnaround Time (Days)</td></tr>
+<tr><td><strong>Positivity Rate by Disease</strong></td><td>Bar chart</td><td>Axis: Dim_Diseases[DiseaseName]; Values: Lab Positivity Rate %</td></tr>
+<tr><td><strong>Testing Facility Performance Matrix</strong></td><td>Matrix visual</td><td>Rows: Dim_HealthFacilities[FacilityName] (filtered to HasLabCapacity = Yes); Values: Total Lab Tests Conducted, Lab Positivity by Testing Facility, Average Lab Turnaround Time (Days)</td></tr>
+<tr><td><strong>Turnaround Time Trend</strong></td><td>Line chart</td><td>Axis: Dim_Date[MonthName] (sorted by MonthNumber); Values: Average Lab Turnaround Time (Days)</td></tr>
+<tr><td><strong>Test Result Split</strong></td><td>Donut chart</td><td>Legend: Fact_LabResults[TestResult]; Values: Total Lab Tests Conducted</td></tr>
+</table></div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Page 4 - Immunization &amp; Vaccine-Preventable Disease</h3><p>The immunization programme&#x27;s working view: coverage activity, vaccine wastage, and campaign mix.</p>
+<table><tr><th style='width:22%'>Visual</th><th style='width:18%'>Chart Type</th><th>Fields</th></tr>
+<tr><td><strong>Immunization KPI Cards</strong></td><td>Card visuals (x2)</td><td>Total Doses Administered, Vaccine Wastage Rate %</td></tr>
+<tr><td><strong>Doses Administered by Vaccine</strong></td><td>Column chart</td><td>Axis: Dim_Vaccines[VaccineName]; Values: Total Doses Administered</td></tr>
+<tr><td><strong>Doses Administered by State</strong></td><td>Bar chart</td><td>Axis: Dim_Geography[State] (via Dim_HealthFacilities); Values: Total Doses Administered</td></tr>
+<tr><td><strong>Campaign Type Split</strong></td><td>Donut chart</td><td>Legend: Fact_Immunizations[CampaignType]; Values: Total Doses Administered</td></tr>
+<tr><td><strong>Monthly Doses Trend</strong></td><td>Line chart</td><td>Axis: Dim_Date[MonthName] (sorted by MonthNumber); Values: Total Doses Administered</td></tr>
+</table></div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Page 5 - Contact Tracing &amp; Field Operations</h3><p>The field operations view: contact tracing performance, environmental surveillance, and surveillance officer workload.</p>
+<table><tr><th style='width:22%'>Visual</th><th style='width:18%'>Chart Type</th><th>Fields</th></tr>
+<tr><td><strong>Contact Tracing KPI Row</strong></td><td>Card visuals (x3)</td><td>Total Contacts Identified, Contacts Converted to Cases %, Average Contacts per Index Case</td></tr>
+<tr><td><strong>Contact Status Split</strong></td><td>Donut chart</td><td>Legend: Fact_ContactTracing[ContactStatus]; Values: Total Contacts Identified</td></tr>
+<tr><td><strong>Environmental Surveillance Card</strong></td><td>Card visual</td><td>Value: Vector Surveillance Positivity %</td></tr>
+<tr><td><strong>Officer Workload Matrix</strong></td><td>Matrix visual</td><td>Rows: Dim_SurveillanceOfficers Full Name (calculated column); Columns: Dim_SurveillanceOfficers[Role]; Values: Total Cases Reported</td></tr>
+<tr><td><strong>Experience vs Caseload</strong></td><td>Scatter chart</td><td>X-axis: Dim_SurveillanceOfficers[YearsOfExperience]; Y-axis: Total Cases Reported; Details: OfficerID</td></tr>
+</table></div>
+</section>
+<section id='tasks'><h2 class='section-title'>6. Full Task Checklist</h2>
+<h3 class='sub-title'>Section A - Data Preparation Tasks</h3>
+<div class='task-item'><input type='checkbox'><div>Open Disease_Surveillance_Dataset.xlsx and review the Read Me sheet to understand the full 13-table inventory before touching Power BI.</div></div>
+<div class='task-item'><input type='checkbox'><div>In Power BI Desktop, use Get Data &gt; Excel Workbook to import all 13 data tables (Dim_Geography, Dim_Diseases, Dim_HealthFacilities, Dim_SurveillanceOfficers, Dim_Vaccines, Dim_Patients, Dim_Date, Fact_Outbreaks, Fact_CaseReports, Fact_LabResults, Fact_Immunizations, Fact_ContactTracing, Fact_EnvironmentalSurveillance). Do not import the Read Me sheet.</div></div>
+<div class='task-item'><input type='checkbox'><div>In Power Query Editor, confirm each column has the correct data type: text keys should be Text, every date column should be Date, Population/AreaKm2/DosesAdministered and similar count columns should be Whole Number, and PopulationDensityPerKm2/ReferenceCaseFatalityRatePercent/IndexValue should be Decimal Number.</div></div>
+<div class='task-item'><input type='checkbox'><div>Rename the query for each table to match the sheet name exactly so relationships and DAX formulas in this project line up with what is documented here.</div></div>
+<div class='task-item'><input type='checkbox'><div>Close and Apply the Power Query changes and confirm the model loads with the row counts stated in the Read Me sheet.</div></div>
+<h3 class='sub-title'>Section B - Data Modelling Tasks (Relationships &amp; Cardinality)</h3>
+<div class='task-item'><input type='checkbox'><div>Switch to Model view and arrange the 13 tables so the 7 dimension tables sit above the 6 fact tables, roughly mirroring a star schema layout.</div></div>
+<div class='task-item'><input type='checkbox'><div>Build all 21 relationships listed in the Relationships section of this document, setting the correct cardinality (One-to-Many in every case) and cross filter direction (Single throughout).</div></div>
+<div class='task-item'><input type='checkbox'><div>Deliberately leave FOUR relationships INACTIVE: Dim_Date to Fact_CaseReports[ReportDate], Dim_HealthFacilities to Fact_LabResults[TestingFacilityID], Dim_Geography to Fact_ContactTracing[ResidenceGeographyID], and Dim_Date to Fact_ContactTracing[MonitoringStartDate]. For each one, write one sentence explaining which indirect path through a fact-to-fact relationship is already carrying that filter.</div></div>
+<div class='task-item'><input type='checkbox'><div>Mark Dim_Date as an official Date Table in Power BI (right click the table &gt; Mark as Date Table), pointing to the Date column, so time intelligence DAX functions work correctly.</div></div>
+<div class='task-item'><input type='checkbox'><div>Set Sort By Column on Dim_Date[MonthName] to Dim_Date[MonthNumber] so month names display in calendar order rather than alphabetical order on every chart axis.</div></div>
+<div class='task-item'><input type='checkbox'><div>Hide technical or non-analytical columns from report view (ContactPhone columns, all *ID key columns not needed on visuals) to keep the field list clean for report users.</div></div>
+<div class='task-item'><input type='checkbox'><div>Create a Full Name calculated column on Dim_SurveillanceOfficers, concatenating FirstName and LastName.</div></div>
+<div class='task-item'><input type='checkbox'><div>Confirm that Fact_CaseReports[IsOutbreakRelated] and the presence/absence of Fact_CaseReports[OutbreakID] agree with each other for a sample of rows, as a simple data-quality spot check.</div></div>
+<h3 class='sub-title'>Section C - DAX Measure Building Tasks</h3>
+<div class='task-item'><input type='checkbox'><div>Create a dedicated Measures table (a blank table with no columns, used purely to organise measures) and move every measure below into it.</div></div>
+<div class='task-item'><input type='checkbox'><div>Build Total Cases Reported, Confirmed Cases, Total Lab Tests Conducted, Total Doses Administered and Total Contacts Identified as base aggregation measures first.</div></div>
+<div class='task-item'><input type='checkbox'><div>Build Case Fatality Rate %, Hospitalization Rate %, Lab Positivity Rate % and Contacts Converted to Cases % as ratio measures on top of the base measures, using DIVIDE rather than the / operator throughout.</div></div>
+<div class='task-item'><input type='checkbox'><div>Build Incidence Rate per 100,000 and explain in your own words why SUM(Dim_Geography[Population]) does not double-count population even when many case reports share the same LGA.</div></div>
+<div class='task-item'><input type='checkbox'><div>Build Outbreak-Linked Cases % using ISBLANK on Fact_CaseReports[OutbreakID], and confirm it agrees closely (though perhaps not perfectly) with the separate IsOutbreakRelated text-flag column.</div></div>
+<div class='task-item'><input type='checkbox'><div>Build Cases by Report Date using CALCULATE with USERELATIONSHIP to activate the inactive ReportDate relationship, and confirm its output differs from Total Cases Reported when sliced by month.</div></div>
+<div class='task-item'><input type='checkbox'><div>Build Lab Positivity by Testing Facility using CALCULATE with USERELATIONSHIP on the FacilityID/TestingFacilityID pair, and confirm it differs from the default Lab Positivity Rate % when both are placed in the same matrix by FacilityName.</div></div>
+<div class='task-item'><input type='checkbox'><div>Build Average Outbreak Duration (Days) using AVERAGEX and FILTER to correctly exclude outbreaks with a blank DateClosed, and explain what would go wrong if that FILTER were omitted.</div></div>
+<div class='task-item'><input type='checkbox'><div>Build Case Growth % WoW using the VAR/RETURN pattern with DATEADD shifted by 7 days rather than a month, and explain why week-over-week is the more standard comparison cadence in epidemic surveillance.</div></div>
+<div class='task-item'><input type='checkbox'><div>Build Vaccine Wastage Rate % and Vector Surveillance Positivity %, and apply conditional formatting to both on their respective KPI cards.</div></div>
+<h3 class='sub-title'>Section D - Dashboard Build Tasks (5 Pages)</h3>
+<div class='task-item'><input type='checkbox'><div>Build Page 1 - Executive Overview exactly as specified in the Dashboard Pages section: 5 KPI cards plus a Hospitalization Rate card, an epi curve combo chart, a case classification donut, and a top 10 diseases bar chart.</div></div>
+<div class='task-item'><input type='checkbox'><div>Build Page 2 - Disease &amp; Outbreak Surveillance: incidence rate by state, the outbreak log table, reporting timeliness KPI cards, an outbreak severity donut, and an outbreak-linked cases gauge.</div></div>
+<div class='task-item'><input type='checkbox'><div>Build Page 3 - Laboratory &amp; Diagnostics: 3 lab KPI cards, positivity rate by disease bar chart, the testing facility performance matrix (the central USERELATIONSHIP visual), a turnaround time trend line, and a test result donut.</div></div>
+<div class='task-item'><input type='checkbox'><div>Build Page 4 - Immunization &amp; Vaccine-Preventable Disease: 2 immunization KPI cards, doses administered by vaccine column chart, doses administered by state bar chart, a campaign type donut, and a monthly doses trend line.</div></div>
+<div class='task-item'><input type='checkbox'><div>Build Page 5 - Contact Tracing &amp; Field Operations: 3 contact tracing KPI cards, a contact status donut, an environmental surveillance card, an officer workload matrix, and an experience versus caseload scatter chart.</div></div>
+<div class='task-item'><input type='checkbox'><div>Add a Year slicer and a Disease Category slicer to every page, synced across all 5 pages using the Sync Slicers pane.</div></div>
+<div class='task-item'><input type='checkbox'><div>Add page navigation buttons (or a navigation bar) so a report user can move between all 5 pages without using the page tabs.</div></div>
+<div class='task-item'><input type='checkbox'><div>Test every visual by clicking through each slicer combination and confirm no chart shows a blank or error state, and no card visual reads (Blank).</div></div>
+<div class='task-item'><input type='checkbox'><div>Publish the finished report and write a one-page situational awareness brief summarising the three biggest surveillance, laboratory or immunization insights the dashboard reveals.</div></div>
+</section>
+</div>
+<footer>&copy; Prodigy Training Hub - Prepared by Kajola Gbenga, Data Scientist &amp; AI Engineer. For classroom training use.</footer>
+</body></html>

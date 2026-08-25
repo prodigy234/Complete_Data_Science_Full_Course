@@ -1,0 +1,464 @@
+<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<title>Public Health &amp; Disease Surveillance - Power BI Training Project - Full Solutions Walkthrough</title>
+<style>
+:root{
+  --navy:#1F4E78; --navy-dark:#123049; --accent:#2E86AB; --gold:#C9962C;
+  --bg:#F5F7FA; --card:#FFFFFF; --text:#242B33; --muted:#5B6774; --border:#DCE3EA;
+  --good:#2E7D32; --warn:#B26A00; --bad:#B3261E;
+}
+*{box-sizing:border-box;}
+body{margin:0;font-family:'Segoe UI',Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;}
+.wrap{max-width:1100px;margin:0 auto;padding:0 24px 80px;}
+header.hero{background:linear-gradient(135deg,var(--navy) 0%,var(--navy-dark) 100%);color:#fff;padding:56px 24px 40px;}
+header.hero .wrap{padding:0 24px;}
+.kicker{text-transform:uppercase;letter-spacing:2px;font-size:12px;color:var(--gold);font-weight:700;}
+h1.title{font-size:32px;margin:10px 0 6px;}
+.subtitle{font-size:16px;color:#CFE0EE;max-width:800px;}
+.author-block{margin-top:22px;padding-top:18px;border-top:1px solid rgba(255,255,255,0.25);}
+.author-name{font-size:18px;font-weight:700;}
+.author-title{color:var(--gold);font-size:14px;}
+nav.toc{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:18px 22px;margin:-28px 0 34px;box-shadow:0 4px 14px rgba(20,40,70,0.08);}
+nav.toc h2{font-size:14px;text-transform:uppercase;letter-spacing:1px;color:var(--navy);margin:0 0 10px;}
+nav.toc ol{margin:0;padding-left:20px;columns:2;gap:24px;}
+nav.toc a{color:var(--accent);text-decoration:none;font-size:14px;}
+nav.toc a:hover{text-decoration:underline;}
+section{margin:44px 0;}
+h2.section-title{font-size:24px;color:var(--navy);border-bottom:3px solid var(--gold);padding-bottom:8px;margin-bottom:18px;}
+h3.sub-title{font-size:19px;color:var(--navy-dark);margin:26px 0 10px;}
+p{margin:10px 0;}
+.card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:20px 24px;margin:16px 0;box-shadow:0 2px 8px rgba(20,40,70,0.05);}
+table{width:100%;border-collapse:collapse;margin:14px 0;font-size:14.5px;}
+th{background:var(--navy);color:#fff;text-align:left;padding:9px 12px;font-weight:600;}
+td{padding:9px 12px;border-bottom:1px solid var(--border);vertical-align:top;}
+tr:nth-child(even) td{background:#F7FAFD;}
+.badge{display:inline-block;padding:2px 10px;border-radius:20px;font-size:12px;font-weight:700;letter-spacing:.3px;}
+.badge.dim{background:#E4EEF7;color:var(--navy);}
+.badge.fact{background:#FCEFD9;color:#8A5A00;}
+.badge.active{background:#E3F2E1;color:var(--good);}
+.badge.inactive{background:#FBE7E5;color:var(--bad);}
+code, .dax{font-family:'Cascadia Code','Consolas',monospace;background:#0F2439;color:#DCEBFB;padding:14px 16px;display:block;border-radius:8px;white-space:pre-wrap;font-size:13.5px;line-height:1.55;margin:10px 0;overflow-x:auto;}
+.inline-code{font-family:Consolas,monospace;background:#EEF3F9;color:#1F4E78;padding:1px 6px;border-radius:4px;font-size:13.5px;}
+ul, ol{margin:8px 0;padding-left:22px;}
+li{margin:5px 0;}
+.chip-row{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0;}
+.chip{background:#EEF3F9;border:1px solid var(--border);border-radius:20px;padding:4px 14px;font-size:13px;color:var(--navy);}
+.callout{border-left:4px solid var(--gold);background:#FFF8EA;padding:12px 18px;border-radius:0 8px 8px 0;margin:14px 0;font-size:14.5px;}
+.callout.why{border-left-color:var(--accent);background:#EAF4FB;}
+.callout.impact{border-left-color:var(--good);background:#EAF7EA;}
+.step-num{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;background:var(--navy);color:#fff;border-radius:50%;font-size:13px;font-weight:700;margin-right:8px;}
+.task-item{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:10px 16px;margin:8px 0;display:flex;gap:10px;align-items:flex-start;}
+.task-item input{margin-top:4px;}
+.grain{color:var(--muted);font-size:13.5px;font-style:italic;}
+footer{background:var(--navy-dark);color:#B9C7D3;padding:26px 24px;text-align:center;font-size:13px;margin-top:60px;}
+.pill-page{background:var(--navy);color:#fff;padding:4px 12px;border-radius:6px;font-size:13px;display:inline-block;margin-bottom:8px;}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:18px;}
+@media(max-width:760px){.two-col{grid-template-columns:1fr;} nav.toc ol{columns:1;}}
+</style></head><body>
+<header class="hero">
+  <div class="wrap">
+    <div class="kicker">Prodigy Training Hub - Power BI Training Project</div>
+    <h1 class="title">Public Health &amp; Disease Surveillance - Power BI Training Project</h1>
+    <div class="subtitle">The complete worked solution - from loading the clean data in Power Query, through building every relationship, every DAX measure explained line by line, to the five finished dashboard pages.</div>
+    <div class="author-block">
+      <div class="author-name">Kajola Gbenga</div>
+      <div class="author-title">Data Scientist &amp; AI Engineer</div>
+    </div>
+    <div class="pill-page">File 2 of 2: Full Solutions Walkthrough</div>
+  </div>
+</header>
+<div class='wrap'>
+<nav class="toc"><h2>Contents</h2><ol><li><a href="#s-intro">1. Solution Overview</a></li>
+<li><a href="#s-load">2. Step 1 - Loading &amp; Preparing the Data</a></li>
+<li><a href="#s-model">3. Step 2 - Building the Data Model</a></li>
+<li><a href="#s-dax">4. Step 3 - Building the DAX Measures</a></li>
+<li><a href="#s-dash">5. Step 4 - Building the Five Dashboard Pages</a></li>
+<li><a href="#s-qa">6. Step 5 - Quality Check &amp; Publish</a></li></ol></nav>
+<section id='s-intro'><h2 class='section-title'>1. Solution Overview</h2>
+<div class='card'><p>This file is the fully worked solution to every task listed in the Tasks and Problem Brief file. It follows the standard Power BI project sequence: <strong>Load &amp; Shape</strong> &gt; <strong>Model &amp; Relate</strong> &gt; <strong>Measure with DAX</strong> &gt; <strong>Visualise &amp; Publish</strong>. Read it alongside the Tasks file rather than instead of it - the real learning happens in attempting each task before checking it here.</p></div>
+</section>
+<section id='s-load'><h2 class='section-title'>2. Step 1 - Loading & Preparing the Data</h2>
+<div class='card'><span class='step-num'>1</span><strong>Get Data</strong><p>Open Power BI Desktop, choose Get Data &gt; Excel Workbook, and select Disease_Surveillance_Dataset.xlsx. In the Navigator window, tick all 13 data tables (skip the Read Me sheet) and click Transform Data to open Power Query Editor before loading, so every type can be checked first.</p></div>
+<div class='card'><span class='step-num'>2</span><strong>Confirm data types</strong><p>Click through each query and confirm: every *ID key column is Text; every date column (OnsetDate, ReportDate, DateDeclared, DateClosed, SpecimenCollectionDate, ResultDate, VaccinationDate, MonitoringStartDate, MonitoringEndDate, SurveillanceDate, DateEstablished, DateHired, DateOfBirth and Date) is Date; and Population, AreaKm2, DosesAdministered and similar count columns are Whole Number. Power Query usually infers these correctly from a clean Excel source, but this dataset was built specifically so a student practises verifying, not assuming.</p></div>
+<div class='card'><span class='step-num'>3</span><strong>Rename queries</strong><p>Confirm the query names in the Queries pane exactly match the sheet names (Dim_Geography, Dim_Diseases, Dim_HealthFacilities, Dim_SurveillanceOfficers, Dim_Vaccines, Dim_Patients, Dim_Date, Fact_Outbreaks, Fact_CaseReports, Fact_LabResults, Fact_Immunizations, Fact_ContactTracing, Fact_EnvironmentalSurveillance), since every relationship and DAX formula in this walkthrough references these exact names.</p></div>
+<div class='card'><span class='step-num'>4</span><strong>Close &amp; Apply</strong><p>Click Close &amp; Apply. Power BI loads all 13 tables into the semantic model. Open Model view and confirm you see 13 tables with no relationships yet - Power BI&#x27;s autodetect sometimes proposes relationships on load; delete any that were auto-created so you build every one deliberately in the next step.</p></div>
+</section>
+<section id='s-model'><h2 class='section-title'>3. Step 2 - Building the Data Model</h2>
+<div class='card'><p>In Model view, drag from the key column on the dimension (one) side to the foreign key column on the fact (many) side for each relationship below, in this order. Power BI infers cardinality automatically from the data, but always open the relationship's properties and confirm it reads One-to-Many before moving to the next one.</p></div>
+<table><tr><th>#</th><th>Relationship</th><th>Cardinality</th><th>Cross Filter</th><th>Status</th><th>Why</th></tr>
+<tr><td>1</td><td>Dim_Diseases[DiseaseID] &rarr; Fact_CaseReports[DiseaseID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td><td>The primary relationship behind every disease-burden visual in the project.</td></tr>
+<tr><td>2</td><td>Dim_Patients[PatientRefID] &rarr; Fact_CaseReports[PatientRefID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td><td>Lets case reports be filtered or broken down by demographic and risk-group attributes.</td></tr>
+<tr><td>3</td><td>Dim_HealthFacilities[FacilityID] &rarr; Fact_CaseReports[ReportingFacilityID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td><td>The first of Dim_HealthFacilities&#x27; three relationships into the model; safe to leave active.</td></tr>
+<tr><td>4</td><td>Dim_SurveillanceOfficers[OfficerID] &rarr; Fact_CaseReports[ReportedByOfficerID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td><td>The first of Dim_SurveillanceOfficers&#x27; three relationships into the model; safe to leave active.</td></tr>
+<tr><td>5</td><td>Dim_Geography[GeographyID] &rarr; Fact_CaseReports[ResidenceGeographyID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td><td>The relationship behind every Incidence Rate per 100,000 measure, and the first of Dim_Geography&#x27;s three relationships into the model.</td></tr>
+<tr><td>6</td><td>Dim_Date[Date] &rarr; Fact_CaseReports[OnsetDate]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td><td>The primary, active time relationship for the whole project; a true epidemic curve is built on onset date, not report date.</td></tr>
+<tr><td>7</td><td>Dim_Date[Date] &rarr; Fact_CaseReports[ReportDate]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge inactive'>INACTIVE</span></td><td>Power BI only allows one ACTIVE relationship between any two tables at a time, so this second link to Dim_Date must be created INACTIVE and switched on inside measures using CALCULATE with USERELATIONSHIP(Dim_Date[Date], Fact_CaseReports[ReportDate]) whenever a reporting-timeliness view is needed.</td></tr>
+<tr><td>8</td><td>Fact_Outbreaks[OutbreakID] &rarr; Fact_CaseReports[OutbreakID]</td><td>One-to-Many (1:*)</td><td>Single (Fact_Outbreaks filters Fact_CaseReports)</td><td><span class='badge active'>ACTIVE</span></td><td>A fact-to-fact, OPTIONAL relationship: roughly 70% of Fact_CaseReports rows have a blank OutbreakID and will simply not appear when a report is filtered strictly to a specific outbreak, which is expected and correct behaviour.</td></tr>
+<tr><td>9</td><td>Fact_CaseReports[CaseID] &rarr; Fact_LabResults[CaseID]</td><td>One-to-Many (1:*)</td><td>Single (Fact_CaseReports filters Fact_LabResults)</td><td><span class='badge active'>ACTIVE</span></td><td>A fact-to-fact relationship. Around 15% of tested cases generate more than one lab result row, which is why this must be modelled as one-to-many.</td></tr>
+<tr><td>10</td><td>Dim_HealthFacilities[FacilityID] &rarr; Fact_LabResults[TestingFacilityID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge inactive'>INACTIVE</span></td><td>Dim_HealthFacilities already reaches Fact_LabResults indirectly through Fact_CaseReports[ReportingFacilityID] followed by the CaseID relationship above. A direct relationship on the testing facility would close a loop of active relationships, so Power BI requires it to be INACTIVE, activated with USERELATIONSHIP(Dim_HealthFacilities[FacilityID], Fact_LabResults[TestingFacilityID]) only inside measures that specifically need the testing laboratory&#x27;s own perspective.</td></tr>
+<tr><td>11</td><td>Fact_Outbreaks[DiseaseID] &rarr; Dim_Diseases[DiseaseID]</td><td>Many-to-One (*:1)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td><td>Links each outbreak to the disease it involves. Listed here from the fact table&#x27;s perspective since Fact_Outbreaks is the &#x27;many&#x27; side.</td></tr>
+<tr><td>12</td><td>Dim_Geography[GeographyID] &rarr; Fact_Outbreaks[EpicenterGeographyID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td><td>The second of Dim_Geography&#x27;s three relationships into the model; safe to leave active since Fact_Outbreaks is upstream of, not fact-to-fact reachable from, any other geography-linked table in a way that would create a loop.</td></tr>
+<tr><td>13</td><td>Dim_SurveillanceOfficers[OfficerID] &rarr; Fact_Outbreaks[ResponseTeamLeadOfficerID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td><td>The second of Dim_SurveillanceOfficers&#x27; three relationships into the model; safe to leave active.</td></tr>
+<tr><td>14</td><td>Dim_Vaccines[VaccineID] &rarr; Fact_Immunizations[VaccineID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td><td>The primary relationship behind the entire Immunization &amp; Vaccine-Preventable Disease dashboard page.</td></tr>
+<tr><td>15</td><td>Dim_HealthFacilities[FacilityID] &rarr; Fact_Immunizations[FacilityID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td><td>The second of Dim_HealthFacilities&#x27; three relationships into the model; safe to leave active since Fact_Immunizations is not fact-to-fact linked to Fact_CaseReports.</td></tr>
+<tr><td>16</td><td>Dim_Date[Date] &rarr; Fact_Immunizations[VaccinationDate]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td><td>The active time relationship for immunization trend visuals; safe to leave active since Fact_Immunizations is not fact-to-fact linked to any table already reaching Dim_Date.</td></tr>
+<tr><td>17</td><td>Fact_CaseReports[CaseID] &rarr; Fact_ContactTracing[IndexCaseID]</td><td>One-to-Many (1:*)</td><td>Single (Fact_CaseReports filters Fact_ContactTracing)</td><td><span class='badge active'>ACTIVE</span></td><td>A fact-to-fact relationship; each index case commonly generates several traced contacts.</td></tr>
+<tr><td>18</td><td>Dim_Geography[GeographyID] &rarr; Fact_ContactTracing[ResidenceGeographyID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge inactive'>INACTIVE</span></td><td>Dim_Geography already reaches Fact_ContactTracing indirectly through Fact_CaseReports. A direct relationship here would close a loop, so it must be INACTIVE, activated with USERELATIONSHIP(Dim_Geography[GeographyID], Fact_ContactTracing[ResidenceGeographyID]) only when the contact&#x27;s own residence is specifically needed.</td></tr>
+<tr><td>19</td><td>Dim_Date[Date] &rarr; Fact_ContactTracing[MonitoringStartDate]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge inactive'>INACTIVE</span></td><td>For the same closed-loop reason as the geography relationship above (Dim_Date already reaches Fact_ContactTracing indirectly through Fact_CaseReports[OnsetDate]), this relationship must also be created INACTIVE. Fact_ContactTracing is therefore the only table in the project with two simultaneously inactive relationships, making it the richest single example of the general principle: a fact-to-fact relationship can silently create an indirect path that blocks a direct one.</td></tr>
+<tr><td>20</td><td>Dim_Geography[GeographyID] &rarr; Fact_EnvironmentalSurveillance[GeographyID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td><td>The third of Dim_Geography&#x27;s relationships into the model; safe to leave active since Fact_EnvironmentalSurveillance is not fact-to-fact linked to any other table.</td></tr>
+<tr><td>21</td><td>Dim_SurveillanceOfficers[OfficerID] &rarr; Fact_EnvironmentalSurveillance[ConductedByOfficerID]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td><td>The third of Dim_SurveillanceOfficers&#x27; relationships into the model; safe to leave active for the same reason.</td></tr>
+<tr><td>22</td><td>Dim_Date[Date] &rarr; Fact_EnvironmentalSurveillance[SurveillanceDate]</td><td>One-to-Many (1:*)</td><td>Single</td><td><span class='badge active'>ACTIVE</span></td><td>Safe to leave active since Fact_EnvironmentalSurveillance is not fact-to-fact linked to any other table already reaching Dim_Date.</td></tr>
+</table>
+<div class='callout'>When you build relationships 7 (Dim_Date to ReportDate), 10 (Dim_HealthFacilities to TestingFacilityID), 18 (Dim_Geography to ContactTracing ResidenceGeographyID) and 19 (Dim_Date to ContactTracing MonitoringStartDate), Power BI will automatically create them as inactive (shown as a dashed line in Model view) because an active path to each of those tables already exists through a fact-to-fact chain. This is expected and correct - do not try to force them active.</div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Mark Dim_Date as a Date Table</h3><p>Right-click Dim_Date in the Fields pane &gt; Mark as Date Table &gt; Mark as Date Table, then choose the Date column when prompted. Confirm the dialog reports no errors. This step is mandatory before any DATEADD, SAMEPERIODLASTYEAR or TOTALYTD measure will calculate correctly, because Power BI needs to verify the column is unique, contiguous and contains no gaps or blanks across the full calendar range.</p></div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Calculated Columns</h3><div class='dax'>Full Name = Dim_SurveillanceOfficers[FirstName] &amp; " " &amp; Dim_SurveillanceOfficers[LastName]
+
+Disease Label = Dim_Diseases[DiseaseName] &amp; " (" &amp; Dim_Diseases[ICD10Code] &amp; ")"</div><p>Full Name concatenates FirstName and LastName so a single clean field can be placed on the Officer Workload Matrix instead of two separate name columns. Disease Label combines a disease's common name and its real-world ICD-10 code into one string, giving students practice building a compound label field.</p></div>
+</section>
+<section id='s-dax'><h2 class='section-title'>4. Step 3 - Building the DAX Measures</h2>
+<div class='card'><p>Create a blank Measures table first (Model view &gt; Enter Data &gt; leave it empty &gt; name it Measures) and build every measure below inside it, in this order, since several later measures reference earlier ones.</p></div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Total Cases Reported</h3>
+<div class='chip-row'><span class='chip'>Used on: Used on every page</span></div>
+<div class='dax'>Total Cases Reported = DISTINCTCOUNT(Fact_CaseReports[CaseID])</div>
+<p><strong>Line by line:</strong></p><ul>
+<li>DISTINCTCOUNT(Fact_CaseReports[CaseID]) counts the number of unique case reports remaining in the current filter context.</li>
+</ul>
+<div class='callout why'><strong>Why this measure exists:</strong> The foundation KPI of the entire report; almost every other measure either builds on it or is filtered the same way it is.</div>
+<div class='callout impact'><strong>Impact on the dashboard:</strong> The first KPI card on the Executive Overview page and the value plotted on the epi curve line chart.</div>
+</div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Confirmed Cases</h3>
+<div class='chip-row'><span class='chip'>Used on: Executive Overview</span></div>
+<div class='dax'>Confirmed Cases = CALCULATE([Total Cases Reported], Fact_CaseReports[CaseClassification] = &quot;Confirmed&quot;)</div>
+<p><strong>Line by line:</strong></p><ul>
+<li>CALCULATE overrides the filter context by adding CaseClassification = &quot;Confirmed&quot; while preserving whatever Date, Disease or Geography filters are already active, combining them with AND logic.</li>
+</ul>
+<div class='callout why'><strong>Why this measure exists:</strong> Distinguishes laboratory- or clinically-confirmed disease burden from the broader Suspected and Probable case pool, an important distinction in every surveillance bulletin.</div>
+<div class='callout impact'><strong>Impact on the dashboard:</strong> Shown as a KPI card next to Total Cases Reported so the gap between the two numbers is immediately visible.</div>
+</div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Case Fatality Rate %</h3>
+<div class='chip-row'><span class='chip'>Used on: Executive Overview, Disease &amp; Outbreak Surveillance</span></div>
+<div class='dax'>Case Fatality Rate % = DIVIDE(
+    CALCULATE([Total Cases Reported], Fact_CaseReports[CaseOutcome] = &quot;Died&quot;),
+    [Total Cases Reported],
+    0
+)</div>
+<p><strong>Line by line:</strong></p><ul>
+<li>The inner CALCULATE counts only cases whose outcome is Died, while still respecting any Date, Disease or Geography filters already on the page.</li>
+<li>DIVIDE expresses that count as a percentage of all cases in the same filter context, returning 0 rather than an error when there are no cases at all.</li>
+</ul>
+<div class='callout why'><strong>Why this measure exists:</strong> One of the most closely watched indicators in any disease surveillance bulletin, and one that must be presented carefully given its sensitivity.</div>
+<div class='callout impact'><strong>Impact on the dashboard:</strong> Shown as a KPI card on the Executive Overview page, deliberately not broken down to a granularity that could identify an individual case.</div>
+</div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Incidence Rate per 100,000</h3>
+<div class='chip-row'><span class='chip'>Used on: Executive Overview, Disease &amp; Outbreak Surveillance</span></div>
+<div class='dax'>Incidence Rate per 100,000 = DIVIDE([Total Cases Reported], SUM(Dim_Geography[Population]), 0) * 100000</div>
+<p><strong>Line by line:</strong></p><ul>
+<li>SUM(Dim_Geography[Population]) adds population only across the geography rows currently in the filter context; because Population lives on the dimension side of a one-to-many relationship, each LGA&#x27;s population is counted exactly once no matter how many case reports exist for it.</li>
+<li>DIVIDE expresses total cases as a fraction of that population, and multiplying by 100000 converts the result into the standard epidemiological &#x27;per 100,000 population&#x27; scale used in virtually every public health report worldwide.</li>
+</ul>
+<div class='callout why'><strong>Why this measure exists:</strong> The single most authentic epidemiological measure in this project: a raw case count is close to meaningless without knowing the size of the population it came from, since a populous LGA will always report more cases than a sparsely populated one even if the underlying risk is identical.</div>
+<div class='callout impact'><strong>Impact on the dashboard:</strong> Displayed as a KPI card and used on a State-level map or bar chart, letting students compare disease burden fairly across LGAs of very different sizes.</div>
+</div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Average Reporting Delay (Days)</h3>
+<div class='chip-row'><span class='chip'>Used on: Disease &amp; Outbreak Surveillance</span></div>
+<div class='dax'>Average Reporting Delay (Days) = AVERAGE(Fact_CaseReports[ReportingDelayDays])</div>
+<p><strong>Line by line:</strong></p><ul>
+<li>AVERAGE(Fact_CaseReports[ReportingDelayDays]) computes the mean number of days between symptom onset and formal reporting across every case in the current filter context.</li>
+</ul>
+<div class='callout why'><strong>Why this measure exists:</strong> A core surveillance-system-performance indicator: the faster cases are reported, the faster an outbreak can be detected and contained.</div>
+<div class='callout impact'><strong>Impact on the dashboard:</strong> Shown as a KPI card and plotted as a monthly trend line, letting students spot whether reporting speed is improving or worsening over time.</div>
+</div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Timely Reporting %</h3>
+<div class='chip-row'><span class='chip'>Used on: Disease &amp; Outbreak Surveillance</span></div>
+<div class='dax'>Timely Reporting % = DIVIDE(
+    CALCULATE([Total Cases Reported], Fact_CaseReports[ReportingDelayDays] &lt;= 3),
+    [Total Cases Reported],
+    0
+)</div>
+<p><strong>Line by line:</strong></p><ul>
+<li>CALCULATE filters cases down to those reported within 3 days of symptom onset, a common surveillance-timeliness benchmark.</li>
+<li>DIVIDE expresses that count as a percentage of all cases in the same filter context.</li>
+</ul>
+<div class='callout why'><strong>Why this measure exists:</strong> Turns the raw delay figure into a target-based percentage that is easier to track against a performance goal (for example, a target of 80% of cases reported within 3 days).</div>
+<div class='callout impact'><strong>Impact on the dashboard:</strong> Shown as a gauge visual on the Disease &amp; Outbreak Surveillance page with an informal target band.</div>
+</div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Hospitalization Rate %</h3>
+<div class='chip-row'><span class='chip'>Used on: Executive Overview</span></div>
+<div class='dax'>Hospitalization Rate % = DIVIDE(
+    CALCULATE([Total Cases Reported], Fact_CaseReports[HospitalizationStatus] = &quot;Yes&quot;),
+    [Total Cases Reported],
+    0
+)</div>
+<p><strong>Line by line:</strong></p><ul>
+<li>Same CALCULATE-then-DIVIDE pattern as the measures above, filtered instead to HospitalizationStatus = &quot;Yes&quot;.</li>
+</ul>
+<div class='callout why'><strong>Why this measure exists:</strong> Indicates disease severity and health-system burden; a rising hospitalization rate for a given disease often signals either worsening severity or delayed presentation.</div>
+<div class='callout impact'><strong>Impact on the dashboard:</strong> Shown as a KPI card on the Executive Overview page.</div>
+</div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Outbreak-Linked Cases %</h3>
+<div class='chip-row'><span class='chip'>Used on: Disease &amp; Outbreak Surveillance</span></div>
+<div class='dax'>Outbreak-Linked Cases % = DIVIDE(
+    CALCULATE([Total Cases Reported], NOT ISBLANK(Fact_CaseReports[OutbreakID])),
+    [Total Cases Reported],
+    0
+)</div>
+<p><strong>Line by line:</strong></p><ul>
+<li>ISBLANK(Fact_CaseReports[OutbreakID]) returns TRUE for the roughly 70% of case rows with no linked outbreak; wrapping it in NOT flips that to TRUE only for rows that DO have a populated OutbreakID.</li>
+<li>CALCULATE applies that condition as a filter, counting only outbreak-linked cases, before DIVIDE expresses the result as a percentage of all cases in context.</li>
+</ul>
+<div class='callout why'><strong>Why this measure exists:</strong> Demonstrates the correct, robust way to test an optional foreign key for blank versus populated in DAX, rather than comparing it to an empty string, which behaves differently and less reliably.</div>
+<div class='callout impact'><strong>Impact on the dashboard:</strong> Shown as a KPI card on the Disease &amp; Outbreak Surveillance page, next to the outbreak log table.</div>
+</div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Cases by Report Date (USERELATIONSHIP demo)</h3>
+<div class='chip-row'><span class='chip'>Used on: Disease &amp; Outbreak Surveillance</span></div>
+<div class='dax'>Cases by Report Date = 
+CALCULATE(
+    [Total Cases Reported],
+    USERELATIONSHIP(Dim_Date[Date], Fact_CaseReports[ReportDate])
+)</div>
+<p><strong>Line by line:</strong></p><ul>
+<li>USERELATIONSHIP(Dim_Date[Date], Fact_CaseReports[ReportDate]) temporarily activates the otherwise-inactive relationship between Dim_Date and ReportDate, for the duration of this CALCULATE call only.</li>
+<li>Placed on a visual next to the default onset-date-based Total Cases Reported, this measure lets a surveillance officer distinguish &#x27;when did people actually get sick&#x27; from &#x27;when did the system find out about it&#x27;, two genuinely different and both important questions.</li>
+</ul>
+<div class='callout why'><strong>Why this measure exists:</strong> The clearest possible demonstration in this project of why a dedicated date table sometimes needs more than one relationship to the same fact table, and why USERELATIONSHIP exists to resolve the resulting ambiguity safely.</div>
+<div class='callout impact'><strong>Impact on the dashboard:</strong> Placed on a dedicated &#x27;DAX Concepts&#x27; tooltip or comparison visual on the Disease &amp; Outbreak Surveillance page.</div>
+</div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Total Lab Tests Conducted</h3>
+<div class='chip-row'><span class='chip'>Used on: Laboratory &amp; Diagnostics</span></div>
+<div class='dax'>Total Lab Tests Conducted = DISTINCTCOUNT(Fact_LabResults[LabResultID])</div>
+<p><strong>Line by line:</strong></p><ul>
+<li>DISTINCTCOUNT(Fact_LabResults[LabResultID]) counts unique laboratory tests in the current filter context.</li>
+</ul>
+<div class='callout why'><strong>Why this measure exists:</strong> The foundation activity KPI for the entire Laboratory &amp; Diagnostics dashboard page.</div>
+<div class='callout impact'><strong>Impact on the dashboard:</strong> The first KPI card on that page, and the value plotted on the monthly testing volume trend line.</div>
+</div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Lab Positivity Rate %</h3>
+<div class='chip-row'><span class='chip'>Used on: Laboratory &amp; Diagnostics</span></div>
+<div class='dax'>Lab Positivity Rate % = DIVIDE(
+    CALCULATE([Total Lab Tests Conducted], Fact_LabResults[TestResult] = &quot;Positive&quot;),
+    [Total Lab Tests Conducted],
+    0
+)</div>
+<p><strong>Line by line:</strong></p><ul>
+<li>A CALCULATE-then-DIVIDE ratio measure filtering tests down to Positive results before expressing them as a share of all tests conducted.</li>
+</ul>
+<div class='callout why'><strong>Why this measure exists:</strong> A core diagnostic-yield indicator; a rising positivity rate for a given disease, even without a rise in absolute case counts, can be an early warning sign that testing is not keeping pace with true transmission.</div>
+<div class='callout impact'><strong>Impact on the dashboard:</strong> Shown as a KPI card and used on a Positivity Rate by Disease bar chart.</div>
+</div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Average Lab Turnaround Time (Days)</h3>
+<div class='chip-row'><span class='chip'>Used on: Laboratory &amp; Diagnostics</span></div>
+<div class='dax'>Average Lab Turnaround Time (Days) = AVERAGE(Fact_LabResults[TurnaroundTimeDays])</div>
+<p><strong>Line by line:</strong></p><ul>
+<li>AVERAGE(Fact_LabResults[TurnaroundTimeDays]) computes the mean number of days between specimen collection and result release across every test in the current filter context.</li>
+</ul>
+<div class='callout why'><strong>Why this measure exists:</strong> A core laboratory-system-performance indicator, since a confirmed diagnosis that arrives too late to change clinical management or trigger a timely outbreak response has limited practical value.</div>
+<div class='callout impact'><strong>Impact on the dashboard:</strong> Shown as a KPI card and plotted as a monthly trend line on the Laboratory &amp; Diagnostics page.</div>
+</div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Lab Positivity by Testing Facility (USERELATIONSHIP demo)</h3>
+<div class='chip-row'><span class='chip'>Used on: Laboratory &amp; Diagnostics</span></div>
+<div class='dax'>Lab Positivity by Testing Facility = 
+CALCULATE(
+    [Lab Positivity Rate %],
+    USERELATIONSHIP(Dim_HealthFacilities[FacilityID], Fact_LabResults[TestingFacilityID])
+)</div>
+<p><strong>Line by line:</strong></p><ul>
+<li>Without this override, placing FacilityName from Dim_HealthFacilities on a visual alongside [Lab Positivity Rate %] would filter Fact_LabResults indirectly through the chain Dim_HealthFacilities to Fact_CaseReports to Fact_LabResults, which answers &#x27;what is the positivity rate among tests linked to cases REPORTED at this facility&#x27;, not &#x27;what is the positivity rate among tests actually PROCESSED at this facility&#x27;s laboratory&#x27;.</li>
+<li>USERELATIONSHIP(Dim_HealthFacilities[FacilityID], Fact_LabResults[TestingFacilityID]) activates the direct, otherwise-inactive relationship for the duration of this CALCULATE call, correctly answering the second, testing-facility-centred question instead.</li>
+</ul>
+<div class='callout why'><strong>Why this measure exists:</strong> The single most advanced DAX pattern in this project: it shows that USERELATIONSHIP is not only needed for role-playing date columns, but for any pair of tables where a fact-to-fact chain has already created an indirect, differently-meaning path.</div>
+<div class='callout impact'><strong>Impact on the dashboard:</strong> Placed side by side with the default Lab Positivity Rate % in a matrix visual with FacilityName on rows, so students can see the two numbers differ and understand exactly why.</div>
+</div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Total Doses Administered</h3>
+<div class='chip-row'><span class='chip'>Used on: Immunization &amp; Vaccine-Preventable Disease</span></div>
+<div class='dax'>Total Doses Administered = SUM(Fact_Immunizations[DosesAdministered])</div>
+<p><strong>Line by line:</strong></p><ul>
+<li>SUM(Fact_Immunizations[DosesAdministered]) adds up doses given across every immunization session in the current filter context.</li>
+</ul>
+<div class='callout why'><strong>Why this measure exists:</strong> The primary immunization-activity KPI, a proxy for vaccination coverage since this dataset does not model a formal target-population denominator for coverage percentage.</div>
+<div class='callout impact'><strong>Impact on the dashboard:</strong> The main KPI card on the Immunization page and the value plotted on the Doses Administered by Vaccine column chart.</div>
+</div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Vaccine Wastage Rate %</h3>
+<div class='chip-row'><span class='chip'>Used on: Immunization &amp; Vaccine-Preventable Disease</span></div>
+<div class='dax'>Vaccine Wastage Rate % = DIVIDE(
+    SUM(Fact_Immunizations[DosesWasted]),
+    SUM(Fact_Immunizations[DosesAdministered]) + SUM(Fact_Immunizations[DosesWasted]),
+    0
+)</div>
+<p><strong>Line by line:</strong></p><ul>
+<li>The denominator adds administered and wasted doses together to represent every dose that was opened for use, whether it was ultimately given to a patient or lost.</li>
+<li>DIVIDE expresses wasted doses as a share of that total, the standard formula used in real vaccine-supply-chain reporting.</li>
+</ul>
+<div class='callout why'><strong>Why this measure exists:</strong> An important vaccine-supply-chain efficiency indicator; consistently high wastage at a specific facility or for a specific vaccine type signals a cold-chain or session-planning problem worth investigating.</div>
+<div class='callout impact'><strong>Impact on the dashboard:</strong> Shown as a KPI card with conditional formatting flagging facilities or vaccines above an acceptable wastage threshold.</div>
+</div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Total Active Outbreaks</h3>
+<div class='chip-row'><span class='chip'>Used on: Disease &amp; Outbreak Surveillance</span></div>
+<div class='dax'>Total Active Outbreaks = CALCULATE(
+    DISTINCTCOUNT(Fact_Outbreaks[OutbreakID]),
+    Fact_Outbreaks[OutbreakStatus] = &quot;Active&quot;
+)</div>
+<p><strong>Line by line:</strong></p><ul>
+<li>CALCULATE filters Fact_Outbreaks down to rows flagged Active before DISTINCTCOUNT counts the unique outbreaks remaining.</li>
+</ul>
+<div class='callout why'><strong>Why this measure exists:</strong> A live operational KPI for outbreak response coordination teams; unlike most other measures in this project, this one is most meaningful at the current point in time rather than as a historical trend.</div>
+<div class='callout impact'><strong>Impact on the dashboard:</strong> Shown as a prominent KPI card on both the Executive Overview and Disease &amp; Outbreak Surveillance pages.</div>
+</div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Average Outbreak Duration (Days)</h3>
+<div class='chip-row'><span class='chip'>Used on: Disease &amp; Outbreak Surveillance</span></div>
+<div class='dax'>Average Outbreak Duration (Days) = 
+AVERAGEX(
+    FILTER(Fact_Outbreaks, NOT ISBLANK(Fact_Outbreaks[DateClosed])),
+    DATEDIFF(Fact_Outbreaks[DateDeclared], Fact_Outbreaks[DateClosed], DAY)
+)</div>
+<p><strong>Line by line:</strong></p><ul>
+<li>FILTER(Fact_Outbreaks, NOT ISBLANK(Fact_Outbreaks[DateClosed])) builds a temporary table containing only outbreaks that have actually been closed, deliberately excluding any outbreak still flagged Active with a blank DateClosed.</li>
+<li>AVERAGEX then iterates over that filtered table, calculating DATEDIFF(DateDeclared, DateClosed, DAY) for each row before averaging the results, which is necessary because the duration must be computed per outbreak before it can be averaged, not from a single pre-existing column.</li>
+<li>Excluding blank DateClosed values is essential here: including them would either error or, worse, silently treat an ongoing outbreak as having a duration of zero or a nonsensical negative number, quietly corrupting the average.</li>
+</ul>
+<div class='callout why'><strong>Why this measure exists:</strong> A core outbreak-response KPI; shorter average outbreak durations generally indicate a more effective and timely response system.</div>
+<div class='callout impact'><strong>Impact on the dashboard:</strong> Shown as a KPI card next to Total Active Outbreaks on the Disease &amp; Outbreak Surveillance page.</div>
+</div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Total Contacts Identified</h3>
+<div class='chip-row'><span class='chip'>Used on: Contact Tracing &amp; Field Operations</span></div>
+<div class='dax'>Total Contacts Identified = DISTINCTCOUNT(Fact_ContactTracing[ContactTracingID])</div>
+<p><strong>Line by line:</strong></p><ul>
+<li>DISTINCTCOUNT(Fact_ContactTracing[ContactTracingID]) counts unique traced contacts in the current filter context.</li>
+</ul>
+<div class='callout why'><strong>Why this measure exists:</strong> The foundation activity KPI for the entire contact tracing operation.</div>
+<div class='callout impact'><strong>Impact on the dashboard:</strong> The first KPI card on the Contact Tracing &amp; Field Operations page.</div>
+</div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Contacts Converted to Cases %</h3>
+<div class='chip-row'><span class='chip'>Used on: Contact Tracing &amp; Field Operations</span></div>
+<div class='dax'>Contacts Converted to Cases % = DIVIDE(
+    CALCULATE([Total Contacts Identified], Fact_ContactTracing[ContactStatus] = &quot;Became a Case&quot;),
+    [Total Contacts Identified],
+    0
+)</div>
+<p><strong>Line by line:</strong></p><ul>
+<li>A CALCULATE-then-DIVIDE ratio measure filtering contacts down to those whose status became Became a Case before expressing them as a share of all contacts traced.</li>
+</ul>
+<div class='callout why'><strong>Why this measure exists:</strong> Functions as a rough secondary-attack-rate indicator: a high conversion rate among traced contacts suggests either a highly transmissible disease or a delay between exposure and contact tracing initiation.</div>
+<div class='callout impact'><strong>Impact on the dashboard:</strong> Shown as a KPI card and used on a Contact Status Split donut chart.</div>
+</div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Average Contacts per Index Case</h3>
+<div class='chip-row'><span class='chip'>Used on: Contact Tracing &amp; Field Operations</span></div>
+<div class='dax'>Average Contacts per Index Case = DIVIDE(
+    [Total Contacts Identified],
+    DISTINCTCOUNT(Fact_ContactTracing[IndexCaseID]),
+    0
+)</div>
+<p><strong>Line by line:</strong></p><ul>
+<li>Divides total contacts by the number of distinct index cases that generated at least one traced contact, giving an average &#x27;contacts per case&#x27; figure rather than a raw total.</li>
+</ul>
+<div class='callout why'><strong>Why this measure exists:</strong> A field-operations workload indicator: diseases or settings that generate unusually high average contacts per case (for example, a case in a crowded household or workplace) place a proportionally higher burden on the contact tracing team.</div>
+<div class='callout impact'><strong>Impact on the dashboard:</strong> Shown as a KPI card on the Contact Tracing &amp; Field Operations page.</div>
+</div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Vector Surveillance Positivity %</h3>
+<div class='chip-row'><span class='chip'>Used on: Contact Tracing &amp; Field Operations</span></div>
+<div class='dax'>Vector Surveillance Positivity % = DIVIDE(
+    CALCULATE(
+        DISTINCTCOUNT(Fact_EnvironmentalSurveillance[EnvSurveillanceID]),
+        Fact_EnvironmentalSurveillance[SurveillanceType] = &quot;Vector Surveillance - Mosquito&quot;,
+        Fact_EnvironmentalSurveillance[FindingResult] = &quot;Positive&quot;
+    ),
+    CALCULATE(
+        DISTINCTCOUNT(Fact_EnvironmentalSurveillance[EnvSurveillanceID]),
+        Fact_EnvironmentalSurveillance[SurveillanceType] = &quot;Vector Surveillance - Mosquito&quot;
+    ),
+    0
+)</div>
+<p><strong>Line by line:</strong></p><ul>
+<li>The numerator CALCULATE filters to mosquito vector surveillance activities that came back Positive.</li>
+<li>The denominator CALCULATE filters to all mosquito vector surveillance activities regardless of result, using two separate filter arguments inside the same CALCULATE, which DAX combines with AND logic.</li>
+<li>DIVIDE expresses the positive subset as a percentage of all mosquito surveillance activity, safely returning 0 if none were conducted in the current context.</li>
+</ul>
+<div class='callout why'><strong>Why this measure exists:</strong> An early-warning environmental indicator for vector-borne disease risk (Malaria, Yellow Fever, Dengue), often rising before a corresponding increase in human case counts.</div>
+<div class='callout impact'><strong>Impact on the dashboard:</strong> Shown as a KPI card on the Contact Tracing &amp; Field Operations page, deliberately paired with human case data from other pages for a combined early-warning discussion.</div>
+</div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Case Growth % (WoW)</h3>
+<div class='chip-row'><span class='chip'>Used on: Executive Overview</span></div>
+<div class='dax'>Case Growth % WoW = 
+VAR CurrentWeekCases = [Total Cases Reported]
+VAR PreviousWeekCases =
+    CALCULATE(
+        [Total Cases Reported],
+        DATEADD(&#x27;Dim_Date&#x27;[Date], -7, DAY)
+    )
+RETURN
+    DIVIDE(CurrentWeekCases - PreviousWeekCases, PreviousWeekCases, 0)</div>
+<p><strong>Line by line:</strong></p><ul>
+<li>VAR CurrentWeekCases stores [Total Cases Reported] for whatever period is currently in filter context.</li>
+<li>VAR PreviousWeekCases uses CALCULATE with DATEADD(&#x27;Dim_Date&#x27;[Date], -7, DAY) to shift the entire filter context back exactly seven days and re-evaluate the same measure inside that shifted context, mirroring how epidemiologists compare week-over-week rather than month-over-month when watching for an emerging outbreak.</li>
+<li>RETURN DIVIDE(...) calculates the percentage change between the two variables, safely returning blank rather than an error for the first week of the dataset&#x27;s history, where no prior week exists.</li>
+</ul>
+<div class='callout why'><strong>Why this measure exists:</strong> Week-over-week comparison is the standard cadence in real epidemic intelligence, since month-over-month comparisons react too slowly to catch an emerging outbreak in its earliest, most controllable phase.</div>
+<div class='callout impact'><strong>Impact on the dashboard:</strong> Plotted as a secondary line on a combo chart against the Total Cases Reported line on the Executive Overview page&#x27;s epi curve.</div>
+</div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Outbreak-Level Case Fatality Rate %</h3>
+<div class='chip-row'><span class='chip'>Used on: Disease &amp; Outbreak Surveillance</span></div>
+<div class='dax'>Outbreak-Level Case Fatality Rate % = DIVIDE(
+    SUM(Fact_Outbreaks[TotalDeathsAtClosure]),
+    SUM(Fact_Outbreaks[TotalCasesAtClosure]),
+    0
+)</div>
+<p><strong>Line by line:</strong></p><ul>
+<li>Divides the officially reported death total by the officially reported case total across every outbreak in the current filter context, both summed directly from Fact_Outbreaks rather than derived from Fact_CaseReports.</li>
+</ul>
+<div class='callout why'><strong>Why this measure exists:</strong> Deliberately kept as a separate measure from the case-level Case Fatality Rate %, since the two are calculated from different source data (officially reported outbreak totals versus individual case outcomes) and will not always agree exactly, a realistic data-reconciliation discussion point worth raising with students.</div>
+<div class='callout impact'><strong>Impact on the dashboard:</strong> Shown alongside Case Fatality Rate % on the Disease &amp; Outbreak Surveillance page so students can compare the two figures and discuss why they might differ.</div>
+</div>
+</section>
+<section id='s-dash'><h2 class='section-title'>5. Step 4 - Building the Five Dashboard Pages</h2>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Page 1 - Executive Overview</h3><p>A single-screen situational awareness summary for public health leadership: overall case activity, growth, severity, and outbreak status at a glance.</p>
+<table><tr><th style='width:20%'>Visual</th><th style='width:16%'>Chart Type</th><th style='width:32%'>Fields</th><th>Build Notes</th></tr>
+<tr><td><strong>KPI Card Row</strong></td><td>Card visuals (x5)</td><td>Total Cases Reported, Confirmed Cases, Case Fatality Rate %, Incidence Rate per 100,000, Total Active Outbreaks</td><td>Five cards across the top of the page. Conditional formatting on Case Fatality Rate % draws the eye when it rises above a set threshold.</td></tr>
+<tr><td><strong>Epi Curve</strong></td><td>Line chart (combo, with Case Growth % WoW as a secondary line)</td><td>Axis: Dim_Date[MonthName] (sorted by MonthNumber); Values: Total Cases Reported, Case Growth % WoW</td><td>The signature visual of the whole report, built on OnsetDate through the active Dim_Date relationship; a genuine seven-year epidemic curve.</td></tr>
+<tr><td><strong>Case Classification Split</strong></td><td>Donut chart</td><td>Legend: Fact_CaseReports[CaseClassification]; Values: Total Cases Reported</td><td>Shows the balance of Confirmed, Probable, Suspected and Discarded cases at a glance.</td></tr>
+<tr><td><strong>Top 10 Diseases by Case Count</strong></td><td>Bar chart</td><td>Axis: Dim_Diseases[DiseaseName]; Values: Total Cases Reported</td><td>Sorted descending, filtered to Top 10 using a Top N visual-level filter.</td></tr>
+<tr><td><strong>Hospitalization Rate Card</strong></td><td>Card visual</td><td>Value: Hospitalization Rate %</td><td>A sixth, slightly smaller card placed beneath the main KPI row for severity context.</td></tr>
+</table></div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Page 2 - Disease &amp; Outbreak Surveillance</h3><p>The epidemiologist&#x27;s working view: disease-level patterns, geographic incidence, reporting-system timeliness, and the outbreak log.</p>
+<table><tr><th style='width:20%'>Visual</th><th style='width:16%'>Chart Type</th><th style='width:32%'>Fields</th><th>Build Notes</th></tr>
+<tr><td><strong>Incidence Rate by State</strong></td><td>Clustered bar chart (or Filled Map if enabled)</td><td>Axis: Dim_Geography[State]; Values: Incidence Rate per 100,000</td><td>The primary population-adjusted geographic visual of the project, deliberately shown instead of a raw case-count map to avoid the common mistake of confusing population size with disease risk.</td></tr>
+<tr><td><strong>Outbreak Log</strong></td><td>Table visual</td><td>Columns: OutbreakID, DiseaseName, EpicenterGeographyID (State/LGA), DateDeclared, OutbreakStatus, Severity, TotalCasesAtClosure</td><td>Sorted by DateDeclared descending, giving a chronological outbreak register similar to a real surveillance bulletin.</td></tr>
+<tr><td><strong>Reporting Timeliness KPI Cards</strong></td><td>Card visuals (x2)</td><td>Average Reporting Delay (Days), Timely Reporting %</td><td>Placed together so a decline in reporting-system performance is immediately visible.</td></tr>
+<tr><td><strong>Outbreak Severity Split</strong></td><td>Donut chart</td><td>Legend: Fact_Outbreaks[Severity]; Values: Total Active Outbreaks (or COUNTROWS of Fact_Outbreaks)</td><td>Shows the balance of Low, Moderate, High and Critical outbreaks currently or historically in the selected period.</td></tr>
+<tr><td><strong>Outbreak-Linked vs Sporadic Cases</strong></td><td>Gauge or card pair</td><td>Values: Outbreak-Linked Cases %</td><td>Distinguishes cases tied to a formally declared outbreak from sporadic, individually-occurring cases.</td></tr>
+</table></div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Page 3 - Laboratory &amp; Diagnostics</h3><p>The laboratory network&#x27;s working view: testing volume, diagnostic yield, and turnaround performance, including the testing-facility-specific perspective enabled by USERELATIONSHIP.</p>
+<table><tr><th style='width:20%'>Visual</th><th style='width:16%'>Chart Type</th><th style='width:32%'>Fields</th><th>Build Notes</th></tr>
+<tr><td><strong>Lab KPI Row</strong></td><td>Card visuals (x3)</td><td>Total Lab Tests Conducted, Lab Positivity Rate %, Average Lab Turnaround Time (Days)</td><td>Three cards giving a balanced volume, yield and speed view of the laboratory network.</td></tr>
+<tr><td><strong>Positivity Rate by Disease</strong></td><td>Bar chart</td><td>Axis: Dim_Diseases[DiseaseName]; Values: Lab Positivity Rate %</td><td>Sorted descending; highlights which diseases currently show the highest diagnostic yield.</td></tr>
+<tr><td><strong>Testing Facility Performance Matrix</strong></td><td>Matrix visual</td><td>Rows: Dim_HealthFacilities[FacilityName] (filtered to HasLabCapacity = Yes); Values: Total Lab Tests Conducted, Lab Positivity by Testing Facility, Average Lab Turnaround Time (Days)</td><td>The central USERELATIONSHIP teaching visual of the project; placing the testing-facility-specific measure next to the default measure makes the difference immediately visible.</td></tr>
+<tr><td><strong>Turnaround Time Trend</strong></td><td>Line chart</td><td>Axis: Dim_Date[MonthName] (sorted by MonthNumber); Values: Average Lab Turnaround Time (Days)</td><td>Lets a laboratory manager spot seasonal capacity strain, for example during a large outbreak.</td></tr>
+<tr><td><strong>Test Result Split</strong></td><td>Donut chart</td><td>Legend: Fact_LabResults[TestResult]; Values: Total Lab Tests Conducted</td><td>Shows the balance of Positive, Negative, Indeterminate and Pending results.</td></tr>
+</table></div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Page 4 - Immunization &amp; Vaccine-Preventable Disease</h3><p>The immunization programme&#x27;s working view: coverage activity, vaccine wastage, and campaign mix.</p>
+<table><tr><th style='width:20%'>Visual</th><th style='width:16%'>Chart Type</th><th style='width:32%'>Fields</th><th>Build Notes</th></tr>
+<tr><td><strong>Immunization KPI Cards</strong></td><td>Card visuals (x2)</td><td>Total Doses Administered, Vaccine Wastage Rate %</td><td>Conditional formatting applied to Vaccine Wastage Rate % to flag facilities or vaccines above an acceptable threshold.</td></tr>
+<tr><td><strong>Doses Administered by Vaccine</strong></td><td>Column chart</td><td>Axis: Dim_Vaccines[VaccineName]; Values: Total Doses Administered</td><td>Sorted descending; shows which vaccines dominate immunization activity.</td></tr>
+<tr><td><strong>Doses Administered by State</strong></td><td>Bar chart</td><td>Axis: Dim_Geography[State] (via Dim_HealthFacilities); Values: Total Doses Administered</td><td>Sorted descending, filtered to Top 15; gives a geographic view of immunization coverage activity.</td></tr>
+<tr><td><strong>Campaign Type Split</strong></td><td>Donut chart</td><td>Legend: Fact_Immunizations[CampaignType]; Values: Total Doses Administered</td><td>Shows the balance of Routine Immunization, Supplementary Immunization Activity and Outbreak Response Vaccination.</td></tr>
+<tr><td><strong>Monthly Doses Trend</strong></td><td>Line chart</td><td>Axis: Dim_Date[MonthName] (sorted by MonthNumber); Values: Total Doses Administered</td><td>Lets a programme manager spot seasonal immunization campaign spikes over the seven-year history.</td></tr>
+</table></div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Page 5 - Contact Tracing &amp; Field Operations</h3><p>The field operations view: contact tracing performance, environmental surveillance, and surveillance officer workload.</p>
+<table><tr><th style='width:20%'>Visual</th><th style='width:16%'>Chart Type</th><th style='width:32%'>Fields</th><th>Build Notes</th></tr>
+<tr><td><strong>Contact Tracing KPI Row</strong></td><td>Card visuals (x3)</td><td>Total Contacts Identified, Contacts Converted to Cases %, Average Contacts per Index Case</td><td>Three cards giving a balanced volume, conversion and workload view of the contact tracing operation.</td></tr>
+<tr><td><strong>Contact Status Split</strong></td><td>Donut chart</td><td>Legend: Fact_ContactTracing[ContactStatus]; Values: Total Contacts Identified</td><td>Shows the balance of contacts Completed - No Symptoms, Under Monitoring, Became a Case, or Lost to Follow-up.</td></tr>
+<tr><td><strong>Environmental Surveillance Card</strong></td><td>Card visual</td><td>Value: Vector Surveillance Positivity %</td><td>An early-warning indicator placed deliberately near the human contact-tracing data for a combined discussion.</td></tr>
+<tr><td><strong>Officer Workload Matrix</strong></td><td>Matrix visual</td><td>Rows: Dim_SurveillanceOfficers Full Name (calculated column); Columns: Dim_SurveillanceOfficers[Role]; Values: Total Cases Reported</td><td>Shows caseload distribution across the surveillance workforce, using a Full Name calculated column concatenating FirstName and LastName.</td></tr>
+<tr><td><strong>Experience vs Caseload</strong></td><td>Scatter chart</td><td>X-axis: Dim_SurveillanceOfficers[YearsOfExperience]; Y-axis: Total Cases Reported; Details: OfficerID</td><td>A gentle introduction to scatter charts and correlation reading, without asserting statistical causation to students.</td></tr>
+</table></div>
+<div class='card'><h3 class='sub-title' style='margin-top:0'>Cross-Page Consistency</h3><p>Add a Year slicer (Dim_Date[Year]) and a Disease Category slicer (Dim_Diseases[DiseaseCategory]) to every page in the same top-right position. Select both, go to the View ribbon, open Sync Slicers, and tick every page so a filter choice on Page 1 automatically applies across Pages 2 to 5. Add five navigation buttons (Insert &gt; Buttons &gt; Blank, with Action type set to Page Navigation) in a consistent header band so users never need the page tabs at the bottom.</p></div>
+</section>
+<section id='s-qa'><h2 class='section-title'>6. Step 5 - Quality Check & Publish</h2>
+<div class='task-item'><span class='step-num'>1</span><div>Click through every slicer combination on every page and confirm no card visual shows (Blank) and no chart shows an empty plot area.</div></div>
+<div class='task-item'><span class='step-num'>2</span><div>Right-click each measure and use Quick Measure or the Performance Analyzer (View ribbon) to confirm no visual takes longer than roughly one second to render on this dataset size.</div></div>
+<div class='task-item'><span class='step-num'>3</span><div>Check that MonthName axes read January to December in calendar order, confirming the Sort By Column setting on Dim_Date took effect.</div></div>
+<div class='task-item'><span class='step-num'>4</span><div>Verify Case Fatality Rate %, Vaccine Wastage Rate % and Timely Reporting % conditional formatting rules trigger correctly by temporarily filtering to a disease or month where the values cross the threshold.</div></div>
+<div class='task-item'><span class='step-num'>5</span><div>Confirm all four inactive relationships remain dashed in Model view, and that Cases by Report Date and Lab Positivity by Testing Facility each genuinely return a different number than their default counterparts, proving USERELATIONSHIP is working in both the date and non-date cases.</div></div>
+<div class='task-item'><span class='step-num'>6</span><div>Save the .pbix file, then use File &gt; Publish to publish the report to the Prodigy Training Hub Power BI Service workspace for the class.</div></div>
+</section>
+</div>
+<footer>&copy; Prodigy Training Hub - Prepared by Kajola Gbenga, Data Scientist &amp; AI Engineer. For classroom training use.</footer>
+</body></html>

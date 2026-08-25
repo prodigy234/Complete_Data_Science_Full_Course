@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>NTMB Loan Portfolio Power BI Training - Full Solution Walkthrough</title>
+<style>
+:root {
+  --navy: #1F3864;
+  --navy-dark: #14213D;
+  --teal: #0E7C7B;
+  --amber: #E8A33D;
+  --red: #C0392B;
+  --green: #1E8449;
+  --gray-bg: #F4F6F8;
+  --gray-border: #D9DEE4;
+  --text: #24292E;
+}
+* { box-sizing: border-box; }
+body {
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: var(--text);
+  background: var(--gray-bg);
+  line-height: 1.6;
+}
+.wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  background: #ffffff;
+  box-shadow: 0 0 24px rgba(0,0,0,0.08);
+}
+header.cover {
+  background: linear-gradient(135deg, var(--navy) 0%, var(--navy-dark) 100%);
+  color: #fff;
+  padding: 70px 60px 50px 60px;
+  position: relative;
+}
+header.cover .eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 13px;
+  color: var(--amber);
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+header.cover h1 {
+  font-size: 36px;
+  margin: 0 0 10px 0;
+  font-weight: 700;
+}
+header.cover .subtitle {
+  font-size: 17px;
+  color: #CFE0E8;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+header.cover .author-block {
+  border-top: 1px solid rgba(255,255,255,0.25);
+  padding-top: 20px;
+  margin-top: 30px;
+}
+header.cover .author-name {
+  font-size: 18px;
+  font-weight: 700;
+}
+header.cover .author-title {
+  font-size: 14px;
+  color: var(--amber);
+  font-style: italic;
+}
+nav.toc {
+  padding: 40px 60px;
+  background: #fff;
+  border-bottom: 1px solid var(--gray-border);
+}
+nav.toc h2 { color: var(--navy); font-size: 20px; margin-top: 0; }
+nav.toc ol { columns: 2; column-gap: 40px; padding-left: 20px; }
+nav.toc li { margin-bottom: 8px; break-inside: avoid; }
+nav.toc a { color: var(--teal); text-decoration: none; font-size: 14.5px; }
+nav.toc a:hover { text-decoration: underline; }
+
+main { padding: 10px 60px 60px 60px; }
+section { padding-top: 30px; }
+section h2 {
+  color: var(--navy);
+  font-size: 24px;
+  border-bottom: 3px solid var(--teal);
+  padding-bottom: 10px;
+  margin-top: 50px;
+}
+section h3 {
+  color: var(--teal);
+  font-size: 18px;
+  margin-top: 32px;
+  border-left: 4px solid var(--amber);
+  padding-left: 10px;
+}
+section h4 {
+  color: var(--navy-dark);
+  font-size: 15.5px;
+  margin-top: 22px;
+}
+p { margin: 10px 0; font-size: 15px; }
+.callout {
+  background: #EEF6F6;
+  border-left: 4px solid var(--teal);
+  padding: 14px 18px;
+  margin: 18px 0;
+  border-radius: 0 6px 6px 0;
+  font-size: 14.5px;
+}
+.callout.warning { background: #FDF3E9; border-left-color: var(--amber); }
+.callout.danger { background: #FBEBE9; border-left-color: var(--red); }
+.callout strong { color: var(--navy); }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 16px 0 28px 0;
+  font-size: 13.5px;
+}
+table caption {
+  text-align: left;
+  font-weight: 700;
+  color: var(--navy);
+  margin-bottom: 6px;
+  font-size: 15px;
+}
+th {
+  background: var(--navy);
+  color: #fff;
+  text-align: left;
+  padding: 9px 10px;
+  font-size: 13px;
+}
+td {
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--gray-border);
+  vertical-align: top;
+}
+tr:nth-child(even) td { background: #FAFBFC; }
+tr:hover td { background: #F0F7F7; }
+
+.table-tag {
+  display: inline-block;
+  background: var(--teal);
+  color: #fff;
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  margin: 20px 0 6px 0;
+}
+.table-tag.fact { background: var(--navy); }
+
+code, pre code {
+  font-family: "Consolas", "Courier New", monospace;
+}
+pre {
+  background: #1E1E1E;
+  color: #DCDCDC;
+  padding: 16px 18px;
+  border-radius: 8px;
+  overflow-x: auto;
+  font-size: 13.5px;
+  margin: 12px 0 20px 0;
+  line-height: 1.5;
+}
+pre .c { color: #6A9955; }
+code.inline {
+  background: #EDEFF2;
+  padding: 2px 6px;
+  border-radius: 4px;
+  color: #B23A48;
+  font-size: 13px;
+}
+
+.checklist { list-style: none; padding-left: 0; margin: 14px 0; }
+.checklist li {
+  padding: 8px 10px 8px 34px;
+  position: relative;
+  margin-bottom: 6px;
+  background: #fff;
+  border: 1px solid var(--gray-border);
+  border-radius: 6px;
+  font-size: 14.5px;
+}
+.checklist li::before {
+  content: "";
+  position: absolute;
+  left: 10px; top: 10px;
+  width: 15px; height: 15px;
+  border: 2px solid var(--teal);
+  border-radius: 3px;
+}
+.checklist li strong { color: var(--navy); }
+
+.badge {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 10px;
+  color: #fff;
+  margin-left: 8px;
+}
+.badge.group { background: var(--amber); color: #4A3200; }
+.badge.page { background: var(--navy); }
+
+.chart-card {
+  border: 1px solid var(--gray-border);
+  border-radius: 8px;
+  padding: 16px 20px;
+  margin: 14px 0;
+  background: #fff;
+}
+.chart-card h4 { margin-top: 0; color: var(--navy); }
+.chart-card .meta { font-size: 12.5px; color: #6B7885; margin-bottom: 8px; }
+.chart-card .why-note { background: #FFF9EE; border-left: 3px solid var(--amber); padding: 8px 12px; border-radius: 0 5px 5px 0; font-size: 13.5px; }
+
+.dax-card {
+  border: 1px solid var(--gray-border);
+  border-radius: 8px;
+  margin: 20px 0;
+  overflow: hidden;
+}
+.dax-card .dax-header {
+  background: var(--navy);
+  color: #fff;
+  padding: 10px 16px;
+  font-weight: 700;
+  font-size: 14.5px;
+}
+.dax-card .dax-body { padding: 4px 20px 16px 20px; }
+.dax-card .why { background: #FFF9EE; border-left: 3px solid var(--amber); padding: 10px 14px; margin-top: 10px; font-size: 13.8px; border-radius: 0 5px 5px 0;}
+.dax-card .impact { background: #EEF6F6; border-left: 3px solid var(--teal); padding: 10px 14px; margin-top: 10px; font-size: 13.8px; border-radius: 0 5px 5px 0;}
+
+.page-section {
+  border: 2px solid var(--navy);
+  border-radius: 10px;
+  margin: 26px 0;
+  overflow: hidden;
+}
+.page-section .page-title {
+  background: var(--navy);
+  color: #fff;
+  padding: 14px 20px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.page-section .page-purpose {
+  padding: 12px 20px 0 20px;
+  font-style: italic;
+  color: #555;
+}
+.page-body { padding: 6px 20px 18px 20px; }
+
+footer.pagefoot {
+  text-align: center;
+  padding: 30px;
+  color: #93A0AB;
+  font-size: 12.5px;
+  border-top: 1px solid var(--gray-border);
+}
+.tag-row { display:flex; gap:8px; flex-wrap:wrap; margin: 8px 0 18px 0; }
+.pill { background:#fff; border:1px solid var(--gray-border); border-radius: 16px; padding: 4px 12px; font-size: 12.5px; color: var(--navy); }
+
+.two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+@media (max-width: 800px) {
+  .two-col { grid-template-columns: 1fr; }
+  nav.toc ol { columns: 1; }
+}
+
+</style>
+</head>
+<body>
+<div class="wrapper">
+
+<header class="cover">
+  <div class="eyebrow">NovaTrust Microfinance Bank (NTMB) &middot; Power BI Training Program &middot; Document 2 of 2</div>
+  <h1>Loan Portfolio Analytics<br>Power BI Training - Full Solution Walkthrough</h1>
+  <div class="subtitle">The complete worked solution: data loading, Power Query cleaning, data modeling,
+  every DAX measure explained line by line, and the full 5-page dashboard build.</div>
+  <div class="author-block">
+    <div class="author-name">Kajola Gbenga</div>
+    <div class="author-title">Data Scientist &amp; AI Engineer</div>
+  </div>
+</header>
+
+<div class="callout warning" style="margin:20px 60px;"><strong>Fictional company notice:</strong> NovaTrust
+Microfinance Bank (NTMB) is a fictional company invented solely for this training exercise. Every branch, customer,
+loan officer, application, loan, repayment, and collection record in this package is synthetic and randomly generated
+for teaching purposes - none of it describes any real bank, person, or financial event.</div>
+
+<nav class="toc">
+<h2>Table of Contents</h2>
+<ol>
+<li><a href="#intro">1. How to Use This Solution File</a></li>
+<li><a href="#loading">2. Solution - Loading &amp; Cleaning the Data</a></li>
+<li><a href="#model">3. Solution - Data Model, Relationships &amp; Cardinality</a></li>
+<li><a href="#dax">4. Solution - Every DAX Measure, Explained Line by Line</a></li>
+<li><a href="#summary">5. Measures-to-Page Reference Map</a></li>
+<li><a href="#dashboards">6. Solution - Building the 5 Dashboard Pages</a></li>
+<li><a href="#standards">7. Cross-Page Design Standards</a></li>
+<li><a href="#qa">8. Final Quality Checklist</a></li>
+</ol>
+</nav>
+
+<main>
+
+<section id="intro">
+<h2>1. How to Use This Solution File</h2>
+<p>This is the companion solution to <code class="inline">01_Tasks_and_Planning.html</code>. Where that file asked you to
+attempt each step yourself, this file explains, in full, every decision: why each Power Query cleaning step matters, why
+each relationship has the cardinality it has, what every single DAX measure does line by line and why it was written
+that way, and how each of the five dashboard pages was designed, chart by chart. Read it side by side with your own
+attempt rather than as a replacement for making one.</p>
+</section>
+
+<section id="loading">
+<h2>2. Solution - Loading &amp; Cleaning the Data</h2>
+
+<h3>Step A - Connecting to the Source Workbook</h3>
+<ol>
+<li>Open Power BI Desktop &gt; Home &gt; Get Data &gt; Excel Workbook &gt; select <code class="inline">NTMB_Loan_Portfolio_Dataset.xlsx</code>.</li>
+<li>In the Navigator window, tick exactly these nine tables: dim_Date, dim_Branch, dim_Customer, dim_LoanOfficer,
+dim_LoanProduct, fact_Applications, fact_Portfolio, fact_Repayments, fact_Collections. The README, Data_Dictionary and
+Model_Map sheets are for humans reading the workbook directly, not for the data model - leave them unchecked.</li>
+<li>Click "Transform Data" (never "Load" directly) so every table opens in the Power Query Editor first.</li>
+</ol>
+<div class="callout"><strong>Why Transform Data, not Load:</strong> loading directly skips the one chance to catch type
+mismatches, stray whitespace, and null-handling problems while they are still cheap to fix. Every problem caught in
+Power Query costs one click to fix; the same problem caught later, after 25 DAX measures and 5 report pages are built
+on top of it, can cost hours.</div>
+
+<h3>Step B - Cleaning Each Table in Power Query</h3>
+
+<h4>B1. dim_Date</h4>
+<p>The <code class="inline">Date</code> column must be set to Date type (not Date/Time) - Excel occasionally exports a
+hidden 00:00:00 time component that, left in place, causes a date to fail to match visually-identical dates in a fact
+table during troubleshooting. <code class="inline">IsWeekend</code> should be a true Boolean; if it imports as the text
+"TRUE"/"FALSE" instead, change its type explicitly via Transform &gt; Data Type &gt; True/False. <code class="inline">DateKey</code>
+must be Whole Number, matching the type used for every *DateKey column in the fact tables - a relationship will refuse
+to build cleanly across mismatched types.</p>
+
+<h4>B2. dim_Branch, dim_LoanOfficer, dim_LoanProduct</h4>
+<p>Apply Trim and Clean (Transform &gt; Format &gt; Trim / Clean) to every text column in dim_Branch. This single step
+prevents the single most common relationship failure in this entire exercise: a BranchID like <code class="inline">"B01 "</code>
+(with a trailing space) that looks identical to <code class="inline">"B01"</code> in the preview grid but will not match
+it in a relationship. Confirm <code class="inline">HireDate</code> in dim_LoanOfficer is Date type, and confirm
+<code class="inline">MinAmount</code>, <code class="inline">MaxAmount</code>, and <code class="inline">BaseInterestRatePct</code>
+in dim_LoanProduct are Decimal Number.</p>
+
+<h4>B3. dim_Customer</h4>
+<p><code class="inline">DateOfBirth</code> and <code class="inline">OnboardingDate</code> must both be Date type. Age and
+Customer Tenure are deliberately NOT built here as Power Query calculated columns - they are built later as DAX
+measures (against TODAY()) so they always reflect the current date rather than being frozen at the moment the file was
+last refreshed. This is an important modeling principle: anything that depends on "now" belongs in DAX, not in a
+static ETL step.</p>
+
+<h4>B4. fact_Applications and fact_Portfolio (the two-date tables)</h4>
+<p>Both tables have two date columns relating to dim_Date, and both need careful null handling.
+<code class="inline">DecisionDateKey</code> in fact_Applications and <code class="inline">MaturityDateKey</code> in
+fact_Portfolio must be Whole Number, with genuine nulls where a value doesn't apply (a Pending application has no
+decision date yet) - watch for the literal text "None" or a stray 0 surviving a CSV round-trip, either of which would
+silently break the relationship or create a phantom blank-date bucket. <code class="inline">AmountRequested</code>,
+<code class="inline">PrincipalAmount</code>, <code class="inline">InterestRatePct</code>,
+<code class="inline">OutstandingBalance</code>, and <code class="inline">MonthlyInstallment</code> must all be Decimal
+Number. Trim every ID/key column in both tables.</p>
+
+<h4>B5. fact_Repayments and fact_Collections</h4>
+<p><code class="inline">ScheduledAmount</code>, <code class="inline">ActualAmountPaid</code>, and
+<code class="inline">AmountRecovered</code> must be Decimal Number. <code class="inline">DaysLate</code> must be Whole
+Number. Trim <code class="inline">LoanID</code> and <code class="inline">OfficerID</code> in both tables - these are the
+keys that let fact_Portfolio act as a bridge table down to these two child fact tables.</p>
+
+<p>Once every table above is confirmed clean, click Home &gt; Close &amp; Apply.</p>
+
+</section>
+
+<section id="model">
+<h2>3. Solution - Data Model, Relationships &amp; Cardinality</h2>
+
+<h3>Step C - Building the Data Model</h3>
+
+<h4>C1. Mark the Date Table</h4>
+<p>Select dim_Date &gt; Table Tools ribbon &gt; Mark as Date Table &gt; choose the Date column. This is a prerequisite,
+not a nicety: SAMEPERIODLASTYEAR, TOTALYTD, DATESINPERIOD and every other time-intelligence function used in Section 6
+below silently misbehave (or outright error) against a calendar table that hasn't been marked, because Power BI needs to
+know, structurally, that this table's date column is contiguous and unique.</p>
+
+<h4>C2. Build Every Relationship</h4>
+<table>
+<caption>The complete relationship map for this model</caption>
+<tr><th>From</th><th>Key</th><th>To</th><th>Key</th><th>Cardinality</th><th>Direction</th><th>Active</th></tr>
+<tr><td>fact_Applications</td><td>DateKey</td><td>dim_Date</td><td>DateKey</td><td>Many-to-one</td><td>Single</td><td>Yes</td></tr>
+<tr><td>fact_Applications</td><td>DecisionDateKey</td><td>dim_Date</td><td>DateKey</td><td>Many-to-one</td><td>Single</td><td><strong>No (inactive)</strong></td></tr>
+<tr><td>fact_Applications</td><td>CustomerID</td><td>dim_Customer</td><td>CustomerID</td><td>Many-to-one</td><td>Single</td><td>Yes</td></tr>
+<tr><td>fact_Applications</td><td>ProductID</td><td>dim_LoanProduct</td><td>ProductID</td><td>Many-to-one</td><td>Single</td><td>Yes</td></tr>
+<tr><td>fact_Applications</td><td>BranchID</td><td>dim_Branch</td><td>BranchID</td><td>Many-to-one</td><td>Single</td><td>Yes</td></tr>
+<tr><td>fact_Applications</td><td>OfficerID</td><td>dim_LoanOfficer</td><td>OfficerID</td><td>Many-to-one</td><td>Single</td><td>Yes</td></tr>
+<tr><td>fact_Portfolio</td><td>DisbursementDateKey</td><td>dim_Date</td><td>DateKey</td><td>Many-to-one</td><td>Single</td><td>Yes</td></tr>
+<tr><td>fact_Portfolio</td><td>MaturityDateKey</td><td>dim_Date</td><td>DateKey</td><td>Many-to-one</td><td>Single</td><td><strong>No (inactive)</strong></td></tr>
+<tr><td>fact_Portfolio</td><td>CustomerID</td><td>dim_Customer</td><td>CustomerID</td><td>Many-to-one</td><td>Single</td><td>Yes</td></tr>
+<tr><td>fact_Portfolio</td><td>ProductID</td><td>dim_LoanProduct</td><td>ProductID</td><td>Many-to-one</td><td>Single</td><td>Yes</td></tr>
+<tr><td>fact_Portfolio</td><td>BranchID</td><td>dim_Branch</td><td>BranchID</td><td>Many-to-one</td><td>Single</td><td>Yes</td></tr>
+<tr><td>fact_Portfolio</td><td>OfficerID</td><td>dim_LoanOfficer</td><td>OfficerID</td><td>Many-to-one</td><td>Single</td><td>Yes</td></tr>
+<tr><td>fact_Repayments</td><td>LoanID</td><td>fact_Portfolio</td><td>LoanID</td><td>Many-to-one</td><td>Single</td><td>Yes</td></tr>
+<tr><td>fact_Repayments</td><td>DateKey</td><td>dim_Date</td><td>DateKey</td><td>Many-to-one</td><td>Single</td><td>Yes</td></tr>
+<tr><td>fact_Collections</td><td>LoanID</td><td>fact_Portfolio</td><td>LoanID</td><td>Many-to-one</td><td>Single</td><td>Yes</td></tr>
+<tr><td>fact_Collections</td><td>DateKey</td><td>dim_Date</td><td>DateKey</td><td>Many-to-one</td><td>Single</td><td>Yes</td></tr>
+<tr><td>fact_Collections</td><td>OfficerID</td><td>dim_LoanOfficer</td><td>OfficerID</td><td>Many-to-one</td><td>Single</td><td>Yes</td></tr>
+<tr><td>dim_Customer</td><td>BranchID</td><td>dim_Branch</td><td>BranchID</td><td>Many-to-one</td><td>Single</td><td>Yes</td></tr>
+<tr><td>dim_LoanOfficer</td><td>BranchID</td><td>dim_Branch</td><td>BranchID</td><td>Many-to-one</td><td>Single</td><td>Yes</td></tr>
+</table>
+
+<h4>C3. Why fact_Portfolio Acts as a Bridge Table</h4>
+<p>fact_Repayments and fact_Collections do not relate directly to dim_Customer, dim_Branch, or dim_LoanProduct - they
+relate only to fact_Portfolio via LoanID. A repayment or a collection action belongs to a specific loan, and everything
+else about that loan (which customer, which branch, which product) is inherited by following the chain
+fact_Repayments &gt; fact_Portfolio &gt; dim_Customer/dim_Branch/dim_LoanProduct. Power BI resolves this automatically
+as long as the relationships are all single-direction, many-to-one, and chained correctly.</p>
+
+<h4>C4. Why Every Relationship Is Many-to-One and Single-Direction</h4>
+<p><strong>Cardinality:</strong> each row in a fact table (one application, one disbursed loan, one repayment, one
+collection action) belongs to exactly one date, one customer, one branch, one officer, and one product - but any given
+date/customer/branch/officer/product can appear on many fact rows. That is the definition of a many-to-one
+relationship.</p>
+<p><strong>Filter direction:</strong> every relationship here is kept single-direction (dimension filters fact, and
+fact_Portfolio filters its two child fact tables). If cross filtering were set to "Both" everywhere, filtering
+fact_Applications by ApplicationChannel would also ripple into fact_Repayments and fact_Collections through the shared
+dim_Branch/dim_Date tables - producing confusing, hard-to-debug results. Keep every relationship single-direction.</p>
+
+<h4>C5. The Two-Dates-to-dim_Date Problem (Twice Over)</h4>
+<p>Both fact_Applications and fact_Portfolio have two legitimate date columns relating to dim_Date: submission/decision
+date in fact_Applications, and disbursement/maturity date in fact_Portfolio. In both cases, only ONE relationship per
+table pair can be Active - Active means "the relationship DAX uses automatically, unless a measure explicitly says
+otherwise." The submission/disbursement date is set Active in both tables; the second relationship in each table
+(DecisionDateKey, MaturityDateKey) is left Inactive (a dashed line in Model view) and is only invoked, on demand, inside
+specific measures using <code class="inline">USERELATIONSHIP()</code> - see
+<code class="inline">Loans Maturing Next 30 Days</code> and <code class="inline">Applications Beyond Decision SLA</code>
+in Section 6 below.</p>
+
+<h4>C6. Common Relationship Failures and How to Diagnose Them</h4>
+<ul class="checklist">
+<li><strong>A relationship auto-builds as many-to-many</strong> (shown as "*...*") - almost always means a key that should
+be unique on the "one" side has duplicates. Fix: find and remove the duplicate in dim_Branch/dim_Customer/dim_LoanProduct/
+dim_LoanOfficer/dim_Date, or in fact_Portfolio's LoanID for the bridge relationships.</li>
+<li><strong>A relationship refuses to build, or shows a warning triangle</strong> - almost always a data type mismatch.
+Fix this in Power Query, never by forcing the relationship through.</li>
+<li><strong>A "(Blank)" category appears in a visual after a relationship is built</strong> - usually means a fact-table
+key value has no match in the dimension/bridge table (a typo, or a value trimmed on one side but not the other).</li>
+</ul>
+
+<h4>C7. Build the Measures Table</h4>
+<p>Home &gt; Enter Data (or New Table):</p>
+<pre><code>_Measures = ROW(&quot;Info&quot;, &quot;NTMB Loan Portfolio Measures - see Section 6 of this guide&quot;)</code></pre>
+<p>Hide the Info column (right-click &gt; Hide in Report View), then reassign every measure created in Section 6 to live
+inside this table so all 25+ measures sit in one clean, browsable folder in the Fields pane rather than being
+scattered across nine data tables.</p>
+
+</section>
+
+<section id="dax">
+<h2>4. Solution - Every DAX Measure, Explained Line by Line</h2>
+<p>Every measure below should be created inside a dedicated measures table called <code class="inline">_Measures</code>
+(see Section 3.6). Read each card top to bottom: the DAX code first, then the line-by-line breakdown of what each part
+of the formula does, then why it was written that way, then its direct impact on the dashboard.</p>
+<h3>GROUP 1 - CORE COUNTING MEASURES</h3>
+<div class="dax-card"><div class="dax-header">1.1 Total Applications</div><div class="dax-body">
+<pre><code>Total Applications = COUNTROWS(fact_Applications)</code></pre>
+<p><strong>Line by line:</strong></p>
+<ul>
+<li><code class="inline">COUNTROWS(fact_Applications)</code> counts every row currently visible in fact_Applications after all active filters (slicers, visual filters, cross-filters from slicing dimension tables) have been applied.</li>
+</ul>
+<div class="why">Why written this way: COUNTROWS is used instead of COUNT(fact_Applications[ApplicationID]) because it does not need to touch a specific column, so it is marginally faster and never breaks if a column is renamed.</div>
+<div class="impact">Impact on the dashboard: this is the base measure that the entire application funnel is built from (approval rate, rejection rate, processing time). It is the top-left KPI card on the Origination page.</div>
+</div></div>
+<div class="dax-card"><div class="dax-header">1.2 Approved Applications / Rejected Applications / Pending Applications</div><div class="dax-body">
+<pre><code>Approved Applications =
+CALCULATE([Total Applications], fact_Applications[ApplicationStatus] = &quot;Approved&quot;)
+
+Rejected Applications =
+CALCULATE([Total Applications], fact_Applications[ApplicationStatus] = &quot;Rejected&quot;)
+
+Pending Applications =
+CALCULATE([Total Applications], fact_Applications[ApplicationStatus] = &quot;Pending&quot;)</code></pre>
+<p><strong>Line by line:</strong></p>
+<ul>
+<li><code class="inline">CALCULATE( ... )</code> changes the filter context that <code class="inline">[Total Applications]</code> is evaluated in.</li>
+<li><code class="inline">fact_Applications[ApplicationStatus] = &quot;...&quot;</code> overrides any existing filter on ApplicationStatus and restricts the row context to just that outcome.</li>
+</ul>
+<div class="impact">Impact: these three feed the approval funnel visuals and the Approval Rate % measure below.</div>
+</div></div>
+<div class="dax-card"><div class="dax-header">1.3 Total Loans Disbursed / Total Principal Disbursed</div><div class="dax-body">
+<pre><code>Total Loans Disbursed = COUNTROWS(fact_Portfolio)
+
+Total Principal Disbursed = SUM(fact_Portfolio[PrincipalAmount])</code></pre>
+<p>Straightforward counting and summing aggregations over the core fact table. Total Principal Disbursed is the headline &quot;how much money have we lent&quot; KPI, formatted as currency (Naira).</p>
+</div></div>
+<div class="dax-card"><div class="dax-header">1.4 Total Outstanding Balance</div><div class="dax-body">
+<pre><code>Total Outstanding Balance = SUM(fact_Portfolio[OutstandingBalance])</code></pre>
+<p>Adds the OutstandingBalance column across all currently-filtered loans. This is the &quot;how much do customers currently owe us&quot; KPI, and the denominator/numerator base for every risk ratio in Group 3.</p>
+</div></div>
+<div class="dax-card"><div class="dax-header">1.5 Non-Performing Loans (count and balance)</div><div class="dax-body">
+<pre><code>Non-Performing Loan Count =
+CALCULATE(
+    [Total Loans Disbursed],
+    fact_Portfolio[RiskClassification] IN { &quot;Substandard&quot;, &quot;Doubtful&quot;, &quot;Loss&quot; }
+)
+
+Non-Performing Loan Balance =
+CALCULATE(
+    [Total Outstanding Balance],
+    fact_Portfolio[RiskClassification] IN { &quot;Substandard&quot;, &quot;Doubtful&quot;, &quot;Loss&quot; }
+)</code></pre>
+<p><strong>Line by line:</strong></p>
+<ul>
+<li><code class="inline">fact_Portfolio[RiskClassification] IN { &quot;Substandard&quot;, &quot;Doubtful&quot;, &quot;Loss&quot; }</code> is a shorthand for an OR condition across the three prudential classifications that count as &quot;non-performing&quot; under standard banking regulation (Performing and Watch are NOT non-performing).</li>
+</ul>
+<div class="why">Why this grouping: banking regulators (and internal risk committees) define a loan as non-performing once it crosses roughly 90 days past due, which in this dataset&#x27;s classification scheme corresponds to Substandard, Doubtful, and Loss.</div>
+<div class="impact">Impact: these two measures are the direct numerator of the NPL Ratio, the single most important KPI in the entire dashboard.</div>
+</div></div>
+<div class="dax-card"><div class="dax-header">1.6 Total Repayments Collected / Total Scheduled</div><div class="dax-body">
+<pre><code>Total Scheduled Repayments = SUM(fact_Repayments[ScheduledAmount])
+
+Total Actual Repayments = SUM(fact_Repayments[ActualAmountPaid])</code></pre>
+<p>Straightforward SUM aggregations, used to compute the Collection Efficiency Ratio in Group 3 and displayed as twin KPI cards on the Collections page.</p>
+</div></div>
+<div class="dax-card"><div class="dax-header">1.7 Total Amount Recovered (Collections)</div><div class="dax-body">
+<pre><code>Total Amount Recovered = SUM(fact_Collections[AmountRecovered])</code></pre>
+<p>Sums the AmountRecovered column across all collection actions. Used to show how much of the delinquent book has actually been clawed back through active collections effort, as distinct from normal scheduled repayments.</p>
+</div></div>
+<h3>GROUP 2 - TIME INTELLIGENCE MEASURES</h3>
+<div class="dax-card"><div class="dax-header"></div><div class="dax-body">
+<p>These require dim_Date to be marked as the official Date Table in Power BI (Table tools &gt; Mark as Date Table &gt; pick the Date column) because every time-intelligence DAX function (SAMEPERIODLASTYEAR, DATEADD, TOTALYTD, etc.) depends on a contiguous, unique-date calendar table with an active relationship to the fact table it is filtering.</p>
+</div></div>
+<div class="dax-card"><div class="dax-header">2.1 Disbursements PY (Prior Year, same period)</div><div class="dax-body">
+<pre><code>Principal Disbursed PY =
+CALCULATE(
+    [Total Principal Disbursed],
+    SAMEPERIODLASTYEAR(dim_Date[Date])
+)</code></pre>
+<p><strong>Line by line:</strong></p>
+<ul>
+<li><code class="inline">SAMEPERIODLASTYEAR(dim_Date[Date])</code> returns the same date range as whatever is currently filtered (e.g., January 2024) but shifted back exactly one year (January 2023).</li>
+<li><code class="inline">CALCULATE</code> re-evaluates <code class="inline">[Total Principal Disbursed]</code> inside that shifted date filter.</li>
+</ul>
+<div class="impact">Impact: this is the comparison half of every YoY chart and KPI on the Executive Overview page, showing whether the bank is growing or shrinking its lending book year over year.</div>
+</div></div>
+<div class="dax-card"><div class="dax-header">2.2 Disbursement YoY % Change</div><div class="dax-body">
+<pre><code>Disbursement YoY % Change =
+VAR CurrentValue = [Total Principal Disbursed]
+VAR PriorValue = [Principal Disbursed PY]
+RETURN
+    DIVIDE(CurrentValue - PriorValue, PriorValue)</code></pre>
+<p><strong>Line by line:</strong></p>
+<ul>
+<li><code class="inline">VAR CurrentValue</code> stores this period&#x27;s disbursement total once, avoiding recalculating the base measure twice.</li>
+<li><code class="inline">VAR PriorValue</code> stores last year&#x27;s figure using measure 2.1.</li>
+<li><code class="inline">DIVIDE(CurrentValue - PriorValue, PriorValue)</code> calculates percentage change and safely returns BLANK() instead of an error if PriorValue is 0.</li>
+</ul>
+<p>Why DIVIDE and not <code class="inline">/</code>: DIVIDE has a built-in safe-divide behavior (returns BLANK or an optional default instead of a divide-by-zero error), which matters once the dashboard is filtered down to a branch/product combination that may have zero prior-year disbursements.</p>
+<div class="impact">Impact: displayed as a KPI card with an up/down arrow and conditional color - the first number a Chief Risk Officer or Head of Lending looks at on a Monday morning portfolio review.</div>
+</div></div>
+<div class="dax-card"><div class="dax-header">2.3 Disbursements YTD</div><div class="dax-body">
+<pre><code>Disbursements YTD = TOTALYTD([Total Principal Disbursed], dim_Date[Date])</code></pre>
+<p><strong>Line by line:</strong></p>
+<ul>
+<li><code class="inline">TOTALYTD</code> internally filters dim_Date[Date] from the first day of the current calendar year up to the latest date in the current filter context, then evaluates <code class="inline">[Total Principal Disbursed]</code> inside that filter.</li>
+</ul>
+<div class="impact">Impact: used as a running cumulative total overlay on the Executive Overview line chart, letting management compare &quot;how far into the year we are vs how much we have lent so far.&quot;</div>
+</div></div>
+<div class="dax-card"><div class="dax-header">2.4 NPL Ratio 3-Month Trend (rolling average)</div><div class="dax-body">
+<pre><code>NPL Ratio 3M Avg =
+AVERAGEX(
+    DATESINPERIOD(dim_Date[Date], MAX(dim_Date[Date]), -3, MONTH),
+    [NPL Ratio %]
+)</code></pre>
+<p><strong>Line by line:</strong></p>
+<ul>
+<li><code class="inline">DATESINPERIOD(dim_Date[Date], MAX(dim_Date[Date]), -3, MONTH)</code> builds a table of dates covering the 3 months ending on whatever the latest date in context is.</li>
+<li><code class="inline">AVERAGEX( table, expression )</code> iterates that date table, evaluates <code class="inline">[NPL Ratio %]</code> (Group 3) for each period, and averages the results.</li>
+</ul>
+<div class="impact">Impact: smooths the naturally noisy monthly NPL ratio line chart so a single bad month of write-offs does not visually overstate a trend that isn&#x27;t really there.</div>
+</div></div>
+<h3>GROUP 3 - RATE AND RATIO MEASURES (industry-standard banking KPIs)</h3>
+<div class="dax-card"><div class="dax-header">3.1 Approval Rate %</div><div class="dax-body">
+<pre><code>Approval Rate % = DIVIDE([Approved Applications], [Total Applications])</code></pre>
+<p>The percentage of applications that were approved. The single most-watched loan origination KPI, shown as a headline card on the Origination page.</p>
+</div></div>
+<div class="dax-card"><div class="dax-header">3.2 Rejection Rate %</div><div class="dax-body">
+<pre><code>Rejection Rate % = DIVIDE([Rejected Applications], [Total Applications])</code></pre>
+<p>The mirror image of Approval Rate %, useful when analyzed by RejectionReason to identify the most common reasons customers are declined.</p>
+</div></div>
+<div class="dax-card"><div class="dax-header">3.3 Average Processing Days</div><div class="dax-body">
+<pre><code>Average Processing Days = AVERAGE(fact_Applications[ProcessingDays])</code></pre>
+<p>Straightforward average; a key operational efficiency KPI showing how quickly the bank turns around a lending decision - directly affects customer experience and competitiveness.</p>
+</div></div>
+<div class="dax-card"><div class="dax-header">3.4 NPL Ratio %</div><div class="dax-body">
+<pre><code>NPL Ratio % = DIVIDE([Non-Performing Loan Balance], [Total Outstanding Balance])</code></pre>
+<p><strong>Line by line:</strong></p>
+<ul>
+<li><code class="inline">[Non-Performing Loan Balance]</code> (Group 1) is the outstanding balance of loans classified Substandard, Doubtful, or Loss.</li>
+<li><code class="inline">[Total Outstanding Balance]</code> (Group 1) is the outstanding balance of the entire book.</li>
+<li><code class="inline">DIVIDE(...)</code> expresses this as a safe percentage.</li>
+</ul>
+<div class="impact">Impact: NPL Ratio % is the single most important risk KPI in the entire dashboard - it is the number a bank&#x27;s board and regulator watch first. It is displayed prominently on the Executive Overview page with conditional formatting (green below a target threshold, red above it).</div>
+</div></div>
+<div class="dax-card"><div class="dax-header">3.5 Portfolio at Risk 30/60/90 (PAR30, PAR60, PAR90)</div><div class="dax-body">
+<pre><code>PAR 30 =
+DIVIDE(
+    CALCULATE([Total Outstanding Balance], fact_Portfolio[DaysPastDue] &gt;= 30),
+    [Total Outstanding Balance]
+)
+
+PAR 60 =
+DIVIDE(
+    CALCULATE([Total Outstanding Balance], fact_Portfolio[DaysPastDue] &gt;= 60),
+    [Total Outstanding Balance]
+)
+
+PAR 90 =
+DIVIDE(
+    CALCULATE([Total Outstanding Balance], fact_Portfolio[DaysPastDue] &gt;= 90),
+    [Total Outstanding Balance]
+)</code></pre>
+<p><strong>Line by line:</strong></p>
+<ul>
+<li>Each measure filters fact_Portfolio to loans whose DaysPastDue has crossed a specific threshold (30, 60, or 90 days), sums their outstanding balance, then divides by the total book.</li>
+</ul>
+<p>Why three separate but almost identical measures instead of one parameterized measure: PAR30, PAR60, and PAR90 are each individually a named, standard industry metric that risk teams expect to see side by side on one page - collapsing them into a single &quot;PAR at N days&quot; measure with a parameter would actually make the report harder to read for a banking audience used to seeing all three at once.</p>
+<div class="impact">Impact: these three measures, shown together as a small multiple or a combo chart, tell management not just how many loans are non-performing, but how quickly the book is deteriorating through the aging buckets - a portfolio with high PAR30 but low PAR90 is a very different risk story than one with high PAR90.</div>
+</div></div>
+<div class="dax-card"><div class="dax-header">3.6 Collection Efficiency Ratio</div><div class="dax-body">
+<pre><code>Collection Efficiency Ratio = DIVIDE([Total Actual Repayments], [Total Scheduled Repayments])</code></pre>
+<p>The percentage of scheduled repayments that were actually collected. A ratio below 100% means the bank is collecting less than what was contractually due - the complement of this ratio (1 minus this value) is roughly the in-period delinquency rate.</p>
+</div></div>
+<div class="dax-card"><div class="dax-header">3.7 Average Interest Rate (Portfolio Yield Proxy)</div><div class="dax-body">
+<pre><code>Average Interest Rate = AVERAGE(fact_Portfolio[InterestRatePct])</code></pre>
+<p>Simple average of the InterestRatePct column; used as a proxy for portfolio yield when compared across products, branches, or credit score bands - useful for pricing strategy discussions.</p>
+</div></div>
+<div class="dax-card"><div class="dax-header">3.8 Write-Off Rate %</div><div class="dax-body">
+<pre><code>Written Off Balance =
+CALCULATE([Total Principal Disbursed], fact_Portfolio[LoanStatus] = &quot;Written Off&quot;)
+
+Write-Off Rate % = DIVIDE([Written Off Balance], [Total Principal Disbursed])</code></pre>
+<p><strong>Line by line:</strong></p>
+<ul>
+<li><code class="inline">Written Off Balance</code> filters to only loans whose LoanStatus is &quot;Written Off&quot; and sums their original principal (not their outstanding balance, which is intentional - write-off rate is conventionally measured against what was originally lent).</li>
+<li><code class="inline">Write-Off Rate %</code> expresses this as a percentage of everything ever disbursed.</li>
+</ul>
+<div class="impact">Impact: while NPL Ratio % shows current risk in the live book, Write-Off Rate % shows realized, permanent losses - the two measures answer different questions and both are needed on the Risk page.</div>
+</div></div>
+<h3>GROUP 4 - APPLICATION FUNNEL &amp; CHANNEL MEASURES</h3>
+<div class="dax-card"><div class="dax-header">4.1 Applications by Channel Share %</div><div class="dax-body">
+<pre><code>Application Channel Share % =
+DIVIDE([Total Applications], CALCULATE([Total Applications], ALL(fact_Applications[ApplicationChannel])))</code></pre>
+<p><strong>Line by line:</strong></p>
+<ul>
+<li><code class="inline">ALL(fact_Applications[ApplicationChannel])</code> removes any existing filter on ApplicationChannel, so the denominator always represents the grand total across every channel, regardless of which channel the current row/visual is filtered to.</li>
+<li>The numerator keeps the current filter context (e.g., a specific channel from a bar chart axis).</li>
+</ul>
+<div class="impact">Impact: powers a 100%-stacked or share-of-total visual showing what proportion of applications come through Branch vs Mobile App vs Web Portal vs Agent Network - useful for a digital-channel adoption story.</div>
+</div></div>
+<div class="dax-card"><div class="dax-header">4.2 Average Credit Score at Application</div><div class="dax-body">
+<pre><code>Average Credit Score = AVERAGE(fact_Applications[CreditScoreAtApplication])</code></pre>
+<p>Simple average; trended over time or split by product/channel, this shows whether the bank&#x27;s underwriting is drifting toward riskier or safer applicants.</p>
+</div></div>
+<h3>GROUP 5 - COLLECTIONS &amp; RECOVERY MEASURES</h3>
+<div class="dax-card"><div class="dax-header">5.1 Total Collection Actions / Successful Actions</div><div class="dax-body">
+<pre><code>Total Collection Actions = COUNTROWS(fact_Collections)
+
+Successful Collection Actions =
+CALCULATE([Total Collection Actions], fact_Collections[OutcomeStatus] = &quot;Payment Received&quot;)</code></pre>
+<p>Straightforward counting measures; the ratio of the two (Group 5.2) shows collections team effectiveness.</p>
+</div></div>
+<div class="dax-card"><div class="dax-header">5.2 Collection Success Rate %</div><div class="dax-body">
+<pre><code>Collection Success Rate % = DIVIDE([Successful Collection Actions], [Total Collection Actions])</code></pre>
+<p>The percentage of collection actions (calls, visits, notices) that directly resulted in a payment. A key performance measure for the collections/recovery team, often tracked per officer.</p>
+</div></div>
+<div class="dax-card"><div class="dax-header">5.3 Recovery Rate on Non-Performing Loans</div><div class="dax-body">
+<pre><code>Recovery Rate % = DIVIDE([Total Amount Recovered], [Non-Performing Loan Balance])</code></pre>
+<p><strong>Line by line:</strong></p>
+<ul>
+<li>Divides everything recovered through active collections effort by the total balance currently classified as non-performing.</li>
+</ul>
+<div class="impact">Impact: shows what fraction of the &quot;at risk&quot; book has actually been clawed back - a low recovery rate against a high NPL balance is an early warning sign that collections capacity may need to be increased.</div>
+</div></div>
+<h3>GROUP 6 - KPI STATUS / CONDITIONAL FORMATTING HELPER MEASURES</h3>
+<div class="dax-card"><div class="dax-header">6.1 NPL Ratio Status (traffic-light helper)</div><div class="dax-body">
+<pre><code>NPL Ratio Status =
+SWITCH(
+    TRUE(),
+    [NPL Ratio %] = BLANK(), &quot;No Data&quot;,
+    [NPL Ratio %] &lt;= 0.05, &quot;Healthy&quot;,
+    [NPL Ratio %] &lt;= 0.10, &quot;Watch&quot;,
+    &quot;Elevated Risk&quot;
+)</code></pre>
+<p><strong>Line by line:</strong></p>
+<ul>
+<li><code class="inline">SWITCH(TRUE(), condition1, result1, condition2, result2, ..., default)</code> is the standard DAX pattern for an IF/ELSE-IF chain that is easier to read than nested <code class="inline">IF()</code> statements.</li>
+<li>Each condition is checked top to bottom; the first TRUE condition wins.</li>
+<li>Thresholds (5%, 10%) are illustrative targets that should be replaced with the institution&#x27;s actual internal risk appetite - documented explicitly so students know these are placeholders, not universal regulatory standards.</li>
+</ul>
+<div class="impact">Impact: this text measure is bound to a card&#x27;s conditional formatting so the NPL Ratio KPI card shows green/amber/red without a separate visual just for color, and is also usable directly in a table/tooltip as a readable status label.</div>
+</div></div>
+<div class="dax-card"><div class="dax-header">6.2 Approval Rate Status</div><div class="dax-body">
+<pre><code>Approval Rate Status =
+SWITCH(
+    TRUE(),
+    [Approval Rate %] = BLANK(), &quot;No Data&quot;,
+    [Approval Rate %] &gt;= 0.65, &quot;Strong&quot;,
+    [Approval Rate %] &gt;= 0.45, &quot;Moderate&quot;,
+    &quot;Weak&quot;
+)</code></pre>
+<p>Same SWITCH(TRUE()) pattern as 6.1, applied to origination performance thresholds.</p>
+</div></div>
+<h3>GROUP 7 - THE INACTIVE-RELATIONSHIP MEASURES (USERELATIONSHIP)</h3>
+<div class="dax-card"><div class="dax-header">7.1 Loans Maturing in Next 30 Days</div><div class="dax-body">
+<pre><code>Loans Maturing Next 30 Days =
+CALCULATE(
+    [Total Loans Disbursed],
+    USERELATIONSHIP(fact_Portfolio[MaturityDateKey], dim_Date[DateKey]),
+    DATESBETWEEN(
+        dim_Date[Date],
+        TODAY(),
+        TODAY() + 30
+    ),
+    fact_Portfolio[LoanStatus] = &quot;Active&quot;
+)</code></pre>
+<p><strong>Line by line:</strong></p>
+<ul>
+<li><code class="inline">USERELATIONSHIP(fact_Portfolio[MaturityDateKey], dim_Date[DateKey])</code> temporarily activates the otherwise-inactive relationship between fact_Portfolio&#x27;s maturity date and dim_Date, for the duration of this CALCULATE only. Without this line, the DATESBETWEEN filter below would silently apply to the ACTIVE relationship (disbursement date) instead, giving a completely wrong (and non-obvious) answer.</li>
+<li><code class="inline">DATESBETWEEN(dim_Date[Date], TODAY(), TODAY() + 30)</code> builds a 30-day forward-looking date window from today.</li>
+<li><code class="inline">fact_Portfolio[LoanStatus] = &quot;Active&quot;</code> excludes loans that are already closed, written off, or restructured, since only currently active loans have a meaningful upcoming maturity.</li>
+</ul>
+<div class="why">Why this measure is included deliberately: it is the single best teaching example in this dataset of (a) why Power BI restricts a table pair to one active relationship at a time, and (b) how USERELATIONSHIP lets a measure reach for the inactive one on demand. Every student should be able to explain, from this one measure, why fact_Portfolio[DisbursementDateKey] and fact_Portfolio[MaturityDateKey] cannot both be active relationships to dim_Date simultaneously.</div>
+<div class="impact">Impact: this measure powers the &quot;loans maturing soon&quot; watch-list table on the Portfolio Risk page, which is directly actionable for a relationship manager planning renewal or exit conversations with customers.</div>
+</div></div>
+<div class="dax-card"><div class="dax-header">7.2 Applications Awaiting Decision Beyond SLA (using the second inactive relationship)</div><div class="dax-body">
+<pre><code>Applications Beyond Decision SLA =
+CALCULATE(
+    [Total Applications],
+    USERELATIONSHIP(fact_Applications[DecisionDateKey], dim_Date[DateKey]),
+    fact_Applications[ApplicationStatus] = &quot;Pending&quot;,
+    fact_Applications[ProcessingDays] &gt; 14
+)</code></pre>
+<p><strong>Line by line:</strong></p>
+<ul>
+<li><code class="inline">USERELATIONSHIP(fact_Applications[DecisionDateKey], dim_Date[DateKey])</code> activates the second, normally-inactive relationship on fact_Applications for this calculation only.</li>
+<li>The two additional filter arguments restrict the count to applications that are still Pending and have already taken more than 14 days to process - i.e., applications breaching a typical service-level agreement (SLA).</li>
+</ul>
+<div class="impact">Impact: demonstrates that the USERELATIONSHIP pattern from Group 7.1 is not a one-off trick for fact_Portfolio - it is a general technique that recurs anywhere a fact table has two legitimate dates against the same calendar table, which is a very common real-world modeling situation in lending, insurance, and subscription businesses alike.</div>
+</div></div>
+
+</section>
+
+<section id="summary">
+<h2>5. Measures-to-Page Reference Map</h2>
+<p>Use this table to quickly confirm which measures belong on which dashboard page while you build Section 6.</p>
+<table><caption>Measures used per dashboard page</caption>
+<tr><th>Page</th><th>Measures Used</th></tr>
+<tr><td>1. Executive Portfolio Overview</td><td>Total Principal Disbursed, Principal Disbursed PY, Disbursement YoY % Change, Disbursements YTD, NPL Ratio %, NPL Ratio Status, Total Outstanding Balance, Approval Rate %, Collection Efficiency Ratio</td></tr>
+<tr><td>2. Loan Origination &amp; Application Funnel</td><td>Total Applications, Approved Applications, Rejected Applications, Pending Applications, Approval Rate %, Rejection Rate %, Average Processing Days, Application Channel Share %, Average Credit Score, Applications Beyond Decision SLA</td></tr>
+<tr><td>3. Portfolio Risk &amp; NPL Analysis</td><td>Non-Performing Loan Count, Non-Performing Loan Balance, NPL Ratio %, PAR 30, PAR 60, PAR 90, Write-Off Rate %, Average Interest Rate, Loans Maturing Next 30 Days</td></tr>
+<tr><td>4. Collections &amp; Recovery Performance</td><td>Total Collection Actions, Successful Collection Actions, Collection Success Rate %, Total Amount Recovered, Recovery Rate %, Total Actual Repayments, Total Scheduled Repayments</td></tr>
+<tr><td>5. Customer &amp; Product Analytics</td><td>Total Loans Disbursed, Total Principal Disbursed, Average Interest Rate, Approval Rate %, NPL Ratio % (sliced by segment/product/credit band)</td></tr>
+</table>
+
+</section>
+
+<section id="dashboards">
+<h2>6. Solution - Building the 5 Dashboard Pages</h2>
+<div class="page-section"><div class="page-title">Dashboard Page 1 - "Executive Portfolio Overview"</div><div class="page-purpose">a single-glance summary for senior management and the board - how big is the book, how risky is it, and are we growing or shrinking year over year.</div><div class="page-body">
+<p><strong>Slicers:</strong> Year (dim_Date[Year]) - slicer, single-select buttons; Region (dim_Branch[Region]) - dropdown slicer; ProductCategory (dim_LoanProduct[ProductCategory]) - dropdown slicer</p>
+<div class="chart-card"><h4>Total Principal Disbursed</h4><p><strong>Design:</strong> Card - &quot;Total Principal Disbursed&quot; -&gt; measure [Total Principal Disbursed], subtitle shows [Disbursement YoY % Change] with a conditional arrow (green up = growth, red down = shrinkage).</p></div>
+<div class="chart-card"><h4>Total Outstanding Balance</h4><p><strong>Design:</strong> Card - &quot;Total Outstanding Balance&quot; -&gt; measure [Total Outstanding Balance].</p></div>
+<div class="chart-card"><h4>NPL Ratio %</h4><p><strong>Design:</strong> Card - &quot;NPL Ratio %&quot; -&gt; measure [NPL Ratio %], background color driven by [NPL Ratio Status] (green/amber/red).</p></div>
+<div class="chart-card"><h4>Approval Rate %</h4><p><strong>Design:</strong> Card - &quot;Approval Rate %&quot; -&gt; measure [Approval Rate %].</p></div>
+<div class="chart-card"><h4>Collection Efficiency Ratio</h4><p><strong>Design:</strong> Card - &quot;Collection Efficiency Ratio&quot; -&gt; measure [Collection Efficiency Ratio].</p></div>
+<div class="chart-card"><h4>Disbursements YTD</h4><p><strong>Design:</strong> Card - &quot;Disbursements YTD&quot; -&gt; measure [Disbursements YTD].</p></div>
+<div class="chart-card"><h4>Monthly Disbursement Trend - Current Year vs Prior Year</h4><p><strong>Design:</strong> Line and clustered column chart - X axis: dim_Date[MonthShort] (sorted by MonthNumber), Columns: [Total Principal Disbursed] for current year, Line: [Principal Disbursed PY] for prior year overlay.</p><p class="why-note"><em>Why this chart: overlaying current vs prior year on the same month axis is the fastest way for a board member to see if the lending book is growing seasonally, not just in raw totals.</em></p></div>
+<div class="chart-card"><h4>Disbursement Volume vs NPL Ratio by Branch</h4><p><strong>Design:</strong> Clustered bar chart - Y axis: dim_Branch[BranchName], Value: [Total Principal Disbursed] AND [NPL Ratio %] as a second measure (dual value bars, different axis).</p><p class="why-note"><em>Why: a raw ranking of branches by disbursement volume unfairly rewards branches that lend aggressively without regard to quality; showing NPL Ratio % alongside teaches students to never present growth without risk.</em></p></div>
+<div class="chart-card"><h4>Portfolio Balance by Risk Classification</h4><p><strong>Design:</strong> Donut chart - Legend: fact_Portfolio[RiskClassification], Value: [Total Outstanding Balance].</p></div>
+<div class="chart-card"><h4>Geographic Distribution of the Loan Book</h4><p><strong>Design:</strong> Map (or filled/shape map of Nigeria if available) - Location: dim_Branch[Region], Bubble size: [Total Principal Disbursed]. (If a proper Shape Map isn&#x27;t available in the training environment, substitute a Treemap of Region -&gt; BranchName sized by [Total Principal Disbursed] - documented as an acceptable substitute in the solution file.)</p></div>
+</div></div>
+<div class="page-section"><div class="page-title">Dashboard Page 2 - "Loan Origination &amp; Application Funnel"</div><div class="page-purpose">analyze the application-to-disbursement funnel for the credit/origination team.</div><div class="page-body">
+<p><strong>Slicers:</strong> Year, ApplicationChannel, ProductCategory (all multi-select).</p>
+<div class="chart-card"><h4>Total Applications</h4><p><strong>Design:</strong> Card - &quot;Total Applications&quot; -&gt; measure [Total Applications].</p></div>
+<div class="chart-card"><h4>Approval Rate %</h4><p><strong>Design:</strong> Card - &quot;Approval Rate %&quot; -&gt; measure [Approval Rate %], conditional color via [Approval Rate Status].</p></div>
+<div class="chart-card"><h4>Average Processing Days</h4><p><strong>Design:</strong> Card - &quot;Average Processing Days&quot; -&gt; measure [Average Processing Days].</p></div>
+<div class="chart-card"><h4>Application-to-Disbursement Funnel</h4><p><strong>Design:</strong> Funnel chart - Stages: Total Applications -&gt; Approved Applications -&gt; [Total Loans Disbursed].</p><p class="why-note"><em>Why: a funnel visual is purpose-built for showing conversion loss at each stage, which is exactly the story an origination team needs to tell about where applicants are falling out.</em></p></div>
+<div class="chart-card"><h4>Top Rejection Reasons</h4><p><strong>Design:</strong> Clustered bar chart - Y axis: fact_Applications[RejectionReason], Value: [Rejected Applications], sorted descending.</p></div>
+<div class="chart-card"><h4>Application Outcome Mix by Channel</h4><p><strong>Design:</strong> 100% stacked bar chart - X axis: fact_Applications[ApplicationChannel], Legend: fact_Applications[ApplicationStatus], Value: [Total Applications].</p></div>
+<div class="chart-card"><h4>Processing Time Trend</h4><p><strong>Design:</strong> Line chart - X axis: dim_Date[YearMonth], Value: [Average Processing Days].</p></div>
+<div class="chart-card"><h4>Applications Beyond SLA - Action Required</h4><p><strong>Design:</strong> Table - Columns: ApplicationID, CustomerID (via dim_Customer[FullName]), ProductID (via dim_LoanProduct[ProductName]), AmountRequested, ProcessingDays. Filtered (visual-level filter) to ApplicationStatus = &quot;Pending&quot; AND ProcessingDays &gt; 14.</p><p class="why-note"><em>Why: every origination dashboard needs at least one &quot;to-do list&quot; table, not just charts - this is the exact list a credit operations manager works from after the morning stand-up.</em></p></div>
+</div></div>
+<div class="page-section"><div class="page-title">Dashboard Page 3 - "Portfolio Risk &amp; NPL Analysis"</div><div class="page-purpose">deep-dive into loan book quality for the risk management team and credit committee.</div><div class="page-body">
+<p><strong>Slicers:</strong> Year, RiskClassification, ProductCategory.</p>
+<div class="chart-card"><h4>NPL Ratio %</h4><p><strong>Design:</strong> Card - &quot;NPL Ratio %&quot; -&gt; [NPL Ratio %].</p></div>
+<div class="chart-card"><h4>Write-Off Rate %</h4><p><strong>Design:</strong> Card - &quot;Write-Off Rate %&quot; -&gt; [Write-Off Rate %].</p></div>
+<div class="chart-card"><h4>Average Interest Rate</h4><p><strong>Design:</strong> Card - &quot;Average Interest Rate&quot; -&gt; [Average Interest Rate].</p></div>
+<div class="chart-card"><h4>Portfolio at Risk Trend (PAR30 / PAR60 / PAR90)</h4><p><strong>Design:</strong> Combo chart (clustered column + line) - X axis: dim_Date[YearMonth], Columns: [Total Outstanding Balance], Lines: [PAR 30], [PAR 60], [PAR 90] (secondary axis).</p><p class="why-note"><em>Why: showing all three PAR buckets together on one time axis reveals whether the book is deteriorating through the aging stages or whether early delinquency is being cured before it reaches 90+ days.</em></p></div>
+<div class="chart-card"><h4>NPL Ratio by Product</h4><p><strong>Design:</strong> Clustered bar chart - Y axis: dim_LoanProduct[ProductName], Value: [NPL Ratio %], sorted descending.</p></div>
+<div class="chart-card"><h4>NPL Balance by Credit Score Band and Region</h4><p><strong>Design:</strong> Matrix visual - Rows: dim_Customer[CreditScoreBand], Columns: dim_Branch[Region], Values: [Non-Performing Loan Balance] and [NPL Ratio %] (conditional-formatted data bars).</p></div>
+<div class="chart-card"><h4>Non-Performing Balance by Collateral Type</h4><p><strong>Design:</strong> Donut chart - Legend: fact_Portfolio[CollateralType], Value: [Non-Performing Loan Balance].</p></div>
+<div class="chart-card"><h4>Loans Maturing in the Next 30 Days - Relationship Manager Watch List</h4><p><strong>Design:</strong> Table - Columns: LoanID, CustomerID (via dim_Customer[FullName]), BranchID (via dim_Branch[BranchName]), MaturityDateKey (formatted as date), OutstandingBalance. Uses the [Loans Maturing Next 30 Days] measure&#x27;s underlying filter logic as a visual-level filter.</p></div>
+</div></div>
+<div class="page-section"><div class="page-title">Dashboard Page 4 - "Collections &amp; Recovery Performance"</div><div class="page-purpose">track the effectiveness of the collections/recovery team on delinquent accounts.</div><div class="page-body">
+<p><strong>Slicers:</strong> Year, ActionType, OfficerID (via dim_LoanOfficer[FullName]).</p>
+<div class="chart-card"><h4>Total Collection Actions</h4><p><strong>Design:</strong> Card - &quot;Total Collection Actions&quot; -&gt; [Total Collection Actions].</p></div>
+<div class="chart-card"><h4>Collection Success Rate %</h4><p><strong>Design:</strong> Card - &quot;Collection Success Rate %&quot; -&gt; [Collection Success Rate %].</p></div>
+<div class="chart-card"><h4>Total Amount Recovered</h4><p><strong>Design:</strong> Card - &quot;Total Amount Recovered&quot; -&gt; [Total Amount Recovered].</p></div>
+<div class="chart-card"><h4>Collection Actions by Type and Outcome</h4><p><strong>Design:</strong> Clustered bar chart - Y axis: fact_Collections[ActionType], Value: [Total Collection Actions] split by OutcomeStatus as legend.</p></div>
+<div class="chart-card"><h4>Monthly Recovery Trend</h4><p><strong>Design:</strong> Line chart - X axis: dim_Date[YearMonth], Value: [Total Amount Recovered].</p></div>
+<div class="chart-card"><h4>Collection Action Outcome Split</h4><p><strong>Design:</strong> Donut chart - Legend: fact_Collections[OutcomeStatus], Value: [Total Collection Actions].</p></div>
+<div class="chart-card"><h4>Officer Performance Ranking - Recovery Effectiveness</h4><p><strong>Design:</strong> Table (ranked) - Rows: dim_LoanOfficer[FullName], Values: [Total Collection Actions], [Collection Success Rate %], [Total Amount Recovered], sorted by Collection Success Rate % descending.</p></div>
+</div></div>
+<div class="page-section"><div class="page-title">Dashboard Page 5 - "Customer &amp; Product Analytics"</div><div class="page-purpose">understand the customer base and product mix for strategy and cross-sell planning.</div><div class="page-body">
+<p><strong>Slicers:</strong> Year, CustomerSegment, CreditScoreBand.</p>
+<div class="chart-card"><h4>Total Loans Disbursed</h4><p><strong>Design:</strong> Card - &quot;Total Loans Disbursed&quot; -&gt; [Total Loans Disbursed].</p></div>
+<div class="chart-card"><h4>Total Principal Disbursed</h4><p><strong>Design:</strong> Card - &quot;Total Principal Disbursed&quot; -&gt; [Total Principal Disbursed].</p></div>
+<div class="chart-card"><h4>Average Interest Rate</h4><p><strong>Design:</strong> Card - &quot;Average Interest Rate&quot; -&gt; [Average Interest Rate].</p></div>
+<div class="chart-card"><h4>Product Mix - Volume vs Value</h4><p><strong>Design:</strong> Clustered bar chart - Y axis: dim_LoanProduct[ProductName], Value: [Total Loans Disbursed] and [Total Principal Disbursed] (dual value bars).</p></div>
+<div class="chart-card"><h4>Disbursement Share by Customer Segment</h4><p><strong>Design:</strong> Donut chart - Legend: dim_Customer[CustomerSegment], Value: [Total Principal Disbursed].</p></div>
+<div class="chart-card"><h4>Approval Rate vs NPL Ratio by Credit Score Band</h4><p><strong>Design:</strong> Clustered column chart - X axis: dim_Customer[CreditScoreBand], Value: [Approval Rate %] and [NPL Ratio %] (dual value columns).</p><p class="why-note"><em>Why: this pairing is the clearest possible illustration of the underwriting trade-off - lower credit bands should show both a lower approval rate and a higher NPL ratio if underwriting is working correctly; if not, this chart immediately flags a scoring model problem.</em></p></div>
+<div class="chart-card"><h4>Portfolio Profile by Income Band</h4><p><strong>Design:</strong> Table - Rows: dim_Customer[IncomeBand], Values: [Total Loans Disbursed], [Total Principal Disbursed], [Average Interest Rate], [NPL Ratio %].</p></div>
+</div></div>
+
+</section>
+
+<section id="standards">
+<h2>7. Cross-Page Design Standards</h2>
+<p>These rules were applied consistently across all five pages so the finished report reads as one coherent product
+rather than five disconnected pages.</p>
+<ul class='checklist'><li>Every KPI card uses the same card visual style (rounded corners, 2px border, category label above value, YoY/target sub-label below in smaller gray text) for visual consistency.</li><li>Every page has the same slicer panel position (top strip, height 60px) so students learn to build a repeatable dashboard template, not a one-off page.</li><li>Every chart has a one-line &quot;Why this chart&quot; note placed in the Word document and HTML solution file (not on the canvas itself) so students learn the reasoning, not just the mechanics.</li><li>Tooltips: every column/bar/line visual should have a tooltip page or extended tooltip fields added (Branch, Product, Customer Segment) so hovering reveals context without needing to click through.</li><li>Bookmarks (optional stretch task): create a bookmark group toggling between &quot;Balance view&quot; and &quot;Count view&quot; on Page 3, to teach students bookmark + selection pane + button interactions.</li></ul>
+</section>
+
+<section id="qa">
+<h2>8. Final Quality Checklist</h2>
+<ul class="checklist">
+<li>Every visual on every page renders with no error triangles and no "(Blank)" categories.</li>
+<li>Every KPI card's conditional formatting (NPL Ratio Status, Approval Rate Status) displays the correct color
+at realistic filter combinations (try filtering to a single small branch to confirm BLANK() handling works).</li>
+<li>The Loans Maturing Next 30 Days measure returns different, sensible numbers than a naive count using the
+active DisbursementDateKey relationship - if it returns the same number, USERELATIONSHIP is not being applied
+correctly.</li>
+<li>The Applications Beyond Decision SLA measure behaves the same way against fact_Applications's two dates.</li>
+<li>Every slicer on every page cross-filters the visuals on that page correctly, and does not unexpectedly affect other
+pages (Power BI report-level vs page-level slicer scope should be deliberately chosen, not accidental).</li>
+<li>All monetary values are formatted consistently (Naira, thousands separator) and all percentages are formatted to
+one decimal place throughout the report.</li>
+<li>The report has been tested with at least three different slicer combinations to confirm no visual breaks or
+misleading blank results.</li>
+</ul>
+</section>
+
+</main>
+
+<footer class="pagefoot">
+NTMB Loan Portfolio Power BI Training Program &nbsp;&middot;&nbsp; Document 2 of 2: Full Solution Walkthrough<br>
+Prepared by Kajola Gbenga - Data Scientist &amp; AI Engineer
+</footer>
+
+</div>
+</body>
+</html>
