@@ -1,0 +1,811 @@
+transaction_id,transaction_date,customer_id,customer_segment,customer_gender,customer_age,customer_region,years_as_customer,transaction_type,transaction_channel,transaction_category,transaction_amount,account_balance_after,customer_satisfaction,is_flagged
+TXN-100017,2023-01-08,CUST-5289,Standard,Male,51,North Central,4,Debit,Branch,Rent,11359.83,492268.58,2.4,0
+TXN-100647,2023-10-22,CUST-5230,Standard,Male,45,North Central,6,Credit,Mobile App,Fuel,53658.52,65826.51,,0
+TXN-100014,2023-01-07,CUST-5145,Standard,Female,22,South South,5,Online Transfer,Internet Banking,Shopping,130044.59,7761.58,3.2,0
+TXN-100110,2023-02-20,CUST-5243,Standard,Female,49,South South,1,Debit,USSD,Airtime,218907.38,726695.57,5.0,0
+TXN-100089,2023-02-10,CUST-5142,Basic,Male,44,North Central,1,ATM Withdrawal,Mobile App,Utilities,3465.23,465717.43,2.8,0
+TXN-100268,2023-05-03,CUST-5059,Standard,Male,41,Northwest,7,Bill Payment,Mobile App,Utilities,56561.69,15104.65,3.5,1
+TXN-100068,2023-01-31,CUST-5192,Standard,Male,61,Southwest,4,Debit,POS Terminal,Airtime,87815.01,74454.1,4.7,0
+TXN-100451,2023-07-25,CUST-5176,Standard,Female,28,North Central,1,Transfer,Mobile App,Investment,62722.97,256281.76,5.0,0
+TXN-100251,2023-04-25,CUST-5006,Premium,Female,43,North Central,2,Bill Payment,Mobile App,School Fees,1508767.69,186503.22,4.5,0
+TXN-100116,2023-02-22,CUST-5293,Standard,Female,63,Southeast,8,Credit,Mobile App,School Fees,89711.76,661305.5,,0
+TXN-100514,2023-08-23,CUST-5016,Standard,Male,26,Southwest,1,Debit,ATM,School Fees,178309.99,201613.54,3.3,0
+TXN-100638,2023-10-18,CUST-5019,Standard,Female,51,North Central,2,Bill Payment,POS Terminal,Airtime,127612.05,16501.1,4.3,0
+TXN-100045,2023-01-21,CUST-5103,Basic,Female,34,South South,5,ATM Withdrawal,ATM,Fuel,5679.41,25258.53,2.9,0
+TXN-100643,2023-10-20,CUST-5064,Basic,Female,57,Southeast,8,POS Purchase,Internet Banking,,39621.34,125036.19,5.0,0
+TXN-100477,2023-08-06,CUST-5086,Basic,Male,27,Southeast,7,Debit,Internet Banking,,74643.67,109156.28,1.3,0
+TXN-100409,2023-07-06,CUST-5165,Standard,Male,54,North Central,5,Credit,Internet Banking,Utilities,95899.09,70122.64,4.2,0
+TXN-100598,2023-09-30,CUST-5174,Standard,Female,43,Southwest,7,Debit,ATM,Salary Credit,213242.65,1535362.82,5.0,0
+TXN-100758,2023-12-12,CUST-5089,Basic,Female,51,Northwest,2,Bill Payment,USSD,Fuel,177225.07,695540.67,3.9,0
+TXN-100683,2023-11-08,CUST-5135,Standard,Female,18,Southwest,2,Debit,Branch,Groceries,16445.27,113569.52,2.4,0
+TXN-100107,2023-02-18,CUST-5173,Basic,Male,40,Southwest,3,Transfer,Branch,Utilities,16591.56,23646.64,3.6,0
+TXN-100546,2023-09-06,CUST-5065,Standard,Male,37,Southwest,4,Debit,Internet Banking,School Fees,60182.76,215890.23,3.5,0
+TXN-100214,2023-04-08,CUST-5225,Basic,Female,57,Southwest,1,Debit,Mobile App,Groceries,2966.11,164430.67,3.9,0
+TXN-100536,2023-09-02,CUST-5040,Standard,Male,60,Southeast,5,Credit,Internet Banking,Entertainment,61839.31,1802819.14,4.2,0
+TXN-100406,2023-07-04,CUST-5261,Basic,Female,46,Southwest,6,Credit,Branch,Investment,5142.81,151745.85,3.1,0
+TXN-100714,2023-11-22,CUST-5294,Basic,Male,33,Southwest,4,POS Purchase,Mobile App,Fuel,5086.7,1611356.73,4.0,0
+TXN-100015,2023-01-07,CUST-5119,Basic,Female,53,Northwest,3,Credit,ATM,Fuel,8906.81,1126971.62,4.0,0
+TXN-100568,2023-09-16,CUST-5016,Standard,Male,41,Southwest,1,Transfer,POS Terminal,Airtime,39183.49,49742.05,3.7,0
+TXN-100677,2023-11-05,CUST-5249,Premium,Male,44,Southwest,7,Transfer,ATM,Insurance,1832485.52,158696.25,4.3,0
+TXN-100228,2023-04-14,CUST-5203,Basic,Male,27,Southwest,1,Bill Payment,POS Terminal,Salary Credit,8819.42,14832.95,3.9,0
+TXN-100138,2023-03-04,CUST-5170,Premium,Male,31,Southeast,6,Credit,Internet Banking,Rent,36703.59,2100560.32,3.5,0
+TXN-100587,2023-09-25,CUST-5285,Premium,Female,59,South South,2,Debit,Internet Banking,Entertainment,2576906.09,67307.93,4.0,0
+TXN-100109,2023-02-19,CUST-5123,Premium,Male,46,North Central,4,Credit,Mobile App,,135852.78,104965.97,3.4,0
+TXN-100027,2023-01-13,CUST-5101,Standard,Male,20,South South,2,Debit,Mobile App,Salary Credit,14513.11,2800673.39,2.0,0
+TXN-100343,2023-06-06,CUST-5280,Standard,Male,31,Southwest,4,ATM Withdrawal,Branch,Utilities,220838.94,313525.46,,0
+TXN-100290,2023-05-13,CUST-5236,Standard,Male,43,North Central,3,Debit,Mobile App,Groceries,29814.45,1270986.88,3.6,1
+TXN-100091,2023-02-11,CUST-5040,Standard,Male,41,North Central,3,Debit,USSD,Salary Credit,372298.93,184184.26,3.2,0
+TXN-100644,2023-10-21,CUST-5232,Standard,Male,54,Southwest,5,ATM Withdrawal,Internet Banking,Healthcare,257064.22,186061.96,5.0,0
+TXN-100548,2023-09-07,CUST-5228,Standard,Female,41,North Central,6,Credit,Internet Banking,Groceries,45254.26,118979.45,4.5,0
+TXN-100248,2023-04-23,CUST-5028,Standard,Female,40,North Central,2,Credit,Mobile App,Utilities,58770.54,2530930.8,1.6,0
+TXN-100418,2023-07-10,CUST-5116,Standard,Female,52,Southwest,6,Debit,Branch,Entertainment,63062.59,82717.05,3.9,0
+TXN-100339,2023-06-04,CUST-5205,Basic,Male,52,Southeast,3,Debit,Mobile App,Utilities,6783.09,57762.03,,0
+TXN-100629,2023-10-14,CUST-5086,Basic,Female,45,Northwest,7,Debit,Branch,Rent,17808.21,154465.71,3.1,0
+TXN-100238,2023-04-19,CUST-5172,Standard,Female,34,South South,3,Transfer,Internet Banking,Groceries,135745.32,279815.79,4.0,0
+TXN-100301,2023-05-18,CUST-5251,Standard,Male,47,Southwest,3,Transfer,Mobile App,Entertainment,95196.07,130218.02,3.7,0
+TXN-100778,2023-12-21,CUST-5277,Standard,Male,38,Southwest,6,Credit,Mobile App,Groceries,40502.37,82596.52,4.6,0
+TXN-100497,2023-08-15,CUST-5038,Standard,Female,37,South South,6,Debit,Mobile App,Utilities,284045.84,10396.39,3.6,0
+TXN-100599,2023-09-30,CUST-5020,Standard,Female,28,Northwest,5,ATM Withdrawal,Internet Banking,Healthcare,3895.02,1870099.64,4.9,0
+TXN-100429,2023-07-15,CUST-5206,Standard,Male,38,Southwest,5,Transfer,Mobile App,Shopping,196284.59,298932.76,3.1,0
+TXN-100586,2023-09-24,CUST-5081,Premium,Male,35,Southwest,4,Debit,USSD,Groceries,847436.8,289590.77,4.3,0
+TXN-100244,2023-04-22,CUST-5205,Basic,Female,26,Southwest,8,Debit,Internet Banking,Fuel,8791.43,21238.27,4.3,0
+TXN-100041,2023-01-19,CUST-5173,Basic,Female,33,Northwest,7,Transfer,ATM,Shopping,19215.11,6616.36,3.0,0
+TXN-100436,2023-07-18,CUST-5019,Standard,Female,41,South South,2,Credit,Mobile App,,15447.01,343568.41,4.9,0
+TXN-100474,2023-08-04,CUST-5299,Standard,Male,52,Northwest,8,Transfer,Mobile App,Groceries,58739.08,23712.23,2.2,0
+TXN-100444,2023-07-22,CUST-5270,Premium,Male,30,Southwest,3,Transfer,Mobile App,Airtime,119990.66,406176.94,3.4,0
+TXN-100097,2023-02-14,CUST-5029,Basic,Male,51,Southwest,5,Transfer,ATM,Rent,43761.09,663516.0,3.3,0
+TXN-100649,2023-10-23,CUST-5260,Standard,Male,64,Southwest,4,Debit,POS Terminal,Investment,174909.26,299723.55,4.2,0
+TXN-100287,2023-05-11,CUST-5106,Standard,Male,54,South South,6,Credit,Mobile App,Salary Credit,15292.36,84555.77,3.6,0
+TXN-100368,2023-06-17,CUST-5086,Basic,Female,46,North Central,5,Bill Payment,ATM,Rent,8216.48,932561.52,3.6,0
+TXN-100431,2023-07-16,CUST-5139,Basic,Female,52,Southwest,4,Transfer,Internet Banking,School Fees,12358.07,17517.53,3.3,0
+TXN-100639,2023-10-19,CUST-5164,Basic,Male,52,South South,2,Debit,ATM,Insurance,11850.51,561496.6,3.8,0
+TXN-100722,2023-11-25,CUST-5145,Standard,Female,24,North Central,1,Credit,ATM,Salary Credit,53329.44,413127.06,2.9,0
+TXN-100622,2023-10-11,CUST-5207,Basic,Female,57,North Central,6,Transfer,Branch,Insurance,13540.39,25130.39,4.2,0
+TXN-100593,2023-09-28,CUST-5134,Premium,Male,42,Southwest,2,POS Purchase,Internet Banking,Shopping,1282839.29,73001.44,2.4,0
+TXN-100266,2023-05-02,CUST-5013,Premium,Male,23,Southwest,1,Transfer,Branch,Investment,830685.69,114665.09,4.0,0
+TXN-100085,2023-02-08,CUST-5126,Basic,Female,50,South South,1,Debit,Branch,Investment,15890.16,199064.55,2.4,0
+TXN-100035,2023-01-16,CUST-5229,Standard,Male,62,South South,3,Transfer,Branch,Groceries,145301.65,28607.29,2.7,0
+TXN-100754,2023-12-10,CUST-5130,Basic,Male,50,Southwest,5,Debit,POS Terminal,,8867.79,199872.05,3.5,0
+TXN-100288,2023-05-12,CUST-5177,Standard,Female,54,Southeast,6,Transfer,Mobile App,Fuel,137633.0,45952.37,1.4,0
+TXN-100240,2023-04-20,CUST-5158,Standard,Female,34,Northwest,8,Debit,Branch,Shopping,120447.17,11866.83,3.5,0
+TXN-100050,2023-01-23,CUST-5226,Standard,Female,50,South South,5,Transfer,Internet Banking,School Fees,84761.31,10175.37,2.9,0
+TXN-100605,2023-10-03,CUST-5040,Standard,Male,36,Southeast,2,Debit,Mobile App,Groceries,17482.44,41056.46,3.6,0
+TXN-100675,2023-11-04,CUST-5233,Basic,Female,26,Southwest,2,Credit,ATM,Healthcare,13258.63,478195.02,3.0,0
+TXN-100688,2023-11-10,CUST-5011,Standard,Male,37,Southwest,8,Online Transfer,Branch,Airtime,33195.91,28309.78,,0
+TXN-100609,2023-10-05,CUST-5102,Basic,Male,28,Southwest,1,Credit,Branch,Salary Credit,19591.22,70522.71,3.1,0
+TXN-100787,2023-12-25,CUST-5180,Standard,Male,18,North Central,7,Transfer,Internet Banking,School Fees,118617.82,534404.75,3.8,0
+TXN-100283,2023-05-09,CUST-5228,Standard,Male,53,Northwest,1,POS Purchase,Mobile App,Salary Credit,574942.77,41848.67,2.6,0
+TXN-100446,2023-07-23,CUST-5074,Premium,Female,50,North Central,4,POS Purchase,USSD,Healthcare,548404.36,20505.69,4.6,0
+TXN-100257,2023-04-28,CUST-5136,Basic,Male,30,South South,2,Credit,ATM,Airtime,4194.95,47971.99,5.0,0
+TXN-100776,2023-12-20,CUST-5133,Premium,Female,58,South South,6,POS Purchase,Mobile App,Groceries,741875.08,579561.63,3.6,0
+TXN-100450,2023-07-25,CUST-5253,Premium,Female,60,Northwest,2,Credit,Internet Banking,School Fees,105598.16,153871.55,3.2,0
+TXN-100235,2023-04-18,CUST-5089,Basic,Male,26,North Central,2,Online Transfer,POS Terminal,Utilities,9184.75,107905.71,2.5,0
+TXN-100155,2023-03-12,CUST-5078,Standard,Female,48,South South,8,Online Transfer,Internet Banking,Utilities,256277.7,192671.92,3.7,0
+TXN-100353,2023-06-10,CUST-5217,Basic,Male,20,South South,1,Debit,Internet Banking,Insurance,12027.43,224983.0,4.1,0
+TXN-100322,2023-05-27,CUST-5042,Standard,Female,56,Northwest,2,Debit,Branch,Utilities,25911.09,629961.1,5.0,0
+TXN-100135,2023-03-03,CUST-5173,Basic,Female,20,North Central,5,Transfer,USSD,Rent,3918.91,52017.38,4.4,1
+TXN-100680,2023-11-06,CUST-5268,Standard,Female,41,Southwest,3,POS Purchase,POS Terminal,School Fees,47031.39,92980.83,4.6,0
+TXN-100795,2023-12-29,CUST-5115,Standard,Male,32,Southeast,8,Transfer,Mobile App,Entertainment,27646.46,371846.22,5.0,0
+TXN-100086,2023-02-09,CUST-5181,Basic,Female,64,North Central,3,Credit,Mobile App,Investment,4599.75,465582.53,3.0,0
+TXN-100561,2023-09-13,CUST-5075,Premium,Male,21,Northwest,5,Debit,Mobile App,Salary Credit,4072918.04,83906.34,3.2,0
+TXN-100002,2023-01-01,CUST-5076,Basic,Female,47,North Central,1,Bill Payment,Branch,Investment,4686.89,32056.06,,0
+TXN-100549,2023-09-08,CUST-5062,Premium,Female,30,Southeast,7,Transfer,Internet Banking,,368802.65,26087.55,3.3,0
+TXN-100725,2023-11-27,CUST-5107,Standard,Female,51,Southwest,1,Credit,Branch,Fuel,113648.44,472831.59,3.0,0
+TXN-100408,2023-07-05,CUST-5157,Premium,Male,35,Northwest,6,Bill Payment,POS Terminal,Investment,197764.08,8001.19,3.9,0
+TXN-100039,2023-01-18,CUST-5230,Standard,Male,19,South South,6,Debit,Mobile App,Fuel,42268.39,302411.03,3.5,0
+TXN-100317,2023-05-25,CUST-5209,Basic,Female,24,Southwest,7,Transfer,Internet Banking,Airtime,4386.37,23289.99,4.1,0
+TXN-100462,2023-07-30,CUST-5147,Basic,Female,51,North Central,7,ATM Withdrawal,ATM,Utilities,35483.07,403242.14,3.4,0
+TXN-100700,2023-11-15,CUST-5078,Standard,Male,59,Southwest,7,Transfer,Mobile App,Shopping,34911.02,581076.22,4.4,0
+TXN-100227,2023-04-14,CUST-5052,Basic,Male,54,Northwest,8,ATM Withdrawal,Branch,Airtime,37272.8,633381.56,4.2,0
+TXN-100608,2023-10-04,CUST-5284,Basic,Male,27,North Central,2,Credit,ATM,Utilities,72484.34,103172.04,3.8,0
+TXN-100326,2023-05-29,CUST-5056,Standard,Female,52,Southeast,4,Transfer,POS Terminal,Fuel,121816.61,51991.01,4.5,0
+TXN-100539,2023-09-03,CUST-5000,Standard,Male,48,Southwest,2,Debit,ATM,Rent,407898.61,1545224.27,4.6,0
+TXN-100064,2023-01-30,CUST-5110,Basic,Female,34,Northwest,7,Debit,Mobile App,Healthcare,11153.47,586927.71,3.5,0
+TXN-100456,2023-07-27,CUST-5005,Basic,Female,24,North Central,7,Debit,ATM,Entertainment,32238.84,564254.59,3.7,0
+TXN-100187,2023-03-27,CUST-5259,Premium,Female,47,North Central,3,Credit,Branch,Salary Credit,1000336.87,1953454.87,2.6,0
+TXN-100254,2023-04-26,CUST-5181,Basic,Female,41,North Central,8,Debit,USSD,Investment,4669.86,807926.63,5.0,0
+TXN-100344,2023-06-06,CUST-5026,Standard,Female,59,North Central,1,Debit,ATM,Healthcare,76413.85,710091.86,,0
+TXN-100505,2023-08-19,CUST-5061,Standard,Male,46,Southwest,1,Debit,ATM,Groceries,47060.11,334643.23,3.2,0
+TXN-100156,2023-03-13,CUST-5281,Premium,Female,22,Southwest,1,Debit,Mobile App,Utilities,1348108.98,370491.85,2.7,0
+TXN-100579,2023-09-21,CUST-5139,Basic,Male,33,North Central,3,Transfer,Mobile App,Entertainment,26953.53,566350.11,3.0,0
+TXN-100158,2023-03-13,CUST-5099,Standard,Male,29,North Central,3,POS Purchase,Branch,Fuel,95281.62,147967.14,3.4,0
+TXN-100373,2023-06-19,CUST-5020,Standard,Female,61,South South,2,Transfer,Mobile App,Airtime,25765.03,350283.38,1.7,0
+TXN-100265,2023-05-01,CUST-5029,Basic,Female,52,Southwest,2,Debit,Internet Banking,Rent,58100.03,11081.36,2.4,0
+TXN-100419,2023-07-10,CUST-5051,Standard,Female,25,South South,2,POS Purchase,Mobile App,School Fees,49433.14,628613.26,1.8,0
+TXN-100220,2023-04-11,CUST-5268,Standard,Female,38,Southwest,4,Debit,Mobile App,Shopping,119162.68,143346.1,4.1,0
+TXN-100437,2023-07-19,CUST-5280,Standard,Male,33,Southwest,4,Debit,Branch,Entertainment,182911.1,476922.88,4.0,0
+TXN-100196,2023-03-31,CUST-5250,Standard,Male,20,North Central,3,Debit,Branch,,80063.66,23360.72,2.3,0
+TXN-100706,2023-11-18,CUST-5124,Standard,Male,40,Southeast,5,POS Purchase,Internet Banking,Fuel,96939.0,136909.85,5.0,0
+TXN-100554,2023-09-10,CUST-5062,Premium,Female,55,Northwest,6,Credit,USSD,Utilities,5889953.76,425265.0,3.7,0
+TXN-100617,2023-10-09,CUST-5052,Basic,Male,18,Northwest,8,POS Purchase,Mobile App,Rent,3507.62,37436.8,5.0,0
+TXN-100193,2023-03-29,CUST-5125,Standard,Male,34,North Central,3,Credit,Internet Banking,Rent,28285.42,219077.53,1.5,1
+TXN-100102,2023-02-16,CUST-5100,Standard,Male,29,South South,5,Debit,Branch,Rent,28774.46,19988.36,2.5,0
+TXN-100685,2023-11-09,CUST-5167,Standard,Male,26,Southeast,5,POS Purchase,Mobile App,Airtime,57661.25,21099.52,3.9,0
+TXN-100157,2023-03-13,CUST-5216,Standard,Male,48,South South,6,Debit,Mobile App,Rent,13110.42,1481223.75,2.6,0
+TXN-100511,2023-08-21,CUST-5122,Standard,Female,43,Northwest,2,Credit,Mobile App,Airtime,33589.55,407862.86,2.4,0
+TXN-100149,2023-03-09,CUST-5212,Standard,Female,21,Southeast,2,Debit,ATM,Shopping,27557.45,1603307.17,2.6,0
+TXN-100640,2023-10-19,CUST-5177,Standard,Male,28,Southwest,7,ATM Withdrawal,Branch,Groceries,32757.22,1091862.4,5.0,0
+TXN-100747,2023-12-07,CUST-5250,Standard,Male,64,North Central,1,POS Purchase,ATM,Groceries,220218.71,2309137.44,4.5,0
+TXN-100025,2023-01-12,CUST-5234,Standard,Male,43,North Central,6,Bill Payment,Internet Banking,Rent,7268.81,41713.3,2.5,1
+TXN-100729,2023-11-29,CUST-5066,Standard,Male,27,Southwest,1,Debit,Mobile App,,548257.87,218369.44,3.4,1
+TXN-100342,2023-06-05,CUST-5069,Basic,Female,54,North Central,7,Credit,ATM,Healthcare,8880.47,510985.75,4.6,0
+TXN-100117,2023-02-23,CUST-5152,Standard,Female,46,North Central,1,Credit,POS Terminal,Airtime,421051.35,1326419.15,1.1,0
+TXN-100170,2023-03-19,CUST-5188,Basic,Female,37,Southeast,7,Debit,Mobile App,Healthcare,20206.62,109403.03,4.6,0
+TXN-100439,2023-07-19,CUST-5124,Standard,Male,18,North Central,8,ATM Withdrawal,Internet Banking,Healthcare,23280.04,322138.7,3.1,0
+TXN-100673,2023-11-03,CUST-5147,Basic,Male,31,North Central,1,POS Purchase,USSD,Insurance,22299.23,300225.46,4.1,0
+TXN-100006,2023-01-03,CUST-5010,Basic,Male,39,Southwest,7,Debit,ATM,Entertainment,32674.73,45295.68,3.2,0
+TXN-100427,2023-07-14,CUST-5031,Standard,Male,19,South South,6,Credit,ATM,Fuel,44092.01,22760.7,2.8,0
+TXN-100594,2023-09-28,CUST-5216,Standard,Female,30,North Central,8,Credit,Internet Banking,Entertainment,41063.85,241149.04,3.9,0
+TXN-100428,2023-07-14,CUST-5033,Standard,Female,39,Southwest,2,Debit,Mobile App,Shopping,31395.68,88659.86,,0
+TXN-100192,2023-03-29,CUST-5178,Standard,Male,21,Southeast,7,POS Purchase,POS Terminal,Investment,38678.59,211054.81,4.9,0
+TXN-100303,2023-05-19,CUST-5095,Standard,Female,58,North Central,1,Transfer,Internet Banking,Groceries,123513.62,356161.17,5.0,1
+TXN-100411,2023-07-07,CUST-5022,Standard,Male,18,South South,4,Debit,Branch,Investment,51978.38,32820.63,5.0,0
+TXN-100083,2023-02-07,CUST-5135,Standard,Female,18,Northwest,7,Debit,USSD,Investment,144973.92,252662.77,,0
+TXN-100397,2023-06-30,CUST-5215,Basic,Male,42,Southwest,8,Bill Payment,Internet Banking,Shopping,6147.97,1598279.19,4.6,0
+TXN-100094,2023-02-12,CUST-5284,Basic,Female,33,Southwest,6,Debit,Mobile App,Salary Credit,19987.98,176042.0,2.0,0
+TXN-100262,2023-04-30,CUST-5297,Standard,Female,24,Southeast,4,Debit,POS Terminal,Entertainment,595866.37,97097.4,3.0,1
+TXN-100723,2023-11-26,CUST-5205,Basic,Male,29,Southeast,7,Debit,ATM,Investment,10259.5,236428.71,2.9,0
+TXN-100315,2023-05-24,CUST-5111,Standard,Female,22,Southwest,7,ATM Withdrawal,ATM,Insurance,24811.57,28864.01,3.0,0
+TXN-100310,2023-05-22,CUST-5165,Standard,Male,26,Southwest,2,POS Purchase,ATM,Healthcare,128753.52,2811432.62,4.1,0
+TXN-100087,2023-02-09,CUST-5267,Basic,Female,42,Southeast,8,Online Transfer,POS Terminal,,4020.39,635556.6,2.0,0
+TXN-100159,2023-03-14,CUST-5186,Standard,Female,21,South South,2,ATM Withdrawal,Mobile App,Utilities,69486.96,1678558.45,3.4,0
+TXN-100620,2023-10-10,CUST-5279,Basic,Male,61,North Central,5,Credit,Internet Banking,Healthcare,27527.3,32792.12,3.4,0
+TXN-100695,2023-11-13,CUST-5011,Standard,Male,60,Northwest,8,Debit,Mobile App,Salary Credit,244654.0,327628.74,4.0,0
+TXN-100093,2023-02-12,CUST-5139,Basic,Male,30,North Central,7,Credit,Mobile App,Utilities,63047.26,98753.9,4.5,0
+TXN-100541,2023-09-04,CUST-5010,Basic,Male,23,South South,6,Credit,Mobile App,School Fees,12996.0,42592.36,4.8,1
+TXN-100249,2023-04-24,CUST-5041,Basic,Female,42,North Central,2,Transfer,Branch,Healthcare,42305.36,190014.12,3.9,0
+TXN-100407,2023-07-05,CUST-5114,Standard,Male,31,North Central,3,Transfer,ATM,Shopping,178444.89,631410.72,1.9,0
+TXN-100573,2023-09-19,CUST-5053,Standard,Male,60,Southeast,1,POS Purchase,Mobile App,,15060.55,231298.36,2.7,0
+TXN-100460,2023-07-29,CUST-5106,Standard,Female,20,Southwest,6,Debit,Internet Banking,,110519.9,60447.55,4.3,0
+TXN-100040,2023-01-19,CUST-5296,Basic,Female,37,Southwest,3,Credit,Branch,,3698.51,305447.21,2.8,0
+TXN-100024,2023-01-11,CUST-5298,Standard,Female,22,Southwest,5,Transfer,ATM,Salary Credit,62156.73,1449175.84,2.8,0
+TXN-100501,2023-08-17,CUST-5215,Basic,Female,37,Northwest,4,POS Purchase,POS Terminal,Utilities,5360.3,133048.06,4.7,0
+TXN-100713,2023-11-21,CUST-5244,Standard,Female,20,North Central,7,ATM Withdrawal,Branch,Investment,114878.46,10552.83,3.2,1
+TXN-100601,2023-10-01,CUST-5068,Standard,Female,48,Southwest,6,ATM Withdrawal,Branch,Airtime,22431.57,40279.94,4.3,0
+TXN-100592,2023-09-27,CUST-5247,Standard,Male,24,Southwest,1,Debit,Internet Banking,School Fees,194082.4,807492.96,1.9,0
+TXN-100733,2023-11-30,CUST-5033,Standard,Female,45,Southwest,5,Credit,Internet Banking,Entertainment,85371.72,148179.41,4.9,0
+TXN-100742,2023-12-05,CUST-5052,Basic,Female,59,Northwest,4,Debit,USSD,Shopping,5346.21,172315.88,2.8,0
+TXN-100279,2023-05-08,CUST-5168,Standard,Female,26,North Central,4,Transfer,POS Terminal,Investment,77569.24,217619.92,4.4,0
+TXN-100630,2023-10-15,CUST-5229,Standard,Male,34,Southeast,3,Debit,Internet Banking,Shopping,13689.51,374276.06,4.5,0
+TXN-100563,2023-09-14,CUST-5271,Basic,Female,60,Southwest,4,Bill Payment,ATM,Insurance,11149.72,588617.38,3.0,0
+TXN-100442,2023-07-21,CUST-5146,Basic,Female,19,North Central,4,Credit,POS Terminal,Insurance,6331.76,182917.29,4.7,0
+TXN-100661,2023-10-29,CUST-5150,Basic,Male,20,Southwest,1,Debit,Branch,Entertainment,30885.33,24128.68,3.9,0
+TXN-100136,2023-03-03,CUST-5183,Standard,Male,20,Northwest,5,Transfer,ATM,Investment,44445.49,935004.81,3.8,0
+TXN-100222,2023-04-12,CUST-5176,Standard,Male,32,North Central,3,POS Purchase,USSD,Shopping,100797.28,161620.72,3.0,0
+TXN-100476,2023-08-05,CUST-5216,Standard,Male,40,North Central,4,Credit,ATM,Airtime,40617.12,100968.64,3.0,0
+TXN-100772,2023-12-18,CUST-5159,Standard,Female,27,Southwest,5,Debit,POS Terminal,School Fees,17330.97,138804.74,4.2,0
+TXN-100124,2023-02-26,CUST-5238,Standard,Male,31,Northwest,6,ATM Withdrawal,Mobile App,Healthcare,31421.3,115023.08,4.9,0
+TXN-100137,2023-03-04,CUST-5183,Standard,Female,35,South South,1,Credit,POS Terminal,,25746.99,330893.36,2.5,0
+TXN-100354,2023-06-11,CUST-5289,Standard,Male,45,South South,7,POS Purchase,USSD,Shopping,43203.43,872773.8,3.1,0
+TXN-100699,2023-11-15,CUST-5212,Standard,Male,49,Southeast,1,Debit,Mobile App,Rent,23433.17,601328.76,2.1,0
+TXN-100604,2023-10-03,CUST-5147,Basic,Male,62,Southwest,8,Debit,ATM,Airtime,14522.21,153811.29,2.3,0
+TXN-100366,2023-06-16,CUST-5010,Basic,Female,34,Southwest,6,ATM Withdrawal,Mobile App,Healthcare,13115.5,49472.74,2.9,0
+TXN-100569,2023-09-17,CUST-5191,Standard,Female,26,North Central,3,Transfer,Mobile App,Salary Credit,131840.44,41422.19,,1
+TXN-100190,2023-03-28,CUST-5297,Standard,Male,26,Southwest,5,ATM Withdrawal,Branch,Healthcare,72505.16,315667.28,2.7,0
+TXN-100735,2023-12-01,CUST-5188,Basic,Female,35,Northwest,5,Debit,ATM,School Fees,14185.02,691833.78,2.8,0
+TXN-100571,2023-09-18,CUST-5192,Standard,Male,21,Northwest,4,ATM Withdrawal,Mobile App,Healthcare,44818.13,720511.98,4.9,0
+TXN-100177,2023-03-22,CUST-5080,Standard,Male,47,North Central,2,Credit,ATM,Shopping,68129.03,247204.13,2.1,0
+TXN-100558,2023-09-12,CUST-5279,Basic,Female,40,Southwest,3,Transfer,Branch,Airtime,8104.93,3916681.33,2.6,0
+TXN-100300,2023-05-17,CUST-5142,Basic,Female,20,Southwest,7,POS Purchase,Internet Banking,Healthcare,6801.31,298707.21,4.7,0
+TXN-100095,2023-02-13,CUST-5205,Basic,Female,27,Southeast,3,Debit,Mobile App,Shopping,9678.65,291252.55,2.8,0
+TXN-100734,2023-12-01,CUST-5040,Standard,Male,48,Southwest,4,Bill Payment,Internet Banking,Utilities,90769.86,11524.78,2.4,0
+TXN-100385,2023-06-25,CUST-5285,Premium,Male,25,South South,6,Debit,Mobile App,Investment,509534.62,1427282.42,5.0,0
+TXN-100602,2023-10-02,CUST-5224,Standard,Female,53,North Central,8,Bill Payment,Mobile App,Salary Credit,25296.23,352028.68,3.0,0
+TXN-100154,2023-03-12,CUST-5238,Standard,Male,18,North Central,3,Credit,POS Terminal,Shopping,135940.06,86416.96,3.3,0
+TXN-100693,2023-11-12,CUST-5060,Standard,Male,27,North Central,4,Credit,Mobile App,Groceries,49928.62,403225.79,2.4,0
+TXN-100459,2023-07-29,CUST-5132,Basic,Male,39,North Central,5,Bill Payment,Branch,Shopping,11855.57,32392.17,4.4,0
+TXN-100697,2023-11-14,CUST-5238,Standard,Female,51,Southwest,8,Debit,Internet Banking,Shopping,173644.81,314163.47,3.4,0
+TXN-100236,2023-04-18,CUST-5198,Standard,Female,56,South South,1,Credit,Mobile App,Fuel,67460.31,84821.58,2.6,0
+TXN-100525,2023-08-28,CUST-5254,Basic,Female,47,Northwest,5,Credit,Internet Banking,Airtime,11341.8,484728.01,4.0,0
+TXN-100696,2023-11-14,CUST-5052,Basic,Female,46,Southwest,8,Online Transfer,Mobile App,Salary Credit,37688.83,90620.63,3.7,0
+TXN-100390,2023-06-27,CUST-5053,Standard,Male,60,Northwest,8,Credit,Mobile App,Entertainment,229851.93,1669132.92,4.6,0
+TXN-100247,2023-04-23,CUST-5049,Standard,Male,64,Southeast,2,Transfer,ATM,School Fees,74741.62,308230.89,2.4,0
+TXN-100736,2023-12-02,CUST-5081,Premium,Female,62,Southwest,8,Credit,Internet Banking,Healthcare,220029.03,27002.46,3.9,0
+TXN-100405,2023-07-04,CUST-5077,Standard,Male,43,Southeast,5,Credit,ATM,Utilities,48668.73,52107.76,3.8,1
+TXN-100147,2023-03-08,CUST-5163,Basic,Female,47,Southwest,5,Debit,Mobile App,,10951.43,222742.51,5.0,0
+TXN-100424,2023-07-13,CUST-5260,Standard,Female,58,Southwest,5,Debit,Mobile App,,67469.98,560514.94,5.0,0
+TXN-100651,2023-10-24,CUST-5267,Basic,Female,42,Southwest,8,Debit,Branch,Salary Credit,25315.72,226970.83,3.0,0
+TXN-100679,2023-11-06,CUST-5283,Standard,Male,19,Southwest,8,Transfer,Branch,Entertainment,473097.02,170955.79,2.7,0
+TXN-100646,2023-10-22,CUST-5188,Basic,Male,62,Southwest,7,POS Purchase,Internet Banking,Shopping,11022.02,267981.11,2.0,1
+TXN-100425,2023-07-13,CUST-5116,Standard,Female,62,North Central,7,Credit,ATM,Shopping,43735.7,279666.68,3.3,0
+TXN-100253,2023-04-26,CUST-5027,Standard,Male,46,North Central,8,Debit,Branch,Healthcare,271682.86,340288.79,,0
+TXN-100642,2023-10-20,CUST-5235,Basic,Male,52,North Central,1,Credit,Mobile App,Healthcare,89307.25,2795020.68,5.0,0
+TXN-100038,2023-01-18,CUST-5184,Standard,Male,45,North Central,2,ATM Withdrawal,Branch,Entertainment,400644.82,231545.41,,0
+TXN-100404,2023-07-04,CUST-5191,Standard,Female,35,Northwest,4,Transfer,Internet Banking,Insurance,81858.0,123545.0,3.5,1
+TXN-100626,2023-10-13,CUST-5201,Basic,Male,38,South South,1,POS Purchase,POS Terminal,Insurance,5537.45,201591.87,3.5,0
+TXN-100502,2023-08-17,CUST-5030,Standard,Female,32,North Central,8,Online Transfer,Branch,Shopping,100272.9,501152.35,4.4,0
+TXN-100172,2023-03-20,CUST-5238,Standard,Female,40,Southwest,6,Transfer,Internet Banking,Utilities,151311.22,166489.22,3.6,0
+TXN-100508,2023-08-20,CUST-5101,Standard,Male,61,North Central,1,Bill Payment,Internet Banking,Utilities,67070.35,265657.58,4.0,0
+TXN-100455,2023-07-27,CUST-5288,Basic,Male,22,Southwest,5,Transfer,Internet Banking,School Fees,10451.47,59396.35,3.6,0
+TXN-100084,2023-02-08,CUST-5006,Premium,Male,38,South South,3,POS Purchase,Mobile App,Fuel,229869.85,122670.85,2.7,0
+TXN-100692,2023-11-12,CUST-5117,Standard,Male,42,Northwest,3,ATM Withdrawal,POS Terminal,,112904.15,100938.26,2.0,0
+TXN-100270,2023-05-04,CUST-5077,Standard,Female,53,Northwest,2,POS Purchase,ATM,Utilities,43081.89,159191.96,3.7,0
+TXN-100728,2023-11-28,CUST-5129,Premium,Male,42,Southwest,5,POS Purchase,Internet Banking,Rent,1755470.3,147517.24,4.3,0
+TXN-100183,2023-03-25,CUST-5176,Standard,Female,35,Southwest,2,Transfer,Mobile App,Groceries,112577.38,991793.55,4.4,0
+TXN-100499,2023-08-16,CUST-5058,Standard,Female,23,Southeast,1,Transfer,Mobile App,School Fees,209525.43,434255.46,4.2,0
+TXN-100790,2023-12-26,CUST-5116,Standard,Female,19,Southwest,1,Credit,Mobile App,Insurance,76170.64,97055.5,2.9,0
+TXN-100060,2023-01-28,CUST-5294,Basic,Female,55,North Central,8,Transfer,Internet Banking,Rent,4555.66,19611.64,3.1,0
+TXN-100788,2023-12-25,CUST-5183,Standard,Female,23,Southwest,8,Transfer,Branch,Groceries,153420.23,109914.89,4.2,0
+TXN-100189,2023-03-28,CUST-5010,Basic,Male,35,Northwest,5,Transfer,ATM,Airtime,64084.12,114932.53,4.0,0
+TXN-100115,2023-02-22,CUST-5039,Premium,Female,32,Southwest,5,Debit,Internet Banking,Entertainment,888475.32,458148.75,2.7,0
+TXN-100653,2023-10-25,CUST-5061,Standard,Male,59,Southeast,7,Credit,Mobile App,,59545.91,1422837.92,5.0,0
+TXN-100286,2023-05-11,CUST-5024,Premium,Female,46,North Central,7,Bill Payment,POS Terminal,,91922.46,57244.39,2.9,0
+TXN-100231,2023-04-16,CUST-5010,Basic,Female,22,South South,8,Credit,Internet Banking,Shopping,17178.57,712105.74,4.6,0
+TXN-100544,2023-09-05,CUST-5234,Standard,Female,18,Northwest,4,Debit,USSD,Airtime,23840.11,124015.76,3.1,0
+TXN-100393,2023-06-29,CUST-5092,Basic,Male,29,North Central,6,ATM Withdrawal,USSD,,36002.07,352607.43,2.7,0
+TXN-100276,2023-05-06,CUST-5123,Premium,Male,56,Southwest,1,Transfer,Mobile App,Groceries,126185.59,43661.14,3.7,0
+TXN-100686,2023-11-09,CUST-5129,Premium,Male,27,Northwest,4,Debit,Internet Banking,Fuel,236063.8,530275.45,3.4,0
+TXN-100398,2023-07-01,CUST-5039,Premium,Female,51,North Central,2,Transfer,Mobile App,Utilities,2385985.06,71621.93,5.0,0
+TXN-100313,2023-05-23,CUST-5197,Standard,Male,36,Southwest,3,ATM Withdrawal,Branch,Investment,35448.72,18780.57,,0
+TXN-100507,2023-08-19,CUST-5071,Standard,Female,27,North Central,8,Transfer,USSD,Airtime,221065.96,879869.1,3.8,1
+TXN-100226,2023-04-13,CUST-5124,Standard,Female,57,South South,4,ATM Withdrawal,Mobile App,Entertainment,90080.22,284560.03,2.9,0
+TXN-100623,2023-10-11,CUST-5152,Standard,Female,28,Southwest,3,Credit,USSD,Healthcare,28276.66,510902.13,3.8,0
+TXN-100596,2023-09-29,CUST-5268,Standard,Female,36,North Central,7,Transfer,ATM,,58645.06,130293.63,3.1,0
+TXN-100152,2023-03-11,CUST-5104,Standard,Male,42,Southwest,4,ATM Withdrawal,Branch,Shopping,52363.78,133479.86,2.6,0
+TXN-100004,2023-01-02,CUST-5160,Premium,Male,42,North Central,4,Transfer,POS Terminal,Fuel,230902.58,22294.45,3.7,0
+TXN-100576,2023-09-20,CUST-5226,Standard,Female,56,Southeast,5,POS Purchase,Branch,Groceries,159547.46,7712.25,2.7,0
+TXN-100263,2023-04-30,CUST-5148,Basic,Male,25,North Central,7,Debit,Mobile App,Healthcare,10094.8,664148.23,2.9,0
+TXN-100515,2023-08-23,CUST-5110,Basic,Female,43,North Central,5,Credit,Branch,Salary Credit,34045.93,6205.44,3.8,0
+TXN-100503,2023-08-18,CUST-5195,Premium,Male,18,North Central,3,Debit,Internet Banking,Fuel,90746.28,196901.07,3.7,0
+TXN-100667,2023-10-31,CUST-5202,Standard,Male,57,North Central,8,Transfer,Mobile App,Healthcare,12828.79,32131.35,2.9,0
+TXN-100484,2023-08-09,CUST-5287,Basic,Female,36,South South,6,ATM Withdrawal,USSD,Rent,15210.22,52690.02,4.7,0
+TXN-100678,2023-11-05,CUST-5184,Standard,Female,51,South South,3,Credit,USSD,School Fees,60766.91,383058.3,3.4,0
+TXN-100314,2023-05-24,CUST-5044,Premium,Male,40,North Central,1,Bill Payment,POS Terminal,Airtime,1270883.96,193409.82,2.5,0
+TXN-100252,2023-04-25,CUST-5275,Standard,Female,28,Southwest,1,Debit,Mobile App,Shopping,60521.54,344706.81,5.0,0
+TXN-100426,2023-07-14,CUST-5031,Standard,Male,63,North Central,3,POS Purchase,Mobile App,Utilities,139519.79,217750.77,3.3,0
+TXN-100114,2023-02-21,CUST-5262,Standard,Female,22,Southwest,2,Bill Payment,Internet Banking,,75536.27,439781.35,2.9,0
+TXN-100628,2023-10-14,CUST-5114,Standard,Male,56,Southwest,3,Transfer,Branch,,94410.55,30982.6,4.3,0
+TXN-100458,2023-07-28,CUST-5038,Standard,Female,53,South South,1,Debit,ATM,Rent,102731.61,1218960.5,2.9,0
+TXN-100461,2023-07-30,CUST-5036,Standard,Female,44,North Central,2,Debit,Branch,Rent,652914.49,323559.96,4.8,0
+TXN-100749,2023-12-08,CUST-5293,Standard,Male,34,Southwest,5,Debit,Internet Banking,Rent,41892.2,440724.4,3.8,0
+TXN-100491,2023-08-12,CUST-5003,Basic,Male,53,Southwest,2,Credit,Branch,Insurance,34511.69,74977.96,3.2,0
+TXN-100796,2023-12-29,CUST-5228,Standard,Male,42,Southwest,2,Credit,POS Terminal,Airtime,51185.39,100160.71,3.4,0
+TXN-100206,2023-04-04,CUST-5173,Basic,Male,50,Northwest,7,Credit,Branch,Airtime,3354.15,446369.3,5.0,0
+TXN-100779,2023-12-21,CUST-5223,Standard,Male,35,South South,7,Credit,ATM,Shopping,60933.68,158245.6,2.9,0
+TXN-100574,2023-09-19,CUST-5074,Premium,Male,19,South South,1,Credit,Mobile App,Utilities,1531472.85,844240.11,3.0,0
+TXN-100080,2023-02-06,CUST-5131,Standard,Male,37,Southwest,6,Transfer,Branch,School Fees,63612.08,31757.01,3.1,0
+TXN-100506,2023-08-19,CUST-5094,Standard,Female,53,North Central,1,Debit,Branch,Rent,18352.22,7762158.53,4.0,0
+TXN-100453,2023-07-26,CUST-5087,Standard,Male,28,Southwest,2,Online Transfer,Internet Banking,Groceries,59213.41,54711.15,2.5,0
+TXN-100470,2023-08-03,CUST-5283,Standard,Male,27,Southeast,4,Credit,Mobile App,Rent,92970.21,28098.34,2.3,0
+TXN-100611,2023-10-06,CUST-5207,Basic,Male,33,North Central,8,Debit,ATM,School Fees,7762.49,138780.2,1.6,0
+TXN-100103,2023-02-16,CUST-5198,Standard,Female,54,Northwest,4,Bill Payment,Branch,Shopping,371514.28,855864.01,4.2,0
+TXN-100524,2023-08-27,CUST-5068,Standard,Male,36,Southwest,8,POS Purchase,Internet Banking,Utilities,31372.76,48667.85,4.3,0
+TXN-100528,2023-08-29,CUST-5076,Basic,Male,40,South South,3,Credit,Internet Banking,Fuel,11584.29,122586.75,3.5,1
+TXN-100032,2023-01-15,CUST-5085,Premium,Female,62,South South,3,Bill Payment,USSD,Groceries,164974.44,17912.86,3.3,0
+TXN-100140,2023-03-05,CUST-5180,Standard,Female,63,Northwest,3,Transfer,Branch,Healthcare,88531.48,572053.26,3.7,0
+TXN-100337,2023-06-03,CUST-5102,Basic,Male,57,Southeast,8,Debit,USSD,Insurance,12167.09,836524.18,2.5,0
+TXN-100292,2023-05-14,CUST-5039,Premium,Male,38,North Central,1,Credit,POS Terminal,Airtime,612275.76,627007.86,,0
+TXN-100119,2023-02-24,CUST-5013,Premium,Male,63,Southwest,6,Credit,Internet Banking,Insurance,425764.85,64113.96,3.1,1
+TXN-100421,2023-07-11,CUST-5133,Premium,Female,36,Southeast,2,Credit,ATM,Entertainment,974187.41,1910783.47,2.7,0
+TXN-100542,2023-09-04,CUST-5196,Premium,Male,48,Southwest,6,Transfer,Branch,Rent,2627097.29,371833.04,4.8,0
+TXN-100311,2023-05-22,CUST-5248,Basic,Male,21,Southwest,5,Credit,Internet Banking,Investment,9127.67,4597967.62,4.6,0
+TXN-100010,2023-01-05,CUST-5212,Standard,Male,25,South South,3,Credit,ATM,Fuel,85340.61,391933.16,3.8,0
+TXN-100384,2023-06-24,CUST-5237,Basic,Male,59,North Central,6,Bill Payment,ATM,Utilities,6864.83,64040.78,2.8,0
+TXN-100111,2023-02-20,CUST-5013,Premium,Male,18,Northwest,3,Transfer,Mobile App,Groceries,375944.59,1735011.32,4.7,0
+TXN-100011,2023-01-06,CUST-5144,Standard,Male,49,Southwest,1,POS Purchase,Internet Banking,Insurance,172747.61,126282.6,2.5,0
+TXN-100689,2023-11-10,CUST-5012,Standard,Female,54,Northwest,6,Debit,Internet Banking,Rent,136139.97,331491.9,2.5,0
+TXN-100534,2023-09-01,CUST-5148,Basic,Male,55,North Central,1,Credit,ATM,Shopping,16283.16,695802.45,4.6,0
+TXN-100645,2023-10-21,CUST-5160,Premium,Female,36,Southwest,1,Debit,Mobile App,Shopping,802521.94,50239.97,4.0,0
+TXN-100132,2023-03-02,CUST-5166,Standard,Male,47,South South,8,Debit,Mobile App,Rent,50571.49,201794.12,4.9,0
+TXN-100126,2023-02-27,CUST-5076,Basic,Female,39,North Central,6,Credit,Mobile App,Insurance,16376.64,424151.76,3.9,0
+TXN-100552,2023-09-09,CUST-5004,Standard,Male,33,Southwest,3,Debit,Internet Banking,Salary Credit,51772.52,250013.03,3.1,0
+TXN-100518,2023-08-24,CUST-5092,Basic,Male,44,North Central,4,Credit,Internet Banking,,10289.64,877583.39,3.0,0
+TXN-100719,2023-11-24,CUST-5295,Basic,Female,23,Southwest,3,POS Purchase,Internet Banking,Airtime,8203.06,257956.45,3.0,0
+TXN-100510,2023-08-21,CUST-5251,Standard,Male,24,Southeast,3,Debit,ATM,Utilities,82504.92,41075.91,3.2,0
+TXN-100751,2023-12-09,CUST-5046,Standard,Male,48,South South,6,ATM Withdrawal,POS Terminal,School Fees,273319.98,363928.14,2.3,0
+TXN-100709,2023-11-19,CUST-5187,Premium,Male,60,North Central,6,Transfer,USSD,School Fees,427602.42,81952.91,4.6,0
+TXN-100662,2023-10-29,CUST-5063,Standard,Female,37,North Central,8,Debit,Mobile App,Entertainment,54812.11,70685.11,4.1,0
+TXN-100430,2023-07-15,CUST-5213,Standard,Male,32,South South,6,Transfer,Mobile App,Rent,53543.97,252599.74,3.8,0
+TXN-100414,2023-07-08,CUST-5058,Standard,Female,23,Southeast,3,Transfer,Mobile App,Salary Credit,18488.42,14528385.82,3.1,0
+TXN-100712,2023-11-21,CUST-5022,Standard,Female,40,Northwest,7,ATM Withdrawal,POS Terminal,Entertainment,1497.66,118415.15,3.8,0
+TXN-100538,2023-09-03,CUST-5211,Basic,Male,48,Southwest,3,Transfer,Mobile App,Shopping,15029.17,2988209.36,1.8,0
+TXN-100061,2023-01-28,CUST-5203,Basic,Female,56,South South,6,Debit,Mobile App,Salary Credit,3125.86,2214981.84,3.3,0
+TXN-100698,2023-11-14,CUST-5158,Standard,Female,45,South South,6,Bill Payment,Branch,School Fees,997123.05,219844.95,4.3,0
+TXN-100392,2023-06-28,CUST-5034,Premium,Male,43,Southwest,1,ATM Withdrawal,ATM,School Fees,94997.26,105323.93,4.4,0
+TXN-100273,2023-05-05,CUST-5037,Standard,Male,23,North Central,6,Transfer,Mobile App,Healthcare,17115.41,182222.12,5.0,0
+TXN-100340,2023-06-04,CUST-5164,Basic,Male,39,Southwest,1,Transfer,Branch,Shopping,20567.68,342938.68,3.2,0
+TXN-100256,2023-04-27,CUST-5194,Premium,Female,60,Southwest,6,Transfer,Mobile App,Groceries,2230695.5,38772.74,5.0,0
+TXN-100690,2023-11-11,CUST-5158,Standard,Female,45,South South,5,Debit,Mobile App,,10759.16,299164.67,3.2,0
+TXN-100259,2023-04-28,CUST-5279,Basic,Female,32,South South,2,ATM Withdrawal,Mobile App,Utilities,3848.96,85296.74,5.0,0
+TXN-100467,2023-08-01,CUST-5044,Premium,Male,32,North Central,4,Debit,ATM,Insurance,48722.22,298021.66,5.0,0
+TXN-100562,2023-09-14,CUST-5183,Standard,Male,53,Southwest,8,Bill Payment,Mobile App,Healthcare,62488.88,453412.74,,0
+TXN-100090,2023-02-11,CUST-5008,Standard,Male,59,North Central,7,ATM Withdrawal,Mobile App,Investment,13788.31,29590.74,4.6,0
+TXN-100076,2023-02-04,CUST-5202,Standard,Female,48,Southwest,3,Debit,Mobile App,Salary Credit,135484.31,513329.2,,0
+TXN-100780,2023-12-22,CUST-5044,Premium,Male,28,Southwest,3,ATM Withdrawal,Mobile App,Healthcare,48279.52,123043.03,3.6,0
+TXN-100106,2023-02-18,CUST-5245,Standard,Female,44,South South,8,Online Transfer,Mobile App,Rent,30766.26,55871.47,3.8,0
+TXN-100532,2023-08-31,CUST-5039,Premium,Male,53,South South,5,Debit,Branch,Airtime,471661.04,17329.75,4.9,0
+TXN-100650,2023-10-24,CUST-5089,Basic,Male,51,Southwest,7,Debit,Mobile App,,5984.53,127274.54,4.2,0
+TXN-100784,2023-12-24,CUST-5200,Standard,Male,43,Southeast,4,Bill Payment,ATM,Salary Credit,110919.44,746763.69,3.7,0
+TXN-100352,2023-06-10,CUST-5012,Standard,Male,24,Southwest,4,Transfer,Internet Banking,Rent,25236.92,162236.91,3.8,0
+TXN-100657,2023-10-27,CUST-5167,Standard,Male,58,Southeast,3,Transfer,Branch,Investment,101796.03,216393.65,4.3,0
+TXN-100058,2023-01-27,CUST-5028,Standard,Female,23,South South,4,Transfer,ATM,Rent,150568.07,1747978.86,4.7,0
+TXN-100100,2023-02-15,CUST-5179,Premium,Male,20,North Central,3,Credit,Mobile App,Shopping,292365.41,26376.73,4.7,0
+TXN-100363,2023-06-15,CUST-5216,Standard,Male,44,Southwest,1,ATM Withdrawal,USSD,Salary Credit,27284.76,98454.73,3.3,0
+TXN-100202,2023-04-03,CUST-5276,Standard,Female,38,Northwest,2,POS Purchase,Mobile App,Airtime,24444.66,69609.89,3.4,1
+TXN-100634,2023-10-16,CUST-5097,Standard,Male,18,Southwest,5,POS Purchase,Mobile App,Entertainment,9341.48,932422.5,3.3,0
+TXN-100212,2023-04-07,CUST-5287,Basic,Female,62,South South,3,ATM Withdrawal,ATM,Fuel,75526.65,200723.01,3.8,0
+TXN-100356,2023-06-12,CUST-5211,Basic,Male,55,Northwest,4,Debit,Internet Banking,Shopping,25551.51,89942.64,3.6,0
+TXN-100121,2023-02-25,CUST-5150,Basic,Male,40,North Central,1,ATM Withdrawal,Internet Banking,,11877.3,988406.09,2.9,0
+TXN-100336,2023-06-03,CUST-5080,Standard,Male,21,Southeast,5,Debit,Internet Banking,Fuel,127619.79,1177726.14,4.0,0
+TXN-100619,2023-10-09,CUST-5068,Standard,Male,46,Southwest,4,Credit,Mobile App,,20484.34,689456.58,2.7,0
+TXN-100365,2023-06-16,CUST-5156,Standard,Female,25,Southwest,4,Debit,ATM,Groceries,25139.94,8233.63,,0
+TXN-100053,2023-01-25,CUST-5098,Standard,Female,51,North Central,2,POS Purchase,Internet Banking,Investment,216799.0,251950.27,5.0,0
+TXN-100129,2023-02-28,CUST-5052,Basic,Female,22,South South,1,Credit,POS Terminal,Rent,59035.25,523397.27,2.7,0
+TXN-100234,2023-04-17,CUST-5255,Standard,Female,60,Southwest,4,Credit,Mobile App,Fuel,20761.24,82425.55,2.3,0
+TXN-100221,2023-04-11,CUST-5042,Standard,Female,23,North Central,6,Bill Payment,ATM,Groceries,361045.98,1069226.08,4.2,0
+TXN-100296,2023-05-15,CUST-5299,Standard,Male,40,Southwest,6,Debit,Mobile App,School Fees,41862.82,197619.28,4.1,0
+TXN-100705,2023-11-18,CUST-5015,Premium,Male,62,Southwest,5,Debit,ATM,Rent,545163.49,162685.78,5.0,0
+TXN-100395,2023-06-29,CUST-5281,Premium,Male,30,Southwest,7,Credit,POS Terminal,Airtime,456750.94,39259.75,3.3,0
+TXN-100383,2023-06-24,CUST-5105,Premium,Female,18,Southeast,7,ATM Withdrawal,USSD,Investment,138404.46,112794.4,4.9,0
+TXN-100188,2023-03-27,CUST-5044,Premium,Female,36,South South,4,Credit,Branch,School Fees,2090119.24,403722.23,3.2,0
+TXN-100580,2023-09-22,CUST-5241,Basic,Male,32,North Central,6,Transfer,Mobile App,Insurance,18150.66,632140.73,5.0,0
+TXN-100293,2023-05-14,CUST-5026,Standard,Female,50,South South,1,Credit,POS Terminal,Entertainment,724055.5,2437.39,3.0,0
+TXN-100403,2023-07-03,CUST-5002,Standard,Male,64,Southwest,4,Transfer,Mobile App,Groceries,32285.4,98805.49,5.0,0
+TXN-100286,2023-05-11,CUST-5024,Premium,Female,46,North Central,7,Bill Payment,POS Terminal,,91922.46,57244.39,2.9,0
+TXN-100005,2023-01-03,CUST-5278,Basic,Male,57,South South,1,ATM Withdrawal,Internet Banking,Investment,7423.82,220339.73,3.3,0
+TXN-100297,2023-05-16,CUST-5179,Premium,Female,28,Southwest,6,Bill Payment,POS Terminal,Insurance,2173534.58,151976.39,2.3,0
+TXN-100199,2023-04-01,CUST-5271,Basic,Female,27,South South,5,POS Purchase,POS Terminal,Salary Credit,4543.86,22711.23,2.7,0
+TXN-100056,2023-01-26,CUST-5015,Premium,Male,45,Southwest,2,Bill Payment,POS Terminal,Healthcare,1635248.08,11282.29,,0
+TXN-100770,2023-12-17,CUST-5131,Standard,Female,30,Northwest,2,Debit,Internet Banking,School Fees,64251.36,800883.26,3.6,0
+TXN-100191,2023-03-29,CUST-5234,Standard,Female,61,Northwest,6,Debit,Branch,Fuel,59573.01,184297.39,2.0,0
+TXN-100369,2023-06-18,CUST-5133,Premium,Female,61,North Central,6,Transfer,USSD,Groceries,1281447.48,4193.0,3.3,0
+TXN-100687,2023-11-09,CUST-5003,Basic,Male,43,Northwest,7,Debit,POS Terminal,Healthcare,15533.32,75407.06,3.5,0
+TXN-100468,2023-08-02,CUST-5277,Standard,Male,38,North Central,8,ATM Withdrawal,Mobile App,Entertainment,94510.29,443678.19,3.2,0
+TXN-100648,2023-10-23,CUST-5123,Premium,Female,23,North Central,2,POS Purchase,ATM,Healthcare,114224.04,133456.61,2.6,0
+TXN-100777,2023-12-20,CUST-5055,Standard,Male,19,Southwest,6,Transfer,Branch,Investment,24886.55,156370.42,3.0,0
+TXN-100210,2023-04-06,CUST-5242,Standard,Male,24,South South,2,ATM Withdrawal,Internet Banking,School Fees,89680.51,91574.4,2.9,1
+TXN-100652,2023-10-25,CUST-5268,Standard,Female,49,North Central,8,Debit,Internet Banking,Healthcare,101230.84,230349.98,3.9,0
+TXN-100223,2023-04-12,CUST-5138,Standard,Male,48,North Central,7,ATM Withdrawal,Branch,Rent,84248.78,77752.34,3.3,0
+TXN-100559,2023-09-12,CUST-5299,Standard,Female,32,South South,6,POS Purchase,ATM,Fuel,113205.98,4568.92,3.6,0
+TXN-100007,2023-01-04,CUST-5206,Standard,Male,64,South South,6,Debit,Mobile App,Fuel,165740.38,283909.18,4.5,0
+TXN-100656,2023-10-26,CUST-5002,Standard,Male,63,South South,7,Credit,Mobile App,Airtime,64453.15,19141.33,,0
+TXN-100482,2023-08-08,CUST-5175,Standard,Male,60,South South,1,Credit,Mobile App,Insurance,100220.04,93173.58,4.8,0
+TXN-100786,2023-12-25,CUST-5188,Basic,Female,49,North Central,1,Debit,Mobile App,Insurance,26408.27,109275.7,5.0,0
+TXN-100434,2023-07-17,CUST-5175,Standard,Female,46,Southwest,1,Credit,ATM,Utilities,47798.48,6905713.51,3.6,0
+TXN-100105,2023-02-17,CUST-5280,Standard,Female,25,North Central,8,ATM Withdrawal,Internet Banking,Entertainment,48182.45,132466.82,2.7,0
+TXN-100551,2023-09-09,CUST-5033,Standard,Female,23,South South,4,Credit,Internet Banking,Insurance,111482.78,16275.41,3.9,0
+TXN-100043,2023-01-20,CUST-5271,Basic,Male,61,North Central,6,Credit,Internet Banking,Salary Credit,7936.76,982414.1,2.2,0
+TXN-100485,2023-08-09,CUST-5215,Basic,Female,26,Southwest,5,Debit,Mobile App,Fuel,4173.96,9719.49,3.3,1
+TXN-100371,2023-06-19,CUST-5276,Standard,Female,60,Southwest,6,Online Transfer,Mobile App,Entertainment,54865.94,482428.46,4.4,0
+TXN-100305,2023-05-19,CUST-5242,Standard,Male,24,Southwest,8,Debit,Internet Banking,School Fees,36387.83,628375.1,2.8,0
+TXN-100200,2023-04-02,CUST-5243,Standard,Female,61,Southwest,8,Bill Payment,POS Terminal,Groceries,162721.86,39287.28,2.8,1
+TXN-100070,2023-02-01,CUST-5055,Standard,Female,31,South South,2,Debit,Internet Banking,Healthcare,12013.95,4431.32,3.4,0
+TXN-100521,2023-08-26,CUST-5002,Standard,Female,51,South South,1,Transfer,Mobile App,School Fees,50244.67,89504.63,1.7,0
+TXN-100488,2023-08-11,CUST-5203,Basic,Male,43,South South,7,Credit,ATM,Entertainment,33184.71,11027.06,4.8,0
+TXN-100415,2023-07-09,CUST-5099,Standard,Male,23,North Central,5,POS Purchase,USSD,,74234.39,56651.96,3.1,0
+TXN-100627,2023-10-13,CUST-5287,Basic,Female,39,Southeast,3,Debit,Internet Banking,Salary Credit,9800.43,110873.34,3.6,0
+TXN-100291,2023-05-13,CUST-5089,Basic,Male,50,North Central,2,Debit,ATM,,24272.15,139544.4,2.1,0
+TXN-100530,2023-08-30,CUST-5024,Premium,Female,47,Northwest,6,Credit,Mobile App,School Fees,5310294.19,514485.09,2.7,0
+TXN-100624,2023-10-12,CUST-5129,Premium,Male,22,Southeast,7,Debit,USSD,Entertainment,351766.45,189996.23,2.6,0
+TXN-100215,2023-04-08,CUST-5227,Standard,Male,28,Southwest,3,Credit,ATM,Airtime,280106.51,1159493.32,3.5,0
+TXN-100225,2023-04-13,CUST-5020,Standard,Male,38,South South,2,Debit,POS Terminal,Entertainment,221394.31,226396.99,2.6,0
+TXN-100745,2023-12-06,CUST-5190,Standard,Female,60,South South,4,Credit,Mobile App,Salary Credit,86486.22,236987.44,5.0,0
+TXN-100750,2023-12-08,CUST-5184,Standard,Male,59,Northwest,7,Bill Payment,USSD,Insurance,52138.3,35371.24,5.0,1
+TXN-100151,2023-03-10,CUST-5136,Basic,Male,41,Southeast,6,POS Purchase,POS Terminal,Insurance,13662.14,4109.39,5.0,0
+TXN-100572,2023-09-18,CUST-5258,Basic,Male,40,South South,7,Online Transfer,Internet Banking,Insurance,11328.32,419262.54,4.7,0
+TXN-100185,2023-03-26,CUST-5186,Standard,Female,45,Northwest,1,Transfer,Mobile App,Shopping,78495.76,655783.52,3.1,0
+TXN-100526,2023-08-28,CUST-5134,Premium,Male,52,South South,2,Bill Payment,POS Terminal,Salary Credit,1346038.79,1240297.09,3.6,0
+TXN-100088,2023-02-10,CUST-5079,Standard,Female,58,Southwest,1,Transfer,Internet Banking,Groceries,11992.71,201476.66,2.3,0
+TXN-100275,2023-05-06,CUST-5008,Standard,Female,30,South South,1,Debit,ATM,Shopping,56518.48,132950.51,,0
+TXN-100382,2023-06-24,CUST-5284,Basic,Female,45,North Central,8,Debit,Internet Banking,Shopping,20519.22,67301.86,3.1,0
+TXN-100762,2023-12-14,CUST-5003,Basic,Male,37,North Central,5,Transfer,POS Terminal,Rent,4778.46,186849.92,3.9,0
+TXN-100028,2023-01-13,CUST-5298,Standard,Male,48,Northwest,7,Transfer,Internet Banking,Insurance,89465.41,202220.98,3.4,0
+TXN-100167,2023-03-18,CUST-5212,Standard,Female,56,South South,4,ATM Withdrawal,Mobile App,Entertainment,91074.59,119993.91,2.6,0
+TXN-100633,2023-10-16,CUST-5004,Standard,Female,29,Southwest,1,Transfer,POS Terminal,Rent,11015.01,25583.98,4.1,1
+TXN-100471,2023-08-03,CUST-5057,Basic,Male,53,Southwest,5,Credit,Branch,School Fees,28797.03,355715.89,2.7,0
+TXN-100298,2023-05-16,CUST-5016,Standard,Male,21,Southwest,3,POS Purchase,Mobile App,Groceries,8095.16,236848.03,3.1,0
+TXN-100716,2023-11-23,CUST-5097,Standard,Female,25,Northwest,3,Debit,Mobile App,Fuel,117542.61,15245.19,4.5,0
+TXN-100178,2023-03-23,CUST-5280,Standard,Male,34,Southwest,2,Credit,Internet Banking,Utilities,33823.74,69600.38,2.8,0
+TXN-100203,2023-04-03,CUST-5150,Basic,Male,58,South South,3,POS Purchase,Mobile App,Shopping,8190.2,619452.83,4.0,0
+TXN-100486,2023-08-10,CUST-5041,Basic,Female,55,Northwest,7,Credit,Mobile App,Groceries,10126.26,2938841.79,1.9,0
+TXN-100031,2023-01-15,CUST-5073,Standard,Female,41,Southwest,6,Debit,ATM,School Fees,476545.79,512463.48,3.3,0
+TXN-100547,2023-09-07,CUST-5208,Premium,Female,58,Southwest,3,Bill Payment,USSD,Investment,422911.9,128113.64,3.6,0
+TXN-100386,2023-06-25,CUST-5256,Standard,Male,34,Southwest,2,Transfer,Branch,Groceries,58811.28,462469.57,2.4,0
+TXN-100267,2023-05-02,CUST-5213,Standard,Male,26,South South,1,Credit,ATM,Investment,54225.17,8920.91,2.5,0
+TXN-100204,2023-04-03,CUST-5244,Standard,Male,42,Southwest,8,Online Transfer,Internet Banking,Salary Credit,93328.01,642483.68,4.0,0
+TXN-100078,2023-02-05,CUST-5188,Basic,Female,52,Northwest,4,Credit,Mobile App,Insurance,31872.64,18763.3,4.2,0
+TXN-100020,2023-01-10,CUST-5269,Basic,Female,36,Southwest,1,ATM Withdrawal,Mobile App,Shopping,13646.7,209907.27,4.0,0
+TXN-100717,2023-11-23,CUST-5121,Basic,Female,59,North Central,5,Debit,ATM,Insurance,10501.75,287040.98,2.5,0
+TXN-100721,2023-11-25,CUST-5026,Standard,Male,64,Southwest,7,Debit,POS Terminal,Airtime,226593.0,276749.67,4.0,0
+TXN-100075,2023-02-04,CUST-5012,Standard,Male,26,Southeast,1,Debit,Internet Banking,Entertainment,72516.32,1244096.44,3.6,0
+TXN-100635,2023-10-17,CUST-5292,Standard,Female,45,North Central,5,Credit,Mobile App,Rent,61445.33,540872.38,3.1,0
+TXN-100457,2023-07-28,CUST-5011,Standard,Male,28,South South,8,Transfer,Mobile App,Utilities,212503.21,138945.1,2.5,0
+TXN-100637,2023-10-18,CUST-5218,Basic,Female,24,North Central,2,Credit,POS Terminal,Shopping,11814.98,247819.72,5.0,0
+TXN-100730,2023-11-29,CUST-5155,Premium,Female,34,Northwest,5,Credit,Branch,Shopping,803926.02,563702.53,3.4,0
+TXN-100592,2023-09-27,CUST-5247,Standard,Male,24,Southwest,1,Debit,Internet Banking,School Fees,194082.4,807492.96,1.9,0
+TXN-100309,2023-05-21,CUST-5141,Standard,Male,53,South South,7,Transfer,POS Terminal,,345548.78,55888.48,4.0,0
+TXN-100003,2023-01-02,CUST-5211,Basic,Male,47,South South,4,Credit,Mobile App,Groceries,6944.51,109248.38,2.8,0
+TXN-100079,2023-02-05,CUST-5035,Standard,Female,64,Southwest,4,Credit,Branch,Shopping,78484.11,59088.83,,0
+TXN-100144,2023-03-07,CUST-5189,Standard,Male,43,Northwest,3,Transfer,Internet Banking,Rent,87960.65,1762383.61,3.0,0
+TXN-100454,2023-07-26,CUST-5118,Basic,Male,36,Southwest,7,POS Purchase,Mobile App,Shopping,5596.97,60144.61,3.7,0
+TXN-100746,2023-12-06,CUST-5257,Premium,Female,26,Northwest,1,Credit,POS Terminal,Entertainment,399074.32,437265.24,3.9,0
+TXN-100378,2023-06-22,CUST-5183,Standard,Male,49,Southwest,7,Debit,Mobile App,Healthcare,568009.65,42489.45,3.1,0
+TXN-100036,2023-01-17,CUST-5062,Premium,Female,59,Southwest,2,Debit,Mobile App,Shopping,492009.72,643040.73,2.0,0
+TXN-100059,2023-01-27,CUST-5087,Standard,Male,24,Southwest,1,Debit,Branch,School Fees,50226.98,81894.47,3.9,0
+TXN-100348,2023-06-08,CUST-5263,Standard,Female,56,Northwest,6,ATM Withdrawal,USSD,Salary Credit,14047.48,279684.41,2.4,0
+TXN-100029,2023-01-14,CUST-5220,Standard,Female,46,South South,3,Credit,Mobile App,School Fees,21904.04,64502.02,3.3,0
+TXN-100294,2023-05-14,CUST-5027,Standard,Male,33,Southwest,4,Transfer,Mobile App,Fuel,678228.89,118819.95,3.1,0
+TXN-100663,2023-10-30,CUST-5104,Standard,Male,63,North Central,3,Bill Payment,Branch,Salary Credit,106918.4,110842.76,3.1,0
+TXN-100665,2023-10-30,CUST-5242,Standard,Male,56,Southeast,5,Credit,ATM,Fuel,34915.09,82986.73,3.6,0
+TXN-100130,2023-03-01,CUST-5196,Premium,Male,25,Southwest,4,Debit,ATM,Shopping,382111.74,55271.37,1.5,0
+TXN-100108,2023-02-19,CUST-5202,Standard,Male,59,South South,7,Debit,ATM,Airtime,374799.43,170611.76,3.4,0
+TXN-100261,2023-04-29,CUST-5269,Basic,Male,59,North Central,1,Debit,Branch,Investment,13919.15,99844.67,3.0,0
+TXN-100708,2023-11-19,CUST-5220,Standard,Male,63,Southwest,8,Credit,ATM,Utilities,20869.44,438168.21,3.2,0
+TXN-100066,2023-01-31,CUST-5164,Basic,Male,19,North Central,8,POS Purchase,Branch,Investment,58216.43,68300.18,3.8,0
+TXN-100054,2023-01-25,CUST-5272,Standard,Female,64,North Central,4,Debit,Internet Banking,,178797.31,345928.8,3.3,0
+TXN-100101,2023-02-16,CUST-5230,Standard,Female,51,North Central,3,Debit,USSD,Fuel,57274.67,152111.2,2.7,0
+TXN-100550,2023-09-08,CUST-5063,Standard,Male,31,Southwest,6,POS Purchase,Mobile App,Rent,13787.89,95040.37,1.5,0
+TXN-100483,2023-08-09,CUST-5028,Standard,Female,28,North Central,1,Credit,Branch,,212174.03,54852.75,3.5,0
+TXN-100233,2023-04-17,CUST-5179,Premium,Male,41,North Central,1,Credit,Mobile App,Groceries,1543895.68,311648.69,4.3,0
+TXN-100197,2023-03-31,CUST-5036,Standard,Female,27,North Central,2,Credit,POS Terminal,Entertainment,169625.9,16102.81,4.0,0
+TXN-100335,2023-06-02,CUST-5084,Premium,Male,37,Southwest,3,Bill Payment,Mobile App,School Fees,1189470.1,715734.28,3.7,0
+TXN-100399,2023-07-01,CUST-5229,Standard,Male,29,Southwest,3,Debit,ATM,Rent,233565.79,358497.94,3.3,0
+TXN-100173,2023-03-20,CUST-5108,Premium,Male,32,South South,6,Bill Payment,Branch,Salary Credit,268227.93,2169613.75,4.3,0
+TXN-100763,2023-12-14,CUST-5082,Basic,Female,41,Southeast,4,Credit,Branch,Investment,2416.14,19426.95,3.6,0
+TXN-100143,2023-03-07,CUST-5285,Premium,Male,38,North Central,8,Credit,Mobile App,Utilities,340647.79,1740846.65,3.6,0
+TXN-100359,2023-06-13,CUST-5278,Basic,Female,47,North Central,7,Debit,ATM,Utilities,9571.52,92187.14,4.5,1
+TXN-100023,2023-01-11,CUST-5234,Standard,Male,28,Southwest,6,ATM Withdrawal,Mobile App,Salary Credit,180987.25,251845.64,3.2,0
+TXN-100672,2023-11-03,CUST-5139,Basic,Female,19,Southwest,3,Credit,Branch,Fuel,4918.64,101473.06,3.8,0
+TXN-100432,2023-07-16,CUST-5234,Standard,Male,60,South South,8,Debit,ATM,Airtime,19386.2,106680.64,2.8,1
+TXN-100062,2023-01-29,CUST-5059,Standard,Male,18,Southwest,8,Online Transfer,Internet Banking,Fuel,28032.78,22083.72,4.8,0
+TXN-100160,2023-03-14,CUST-5161,Standard,Male,44,North Central,8,ATM Withdrawal,Internet Banking,Shopping,105625.93,91777.64,4.6,0
+TXN-100176,2023-03-22,CUST-5167,Standard,Female,37,South South,5,Debit,ATM,Salary Credit,315261.06,40685.02,2.9,0
+TXN-100732,2023-11-30,CUST-5205,Basic,Male,27,Southwest,7,Debit,ATM,Investment,6365.6,23218.61,1.6,0
+TXN-100473,2023-08-04,CUST-5203,Basic,Male,30,South South,1,Debit,Branch,Utilities,8619.84,15135.37,3.4,0
+TXN-100001,2023-01-01,CUST-5222,Basic,Male,32,South South,1,Debit,ATM,Rent,7582.03,46890.44,3.9,0
+TXN-100555,2023-09-10,CUST-5248,Basic,Male,63,South South,5,Transfer,Branch,Airtime,12240.66,53615.13,2.6,0
+TXN-100447,2023-07-23,CUST-5159,Standard,Female,38,North Central,5,ATM Withdrawal,Branch,Insurance,418605.4,574569.7,3.2,0
+TXN-100493,2023-08-13,CUST-5048,Standard,Female,54,North Central,8,Debit,Mobile App,Utilities,21312.11,74210.46,4.2,0
+TXN-100063,2023-01-29,CUST-5196,Premium,Female,23,Northwest,5,Transfer,Internet Banking,Insurance,74211.72,1296326.28,1.9,0
+TXN-100347,2023-06-08,CUST-5211,Basic,Male,23,Southwest,2,Credit,POS Terminal,Utilities,46322.13,76191.91,,0
+TXN-100583,2023-09-23,CUST-5084,Premium,Female,38,Southwest,2,Debit,Mobile App,Salary Credit,275812.16,45254.58,3.5,0
+TXN-100374,2023-06-20,CUST-5063,Standard,Male,62,Southeast,8,Credit,Internet Banking,School Fees,59943.83,21120.12,3.2,0
+TXN-100307,2023-05-20,CUST-5049,Standard,Male,63,Southwest,1,POS Purchase,POS Terminal,Utilities,16342.13,237689.58,3.6,0
+TXN-100396,2023-06-30,CUST-5138,Standard,Female,28,Southwest,2,Credit,Mobile App,Salary Credit,66193.23,219009.03,3.8,0
+TXN-100570,2023-09-17,CUST-5115,Standard,Male,33,South South,7,Credit,Mobile App,Salary Credit,283967.72,3029863.11,3.9,0
+TXN-100372,2023-06-19,CUST-5262,Standard,Male,28,North Central,1,Transfer,Mobile App,Utilities,63860.95,143959.3,3.9,0
+TXN-100281,2023-05-09,CUST-5067,Standard,Male,37,North Central,6,Debit,ATM,Insurance,21423.31,1096966.07,5.0,0
+TXN-100145,2023-03-08,CUST-5123,Premium,Female,20,North Central,4,Debit,Internet Banking,,280373.55,133997.84,3.0,0
+TXN-100632,2023-10-15,CUST-5208,Premium,Male,44,Southeast,4,POS Purchase,Internet Banking,,304693.03,62551.87,4.0,0
+TXN-100694,2023-11-13,CUST-5020,Standard,Male,29,Southwest,3,Bill Payment,Internet Banking,Shopping,42535.18,224319.65,2.7,0
+TXN-100441,2023-07-20,CUST-5249,Premium,Female,34,Southwest,6,Debit,Mobile App,Entertainment,236642.25,305315.5,5.0,0
+TXN-100775,2023-12-20,CUST-5019,Standard,Male,48,South South,7,Credit,Mobile App,Rent,18420.41,108516.39,,0
+TXN-100759,2023-12-12,CUST-5220,Standard,Female,19,Southeast,7,Credit,Branch,Salary Credit,19731.66,42085.18,1.7,0
+TXN-100703,2023-11-17,CUST-5294,Basic,Female,25,North Central,2,ATM Withdrawal,ATM,Fuel,14189.33,59365.68,3.4,0
+TXN-100520,2023-08-25,CUST-5030,Standard,Male,58,North Central,4,Debit,USSD,Airtime,130139.75,178384.94,3.2,0
+TXN-100272,2023-05-04,CUST-5116,Standard,Male,22,Northwest,3,Online Transfer,USSD,Groceries,13160.04,467391.01,2.7,0
+TXN-100360,2023-06-14,CUST-5201,Basic,Male,23,Southwest,4,POS Purchase,USSD,School Fees,9051.39,343649.77,3.6,0
+TXN-100771,2023-12-18,CUST-5144,Standard,Male,61,Northwest,4,ATM Withdrawal,Internet Banking,Insurance,376405.2,710722.41,3.3,0
+TXN-100072,2023-02-02,CUST-5039,Premium,Female,22,Southeast,7,Transfer,Internet Banking,Entertainment,1906803.55,402273.78,3.5,0
+TXN-100636,2023-10-17,CUST-5240,Basic,Male,39,North Central,4,Debit,Mobile App,Healthcare,12654.27,570790.25,4.9,0
+TXN-100117,2023-02-23,CUST-5152,Standard,Female,46,North Central,1,Credit,POS Terminal,Airtime,421051.35,1326419.15,1.1,0
+TXN-100299,2023-05-17,CUST-5127,Basic,Male,42,North Central,4,Debit,Branch,Groceries,9192.97,3552393.38,3.4,0
+TXN-100381,2023-06-23,CUST-5294,Basic,Female,42,Southwest,2,Debit,Internet Banking,Insurance,42503.08,1974232.89,2.5,0
+TXN-100274,2023-05-05,CUST-5265,Basic,Male,56,South South,1,Transfer,Branch,Fuel,10334.72,398202.91,3.2,0
+TXN-100465,2023-07-31,CUST-5277,Standard,Male,48,Southwest,2,Transfer,POS Terminal,Entertainment,70737.24,8352953.79,4.2,0
+TXN-100120,2023-02-24,CUST-5130,Basic,Female,27,North Central,5,Credit,Branch,Utilities,2497.51,51963.17,3.4,0
+TXN-100030,2023-01-14,CUST-5052,Basic,Male,18,North Central,5,Transfer,POS Terminal,Groceries,4147.43,142300.8,3.1,0
+TXN-100799,2023-12-31,CUST-5231,Standard,Male,35,North Central,4,Credit,Branch,Rent,33221.66,368909.42,3.8,0
+TXN-100625,2023-10-12,CUST-5012,Standard,Male,19,Southwest,3,Debit,POS Terminal,Investment,27483.87,24258.64,4.2,0
+TXN-100104,2023-02-17,CUST-5136,Basic,Male,44,Southwest,7,Credit,ATM,Entertainment,41773.57,1757108.65,3.6,0
+TXN-100153,2023-03-11,CUST-5162,Basic,Female,22,Southwest,1,POS Purchase,Internet Banking,Healthcare,11266.69,799408.58,3.4,0
+TXN-100478,2023-08-06,CUST-5232,Standard,Male,50,North Central,4,Bill Payment,Internet Banking,Rent,82191.26,635276.27,2.1,0
+TXN-100224,2023-04-13,CUST-5295,Basic,Male,45,North Central,1,Debit,Internet Banking,Rent,39834.34,78529.99,3.1,0
+TXN-100258,2023-04-28,CUST-5176,Standard,Female,49,South South,4,Debit,Branch,Entertainment,18503.56,41717.07,3.6,0
+TXN-100614,2023-10-07,CUST-5155,Premium,Male,33,North Central,3,Bill Payment,Mobile App,,689108.98,336174.13,4.6,0
+TXN-100375,2023-06-20,CUST-5164,Basic,Male,25,Southwest,1,Debit,Branch,Groceries,18662.62,75392.64,3.6,0
+TXN-100376,2023-06-21,CUST-5220,Standard,Female,22,North Central,8,Debit,Branch,Salary Credit,27622.04,210247.92,,0
+TXN-100423,2023-07-12,CUST-5111,Standard,Female,48,Southwest,1,Debit,Mobile App,Utilities,79309.77,95690.14,4.6,0
+TXN-100553,2023-09-09,CUST-5160,Premium,Male,41,Southwest,2,Debit,Branch,Fuel,3232396.89,288270.98,4.4,0
+TXN-100164,2023-03-16,CUST-5174,Standard,Female,33,Northwest,5,Debit,Internet Banking,Investment,6654.13,291871.69,3.9,0
+TXN-100631,2023-10-15,CUST-5162,Basic,Male,33,Southwest,6,Transfer,USSD,Salary Credit,47990.55,578318.71,2.8,0
+TXN-100616,2023-10-08,CUST-5031,Standard,Female,21,Southwest,8,Debit,ATM,Fuel,102527.18,36236.45,5.0,0
+TXN-100113,2023-02-21,CUST-5100,Standard,Female,27,South South,4,Debit,POS Terminal,Investment,127773.7,240640.43,4.7,0
+TXN-100169,2023-03-18,CUST-5223,Standard,Female,62,Southwest,7,Credit,Mobile App,Salary Credit,24849.35,423192.7,1.5,0
+TXN-100285,2023-05-10,CUST-5248,Basic,Female,37,North Central,1,Credit,Mobile App,School Fees,16588.47,13692.72,3.8,0
+TXN-100057,2023-01-26,CUST-5278,Basic,Female,58,Southwest,7,Credit,POS Terminal,Rent,4596.86,5711131.82,4.3,0
+TXN-100766,2023-12-15,CUST-5186,Standard,Female,53,Southwest,2,Transfer,USSD,School Fees,57822.24,167224.47,3.1,0
+TXN-100701,2023-11-16,CUST-5247,Standard,Male,53,Northwest,1,Transfer,Branch,Entertainment,99770.43,32237.48,2.7,0
+TXN-100783,2023-12-23,CUST-5269,Basic,Male,59,South South,6,Debit,Mobile App,Investment,20757.66,14121.05,3.4,0
+TXN-100333,2023-06-01,CUST-5231,Standard,Male,19,South South,8,Debit,Branch,Investment,38631.24,53253.33,4.6,0
+TXN-100304,2023-05-19,CUST-5041,Basic,Male,52,Southwest,7,Debit,POS Terminal,Rent,6441.76,391352.42,3.4,0
+TXN-100560,2023-09-13,CUST-5018,Standard,Female,48,North Central,8,ATM Withdrawal,USSD,Investment,104416.94,113337.61,2.6,0
+TXN-100165,2023-03-17,CUST-5012,Standard,Male,24,Southwest,5,Transfer,Internet Banking,Rent,31738.45,278985.84,3.9,0
+TXN-100489,2023-08-11,CUST-5121,Basic,Male,50,Southwest,8,Bill Payment,Branch,Salary Credit,6546.62,26112.99,4.8,0
+TXN-100753,2023-12-10,CUST-5038,Standard,Male,26,Southwest,6,Debit,Internet Banking,School Fees,13348.81,25705.54,2.9,0
+TXN-100055,2023-01-26,CUST-5241,Basic,Male,43,North Central,1,Online Transfer,Internet Banking,Insurance,4782.86,99522.76,1.0,0
+TXN-100065,2023-01-30,CUST-5064,Basic,Male,39,Southwest,8,Transfer,Internet Banking,Salary Credit,49174.4,23076.16,4.1,0
+TXN-100229,2023-04-15,CUST-5170,Premium,Male,41,North Central,1,ATM Withdrawal,Mobile App,Fuel,244085.15,222234.97,3.6,0
+TXN-100179,2023-03-23,CUST-5114,Standard,Female,47,Northwest,7,Transfer,Branch,Entertainment,31065.98,110025.09,5.0,0
+TXN-100350,2023-06-09,CUST-5170,Premium,Male,46,Southwest,4,Bill Payment,POS Terminal,Airtime,396918.71,138437.26,,0
+TXN-100013,2023-01-06,CUST-5228,Standard,Male,54,Northwest,7,Credit,Mobile App,Fuel,64068.28,22156.05,2.9,0
+TXN-100615,2023-10-08,CUST-5123,Premium,Female,53,North Central,6,ATM Withdrawal,Mobile App,Fuel,73508.64,924335.74,5.0,0
+TXN-100133,2023-03-02,CUST-5233,Basic,Male,44,South South,8,Debit,Branch,School Fees,4136.85,1705428.7,2.0,0
+TXN-100026,2023-01-12,CUST-5127,Basic,Male,27,Southeast,7,Credit,Branch,Fuel,13936.01,47287.81,5.0,0
+TXN-100008,2023-01-04,CUST-5040,Standard,Male,33,Northwest,8,Debit,Mobile App,,227518.13,1616683.39,4.3,0
+TXN-100358,2023-06-13,CUST-5044,Premium,Male,23,Southwest,4,ATM Withdrawal,Internet Banking,School Fees,1224724.77,107390.21,4.0,0
+TXN-100466,2023-08-01,CUST-5239,Standard,Male,20,South South,1,Credit,Mobile App,Shopping,49960.1,523988.45,3.6,0
+TXN-100769,2023-12-17,CUST-5278,Basic,Male,64,North Central,5,Online Transfer,POS Terminal,Shopping,6925.95,26476.22,5.0,0
+TXN-100540,2023-09-04,CUST-5216,Standard,Male,24,North Central,8,ATM Withdrawal,Mobile App,Salary Credit,107133.2,331561.36,5.0,0
+TXN-100412,2023-07-07,CUST-5118,Basic,Male,44,South South,4,POS Purchase,Mobile App,,10841.94,12140.56,4.3,0
+TXN-100377,2023-06-21,CUST-5008,Standard,Male,22,South South,8,Credit,Mobile App,Utilities,275369.72,63698.31,3.2,0
+TXN-100324,2023-05-28,CUST-5254,Basic,Male,24,Southwest,8,Credit,Internet Banking,Utilities,23802.57,105092.86,4.3,0
+TXN-100577,2023-09-20,CUST-5254,Basic,Female,24,Southwest,3,ATM Withdrawal,Branch,Insurance,26500.75,298362.7,3.7,0
+TXN-100523,2023-08-27,CUST-5260,Standard,Male,38,South South,6,Debit,Branch,Rent,49122.37,59476.32,2.1,0
+TXN-100413,2023-07-08,CUST-5220,Standard,Male,41,North Central,5,Credit,Branch,School Fees,126924.91,309991.22,2.2,0
+TXN-100463,2023-07-30,CUST-5273,Standard,Female,42,South South,7,Debit,ATM,Rent,57582.77,178830.17,4.6,0
+TXN-100681,2023-11-07,CUST-5277,Standard,Male,18,Southwest,1,Debit,Mobile App,Utilities,87709.27,395529.61,2.8,0
+TXN-100082,2023-02-07,CUST-5088,Standard,Female,22,Northwest,7,Debit,USSD,Utilities,39692.52,182705.13,2.2,0
+TXN-100612,2023-10-06,CUST-5073,Standard,Male,60,Southwest,1,Transfer,Branch,Airtime,42160.94,124787.92,3.1,0
+TXN-100131,2023-03-01,CUST-5108,Premium,Male,21,North Central,6,ATM Withdrawal,POS Terminal,Rent,261734.4,388007.7,4.7,0
+TXN-100319,2023-05-26,CUST-5026,Standard,Female,31,Southeast,1,Debit,Internet Banking,Utilities,33539.06,125826.98,3.9,0
+TXN-100098,2023-02-14,CUST-5235,Basic,Male,48,Northwest,3,Debit,Mobile App,Fuel,5414.15,83813.6,3.4,0
+TXN-100684,2023-11-08,CUST-5057,Basic,Female,43,South South,1,Debit,ATM,Insurance,5011.85,21239.45,2.8,0
+TXN-100585,2023-09-24,CUST-5196,Premium,Female,35,Southeast,2,Transfer,Internet Banking,,107140.74,398130.22,4.7,0
+TXN-100127,2023-02-27,CUST-5195,Premium,Male,58,Northwest,7,Credit,Internet Banking,Healthcare,1336704.48,556043.35,2.5,0
+TXN-100522,2023-08-26,CUST-5062,Premium,Female,51,North Central,2,Online Transfer,POS Terminal,Insurance,578248.17,1254195.95,3.8,0
+TXN-100607,2023-10-04,CUST-5278,Basic,Female,33,North Central,6,Debit,POS Terminal,Insurance,14320.35,53484.81,5.0,1
+TXN-100327,2023-05-29,CUST-5175,Standard,Female,42,South South,8,Debit,POS Terminal,Fuel,50095.66,71890.9,3.2,0
+TXN-100402,2023-07-03,CUST-5236,Standard,Male,40,Southeast,7,Credit,Internet Banking,Salary Credit,54550.58,209772.3,2.3,0
+TXN-100543,2023-09-05,CUST-5181,Basic,Female,32,South South,8,Credit,Branch,Shopping,27393.72,65908.61,4.4,1
+TXN-100756,2023-12-11,CUST-5241,Basic,Male,63,North Central,2,Transfer,Internet Banking,Utilities,5355.9,80552.46,3.5,0
+TXN-100049,2023-01-23,CUST-5137,Standard,Male,52,Southwest,8,Transfer,Branch,Rent,173871.88,1903727.61,4.3,0
+TXN-100308,2023-05-21,CUST-5238,Standard,Female,33,North Central,8,POS Purchase,Internet Banking,School Fees,70446.27,159122.91,4.1,1
+TXN-100022,2023-01-11,CUST-5041,Basic,Female,52,South South,5,Credit,POS Terminal,Shopping,17007.18,64291.13,2.8,0
+TXN-100388,2023-06-26,CUST-5085,Premium,Male,19,Southwest,4,Transfer,Branch,Salary Credit,512655.25,315055.21,3.9,0
+TXN-100341,2023-06-05,CUST-5137,Standard,Male,60,North Central,4,Online Transfer,ATM,Airtime,253580.35,54064.05,4.4,0
+TXN-100195,2023-03-30,CUST-5105,Premium,Female,20,Northwest,2,Credit,Internet Banking,School Fees,115213.57,606924.8,5.0,0
+TXN-100250,2023-04-24,CUST-5208,Premium,Female,47,North Central,5,ATM Withdrawal,Mobile App,Entertainment,501292.91,827316.72,,0
+TXN-100186,2023-03-26,CUST-5062,Premium,Female,55,Southwest,4,Debit,Branch,Healthcare,163888.75,632302.99,4.3,0
+TXN-100209,2023-04-06,CUST-5068,Standard,Female,54,North Central,1,POS Purchase,Internet Banking,Airtime,26472.07,60607.17,3.2,0
+TXN-100180,2023-03-24,CUST-5260,Standard,Male,47,Northwest,1,Debit,Mobile App,Investment,11391.86,251908.57,3.3,0
+TXN-100219,2023-04-10,CUST-5138,Standard,Male,30,Northwest,8,Debit,Branch,,48814.04,35054.65,5.0,0
+TXN-100289,2023-05-12,CUST-5047,Standard,Female,43,Northwest,6,Credit,Internet Banking,Rent,62605.42,285307.94,2.9,0
+TXN-100517,2023-08-24,CUST-5231,Standard,Female,23,Southwest,4,Transfer,Mobile App,,26336.74,180268.95,4.0,0
+TXN-100345,2023-06-07,CUST-5156,Standard,Male,52,South South,5,Credit,Branch,School Fees,32143.75,489690.3,,0
+TXN-100329,2023-05-30,CUST-5273,Standard,Male,25,Southwest,5,ATM Withdrawal,ATM,Groceries,78810.57,216262.9,2.2,0
+TXN-100566,2023-09-15,CUST-5288,Basic,Female,35,North Central,1,Bill Payment,Mobile App,Utilities,20423.83,84308.83,3.4,0
+TXN-100774,2023-12-19,CUST-5109,Standard,Male,62,South South,4,ATM Withdrawal,POS Terminal,,11481.51,130857.23,2.4,0
+TXN-100192,2023-03-29,CUST-5178,Standard,Male,21,Southeast,7,POS Purchase,POS Terminal,Investment,38678.59,211054.81,4.9,0
+TXN-100016,2023-01-08,CUST-5203,Basic,Male,47,South South,6,Online Transfer,USSD,Airtime,8610.94,79554.87,3.8,0
+TXN-100260,2023-04-29,CUST-5060,Standard,Male,48,Southwest,2,Bill Payment,Internet Banking,Salary Credit,117290.46,642116.74,4.5,0
+TXN-100752,2023-12-09,CUST-5196,Premium,Female,29,Southeast,6,Credit,Internet Banking,School Fees,2352044.78,2955380.6,4.3,0
+TXN-100509,2023-08-20,CUST-5054,Premium,Male,55,South South,8,Transfer,Mobile App,School Fees,192943.79,148122.04,3.3,0
+TXN-100789,2023-12-26,CUST-5228,Standard,Female,59,North Central,1,POS Purchase,ATM,Healthcare,119850.08,933675.87,4.2,0
+TXN-100500,2023-08-16,CUST-5188,Basic,Male,60,North Central,2,Credit,Mobile App,Fuel,3515.81,365179.95,4.3,0
+TXN-100767,2023-12-16,CUST-5163,Basic,Male,21,North Central,1,POS Purchase,Internet Banking,Airtime,5857.8,428543.04,5.0,0
+TXN-100707,2023-11-19,CUST-5298,Standard,Female,37,Southwest,8,Debit,ATM,School Fees,37184.68,225060.2,3.6,0
+TXN-100445,2023-07-22,CUST-5112,Standard,Male,59,Northwest,8,POS Purchase,POS Terminal,Utilities,207622.05,76757.04,3.4,0
+TXN-100495,2023-08-14,CUST-5015,Premium,Male,32,North Central,2,Online Transfer,ATM,Investment,1433881.43,340807.17,1.9,0
+TXN-100666,2023-10-31,CUST-5017,Premium,Male,61,Southwest,8,Credit,Mobile App,,1270426.65,346577.31,4.9,0
+TXN-100357,2023-06-12,CUST-5028,Standard,Female,45,Southwest,6,Debit,Mobile App,Groceries,115908.17,91852.4,4.9,0
+TXN-100452,2023-07-25,CUST-5105,Premium,Female,58,Southwest,6,Transfer,POS Terminal,Utilities,176376.26,14720.6,2.8,0
+TXN-100557,2023-09-11,CUST-5141,Standard,Male,57,Southwest,1,Transfer,ATM,Insurance,10434.96,2884579.27,3.6,0
+TXN-100658,2023-10-27,CUST-5241,Basic,Female,27,Southeast,2,POS Purchase,Branch,Shopping,14867.6,210079.15,5.0,0
+TXN-100037,2023-01-17,CUST-5180,Standard,Female,44,Northwest,2,ATM Withdrawal,Mobile App,Investment,176350.78,59939.62,2.7,0
+TXN-100216,2023-04-09,CUST-5088,Standard,Female,25,Southwest,4,Credit,Mobile App,Rent,14207.09,1117420.13,5.0,0
+TXN-100047,2023-01-22,CUST-5189,Standard,Female,40,North Central,2,Debit,ATM,Entertainment,47782.53,14980.71,3.8,0
+TXN-100794,2023-12-28,CUST-5232,Standard,Female,24,Southwest,3,ATM Withdrawal,Branch,,53128.95,121728.78,4.2,0
+TXN-100726,2023-11-27,CUST-5151,Basic,Male,62,South South,2,Transfer,POS Terminal,Insurance,8393.42,447499.57,4.5,0
+TXN-100201,2023-04-02,CUST-5171,Premium,Female,18,Northwest,6,Debit,USSD,Healthcare,130411.87,69001.99,3.8,0
+TXN-100755,2023-12-10,CUST-5077,Standard,Male,57,North Central,7,Transfer,Mobile App,Rent,73388.31,171268.64,2.6,0
+TXN-100042,2023-01-20,CUST-5079,Standard,Male,24,North Central,3,Debit,Branch,Groceries,25844.89,38712.91,4.0,1
+TXN-100264,2023-05-01,CUST-5047,Standard,Female,52,Southwest,7,ATM Withdrawal,Mobile App,Insurance,7199.11,30277.37,,0
+TXN-100198,2023-04-01,CUST-5079,Standard,Male,54,Northwest,3,Debit,POS Terminal,Insurance,54444.86,7136.94,3.1,0
+TXN-100670,2023-11-02,CUST-5265,Basic,Male,27,Southwest,6,Debit,USSD,Entertainment,5305.22,28802.66,2.8,0
+TXN-100757,2023-12-11,CUST-5220,Standard,Male,23,Southwest,3,ATM Withdrawal,ATM,Groceries,41845.62,83541.38,2.2,0
+TXN-100245,2023-04-22,CUST-5201,Basic,Female,64,North Central,6,Credit,Mobile App,,5532.24,156865.37,3.5,0
+TXN-100161,2023-03-15,CUST-5266,Basic,Female,54,Southeast,7,Credit,Internet Banking,Shopping,9259.61,1350186.35,4.0,0
+TXN-100676,2023-11-04,CUST-5137,Standard,Male,41,Southwest,1,ATM Withdrawal,USSD,Salary Credit,65703.68,225193.76,2.5,0
+TXN-100588,2023-09-25,CUST-5098,Standard,Female,19,South South,5,ATM Withdrawal,POS Terminal,Entertainment,26551.84,4327.53,5.0,0
+TXN-100764,2023-12-15,CUST-5085,Premium,Female,44,Southwest,2,Online Transfer,Mobile App,,432790.62,207373.92,2.9,0
+TXN-100480,2023-08-07,CUST-5147,Basic,Male,54,North Central,8,POS Purchase,POS Terminal,Fuel,4955.89,14364.88,2.9,0
+TXN-100637,2023-10-18,CUST-5218,Basic,Female,24,North Central,2,Credit,POS Terminal,Shopping,11814.98,247819.72,5.0,0
+TXN-100691,2023-11-11,CUST-5127,Basic,Female,21,Southwest,1,Bill Payment,Branch,Shopping,15271.96,94451.99,2.3,0
+TXN-100603,2023-10-02,CUST-5166,Standard,Male,22,South South,1,Debit,USSD,Rent,17438.82,611577.6,4.3,0
+TXN-100433,2023-07-17,CUST-5121,Basic,Male,45,Southwest,3,Transfer,Branch,Airtime,11686.25,158106.77,2.8,0
+TXN-100516,2023-08-24,CUST-5144,Standard,Female,29,Northwest,4,Debit,USSD,Insurance,55122.05,106411.65,3.1,0
+TXN-100255,2023-04-27,CUST-5190,Standard,Male,64,Southwest,5,Bill Payment,POS Terminal,Salary Credit,93086.23,23871.49,3.0,1
+TXN-100096,2023-02-13,CUST-5071,Standard,Male,49,Southeast,4,Debit,USSD,Shopping,145260.42,334555.36,3.6,0
+TXN-100361,2023-06-14,CUST-5049,Standard,Male,19,Southeast,5,POS Purchase,Branch,Investment,16549.9,1210500.42,1.8,0
+TXN-100168,2023-03-18,CUST-5174,Standard,Female,35,Southwest,6,ATM Withdrawal,Internet Banking,Rent,108264.66,80341.12,2.2,0
+TXN-100654,2023-10-25,CUST-5057,Basic,Male,31,Southwest,5,POS Purchase,POS Terminal,Healthcare,12503.24,20388.89,5.0,0
+TXN-100175,2023-03-21,CUST-5246,Premium,Male,31,Southwest,6,POS Purchase,Mobile App,Investment,575070.91,158378.29,1.3,0
+TXN-100496,2023-08-14,CUST-5135,Standard,Female,35,Northwest,3,Transfer,POS Terminal,Healthcare,38679.94,120292.67,4.0,0
+TXN-100208,2023-04-05,CUST-5224,Standard,Male,23,Southwest,1,ATM Withdrawal,Mobile App,Utilities,78598.3,904398.84,3.2,0
+TXN-100280,2023-05-08,CUST-5058,Standard,Female,50,Northwest,6,Debit,ATM,,63805.68,109935.59,4.5,0
+TXN-100564,2023-09-14,CUST-5008,Standard,Female,50,South South,5,Credit,Mobile App,Fuel,92170.26,9053.66,2.5,0
+TXN-100682,2023-11-07,CUST-5201,Basic,Female,25,North Central,6,POS Purchase,POS Terminal,Healthcare,13210.3,1567245.38,3.4,0
+TXN-100610,2023-10-05,CUST-5144,Standard,Female,60,North Central,3,Credit,Internet Banking,School Fees,95112.46,703358.57,4.0,0
+TXN-100417,2023-07-09,CUST-5250,Standard,Female,24,Northwest,1,Transfer,Branch,Airtime,215925.35,54711.59,3.0,0
+TXN-100237,2023-04-18,CUST-5123,Premium,Male,55,North Central,2,Transfer,Mobile App,Airtime,143040.93,80081.4,3.5,0
+TXN-100613,2023-10-07,CUST-5114,Standard,Male,27,Southwest,5,Debit,Mobile App,,22755.42,166747.87,5.0,0
+TXN-100785,2023-12-24,CUST-5225,Basic,Female,43,Southwest,3,Debit,Internet Banking,Healthcare,56418.57,370139.39,3.4,0
+TXN-100479,2023-08-07,CUST-5122,Standard,Male,30,Southwest,1,ATM Withdrawal,Mobile App,Insurance,53296.9,234395.28,2.5,0
+TXN-100440,2023-07-20,CUST-5265,Basic,Male,32,Southwest,2,Bill Payment,POS Terminal,Airtime,3284.57,39948.62,3.3,0
+TXN-100018,2023-01-09,CUST-5073,Standard,Female,24,South South,5,Transfer,Mobile App,Airtime,122245.96,1025164.16,4.2,0
+TXN-100218,2023-04-10,CUST-5199,Standard,Female,19,Southwest,5,Debit,Mobile App,Investment,16331.45,189794.22,3.3,0
+TXN-100033,2023-01-16,CUST-5052,Basic,Male,54,North Central,6,Transfer,Internet Banking,Fuel,57956.37,66882.39,2.9,0
+TXN-100019,2023-01-09,CUST-5027,Standard,Female,40,Northwest,6,Credit,Mobile App,Healthcare,35480.51,1486878.8,5.0,0
+TXN-100464,2023-07-31,CUST-5009,Basic,Female,34,Southwest,8,Debit,Mobile App,Utilities,16103.36,254103.9,3.0,0
+TXN-100621,2023-10-10,CUST-5009,Basic,Female,53,Southwest,1,ATM Withdrawal,Mobile App,Utilities,3292.25,1364437.53,3.5,0
+TXN-100606,2023-10-04,CUST-5027,Standard,Male,56,Southwest,8,POS Purchase,Mobile App,Healthcare,44778.11,44544.4,4.0,0
+TXN-100704,2023-11-17,CUST-5147,Basic,Male,31,Southwest,2,ATM Withdrawal,Mobile App,Fuel,7717.96,253329.36,3.1,0
+TXN-100792,2023-12-27,CUST-5230,Standard,Male,37,Northwest,2,Credit,Internet Banking,Insurance,107470.35,95082.7,4.4,0
+TXN-100391,2023-06-28,CUST-5011,Standard,Female,52,Southeast,5,Credit,USSD,Airtime,45160.71,266247.38,3.3,0
+TXN-100351,2023-06-09,CUST-5135,Standard,Male,47,South South,4,POS Purchase,POS Terminal,Salary Credit,172694.41,421734.93,3.5,0
+TXN-100420,2023-07-11,CUST-5161,Standard,Male,29,Southwest,2,Credit,Branch,Fuel,30300.38,31723.95,3.6,0
+TXN-100671,2023-11-02,CUST-5166,Standard,Male,31,South South,8,Debit,Mobile App,Fuel,33321.65,484520.28,3.3,0
+TXN-100711,2023-11-20,CUST-5167,Standard,Female,21,South South,5,POS Purchase,POS Terminal,Investment,119910.56,465503.89,2.5,0
+TXN-100128,2023-02-28,CUST-5144,Standard,Female,26,Southwest,3,Debit,Internet Banking,Entertainment,19882.08,474858.38,2.8,0
+TXN-100239,2023-04-19,CUST-5246,Premium,Female,34,Southwest,2,Transfer,POS Terminal,Fuel,633835.87,46154.22,3.6,0
+TXN-100123,2023-02-26,CUST-5141,Standard,Male,40,Southwest,4,Bill Payment,Branch,Healthcare,51892.02,4057217.98,3.1,0
+TXN-100513,2023-08-22,CUST-5144,Standard,Male,42,North Central,6,Debit,Mobile App,Airtime,52329.52,428030.0,2.4,0
+TXN-100077,2023-02-05,CUST-5284,Basic,Male,42,South South,4,POS Purchase,ATM,Groceries,6808.44,225417.86,,0
+TXN-100323,2023-05-28,CUST-5235,Basic,Male,52,North Central,4,Debit,Mobile App,Fuel,4008.7,5623.38,3.1,0
+TXN-100582,2023-09-23,CUST-5057,Basic,Male,42,South South,7,Bill Payment,USSD,Groceries,7905.41,95858.25,2.4,0
+TXN-100034,2023-01-16,CUST-5092,Basic,Female,42,Southwest,4,Debit,POS Terminal,Shopping,10846.56,575083.18,2.6,0
+TXN-100739,2023-12-03,CUST-5147,Basic,Male,18,Northwest,4,Transfer,ATM,Insurance,2792.29,764595.49,3.5,1
+TXN-100331,2023-05-31,CUST-5123,Premium,Female,55,Northwest,7,Debit,Mobile App,Salary Credit,1168500.96,86394.94,5.0,0
+TXN-100267,2023-05-02,CUST-5213,Standard,Male,26,South South,1,Credit,ATM,Investment,54225.17,8920.91,2.5,0
+TXN-100578,2023-09-21,CUST-5000,Standard,Female,37,Southeast,6,Debit,Mobile App,Rent,16122.63,334848.79,3.6,0
+TXN-100052,2023-01-24,CUST-5036,Standard,Female,40,Southwest,3,Debit,Mobile App,Groceries,55876.92,37012.26,3.1,0
+TXN-100512,2023-08-22,CUST-5092,Basic,Female,38,Southwest,5,Bill Payment,Branch,Groceries,3698.91,47697.81,4.2,0
+TXN-100519,2023-08-25,CUST-5277,Standard,Male,26,Southwest,3,Debit,ATM,Shopping,71255.33,249602.54,3.9,0
+TXN-100793,2023-12-28,CUST-5285,Premium,Male,58,Northwest,8,Bill Payment,Branch,Rent,944979.01,2967697.55,3.3,0
+TXN-100664,2023-10-30,CUST-5263,Standard,Female,20,Northwest,1,Transfer,Mobile App,Salary Credit,19988.7,288421.24,2.1,0
+TXN-100213,2023-04-08,CUST-5077,Standard,Female,47,South South,6,Transfer,Internet Banking,Rent,6903.94,31397.94,2.7,0
+TXN-100278,2023-05-07,CUST-5045,Premium,Female,20,Southwest,3,Debit,USSD,Salary Credit,509177.5,146072.97,4.2,0
+TXN-100338,2023-06-03,CUST-5175,Standard,Female,46,Northwest,2,ATM Withdrawal,Mobile App,Fuel,139183.81,1088917.9,3.8,0
+TXN-100731,2023-11-30,CUST-5281,Premium,Female,58,Southwest,7,Debit,POS Terminal,Entertainment,2582212.56,221194.2,2.9,0
+TXN-100125,2023-02-26,CUST-5123,Premium,Male,23,South South,3,Credit,Mobile App,Entertainment,67317.44,85751.35,1.0,0
+TXN-100494,2023-08-14,CUST-5042,Standard,Female,61,Southwest,1,Credit,ATM,Insurance,13187.34,41345.63,2.9,0
+TXN-100590,2023-09-26,CUST-5166,Standard,Male,62,South South,6,Credit,ATM,Salary Credit,110074.25,29438.31,3.8,0
+TXN-100741,2023-12-04,CUST-5216,Standard,Male,54,Southwest,6,Debit,POS Terminal,Investment,8997.86,370262.47,3.2,0
+TXN-100702,2023-11-16,CUST-5061,Standard,Female,39,North Central,5,Credit,POS Terminal,Entertainment,33326.77,1179639.53,2.5,1
+TXN-100401,2023-07-02,CUST-5076,Basic,Male,49,Northwest,7,Credit,Mobile App,School Fees,15528.26,175277.5,3.4,0
+TXN-100487,2023-08-10,CUST-5167,Standard,Male,38,North Central,2,Transfer,USSD,Fuel,84233.46,2766116.89,3.9,0
+TXN-100743,2023-12-05,CUST-5287,Basic,Female,33,North Central,6,Debit,Internet Banking,Groceries,27142.79,8288.4,2.0,0
+TXN-100469,2023-08-02,CUST-5128,Standard,Female,44,Southwest,7,Debit,USSD,Utilities,32247.78,101542.69,3.3,0
+TXN-100302,2023-05-18,CUST-5027,Standard,Female,51,Southwest,4,Bill Payment,Internet Banking,Groceries,75952.86,10232.51,2.9,1
+TXN-100724,2023-11-26,CUST-5008,Standard,Female,23,Southwest,6,Debit,Mobile App,Entertainment,73760.71,107338.4,3.0,1
+TXN-100232,2023-04-16,CUST-5294,Basic,Male,49,Southwest,5,POS Purchase,Branch,Airtime,30362.46,39783.27,3.6,1
+TXN-100071,2023-02-02,CUST-5191,Standard,Female,49,North Central,3,Bill Payment,Mobile App,Shopping,178429.21,13332.84,3.4,0
+TXN-100334,2023-06-02,CUST-5142,Basic,Male,20,Southwest,5,Credit,ATM,Salary Credit,9996.89,23916.38,4.2,0
+TXN-100591,2023-09-27,CUST-5111,Standard,Female,49,South South,5,Transfer,Mobile App,Shopping,14683.64,197320.78,3.9,0
+TXN-100481,2023-08-08,CUST-5196,Premium,Female,30,Southwest,8,Debit,Mobile App,Airtime,552752.8,261045.14,2.3,0
+TXN-100230,2023-04-15,CUST-5026,Standard,Female,39,South South,5,Online Transfer,USSD,Entertainment,63564.38,160373.16,2.9,0
+TXN-100325,2023-05-29,CUST-5161,Standard,Male,62,Northwest,3,POS Purchase,ATM,School Fees,42353.74,10159.73,2.8,0
+TXN-100490,2023-08-12,CUST-5189,Standard,Female,55,South South,7,Debit,USSD,Rent,194412.98,62655.85,5.0,0
+TXN-100346,2023-06-07,CUST-5186,Standard,Female,59,North Central,2,Debit,Mobile App,Entertainment,20521.25,180160.55,4.3,0
+TXN-100370,2023-06-18,CUST-5080,Standard,Female,24,North Central,8,Credit,ATM,School Fees,8551.75,1387097.73,3.1,0
+TXN-100242,2023-04-21,CUST-5207,Basic,Male,31,Southwest,2,Transfer,ATM,Insurance,9783.24,399789.2,1.6,0
+TXN-100306,2023-05-20,CUST-5235,Basic,Female,25,Southwest,6,Bill Payment,Internet Banking,Salary Credit,16628.91,409182.51,4.0,0
+TXN-100595,2023-09-29,CUST-5130,Basic,Female,46,Northwest,3,Debit,POS Terminal,Utilities,4977.11,58086.95,3.4,0
+TXN-100184,2023-03-25,CUST-5244,Standard,Female,31,South South,3,Bill Payment,Branch,Groceries,8108.96,17403.3,4.0,0
+TXN-100715,2023-11-22,CUST-5167,Standard,Male,60,Northwest,7,Credit,Internet Banking,Insurance,80399.48,13540.79,4.2,0
+TXN-100069,2023-02-01,CUST-5193,Basic,Female,43,Southwest,3,POS Purchase,Mobile App,School Fees,32331.15,14351.57,1.9,0
+TXN-100435,2023-07-18,CUST-5050,Basic,Male,26,Southwest,3,Debit,ATM,Entertainment,30060.04,352617.3,4.2,0
+TXN-100660,2023-10-28,CUST-5065,Standard,Female,42,North Central,6,Credit,Internet Banking,Entertainment,39823.69,230374.0,1.7,0
+TXN-100048,2023-01-22,CUST-5018,Standard,Male,33,Southwest,3,Transfer,Branch,Fuel,101005.56,1094287.19,5.0,0
+TXN-100783,2023-12-23,CUST-5269,Basic,Male,59,South South,6,Debit,Mobile App,Investment,20757.66,14121.05,3.4,0
+TXN-100171,2023-03-19,CUST-5225,Basic,Male,45,North Central,2,POS Purchase,Mobile App,Insurance,21869.86,197296.86,2.9,0
+TXN-100659,2023-10-28,CUST-5175,Standard,Male,30,Southwest,3,Debit,Internet Banking,Rent,14449.59,455021.2,4.3,0
+TXN-100655,2023-10-26,CUST-5029,Basic,Male,29,Southeast,3,Credit,Mobile App,Utilities,24082.63,9418.81,3.3,0
+TXN-100321,2023-05-27,CUST-5127,Basic,Female,56,Northwest,8,Credit,Mobile App,School Fees,25748.75,72182.54,3.9,0
+TXN-100448,2023-07-24,CUST-5257,Premium,Female,31,South South,5,Debit,ATM,Rent,571943.12,435403.39,2.1,0
+TXN-100320,2023-05-26,CUST-5071,Standard,Female,40,Southwest,2,ATM Withdrawal,Branch,Entertainment,99816.13,78423.49,3.7,0
+TXN-100410,2023-07-06,CUST-5272,Standard,Male,38,South South,6,Bill Payment,Mobile App,Investment,272357.13,325007.1,2.4,0
+TXN-100674,2023-11-04,CUST-5039,Premium,Female,45,Southeast,2,ATM Withdrawal,Internet Banking,Rent,1060662.49,618515.42,3.2,0
+TXN-100589,2023-09-26,CUST-5000,Standard,Male,55,Southwest,8,Transfer,Internet Banking,Rent,48960.75,265176.32,3.9,1
+TXN-100194,2023-03-30,CUST-5259,Premium,Female,43,Southwest,1,Online Transfer,Internet Banking,Investment,259606.45,31569.94,2.8,0
+TXN-100475,2023-08-05,CUST-5189,Standard,Male,21,Northwest,3,Credit,Mobile App,Insurance,67836.65,45859.11,2.9,0
+TXN-100284,2023-05-10,CUST-5269,Basic,Male,18,Northwest,2,POS Purchase,Mobile App,Utilities,30875.52,66392.15,3.5,0
+TXN-100009,2023-01-05,CUST-5229,Standard,Male,22,Southwest,5,Transfer,ATM,Investment,57000.93,652709.16,2.6,0
+TXN-100295,2023-05-15,CUST-5247,Standard,Female,35,Southwest,2,Transfer,Mobile App,Fuel,329033.1,247110.25,4.7,0
+TXN-100240,2023-04-20,CUST-5158,Standard,Female,34,Northwest,8,Debit,Branch,Shopping,120447.17,11866.83,3.5,0
+TXN-100182,2023-03-24,CUST-5012,Standard,Female,27,North Central,7,Transfer,USSD,Fuel,79333.11,72719.73,3.4,0
+TXN-100074,2023-02-03,CUST-5126,Basic,Female,31,Southeast,7,Debit,Internet Banking,Salary Credit,7393.04,79637.38,2.1,0
+TXN-100720,2023-11-25,CUST-5284,Basic,Male,21,Southwest,3,Transfer,Branch,School Fees,11655.88,5649152.9,4.6,0
+TXN-100246,2023-04-23,CUST-5238,Standard,Male,36,Southwest,4,Credit,Mobile App,Shopping,44535.77,203186.37,3.5,0
+TXN-100148,2023-03-09,CUST-5111,Standard,Male,51,Southwest,4,Transfer,USSD,Airtime,61345.51,337673.65,3.6,0
+TXN-100400,2023-07-02,CUST-5023,Premium,Male,29,Northwest,4,Transfer,Internet Banking,Utilities,389469.51,13632.18,3.3,0
+TXN-100737,2023-12-02,CUST-5250,Standard,Male,54,Northwest,1,POS Purchase,Mobile App,Shopping,29526.27,40151.05,3.7,0
+TXN-100176,2023-03-22,CUST-5167,Standard,Female,37,South South,5,Debit,ATM,Salary Credit,315261.06,40685.02,2.9,0
+TXN-100600,2023-10-01,CUST-5074,Premium,Female,37,South South,8,Debit,POS Terminal,Insurance,110358.74,380075.05,1.8,0
+TXN-100387,2023-06-26,CUST-5171,Premium,Female,51,North Central,6,Transfer,Mobile App,Shopping,350444.25,46458.09,1.9,0
+TXN-100575,2023-09-19,CUST-5099,Standard,Female,31,Southeast,1,Transfer,Mobile App,Groceries,721537.23,1027097.34,5.0,0
+TXN-100438,2023-07-19,CUST-5201,Basic,Female,56,Southwest,5,Bill Payment,Branch,School Fees,39458.69,127415.98,4.9,0
+TXN-100349,2023-06-08,CUST-5266,Basic,Male,36,South South,4,ATM Withdrawal,ATM,Rent,7008.72,38154.28,2.6,0
+TXN-100597,2023-09-29,CUST-5133,Premium,Male,59,South South,3,Credit,USSD,Rent,176916.58,78156.63,3.8,0
+TXN-100533,2023-08-31,CUST-5212,Standard,Female,34,North Central,6,ATM Withdrawal,Mobile App,Shopping,54560.52,119245.56,3.0,0
+TXN-100718,2023-11-24,CUST-5026,Standard,Male,59,Southwest,3,Online Transfer,USSD,Fuel,257322.46,193681.3,4.2,0
+TXN-100355,2023-06-11,CUST-5284,Basic,Female,52,Southeast,7,Debit,USSD,Shopping,3173.4,359315.7,2.6,1
+TXN-100122,2023-02-25,CUST-5196,Premium,Female,33,Southwest,6,Transfer,ATM,,205118.35,459328.34,5.0,0
+TXN-100181,2023-03-24,CUST-5199,Standard,Male,62,Southwest,5,Transfer,Internet Banking,Entertainment,71306.21,260177.8,4.1,0
+TXN-100328,2023-05-30,CUST-5119,Basic,Male,43,South South,6,Debit,USSD,Healthcare,5786.89,5079868.3,2.9,0
+TXN-100134,2023-03-03,CUST-5235,Basic,Male,37,Northwest,1,Transfer,ATM,Salary Credit,18993.77,21969.21,4.8,0
+TXN-100537,2023-09-02,CUST-5033,Standard,Female,28,Southwest,1,POS Purchase,Mobile App,Fuel,39008.83,595432.01,5.0,0
+TXN-100269,2023-05-03,CUST-5175,Standard,Female,62,North Central,1,Debit,POS Terminal,Entertainment,25365.15,654292.77,4.0,0
+TXN-100162,2023-03-15,CUST-5212,Standard,Male,26,South South,4,Debit,Mobile App,Rent,63158.95,139093.79,5.0,0
+TXN-100312,2023-05-23,CUST-5060,Standard,Female,53,Southwest,8,Debit,Mobile App,Insurance,61355.3,620294.69,2.2,0
+TXN-100798,2023-12-30,CUST-5232,Standard,Male,21,Northwest,5,Transfer,USSD,Shopping,54710.2,33292.93,3.2,0
+TXN-100422,2023-07-12,CUST-5281,Premium,Female,39,North Central,1,Debit,Mobile App,Airtime,987474.63,130609.6,4.0,0
+TXN-100166,2023-03-17,CUST-5169,Basic,Female,21,North Central,5,Debit,Internet Banking,Shopping,3373.07,158610.48,4.8,0
+TXN-100099,2023-02-15,CUST-5169,Basic,Female,61,Northwest,7,Credit,ATM,Fuel,131175.44,1161745.37,3.0,0
+TXN-100067,2023-01-31,CUST-5085,Premium,Male,35,North Central,6,Credit,Internet Banking,School Fees,78690.63,340402.15,3.0,0
+TXN-100271,2023-05-04,CUST-5088,Standard,Female,23,Northwest,4,Online Transfer,USSD,School Fees,48921.64,86191.13,3.5,0
+TXN-100092,2023-02-11,CUST-5075,Premium,Female,19,Northwest,2,Credit,POS Terminal,Airtime,25217.33,115008.02,5.0,0
+TXN-100740,2023-12-04,CUST-5076,Basic,Female,61,Southwest,1,Transfer,Branch,,22139.0,17263.59,2.8,0
+TXN-100641,2023-10-20,CUST-5141,Standard,Female,38,North Central,2,Debit,Internet Banking,Investment,57717.5,31367.8,3.6,0
+TXN-100768,2023-12-16,CUST-5260,Standard,Female,37,Southwest,1,POS Purchase,Branch,Insurance,39317.05,33557.74,4.5,0
+TXN-100760,2023-12-13,CUST-5274,Basic,Male,26,North Central,7,Credit,Mobile App,Airtime,4394.47,282218.53,3.0,0
+TXN-100504,2023-08-18,CUST-5237,Basic,Female,42,North Central,5,Debit,Mobile App,Groceries,14832.01,327217.12,3.6,0
+TXN-100282,2023-05-09,CUST-5140,Basic,Male,49,Southeast,3,Debit,POS Terminal,Rent,7165.77,26163.49,3.8,0
+TXN-100112,2023-02-21,CUST-5253,Premium,Male,51,North Central,4,Debit,Mobile App,Insurance,38796.34,345637.85,4.1,0
+TXN-100782,2023-12-23,CUST-5138,Standard,Male,59,Southeast,4,Debit,USSD,Shopping,107040.1,103625.53,3.8,0
+TXN-100224,2023-04-13,CUST-5295,Basic,Male,45,North Central,1,Debit,Internet Banking,Rent,39834.34,78529.99,3.1,0
+TXN-100207,2023-04-05,CUST-5226,Standard,Male,40,Southwest,5,Debit,Internet Banking,Groceries,147414.38,58015.66,3.1,1
+TXN-100535,2023-09-01,CUST-5074,Premium,Male,50,South South,5,Transfer,Mobile App,Shopping,2041845.41,73193.2,3.3,0
+TXN-100498,2023-08-15,CUST-5145,Standard,Male,54,South South,2,POS Purchase,Internet Banking,Airtime,9416.97,129271.98,2.8,0
+TXN-100081,2023-02-06,CUST-5013,Premium,Female,22,Northwest,4,Credit,Mobile App,Insurance,1843737.37,12241.14,5.0,0
+TXN-100545,2023-09-06,CUST-5244,Standard,Female,52,Southwest,3,Transfer,Internet Banking,,50106.38,61136.7,3.6,0
+TXN-100362,2023-06-14,CUST-5191,Standard,Male,35,Southeast,6,Transfer,Internet Banking,Salary Credit,549319.18,255074.7,,0
+TXN-100748,2023-12-07,CUST-5122,Standard,Male,50,Southwest,2,Debit,Internet Banking,Fuel,99672.03,147495.57,1.4,0
+TXN-100205,2023-04-04,CUST-5133,Premium,Female,58,Northwest,2,ATM Withdrawal,ATM,Salary Credit,2926663.13,30790.16,3.9,0
+TXN-100379,2023-06-22,CUST-5156,Standard,Male,30,Southwest,7,Credit,Mobile App,Insurance,62610.11,123507.51,3.8,0
+TXN-100318,2023-05-25,CUST-5270,Premium,Male,24,North Central,7,Credit,Branch,Salary Credit,577768.04,522061.23,4.7,0
+TXN-100443,2023-07-21,CUST-5028,Standard,Male,38,North Central,2,Transfer,USSD,Airtime,153055.92,26238.1,4.7,0
+TXN-100394,2023-06-29,CUST-5225,Basic,Male,34,Northwest,5,Debit,Branch,Investment,10503.1,29060.29,4.2,0
+TXN-100217,2023-04-09,CUST-5132,Basic,Male,45,Southwest,8,Transfer,Internet Banking,Investment,9678.08,310299.78,2.4,0
+TXN-100139,2023-03-05,CUST-5009,Basic,Female,23,North Central,7,POS Purchase,Mobile App,Fuel,34877.78,113368.5,5.0,0
+TXN-100000,2023-01-01,CUST-5062,Premium,Male,39,Northwest,5,Debit,Mobile App,Utilities,105183.81,3460289.32,1.7,0
+TXN-100364,2023-06-15,CUST-5295,Basic,Male,44,North Central,1,Transfer,Branch,School Fees,39511.37,252085.95,4.6,0
+TXN-100021,2023-01-10,CUST-5090,Basic,Male,54,South South,8,Debit,Mobile App,Rent,24267.68,105479.18,5.0,0
+TXN-100581,2023-09-22,CUST-5226,Standard,Female,31,Southwest,3,Debit,Mobile App,Utilities,15971.93,505140.36,3.6,0
+TXN-100241,2023-04-20,CUST-5206,Standard,Female,48,Southwest,8,Debit,Mobile App,Insurance,271331.48,151622.99,3.0,0
+TXN-100531,2023-08-30,CUST-5138,Standard,Male,64,Northwest,4,POS Purchase,ATM,School Fees,54626.33,107574.65,2.7,0
+TXN-100472,2023-08-04,CUST-5145,Standard,Male,26,Southwest,8,Debit,Internet Banking,Investment,146700.08,323669.51,3.4,0
+TXN-100150,2023-03-10,CUST-5250,Standard,Female,44,Southwest,4,POS Purchase,ATM,Airtime,99993.81,1035286.82,3.2,0
+TXN-100744,2023-12-05,CUST-5260,Standard,Female,63,North Central,5,Credit,Mobile App,Groceries,58898.52,24657.82,4.2,0
+TXN-100529,2023-08-29,CUST-5231,Standard,Male,27,Northwest,3,ATM Withdrawal,Branch,Investment,209355.06,598988.47,4.0,0
+TXN-100277,2023-05-07,CUST-5107,Standard,Female,30,Southwest,4,Online Transfer,POS Terminal,Entertainment,182830.9,553079.1,3.1,0
+TXN-100073,2023-02-03,CUST-5217,Basic,Male,21,Northwest,6,Debit,Mobile App,Insurance,16138.54,62952.5,4.4,1
+TXN-100781,2023-12-22,CUST-5103,Basic,Male,33,Southwest,1,Credit,Mobile App,Healthcare,10371.1,82000.81,3.5,1
+TXN-100565,2023-09-15,CUST-5291,Basic,Female,51,Southwest,8,Debit,Mobile App,Shopping,24763.86,120403.24,3.7,0
+TXN-100012,2023-01-06,CUST-5003,Basic,Male,19,North Central,5,Credit,Mobile App,Airtime,6290.63,99501.85,2.6,0
+TXN-100367,2023-06-17,CUST-5235,Basic,Female,41,Southwest,4,Debit,POS Terminal,Investment,4952.49,46440.79,3.5,0
+TXN-100618,2023-10-09,CUST-5059,Standard,Male,26,South South,1,ATM Withdrawal,Mobile App,,48060.87,195919.22,4.8,0
+TXN-100668,2023-11-01,CUST-5248,Basic,Male,26,Southwest,3,POS Purchase,USSD,Airtime,16363.15,76684.89,3.0,0
+TXN-100118,2023-02-23,CUST-5072,Standard,Male,59,South South,6,Credit,Mobile App,,41605.11,98871.16,2.9,0
+TXN-100797,2023-12-30,CUST-5010,Basic,Male,30,Southwest,1,POS Purchase,Internet Banking,Shopping,3358.52,217868.36,2.8,0
+TXN-100710,2023-11-20,CUST-5102,Basic,Male,20,Northwest,5,Transfer,POS Terminal,Shopping,13401.42,21625.91,3.3,0
+TXN-100046,2023-01-21,CUST-5021,Standard,Male,28,Southwest,8,ATM Withdrawal,Mobile App,,49790.39,17233.46,4.0,0
+TXN-100141,2023-03-06,CUST-5077,Standard,Female,36,Northwest,6,Debit,Mobile App,Shopping,348639.48,25587.27,3.1,0
+TXN-100738,2023-12-03,CUST-5026,Standard,Male,26,Northwest,2,Transfer,ATM,Fuel,50116.94,76597.81,4.5,0
+TXN-100727,2023-11-28,CUST-5087,Standard,Female,25,South South,2,Credit,Mobile App,,55367.81,244316.82,2.1,1
+TXN-100163,2023-03-16,CUST-5062,Premium,Female,39,Southwest,7,Transfer,Branch,Utilities,544860.48,101821.98,,0
+TXN-100389,2023-06-27,CUST-5036,Standard,Female,35,Southwest,6,Debit,Mobile App,School Fees,13954.58,939592.88,4.3,1
+TXN-100146,2023-03-08,CUST-5249,Premium,Male,63,South South,8,Bill Payment,USSD,School Fees,17544.36,33982.55,3.7,0
+TXN-100567,2023-09-16,CUST-5120,Standard,Male,32,North Central,2,Debit,Mobile App,Investment,39446.31,30775.07,4.4,0
+TXN-100332,2023-06-01,CUST-5163,Basic,Female,38,Southwest,6,Credit,Mobile App,School Fees,5058.23,306688.96,4.2,0
+TXN-100330,2023-05-31,CUST-5282,Standard,Male,57,North Central,1,Debit,Internet Banking,School Fees,25538.92,1255452.66,3.7,0
+TXN-100765,2023-12-15,CUST-5117,Standard,Male,22,Southeast,3,ATM Withdrawal,POS Terminal,Healthcare,17584.87,461586.74,3.9,0
+TXN-100669,2023-11-01,CUST-5059,Standard,Female,29,Southwest,6,Online Transfer,Branch,Healthcare,26699.36,732998.06,3.0,0
+TXN-100791,2023-12-27,CUST-5087,Standard,Male,61,North Central,4,Credit,USSD,Insurance,23325.77,623548.83,3.5,1
+TXN-100380,2023-06-23,CUST-5198,Standard,Male,51,Southwest,6,Debit,POS Terminal,,17043.58,208071.25,3.1,0
+TXN-100773,2023-12-19,CUST-5144,Standard,Male,43,North Central,2,Transfer,Mobile App,Healthcare,24952.84,49211.03,2.5,0
+TXN-100527,2023-08-29,CUST-5150,Basic,Male,42,Southwest,3,ATM Withdrawal,USSD,Healthcare,4520.79,19636.55,5.0,0
+TXN-100051,2023-01-24,CUST-5061,Standard,Male,63,North Central,8,Online Transfer,POS Terminal,Shopping,64822.69,496544.4,4.5,0
+TXN-100316,2023-05-24,CUST-5213,Standard,Male,52,South South,2,Debit,Mobile App,Insurance,136509.8,141857.69,3.8,1
+TXN-100584,2023-09-24,CUST-5068,Standard,Male,24,North Central,6,Transfer,Branch,Entertainment,18050.25,287992.58,3.6,0
+TXN-100556,2023-09-11,CUST-5037,Standard,Male,57,North Central,6,Credit,POS Terminal,Healthcare,28257.33,54423.09,3.1,1
+TXN-100142,2023-03-06,CUST-5121,Basic,Male,37,North Central,4,Credit,Mobile App,School Fees,33936.51,125398.31,3.4,0
+TXN-100449,2023-07-24,CUST-5108,Premium,Female,59,South South,2,Debit,ATM,Utilities,792040.25,66943.44,3.6,0
+TXN-100044,2023-01-21,CUST-5025,Premium,Male,46,Southwest,3,Bill Payment,Mobile App,Rent,293432.3,59986.42,3.6,0
+TXN-100174,2023-03-21,CUST-5090,Basic,Female,25,North Central,6,Debit,Internet Banking,Utilities,14289.16,500357.87,,0
+TXN-100211,2023-04-07,CUST-5070,Standard,Female,37,South South,3,Debit,USSD,Fuel,88259.45,42004.75,3.7,0
+TXN-100243,2023-04-21,CUST-5229,Standard,Male,25,South South,8,Credit,ATM,Healthcare,93116.23,27691.35,3.7,0
+TXN-100416,2023-07-09,CUST-5254,Basic,Female,51,Southwest,8,Online Transfer,ATM,Entertainment,9959.1,36026.12,2.9,0
+TXN-100761,2023-12-13,CUST-5165,Standard,Male,47,Southeast,8,Credit,Internet Banking,Fuel,10005.59,64495.62,5.0,0
+TXN-100492,2023-08-13,CUST-5212,Standard,Female,48,Northwest,7,Bill Payment,Internet Banking,Rent,72423.95,648126.38,3.5,0

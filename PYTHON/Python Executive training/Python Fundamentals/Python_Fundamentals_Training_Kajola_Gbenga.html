@@ -1,0 +1,1817 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Python Programming Fundamentals - Kajola Gbenga</title>
+<meta name="author" content="Kajola Gbenga">
+<style>
+:root {
+  --navy: #1b2a4a;
+  --accent: #2f6fed;
+  --accent-light: #e8f0fe;
+  --ink: #1f2430;
+  --muted: #5b6472;
+  --code-bg: #0f1729;
+  --code-ink: #d8e3ff;
+  --border: #e3e7ee;
+  --paper: #ffffff;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+  color: var(--ink);
+  background: #f5f7fb;
+  line-height: 1.6;
+}
+.wrap { max-width: 960px; margin: 0 auto; padding: 0 24px 80px; }
+header.cover {
+  background: linear-gradient(135deg, var(--navy), var(--accent));
+  color: white;
+  padding: 90px 24px 70px;
+  text-align: center;
+}
+header.cover h1 { font-size: 2.4rem; margin: 0 0 8px; }
+header.cover p.subtitle { font-size: 1.15rem; opacity: 0.92; max-width: 720px; margin: 0 auto 30px; }
+header.cover .byline { margin-top: 40px; font-size: 1.05rem; }
+header.cover .byline .name { font-weight: 700; font-size: 1.3rem; display: block; }
+header.cover .byline .title { opacity: 0.9; display: block; margin-top: 4px; }
+nav.toc {
+  background: var(--paper);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 24px 28px;
+  margin: -40px auto 40px;
+  max-width: 900px;
+  box-shadow: 0 10px 30px rgba(20,30,60,0.08);
+}
+nav.toc h2 { margin-top: 0; color: var(--navy); }
+nav.toc ul { columns: 1; padding-left: 20px; }
+nav.toc > ul > li { margin-bottom: 10px; font-weight: 600; }
+nav.toc ul ul { margin-top: 6px; font-weight: 400; }
+nav.toc a { color: var(--accent); text-decoration: none; }
+nav.toc a:hover { text-decoration: underline; }
+section.chapter { margin-top: 60px; }
+section.chapter > h2 {
+  color: white;
+  background: var(--navy);
+  padding: 16px 22px;
+  border-radius: 8px;
+  font-size: 1.5rem;
+}
+.chapter-intro {
+  background: var(--accent-light);
+  border-left: 4px solid var(--accent);
+  padding: 16px 20px;
+  border-radius: 0 8px 8px 0;
+  margin: 18px 0 30px;
+  color: var(--ink);
+}
+article.topic {
+  background: var(--paper);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 26px 30px;
+  margin-bottom: 28px;
+}
+article.topic h3 { color: var(--navy); margin-top: 0; border-bottom: 2px solid var(--accent-light); padding-bottom: 10px; }
+pre.code {
+  background: var(--code-bg);
+  color: var(--code-ink);
+  padding: 18px 20px;
+  border-radius: 8px;
+  overflow-x: auto;
+  font-family: "Cascadia Code", Consolas, "Courier New", monospace;
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+pre.output {
+  background: #10241c;
+  color: #baf5cf;
+  padding: 14px 18px;
+  border-radius: 8px;
+  overflow-x: auto;
+  font-family: Consolas, "Courier New", monospace;
+  font-size: 0.9rem;
+}
+.output-label, .breakdown-label, .notes-label {
+  font-weight: 700;
+  color: var(--navy);
+  margin: 18px 0 8px;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+table.breakdown { width: 100%; border-collapse: collapse; margin-top: 8px; }
+table.breakdown th, table.breakdown td { text-align: left; padding: 10px 12px; border: 1px solid var(--border); vertical-align: top; }
+table.breakdown th { background: var(--accent-light); color: var(--navy); width: 38%; }
+table.breakdown code { background: #eef2fb; padding: 2px 6px; border-radius: 4px; font-family: Consolas, monospace; font-size: 0.85rem; }
+.notes { background: #fff8e6; border-left: 4px solid #e8b923; padding: 14px 18px; border-radius: 0 8px 8px 0; margin-top: 16px; }
+.notes ul { margin: 6px 0 0; padding-left: 20px; }
+footer.closing {
+  margin-top: 70px;
+  text-align: center;
+  padding: 40px 20px;
+  background: var(--navy);
+  color: white;
+  border-radius: 10px;
+}
+footer.closing .name { font-size: 1.2rem; font-weight: 700; }
+.badge { display: inline-block; background: var(--accent); color: white; border-radius: 20px; padding: 4px 14px; font-size: 0.8rem; margin-bottom: 10px;}
+</style>
+</head>
+<body>
+<header class="cover">
+  <div class="badge">Complete Training Reference</div>
+  <h1>Python Programming Fundamentals</h1>
+  <p class="subtitle">Data Types, Data Structures, Functions, Loops, If Else, and Match - A Complete Training Reference</p>
+  <div class="byline">
+    <span class="name">Kajola Gbenga</span>
+    <span class="title">Data Scientist &amp; AI Engineer</span>
+  </div>
+</header>
+<div class="wrap">
+<nav class="toc"><h2>Table of Contents</h2><ul><li><a href="#datatypes">Section 1: Python Data Types</a><ul><li><a href="#datatypes-1-1-checking-a-type-with-type">1.1 Checking a Type with type()</a></li><li><a href="#datatypes-1-2-integers--int">1.2 Integers (int)</a></li><li><a href="#datatypes-1-3-floating-point-numbers--float">1.3 Floating Point Numbers (float)</a></li><li><a href="#datatypes-1-4-complex-numbers--complex">1.4 Complex Numbers (complex)</a></li><li><a href="#datatypes-1-5-booleans--bool">1.5 Booleans (bool)</a></li><li><a href="#datatypes-1-6-strings--str">1.6 Strings (str)</a></li><li><a href="#datatypes-1-7-nonetype">1.7 NoneType</a></li><li><a href="#datatypes-1-8-type-casting--conversion">1.8 Type Casting (Conversion)</a></li></ul></li><li><a href="#datastructures">Section 2: Python Data Structures</a><ul><li><a href="#datastructures-2-1-lists">2.1 Lists</a></li><li><a href="#datastructures-2-2-tuples">2.2 Tuples</a></li><li><a href="#datastructures-2-3-sets">2.3 Sets</a></li><li><a href="#datastructures-2-4-dictionaries">2.4 Dictionaries</a></li><li><a href="#datastructures-2-5-nested-data-structures">2.5 Nested Data Structures</a></li><li><a href="#datastructures-2-6-choosing-the-right-data-structure">2.6 Choosing the Right Data Structure</a></li></ul></li><li><a href="#ifelse">Section 3: Conditional Statements (If Else)</a><ul><li><a href="#ifelse-3-1-the-basic-if-statement">3.1 The Basic if Statement</a></li><li><a href="#ifelse-3-2-if---else">3.2 if / else</a></li><li><a href="#ifelse-3-3-if---elif---else-chains">3.3 if / elif / else Chains</a></li><li><a href="#ifelse-3-4-nested-if-statements">3.4 Nested if Statements</a></li><li><a href="#ifelse-3-5-logical-operators-in-conditions">3.5 Logical Operators in Conditions</a></li><li><a href="#ifelse-3-6-the-ternary--conditional--expression">3.6 The Ternary (Conditional) Expression</a></li><li><a href="#ifelse-3-7-truthy-and-falsy-values-in-conditions">3.7 Truthy and Falsy Values in Conditions</a></li></ul></li><li><a href="#loops">Section 4: Loops</a><ul><li><a href="#loops-4-1-the-for-loop-and-range">4.1 The for Loop and range()</a></li><li><a href="#loops-4-2-looping-over-data-structures">4.2 Looping Over Data Structures</a></li><li><a href="#loops-4-3-enumerate---and-zip">4.3 enumerate() and zip()</a></li><li><a href="#loops-4-4-the-while-loop">4.4 The while Loop</a></li><li><a href="#loops-4-5-break--continue--and-pass">4.5 break, continue, and pass</a></li><li><a href="#loops-4-6-the-else-clause-on-loops">4.6 The else Clause on Loops</a></li><li><a href="#loops-4-7-nested-loops">4.7 Nested Loops</a></li></ul></li><li><a href="#functions">Section 5: Functions</a><ul><li><a href="#functions-5-1-defining-and-calling-a-function">5.1 Defining and Calling a Function</a></li><li><a href="#functions-5-2-parameters--arguments--and-default-values">5.2 Parameters, Arguments, and Default Values</a></li><li><a href="#functions-5-3--args-and---kwargs">5.3 *args and **kwargs</a></li><li><a href="#functions-5-4-the-return-statement-and-multiple-return-values">5.4 The return Statement and Multiple Return Values</a></li><li><a href="#functions-5-5-variable-scope--local--global--and-nonlocal">5.5 Variable Scope: Local, Global, and nonlocal</a></li><li><a href="#functions-5-6-lambda--anonymous--functions">5.6 Lambda (Anonymous) Functions</a></li><li><a href="#functions-5-7-docstrings-and-type-hints">5.7 Docstrings and Type Hints</a></li><li><a href="#functions-5-8-recursion">5.8 Recursion</a></li><li><a href="#functions-5-9-higher-order-functions--map--filter--and-functions-as-values">5.9 Higher Order Functions: map, filter, and Functions as Values</a></li></ul></li><li><a href="#match">Section 6: The Match Statement (Structural Pattern Matching)</a><ul><li><a href="#match-6-1-basic-match---case-with-literal-values">6.1 Basic match / case with Literal Values</a></li><li><a href="#match-6-2-matching-multiple-values-with-the----or--pattern">6.2 Matching Multiple Values with the | (Or) Pattern</a></li><li><a href="#match-6-3-capturing-values-and-using-guards--case-----if">6.3 Capturing Values and Using Guards (case ... if)</a></li><li><a href="#match-6-4-matching-sequences--lists-and-tuples">6.4 Matching Sequences (Lists and Tuples)</a></li><li><a href="#match-6-5-matching-mappings--dictionaries">6.5 Matching Mappings (Dictionaries)</a></li><li><a href="#match-6-6-match-vs-if---elif--when-to-use-which">6.6 match vs if / elif: When to Use Which</a></li></ul></li></ul></nav>
+<section class="chapter" id="datatypes"><h2>Section 1: Python Data Types</h2><div class="chapter-intro"><p>Every value in Python has a data type. A data type tells Python what kind of value
+is being stored and what operations can be performed on it. Python is dynamically
+typed, which means you do not need to declare the type of a variable before using
+it - Python figures it out automatically based on the value you assign. Python is
+also strongly typed, which means it will not silently convert between unrelated
+types (for example, adding a string to an integer will raise an error instead of
+guessing what you meant).</p><p>In this section we cover every core built in data type: integers, floating point
+numbers, complex numbers, booleans, strings, and the special value None. We also
+cover how to check a type, and how to convert (cast) one type into another.</p></div><div id="datatypes-1-1-checking-a-type-with-type"><article class="topic">
+<h3>1.1 Checking a Type with type()</h3>
+<p>Before learning individual types, it helps to know how to inspect the type of any
+value. Python gives us the built in type() function for this purpose. Every single
+value that exists in Python, including numbers, text, functions, and even classes,
+has a type that Python can report back to you.</p>
+<pre class="code">age = 30
+print(type(age))
+
+name = "Kajola"
+print(type(name))
+
+is_active = True
+print(type(is_active))
+
+nothing = None
+print(type(nothing))</pre>
+<div class="output-label">Expected Output</div>
+<pre class="output">&lt;class 'int'&gt;
+&lt;class 'str'&gt;
+&lt;class 'bool'&gt;
+&lt;class 'NoneType'&gt;</pre>
+<div class="breakdown-label">Line by Line Breakdown</div>
+<table class="breakdown"><tr><th>Code</th><th>Explanation</th></tr>
+<tr><td><code>age = 30</code></td><td>Creates a variable named age and binds it to the integer value 30.</td></tr>
+<tr><td><code>print(type(age))</code></td><td>Calls the built in type() function on age, which returns the class of the object (int), then prints it.</td></tr>
+<tr><td><code>name = "Kajola"</code></td><td>Creates a variable named name and binds it to a string value.</td></tr>
+<tr><td><code>print(type(name))</code></td><td>Prints the type of name, which will be str (short for string).</td></tr>
+<tr><td><code>is_active = True</code></td><td>Creates a variable is_active and binds it to the boolean value True.</td></tr>
+<tr><td><code>print(type(is_active))</code></td><td>Prints the type of is_active, which will be bool.</td></tr>
+<tr><td><code>nothing = None</code></td><td>Creates a variable nothing and binds it to the special null value None.</td></tr>
+<tr><td><code>print(type(nothing))</code></td><td>Prints the type of nothing, which will be NoneType.</td></tr>
+</table>
+<div class="notes"><div class="notes-label">Notes &amp; Tips</div><ul>
+<li>type() always returns a class object, shown as &lt;class 'typename'&gt;.</li>
+<li>Use isinstance(value, SomeType) instead of type(value) == SomeType when you also want to correctly handle subclasses.</li>
+</ul></div>
+</article></div><div id="datatypes-1-2-integers--int"><article class="topic">
+<h3>1.2 Integers (int)</h3>
+<p>An integer is a whole number, positive, negative, or zero, with no decimal point.
+Python integers have unlimited precision, meaning they can grow as large as your
+computer's memory allows, unlike many other languages where integers overflow
+after a fixed number of bits.</p>
+<pre class="code">positive_number = 42
+negative_number = -17
+zero = 0
+big_number = 123_456_789_000
+
+binary_value = 0b1010
+octal_value = 0o12
+hex_value = 0xA
+
+print(positive_number, negative_number, zero)
+print(big_number)
+print(binary_value, octal_value, hex_value)
+print(type(positive_number))</pre>
+<div class="output-label">Expected Output</div>
+<pre class="output">42 -17 0
+123456789000
+10 10 10
+&lt;class 'int'&gt;</pre>
+<div class="breakdown-label">Line by Line Breakdown</div>
+<table class="breakdown"><tr><th>Code</th><th>Explanation</th></tr>
+<tr><td><code>positive_number = 42</code></td><td>Assigns the whole number 42 to positive_number.</td></tr>
+<tr><td><code>negative_number = -17</code></td><td>Assigns a negative whole number to negative_number using the unary minus sign.</td></tr>
+<tr><td><code>zero = 0</code></td><td>Assigns zero, which is also a valid integer.</td></tr>
+<tr><td><code>big_number = 123_456_789_000</code></td><td>The underscore is a visual separator only, it groups digits for readability and is ignored by Python; the value is one hundred twenty three billion plus.</td></tr>
+<tr><td><code>binary_value = 0b1010</code></td><td>The 0b prefix means the digits that follow are read as binary; 1010 in binary equals 10 in decimal.</td></tr>
+<tr><td><code>octal_value = 0o12</code></td><td>The 0o prefix means base 8; 12 in octal equals 10 in decimal.</td></tr>
+<tr><td><code>hex_value = 0xA</code></td><td>The 0x prefix means base 16; A in hexadecimal equals 10 in decimal.</td></tr>
+<tr><td><code>print(positive_number, negative_number, zero)</code></td><td>Prints the three values separated by a single space, which is the default separator for print().</td></tr>
+<tr><td><code>print(big_number)</code></td><td>Prints the large integer; Python removes the underscores automatically when displaying the number.</td></tr>
+<tr><td><code>print(binary_value, octal_value, hex_value)</code></td><td>All three variables hold the integer value 10, because binary 1010, octal 12, and hex A all represent the same decimal number, so 10 10 10 is printed.</td></tr>
+<tr><td><code>print(type(positive_number))</code></td><td>Confirms the type is int.</td></tr>
+</table>
+<div class="notes"><div class="notes-label">Notes &amp; Tips</div><ul>
+<li>Integer division uses //, while normal division / always returns a float.</li>
+<li>The ** operator raises a number to a power, for example 2 ** 10 equals 1024.</li>
+<li>The modulo operator % returns the remainder of a division, for example 10 % 3 equals 1.</li>
+</ul></div>
+</article></div><div id="datatypes-1-3-floating-point-numbers--float"><article class="topic">
+<h3>1.3 Floating Point Numbers (float)</h3>
+<p>A float represents a real number that includes a decimal point, such as 3.14 or
+-0.5. Floats can also be written using scientific notation. Because computers
+store floats in binary, some decimal values cannot be represented exactly, which
+can lead to tiny rounding differences.</p>
+<pre class="code">price = 19.99
+temperature = -3.5
+scientific = 1.5e3
+
+result = 0.1 + 0.2
+print(price, temperature, scientific)
+print(result)
+print(round(result, 2))
+print(type(price))</pre>
+<div class="output-label">Expected Output</div>
+<pre class="output">19.99 -3.5 1500.0
+0.30000000000000004
+0.3
+&lt;class 'float'&gt;</pre>
+<div class="breakdown-label">Line by Line Breakdown</div>
+<table class="breakdown"><tr><th>Code</th><th>Explanation</th></tr>
+<tr><td><code>price = 19.99</code></td><td>Assigns a floating point value with two decimal places to price.</td></tr>
+<tr><td><code>temperature = -3.5</code></td><td>Assigns a negative float to temperature.</td></tr>
+<tr><td><code>scientific = 1.5e3</code></td><td>The e3 means multiply by 10 to the power of 3, so this equals 1500.0.</td></tr>
+<tr><td><code>result = 0.1 + 0.2</code></td><td>Adds two floats; due to binary floating point representation this produces 0.30000000000000004 instead of exactly 0.3.</td></tr>
+<tr><td><code>print(price, temperature, scientific)</code></td><td>Prints all three float values.</td></tr>
+<tr><td><code>print(result)</code></td><td>Prints the imprecise sum, demonstrating the classic floating point rounding quirk.</td></tr>
+<tr><td><code>print(round(result, 2))</code></td><td>The round() function rounds result to 2 decimal places, producing a clean 0.3 for display purposes.</td></tr>
+<tr><td><code>print(type(price))</code></td><td>Confirms the type is float.</td></tr>
+</table>
+<div class="notes"><div class="notes-label">Notes &amp; Tips</div><ul>
+<li>Never compare floats with == for equality in critical code; instead check that the difference is smaller than a tiny tolerance (epsilon).</li>
+<li>Use the decimal module when you need exact decimal arithmetic, for example in financial calculations.</li>
+</ul></div>
+</article></div><div id="datatypes-1-4-complex-numbers--complex"><article class="topic">
+<h3>1.4 Complex Numbers (complex)</h3>
+<p>Python has built in support for complex numbers, which are made up of a real part
+and an imaginary part. The imaginary part is written using a trailing j.</p>
+<pre class="code">z = 3 + 4j
+print(z)
+print(z.real)
+print(z.imag)
+print(abs(z))
+print(type(z))</pre>
+<div class="output-label">Expected Output</div>
+<pre class="output">(3+4j)
+3.0
+4.0
+5.0
+&lt;class 'complex'&gt;</pre>
+<div class="breakdown-label">Line by Line Breakdown</div>
+<table class="breakdown"><tr><th>Code</th><th>Explanation</th></tr>
+<tr><td><code>z = 3 + 4j</code></td><td>Creates a complex number where 3 is the real part and 4j is the imaginary part.</td></tr>
+<tr><td><code>print(z)</code></td><td>Prints the complex number in the form (3+4j).</td></tr>
+<tr><td><code>print(z.real)</code></td><td>Accesses the .real attribute, returning 3.0 as a float.</td></tr>
+<tr><td><code>print(z.imag)</code></td><td>Accesses the .imag attribute, returning 4.0 as a float.</td></tr>
+<tr><td><code>print(abs(z))</code></td><td>abs() on a complex number returns its magnitude, calculated as the square root of (real squared plus imag squared), which is 5.0 here.</td></tr>
+<tr><td><code>print(type(z))</code></td><td>Confirms the type is complex.</td></tr>
+</table>
+<div class="notes"><div class="notes-label">Notes &amp; Tips</div><ul>
+<li>Complex numbers are mostly used in scientific and engineering computing, for example signal processing.</li>
+</ul></div>
+</article></div><div id="datatypes-1-5-booleans--bool"><article class="topic">
+<h3>1.5 Booleans (bool)</h3>
+<p>A boolean can only ever be True or False. Booleans are the result of comparisons
+and logical operations, and in Python bool is technically a subclass of int, so
+True behaves like 1 and False behaves like 0 in arithmetic.</p>
+<pre class="code">is_valid = True
+is_empty = False
+
+print(is_valid, is_empty)
+print(True + True)
+print(5 &gt; 3)
+print(5 == 3)
+print(bool(0), bool(1), bool(""), bool("hello"), bool([]))</pre>
+<div class="output-label">Expected Output</div>
+<pre class="output">True False
+2
+True
+False
+False True False True False</pre>
+<div class="breakdown-label">Line by Line Breakdown</div>
+<table class="breakdown"><tr><th>Code</th><th>Explanation</th></tr>
+<tr><td><code>is_valid = True</code></td><td>Assigns the boolean literal True.</td></tr>
+<tr><td><code>is_empty = False</code></td><td>Assigns the boolean literal False.</td></tr>
+<tr><td><code>print(is_valid, is_empty)</code></td><td>Prints True False.</td></tr>
+<tr><td><code>print(True + True)</code></td><td>Because bool is a subclass of int, True is treated as 1, so True + True equals 2.</td></tr>
+<tr><td><code>print(5 &gt; 3)</code></td><td>The comparison evaluates to True.</td></tr>
+<tr><td><code>print(5 == 3)</code></td><td>The equality check evaluates to False since 5 does not equal 3.</td></tr>
+<tr><td><code>print(bool(0), bool(1), bool(""), bool("hello"), bool([]))</code></td><td>Shows how bool() converts other types: 0 is falsy, 1 is truthy, an empty string is falsy, a non empty string is truthy, and an empty list is falsy.</td></tr>
+</table>
+<div class="notes"><div class="notes-label">Notes &amp; Tips</div><ul>
+<li>Falsy values in Python include: 0, 0.0, None, False, empty string, empty list, empty tuple, empty dict, and empty set.</li>
+<li>Everything else is truthy by default.</li>
+</ul></div>
+</article></div><div id="datatypes-1-6-strings--str"><article class="topic">
+<h3>1.6 Strings (str)</h3>
+<p>A string is an ordered, immutable sequence of characters used to represent text.
+Strings can be created with single quotes, double quotes, or triple quotes for
+multi line text. Because strings are sequences, they support indexing, slicing,
+and many built in methods.</p>
+<pre class="code">first_name = "Kajola"
+last_name = 'Gbenga'
+full_title = f"{first_name} {last_name} - Data Scientist &amp; AI Engineer"
+
+print(full_title)
+print(full_title.upper())
+print(full_title.lower())
+print(len(full_title))
+print(full_title[0])
+print(full_title[-1])
+print(full_title[0:6])
+print(full_title.split(" "))
+print("-".join(["a", "b", "c"]))
+print(full_title.replace("Engineer", "Practitioner"))</pre>
+<div class="output-label">Expected Output</div>
+<pre class="output">Kajola Gbenga - Data Scientist &amp; AI Engineer
+KAJOLA GBENGA - DATA SCIENTIST &amp; AI ENGINEER
+kajola gbenga - data scientist &amp; ai engineer
+44
+K
+r
+Kajola
+['Kajola', 'Gbenga', '-', 'Data', 'Scientist', '&amp;', 'AI', 'Engineer']
+a-b-c
+Kajola Gbenga - Data Scientist &amp; AI Practitioner</pre>
+<div class="breakdown-label">Line by Line Breakdown</div>
+<table class="breakdown"><tr><th>Code</th><th>Explanation</th></tr>
+<tr><td><code>first_name = "Kajola"</code></td><td>Creates a string using double quotes.</td></tr>
+<tr><td><code>last_name = 'Gbenga'</code></td><td>Creates a string using single quotes; both quote styles behave identically in Python.</td></tr>
+<tr><td><code>full_title = f"{first_name} {last_name} - Data Scientist &amp; AI Engineer"</code></td><td>An f string (formatted string literal) lets you embed variables directly inside {} placeholders; Python replaces them with their values when the string is built.</td></tr>
+<tr><td><code>print(full_title)</code></td><td>Prints the fully assembled string.</td></tr>
+<tr><td><code>print(full_title.upper())</code></td><td>The .upper() method returns a new string with every character converted to uppercase; the original string is not changed because strings are immutable.</td></tr>
+<tr><td><code>print(full_title.lower())</code></td><td>The .lower() method returns a new string in all lowercase.</td></tr>
+<tr><td><code>print(len(full_title))</code></td><td>len() returns the number of characters in the string, including spaces.</td></tr>
+<tr><td><code>print(full_title[0])</code></td><td>Indexing with [0] returns the first character of the string; Python indexing starts at 0.</td></tr>
+<tr><td><code>print(full_title[-1])</code></td><td>Negative indexing counts from the end; [-1] returns the last character.</td></tr>
+<tr><td><code>print(full_title[0:6])</code></td><td>Slicing with [0:6] returns a substring starting at index 0 up to but not including index 6.</td></tr>
+<tr><td><code>print(full_title.split(" "))</code></td><td>The .split(" ") method breaks the string into a list of substrings wherever a space occurs.</td></tr>
+<tr><td><code>print("-".join(["a", "b", "c"]))</code></td><td>The .join() method glues together the items of an iterable using the string it is called on as the separator, producing 'a-b-c'.</td></tr>
+<tr><td><code>print(full_title.replace("Engineer", "Practitioner"))</code></td><td>The .replace() method returns a new string with every occurrence of the first argument swapped for the second argument.</td></tr>
+</table>
+<div class="notes"><div class="notes-label">Notes &amp; Tips</div><ul>
+<li>Strings are immutable, meaning every string method returns a brand new string rather than modifying the original in place.</li>
+<li>Use plain hyphens (-) for ranges or compound words in code and text, not en dashes or em dashes, to keep text consistent and copy paste safe.</li>
+<li>Common string methods worth remembering: strip(), startswith(), endswith(), find(), count(), title(), format().</li>
+</ul></div>
+</article></div><div id="datatypes-1-7-nonetype"><article class="topic">
+<h3>1.7 NoneType</h3>
+<p>None is a special built in constant that represents the absence of a value. It is
+the only value of the type NoneType. It is commonly used as a default placeholder,
+or as the return value of a function that does not explicitly return anything.</p>
+<pre class="code">result = None
+
+def do_nothing():
+    pass
+
+print(result)
+print(result is None)
+print(do_nothing())
+print(type(None))</pre>
+<div class="output-label">Expected Output</div>
+<pre class="output">None
+True
+None
+&lt;class 'NoneType'&gt;</pre>
+<div class="breakdown-label">Line by Line Breakdown</div>
+<table class="breakdown"><tr><th>Code</th><th>Explanation</th></tr>
+<tr><td><code>result = None</code></td><td>Assigns the special None value to result, signalling that there is currently no meaningful value.</td></tr>
+<tr><td><code>def do_nothing(): pass</code></td><td>Defines a function whose body is just the pass keyword, meaning it does nothing and implicitly returns None.</td></tr>
+<tr><td><code>print(result)</code></td><td>Prints None.</td></tr>
+<tr><td><code>print(result is None)</code></td><td>The is operator checks identity; this is the correct and recommended way to check for None, rather than using ==.</td></tr>
+<tr><td><code>print(do_nothing())</code></td><td>Calling the function and printing its return value shows None, because a function with no explicit return statement returns None automatically.</td></tr>
+<tr><td><code>print(type(None))</code></td><td>Shows that the type of None is NoneType.</td></tr>
+</table>
+<div class="notes"><div class="notes-label">Notes &amp; Tips</div><ul>
+<li>Always compare to None using is None or is not None, never == None, because is checks the exact singleton identity.</li>
+</ul></div>
+</article></div><div id="datatypes-1-8-type-casting--conversion"><article class="topic">
+<h3>1.8 Type Casting (Conversion)</h3>
+<p>Type casting is the process of converting a value from one data type into another,
+either explicitly using functions like int(), float(), str(), bool(), or list(),
+or automatically by Python in certain expressions (implicit casting).</p>
+<pre class="code">text_number = "25"
+converted = int(text_number)
+print(converted, type(converted))
+
+number = 25
+as_text = str(number)
+print(as_text, type(as_text))
+
+value = "3.14"
+as_float = float(value)
+print(as_float, type(as_float))
+
+mixed_result = 5 + int("10")
+print(mixed_result)
+
+whole_number = int(9.99)
+print(whole_number)</pre>
+<div class="output-label">Expected Output</div>
+<pre class="output">25 &lt;class 'int'&gt;
+25 &lt;class 'str'&gt;
+3.14 &lt;class 'float'&gt;
+15
+9</pre>
+<div class="breakdown-label">Line by Line Breakdown</div>
+<table class="breakdown"><tr><th>Code</th><th>Explanation</th></tr>
+<tr><td><code>text_number = "25"</code></td><td>Creates a string that looks like a number but is not one yet.</td></tr>
+<tr><td><code>converted = int(text_number)</code></td><td>int() parses the string and converts it into the actual integer 25.</td></tr>
+<tr><td><code>print(converted, type(converted))</code></td><td>Confirms the value is now 25 with type int.</td></tr>
+<tr><td><code>number = 25</code></td><td>A normal integer.</td></tr>
+<tr><td><code>as_text = str(number)</code></td><td>str() converts the integer into the string "25".</td></tr>
+<tr><td><code>print(as_text, type(as_text))</code></td><td>Confirms the value is now the string "25" with type str.</td></tr>
+<tr><td><code>value = "3.14"</code></td><td>A string that represents a decimal number.</td></tr>
+<tr><td><code>as_float = float(value)</code></td><td>float() parses the string and converts it into the actual float 3.14.</td></tr>
+<tr><td><code>print(as_float, type(as_float))</code></td><td>Confirms the conversion worked.</td></tr>
+<tr><td><code>mixed_result = 5 + int("10")</code></td><td>int("10") converts the string to 10 first, then Python adds it to 5, giving 15.</td></tr>
+<tr><td><code>print(mixed_result)</code></td><td>Prints 15.</td></tr>
+<tr><td><code>whole_number = int(9.99)</code></td><td>Converting a float to int truncates (chops off) the decimal part rather than rounding, so this becomes 9, not 10.</td></tr>
+<tr><td><code>print(whole_number)</code></td><td>Prints 9.</td></tr>
+</table>
+<div class="notes"><div class="notes-label">Notes &amp; Tips</div><ul>
+<li>int() on a non numeric string, such as int("abc"), raises a ValueError.</li>
+<li>int() truncates floats toward zero; use round() first if you want normal rounding behaviour.</li>
+</ul></div>
+</article></div></section><section class="chapter" id="datastructures"><h2>Section 2: Python Data Structures</h2><div class="chapter-intro"><p>Data structures are containers that hold multiple values together in an organized
+way. Python ships with four core built in data structures: lists, tuples, sets,
+and dictionaries. Choosing the right one depends on whether you need order,
+whether the collection should be changeable (mutable), and whether duplicate
+values are allowed.</p></div><div id="datastructures-2-1-lists"><article class="topic">
+<h3>2.1 Lists</h3>
+<p>A list is an ordered, mutable (changeable) collection that can hold items of any
+type, including a mix of types. Lists are created with square brackets [] and are
+one of the most frequently used data structures in Python.</p>
+<pre class="code">fruits = ["apple", "banana", "cherry"]
+print(fruits)
+print(fruits[0])
+print(fruits[-1])
+print(fruits[0:2])
+
+fruits.append("date")
+print(fruits)
+
+fruits.insert(1, "avocado")
+print(fruits)
+
+fruits.remove("banana")
+print(fruits)
+
+popped = fruits.pop()
+print(popped, fruits)
+
+fruits.sort()
+print(fruits)
+
+numbers = [4, 2, 9, 1]
+squares = [n ** 2 for n in numbers]
+print(squares)</pre>
+<div class="output-label">Expected Output</div>
+<pre class="output">['apple', 'banana', 'cherry']
+apple
+cherry
+['apple', 'banana']
+['apple', 'banana', 'cherry', 'date']
+['apple', 'avocado', 'banana', 'cherry', 'date']
+['apple', 'avocado', 'cherry', 'date']
+date ['apple', 'avocado', 'cherry']
+['apple', 'avocado', 'cherry']
+[16, 4, 81, 1]</pre>
+<div class="breakdown-label">Line by Line Breakdown</div>
+<table class="breakdown"><tr><th>Code</th><th>Explanation</th></tr>
+<tr><td><code>fruits = ["apple", "banana", "cherry"]</code></td><td>Creates a list of three strings using square brackets, separated by commas.</td></tr>
+<tr><td><code>print(fruits)</code></td><td>Prints the whole list including brackets and quotes.</td></tr>
+<tr><td><code>print(fruits[0])</code></td><td>Indexing returns the first element, apple, since indexing starts at 0.</td></tr>
+<tr><td><code>print(fruits[-1])</code></td><td>Negative indexing returns the last element, cherry.</td></tr>
+<tr><td><code>print(fruits[0:2])</code></td><td>Slicing returns a new list containing elements at index 0 and 1, stopping before index 2: ['apple', 'banana'].</td></tr>
+<tr><td><code>fruits.append("date")</code></td><td>The .append() method adds a single new item to the end of the list, modifying it in place.</td></tr>
+<tr><td><code>print(fruits)</code></td><td>Shows the list now contains four items, ending with date.</td></tr>
+<tr><td><code>fruits.insert(1, "avocado")</code></td><td>The .insert() method places a new item at a specific index, pushing later items one position to the right.</td></tr>
+<tr><td><code>print(fruits)</code></td><td>Shows avocado now sitting at index 1.</td></tr>
+<tr><td><code>fruits.remove("banana")</code></td><td>The .remove() method deletes the first matching value from the list.</td></tr>
+<tr><td><code>print(fruits)</code></td><td>Confirms banana is gone.</td></tr>
+<tr><td><code>popped = fruits.pop()</code></td><td>The .pop() method removes and returns the last item of the list by default.</td></tr>
+<tr><td><code>print(popped, fruits)</code></td><td>Prints the removed item and the list after removal.</td></tr>
+<tr><td><code>fruits.sort()</code></td><td>The .sort() method reorders the list alphabetically in place, returning nothing.</td></tr>
+<tr><td><code>print(fruits)</code></td><td>Shows the alphabetically sorted list.</td></tr>
+<tr><td><code>numbers = [4, 2, 9, 1]</code></td><td>Creates a list of integers in no particular order.</td></tr>
+<tr><td><code>squares = [n ** 2 for n in numbers]</code></td><td>A list comprehension: for every value n in numbers, compute n squared, and collect all results into a brand new list.</td></tr>
+<tr><td><code>print(squares)</code></td><td>Prints the new list of squared values in the same order as numbers.</td></tr>
+</table>
+<div class="notes"><div class="notes-label">Notes &amp; Tips</div><ul>
+<li>Lists are mutable: you can change, add, or remove items after creation.</li>
+<li>Lists allow duplicate values and preserve insertion order.</li>
+<li>Common methods: append, insert, remove, pop, sort, reverse, extend, count, index, clear.</li>
+</ul></div>
+</article></div><div id="datastructures-2-2-tuples"><article class="topic">
+<h3>2.2 Tuples</h3>
+<p>A tuple is an ordered, immutable collection, created with parentheses () or simply
+by separating values with commas. Once created, a tuple's contents cannot be
+changed, which makes tuples useful for fixed collections of values, and for
+returning multiple values from a function safely.</p>
+<pre class="code">coordinates = (10, 20)
+print(coordinates)
+print(coordinates[0])
+
+single_item_tuple = (5,)
+print(type(single_item_tuple))
+
+x, y = coordinates
+print(x, y)
+
+person = ("Kajola", "Gbenga", "Data Scientist &amp; AI Engineer")
+name_first, name_last, job_title = person
+print(name_first, name_last, job_title)
+
+try:
+    coordinates[0] = 99
+except TypeError as error:
+    print("Error:", error)</pre>
+<div class="output-label">Expected Output</div>
+<pre class="output">(10, 20)
+10
+&lt;class 'tuple'&gt;
+10 20
+Kajola Gbenga Data Scientist &amp; AI Engineer
+Error: 'tuple' object does not support item assignment</pre>
+<div class="breakdown-label">Line by Line Breakdown</div>
+<table class="breakdown"><tr><th>Code</th><th>Explanation</th></tr>
+<tr><td><code>coordinates = (10, 20)</code></td><td>Creates a tuple with two integer values using parentheses.</td></tr>
+<tr><td><code>print(coordinates)</code></td><td>Prints the tuple, shown with parentheses: (10, 20).</td></tr>
+<tr><td><code>print(coordinates[0])</code></td><td>Indexing works the same way as lists; this returns 10.</td></tr>
+<tr><td><code>single_item_tuple = (5,)</code></td><td>The trailing comma is required to make Python treat this as a tuple containing one item; without the comma, (5) would just be the integer 5 in parentheses.</td></tr>
+<tr><td><code>print(type(single_item_tuple))</code></td><td>Confirms the type is tuple.</td></tr>
+<tr><td><code>x, y = coordinates</code></td><td>Tuple unpacking: Python assigns the first value of coordinates to x and the second to y in a single line.</td></tr>
+<tr><td><code>print(x, y)</code></td><td>Prints 10 20.</td></tr>
+<tr><td><code>person = ("Kajola", "Gbenga", "Data Scientist &amp; AI Engineer")</code></td><td>Creates a tuple holding three related pieces of information about a person.</td></tr>
+<tr><td><code>name_first, name_last, job_title = person</code></td><td>Unpacks all three values into three separate variables in one statement.</td></tr>
+<tr><td><code>print(name_first, name_last, job_title)</code></td><td>Prints the three unpacked values.</td></tr>
+<tr><td><code>try: coordinates[0] = 99</code></td><td>Attempts to change the first item of the tuple, which is not allowed because tuples are immutable.</td></tr>
+<tr><td><code>except TypeError as error: print("Error:", error)</code></td><td>Python raises a TypeError when you try to modify a tuple; this catches it and prints a friendly message instead of crashing the program.</td></tr>
+</table>
+<div class="notes"><div class="notes-label">Notes &amp; Tips</div><ul>
+<li>Tuples are faster and use less memory than lists because Python knows they cannot change.</li>
+<li>Use a tuple when the collection represents a fixed record, such as a coordinate pair or a database row.</li>
+</ul></div>
+</article></div><div id="datastructures-2-3-sets"><article class="topic">
+<h3>2.3 Sets</h3>
+<p>A set is an unordered collection of unique values, created with curly braces {}
+or the set() function. Sets automatically remove duplicates and are optimized for
+fast membership testing (checking whether a value exists) and mathematical set
+operations such as union and intersection.</p>
+<pre class="code">skills = {"python", "sql", "python", "machine learning"}
+print(skills)
+
+skills.add("deep learning")
+print(skills)
+
+skills.discard("sql")
+print(skills)
+
+set_a = {1, 2, 3, 4}
+set_b = {3, 4, 5, 6}
+
+print(set_a.union(set_b))
+print(set_a.intersection(set_b))
+print(set_a.difference(set_b))
+print(set_a.symmetric_difference(set_b))
+print(3 in set_a)
+
+unique_lengths = {len(word) for word in ["hi", "hello", "hey", "yo"]}
+print(unique_lengths)</pre>
+<div class="output-label">Expected Output</div>
+<pre class="output">{'python', 'sql', 'machine learning'}
+{'python', 'sql', 'machine learning', 'deep learning'}
+{'python', 'machine learning', 'deep learning'}
+{1, 2, 3, 4, 5, 6}
+{3, 4}
+{1, 2}
+{1, 2, 5, 6}
+True
+{2, 3, 5}</pre>
+<div class="breakdown-label">Line by Line Breakdown</div>
+<table class="breakdown"><tr><th>Code</th><th>Explanation</th></tr>
+<tr><td><code>skills = {"python", "sql", "python", "machine learning"}</code></td><td>Creates a set literal; even though python appears twice, sets only keep unique values, so the duplicate is automatically dropped.</td></tr>
+<tr><td><code>print(skills)</code></td><td>Prints the set with only 3 unique items; the display order is not guaranteed.</td></tr>
+<tr><td><code>skills.add("deep learning")</code></td><td>The .add() method inserts a single new item into the set.</td></tr>
+<tr><td><code>print(skills)</code></td><td>Shows the set now containing 4 unique items.</td></tr>
+<tr><td><code>skills.discard("sql")</code></td><td>The .discard() method removes a value if it exists, and does nothing (no error) if it does not exist.</td></tr>
+<tr><td><code>print(skills)</code></td><td>Shows sql has been removed.</td></tr>
+<tr><td><code>set_a = {1, 2, 3, 4}</code></td><td>Creates a set of four integers.</td></tr>
+<tr><td><code>set_b = {3, 4, 5, 6}</code></td><td>Creates another set of four integers, sharing 3 and 4 with set_a.</td></tr>
+<tr><td><code>print(set_a.union(set_b))</code></td><td>union() combines all unique values from both sets: {1, 2, 3, 4, 5, 6}.</td></tr>
+<tr><td><code>print(set_a.intersection(set_b))</code></td><td>intersection() returns only the values present in both sets: {3, 4}.</td></tr>
+<tr><td><code>print(set_a.difference(set_b))</code></td><td>difference() returns values in set_a that are not in set_b: {1, 2}.</td></tr>
+<tr><td><code>print(set_a.symmetric_difference(set_b))</code></td><td>symmetric_difference() returns values that are in exactly one of the two sets, but not both: {1, 2, 5, 6}.</td></tr>
+<tr><td><code>print(3 in set_a)</code></td><td>The in operator checks membership; sets are extremely fast at this check regardless of size, evaluating to True.</td></tr>
+<tr><td><code>unique_lengths = {len(word) for word in ["hi", "hello", "hey", "yo"]}</code></td><td>A set comprehension: computes the length of each word and keeps only the unique lengths, here {2, 5, 3}.</td></tr>
+<tr><td><code>print(unique_lengths)</code></td><td>Prints the resulting set of unique word lengths.</td></tr>
+</table>
+<div class="notes"><div class="notes-label">Notes &amp; Tips</div><ul>
+<li>Sets are unordered, so you cannot index into them with [0].</li>
+<li>Sets cannot contain mutable items such as lists, because every item must be hashable.</li>
+<li>Use frozenset() for an immutable version of a set.</li>
+</ul></div>
+</article></div><div id="datastructures-2-4-dictionaries"><article class="topic">
+<h3>2.4 Dictionaries</h3>
+<p>A dictionary stores data as key to value pairs, created with curly braces {} using
+a colon to separate each key from its value. Dictionaries are ordered (since
+Python 3.7, insertion order is preserved) and mutable, and keys must be unique and
+hashable (typically strings, numbers, or tuples).</p>
+<pre class="code">profile = {
+    "name": "Kajola Gbenga",
+    "title": "Data Scientist &amp; AI Engineer",
+    "skills": ["Python", "Machine Learning", "Data Analysis"]
+}
+
+print(profile["name"])
+print(profile.get("title"))
+print(profile.get("company", "Not specified"))
+
+profile["years_experience"] = 5
+print(profile)
+
+profile["title"] = "Senior Data Scientist &amp; AI Engineer"
+print(profile["title"])
+
+for key, value in profile.items():
+    print(key, "-&gt;", value)
+
+print(list(profile.keys()))
+print(list(profile.values()))
+
+squares_map = {n: n ** 2 for n in range(1, 6)}
+print(squares_map)</pre>
+<div class="output-label">Expected Output</div>
+<pre class="output">Kajola Gbenga
+Data Scientist &amp; AI Engineer
+Not specified
+{'name': 'Kajola Gbenga', 'title': 'Data Scientist &amp; AI Engineer', 'skills': ['Python', 'Machine Learning', 'Data Analysis'], 'years_experience': 5}
+Senior Data Scientist &amp; AI Engineer
+name -&gt; Kajola Gbenga
+title -&gt; Senior Data Scientist &amp; AI Engineer
+skills -&gt; ['Python', 'Machine Learning', 'Data Analysis']
+years_experience -&gt; 5
+['name', 'title', 'skills', 'years_experience']
+['Kajola Gbenga', 'Senior Data Scientist &amp; AI Engineer', 'Python', 'Machine Learning', 'Data Analysis', 5]
+{1: 1, 2: 4, 3: 9, 4: 16, 5: 25}</pre>
+<div class="breakdown-label">Line by Line Breakdown</div>
+<table class="breakdown"><tr><th>Code</th><th>Explanation</th></tr>
+<tr><td><code>profile = { ... }</code></td><td>Creates a dictionary with three keys: name, title, and skills; the value for skills is itself a list, showing dictionaries can hold any type of value including other data structures.</td></tr>
+<tr><td><code>print(profile["name"])</code></td><td>Square bracket access looks up the value associated with the key name.</td></tr>
+<tr><td><code>print(profile.get("title"))</code></td><td>The .get() method also looks up a key, but is safer than [] because it returns None (or a default) instead of raising an error when the key is missing.</td></tr>
+<tr><td><code>print(profile.get("company", "Not specified"))</code></td><td>Since the key company does not exist, .get() returns the provided default value, 'Not specified', instead of crashing.</td></tr>
+<tr><td><code>profile["years_experience"] = 5</code></td><td>Assigning to a new key adds it to the dictionary; this is how you both add and update entries.</td></tr>
+<tr><td><code>print(profile)</code></td><td>Shows the dictionary now has four key value pairs.</td></tr>
+<tr><td><code>profile["title"] = "Senior Data Scientist &amp; AI Engineer"</code></td><td>Assigning to an existing key overwrites (updates) its value.</td></tr>
+<tr><td><code>print(profile["title"])</code></td><td>Confirms the title was updated.</td></tr>
+<tr><td><code>for key, value in profile.items():</code></td><td>The .items() method returns each key value pair as a tuple, which the for loop unpacks into key and value on every iteration.</td></tr>
+<tr><td><code>    print(key, "-&gt;", value)</code></td><td>Prints every key alongside its corresponding value, one line per pair.</td></tr>
+<tr><td><code>print(list(profile.keys()))</code></td><td>The .keys() method returns a view of just the keys; wrapping it in list() converts that view into a plain list for display.</td></tr>
+<tr><td><code>print(list(profile.values()))</code></td><td>The .values() method returns a view of just the values, likewise converted to a list.</td></tr>
+<tr><td><code>squares_map = {n: n ** 2 for n in range(1, 6)}</code></td><td>A dictionary comprehension: for every n from 1 to 5, create a key n mapped to its square as the value.</td></tr>
+<tr><td><code>print(squares_map)</code></td><td>Prints the resulting dictionary of numbers mapped to their squares.</td></tr>
+</table>
+<div class="notes"><div class="notes-label">Notes &amp; Tips</div><ul>
+<li>Accessing a missing key with [] raises a KeyError; .get() avoids that risk.</li>
+<li>Dictionary keys must be immutable and hashable (strings, numbers, tuples of immutables); values can be anything.</li>
+<li>Use .update() to merge another dictionary's keys and values into an existing one.</li>
+</ul></div>
+</article></div><div id="datastructures-2-5-nested-data-structures"><article class="topic">
+<h3>2.5 Nested Data Structures</h3>
+<p>Data structures can be combined and nested inside one another, which is how you
+represent more complex, real world data such as a list of dictionaries or a
+dictionary of lists.</p>
+<pre class="code">team = [
+    {"name": "Kajola Gbenga", "role": "Data Scientist &amp; AI Engineer"},
+    {"name": "Ada Lovelace", "role": "Mathematician"},
+]
+
+for member in team:
+    print(member["name"], "-", member["role"])
+
+nested_dict = {
+    "engineering": ["Kajola Gbenga", "Ada Lovelace"],
+    "design": ["Grace Hopper"]
+}
+
+print(nested_dict["engineering"][0])</pre>
+<div class="output-label">Expected Output</div>
+<pre class="output">Kajola Gbenga - Data Scientist &amp; AI Engineer
+Ada Lovelace - Mathematician
+Kajola Gbenga</pre>
+<div class="breakdown-label">Line by Line Breakdown</div>
+<table class="breakdown"><tr><th>Code</th><th>Explanation</th></tr>
+<tr><td><code>team = [ {...}, {...} ]</code></td><td>Creates a list where each element is a dictionary, representing a collection of records, similar to rows in a table.</td></tr>
+<tr><td><code>for member in team:</code></td><td>Loops over the list; on each pass, member is bound to one dictionary.</td></tr>
+<tr><td><code>    print(member["name"], "-", member["role"])</code></td><td>Looks up the name and role keys inside the current dictionary and prints them.</td></tr>
+<tr><td><code>nested_dict = { "engineering": [...], "design": [...] }</code></td><td>Creates a dictionary where each value is itself a list of names, grouping people by department.</td></tr>
+<tr><td><code>print(nested_dict["engineering"][0])</code></td><td>First looks up the engineering key to get its list, then indexes into that list with [0] to get the first name.</td></tr>
+</table>
+<div class="notes"><div class="notes-label">Notes &amp; Tips</div><ul>
+<li>Nesting can go arbitrarily deep, but very deep nesting can hurt readability; consider custom classes for complex real world models.</li>
+<li>JSON data (common in APIs) maps directly onto Python lists and dictionaries, which is why this pattern is so common.</li>
+</ul></div>
+</article></div><div id="datastructures-2-6-choosing-the-right-data-structure"><article class="topic">
+<h3>2.6 Choosing the Right Data Structure</h3>
+<p>A quick decision guide for picking the correct built in data structure for a
+given problem.</p>
+<pre class="code"># List      -&gt; ordered, changeable, allows duplicates       e.g. a shopping cart
+# Tuple     -&gt; ordered, unchangeable, allows duplicates     e.g. a GPS coordinate
+# Set       -&gt; unordered, changeable, no duplicates         e.g. unique tags
+# Dictionary-&gt; ordered (3.7+), changeable, unique keys      e.g. a user profile</pre>
+<div class="breakdown-label">Line by Line Breakdown</div>
+<table class="breakdown"><tr><th>Code</th><th>Explanation</th></tr>
+<tr><td><code># List -&gt; ordered, changeable, allows duplicates</code></td><td>Choose a list when order matters and you expect to add, remove, or change items, and duplicates are acceptable, such as a shopping cart.</td></tr>
+<tr><td><code># Tuple -&gt; ordered, unchangeable, allows duplicates</code></td><td>Choose a tuple when the data is a fixed grouping that should never change, such as a coordinate pair (latitude, longitude).</td></tr>
+<tr><td><code># Set -&gt; unordered, changeable, no duplicates</code></td><td>Choose a set when you only care about unique membership and need fast lookups, such as a collection of unique tags.</td></tr>
+<tr><td><code># Dictionary -&gt; ordered (3.7+), changeable, unique keys</code></td><td>Choose a dictionary when you need to look values up by a meaningful label (key), such as a user profile with named fields.</td></tr>
+</table>
+<div class="notes"><div class="notes-label">Notes &amp; Tips</div><ul>
+<li>When in doubt, start with a list or dictionary; they are the most flexible and most commonly used structures.</li>
+</ul></div>
+</article></div></section><section class="chapter" id="ifelse"><h2>Section 3: Conditional Statements (If Else)</h2><div class="chapter-intro"><p>Conditional statements let a program make decisions and execute different blocks
+of code depending on whether certain conditions are True or False. Python uses
+the keywords if, elif (short for else if), and else, combined with indentation
+(whitespace) to define which code belongs to which branch, instead of curly
+braces used by many other languages.</p></div><div id="ifelse-3-1-the-basic-if-statement"><article class="topic">
+<h3>3.1 The Basic if Statement</h3>
+<p>The simplest conditional runs a block of code only when a condition evaluates to
+True. If the condition is False, the indented block is simply skipped.</p>
+<pre class="code">age = 20
+
+if age &gt;= 18:
+    print("You are an adult.")
+
+print("This always runs.")</pre>
+<div class="output-label">Expected Output</div>
+<pre class="output">You are an adult.
+This always runs.</pre>
+<div class="breakdown-label">Line by Line Breakdown</div>
+<table class="breakdown"><tr><th>Code</th><th>Explanation</th></tr>
+<tr><td><code>age = 20</code></td><td>Creates a variable age holding the integer 20.</td></tr>
+<tr><td><code>if age &gt;= 18:</code></td><td>Evaluates the condition age &gt;= 18; since 20 is greater than or equal to 18, this evaluates to True, so the indented block underneath will run.</td></tr>
+<tr><td><code>    print("You are an adult.")</code></td><td>This line is indented, which tells Python it belongs to the if block; it only runs when the condition above is True.</td></tr>
+<tr><td><code>print("This always runs.")</code></td><td>This line is not indented under the if, so it is outside the conditional and always executes regardless of the condition's result.</td></tr>
+</table>
+<div class="notes"><div class="notes-label">Notes &amp; Tips</div><ul>
+<li>Indentation is not just a style choice in Python, it is required syntax that defines code blocks.</li>
+<li>The standard indentation is 4 spaces per level.</li>
+</ul></div>
+</article></div><div id="ifelse-3-2-if---else"><article class="topic">
+<h3>3.2 if / else</h3>
+<p>Adding an else block lets you run an alternative block of code when the condition
+is False, so exactly one of the two branches will always execute.</p>
+<pre class="code">age = 15
+
+if age &gt;= 18:
+    print("You are an adult.")
+else:
+    print("You are a minor.")</pre>
+<div class="output-label">Expected Output</div>
+<pre class="output">You are a minor.</pre>
+<div class="breakdown-label">Line by Line Breakdown</div>
+<table class="breakdown"><tr><th>Code</th><th>Explanation</th></tr>
+<tr><td><code>age = 15</code></td><td>Creates a variable age holding 15.</td></tr>
+<tr><td><code>if age &gt;= 18:</code></td><td>Evaluates to False since 15 is not greater than or equal to 18.</td></tr>
+<tr><td><code>    print("You are an adult.")</code></td><td>This block is skipped because the condition was False.</td></tr>
+<tr><td><code>else:</code></td><td>Marks the alternative branch, which runs only when the if condition above is False.</td></tr>
+<tr><td><code>    print("You are a minor.")</code></td><td>This line executes because the if condition failed.</td></tr>
+</table>
+<div class="notes"><div class="notes-label">Notes &amp; Tips</div><ul>
+<li>An else block never has its own condition; it simply catches every case not covered by the if (and any elif) above it.</li>
+</ul></div>
+</article></div><div id="ifelse-3-3-if---elif---else-chains"><article class="topic">
+<h3>3.3 if / elif / else Chains</h3>
+<p>When you have more than two possible outcomes, use one or more elif blocks
+between if and else. Python checks each condition in order from top to bottom
+and runs the first block whose condition is True, then skips the rest entirely.</p>
+<pre class="code">score = 72
+
+if score &gt;= 90:
+    grade = "A"
+elif score &gt;= 80:
+    grade = "B"
+elif score &gt;= 70:
+    grade = "C"
+elif score &gt;= 60:
+    grade = "D"
+else:
+    grade = "F"
+
+print("Grade:", grade)</pre>
+<div class="output-label">Expected Output</div>
+<pre class="output">Grade: C</pre>
+<div class="breakdown-label">Line by Line Breakdown</div>
+<table class="breakdown"><tr><th>Code</th><th>Explanation</th></tr>
+<tr><td><code>score = 72</code></td><td>Creates a variable score holding 72.</td></tr>
+<tr><td><code>if score &gt;= 90:</code></td><td>Checks if score is at least 90; 72 is not, so this is False and Python moves on to the next condition.</td></tr>
+<tr><td><code>elif score &gt;= 80:</code></td><td>Checks if score is at least 80; still False, Python continues checking.</td></tr>
+<tr><td><code>elif score &gt;= 70:</code></td><td>Checks if score is at least 70; this is True because 72 is greater than or equal to 70, so grade is set to C and Python skips every remaining elif and else below.</td></tr>
+<tr><td><code>elif score &gt;= 60:</code></td><td>This condition is never even evaluated because a previous condition already matched.</td></tr>
+<tr><td><code>else:</code></td><td>Also skipped, since one branch already matched.</td></tr>
+<tr><td><code>print("Grade:", grade)</code></td><td>Prints the final grade, which is C.</td></tr>
+</table>
+<div class="notes"><div class="notes-label">Notes &amp; Tips</div><ul>
+<li>Only one branch in an if/elif/else chain ever runs, the first one whose condition is True.</li>
+<li>Order your conditions carefully: broader or later conditions should not accidentally shadow earlier, more specific ones.</li>
+</ul></div>
+</article></div><div id="ifelse-3-4-nested-if-statements"><article class="topic">
+<h3>3.4 Nested if Statements</h3>
+<p>An if statement can contain another if statement inside its block. This is
+called nesting, and is useful when a decision depends on more than one
+independent condition being checked in stages.</p>
+<pre class="code">has_account = True
+balance = 150
+
+if has_account:
+    if balance &gt; 0:
+        print("Account is active with a positive balance.")
+    else:
+        print("Account exists but balance is zero or negative.")
+else:
+    print("No account found.")</pre>
+<div class="output-label">Expected Output</div>
+<pre class="output">Account is active with a positive balance.</pre>
+<div class="breakdown-label">Line by Line Breakdown</div>
+<table class="breakdown"><tr><th>Code</th><th>Explanation</th></tr>
+<tr><td><code>has_account = True</code></td><td>A boolean flag indicating an account exists.</td></tr>
+<tr><td><code>balance = 150</code></td><td>The account's current balance.</td></tr>
+<tr><td><code>if has_account:</code></td><td>Checks the outer condition first; it is True, so Python enters this block.</td></tr>
+<tr><td><code>    if balance &gt; 0:</code></td><td>Inside the outer block, a second, inner if checks whether the balance is positive; 150 is greater than 0, so this is True.</td></tr>
+<tr><td><code>        print("Account is active with a positive balance.")</code></td><td>Runs because both the outer and inner conditions were True.</td></tr>
+<tr><td><code>    else:</code></td><td>The inner else, which would run only if balance were 0 or negative.</td></tr>
+<tr><td><code>        print("Account exists but balance is zero or negative.")</code></td><td>Skipped in this run.</td></tr>
+<tr><td><code>else:</code></td><td>The outer else, which would run only if has_account were False.</td></tr>
+<tr><td><code>    print("No account found.")</code></td><td>Skipped in this run since has_account was True.</td></tr>
+</table>
+<div class="notes"><div class="notes-label">Notes &amp; Tips</div><ul>
+<li>Deep nesting (many levels) can hurt readability; combining conditions with and/or is often clearer.</li>
+</ul></div>
+</article></div><div id="ifelse-3-5-logical-operators-in-conditions"><article class="topic">
+<h3>3.5 Logical Operators in Conditions</h3>
+<p>The logical operators and, or, and not let you combine or invert multiple
+conditions into a single boolean expression.</p>
+<pre class="code">age = 25
+has_id = True
+
+if age &gt;= 18 and has_id:
+    print("Entry allowed.")
+
+is_weekend = False
+is_holiday = True
+
+if is_weekend or is_holiday:
+    print("No work today.")
+
+is_logged_in = False
+if not is_logged_in:
+    print("Please log in first.")</pre>
+<div class="output-label">Expected Output</div>
+<pre class="output">Entry allowed.
+No work today.
+Please log in first.</pre>
+<div class="breakdown-label">Line by Line Breakdown</div>
+<table class="breakdown"><tr><th>Code</th><th>Explanation</th></tr>
+<tr><td><code>if age &gt;= 18 and has_id:</code></td><td>The and operator requires both conditions to be True for the whole expression to be True; here age &gt;= 18 is True and has_id is True, so the combined expression is True.</td></tr>
+<tr><td><code>    print("Entry allowed.")</code></td><td>Runs because both sub conditions passed.</td></tr>
+<tr><td><code>if is_weekend or is_holiday:</code></td><td>The or operator only requires at least one condition to be True; is_weekend is False but is_holiday is True, so the combined expression is True.</td></tr>
+<tr><td><code>    print("No work today.")</code></td><td>Runs because at least one condition was True.</td></tr>
+<tr><td><code>if not is_logged_in:</code></td><td>The not operator flips a boolean; is_logged_in is False, so not is_logged_in becomes True.</td></tr>
+<tr><td><code>    print("Please log in first.")</code></td><td>Runs because the negated condition evaluated to True.</td></tr>
+</table>
+<div class="notes"><div class="notes-label">Notes &amp; Tips</div><ul>
+<li>Python short circuits and/or: with and, if the first condition is False, the second is never evaluated; with or, if the first condition is True, the second is never evaluated.</li>
+<li>Parentheses can be used to group complex conditions and make intent explicit, for example (a and b) or c.</li>
+</ul></div>
+</article></div><div id="ifelse-3-6-the-ternary--conditional--expression"><article class="topic">
+<h3>3.6 The Ternary (Conditional) Expression</h3>
+<p>Python supports a compact one line form of if/else called a conditional
+expression, useful for simple value selection without writing a full multi line
+block.</p>
+<pre class="code">age = 17
+status = "Adult" if age &gt;= 18 else "Minor"
+print(status)
+
+numbers = [3, 8, 5, 12, 1]
+labels = ["even" if n % 2 == 0 else "odd" for n in numbers]
+print(labels)</pre>
+<div class="output-label">Expected Output</div>
+<pre class="output">Minor
+['odd', 'even', 'odd', 'even', 'odd']</pre>
+<div class="breakdown-label">Line by Line Breakdown</div>
+<table class="breakdown"><tr><th>Code</th><th>Explanation</th></tr>
+<tr><td><code>status = "Adult" if age &gt;= 18 else "Minor"</code></td><td>Reads as: evaluate age &gt;= 18 first; if True, the whole expression becomes 'Adult', otherwise it becomes 'Minor'. Since age is 17, the condition is False, so status becomes 'Minor'.</td></tr>
+<tr><td><code>print(status)</code></td><td>Prints Minor.</td></tr>
+<tr><td><code>numbers = [3, 8, 5, 12, 1]</code></td><td>A list of integers.</td></tr>
+<tr><td><code>labels = ["even" if n % 2 == 0 else "odd" for n in numbers]</code></td><td>Combines a ternary expression with a list comprehension: for every n in numbers, label it 'even' if divisible by 2 with no remainder, otherwise label it 'odd'.</td></tr>
+<tr><td><code>print(labels)</code></td><td>Prints the list of labels corresponding to each number in order.</td></tr>
+</table>
+<div class="notes"><div class="notes-label">Notes &amp; Tips</div><ul>
+<li>The ternary expression is best kept simple; nesting multiple ternaries on one line quickly becomes hard to read.</li>
+</ul></div>
+</article></div><div id="ifelse-3-7-truthy-and-falsy-values-in-conditions"><article class="topic">
+<h3>3.7 Truthy and Falsy Values in Conditions</h3>
+<p>Any value, not just True or False, can be used directly as a condition. Python
+converts it to a boolean behind the scenes according to its truthy or falsy
+nature, which was introduced in section 1.5.</p>
+<pre class="code">username = ""
+
+if username:
+    print("Welcome,", username)
+else:
+    print("Username cannot be empty.")
+
+items = []
+if items:
+    print("Cart has items.")
+else:
+    print("Cart is empty.")</pre>
+<div class="output-label">Expected Output</div>
+<pre class="output">Username cannot be empty.
+Cart is empty.</pre>
+<div class="breakdown-label">Line by Line Breakdown</div>
+<table class="breakdown"><tr><th>Code</th><th>Explanation</th></tr>
+<tr><td><code>username = ""</code></td><td>An empty string, which is falsy in Python.</td></tr>
+<tr><td><code>if username:</code></td><td>Since an empty string is falsy, this condition evaluates to False without needing an explicit comparison like username != "".</td></tr>
+<tr><td><code>    print("Welcome,", username)</code></td><td>Skipped because the condition was False.</td></tr>
+<tr><td><code>else:</code></td><td>Runs instead, since the if branch was False.</td></tr>
+<tr><td><code>    print("Username cannot be empty.")</code></td><td>Prints this message.</td></tr>
+<tr><td><code>items = []</code></td><td>An empty list, also falsy.</td></tr>
+<tr><td><code>if items:</code></td><td>Evaluates to False since the list is empty.</td></tr>
+<tr><td><code>    print("Cart has items.")</code></td><td>Skipped.</td></tr>
+<tr><td><code>else: print("Cart is empty.")</code></td><td>Runs instead.</td></tr>
+</table>
+<div class="notes"><div class="notes-label">Notes &amp; Tips</div><ul>
+<li>Writing if items: is considered more idiomatic (Pythonic) than writing if len(items) &gt; 0:.</li>
+<li>Be careful: the number 0 and the float 0.0 are also falsy, which can cause subtle bugs if you actually meant to check for None specifically.</li>
+</ul></div>
+</article></div></section><section class="chapter" id="loops"><h2>Section 4: Loops</h2><div class="chapter-intro"><p>Loops let you repeat a block of code multiple times, either a set number of
+times, or until a condition is no longer True. Python provides two loop
+constructs: the for loop, used to iterate over a known sequence or iterable, and
+the while loop, used to repeat while a condition remains True.</p></div><div id="loops-4-1-the-for-loop-and-range"><article class="topic">
+<h3>4.1 The for Loop and range()</h3>
+<p>A for loop iterates over the items of any iterable (a list, string, tuple,
+dictionary, set, or the output of range()) one at a time. range() generates a
+sequence of numbers and is commonly used when you need to repeat something a
+specific number of times.</p>
+<pre class="code">for i in range(5):
+    print(i)
+
+for i in range(2, 10, 2):
+    print(i, end=" ")
+print()
+
+for letter in "Python":
+    print(letter, end="-")
+print()</pre>
+<div class="output-label">Expected Output</div>
+<pre class="output">0
+1
+2
+3
+4
+2 4 6 8 
+P-y-t-h-o-n-</pre>
+<div class="breakdown-label">Line by Line Breakdown</div>
+<table class="breakdown"><tr><th>Code</th><th>Explanation</th></tr>
+<tr><td><code>for i in range(5):</code></td><td>range(5) generates the sequence 0, 1, 2, 3, 4 (5 numbers total, starting at 0 and stopping before 5); the loop variable i takes each of these values in turn.</td></tr>
+<tr><td><code>    print(i)</code></td><td>Prints the current value of i on each of the 5 iterations.</td></tr>
+<tr><td><code>for i in range(2, 10, 2):</code></td><td>range(start, stop, step) generates numbers starting at 2, stopping before 10, incrementing by 2 each time: 2, 4, 6, 8.</td></tr>
+<tr><td><code>    print(i, end=" ")</code></td><td>Prints each value followed by a single space instead of a newline, because end=" " overrides print()'s default newline ending.</td></tr>
+<tr><td><code>print()</code></td><td>An empty print() call simply moves to a new line after the loop finishes.</td></tr>
+<tr><td><code>for letter in "Python":</code></td><td>Strings are iterable, so this loop visits each character of 'Python' one at a time: P, y, t, h, o, n.</td></tr>
+<tr><td><code>    print(letter, end="-")</code></td><td>Prints each character followed by a hyphen instead of a newline.</td></tr>
+<tr><td><code>print()</code></td><td>Moves to a new line after the loop completes.</td></tr>
+</table>
+<div class="notes"><div class="notes-label">Notes &amp; Tips</div><ul>
+<li>range(stop) starts at 0 by default and steps by 1.</li>
+<li>range(start, stop) lets you choose a custom starting point.</li>
+<li>range(start, stop, step) additionally lets you choose the increment, and step can be negative to count downward.</li>
+</ul></div>
+</article></div><div id="loops-4-2-looping-over-data-structures"><article class="topic">
+<h3>4.2 Looping Over Data Structures</h3>
+<p>For loops work directly on lists, tuples, sets, and dictionaries, each with its
+own natural iteration behaviour.</p>
+<pre class="code">fruits = ["apple", "banana", "cherry"]
+for fruit in fruits:
+    print(fruit)
+
+profile = {"name": "Kajola Gbenga", "title": "Data Scientist &amp; AI Engineer"}
+for key in profile:
+    print(key, "=", profile[key])
+
+for key, value in profile.items():
+    print(f"{key}: {value}")</pre>
+<div class="output-label">Expected Output</div>
+<pre class="output">apple
+banana
+cherry
+name = Kajola Gbenga
+title = Data Scientist &amp; AI Engineer
+name: Kajola Gbenga
+title: Data Scientist &amp; AI Engineer</pre>
+<div class="breakdown-label">Line by Line Breakdown</div>
+<table class="breakdown"><tr><th>Code</th><th>Explanation</th></tr>
+<tr><td><code>for fruit in fruits:</code></td><td>Iterates directly over the list, binding fruit to each element in order: apple, then banana, then cherry.</td></tr>
+<tr><td><code>    print(fruit)</code></td><td>Prints each fruit name on its own line.</td></tr>
+<tr><td><code>for key in profile:</code></td><td>Iterating over a dictionary by default iterates over its keys only, not the values.</td></tr>
+<tr><td><code>    print(key, "=", profile[key])</code></td><td>For each key, looks up the corresponding value with profile[key] and prints key = value.</td></tr>
+<tr><td><code>for key, value in profile.items():</code></td><td>Using .items() gives you both the key and the value together as a tuple on each iteration, which the loop unpacks into key and value.</td></tr>
+<tr><td><code>    print(f"{key}: {value}")</code></td><td>Uses an f string to neatly print each pair as 'key: value'.</td></tr>
+</table>
+<div class="notes"><div class="notes-label">Notes &amp; Tips</div><ul>
+<li>Looping directly over a dictionary (for key in profile) only gives you keys; use .items() when you need both key and value.</li>
+</ul></div>
+</article></div><div id="loops-4-3-enumerate---and-zip"><article class="topic">
+<h3>4.3 enumerate() and zip()</h3>
+<p>enumerate() adds an automatic counter to any loop, so you get both the index and
+the item. zip() lets you loop over two or more iterables together, pairing up
+their items position by position.</p>
+<pre class="code">fruits = ["apple", "banana", "cherry"]
+for index, fruit in enumerate(fruits):
+    print(index, fruit)
+
+for index, fruit in enumerate(fruits, start=1):
+    print(index, fruit)
+
+names = ["Kajola", "Ada", "Grace"]
+roles = ["Data Scientist &amp; AI Engineer", "Mathematician", "Programmer"]
+
+for name, role in zip(names, roles):
+    print(name, "-", role)</pre>
+<div class="output-label">Expected Output</div>
+<pre class="output">0 apple
+1 banana
+2 cherry
+1 apple
+2 banana
+3 cherry
+Kajola - Data Scientist &amp; AI Engineer
+Ada - Mathematician
+Grace - Programmer</pre>
+<div class="breakdown-label">Line by Line Breakdown</div>
+<table class="breakdown"><tr><th>Code</th><th>Explanation</th></tr>
+<tr><td><code>for index, fruit in enumerate(fruits):</code></td><td>enumerate(fruits) produces pairs of (index, item) starting from 0 by default; the loop unpacks each pair into index and fruit.</td></tr>
+<tr><td><code>    print(index, fruit)</code></td><td>Prints the position (0, 1, 2) alongside each fruit name.</td></tr>
+<tr><td><code>for index, fruit in enumerate(fruits, start=1):</code></td><td>Passing start=1 makes the counter begin at 1 instead of 0, which is useful for human friendly numbering.</td></tr>
+<tr><td><code>    print(index, fruit)</code></td><td>Prints 1 apple, 2 banana, 3 cherry.</td></tr>
+<tr><td><code>for name, role in zip(names, roles):</code></td><td>zip() walks through both names and roles at the same time, pairing the first item of each, then the second item of each, and so on.</td></tr>
+<tr><td><code>    print(name, "-", role)</code></td><td>Prints each matched name and role pair on one line.</td></tr>
+</table>
+<div class="notes"><div class="notes-label">Notes &amp; Tips</div><ul>
+<li>If the iterables passed to zip() have different lengths, zip() stops at the shortest one.</li>
+<li>enumerate() is almost always preferable to manually managing a separate counter variable.</li>
+</ul></div>
+</article></div><div id="loops-4-4-the-while-loop"><article class="topic">
+<h3>4.4 The while Loop</h3>
+<p>A while loop repeats its block as long as its condition remains True. It is best
+used when you do not know in advance exactly how many times you need to repeat,
+only the condition under which you should keep going.</p>
+<pre class="code">count = 0
+while count &lt; 5:
+    print("Count is", count)
+    count += 1
+
+print("Loop finished, final count:", count)</pre>
+<div class="output-label">Expected Output</div>
+<pre class="output">Count is 0
+Count is 1
+Count is 2
+Count is 3
+Count is 4
+Loop finished, final count: 5</pre>
+<div class="breakdown-label">Line by Line Breakdown</div>
+<table class="breakdown"><tr><th>Code</th><th>Explanation</th></tr>
+<tr><td><code>count = 0</code></td><td>Initializes a counter variable at 0; while loops almost always need a variable set up before the loop starts.</td></tr>
+<tr><td><code>while count &lt; 5:</code></td><td>Checks the condition before every iteration; as long as count is less than 5, the loop body runs.</td></tr>
+<tr><td><code>    print("Count is", count)</code></td><td>Prints the current count on each pass through the loop.</td></tr>
+<tr><td><code>    count += 1</code></td><td>Increments count by 1 each time; this is essential, without it the condition would always stay True and the loop would run forever (an infinite loop).</td></tr>
+<tr><td><code>print("Loop finished, final count:", count)</code></td><td>Runs once the while condition finally becomes False, when count reaches 5.</td></tr>
+</table>
+<div class="notes"><div class="notes-label">Notes &amp; Tips</div><ul>
+<li>Always make sure something inside a while loop eventually makes the condition False, or you risk an infinite loop.</li>
+<li>while True: is a common pattern for loops that should run until an explicit break is hit.</li>
+</ul></div>
+</article></div><div id="loops-4-5-break--continue--and-pass"><article class="topic">
+<h3>4.5 break, continue, and pass</h3>
+<p>break immediately exits the nearest enclosing loop entirely. continue skips the
+rest of the current iteration and jumps straight to the next one. pass does
+nothing at all and is used as a placeholder where Python syntax requires a
+statement.</p>
+<pre class="code">for number in range(10):
+    if number == 5:
+        break
+    print(number)
+
+print("---")
+
+for number in range(6):
+    if number % 2 == 0:
+        continue
+    print(number)
+
+print("---")
+
+for number in range(3):
+    if number == 1:
+        pass
+    print("Processed", number)</pre>
+<div class="output-label">Expected Output</div>
+<pre class="output">0
+1
+2
+3
+4
+---
+1
+3
+5
+---
+Processed 0
+Processed 1
+Processed 2</pre>
+<div class="breakdown-label">Line by Line Breakdown</div>
+<table class="breakdown"><tr><th>Code</th><th>Explanation</th></tr>
+<tr><td><code>for number in range(10): if number == 5: break</code></td><td>Loops from 0 up to 9, but as soon as number equals 5, break immediately stops the loop entirely, so numbers 5 through 9 are never even reached.</td></tr>
+<tr><td><code>    print(number)</code></td><td>Prints 0, 1, 2, 3, 4 before the break triggers on 5.</td></tr>
+<tr><td><code>for number in range(6): if number % 2 == 0: continue</code></td><td>Loops from 0 to 5; whenever number is even, continue skips the print() below and jumps straight to the next iteration.</td></tr>
+<tr><td><code>    print(number)</code></td><td>As a result only the odd numbers 1, 3, 5 get printed.</td></tr>
+<tr><td><code>for number in range(3): if number == 1: pass</code></td><td>pass is a no operation placeholder; it does not skip or stop anything, it simply does nothing and execution continues to the next line normally.</td></tr>
+<tr><td><code>    print("Processed", number)</code></td><td>This line runs on every single iteration (0, 1, and 2) because pass did not alter control flow at all.</td></tr>
+</table>
+<div class="notes"><div class="notes-label">Notes &amp; Tips</div><ul>
+<li>pass is often used as a temporary stand in while writing a function or if block you plan to fill in later.</li>
+<li>break and continue also work inside while loops, with identical meaning.</li>
+</ul></div>
+</article></div><div id="loops-4-6-the-else-clause-on-loops"><article class="topic">
+<h3>4.6 The else Clause on Loops</h3>
+<p>Both for and while loops support an optional else block, which runs only if the
+loop completed naturally without hitting a break statement. This is a Python
+specific feature not found in many other languages.</p>
+<pre class="code">numbers = [2, 4, 6, 8]
+
+for n in numbers:
+    if n % 2 != 0:
+        print("Found an odd number!")
+        break
+else:
+    print("All numbers are even.")</pre>
+<div class="output-label">Expected Output</div>
+<pre class="output">All numbers are even.</pre>
+<div class="breakdown-label">Line by Line Breakdown</div>
+<table class="breakdown"><tr><th>Code</th><th>Explanation</th></tr>
+<tr><td><code>for n in numbers:</code></td><td>Loops through each number in the list.</td></tr>
+<tr><td><code>    if n % 2 != 0:</code></td><td>Checks whether the current number is odd.</td></tr>
+<tr><td><code>        print("Found an odd number!"); break</code></td><td>Would run and then exit the loop early if an odd number were found.</td></tr>
+<tr><td><code>else:</code></td><td>This else belongs to the for loop, not to the if statement above it; it only executes if the loop finished all its iterations without ever hitting break.</td></tr>
+<tr><td><code>    print("All numbers are even.")</code></td><td>Since every number in the list is even, the loop never breaks, so this line runs after the loop completes normally.</td></tr>
+</table>
+<div class="notes"><div class="notes-label">Notes &amp; Tips</div><ul>
+<li>A common mental model: the loop's else means 'no break happened'.</li>
+<li>This pattern is often used for search style loops, for example searching for an item and reporting 'not found' only if the search completes without success.</li>
+</ul></div>
+</article></div><div id="loops-4-7-nested-loops"><article class="topic">
+<h3>4.7 Nested Loops</h3>
+<p>A loop can be placed inside another loop. The inner loop completes all of its
+iterations for every single iteration of the outer loop, which is useful for
+working with grid like or two dimensional data.</p>
+<pre class="code">for row in range(1, 4):
+    for col in range(1, 4):
+        print(f"({row},{col})", end=" ")
+    print()</pre>
+<div class="output-label">Expected Output</div>
+<pre class="output">(1,1) (1,2) (1,3) 
+(2,1) (2,2) (2,3) 
+(3,1) (3,2) (3,3) </pre>
+<div class="breakdown-label">Line by Line Breakdown</div>
+<table class="breakdown"><tr><th>Code</th><th>Explanation</th></tr>
+<tr><td><code>for row in range(1, 4):</code></td><td>The outer loop runs 3 times, with row taking the values 1, 2, 3 in turn.</td></tr>
+<tr><td><code>    for col in range(1, 4):</code></td><td>For every single value of row, this inner loop runs completely from start to finish, with col taking the values 1, 2, 3.</td></tr>
+<tr><td><code>        print(f"({row},{col})", end=" ")</code></td><td>Prints the current row and column pair, staying on the same line because of end=" ".</td></tr>
+<tr><td><code>    print()</code></td><td>This is indented to belong to the outer loop, not the inner loop, so it runs once after each complete pass of the inner loop, moving to a new line to start the next row.</td></tr>
+</table>
+<div class="notes"><div class="notes-label">Notes &amp; Tips</div><ul>
+<li>Pay close attention to indentation in nested loops, since it determines exactly which loop a line belongs to.</li>
+<li>Nested loops are commonly used for processing matrices, grids, and multiplication tables.</li>
+</ul></div>
+</article></div></section><section class="chapter" id="functions"><h2>Section 5: Functions</h2><div class="chapter-intro"><p>A function is a reusable, named block of code that performs a specific task. It
+can accept input values (parameters), perform operations, and optionally send a
+result back (return). Functions let you avoid repeating yourself, organize code
+into logical pieces, and make programs easier to test and reason about.</p></div><div id="functions-5-1-defining-and-calling-a-function"><article class="topic">
+<h3>5.1 Defining and Calling a Function</h3>
+<p>Functions are created with the def keyword, followed by a name, parentheses that
+may contain parameters, and a colon. The indented block underneath is the
+function body, which runs each time the function is called.</p>
+<pre class="code">def greet():
+    print("Hello, welcome to the training!")
+
+greet()
+greet()</pre>
+<div class="output-label">Expected Output</div>
+<pre class="output">Hello, welcome to the training!
+Hello, welcome to the training!</pre>
+<div class="breakdown-label">Line by Line Breakdown</div>
+<table class="breakdown"><tr><th>Code</th><th>Explanation</th></tr>
+<tr><td><code>def greet():</code></td><td>The def keyword begins a function definition; greet is the function's name, and the empty parentheses mean it accepts no parameters.</td></tr>
+<tr><td><code>    print("Hello, welcome to the training!")</code></td><td>The indented body is the code that runs every time greet is called.</td></tr>
+<tr><td><code>greet()</code></td><td>Calling the function by name followed by parentheses actually executes its body, printing the message.</td></tr>
+<tr><td><code>greet()</code></td><td>Calling it again runs the exact same body a second time, demonstrating reusability.</td></tr>
+</table>
+<div class="notes"><div class="notes-label">Notes &amp; Tips</div><ul>
+<li>Defining a function does not run it; only calling it with () executes the body.</li>
+<li>Function names should be lowercase with underscores between words, following Python's naming convention (snake_case).</li>
+</ul></div>
+</article></div><div id="functions-5-2-parameters--arguments--and-default-values"><article class="topic">
+<h3>5.2 Parameters, Arguments, and Default Values</h3>
+<p>Parameters are named placeholders listed in a function's definition. Arguments
+are the actual values you supply when calling the function. A parameter can have
+a default value, which is used automatically if the caller does not provide one.</p>
+<pre class="code">def greet(name, greeting="Hello"):
+    print(f"{greeting}, {name}!")
+
+greet("Kajola")
+greet("Kajola", "Welcome")
+greet(name="Ada", greeting="Hi")</pre>
+<div class="output-label">Expected Output</div>
+<pre class="output">Hello, Kajola!
+Welcome, Kajola!
+Hi, Ada!</pre>
+<div class="breakdown-label">Line by Line Breakdown</div>
+<table class="breakdown"><tr><th>Code</th><th>Explanation</th></tr>
+<tr><td><code>def greet(name, greeting="Hello"):</code></td><td>Defines two parameters: name, which has no default and must be provided, and greeting, which defaults to 'Hello' if not supplied.</td></tr>
+<tr><td><code>    print(f"{greeting}, {name}!")</code></td><td>Builds and prints a message using both parameters.</td></tr>
+<tr><td><code>greet("Kajola")</code></td><td>Calls the function providing only the required name argument; greeting falls back to its default value 'Hello'.</td></tr>
+<tr><td><code>greet("Kajola", "Welcome")</code></td><td>Calls the function providing both arguments positionally, in the same order they were defined, overriding the default greeting.</td></tr>
+<tr><td><code>greet(name="Ada", greeting="Hi")</code></td><td>Calls the function using keyword arguments, explicitly naming each parameter; this makes the call self documenting and order independent.</td></tr>
+</table>
+<div class="notes"><div class="notes-label">Notes &amp; Tips</div><ul>
+<li>Parameters without default values must come before parameters with default values in a function definition.</li>
+<li>Keyword arguments improve readability, especially for functions with many parameters.</li>
+</ul></div>
+</article></div><div id="functions-5-3--args-and---kwargs"><article class="topic">
+<h3>5.3 *args and **kwargs</h3>
+<p>*args lets a function accept any number of extra positional arguments, collected
+into a tuple. **kwargs lets a function accept any number of extra keyword
+arguments, collected into a dictionary. These are used when you do not know in
+advance exactly how many arguments will be passed.</p>
+<pre class="code">def add_all(*args):
+    total = 0
+    for number in args:
+        total += number
+    return total
+
+print(add_all(1, 2, 3))
+print(add_all(10, 20, 30, 40))
+
+def build_profile(**kwargs):
+    for key, value in kwargs.items():
+        print(f"{key}: {value}")
+
+build_profile(name="Kajola Gbenga", title="Data Scientist &amp; AI Engineer")</pre>
+<div class="output-label">Expected Output</div>
+<pre class="output">6
+100
+name: Kajola Gbenga
+title: Data Scientist &amp; AI Engineer</pre>
+<div class="breakdown-label">Line by Line Breakdown</div>
+<table class="breakdown"><tr><th>Code</th><th>Explanation</th></tr>
+<tr><td><code>def add_all(*args):</code></td><td>The * before args tells Python to collect any number of positional arguments passed into a single tuple named args.</td></tr>
+<tr><td><code>    total = 0</code></td><td>Initializes an accumulator variable to zero before summing.</td></tr>
+<tr><td><code>    for number in args:</code></td><td>Loops through every value that was packed into the args tuple.</td></tr>
+<tr><td><code>        total += number</code></td><td>Adds each number to the running total; += is shorthand for total = total + number.</td></tr>
+<tr><td><code>    return total</code></td><td>Sends the final accumulated sum back to the caller.</td></tr>
+<tr><td><code>print(add_all(1, 2, 3))</code></td><td>Calls the function with 3 arguments, which are packed into args as (1, 2, 3); the function returns 6.</td></tr>
+<tr><td><code>print(add_all(10, 20, 30, 40))</code></td><td>Calls the same function with 4 arguments this time, proving *args works with any number of inputs; returns 100.</td></tr>
+<tr><td><code>def build_profile(**kwargs):</code></td><td>The ** before kwargs tells Python to collect any number of keyword arguments passed into a single dictionary named kwargs.</td></tr>
+<tr><td><code>    for key, value in kwargs.items():</code></td><td>Iterates over the collected keyword arguments as key value pairs.</td></tr>
+<tr><td><code>        print(f"{key}: {value}")</code></td><td>Prints each keyword argument's name and value.</td></tr>
+<tr><td><code>build_profile(name="Kajola Gbenga", title="Data Scientist &amp; AI Engineer")</code></td><td>Calls the function with two keyword arguments, which become the dictionary {'name': 'Kajola Gbenga', 'title': 'Data Scientist &amp; AI Engineer'} inside kwargs.</td></tr>
+</table>
+<div class="notes"><div class="notes-label">Notes &amp; Tips</div><ul>
+<li>The names args and kwargs are just convention, only the * and ** symbols actually matter to Python.</li>
+<li>A function can accept regular parameters, *args, and **kwargs all together, in that order.</li>
+</ul></div>
+</article></div><div id="functions-5-4-the-return-statement-and-multiple-return-values"><article class="topic">
+<h3>5.4 The return Statement and Multiple Return Values</h3>
+<p>return sends a value back to wherever the function was called from, and
+immediately ends the function's execution at that point. A function can return
+multiple values at once by separating them with commas, which Python packs into
+a tuple automatically.</p>
+<pre class="code">def square(number):
+    return number ** 2
+
+result = square(5)
+print(result)
+
+def min_max(numbers):
+    return min(numbers), max(numbers)
+
+lowest, highest = min_max([4, 9, 1, 7])
+print(lowest, highest)
+
+def check_even(number):
+    if number % 2 == 0:
+        return True
+    return False
+
+print(check_even(4), check_even(7))</pre>
+<div class="output-label">Expected Output</div>
+<pre class="output">25
+1 9
+True False</pre>
+<div class="breakdown-label">Line by Line Breakdown</div>
+<table class="breakdown"><tr><th>Code</th><th>Explanation</th></tr>
+<tr><td><code>def square(number):</code></td><td>Defines a function taking one parameter, number.</td></tr>
+<tr><td><code>    return number ** 2</code></td><td>Computes number raised to the power of 2 and immediately sends that value back to the caller.</td></tr>
+<tr><td><code>result = square(5)</code></td><td>Calls square with 5; the returned value, 25, is stored in result.</td></tr>
+<tr><td><code>print(result)</code></td><td>Prints 25.</td></tr>
+<tr><td><code>def min_max(numbers):</code></td><td>Defines a function taking a list called numbers.</td></tr>
+<tr><td><code>    return min(numbers), max(numbers)</code></td><td>Returns two values separated by a comma; Python automatically bundles them into a tuple (min_value, max_value) behind the scenes.</td></tr>
+<tr><td><code>lowest, highest = min_max([4, 9, 1, 7])</code></td><td>Calls the function and immediately unpacks the returned tuple into two separate variables.</td></tr>
+<tr><td><code>print(lowest, highest)</code></td><td>Prints 1 9, the smallest and largest values in the list.</td></tr>
+<tr><td><code>def check_even(number): if number % 2 == 0: return True</code></td><td>Returns True as soon as the condition is met; return exits the function immediately, so nothing after it in the function runs for this case.</td></tr>
+<tr><td><code>    return False</code></td><td>This line is only reached when the if condition above was False, that is, when the number is odd.</td></tr>
+<tr><td><code>print(check_even(4), check_even(7))</code></td><td>Prints True False, since 4 is even and 7 is odd.</td></tr>
+</table>
+<div class="notes"><div class="notes-label">Notes &amp; Tips</div><ul>
+<li>A function without an explicit return statement returns None automatically.</li>
+<li>return immediately exits the function; any code written after a return statement inside the same block will never execute.</li>
+</ul></div>
+</article></div><div id="functions-5-5-variable-scope--local--global--and-nonlocal"><article class="topic">
+<h3>5.5 Variable Scope: Local, Global, and nonlocal</h3>
+<p>Scope determines where in your code a variable can be seen and used. A variable
+created inside a function is local to that function and disappears once the
+function finishes. A variable created outside all functions is global and can be
+read from anywhere, though modifying it from inside a function requires the
+global keyword.</p>
+<pre class="code">counter = 0
+
+def increment():
+    global counter
+    counter += 1
+
+increment()
+increment()
+print(counter)
+
+def outer():
+    message = "hello"
+
+    def inner():
+        nonlocal message
+        message = "hello from inner"
+
+    inner()
+    print(message)
+
+outer()</pre>
+<div class="output-label">Expected Output</div>
+<pre class="output">2
+hello from inner</pre>
+<div class="breakdown-label">Line by Line Breakdown</div>
+<table class="breakdown"><tr><th>Code</th><th>Explanation</th></tr>
+<tr><td><code>counter = 0</code></td><td>Creates a global variable counter, accessible from anywhere in the module.</td></tr>
+<tr><td><code>def increment():</code></td><td>Defines a function meant to modify the global counter.</td></tr>
+<tr><td><code>    global counter</code></td><td>Without this line, writing counter += 1 inside the function would create a brand new local variable instead of modifying the global one; global tells Python to use the outer, module level counter.</td></tr>
+<tr><td><code>    counter += 1</code></td><td>Increments the actual global counter by 1.</td></tr>
+<tr><td><code>increment()</code></td><td>Calls the function once; counter becomes 1.</td></tr>
+<tr><td><code>increment()</code></td><td>Calls it again; counter becomes 2.</td></tr>
+<tr><td><code>print(counter)</code></td><td>Prints 2, confirming the global variable was truly modified.</td></tr>
+<tr><td><code>def outer():</code></td><td>Defines an outer function containing a local variable and a nested inner function.</td></tr>
+<tr><td><code>    message = "hello"</code></td><td>A variable local to outer.</td></tr>
+<tr><td><code>    def inner():</code></td><td>A function defined inside another function is called a nested function; it can see variables from its enclosing (outer) function.</td></tr>
+<tr><td><code>        nonlocal message</code></td><td>Tells Python that message inside inner refers to the message variable from the enclosing outer function, not a new local variable; without nonlocal, the assignment below would create a separate local variable instead.</td></tr>
+<tr><td><code>        message = "hello from inner"</code></td><td>Updates the enclosing function's message variable.</td></tr>
+<tr><td><code>    inner()</code></td><td>Calls inner, which updates outer's message variable.</td></tr>
+<tr><td><code>    print(message)</code></td><td>Prints the updated value, proving nonlocal successfully modified the enclosing scope's variable.</td></tr>
+<tr><td><code>outer()</code></td><td>Calls outer, which triggers the whole sequence above.</td></tr>
+</table>
+<div class="notes"><div class="notes-label">Notes &amp; Tips</div><ul>
+<li>Python's scope lookup order is Local, Enclosing, Global, Built in, often remembered by the acronym LEGB.</li>
+<li>Overusing global variables is generally discouraged, since it can make code harder to reason about and test; prefer passing values as arguments and returning results.</li>
+</ul></div>
+</article></div><div id="functions-5-6-lambda--anonymous--functions"><article class="topic">
+<h3>5.6 Lambda (Anonymous) Functions</h3>
+<p>A lambda is a small, unnamed function defined in a single expression, most often
+used for short throwaway logic, such as a custom sort key or a quick calculation
+passed directly into another function.</p>
+<pre class="code">square = lambda x: x ** 2
+print(square(6))
+
+add = lambda a, b: a + b
+print(add(3, 4))
+
+people = [("Kajola", 30), ("Ada", 25), ("Grace", 35)]
+people_sorted = sorted(people, key=lambda person: person[1])
+print(people_sorted)</pre>
+<div class="output-label">Expected Output</div>
+<pre class="output">36
+7
+[('Ada', 25), ('Kajola', 30), ('Grace', 35)]</pre>
+<div class="breakdown-label">Line by Line Breakdown</div>
+<table class="breakdown"><tr><th>Code</th><th>Explanation</th></tr>
+<tr><td><code>square = lambda x: x ** 2</code></td><td>Creates an anonymous function taking one parameter x, and returns x squared; the lambda's expression after the colon is implicitly returned, no explicit return keyword is needed or allowed.</td></tr>
+<tr><td><code>print(square(6))</code></td><td>Calls the lambda exactly like a normal function; prints 36.</td></tr>
+<tr><td><code>add = lambda a, b: a + b</code></td><td>A lambda can take multiple parameters, separated by commas, just like a normal function.</td></tr>
+<tr><td><code>print(add(3, 4))</code></td><td>Prints 7.</td></tr>
+<tr><td><code>people = [("Kajola", 30), ("Ada", 25), ("Grace", 35)]</code></td><td>A list of tuples, each representing a name and an age.</td></tr>
+<tr><td><code>people_sorted = sorted(people, key=lambda person: person[1])</code></td><td>sorted() reorders the list; the key argument tells it what value to sort by for each item; here the lambda extracts index 1 (the age) from each tuple, so the list ends up sorted by age.</td></tr>
+<tr><td><code>print(people_sorted)</code></td><td>Prints the tuples reordered from youngest to oldest.</td></tr>
+</table>
+<div class="notes"><div class="notes-label">Notes &amp; Tips</div><ul>
+<li>A lambda can only contain a single expression, not multiple statements or lines.</li>
+<li>Use a lambda for short, one off logic; define a normal function with def for anything more complex or reused.</li>
+</ul></div>
+</article></div><div id="functions-5-7-docstrings-and-type-hints"><article class="topic">
+<h3>5.7 Docstrings and Type Hints</h3>
+<p>A docstring is a string placed as the first line of a function body that
+describes what the function does; it is accessible through the function's
+__doc__ attribute and tools like help(). Type hints are optional annotations
+that document the expected types of parameters and the return value, improving
+readability and enabling editor and tooling support, without being enforced by
+Python at runtime.</p>
+<pre class="code">def calculate_area(width: float, height: float) -&gt; float:
+    """Calculate and return the area of a rectangle."""
+    return width * height
+
+print(calculate_area(4.0, 5.5))
+print(calculate_area.__doc__)</pre>
+<div class="output-label">Expected Output</div>
+<pre class="output">22.0
+Calculate and return the area of a rectangle.</pre>
+<div class="breakdown-label">Line by Line Breakdown</div>
+<table class="breakdown"><tr><th>Code</th><th>Explanation</th></tr>
+<tr><td><code>def calculate_area(width: float, height: float) -&gt; float:</code></td><td>The : float after each parameter is a type hint, documenting that width and height are expected to be floats; the -&gt; float at the end documents that the function is expected to return a float. Python does not enforce these at runtime, they are purely informational for humans and tools.</td></tr>
+<tr><td><code>    """Calculate and return the area of a rectangle."""</code></td><td>A triple quoted string placed immediately inside the function body becomes its docstring, describing the function's purpose.</td></tr>
+<tr><td><code>    return width * height</code></td><td>Multiplies the two parameters together and returns the result.</td></tr>
+<tr><td><code>print(calculate_area(4.0, 5.5))</code></td><td>Calls the function and prints the computed area, 22.0.</td></tr>
+<tr><td><code>print(calculate_area.__doc__)</code></td><td>Accesses the special __doc__ attribute that Python automatically attaches to the function, printing the docstring text.</td></tr>
+</table>
+<div class="notes"><div class="notes-label">Notes &amp; Tips</div><ul>
+<li>Type hints are optional and not enforced, but tools like mypy can check them for you before running the code.</li>
+<li>Well written docstrings make your functions self documenting and are shown automatically by help(function_name).</li>
+</ul></div>
+</article></div><div id="functions-5-8-recursion"><article class="topic">
+<h3>5.8 Recursion</h3>
+<p>A recursive function is a function that calls itself in order to solve a smaller
+version of the same problem. Every recursive function needs a base case, a
+condition under which it stops calling itself, to avoid running forever.</p>
+<pre class="code">def factorial(n):
+    if n &lt;= 1:
+        return 1
+    return n * factorial(n - 1)
+
+print(factorial(5))
+
+def countdown(n):
+    if n == 0:
+        print("Liftoff!")
+        return
+    print(n)
+    countdown(n - 1)
+
+countdown(3)</pre>
+<div class="output-label">Expected Output</div>
+<pre class="output">120
+3
+2
+1
+Liftoff!</pre>
+<div class="breakdown-label">Line by Line Breakdown</div>
+<table class="breakdown"><tr><th>Code</th><th>Explanation</th></tr>
+<tr><td><code>def factorial(n):</code></td><td>Defines a function to compute n factorial (n!), the product of all positive integers up to n.</td></tr>
+<tr><td><code>    if n &lt;= 1:</code></td><td>The base case: when n is 1 or 0, factorial is defined as 1, and this stops further recursive calls.</td></tr>
+<tr><td><code>        return 1</code></td><td>Returns 1 immediately once the base case is reached.</td></tr>
+<tr><td><code>    return n * factorial(n - 1)</code></td><td>The recursive case: returns n multiplied by the factorial of n minus 1; this line causes the function to call itself with a smaller value, gradually working down toward the base case.</td></tr>
+<tr><td><code>print(factorial(5))</code></td><td>Computes 5 * 4 * 3 * 2 * 1, which unwinds through 5 nested calls and returns 120.</td></tr>
+<tr><td><code>def countdown(n):</code></td><td>Defines a function that counts down from n to 0.</td></tr>
+<tr><td><code>    if n == 0: print("Liftoff!"); return</code></td><td>The base case: once n reaches 0, print a final message and return, stopping the recursion.</td></tr>
+<tr><td><code>    print(n)</code></td><td>Prints the current countdown number.</td></tr>
+<tr><td><code>    countdown(n - 1)</code></td><td>Calls itself again with a value one smaller, moving the recursion closer to its base case each time.</td></tr>
+<tr><td><code>countdown(3)</code></td><td>Starts the recursive countdown at 3, producing 3, 2, 1, then Liftoff!</td></tr>
+</table>
+<div class="notes"><div class="notes-label">Notes &amp; Tips</div><ul>
+<li>Every recursive function must have a base case, or it will recurse forever and eventually raise a RecursionError.</li>
+<li>Recursion is elegant for problems that are naturally self similar, such as factorials, tree traversal, and certain search algorithms, but a simple loop is often more efficient in Python.</li>
+</ul></div>
+</article></div><div id="functions-5-9-higher-order-functions--map--filter--and-functions-as-values"><article class="topic">
+<h3>5.9 Higher Order Functions: map, filter, and Functions as Values</h3>
+<p>In Python, functions are themselves values that can be stored in variables,
+passed as arguments to other functions, and returned from other functions. A
+higher order function is simply a function that takes another function as an
+argument or returns one. map() and filter() are two commonly used built in
+higher order functions.</p>
+<pre class="code">numbers = [1, 2, 3, 4, 5]
+
+doubled = list(map(lambda n: n * 2, numbers))
+print(doubled)
+
+evens = list(filter(lambda n: n % 2 == 0, numbers))
+print(evens)
+
+def apply_twice(func, value):
+    return func(func(value))
+
+print(apply_twice(lambda x: x + 3, 10))</pre>
+<div class="output-label">Expected Output</div>
+<pre class="output">[2, 4, 6, 8, 10]
+[2, 4]
+16</pre>
+<div class="breakdown-label">Line by Line Breakdown</div>
+<table class="breakdown"><tr><th>Code</th><th>Explanation</th></tr>
+<tr><td><code>numbers = [1, 2, 3, 4, 5]</code></td><td>A simple list of integers to transform.</td></tr>
+<tr><td><code>doubled = list(map(lambda n: n * 2, numbers))</code></td><td>map() applies the given lambda to every item in numbers, producing a lazy map object; wrapping it in list() forces it into an actual list, here each number doubled.</td></tr>
+<tr><td><code>print(doubled)</code></td><td>Prints [2, 4, 6, 8, 10].</td></tr>
+<tr><td><code>evens = list(filter(lambda n: n % 2 == 0, numbers))</code></td><td>filter() keeps only the items for which the given lambda returns True, discarding the rest; here it keeps only even numbers.</td></tr>
+<tr><td><code>print(evens)</code></td><td>Prints [2, 4].</td></tr>
+<tr><td><code>def apply_twice(func, value):</code></td><td>Defines a higher order function that itself accepts another function, func, as a parameter, alongside a value.</td></tr>
+<tr><td><code>    return func(func(value))</code></td><td>Calls func on value, then calls func again on that result, applying the passed in function twice in a row.</td></tr>
+<tr><td><code>print(apply_twice(lambda x: x + 3, 10))</code></td><td>Passes a lambda that adds 3, along with the starting value 10; first application gives 13, second application gives 16, which is printed.</td></tr>
+</table>
+<div class="notes"><div class="notes-label">Notes &amp; Tips</div><ul>
+<li>map() and filter() both return lazy iterator objects in Python 3, so wrap them in list() to see or reuse the full results.</li>
+<li>A list comprehension can often replace map() and filter() with arguably clearer syntax, for example [n * 2 for n in numbers].</li>
+</ul></div>
+</article></div></section><section class="chapter" id="match"><h2>Section 6: The Match Statement (Structural Pattern Matching)</h2><div class="chapter-intro"><p>Introduced in Python 3.10, the match statement provides structural pattern
+matching: a more powerful and readable alternative to long if/elif/else chains
+for certain kinds of decisions. match compares a subject value against a series
+of case patterns, running the code under the first pattern that matches. Beyond
+matching simple literal values, match can also match and unpack the shape of
+sequences, mappings, and objects.</p></div><div id="match-6-1-basic-match---case-with-literal-values"><article class="topic">
+<h3>6.1 Basic match / case with Literal Values</h3>
+<p>The simplest form of match compares a subject against literal values, similar to
+a switch statement found in other languages, but written using Python's own
+syntax and indentation rules.</p>
+<pre class="code">def describe_status(code):
+    match code:
+        case 200:
+            return "OK"
+        case 201:
+            return "Created"
+        case 404:
+            return "Not Found"
+        case 500:
+            return "Server Error"
+        case _:
+            return "Unknown status code"
+
+print(describe_status(200))
+print(describe_status(404))
+print(describe_status(999))</pre>
+<div class="output-label">Expected Output</div>
+<pre class="output">OK
+Not Found
+Unknown status code</pre>
+<div class="breakdown-label">Line by Line Breakdown</div>
+<table class="breakdown"><tr><th>Code</th><th>Explanation</th></tr>
+<tr><td><code>def describe_status(code):</code></td><td>Defines a function that will translate an HTTP style status code into a human readable description.</td></tr>
+<tr><td><code>    match code:</code></td><td>Begins a match statement, using code as the subject value that every case pattern below will be compared against.</td></tr>
+<tr><td><code>        case 200:</code></td><td>Checks whether code equals the literal value 200; if it matches, the block underneath runs and the match statement stops checking further cases.</td></tr>
+<tr><td><code>            return "OK"</code></td><td>Runs only when code was 200.</td></tr>
+<tr><td><code>        case 201:</code></td><td>Checks whether code equals 201, only evaluated because the previous case did not match.</td></tr>
+<tr><td><code>            return "Created"</code></td><td>Runs only when code was 201.</td></tr>
+<tr><td><code>        case 404:</code></td><td>Checks for 404.</td></tr>
+<tr><td><code>            return "Not Found"</code></td><td>Runs only when code was 404.</td></tr>
+<tr><td><code>        case 500:</code></td><td>Checks for 500.</td></tr>
+<tr><td><code>            return "Server Error"</code></td><td>Runs only when code was 500.</td></tr>
+<tr><td><code>        case _:</code></td><td>The underscore _ is the wildcard pattern; it matches absolutely anything and acts as the default, catch all case, equivalent to else in an if/elif chain.</td></tr>
+<tr><td><code>            return "Unknown status code"</code></td><td>Runs whenever none of the earlier literal cases matched.</td></tr>
+<tr><td><code>print(describe_status(200))</code></td><td>Matches the first case, prints OK.</td></tr>
+<tr><td><code>print(describe_status(404))</code></td><td>Matches the third case, prints Not Found.</td></tr>
+<tr><td><code>print(describe_status(999))</code></td><td>Matches no specific case, falls through to the wildcard, prints Unknown status code.</td></tr>
+</table>
+<div class="notes"><div class="notes-label">Notes &amp; Tips</div><ul>
+<li>Always include a case _: wildcard branch when you want a guaranteed default, otherwise the match statement simply does nothing if no case matches.</li>
+<li>Cases are checked top to bottom, and only the first matching case runs, exactly like elif chains.</li>
+</ul></div>
+</article></div><div id="match-6-2-matching-multiple-values-with-the----or--pattern"><article class="topic">
+<h3>6.2 Matching Multiple Values with the | (Or) Pattern</h3>
+<p>The pipe symbol | inside a case lets a single case match several different
+literal values at once, avoiding repeated case blocks with identical bodies.</p>
+<pre class="code">def classify_day(day):
+    match day:
+        case "Saturday" | "Sunday":
+            return "Weekend"
+        case "Monday" | "Tuesday" | "Wednesday" | "Thursday" | "Friday":
+            return "Weekday"
+        case _:
+            return "Not a valid day"
+
+print(classify_day("Saturday"))
+print(classify_day("Wednesday"))
+print(classify_day("Someday"))</pre>
+<div class="output-label">Expected Output</div>
+<pre class="output">Weekend
+Weekday
+Not a valid day</pre>
+<div class="breakdown-label">Line by Line Breakdown</div>
+<table class="breakdown"><tr><th>Code</th><th>Explanation</th></tr>
+<tr><td><code>case "Saturday" | "Sunday":</code></td><td>This single case matches if day is equal to either 'Saturday' or 'Sunday'; the | acts as an or between the alternatives listed in the same case.</td></tr>
+<tr><td><code>    return "Weekend"</code></td><td>Runs for either matching value.</td></tr>
+<tr><td><code>case "Monday" | "Tuesday" | "Wednesday" | "Thursday" | "Friday":</code></td><td>Matches any one of the five listed weekday names.</td></tr>
+<tr><td><code>    return "Weekday"</code></td><td>Runs when day is any of those five values.</td></tr>
+<tr><td><code>case _:</code></td><td>Wildcard fallback for anything that is not a recognized day name.</td></tr>
+<tr><td><code>    return "Not a valid day"</code></td><td>Runs for invalid input.</td></tr>
+<tr><td><code>print(classify_day("Saturday"))</code></td><td>Matches the weekend case, prints Weekend.</td></tr>
+<tr><td><code>print(classify_day("Wednesday"))</code></td><td>Matches the weekday case, prints Weekday.</td></tr>
+<tr><td><code>print(classify_day("Someday"))</code></td><td>Matches neither, falls to the wildcard, prints Not a valid day.</td></tr>
+</table>
+<div class="notes"><div class="notes-label">Notes &amp; Tips</div><ul>
+<li>The | or pattern keeps related cases together and reduces duplicated code compared to writing a separate case for every single value.</li>
+</ul></div>
+</article></div><div id="match-6-3-capturing-values-and-using-guards--case-----if"><article class="topic">
+<h3>6.3 Capturing Values and Using Guards (case ... if)</h3>
+<p>A case pattern can bind part of the subject to a new variable name, which is
+then usable inside that case's body. A guard is an additional if condition
+attached to a case, which must also be True for that case to be chosen, giving
+you conditional matching beyond simple equality.</p>
+<pre class="code">def describe_number(n):
+    match n:
+        case 0:
+            return "Zero"
+        case value if value &lt; 0:
+            return f"Negative number: {value}"
+        case value if value % 2 == 0:
+            return f"Positive even number: {value}"
+        case value:
+            return f"Positive odd number: {value}"
+
+print(describe_number(0))
+print(describe_number(-7))
+print(describe_number(8))
+print(describe_number(3))</pre>
+<div class="output-label">Expected Output</div>
+<pre class="output">Zero
+Negative number: -7
+Positive even number: 8
+Positive odd number: 3</pre>
+<div class="breakdown-label">Line by Line Breakdown</div>
+<table class="breakdown"><tr><th>Code</th><th>Explanation</th></tr>
+<tr><td><code>case 0:</code></td><td>Matches only the exact literal value 0.</td></tr>
+<tr><td><code>    return "Zero"</code></td><td>Runs only when n was exactly 0.</td></tr>
+<tr><td><code>case value if value &lt; 0:</code></td><td>This pattern binds whatever n is to a new variable named value, and additionally requires the guard condition value &lt; 0 to be True before this case is accepted; if the guard is False, Python moves on to the next case even though the basic pattern (matching any value) technically matched.</td></tr>
+<tr><td><code>    return f"Negative number: {value}"</code></td><td>Runs only when n was negative, using the captured value inside the f string.</td></tr>
+<tr><td><code>case value if value % 2 == 0:</code></td><td>Again binds n to value, this time requiring the guard value % 2 == 0 (evenness) to be True.</td></tr>
+<tr><td><code>    return f"Positive even number: {value}"</code></td><td>Runs for positive even numbers (negative numbers were already handled by the earlier case).</td></tr>
+<tr><td><code>case value:</code></td><td>A plain capture pattern with no guard, matching anything not already handled above; this acts as the final catch all here, similar to the wildcard but also giving you the actual value under the name value.</td></tr>
+<tr><td><code>    return f"Positive odd number: {value}"</code></td><td>Runs for whatever remains, in this example the positive odd numbers.</td></tr>
+<tr><td><code>print(describe_number(0))</code></td><td>Matches the first case exactly, prints Zero.</td></tr>
+<tr><td><code>print(describe_number(-7))</code></td><td>Skips case 0, matches the negative guard, prints Negative number: -7.</td></tr>
+<tr><td><code>print(describe_number(8))</code></td><td>Skips case 0 and the negative guard, matches the even guard, prints Positive even number: 8.</td></tr>
+<tr><td><code>print(describe_number(3))</code></td><td>Matches none of the guarded cases, falls to the final plain capture, prints Positive odd number: 3.</td></tr>
+</table>
+<div class="notes"><div class="notes-label">Notes &amp; Tips</div><ul>
+<li>A bare name in a case pattern, like case value:, always matches and captures the subject into that variable name, so it is commonly placed last as a catch all.</li>
+<li>Guards (the if part) let you express conditions that plain pattern matching alone cannot, such as comparisons or arbitrary boolean expressions.</li>
+</ul></div>
+</article></div><div id="match-6-4-matching-sequences--lists-and-tuples"><article class="topic">
+<h3>6.4 Matching Sequences (Lists and Tuples)</h3>
+<p>match can look inside the structure of a list or tuple, matching based on its
+length and capturing individual elements by position, including a special
+starred pattern to capture the remaining items.</p>
+<pre class="code">def describe_point(point):
+    match point:
+        case (0, 0):
+            return "Origin"
+        case (x, 0):
+            return f"On the x-axis at {x}"
+        case (0, y):
+            return f"On the y-axis at {y}"
+        case (x, y):
+            return f"Point at ({x}, {y})"
+        case _:
+            return "Not a valid point"
+
+print(describe_point((0, 0)))
+print(describe_point((5, 0)))
+print(describe_point((3, 4)))
+
+def first_and_rest(items):
+    match items:
+        case [first, *rest]:
+            return f"First: {first}, Rest: {rest}"
+        case []:
+            return "Empty list"
+
+print(first_and_rest([1, 2, 3, 4]))
+print(first_and_rest([]))</pre>
+<div class="output-label">Expected Output</div>
+<pre class="output">Origin
+On the x-axis at 5
+Point at (3, 4)
+First: 1, Rest: [2, 3, 4]
+Empty list</pre>
+<div class="breakdown-label">Line by Line Breakdown</div>
+<table class="breakdown"><tr><th>Code</th><th>Explanation</th></tr>
+<tr><td><code>case (0, 0):</code></td><td>Matches only if point is a two item tuple where both items are literally 0.</td></tr>
+<tr><td><code>    return "Origin"</code></td><td>Runs only for the exact point (0, 0).</td></tr>
+<tr><td><code>case (x, 0):</code></td><td>Matches any two item tuple whose second element is exactly 0, capturing the first element into a new variable x, whatever its value.</td></tr>
+<tr><td><code>    return f"On the x-axis at {x}"</code></td><td>Runs for any point lying on the x-axis, using the captured x value.</td></tr>
+<tr><td><code>case (0, y):</code></td><td>Matches any two item tuple whose first element is exactly 0, capturing the second element into y.</td></tr>
+<tr><td><code>    return f"On the y-axis at {y}"</code></td><td>Runs for any point lying on the y-axis.</td></tr>
+<tr><td><code>case (x, y):</code></td><td>Matches any two item tuple at all, capturing both elements into x and y; since more specific patterns were checked first, this only runs when neither coordinate was 0.</td></tr>
+<tr><td><code>    return f"Point at ({x}, {y})"</code></td><td>Runs for a general point.</td></tr>
+<tr><td><code>case _:</code></td><td>Falls back for anything that is not a two item tuple at all.</td></tr>
+<tr><td><code>print(describe_point((0, 0)))</code></td><td>Matches the first case, prints Origin.</td></tr>
+<tr><td><code>print(describe_point((5, 0)))</code></td><td>Matches the x-axis case since the second value is 0, prints On the x-axis at 5.</td></tr>
+<tr><td><code>print(describe_point((3, 4)))</code></td><td>Matches the general point case, prints Point at (3, 4).</td></tr>
+<tr><td><code>case [first, *rest]:</code></td><td>Matches any list with at least one item; binds the first element to first, and the starred pattern *rest captures every remaining element into a new list called rest, however many there are.</td></tr>
+<tr><td><code>    return f"First: {first}, Rest: {rest}"</code></td><td>Runs for any non empty list, showing both the first item and the remaining items as a list.</td></tr>
+<tr><td><code>case []:</code></td><td>Matches specifically an empty list.</td></tr>
+<tr><td><code>    return "Empty list"</code></td><td>Runs only when items is empty.</td></tr>
+<tr><td><code>print(first_and_rest([1, 2, 3, 4]))</code></td><td>Matches the starred pattern; first is 1 and rest is [2, 3, 4].</td></tr>
+<tr><td><code>print(first_and_rest([]))</code></td><td>Matches the empty list case directly.</td></tr>
+</table>
+<div class="notes"><div class="notes-label">Notes &amp; Tips</div><ul>
+<li>Sequence patterns work with both lists and tuples, matching based on the number of elements (unless a starred pattern is used).</li>
+<li>The starred pattern *rest works similarly to unpacking with * outside of match, capturing 'everything else' into a list.</li>
+</ul></div>
+</article></div><div id="match-6-5-matching-mappings--dictionaries"><article class="topic">
+<h3>6.5 Matching Mappings (Dictionaries)</h3>
+<p>match can also look inside a dictionary, matching based on the presence of
+specific keys and capturing their associated values, while ignoring any other
+keys the dictionary might have.</p>
+<pre class="code">def handle_event(event):
+    match event:
+        case {"type": "click", "x": x, "y": y}:
+            return f"Click at ({x}, {y})"
+        case {"type": "keypress", "key": key}:
+            return f"Key pressed: {key}"
+        case {"type": event_type}:
+            return f"Unhandled event type: {event_type}"
+        case _:
+            return "Invalid event"
+
+print(handle_event({"type": "click", "x": 10, "y": 20}))
+print(handle_event({"type": "keypress", "key": "Enter"}))
+print(handle_event({"type": "scroll", "amount": 5}))</pre>
+<div class="output-label">Expected Output</div>
+<pre class="output">Click at (10, 20)
+Key pressed: Enter
+Unhandled event type: scroll</pre>
+<div class="breakdown-label">Line by Line Breakdown</div>
+<table class="breakdown"><tr><th>Code</th><th>Explanation</th></tr>
+<tr><td><code>case {"type": "click", "x": x, "y": y}:</code></td><td>Matches any dictionary that contains a key 'type' with the exact value 'click', AND also contains keys 'x' and 'y', whose values are captured into new variables x and y; any additional keys in the dictionary are simply ignored and do not prevent a match.</td></tr>
+<tr><td><code>    return f"Click at ({x}, {y})"</code></td><td>Runs only when the dictionary represents a click event with x and y present.</td></tr>
+<tr><td><code>case {"type": "keypress", "key": key}:</code></td><td>Matches a dictionary with type equal to 'keypress' and a key entry, capturing its value into the variable key.</td></tr>
+<tr><td><code>    return f"Key pressed: {key}"</code></td><td>Runs for keypress events.</td></tr>
+<tr><td><code>case {"type": event_type}:</code></td><td>A more general pattern that matches any dictionary containing a 'type' key at all, capturing whatever that value is into event_type; this only gets reached if the more specific click and keypress patterns above did not match.</td></tr>
+<tr><td><code>    return f"Unhandled event type: {event_type}"</code></td><td>Runs for any event type not specifically handled above.</td></tr>
+<tr><td><code>case _:</code></td><td>Falls back for something that is not even a dictionary, or has no 'type' key at all.</td></tr>
+<tr><td><code>print(handle_event({"type": "click", "x": 10, "y": 20}))</code></td><td>Matches the click pattern, prints Click at (10, 20).</td></tr>
+<tr><td><code>print(handle_event({"type": "keypress", "key": "Enter"}))</code></td><td>Matches the keypress pattern, prints Key pressed: Enter.</td></tr>
+<tr><td><code>print(handle_event({"type": "scroll", "amount": 5}))</code></td><td>Does not match click or keypress, but does have a type key, so it matches the general pattern, printing Unhandled event type: scroll.</td></tr>
+</table>
+<div class="notes"><div class="notes-label">Notes &amp; Tips</div><ul>
+<li>Mapping patterns only require the listed keys to be present with matching structure; extra keys in the actual dictionary are always allowed and ignored.</li>
+<li>This makes mapping patterns ideal for handling structured data such as parsed JSON payloads or event objects.</li>
+</ul></div>
+</article></div><div id="match-6-6-match-vs-if---elif--when-to-use-which"><article class="topic">
+<h3>6.6 match vs if / elif: When to Use Which</h3>
+<p>match and if/elif can often solve the same problem, but each shines in different
+situations. Understanding when to reach for each keeps your code clear and
+idiomatic.</p>
+<pre class="code"># Use if/elif when:
+#   - conditions involve ranges, comparisons, or unrelated boolean expressions
+#   - there are only 2 or 3 simple branches
+
+# Use match when:
+#   - you are comparing one subject against many possible exact shapes or values
+#   - you want to destructure (unpack) lists, tuples, or dictionaries while checking them
+#   - you have many literal cases, improving readability over a long elif chain</pre>
+<div class="breakdown-label">Line by Line Breakdown</div>
+<table class="breakdown"><tr><th>Code</th><th>Explanation</th></tr>
+<tr><td><code># Use if/elif when conditions involve ranges or comparisons</code></td><td>For example checking score &gt;= 90, score &gt;= 80, and so on is naturally suited to if/elif, since match compares structure and specific values rather than open ended ranges (though guards can add range checks to match too).</td></tr>
+<tr><td><code># Use match when comparing one subject against many possible exact shapes</code></td><td>For example handling different message types, parsed commands, or coordinate shapes reads more clearly with match and case than with a long chain of isinstance and equality checks.</td></tr>
+<tr><td><code># match lets you destructure while checking</code></td><td>This is match's biggest advantage: a single case can both confirm the shape of the data (for example a 2 item tuple, or a dict with certain keys) and immediately extract the pieces you need, in one line.</td></tr>
+</table>
+<div class="notes"><div class="notes-label">Notes &amp; Tips</div><ul>
+<li>match was added in Python 3.10, so code intended to run on older Python versions cannot use it; if/elif works on every Python version.</li>
+<li>Neither construct replaces the other entirely; many real projects use both, choosing whichever reads more clearly for a given decision.</li>
+</ul></div>
+</article></div></section>
+<footer class="closing">
+  <p>You have now covered Data Types, Data Structures, If Else, Loops, Functions, and Match
+  in full, hands on, line by line detail.</p>
+  <div class="name">Kajola Gbenga</div>
+  <div>Data Scientist &amp; AI Engineer</div>
+</footer>
+</div>
+</body>
+</html>

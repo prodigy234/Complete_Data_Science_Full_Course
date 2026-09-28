@@ -1,0 +1,1244 @@
+Company,TypeName,Inches,Weight,screen_resolution,display_type,processor_speed,processor_brand,processor_type,ssd_storage,hdd_storage,flash_storage,ram,os,Price
+Apple,Ultrabook,13.3,1.37,2560x1600,Quad HD,2.3,Intel, Core i5,128,0,0,8,macos,71378.6832
+Apple,Ultrabook,13.3,1.34,1440x900,HD,1.8,Intel, Core i5,0,0,128,8,macos,47895.5232
+HP,Notebook,15.6,1.86,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,no,30636.0
+Apple,Ultrabook,15.4,1.83,2880x1800,Quad HD,2.7,Intel, Core i7,512,0,0,16,macos,135195.336
+Apple,Ultrabook,13.3,1.37,2560x1600,Quad HD,3.1,Intel, Core i5,256,0,0,8,macos,96095.808
+Acer,Notebook,15.6,2.1,1366x768,HD,3,AMD, A9-Series 9420,0,500,0,4,windows,21312.0
+Apple,Ultrabook,15.4,2.04,2880x1800,Quad HD,2.2,Intel, Core i7,0,0,256,16,mac,114017.6016
+Apple,Ultrabook,13.3,1.34,1440x900,HD,1.8,Intel, Core i5,0,0,256,8,macos,61735.536
+Asus,Ultrabook,14,1.3,1920x1080,Full HD,1.8,Intel, Core i7 8550U,512,0,0,16,windows,79653.6
+Acer,Ultrabook,14,1.6,1920x1080,Full HD,1.6,Intel, Core i5 8250U,256,0,0,8,windows,41025.6
+HP,Notebook,15.6,1.86,1366x768,HD,2.5,Intel, Core i5 7200U,0,500,0,4,no,20986.992
+HP,Notebook,15.6,1.86,1920x1080,Full HD,2,Intel, Core i3 6006U,0,500,0,4,no,18381.0672
+Apple,Ultrabook,15.4,1.83,2880x1800,Quad HD,2.8,Intel, Core i7,256,0,0,16,macos,130001.6016
+Dell,Notebook,15.6,2.2,1920x1080,Full HD,2,Intel, Core i3 6006U,256,0,0,4,windows,26581.392
+Apple,Ultrabook,12,0.92,2304x1440,Full HD,1.2,Intel, Core M m3,256,0,0,8,macos,67260.672
+Apple,Ultrabook,13.3,1.37,2560x1600,Quad HD,2.3,Intel, Core i5,256,0,0,8,macos,80908.344
+Dell,Notebook,15.6,2.2,1920x1080,Full HD,2.7,Intel, Core i7 7500U,256,0,0,8,windows,39693.6
+Apple,Ultrabook,15.4,1.83,2880x1800,Quad HD,2.9,Intel, Core i7,512,0,0,16,macos,152274.24
+Lenovo,Notebook,15.6,2.2,1920x1080,Full HD,2.4,Intel, Core i3 7100U,0,1TB,0,8,no,26586.72
+Dell,Ultrabook,13.3,1.22,1920x1080,Full HD,1.6,Intel, Core i5 8250U,128,0,0,8,windows,52161.12
+Lenovo,Gaming,15.6,2.5,1920x1080,Full HD,2.5,Intel, Core i5 7300HQ,128,1TB,0,8,windows,53226.72
+HP,Notebook,15.6,1.86,1366x768,HD,1.5,AMD, E-Series E2-9000e,0,500,0,4,no,13746.24
+Dell,2 in 1 Convertible,13.3,1.62,1920x1080,Full HD,1.6,Intel, Core i5 8250U,256,0,0,8,windows,43636.32
+HP,Ultrabook,15.6,1.91,1920x1080,Full HD,1.8,Intel, Core i7 8550U,256,0,0,8,windows,35111.52
+Dell,Notebook,15.6,2.3,1366x768,HD,2,Intel, Core i3 6006U,0,1TB,0,4,windows,22305.1392
+Apple,Ultrabook,13.3,1.35,1440x900,HD,1.6,Intel, Core i5,0,0,128,8,mac,58554.72
+Dell,Notebook,15.6,2.2,1920x1080,Full HD,1.6,Intel, Core i5 8250U,256,0,0,8,windows,42624.0
+Dell,Ultrabook,15.6,1.88,1920x1080,Full HD,1.9,Intel, Core i7 8650U,256,0,0,8,windows,69157.44
+HP,Notebook,17.3,2.5,1920x1080,Full HD,1.6,Intel, Core i5 8250U,0,1TB,0,8,windows,47738.88
+Chuwi,Notebook,15.6,1.89,1920x1080,Full HD,1.44,Intel, Atom x5-Z8300,0,0,64,4,windows,13053.0672
+Asus,Notebook,14,1.65,1366x768,HD,1.5,AMD, E-Series E2-6110,0,0,32,2,windows,10602.72
+HP,Notebook,17.3,2.71,1920x1080,Full HD,2.5,AMD, A6-Series 9220,0,500,0,4,windows,23389.92
+Dell,Ultrabook,13.3,1.2,3200x1800,Quad HD,1.8,Intel, Core i7 8550U,512,0,0,16,windows,99580.32
+Apple,Ultrabook,13.3,1.35,1440x900,HD,1.6,Intel, Core i5,0,0,256,8,mac,53173.44
+Lenovo,Notebook,14,1.44,1366x768,HD,1.1,Intel, Celeron Dual Core N3350,0,0,64,4,windows,13266.72
+Acer,Notebook,15.6,2.1,1366x768,HD,2.7,Intel, Core i3 7130U,0,1TB,0,4,linux,19553.76
+Dell,Notebook,17.3,2.8,1920x1080,Full HD,1.6,Intel, Core i5 8250U,128,1TB,0,8,windows,52161.12
+HP,Notebook,15.6,1.86,1366x768,HD,2.5,Intel, Core i5 7200U,0,1TB,0,4,windows,26037.4032
+HP,Notebook,15.6,2.1,1920x1080,Full HD,1.6,Intel, Core i5 8250U,256,0,0,8,windows,46833.12
+Asus,Notebook,15.6,2,1920x1080,Full HD,2,Intel, Core i3 6006U,0,1TB,0,4,linux,20725.92
+Dell,Gaming,15.6,2.65,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,256,1TB,0,16,windows,79866.72
+Asus,Notebook,15.6,2.3,1366x768,HD,2.5,Intel, Core i5 7200U,0,1TB,0,8,linux,27864.9072
+Acer,Notebook,15.6,2.2,1920x1080,Full HD,1.6,Intel, Core i5 8250U,256,0,0,4,windows,36336.96
+Dell,2 in 1 Convertible,17.3,2.77,1920x1080,Full HD,1.6,Intel, Core i5 8250U,0,1TB,0,12,windows,53226.72
+Apple,Ultrabook,13.3,1.37,2560x1600,Quad HD,2.0,Intel, Core i5,256,0,0,8,macos,75604.32
+Asus,Gaming,17.3,3.2,1920x1080,Full HD,3,AMD, Ryzen 1700,256,1TB,0,8,windows,69210.72
+Dell,Notebook,15.6,2.3,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,4,windows,34045.92
+Asus,Notebook,17.3,2.8,1366x768,HD,1.1,Intel, Pentium Quad Core N4200,0,1TB,0,4,windows,24828.48
+Acer,Notebook,15.6,2.2,1920x1080,Full HD,1.8,Intel, Core i7 8550U,256,0,0,8,windows,44808.48
+HP,Notebook,15.6,1.86,1920x1080,Full HD,2.5,AMD, A6-Series 9220,256,0,0,4,windows,21231.5472
+HP,Notebook,13.3,1.49,1920x1080,Full HD,1.8,Intel, Core i7 8550U,512,0,0,8,windows,58767.84
+Acer,Notebook,15.6,2.4,1366x768,HD,2.4,Intel, Core i3 7100U,0,1TB,0,4,windows,20459.52
+Dell,Notebook,15.6,2.13,1920x1080,Full HD,1.8,Intel, Core i7 8550U,256,0,0,8,windows,40908.384
+HP,Notebook,15.6,1.91,1920x1080,Full HD,2,Intel, Core i3 6006U,128,0,0,4,windows,23389.92
+Asus,Notebook,15.6,2,1366x768,HD,2.5,Intel, Core i5 7200U,256,0,0,4,windows,31232.2032
+MSI,Gaming,17.3,2.43,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,256,2TB,0,16,windows,130482.72
+Asus,Notebook,15.6,2,1920x1080,Full HD,2,Intel, Core i3 6006U,256,0,0,4,linux,22111.2
+Dell,Notebook,17.3,2.8,1920x1080,Full HD,1.8,Intel, Core i7 8550U,256,2TB,0,16,windows,69210.72
+Dell,Ultrabook,14,1.7,1920x1080,Full HD,1.6,Intel, Core i5 8250U,256,0,0,8,windows,46833.12
+Lenovo,Notebook,14,1.7,1920x1080,Full HD,2.7,Intel, Core i3 7130U,256,0,0,8,no,31914.72
+Asus,Notebook,14,1.4,1920x1080,Full HD,1.6,Intel, Core i5 8250U,256,0,0,8,windows,50136.48
+HP,Notebook,15.6,1.86,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,36763.2
+Asus,Ultrabook,15.6,1.8,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,512,0,0,16,windows,105654.24
+HP,Notebook,15.6,1.86,1366x768,HD,2,Intel, Core i3 6006U,0,500,0,4,windows,23373.4032
+HP,Notebook,14,1.44,1366x768,HD,1.6,Intel, Celeron Dual Core N3060,32,0,0,4,windows,12201.12
+Lenovo,Notebook,15.6,1.9,1920x1080,Full HD,2.5,Intel, Core i5 7200U,0,1TB,0,4,windows,29250.72
+Asus,Gaming,17.3,3,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,0,1TB,0,12,linux,50562.72
+Microsoft,Ultrabook,13.5,1.252,2256x1504,Full HD,2.5,Intel, Core i5 7200U,128,0,0,4,windows,58021.92
+Dell,Ultrabook,13.3,1.4,1920x1080,Full HD,1.8,Intel, Core i7 8550U,256,0,0,8,windows,50882.4
+Dell,Notebook,15.6,2.2,1920x1080,Full HD,1.8,Intel, Core i7 8550U,256,0,0,8,windows,46353.6
+MSI,Gaming,17.3,2.7,1920x1080,Full HD,2.5,Intel, Core i5 7300HQ,128,1TB,0,8,windows,58341.6
+Acer,Notebook,14,2.1,1366x768,HD,2,Intel, Core i3 6006U,0,1TB,0,8,windows,20725.92
+Asus,Gaming,15.6,2.2,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,0,1TB,0,8,windows,50562.72
+Lenovo,Notebook,15.6,2.2,1920x1080,Full HD,2.5,Intel, Core i5 7200U,0,2TB,0,8,no,27652.32
+Dell,Notebook,15.6,2.02,1920x1080,Full HD,1.8,Intel, Core i7 8550U,128,1TB,0,8,windows,45554.4
+Acer,Notebook,15.6,2.2,1920x1080,Full HD,2.7,Intel, Core i3 7130U,0,1TB,0,4,windows,28238.4
+HP,Notebook,17.3,2.5,1920x1080,Full HD,1.6,Intel, Core i5 8250U,128,1TB,0,8,windows,52054.56
+Dell,Ultrabook,15.6,1.88,1920x1080,Full HD,1.6,Intel, Core i5 8250U,256,0,0,8,windows,58403.4048
+Apple,Ultrabook,12,0.92,2304x1440,Full HD,1.3,Intel, Core i5,512,0,0,8,macos,80452.8
+HP,Notebook,14,1.63,1920x1080,Full HD,1.6,Intel, Core i5 8250U,256,0,0,8,windows,45820.8
+Lenovo,Notebook,15.6,2.2,1920x1080,Full HD,2.5,AMD, A6-Series 9220,128,0,0,4,windows,21258.72
+Acer,Notebook,15.6,2.1,1366x768,HD,3,AMD, A9-Series 9420,0,1TB,0,4,windows,21045.6
+Dell,Gaming,15.6,2.65,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,128,1TB,0,16,windows,71874.72
+HP,Ultrabook,15.6,1.83,1920x1080,Full HD,1.8,Intel, Core i7 8550U,256,0,0,8,windows,37242.72
+HP,Notebook,15.6,1.96,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,31914.1872
+Asus,Gaming,15.6,2.2,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,128,1TB,0,16,windows,77202.72
+Dell,Ultrabook,13.3,1.21,1920x1080,Full HD,1.8,Intel, Core i7 8550U,256,0,0,8,windows,87858.72
+Asus,Gaming,15.6,2.45,1920x1080,Full HD,3,AMD, FX 9830P,0,1TB,0,8,windows,37242.72
+Acer,Notebook,15.6,2.2,1920x1080,Full HD,1.8,Intel, Core i7 8550U,0,1TB,0,4,windows,36709.92
+HP,Notebook,13.3,1.49,1920x1080,Full HD,1.8,Intel, Core i7 8550U,512,0,0,16,windows,63776.16
+Dell,Gaming,15.6,2.65,1920x1080,Full HD,2.5,Intel, Core i5 7300HQ,256,0,0,8,windows,63669.6
+Asus,Ultrabook,14,1.25,1920x1080,Full HD,2.7,Intel, Core i7 7500U,256,0,0,8,windows,55890.72
+Acer,2 in 1 Convertible,13.3,1.5,1920x1080,Full HD,1.6,Intel, Core i5 8250U,256,0,0,8,windows,45128.16
+Dell,Notebook,15.6,2.2,1920x1080,Full HD,2.7,Intel, Core i7 7500U,0,1TB,0,8,linux,31962.672
+Dell,Notebook,15.6,2.2,1920x1080,Full HD,2,Intel, Core i3 6006U,256,0,0,4,linux,25840.8
+Asus,Notebook,15.6,2,1920x1080,Full HD,2.4,Intel, Core i3 7100U,256,0,0,6,windows,30742.56
+HP,Gaming,15.6,2.62,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,128,1TB,0,12,windows,66546.72
+HP,Notebook,15.6,1.91,1920x1080,Full HD,2.7,Intel, Core i7 7500U,256,0,0,8,windows,38308.32
+HP,Notebook,15.6,2.1,1920x1080,Full HD,1.5,AMD, E-Series E2-9000e,0,500,0,4,windows,18594.72
+Dell,Notebook,15.6,2.2,1920x1080,Full HD,1.6,Intel, Core i5 8250U,0,1TB,0,8,linux,34472.16
+HP,Ultrabook,13.3,1.38,1920x1080,Full HD,2.7,Intel, Core i7 7500U,256,0,0,8,windows,59620.32
+Microsoft,Ultrabook,13.5,1.252,2256x1504,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,71395.2
+HP,Notebook,14,1.58,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,6,windows,35111.52
+Lenovo,Notebook,15.6,1.85,1920x1080,Full HD,2,Intel, Core i3 6006U,0,1TB,0,4,windows,22105.872
+Asus,Ultrabook,14,1.3,1920x1080,Full HD,2.7,Intel, Core i7 7500U,256,0,0,8,windows,63563.04
+MSI,Gaming,15.6,2.2,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,256,1TB,0,16,windows,69210.72
+Lenovo,Notebook,14,1.58,1920x1080,Full HD,2.7,Intel, Core i7 7500U,256,0,0,8,windows,78854.4
+Asus,Ultrabook,15.6,1.5,1920x1080,Full HD,1.8,Intel, Core i7 8550U,256,1TB,0,16,windows,67239.36
+Dell,Ultrabook,13.3,1.23,3200x1800,Quad HD,2.4,Intel, Core i7 7560U,256,0,0,8,windows,73473.12
+Lenovo,2 in 1 Convertible,13.3,1.37,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,74538.72
+HP,Notebook,14,1.63,1366x768,HD,1.6,Intel, Core i5 8250U,0,500,0,4,windows,38468.16
+Dell,Ultrabook,13.3,1.21,1920x1080,Full HD,1.6,Intel, Core i5 8250U,256,0,0,8,windows,86793.12
+HP,Notebook,14,1.63,1920x1080,Full HD,1.8,Intel, Core i7 8550U,512,0,0,8,windows,57755.52
+Dell,Notebook,15.6,2.16,1920x1080,Full HD,1.8,Intel, Core i7 8550U,256,1TB,0,8,windows,60223.9824
+Asus,Notebook,17.3,2,1920x1080,Full HD,2,Intel, Core i3 6006U,0,1TB,0,4,windows,30049.92
+Asus,Notebook,15.6,1.7,1920x1080,Full HD,1.8,Intel, Core i7 8550U,256,0,0,8,windows,59567.04
+Acer,Notebook,15.6,2.1,1920x1080,Full HD,2.4,Intel, Core i3 7100U,0,1TB,0,6,windows,25521.12
+MSI,Gaming,15.6,1.8,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,256,2TB,0,16,windows,119427.12
+Lenovo,Notebook,15.6,2.2,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,no,33513.12
+HP,Notebook,17.3,2.5,1920x1080,Full HD,1.8,Intel, Core i7 8550U,512,0,0,16,windows,67718.88
+Acer,Notebook,15.6,2.1,1366x768,HD,3,AMD, A9-Series 9420,256,0,0,4,windows,24029.28
+HP,Notebook,14,1.63,1920x1080,Full HD,1.6,Intel, Core i5 8250U,0,1TB,0,8,windows,43263.36
+Asus,Notebook,14,1.65,1366x768,HD,1.5,AMD, E-Series 6110,64,0,0,4,windows,14811.3072
+Dell,Notebook,17.3,2.8,1920x1080,Full HD,1.8,Intel, Core i7 8550U,256,2TB,0,16,windows,74378.88
+HP,Notebook,17.3,2.5,1920x1080,Full HD,1.6,Intel, Core i5 8250U,256,0,0,8,windows,49443.84
+Dell,Notebook,15.6,2.36,1366x768,HD,2.5,Intel, Core i5 7200U,0,1TB,0,8,windows,34045.3872
+Dell,Notebook,15.6,2.2,1920x1080,Full HD,2,Intel, Core i3 6006U,0,1TB,0,4,windows,23922.72
+Acer,Ultrabook,14,1.6,1920x1080,Full HD,1.8,Intel, Core i7 8550U,256,0,0,8,windows,47099.52
+Acer,Notebook,15.6,2.1,1920x1080,Full HD,2.7,Intel, Core i3 7130U,256,0,0,4,windows,30476.16
+HP,Notebook,15.6,2.05,1366x768,HD,2.7,Intel, Core i7 7500U,0,1TB,0,8,windows,31861.44
+HP,Notebook,14,1.63,1920x1080,Full HD,1.8,Intel, Core i7 8550U,256,0,0,8,windows,52640.64
+Lenovo,Notebook,15.6,1.9,1366x768,HD,1.1,Intel, Celeron Dual Core N3350,0,1TB,0,4,no,13445.7408
+Asus,Gaming,17.3,3,1920x1080,Full HD,2.5,Intel, Core i5 7300HQ,128,1TB,0,8,windows,49976.64
+Lenovo,Notebook,15.6,2.2,1920x1080,Full HD,2.5,Intel, Core i5 7200U,0,1TB,0,4,no,26586.72
+HP,Notebook,13.3,1.32,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,4,windows,37242.72
+Acer,Notebook,17.3,3,1920x1080,Full HD,2.7,Intel, Core i3 7130U,0,1TB,0,4,windows,34898.4
+Lenovo,Notebook,14,1.75,1920x1080,Full HD,1.6,Intel, Core i5 8250U,256,0,0,8,windows,59461.5456
+Lenovo,Gaming,15.6,2.4,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,256,0,0,8,no,46300.32
+Toshiba,Notebook,15.6,2.1,1366x768,HD,2.3,Intel, Core i5 6200U,0,500,0,4,windows,32074.56
+HP,Notebook,15.6,1.86,1366x768,HD,2.5,AMD, A6-Series 9220,256,0,0,4,windows,19660.32
+Asus,Ultrabook,14,1.25,1920x1080,Full HD,1.8,Intel, Core i7 8550U,256,0,0,8,windows,58554.72
+HP,Ultrabook,12.5,0.97,3840x2160,4K,1.2,Intel, Core M 6Y75,512,0,0,8,windows,107305.92
+Asus,Notebook,15.6,2,1920x1080,Full HD,1.1,Intel, Celeron Dual Core N3350,0,1TB,0,4,windows,18328.32
+Acer,Notebook,15.6,2.1,1366x768,HD,2,Intel, Core i3 6006U,0,1TB,0,4,windows,23816.16
+Dell,Gaming,15.6,2.56,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,512,0,0,16,windows,66560.5728
+Dell,Gaming,15.6,2.62,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,0,0,0,8,windows,47898.72
+Lenovo,Notebook,15.6,1.9,1366x768,HD,2.5,Intel, Core i5 7200U,128,0,0,4,windows,26533.44
+MSI,Gaming,17.3,2.8,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,256,1TB,0,16,windows,100699.2
+HP,Ultrabook,14,1.48,1920x1080,Full HD,2.7,Intel, Core i5 7500U,256,0,0,4,windows,57648.96
+HP,Notebook,15.6,1.91,1920x1080,Full HD,1.6,Intel, Core i5 8250U,256,0,0,6,windows,32980.32
+Lenovo,2 in 1 Convertible,14,1.74,1920x1080,Full HD,2.4,Intel, Core i3 7100U,256,0,0,4,windows,33513.12
+Asus,2 in 1 Convertible,13.3,1.1,1920x1080,Full HD,1.6,Intel, Core i5 8250U,256,0,0,8,windows,70063.2
+Dell,2 in 1 Convertible,15.6,1.56,1920x1080,Full HD,1.8,Intel, Core i7 8550U,256,0,0,8,windows,55890.72
+Toshiba,Notebook,15.6,2.1,1366x768,HD,2.2,Intel, Core i3 6006U,0,500,0,4,windows,23816.16
+Asus,Notebook,15.6,2.03,1366x768,HD,3,AMD, A9-Series 9420,0,1TB,0,4,windows,21471.84
+Acer,Notebook,17.3,3,1920x1080,Full HD,1.6,Intel, Core i5 8250U,256,0,0,4,windows,42890.4
+Dell,Notebook,15.6,2.13,1920x1080,Full HD,1.6,Intel, Core i5 8250U,256,0,0,8,windows,38787.84
+Lenovo,Gaming,15.6,2.5,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,256,0,0,16,windows,57489.12
+Acer,Notebook,15.6,2.1,1366x768,HD,1.1,Intel, Celeron Dual Core N3350,0,1TB,0,4,windows,18541.44
+MSI,Gaming,15.6,2.4,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,256,1TB,0,16,windows,95850.72
+Acer,Notebook,15.6,2.1,1366x768,HD,1.1,Intel, Pentium Quad Core N4200,0,1TB,0,4,windows,19367.8128
+Dell,Gaming,15.6,2.56,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,128,1TB,0,8,windows,56502.9072
+Acer,Notebook,17.3,3,1920x1080,Full HD,1.6,Intel, Core i5 8250U,256,0,0,8,windows,45501.12
+HP,Notebook,13.3,1.49,1920x1080,Full HD,1.6,Intel, Core i5 8250U,0,500,0,4,windows,40173.12
+Huawei,Ultrabook,13,1.05,2160x1440,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,71874.72
+HP,Notebook,17.3,2.71,1920x1080,Full HD,2.5,Intel, Core i5 7200U,0,2TB,0,6,windows,37242.72
+Lenovo,Notebook,15.6,2.2,1366x768,HD,2.9,AMD, A6-Series 9220,0,500,0,4,no,16463.52
+Toshiba,Notebook,15.6,1.39,1366x768,HD,2.4,Intel, Core i3 7100U,0,500,0,4,windows,26053.92
+HP,Notebook,17.3,2.5,1920x1080,Full HD,1.6,Intel, Core i5 8250U,256,0,0,8,windows,49177.44
+Dell,Notebook,15.6,2.3,1366x768,HD,2.4,Intel, Core i3 7100U,0,1TB,0,8,windows,24455.52
+Acer,Notebook,15.6,2.1,1366x768,HD,2,Intel, Core i3 6006U,128,0,0,4,windows,23922.72
+MSI,Gaming,18.4,4.4,1920x1080,Full HD,2.9,Intel, Core i7 6920HQ,512,1TB,0,32,windows,149130.72
+Lenovo,Notebook,15.6,1.90,1920x1080,Full HD,2.5,Intel, Core i5 7200U,128,1TB,0,8,windows,43316.64
+HP,2 in 1 Convertible,13.3,1.29,3840x2160,4K,1.6,Intel, Core i5 8250U,256,0,0,8,windows,79866.72
+Dell,Notebook,15.6,2.02,1920x1080,Full HD,1.8,Intel, Core i7 8550U,256,2TB,0,16,linux,55890.72
+Dell,Ultrabook,13.3,1.23,1920x1080,Full HD,1.6,Intel, Core i5 8250U,256,0,0,8,windows,74538.72
+Lenovo,2 in 1 Convertible,13.9,1.4,3840x2160,4K,1.8,Intel, Core i7 8550U,512,0,0,16,windows,98514.72
+Toshiba,Notebook,15.6,2.0,1366x768,HD,2.5,Intel, Core i5 7200U,128,0,0,8,windows,42251.04
+Xiaomi,Notebook,15.6,1.95,1920x1080,Full HD,1.6,Intel, Core i5 8250U,256,0,0,8,no,63882.72
+Dell,Notebook,17.3,2.77,1920x1080,Full HD,1.8,Intel, Core i7 8550U,512,0,0,16,windows,82530.72
+Dell,Notebook,15.6,2.06,3840x2160,4K,2.8,Intel, Core i7 7700HQ,512,0,0,16,windows,127712.16
+Lenovo,Gaming,15.6,2.4,1920x1080,Full HD,2.5,Intel, Core i5 7300HQ,256,0,0,8,no,41505.12
+Acer,Ultrabook,13.3,1.12,1920x1080,Full HD,1.2,Intel, Core i5 7Y54,256,0,0,8,windows,52693.92
+Dell,Notebook,17.3,2.8,1920x1080,Full HD,1.8,Intel, Core i7 8550U,128,1TB,0,8,windows,57808.8
+Acer,Notebook,14,1.3,1920x1080,Full HD,1.1,Intel, Celeron Dual Core N3350,0,0,32,4,windows,13852.8
+Xiaomi,Ultrabook,13.3,1.3,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,no,53274.672
+Lenovo,Notebook,17.3,2.8,1600x900,HD,1.6,Intel, Core i5 8250U,256,0,0,8,no,37189.44
+Dell,2 in 1 Convertible,13.3,1.62,1920x1080,Full HD,1.8,Intel, Core i7 8550U,0,1TB,0,8,windows,44701.92
+HP,Notebook,17.3,2.5,1920x1080,Full HD,1.6,Intel, Core i5 8250U,0,1TB,0,8,windows,48697.92
+Razer,Gaming,17.3,3.49,3840x2160,4K,2.9,Intel, Core i7 7820HK,0,0,0,32,windows,324954.72
+HP,Notebook,13.3,1.49,1920x1080,Full HD,1.6,Intel, Core i5 8250U,512,0,0,8,windows,51095.52
+HP,Gaming,17.3,3.35,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,256,1TB,0,16,windows,73473.12
+HP,Notebook,17.3,2.5,1920x1080,Full HD,1.8,Intel, Core i7 8550U,256,0,0,8,windows,55677.6
+Dell,Gaming,15.6,2.65,3840x2160,4K,2.8,Intel, Core i7 7700HQ,512,1TB,0,16,windows,98301.6
+Lenovo,Notebook,15.6,2.1,1366x768,HD,2.3,Intel, Core i5 6200U,128,0,0,4,windows,26267.04
+Acer,Notebook,15.6,2.23,1920x1080,Full HD,2.7,Intel, Core i7 7500U,0,1TB,0,8,windows,39533.76
+Lenovo,Gaming,15.6,3.2,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,512,1TB,0,16,windows,93186.72
+Dell,Workstation,15.6,2.8,3840x2160,4K,3,Intel, Xeon E3-1505M V6,256,1TB,0,16,windows,162770.4
+Lenovo,Gaming,15.6,2.4,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,512,0,0,16,no,74485.44
+Dell,Notebook,15.6,2.3,1366x768,HD,2.4,Intel, Core i3 7100U,0,1TB,0,6,windows,23389.92
+Dell,Ultrabook,13.3,1.21,3840x2160,4K,1.8,Intel, Core i7 8550U,256,0,0,8,windows,103842.72
+Dell,Ultrabook,13.3,?,1920x1080,Full HD,1.8,Intel, Core i7 8550U,256,0,0,8,windows,77202.72
+Acer,Notebook,15.6,2.4,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,0,1TB,0,8,linux,41505.12
+Asus,Gaming,17.3,2.9,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,256,1TB,0,16,windows,74964.96
+HP,Notebook,15.6,2.1,1920x1080,Full HD,2,Intel, Core i3 6006U,0,500,0,4,no,18594.72
+Lenovo,Notebook,15.6,2.2,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,no,29250.72
+Huawei,Ultrabook,13,1.05,2160x1440,Full HD,2.7,Intel, Core i7 7500U,512,0,0,8,windows,79866.72
+Dell,Ultrabook,13.3,1.4,1920x1080,Full HD,1.8,Intel, Core i7 8550U,256,0,0,8,windows,49650.5664
+Lenovo,Notebook,17.3,2.8,1600x900,HD,2.5,Intel, Core i5 7200U,0,1TB,0,8,no,31381.92
+HP,Notebook,14,1.63,1920x1080,Full HD,1.8,Intel, Core i7 8550U,256,0,0,8,windows,54931.68
+Dell,Ultrabook,14,1.6,1920x1080,Full HD,1.6,Intel, Core i5 8250U,256,0,0,8,windows,61218.72
+Dell,2 in 1 Convertible,13.3,1.62,1920x1080,Full HD,1.8,Intel, Core i7 8550U,512,0,0,16,windows,68145.12
+Dell,Notebook,15.6,2.2,1920x1080,Full HD,1.6,Intel, Core i5 8250U,256,0,0,8,linux,36089.208
+Lenovo,2 in 1 Convertible,14,1.74,1920x1080,Full HD,1.6,Intel, Core i5 8250U,256,0,0,8,windows,47898.72
+Toshiba,Ultrabook,13.3,1.2,1920x1080,Full HD,2.5,Intel, Core i7 6500U,256,0,0,8,windows,72620.64
+HP,Notebook,15.6,2.1,1920x1080,Full HD,1.6,Intel, Core i5 8250U,0,1TB,0,8,windows,42304.32
+Dell,Gaming,17.3,4.42,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,256,1TB,0,16,windows,130873.7952
+Acer,Notebook,15.6,2.2,1920x1080,Full HD,2.7,Intel, Core i7 7500U,256,0,0,8,windows,44328.96
+Dell,Notebook,15.6,2.3,1920x1080,Full HD,2.7,Intel, Core i7 7500U,0,1TB,0,16,windows,45768.0528
+Asus,Notebook,15.6,2,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,40972.32
+Asus,Notebook,17.3,2.69,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,500,0,8,windows,47472.48
+HP,Notebook,15.6,1.9,1920x1080,Full HD,2.7,Intel, Core i7 7500U,0,1TB,0,8,windows,67612.32
+Asus,Notebook,15.6,2.37,1366x768,HD,2.4,Intel, Core i3 7100U,0,1TB,0,4,windows,21258.1872
+HP,Notebook,15.6,2.1,1366x768,HD,1.5,AMD, E-Series 9000e,0,500,0,4,windows,17582.4
+Lenovo,Gaming,15.6,3.2,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,256,1TB,0,16,windows,79866.72
+Dell,Notebook,14,1.6,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,45767.52
+Acer,2 in 1 Convertible,13.3,1.6,1920x1080,Full HD,2.3,Intel, Core i5 6200U,256,0,0,8,windows,36709.92
+Dell,Notebook,15.6,2.36,1920x1080,Full HD,2.7,Intel, Core i7 7500U,256,0,0,16,linux,47898.72
+Acer,Notebook,15.6,2.1,1366x768,HD,2,Intel, Core i3 6006U,0,1TB,0,4,linux,20779.2
+Asus,Notebook,15.6,2.2,1920x1080,Full HD,2.5,AMD, A10-Series A10-9620P,128,1TB,0,4,windows,30636.0
+Asus,Gaming,17.3,4.7,1920x1080,Full HD,2.9,Intel, Core i7 7820HK,512,1TB,0,32,windows,207259.2
+Acer,Gaming,15.6,2.5,1920x1080,Full HD,2.5,Intel, Core i5 7300HQ,256,0,0,8,windows,45074.88
+Lenovo,Notebook,15.6,2.2,1366x768,HD,2,Intel, Core i3 6006U,128,0,0,8,windows,31381.92
+Asus,Notebook,17.3,2.1,1920x1080,Full HD,1.8,Intel, Core i7 8550U,128,1TB,0,8,windows,61005.6
+Asus,Notebook,17.3,2.69,1920x1080,Full HD,2.7,Intel, Core i7 7500U,128,1TB,0,8,no,47365.92
+Dell,Gaming,15.6,2.56,1920x1080,Full HD,2.5,Intel, Core i5 7300HQ,256,0,0,8,windows,46833.12
+Lenovo,2 in 1 Convertible,13.9,1.38,1920x1080,Full HD,2.7,Intel, Core i7 7500U,256,0,0,8,windows,57489.12
+Dell,Notebook,15.6,2.2,1920x1080,Full HD,1.8,Intel, Core i7 8550U,128,2TB,0,8,windows,52480.8
+HP,Notebook,15.6,2.04,1366x768,HD,2.5,Intel, Core i5 7200U,0,1TB,0,8,windows,29783.52
+Asus,Gaming,17.3,3.6,1920x1080,Full HD,2.9,Intel, Core i7 7820HK,256,0,0,16,windows,159786.72
+HP,Notebook,13.3,1.49,1920x1080,Full HD,1.6,Intel, Core i5 8250U,0,500,0,4,windows,35964.0
+Apple,Ultrabook,13.3,1.37,2560x1600,Quad HD,3.1,Intel, Core i5,512,0,0,8,macos,108691.2
+Dell,2 in 1 Convertible,15.6,2.08,1920x1080,Full HD,1.8,Intel, Core i7 8550U,0,1TB,0,8,windows,43636.32
+Asus,Gaming,17.3,4.3,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,256,1TB,0,16,windows,95850.72
+Asus,Notebook,15.6,1.68,1366x768,HD,3,AMD, A9-Series 9420,0,1TB,0,4,windows,24988.32
+Lenovo,2 in 1 Convertible,13.9,1.37,1920x1080,Full HD,1.8,Intel, Core i7 8550U,512,0,0,8,windows,98514.72
+Acer,Notebook,17.3,3,1920x1080,Full HD,2.7,Intel, Core i3 7130U,256,0,0,4,windows,37402.56
+Dell,Ultrabook,13.3,1.41,1920x1080,Full HD,1.6,Intel, Core i5 8250U,256,0,0,8,windows,50562.72
+HP,Notebook,15.6,1.91,1366x768,HD,2.5,AMD, A6-Series A6-9220,128,0,0,8,windows,23757.552
+HP,Notebook,17.3,2.9,1920x1080,Full HD,1.8,Intel, Core i7 8550U,0,1TB,0,16,windows,56423.52
+MSI,Gaming,17.3,4.14,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,512,1TB,0,16,windows,133146.72
+Lenovo,2 in 1 Convertible,15.6,2,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,512,0,0,8,windows,90522.72
+Dell,Notebook,17.3,2.8,1920x1080,Full HD,1.8,Intel, Core i7 8550U,128,1TB,0,8,windows,60845.76
+Lenovo,Notebook,15.6,2.2,1920x1080,Full HD,2,Intel, Core i3 6006U,256,0,0,4,no,23656.32
+HP,Notebook,15.6,2.1,1920x1080,Full HD,1.6,Intel, Core i5 8250U,0,500,0,4,windows,38468.16
+Dell,Notebook,15.6,2.18,1920x1080,Full HD,2.5,Intel, Core i5 7200U,0,1TB,0,4,windows,35004.96
+Dell,Notebook,15.6,2.24,1920x1080,Full HD,2.5,Intel, Core i5 7200U,0,1TB,0,8,windows,30103.2
+Dell,2 in 1 Convertible,15.6,2.67,1920x1080,Full HD,1.6,Intel, Core i5 8250U,256,0,0,8,windows,42570.72
+Asus,2 in 1 Convertible,13.3,4.1,1920x1080,Full HD,1.8,Intel, Core i7 8550U,512,0,0,8,windows,79866.72
+HP,Notebook,17.3,2.5,1920x1080,Full HD,1.8,Intel, Core i7 8550U,0,1TB,0,8,windows,54239.04
+Lenovo,Notebook,15.6,2.05,1920x1080,Full HD,1.8,Intel, Core i7 8550U,256,0,0,8,windows,46886.4
+Apple,Ultrabook,13.3,1.37,2560x1600,Quad HD,2.9,Intel, Core i5,512,0,0,8,macos,104370.192
+Asus,Gaming,17.3,3.2,1920x1080,Full HD,3,AMD, Ryzen 1700,256,1TB,0,16,windows,82530.72
+Dell,Notebook,15.6,2.14,1920x1080,Full HD,1.8,Intel, Core i7 8550U,256,0,0,8,linux,39164.5296
+Lenovo,2 in 1 Convertible,14,1.36,2560x1440,Quad HD,2.6,Intel, Core i7 6600U,512,0,0,16,windows,133146.72
+Toshiba,Notebook,15.6,2.2,1366x768,HD,2.5,Intel, Core i7 6500U,0,500,0,8,windows,43263.36
+Dell,Notebook,15.6,2.3,1366x768,HD,2.7,Intel, Core i7 7500U,0,1TB,0,12,windows,37992.3696
+Dell,Notebook,17.3,2.8,1920x1080,Full HD,1.8,Intel, Core i7 8550U,128,1TB,0,8,linux,58554.72
+Acer,Notebook,15.6,2.2,1920x1080,Full HD,1.8,Intel, Core i7 8550U,0,1TB,0,8,windows,39693.6
+Lenovo,Notebook,17.3,2.8,1600x900,HD,2,Intel, Core i3 6006U,0,1TB,0,4,windows,26053.92
+Lenovo,Notebook,17.3,2.8,1920x1080,Full HD,1.8,Intel, Core i7 8550U,0,2TB,0,8,no,45234.72
+Lenovo,Notebook,17.3,2.8,1600x900,HD,2.7,Intel, Core i7 7500U,128,1TB,0,6,windows,45767.52
+Dell,Notebook,15.6,2.25,1920x1080,Full HD,2.0,Intel, Core i3 6006U,0,1TB,0,4,linux,22803.84
+Lenovo,Gaming,15.6,2.5,1920x1080,Full HD,2.5,Intel, Core i5 7300HQ,256,0,0,8,windows,44169.12
+Lenovo,Notebook,15.6,2.2,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,6,windows,30849.12
+Acer,Notebook,15.6,3,1920x1080,Full HD,1.8,Intel, Core i7 8550U,256,0,0,8,windows,50669.28
+Acer,Notebook,15.6,2.15,1920x1080,Full HD,2.7,Intel, Core i7 7500U,0,1TB,0,12,windows,35111.52
+Lenovo,Notebook,15.6,1.95,1920x1080,Full HD,2.7,Intel, Core i7 7500U,256,0,0,8,windows,58448.16
+Asus,Ultrabook,15.6,1.7,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,52054.56
+Lenovo,Gaming,15.6,2.5,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,256,1TB,0,16,windows,62817.12
+Lenovo,Notebook,15.6,2.2,1920x1080,Full HD,2.7,Intel, Core i7 7500U,0,1TB,0,8,no,35112.0528
+Acer,Notebook,15.6,2.19,1366x768,HD,1.5,Intel, Celeron Dual Core 3205U,16,0,0,2,chrome,10602.72
+Asus,Gaming,17.3,3,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,0,1TB,0,8,windows,63243.36
+HP,Notebook,17.3,2.54,1600x900,HD,2,Intel, Core i3 6006U,0,1TB,0,8,windows,26053.92
+Dell,Notebook,15.6,2,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,256,0,0,8,windows,97449.12
+Lenovo,Notebook,15.6,2.05,1920x1080,Full HD,1.6,Intel, Core i5 8250U,256,0,0,8,windows,39373.92
+Lenovo,Gaming,15.6,3.2,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,0,1TB,0,8,windows,69210.72
+Acer,Notebook,15.6,2.5,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,256,0,0,8,linux,52161.12
+Dell,Workstation,17.3,3.42,1920x1080,Full HD,2.9,Intel, Core i7 7820HQ,256,0,0,16,windows,153705.3408
+Lenovo,Notebook,15.6,2.4,1920x1080,Full HD,2.4,AMD, A10-Series 9600P,0,1TB,0,6,windows,26586.72
+Asus,Ultrabook,15.6,1.63,1920x1080,Full HD,2.7,Intel, Core i7 7500U,512,0,0,16,windows,78215.04
+Asus,Notebook,14,1.3,1366x768,HD,2.4,Intel, Core i3 7100U,128,0,0,4,windows,27119.52
+Asus,Gaming,17.3,2.9,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,256,1TB,0,16,windows,113060.16
+Lenovo,Notebook,17.3,5.8,1600x900,HD,2.5,Intel, Core i5 7200U,0,1TB,0,6,windows,34578.72
+Lenovo,Notebook,15.6,2.2,1366x768,HD,2.5,Intel, Core i5 7200U,0,2TB,0,8,no,29250.72
+Asus,Gaming,15.6,2.5,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,128,1TB,0,8,windows,67399.2
+Lenovo,Notebook,15.6,2.2,1366x768,HD,1.1,Intel, Pentium Quad Core N4200,0,1TB,0,4,no,19180.2672
+HP,2 in 1 Convertible,13.3,1.28,1920x1080,Full HD,2.8,Intel, Core i7 7600U,256,0,0,16,windows,105228.0
+Toshiba,Notebook,15.6,2.2,1920x1080,Full HD,2.5,Intel, Core i7 6500U,256,0,0,8,windows,55571.04
+Lenovo,Notebook,15.6,2.3,1920x1080,Full HD,2.5,Intel, Core i5 7200U,128,1TB,0,8,windows,43636.32
+HP,Notebook,15.6,1.86,1920x1080,Full HD,2,Intel, Core i3 6006U,0,1TB,0,4,windows,24988.32
+Lenovo,Notebook,13.3,1.1,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,53226.72
+Dell,Ultrabook,13.3,1.21,3840x2160,4K,1.8,Intel, Core i7 8550U,0,0,0,16,windows,133146.72
+MSI,Gaming,15.6,2.8,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,256,1TB,0,16,windows,111834.72
+Acer,Notebook,15.6,2.23,1920x1080,Full HD,2.2,AMD, A8-Series 7410,256,0,0,8,windows,24988.32
+Asus,2 in 1 Convertible,11.6,1.1,1366x768,HD,1.1,Intel, Celeron Dual Core N3350,0,0,32,2,windows,14652.0
+Dell,Notebook,15.6,2.33,1920x1080,Full HD,1.6,Intel, Core i5 8250U,128,1TB,0,8,windows,44968.32
+HP,2 in 1 Convertible,13.3,1.29,3840x2160,4K,1.8,Intel, Core i7 8550U,0,0,0,16,windows,130482.72
+Lenovo,Notebook,13.3,1.45,1366x768,HD,1.6,Intel, Celeron Dual Core 3855U,0,0,16,4,chrome,24503.472
+HP,Notebook,14,1.95,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,52214.4
+Acer,Notebook,11.6,1.4,1366x768,HD,1.6,Intel, Pentium Quad Core N3710,0,0,128,4,windows,25840.8
+HP,Notebook,14,1.48,1920x1080,Full HD,2.7,Intel, Core i7 7500U,256,0,0,8,windows,68837.76
+Lenovo,Notebook,17.3,2.79,1600x900,HD,2.5,Intel, Core i5 7200U,0,1TB,0,4,windows,31381.92
+Asus,Notebook,14,2,1920x1080,Full HD,2.7,Intel, Core i7 7500U,256,0,0,8,windows,58288.32
+HP,Notebook,15.6,2.1,1366x768,HD,1.8,Intel, Core i7 8550U,0,1TB,0,8,windows,48058.56
+Acer,Notebook,15.6,2.2,1366x768,HD,2.7,AMD, A12-Series 9720P,256,0,0,8,windows,35111.52
+Lenovo,Notebook,14,1.44,1366x768,HD,1.1,Intel, Celeron Dual Core N3350,0,0,32,4,windows,15557.76
+Acer,Notebook,15.6,2.2,1366x768,HD,2.5,Intel, Core i5 7200U,0,1TB,0,6,windows,29250.72
+Asus,Ultrabook,15.6,1.7,1920x1080,Full HD,2.7,Intel, Core i7 7500U,256,0,0,8,windows,55938.672
+HP,Ultrabook,12.5,1.26,1920x1080,Full HD,2.7,Intel, Core i7 7500U,256,0,0,8,windows,71128.8
+Dell,Notebook,15.6,2.06,3840x2160,4K,2.8,Intel, Core i7 7700HQ,0,0,0,32,windows,140605.92
+MSI,Gaming,17.3,2.7,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,256,1TB,0,8,windows,63882.72
+Toshiba,Notebook,15.6,2.0,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,50243.04
+Asus,Notebook,14,2,1920x1080,Full HD,2.7,Intel, Core i7 7500U,256,1TB,0,8,windows,71075.52
+Lenovo,Notebook,15.6,1.85,1920x1080,Full HD,2,Intel, Core i3 6006U,0,1TB,0,4,windows,23922.72
+Asus,Gaming,15.6,2.5,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,256,0,0,8,windows,53226.72
+HP,Notebook,14,1.48,1920x1080,Full HD,2.6,Intel, Core i5 7300U,256,0,0,8,windows,67559.04
+HP,Notebook,15.6,1.84,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,60952.32
+Asus,Notebook,15.6,2,1366x768,HD,1.1,Intel, Celeron Dual Core N3350,0,1TB,0,4,linux,14651.4672
+Dell,Notebook,15.6,2,1920x1080,Full HD,1.6,Intel, Core i5 8250U,256,0,0,8,windows,60885.72
+Dell,Notebook,15.6,2.2,1366x768,HD,1.6,Intel, Celeron Dual Core N3060,0,500,0,4,linux,14646.672
+Lenovo,Notebook,15.6,2.2,1920x1080,Full HD,3.6,AMD, A12-Series 9720P,0,2TB,0,12,windows,47898.72
+HP,Notebook,15.6,2.1,1920x1080,Full HD,2.4,Intel, Core i3 7100U,0,1TB,0,8,windows,38148.48
+Lenovo,2 in 1 Convertible,13.9,1.4,3840x2160,4K,1.8,Intel, Core i7 8550U,512,0,0,16,windows,111834.72
+Dell,Ultrabook,13.3,1.2,1920x1080,Full HD,1.8,Intel, Core i7 8550U,256,0,0,8,windows,84129.12
+Lenovo,Gaming,15.6,2.4,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,256,2TB,0,16,windows,60153.12
+HP,Notebook,14,1.44,1366x768,HD,1.6,Intel, Celeron Dual Core N3060,0,0,32,2,windows,14865.12
+Dell,Ultrabook,15.6,1.88,1920x1080,Full HD,1.9,Intel, Core i7 8650U,512,0,0,16,windows,85672.1088
+Asus,2 in 1 Convertible,11.6,1.5,1366x768,HD,1.1,Intel, Celeron Dual Core N3350,0,0,32,4,windows,19980.0
+Dell,Ultrabook,15.6,2.0,1920x1080,Full HD,1.6,Intel, Core i5 8250U,0,1TB,0,8,windows,35324.64
+HP,Notebook,15.6,1.84,1920x1080,Full HD,2.7,Intel, Core i7 7500U,256,0,0,8,windows,69477.12
+MSI,Gaming,17.3,2.7,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,128,1TB,0,8,windows,75071.52
+HP,Workstation,15.6,2.6,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,256,0,0,8,windows,92615.0256
+Toshiba,Notebook,15.6,2.4,1920x1080,Full HD,2.5,Intel, Core i7 6500U,512,0,0,16,windows,74751.84
+Dell,Notebook,15.6,2.02,1920x1080,Full HD,1.8,Intel, Core i7 8550U,128,2TB,0,8,windows,51729.552
+Lenovo,Notebook,15.6,2.2,1366x768,HD,1.1,Intel, Celeron Dual Core N3350,0,1TB,0,4,no,17155.6272
+Dell,Gaming,15.6,2.65,1920x1080,Full HD,2.5,Intel, Core i5 7300HQ,0,1TB,0,8,windows,53226.72
+Dell,Notebook,15.6,2.36,1366x768,HD,2.5,Intel, Core i5 7200U,0,2TB,0,8,windows,29696.6736
+Dell,Notebook,14,1.36,1920x1080,Full HD,2.6,Intel, Core i5 7300U,256,0,0,8,windows,76030.56
+HP,Notebook,15.6,1.86,1366x768,HD,2,Intel, Core i3 6006U,0,500,0,4,windows,23389.92
+Asus,Notebook,14,2,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,50349.6
+Lenovo,Notebook,17.3,2.8,1600x900,HD,2.5,Intel, Core i5 7200U,128,1TB,0,6,windows,38308.32
+HP,Notebook,15.6,1.86,1920x1080,Full HD,2.5,Intel, Core i5 7200U,0,1TB,0,8,windows,34045.92
+Lenovo,Notebook,15.6,2.2,1366x768,HD,2,Intel, Core i3 6006U,256,0,0,8,no,26586.72
+HP,Notebook,15.6,2.04,1366x768,HD,1.6,Intel, Pentium Quad Core N3710,0,2TB,0,8,windows,20725.92
+Dell,Notebook,17.3,2.8,1920x1080,Full HD,1.6,Intel, Core i5 8250U,128,1TB,0,8,windows,57808.8
+Lenovo,Gaming,15.6,2.4,1920x1080,Full HD,2.5,Intel, Core i5 7300HQ,128,1TB,0,8,no,43103.52
+Dell,Notebook,15.6,2.33,1920x1080,Full HD,2.7,Intel, Core i7 7500U,256,0,0,8,windows,47898.72
+HP,Ultrabook,14,1.36,1920x1080,Full HD,2.7,Intel, Core i7 7500U,256,0,0,8,windows,93240.0
+Asus,2 in 1 Convertible,15.6,2.26,1920x1080,Full HD,2.7,Intel, Core i7 7500U,512,2TB,0,12,windows,58554.72
+Acer,Notebook,15.6,2.1,1366x768,HD,3,AMD, A9-Series 9420,128,0,0,4,windows,22697.28
+Asus,Gaming,17.3,3.25,1920x1080,Full HD,3,AMD, Ryzen 1700,256,1TB,0,16,windows,117162.72
+Lenovo,Notebook,17.3,2.6,1600x900,HD,2.2,AMD, A8-Series 7410,128,0,0,4,windows,26053.92
+Dell,2 in 1 Convertible,13.3,1.62,1920x1080,Full HD,1.8,Intel, Core i7 8550U,256,0,0,8,windows,46300.8528
+HP,Notebook,15.6,1.91,1920x1080,Full HD,3,AMD, A9-Series 9420,256,0,0,4,windows,26053.3872
+Lenovo,Notebook,11.6,1.59,1366x768,HD,1.1,Intel, Celeron Quad Core N3450,128,0,0,4,windows,29463.84
+Dell,Notebook,15.6,1.8,1366x768,HD,1.60,Intel, Celeron Dual Core N3060,0,500,0,4,windows,16463.52
+Asus,Notebook,14,1.5,1366x768,HD,1.1,Intel, Celeron Dual Core N3350,0,0,32,4,windows,15238.08
+Acer,Notebook,15.6,2.4,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,0,1TB,0,8,linux,45074.88
+HP,Gaming,17.3,3.35,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,128,1TB,0,8,windows,63456.48
+Lenovo,Notebook,15.6,1.85,1920x1080,Full HD,2,Intel, Core i3 6006U,128,0,0,4,no,21498.48
+Asus,Gaming,15.6,2.3,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,128,1TB,0,8,windows,88178.4
+Lenovo,Notebook,14,1.5,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,58554.72
+Asus,Ultrabook,13.3,1.1,1920x1080,Full HD,2.7,Intel, Core i7 7500U,512,0,0,16,windows,93181.392
+Lenovo,Ultrabook,14,1.13,2560x1440,Quad HD,2.7,Intel, Core i7 7500U,512,0,0,8,windows,121584.96
+Lenovo,Notebook,13.3,1.5,1920x1080,Full HD,2.4,Intel, Core i3 7100U,128,0,0,4,windows,29250.72
+Dell,Workstation,15.6,2.23,1920x1080,Full HD,2.6,Intel, Core i5 6440HQ,0,500,0,8,windows,72940.32
+Dell,Workstation,15.6,2,1920x1080,Full HD,2.7,Intel, Core i7 6820HQ,256,0,0,8,windows,113752.8
+Lenovo,2 in 1 Convertible,14,1.42,2560x1440,Quad HD,2.7,Intel, Core i7 7500U,512,0,0,16,windows,133679.52
+Asus,Gaming,17.3,3,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,0,1TB,0,8,windows,55357.92
+Asus,Gaming,17.3,3,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,256,1TB,0,16,windows,84768.48
+Acer,Notebook,15.6,2.2,1366x768,HD,1.6,Intel, Core i5 8250U,0,1TB,0,12,windows,36975.7872
+MSI,Gaming,17.3,2.7,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,256,0,0,8,windows,71874.72
+Dell,Notebook,15.6,2.33,1920x1080,Full HD,2.7,Intel, Core i7 7500U,256,0,0,8,linux,41498.1936
+HP,Ultrabook,15.6,1.91,1920x1080,Full HD,3,AMD, A9-Series 9420,256,0,0,4,windows,26586.72
+Lenovo,Notebook,15.6,2.1,1920x1080,Full HD,1.8,Intel, Core i7 8550U,256,0,0,8,windows,65510.9568
+Lenovo,Notebook,14,1.9,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,49976.64
+Dell,Workstation,15.6,1.78,3840x2160,4K,2.8,Intel, Core i7 7700HQ,256,0,0,8,windows,144495.36
+Lenovo,Ultrabook,14,1.13,2560x1440,Quad HD,2.7,Intel, Core i7 7500U,0,0,0,16,windows,139860.0
+Lenovo,Notebook,15.6,2.2,1366x768,HD,1.1,Intel, Celeron Dual Core N3350,0,1TB,0,4,windows,16303.68
+Asus,Gaming,17.3,2.9,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,256,1TB,0,16,windows,81465.12
+Lenovo,Notebook,10.078740157480315,2.1,1920x1080,Full HD,1.6,Intel, Core i5 8250U,256,1TB,0,8,windows,60978.96
+Acer,Notebook,15.6,2.5,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,256,0,0,8,linux,46833.12
+MSI,Gaming,17.3,2.8,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,256,1TB,0,16,windows,119826.72
+Asus,Ultrabook,14,1.10,1920x1080,Full HD,2.7,Intel, Core i7 7500U,512,0,0,8,windows,99793.44
+Toshiba,Ultrabook,13.3,1.2,1920x1080,Full HD,2.5,Intel, Core i7 6500U,512,0,0,16,windows,93080.16
+Dell,Ultrabook,14,1.36,1920x1080,Full HD,2.8,Intel, Core i7 7600U,512,0,0,8,windows,89510.4
+Lenovo,Notebook,14.015748031496063,2.2,1920x1080,Full HD,2,Intel, Core i3 6006U,0,500,0,4,windows,21791.52
+Lenovo,Notebook,11.6,1.15,1366x768,HD,1.1,Intel, Celeron Dual Core N3350,0,0,32,2,windows,16221.096
+Lenovo,Workstation,15.6,2.67,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,512,0,0,8,windows,102564.0
+Lenovo,Ultrabook,14,1.7,2560x1440,Quad HD,2.8,Intel, Core i7 7700HQ,512,0,0,8,windows,103523.04
+HP,Notebook,15.6,2.1,1920x1080,Full HD,2,Intel, Core i3 6006U,0,1TB,0,4,windows,24988.32
+Acer,2 in 1 Convertible,13.3,1.6,1920x1080,Full HD,2.5,Intel, Core i7 6500U,256,0,0,8,windows,42038.4528
+Asus,2 in 1 Convertible,13.3,1.27,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,49443.84
+Dell,Notebook,15.6,2.3,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,4,linux,31909.392
+Dell,Notebook,13.3,1.65,1366x768,HD,2,Intel, Core i3 6006U,128,0,0,4,windows,36709.92
+HP,Ultrabook,14,1.43,1920x1080,Full HD,2.5,Intel, Core i7 6500U,256,0,0,8,windows,79920.0
+Dell,Notebook,15.6,2.14,1366x768,HD,2.5,Intel, Core i5 7200U,0,1TB,0,8,windows,28768.536
+Lenovo,Ultrabook,14,1.75,1920x1080,Full HD,1.8,Intel, Core i7 8550U,256,0,0,8,windows,64755.4464
+Lenovo,2 in 1 Convertible,15.6,2,3840x2160,4K,2.8,Intel, Core i7 7700HQ,512,0,0,16,windows,101178.72
+Chuwi,Notebook,12.3,1.4,2736x1824,Quad HD,1.1,Intel, Celeron Quad Core N3450,0,0,64,6,windows,23922.72
+HP,Notebook,15.6,2.31,1920x1080,Full HD,2.9,Intel, Core i7 7820HQ,256,0,0,8,windows,76030.56
+Asus,Notebook,14.015748031496063,2.3,1920x1080,Full HD,2.4,Intel, Core i3 7100U,0,1TB,0,8,linux,31808.16
+Dell,Gaming,10.748031496062993,4.42,2560x1440,Quad HD,2.9,Intel, Core i7 7820HK,256,1TB,0,16,windows,149130.72
+Dell,Gaming,15.6,2.62,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,128,1TB,0,8,windows,61751.52
+Dell,Notebook,15.6,2.02,1920x1080,Full HD,1.8,Intel, Core i7 8550U,256,2TB,0,8,windows,60867.072
+Dell,Ultrabook,14,1.6,1920x1080,Full HD,2.8,Intel, Core i7 7600U,256,0,0,8,linux,58554.72
+HP,Gaming,17.3,3.35,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,256,1TB,0,12,windows,106506.72
+Mediacom,2 in 1 Convertible,11.6,1.16,1920x1080,Full HD,1.1,Intel, Celeron Dual Core N3350,32,0,0,4,windows,15930.72
+Samsung,Notebook,11.6,1.15,1366x768,HD,1.6,Intel, Celeron Dual Core N3060,0,0,16,4,chrome,14332.32
+Lenovo,Notebook,13.3,1.4,1920x1080,Full HD,2.7,Intel, Core i7 7500U,256,0,0,8,windows,53812.8
+Lenovo,Notebook,14,1.7,1920x1080,Full HD,2.7,Intel, Core i3 7130U,128,0,0,4,windows,31914.72
+Lenovo,Workstation,15.6,2.3,3840x2160,4K,2.8,Intel, Core i7 7600U,512,0,0,16,windows,130269.6
+Lenovo,Notebook,15.6,2.5,1920x1080,Full HD,2.9,Intel, Core i7 7820HQ,512,0,0,16,windows,130482.72
+Asus,Gaming,17.3,3.2,1920x1080,Full HD,3.2,AMD, Ryzen 1600,256,1TB,0,8,windows,90309.6
+HP,Notebook,15.6,2.1,1366x768,HD,1.6,Intel, Celeron Dual Core N3060,0,500,0,4,windows,18488.16
+Google,Ultrabook,12.3,1.1,2400x1600,Full HD,1.3,Intel, Core i7 7Y75,512,0,0,16,chrome,117162.72
+Lenovo,Ultrabook,9.448818897637794,1.32,2560x1440,Quad HD,2.7,Intel, Core i7 7500U,512,0,0,24,windows,126912.96
+Asus,Notebook,15.6,2,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,4,linux,29783.52
+Lenovo,Notebook,17.3,2.8,1600x900,HD,2.5,AMD, A6-Series 9220,0,1TB,0,8,windows,27652.32
+Dell,Notebook,15.6,2.2,1920x1080,Full HD,1.6,Intel, Core i5 8250U,256,0,0,4,windows,39906.72
+Lenovo,Ultrabook,12.5,1.36,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,76137.12
+Lenovo,Notebook,15.6,2.2,1920x1080,Full HD,1.1,Intel, Pentium Quad Core N4200,128,0,0,4,windows,18594.72
+HP,Gaming,15.6,2.2,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,128,1TB,0,8,windows,58554.72
+Dell,Notebook,14,1.64,1920x1080,Full HD,2.8,Intel, Core i5 7440HQ,256,0,0,8,windows,62817.12
+Acer,Notebook,15.6,2.4,1366x768,HD,2.5,Intel, Core i5 7200U,0,500,0,4,linux,23539.104
+Dell,Workstation,15.6,2.23,1920x1080,Full HD,3,Intel, Xeon E3-1505M V6,0,1TB,64,8,windows,106187.04
+MSI,Gaming,15.6,2.2,1920x1080,Full HD,2.5,Intel, Core i5 7300HQ,256,0,0,8,windows,54757.9872
+Microsoft,Ultrabook,13.5,1.25,2256x1504,Full HD,2.5,Intel, Core i7 7660U,512,0,0,16,windows,137941.92
+HP,Notebook,15.6,1.91,1366x768,HD,2.5,Intel, Core i5 7200U,128,0,0,8,windows,31381.92
+Dell,Workstation,15.6,2.17,1920x1080,Full HD,2.7,Intel, Core i7 6820HQ,256,0,0,16,windows,105228.0
+HP,Workstation,15.6,2.31,1920x1080,Full HD,2.9,Intel, Core i7 7820HQ,512,0,0,8,windows,81731.52
+Lenovo,Notebook,14,1.65,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,71661.6
+Dell,Notebook,15.6,2.36,1920x1080,Full HD,1.8,Intel, Core i7 8550U,128,1TB,0,8,windows,52161.12
+Dell,2 in 1 Convertible,11.6,1.47,1366x768,HD,1.6,Intel, Pentium Quad Core N3710,0,500,0,4,windows,25521.12
+Dell,Notebook,17.3,4.42,1920x1080,Full HD,2.7,Intel, Core i7 7700HQ,0,1TB,0,8,windows,109010.88
+Microsoft,Ultrabook,13.5,1.252,2256x1504,Full HD,2.2,Intel, Core M m3-7Y30,128,0,0,4,windows,52693.92
+Microsoft,Ultrabook,13.188976377952756,1.25,2256x1504,Full HD,2.5,Intel, Core i7 7660U,256,0,0,8,windows,95850.72
+HP,Notebook,17.3,2.5,1600x900,HD,2,Intel, Core i3 6006U,256,0,0,8,windows,34093.872
+Acer,Notebook,15.6,2.23,1920x1080,Full HD,2,Intel, Core i3 6006U,0,1TB,0,4,windows,28984.32
+Acer,Notebook,11.6,1.4,1366x768,HD,1.6,Intel, Celeron Dual Core N3060,128,0,0,4,windows,23176.8
+Asus,Notebook,15.6,2.37,1920x1080,Full HD,2.5,Intel, Core i5 7200U,0,1TB,0,8,windows,39906.72
+Lenovo,Notebook,14,1.5,1920x1080,Full HD,2.7,Intel, Core i7 7500U,512,0,0,8,no,42570.72
+Lenovo,Notebook,15.6,2.67,1920x1080,Full HD,2.9,Intel, Core i7 7820HQ,256,0,0,8,windows,111355.2
+Asus,Notebook,15.6,2,1366x768,HD,1.1,Intel, Pentium Quad Core N4200,0,500,0,4,windows,16197.12
+Acer,Notebook,15.6,2.2,1366x768,HD,2,Intel, Core i3 6006U,0,500,0,4,windows,24988.32
+Dell,Notebook,15.6,2.02,1920x1080,Full HD,1.6,Intel, Core i5 8250U,0,2TB,0,8,windows,40439.52
+HP,Gaming,17.3,3.78,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,0,1TB,0,12,windows,90522.72
+Lenovo,Ultrabook,14,1.4,2560x1440,Quad HD,2.6,Intel, Core i7 6600U,256,0,0,12,windows,98994.24
+HP,2 in 1 Convertible,13.3,1.29,3840x2160,4K,1.8,Intel, Core i7 8550U,512,0,0,8,windows,106506.72
+HP,Notebook,15.6,1.9,1920x1080,Full HD,2.5,Intel, Core i5 7200U,0,500,0,8,windows,61485.12
+Google,Ultrabook,12.3,1.1,2400x1600,Full HD,1.2,Intel, Core i5 7Y57,128,0,0,8,chrome,67932.0
+Dell,Ultrabook,13.3,1.42,1920x1080,Full HD,1.6,Intel, Core i5 8250U,256,0,0,8,windows,98133.768
+Asus,Notebook,15.6,2.06,3840x2160,4K,2.6,Intel, Core i7 6700HQ,128,1TB,0,12,windows,69210.72
+Dell,Notebook,14,1.79,1366x768,HD,2.3,Intel, Core i3 6100U,128,0,0,8,windows,39427.2
+Dell,Workstation,15.6,1.78,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,256,0,0,8,windows,128298.24
+Lenovo,Notebook,14,1.7,1920x1080,Full HD,2.5,Intel, Core i5 7200U,180,0,0,8,windows,72673.92
+Toshiba,Notebook,13.3,1.05,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,89084.16
+Dell,Notebook,15.6,2.16,1920x1080,Full HD,1.8,Intel, Core i7 8550U,512,0,0,8,windows,67239.36
+Dell,Notebook,15.6,2.18,1366x768,HD,2.4,Intel, Core i3 7100U,0,1TB,0,4,windows,31254.048
+HP,Notebook,13.3,1.49,1920x1080,Full HD,1.6,Intel, Core i5 8250U,128,0,0,4,windows,38681.28
+Chuwi,Notebook,15.6,1.89,1920x1080,Full HD,1.44,Intel, Atom x5-Z8350,0,0,64,4,windows,13261.392
+Lenovo,Notebook,15.6,2.3,1366x768,HD,2.0,Intel, Core i3 6006U,128,0,0,4,windows,30103.2
+Lenovo,Notebook,14,1.75,1920x1080,Full HD,1.6,Intel, Core i5 8250U,256,0,0,8,windows,55890.72
+Dell,Workstation,15.6,2.17,1920x1080,Full HD,2.7,Intel, Core i7 6820HQ,512,0,0,16,windows,124568.64
+Dell,Notebook,15.6,2.06,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,512,0,0,16,windows,101178.72
+Lenovo,Ultrabook,12.5,1.36,1920x1080,Full HD,2.7,Intel, Core i7 7500U,512,0,0,16,windows,95797.44
+Asus,Ultrabook,12.5,0.91,1920x1080,Full HD,2.7,Intel, Core i7 7500U,512,0,0,16,windows,103896.0
+Lenovo,Notebook,15.6,2.3,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,53918.8272
+Toshiba,Ultrabook,13.3,1.05,1920x1080,Full HD,2.7,Intel, Core i7 7500U,512,0,0,32,windows,149130.72
+Asus,Gaming,15.6,1.99,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,128,1TB,0,8,windows,71928.0
+Acer,Notebook,15.6,2.2,1366x768,HD,2.5,AMD, A10-Series 9620P,0,1TB,0,8,windows,30849.12
+Asus,Gaming,17.3,4.33,1920x1080,Full HD,2.6,Intel, Core i7 6700HQ,256,1TB,0,24,windows,67612.32
+Lenovo,Ultrabook,12.5,1.3,1366x768,HD,2.3,Intel, Core i5 6200U,180,0,0,8,windows,58554.72
+Lenovo,Notebook,15.6,2.17,1920x1080,Full HD,1.8,Intel, Core i7 8550U,256,0,0,8,windows,47893.392
+HP,Notebook,14,1.48,1920x1080,Full HD,2.8,Intel, Core i7 7600U,0,0,0,8,windows,93186.72
+Lenovo,Notebook,13.3,1.4,1920x1080,Full HD,2.4,Intel, Core i3 7100U,256,0,0,8,windows,50562.72
+Lenovo,Notebook,15.6,2.3,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,48538.08
+Asus,Notebook,11.6,1.2,1366x768,HD,1.1,Intel, Celeron Dual Core N3350,0,0,64,4,windows,18115.2
+HP,Notebook,15.6,1.91,1366x768,HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,32979.7872
+Lenovo,2 in 1 Convertible,13.9,1.4,1920x1080,Full HD,1.6,Intel, Core i5 8250U,256,0,0,8,windows,85194.72
+Lenovo,Notebook,14,2.1,1366x768,HD,1.1,Intel, Celeron Dual Core N3350,0,500,0,4,windows,15930.72
+Lenovo,Notebook,11.6,1.25,1366x768,HD,1.6,Intel, Celeron Dual Core N3060,16,0,0,4,chrome,14119.2
+Lenovo,Notebook,13.3,1.44,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,50562.72
+Asus,Notebook,15.6,2,1920x1080,Full HD,2.7,Intel, Core i7 7500U,256,1TB,0,8,windows,65214.72
+Acer,Notebook,15.6,2.2,1920x1080,Full HD,1.6,Intel, Core i5 8250U,0,1TB,0,4,windows,32660.64
+HP,Ultrabook,13.3,1.34,1920x1080,Full HD,2.7,Intel, Core i7 7500U,512,0,0,8,windows,70489.44
+Lenovo,Gaming,15.6,2.4,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,256,1TB,0,8,no,61218.72
+Dell,Ultrabook,13.3,1.29,1920x1080,Full HD,2.5,Intel, Core i5 7200U,128,0,0,8,windows,47898.72
+Acer,Notebook,15.6,2.2,1920x1080,Full HD,2.7,Intel, Core i7 7500U,0,500,0,4,windows,34045.92
+Dell,Notebook,15.6,2.18,1920x1080,Full HD,2.5,Intel, Core i5 7200U,0,1TB,0,8,windows,44542.08
+Dell,Notebook,15.6,2.2,1920x1080,Full HD,1.8,Intel, Core i7 8550U,256,2TB,0,16,windows,64961.1072
+Xiaomi,Notebook,15.6,1.95,1920x1080,Full HD,1.8,Intel, Core i7 8550U,256,0,0,16,no,74589.336
+Asus,Notebook,11.6,1.1,1366x768,HD,1.1,Intel, Celeron Dual Core N3350,0,0,32,2,windows,13053.6
+HP,Notebook,15.6,2.04,1366x768,HD,1.6,Intel, Core i5 8250U,0,1TB,0,4,windows,27783.9216
+Asus,Gaming,15.6,2.24,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,512,0,0,24,windows,158135.04
+HP,Notebook,15.6,2.04,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,47365.92
+Asus,Gaming,17.3,3,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,256,1TB,0,16,windows,80133.12
+Lenovo,Gaming,15.6,3.2,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,256,1TB,0,8,windows,74538.72
+HP,Ultrabook,13.3,1.32,1920x1080,Full HD,2.7,Intel, Core i7 7500U,256,0,0,8,windows,74538.72
+Dell,Notebook,14,1.64,1920x1080,Full HD,2.6,Intel, Core i5 7300U,256,0,0,8,windows,68184.0144
+HP,Notebook,15.6,1.63,1366x768,HD,2,Intel, Core i3 6006U,128,0,0,4,windows,36709.92
+Dell,Notebook,17.3,2.8,1920x1080,Full HD,1.6,Intel, Core i5 8250U,128,1TB,0,8,linux,47365.92
+Lenovo,Notebook,9.448818897637794,2.02,1920x1080,Full HD,2.3,Intel, Core i5 6200U,256,0,0,8,windows,71395.2
+Lenovo,Notebook,15.6,2.2,1920x1080,Full HD,2.7,Intel, Core i7 7500U,0,1TB,0,4,windows,42570.72
+Lenovo,Notebook,15.6,2.2,1366x768,HD,2,Intel, Core i3 6006U,0,2TB,0,8,no,24455.52
+Dell,Notebook,15.6,2.3,1920x1080,Full HD,2.5,Intel, Core i5 7200U,0,500,0,4,windows,31168.8
+Dell,Notebook,15.6,1.9,1920x1080,Full HD,2.8,Intel, Core i5 7440HQ,256,0,0,8,windows,73366.56
+Dell,Gaming,17.3,4.42,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,128,1TB,0,16,windows,160520.3856
+Toshiba,Notebook,15.6,2.0,1920x1080,Full HD,2.5,Intel, Core i5 7200U,0,500,0,8,windows,45820.8
+Asus,Notebook,15.6,2,3840x2160,4K,2.7,Intel, Core i7 7500U,256,1TB,0,8,windows,69210.72
+Mediacom,Notebook,13.3,1.2,1920x1080,Full HD,1.1,Intel, Celeron Quad Core N3450,32,0,0,4,windows,19660.32
+Asus,Gaming,15.6,2.3,1920x1080,Full HD,2.5,Intel, Core i5 7300HQ,128,1TB,0,8,windows,87858.72
+Dell,Notebook,15.6,1.93,1920x1080,Full HD,2.8,Intel, Core i7 7600U,256,0,0,8,windows,72940.32
+Dell,Notebook,15.6,2.2,1920x1080,Full HD,1.6,Intel, Core i5 8250U,256,0,0,8,windows,42486.0048
+HP,Notebook,15.6,1.86,1920x1080,Full HD,1.6,Intel, Pentium Quad Core N3710,256,0,0,4,windows,21258.1872
+HP,Gaming,17.3,2.62,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,0,1TB,0,12,windows,95850.72
+Lenovo,Notebook,14,1.87,1920x1080,Full HD,2.7,Intel, Core i7 7500U,256,0,0,8,windows,45767.52
+Dell,Ultrabook,13.3,1.2,3200x1800,Quad HD,1.8,Intel, Core i7 8550U,256,0,0,8,windows,74538.72
+Dell,Notebook,14,1.6,1920x1080,Full HD,2,Intel, Core i3 6006U,128,0,0,4,windows,39207.1536
+HP,Ultrabook,13.3,1.34,3200x1800,Quad HD,2.7,Intel, Core i7 7500U,256,0,0,8,windows,61005.6
+Acer,Gaming,15.6,2.4,1920x1080,Full HD,2.5,Intel, Core i5 7300HQ,0,1TB,0,8,linux,42517.44
+Asus,Notebook,15.6,2,1366x768,HD,1.8,AMD, E-Series 7110,0,500,0,4,windows,18594.72
+HP,Notebook,15.6,2.1,1920x1080,Full HD,2.4,Intel, Core i3 7100U,128,0,0,4,windows,37589.04
+Lenovo,Notebook,14,1.87,1920x1080,Full HD,2.5,Intel, Core i5 7200U,0,500,0,4,windows,41824.8
+Lenovo,Notebook,15.6,2.15,1920x1080,Full HD,2.3,Intel, Core i5 6200U,0,1TB,0,4,no,24634.008
+HP,Notebook,15.6,1.86,1920x1080,Full HD,2,Intel, Core i3 6006U,0,500,0,4,windows,21152.16
+Lenovo,Notebook,15.6,1.99,1920x1080,Full HD,2.7,Intel, Core i7 7500U,512,0,0,8,windows,92121.12
+Lenovo,Notebook,15.6,2.2,1920x1080,Full HD,2,Intel, Core i3 6006U,128,0,0,4,windows,26586.72
+Dell,Notebook,15.6,1.9,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,59513.2272
+Dell,Gaming,17.3,4.42,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,256,1TB,0,16,windows,143802.72
+HP,Notebook,17.3,2.65,1600x900,HD,2,Intel, Core i3 6006U,0,1TB,0,8,windows,28992.312
+HP,Notebook,17.3,2.63,1920x1080,Full HD,2.7,Intel, Core i7 7500U,0,1TB,0,8,windows,68198.4
+Asus,Notebook,15.6,2,1366x768,HD,1.1,Intel, Celeron Dual Core N3350,0,500,0,4,linux,11934.72
+Mediacom,Notebook,13.3,1.35,1920x1080,Full HD,1.44,Intel, Atom x5-Z8350,0,0,32,4,windows,13586.4
+Lenovo,Notebook,17.3,2.8,1600x900,HD,2.7,Intel, Core i7 7500U,128,1TB,0,6,windows,50562.72
+HP,Notebook,15.6,1.91,1920x1080,Full HD,2.5,AMD, A10-Series A10-9620P,128,0,0,6,windows,30310.992
+Dell,Notebook,15.6,2.18,1366x768,HD,2,Intel, Core i3 6006U,0,1TB,0,4,windows,32921.712
+Acer,2 in 1 Convertible,11.6,1.25,1920x1080,Full HD,2.0,Intel, Celeron Dual Core N3350,0,0,32,4,windows,18594.72
+Lenovo,Notebook,15.6,2.05,1920x1080,Full HD,2.7,Intel, Core i3 7130U,128,0,0,4,windows,33566.4
+HP,Ultrabook,13.3,1.16,3200x1800,Quad HD,1.2,Intel, Core M 6Y75,512,0,0,16,windows,104695.2
+Lenovo,Notebook,17.3,3.4,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,256,0,0,8,windows,159786.72
+Asus,Notebook,15.6,2.5,1920x1080,Full HD,2.5,Intel, Core i5 7300HQ,128,1TB,0,8,windows,44701.92
+Dell,Ultrabook,13.3,1.21,3840x2160,4K,1.6,Intel, Core i5 8250U,128,0,0,8,windows,85194.72
+Dell,Notebook,15.6,1.93,1366x768,HD,2.6,Intel, Core i5 7300U,0,500,0,4,windows,51095.52
+Lenovo,Notebook,15.6,2.2,1920x1080,Full HD,1.1,Intel, Pentium Quad Core N4200,0,500,0,4,windows,18328.32
+Lenovo,Notebook,14,2.02,1366x768,HD,2.5,Intel, Core i5 7200U,0,500,0,4,windows,52747.2
+HP,Workstation,17.3,3.14,1600x900,HD,2.8,Intel, Core i5 7440HQ,0,500,0,8,windows,99153.5472
+HP,Notebook,14,1.94,1366x768,HD,1.6,Intel, Pentium Quad Core N3710,0,2TB,0,8,windows,20725.92
+HP,Notebook,15.6,1.95,1920x1080,Full HD,3,AMD, A9-Series A9-9420,256,0,0,6,windows,34578.72
+Lenovo,Notebook,15.6,2.3,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,44222.4
+Lenovo,Notebook,15.6,2.05,1920x1080,Full HD,1.6,Intel, Core i5 8250U,0,500,0,4,windows,36496.8
+Mediacom,Notebook,14,1.4,1920x1080,Full HD,1.44,Intel, Atom x5-Z8350,32,0,0,4,windows,13266.72
+Toshiba,Ultrabook,14,1.24,1920x1080,Full HD,2.7,Intel, Core i7 7500U,512,0,0,16,windows,99367.2
+Lenovo,Gaming,17.3,4.6,1920x1080,Full HD,2.7,Intel, Core i7 6820HK,256,1TB,0,32,windows,141884.64
+MSI,Gaming,17.3,4.14,1920x1080,Full HD,2.9,Intel, Core i7 7820HK,512,1TB,0,16,windows,145401.12
+Dell,Notebook,15.6,2.2,1920x1080,Full HD,2.7,Intel, Core i7 7500U,256,0,0,8,linux,39907.2528
+Mediacom,Notebook,14,1.45,1920x1080,Full HD,1.1,Intel, Celeron Quad Core N3450,32,0,0,4,windows,20725.92
+Dell,Notebook,15.6,1.9,1366x768,HD,2.6,Intel, Core i5 7300U,0,500,0,8,windows,53733.9456
+HP,Notebook,13.3,1.49,1920x1080,Full HD,2.4,Intel, Core i3 7100U,128,0,0,4,windows,38308.32
+Dell,Notebook,15.6,1.93,1920x1080,Full HD,2.8,Intel, Core i7 7600U,256,0,0,16,windows,81912.1392
+Dell,Notebook,11.6,1.26,1366x768,HD,1.6,Intel, Celeron Dual Core N3060,0,0,16,4,chrome,15717.6
+MSI,Gaming,17.3,4.5,1920x1080,Full HD,2.7,Intel, Core i7 6820HK,128,1TB,0,16,windows,125154.72
+HP,Gaming,17.3,3.78,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,256,1TB,0,16,windows,79813.44
+Lenovo,Ultrabook,14,1.27,1920x1080,Full HD,2.6,Intel, Core i7 6600U,256,0,0,12,windows,89137.44
+Lenovo,Notebook,15.6,2.2,1366x768,HD,1.8,Intel, Core i7 8550U,0,1TB,0,12,windows,32447.52
+Asus,Gaming,17.3,2.73,1920x1080,Full HD,2.5,Intel, Core i5 7300HQ,128,1TB,0,8,windows,94305.6
+Asus,2 in 1 Convertible,15.6,2.2,1366x768,HD,2.5,Intel, Core i5 7200U,0,1TB,0,8,windows,39373.92
+Lenovo,Notebook,15.6,2.2,1920x1080,Full HD,3.6,AMD, A12-Series 9720P,512,0,0,12,windows,50562.72
+Dell,2 in 1 Convertible,12.440944881889765,1.39,1366x768,HD,1.0,Intel, Core M 7Y30,128,0,0,4,windows,32127.84
+Samsung,Notebook,15.6,2.5,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,128,1TB,0,16,windows,90522.72
+Lenovo,Notebook,17.3,2.8,1920x1080,Full HD,2,Intel, Core i3 6006U,0,500,0,4,no,28185.12
+Lenovo,Notebook,15.6,2.29,1366x768,HD,2.3,Intel, Core i3 6100U,0,1TB,0,8,windows,24455.52
+Lenovo,2 in 1 Convertible,13.3,1.37,1920x1080,Full HD,2.7,Intel, Core i7 7500U,512,0,0,8,windows,107892.0
+Lenovo,Notebook,14,1.7,1920x1080,Full HD,2.5,Intel, Core i5 7300HQ,256,0,0,8,windows,78534.72
+Dell,2 in 1 Convertible,12.5,1.34,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,88977.6
+Dell,Workstation,15.6,2.06,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,256,0,0,8,windows,93932.64
+HP,Notebook,15.6,1.84,1920x1080,Full HD,2.7,Intel, Core i7 7500U,256,0,0,8,windows,64948.32
+HP,Notebook,15.6,2.1,1366x768,HD,2.4,Intel, Core i3 7100U,0,500,0,4,windows,35616.6144
+Acer,Notebook,14,1.6,1920x1080,Full HD,1.1,Intel, Celeron Quad Core N3450,0,0,32,4,windows,17529.12
+MSI,Gaming,17.3,4.14,1920x1080,Full HD,2.7,Intel, Core i7 6820HK,128,1TB,0,16,windows,117162.72
+Dell,Notebook,15.6,2.18,1366x768,HD,2,Intel, Core i3 6006U,0,1TB,0,4,linux,24775.2
+MSI,Gaming,15.6,1.8,3840x2160,4K,2.8,Intel, Core i7 7700HQ,256,2TB,0,16,windows,122490.72
+Toshiba,Notebook,15.6,2.2,1920x1080,Full HD,2.5,Intel, Core i7 6500U,256,0,0,8,windows,74538.72
+Lenovo,Notebook,15.6,2.4,1920x1080,Full HD,2.5,Intel, Core i5 7200U,0,1TB,0,6,windows,30049.92
+Lenovo,2 in 1 Convertible,15.6,2,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,256,0,0,8,windows,69210.72
+Acer,Notebook,14,1.6,1366x768,HD,1.6,Intel, Pentium Quad Core N3710,0,0,128,4,windows,18594.72
+Lenovo,Notebook,15.6,2.5,3840x2160,4K,3.1,Intel, Xeon E3-1535M v6,0,0,0,32,windows,261018.72
+Dell,Gaming,15.6,2.59,1920x1080,Full HD,2.6,Intel, Core i7 6700HQ,0,1TB,0,16,windows,46833.6528
+Dell,Notebook,15.6,2.18,1366x768,HD,2.0,Intel, Core i3 6006U,0,1TB,0,4,linux,23650.992
+Dell,Notebook,15.6,2.25,1366x768,HD,2.0,Intel, Core i3 6006U,0,1TB,0,4,linux,19127.52
+Dell,Notebook,15.6,1.93,1366x768,HD,2.6,Intel, Core i5 7300U,0,500,0,4,linux,46300.32
+Asus,Gaming,17.3,3,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,128,1TB,0,8,windows,62231.04
+HP,Ultrabook,15.6,1.84,1920x1080,Full HD,2.7,Intel, Core i7 7500U,512,0,0,8,windows,74005.92
+MSI,Gaming,15.6,2.94,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,256,1TB,0,16,windows,120831.5808
+Acer,2 in 1 Convertible,11.6,1.25,1366x768,HD,1.6,Intel, Celeron Quad Core N3160,0,0,32,4,chrome,20193.12
+HP,Notebook,14,2.31,1366x768,HD,2.6,Intel, Core i5 7300U,256,0,0,8,windows,59886.72
+Lenovo,Notebook,14,1.65,1920x1080,Full HD,2.3,Intel, Core i5 6200U,256,0,0,8,windows,78055.2
+Dell,Notebook,15.6,2.2,1920x1080,Full HD,1.6,Intel, Core i5 8250U,0,1TB,0,4,windows,41345.28
+Fujitsu,Notebook,15.6,2.2,1366x768,HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,42570.72
+HP,Notebook,15.6,1.88,1366x768,HD,2.3,Intel, Core i5 6200U,0,500,0,4,windows,49656.96
+Mediacom,Notebook,14,1.4,1920x1080,Full HD,1.44,Intel, Atom x5-Z8350,0,0,32,4,windows,12733.92
+Lenovo,Notebook,15.6,2.2,1920x1080,Full HD,2.5,Intel, Core i5 7200U,128,0,0,4,no,24935.04
+Asus,2 in 1 Convertible,13.3,1.5,1920x1080,Full HD,2.5,Intel, Core i5 7200U,0,1TB,0,6,windows,34046.4528
+Asus,Ultrabook,14,11.1,1920x1080,Full HD,2.7,Intel, Core i7 7500U,512,0,0,16,windows,101232.0
+Dell,Gaming,15.6,2.62,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,256,1TB,0,16,windows,78801.12
+Lenovo,Notebook,15.6,1.8,1920x1080,Full HD,1.6,Intel, Core i5 8250U,256,0,0,4,windows,44169.12
+Lenovo,Notebook,15.6,2.2,1920x1080,Full HD,2,Intel, Core i3 6006U,0,1TB,0,4,windows,30849.12
+Asus,Notebook,15.6,2,1366x768,HD,1.1,Intel, Celeron Dual Core N3350,0,1TB,0,8,windows,21258.72
+Asus,Notebook,15.6,1.99,1920x1080,Full HD,2.5,Intel, Core i5 7300HQ,0,1TB,0,8,windows,48304.7136
+Dell,Ultrabook,13.3,1.23,3200x1800,Quad HD,1.6,Intel, Core i5 8250U,256,0,0,8,windows,99580.32
+Lenovo,Notebook,14,1.42,1366x768,HD,1.6,Intel, Celeron Dual Core N3060,0,0,32,2,windows,13266.72
+Lenovo,2 in 1 Convertible,13.3,1.37,1920x1080,Full HD,2.7,Intel, Core i7 7500U,256,0,0,8,windows,93635.3376
+Dell,Notebook,15.6,2.06,3840x2160,4K,2.8,Intel, Core i7 7700HQ,0,0,0,16,windows,127818.72
+Lenovo,Gaming,15.6,2.5,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,128,1TB,0,8,windows,59087.52
+HP,Notebook,17,2.6,1600x900,HD,3,AMD, A9-Series 9420,0,1TB,0,8,windows,27753.552
+Lenovo,Ultrabook,14,1.14,1920x1080,Full HD,2.7,Intel, Core i7 7500U,512,0,0,16,windows,130536.0
+Asus,Gaming,15.6,2.5,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,0,1TB,0,8,no,62284.32
+Acer,Notebook,15.6,2.4,1366x768,HD,2,Intel, Core i3 6006U,0,500,0,4,windows,23976.0
+Lenovo,Notebook,14,1.43,1366x768,HD,1.6,Intel, Celeron Dual Core N3060,0,0,32,4,windows,14598.72
+Acer,Ultrabook,14,1.8,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,48964.32
+Razer,Gaming,14,1.95,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,256,0,0,16,windows,138474.72
+Toshiba,Notebook,13.3,1.2,1920x1080,Full HD,2.3,Intel, Core i5 6200U,256,0,0,8,windows,64628.64
+Lenovo,Ultrabook,12.5,1.36,1920x1080,Full HD,2.7,Intel, Core i7 7500U,256,0,0,8,windows,84395.52
+Asus,Gaming,17.3,3.8,1920x1080,Full HD,2.7,Intel, Core i7 6820HK,512,0,0,32,windows,149130.72
+Acer,Gaming,15.6,2.4,1920x1080,Full HD,2.5,Intel, Core i5 7300HQ,0,1TB,0,8,linux,37775.52
+Dell,Ultrabook,13.3,1.2,1920x1080,Full HD,1.6,Intel, Core i5 8250U,256,0,0,8,windows,77250.672
+MSI,Gaming,15.6,2.2,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,128,1TB,0,8,windows,63499.104
+HP,Notebook,15.6,1.86,1366x768,HD,2,Intel, Core i3 6006U,0,500,0,4,no,19441.872
+Toshiba,Notebook,15.6,2.0,1920x1080,Full HD,2.5,Intel, Core i5 7200U,0,500,0,8,windows,56689.92
+Dell,Notebook,15.6,6.2,1920x1080,Full HD,1.8,Intel, Core i7 8550U,256,0,0,8,windows,48964.32
+Dell,Notebook,15.6,2.2,1920x1080,Full HD,1.8,Intel, Core i7 8550U,256,2TB,0,16,windows,60472.8
+Lenovo,Gaming,15.6,3.31,1920x1080,Full HD,2.6,Intel, Core i7 6700HQ,128,1TB,0,8,windows,63722.88
+Dell,Gaming,17.3,4.42,3840x2160,4K,2.8,Intel, Core i7 7700HQ,512,1TB,0,32,windows,167691.8736
+Dell,Notebook,14,1.56,1920x1080,Full HD,2.4,Intel, Core i5 6300U,256,0,0,8,windows,65481.12
+Lenovo,Notebook,15.6,2.2,1366x768,HD,1.1,Intel, Celeron Dual Core N3350,0,500,0,4,windows,22324.32
+Lenovo,Notebook,15.6,2.2,1920x1080,Full HD,2.3,Intel, Core i5 6200U,0,500,0,4,windows,28504.8
+HP,Notebook,15.6,2.04,1920x1080,Full HD,2,Intel, Core i3 6006U,0,1TB,0,6,windows,28717.92
+MSI,Gaming,17.3,2.7,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,128,1TB,0,8,windows,79215.1056
+Toshiba,Notebook,15.6,2.1,1366x768,HD,2.1,Intel, Core i3 6100U,128,0,0,4,windows,26533.44
+HP,Notebook,15.6,2.1,1920x1080,Full HD,2.7,Intel, Core i7 7500U,0,1TB,0,8,windows,39693.6
+Toshiba,Notebook,15.6,2.0,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,67026.24
+Acer,Notebook,15.6,2.1,1366x768,HD,2,Intel, Core i3 6006U,128,0,0,4,linux,21951.36
+Microsoft,Ultrabook,13.5,1.252,2256x1504,Full HD,2.8,Intel, Core i7 7600U,256,0,0,8,windows,99519.048
+Lenovo,Notebook,15.6,1.90,1920x1080,Full HD,2.5,Intel, Core i5 7200U,128,1TB,0,8,windows,43580.376
+Lenovo,2 in 1 Convertible,13.3,1.3,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,55091.52
+Lenovo,Notebook,14.015748031496063,2.2,1366x768,HD,2.2,AMD, E-Series E2-9000,128,0,0,4,windows,18594.72
+HP,2 in 1 Convertible,14,1.63,1920x1080,Full HD,2.4,Intel, Core i3 7100U,128,0,0,4,windows,37242.72
+MSI,Gaming,15.6,2.4,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,256,1TB,0,16,windows,68944.32
+Asus,Ultrabook,14,1.1,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,60472.8
+HP,2 in 1 Convertible,11.6,1.4,1366x768,HD,1.1,Intel, Celeron Dual Core N3350,0,0,64,8,chrome,26373.6
+LG,Ultrabook,15.6,1.09,1920x1080,Full HD,1.8,Intel, Core i7 8550U,512,0,0,8,windows,122490.72
+Acer,Gaming,15.6,2.5,1920x1080,Full HD,2.5,Intel, Core i5 7300HQ,256,0,0,16,windows,69210.72
+MSI,Gaming,15.6,2.2,1920x1080,Full HD,2.5,Intel, Core i5 7300HQ,256,0,0,8,windows,53168.112
+Asus,Notebook,15.6,1.86,1366x768,HD,1.1,Intel, Celeron Dual Core N3350,128,0,0,4,windows,22324.32
+Dell,Gaming,15.6,3.21,1920x1080,Full HD,2.5,Intel, Core i5 7300HQ,128,1TB,0,16,windows,109277.28
+HP,Notebook,17.3,2.5,1920x1080,Full HD,2,Intel, Core i3 6006U,256,0,0,4,windows,37242.72
+Lenovo,2 in 1 Convertible,13.3,1.19,1920x1080,Full HD,1.8,Intel, Core i7 8550U,512,0,0,8,windows,79866.72
+Dell,Gaming,15.6,3.49,1920x1080,Full HD,2.9,Intel, Core i7 7820HK,256,1TB,0,16,windows,149916.6
+HP,Notebook,15.6,1.86,1366x768,HD,2.5,Intel, Core i5 7200U,0,500,0,4,windows,32639.8608
+Dell,Notebook,15.6,2.2,1366x768,HD,2,Intel, Core i3 6006U,0,1TB,0,4,windows,29073.2976
+HP,Notebook,17.3,2.65,1920x1080,Full HD,2.4,AMD, A10-Series 9600P,0,2TB,0,6,windows,30316.32
+Lenovo,Notebook,15.6,2.1,1366x768,HD,1.6,Intel, Celeron Dual Core 3855U,0,500,0,4,windows,16943.04
+Acer,Notebook,14,1.45,1366x768,HD,1.6,Intel, Celeron Dual Core 3855U,0,0,32,4,chrome,19980.0
+Lenovo,Notebook,14,1.7,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,4,windows,37242.72
+HP,Workstation,17.3,3.14,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,0,500,0,8,windows,101657.7072
+Lenovo,2 in 1 Convertible,14,1.42,2560x1440,Quad HD,2.7,Intel, Core i7 7500U,256,0,0,8,windows,137995.2
+Toshiba,Notebook,13.3,1.5,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,51841.44
+Acer,Notebook,11.6,1.4,1366x768,HD,1.6,Intel, Celeron Dual Core N3050,0,0,32,4,windows,14332.32
+Lenovo,2 in 1 Convertible,14,1.38,1920x1080,Full HD,2.7,Intel, Core i7 7500U,512,0,0,16,windows,93186.72
+Asus,2 in 1 Convertible,12.5,1.2,1920x1080,Full HD,0.9,Intel, Core M M3-6Y30,0,0,64,4,chrome,35644.32
+Toshiba,Ultrabook,13.3,1.36,1920x1080,Full HD,2.5,Intel, Core i7 6500U,512,0,0,16,windows,100006.56
+Dell,Gaming,15.6,2.56,1920x1080,Full HD,2.5,Intel, Core i5 7300HQ,0,1TB,0,8,windows,43636.32
+Lenovo,Notebook,15.6,2.2,1920x1080,Full HD,2.9,AMD, A9-Series 9420,256,0,0,4,windows,21258.72
+Lenovo,Notebook,15.6,2.2,1366x768,HD,3.6,AMD, A12-Series 9720P,0,1TB,0,8,windows,22857.12
+Lenovo,Notebook,15.6,2.1,1920x1080,Full HD,2.5,Intel, Core i5 7200U,0,1TB 1TB,0,4,windows,33110.856
+Lenovo,Notebook,15.6,1.90,1366x768,HD,2,Intel, Core i3 6006U,0,500,0,4,no,23976.0
+Dell,Notebook,15.6,2.18,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,42357.6
+Acer,2 in 1 Convertible,13.3,1.6,1920x1080,Full HD,1.6,Intel, Core i5 8250U,256,0,0,8,windows,53226.72
+Lenovo,Workstation,15.6,2.18,1920x1080,Full HD,2.5,Intel, Core i7 6500U,512,0,0,16,windows,98834.4
+Lenovo,Notebook,14,1.8,1920x1080,Full HD,2.3,Intel, Core i5 6300HQ,256,0,0,8,windows,63456.48
+HP,Notebook,17.3,2.71,1920x1080,Full HD,2.5,AMD, A10-Series 9620P,0,2TB,0,6,windows,34898.9328
+Lenovo,Gaming,15.6,2.5,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,128,1TB,0,8,windows,66546.72
+Dell,Notebook,14,1.64,1920x1080,Full HD,2.8,Intel, Core i5 7440HQ,256,0,0,8,linux,58021.92
+Dell,Notebook,15.6,1.98,1920x1080,Full HD,2.5,Intel, Core i5 7200U,0,1TB,0,8,linux,38681.28
+Asus,Notebook,14,1.5,1920x1080,Full HD,1.1,Intel, Celeron Dual Core N3350,0,0,32,4,windows,15877.44
+Dell,Notebook,15.6,1.93,1920x1080,Full HD,2.6,Intel, Core i5 7300U,512,0,0,16,windows,76012.4448
+Lenovo,Notebook,14,1.87,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,45664.6896
+Dell,Notebook,15.6,1.9,1920x1080,Full HD,2.6,Intel, Core i5 7300U,256,0,0,8,windows,62817.12
+Lenovo,Notebook,15.6,2.19,1366x768,HD,2,AMD, A6-Series 7310,0,500,0,4,windows,15877.44
+Mediacom,Notebook,14,1.4,1920x1200,Full HD,1.92,Intel, Atom Z8350,0,32,0,4,windows,14119.2
+HP,Notebook,17.3,2.63,1920x1080,Full HD,2.7,Intel, Core i7 7500U,256,0,0,8,windows,63936.0
+Lenovo,Ultrabook,14,1.17,2560x1440,Quad HD,2.5,Intel, Core i7 6500U,512,0,0,8,windows,89864.1792
+HP,2 in 1 Convertible,13.3,1.58,1366x768,HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,44574.048
+Lenovo,Ultrabook,14,1.32,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,79866.72
+Dell,Gaming,17.3,4.36,3840x2160,4K,2.8,Intel, Core i7 7700HQ,0,1TB,0,32,windows,194972.832
+MSI,Gaming,17.3,2.7,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,128,1TB,0,8,windows,71847.0144
+Lenovo,Notebook,15.6,1.9,1366x768,HD,2.5,Intel, Core i5 7200U,0,1TB,0,4,no,26101.872
+Dell,2 in 1 Convertible,13.3,1.71,1920x1080,Full HD,2.4,Intel, Core i3 7100U,0,1TB,0,4,windows,34578.72
+Dell,Notebook,15.6,2.32,1366x768,HD,2.5,Intel, Core i5 7200U,0,1TB,0,8,linux,31409.6256
+HP,Notebook,15.6,2.1,1920x1080,Full HD,3,AMD, A9-Series 9420,0,1TB,0,4,windows,26053.92
+Acer,Gaming,17.3,4.2,1920x1080,Full HD,2.6,Intel, Core i7 6700HQ,128,1TB,0,16,windows,103096.8
+Dell,Notebook,15.6,2.25,1366x768,HD,2.5,Intel, Core i5 7200U,0,1TB,0,12,windows,34578.72
+HP,Notebook,15.6,2.1,1920x1080,Full HD,3,AMD, A9-Series A9-9420,128,1TB,0,6,windows,34632.0
+Acer,Notebook,15.6,2.4,1366x768,HD,2.5,Intel, Core i5 7200U,0,500,0,4,windows,29783.52
+Lenovo,Notebook,13.3,1.44,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,51148.8
+Lenovo,Notebook,15.6,1.85,1920x1080,Full HD,2.7,Intel, Core i7 7500U,0,1TB,0,4,windows,41505.12
+HP,Workstation,15.6,2.6,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,256,0,0,16,windows,128884.32
+Dell,2 in 1 Convertible,13.3,1.55,1920x1080,Full HD,1.6,Intel, Core i5 8250U,0,1TB,0,8,windows,35111.52
+MSI,Gaming,15.6,1.8,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,256,1TB,0,16,windows,111593.8944
+Acer,Notebook,15.6,2.4,1366x768,HD,2,Intel, Core i3 6006U,0,500,0,4,windows,21887.424
+Dell,Notebook,15.6,2.0,1920x1080,Full HD,2.7,Intel, Core i7 7500U,128,1TB,0,8,windows,64308.96
+Dell,Notebook,15.6,2,1366x768,HD,2,Intel, Core i3 6006U,256,0,0,8,windows,35431.2
+Toshiba,Notebook,14,1.25,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,81784.8
+Lenovo,2 in 1 Convertible,14,1.7,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,53226.72
+Lenovo,Workstation,15.6,2.5,3840x2160,4K,2.8,Intel, Core i7 7600U,0,0,0,16,windows,175770.72
+Acer,Notebook,14,1.68,1366x768,HD,1.6,Intel, Celeron Dual Core N3060,0,0,32,2,chrome,17582.4
+Samsung,Ultrabook,13.3,0.81,1920x1080,Full HD,2.7,Intel, Core i7 7500U,256,0,0,16,windows,87858.72
+Dell,Notebook,14,1.6,1366x768,HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,60031.1088
+HP,Workstation,17.3,3,1920x1080,Full HD,2.9,Intel, Xeon E3-1535M v5,256,0,0,16,windows,233845.92
+Lenovo,Notebook,11.6,1.4,1366x768,HD,1.6,Intel, Celeron Dual Core N3060,128,0,0,4,windows,25308.0
+HP,Notebook,15.6,1.84,1920x1080,Full HD,2.4,Intel, Core i5 6300U,256,0,0,8,windows,101232.0
+Asus,Notebook,15.6,2.45,1366x768,HD,2.3,Intel, Core i5 6300HQ,0,1TB,0,4,no,30849.12
+Asus,Notebook,15.6,2.37,1366x768,HD,2.7,Intel, Core i7 7500U,256,0,0,4,windows,45282.672
+Lenovo,2 in 1 Convertible,13.3,1.3,3200x1800,Quad HD,1.8,Intel, Core i5 6260U,256,0,0,8,windows,63882.72
+HP,Notebook,15.6,2.2,1920x1080,Full HD,2.5,Intel, Core i5 7300HQ,128,1TB,0,8,windows,58554.72
+HP,Workstation,15.6,2.59,1920x1080,Full HD,2.6,Intel, Core i7 6700HQ,256,0,0,8,windows,83170.08
+Dell,Gaming,15.6,4.42,3840x2160,4K,2.8,Intel, Core i7 7700HQ,256,1TB,0,16,windows,152859.7872
+Acer,Notebook,15.6,2.1,1366x768,HD,2.5,Intel, Core i5 7200U,256,0,0,4,windows,31914.72
+Lenovo,Gaming,15.6,2.5,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,128,1TB,0,8,windows,55837.44
+Dell,Ultrabook,12.5,1.18,1920x1080,Full HD,2.8,Intel, Core i7 7600U,256,0,0,16,windows,99047.52
+Google,Ultrabook,12.3,1.1,2400x1600,Full HD,1.2,Intel, Core i5 7Y57,256,0,0,8,chrome,83063.52
+Asus,Ultrabook,13.3,1.2,3200x1800,Quad HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,60153.12
+Dell,Notebook,13.3,1.65,1366x768,HD,2,Intel, Core i3 6006U,0,500,0,4,windows,45234.72
+Acer,Notebook,13.3,1.6,1366x768,HD,2.3,Intel, Core i5 6200U,128,0,0,4,windows,34898.4
+Asus,Notebook,17.3,2.8,1366x768,HD,1.1,Intel, Pentium Quad Core N4200,0,1TB,0,4,windows,25059.7152
+Dell,Gaming,15.6,2.72,3840x2160,4K,2.6,Intel, Core i7 6700HQ,128,1TB,0,16,windows,58554.72
+Samsung,Ultrabook,13.3,1.31,1920x1080,Full HD,2.7,Intel, Core i7 7500U,256,0,0,8,windows,85194.72
+Acer,Notebook,15.6,2.1,1366x768,HD,1.1,Intel, Pentium Quad Core N4200,0,1TB,0,4,linux,15877.44
+Dell,Notebook,15.6,2.3,1920x1080,Full HD,2.7,Intel, Core i7 7500U,0,1TB,0,16,windows,62938.0656
+Samsung,2 in 1 Convertible,15,1.71,1920x1080,Full HD,2.7,Intel, Core i7 7500U,256,0,0,16,windows,95850.72
+Toshiba,Notebook,14,1.75,1366x768,HD,2.3,Intel, Core i5 6200U,128,0,0,4,windows,54345.6
+Dell,Gaming,15.6,2.62,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,0,1TB,0,8,windows,58554.72
+Asus,2 in 1 Convertible,15.6,2.3,1920x1080,Full HD,2.7,Intel, Core i7 7500U,0,2TB,0,12,windows,44701.92
+Lenovo,Notebook,15.6,2.5,3840x2160,4K,2.7,Intel, Core i7 6820HQ,512,0,0,16,windows,126273.6
+Acer,Notebook,14,1.8,1920x1080,Full HD,2.4,Intel, Core i3 7100U,128,0,0,4,windows,33886.08
+Razer,Gaming,14,1.95,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,512,0,0,16,windows,154458.72
+Asus,Notebook,15.6,2,1920x1080,Full HD,1.1,Intel, Pentium Dual Core N4200,128,0,0,8,windows,31003.632
+Dell,Gaming,17.3,4.42,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,0,1TB,0,32,windows,191211.264
+Asus,Gaming,17.3,4.3,1920x1080,Full HD,2.6,Intel, Core i7 6700HQ,256,1TB,0,16,windows,125208.0
+Toshiba,Ultrabook,14,1.47,1920x1080,Full HD,2.6,Intel, Core i7 6600U,512,0,0,16,windows,93985.92
+Lenovo,Notebook,15.6,2.2,1366x768,HD,1.6,Intel, Celeron Quad Core N3710,0,1TB,0,8,no,17529.12
+Lenovo,Ultrabook,14,1.7,1920x1080,Full HD,2.7,Intel, Core i7 7500U,512,0,0,16,windows,122490.72
+MSI,Gaming,14,1.6,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,256,1TB,0,16,windows,100752.48
+MSI,Gaming,15.6,2.2,1920x1080,Full HD,2.5,Intel, Core i5 7300HQ,128,1TB,0,8,windows,58021.92
+Lenovo,Gaming,15.6,2.4,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,0,1TB,0,4,windows,53226.72
+Acer,Gaming,17.3,4.2,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,256,1TB,0,16,windows,122490.72
+Dell,Gaming,15.6,2.62,1920x1080,Full HD,2.5,Intel, Core i5 7300HQ,256,0,0,8,windows,52480.8
+Asus,Gaming,15.6,2.24,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,128,1TB,0,8,windows,71341.92
+Acer,Notebook,14,1.22,1920x1080,Full HD,1.1,Intel, Celeron Dual Core N3350,0,0,32,4,windows,10810.512
+Lenovo,2 in 1 Convertible,13.3,1.37,1920x1080,Full HD,2.7,Intel, Core i7 7500U,512,0,0,8,windows,104961.6
+Lenovo,2 in 1 Convertible,15.6,2.08,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,51095.52
+Apple,Ultrabook,12,0.920,2304x1440,Full HD,1.2,Intel, Core M,0,0,512,8,mac,62071.2
+Lenovo,2 in 1 Convertible,14,1.42,2560x1440,Quad HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,124142.4
+Asus,Notebook,14,1.63,1366x768,HD,1.1,Intel, Celeron Dual Core N3350,0,0,32,4,windows,15930.72
+Dell,Notebook,15.6,1.95,1366x768,HD,2.5,Intel, Core i5 7200U,128,0,0,8,windows,43156.8
+Lenovo,2 in 1 Convertible,13.9,1.38,1920x1080,Full HD,2.7,Intel, Core i7 7500U,256,0,0,8,windows,71874.72
+Dell,Notebook,15.6,2,1920x1080,Full HD,2,Intel, Core i3 6006U,256,0,0,8,windows,39373.92
+HP,Workstation,15.6,3.14,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,256,0,0,8,windows,110017.872
+Asus,Notebook,15.6,2.37,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,58554.72
+Dell,Ultrabook,13.3,1.29,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,79866.72
+Dell,Notebook,15.6,2.06,3840x2160,4K,2.5,Intel, Core i5 7300HQ,256,0,0,8,windows,93186.72
+Dell,Notebook,11.6,1.63,1366x768,HD,1.1,Intel, Pentium Quad Core N4200,128,0,0,4,windows,39640.32
+HP,Notebook,12.5,1.26,1366x768,HD,2.6,Intel, Core i5 7300U,256,0,0,8,windows,74005.92
+Toshiba,Notebook,15.6,2.1,1366x768,HD,2.3,Intel, Core i5 6200U,0,500,0,4,windows,41558.4
+HP,Notebook,15.6,2.04,1366x768,HD,2.5,AMD, A12-Series 9700P,0,2TB,0,8,windows,33513.12
+Dell,Gaming,15.6,2.62,3840x2160,4K,2.8,Intel, Core i7 7700HQ,512,0,0,16,windows,89457.12
+Lenovo,Notebook,15.6,2.4,1920x1080,Full HD,2.5,Intel, Core i5 7200U,0,1TB,0,4,windows,32447.52
+HP,Gaming,17.3,3.74,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,0,1TB,0,12,windows,93186.72
+MSI,Gaming,17.3,2.9,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,512,1TB,0,16,windows,128671.2
+Samsung,Ultrabook,13.3,0.81,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,79866.72
+Dell,Notebook,15.6,1.98,1920x1080,Full HD,2.7,Intel, Core i7 7500U,0,1TB,0,8,windows,51202.08
+Dell,Notebook,15.6,2.18,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,42081.0768
+Lenovo,Ultrabook,14,1.32,1920x1080,Full HD,2.7,Intel, Core i7 7500U,256,0,0,8,windows,99047.52
+Razer,Ultrabook,12.5,1.29,3840x2160,4K,2.5,Intel, Core i7 7500U,512,0,0,16,windows,95850.72
+HP,Notebook,11.6,1.23,1366x768,HD,1.6,Intel, Celeron Dual Core N3060,0,0,16,4,chrome,20512.8
+Dell,Gaming,17.3,4.36,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,128,1TB,0,16,windows,133467.4656
+Dell,Notebook,14,1.76,1366x768,HD,2.3,Intel, Core i5 6200U,0,500,0,4,windows,40226.4
+Lenovo,Notebook,15.6,2.1,1366x768,HD,2,Intel, Core i3 6006U,0,500,0,4,windows,26101.872
+Toshiba,Ultrabook,14,1.25,1366x768,HD,2.5,Intel, Core i5 7200U,128,0,0,4,windows,58075.2
+Lenovo,Ultrabook,14,1.13,1920x1080,Full HD,2.7,Intel, Core i7 7500U,512,0,0,8,windows,133146.72
+MSI,Gaming,15.6,2.4,1920x1080,Full HD,2.5,Intel, Core i5 7300HQ,256,0,0,8,windows,63882.72
+Lenovo,Ultrabook,14,1.13,1920x1080,Full HD,2.5,Intel, Core i5 7200U,0,0,256,8,windows,99900.0
+Toshiba,Notebook,14,1.75,1366x768,HD,2.1,Intel, Pentium Dual Core 4405U,128,0,0,4,windows,26586.72
+Asus,2 in 1 Convertible,13.3,1.1,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,72354.24
+Dell,Notebook,14,1.76,1366x768,HD,2,Intel, Core i3 6006U,0,500,0,4,windows,31168.8
+Acer,Notebook,11.6,1.35,1366x768,HD,1.6,Intel, Celeron Dual Core N3060,0,0,32,4,chrome,18914.4
+Acer,Notebook,14,1.5,1920x1080,Full HD,2.4,Intel, Core i3 7100U,128,0,0,8,windows,32980.32
+Razer,Gaming,17.3,3.49,3840x2160,4K,2.9,Intel, Core i7 7820HK,512,0,0,32,windows,292986.72
+Lenovo,Ultrabook,14,1.1,2560x1440,Quad HD,2.6,Intel, Core i7 6600U,512,0,0,16,windows,111834.72
+Asus,Notebook,15.6,2.1,1920x1080,Full HD,2.5,Intel, Core i5 7200U,0,1TB,0,4,linux,27652.32
+Lenovo,Notebook,14,1.7,1920x1080,Full HD,2.3,Intel, Core i5 6200U,256,0,0,8,windows,63190.08
+Lenovo,Notebook,14,1.32,1920x1080,Full HD,2.6,Intel, Core i5 7300U,256,0,0,8,windows,87912.0
+Dell,Gaming,15.6,3.21,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,256,1TB,0,16,windows,147832.2864
+Asus,Gaming,17.3,2.9,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,256,1TB,0,16,windows,128884.32
+Toshiba,Notebook,15.6,2.0,1366x768,HD,2.4,Intel, Core i3 7100U,0,500,0,4,windows,35644.32
+Lenovo,Notebook,14,1.5,1366x768,HD,1.6,Intel, Celeron Quad Core N3160,0,0,16,4,chrome,17316.0
+Asus,Notebook,15.6,2.3,1920x1080,Full HD,2.5,Intel, Core i5 7200U,0,128,0,8,windows,31435.2
+Asus,Gaming,17.3,2.73,1920x1080,Full HD,2.6,Intel, Core i7 6700HQ,512,1TB,0,16,windows,95850.72
+Dell,Gaming,17.3,4.42,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,512,1TB,0,32,windows,163723.5792
+HP,Notebook,17.3,2.63,1600x900,HD,2.5,Intel, Core i5 7200U,0,1TB,0,8,windows,48484.8
+Dell,Notebook,15.6,2.18,1366x768,HD,2.5,Intel, Core i5 7200U,128,0,0,8,windows,38041.3872
+HP,Ultrabook,14,1.54,1920x1080,Full HD,2.5,Intel, Core i7 6500U,512,0,0,8,windows,99633.6
+Dell,Notebook,15.6,2.18,1920x1080,Full HD,2.7,Intel, Core i7 7500U,256,0,0,4,windows,39373.92
+HP,2 in 1 Convertible,11.6,1.4,1366x768,HD,1.1,Intel, Celeron Dual Core N3350,0,0,32,4,chrome,32767.2
+Asus,Ultrabook,13.3,1.45,1920x1080,Full HD,2.3,Intel, Core i5 6200U,512,0,0,8,windows,54665.28
+HP,2 in 1 Convertible,13.3,1.28,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,121318.56
+HP,Ultrabook,14,1.54,1920x1080,Full HD,2.5,Intel, Core i7 6500U,512,0,0,8,windows,78215.04
+HP,Notebook,15.6,1.86,1366x768,HD,1.6,Intel, Celeron Dual Core N3060,128,0,0,4,no,15930.72
+Asus,Gaming,15.6,2.1,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,128,1TB,0,16,windows,101178.72
+Dell,Notebook,17.3,2.83,1920x1080,Full HD,2.7,Intel, Core i7 7500U,0,1TB,0,8,linux,46087.2
+Lenovo,Ultrabook,14,1.96,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,256,0,0,8,windows,101391.84
+Asus,Notebook,15.6,2.3,1920x1080,Full HD,2.7,Intel, Core i7 7500U,256,0,0,8,windows,41931.36
+Dell,Notebook,15.6,1.9,1920x1080,Full HD,2.5,Intel, Core i5 7200U,128,0,0,8,windows,50349.6
+Asus,Notebook,15.6,2,1366x768,HD,1.1,Intel, Pentium Quad Core N4200,0,1TB,0,4,windows,23922.72
+HP,2 in 1 Convertible,13.3,1.28,1920x1080,Full HD,2.8,Intel, Core i7 7600U,256,0,0,8,windows,136343.52
+Dell,Notebook,13.3,1.62,1920x1080,Full HD,2.3,Intel, Core i5 6200U,0,1TB,0,8,windows,34578.72
+Lenovo,Notebook,15.6,2.2,1920x1080,Full HD,2.0,Intel, Core i3 6006U,0,1TB,0,4,no,24988.32
+Lenovo,Notebook,15.6,2.3,1920x1080,Full HD,2.5,Intel, Core i5 7200U,0,1TB,0,8,windows,45323.1648
+HP,Notebook,15.6,1.84,1920x1080,Full HD,2.6,Intel, Core i5 7300U,256,0,0,8,windows,71874.72
+Toshiba,Notebook,13.3,1.05,1920x1080,Full HD,2.5,Intel, Core i5 7200U,128,0,0,4,windows,68464.8
+Lenovo,Gaming,15.6,2.5,1920x1080,Full HD,2.5,Intel, Core i5 7300HQ,0,1TB,0,8,no,54185.76
+Dell,Ultrabook,13.3,1.29,3200x1800,Quad HD,2.5,Intel, Core i7 7660U,512,0,0,16,windows,119347.2
+HP,Notebook,15.6,2.07,1920x1080,Full HD,2.3,Intel, Core i5 6200U,0,500,0,4,windows,48484.8
+Toshiba,Ultrabook,13.3,1.2,1366x768,HD,2.3,Intel, Core i5 6200U,256,0,0,8,windows,58341.6
+Lenovo,2 in 1 Convertible,13.3,1.37,1920x1080,Full HD,2.7,Intel, Core i7 7500U,256,0,0,8,windows,103896.0
+Acer,Notebook,14,1.56,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,48058.56
+Dell,Workstation,15.6,2.23,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,0,1TB,0,8,windows,94731.84
+Lenovo,Notebook,15.6,2.38,1366x768,HD,2.5,Intel, Core i5 7200U,0,500,0,4,windows,56210.4
+Lenovo,Notebook,15.6,2.2,1920x1080,Full HD,2,Intel, Core i3 6006U,0,1TB,0,4,no,25521.12
+Toshiba,Notebook,15.6,2.0,1920x1080,Full HD,2.7,Intel, Core i7 7500U,256,0,0,8,windows,73952.64
+Lenovo,Notebook,13.3,1.44,1920x1080,Full HD,2.4,Intel, Core i3 7100U,180,0,0,4,windows,39160.8
+Samsung,Ultrabook,15,1.23,1920x1080,Full HD,2.7,Intel, Core i7 7500U,256,0,0,16,windows,98514.72
+Dell,Ultrabook,12.5,1.6,1920x1080,Full HD,2.8,Intel, Core i7 7600U,256,0,0,8,windows,90043.2
+Asus,Notebook,15.6,2,1366x768,HD,1.1,Intel, Pentium Quad Core N4200,0,1TB,0,4,linux,21258.1872
+Xiaomi,Ultrabook,13.3,1.28,1920x1080,Full HD,2.3,Intel, Core i5 6200U,256,0,0,8,windows,49816.8
+Dell,Notebook,15.6,2.18,1920x1080,Full HD,2.5,Intel, Core i5 7200U,128,1TB,0,4,windows,48618.0
+HP,Notebook,15.6,2.04,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,4,windows,44701.92
+HP,2 in 1 Convertible,13.3,1.28,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,4,windows,90576.0
+HP,2 in 1 Convertible,15.6,2.3,1366x768,HD,2.5,Intel, Core i5 7200U,0,500,0,4,windows,36486.144
+Asus,Notebook,14.1,1.65,1366x768,HD,1.1,Intel, Celeron Dual Core N3350,0,0,32,4,windows,18541.44
+Lenovo,Notebook,15.6,2.2,1920x1080,Full HD,2.5,Intel, Core i7 6500U,0,1TB,0,8,windows,35644.32
+Dell,Notebook,15.6,2.2,1366x768,HD,1.6,Intel, Pentium Quad Core N3710,0,500,0,4,windows,19660.32
+HP,2 in 1 Convertible,13.3,1.28,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,4,windows,95850.72
+Dell,Notebook,15.6,2.18,1366x768,HD,2.0,Intel, Core i3 6006U,0,1TB,0,4,linux,24279.696
+Asus,Gaming,17.3,2.2,1920x1080,Full HD,2.5,Intel, Core i5 7300HQ,128,1TB,0,12,windows,72988.272
+Acer,Notebook,11.6,1.25,1366x768,HD,1.6,Intel, Celeron Dual Core N3060,0,0,32,4,chrome,15824.16
+Lenovo,Notebook,17.3,2.8,1600x900,HD,2.2,AMD, A4-Series 7210,0,500,0,4,windows,20193.12
+HP,Notebook,14,1.95,1920x1080,Full HD,2.5,Intel, Core i5 7200U,128,0,0,4,windows,67399.2
+HP,2 in 1 Convertible,13.3,1.42,3200x1800,Quad HD,2.7,Intel, Core i7 7500U,256,0,0,16,windows,74538.72
+Samsung,Ultrabook,15,1.17,1920x1080,Full HD,2.7,Intel, Core i7 7500U,256,0,0,8,windows,90522.72
+Lenovo,Ultrabook,14,1.32,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,95850.72
+MSI,Gaming,17.3,2.43,3840x2160,4K,2.6,Intel, Core i7 6700HQ,512,2TB,0,16,windows,141138.72
+Toshiba,Notebook,13.3,1.05,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,78588.0
+Dell,Gaming,15.6,2.62,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,0,1TB,0,8,linux,49497.12
+HP,Notebook,15.6,2.04,1920x1080,Full HD,2.7,Intel, Core i7 7500U,0,1TB,0,8,windows,47952.0
+Dell,Notebook,15.6,2.18,1366x768,HD,2.0,Intel, Core i3 6006U,0,1TB,0,4,windows,32713.92
+Dell,Notebook,15.6,1.9,1920x1080,Full HD,2.6,Intel, Core i5 7300U,0,500,0,8,windows,49816.8
+Dell,2 in 1 Convertible,13.3,1.24,3200x1800,Quad HD,1.3,Intel, Core i7 7Y75,512,0,0,8,windows,107257.968
+Asus,Gaming,17.3,3.58,1920x1080,Full HD,2.7,Intel, Core i7 6820HK,256,0,0,32,windows,68145.12
+Dell,2 in 1 Convertible,13.3,1.22,1920x1080,Full HD,1.3,Intel, Core i7 7Y75,256,0,0,16,windows,87858.72
+Lenovo,Ultrabook,14,1.13,1920x1080,Full HD,2.7,Intel, Core i7 7500U,0,0,256,8,windows,109170.72
+Lenovo,Notebook,15.6,1.95,1920x1080,Full HD,2.5,Intel, Core i5 7200U,512,0,0,8,windows,104588.1072
+LG,Ultrabook,15.6,1.08,1920x1080,Full HD,2.7,Intel, Core i7 7500U,512,0,0,16,windows,111834.72
+HP,Notebook,12.5,1.26,1920x1080,Full HD,2.7,Intel, Core i7 7500U,512,0,0,8,windows,79014.24
+Acer,Notebook,15.6,2.20,1920x1080,Full HD,1.5,Intel, Celeron Dual Core 3205U,0,0,16,4,chrome,19127.52
+Lenovo,Notebook,15.6,2.6,1920x1080,Full HD,2.3,Intel, Core i5 6300HQ,128,1TB,0,8,windows,42037.92
+LG,Ultrabook,14,0.98,1920x1080,Full HD,2.7,Intel, Core i7 7500U,512,0,0,8,windows,101178.72
+Dell,Notebook,14,1.6,1920x1080,Full HD,2.8,Intel, Core i5 7440HQ,256,0,0,8,windows,64202.4
+HP,Ultrabook,12.5,1.09,3840x2160,4K,1.2,Intel, Core M 6Y75,240,0,0,8,windows,165168.0
+Lenovo,Notebook,15.6,2.2,1920x1080,Full HD,2.7,Intel, Core i7 7500U,256,0,0,6,windows,42037.92
+HP,Notebook,15.6,2.04,1920x1080,Full HD,2.7,Intel, Core i7 7500U,256,0,0,8,windows,54291.7872
+Acer,Notebook,15.6,2.4,1920x1080,Full HD,2.4,Intel, Core i3 7100U,0,1TB,0,4,windows,26586.72
+Lenovo,Notebook,13.3,1.44,1920x1080,Full HD,2.5,Intel, Core i5 7200U,128,0,0,4,windows,46939.68
+HP,Notebook,13.3,1.49,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,51148.8
+MSI,Gaming,17.3,2.7,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,256,1TB,0,16,windows,85194.72
+Dell,Gaming,15.6,2.6,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,128,1TB,0,16,windows,71874.72
+MSI,Gaming,15.6,2.2,1920x1080,Full HD,2.5,Intel, Core i5 7300HQ,128,1TB,0,8,windows,59668.8048
+Dell,Notebook,15.6,2.18,1366x768,HD,2.5,Intel, Core i5 7200U,0,1TB,0,4,windows,36496.2672
+HP,Ultrabook,15.6,1.84,1920x1080,Full HD,2.5,Intel, Core i7 6500U,256,0,0,8,windows,69103.6272
+Lenovo,2 in 1 Convertible,13.3,1.37,1920x1080,Full HD,2.5,Intel, Core i5 7200U,512,0,0,8,windows,97236.0
+Dell,Notebook,15.6,1.95,1366x768,HD,2.3,Intel, Core i5 6200U,0,500,0,4,windows,38889.072
+Lenovo,Ultrabook,12.5,1.36,1920x1080,Full HD,2.7,Intel, Core i7 7500U,256,0,0,8,windows,87912.0
+HP,Notebook,15.6,2.31,1920x1080,Full HD,2.3,Intel, Core i5 6200U,256,0,0,8,windows,62071.2
+Dell,Notebook,15.6,2.18,1366x768,HD,2.5,Intel, Core i5 7200U,0,1TB,0,4,windows,37725.4368
+HP,Notebook,14,1.95,1366x768,HD,2.3,Intel, Core i5 6200U,0,500,0,4,windows,61218.72
+Lenovo,Notebook,15.6,2.2,1366x768,HD,1.1,Intel, Pentium Quad Core N4200,0,1TB,0,4,windows,16463.52
+HP,Ultrabook,12.5,1.26,1920x1080,Full HD,2.3,Intel, Core i5 6200U,0,500,0,4,windows,84129.12
+HP,Notebook,15.6,1.86,1366x768,HD,1.6,Intel, Celeron Dual Core N3060,0,1TB,0,4,no,15392.592
+Lenovo,2 in 1 Convertible,13.3,1.3,3200x1800,Quad HD,2.2,Intel, Core i7 6560U,0,0,0,16,windows,95850.72
+Toshiba,Notebook,14,1.47,1920x1080,Full HD,2.3,Intel, Core i5 6200U,128,0,0,4,windows,58874.4
+HP,Notebook,12.5,1.26,1920x1080,Full HD,2.3,Intel, Core i5 6200U,256,0,0,8,windows,88924.32
+Dell,Notebook,15.6,2.18,1366x768,HD,2.0,Intel, Core i3 6006U,0,1TB,0,4,windows,29762.208
+MSI,Gaming,15.6,2.2,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,128,1TB,0,8,windows,63882.72
+Dell,Gaming,17.3,4.36,2560x1440,Quad HD,2.7,Intel, Core i7 6820HK,512,1TB,0,16,windows,146946.24
+HP,Gaming,17.3,2.75,1920x1080,Full HD,2.3,Intel, Core i5 6300HQ,128,1TB,0,8,windows,74538.72
+Asus,Notebook,17.3,2.8,1600x900,HD,1.6,Intel, Pentium Quad Core N3710,0,1TB,0,4,windows,28238.4
+Acer,Notebook,15.6,2.23,1366x768,HD,2.5,Intel, Core i5 7200U,0,500,0,4,windows,32980.32
+Toshiba,Notebook,15.6,2.2,1366x768,HD,2.3,Intel, Core i5 6200U,256,0,0,8,windows,59620.32
+Lenovo,2 in 1 Convertible,11.3,1.1,1920x1080,Full HD,1.2,Intel, Core M m7-6Y75,256,0,0,8,windows,69210.72
+Lenovo,Gaming,15.6,2.5,1920x1080,Full HD,2.1,AMD, FX 8800P,512,1TB,0,16,windows,53226.72
+Dell,Ultrabook,12.5,1.36,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,78438.816
+Lenovo,Notebook,15.6,2.2,1920x1080,Full HD,2.7,Intel, Core i7 7500U,0,1TB,0,8,no,36496.8
+Dell,Notebook,17.3,2.36,1600x900,HD,2.0,Intel, Core i3 6006U,0,1TB,0,4,windows,35111.52
+Acer,Notebook,14,1.68,1366x768,HD,1.6,Intel, Celeron Dual Core N3060,0,0,32,4,chrome,18594.72
+HP,Workstation,15.6,2.0,1920x1080,Full HD,2.7,Intel, Core i7 6820HQ,8,0,0,8,windows,119826.72
+Dell,Ultrabook,14,1.36,1920x1080,Full HD,2.8,Intel, Core i7 7600U,256,0,0,8,windows,94572.0
+Toshiba,Notebook,13.3,1.2,1920x1080,Full HD,2.3,Intel, Core i5 6200U,256,0,0,8,windows,77788.8
+Asus,2 in 1 Convertible,12.5,1.2,1920x1080,Full HD,1.2,Intel, Core M M7-6Y75,0,0,64,8,chrome,61751.52
+Lenovo,Ultrabook,14,1.7,1920x1080,Full HD,2.6,Intel, Core i7 6600U,256,0,0,8,windows,79333.3872
+Dell,Gaming,17.3,4.36,3840x2160,4K,2.8,Intel, Core i7 7700HQ,512,1TB,0,16,windows,168045.12
+Dell,2 in 1 Convertible,13.3,1.24,1920x1080,Full HD,1.2,Intel, Core i5 7Y54,256,0,0,8,windows,101178.72
+HP,2 in 1 Convertible,11.6,1.45,1366x768,HD,1.1,Intel, Pentium Quad Core N4200,256,0,0,4,windows,41292.0
+Dell,Ultrabook,13.3,1.3,3200x1800,Quad HD,2.5,Intel, Core i7 6500U,256,0,0,8,windows,67559.04
+Acer,2 in 1 Convertible,11.6,1.25,1366x768,HD,1.6,Intel, Celeron Dual Core N3060,0,0,32,4,chrome,20725.92
+Toshiba,Notebook,13.3,1.2,1920x1080,Full HD,2.4,Intel, Core i5 6300U,256,0,0,8,windows,81784.8
+Lenovo,Ultrabook,12.5,1.36,1920x1080,Full HD,2.6,Intel, Core i5 7300U,256,0,0,8,windows,93772.8
+Acer,Notebook,15.6,2.4,1920x1080,Full HD,2.5,Intel, Core i5 7200U,128,1TB,0,12,windows,53759.52
+Toshiba,Ultrabook,12.5,1.1,1920x1080,Full HD,2.7,Intel, Core i7 7500U,512,0,0,8,windows,95371.2
+HP,Notebook,15.6,2.04,1366x768,HD,2.50,Intel, Core i5 7200U,0,1TB,0,8,windows,45101.52
+Dell,Notebook,15.6,2.25,1366x768,HD,2.0,Intel, Core i3 6006U,0,1TB,0,4,linux,24808.2336
+Dell,Notebook,15.6,1.9,1366x768,HD,2.5,Intel, Core i5 7200U,0,500,0,4,windows,43956.0
+HP,Notebook,15.6,2.04,1920x1080,Full HD,2.4,Intel, Core i3 7100U,0,500,0,4,windows,36496.8
+Dell,Gaming,17.3,4.42,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,256,1TB,0,32,windows,167778.72
+Lenovo,Notebook,15.6,2.4,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,6,windows,37029.6
+Dell,2 in 1 Convertible,13.3,1.22,3200x1800,Quad HD,1.3,Intel, Core i7 7Y75,512,0,0,16,windows,101178.72
+Dell,Ultrabook,14,1.5,2560x1440,Quad HD,2.6,Intel, Core i7 6600U,256,0,0,8,windows,104587.5744
+Dell,Gaming,17.3,4.42,1920x1080,Full HD,2.6,Intel, Core i7 6700HQ,256,1TB,0,32,windows,149184.0
+Toshiba,Notebook,14,1.95,1920x1080,Full HD,2.3,Intel, Core i5 6200U,256,0,0,8,windows,62870.4
+Asus,Gaming,17.3,2.73,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,256,1TB,0,16,windows,109218.672
+HP,Notebook,15.6,2.04,1920x1080,Full HD,2.70,Intel, Core i5 7200U,128,1TB,0,8,windows,52161.12
+Lenovo,Notebook,14,1.70,1366x768,HD,2.3,Intel, Core i5 6200U,0,0,0,4,windows,53386.56
+Asus,2 in 1 Convertible,15.6,2.3,3840x2160,4K,2.7,Intel, Core i7 7500U,512,2TB,0,16,windows,95850.72
+Asus,Gaming,17.3,2.99,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,256,1TB,0,16,windows,93186.72
+Dell,2 in 1 Convertible,15.6,2.19,1920x1080,Full HD,2.7,Intel, Core i7 7500U,512,0,0,12,windows,69210.72
+Toshiba,Notebook,13.3,1.2,1920x1080,Full HD,2.3,Intel, Core i5 6200U,128,0,0,4,windows,63669.6
+Lenovo,Notebook,15.6,2.2,1920x1080,Full HD,3.6,AMD, A12-Series 9720P,256,0,0,6,windows,29250.72
+Fujitsu,Notebook,15.6,2.3,1366x768,HD,2.3,Intel, Core i5 6200U,256,0,0,4,windows,34578.72
+Toshiba,Notebook,14,1.75,1366x768,HD,2.3,Intel, Core i5 6200U,0,500,0,4,windows,48751.2
+Dell,Notebook,15.6,2.25,1366x768,HD,2.5,Intel, Core i5 7200U,0,500,0,4,windows,31914.72
+HP,Notebook,15.6,2.04,1920x1080,Full HD,2.5,Intel, Core i5 7200U,0,1TB,0,8,windows,42943.68
+Lenovo,Gaming,15.6,2.5,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,128,1TB,0,8,windows,63349.92
+Dell,Notebook,15.6,2.36,1366x768,HD,2.7,Intel, Core i7 7500U,0,1TB,0,8,windows,39906.72
+Dell,Notebook,14,1.6,1920x1080,Full HD,2.5,Intel, Core i5 7200U,128,0,0,8,windows,59620.32
+HP,Notebook,12.5,0.97,1920x1080,Full HD,1.2,Intel, Core M 6Y75,512,0,0,8,windows,101658.24
+HP,Notebook,15.6,2.1,1920x1080,Full HD,2,Intel, Core i3 6006U,128,1TB,0,4,windows,26586.72
+Lenovo,Notebook,15.6,1.9,1366x768,HD,1.1,Intel, Celeron Dual Core N3350,128,0,0,4,no,14418.6336
+Lenovo,Notebook,15.6,2.3,1920x1080,Full HD,2.3,Intel, Core i5 6200U,256,0,0,8,windows,71874.72
+Asus,Notebook,13.3,1.4,3200x1800,Quad HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,61272.0
+HP,Ultrabook,13.3,1.11,1920x1080,Full HD,2.7,Intel, Core i7 7500U,256,0,0,8,windows,71874.72
+Acer,Notebook,15.6,2.4,1366x768,HD,1.1,Intel, Pentium Quad Core N4200,0,500,0,4,windows,20246.4
+Asus,Gaming,15.6,2.5,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,256,1TB,0,16,windows,95850.72
+HP,Ultrabook,14,1.48,1920x1080,Full HD,2.7,Intel, Core i7 7500U,512,0,0,8,windows,111301.92
+Acer,Gaming,15.6,2.7,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,128,1TB,0,8,windows,67132.8
+HP,Notebook,13.3,1.34,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,63349.92
+Dell,Notebook,15.6,2.18,1366x768,HD,2.4,Intel, Core i3 7100U,128,0,0,4,windows,29144.16
+HP,Notebook,14,1.64,1366x768,HD,2.5,Intel, Core i5 7200U,0,500,0,4,windows,41505.12
+Toshiba,Notebook,13.3,1.2,1920x1080,Full HD,2.3,Intel, Core i5 6200U,128,0,0,4,windows,63669.6
+HP,Notebook,14,1.48,1366x768,HD,2.4,Intel, Core i5 6300U,256,0,0,4,windows,58607.4672
+HP,Notebook,14,1.95,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,4,windows,64202.4
+HP,Ultrabook,14,1.43,1920x1080,Full HD,2.6,Intel, Core i7 6600U,256,0,0,8,windows,77202.72
+HP,Notebook,14,1.64,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,55904.5728
+HP,Notebook,14,1.64,1366x768,HD,2.4,Intel, Core i3 7100U,0,500,0,4,windows,36443.52
+Dell,Gaming,15.6,2.65,1920x1080,Full HD,2.5,Intel, Core i5 7300HQ,0,0,0,8,windows,50562.72
+HP,Ultrabook,12.5,1.26,1920x1080,Full HD,2.5,Intel, Core i5 7200U,0,500,0,4,windows,81997.92
+HP,Notebook,14,1.48,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,4,windows,84715.2
+HP,Ultrabook,14,1.54,1920x1080,Full HD,2.5,Intel, Core i7 6500U,256,0,0,8,windows,100550.5488
+HP,Notebook,13.3,1.49,1366x768,HD,2.4,Intel, Core i3 7100U,0,500,0,4,windows,42624.0
+Toshiba,Notebook,13.3,1.5,1366x768,HD,2.3,Intel, Core i5 6200U,256,0,0,8,windows,64468.8
+HP,Notebook,15.6,2.04,1366x768,HD,2.4,Intel, Core i3 7100U,256,0,0,4,windows,41025.0672
+Lenovo,Notebook,17.3,2.4,3840x2160,4K,2.7,Intel, Core i7 6820HQ,512,0,0,16,windows,158135.04
+Toshiba,Notebook,14,1.47,1920x1080,Full HD,2.3,Intel, Core i5 6200U,256,0,0,8,windows,79387.2
+HP,Notebook,14,1.43,1920x1080,Full HD,2.5,Intel, Core i7 6500U,256,0,0,8,windows,118761.12
+Dell,2 in 1 Convertible,15.6,2.08,1920x1080,Full HD,2.3,Intel, Core i3 6100U,0,1TB,0,4,windows,42410.3472
+Toshiba,Ultrabook,13.3,1.2,1920x1080,Full HD,2.3,Intel, Core i5 6200U,256,0,0,8,windows,84715.2
+HP,Notebook,13.3,1.11,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,61218.72
+HP,Notebook,14,1.64,1920x1080,Full HD,2.7,Intel, Core i7 7500U,256,0,0,8,windows,63159.7104
+Dell,Notebook,15.6,2.09,1920x1080,Full HD,2.4,Intel, Core i5 6300U,0,500,0,8,windows,55754.3232
+HP,Ultrabook,12.5,1.26,1366x768,HD,2.5,Intel, Core i5 7200U,256,0,0,4,windows,83063.52
+HP,Notebook,14,2.31,1366x768,HD,2.5,Intel, Core i5 7200U,0,500,0,4,windows,63349.92
+HP,Notebook,14,1.95,1366x768,HD,2.5,Intel, Core i5 7200U,0,500,0,4,windows,56476.8
+Dell,Ultrabook,13.3,1.29,3200x1800,Quad HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,86526.72
+HP,Notebook,17.3,2.63,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,57542.4
+HP,Notebook,14,1.64,1366x768,HD,2.5,Intel, Core i5 7200U,256,0,0,4,windows,51841.44
+Acer,Notebook,15.6,2.1,1366x768,HD,3,AMD, A9-Series 9420,0,1TB,0,6,windows,21791.52
+MSI,Gaming,17.3,2.7,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,128,1TB,0,8,windows,63499.104
+HP,Notebook,14,1.95,1920x1080,Full HD,2.3,Intel, Core i5 6200U,256,0,0,8,windows,63669.6
+HP,Notebook,15.6,1.84,1920x1080,Full HD,2.5,Intel, Core i7 6500U,256,0,0,8,windows,65480.5872
+HP,Ultrabook,12.5,1.26,1920x1080,Full HD,2.5,Intel, Core i7 6500U,256,0,0,8,windows,71874.72
+HP,Notebook,15.6,2.04,1366x768,HD,2.5,Intel, Core i5 7200U,0,500,0,4,windows,39533.76
+Toshiba,Ultrabook,14,1.47,1920x1080,Full HD,2.6,Intel, Core i7 6600U,256,0,0,8,windows,91908.0
+Dell,Notebook,15.6,2.09,1920x1080,Full HD,2.4,Intel, Core i5 6300U,256,0,0,8,windows,56633.976
+HP,Notebook,14,1.64,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,53839.9728
+Lenovo,2 in 1 Convertible,15.6,1.8,1920x1080,Full HD,2.5,Intel, Core i7 6500U,256,0,0,4,windows,45128.16
+Acer,Notebook,14,1.45,1366x768,HD,1.44,Intel, Atom X5-Z8350,0,0,32,2,windows,11231.424
+Toshiba,Notebook,15.6,2.4,1920x1080,Full HD,2.5,Intel, Core i7 6500U,256,0,0,16,windows,75924.0
+Lenovo,Notebook,15.6,2.3,1920x1080,Full HD,2.3,Intel, Core i5 6200U,256,0,0,8,windows,55922.688
+HP,Notebook,14,1.54,1920x1080,Full HD,2.3,Intel, Core i5 6200U,0,500,0,4,windows,53280.0
+HP,Notebook,15.6,1.84,1920x1080,Full HD,2.4,Intel, Core i5 6300U,256,500,0,8,windows,112065.9552
+HP,Notebook,14,1.43,1920x1080,Full HD,2.3,Intel, Core i5 6200U,256,0,0,8,windows,78268.32
+MSI,Gaming,17.3,3.78,1920x1080,Full HD,2.7,Intel, Core i7 6820HK,256,1TB,0,16,windows,82351.6992
+Lenovo,Gaming,17.3,4.6,1920x1080,Full HD,2.6,Intel, Core i7 6700HQ,128,1TB,0,16,windows,122010.6672
+Asus,Notebook,11.6,1.2,1366x768,HD,1.6,Intel, Celeron Dual Core N3060,0,0,16,4,chrome,15339.312
+Lenovo,Notebook,14,1.1,2560x1440,Quad HD,2.6,Intel, Core i7 6600U,256,0,0,16,windows,139593.6
+HP,Notebook,15.6,1.91,1920x1080,Full HD,2.7,Intel, Core i7 7500U,0,1TB,0,8,windows,52161.12
+Dell,2 in 1 Convertible,15.6,2.3,1920x1080,Full HD,2.7,Intel, Core i5 7200U,256,0,0,8,windows,58288.32
+HP,Notebook,15.6,2.04,1366x768,HD,2.5,Intel, Core i5 7200U,256,0,0,4,windows,52161.12
+Dell,Ultrabook,13.3,1.2,3200x1800,Quad HD,2.7,Intel, Core i7 7500U,0,0,0,16,windows,120093.12
+HP,Notebook,15.6,2.31,1366x768,HD,2.3,Intel, Core i3 6100U,0,500,0,4,windows,37570.392
+HP,Notebook,15.6,1.96,1366x768,HD,2.5,Intel, Core i5 7200U,0,500,0,4,no,26586.72
+Acer,Notebook,15.6,2.4,1366x768,HD,2.2,AMD, A8-Series 7410,0,1TB,0,8,windows,23922.72
+Dell,2 in 1 Convertible,13.3,1.6,1920x1080,Full HD,2.7,Intel, Core i7 7500U,256,0,0,12,windows,69210.72
+MSI,Gaming,15.6,2.94,1920x1080,Full HD,2.6,Intel, Core i7 6700HQ,256,1TB,0,16,windows,96916.32
+Asus,Gaming,17.3,4,1920x1080,Full HD,2.6,Intel, Core i7 6700HQ,0,1TB,0,16,no,53173.44
+Dell,Notebook,15.6,2.25,1920x1080,Full HD,2.5,Intel, Core i5 7200U,0,1TB,0,4,windows,29783.52
+Dell,Notebook,15.6,2.32,1920x1080,Full HD,2.7,Intel, Core i7 7500U,0,2TB,0,16,windows,52746.6672
+MSI,Gaming,15.6,1.8,1920x1080,Full HD,2.6,Intel, Core i7 6700HQ,256,1TB,0,16,windows,102777.12
+Dell,Ultrabook,13.3,1.29,1920x1080,Full HD,2.7,Intel, Core i7 7500U,256,0,0,8,windows,77682.24
+Asus,Gaming,17.3,3.58,1920x1080,Full HD,2.7,Intel, Core i7 6820HK,0,0,0,64,windows,211788.0
+Dell,2 in 1 Convertible,13.3,1.62,1920x1080,Full HD,2.5,Intel, Core i7 6500U,256,0,0,8,windows,42517.9728
+Dell,Gaming,15.6,3.21,3840x2160,4K,2.6,Intel, Core i7 6700HQ,256,1TB,0,16,windows,70809.12
+Apple,Ultrabook,12,0.920,2304x1440,Full HD,1.1,Intel, Core M,0,0,256,8,mac,69264.0
+Dell,Notebook,15.6,2.06,1366x768,HD,2.3,Intel, Core i3 6100U,0,500,0,4,windows,25679.8944
+HP,Notebook,15.6,2.31,1366x768,HD,2.3,Intel, Core i5 6200U,0,500,0,4,windows,63882.72
+HP,Ultrabook,12.5,1.26,1920x1080,Full HD,2.3,Intel, Core i5 6200U,256,0,0,8,windows,63882.72
+HP,Notebook,13.3,1.49,1920x1080,Full HD,2.7,Intel, Core i7 7500U,256,0,0,8,windows,58075.2
+Lenovo,Ultrabook,12.5,1.3,1920x1080,Full HD,2.5,Intel, Core i7 6500U,256,0,0,8,windows,91294.7472
+Lenovo,Notebook,17.3,3.0,1600x900,HD,2.3,Intel, Core i5 6200U,0,0TB,0,8,windows,35111.52
+Lenovo,Notebook,15.6,2.3,1920x1080,Full HD,2.3,Intel, Core i5 6300HQ,0,1TB,0,4,windows,52054.56
+MSI,Gaming,17.3,3.78,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,256,1TB,0,16,windows,133146.72
+Lenovo,Notebook,15.6,2.1,1366x768,HD,2.3,Intel, Core i5 6200U,0,500,0,4,windows,28771.2
+HP,Notebook,15.6,2.31,1920x1080,Full HD,2.3,Intel, Core i5 6200U,0,500,0,4,windows,50083.2
+Lenovo,Ultrabook,12.5,0.99,2560x1440,Quad HD,1.2,Intel, Core M 6Y75,512,0,0,8,windows,74538.72
+Lenovo,Gaming,17.3,4.6,1920x1080,Full HD,2.7,Intel, Core i7 6820HK,512,0,0,32,windows,172627.2
+Lenovo,2 in 1 Convertible,10.1,0.69,1920x1200,Full HD,1.44,Intel, Atom x5-Z8550,0,0,64,4,windows,34433.2656
+HP,Ultrabook,13.3,1.3,3840x2160,4K,2.7,Intel, Core i7 7500U,512,0,0,16,windows,109170.72
+Dell,Notebook,15.6,2.18,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,39960.0
+HP,Notebook,14,1.54,1920x1080,Full HD,2.3,Intel, Core i5 6200U,0,500,0,4,windows,54931.1472
+HP,Workstation,15.6,1.9,1920x1080,Full HD,2.5,Intel, Core i7 6500U,256,0,0,8,windows,79653.6
+Lenovo,Notebook,14,1.7,1920x1080,Full HD,2.3,Intel, Core i5 6200U,180,0,0,8,windows,63882.72
+HP,Notebook,13.3,1.29,3200x1800,Quad HD,1.5,Intel, Pentium Dual Core 4405Y,0,0,32,4,chrome,32767.2
+Acer,Notebook,15.6,2.4,1366x768,HD,2.2,AMD, A8-Series 7410,0,500,0,4,windows,20619.36
+Dell,Notebook,15.6,2.2,1366x768,HD,1.6,Intel, Pentium Quad Core N3700,0,500,0,4,linux,20965.1472
+HP,Notebook,15.6,1.86,1366x768,HD,2,Intel, Core i3 6006U,0,1TB,0,4,no,18434.3472
+Asus,Gaming,17.3,2.7,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,256,1TB,0,8,windows,85194.72
+Dell,Ultrabook,13.3,1.4,1920x1080,Full HD,1.6,Intel, Core i5 8250U,256,0,0,4,windows,43601.688
+HP,Notebook,12.5,2.4,1366x768,HD,2.3,Intel, Core i5 6200U,128,0,0,4,windows,85194.72
+Acer,Notebook,15.6,2.4,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,1TB,0,8,windows,42570.72
+Dell,Notebook,15.6,2.36,1920x1080,Full HD,2.5,Intel, Core i5 7200U,0,1TB,0,8,windows,34035.264
+MSI,Gaming,17.3,2.6,1920x1080,Full HD,2.6,Intel, Core i7 6700HQ,256,0,0,8,windows,85194.72
+HP,Notebook,15.6,1.96,1366x768,HD,1.6,Intel, Pentium Quad Core N3710,0,1TB,0,4,windows,26640.0
+Asus,Gaming,17.3,4.3,1920x1080,Full HD,2.6,Intel, Core i7 6700HQ,128,1TB,0,16,windows,122490.72
+Dell,Ultrabook,12.5,1.5,1366x768,HD,2.3,Intel, Core i3 6100U,0,500,0,4,windows,60480.792
+Dell,Ultrabook,12.5,1.5,1366x768,HD,2.3,Intel, Core i3 6100U,128,0,0,4,windows,62176.1616
+Acer,Notebook,15.6,2.20,1366x768,HD,1.5,Intel, Celeron Dual Core 3205U,16,0,0,4,chrome,11135.52
+HP,Workstation,17.3,3.0,1920x1080,Full HD,2.6,Intel, Core i7 6700HQ,0,1TB,0,8,windows,154458.72
+Lenovo,Gaming,15.6,2.4,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,512,0,0,16,windows,63882.72
+Dell,Ultrabook,12.5,1.5,1366x768,HD,2.3,Intel, Core i5 6200U,256,0,0,8,windows,75289.968
+MSI,Gaming,17.3,2.9,1920x1080,Full HD,2.6,Intel, Core i7 6700HQ,128,1TB,0,8,windows,80516.2032
+Lenovo,2 in 1 Convertible,15.6,2.1,1920x1080,Full HD,2.3,Intel, Core i5 6200U,256,0,0,4,windows,46193.76
+HP,Notebook,15.6,2.1,1920x1080,Full HD,2.5,AMD, A6-Series 9220,0,1TB,0,4,windows,21205.44
+Asus,Gaming,15.6,2.59,1920x1080,Full HD,2.6,Intel, Core i7 6700HQ,128,1TB,0,16,windows,71341.92
+HP,Notebook,13.3,1.16,3200x1800,Quad HD,1.1,Intel, Core M 6Y54,256,0,0,8,windows,90522.72
+Dell,Notebook,15.6,2.24,1366x768,HD,2.3,Intel, Core i5 6200U,0,500,0,4,windows,40980.312
+Lenovo,Notebook,15.6,2.1,1366x768,HD,2.0,Intel, Core i3 6006U,128,0,0,4,windows,22857.12
+HP,Ultrabook,13.3,1.16,1920x1080,Full HD,2.5,Intel, Core i7 6500U,512,0,0,8,windows,104908.32
+Dell,Ultrabook,13.3,1.23,1920x1080,Full HD,2.4,Intel, Core i7 7560U,256,0,0,8,windows,73473.12
+Lenovo,Gaming,17.3,4.6,1920x1080,Full HD,2.7,Intel, Core i7 6820HK,256,0,0,16,windows,146519.4672
+Razer,Ultrabook,12.5,1.25,3840x2160,4K,2.5,Intel, Core i7 6500U,256,0,0,8,windows,54825.12
+Toshiba,Ultrabook,13.3,1.05,1920x1080,Full HD,2.7,Intel, Core i7 7500U,512,0,0,16,windows,118601.28
+Asus,Gaming,17.3,3.52,1920x1080,Full HD,2.6,Intel, Core i7 6700HQ,128,1TB,0,8,windows,69929.4672
+Acer,Notebook,13.3,1.35,1920x1080,Full HD,1.44,Intel, Atom X5-Z8350,0,0,32,4,windows,10442.88
+HP,Notebook,13.3,1.16,1920x1080,Full HD,2.3,Intel, Core i5 6200U,256,0,0,8,windows,90043.2
+HP,Notebook,14,1.43,1920x1080,Full HD,2.3,Intel, Core i5 6200U,256,0,0,8,windows,80612.64
+Dell,Notebook,15.6,2.09,1366x768,HD,2.3,Intel, Core i5 6200U,0,500,0,4,linux,27899.0064
+Asus,Notebook,15.6,2,1366x768,HD,2.4,Intel, Core i3 7100U,0,1TB,0,4,windows,23176.8
+Lenovo,2 in 1 Convertible,14,1.8,1920x1080,Full HD,2.5,Intel, Core i7 6500U,256,0,0,8,windows,88924.32
+Lenovo,2 in 1 Convertible,10.1,0.69,1920x1200,Full HD,1.44,Intel, Atom x5-Z8550,0,0,64,4,windows,25521.12
+HP,Ultrabook,12.5,1.26,1366x768,HD,2.4,Intel, Core i5 6300U,256,0,0,8,windows,100965.6
+Lenovo,Gaming,15.6,2.4,1920x1080,Full HD,2.5,Intel, Core i5 7300HQ,128,1TB,0,8,no,52693.92
+HP,Gaming,17.3,3.35,1920x1080,Full HD,2.3,Intel, Core i5 6300HQ,128,1TB,0,8,windows,60153.12
+HP,Notebook,15.6,2.04,1366x768,HD,2.7,Intel, Core i7 7500U,0,2TB,0,8,windows,33513.12
+Lenovo,2 in 1 Convertible,14,1.8,1920x1080,Full HD,2.6,Intel, Core i7 6600U,512,0,0,8,windows,109244.2464
+Asus,Notebook,14,1.5,1366x768,HD,1.1,Intel, Celeron Dual Core N3350,0,0,32,4,windows,14811.84
+HP,Ultrabook,15.6,1.84,1920x1080,Full HD,2.7,Intel, Core i7 7500U,256,0,0,8,windows,40066.56
+Acer,Notebook,15.6,2.23,1920x1080,Full HD,2.5,Intel, Core i5 7200U,0,1TB,0,4,windows,32820.48
+Lenovo,Notebook,15.6,2.5,1920x1080,Full HD,2.5,Intel, Core i7 6500U,0,0,0,16,windows,58554.72
+HP,Workstation,17.3,3,1920x1080,Full HD,2.6,Intel, Core i7 6700HQ,256,0,0,8,windows,210424.032
+Dell,Notebook,15.6,2.5,1366x768,HD,2.5,Intel, Core i5 7200U,0,1TB,0,8,windows,41771.52
+MSI,Gaming,17.3,3.78,1920x1080,Full HD,2.7,Intel, Core i7 6820HQ,256,1TB,0,16,windows,127818.72
+HP,Ultrabook,15.6,1.88,1920x1080,Full HD,2.5,Intel, Core i7 6500U,256,0,0,8,windows,115709.2416
+Lenovo,2 in 1 Convertible,14,2.8,2560x1440,Quad HD,2.6,Intel, Core i7 6600U,512,0,0,16,windows,130003.2
+MSI,Gaming,15.6,2.4,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,128,1TB,0,8,windows,60888.384
+HP,2 in 1 Convertible,13.3,1.48,1920x1080,Full HD,2.4,Intel, Core i5 6300U,256,0,0,8,windows,86793.12
+HP,Workstation,15.6,2.59,1920x1080,Full HD,2.6,Intel, Core i7 6700HQ,256,0,0,8,windows,118761.12
+HP,2 in 1 Convertible,13.3,1.48,2560x1440,Quad HD,2.6,Intel, Core i7 6600U,256,0,0,8,windows,95850.72
+HP,Workstation,15.6,2.0,1920x1080,Full HD,2.6,Intel, Core i7 6700HQ,256,0,0,8,windows,101178.72
+HP,Ultrabook,12.5,1.26,1920x1080,Full HD,2.50,Intel, Core i7 6500U,256,0,0,8,windows,122381.496
+Dell,Notebook,15.6,2.18,1920x1080,Full HD,2.7,Intel, Core i7 7500U,256,0,0,8,windows,53807.472
+HP,Notebook,15.6,1.88,1920x1080,Full HD,2.3,Intel, Core i5 6200U,256,0,0,8,windows,84129.12
+Lenovo,2 in 1 Convertible,14,1.27,2560x1440,Quad HD,2.5,Intel, Core i7 6500U,256,0,0,8,windows,124621.92
+Lenovo,Notebook,15.6,1.9,1366x768,HD,2.0,Intel, Core i3 6006U,0,1TB,0,4,no,18061.92
+HP,Notebook,15.6,1.86,1366x768,HD,1.8,AMD, E-Series 7110,0,500,0,4,windows,15824.16
+Lenovo,Notebook,15.6,2.32,1920x1080,Full HD,2.3,Intel, Core i5 6200U,0,1TB,0,8,no,31914.72
+Dell,Gaming,15.6,2.62,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,0,1TB,0,8,windows,63882.72
+Dell,Notebook,15.6,2.04,3840x2160,4K,2.3,Intel, Core i5 6300HQ,256,0,0,8,windows,119916.2304
+HP,Notebook,15.6,1.91,1920x1080,Full HD,2.5,AMD, A6-Series A6-9220,256,0,0,4,windows,25515.2592
+MSI,Gaming,17.3,2.7,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,256,1TB,0,16,windows,79536.384
+Lenovo,Ultrabook,14,1.4,1920x1080,Full HD,2.6,Intel, Core i7 6600U,512,0,0,12,windows,122490.72
+Lenovo,Notebook,15.6,2.5,1920x1080,Full HD,2.3,Intel, Core i5 6200U,0,0,0,8,windows,42010.7472
+HP,2 in 1 Convertible,13.3,1.48,2560x1440,Quad HD,2.6,Intel, Core i7 6600U,512,0,0,8,windows,108744.48
+Lenovo,Ultrabook,14,1.7,1920x1080,Full HD,2.6,Intel, Core i7 6600U,256,0,0,8,windows,79866.72
+MSI,Gaming,14,1.7,1920x1080,Full HD,2.6,Intel, Core i7 6700HQ,256,1TB,0,16,windows,94252.32
+HP,Gaming,15.6,2.62,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,0,1TB,0,8,windows,47898.72
+Lenovo,Notebook,15.6,2.2,1366x768,HD,2.0,Intel, Core i3 6006U,0,1TB,0,8,windows,24455.52
+HP,Notebook,15.6,2.1,1366x768,HD,2.3,Intel, Core i5 6200U,0,500,0,4,no,25414.0272
+Dell,Gaming,15.6,2.62,3840x2160,4K,2.8,Intel, Core i7 7700HQ,128,1TB,0,8,windows,79813.44
+Lenovo,Notebook,15.6,1.95,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,74059.2
+Lenovo,Notebook,15.6,2.2,1920x1080,Full HD,2,Intel, Core i3 6006U,0,1TB,0,4,windows,24935.04
+HP,Notebook,14,1.44,1366x768,HD,1.6,Intel, Celeron Dual Core N3060,0,0,32,2,windows,13266.72
+MSI,Gaming,15.6,2.2,1920x1080,Full HD,2.7,Intel, Core i7 7500U,0,1TB,0,8,windows,44701.92
+HP,Notebook,15.6,1.96,1920x1080,Full HD,2.5,Intel, Core i7 6500U,256,0,0,8,windows,36177.12
+HP,Notebook,15.6,2.1,1920x1080,Full HD,1.8,Intel, Core i7 8550U,512,0,0,16,windows,61751.52
+Asus,Notebook,15.6,2.2,1366x768,HD,1.6,Intel, Celeron Dual Core N3050,0,500,0,4,windows,19660.32
+Lenovo,Notebook,15.6,2.1,1366x768,HD,2.3,Intel, Core i5 6200U,0,500,0,4,no,21205.44
+Lenovo,Notebook,15.6,2.2,1920x1080,Full HD,2.7,Intel, Core i7 7500U,0,1TB,0,8,no,37775.52
+Asus,Notebook,14,2,1920x1080,Full HD,2.4,Intel, Core i3 7100U,256,0,0,4,windows,40972.32
+Lenovo,Notebook,15.6,2.32,1920x1080,Full HD,2.5,Intel, Core i7 6500U,0,0,0,4,windows,43956.0
+Lenovo,Gaming,15.6,3.31,1920x1080,Full HD,2.6,Intel, Core i7 6700HQ,512,0,0,16,windows,69530.4
+MSI,Gaming,15.6,1.91,1920x1080,Full HD,2.6,Intel, Core i7 6700HQ,128,1TB,0,16,windows,114731.5536
+HP,Notebook,15.6,2.07,1366x768,HD,2.3,Intel, Core i3 6100U,0,500,0,4,windows,34632.0
+Lenovo,2 in 1 Convertible,14,1.36,2560x1440,Quad HD,2.3,Intel, Core i5 6200U,256,0,0,8,windows,87219.36
+Lenovo,Ultrabook,15.6,1.54,1920x1080,Full HD,2.7,Intel, Core i7 7500U,256,0,0,6,windows,44275.68
+Dell,Notebook,15.6,1.98,1920x1080,Full HD,2.7,Intel, Core i7 7500U,256,0,0,8,linux,47686.1328
+Acer,Notebook,15.6,2.1,1366x768,HD,2,Intel, Celeron Dual Core N3350,0,500,0,4,windows,17742.24
+HP,Notebook,15.6,2.18,1920x1080,Full HD,2.6,Intel, Core i7 6700HQ,0,1TB,0,6,windows,42570.72
+Asus,Gaming,15.6,2.591,1920x1080,Full HD,2.6,Intel, Core i7 6700HQ,256,1TB,0,8,windows,48431.52
+Dell,2 in 1 Convertible,15.6,2.09,1920x1080,Full HD,2.7,Intel, Core i7 7500U,512,0,0,16,windows,62817.12
+Acer,Notebook,15.6,2.23,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,4,windows,36816.48
+Dell,Ultrabook,13.3,1.23,3200x1800,Quad HD,2.4,Intel, Core i5 6300U,256,0,0,8,linux,58554.72
+Acer,Gaming,17.3,4.2,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,256,1TB,0,16,windows,138474.72
+Lenovo,Gaming,15.6,2.4,1920x1080,Full HD,2.5,Intel, Core i5 7300HQ,0,1TB,0,8,windows,43636.32
+Samsung,2 in 1 Convertible,12.3,1.15,2400x1600,Full HD,2.0,Samsung, Cortex A72&A53,0,0,32,4,chrome,35111.52
+HP,Notebook,15.6,1.86,1366x768,HD,2.5,Intel, Core i5 7200U,0,500,0,4,windows,25840.8
+Apple,Ultrabook,12,0.920,2304x1440,Full HD,1.1,Intel, Core M,0,0,256,8,mac,61964.64
+Dell,2 in 1 Convertible,13.3,1.6,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,63882.72
+HP,Notebook,15.6,2.21,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,128,1TB,0,12,windows,70702.56
+Lenovo,Notebook,15.6,1.9,1366x768,HD,2,Intel, Core i3 6006U,0,1TB,0,4,no,19607.04
+Asus,Gaming,17.3,4.3,1920x1080,Full HD,2.6,Intel, Core i7 6700HQ,512,1TB,0,16,windows,114552.0
+Acer,Notebook,15.6,2.1,1366x768,HD,2,Intel, Celeron Dual Core N3350,0,1TB,0,4,linux,14492.16
+MSI,Gaming,17.3,2.43,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,256,1TB,0,16,windows,109165.392
+Dell,Notebook,15.6,2.3,1366x768,HD,2.0,Intel, Core i3 6006U,128,0,0,4,windows,26586.72
+Lenovo,Notebook,15.6,2.2,1366x768,HD,2.5,Intel, Core i7 6500U,0,500,0,8,no,33513.12
+Dell,Ultrabook,13.3,1.2,3200x1800,Quad HD,2.7,Intel, Core i7 7500U,512,0,0,16,windows,142790.4
+Asus,Gaming,15.6,2.2,1920x1080,Full HD,2.6,Intel, Core i7 6700HQ,0,1TB,0,8,windows,62284.32
+Dell,Notebook,15.6,2.36,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,47365.92
+HP,Notebook,15.6,1.91,1366x768,HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,30849.12
+Lenovo,Notebook,15.6,2.2,1366x768,HD,2.2,AMD, E-Series 9000,0,500,0,4,windows,15930.72
+Acer,Notebook,17.3,3.3,1600x900,HD,2.0,Intel, Core i3 6006U,0,1TB,0,8,windows,33513.12
+Asus,Gaming,15.6,2.2,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,256,1TB,0,16,windows,130482.72
+Apple,Ultrabook,12,0.920,2304x1440,Full HD,1.2,Intel, Core M,0,0,512,8,mac,68145.12
+Asus,Notebook,15.6,2.2,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,128,1TB,0,16,windows,93186.72
+MSI,Gaming,17.3,2.43,1920x1080,Full HD,2.6,Intel, Core i7 6700HQ,256,1TB,0,16,windows,103842.1872
+Dell,2 in 1 Convertible,15.6,2.191,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,windows,53226.72
+Asus,Gaming,17.3,2.9,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,256,1TB,0,16,windows,103842.72
+Acer,Notebook,11.6,1.3,1366x768,HD,1.5,Intel, Celeron Dual Core 3205U,32,0,0,2,chrome,9270.72
+Acer,Notebook,17.3,3.3,1600x900,HD,2,Intel, Core i3 6006U,0,1TB,0,4,windows,31861.44
+Lenovo,Notebook,17.3,2.8,1600x900,HD,2.5,Intel, Core i5 7200U,0,1TB,0,8,no,28717.92
+Lenovo,Gaming,15.6,2.6,1920x1080,Full HD,2.6,Intel, Core i7 6700HQ,128,1TB,0,8,windows,67772.16
+Acer,2 in 1 Convertible,14,1.2,1920x1080,Full HD,1.3,Intel, Core i7 7Y75,256,0,0,8,windows,61218.72
+Lenovo,Notebook,15.6,2.3,1920x1080,Full HD,2.6,Intel, Core i7 6600U,256,0,0,8,windows,81465.12
+MSI,Gaming,15.6,2.2,1920x1080,Full HD,2.6,Intel, Core i7 6700HQ,128,1TB,0,8,windows,78647.1408
+HP,Notebook,15.6,2.1,1920x1080,Full HD,2.7,AMD, A12-Series 9720P,0,1TB,0,6,windows,28185.12
+Dell,Ultrabook,12.5,1.26,1920x1080,Full HD,2.4,Intel, Core i5 6300U,256,0,0,8,windows,91288.3536
+Dell,2 in 1 Convertible,15,2.08,1920x1080,Full HD,2.4,Intel, Core i3 7100U,0,500,0,4,windows,27119.52
+Asus,Notebook,15.6,2.65,1366x768,HD,1.6,Intel, Pentium Quad Core N3710,0,1TB,0,4,windows,16463.52
+Dell,Ultrabook,13.3,1.29,3200x1800,Quad HD,2.7,Intel, Core i7 7500U,256,0,0,8,windows,78694.56
+Dell,Notebook,15.6,2.18,1366x768,HD,2.5,Intel, Core i5 7200U,0,1TB,0,4,linux,27804.7008
+Lenovo,Gaming,15.6,2.6,1920x1080,Full HD,2.6,Intel, Core i7 6700HQ,128,1TB,0,16,windows,54825.12
+MSI,Gaming,15.6,2.2,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,128,1TB,0,8,windows,61218.72
+Lenovo,Notebook,12.5,1.3,1920x1080,Full HD,2.50,Intel, Core i7 6500U,512,0,0,16,windows,87912.0
+Razer,Gaming,14,1.95,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,0,0,0,16,windows,186426.72
+Dell,Notebook,15.6,2.3,1366x768,HD,2.4,Intel, Core i3 7100U,0,1TB,0,8,windows,24988.8528
+MSI,Gaming,17.3,2.7,1920x1080,Full HD,2.8,Intel, Core i7 7700HQ,256,1TB,0,16,windows,85141.44
+Apple,Ultrabook,11.6,1.08,1366x768,HD,1.6,Intel, Core i5,0,0,256,4,mac,51095.52
+HP,Notebook,15.6,2.1,1920x1080,Full HD,2,Intel, Core i3 6006U,0,1TB,0,4,windows,25467.84
+HP,Ultrabook,14,1.54,2560x1440,Quad HD,2.5,Intel, Core i7 6500U,256,0,0,8,windows,117119.5632
+Dell,Notebook,15.6,2.24,1366x768,HD,2.3,Intel, Core i5 6200U,0,500,0,4,windows,39267.36
+MSI,Gaming,15.6,2.3,1920x1080,Full HD,2.6,Intel, Core i7 6700HQ,128,1TB,0,8,windows,62284.32
+Lenovo,Notebook,13.3,1.4,1920x1080,Full HD,2.7,Intel, Core i7 7500U,512,0,0,16,windows,79866.72
+Lenovo,Notebook,15.6,2.2,1920x1080,Full HD,3.6,AMD, A12-Series 9720P,256,0,0,6,windows,31838.5296
+Asus,Ultrabook,13.3,1.45,1920x1080,Full HD,2.5,Intel, Core i7 6500U,256,0,0,8,windows,68198.4
+Acer,Notebook,15.6,2.4,1366x768,HD,2.0,Intel, Core i3 6006U,0,500,0,4,linux,19276.704
+Dell,2 in 1 Convertible,17.3,2.77,1920x1080,Full HD,2.7,Intel, Core i7 7500U,512,0,0,16,windows,95850.72
+HP,Notebook,14,1.54,1920x1080,Full HD,2.3,Intel, Core i5 6200U,256,0,0,4,windows,58607.4672
+Dell,Notebook,14,1.6,1366x768,HD,2.5,Intel, Core i5 7200U,0,500,0,4,windows,46620.0
+Asus,Gaming,15.6,2.34,1920x1080,Full HD,2.6,Intel, Core i7 6700HQ,256,1TB,0,16,windows,123876.0
+Lenovo,Notebook,15.6,2.3,1920x1080,Full HD,2.5,Intel, Core i5 7200U,256,0,0,8,no,30529.44
+Dell,2 in 1 Convertible,13.3,1.24,3200x1800,Quad HD,1.2,Intel, Core i5 7Y54,256,0,0,8,windows,96596.64
+Dell,Notebook,15.6,2.2,1366x768,HD,1.6,Intel, Pentium Quad Core N3710,0,500,0,4,linux,17262.72
+HP,Notebook,15.6,1.86,1366x768,HD,2.5,AMD, A6-Series 9220,0,500,0,4,windows,21258.72
+Lenovo,Notebook,15.6,2.4,1920x1080,Full HD,2.3,Intel, Core i3 6100U,128,0,0,6,windows,30316.32
+Lenovo,Notebook,14,1.9,1920x1080,Full HD,2.3,Intel, Core i5 6200U,256,0,0,8,windows,57116.16
+Dell,Notebook,15.6,2.2,1366x768,HD,1.6,Intel, Pentium Quad Core N3700,0,500,0,4,windows,23655.7872
+Asus,Notebook,15.6,2,1366x768,HD,1.1,Intel, Celeron Dual Core N3350,0,1TB,0,4,windows,18061.92
+Asus,Gaming,17.3,4.0,1920x1080,Full HD,2.6,Intel, Core i7 6700HQ,128,1TB,0,16,windows,101232.0
+Dell,Notebook,15.6,2.29,1366x768,HD,2,Intel, Core i3 6006U,0,500,0,4,windows,26107.2
+Lenovo,Notebook,15.6,2.32,1920x1080,Full HD,2.5,Intel, Core i7 6500U,0,0,0,8,windows,47685.6
+MSI,Gaming,15.6,2.4,1920x1080,Full HD,2.6,Intel, Core i7 6700HQ,128,1TB,0,8,windows,65481.12
+Lenovo,2 in 1 Convertible,14,1.8,1920x1080,Full HD,2.3,Intel, Core i5 6200U,128,0,0,4,windows,44382.7728
+Asus,Ultrabook,13.3,1.2,1920x1080,Full HD,0.9,Intel, Core M 6Y30,512,0,0,8,windows,38841.12
+Dell,Notebook,15.6,2.3,1366x768,HD,2.4,Intel, Core i3 7100U,0,1TB,0,6,windows,24455.52
+Acer,Notebook,15.6,2.4,1366x768,HD,1.6,Intel, Celeron Dual Core N3060,0,500,0,4,linux,15397.92
+Dell,Notebook,15.6,2.20,1366x768,HD,1.6,Intel, Celeron Dual Core N3050,0,500,0,2,windows,20193.12
+Lenovo,Notebook,15.6,2.6,1920x1080,Full HD,2.6,Intel, Core i7 6700HQ,0,1TB,0,8,windows,47898.72
+HP,Notebook,15.6,2.04,1920x1080,Full HD,2.9,AMD, A9-Series 9410,0,0,0,6,windows,29303.4672
+Dell,Notebook,15.6,2.3,1366x768,HD,2.7,Intel, Core i7 7500U,0,1TB,0,8,linux,42943.1472
+HP,Notebook,11.6,1.17,1366x768,HD,1.6,Intel, Celeron Dual Core N3060,0,0,32,2,windows,11135.52
+Asus,Notebook,15.6,2.2,1366x768,HD,2.5,Intel, Core i7 6500U,0,500,0,4,windows,38378.6496
+Lenovo,2 in 1 Convertible,14,1.8,1920x1080,Full HD,2.5,Intel, Core i7 6500U,128,0,0,4,windows,33992.64
+Lenovo,2 in 1 Convertible,13.3,1.3,3200x1800,Quad HD,2.5,Intel, Core i7 6500U,512,0,0,16,windows,79866.72
+Lenovo,Notebook,14,1.5,1366x768,HD,1.6,Intel, Celeron Dual Core N3050,0,0,64,2,windows,12201.12
+HP,Notebook,15.6,2.19,1366x768,HD,2.5,Intel, Core i7 6500U,0,1TB,0,6,windows,40705.92

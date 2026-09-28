@@ -1,0 +1,509 @@
+employee_id,department,grade,gender,state_of_origin,highest_qualification,age,years_of_service,employment_status,monthly_salary,annual_bonus,performance_score,training_hours_ytd,leave_days_used,is_manager
+ZED-1497,Compliance,Grade 6,Female,Lagos,ACCA,45,12,Active,121689,40157,,37,19,0
+ZED-1240,Sales,Grade 10,Female,Abuja,CFA,33,3,Active,747591,,2.8,107,3,1
+ZED-1466,Sales,Grade 8,Female,Kano,B.Sc,36,14,Active,363994,127397,2.2,96,9,0
+ZED-1165,Compliance,Grade 5,Female,Abuja,M.Sc,50,8,Suspended,82586,17343,3.5,22,21,0
+ZED-1002,Technology,Grade 8,Male,Anambra,MBA,57,11,Active,335701,16785,1.8,73,14,0
+ZED-1051,Sales,Grade 8,Male,Lagos,MBA,26,4,Active,291314,32044,3.7,8,21,1
+ZED-1030,Technology,Grade 5,Female,Lagos,B.Sc,26,4,Active,114061,17109,3.6,46,2,0
+ZED-1155,Finance,Grade 5,Male,Kano,CFA,30,1,Active,86582,5194,5.0,12,11,0
+ZED-1342,Human Resources,Grade 6,Male,Delta,M.Sc,30,4,On Leave,155629,18675,3.7,30,9,0
+ZED-1096,Risk Management,Grade 7,Female,Lagos,HND,53,18,Resigned,219457,17556,5.0,4,7,0
+ZED-1097,Sales,Grade 6,Male,Oyo,HND,35,13,Active,159509,12760,4.3,66,9,1
+ZED-1199,Risk Management,Grade 6,Male,Lagos,Ph.D,25,3,Active,166910,53411,2.1,85,14,1
+ZED-1088,Compliance,Grade 8,Female,Lagos,HND,24,2,Active,365989,95157,,5,15,0
+ZED-1181,Risk Management,Grade 7,Male,Lagos,MBA,27,5,Active,199133,37835,4.1,39,2,1
+ZED-1081,Operations,Grade 7,Male,Abuja,MBA,49,16,On Leave,185117,38874,2.9,3,8,0
+ZED-1012,Sales,Grade 6,Female,Abuja,Ph.D,50,8,Resigned,173874,,3.1,72,7,0
+ZED-1282,Finance,Grade 6,Male,Lagos,B.Sc,50,3,Active,135582,8134,1.6,67,14,0
+ZED-1163,Sales,Grade 9,Female,Oyo,Ph.D,52,10,Resigned,567222,170166,1.5,89,21,0
+ZED-1209,Sales,Grade 10,Male,Lagos,B.Sc,54,15,On Leave,835454,225572,4.0,104,21,0
+ZED-1086,Finance,Grade 12,Female,Rivers,M.Sc,39,17,Active,1585027,158502,4.0,110,21,0
+ZED-1149,Operations,Grade 7,Male,Abuja,B.Sc,55,16,Active,214521,64356,2.6,52,2,0
+ZED-1108,Sales,Grade 6,Female,Lagos,HND,52,10,Active,156546,29743,2.9,17,17,0
+ZED-1185,Finance,Grade 8,Male,Kano,B.Sc,28,6,Active,298758,,4.3,22,4,0
+ZED-1017,Technology,Grade 7,Male,Lagos,M.Sc,40,3,Active,219069,17525,2.3,36,13,0
+ZED-1042,Sales,Grade 6,Female,Abuja,B.Sc,39,12,Active,157665,15766,3.8,116,2,0
+ZED-1260,Technology,Grade 8,Female,Anambra,HND,57,18,Active,332631,113094,3.6,86,2,0
+ZED-1490,Operations,Grade 8,Female,Lagos,B.Sc,38,0,Resigned,323222,84037,,24,20,0
+ZED-1409,Risk Management,Grade 9,Male,Lagos,HND,43,15,Active,550108,104520,2.5,9,3,0
+ZED-1024,Technology,Grade 7,Female,Lagos,HND,22,0,Active,274918,74227,4.0,2,18,1
+ZED-1400,Sales,Grade 8,Female,Lagos,MBA,39,17,Active,302681,39348,3.1,93,21,1
+ZED-1468,Finance,Grade 8,Female,Abuja,MBA,37,0,Active,320436,38452,3.8,118,20,1
+ZED-1067,Human Resources,Grade 5,Female,Edo,MBA,28,6,On Leave,112750,27060,3.3,25,8,0
+ZED-1087,Technology,Grade 5,Male,Abuja,B.Sc,55,9,Active,104335,8346,1.8,44,15,0
+ZED-1410,Operations,Grade 10,Female,Lagos,B.Sc,43,8,Active,619260,123852,3.3,24,18,1
+ZED-1154,Finance,Grade 6,Female,Edo,HND,34,12,Active,129260,42655,2.8,83,14,1
+ZED-1441,Finance,Grade 7,Male,Anambra,B.Sc,56,14,Active,224041,56010,3.5,4,8,1
+ZED-1470,Audit,Grade 5,Male,Edo,M.Sc,49,12,Active,101632,16261,3.3,116,10,0
+ZED-1078,Risk Management,Grade 6,Female,Abuja,MBA,26,3,Active,146547,,3.7,7,16,0
+ZED-1449,Operations,Grade 7,Male,Abuja,B.Sc,52,2,Active,189088,15127,4.0,35,6,1
+ZED-1329,Compliance,Grade 8,Male,Lagos,B.Sc,27,0,Active,287203,51696,2.1,82,12,0
+ZED-1187,Finance,Grade 5,Male,Rivers,CFA,29,7,Active,101889,10188,3.5,59,15,1
+ZED-1379,Operations,Grade 9,Female,Abuja,HND,44,4,On Leave,479999,28799,3.2,7,18,0
+ZED-1494,Technology,Grade 7,Female,Rivers,M.Sc,27,2,Active,194615,40869,3.2,3,17,0
+ZED-1135,Risk Management,Grade 7,Female,Lagos,M.Sc,55,3,Active,209675,71289,3.0,19,3,1
+ZED-1474,Sales,Grade 9,Male,Lagos,MBA,25,3,Active,480479,28828,,42,16,0
+ZED-1138,Sales,Grade 5,Male,Rivers,HND,38,11,Active,100460,30138,3.2,110,21,0
+ZED-1256,Finance,Grade 5,Male,Lagos,M.Sc,41,13,Active,101958,21411,,52,8,0
+ZED-1035,Technology,Grade 7,Female,Kano,B.Sc,26,4,Active,193591,36782,4.2,114,4,0
+ZED-1473,Operations,Grade 8,Male,Kano,ACCA,47,8,Active,303422,21239,2.6,55,3,0
+ZED-1140,Risk Management,Grade 5,Female,Lagos,ACCA,42,11,Active,119557,38258,3.7,99,13,0
+ZED-1095,Human Resources,Grade 6,Male,Abuja,B.Sc,47,5,Active,161491,29068,3.4,79,3,0
+ZED-1482,Audit,Grade 7,Male,Lagos,B.Sc,52,4,On Leave,224213,47084,3.6,1,17,0
+ZED-1377,Sales,Grade 5,Female,Abuja,ACCA,45,15,Active,106608,13859,2.3,23,20,0
+ZED-1166,Sales,Grade 5,Male,Lagos,M.Sc,48,10,Active,114981,8048,3.6,31,0,0
+ZED-1455,Risk Management,Grade 9,Male,Lagos,M.Sc,40,16,Active,430175,141957,3.5,33,5,0
+ZED-1046,Sales,Grade 11,Female,Oyo,M.Sc,33,11,Active,1206644,265461,5.0,94,7,0
+ZED-1446,Sales,Grade 5,Male,Abuja,Ph.D,51,13,Resigned,117897,24758,3.0,12,12,0
+ZED-1208,Sales,Grade 5,Female,Abuja,MBA,57,4,Active,89621,23301,4.4,106,10,0
+ZED-1065,Finance,Grade 10,Male,Abuja,HND,52,17,Active,641309,96196,,8,16,1
+ZED-1406,Finance,Grade 7,Male,Lagos,B.Sc,43,17,Active,274710,19229,2.4,48,0,0
+ZED-1219,Operations,Grade 8,Male,Lagos,HND,38,13,On Leave,326009,101062,3.1,81,8,0
+ZED-1295,Risk Management,Grade 11,Female,Edo,M.Sc,56,13,Suspended,1132581,351100,4.8,88,8,0
+ZED-1411,Finance,Grade 9,Male,Abuja,MBA,32,10,Suspended,448912,116717,4.2,58,11,0
+ZED-1016,Operations,Grade 6,Female,Kano,HND,48,13,Active,166824,46710,3.1,64,17,0
+ZED-1401,Technology,Grade 10,Female,Abuja,MBA,32,10,Active,626647,87730,1.9,42,9,0
+ZED-1022,Audit,Grade 8,Male,Lagos,HND,27,5,Active,396989,83367,4.4,6,17,0
+ZED-1415,Audit,Grade 11,Male,Delta,M.Sc,49,2,Active,1310746,183504,3.3,17,0,0
+ZED-1006,Compliance,Grade 8,Female,Abuja,B.Sc,34,2,On Leave,334924,30143,2.9,113,17,1
+ZED-1023,Technology,Grade 8,Male,Delta,Ph.D,49,15,Active,379600,125268,3.1,1,13,0
+ZED-1428,Audit,Grade 7,Male,Oyo,B.Sc,56,14,Active,204864,,3.5,76,15,0
+ZED-1147,Technology,Grade 8,Male,Delta,CFA,34,12,Active,300717,66157,4.1,46,10,0
+ZED-1210,Sales,Grade 9,Female,Lagos,B.Sc,49,1,Active,515233,97894,2.8,9,9,0
+ZED-1057,Risk Management,Grade 8,Female,Kano,M.Sc,44,7,Suspended,389437,66204,,32,13,0
+ZED-1001,Human Resources,Grade 6,Male,Lagos,B.Sc,35,9,Active,177375,62081,2.7,49,11,0
+ZED-1346,Technology,Grade 6,Female,Anambra,MBA,36,14,Active,128792,14167,4.0,111,13,1
+ZED-1269,Operations,Grade 8,Male,Oyo,MBA,44,2,Active,369833,40681,2.6,115,7,1
+ZED-1039,Technology,Grade 11,Female,Oyo,Ph.D,23,1,Active,929555,176615,2.5,15,0,0
+ZED-1110,Operations,Grade 5,Female,Lagos,M.Sc,46,9,Active,81461,10589,1.4,23,20,0
+ZED-1475,Risk Management,Grade 8,Male,Lagos,HND,54,17,Active,305676,70305,4.8,29,13,0
+ZED-1348,Technology,Grade 6,Male,Kano,MBA,34,12,Active,169208,10152,2.8,39,4,0
+ZED-1293,Finance,Grade 7,Male,Lagos,HND,51,17,Active,186800,59776,2.7,60,14,1
+ZED-1063,Risk Management,Grade 6,Female,Delta,HND,26,4,Suspended,124879,39961,3.8,77,15,0
+ZED-1161,Compliance,Grade 8,Male,Edo,B.Sc,26,4,On Leave,311360,52931,3.9,102,3,1
+ZED-1009,Operations,Grade 9,Female,Lagos,M.Sc,57,7,Active,429672,21483,3.4,92,0,0
+ZED-1302,Technology,Grade 7,Female,Lagos,B.Sc,36,5,Active,227374,40927,2.2,37,12,1
+ZED-1285,Finance,Grade 5,Male,Edo,MBA,36,8,Active,113649,22729,3.1,83,13,0
+ZED-1031,Compliance,Grade 9,Female,Rivers,Ph.D,55,9,Active,530794,58387,4.3,75,19,1
+ZED-1272,Human Resources,Grade 7,Female,Lagos,HND,56,13,On Leave,202543,42534,2.8,87,7,0
+ZED-1416,Operations,Grade 11,Male,Lagos,MBA,44,10,Active,1104823,,2.8,87,2,0
+ZED-1132,Technology,Grade 7,Male,Lagos,M.Sc,36,8,Active,243718,,3.7,33,3,0
+ZED-1058,Finance,Grade 6,Female,Lagos,HND,32,10,Active,154755,18570,,25,14,0
+ZED-1364,Sales,Grade 8,Male,Lagos,B.Sc,46,4,Active,388053,100893,,66,7,0
+ZED-1224,Finance,Grade 7,Male,Lagos,MBA,54,12,Active,235071,18805,3.6,96,14,0
+ZED-1294,Sales,Grade 8,Male,Delta,B.Sc,45,3,Active,389865,35087,3.2,23,19,0
+ZED-1205,Risk Management,Grade 10,Female,Kano,B.Sc,23,1,Active,861535,60307,4.7,68,19,0
+ZED-1309,Finance,Grade 6,Male,Abuja,B.Sc,22,0,Active,122422,,5.0,56,17,0
+ZED-1262,Technology,Grade 6,Male,Lagos,B.Sc,36,11,Active,134317,26863,3.4,31,8,1
+ZED-1337,Finance,Grade 12,Male,Delta,HND,52,5,Active,1613502,371105,3.2,84,9,0
+ZED-1036,Compliance,Grade 11,Male,Lagos,B.Sc,23,1,Active,989617,296885,3.8,37,11,1
+ZED-1491,Sales,Grade 5,Male,Lagos,B.Sc,28,6,Resigned,109990,17598,3.4,113,12,0
+ZED-1139,Finance,Grade 9,Male,Lagos,B.Sc,32,10,Active,492005,78720,3.3,49,13,0
+ZED-1314,Technology,Grade 5,Male,Lagos,B.Sc,23,1,Suspended,108611,10861,4.2,74,5,0
+ZED-1235,Operations,Grade 8,Male,Rivers,B.Sc,48,5,Active,325520,104166,3.3,37,1,1
+ZED-1032,Technology,Grade 10,Male,Edo,HND,57,0,Active,626294,93944,,99,20,0
+ZED-1111,Compliance,Grade 8,Male,Lagos,M.Sc,40,6,Active,346178,45003,3.3,56,14,0
+ZED-1350,Finance,Grade 7,Female,Kano,HND,42,17,Active,238300,,2.8,45,19,0
+ZED-1232,Finance,Grade 11,Male,Oyo,B.Sc,24,2,Active,1163674,360738,3.4,0,21,0
+ZED-1061,Technology,Grade 6,Female,Rivers,MBA,22,0,Active,145599,40767,2.5,31,21,0
+ZED-1211,Compliance,Grade 11,Male,Anambra,M.Sc,55,18,Active,1232250,332707,3.8,66,20,1
+ZED-1048,Technology,Grade 5,Male,Anambra,B.Sc,45,8,Resigned,101690,19321,3.7,36,20,1
+ZED-1098,Human Resources,Grade 8,Female,Edo,B.Sc,40,12,Active,349409,55905,3.8,94,21,0
+ZED-1316,Sales,Grade 5,Male,Rivers,M.Sc,38,10,Active,102902,6174,2.5,16,7,0
+ZED-1158,Sales,Grade 6,Male,Abuja,M.Sc,22,0,On Leave,166165,24924,3.5,38,17,0
+ZED-1437,Sales,Grade 7,Male,Kano,HND,28,2,Active,275854,68963,3.6,92,1,1
+ZED-1483,Operations,Grade 10,Male,Lagos,M.Sc,33,9,Active,637719,82903,2.8,92,9,1
+ZED-1320,Finance,Grade 5,Male,Anambra,B.Sc,31,9,Active,104700,11517,3.8,12,9,0
+ZED-1053,Audit,Grade 7,Female,Kano,B.Sc,50,8,Suspended,185035,,4.6,30,12,1
+ZED-1115,Compliance,Grade 9,Male,Lagos,MBA,43,5,Active,435338,65300,2.8,35,7,1
+ZED-1328,Operations,Grade 6,Male,Delta,B.Sc,47,16,Resigned,123561,8649,3.3,27,16,0
+ZED-1448,Technology,Grade 9,Male,Lagos,ACCA,40,6,Active,454805,63672,2.4,27,6,0
+ZED-1311,Sales,Grade 7,Female,Lagos,M.Sc,30,4,Active,274166,38383,3.1,79,4,0
+ZED-1436,Compliance,Grade 8,Male,Lagos,HND,33,3,Active,382392,122365,4.4,65,10,1
+ZED-1362,Risk Management,Grade 7,Male,Edo,M.Sc,36,8,Active,244729,48945,2.6,24,19,0
+ZED-1015,Sales,Grade 7,Male,Lagos,M.Sc,26,2,Active,243575,34100,3.9,47,13,0
+ZED-1214,Sales,Grade 6,Male,Lagos,CFA,47,18,Active,121613,26754,2.0,0,11,0
+ZED-1073,Human Resources,Grade 9,Female,Lagos,B.Sc,36,14,Active,530077,153722,3.9,38,7,0
+ZED-1257,Human Resources,Grade 9,Male,Anambra,MBA,32,6,Active,507193,40575,2.0,83,16,0
+ZED-1430,Operations,Grade 10,Female,Abuja,ACCA,40,2,Active,878168,307358,3.0,28,9,1
+ZED-1420,Finance,Grade 5,Male,Lagos,HND,28,6,Active,94144,10355,3.6,104,8,0
+ZED-1343,Finance,Grade 10,Male,Kano,B.Sc,23,1,Active,715759,71575,3.8,18,5,0
+ZED-1043,Risk Management,Grade 6,Male,Lagos,MBA,27,4,Active,152676,32061,4.6,75,13,0
+ZED-1020,Technology,Grade 5,Male,Lagos,B.Sc,52,9,Active,118585,24902,3.0,111,14,0
+ZED-1218,Audit,Grade 7,Female,Lagos,M.Sc,52,9,Resigned,197115,35480,3.3,83,8,0
+ZED-1427,Sales,Grade 6,Male,Rivers,B.Sc,47,1,Active,127029,21594,3.0,8,3,1
+ZED-1431,Compliance,Grade 6,Male,Lagos,M.Sc,50,17,Active,153176,29103,4.5,61,5,0
+ZED-1083,Finance,Grade 5,Male,Lagos,HND,44,0,Active,88811,18650,5.0,109,8,0
+ZED-1271,Technology,Grade 9,Male,Lagos,M.Sc,35,5,Active,561761,123587,2.6,102,5,0
+ZED-1441,Finance,Grade 7,Male,Anambra,B.Sc,56,14,Active,224041,56010,3.5,4,8,1
+ZED-1054,Technology,Grade 8,Female,Rivers,CFA,34,12,Active,353780,77831,2.8,62,8,0
+ZED-1278,Finance,Grade 7,Male,Lagos,B.Sc,32,1,Active,241213,55478,3.5,84,10,0
+ZED-1071,Risk Management,Grade 8,Female,Lagos,M.Sc,34,4,Active,308083,67778,2.6,64,12,0
+ZED-1308,Sales,Grade 8,Female,Oyo,MBA,36,11,Active,387466,131738,3.8,12,2,0
+ZED-1305,Operations,Grade 6,Female,Rivers,MBA,41,18,Active,150949,15094,3.0,93,14,0
+ZED-1390,Technology,Grade 9,Female,Abuja,B.Sc,26,4,Active,597105,155247,2.7,47,0,0
+ZED-1064,Human Resources,Grade 5,Male,Lagos,MBA,39,12,On Leave,119879,8391,3.0,67,14,0
+ZED-1353,Human Resources,Grade 7,Male,Lagos,M.Sc,40,14,Active,206343,14444,2.6,25,10,0
+ZED-1157,Finance,Grade 5,Female,Lagos,MBA,29,7,Active,113373,35145,3.0,69,4,0
+ZED-1136,Risk Management,Grade 10,Male,Abuja,M.Sc,23,1,Active,838791,50327,4.4,31,1,1
+ZED-1373,Operations,Grade 10,Male,Abuja,B.Sc,38,12,Active,860834,232425,4.1,58,6,0
+ZED-1325,Risk Management,Grade 8,Male,Lagos,M.Sc,50,5,On Leave,388376,31070,4.0,81,10,0
+ZED-1231,Audit,Grade 8,Female,Lagos,M.Sc,31,9,Active,327378,,3.2,117,18,0
+ZED-1237,Sales,Grade 9,Male,Lagos,B.Sc,25,1,Active,481761,86716,4.8,50,7,0
+ZED-1445,Operations,Grade 8,Male,Lagos,HND,48,0,Suspended,396213,51507,4.0,63,3,0
+ZED-1105,Technology,Grade 7,Female,Kano,MBA,24,2,Active,273608,46513,2.8,116,6,1
+ZED-1489,Audit,Grade 6,Female,Lagos,B.Sc,25,3,Active,161009,35421,2.9,52,4,0
+ZED-1151,Risk Management,Grade 5,Female,Kano,M.Sc,31,9,Active,113369,34010,2.1,105,1,0
+ZED-1229,Technology,Grade 7,Female,Oyo,B.Sc,37,5,On Leave,215977,23757,1.9,74,8,1
+ZED-1492,Finance,Grade 7,Female,Lagos,B.Sc,40,0,Active,183282,34823,2.9,10,6,0
+ZED-1013,Audit,Grade 7,Male,Lagos,M.Sc,36,6,Active,250518,42588,2.4,58,14,0
+ZED-1381,Human Resources,Grade 12,Male,Kano,M.Sc,45,5,Active,1661902,382237,2.9,64,2,0
+ZED-1372,Finance,Grade 7,Male,Kano,MBA,36,12,Active,190601,43838,3.4,4,13,0
+ZED-1156,Operations,Grade 9,Female,Abuja,CFA,49,2,Active,580366,156698,4.2,62,16,0
+ZED-1291,Technology,Grade 9,Male,Abuja,MBA,34,4,Active,456329,123208,3.2,7,4,0
+ZED-1469,Compliance,Grade 7,Female,Lagos,Ph.D,54,18,Active,230157,75951,2.6,104,8,1
+ZED-1093,Technology,Grade 7,Male,Lagos,M.Sc,57,7,Active,259183,80346,3.5,9,1,0
+ZED-1025,Compliance,Grade 9,Male,Abuja,ACCA,30,6,Active,537267,123571,2.5,36,10,0
+ZED-1301,Finance,Grade 5,Female,Abuja,M.Sc,51,8,Active,97198,30131,3.2,25,20,0
+ZED-1447,Audit,Grade 9,Female,Rivers,HND,34,4,Active,406559,44721,3.6,47,17,0
+ZED-1103,Audit,Grade 7,Female,Lagos,CFA,45,10,On Leave,274724,52197,3.3,53,11,0
+ZED-1117,Technology,Grade 11,Male,Abuja,B.Sc,36,0,Active,1215799,194527,,74,7,0
+ZED-1385,Sales,Grade 9,Male,Anambra,M.Sc,50,6,Active,516850,160223,2.9,21,18,0
+ZED-1404,Compliance,Grade 6,Male,Lagos,MBA,38,5,Active,164614,41153,1.5,14,6,0
+ZED-1154,Finance,Grade 6,Female,Edo,HND,34,12,Active,129260,42655,2.8,83,14,1
+ZED-1471,Risk Management,Grade 10,Female,Abuja,M.Sc,33,4,Suspended,800104,280036,3.1,83,1,0
+ZED-1467,Operations,Grade 6,Male,Abuja,ACCA,48,13,Active,171039,44470,2.4,13,21,0
+ZED-1417,Human Resources,Grade 11,Male,Kano,HND,55,13,Active,1127752,157885,3.8,35,0,0
+ZED-1177,Compliance,Grade 10,Female,Delta,HND,25,3,Active,646666,161666,4.3,11,6,0
+ZED-1064,Human Resources,Grade 5,Male,Lagos,MBA,39,12,On Leave,119879,8391,3.0,67,14,0
+ZED-1296,Finance,Grade 10,Male,Lagos,HND,56,8,Active,736546,103116,3.1,29,20,1
+ZED-1418,Risk Management,Grade 5,Male,Oyo,B.Sc,27,5,Active,117262,26970,3.2,48,11,1
+ZED-1331,Technology,Grade 9,Male,Lagos,B.Sc,54,2,Active,422900,122640,2.3,85,5,0
+ZED-1476,Technology,Grade 5,Male,Rivers,ACCA,44,18,Suspended,82374,19769,3.4,40,16,1
+ZED-1398,Operations,Grade 6,Male,Abuja,HND,42,17,Active,128071,12807,4.2,77,13,1
+ZED-1457,Technology,Grade 7,Female,Abuja,ACCA,37,13,Active,261228,78368,3.9,25,7,0
+ZED-1332,Human Resources,Grade 5,Female,Oyo,B.Sc,48,10,On Leave,109571,31775,3.7,77,11,0
+ZED-1407,Operations,Grade 7,Male,Lagos,HND,49,12,Active,208857,54302,3.6,43,12,0
+ZED-1186,Finance,Grade 7,Female,Lagos,M.Sc,46,6,Active,213344,66136,4.0,28,11,0
+ZED-1148,Human Resources,Grade 6,Male,Rivers,M.Sc,43,19,Active,165610,16561,3.6,49,9,0
+ZED-1395,Finance,Grade 7,Male,Lagos,MBA,37,15,On Leave,246336,56657,4.1,69,12,0
+ZED-1206,Sales,Grade 5,Female,Lagos,M.Sc,40,1,Active,95767,23941,4.9,100,6,1
+ZED-1145,Audit,Grade 6,Male,Kano,B.Sc,25,3,Active,173631,41671,2.8,116,6,0
+ZED-1116,Technology,Grade 7,Female,Delta,B.Sc,45,7,Active,273023,21841,3.3,101,19,0
+ZED-1300,Finance,Grade 5,Female,Kano,B.Sc,33,7,Active,111298,20033,2.5,117,16,1
+ZED-1413,Operations,Grade 7,Female,Oyo,B.Sc,33,11,Active,278737,22298,3.3,52,4,0
+ZED-1197,Operations,Grade 9,Male,Delta,B.Sc,31,5,Active,407985,61197,3.7,95,8,0
+ZED-1234,Risk Management,Grade 6,Male,Anambra,HND,48,14,Active,169557,18651,3.1,52,2,0
+ZED-1279,Human Resources,Grade 9,Male,Lagos,M.Sc,45,17,Active,477384,28643,4.1,23,4,0
+ZED-1113,Finance,Grade 8,Male,Edo,M.Sc,27,3,Active,284938,17096,3.0,83,16,1
+ZED-1167,Audit,Grade 6,Female,Rivers,B.Sc,31,1,Active,178881,33987,3.8,2,20,0
+ZED-1499,Compliance,Grade 6,Male,Anambra,HND,52,13,Active,162929,27697,,28,0,0
+ZED-1243,Operations,Grade 8,Male,Rivers,B.Sc,35,11,On Leave,390111,46813,3.6,19,1,0
+ZED-1194,Audit,Grade 6,Female,Kano,ACCA,52,3,Active,129020,42576,4.2,83,12,0
+ZED-1459,Operations,Grade 8,Male,Abuja,B.Sc,22,0,Active,366775,25674,3.5,101,15,0
+ZED-1144,Human Resources,Grade 8,Male,Anambra,MBA,57,16,Active,388305,38830,,4,9,0
+ZED-1495,Audit,Grade 10,Female,Abuja,B.Sc,46,9,Active,825296,49517,3.4,98,9,0
+ZED-1188,Operations,Grade 9,Female,Lagos,MBA,39,3,Active,411193,24671,,40,13,1
+ZED-1462,Compliance,Grade 5,Male,Abuja,B.Sc,49,12,Active,110746,28793,3.8,58,21,0
+ZED-1040,Operations,Grade 10,Female,Kano,B.Sc,53,6,Active,604529,90679,3.2,25,5,0
+ZED-1196,Operations,Grade 5,Male,Delta,MBA,52,8,Active,117746,,3.3,15,0,0
+ZED-1450,Operations,Grade 5,Male,Abuja,B.Sc,31,9,Active,108210,29216,2.9,26,10,1
+ZED-1251,Finance,Grade 5,Female,Rivers,B.Sc,32,10,Active,92858,26000,2.6,119,19,0
+ZED-1252,Risk Management,Grade 6,Male,Kano,M.Sc,50,3,Active,139416,33459,2.3,110,18,1
+ZED-1306,Finance,Grade 7,Male,Edo,M.Sc,44,14,Active,236070,63738,3.5,85,17,1
+ZED-1472,Human Resources,Grade 6,Male,Abuja,HND,29,7,Active,120022,21603,,50,9,0
+ZED-1138,Sales,Grade 5,Male,Rivers,HND,38,11,Active,100460,30138,3.2,110,21,0
+ZED-1465,Sales,Grade 7,Male,Lagos,HND,54,15,On Leave,198340,33717,4.1,56,8,0
+ZED-1304,Risk Management,Grade 5,Female,Lagos,M.Sc,42,13,Active,81419,17912,3.4,24,20,0
+ZED-1463,Sales,Grade 7,Female,Kano,B.Sc,51,4,On Leave,250462,15027,2.6,67,20,1
+ZED-1233,Technology,Grade 9,Female,Rivers,B.Sc,22,0,Active,559339,44747,3.5,115,21,0
+ZED-1479,Operations,Grade 11,Male,Lagos,B.Sc,54,5,Active,1017337,152600,2.8,97,5,0
+ZED-1192,Technology,Grade 7,Male,Abuja,ACCA,56,4,Active,251099,22598,5.0,45,1,1
+ZED-1424,Compliance,Grade 6,Female,Lagos,MBA,37,13,On Leave,173675,,2.8,93,9,0
+ZED-1288,Human Resources,Grade 7,Female,Abuja,M.Sc,36,4,Active,220021,70406,3.6,74,9,1
+ZED-1223,Technology,Grade 6,Male,Edo,B.Sc,26,4,Active,132692,23884,2.5,80,20,0
+ZED-1226,Technology,Grade 10,Male,Lagos,ACCA,52,15,Active,898010,,2.8,76,16,0
+ZED-1248,Risk Management,Grade 6,Female,Abuja,HND,25,3,Active,169970,20396,3.7,119,17,0
+ZED-1173,Risk Management,Grade 9,Female,Edo,M.Sc,50,10,On Leave,463175,134320,3.9,33,21,1
+ZED-1458,Human Resources,Grade 7,Male,Lagos,B.Sc,41,16,Active,274524,82357,2.4,49,16,0
+ZED-1089,Technology,Grade 8,Female,Lagos,B.Sc,42,8,Active,293393,64546,3.7,117,1,1
+ZED-1280,Technology,Grade 7,Male,Lagos,Ph.D,23,1,Active,210108,46223,4.1,113,18,0
+ZED-1221,Compliance,Grade 10,Female,Lagos,B.Sc,26,4,Active,886393,62047,3.1,50,15,0
+ZED-1254,Operations,Grade 7,Female,Lagos,Ph.D,43,8,Active,264889,68871,1.5,16,1,0
+ZED-1068,Risk Management,Grade 7,Male,Rivers,B.Sc,33,11,Active,261176,47011,3.4,40,11,1
+ZED-1345,Sales,Grade 10,Male,Lagos,B.Sc,57,8,Active,712743,171058,3.8,6,0,0
+ZED-1376,Technology,Grade 9,Male,Rivers,B.Sc,49,10,Active,546836,158582,2.9,22,10,0
+ZED-1099,Finance,Grade 9,Female,Lagos,B.Sc,38,8,Active,522887,120264,3.6,10,3,0
+ZED-1241,Operations,Grade 8,Female,Rivers,HND,49,15,Active,292314,76001,,73,14,1
+ZED-1121,Risk Management,Grade 7,Male,Oyo,B.Sc,23,1,Resigned,191507,42131,4.8,19,0,1
+ZED-1387,Audit,Grade 7,Female,Abuja,B.Sc,56,17,Active,214841,30077,3.2,46,18,1
+ZED-1281,Operations,Grade 8,Female,Lagos,M.Sc,33,9,Active,288351,54786,,7,20,0
+ZED-1393,Audit,Grade 10,Male,Lagos,MBA,37,2,Active,696395,236774,5.0,38,14,1
+ZED-1244,Sales,Grade 10,Male,Lagos,CFA,47,3,Active,836919,125537,4.1,55,10,1
+ZED-1477,Compliance,Grade 8,Female,Lagos,HND,52,15,Active,314311,18858,2.4,119,7,0
+ZED-1338,Sales,Grade 6,Female,Lagos,B.Sc,43,18,Active,146305,14630,1.8,54,13,1
+ZED-1179,Risk Management,Grade 8,Female,Kano,M.Sc,53,10,Active,358995,61029,3.9,38,19,1
+ZED-1146,Technology,Grade 8,Female,Oyo,M.Sc,22,0,Active,298418,56699,4.2,44,8,0
+ZED-1198,Finance,Grade 6,Female,Lagos,HND,41,17,Active,164343,23008,,18,1,0
+ZED-1137,Technology,Grade 9,Female,Lagos,MBA,31,8,Active,599867,155965,2.3,67,4,0
+ZED-1274,Finance,Grade 5,Female,Rivers,M.Sc,44,14,Active,119374,39393,2.2,46,18,1
+ZED-1284,Sales,Grade 5,Male,Lagos,ACCA,37,2,Active,115991,12759,1.9,23,3,0
+ZED-1143,Sales,Grade 6,Female,Anambra,HND,26,4,Active,175446,,3.7,47,6,0
+ZED-1018,Human Resources,Grade 6,Male,Kano,MBA,55,1,On Leave,142275,11382,2.4,84,3,0
+ZED-1249,Technology,Grade 8,Female,Lagos,CFA,23,1,Active,340598,115803,3.0,16,4,0
+ZED-1421,Sales,Grade 10,Male,Oyo,B.Sc,51,19,On Leave,872484,78523,2.7,46,21,0
+ZED-1382,Technology,Grade 5,Female,Lagos,MBA,43,13,Active,93533,9353,4.7,19,5,0
+ZED-1075,Human Resources,Grade 6,Female,Oyo,B.Sc,30,4,Active,132154,11893,,15,12,0
+ZED-1375,Compliance,Grade 6,Male,Abuja,MBA,28,6,Active,125822,,2.7,15,15,0
+ZED-1286,Compliance,Grade 5,Male,Lagos,MBA,42,7,Active,117418,29354,2.0,103,8,0
+ZED-1019,Compliance,Grade 6,Female,Kano,B.Sc,25,3,Active,139380,45995,4.3,77,8,1
+ZED-1487,Finance,Grade 6,Male,Kano,MBA,57,9,Active,123963,19834,3.1,89,17,0
+ZED-1171,Finance,Grade 8,Male,Abuja,MBA,40,2,On Leave,375954,90228,3.1,37,5,0
+ZED-1187,Finance,Grade 5,Male,Rivers,CFA,29,7,Active,101889,10188,3.5,59,15,1
+ZED-1133,Finance,Grade 5,Male,Abuja,CFA,40,17,Active,112347,35951,,69,6,0
+ZED-1275,Technology,Grade 7,Female,Oyo,B.Sc,43,3,Resigned,214331,36436,1.9,67,15,0
+ZED-1378,Human Resources,Grade 6,Male,Edo,B.Sc,30,8,Active,156690,47007,3.2,98,10,0
+ZED-1266,Human Resources,Grade 8,Female,Lagos,B.Sc,40,5,Active,354031,28322,2.9,2,5,1
+ZED-1333,Finance,Grade 8,Male,Anambra,HND,38,13,Resigned,399874,87972,,80,13,0
+ZED-1124,Sales,Grade 8,Male,Oyo,M.Sc,32,10,Active,290370,26133,3.0,32,1,1
+ZED-1371,Sales,Grade 12,Female,Lagos,HND,34,9,Active,1794011,412622,2.8,10,6,0
+ZED-1047,Risk Management,Grade 7,Female,Abuja,MBA,57,13,Resigned,217056,69457,3.5,64,4,1
+ZED-1119,Finance,Grade 6,Male,Anambra,M.Sc,26,4,Active,154569,23185,2.1,39,20,0
+ZED-1160,Operations,Grade 8,Female,Lagos,M.Sc,27,5,Active,319134,22339,2.2,21,5,0
+ZED-1327,Finance,Grade 8,Male,Abuja,M.Sc,45,0,Active,292199,75971,2.5,8,19,0
+ZED-1230,Human Resources,Grade 8,Female,Edo,M.Sc,43,11,Active,330274,92476,3.7,71,3,0
+ZED-1360,Human Resources,Grade 6,Female,Lagos,M.Sc,49,19,On Leave,166312,18294,3.3,32,8,1
+ZED-1267,Operations,Grade 6,Female,Lagos,MBA,57,11,Resigned,147989,38477,3.0,29,4,1
+ZED-1326,Technology,Grade 12,Male,Lagos,MBA,48,3,Active,1755287,456374,3.0,59,7,0
+ZED-1052,Sales,Grade 6,Male,Rivers,HND,37,9,Active,154273,23140,2.8,112,5,0
+ZED-1478,Sales,Grade 8,Male,Abuja,HND,34,1,Active,340518,71508,3.2,115,3,0
+ZED-1222,Compliance,Grade 5,Male,Lagos,HND,25,3,Active,104264,12511,3.1,111,13,0
+ZED-1094,Finance,Grade 11,Male,Rivers,B.Sc,45,12,Active,1181635,118163,3.2,2,21,0
+ZED-1245,Sales,Grade 11,Female,Lagos,MBA,33,11,Resigned,1322809,119052,,63,5,0
+ZED-1444,Human Resources,Grade 8,Female,Lagos,B.Sc,41,14,Active,311481,21803,3.3,40,17,0
+ZED-1321,Operations,Grade 7,Male,Lagos,HND,39,1,Active,198684,9934,4.3,103,15,0
+ZED-1180,Risk Management,Grade 9,Male,Lagos,MBA,25,3,Active,568763,153566,,14,11,0
+ZED-1203,Finance,Grade 7,Male,Lagos,Ph.D,25,0,Active,251617,80517,3.3,69,16,0
+ZED-1283,Technology,Grade 5,Male,Delta,ACCA,52,16,Active,85101,16169,3.2,65,15,1
+ZED-1056,Risk Management,Grade 9,Male,Kano,B.Sc,42,2,Active,414880,45636,1.7,59,19,1
+ZED-1174,Operations,Grade 7,Male,Kano,Ph.D,37,10,Active,182643,32875,3.5,84,11,0
+ZED-1461,Sales,Grade 6,Female,Rivers,B.Sc,35,13,Active,139114,38951,3.5,71,20,0
+ZED-1334,Finance,Grade 9,Male,Lagos,B.Sc,49,4,Active,477210,57265,2.5,6,12,0
+ZED-1178,Sales,Grade 8,Male,Kano,B.Sc,29,2,Active,374003,86020,,58,4,0
+ZED-1253,Operations,Grade 6,Male,Abuja,M.Sc,56,0,Active,162168,24325,2.3,107,13,0
+ZED-1464,Finance,Grade 7,Male,Lagos,M.Sc,57,4,Active,256467,51293,3.3,18,21,0
+ZED-1460,Risk Management,Grade 6,Female,Abuja,ACCA,51,1,Active,137268,26080,3.1,88,14,0
+ZED-1423,Finance,Grade 5,Male,Lagos,B.Sc,31,6,Active,97972,28411,3.3,96,3,0
+ZED-1339,Sales,Grade 6,Male,Lagos,B.Sc,49,13,Active,139316,27863,2.8,86,16,1
+ZED-1247,Compliance,Grade 6,Female,Abuja,B.Sc,32,8,Resigned,144394,24546,3.1,56,8,1
+ZED-1380,Finance,Grade 9,Female,Lagos,B.Sc,22,0,Active,445761,40118,2.7,29,10,0
+ZED-1452,Human Resources,Grade 7,Male,Lagos,M.Sc,52,10,Active,252702,17689,3.3,74,11,0
+ZED-1324,Compliance,Grade 10,Male,Lagos,M.Sc,39,8,On Leave,650179,169046,3.3,28,7,1
+ZED-1412,Operations,Grade 11,Male,Lagos,B.Sc,35,11,Active,1257662,377298,4.1,24,4,0
+ZED-1189,Compliance,Grade 7,Female,Abuja,HND,53,7,Active,222783,53467,3.8,38,16,0
+ZED-1076,Technology,Grade 8,Female,Lagos,MBA,50,4,On Leave,378443,41628,3.6,27,15,0
+ZED-1176,Human Resources,Grade 6,Male,Lagos,M.Sc,52,1,On Leave,154891,26331,4.2,10,9,0
+ZED-1405,Operations,Grade 5,Female,Delta,B.Sc,49,17,Active,117213,39852,3.2,39,4,0
+ZED-1169,Sales,Grade 12,Male,Kano,MBA,36,14,Active,1451538,174184,1.0,50,9,1
+ZED-1026,Compliance,Grade 5,Male,Oyo,M.Sc,41,13,Active,105272,23159,3.1,82,14,1
+ZED-1007,Human Resources,Grade 9,Female,Delta,B.Sc,41,1,Active,511066,137987,,47,18,1
+ZED-1484,Finance,Grade 5,Female,Lagos,M.Sc,42,1,Suspended,114220,20559,2.8,9,11,1
+ZED-1392,Sales,Grade 8,Male,Anambra,HND,29,6,Active,344887,17244,2.7,68,12,0
+ZED-1344,Finance,Grade 7,Male,Kano,HND,22,0,Active,251042,67781,2.7,30,11,0
+ZED-1313,Operations,Grade 6,Male,Lagos,M.Sc,28,6,Active,120003,26400,3.9,80,2,0
+ZED-1265,Technology,Grade 6,Male,Lagos,M.Sc,24,2,Active,176930,14154,,60,11,0
+ZED-1153,Sales,Grade 11,Male,Kano,B.Sc,47,5,Active,1177858,318021,2.6,112,13,0
+ZED-1317,Risk Management,Grade 8,Female,Kano,B.Sc,22,0,Active,285350,71337,2.3,84,12,0
+ZED-1170,Operations,Grade 8,Female,Edo,MBA,31,8,Resigned,281247,56249,2.1,82,21,1
+ZED-1366,Risk Management,Grade 5,Female,Lagos,M.Sc,22,0,Active,96718,9671,4.0,80,2,0
+ZED-1340,Risk Management,Grade 6,Male,Abuja,B.Sc,57,2,Active,137661,15142,3.1,113,6,0
+ZED-1297,Compliance,Grade 6,Female,Oyo,HND,35,13,Active,163688,13095,4.2,5,11,0
+ZED-1259,Human Resources,Grade 10,Female,Kano,B.Sc,24,2,Active,764719,68824,5.0,88,10,1
+ZED-1246,Audit,Grade 6,Female,Edo,HND,49,3,Active,163611,31086,,105,11,0
+ZED-1008,Operations,Grade 10,Male,Abuja,Ph.D,48,8,Active,730191,,3.5,117,12,0
+ZED-1310,Sales,Grade 9,Male,Lagos,B.Sc,37,7,Active,405954,89309,2.8,90,14,0
+ZED-1276,Technology,Grade 8,Female,Rivers,HND,43,16,Resigned,289341,26040,,14,7,1
+ZED-1277,Finance,Grade 7,Male,Delta,ACCA,22,0,Active,227165,15901,,101,18,1
+ZED-1488,Operations,Grade 7,Male,Lagos,B.Sc,33,11,Active,195306,29295,3.5,92,17,0
+ZED-1077,Sales,Grade 9,Female,Kano,ACCA,36,14,Active,455848,63818,4.2,21,19,0
+ZED-1357,Risk Management,Grade 7,Male,Lagos,HND,35,10,Active,209581,,,61,4,1
+ZED-1299,Compliance,Grade 8,Male,Lagos,CFA,55,11,Suspended,337267,16863,2.6,38,21,0
+ZED-1041,Finance,Grade 6,Male,Edo,M.Sc,31,9,Suspended,126536,21511,,100,1,0
+ZED-1021,Finance,Grade 6,Female,Oyo,M.Sc,47,1,Active,146212,,3.4,83,1,0
+ZED-1109,Finance,Grade 7,Male,Lagos,HND,33,7,Active,219001,54750,2.7,24,18,0
+ZED-1213,Technology,Grade 5,Male,Lagos,MBA,28,0,Active,81336,17080,3.3,66,19,0
+ZED-1388,Technology,Grade 11,Male,Abuja,B.Sc,31,1,Active,1068315,277761,3.1,36,3,1
+ZED-1034,Risk Management,Grade 8,Male,Lagos,B.Sc,51,1,Active,344834,82760,2.2,78,6,0
+ZED-1190,Sales,Grade 10,Female,Abuja,Ph.D,53,19,On Leave,677460,155815,3.1,76,21,0
+ZED-1434,Finance,Grade 8,Female,Lagos,M.Sc,53,18,On Leave,320250,28822,3.3,90,10,0
+ZED-1312,Operations,Grade 8,Male,Lagos,M.Sc,55,5,Active,313116,37573,2.9,12,21,0
+ZED-1363,Finance,Grade 6,Female,Edo,HND,37,1,Active,165570,33114,3.8,39,3,1
+ZED-1125,Operations,Grade 9,Female,Lagos,M.Sc,41,4,Active,444600,124488,3.1,42,1,0
+ZED-1104,Compliance,Grade 5,Female,Lagos,M.Sc,27,5,Active,114517,8016,4.4,46,7,0
+ZED-1239,Human Resources,Grade 6,Female,Rivers,M.Sc,51,17,Resigned,142307,34153,2.9,76,1,0
+ZED-1227,Finance,Grade 5,Female,Oyo,ACCA,37,2,Active,93903,21597,5.0,82,15,1
+ZED-1141,Operations,Grade 6,Male,Abuja,B.Sc,57,6,Active,154126,7706,3.3,104,16,0
+ZED-1426,Human Resources,Grade 11,Female,Lagos,B.Sc,35,5,Active,920804,193368,,108,9,0
+ZED-1049,Risk Management,Grade 11,Male,Abuja,MBA,29,7,Active,1383794,152217,2.9,104,18,0
+ZED-1080,Sales,Grade 9,Male,Lagos,B.Sc,39,8,Active,530405,164425,2.7,72,14,0
+ZED-1351,Compliance,Grade 6,Male,Lagos,HND,33,11,Active,139087,26426,4.1,33,0,0
+ZED-1287,Finance,Grade 10,Male,Anambra,B.Sc,54,4,Active,781048,265556,3.2,64,21,0
+ZED-1123,Risk Management,Grade 5,Female,Abuja,Ph.D,29,7,Active,103702,17629,3.2,19,10,0
+ZED-1072,Technology,Grade 5,Male,Abuja,HND,37,7,On Leave,105167,25240,3.7,5,4,1
+ZED-1349,Sales,Grade 9,Female,Kano,M.Sc,24,2,Active,548519,65822,3.1,96,10,1
+ZED-1011,Compliance,Grade 8,Female,Abuja,M.Sc,38,8,Suspended,352355,52853,4.3,90,1,1
+ZED-1414,Human Resources,Grade 7,Female,Lagos,B.Sc,38,16,Active,252759,78355,2.6,25,10,1
+ZED-1184,Audit,Grade 6,Female,Kano,M.Sc,23,1,Active,144905,39124,2.2,8,16,0
+ZED-1323,Risk Management,Grade 11,Male,Abuja,B.Sc,26,4,Active,1140614,148279,,6,15,1
+ZED-1261,Risk Management,Grade 8,Male,Lagos,B.Sc,35,13,Active,369677,70238,1.8,75,4,1
+ZED-1399,Human Resources,Grade 5,Male,Lagos,Ph.D,45,19,Active,106147,35028,2.9,58,2,1
+ZED-1010,Finance,Grade 6,Female,Rivers,HND,44,19,Active,133655,32077,3.0,117,0,0
+ZED-1200,Operations,Grade 6,Male,Lagos,M.Sc,45,12,Active,122360,8565,3.6,117,10,0
+ZED-1273,Finance,Grade 6,Male,Lagos,CFA,50,5,Active,149175,40277,1.7,60,6,0
+ZED-1438,Technology,Grade 7,Male,Abuja,CFA,51,11,Resigned,225482,56370,2.7,85,20,0
+ZED-1370,Sales,Grade 5,Male,Anambra,B.Sc,51,5,Active,83758,12563,2.8,19,10,0
+ZED-1322,Finance,Grade 6,Male,Delta,ACCA,25,3,Active,133740,28085,3.7,30,18,0
+ZED-1274,Finance,Grade 5,Female,Rivers,M.Sc,44,14,Active,119374,39393,2.2,46,18,1
+ZED-1391,Sales,Grade 6,Male,Abuja,HND,49,10,Active,163348,34303,2.4,115,6,0
+ZED-1164,Human Resources,Grade 8,Male,Abuja,M.Sc,23,1,Active,333415,43343,4.2,18,10,0
+ZED-1368,Audit,Grade 9,Male,Kano,M.Sc,22,0,Active,526414,,3.0,96,20,1
+ZED-1298,Audit,Grade 6,Male,Kano,ACCA,45,16,On Leave,163242,35913,2.2,67,2,0
+ZED-1481,Sales,Grade 6,Female,Edo,MBA,54,2,Suspended,151750,27315,2.3,24,17,1
+ZED-1389,Finance,Grade 5,Male,Kano,M.Sc,24,2,Active,80061,17613,2.7,47,6,1
+ZED-1175,Audit,Grade 9,Female,Lagos,ACCA,36,10,On Leave,578062,,2.6,57,9,0
+ZED-1102,Risk Management,Grade 6,Male,Lagos,HND,41,9,Active,163342,9800,3.6,53,20,0
+ZED-1365,Operations,Grade 6,Male,Kano,Ph.D,42,5,Active,165271,,3.5,99,15,1
+ZED-1014,Human Resources,Grade 7,Male,Edo,HND,24,2,Active,189496,45479,2.7,69,12,0
+ZED-1225,Risk Management,Grade 10,Female,Abuja,MBA,43,3,Active,687983,96317,3.6,74,11,1
+ZED-1193,Sales,Grade 5,Female,Lagos,HND,57,12,On Leave,108290,35735,3.7,77,10,0
+ZED-1038,Operations,Grade 7,Male,Lagos,B.Sc,50,3,Active,279038,69759,2.7,45,13,0
+ZED-1356,Human Resources,Grade 9,Male,Lagos,Ph.D,50,15,Active,589089,129599,2.6,54,3,0
+ZED-1220,Finance,Grade 11,Male,Lagos,MBA,31,9,Active,1284562,166993,3.0,31,3,0
+ZED-1107,Operations,Grade 7,Female,Kano,Ph.D,44,0,Active,270964,75869,,99,21,1
+ZED-1182,Finance,Grade 6,Male,Kano,HND,48,9,Active,142602,22816,3.3,36,4,0
+ZED-1289,Human Resources,Grade 8,Female,Lagos,M.Sc,49,14,Active,386999,96749,3.6,80,3,0
+ZED-1433,Risk Management,Grade 10,Male,Lagos,B.Sc,41,7,Active,603947,36236,3.9,116,2,0
+ZED-1130,Technology,Grade 8,Male,Abuja,M.Sc,23,1,Active,364877,,1.7,44,7,1
+ZED-1315,Technology,Grade 11,Male,Lagos,HND,43,10,Active,902927,306995,2.3,14,13,0
+ZED-1456,Sales,Grade 9,Male,Rivers,B.Sc,54,16,Suspended,471397,160274,1.7,103,6,1
+ZED-1369,Operations,Grade 5,Male,Lagos,M.Sc,45,0,Active,115439,36940,4.9,93,9,1
+ZED-1355,Sales,Grade 9,Male,Kano,HND,56,16,Suspended,450133,31509,3.3,114,7,0
+ZED-1386,Human Resources,Grade 5,Male,Abuja,M.Sc,26,4,Active,113369,13604,3.7,0,2,1
+ZED-1486,Sales,Grade 10,Female,Rivers,B.Sc,50,17,Active,628334,,4.2,57,21,1
+ZED-1162,Finance,Grade 9,Female,Delta,B.Sc,33,7,Active,487730,34141,2.6,14,7,1
+ZED-1079,Compliance,Grade 7,Female,Kano,B.Sc,34,12,Active,195831,25458,3.1,41,4,0
+ZED-1242,Operations,Grade 6,Male,Lagos,ACCA,33,2,Active,179109,26866,3.2,66,16,1
+ZED-1084,Sales,Grade 5,Male,Lagos,MBA,23,1,On Leave,86620,12126,4.4,61,18,0
+ZED-1263,Operations,Grade 9,Female,Delta,M.Sc,24,2,Active,433207,21660,4.5,83,16,0
+ZED-1152,Operations,Grade 10,Female,Abuja,MBA,50,11,On Leave,884808,70784,1.4,14,13,0
+ZED-1453,Operations,Grade 6,Male,Lagos,HND,50,13,Active,176071,44017,2.6,2,20,0
+ZED-1439,Operations,Grade 8,Male,Lagos,B.Sc,56,14,On Leave,280319,86898,2.8,24,18,0
+ZED-1480,Technology,Grade 10,Female,Edo,M.Sc,47,2,Active,787522,78752,3.6,35,6,1
+ZED-1101,Risk Management,Grade 7,Female,Lagos,HND,55,7,Active,266020,82466,5.0,72,1,1
+ZED-1037,Compliance,Grade 9,Female,Lagos,HND,31,9,Active,438320,26299,3.9,69,3,0
+ZED-1090,Operations,Grade 6,Male,Abuja,MBA,43,6,Active,178575,,3.8,62,3,0
+ZED-1408,Technology,Grade 7,Female,Abuja,HND,56,3,Suspended,205930,18533,2.6,113,14,0
+ZED-1129,Operations,Grade 7,Male,Lagos,M.Sc,48,8,Resigned,276896,24920,2.6,104,16,0
+ZED-1347,Technology,Grade 6,Male,Abuja,M.Sc,25,2,Active,130343,23461,2.3,84,17,0
+ZED-1432,Technology,Grade 9,Male,Oyo,HND,22,0,Active,598865,185648,,49,16,0
+ZED-1000,Sales,Grade 6,Male,Kano,M.Sc,52,0,Active,138656,13865,4.1,111,14,0
+ZED-1027,Sales,Grade 5,Female,Abuja,HND,50,19,Active,96668,11600,3.8,13,1,1
+ZED-1352,Finance,Grade 12,Male,Lagos,HND,36,13,Active,2065381,660921,3.4,94,4,0
+ZED-1005,Finance,Grade 8,Male,Rivers,B.Sc,29,7,Active,299798,44969,2.1,1,14,0
+ZED-1092,Risk Management,Grade 7,Male,Lagos,B.Sc,29,7,Active,182604,21912,2.0,14,13,0
+ZED-1435,Sales,Grade 11,Male,Rivers,HND,54,13,Active,1050168,147023,3.0,96,14,1
+ZED-1172,Compliance,Grade 7,Male,Abuja,M.Sc,37,15,Active,276357,63562,2.7,30,11,0
+ZED-1228,Finance,Grade 6,Male,Abuja,MBA,38,6,Active,122121,18318,,11,6,1
+ZED-1131,Audit,Grade 8,Male,Lagos,B.Sc,46,12,Suspended,388500,89355,3.5,69,9,0
+ZED-1236,Human Resources,Grade 9,Female,Lagos,HND,22,0,Active,436894,100485,3.6,29,20,1
+ZED-1290,Sales,Grade 11,Male,Lagos,B.Sc,57,5,Active,1136853,397898,3.2,103,13,0
+ZED-1384,Sales,Grade 7,Male,Lagos,HND,26,4,Active,229783,25276,3.2,31,0,1
+ZED-1134,Sales,Grade 6,Female,Lagos,Ph.D,49,1,Active,120901,22971,1.8,113,16,0
+ZED-1383,Operations,Grade 6,Female,Lagos,B.Sc,45,19,Active,152495,42698,2.8,103,11,1
+ZED-1358,Technology,Grade 6,Male,Abuja,M.Sc,34,9,Resigned,138739,34684,3.8,31,18,0
+ZED-1307,Compliance,Grade 7,Male,Lagos,M.Sc,22,0,Suspended,181739,29078,3.3,92,20,1
+ZED-1029,Operations,Grade 12,Female,Kano,Ph.D,41,2,Active,2049388,327902,3.0,91,9,1
+ZED-1204,Risk Management,Grade 8,Male,Anambra,CFA,47,9,Active,311108,27999,4.5,43,6,0
+ZED-1070,Sales,Grade 12,Male,Lagos,CFA,41,3,Active,1517502,349025,4.5,4,20,0
+ZED-1202,Technology,Grade 9,Male,Oyo,HND,54,19,Active,527037,52703,3.0,30,20,0
+ZED-1498,Compliance,Grade 8,Male,Abuja,B.Sc,47,18,Active,300274,78071,3.8,118,4,0
+ZED-1485,Finance,Grade 7,Female,Lagos,CFA,25,3,Active,238371,71511,3.4,113,15,0
+ZED-1045,Technology,Grade 7,Male,Kano,MBA,31,9,Active,266589,82642,2.5,34,19,0
+ZED-1258,Technology,Grade 6,Female,Abuja,HND,36,10,Active,154200,40092,3.0,59,8,0
+ZED-1150,Technology,Grade 7,Male,Rivers,HND,28,6,Active,225790,72252,4.7,34,16,1
+ZED-1374,Compliance,Grade 7,Male,Lagos,ACCA,38,5,Active,242462,53341,2.7,36,15,0
+ZED-1069,Technology,Grade 11,Male,Lagos,HND,51,16,Active,1288741,90211,3.9,32,10,0
+ZED-1050,Finance,Grade 7,Female,Lagos,B.Sc,32,7,Active,193890,48472,3.1,38,9,1
+ZED-1443,Sales,Grade 5,Female,Rivers,B.Sc,50,9,Resigned,116117,11611,2.0,101,3,0
+ZED-1429,Technology,Grade 9,Male,Lagos,HND,24,2,Resigned,504260,110937,4.1,4,21,0
+ZED-1142,Human Resources,Grade 6,Female,Delta,MBA,39,13,Active,163141,50573,3.5,37,4,0
+ZED-1168,Sales,Grade 7,Male,Oyo,B.Sc,43,6,Active,188751,,1.0,67,13,1
+ZED-1451,Human Resources,Grade 9,Male,Abuja,ACCA,57,7,Active,569824,131059,3.5,87,16,0
+ZED-1402,Compliance,Grade 9,Female,Lagos,M.Sc,43,7,Active,546883,82032,3.0,50,9,1
+ZED-1216,Compliance,Grade 6,Male,Lagos,Ph.D,43,9,Active,128116,8968,4.6,14,18,0
+ZED-1201,Compliance,Grade 7,Male,Lagos,B.Sc,27,0,Active,244685,83192,2.7,52,5,0
+ZED-1112,Audit,Grade 7,Female,Oyo,MBA,53,16,Active,242437,58184,3.5,13,6,0
+ZED-1122,Compliance,Grade 6,Male,Abuja,HND,57,10,Active,130509,35237,3.2,25,10,0
+ZED-1255,Sales,Grade 8,Female,Kano,B.Sc,47,16,Active,323012,41991,2.4,105,3,0
+ZED-1091,Human Resources,Grade 5,Female,Abuja,B.Sc,46,5,Active,114323,30867,3.2,56,7,1
+ZED-1238,Technology,Grade 10,Male,Abuja,B.Sc,27,2,Suspended,767040,153408,,62,1,0
+ZED-1496,Finance,Grade 8,Female,Lagos,B.Sc,27,1,Active,394084,133988,1.8,52,21,0
+ZED-1318,Finance,Grade 7,Male,Edo,ACCA,38,14,Active,267058,74776,3.2,29,10,0
+ZED-1440,Operations,Grade 11,Male,Lagos,ACCA,43,0,Active,1136204,397671,2.3,74,4,0
+ZED-1217,Risk Management,Grade 9,Male,Lagos,HND,31,8,Active,450501,81090,3.2,81,9,1
+ZED-1195,Compliance,Grade 8,Male,Lagos,CFA,34,4,Active,358404,,3.2,113,7,1
+ZED-1118,Technology,Grade 7,Female,Lagos,M.Sc,34,10,Active,259086,62180,4.0,32,11,0
+ZED-1330,Risk Management,Grade 9,Female,Lagos,CFA,52,14,Active,435032,47853,3.6,117,10,0
+ZED-1191,Compliance,Grade 7,Female,Abuja,B.Sc,40,15,Resigned,228730,41171,2.7,49,2,0
+ZED-1044,Risk Management,Grade 9,Male,Lagos,HND,53,14,Resigned,563598,33815,2.6,86,11,0
+ZED-1303,Sales,Grade 5,Male,Abuja,Ph.D,56,16,Active,116808,24529,2.9,59,17,0
+ZED-1319,Compliance,Grade 6,Female,Oyo,Ph.D,28,6,On Leave,132026,18483,3.2,100,9,0
+ZED-1348,Technology,Grade 6,Male,Kano,MBA,34,12,Active,169208,10152,2.8,39,4,0
+ZED-1493,Compliance,Grade 9,Male,Abuja,MBA,34,10,Active,488442,112341,3.0,106,17,0
+ZED-1066,Sales,Grade 8,Female,Delta,MBA,50,17,Active,374807,63717,2.2,116,11,1
+ZED-1335,Finance,Grade 10,Male,Lagos,M.Sc,47,0,Active,864034,293771,3.3,97,1,0
+ZED-1120,Risk Management,Grade 9,Male,Abuja,MBA,22,0,Active,498958,94802,4.0,13,6,0
+ZED-1396,Technology,Grade 7,Female,Kano,MBA,37,0,Active,270267,,,8,7,0
+ZED-1106,Sales,Grade 7,Male,Lagos,M.Sc,25,3,Active,183194,45798,,7,10,1
+ZED-1215,Audit,Grade 5,Female,Lagos,CFA,54,14,Active,88645,15956,2.2,95,15,1
+ZED-1085,Operations,Grade 7,Female,Lagos,M.Sc,42,16,Active,230773,80770,4.5,3,9,1
+ZED-1403,Technology,Grade 8,Male,Rivers,B.Sc,24,2,Suspended,311223,84030,3.7,13,9,1
+ZED-1128,Technology,Grade 9,Female,Lagos,HND,45,17,Suspended,405297,89165,3.0,61,11,0
+ZED-1055,Finance,Grade 6,Male,Delta,M.Sc,40,11,Active,165499,44684,3.4,25,3,0
+ZED-1419,Audit,Grade 8,Female,Lagos,HND,37,2,Active,289721,86916,3.6,50,19,0
+ZED-1341,Finance,Grade 11,Male,Kano,B.Sc,42,17,Active,1261750,113557,3.4,117,16,0
+ZED-1264,Operations,Grade 5,Male,Rivers,Ph.D,36,11,Active,108277,21655,3.8,92,9,0
+ZED-1361,Audit,Grade 8,Male,Lagos,HND,57,3,Active,358576,86058,3.7,49,20,0
+ZED-1367,Technology,Grade 5,Male,Lagos,MBA,26,4,Active,80555,14499,2.4,57,12,0
+ZED-1422,Technology,Grade 5,Male,Edo,B.Sc,50,12,Resigned,90076,17114,3.1,113,19,0
+ZED-1207,Finance,Grade 11,Female,Anambra,HND,35,13,Active,1017572,152635,3.5,34,4,0
+ZED-1127,Audit,Grade 8,Female,Lagos,B.Sc,39,2,Active,356929,82093,3.4,73,9,0
+ZED-1322,Finance,Grade 6,Male,Delta,ACCA,25,3,Active,133740,28085,3.7,30,18,0
+ZED-1082,Compliance,Grade 6,Female,Edo,MBA,49,10,Active,176883,17688,5.0,96,15,1
+ZED-1292,Operations,Grade 5,Male,Lagos,HND,54,1,On Leave,109860,30760,3.3,30,19,1
+ZED-1359,Technology,Grade 10,Female,Kano,HND,48,12,Active,713462,99884,2.0,80,18,0
+ZED-1354,Technology,Grade 6,Male,Edo,HND,22,0,Active,124088,7445,3.7,35,9,0
+ZED-1074,Operations,Grade 6,Male,Lagos,HND,51,6,On Leave,148809,44642,2.9,106,12,0
+ZED-1183,Compliance,Grade 6,Female,Lagos,CFA,45,1,Active,168667,37106,3.4,23,21,1
+ZED-1062,Risk Management,Grade 6,Female,Lagos,MBA,28,6,Active,120314,27672,2.5,73,6,0
+ZED-1114,Audit,Grade 10,Female,Edo,MBA,35,6,Active,648341,207469,3.2,90,0,0
+ZED-1004,Technology,Grade 10,Female,Edo,Ph.D,30,2,Active,830395,132863,2.1,114,11,0
+ZED-1028,Operations,Grade 6,Female,Oyo,Ph.D,38,0,Active,142359,48402,2.5,99,5,0
+ZED-1212,Audit,Grade 9,Male,Abuja,M.Sc,51,14,On Leave,470312,28218,1.6,112,5,1
+ZED-1250,Finance,Grade 7,Female,Delta,CFA,39,16,Active,239460,69443,2.8,118,20,0
+ZED-1394,Sales,Grade 6,Female,Abuja,B.Sc,42,8,Active,120674,10860,2.4,46,20,1
+ZED-1003,Finance,Grade 5,Male,Abuja,B.Sc,33,9,Active,107041,37464,2.8,87,9,0
+ZED-1060,Operations,Grade 8,Male,Edo,MBA,40,12,On Leave,325129,104041,3.5,94,19,0
+ZED-1059,Audit,Grade 7,Female,Abuja,B.Sc,27,5,Active,241085,28930,,57,18,0
+ZED-1033,Operations,Grade 11,Female,Rivers,HND,51,18,Active,1386464,249563,,9,7,0
+ZED-1397,Audit,Grade 11,Female,Lagos,MBA,25,3,Active,1017187,254296,,96,9,0
+ZED-1336,Operations,Grade 11,Male,Lagos,B.Sc,38,1,Active,937813,178184,3.3,101,8,0
+ZED-1268,Audit,Grade 10,Male,Abuja,B.Sc,52,13,Active,624343,81164,3.3,77,8,0
+ZED-1159,Operations,Grade 9,Female,Lagos,M.Sc,48,8,Active,466179,139853,,52,15,1
+ZED-1442,Finance,Grade 8,Male,Edo,CFA,56,6,Active,316891,,3.4,62,5,1
+ZED-1425,Compliance,Grade 5,Female,Oyo,ACCA,29,0,Active,115017,31054,3.7,115,8,0
+ZED-1454,Compliance,Grade 5,Male,Lagos,B.Sc,26,1,Active,93313,5598,3.2,119,16,1
+ZED-1126,Technology,Grade 6,Male,Lagos,HND,36,3,Active,133533,26706,4.2,36,6,0
+ZED-1270,Technology,Grade 6,Male,Kano,B.Sc,37,13,Active,154034,24645,3.2,44,7,0
+ZED-1100,Sales,Grade 9,Female,Delta,M.Sc,38,6,On Leave,566505,96305,2.7,63,18,0
