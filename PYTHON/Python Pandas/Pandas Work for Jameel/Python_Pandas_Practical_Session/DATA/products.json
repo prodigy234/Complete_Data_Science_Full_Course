@@ -1,0 +1,194 @@
+[
+  {
+    "product_id":"P001",
+    "name":"Smartphone",
+    "category":"Electronics",
+    "price":185000,
+    "rating":4.4,
+    "stock":52
+  },
+  {
+    "product_id":"P002",
+    "name":"Laptop",
+    "category":"Electronics",
+    "price":650000,
+    "rating":3.7,
+    "stock":89
+  },
+  {
+    "product_id":"P003",
+    "name":"Earbuds",
+    "category":"Electronics",
+    "price":28000,
+    "rating":4.2,
+    "stock":294
+  },
+  {
+    "product_id":"P004",
+    "name":"Power Bank",
+    "category":"Electronics",
+    "price":15000,
+    "rating":4.1,
+    "stock":130
+  },
+  {
+    "product_id":"P005",
+    "name":"Ankara Dress",
+    "category":"Fashion",
+    "price":22000,
+    "rating":3.9,
+    "stock":202
+  },
+  {
+    "product_id":"P006",
+    "name":"Sneakers",
+    "category":"Fashion",
+    "price":35000,
+    "rating":3.4,
+    "stock":112
+  },
+  {
+    "product_id":"P007",
+    "name":"Agbada Set",
+    "category":"Fashion",
+    "price":90000,
+    "rating":4.7,
+    "stock":272
+  },
+  {
+    "product_id":"P008",
+    "name":"Handbag",
+    "category":"Fashion",
+    "price":25000,
+    "rating":3.3,
+    "stock":162
+  },
+  {
+    "product_id":"P009",
+    "name":"Rice 50kg",
+    "category":"Groceries",
+    "price":82000,
+    "rating":4.0,
+    "stock":346
+  },
+  {
+    "product_id":"P010",
+    "name":"Vegetable Oil 25L",
+    "category":"Groceries",
+    "price":62000,
+    "rating":4.7,
+    "stock":136
+  },
+  {
+    "product_id":"P011",
+    "name":"Garri 10kg",
+    "category":"Groceries",
+    "price":14000,
+    "rating":3.2,
+    "stock":82
+  },
+  {
+    "product_id":"P012",
+    "name":"Beans 25kg",
+    "category":"Groceries",
+    "price":48000,
+    "rating":3.5,
+    "stock":289
+  },
+  {
+    "product_id":"P013",
+    "name":"Blender",
+    "category":"Home & Kitchen",
+    "price":32000,
+    "rating":4.3,
+    "stock":13
+  },
+  {
+    "product_id":"P014",
+    "name":"Gas Cooker",
+    "category":"Home & Kitchen",
+    "price":120000,
+    "rating":4.6,
+    "stock":100
+  },
+  {
+    "product_id":"P015",
+    "name":"Standing Fan",
+    "category":"Home & Kitchen",
+    "price":45000,
+    "rating":4.6,
+    "stock":350
+  },
+  {
+    "product_id":"P016",
+    "name":"Mattress",
+    "category":"Home & Kitchen",
+    "price":150000,
+    "rating":4.6,
+    "stock":343
+  },
+  {
+    "product_id":"P017",
+    "name":"Shea Butter",
+    "category":"Beauty",
+    "price":6000,
+    "rating":3.6,
+    "stock":348
+  },
+  {
+    "product_id":"P018",
+    "name":"Perfume",
+    "category":"Beauty",
+    "price":30000,
+    "rating":3.6,
+    "stock":292
+  },
+  {
+    "product_id":"P019",
+    "name":"Hair Dryer",
+    "category":"Beauty",
+    "price":18000,
+    "rating":4.9,
+    "stock":280
+  },
+  {
+    "product_id":"P020",
+    "name":"Face Cream",
+    "category":"Beauty",
+    "price":12000,
+    "rating":3.4,
+    "stock":302
+  },
+  {
+    "product_id":"P021",
+    "name":"Data Science Handbook",
+    "category":"Books",
+    "price":15000,
+    "rating":4.5,
+    "stock":105
+  },
+  {
+    "product_id":"P022",
+    "name":"Python Guide",
+    "category":"Books",
+    "price":12000,
+    "rating":3.3,
+    "stock":320
+  },
+  {
+    "product_id":"P023",
+    "name":"Finance Basics",
+    "category":"Books",
+    "price":9000,
+    "rating":4.6,
+    "stock":175
+  },
+  {
+    "product_id":"P024",
+    "name":"Novel",
+    "category":"Books",
+    "price":5000,
+    "rating":4.6,
+    "stock":27
+  }
+]

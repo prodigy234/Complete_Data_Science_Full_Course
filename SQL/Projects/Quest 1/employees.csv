@@ -1,0 +1,14 @@
+EmployeeID,EmployeeName,Gender,Salary,DepartmentID,Email,HireDate
+101,John,Male,65000,100,john@company.com,2022-01-15
+102,Mary,Female,58000,200,mary@company.com,2023-03-20
+103,Peter,Male,72000,300,peter@company.com,2021-07-10
+104,Grace,Female,68000,100,grace@company.com,2022-09-05
+105,David,Male,70000,500,david@company.com,2020-11-12
+106,Susan,Female,62000,400,susan@company.com,2023-01-25
+107,James,Male,75000,300,james@company.com,2019-06-18
+108,Linda,Female,59000,200,linda@company.com,2024-02-14
+109,Michael,Male,67000,500,michael@company.com,2021-10-30
+110,Sarah,Female,64000,400,sarah@company.com,2022-12-01
+111,Daniel,Male,61000,500,daniel@company.com,2024-05-08
+112,Esther,Female,69000,100,esther@company.com,2023-08-22
+113,Victor,Male,63000,400,victor@company.com,2025-01-10

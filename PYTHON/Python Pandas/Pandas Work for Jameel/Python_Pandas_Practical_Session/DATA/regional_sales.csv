@@ -1,0 +1,97 @@
+region,quarter,product_line,sales,units
+Lagos,Q1,Electronics,3600000,156
+Lagos,Q1,Fashion,4600000,300
+Lagos,Q1,Groceries,5200000,599
+Lagos,Q1,Home & Kitchen,3000000,242
+Lagos,Q2,Electronics,3700000,564
+Lagos,Q2,Fashion,5200000,502
+Lagos,Q2,Groceries,5500000,601
+Lagos,Q2,Home & Kitchen,5300000,690
+Lagos,Q3,Electronics,4800000,568
+Lagos,Q3,Fashion,3200000,363
+Lagos,Q3,Groceries,5500000,339
+Lagos,Q3,Home & Kitchen,2200000,339
+Lagos,Q4,Electronics,3600000,124
+Lagos,Q4,Fashion,3600000,602
+Lagos,Q4,Groceries,2200000,252
+Lagos,Q4,Home & Kitchen,2900000,233
+Abuja,Q1,Electronics,5300000,251
+Abuja,Q1,Fashion,2000000,300
+Abuja,Q1,Groceries,1800000,151
+Abuja,Q1,Home & Kitchen,1000000,570
+Abuja,Q2,Electronics,1300000,552
+Abuja,Q2,Fashion,5800000,483
+Abuja,Q2,Groceries,4400000,368
+Abuja,Q2,Home & Kitchen,1300000,59
+Abuja,Q3,Electronics,4200000,451
+Abuja,Q3,Fashion,2500000,298
+Abuja,Q3,Groceries,3400000,111
+Abuja,Q3,Home & Kitchen,5300000,627
+Abuja,Q4,Electronics,2900000,102
+Abuja,Q4,Fashion,2100000,256
+Abuja,Q4,Groceries,900000,119
+Abuja,Q4,Home & Kitchen,1100000,696
+Port Harcourt,Q1,Electronics,4600000,303
+Port Harcourt,Q1,Fashion,1300000,189
+Port Harcourt,Q1,Groceries,3800000,326
+Port Harcourt,Q1,Home & Kitchen,3700000,315
+Port Harcourt,Q2,Electronics,2700000,358
+Port Harcourt,Q2,Fashion,3500000,560
+Port Harcourt,Q2,Groceries,2400000,430
+Port Harcourt,Q2,Home & Kitchen,4300000,226
+Port Harcourt,Q3,Electronics,3800000,458
+Port Harcourt,Q3,Fashion,1600000,187
+Port Harcourt,Q3,Groceries,3100000,553
+Port Harcourt,Q3,Home & Kitchen,5100000,390
+Port Harcourt,Q4,Electronics,4800000,306
+Port Harcourt,Q4,Fashion,5700000,469
+Port Harcourt,Q4,Groceries,3500000,435
+Port Harcourt,Q4,Home & Kitchen,1500000,265
+Ibadan,Q1,Electronics,1600000,407
+Ibadan,Q1,Fashion,1000000,346
+Ibadan,Q1,Groceries,3400000,217
+Ibadan,Q1,Home & Kitchen,5600000,586
+Ibadan,Q2,Electronics,4000000,628
+Ibadan,Q2,Fashion,2300000,477
+Ibadan,Q2,Groceries,2000000,118
+Ibadan,Q2,Home & Kitchen,3900000,539
+Ibadan,Q3,Electronics,1600000,86
+Ibadan,Q3,Fashion,1800000,510
+Ibadan,Q3,Groceries,1900000,453
+Ibadan,Q3,Home & Kitchen,2300000,578
+Ibadan,Q4,Electronics,3500000,394
+Ibadan,Q4,Fashion,2200000,430
+Ibadan,Q4,Groceries,4400000,592
+Ibadan,Q4,Home & Kitchen,4200000,276
+Kano,Q1,Electronics,2200000,138
+Kano,Q1,Fashion,2400000,685
+Kano,Q1,Groceries,4700000,657
+Kano,Q1,Home & Kitchen,2700000,278
+Kano,Q2,Electronics,3800000,202
+Kano,Q2,Fashion,1300000,599
+Kano,Q2,Groceries,3500000,473
+Kano,Q2,Home & Kitchen,1800000,500
+Kano,Q3,Electronics,4200000,364
+Kano,Q3,Fashion,2700000,428
+Kano,Q3,Groceries,2500000,538
+Kano,Q3,Home & Kitchen,2500000,329
+Kano,Q4,Electronics,2500000,308
+Kano,Q4,Fashion,3900000,192
+Kano,Q4,Groceries,4000000,550
+Kano,Q4,Home & Kitchen,5500000,234
+Enugu,Q1,Electronics,2500000,90
+Enugu,Q1,Fashion,4400000,696
+Enugu,Q1,Groceries,2300000,484
+Enugu,Q1,Home & Kitchen,1700000,96
+Enugu,Q2,Electronics,5300000,70
+Enugu,Q2,Fashion,900000,57
+Enugu,Q2,Groceries,4300000,451
+Enugu,Q2,Home & Kitchen,3200000,249
+Enugu,Q3,Electronics,2100000,569
+Enugu,Q3,Fashion,4800000,696
+Enugu,Q3,Groceries,5700000,62
+Enugu,Q3,Home & Kitchen,3100000,57
+Enugu,Q4,Electronics,1800000,115
+Enugu,Q4,Fashion,1600000,145
+Enugu,Q4,Groceries,1700000,253
+Enugu,Q4,Home & Kitchen,2600000,106

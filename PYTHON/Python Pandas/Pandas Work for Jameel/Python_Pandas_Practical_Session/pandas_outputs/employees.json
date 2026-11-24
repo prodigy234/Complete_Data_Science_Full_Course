@@ -1,0 +1,29 @@
+[
+  {
+    "employee_id":"00001",
+    "name":"Emeka Igwe",
+    "department":"Marketing",
+    "city":"Lagos",
+    "salary":96600.0,
+    "salary_band":"High",
+    "hire_date":"2014-10-29T00:00:00.000"
+  },
+  {
+    "employee_id":"00002",
+    "name":"Amaka Ibrahim",
+    "department":"Finance",
+    "city":"Kano",
+    "salary":137100.0,
+    "salary_band":"High",
+    "hire_date":"2025-07-15T00:00:00.000"
+  },
+  {
+    "employee_id":"00003",
+    "name":"Aisha Bello",
+    "department":"Marketing",
+    "city":"Ibadan",
+    "salary":140600.0,
+    "salary_band":"High",
+    "hire_date":"2020-07-03T00:00:00.000"
+  }
+]

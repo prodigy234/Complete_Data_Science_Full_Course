@@ -1,0 +1,4 @@
+employee_id,hire_date,department_cat,is_manager,salary
+00001,2014-10-29,Marketing,False,96600.0
+00002,2025-07-15,Finance,False,137100.0
+00003,2020-07-03,Marketing,True,140600.0

@@ -1,0 +1,23 @@
+ProjectID,ProjectName,EmployeeID,DepartmentID,Budget,StartDate,Status,Priority
+1001,Financial Reporting Automation,101,100,85000,2026-01-05,Completed,High
+1002,Payroll System Upgrade,102,200,60000,2026-01-12,In Progress,High
+1003,Cloud Migration,103,300,150000,2026-01-20,In Progress,Critical
+1004,Budget Control Dashboard,104,100,90000,2026-02-03,Completed,Medium
+1005,CRM Implementation,105,500,180000,2026-02-10,In Progress,Critical
+1006,Digital Marketing Campaign,106,400,75000,2026-02-18,Completed,Medium
+1007,Cybersecurity Upgrade,107,300,130000,2026-02-25,In Progress,Critical
+1008,Recruitment Portal,108,200,55000,2026-03-05,Planned,Medium
+1009,Sales Analytics Dashboard,109,500,110000,2026-03-12,Completed,High
+1010,Brand Awareness Campaign,110,400,70000,2026-03-20,In Progress,Medium
+1011,Sales Forecasting Model,111,500,95000,2026-04-02,Planned,High
+1012,Financial Audit System,112,100,125000,2026-04-10,In Progress,High
+1013,Employee Training Platform,102,200,65000,2026-04-18,Completed,Medium
+1014,Data Warehouse Project,103,300,200000,2026-05-03,In Progress,Critical
+1015,Customer Retention Campaign,105,500,85000,2026-05-15,Planned,High
+1016,IT Service Desk Upgrade,107,300,100000,2026-05-22,Completed,High
+1017,Market Research Study,106,400,50000,2026-06-05,Planned,Low
+1018,Expense Management System,101,100,95000,2026-06-12,In Progress,High
+1019,Product Launch Campaign,110,400,120000,2026-06-20,Planned,Critical
+1020,Sales Performance Review,109,500,80000,2026-07-02,Completed,Medium
+1021,Employee Engagement Survey,,,45000,2026-07-10,Planned,Low
+1022,Operations Process Review,,600,90000,2026-07-18,Planned,Medium

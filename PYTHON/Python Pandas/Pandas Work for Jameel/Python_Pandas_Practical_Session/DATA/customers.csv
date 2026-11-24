@@ -1,0 +1,901 @@
+customer_id,customer_name,signup_date,segment,city
+C0001,Rotimi Chukwu,2025-02-08,Corporate,Abuja
+C0002,Ifeanyi Aliyu,2024-12-04,SME,Enugu
+C0003,Emeka Obi,2023-03-07,Retail,Enugu
+C0004,Femi Nnamdi,2023-12-08,Retail,Port Harcourt
+C0005,Tunde Ogundipe,2023-03-02,SME,Lagos
+C0006,Adaeze Ekwueme,2024-03-30,SME,Port Harcourt
+C0007,Bisi Ibrahim,2024-02-20,SME,Lagos
+C0008,Nneka Adewale,2025-04-06,Retail,Ibadan
+C0009,Ibrahim Anyanwu,2024-10-09,Retail,Abuja
+C0010,Kunle Bello,2025-03-21,Retail,Lagos
+C0011,Emeka Anyanwu,2025-04-08,Retail,Lagos
+C0012,Kemi Adebayo,2025-01-20,Corporate,Lagos
+C0013,Funke Adebayo,2023-12-31,Corporate,Ibadan
+C0014,Emeka Ojo,2024-09-03,Retail,Port Harcourt
+C0015,Chinedu Ezeh,2023-07-08,SME,Enugu
+C0016,Temitope Oladipo,2024-11-15,SME,Ibadan
+C0017,Chika Ogundipe,2025-05-28,SME,Port Harcourt
+C0018,Nneka Ekwueme,2023-06-18,Retail,Enugu
+C0019,Emeka Okeke,2023-01-01,Corporate,Ibadan
+C0020,Uche Ibrahim,2023-05-13,Retail,Ibadan
+C0021,Dayo Idowu,2025-06-17,Retail,Enugu
+C0022,Dayo Afolabi,2023-10-23,SME,Abuja
+C0023,Adaeze Umar,2025-05-29,Retail,Lagos
+C0024,Emeka Umar,2023-04-23,SME,Ibadan
+C0025,Dayo Nwosu,2024-12-12,Retail,Lagos
+C0026,Emeka Ogunleye,2024-11-27,Retail,Enugu
+C0027,Zainab Balogun,2024-10-14,Retail,Enugu
+C0028,Uche Onuoha,2024-05-24,Retail,Ibadan
+C0029,Bisi Ajayi,2024-09-14,Retail,Lagos
+C0030,Abdul Danjuma,2024-08-24,Retail,Ibadan
+C0031,Temitope Olawale,2024-12-08,Corporate,Port Harcourt
+C0032,Rotimi Obi,2024-03-11,SME,Ibadan
+C0033,Abdul Yusuf,2024-08-30,Retail,Enugu
+C0034,Amaka Ogunleye,2024-02-18,Retail,Enugu
+C0035,Funke Ajayi,2024-08-15,Retail,Abuja
+C0036,Kemi Chukwu,2024-02-20,Retail,Port Harcourt
+C0037,Damilola Afolabi,2024-12-11,Corporate,Enugu
+C0038,Folake Eze,2025-09-13,Corporate,Abuja
+C0039,Bisi Olawale,2024-04-15,Retail,Kano
+C0040,Kunle Olawale,2024-05-28,Retail,Lagos
+C0041,Damilola Igwe,2025-07-12,Corporate,Abuja
+C0042,Tunde Adeyemi,2024-06-22,Retail,Kano
+C0043,Sadiq Adeyemi,2024-07-16,SME,Abuja
+C0044,Zainab Aliyu,2023-01-29,Retail,Ibadan
+C0045,Nneka Abubakar,2025-09-14,Retail,Enugu
+C0046,Chika Ajayi,2024-11-18,Retail,Abuja
+C0047,Aisha Okeke,2025-05-13,Retail,Port Harcourt
+C0048,Chioma Bello,2024-08-06,Retail,Lagos
+C0049,Dayo Adebayo,2024-08-13,Corporate,Abuja
+C0050,Aisha Anyanwu,2023-03-18,Retail,Enugu
+C0051,Aisha Chukwu,2024-04-11,Retail,Abuja
+C0052,Kunle Ajayi,2025-06-05,Retail,Kano
+C0053,Bisi Nwosu,2023-06-03,Retail,Ibadan
+C0054,Ruth Olawale,2023-10-07,Retail,Ibadan
+C0055,Chinedu Aliyu,2024-09-28,Retail,Kano
+C0056,Tobi Garba,2024-12-01,Retail,Port Harcourt
+C0057,Ebere Salami,2025-06-03,Retail,Lagos
+C0058,Temitope Ezeh,2024-08-16,Retail,Lagos
+C0059,Tobi Igwe,2023-01-29,Retail,Kano
+C0060,Dayo Adewale,2025-09-11,Retail,Port Harcourt
+C0061,Bisi Ezeh,2025-05-22,Retail,Kano
+C0062,Halima Ogundipe,2025-04-19,SME,Lagos
+C0063,Ebere Akinola,2024-12-17,Retail,Enugu
+C0064,Segun Oladipo,2025-05-26,Corporate,Lagos
+C0065,Abdul Salami,2025-09-12,Retail,Lagos
+C0066,Damilola Okafor,2023-07-04,Retail,Kano
+C0067,Sadiq Nnamdi,2023-11-27,SME,Enugu
+C0068,Bayo Okonkwo,2025-01-07,SME,Abuja
+C0069,Temitope Afolabi,2024-02-12,Retail,Ibadan
+C0070,Nneka Nwosu,2025-06-23,Retail,Lagos
+C0071,Tunde Ibrahim,2023-02-04,SME,Ibadan
+C0072,Ruth Nwosu,2025-09-11,Retail,Lagos
+C0073,Kelechi Abubakar,2023-07-04,Retail,Lagos
+C0074,Femi Balogun,2025-02-09,Retail,Abuja
+C0075,Chinedu Adebayo,2025-01-18,Retail,Abuja
+C0076,Musa Ojo,2023-07-11,SME,Kano
+C0077,Segun Fashola,2024-02-11,Retail,Ibadan
+C0078,Ruth Adeyemi,2024-06-01,Retail,Port Harcourt
+C0079,Ruth Ezeh,2024-07-13,SME,Kano
+C0080,Femi Ogundipe,2023-02-28,SME,Port Harcourt
+C0081,Uche Onuoha,2025-07-25,Retail,Lagos
+C0082,Chika Okonkwo,2024-08-19,SME,Port Harcourt
+C0083,Musa Nwosu,2025-07-29,Retail,Abuja
+C0084,Funke Onuoha,2023-03-04,Retail,Abuja
+C0085,Aisha Yusuf,2024-01-30,Retail,Port Harcourt
+C0086,Yetunde Idowu,2024-02-09,SME,Ibadan
+C0087,Amaka Abubakar,2023-09-07,Retail,Port Harcourt
+C0088,Amaka Suleiman,2024-08-30,Retail,Kano
+C0089,Bayo Ezeh,2025-01-20,SME,Lagos
+C0090,Gift Okafor,2025-02-08,Retail,Lagos
+C0091,Ebere Ojo,2024-09-09,Retail,Port Harcourt
+C0092,Emeka Onuoha,2023-02-08,Retail,Abuja
+C0093,Adaeze Okonkwo,2024-09-26,Retail,Port Harcourt
+C0094,Emeka Abubakar,2023-04-08,Retail,Lagos
+C0095,Bisi Ojo,2024-04-30,Retail,Abuja
+C0096,Chinedu Adeyemi,2023-04-27,SME,Port Harcourt
+C0097,Kunle Idowu,2023-01-27,Retail,Lagos
+C0098,Emeka Salami,2023-05-28,Retail,Ibadan
+C0099,Ngozi Nwosu,2025-05-25,Retail,Ibadan
+C0100,Kemi Mohammed,2023-01-08,Retail,Port Harcourt
+C0101,Temitope Idowu,2023-12-25,Retail,Abuja
+C0102,Sadiq Garba,2024-02-18,Retail,Kano
+C0103,Tobi Chukwu,2023-07-31,Retail,Ibadan
+C0104,Hauwa Sanni,2024-01-15,Retail,Port Harcourt
+C0105,Yetunde Olawale,2023-01-03,SME,Enugu
+C0106,Amaka Mohammed,2023-02-28,SME,Ibadan
+C0107,Mariam Chukwu,2023-01-21,Retail,Enugu
+C0108,Lanre Obi,2025-03-06,Retail,Kano
+C0109,Adaeze Okonkwo,2023-09-04,Retail,Lagos
+C0110,Dayo Eze,2025-01-15,Corporate,Ibadan
+C0111,Gift Umar,2023-04-30,Retail,Enugu
+C0112,Folake Okafor,2024-06-23,Retail,Lagos
+C0113,Ngozi Idowu,2024-09-24,Retail,Kano
+C0114,Yetunde Igwe,2023-03-30,SME,Lagos
+C0115,Uche Eze,2024-06-10,Retail,Lagos
+C0116,Kelechi Ogundipe,2025-06-27,Retail,Abuja
+C0117,Funke Ogundipe,2025-02-05,Corporate,Enugu
+C0118,Kunle Bello,2023-10-18,Retail,Lagos
+C0119,Zainab Adebayo,2024-03-03,SME,Lagos
+C0120,Tunde Eze,2024-04-26,Retail,Ibadan
+C0121,Femi Ajayi,2025-03-31,SME,Ibadan
+C0122,Emeka Eze,2024-10-07,Retail,Lagos
+C0123,Ngozi Balogun,2025-03-29,SME,Lagos
+C0124,Amaka Ekwueme,2024-01-27,Retail,Port Harcourt
+C0125,Musa Igwe,2024-08-14,Retail,Ibadan
+C0126,Ifeanyi Ojo,2024-02-12,Retail,Abuja
+C0127,Segun Chukwu,2025-04-06,Retail,Ibadan
+C0128,Zainab Ibrahim,2024-08-21,Retail,Port Harcourt
+C0129,Adaeze Suleiman,2025-07-09,Retail,Kano
+C0130,Ifeanyi Akinola,2023-05-22,Corporate,Ibadan
+C0131,Ruth Mohammed,2024-08-04,SME,Abuja
+C0132,Chinedu Suleiman,2024-05-09,Retail,Ibadan
+C0133,Amaka Chukwu,2024-11-20,Retail,Ibadan
+C0134,Temitope Balogun,2024-02-01,SME,Abuja
+C0135,Musa Akinola,2023-01-16,Retail,Abuja
+C0136,Bayo Adewale,2023-11-16,Retail,Enugu
+C0137,Tunde Oladipo,2024-02-06,Retail,Port Harcourt
+C0138,Bisi Umar,2023-07-08,Retail,Ibadan
+C0139,Kemi Bello,2025-02-13,Corporate,Kano
+C0140,Obinna Eze,2023-12-31,Retail,Abuja
+C0141,Abdul Idowu,2023-06-27,Retail,Port Harcourt
+C0142,Kunle Garba,2024-06-03,Retail,Port Harcourt
+C0143,Musa Balogun,2024-11-03,Retail,Abuja
+C0144,Ifeanyi Ogunleye,2024-05-30,Retail,Enugu
+C0145,Nneka Okonkwo,2023-04-22,SME,Kano
+C0146,Aisha Afolabi,2024-01-07,Corporate,Enugu
+C0147,Hauwa Ezeh,2023-10-06,SME,Lagos
+C0148,Bisi Lawal,2023-05-26,Retail,Ibadan
+C0149,Bisi Adewale,2023-11-29,Retail,Enugu
+C0150,Hauwa Lawal,2025-02-25,Retail,Enugu
+C0151,Mariam Ogundipe,2024-10-14,SME,Enugu
+C0152,Ifeanyi Ekwueme,2023-03-23,Retail,Kano
+C0153,Tunde Oladipo,2024-04-26,Retail,Lagos
+C0154,Damilola Oladipo,2025-02-24,Retail,Abuja
+C0155,Damilola Chukwu,2024-08-22,Retail,Kano
+C0156,Emeka Ajayi,2024-03-21,Retail,Port Harcourt
+C0157,Temitope Adeyemi,2025-03-13,Retail,Lagos
+C0158,Nneka Mohammed,2023-12-24,Retail,Abuja
+C0159,Yetunde Akinola,2025-04-08,Retail,Port Harcourt
+C0160,Kemi Okonkwo,2025-09-09,Retail,Ibadan
+C0161,Emeka Danjuma,2025-04-15,Retail,Enugu
+C0162,Femi Fashola,2025-08-16,Retail,Ibadan
+C0163,Aisha Ibrahim,2024-05-13,Retail,Port Harcourt
+C0164,Uche Igwe,2023-05-20,Retail,Enugu
+C0165,Folake Abubakar,2025-07-03,SME,Enugu
+C0166,Ruth Onuoha,2025-03-13,Retail,Enugu
+C0167,Tobi Lawal,2023-01-25,Retail,Ibadan
+C0168,Gift Oladipo,2024-03-18,Retail,Abuja
+C0169,Ngozi Obi,2024-07-17,Retail,Abuja
+C0170,Musa Suleiman,2025-07-09,Retail,Abuja
+C0171,Lanre Garba,2024-02-09,Retail,Abuja
+C0172,Chioma Onuoha,2025-01-09,Retail,Kano
+C0173,Tobi Umar,2023-12-17,SME,Abuja
+C0174,Temitope Nwosu,2024-05-03,Retail,Kano
+C0175,Ruth Anyanwu,2025-07-06,Retail,Port Harcourt
+C0176,Halima Afolabi,2024-04-30,SME,Lagos
+C0177,Amaka Mohammed,2023-08-21,SME,Abuja
+C0178,Halima Obi,2024-09-06,Corporate,Lagos
+C0179,Rotimi Igwe,2024-01-10,Retail,Lagos
+C0180,Abdul Igwe,2023-06-06,Retail,Enugu
+C0181,Bayo Umar,2023-06-12,Retail,Enugu
+C0182,Gift Anyanwu,2023-03-27,Retail,Ibadan
+C0183,Chioma Danjuma,2025-05-14,Corporate,Lagos
+C0184,Femi Danjuma,2025-03-18,Retail,Enugu
+C0185,Sadiq Idowu,2025-07-31,Retail,Ibadan
+C0186,Damilola Ogundipe,2024-12-21,Corporate,Ibadan
+C0187,Nneka Ojo,2024-04-21,Retail,Abuja
+C0188,Emeka Afolabi,2025-02-19,Retail,Abuja
+C0189,Bayo Obi,2023-12-08,SME,Lagos
+C0190,Bisi Okonkwo,2024-12-29,Retail,Ibadan
+C0191,Nneka Suleiman,2024-01-31,Retail,Abuja
+C0192,Nneka Anyanwu,2025-06-12,Retail,Port Harcourt
+C0193,Musa Igwe,2024-05-12,Retail,Port Harcourt
+C0194,Adaeze Ojo,2025-05-26,Retail,Lagos
+C0195,Ifeanyi Onuoha,2024-08-10,Retail,Ibadan
+C0196,Kemi Ojo,2023-09-18,Retail,Lagos
+C0197,Chioma Onuoha,2024-11-08,Retail,Port Harcourt
+C0198,Lanre Mohammed,2024-05-09,Retail,Ibadan
+C0199,Emeka Nwosu,2024-07-06,SME,Port Harcourt
+C0200,Abdul Adeyemi,2025-07-03,Retail,Abuja
+C0201,Bayo Garba,2024-01-02,Retail,Kano
+C0202,Uche Bello,2024-05-05,Retail,Abuja
+C0203,Yetunde Nwosu,2024-05-19,Retail,Ibadan
+C0204,Zainab Salami,2025-04-18,Retail,Port Harcourt
+C0205,Chioma Ojo,2025-02-06,Retail,Port Harcourt
+C0206,Folake Balogun,2024-04-27,SME,Abuja
+C0207,Damilola Ajayi,2024-02-23,Retail,Ibadan
+C0208,Folake Ogunleye,2023-05-01,Retail,Ibadan
+C0209,Yetunde Obi,2023-09-12,Retail,Ibadan
+C0210,Gift Lawal,2024-11-11,Corporate,Ibadan
+C0211,Ebere Okeke,2024-01-17,Corporate,Lagos
+C0212,Abdul Salami,2024-05-05,SME,Lagos
+C0213,Damilola Akinola,2024-05-18,Corporate,Abuja
+C0214,Temitope Ezeh,2024-10-08,SME,Ibadan
+C0215,Kelechi Okeke,2025-06-26,SME,Abuja
+C0216,Abdul Obi,2024-09-20,Corporate,Abuja
+C0217,Halima Olawale,2024-05-12,SME,Lagos
+C0218,Aisha Ajayi,2023-03-07,Retail,Enugu
+C0219,Tunde Onuoha,2024-03-26,Retail,Ibadan
+C0220,Tunde Yusuf,2023-07-31,Retail,Ibadan
+C0221,Amaka Mohammed,2023-07-25,Retail,Enugu
+C0222,Halima Akinola,2024-08-23,Retail,Abuja
+C0223,Yetunde Nwosu,2025-03-05,Retail,Kano
+C0224,Funke Yusuf,2024-01-31,Corporate,Lagos
+C0225,Abdul Akinola,2024-02-07,Retail,Enugu
+C0226,Amaka Ogundipe,2023-09-30,Retail,Lagos
+C0227,Hauwa Lawal,2024-11-10,Retail,Port Harcourt
+C0228,Bayo Anyanwu,2025-09-20,Retail,Lagos
+C0229,Femi Garba,2025-08-10,Retail,Abuja
+C0230,Mariam Yusuf,2023-04-14,Retail,Kano
+C0231,Ebere Lawal,2025-02-27,Retail,Ibadan
+C0232,Uche Okonkwo,2024-09-15,Retail,Abuja
+C0233,Musa Garba,2023-01-30,Retail,Kano
+C0234,Damilola Chukwu,2024-10-15,Retail,Port Harcourt
+C0235,Ebere Ogundipe,2023-08-09,Retail,Kano
+C0236,Abdul Nnamdi,2025-09-16,SME,Port Harcourt
+C0237,Damilola Yusuf,2024-01-08,Corporate,Kano
+C0238,Chioma Obi,2023-12-06,Retail,Lagos
+C0239,Abdul Mohammed,2025-06-05,Corporate,Abuja
+C0240,Ibrahim Okeke,2024-10-18,Retail,Ibadan
+C0241,Kemi Oladipo,2023-10-31,Retail,Ibadan
+C0242,Kunle Okonkwo,2025-08-15,Retail,Ibadan
+C0243,Mariam Ibrahim,2024-01-06,SME,Enugu
+C0244,Aisha Eze,2023-02-08,Retail,Port Harcourt
+C0245,Mariam Ezeh,2025-04-07,Retail,Port Harcourt
+C0246,Halima Ajayi,2024-04-15,Retail,Enugu
+C0247,Obinna Okeke,2025-04-12,Retail,Lagos
+C0248,Kelechi Fashola,2024-03-02,Retail,Kano
+C0249,Lanre Idowu,2025-03-11,Retail,Port Harcourt
+C0250,Kelechi Okafor,2023-12-11,Retail,Kano
+C0251,Chika Nnamdi,2024-07-05,Retail,Port Harcourt
+C0252,Chioma Idowu,2023-07-18,Retail,Port Harcourt
+C0253,Tunde Igwe,2024-12-22,SME,Port Harcourt
+C0254,Ebere Okonkwo,2023-09-28,Retail,Abuja
+C0255,Dayo Afolabi,2024-03-10,SME,Ibadan
+C0256,Ibrahim Okeke,2023-07-03,SME,Lagos
+C0257,Sadiq Danjuma,2024-10-27,Corporate,Abuja
+C0258,Halima Suleiman,2025-04-22,Retail,Port Harcourt
+C0259,Funke Adeyemi,2024-06-03,Retail,Kano
+C0260,Sadiq Okonkwo,2023-07-24,SME,Enugu
+C0261,Rotimi Garba,2024-04-04,Retail,Ibadan
+C0262,Emeka Bello,2024-06-18,Retail,Ibadan
+C0263,Ruth Olawale,2023-05-08,Corporate,Port Harcourt
+C0264,Chioma Ogunleye,2025-01-07,SME,Lagos
+C0265,Folake Ogundipe,2024-10-30,Retail,Kano
+C0266,Femi Adeyemi,2023-03-28,Retail,Kano
+C0267,Tunde Akinola,2023-12-11,SME,Abuja
+C0268,Uche Chukwu,2023-07-14,SME,Abuja
+C0269,Nneka Afolabi,2023-04-24,Retail,Port Harcourt
+C0270,Segun Akinola,2024-06-14,SME,Enugu
+C0271,Emeka Okafor,2024-08-14,SME,Port Harcourt
+C0272,Nneka Akinola,2024-03-07,Corporate,Ibadan
+C0273,Mariam Okafor,2024-10-03,Retail,Lagos
+C0274,Emeka Okonkwo,2023-01-20,Retail,Ibadan
+C0275,Folake Idowu,2024-07-26,Retail,Ibadan
+C0276,Ruth Onuoha,2024-03-20,SME,Lagos
+C0277,Ifeanyi Okeke,2025-02-11,Retail,Lagos
+C0278,Dayo Ibrahim,2023-05-27,Retail,Port Harcourt
+C0279,Dayo Ojo,2025-04-30,Retail,Abuja
+C0280,Ruth Ibrahim,2023-04-15,Retail,Port Harcourt
+C0281,Halima Mohammed,2025-05-02,Retail,Lagos
+C0282,Funke Obi,2023-09-06,Retail,Abuja
+C0283,Chinedu Eze,2025-01-21,Retail,Lagos
+C0284,Bisi Bello,2025-07-11,SME,Kano
+C0285,Chika Igwe,2023-12-02,Retail,Port Harcourt
+C0286,Lanre Nwosu,2024-03-04,Corporate,Enugu
+C0287,Folake Salami,2023-05-27,SME,Port Harcourt
+C0288,Kelechi Anyanwu,2024-09-11,Retail,Lagos
+C0289,Halima Aliyu,2024-03-19,SME,Lagos
+C0290,Ngozi Ojo,2024-09-25,SME,Enugu
+C0291,Femi Abubakar,2023-11-26,SME,Enugu
+C0292,Obinna Onuoha,2025-03-27,Retail,Ibadan
+C0293,Uche Bello,2025-05-14,Retail,Kano
+C0294,Rotimi Chukwu,2023-09-16,Retail,Ibadan
+C0295,Bayo Salami,2025-04-20,Corporate,Port Harcourt
+C0296,Musa Okeke,2023-11-19,Retail,Kano
+C0297,Bayo Balogun,2023-05-12,Retail,Kano
+C0298,Musa Eze,2025-04-19,SME,Kano
+C0299,Bayo Ogundipe,2024-03-12,Retail,Kano
+C0300,Halima Obi,2024-12-04,Retail,Port Harcourt
+C0301,Chika Okeke,2024-08-30,Retail,Port Harcourt
+C0302,Dayo Danjuma,2024-10-09,SME,Lagos
+C0303,Dayo Lawal,2025-01-03,Retail,Lagos
+C0304,Bisi Ogunleye,2024-07-15,Retail,Abuja
+C0305,Lanre Eze,2023-03-22,Retail,Abuja
+C0306,Damilola Adeyemi,2024-12-07,SME,Lagos
+C0307,Uche Salami,2025-02-09,Retail,Enugu
+C0308,Funke Nnamdi,2025-02-23,Retail,Lagos
+C0309,Lanre Lawal,2025-09-16,Retail,Enugu
+C0310,Gift Ezeh,2025-03-02,Retail,Ibadan
+C0311,Zainab Mohammed,2024-12-11,Retail,Abuja
+C0312,Uche Igwe,2025-09-24,Corporate,Kano
+C0313,Chika Ogunleye,2023-02-15,Retail,Ibadan
+C0314,Funke Anyanwu,2025-07-06,Corporate,Lagos
+C0315,Chinedu Ekwueme,2023-10-12,SME,Ibadan
+C0316,Chika Obi,2023-09-11,Retail,Ibadan
+C0317,Ebere Adebayo,2023-09-11,Retail,Enugu
+C0318,Rotimi Ekwueme,2025-03-16,Retail,Kano
+C0319,Amaka Eze,2024-03-07,Retail,Lagos
+C0320,Uche Igwe,2023-10-06,Retail,Abuja
+C0321,Chika Nnamdi,2025-06-05,Corporate,Ibadan
+C0322,Gift Ibrahim,2023-02-14,Retail,Enugu
+C0323,Damilola Mohammed,2023-05-17,SME,Kano
+C0324,Halima Oladipo,2024-11-24,Retail,Lagos
+C0325,Yetunde Ogundipe,2024-10-07,Retail,Lagos
+C0326,Emeka Okafor,2025-06-18,SME,Ibadan
+C0327,Hauwa Umar,2024-04-06,Retail,Port Harcourt
+C0328,Chika Nwosu,2024-12-29,Retail,Port Harcourt
+C0329,Ifeanyi Lawal,2024-04-12,SME,Kano
+C0330,Abdul Sanni,2025-03-03,Corporate,Kano
+C0331,Segun Ogunleye,2024-04-10,Retail,Enugu
+C0332,Kelechi Akinola,2024-05-09,SME,Ibadan
+C0333,Nneka Idowu,2024-06-27,Retail,Kano
+C0334,Chinedu Mohammed,2024-06-18,SME,Enugu
+C0335,Aisha Okonkwo,2023-07-28,SME,Ibadan
+C0336,Ibrahim Idowu,2023-06-16,SME,Enugu
+C0337,Uche Afolabi,2024-01-13,Retail,Abuja
+C0338,Folake Okafor,2025-09-07,Retail,Lagos
+C0339,Aisha Adeyemi,2023-05-23,SME,Kano
+C0340,Bayo Okonkwo,2025-09-02,Retail,Kano
+C0341,Ruth Afolabi,2023-09-01,SME,Abuja
+C0342,Ruth Nnamdi,2025-08-10,Retail,Ibadan
+C0343,Rotimi Mohammed,2023-12-14,Retail,Port Harcourt
+C0344,Halima Danjuma,2023-09-29,SME,Ibadan
+C0345,Chika Okafor,2023-05-06,SME,Ibadan
+C0346,Adaeze Nnamdi,2024-04-10,Retail,Port Harcourt
+C0347,Damilola Akinola,2024-10-04,Retail,Abuja
+C0348,Abdul Okonkwo,2023-05-14,Retail,Enugu
+C0349,Folake Nnamdi,2023-08-20,Retail,Port Harcourt
+C0350,Adaeze Abubakar,2023-07-11,Retail,Enugu
+C0351,Uche Ekwueme,2025-07-14,Retail,Lagos
+C0352,Nneka Adeyemi,2024-06-26,SME,Kano
+C0353,Uche Chukwu,2023-10-22,Retail,Abuja
+C0354,Ebere Abubakar,2024-05-23,Retail,Lagos
+C0355,Temitope Adebayo,2023-07-31,Retail,Ibadan
+C0356,Halima Bello,2023-02-17,Retail,Kano
+C0357,Damilola Anyanwu,2023-07-15,Retail,Ibadan
+C0358,Ebere Umar,2024-10-23,Retail,Abuja
+C0359,Musa Umar,2024-06-01,SME,Kano
+C0360,Musa Adebayo,2024-07-05,Retail,Ibadan
+C0361,Rotimi Oladipo,2023-01-16,Retail,Abuja
+C0362,Tobi Bello,2025-01-02,Retail,Kano
+C0363,Yetunde Ogunleye,2025-08-21,Retail,Kano
+C0364,Tunde Adewale,2024-02-28,Corporate,Ibadan
+C0365,Nneka Sanni,2023-03-06,SME,Port Harcourt
+C0366,Ngozi Olawale,2023-06-07,SME,Port Harcourt
+C0367,Hauwa Ajayi,2024-03-01,SME,Abuja
+C0368,Abdul Aliyu,2024-07-04,SME,Port Harcourt
+C0369,Hauwa Okonkwo,2023-10-30,SME,Abuja
+C0370,Segun Nnamdi,2024-07-26,Retail,Lagos
+C0371,Chinedu Ogundipe,2024-05-30,SME,Ibadan
+C0372,Tobi Lawal,2024-04-25,Corporate,Abuja
+C0373,Amaka Nnamdi,2024-08-16,SME,Kano
+C0374,Ifeanyi Chukwu,2023-01-02,Retail,Lagos
+C0375,Bisi Ogundipe,2023-09-02,Retail,Port Harcourt
+C0376,Sadiq Okafor,2023-03-22,Retail,Abuja
+C0377,Ruth Abubakar,2023-03-21,Retail,Port Harcourt
+C0378,Sadiq Ibrahim,2024-01-11,Retail,Enugu
+C0379,Temitope Obi,2023-04-07,Corporate,Abuja
+C0380,Uche Sanni,2023-01-02,Retail,Lagos
+C0381,Chinedu Adewale,2023-04-28,SME,Enugu
+C0382,Femi Balogun,2025-03-11,SME,Enugu
+C0383,Segun Ojo,2023-06-21,SME,Lagos
+C0384,Segun Abubakar,2025-09-24,Retail,Ibadan
+C0385,Ifeanyi Oladipo,2024-02-16,Retail,Ibadan
+C0386,Bisi Olawale,2025-07-23,SME,Kano
+C0387,Chioma Garba,2023-03-19,Retail,Port Harcourt
+C0388,Yetunde Lawal,2025-02-27,SME,Abuja
+C0389,Gift Akinola,2024-03-16,Retail,Kano
+C0390,Bayo Fashola,2025-04-27,Retail,Abuja
+C0391,Nneka Idowu,2025-09-09,Retail,Ibadan
+C0392,Nneka Salami,2023-01-15,Retail,Port Harcourt
+C0393,Zainab Igwe,2023-05-25,SME,Lagos
+C0394,Uche Garba,2023-11-23,SME,Ibadan
+C0395,Funke Nwosu,2024-04-10,Retail,Kano
+C0396,Bisi Obi,2024-04-02,Retail,Ibadan
+C0397,Damilola Sanni,2024-09-07,Retail,Ibadan
+C0398,Femi Suleiman,2024-04-12,Retail,Ibadan
+C0399,Dayo Aliyu,2024-07-14,SME,Kano
+C0400,Dayo Igwe,2023-02-23,Retail,Enugu
+C0401,Damilola Ekwueme,2024-08-10,Retail,Port Harcourt
+C0402,Ifeanyi Balogun,2025-04-21,Corporate,Lagos
+C0403,Obinna Bello,2023-11-01,Retail,Ibadan
+C0404,Tunde Okeke,2025-02-19,Retail,Kano
+C0405,Ifeanyi Ojo,2023-03-03,Retail,Kano
+C0406,Musa Suleiman,2023-08-30,Retail,Kano
+C0407,Femi Yusuf,2024-06-08,Retail,Kano
+C0408,Aisha Bello,2023-10-15,Retail,Enugu
+C0409,Kunle Adewale,2025-03-08,Retail,Kano
+C0410,Damilola Ajayi,2023-11-16,Retail,Lagos
+C0411,Uche Idowu,2025-02-08,Retail,Lagos
+C0412,Rotimi Onuoha,2023-05-07,SME,Lagos
+C0413,Lanre Okafor,2025-03-12,Retail,Kano
+C0414,Kemi Ezeh,2023-02-05,SME,Lagos
+C0415,Obinna Ibrahim,2025-02-19,Corporate,Port Harcourt
+C0416,Chika Ekwueme,2024-05-22,Retail,Abuja
+C0417,Segun Adebayo,2025-09-02,Retail,Abuja
+C0418,Gift Ogundipe,2023-04-14,SME,Kano
+C0419,Chinedu Aliyu,2023-09-26,Retail,Port Harcourt
+C0420,Ifeanyi Ezeh,2024-10-25,Retail,Abuja
+C0421,Abdul Oladipo,2024-09-20,Retail,Ibadan
+C0422,Rotimi Anyanwu,2023-01-27,Retail,Abuja
+C0423,Ruth Bello,2023-06-21,SME,Ibadan
+C0424,Nneka Ezeh,2023-11-19,Retail,Enugu
+C0425,Nneka Danjuma,2025-02-19,Retail,Abuja
+C0426,Funke Olawale,2023-11-13,SME,Lagos
+C0427,Tobi Suleiman,2023-09-21,Retail,Lagos
+C0428,Femi Danjuma,2023-01-14,Retail,Ibadan
+C0429,Damilola Bello,2023-07-23,SME,Ibadan
+C0430,Bisi Okeke,2023-12-01,Retail,Lagos
+C0431,Kemi Bello,2023-03-18,SME,Abuja
+C0432,Mariam Ogundipe,2024-08-02,Corporate,Ibadan
+C0433,Tunde Ezeh,2024-04-03,Corporate,Abuja
+C0434,Obinna Oladipo,2024-09-27,Retail,Enugu
+C0435,Gift Idowu,2024-05-22,Retail,Lagos
+C0436,Mariam Anyanwu,2024-11-15,Retail,Ibadan
+C0437,Kemi Salami,2025-04-16,Retail,Ibadan
+C0438,Tunde Ogunleye,2024-08-27,Retail,Kano
+C0439,Kemi Idowu,2025-05-20,Retail,Abuja
+C0440,Lanre Nwosu,2024-09-14,Retail,Abuja
+C0441,Ibrahim Ezeh,2025-01-20,Corporate,Ibadan
+C0442,Adaeze Danjuma,2025-06-01,SME,Kano
+C0443,Chinedu Salami,2025-03-01,Corporate,Enugu
+C0444,Chioma Fashola,2024-11-27,SME,Ibadan
+C0445,Musa Aliyu,2024-11-27,Retail,Lagos
+C0446,Aisha Bello,2023-04-23,Retail,Ibadan
+C0447,Kelechi Adewale,2025-09-01,Retail,Ibadan
+C0448,Tunde Umar,2025-01-01,SME,Port Harcourt
+C0449,Hauwa Ajayi,2024-05-16,Corporate,Kano
+C0450,Kelechi Aliyu,2025-05-19,Retail,Abuja
+C0451,Chinedu Garba,2024-09-09,Retail,Kano
+C0452,Bayo Garba,2023-10-13,SME,Ibadan
+C0453,Rotimi Danjuma,2025-07-26,Retail,Port Harcourt
+C0454,Femi Umar,2024-02-12,Retail,Port Harcourt
+C0455,Aisha Suleiman,2023-07-17,Retail,Ibadan
+C0456,Femi Abubakar,2023-12-25,SME,Ibadan
+C0457,Uche Okonkwo,2023-10-05,Corporate,Lagos
+C0458,Ifeanyi Adebayo,2025-02-11,Retail,Abuja
+C0459,Yetunde Fashola,2023-10-28,Retail,Ibadan
+C0460,Chinedu Adeyemi,2023-09-26,SME,Abuja
+C0461,Ngozi Obi,2024-11-03,Retail,Lagos
+C0462,Femi Eze,2024-01-25,Retail,Abuja
+C0463,Emeka Ibrahim,2024-06-19,Corporate,Abuja
+C0464,Kunle Abubakar,2023-01-06,Retail,Lagos
+C0465,Hauwa Olawale,2024-12-11,SME,Lagos
+C0466,Chioma Obi,2023-02-13,SME,Kano
+C0467,Hauwa Akinola,2025-08-01,Retail,Abuja
+C0468,Obinna Fashola,2024-06-16,Retail,Lagos
+C0469,Bayo Nnamdi,2024-12-18,Retail,Abuja
+C0470,Hauwa Ojo,2023-01-01,Retail,Abuja
+C0471,Uche Fashola,2024-06-01,Corporate,Ibadan
+C0472,Aisha Ekwueme,2024-11-13,SME,Ibadan
+C0473,Mariam Obi,2024-10-14,Retail,Lagos
+C0474,Folake Ezeh,2025-09-05,Retail,Kano
+C0475,Dayo Yusuf,2023-02-13,SME,Enugu
+C0476,Amaka Ojo,2023-06-05,Retail,Abuja
+C0477,Obinna Fashola,2025-03-20,Retail,Kano
+C0478,Hauwa Okeke,2023-04-21,SME,Kano
+C0479,Nneka Obi,2024-12-15,Retail,Port Harcourt
+C0480,Zainab Yusuf,2023-06-24,Retail,Kano
+C0481,Aisha Sanni,2024-02-04,Retail,Port Harcourt
+C0482,Ruth Fashola,2025-01-06,Retail,Ibadan
+C0483,Hauwa Oladipo,2024-10-13,Retail,Lagos
+C0484,Mariam Fashola,2024-08-21,Retail,Port Harcourt
+C0485,Musa Ogunleye,2024-12-20,Corporate,Lagos
+C0486,Tunde Okonkwo,2023-11-14,Retail,Enugu
+C0487,Temitope Ojo,2024-12-22,Retail,Kano
+C0488,Obinna Lawal,2023-10-03,Retail,Ibadan
+C0489,Halima Onuoha,2024-01-02,Retail,Lagos
+C0490,Rotimi Okafor,2024-01-07,Retail,Port Harcourt
+C0491,Mariam Suleiman,2025-07-30,SME,Enugu
+C0492,Mariam Idowu,2023-08-28,SME,Abuja
+C0493,Chinedu Sanni,2024-11-14,Retail,Ibadan
+C0494,Temitope Fashola,2023-01-19,SME,Port Harcourt
+C0495,Kelechi Ibrahim,2024-03-12,SME,Ibadan
+C0496,Tunde Lawal,2023-01-22,SME,Enugu
+C0497,Chika Akinola,2023-05-09,Retail,Abuja
+C0498,Bayo Akinola,2024-12-08,Retail,Lagos
+C0499,Ngozi Anyanwu,2025-01-20,SME,Abuja
+C0500,Femi Akinola,2023-01-26,Retail,Ibadan
+C0501,Halima Ojo,2024-06-21,Retail,Enugu
+C0502,Tunde Idowu,2025-02-04,Retail,Ibadan
+C0503,Ibrahim Bello,2023-07-07,Retail,Kano
+C0504,Emeka Idowu,2025-01-31,Retail,Enugu
+C0505,Ibrahim Ojo,2023-06-15,Retail,Ibadan
+C0506,Dayo Lawal,2023-06-22,Retail,Ibadan
+C0507,Zainab Afolabi,2023-02-25,Retail,Enugu
+C0508,Musa Nnamdi,2024-07-12,SME,Abuja
+C0509,Dayo Danjuma,2023-02-24,Corporate,Enugu
+C0510,Tobi Umar,2025-02-18,Retail,Abuja
+C0511,Gift Salami,2023-12-07,SME,Ibadan
+C0512,Ngozi Ekwueme,2023-02-17,SME,Port Harcourt
+C0513,Bayo Adebayo,2023-09-24,Retail,Ibadan
+C0514,Ngozi Chukwu,2025-09-08,Retail,Kano
+C0515,Obinna Ogundipe,2025-08-25,Retail,Lagos
+C0516,Aisha Ogunleye,2024-03-21,Corporate,Enugu
+C0517,Kelechi Salami,2024-11-06,SME,Lagos
+C0518,Hauwa Anyanwu,2024-09-16,Retail,Port Harcourt
+C0519,Bayo Ajayi,2025-02-09,Retail,Port Harcourt
+C0520,Tobi Garba,2024-04-29,Retail,Kano
+C0521,Emeka Oladipo,2024-04-09,Corporate,Kano
+C0522,Ruth Sanni,2024-06-24,Retail,Ibadan
+C0523,Ifeanyi Salami,2025-08-14,Retail,Ibadan
+C0524,Ebere Danjuma,2023-06-13,Retail,Abuja
+C0525,Kemi Umar,2025-06-19,SME,Kano
+C0526,Abdul Ogundipe,2025-07-12,SME,Enugu
+C0527,Lanre Ogundipe,2023-03-19,Retail,Enugu
+C0528,Temitope Ekwueme,2023-05-03,Retail,Port Harcourt
+C0529,Dayo Sanni,2024-11-15,SME,Kano
+C0530,Funke Nwosu,2025-04-15,SME,Lagos
+C0531,Ifeanyi Yusuf,2024-08-08,Retail,Port Harcourt
+C0532,Hauwa Afolabi,2023-05-17,SME,Abuja
+C0533,Chinedu Okeke,2023-09-07,Retail,Abuja
+C0534,Ebere Onuoha,2025-09-02,Retail,Port Harcourt
+C0535,Musa Umar,2025-08-07,Retail,Abuja
+C0536,Dayo Okeke,2023-12-11,Retail,Kano
+C0537,Ngozi Okeke,2025-08-19,Retail,Kano
+C0538,Aisha Nnamdi,2024-04-03,SME,Abuja
+C0539,Adaeze Ogunleye,2025-04-24,Retail,Port Harcourt
+C0540,Adaeze Ajayi,2025-01-30,Retail,Enugu
+C0541,Aisha Chukwu,2023-03-25,Retail,Ibadan
+C0542,Rotimi Mohammed,2025-06-22,Retail,Port Harcourt
+C0543,Musa Onuoha,2024-03-10,Retail,Lagos
+C0544,Nneka Danjuma,2023-08-01,Retail,Abuja
+C0545,Chika Eze,2023-11-03,Retail,Abuja
+C0546,Abdul Onuoha,2024-04-10,Retail,Kano
+C0547,Abdul Ogunleye,2023-05-29,SME,Lagos
+C0548,Chika Idowu,2024-02-15,Retail,Kano
+C0549,Ruth Lawal,2025-09-05,Retail,Port Harcourt
+C0550,Musa Garba,2023-01-06,Retail,Enugu
+C0551,Chioma Okafor,2025-07-14,Retail,Abuja
+C0552,Rotimi Ekwueme,2023-08-24,Retail,Kano
+C0553,Halima Ogundipe,2024-05-28,Retail,Lagos
+C0554,Chika Ogundipe,2024-12-23,Corporate,Abuja
+C0555,Femi Igwe,2025-08-14,Corporate,Port Harcourt
+C0556,Tunde Aliyu,2024-06-07,Retail,Kano
+C0557,Kelechi Ogundipe,2023-05-19,Retail,Kano
+C0558,Dayo Adewale,2024-10-01,Retail,Enugu
+C0559,Halima Okafor,2024-04-17,Retail,Abuja
+C0560,Tunde Adewale,2023-04-18,SME,Ibadan
+C0561,Lanre Suleiman,2023-12-06,Retail,Ibadan
+C0562,Sadiq Garba,2023-08-13,Retail,Kano
+C0563,Mariam Bello,2025-04-18,Retail,Kano
+C0564,Emeka Olawale,2024-04-16,Retail,Abuja
+C0565,Musa Salami,2023-06-07,Corporate,Ibadan
+C0566,Tobi Aliyu,2023-10-27,Retail,Ibadan
+C0567,Funke Ojo,2025-05-02,Retail,Enugu
+C0568,Obinna Onuoha,2024-10-24,Retail,Enugu
+C0569,Adaeze Ezeh,2024-05-10,SME,Kano
+C0570,Yetunde Lawal,2025-01-14,Retail,Port Harcourt
+C0571,Tobi Umar,2024-01-28,SME,Enugu
+C0572,Bisi Lawal,2023-03-17,Retail,Abuja
+C0573,Chioma Ajayi,2024-06-17,SME,Lagos
+C0574,Bisi Umar,2024-07-07,Retail,Enugu
+C0575,Folake Ogundipe,2024-01-10,Retail,Enugu
+C0576,Chika Salami,2025-02-18,Retail,Ibadan
+C0577,Dayo Afolabi,2023-07-07,Corporate,Kano
+C0578,Uche Igwe,2024-09-21,Retail,Ibadan
+C0579,Chioma Suleiman,2024-12-10,SME,Abuja
+C0580,Ngozi Bello,2023-09-19,Retail,Kano
+C0581,Bayo Sanni,2023-01-01,Retail,Ibadan
+C0582,Chioma Ogundipe,2023-07-22,Corporate,Enugu
+C0583,Adaeze Nwosu,2025-02-19,SME,Ibadan
+C0584,Ebere Oladipo,2024-10-24,Retail,Port Harcourt
+C0585,Aisha Yusuf,2023-08-17,SME,Abuja
+C0586,Kemi Ogunleye,2024-02-27,Retail,Kano
+C0587,Ibrahim Afolabi,2023-01-11,Retail,Enugu
+C0588,Tunde Idowu,2025-04-15,Corporate,Enugu
+C0589,Hauwa Ojo,2025-06-21,Retail,Kano
+C0590,Nneka Suleiman,2025-04-18,SME,Enugu
+C0591,Adaeze Anyanwu,2024-05-10,Retail,Port Harcourt
+C0592,Musa Okeke,2023-09-05,Retail,Kano
+C0593,Abdul Lawal,2023-04-22,Retail,Port Harcourt
+C0594,Tobi Obi,2023-06-30,Retail,Port Harcourt
+C0595,Sadiq Ogundipe,2025-06-11,Retail,Abuja
+C0596,Ifeanyi Idowu,2023-04-21,SME,Kano
+C0597,Segun Akinola,2025-03-27,SME,Ibadan
+C0598,Yetunde Akinola,2023-08-25,Retail,Abuja
+C0599,Chioma Ajayi,2023-04-12,SME,Enugu
+C0600,Femi Lawal,2025-06-06,Retail,Ibadan
+C0601,Musa Igwe,2025-04-04,Retail,Abuja
+C0602,Ruth Suleiman,2025-01-22,Retail,Kano
+C0603,Tobi Danjuma,2024-07-05,Corporate,Port Harcourt
+C0604,Femi Eze,2024-04-05,Retail,Abuja
+C0605,Abdul Ogundipe,2023-06-01,SME,Enugu
+C0606,Zainab Ibrahim,2023-01-07,Retail,Lagos
+C0607,Aisha Abubakar,2024-09-14,Retail,Abuja
+C0608,Chioma Yusuf,2025-03-20,Retail,Enugu
+C0609,Chinedu Afolabi,2025-06-24,SME,Abuja
+C0610,Gift Nnamdi,2024-08-13,SME,Kano
+C0611,Temitope Ezeh,2023-06-15,Corporate,Port Harcourt
+C0612,Chika Nwosu,2024-11-24,Retail,Abuja
+C0613,Rotimi Ogunleye,2024-06-14,SME,Abuja
+C0614,Femi Nwosu,2024-09-19,Retail,Ibadan
+C0615,Rotimi Umar,2023-08-16,Retail,Kano
+C0616,Nneka Akinola,2023-03-09,Retail,Enugu
+C0617,Obinna Fashola,2023-04-30,SME,Kano
+C0618,Kelechi Eze,2024-08-31,SME,Kano
+C0619,Zainab Akinola,2024-06-15,SME,Enugu
+C0620,Emeka Onuoha,2023-11-04,Retail,Port Harcourt
+C0621,Ruth Onuoha,2023-08-14,Corporate,Kano
+C0622,Lanre Balogun,2025-06-25,Retail,Ibadan
+C0623,Uche Onuoha,2025-03-05,Retail,Enugu
+C0624,Rotimi Ekwueme,2025-06-03,Retail,Abuja
+C0625,Segun Okafor,2024-04-29,SME,Lagos
+C0626,Ruth Okeke,2024-06-07,Retail,Port Harcourt
+C0627,Segun Lawal,2024-02-07,Retail,Kano
+C0628,Amaka Sanni,2023-07-19,SME,Ibadan
+C0629,Tunde Yusuf,2023-07-24,Retail,Lagos
+C0630,Emeka Olawale,2023-04-15,Retail,Enugu
+C0631,Kemi Onuoha,2025-01-12,Retail,Enugu
+C0632,Chioma Obi,2025-02-19,Retail,Enugu
+C0633,Chinedu Anyanwu,2023-01-30,Retail,Kano
+C0634,Kemi Ezeh,2024-11-01,SME,Kano
+C0635,Kemi Obi,2025-01-28,Corporate,Enugu
+C0636,Tunde Aliyu,2025-08-16,Retail,Kano
+C0637,Segun Obi,2024-03-19,Retail,Abuja
+C0638,Uche Eze,2024-12-21,Retail,Port Harcourt
+C0639,Kelechi Onuoha,2023-06-09,SME,Abuja
+C0640,Damilola Umar,2025-01-27,Corporate,Port Harcourt
+C0641,Kemi Adeyemi,2025-01-11,Retail,Kano
+C0642,Abdul Salami,2023-01-07,Retail,Enugu
+C0643,Nneka Eze,2023-11-21,Retail,Port Harcourt
+C0644,Aisha Afolabi,2023-10-26,Retail,Lagos
+C0645,Gift Oladipo,2023-02-27,Retail,Abuja
+C0646,Aisha Adewale,2024-12-31,Retail,Abuja
+C0647,Kunle Salami,2025-07-01,Retail,Port Harcourt
+C0648,Emeka Igwe,2025-09-08,SME,Port Harcourt
+C0649,Chinedu Nwosu,2024-03-06,Retail,Abuja
+C0650,Folake Adebayo,2025-08-13,SME,Port Harcourt
+C0651,Obinna Ojo,2024-12-19,Retail,Lagos
+C0652,Gift Salami,2023-04-14,Retail,Abuja
+C0653,Ibrahim Anyanwu,2025-08-22,Retail,Port Harcourt
+C0654,Obinna Aliyu,2025-09-16,Retail,Kano
+C0655,Halima Balogun,2023-05-09,Retail,Port Harcourt
+C0656,Aisha Bello,2024-04-16,SME,Abuja
+C0657,Bisi Adewale,2024-01-23,Retail,Enugu
+C0658,Ibrahim Bello,2024-07-01,Corporate,Enugu
+C0659,Segun Nnamdi,2024-09-25,Retail,Kano
+C0660,Kemi Ezeh,2025-04-17,SME,Enugu
+C0661,Bayo Nnamdi,2023-03-08,Retail,Port Harcourt
+C0662,Amaka Ibrahim,2023-07-05,Retail,Kano
+C0663,Kunle Yusuf,2023-11-09,Retail,Enugu
+C0664,Folake Afolabi,2023-07-05,Retail,Abuja
+C0665,Chinedu Akinola,2024-10-16,Retail,Kano
+C0666,Kunle Afolabi,2025-01-30,Corporate,Enugu
+C0667,Amaka Ezeh,2025-09-10,Retail,Port Harcourt
+C0668,Damilola Afolabi,2025-09-08,SME,Abuja
+C0669,Femi Ezeh,2024-11-19,Retail,Enugu
+C0670,Kemi Nnamdi,2025-07-11,Retail,Kano
+C0671,Hauwa Ibrahim,2024-06-01,Retail,Abuja
+C0672,Kelechi Nnamdi,2024-12-27,Retail,Port Harcourt
+C0673,Hauwa Anyanwu,2024-05-16,Retail,Ibadan
+C0674,Ibrahim Yusuf,2024-09-26,Corporate,Ibadan
+C0675,Chika Chukwu,2023-07-10,Corporate,Port Harcourt
+C0676,Lanre Ezeh,2024-01-09,SME,Abuja
+C0677,Kemi Suleiman,2023-06-12,Retail,Enugu
+C0678,Gift Danjuma,2023-09-26,Retail,Enugu
+C0679,Lanre Ojo,2025-06-11,Corporate,Lagos
+C0680,Ebere Ogundipe,2023-05-03,Retail,Lagos
+C0681,Tobi Ibrahim,2024-09-28,Corporate,Ibadan
+C0682,Rotimi Idowu,2024-03-28,Corporate,Port Harcourt
+C0683,Uche Bello,2024-02-09,Retail,Kano
+C0684,Zainab Salami,2023-10-16,Corporate,Kano
+C0685,Femi Idowu,2023-09-19,Retail,Ibadan
+C0686,Tunde Okeke,2025-06-22,Retail,Enugu
+C0687,Femi Ezeh,2025-04-22,Retail,Lagos
+C0688,Lanre Danjuma,2024-12-24,SME,Abuja
+C0689,Folake Olawale,2025-02-07,SME,Enugu
+C0690,Yetunde Abubakar,2023-12-15,Retail,Enugu
+C0691,Zainab Ogundipe,2023-11-05,Retail,Abuja
+C0692,Nneka Suleiman,2023-11-07,SME,Ibadan
+C0693,Ruth Lawal,2023-12-26,Retail,Enugu
+C0694,Emeka Ezeh,2024-02-17,Retail,Ibadan
+C0695,Nneka Ojo,2024-03-01,SME,Lagos
+C0696,Hauwa Abubakar,2023-07-02,Corporate,Kano
+C0697,Abdul Chukwu,2025-07-06,Retail,Ibadan
+C0698,Rotimi Anyanwu,2025-07-29,Retail,Abuja
+C0699,Mariam Afolabi,2024-02-15,Retail,Enugu
+C0700,Bisi Chukwu,2023-10-11,Retail,Ibadan
+C0701,Chika Adeyemi,2024-07-19,SME,Port Harcourt
+C0702,Ebere Akinola,2025-05-02,Retail,Abuja
+C0703,Hauwa Oladipo,2023-01-09,Corporate,Abuja
+C0704,Ruth Okafor,2025-01-30,SME,Lagos
+C0705,Obinna Danjuma,2023-04-21,Retail,Lagos
+C0706,Musa Onuoha,2025-05-17,Retail,Ibadan
+C0707,Tobi Idowu,2024-01-14,Corporate,Port Harcourt
+C0708,Chika Lawal,2023-11-03,SME,Enugu
+C0709,Sadiq Ogundipe,2024-06-23,Retail,Ibadan
+C0710,Obinna Okafor,2024-04-08,Retail,Abuja
+C0711,Uche Adeyemi,2025-08-07,Retail,Port Harcourt
+C0712,Temitope Okonkwo,2024-12-23,Corporate,Port Harcourt
+C0713,Funke Ekwueme,2024-08-15,Retail,Kano
+C0714,Halima Fashola,2025-03-30,Retail,Kano
+C0715,Chinedu Ogunleye,2023-03-24,Retail,Enugu
+C0716,Femi Chukwu,2024-08-04,SME,Lagos
+C0717,Halima Yusuf,2023-02-23,Corporate,Ibadan
+C0718,Kunle Obi,2023-08-02,Retail,Enugu
+C0719,Gift Suleiman,2025-06-02,Retail,Kano
+C0720,Dayo Ojo,2024-12-06,Retail,Port Harcourt
+C0721,Ibrahim Ibrahim,2025-05-28,Retail,Kano
+C0722,Tobi Suleiman,2025-09-07,SME,Lagos
+C0723,Ebere Ezeh,2025-02-21,Corporate,Port Harcourt
+C0724,Kunle Ezeh,2023-11-06,Retail,Lagos
+C0725,Ebere Chukwu,2024-06-12,Retail,Lagos
+C0726,Tobi Danjuma,2023-03-06,Retail,Kano
+C0727,Ruth Suleiman,2024-07-07,Retail,Enugu
+C0728,Gift Okeke,2024-04-17,Retail,Lagos
+C0729,Ruth Lawal,2023-01-21,Retail,Ibadan
+C0730,Zainab Nwosu,2025-03-05,SME,Lagos
+C0731,Yetunde Akinola,2023-05-23,Retail,Port Harcourt
+C0732,Mariam Balogun,2025-03-25,SME,Port Harcourt
+C0733,Gift Suleiman,2023-10-21,Corporate,Abuja
+C0734,Hauwa Bello,2025-09-19,Retail,Lagos
+C0735,Folake Garba,2025-01-13,Retail,Port Harcourt
+C0736,Emeka Umar,2024-02-13,Retail,Enugu
+C0737,Gift Ogundipe,2024-05-11,Corporate,Abuja
+C0738,Rotimi Salami,2025-09-02,Retail,Enugu
+C0739,Folake Adeyemi,2025-05-16,Retail,Abuja
+C0740,Uche Abubakar,2025-04-23,Retail,Kano
+C0741,Kelechi Okeke,2025-04-03,Retail,Kano
+C0742,Tunde Adewale,2025-05-27,Retail,Kano
+C0743,Tobi Afolabi,2023-05-08,Retail,Lagos
+C0744,Folake Chukwu,2024-04-09,SME,Enugu
+C0745,Femi Ojo,2023-11-29,SME,Kano
+C0746,Tobi Nnamdi,2023-12-03,SME,Kano
+C0747,Halima Abubakar,2024-08-02,SME,Lagos
+C0748,Ngozi Ojo,2024-06-30,SME,Kano
+C0749,Halima Mohammed,2025-08-11,Retail,Kano
+C0750,Kelechi Balogun,2023-01-14,SME,Lagos
+C0751,Nneka Chukwu,2024-02-09,Retail,Enugu
+C0752,Rotimi Okeke,2024-10-01,Corporate,Kano
+C0753,Chioma Igwe,2024-08-20,SME,Enugu
+C0754,Damilola Sanni,2023-06-23,SME,Port Harcourt
+C0755,Funke Adebayo,2025-02-07,Retail,Abuja
+C0756,Ifeanyi Bello,2023-08-11,SME,Abuja
+C0757,Tobi Salami,2023-04-28,Retail,Ibadan
+C0758,Femi Sanni,2024-01-22,Retail,Enugu
+C0759,Amaka Obi,2024-05-04,Retail,Abuja
+C0760,Kemi Ojo,2024-04-29,Retail,Enugu
+C0761,Chinedu Ojo,2025-06-23,Retail,Abuja
+C0762,Ifeanyi Idowu,2024-12-21,SME,Ibadan
+C0763,Ifeanyi Okeke,2025-05-15,Retail,Lagos
+C0764,Kemi Okafor,2024-06-28,SME,Lagos
+C0765,Amaka Bello,2024-04-14,Retail,Enugu
+C0766,Ngozi Akinola,2025-01-14,SME,Lagos
+C0767,Tobi Ogunleye,2024-01-23,Retail,Lagos
+C0768,Yetunde Akinola,2024-03-30,SME,Lagos
+C0769,Ruth Eze,2025-06-18,Retail,Kano
+C0770,Ruth Mohammed,2023-10-27,Retail,Port Harcourt
+C0771,Obinna Sanni,2023-11-18,SME,Enugu
+C0772,Kemi Chukwu,2024-10-06,Retail,Abuja
+C0773,Chinedu Mohammed,2025-07-16,SME,Ibadan
+C0774,Damilola Idowu,2023-07-05,Retail,Kano
+C0775,Kelechi Anyanwu,2025-01-22,Retail,Enugu
+C0776,Kemi Nwosu,2023-10-31,Retail,Lagos
+C0777,Aisha Adeyemi,2023-02-09,Retail,Abuja
+C0778,Kunle Oladipo,2024-12-02,SME,Kano
+C0779,Ifeanyi Akinola,2025-08-22,SME,Enugu
+C0780,Ifeanyi Bello,2024-07-16,SME,Enugu
+C0781,Mariam Idowu,2025-05-11,Retail,Lagos
+C0782,Temitope Adebayo,2023-05-09,Retail,Lagos
+C0783,Ngozi Obi,2024-10-16,Retail,Kano
+C0784,Dayo Ezeh,2024-12-18,Retail,Abuja
+C0785,Bayo Anyanwu,2025-08-24,Retail,Lagos
+C0786,Adaeze Nwosu,2024-08-20,SME,Kano
+C0787,Uche Ezeh,2025-08-02,Retail,Kano
+C0788,Chioma Chukwu,2025-09-20,Retail,Abuja
+C0789,Segun Salami,2024-10-10,Retail,Abuja
+C0790,Abdul Mohammed,2023-10-30,Corporate,Kano
+C0791,Nneka Balogun,2023-03-23,Retail,Abuja
+C0792,Ngozi Suleiman,2023-05-20,Retail,Kano
+C0793,Halima Onuoha,2024-08-24,Corporate,Enugu
+C0794,Ngozi Idowu,2024-04-26,Retail,Kano
+C0795,Abdul Suleiman,2024-12-21,Retail,Enugu
+C0796,Kemi Chukwu,2023-08-23,Retail,Port Harcourt
+C0797,Ebere Nnamdi,2023-05-29,Retail,Abuja
+C0798,Chika Ojo,2024-11-30,SME,Port Harcourt
+C0799,Nneka Adewale,2023-01-20,SME,Enugu
+C0800,Tobi Igwe,2025-07-22,Retail,Ibadan
+C0801,Yetunde Adewale,2023-04-29,SME,Port Harcourt
+C0802,Bisi Chukwu,2024-04-24,Retail,Abuja
+C0803,Gift Ojo,2023-07-12,Corporate,Enugu
+C0804,Tobi Abubakar,2023-04-09,SME,Ibadan
+C0805,Adaeze Mohammed,2025-07-10,SME,Enugu
+C0806,Ifeanyi Yusuf,2025-02-21,Retail,Lagos
+C0807,Damilola Fashola,2024-07-29,SME,Lagos
+C0808,Abdul Ekwueme,2024-09-26,Retail,Ibadan
+C0809,Nneka Danjuma,2023-08-16,Corporate,Lagos
+C0810,Funke Ekwueme,2023-10-18,Corporate,Ibadan
+C0811,Kemi Ekwueme,2025-04-30,Retail,Kano
+C0812,Funke Adeyemi,2024-09-22,SME,Port Harcourt
+C0813,Mariam Ogunleye,2025-08-19,Retail,Port Harcourt
+C0814,Kunle Salami,2025-03-25,SME,Kano
+C0815,Kemi Anyanwu,2024-11-26,Retail,Lagos
+C0816,Halima Ezeh,2024-08-21,Corporate,Kano
+C0817,Obinna Suleiman,2023-04-07,Retail,Abuja
+C0818,Funke Ezeh,2023-05-25,Retail,Abuja
+C0819,Tobi Abubakar,2024-07-02,Retail,Abuja
+C0820,Uche Nwosu,2024-06-28,Retail,Ibadan
+C0821,Funke Salami,2023-04-24,SME,Ibadan
+C0822,Amaka Mohammed,2023-02-28,Retail,Enugu
+C0823,Tunde Eze,2025-04-03,SME,Enugu
+C0824,Yetunde Sanni,2024-01-16,Retail,Enugu
+C0825,Rotimi Afolabi,2024-01-09,Retail,Abuja
+C0826,Ruth Nwosu,2024-07-14,Retail,Lagos
+C0827,Kemi Anyanwu,2023-02-06,Retail,Kano
+C0828,Chinedu Igwe,2023-08-09,Retail,Lagos
+C0829,Ebere Ogundipe,2024-09-02,Retail,Enugu
+C0830,Ifeanyi Ogunleye,2024-11-01,SME,Lagos
+C0831,Emeka Nnamdi,2024-11-30,Corporate,Ibadan
+C0832,Folake Onuoha,2024-09-21,Retail,Kano
+C0833,Kunle Ibrahim,2025-03-11,Retail,Enugu
+C0834,Ngozi Ezeh,2024-09-27,Retail,Ibadan
+C0835,Halima Mohammed,2024-11-04,Retail,Kano
+C0836,Abdul Oladipo,2023-08-30,SME,Kano
+C0837,Ibrahim Sanni,2023-11-10,SME,Kano
+C0838,Tobi Anyanwu,2023-11-03,Retail,Ibadan
+C0839,Chioma Salami,2024-05-27,SME,Lagos
+C0840,Aisha Okafor,2024-11-12,SME,Abuja
+C0841,Chinedu Okeke,2024-06-10,SME,Enugu
+C0842,Musa Salami,2025-06-06,Corporate,Kano
+C0843,Rotimi Ajayi,2024-12-02,Retail,Abuja
+C0844,Segun Suleiman,2023-01-31,Retail,Port Harcourt
+C0845,Chinedu Oladipo,2024-07-30,SME,Enugu
+C0846,Zainab Obi,2025-06-05,Retail,Enugu
+C0847,Aisha Bello,2025-04-17,SME,Ibadan
+C0848,Adaeze Ezeh,2023-12-11,Corporate,Enugu
+C0849,Bisi Danjuma,2025-08-08,Retail,Ibadan
+C0850,Funke Okeke,2024-10-05,Retail,Ibadan
+C0851,Amaka Eze,2025-09-14,SME,Abuja
+C0852,Funke Okeke,2023-06-03,Retail,Enugu
+C0853,Nneka Danjuma,2024-12-11,Retail,Port Harcourt
+C0854,Sadiq Aliyu,2023-05-30,Retail,Ibadan
+C0855,Abdul Chukwu,2023-11-16,Retail,Enugu
+C0856,Rotimi Nwosu,2023-01-01,Retail,Abuja
+C0857,Gift Ekwueme,2023-11-08,Retail,Ibadan
+C0858,Abdul Suleiman,2023-03-20,Retail,Enugu
+C0859,Ebere Ibrahim,2024-09-18,Retail,Abuja
+C0860,Ruth Garba,2025-08-05,Retail,Port Harcourt
+C0861,Chika Nwosu,2024-05-04,Retail,Lagos
+C0862,Tobi Ekwueme,2023-11-30,SME,Lagos
+C0863,Emeka Suleiman,2023-01-23,SME,Kano
+C0864,Chioma Ajayi,2024-03-08,Corporate,Kano
+C0865,Folake Anyanwu,2023-04-17,Retail,Port Harcourt
+C0866,Tobi Yusuf,2025-04-23,Retail,Ibadan
+C0867,Bayo Ezeh,2024-08-03,Corporate,Kano
+C0868,Sadiq Aliyu,2024-09-20,SME,Kano
+C0869,Musa Igwe,2023-02-08,Retail,Abuja
+C0870,Uche Danjuma,2024-02-02,Retail,Port Harcourt
+C0871,Hauwa Ogundipe,2025-07-22,Retail,Abuja
+C0872,Femi Eze,2024-04-28,SME,Ibadan
+C0873,Uche Ibrahim,2024-12-25,Retail,Abuja
+C0874,Temitope Okafor,2024-11-13,Retail,Abuja
+C0875,Mariam Oladipo,2025-07-17,SME,Enugu
+C0876,Funke Garba,2024-10-30,Retail,Port Harcourt
+C0877,Funke Ekwueme,2023-01-11,SME,Kano
+C0878,Nneka Nwosu,2023-05-11,SME,Port Harcourt
+C0879,Tobi Idowu,2024-04-02,SME,Lagos
+C0880,Adaeze Yusuf,2025-07-11,Retail,Kano
+C0881,Obinna Akinola,2025-06-24,Retail,Enugu
+C0882,Amaka Ekwueme,2025-03-09,SME,Lagos
+C0883,Emeka Mohammed,2023-04-09,Retail,Port Harcourt
+C0884,Adaeze Akinola,2023-10-13,Retail,Port Harcourt
+C0885,Aisha Bello,2025-02-16,Retail,Abuja
+C0886,Lanre Suleiman,2025-05-25,SME,Abuja
+C0887,Dayo Ogunleye,2024-09-23,Retail,Port Harcourt
+C0888,Folake Ojo,2023-02-03,SME,Kano
+C0889,Mariam Umar,2025-07-20,Retail,Kano
+C0890,Kelechi Fashola,2024-11-15,Retail,Lagos
+C0891,Emeka Nwosu,2025-06-25,Retail,Enugu
+C0892,Obinna Ajayi,2024-01-06,Retail,Kano
+C0893,Tobi Sanni,2025-03-10,SME,Enugu
+C0894,Femi Bello,2023-12-21,Retail,Kano
+C0895,Adaeze Eze,2023-08-20,SME,Lagos
+C0896,Halima Bello,2025-03-31,Retail,Kano
+C0897,Sadiq Aliyu,2023-05-28,SME,Kano
+C0898,Uche Garba,2024-07-09,Retail,Abuja
+C0899,Rotimi Ekwueme,2024-11-17,Retail,Port Harcourt
+C0900,Tunde Idowu,2023-03-14,Retail,Ibadan

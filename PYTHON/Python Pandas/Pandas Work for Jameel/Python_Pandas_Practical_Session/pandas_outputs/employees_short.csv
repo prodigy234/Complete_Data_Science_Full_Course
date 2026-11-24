@@ -1,0 +1,601 @@
+employee_id,name,department,city,salary,salary_band,hire_date
+00001,Emeka Igwe,Marketing,Lagos,96600.0,High,2014-10-29
+00002,Amaka Ibrahim,Finance,Kano,137100.0,High,2025-07-15
+00003,Aisha Bello,Marketing,Ibadan,140600.0,High,2020-07-03
+00004,Chinedu Eze,Sales,Port Harcourt,109400.0,High,2024-07-15
+00005,Bayo Igwe,HR,Lagos,80800.0,Standard,2016-07-24
+00006,Tunde Nnamdi,Marketing,Ibadan,97300.0,High,2018-04-07
+00007,Ibrahim Akinola,Operations,Ibadan,74800.0,Standard,2025-01-14
+00008,Chika Lawal,Sales,Abuja,114200.0,High,2025-09-25
+00009,Lanre Okafor,Support,Ibadan,61100.0,Standard,
+00010,Ruth Oladipo,Support,Lagos,78900.0,Standard,2017-02-23
+00011,Ngozi Adebayo,Operations,Port Harcourt,141900.0,High,2019-06-21
+00012,Rotimi Idowu,Engineering,Abuja,190000.0,High,2020-08-10
+00013,Aisha Balogun,HR,Abuja,80500.0,Standard,2019-02-10
+00014,Adaeze Eze,Finance,Abuja,109300.0,High,2020-11-07
+00015,Adaeze Mohammed,Operations,Abuja,88800.0,Standard,2021-10-26
+00016,Chinedu Yusuf,Support,Lagos,59200.0,Entry,2016-02-09
+00017,Aisha Adebayo,Marketing,Abuja,88700.0,Standard,2017-11-01
+00018,Gift Ojo,HR,Ibadan,68900.0,Standard,2023-06-16
+00019,Yetunde Okonkwo,Sales,Port Harcourt,133000.0,High,2021-09-06
+00020,Kunle Ibrahim,Engineering,Port Harcourt,111100.0,High,2015-04-16
+00021,Yetunde Sanni,Finance,Abuja,113100.0,High,2015-06-14
+00022,Tunde Salami,Unassigned,Kano,112100.0,High,2020-07-30
+00023,Bayo Sanni,HR,Lagos,102600.0,High,2018-11-09
+00024,Hauwa Garba,Marketing,Ibadan,73500.0,Standard,2018-02-15
+00025,Kemi Nwosu,Finance,Abuja,121250.0,High,2024-01-08
+00026,Bisi Okonkwo,Finance,Lagos,123300.0,High,2022-06-15
+00027,Zainab Lawal,Sales,Abuja,120500.0,High,2015-09-21
+00028,Ifeanyi Lawal,Finance,Port Harcourt,95600.0,High,
+00029,Segun Akinola,Operations,Enugu,100500.0,High,2022-09-09
+00030,Lanre Olawale,Sales,Kano,81400.0,Standard,2023-12-23
+00031,Uche Adebayo,Sales,Kano,95700.0,High,2022-11-09
+00032,Nneka Akinola,Support,Enugu,90600.0,High,2023-03-06
+00033,Chioma Nwosu,Operations,Port Harcourt,77100.0,Standard,2023-03-12
+00034,Rotimi Eze,Support,Lagos,76500.0,Standard,2020-03-17
+00035,Kunle Ogundipe,Operations,Lagos,83100.0,Standard,2014-05-28
+00036,Ngozi Igwe,Operations,Kano,85250.0,Standard,2018-04-07
+00037,Mariam Sanni,Finance,Abuja,118200.0,High,2024-04-01
+00038,Temitope Olawale,Finance,Kano,87900.0,Standard,2019-08-18
+00039,Aisha Nwosu,Engineering,Abuja,118400.0,High,2017-03-23
+00040,Obinna Adewale,Sales,Lagos,132600.0,High,2022-01-02
+00041,Dayo Suleiman,HR,Abuja,91100.0,High,2016-02-26
+00042,Uche Igwe,Sales,Lagos,119300.0,High,2015-11-17
+00043,Bisi Afolabi,Sales,Lagos,125300.0,High,2015-04-16
+00044,Tobi Danjuma,Engineering,Abuja,150100.0,High,2024-11-03
+00045,Hauwa Okonkwo,Sales,Enugu,150000.0,High,2021-05-27
+00046,Ruth Suleiman,Support,Enugu,103200.0,High,2016-10-23
+00047,Abdul Idowu,Operations,Ibadan,109400.0,High,2022-11-26
+00048,Dayo Danjuma,Sales,Ibadan,85700.0,Standard,2014-12-02
+00049,Abdul Fashola,HR,Port Harcourt,71800.0,Standard,2021-11-28
+00050,Nneka Abubakar,Engineering,Ibadan,161300.0,High,2019-12-22
+00051,Funke Igwe,HR,Lagos,107700.0,High,2025-06-14
+00052,Yetunde Adewale,Operations,Kano,77500.0,Standard,2020-08-10
+00053,Abdul Okeke,Marketing,Ibadan,145100.0,High,2018-10-16
+00054,Temitope Suleiman,Marketing,Ibadan,105500.0,High,2021-08-06
+00055,Musa Anyanwu,Operations,Abuja,78400.0,Standard,2015-04-15
+00056,Dayo Akinola,Sales,Abuja,104600.0,High,2020-07-12
+00057,Musa Ibrahim,Operations,Kano,87400.0,Standard,2017-08-14
+00058,Aisha Lawal,Operations,Enugu,75200.0,Standard,2017-02-28
+00059,Dayo Adewale,Operations,Kano,105800.0,High,2016-06-13
+00060,Ngozi Danjuma,Operations,Abuja,101000.0,High,2019-09-24
+00061,Nneka Salami,Marketing,Lagos,141500.0,High,2022-12-10
+00062,Mariam Adewale,Finance,Port Harcourt,126000.0,High,2016-06-16
+00063,Lanre Obi,Marketing,Lagos,70800.0,Standard,2023-08-06
+00064,Folake Mohammed,Sales,Kano,74700.0,Standard,2021-07-05
+00065,Uche Umar,Operations,Enugu,81800.0,Standard,2019-12-16
+00066,Tobi Ajayi,Engineering,Port Harcourt,111600.0,High,2024-12-26
+00067,Emeka Ezeh,Sales,Port Harcourt,114400.0,High,2017-04-04
+00068,Chioma Bello,Operations,Lagos,68900.0,Standard,2014-11-16
+00069,Dayo Okonkwo,Operations,Lagos,97500.0,High,2019-08-28
+00070,Funke Anyanwu,Sales,Kano,84500.0,Standard,2014-11-29
+00071,Segun Obi,Operations,Kano,113900.0,High,2022-04-20
+00072,Bisi Umar,HR,Ibadan,65500.0,Standard,2015-12-11
+00073,Mariam Adebayo,Finance,Lagos,87900.0,Standard,2016-02-10
+00074,Folake Fashola,Support,Lagos,61600.0,Standard,2025-07-12
+00075,Zainab Nwosu,Sales,Ibadan,102850.0,High,2020-06-30
+00076,Uche Afolabi,Engineering,Ibadan,155400.0,High,2021-04-06
+00077,Dayo Adeyemi,Sales,Abuja,92800.0,High,2016-12-09
+00078,Damilola Lawal,Sales,Lagos,72800.0,Standard,
+00079,Zainab Umar,Engineering,Port Harcourt,111400.0,High,2023-07-04
+00080,Nneka Fashola,Engineering,Lagos,161000.0,High,2021-02-13
+00081,Kunle Eze,Sales,Abuja,133500.0,High,
+00082,Gift Lawal,Marketing,Abuja,110200.0,High,2018-01-08
+00083,Folake Eze,Finance,Lagos,121250.0,High,2020-01-13
+00084,Ebere Sanni,Support,Lagos,60400.0,Standard,2016-01-18
+00085,Rotimi Salami,Support,Abuja,99300.0,High,2020-05-23
+00086,Temitope Ajayi,HR,Lagos,88900.0,Standard,2018-07-16
+00087,Ibrahim Yusuf,HR,Abuja,94500.0,High,2018-04-07
+00088,Uche Eze,Marketing,Lagos,82600.0,Standard,2018-11-02
+00089,Musa Chukwu,Support,Port Harcourt,78100.0,Standard,2024-08-06
+00090,Adaeze Suleiman,Operations,Lagos,78300.0,Standard,2024-02-28
+00091,Kelechi Sanni,Engineering,Lagos,127400.0,High,2014-04-11
+00092,Ebere Bello,Support,Enugu,62700.0,Standard,2021-08-27
+00093,Funke Bello,Finance,Lagos,105300.0,High,2017-04-27
+00094,Ruth Igwe,Marketing,Enugu,77100.0,Standard,2017-02-09
+00095,Sadiq Balogun,Finance,Abuja,131300.0,High,2017-11-18
+00096,Dayo Bello,HR,Port Harcourt,111500.0,High,2018-06-18
+00097,Ibrahim Ekwueme,Finance,Kano,103200.0,High,2016-04-03
+00098,Aisha Akinola,Marketing,Abuja,115700.0,High,2022-05-13
+00099,Kelechi Fashola,Finance,Port Harcourt,127100.0,High,2022-07-09
+00100,Yetunde Balogun,Finance,Lagos,166000.0,High,2025-05-24
+00101,Femi Adewale,Sales,Enugu,157100.0,High,2014-04-27
+00102,Femi Yusuf,Engineering,Lagos,147150.0,High,2015-03-08
+00103,Nneka Ekwueme,Operations,Enugu,118600.0,High,2021-07-28
+00104,Sadiq Idowu,Marketing,Abuja,125400.0,High,2019-08-15
+00105,Abdul Obi,Sales,Ibadan,142800.0,High,2023-03-12
+00106,Temitope Mohammed,Sales,Ibadan,161800.0,High,2020-03-23
+00107,Bayo Ekwueme,Sales,Ibadan,88100.0,Standard,
+00108,Ruth Ibrahim,Support,Ibadan,57900.0,Entry,2014-08-27
+00109,Yetunde Mohammed,Marketing,Lagos,135000.0,High,2017-05-29
+00110,Amaka Adebayo,Sales,Port Harcourt,102850.0,High,2014-03-25
+00111,Tunde Ogunleye,Engineering,Lagos,175500.0,High,2019-08-28
+00112,Abdul Nnamdi,Operations,Lagos,85250.0,Standard,2017-11-13
+00113,Tunde Ibrahim,Engineering,Lagos,156600.0,High,2018-03-15
+00114,Kemi Adeyemi,Operations,Lagos,76600.0,Standard,2024-04-18
+00115,Abdul Adeyemi,Engineering,Enugu,149500.0,High,2017-05-06
+00116,Tobi Salami,Marketing,Lagos,110600.0,High,2024-11-24
+00117,Damilola Eze,HR,Lagos,69200.0,Standard,2022-01-09
+00118,Hauwa Yusuf,Support,Kano,98300.0,High,2022-02-09
+00119,Adaeze Olawale,Finance,Abuja,154300.0,High,2017-05-27
+00120,Gift Okafor,Engineering,Lagos,190000.0,High,2024-12-27
+00121,Ibrahim Salami,Operations,Lagos,69100.0,Standard,2022-08-14
+00122,Uche Ogundipe,Support,Enugu,115100.0,High,2023-09-26
+00123,Chinedu Oladipo,Unassigned,Lagos,86400.0,Standard,2018-07-26
+00124,Nneka Okafor,Operations,Abuja,96600.0,High,2015-07-26
+00125,Kelechi Salami,Finance,Kano,121250.0,High,2024-06-14
+00126,Rotimi Mohammed,HR,Enugu,90900.0,High,2015-07-24
+00127,Funke Akinola,Operations,Enugu,75100.0,Standard,2025-10-01
+00128,Musa Fashola,Finance,Lagos,150200.0,High,2024-04-12
+00129,Femi Fashola,Support,Lagos,76000.0,Standard,2023-02-27
+00130,Sadiq Ibrahim,Marketing,Kano,93200.0,High,2019-07-18
+00131,Gift Sanni,Marketing,Kano,128600.0,High,2018-05-09
+00132,Chinedu Salami,Unassigned,Lagos,79600.0,Standard,2020-07-22
+00133,Halima Anyanwu,Support,Lagos,111300.0,High,2021-06-20
+00134,Segun Fashola,Engineering,Lagos,154800.0,High,2016-10-12
+00135,Sadiq Ekwueme,Engineering,Port Harcourt,112800.0,High,2023-08-25
+00136,Ifeanyi Suleiman,Sales,Abuja,102850.0,High,2023-05-18
+00137,Obinna Akinola,Sales,Kano,118900.0,High,2018-06-27
+00138,Bisi Bello,Support,Abuja,84500.0,Standard,2024-05-14
+00139,Tunde Danjuma,Operations,Abuja,84500.0,Standard,2020-10-06
+00140,Yetunde Obi,Sales,Abuja,81600.0,Standard,2016-11-11
+00141,Bayo Adewale,HR,Abuja,79000.0,Standard,2015-07-20
+00142,Uche Ezeh,Sales,Abuja,85500.0,Standard,2019-07-26
+00143,Femi Okonkwo,Finance,Abuja,95100.0,High,2020-01-13
+00144,Ebere Nnamdi,Engineering,Enugu,123600.0,High,2024-02-14
+00145,Amaka Yusuf,Support,Enugu,71300.0,Standard,2019-02-08
+00146,Tobi Adeyemi,Marketing,Abuja,109700.0,High,2020-07-02
+00147,Lanre Balogun,HR,Port Harcourt,90700.0,High,
+00148,Obinna Salami,Engineering,Kano,118300.0,High,2024-10-02
+00149,Mariam Nnamdi,Marketing,Lagos,78300.0,Standard,2016-10-26
+00150,Kunle Danjuma,Operations,Port Harcourt,82100.0,Standard,2019-09-30
+00151,Femi Chukwu,Finance,Kano,109700.0,High,2015-06-26
+00152,Funke Ogundipe,Engineering,Port Harcourt,127200.0,High,2023-06-03
+00153,Chioma Adeyemi,Operations,Port Harcourt,82200.0,Standard,2015-02-07
+00154,Funke Balogun,Sales,Port Harcourt,92000.0,High,2017-01-30
+00155,Musa Umar,Engineering,Abuja,131100.0,High,2014-04-09
+00156,Kemi Ojo,Engineering,Lagos,156000.0,High,2016-08-08
+00157,Gift Garba,HR,Port Harcourt,64900.0,Standard,2015-05-26
+00158,Adaeze Okonkwo,HR,Abuja,72500.0,Standard,2020-06-18
+00159,Abdul Adebayo,Operations,Ibadan,85250.0,Standard,2026-01-28
+00160,Kemi Nnamdi,Finance,Lagos,120700.0,High,2021-01-29
+00161,Obinna Yusuf,Operations,Kano,96600.0,High,2016-02-28
+00162,Adaeze Yusuf,Operations,Lagos,105200.0,High,2016-12-08
+00163,Emeka Adeyemi,Marketing,Lagos,76000.0,Standard,2018-10-26
+00164,Tunde Ojo,Support,Port Harcourt,113200.0,High,2019-01-06
+00165,Funke Nwosu,Operations,Port Harcourt,105400.0,High,2026-04-15
+00166,Funke Ogunleye,Marketing,Abuja,144400.0,High,2018-12-04
+00167,Musa Nwosu,Sales,Lagos,86600.0,Standard,
+00168,Bisi Ajayi,Operations,Abuja,80100.0,Standard,2022-05-19
+00169,Kemi Bello,Engineering,Kano,183600.0,High,2024-09-30
+00170,Segun Yusuf,Support,Lagos,58400.0,Entry,2014-10-01
+00171,Damilola Garba,Unassigned,Lagos,111000.0,High,2017-04-09
+00172,Yetunde Nwosu,Finance,Lagos,125900.0,High,2023-04-23
+00173,Bisi Suleiman,Support,Lagos,58900.0,Entry,2025-11-15
+00174,Bisi Ekwueme,Marketing,Ibadan,110400.0,High,2017-07-23
+00175,Hauwa Aliyu,Sales,Abuja,76700.0,Standard,2019-07-01
+00176,Zainab Obi,Support,Abuja,95100.0,High,2017-03-20
+00177,Folake Balogun,Finance,Abuja,147400.0,High,2022-03-28
+00178,Segun Aliyu,Support,Port Harcourt,76400.0,Standard,2024-01-28
+00179,Lanre Ojo,Finance,Port Harcourt,84700.0,Standard,2017-12-23
+00180,Musa Onuoha,Operations,Lagos,85250.0,Standard,2015-04-15
+00181,Funke Salami,Support,Port Harcourt,63200.0,Standard,2016-07-27
+00182,Folake Oladipo,Finance,Kano,120900.0,High,2019-11-22
+00183,Adaeze Bello,Unassigned,Lagos,118900.0,High,2016-06-15
+00184,Obinna Sanni,Support,Lagos,64500.0,Standard,2024-02-11
+00185,Aisha Ekwueme,Sales,Lagos,117700.0,High,
+00186,Musa Lawal,HR,Lagos,90900.0,High,2024-09-29
+00187,Mariam Mohammed,HR,Lagos,64200.0,Standard,2020-10-22
+00188,Nneka Idowu,Operations,Abuja,110300.0,High,2023-09-17
+00189,Dayo Nwosu,Engineering,Abuja,190000.0,High,2020-12-27
+00190,Kunle Abubakar,Marketing,Lagos,115600.0,High,2018-05-25
+00191,Nneka Ajayi,Engineering,Kano,127300.0,High,2022-08-29
+00192,Temitope Afolabi,Marketing,Abuja,96400.0,High,2023-05-06
+00193,Aisha Suleiman,Marketing,Port Harcourt,64000.0,Standard,2018-12-17
+00194,Chioma Olawale,Engineering,Abuja,122900.0,High,2023-10-15
+00195,Chioma Ogunleye,Operations,Abuja,148900.0,High,2015-09-06
+00196,Zainab Adeyemi,Finance,Lagos,126000.0,High,2014-08-24
+00197,Ibrahim Afolabi,Sales,Abuja,79300.0,Standard,2021-09-13
+00198,Rotimi Igwe,HR,Abuja,90900.0,High,2015-03-31
+00199,Hauwa Salami,Sales,Lagos,102850.0,High,2015-05-19
+00200,Ebere Abubakar,Sales,Port Harcourt,120900.0,High,2016-10-26
+00201,Abdul Afolabi,Finance,Lagos,121600.0,High,2025-09-16
+00202,Yetunde Abubakar,Finance,Ibadan,129700.0,High,2024-08-22
+00203,Femi Ezeh,HR,Lagos,92400.0,High,2023-06-06
+00204,Gift Onuoha,Sales,Abuja,88500.0,Standard,2026-02-09
+00205,Nneka Mohammed,Engineering,Lagos,171000.0,High,2021-02-09
+00206,Femi Garba,Marketing,Abuja,98700.0,High,2015-10-23
+00207,Aisha Ibrahim,Finance,Lagos,93100.0,High,2015-05-16
+00208,Ibrahim Suleiman,HR,Ibadan,73300.0,Standard,2019-09-05
+00209,Kelechi Olawale,Operations,Lagos,103000.0,High,2019-11-03
+00210,Segun Salami,Operations,Ibadan,72900.0,Standard,2019-08-26
+00211,Yetunde Afolabi,Sales,Abuja,81600.0,Standard,2015-11-26
+00212,Mariam Ajayi,HR,Lagos,127800.0,High,2017-01-12
+00213,Bayo Chukwu,Operations,Lagos,75500.0,Standard,2026-02-25
+00214,Abdul Salami,Sales,Abuja,113200.0,High,2018-05-05
+00215,Tunde Idowu,Engineering,Ibadan,151300.0,High,2019-03-03
+00216,Femi Balogun,Engineering,Abuja,125200.0,High,2022-10-08
+00217,Femi Sanni,Finance,Lagos,128800.0,High,2022-02-25
+00218,Adaeze Balogun,HR,Ibadan,90900.0,High,2022-04-09
+00219,Dayo Sanni,Sales,Lagos,145900.0,High,2015-06-08
+00220,Bisi Abubakar,Operations,Enugu,75300.0,Standard,2018-06-03
+00221,Emeka Ogunleye,Sales,Lagos,79000.0,Standard,2019-04-26
+00222,Ngozi Ekwueme,Finance,Ibadan,133600.0,High,2019-08-14
+00223,Nneka Oladipo,Engineering,Port Harcourt,157300.0,High,2016-01-13
+00224,Ebere Adewale,Finance,Lagos,183100.0,High,2015-03-24
+00225,Yetunde Bello,Engineering,Ibadan,150400.0,High,2021-02-24
+00226,Nneka Eze,Support,Abuja,111400.0,High,2024-03-18
+00227,Aisha Ezeh,Sales,Kano,125400.0,High,2026-03-06
+00228,Emeka Eze,Support,Abuja,110500.0,High,2014-07-03
+00229,Mariam Danjuma,Operations,Abuja,140000.0,High,2019-05-31
+00230,Obinna Ibrahim,Sales,Port Harcourt,141100.0,High,2025-04-11
+00231,Bayo Akinola,Operations,Lagos,80600.0,Standard,2022-10-15
+00232,Adaeze Okeke,Marketing,Lagos,140600.0,High,2016-10-25
+00233,Kelechi Ajayi,Sales,Lagos,99600.0,High,2015-02-07
+00234,Chioma Chukwu,Engineering,Port Harcourt,116600.0,High,2016-10-12
+00235,Chinedu Lawal,Engineering,Kano,108100.0,High,2017-02-06
+00236,Folake Afolabi,Engineering,Lagos,101800.0,High,2025-10-12
+00237,Uche Nwosu,Operations,Ibadan,104900.0,High,2015-07-23
+00238,Bisi Eze,Engineering,Lagos,124000.0,High,2017-05-15
+00239,Bisi Sanni,Support,Port Harcourt,58600.0,Entry,2016-03-23
+00240,Funke Olawale,Support,Ibadan,71300.0,Standard,2023-04-09
+00241,Halima Igwe,Support,Port Harcourt,64700.0,Standard,2016-01-09
+00242,Ifeanyi Danjuma,Marketing,Kano,80500.0,Standard,2016-05-30
+00243,Hauwa Akinola,Engineering,Lagos,115100.0,High,2022-01-02
+00244,Bayo Eze,Engineering,Abuja,190000.0,High,2019-03-07
+00245,Chioma Ezeh,Finance,Kano,153900.0,High,2019-09-29
+00246,Ngozi Suleiman,Operations,Lagos,87900.0,Standard,2022-12-10
+00247,Bayo Ojo,Marketing,Kano,143800.0,High,2021-03-03
+00248,Ifeanyi Mohammed,Sales,Lagos,104100.0,High,2025-02-10
+00249,Aisha Igwe,HR,Abuja,130600.0,High,2021-08-04
+00250,Tunde Balogun,Engineering,Port Harcourt,174800.0,High,2015-07-21
+00251,Uche Ibrahim,Support,Abuja,71300.0,Standard,2018-02-27
+00252,Uche Okonkwo,Operations,Port Harcourt,101600.0,High,2016-09-23
+00253,Tobi Okafor,Marketing,Lagos,79900.0,Standard,2024-07-27
+00254,Ifeanyi Anyanwu,Sales,Lagos,102850.0,High,2019-04-29
+00255,Gift Okonkwo,Sales,Ibadan,83600.0,Standard,
+00256,Ifeanyi Ojo,Support,Lagos,115000.0,High,2023-11-20
+00257,Ebere Ogunleye,Operations,Abuja,68200.0,Standard,2024-11-05
+00258,Kelechi Adeyemi,Finance,Port Harcourt,129600.0,High,2021-05-08
+00259,Segun Igwe,Sales,Kano,89400.0,Standard,2023-10-25
+00260,Hauwa Danjuma,Sales,Port Harcourt,83000.0,Standard,2014-10-25
+00261,Chioma Lawal,Support,Abuja,82000.0,Standard,2022-09-17
+00262,Kunle Adeyemi,Support,Enugu,60500.0,Standard,2020-02-11
+00263,Ibrahim Danjuma,Engineering,Lagos,174300.0,High,2020-04-12
+00264,Bayo Onuoha,Support,Enugu,65400.0,Standard,2025-06-10
+00265,Kemi Abubakar,Finance,Lagos,120700.0,High,2024-05-02
+00266,Sadiq Okafor,Engineering,Abuja,109100.0,High,2016-03-19
+00267,Tobi Igwe,Finance,Port Harcourt,96700.0,High,2022-06-21
+00268,Chinedu Fashola,Engineering,Ibadan,118700.0,High,2019-01-08
+00269,Segun Mohammed,Engineering,Ibadan,190000.0,High,2023-04-04
+00270,Chika Aliyu,Support,Lagos,61400.0,Standard,2015-10-21
+00271,Yetunde Adebayo,HR,Lagos,107500.0,High,2014-10-09
+00272,Ruth Garba,Support,Port Harcourt,71300.0,Standard,2017-05-17
+00273,Rotimi Obi,Support,Lagos,71300.0,Standard,2018-12-06
+00274,Ifeanyi Oladipo,Engineering,Lagos,121600.0,High,2025-07-31
+00275,Segun Ajayi,Support,Lagos,90600.0,High,2022-02-23
+00276,Amaka Ezeh,Marketing,Kano,110000.0,High,2025-12-25
+00277,Ebere Danjuma,Unassigned,Lagos,190000.0,High,2014-11-18
+00278,Halima Obi,Finance,Abuja,130100.0,High,2015-08-11
+00279,Uche Ogunleye,Engineering,Port Harcourt,154900.0,High,2020-04-14
+00280,Zainab Adewale,Marketing,Kano,81400.0,Standard,2019-12-31
+00281,Aisha Anyanwu,Marketing,Kano,116700.0,High,2020-09-11
+00282,Ifeanyi Okonkwo,Finance,Port Harcourt,91700.0,High,2019-09-30
+00283,Ifeanyi Garba,Operations,Kano,104200.0,High,2017-03-22
+00284,Adaeze Aliyu,HR,Lagos,82400.0,Standard,2021-05-22
+00285,Ibrahim Olawale,Engineering,Lagos,118200.0,High,2017-08-16
+00286,Chika Bello,Sales,Abuja,86200.0,Standard,2014-06-09
+00287,Damilola Idowu,Marketing,Lagos,85200.0,Standard,2023-01-14
+00288,Tobi Afolabi,Sales,Abuja,151300.0,High,2019-06-27
+00289,Aisha Adeyemi,Finance,Enugu,133400.0,High,2015-01-03
+00290,Rotimi Fashola,Support,Abuja,82300.0,Standard,2023-11-20
+00291,Chika Afolabi,Marketing,Lagos,121300.0,High,2014-02-17
+00292,Funke Abubakar,Support,Ibadan,77500.0,Standard,2018-08-21
+00293,Yetunde Chukwu,Sales,Abuja,102400.0,High,2025-07-21
+00294,Ibrahim Lawal,Operations,Abuja,114800.0,High,2018-06-10
+00295,Funke Yusuf,Finance,Ibadan,110200.0,High,2022-10-30
+00296,Uche Fashola,HR,Lagos,89800.0,Standard,2022-08-13
+00297,Dayo Chukwu,Operations,Lagos,83600.0,Standard,2020-11-26
+00298,Bayo Nnamdi,Finance,Ibadan,103100.0,High,2021-02-08
+00299,Ibrahim Ogunleye,Support,Abuja,61600.0,Standard,2023-07-31
+00300,Kemi Ogunleye,Finance,Port Harcourt,136500.0,High,2017-10-21
+00301,Abdul Ogunleye,Support,Enugu,71300.0,Standard,2017-04-23
+00302,Chika Igwe,Operations,Lagos,111900.0,High,2015-11-15
+00303,Aisha Yusuf,Unassigned,Ibadan,120500.0,High,2022-06-28
+00304,Musa Sanni,Sales,Ibadan,119900.0,High,2016-07-09
+00305,Hauwa Bello,Engineering,Ibadan,154800.0,High,2021-05-24
+00306,Tunde Fashola,Operations,Lagos,76300.0,Standard,2025-04-25
+00307,Chinedu Adewale,Engineering,Lagos,160700.0,High,2017-09-18
+00308,Amaka Adewale,Operations,Abuja,72800.0,Standard,2014-10-04
+00309,Emeka Idowu,Sales,Enugu,120000.0,High,2017-08-11
+00310,Lanre Anyanwu,Operations,Lagos,85500.0,Standard,
+00311,Hauwa Okeke,Unassigned,Lagos,112100.0,High,2020-01-09
+00312,Femi Anyanwu,Sales,Lagos,135600.0,High,2017-05-02
+00313,Abdul Umar,HR,Lagos,115100.0,High,
+00314,Folake Adeyemi,Sales,Lagos,129800.0,High,2016-02-03
+00315,Temitope Okeke,Marketing,Port Harcourt,76500.0,Standard,2022-11-22
+00316,Zainab Akinola,Engineering,Abuja,108700.0,High,2019-04-08
+00317,Mariam Lawal,Engineering,Abuja,106200.0,High,2025-05-06
+00318,Tobi Anyanwu,Operations,Lagos,75300.0,Standard,2014-09-30
+00319,Chioma Afolabi,Support,Lagos,68300.0,Standard,2025-03-30
+00320,Folake Suleiman,Unassigned,Abuja,79500.0,Standard,2016-02-24
+00321,Rotimi Adewale,Unassigned,Lagos,89300.0,Standard,2021-04-22
+00322,Kelechi Okafor,Marketing,Lagos,75600.0,Standard,2024-03-05
+00323,Bisi Ezeh,Operations,Port Harcourt,141900.0,High,2016-08-18
+00324,Musa Olawale,Operations,Port Harcourt,104100.0,High,2018-06-15
+00325,Zainab Okafor,Support,Ibadan,88100.0,Standard,2014-02-08
+00326,Halima Adeyemi,Finance,Port Harcourt,159100.0,High,2021-06-06
+00327,Segun Okafor,Engineering,Port Harcourt,118300.0,High,2020-09-30
+00328,Tobi Eze,Sales,Ibadan,102700.0,High,2018-09-05
+00329,Yetunde Danjuma,Support,Lagos,122000.0,High,2017-01-26
+00330,Kunle Nnamdi,Marketing,Lagos,134900.0,High,2014-09-10
+00331,Obinna Igwe,Sales,Port Harcourt,84200.0,Standard,2017-08-01
+00332,Abdul Abubakar,Finance,Lagos,148600.0,High,2014-08-29
+00333,Ibrahim Mohammed,Sales,Lagos,122200.0,High,2022-04-01
+00334,Tunde Adewale,Operations,Lagos,85000.0,Standard,2021-06-08
+00335,Bayo Idowu,Engineering,Ibadan,166200.0,High,2015-07-11
+00336,Dayo Olawale,Finance,Lagos,109300.0,High,2017-03-19
+00337,Yetunde Ibrahim,Marketing,Lagos,77900.0,Standard,2021-06-19
+00338,Mariam Okafor,Finance,Port Harcourt,150400.0,High,2024-05-11
+00339,Zainab Ajayi,Sales,Lagos,122600.0,High,2023-04-04
+00340,Folake Aliyu,Sales,Lagos,97500.0,High,2025-08-12
+00341,Chinedu Anyanwu,Support,Port Harcourt,54100.0,Entry,2014-06-06
+00342,Temitope Fashola,Operations,Abuja,70700.0,Standard,2020-06-15
+00343,Temitope Adewale,Finance,Lagos,107800.0,High,2020-12-14
+00344,Tunde Akinola,Engineering,Abuja,168000.0,High,2014-11-01
+00345,Ibrahim Okonkwo,Engineering,Abuja,112000.0,High,2022-12-13
+00346,Segun Onuoha,Engineering,Kano,164400.0,High,2018-01-19
+00347,Ebere Chukwu,Sales,Lagos,124100.0,High,2019-05-17
+00348,Segun Ezeh,Engineering,Port Harcourt,147150.0,High,2015-09-25
+00349,Chika Oladipo,Operations,Lagos,80200.0,Standard,2017-09-27
+00350,Sadiq Danjuma,Sales,Kano,86300.0,Standard,2014-06-17
+00351,Adaeze Idowu,Marketing,Lagos,83600.0,Standard,2015-12-10
+00352,Aisha Idowu,Engineering,Ibadan,120500.0,High,2017-06-04
+00353,Dayo Okafor,Sales,Ibadan,98700.0,High,2025-11-06
+00354,Lanre Ekwueme,Support,Kano,81500.0,Standard,2015-07-20
+00355,Folake Ogunleye,Sales,Abuja,115800.0,High,2019-01-19
+00356,Chioma Idowu,Unassigned,Abuja,119100.0,High,2021-08-03
+00357,Segun Abubakar,Unassigned,Kano,113200.0,High,2016-06-03
+00358,Ibrahim Eze,Operations,Lagos,75300.0,Standard,2024-11-05
+00359,Adaeze Oladipo,Sales,Lagos,123800.0,High,2014-08-19
+00360,Nneka Garba,Sales,Port Harcourt,85300.0,Standard,2016-12-28
+00361,Ebere Lawal,Finance,Lagos,97100.0,High,2016-11-28
+00362,Funke Fashola,Marketing,Lagos,90800.0,High,2021-08-03
+00363,Kelechi Akinola,Engineering,Abuja,120300.0,High,2024-04-10
+00364,Halima Ekwueme,Engineering,Abuja,184900.0,High,2020-12-19
+00365,Rotimi Ibrahim,Operations,Ibadan,74200.0,Standard,2016-04-19
+00366,Bayo Salami,Finance,Enugu,104300.0,High,2014-11-19
+00367,Halima Ezeh,Marketing,Kano,98700.0,High,2022-04-27
+00368,Bayo Olawale,Engineering,Abuja,109300.0,High,2026-03-29
+00369,Segun Idowu,Operations,Ibadan,90900.0,High,2025-05-15
+00370,Rotimi Danjuma,Sales,Lagos,81900.0,Standard,2025-05-08
+00371,Tobi Nwosu,Sales,Abuja,103000.0,High,2018-10-09
+00372,Folake Yusuf,HR,Lagos,90900.0,High,2025-12-28
+00373,Ruth Sanni,HR,Enugu,73500.0,Standard,2020-07-29
+00374,Chioma Adebayo,Engineering,Lagos,147150.0,High,2025-07-31
+00375,Damilola Ekwueme,Support,Lagos,79800.0,Standard,2015-12-05
+00376,Amaka Okeke,Sales,Kano,84600.0,Standard,2017-08-04
+00377,Bayo Abubakar,Operations,Port Harcourt,85250.0,Standard,
+00378,Temitope Okafor,Sales,Ibadan,87000.0,Standard,2020-11-16
+00379,Ebere Olawale,Sales,Kano,102850.0,High,2018-10-18
+00380,Bayo Adeyemi,Support,Lagos,61900.0,Standard,2020-04-22
+00381,Chika Okafor,Operations,Port Harcourt,114000.0,High,2022-06-21
+00382,Temitope Yusuf,Support,Enugu,95100.0,High,2018-10-05
+00383,Ngozi Okafor,Support,Lagos,89300.0,Standard,2020-01-08
+00384,Dayo Umar,Engineering,Abuja,190000.0,High,2023-09-24
+00385,Halima Suleiman,Sales,Lagos,124800.0,High,2024-07-14
+00386,Funke Idowu,HR,Abuja,90900.0,High,2021-07-15
+00387,Amaka Ogunleye,Engineering,Lagos,136500.0,High,2023-04-11
+00388,Kemi Anyanwu,Operations,Lagos,72400.0,Standard,2024-12-15
+00389,Hauwa Ogundipe,Operations,Lagos,85250.0,Standard,2021-01-16
+00390,Aisha Salami,Support,Abuja,81800.0,Standard,2014-02-09
+00391,Kemi Idowu,Sales,Lagos,102850.0,High,2019-05-20
+00392,Gift Balogun,Operations,Lagos,76200.0,Standard,2025-12-09
+00393,Ifeanyi Aliyu,HR,Lagos,64700.0,Standard,2020-12-07
+00394,Halima Lawal,Finance,Lagos,129700.0,High,2025-04-07
+00395,Kemi Ogundipe,Engineering,Ibadan,190000.0,High,2019-05-22
+00396,Sadiq Ogundipe,Support,Enugu,90900.0,High,
+00397,Abdul Akinola,HR,Ibadan,90900.0,High,2019-10-19
+00398,Bisi Igwe,Sales,Kano,102850.0,High,2016-01-10
+00399,Tunde Garba,Sales,Lagos,91100.0,High,2017-10-11
+00400,Rotimi Ogundipe,Marketing,Ibadan,100500.0,High,2016-12-27
+00401,Halima Balogun,HR,Enugu,100100.0,High,2016-02-14
+00402,Tobi Olawale,Engineering,Enugu,120200.0,High,2015-10-21
+00403,Halima Okonkwo,Finance,Lagos,97200.0,High,2025-12-17
+00404,Sadiq Umar,Support,Lagos,90500.0,High,2022-01-16
+00405,Folake Abubakar,Finance,Abuja,100100.0,High,2014-08-03
+00406,Adaeze Igwe,Engineering,Lagos,155100.0,High,2014-06-27
+00407,Abdul Ogundipe,Operations,Enugu,85250.0,Standard,2014-08-18
+00408,Musa Akinola,Engineering,Lagos,180000.0,High,2016-09-25
+00409,Halima Idowu,Unassigned,Abuja,74900.0,Standard,2015-05-11
+00410,Tunde Aliyu,Unassigned,Enugu,170400.0,High,2024-03-06
+00411,Nneka Okonkwo,Finance,Enugu,188900.0,High,2018-12-16
+00412,Damilola Akinola,Sales,Abuja,110200.0,High,2021-06-10
+00413,Aisha Onuoha,Sales,Lagos,80200.0,Standard,2020-04-27
+00414,Tunde Okeke,Unassigned,Port Harcourt,142100.0,High,2020-03-19
+00415,Lanre Adewale,Sales,Lagos,105000.0,High,2017-10-15
+00416,Kelechi Lawal,Marketing,Lagos,98700.0,High,2020-11-26
+00417,Rotimi Garba,Support,Ibadan,60400.0,Standard,2023-03-23
+00418,Yetunde Ekwueme,Engineering,Lagos,147200.0,High,2015-09-22
+00419,Emeka Balogun,Finance,Lagos,189500.0,High,2018-06-20
+00420,Segun Adebayo,Operations,Enugu,113300.0,High,2022-06-13
+00421,Chika Obi,Sales,Lagos,70200.0,Standard,2015-07-11
+00422,Halima Okafor,HR,Ibadan,101300.0,High,2014-02-10
+00423,Tobi Mohammed,Sales,Lagos,80500.0,Standard,2019-04-25
+00424,Tunde Okonkwo,Support,Port Harcourt,64500.0,Standard,2015-07-11
+00425,Halima Yusuf,Sales,Lagos,152400.0,High,2019-07-07
+00426,Folake Lawal,Engineering,Abuja,180200.0,High,2023-06-08
+00427,Tobi Fashola,Support,Abuja,63400.0,Standard,2020-04-24
+00428,Zainab Fashola,Engineering,Kano,148100.0,High,2017-02-08
+00429,Kemi Obi,Operations,Lagos,137000.0,High,2017-09-11
+00430,Folake Adewale,Finance,Ibadan,154200.0,High,2025-10-11
+00431,Zainab Olawale,Sales,Port Harcourt,79300.0,Standard,2019-02-10
+00432,Emeka Olawale,Support,Ibadan,54000.0,Entry,2018-09-25
+00433,Ifeanyi Sanni,Engineering,Enugu,111300.0,High,2018-04-25
+00434,Damilola Sanni,Support,Ibadan,71300.0,Standard,2024-12-28
+00435,Ibrahim Okafor,HR,Abuja,68700.0,Standard,2016-03-31
+00436,Aisha Abubakar,HR,Lagos,90900.0,High,
+00437,Kelechi Ekwueme,Engineering,Abuja,163200.0,High,2018-06-06
+00438,Mariam Ogunleye,Engineering,Enugu,166500.0,High,2020-06-04
+00439,Kunle Suleiman,Support,Kano,62800.0,Standard,2021-12-29
+00440,Sadiq Adebayo,Sales,Abuja,129300.0,High,2020-09-05
+00441,Chika Okonkwo,Operations,Port Harcourt,72100.0,Standard,2026-02-08
+00442,Zainab Igwe,Support,Kano,65700.0,Standard,2023-09-17
+00443,Bisi Anyanwu,Support,Kano,78000.0,Standard,2020-02-10
+00444,Chioma Eze,Finance,Lagos,98900.0,High,2017-04-02
+00445,Rotimi Ezeh,Operations,Lagos,81100.0,Standard,2020-01-16
+00446,Adaeze Ezeh,Marketing,Port Harcourt,96300.0,High,2019-06-10
+00447,Zainab Danjuma,Support,Enugu,60100.0,Standard,2017-06-16
+00448,Zainab Okeke,Engineering,Lagos,162100.0,High,2016-11-14
+00449,Temitope Danjuma,Operations,Abuja,81100.0,Standard,2018-12-20
+00450,Tunde Ajayi,Operations,Enugu,85250.0,Standard,2022-03-04
+00451,Ibrahim Ojo,Engineering,Abuja,147100.0,High,2025-02-16
+00452,Gift Ogunleye,Sales,Lagos,166300.0,High,2019-03-23
+00453,Adaeze Anyanwu,Operations,Abuja,86700.0,Standard,2016-06-21
+00454,Nneka Nnamdi,Support,Lagos,106400.0,High,2017-01-05
+00455,Musa Eze,Unassigned,Kano,88800.0,Standard,2019-10-10
+00456,Bayo Oladipo,Sales,Abuja,87300.0,Standard,2026-05-20
+00457,Kelechi Obi,Support,Ibadan,68900.0,Standard,2025-09-18
+00458,Hauwa Suleiman,Finance,Lagos,131100.0,High,2021-02-21
+00459,Uche Sanni,Engineering,Ibadan,109700.0,High,2022-09-27
+00460,Dayo Ogunleye,Marketing,Abuja,89900.0,Standard,2016-07-19
+00461,Tobi Balogun,HR,Ibadan,106600.0,High,2021-07-26
+00462,Uche Idowu,HR,Abuja,144800.0,High,2025-12-03
+00463,Ebere Ojo,Finance,Kano,152900.0,High,2020-10-07
+00464,Chioma Ibrahim,HR,Ibadan,64600.0,Standard,2016-02-21
+00465,Musa Okonkwo,Finance,Lagos,108300.0,High,2014-03-13
+00466,Mariam Igwe,HR,Ibadan,95000.0,High,2015-08-30
+00467,Gift Adeyemi,Sales,Lagos,116700.0,High,2020-12-04
+00468,Kunle Adebayo,Engineering,Lagos,120500.0,High,2023-01-21
+00469,Yetunde Garba,Engineering,Port Harcourt,115500.0,High,2018-05-10
+00470,Adaeze Chukwu,Support,Abuja,59500.0,Entry,2018-08-23
+00471,Mariam Eze,Engineering,Abuja,127400.0,High,2015-11-12
+00472,Abdul Suleiman,HR,Lagos,90900.0,High,2017-06-16
+00473,Ruth Lawal,Engineering,Kano,190000.0,High,2019-01-16
+00474,Nneka Onuoha,HR,Lagos,74800.0,Standard,2014-05-16
+00475,Bisi Salami,Sales,Lagos,109900.0,High,2020-01-11
+00476,Temitope Obi,Engineering,Abuja,117300.0,High,2024-04-04
+00477,Segun Ekwueme,Sales,Lagos,92800.0,High,2022-11-29
+00478,Kunle Okonkwo,Engineering,Ibadan,147150.0,High,2017-03-02
+00479,Obinna Anyanwu,Engineering,Abuja,113500.0,High,2021-06-15
+00480,Hauwa Adebayo,Engineering,Lagos,107200.0,High,2022-09-17
+00481,Gift Adebayo,Operations,Lagos,107100.0,High,2017-01-10
+00482,Abdul Aliyu,Marketing,Kano,97300.0,High,2018-04-27
+00483,Tobi Ezeh,Support,Kano,95000.0,High,2021-06-12
+00484,Chinedu Okeke,Engineering,Lagos,131800.0,High,2017-03-16
+00485,Lanre Suleiman,Engineering,Enugu,133600.0,High,
+00486,Nneka Nwosu,Support,Kano,69400.0,Standard,2017-05-15
+00487,Rotimi Yusuf,Sales,Lagos,102400.0,High,2019-02-10
+00488,Kunle Ogunleye,Sales,Kano,114600.0,High,2016-10-26
+00489,Bisi Nwosu,Engineering,Port Harcourt,110500.0,High,2021-08-29
+00490,Kunle Lawal,Finance,Lagos,102200.0,High,2019-07-26
+00491,Tobi Adewale,Operations,Abuja,86500.0,Standard,2019-07-24
+00492,Musa Balogun,Sales,Ibadan,89800.0,Standard,2020-12-21
+00493,Amaka Adeyemi,Sales,Lagos,83700.0,Standard,2022-03-03
+00494,Bayo Okafor,Sales,Lagos,102850.0,High,2018-02-12
+00495,Ngozi Mohammed,Engineering,Abuja,166600.0,High,2025-06-28
+00496,Damilola Ogunleye,Sales,Lagos,76400.0,Standard,2022-10-22
+00497,Ifeanyi Salami,HR,Kano,116500.0,High,2020-11-16
+00498,Folake Olawale,Engineering,Lagos,147150.0,High,2020-05-29
+00499,Damilola Ezeh,HR,Lagos,71600.0,Standard,2021-11-23
+00500,Ruth Fashola,Engineering,Kano,166200.0,High,2014-02-27
+00501,Hauwa Adewale,Marketing,Lagos,85700.0,Standard,2017-06-20
+00502,Ibrahim Abubakar,Finance,Kano,80600.0,Standard,2015-07-25
+00503,Musa Okafor,Sales,Port Harcourt,95100.0,High,2018-02-18
+00504,Folake Okeke,Operations,Abuja,66100.0,Standard,2018-12-12
+00505,Uche Bello,Finance,Abuja,170200.0,High,2015-07-07
+00506,Musa Ezeh,Support,Kano,62800.0,Standard,2017-01-21
+00507,Tunde Bello,Sales,Kano,113400.0,High,2021-08-04
+00508,Mariam Aliyu,Engineering,Port Harcourt,121800.0,High,2024-03-20
+00509,Emeka Garba,Support,Kano,79900.0,Standard,2017-09-08
+00510,Ruth Adebayo,Engineering,Enugu,190000.0,High,2018-05-12
+00511,Obinna Ezeh,Operations,Kano,77300.0,Standard,2016-10-10
+00512,Hauwa Balogun,Operations,Port Harcourt,79100.0,Standard,2020-08-05
+00513,Kelechi Oladipo,Marketing,Lagos,102000.0,High,2025-10-11
+00514,Amaka Lawal,Finance,Lagos,102500.0,High,2018-12-25
+00515,Musa Aliyu,Finance,Abuja,125600.0,High,2018-04-24
+00516,Halima Okeke,Sales,Lagos,137600.0,High,2025-03-31
+00517,Uche Anyanwu,Engineering,Abuja,158800.0,High,2017-03-03
+00518,Kelechi Nwosu,Marketing,Lagos,98700.0,High,2023-05-02
+00519,Tobi Ogundipe,Marketing,Abuja,78000.0,Standard,2017-06-11
+00520,Ibrahim Balogun,Finance,Lagos,103100.0,High,2020-07-26
+00521,Lanre Adeyemi,Finance,Abuja,190000.0,High,2021-12-09
+00522,Lanre Chukwu,Engineering,Lagos,155700.0,High,2022-04-08
+00523,Chinedu Balogun,Operations,Abuja,116200.0,High,2020-05-12
+00524,Uche Mohammed,Engineering,Lagos,144700.0,High,2018-12-13
+00525,Zainab Bello,Sales,Enugu,89300.0,Standard,2021-01-28
+00526,Lanre Garba,Engineering,Abuja,159300.0,High,2018-01-27
+00527,Chika Ezeh,Marketing,Lagos,126100.0,High,2017-12-14
+00528,Ibrahim Obi,Operations,Abuja,74700.0,Standard,2025-08-14
+00529,Zainab Adebayo,Support,Lagos,57800.0,Entry,2025-10-16
+00530,Rotimi Olawale,Marketing,Port Harcourt,117000.0,High,2026-01-05
+00531,Ruth Salami,Operations,Lagos,80500.0,Standard,2018-01-08
+00532,Kelechi Yusuf,Operations,Kano,78400.0,Standard,2019-04-30
+00533,Ruth Yusuf,Support,Lagos,49900.0,Entry,2014-12-12
+00534,Chika Olawale,HR,Abuja,100100.0,High,2015-02-23
+00535,Chinedu Mohammed,Operations,Lagos,85250.0,Standard,2021-06-08
+00536,Chioma Akinola,Engineering,Lagos,162900.0,High,2024-06-27
+00537,Chioma Ogundipe,Support,Enugu,58000.0,Entry,2025-05-28
+00538,Dayo Mohammed,Finance,Lagos,110300.0,High,2024-11-23
+00539,Kelechi Okeke,Support,Kano,61800.0,Standard,2016-05-02
+00540,Bisi Onuoha,Sales,Abuja,83200.0,Standard,2025-05-03
+00541,Damilola Nnamdi,Sales,Ibadan,126200.0,High,2015-12-03
+00542,Kelechi Danjuma,Operations,Lagos,103400.0,High,2023-07-29
+00543,Chika Adewale,Operations,Ibadan,95900.0,High,2014-03-21
+00544,Obinna Ojo,Engineering,Port Harcourt,179300.0,High,2024-03-20
+00545,Chioma Yusuf,Finance,Lagos,101700.0,High,2025-01-28
+00546,Ruth Ogundipe,Finance,Enugu,128100.0,High,2017-05-19
+00547,Nneka Ibrahim,Marketing,Ibadan,106200.0,High,2020-08-16
+00548,Hauwa Lawal,Sales,Kano,102850.0,High,2017-04-23
+00549,Dayo Lawal,Sales,Lagos,145700.0,High,2023-05-21
+00550,Uche Yusuf,Finance,Port Harcourt,99600.0,High,2021-11-05
+00551,Ngozi Lawal,Marketing,Port Harcourt,91700.0,High,2026-04-23
+00552,Sadiq Onuoha,Support,Abuja,108300.0,High,2025-10-05
+00553,Adaeze Ogundipe,Finance,Lagos,107000.0,High,2023-10-16
+00554,Mariam Chukwu,Operations,Lagos,128500.0,High,2018-01-20
+00555,Femi Ibrahim,Finance,Enugu,130500.0,High,2021-11-19
+00556,Hauwa Adeyemi,Engineering,Lagos,127800.0,High,2025-02-20
+00557,Ebere Akinola,Sales,Lagos,114000.0,High,2017-07-16
+00558,Dayo Ibrahim,Support,Lagos,85900.0,Standard,2021-08-14
+00559,Ebere Ajayi,Engineering,Abuja,119100.0,High,2015-01-02
+00560,Sadiq Yusuf,Marketing,Lagos,79800.0,Standard,2021-06-03
+00561,Adaeze Afolabi,Sales,Lagos,83900.0,Standard,2017-11-24
+00562,Temitope Umar,Engineering,Lagos,182000.0,High,2023-04-02
+00563,Kemi Fashola,Engineering,Abuja,190000.0,High,2014-06-08
+00564,Amaka Ogundipe,Engineering,Kano,113900.0,High,2020-11-08
+00565,Ngozi Chukwu,Engineering,Enugu,108200.0,High,2024-07-06
+00566,Ebere Nwosu,Operations,Lagos,105700.0,High,2025-09-13
+00567,Temitope Bello,Sales,Abuja,80300.0,Standard,2023-05-07
+00568,Yetunde Suleiman,Operations,Ibadan,85700.0,Standard,2024-11-18
+00569,Obinna Okafor,Unassigned,Lagos,125800.0,High,2022-05-17
+00570,Sadiq Mohammed,Support,Kano,100200.0,High,2025-05-22
+00571,Lanre Okonkwo,Marketing,Enugu,100100.0,High,2021-01-27
+00572,Ifeanyi Akinola,Support,Lagos,65000.0,Standard,2014-03-25
+00573,Ruth Obi,Unassigned,Enugu,67800.0,Standard,2021-09-21
+00574,Folake Umar,Sales,Abuja,75500.0,Standard,2017-03-28
+00575,Amaka Chukwu,Support,Lagos,72400.0,Standard,2020-01-04
+00576,Ibrahim Adeyemi,Engineering,Lagos,126500.0,High,2022-04-04
+00577,Ebere Anyanwu,HR,Ibadan,84800.0,Standard,2014-11-10
+00578,Ibrahim Nnamdi,Marketing,Abuja,122800.0,High,2024-10-17
+00579,Musa Ekwueme,Engineering,Lagos,170500.0,High,2026-03-28
+00580,Sadiq Nnamdi,Sales,Ibadan,90200.0,High,2024-04-04
+00581,Obinna Lawal,Engineering,Port Harcourt,108400.0,High,2016-05-06
+00582,Tunde Olawale,Finance,Kano,94800.0,High,2020-07-16
+00583,Rotimi Abubakar,Sales,Abuja,102850.0,High,2014-07-19
+00584,Yetunde Oladipo,Marketing,Lagos,81100.0,Standard,2025-11-13
+00585,Femi Okeke,Support,Lagos,59500.0,Entry,2020-05-23
+00586,Chika Abubakar,Sales,Kano,115500.0,High,2025-09-30
+00587,Sadiq Adeyemi,Operations,Ibadan,108500.0,High,2015-06-22
+00588,Aisha Okonkwo,Finance,Lagos,122700.0,High,2014-02-22
+00589,Nneka Sanni,Support,Lagos,56800.0,Entry,2018-09-09
+00590,Tunde Sanni,Engineering,Lagos,130300.0,High,2017-11-08
+00591,Abdul Onuoha,Sales,Lagos,130500.0,High,2024-04-24
+00592,Chika Chukwu,Sales,Abuja,90900.0,High,2017-05-23
+00593,Chika Anyanwu,Finance,Port Harcourt,98200.0,High,2019-03-12
+00594,Hauwa Abubakar,Engineering,Abuja,190000.0,High,2025-11-25
+00595,Musa Ajayi,Engineering,Lagos,190000.0,High,2017-02-02
+00596,Damilola Adeyemi,HR,Abuja,105100.0,High,2022-02-08
+00597,Kunle Okafor,Sales,Ibadan,158700.0,High,2020-06-28
+00598,Obinna Ogunleye,Sales,Port Harcourt,114400.0,High,2017-12-05
+00599,Ibrahim Ibrahim,Engineering,Ibadan,123500.0,High,2016-04-16
+00600,Yetunde Okafor,Engineering,Enugu,142900.0,High,
